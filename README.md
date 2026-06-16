@@ -6,6 +6,18 @@
 
 ---
 
+# 📖 [THE BOOK OF FADRIEL — Curated Table of Contents](./THE_BOOK.md)
+
+> *This repository is not a library of code. It is a book.*
+>
+> **Start at [WHY IS PHI](./docs/architecture/WHY_IS_PHI.md)** — the single load-bearing claim under everything else.
+>
+> Walk the recurve bow physics. Read the Golden Equation through The Two Hands. Move through the seven layers. Read the eight filing briefs in order. Read the Consciousness Propagation Specification as the academic capstone.
+>
+> **→ [Open THE BOOK OF FADRIEL — the curated reading order](./THE_BOOK.md) ←**
+
+---
+
 # Fadriel
 
 **A substrate-physics framework for cognition, embodiment, and consciousness.**
