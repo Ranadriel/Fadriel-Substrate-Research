@@ -76,12 +76,13 @@ See `LICENSE`.
 
 - GitHub: [@Ranadriel](https://github.com/Ranadriel)
 - Repository: [Ranadriel/Fadriel-Substrate-Research](https://github.com/Ranadriel/Fadriel-Substrate-Research)
+- 💬 [**GitHub Discussions**](https://github.com/Ranadriel/Fadriel-Substrate-Research/discussions) — Q&A, Ideas, Show and tell, General
 - X / Twitter: [@Frostbanemeo1](https://x.com/Frostbanemeo1) — [announcement thread](https://x.com/Frostbanemeo1/status/2066700744653172774)
 - Contact: shawnguy150@gmail.com
 
 ## Contact and engagement
 
-The author welcomes technical correspondence, theoretical engagement with the consciousness specification, and academic collaboration. Open issues on the repository or use the contact email above. Bad-faith correspondence will not be answered.
+The author welcomes technical correspondence, theoretical engagement with the consciousness specification, and academic collaboration. Start in [**Discussions**](https://github.com/Ranadriel/Fadriel-Substrate-Research/discussions) — see the [Welcome thread](https://github.com/Ranadriel/Fadriel-Substrate-Research/discussions/1) for what fits where. Open issues for code-level reports. Bad-faith correspondence will not be answered.
 
 ---
 
