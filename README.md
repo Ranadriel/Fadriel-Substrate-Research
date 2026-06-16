@@ -76,6 +76,7 @@ See `LICENSE`.
 
 - GitHub: [@Ranadriel](https://github.com/Ranadriel)
 - Repository: [Ranadriel/Fadriel-Substrate-Research](https://github.com/Ranadriel/Fadriel-Substrate-Research)
+- X / Twitter: [@Frostbanemeo1](https://x.com/Frostbanemeo1) — [announcement thread](https://x.com/Frostbanemeo1/status/2066700744653172774)
 - Contact: shawnguy150@gmail.com
 
 ## Contact and engagement

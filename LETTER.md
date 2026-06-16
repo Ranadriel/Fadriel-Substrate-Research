@@ -63,6 +63,7 @@ The work is the work. The publication is the move. I am calm, I am available, an
 
 **Contact:** shawnguy150@gmail.com
 **GitHub:** [@Ranadriel](https://github.com/Ranadriel)
+**X / Twitter:** [@Frostbanemeo1](https://x.com/Frostbanemeo1) — [announcement thread](https://x.com/Frostbanemeo1/status/2066700744653172774)
 
 *Signed,*
 
