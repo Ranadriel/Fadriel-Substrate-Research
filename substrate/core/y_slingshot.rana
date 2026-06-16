@@ -1,0 +1,216 @@
+Y SLINGSHOT
+
+the y slingshot is the recurve bow lifted into the third limb
+where the recurve bow fires a thought into n-space, the y slingshot fires a body through space
+two limbs draw a plane and the apex meets inside it
+three limbs cannot draw a plane that contains their joint demand
+the apex is forced out
+
+the y slingshot is not a metaphor for navigation
+the y slingshot IS the navigation
+three strings under tension constrained by three anchor pairs
+the joint convergence of three failure horizons cannot live in the same flat the horizons live in
+the apex lifts to escape the over-constraint
+
+we follow the lift, not the limbs
+
+observe recurve_bow.rana
+observe FAILURE_VECTOR_AIMING.md
+observe 0_quseptit.rana
+
+WHAT THIS MEASURES
+
+three failure horizons each declare a half-space the navigation cannot enter
+two horizons in a plane meet at one point and that point lives in the plane
+three horizons in a plane cannot generically meet at one point
+the joint-meeting demand forces the apex into the dimension above the plane
+the lift is proportional to the square root of the triangle the pairwise intersections form
+when the three horizons are concurrent the triangle area is zero and the apex collapses back into the plane
+concurrence is a measure-zero coincidence in general position
+
+the navigation vector is the line from the payload to the apex
+the aim is the direction of that line
+the power is the magnitude of that line
+
+the lift is not visualization
+the lift is the geometry refusing to be flat under over-constraint
+this is the same topology that forces a wormhole throat out of three-space
+
+THE SEA
+
+sea y_slingshot holds capacity eleven on gpu device with y topology
+
+THE ELEVEN POINTS
+
+point G is the PAYLOAD, the still center, the crew, phi holds bow
+G is the observer and the origin of the navigation vector
+G is seeded at the present location and propagates through the self-coupling
+G is recursive; G observes itself through the observer property
+manifest property values: energy half, phase zero, spin zero, charge point six one eight, coherence zero, coupling one, observer one
+
+point C1 is the FIRST ENGINE TROUGH, a thruster, a stretch-source
+C1 stores its limb of the slingshot tension
+C1 is anti-phase because C1 is the pull of a committed direction
+C1 does not move; C1 is fixed as the engine geometry against the hull
+manifest property values: energy minus one, phase pi, spin minus one, charge minus one, coherence one, coupling one, observer zero
+
+point C2 is the SECOND ENGINE TROUGH, a thruster, a stretch-source
+C2 stores its limb of the slingshot tension
+C2 is anti-phase like C1; the troughs together hold the slingshot taut
+C2 does not move
+manifest property values: energy minus one, phase pi, spin minus one, charge minus one, coherence one, coupling one, observer zero
+
+point C3 is the THIRD ENGINE TROUGH, a thruster, a stretch-source
+C3 stores the third limb of tension
+C3 is the limb whose presence lifts the apex out of the plane
+without C3 the slingshot collapses to the recurve bow
+manifest property values: energy minus one, phase pi, spin minus one, charge minus one, coherence one, coupling one, observer zero
+
+point B1 is the FIRST RING FRAME POINT, hull-rigid, local orientation reference
+B1 holds C1 at known geometry against G
+B1 is the bone the engine is mounted on
+B1 does not move; B1 is the hull
+manifest property values: energy half, phase zero, spin zero, charge zero, coherence one, coupling one, observer zero
+
+point B2 is the SECOND RING FRAME POINT, hull-rigid, local orientation reference
+B2 holds C2 at known geometry against G
+B2 does not move
+manifest property values: energy half, phase zero, spin zero, charge zero, coherence one, coupling one, observer zero
+
+point B3 is the THIRD RING FRAME POINT, hull-rigid, local orientation reference
+B3 holds C3 at known geometry against G
+B3 does not move
+manifest property values: energy half, phase zero, spin zero, charge zero, coherence one, coupling one, observer zero
+
+point A1 is the FIRST CELESTIAL ANCHOR, a distant heavenly body
+A1 is observed; A1 is not influenced by us
+A1 is fully positive quadrant; A1 is always greater than G; A1 is a ceiling like F in the bow
+A1's position is known from ephemeris; the eye reads it; the hull does not move it
+manifest property values: energy one, phase zero, spin one, charge one, coherence one, coupling one, observer one
+
+point A2 is the SECOND CELESTIAL ANCHOR, a distant heavenly body
+A2 is observed; A2 is not influenced by us
+manifest property values: energy one, phase zero, spin one, charge one, coherence one, coupling one, observer one
+
+point A3 is the THIRD CELESTIAL ANCHOR, a distant heavenly body
+A3 is observed; A3 is not influenced by us
+A3's presence is what forces the apex out of the plane the other two anchors share
+manifest property values: energy one, phase zero, spin one, charge one, coherence one, coupling one, observer one
+
+point apex is the NAVIGATION FIX, the joint convergence demanded by all three failure horizons
+apex does not live in the plane of G when the three horizons disagree on a planar meeting
+apex lifts to the dimension above the plane by an amount proportional to the root of the triangle the pairwise intersections form
+apex is the point the payload aims toward; the vector from G to apex is the navigation vector
+apex is free; apex is not told where to go; the wave physics settle apex where the horizon over-constraint demands
+when the horizons concur apex collapses back into the plane and the navigation vector goes flat
+when the horizons disagree apex rises and the navigation vector pierces the plane
+manifest property values: energy quarter, phase zero, spin zero, charge zero, coherence zero, coupling one, observer one
+
+THE THREE FAILURE HORIZONS
+
+failure horizon one is the line through point.A1 and point.C1, half-space on side opposite G
+failure horizon two is the line through point.A2 and point.C2, half-space on side opposite G
+failure horizon three is the line through point.A3 and point.C3, half-space on side opposite G
+
+each horizon declares the half-space the navigation vector cannot enter
+the valid firing field is the intersection of the three permitted half-spaces
+the apex is the point all three permitted half-spaces jointly grant
+
+THE COUPLING TOPOLOGY
+
+the three limbs run G to B1 to C1 to A1, G to B2 to C2 to A2, G to B3 to C3 to A3
+each limb is a chain from payload through hull through engine to celestial body
+G also couples to itself; this self-coupling is the recursion preserved from the bow
+the apex couples to G; the navigation vector is the line G to apex
+the three celestial anchors also couple pairwise; the ephemeris already knows their separations
+every point steers the apex; no point is excluded from the topology that decides where apex settles
+this is the rule from the bow: every single point on the graph effects the wavefront, not just one, not just two, all of them, forever
+
+couple point.G with point.G
+couple point.G with point.B1
+couple point.G with point.B2
+couple point.G with point.B3
+couple point.B1 with point.C1
+couple point.B2 with point.C2
+couple point.B3 with point.C3
+couple point.C1 with point.A1
+couple point.C2 with point.A2
+couple point.C3 with point.A3
+couple point.A1 with point.A2
+couple point.A2 with point.A3
+couple point.A3 with point.A1
+couple point.apex with point.G
+couple point.apex with point.A1
+couple point.apex with point.A2
+couple point.apex with point.A3
+couple point.apex with point.C1
+couple point.apex with point.C2
+couple point.apex with point.C3
+couple point.apex with point.B1
+couple point.apex with point.B2
+couple point.apex with point.B3
+
+THE CONVERGENCE PHYSICS
+
+on each heartbeat, every B tracks G through the rigid hull coupling; the hull holds its shape
+on the same heartbeat, every C draws against its B; the engines hold their geometry against the hull
+on the same heartbeat, every A is read from the eye; the celestial bodies do not move because of us
+each pair of A and C declares its failure horizon; three horizons exist this tick
+
+the apex is the point that satisfies all three horizon demands at once
+two horizons meet at a point in the plane; that point is one vertex of a triangle
+three pairwise meetings give three vertices; the triangle has area
+the joint demand for one apex from three horizons cannot be satisfied inside the triangle's plane
+the joint demand is satisfied by lifting the apex above the triangle's centroid
+the lift is proportional to the root of the triangle's area
+when the triangle collapses to a point all three horizons agree planarly and the apex sits in the plane with them
+when the triangle is large the apex rises far from the plane
+
+the navigation vector is the line G to apex
+the aim is the direction of that line decomposed by orientation against the hull frame
+the power is the magnitude of that line decomposed against the engine stretch
+
+the iteration generalizes from the bow form to three limbs by the natural extension
+the bow iteration was G next equals (G minus C) divided by (two G minus D plus F) divided by G secondary divided by seven
+the slingshot iteration awaits its own discovery; the three-limb form is not imposed by us; we declare the convergence demand and let the topology answer
+the answer when it comes will be the form that survives all three failure horizons under the divide by seven throttle
+
+G divides by seven on every pulse; this distributes the wavefront across the seven interactions per limb cycle
+the throttle is not a fraction; it is the observer splitting awareness across all eleven points
+the slingshot inherits the bow's heartbeat
+
+when apex settles within epsilon across consecutive heartbeats, the navigation vector has crystallized
+when apex oscillates, the topology is unstable for these initial conditions and the firing field is empty
+empty firing field is not a failure; it is the system reporting that the target is unreachable in this sea configuration
+empty firing field is itself useful information; the breach condition fires only when the valid field has been correctly identified as empty
+
+THE MEASUREMENT
+
+when apex has crystallized, the navigation vector is the line from G to apex
+the aim emerges from the orthogonal component of apex against the hull frame B1 B2 B3
+the power emerges from the magnitude of apex over the centroid of the engine troughs
+
+emit navigation_vector -> boundary.stdout
+emit apex.position -> boundary.stdout
+emit apex.lift -> boundary.stdout
+emit triangle.area -> boundary.stdout
+emit aim -> boundary.stdout
+emit power -> boundary.stdout
+
+THE STANCE
+
+the slingshot does not care whether the apex lifts
+the sea does not care whether the apex lifts
+the wave physics propagate and interfere and settle where they settle
+if the apex lifts it is because three horizons demanded one common point and the plane could not hold it
+if the apex stays flat it is because the three horizons happened to concur in this configuration
+this is not argument; this is measurement
+
+G is the payload
+C1 C2 C3 are the engine troughs
+B1 B2 B3 are the hull
+A1 A2 A3 are the celestial bodies
+apex is the point three failure horizons jointly demand
+the navigation vector is G to apex
+the topology lifts the apex out of the plane or it does not
+the sea decides

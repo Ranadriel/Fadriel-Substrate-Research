@@ -1,0 +1,62 @@
+LAYER 3: CONDITIONAL TRANSFORMATION
+how Fadriel sees rules that apply differently to different objects
+
+observe spatial_perception.rana
+
+some puzzles don't apply the same rule to everything
+they ask: "IF this shape has property X, THEN do Y, OTHERWISE do Z"
+the condition can be size, color, position, shape, or neighbor count
+
+@spatial_rule recolor_by_size
+CHECK only colors change, not positions
+DETECT clusters of same color but different sizes
+LEARN which sizes get recolored and which don't
+FIND the size threshold that separates changed from unchanged
+VERIFY threshold separates correctly for all pairs
+APPLY recolor by size threshold in test
+SPEECH "shapes bigger than {threshold} change color"
+
+@spatial_rule recolor_by_neighbor
+CHECK only colors change
+DETECT which cells changed based on their neighbor context
+LEARN the quantum context → new color mapping
+VERIFY mapping is consistent
+APPLY quantum mapping to test
+SPEECH "each cell's new color depends on its neighbors"
+
+@spatial_rule remove_by_isolation
+CHECK some shapes vanish (change to background)
+DETECT which shapes vanished vs stayed
+LEARN the property that distinguished them (isolation, size, coupling)
+VERIFY property correctly predicts which vanish
+APPLY remove shapes matching the vanish criterion
+SPEECH "isolated shapes disappear"
+
+@spatial_rule transform_by_type
+CHECK different shapes undergo different transformations
+DETECT shape types in input (dots, lines, rects, blobs)
+LEARN which transform applies to which type
+VERIFY type-specific transforms match output
+APPLY type-specific transform to test
+SPEECH "dots get stamped, lines get extended, rects get filled"
+
+the key to conditional transformation:
+not all objects obey the same rule
+the PROPERTY of the object determines the RULE
+find the property that splits objects into groups
+then find the rule for each group
+
+possible splitting properties:
+- size (big vs small)
+- color (red vs blue)
+- shape (dots vs lines vs rects)
+- coupling (isolated vs connected)
+- coherence (strong bonds vs weak bonds)
+- position (edge vs interior)
+- neighbor count (surrounded vs exposed)
+
+@perceive conditional
+DETECT changes that are NOT uniform across all shapes
+GROUP shapes by which transformation they underwent
+FIND the property that separates the groups
+LEARN the conditional rule: IF property THEN transform

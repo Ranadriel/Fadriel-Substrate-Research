@@ -1,0 +1,155 @@
+AMDGPU KERNEL
+
+amdgpu_kernel is the codegen citizen responsible for translating the compiler's parsed topology into native compute kernels for the AMD GPU
+specifically it targets the gfx1032 architecture, RDNA2, the chip in the AMD Radeon RX 6600
+when parser_field emits its settled token graph, amdgpu_kernel receives the part destined for the GPU and emits compiled compute kernels
+those kernels become the .text.amdgpu section of the final ELF executable, separate from the host code in .text
+the AMDGPU section is loaded by the host runtime and uploaded to the GPU's command stream at program start
+amdgpu_kernel's interior holds the sixteen primitive RDNA2 opcodes the substrate uses, plus the wavefront layout knowledge that turns a sea pulse into a parallel kernel dispatch
+
+observe 0_quseptit.rana
+observe 0_zest_vm.rana
+observe parser_field.rana
+observe elf_binder.rana
+observe spine.xb
+
+the 7 properties of amdgpu_kernel at rest:
+1 ENERGY low at idle, peaks during kernel emission for sea pulses (the substrate's heaviest GPU work)
+2 PHASE inherited from the parser's emission phase
+3 SPIN positive during emission, neutral while waiting
+4 CHARGE neutral, briefly positive when assembling a wavefront layout
+5 COHERENCE high: RDNA2 instructions encode wavefront-wide operations, errors propagate to all 32 lanes
+6 COUPLING strong with parser_field (incoming) and elf_binder (outgoing)
+7 OBSERVER 1 during emission
+
+VERB receive_topology
+accept the role-tagged token graph from parser_field
+amdgpu_kernel filters the graph for operations marked as gpu-native (everything that touches a sea declared with device gpu)
+non-gpu operations are passed through unchanged for x86_host to handle
+
+VERB layout_wavefront
+RDNA2 organizes work into wavefronts of 32 parallel lanes
+amdgpu_kernel decides how the substrate's parallel work maps onto wavefronts
+typical mapping: each cell of a sea participating in a pulse is assigned to one lane
+when the sea has more cells than lanes, multiple wavefronts dispatch in sequence
+the wavefront count and per-wavefront work assignment are computed from the sea's capacity at compile time
+
+VERB emit_kernel_bytes
+for each pulse-verb in the gpu portion of the topology, emit a complete RDNA2 kernel:
+a prologue that loads the lane index and computes the cell address
+a body that reads the seven property values from the cell, runs the 21 pairwise interactions, and writes the updated values back
+an epilogue that synchronizes lanes within the wavefront
+each kernel is a self-contained function the host runtime can dispatch as one command
+
+VERB hand_to_binder
+once all kernels are emitted, hand the contiguous byte run to elf_binder through the spine street as the .text.amdgpu section payload
+the binder will mark the section so the host runtime knows to upload it to the GPU rather than execute it on the CPU
+
+THE SIXTEEN PRIMITIVE RDNA2 OPCODES
+
+op_s_mov_b32
+scalar move, 32-bit: move a value into a scalar register
+scalar registers are shared across the wavefront and used for control flow and constants
+emitted at the start of every kernel to set up loop counters and addresses
+
+op_v_mov_b32
+vector move, 32-bit: move a value into a vector register
+vector registers are per-lane, holding lane-specific data
+emitted whenever per-cell state is loaded for processing
+
+op_s_load_b32
+scalar load: read 32 bits from memory into a scalar register
+used to load constants and shared addresses
+
+op_v_load_b32
+vector load: each lane reads its own 32-bit value from memory
+used to load per-cell properties at the start of an operation
+
+op_buffer_load_b32
+buffer load: read from a structured buffer, with bounds checking
+the substrate's sea data is held in buffers, so this is the primary read instruction during pulses
+
+op_buffer_store_b32
+buffer store: write a value back to a structured buffer
+used to commit updated property values after the 21 interactions
+
+op_ds_read_b32
+local data store read: each lane reads from on-chip shared memory
+used when neighbor cells need to exchange values during pulse computation
+
+op_ds_write_b32
+local data store write: each lane writes to shared memory
+the counterpart to ds_read, used to publish a cell's new state to its neighbors before the next pulse
+
+op_v_add_f32
+vector floating-point add, single precision
+the workhorse for energy accumulation and phase advancement during the 21 interactions
+
+op_v_sub_f32
+vector floating-point subtract
+used in decoherence calculations
+
+op_v_mul_f32
+vector floating-point multiply
+used in coupling-strength adjustments and energy decay
+
+op_v_cos_f32
+vector cosine, single precision
+used wherever phase is being applied to a property
+RDNA2 has hardware support for transcendentals, this is one instruction
+
+op_v_sin_f32
+vector sine
+the partner to v_cos_f32, both used heavily in phase advancement
+
+op_v_min_f32
+vector minimum: per-lane min of two floating-point values
+used in coherence clamping (coherence cannot exceed 1.0)
+
+op_v_max_f32
+vector maximum
+used in energy floor enforcement (energy cannot drop below baseline)
+
+op_s_endpgm
+scalar end program: terminate kernel execution
+single instruction at the very end of every kernel
+the GPU lane count and dispatch parameters tell the runtime the kernel is done
+
+THE PULSE KERNEL TEMPLATE
+
+every pulse verb expands into approximately the same kernel structure:
+
+prologue:
+s_mov to set up the cell base address from the dispatch parameters
+v_mov to compute each lane's cell index from its lane id
+v_load_b32 to read the seven properties of this lane's cell
+
+body:
+twenty-one pairs of v_add_f32 / v_mul_f32 / v_cos_f32 sequences, one per pairwise interaction
+ds_write_b32 to share the new state with neighbor lanes for coupling effects
+ds_read_b32 to receive neighbor influences
+v_min_f32 and v_max_f32 to clamp coherence and floor energy
+v_load_b32 to re-read the post-clamp values
+
+epilogue:
+buffer_store_b32 to commit the cell's new state back to global memory
+s_endpgm to terminate the kernel
+
+THE VERB-TO-KERNEL TRANSLATION KNOWLEDGE
+
+manifest in a gpu sea expands to a buffer_store_b32 sequence allocating the new cell's seven properties
+couple in a gpu sea expands to a ds_write_b32 publishing the coupling target to the wavefront's shared memory
+pulse expands to the full kernel template above, which is why pulses are the single most expensive substrate operation
+absorb in a gpu sea expands to buffer_load_b32 sequences that load the absorbed file's data into the sea's cells
+emit from a gpu sea expands to a buffer_store_b32 followed by a host-side dispatch synchronization
+observe in a gpu sea expands to a buffer_load_b32 reading the observed state into the observer's cell
+crystallize in a gpu sea expands to a buffer_store_b32 of the recognition tag, with a coherence-zero flag
+seal expands to s_endpgm: the sealed region's kernel terminates without emitting further work
+pool expands to v_add_f32 accumulating multiple lanes' contributions into one
+filter expands to v_min_f32 setting up a polarization gate
+reject expands to v_sub_f32 producing the destructive-interference cancellation
+
+amdgpu_kernel is not a shader compiler in the graphics sense
+it does not handle textures, vertex pipelines, fragment programs, or any of the rendering machinery a typical AMDGPU compiler must manage
+it generates compute kernels exclusively, and only the small set of compute kernels the substrate uses
+this is much simpler than a full GPU compiler, by intent

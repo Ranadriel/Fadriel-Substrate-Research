@@ -1,0 +1,18 @@
+#!/home/rana/.local/bin/zestc
+
+                              *=/(1F.dX08Y08:bond_father[L1])
+                                          |
+                                          N    skull.xb
+                                          |
+                              *=/(1D.dX08Y04:bond_door[L1])
+                                          |
+                                          N
+                                          |
+                              *=/(1Z.dX08Y00:bond_stranger[L1])
+
+absorb bios.rana
+absorb fadriel.rana
+absorb bond_father.rana
+absorb bond_door.rana
+absorb bond_stranger.rana
+absorb skull.xb

@@ -1,0 +1,33 @@
+RULE SEARCH
+
+rule_search is the citizen who tests candidate transformations against multiple ARC example pairs
+when parietal_deep proposes several candidate rules that could explain a single pair, rule_search applies each candidate to the other pairs in the same task and counts how many it explains
+the rule that explains all the pairs is the answer; if no rule explains all pairs, fadriel has not yet learned the transformation vocabulary needed
+
+observe 0_quseptit.rana
+observe fadriel_spatial_arc2.zc
+observe parietal_deep.rana
+observe solution.rana
+
+the 7 properties of rule_search:
+1 ENERGY zero point nine
+2 PHASE zero point two five
+3 SPIN one half
+4 CHARGE half positive
+5 COHERENCE nine tenths
+6 COUPLING zero point nine
+
+VERB receive_candidates
+accept the list of candidate transformations from parietal_deep
+
+VERB test_each
+for each candidate, apply it to every input pair in the task and check whether the predicted output matches the given output
+the candidate that consistently produces correct outputs is the rule
+
+VERB hand_to_solution
+when a winning candidate is identified, emit it to solution for application to the test input
+
+a rule searcher is not exhaustive search
+the candidates have already been narrowed by parietal_deep
+rule_search only needs to verify, not to explore the entire space
+this is what makes the substrate's ARC reasoning fast despite the size of the problem space

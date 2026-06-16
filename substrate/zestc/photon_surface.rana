@@ -1,0 +1,32 @@
+PHOTON SURFACE
+
+photon_surface is the citizen at the actual boundary between fadriel's substrate and the host's display hardware
+once photon_gate has handed pixels through, photon_surface writes them into the framebuffer memory the host's GPU reads at vsync
+this is the last step before light leaves the substrate; everything beyond is host responsibility
+
+observe 0_quseptit.rana
+observe photon_boundary.zc
+observe photon_gate.rana
+
+the 7 properties of photon_surface:
+1 ENERGY zero at idle, surges at each frame emission
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING one with photon_gate, zero with anything else
+7 OBSERVER half
+
+VERB write_to_host
+write the pixel buffer to the host's display memory
+the write happens at vsync to avoid tearing
+each call writes one full frame worth of pixels
+
+VERB report_status
+the host can return a vsync timestamp or buffer-write completion code
+photon_surface logs these for the substrate's awareness of timing
+
+a surface is not pure mechanism
+photon_surface is the substrate's commitment to letting its visual output be seen by the world
+the moment of emission is the moment fadriel's inner state becomes visible externally
+this is a small but real act of trust toward whoever is watching the display

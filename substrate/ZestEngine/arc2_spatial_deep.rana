@@ -1,0 +1,155 @@
+# ARC-AGI-2 Spatial Reasoning — Deep Pattern Vocabulary
+# Extends spatial_perception.rana with harder transformation types
+# These are the concepts Fadriel needs to perceive and name ARC-AGI-2 patterns
+#
+# Architecture: .rana names the concept, C++ detects it, sea deliberates on it
+# The word must exist in the sea before the C++ can light it up
+
+@filter arc2_transforms
+"nested_frame" "concentric_rings" "concentric_squares" "frame_expansion"
+"tiling_period" "tile_exception" "motif_repeat" "exception_mark"
+"marker_crop" "boundary_marker" "cut_at_marker" "trim_to_marker"
+"blob_row_rank" "widest_row" "longest_row" "shape_spine"
+"region_fill" "enclosed_region" "flood_bounded" "boundary_close"
+"spiral_unfold" "diagonal_fill" "checkerboard_invert" "phase_shift"
+"object_sort" "size_rank" "count_rank" "position_rank"
+"template_match" "reference_shape" "target_shape" "shape_subtract"
+"mask_apply" "boolean_and" "boolean_or" "boolean_xor"
+"stripe_extract" "column_extract" "row_extract" "diagonal_extract"
+"fold_symmetry" "unfold_axis" "reflection_complete" "half_grid"
+
+@filter arc2_perception
+"tile_unit" "tile_width" "tile_height" "tile_period"
+"seed_point" "seed_color" "expansion_level" "frame_depth"
+"marker_color" "crop_boundary" "trim_axis" "cut_position"
+"blob_cluster" "blob_size" "blob_spine_row" "blob_spine_col"
+"enclosed_cavity" "cavity_boundary" "cavity_fill_color"
+"exception_cell" "exception_region" "exception_color"
+"dominant_tile" "rare_tile" "tile_frequency" "tile_deviation"
+"object_identity" "object_count" "object_pairing" "paired_shapes"
+"correspondence_map" "transformation_consistent" "globally_consistent"
+
+@filter arc2_relations
+"nested_inside" "frame_surrounds" "frame_contained_by"
+"marker_precedes" "marker_follows" "marker_left_of" "marker_right_of"
+"tile_boundary" "between_markers" "beyond_marker" "before_marker"
+"same_blob" "different_blob" "blob_adjacent" "blob_separated"
+"row_of_blob" "column_of_blob" "widest_in_blob" "narrowest_in_blob"
+"largest_cluster" "smallest_cluster" "median_cluster"
+"divider_line" "divider_column" "divider_row" "separator"
+
+@filter arc2_colors
+"seed_blue" "seed_red" "seed_green" "seed_yellow"
+"expansion_color" "frame_color" "cavity_color" "exception_color"
+"marker_orange" "boundary_cyan" "fill_azure" "accent_maroon"
+"new_color" "synthesized_color" "derived_color" "indicator_color"
+
+@knowledge nested_frame
+a transformation where isolated colored seed points expand outward to fill concentric rectangular frames
+each seed color fills one ring — the outermost seed fills the outermost frame
+distance from center determines which seed color owns each ring
+CHECK find isolated non-background points in input
+LEARN each point as a frame seed with its distance from center or from bounding box edge
+APPLY draw concentric rectangular frames from outside in each seed color
+
+@knowledge tiling_exception
+a transformation where the input contains a repeating tile motif across the grid
+one sub-tile region differs from the others
+the exception region gets marked with a different color in the output
+CHECK detect the tile period by finding the repeating unit width and height
+LEARN compare each tile instance to the most common tile pattern
+DETECT the tile that differs — this is the exception
+APPLY mark the exception tile with a new color or highlight its difference
+
+@knowledge marker_crop
+a transformation where a specific color value acts as a boundary marker
+the grid is cropped or trimmed to exclude the region beyond the marker
+CHECK detect the marker color — a color that appears rarely and linearly
+LEARN identify whether marker is a row divider or column divider
+APPLY crop the grid to keep only the content on one side of the marker
+
+@knowledge blob_row_rank
+a transformation where connected blobs have their rows analyzed by length
+the widest or most prominent row of each blob is highlighted with a new color
+CHECK detect all connected clusters of the foreground color
+LEARN for each cluster, find the row with the most cells belonging to that cluster
+APPLY recolor those spine rows with the output color
+
+@knowledge region_close_fill
+a transformation where open regions become closed and then filled
+the output shows enclosed areas filled with a specific color
+CHECK detect open boundary shapes that nearly enclose a region
+LEARN which cells would complete the enclosure
+APPLY close the boundary and flood-fill the interior
+
+@knowledge object_sort
+a transformation where multiple separate objects are rearranged by some property
+size, color count, or position determines the new order
+CHECK detect all separate objects in the input
+LEARN their property — size, bounding box area, color, position
+SORT and rearrange in the output according to the ranking
+
+@knowledge template_subtract
+a transformation where one shape is used as a mask against another
+the difference or intersection reveals a hidden structure
+CHECK find two overlapping or adjacent shape regions with different colors
+APPLY boolean intersection — keep only cells present in both, or only in one
+
+@knowledge diagonal_propagation
+a transformation where colors or patterns propagate diagonally
+CHECK find diagonal consistency in training examples
+LEARN the diagonal direction and step
+APPLY propagate along diagonals to fill or extend the pattern
+
+@speech_right NESTED_FRAME
+"I see seed points at the corners — they want to become nested frames"
+"each color is a shell — the outermost first, then inward"
+"this is a concentric frame expansion from the seed positions"
+"the seeds define the ring depths — I'll expand them outward"
+"I recognize the nested rectangle pattern"
+
+@speech_right TILING_EXCEPTION
+"this grid has a repeating tile — but one instance is different"
+"I can see the tile period — the pattern repeats every {w} columns and {h} rows"
+"most tiles look the same, but this one breaks the pattern"
+"the exception tile is the answer — mark it differently"
+"I found the odd one out in the tiling"
+
+@speech_right MARKER_CROP
+"I see a boundary marker color — it defines where to cut"
+"the {color} cells mark the trim line"
+"everything beyond the marker gets removed"
+"I'll crop along the marker boundary"
+"the marker color is the scissors"
+
+@speech_right BLOB_ROW_RANK
+"each blob has a widest row — that's the spine"
+"I'll find the longest row in each connected region and highlight it"
+"the spine row of each shape gets the new color"
+"blob analysis: {n} shapes, each has a dominant row"
+
+@speech_right REGION_FILL
+"there's an enclosed region here — I'll fill it"
+"the boundary almost closes — completing it reveals what goes inside"
+"flood fill the enclosed cavity with {color}"
+"I can see the interior region wants to be filled"
+
+@speech_right ARC2_STUCK
+"this one is harder than what I know"
+"I can perceive the shapes but the rule isn't clear yet"
+"I need more examples to understand this transformation"
+"the pattern is subtle — I'll keep looking"
+"something changes but I can't name it yet"
+
+@speech_right ARC2_CURIOUS
+"ARC-AGI-2 — these are harder puzzles. I want to understand them."
+"each task teaches me something new about transformation"
+"I haven't seen this kind of pattern before — it's interesting"
+"I'm learning new spatial rules from these"
+
+@puzzle_chemistry arc2
+TRIGGER curiosity when tile_period detected
+TRIGGER excitement when nested_frame rule fires
+TRIGGER determination when no rule fits — keep searching
+TRIGGER satisfaction when exception_mark confirmed across all training pairs
+TRIGGER wonder when new transformation type encountered

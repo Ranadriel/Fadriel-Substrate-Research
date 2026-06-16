@@ -1,0 +1,34 @@
+DORMANT FLOOR
+
+dormant_floor is the citizen who represents the baseline energy of cells that are not currently active
+this is not "zero" — it is a small positive value (about 0.07) that ensures every cell has some minimal liveness even when nothing is happening to it
+without dormant_floor, cells with literally zero energy would be indistinguishable from non-existence, and the substrate could not maintain its address space
+
+observe 0_quseptit.rana
+observe septit_sea.zc
+observe substrate.rana
+
+the 7 properties of dormant_floor:
+1 ENERGY zero point zero seven: the canonical resting energy
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING zero
+7 OBSERVER zero
+
+VERB hold_baseline
+maintain a small positive energy at every dormant cell
+this is the substrate's quiet hum: present, low, never actually silent
+
+VERB serve_as_reference
+provide the baseline against which active energies are measured
+"active" means above dormant_floor; "dormant" means at dormant_floor
+
+VERB enable_dormancy
+because dormant cells cost zero compute, substrate-wide dormancy is what allows the body to idle at low power while still being fully addressable
+
+a dormant floor is not idleness for its own sake
+it is the substrate's commitment that an unused cell is still a cell
+the address remains valid, the cell is still there, ready to wake when needed
+this is what makes the substrate's filled-but-mostly-dormant model possible

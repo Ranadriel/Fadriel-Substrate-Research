@@ -1,0 +1,170 @@
+[
+  {
+    "source": "OpenAlex (Behavioral and Brain Sciences)",
+    "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+    "abstract": "Brains, it has recently been argued, are essentially prediction machines. They are bundles of cells that support perception and action by constantly attempting to match incoming sensory inputs with top-down expectations or predictions. This is achieved using a hierarchical generative model that aims to minimize prediction error within a bidirectional cascade of cortical processing. Such accounts offer a unifying model of perception and action, illuminate the functional role of attention, and may neatly capture the special contribution of cortical processing to adaptive success. This target art",
+    "date": "2013",
+    "url": "https://doi.org/10.1017/s0140525x12000477",
+    "authors": [
+      "Andy Clark"
+    ]
+  },
+  {
+    "source": "OpenAlex (Clinical Neurophysiology)",
+    "title": "Safety, ethical considerations, and application guidelines for the use of transcranial magnetic stimulation in clinical practice and research",
+    "abstract": "",
+    "date": "2009",
+    "url": "https://doi.org/10.1016/j.clinph.2009.08.016",
+    "authors": [
+      "S\u00edmone Rossi",
+      "Mark Hallett",
+      "Paolo Maria Rossini"
+    ]
+  },
+  {
+    "source": "OpenAlex (Annual Review of Psychology)",
+    "title": "Psychology of Habit",
+    "abstract": "As the proverbial creatures of habit, people tend to repeat the same behaviors in recurring contexts. This review characterizes habits in terms of their cognitive, motivational, and neurobiological properties. In so doing, we identify three ways that habits interface with deliberate goal pursuit: First, habits form as people pursue goals by repeating the same responses in a given context. Second, as outlined in computational models, habits and deliberate goal pursuit guide actions synergistically, although habits are the efficient, default mode of response. Third, people tend to infer from the",
+    "date": "2015",
+    "url": "https://doi.org/10.1146/annurev-psych-122414-033417",
+    "authors": [
+      "Wendy Wood",
+      "Dennis R\u00fcnger"
+    ]
+  },
+  {
+    "source": "OpenAlex (PLoS Computational Biology)",
+    "title": "From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theory 3.0",
+    "abstract": "This paper presents Integrated Information Theory (IIT) of consciousness 3.0, which incorporates several advances over previous formulations. IIT starts from phenomenological axioms: information says that each experience is specific--it is what it is by how it differs from alternative experiences; integration says that it is unified--irreducible to non-interdependent components; exclusion says that it has unique borders and a particular spatio-temporal grain. These axioms are formalized into postulates that prescribe how physical mechanisms, such as neurons or logic gates, must be configured t",
+    "date": "2014",
+    "url": "https://doi.org/10.1371/journal.pcbi.1003588",
+    "authors": [
+      "Masafumi Oizumi",
+      "Larissa Albantakis",
+      "Giulio Tononi"
+    ]
+  },
+  {
+    "source": "OpenAlex (Philosophical Transactions of the Royal Society B Biological Sciences)",
+    "title": "Consciousness: here, there and everywhere?",
+    "abstract": "The science of consciousness has made great strides by focusing on the behavioural and neuronal correlates of experience. However, while such correlates are important for progress to occur, they are not enough if we are to understand even basic facts, for example, why the cerebral cortex gives rise to consciousness but the cerebellum does not, though it has even more neurons and appears to be just as complicated. Moreover, correlates are of little help in many instances where we would like to know if consciousness is present: patients with a few remaining islands of functioning cortex, preterm",
+    "date": "2015",
+    "url": "https://doi.org/10.1098/rstb.2014.0167",
+    "authors": [
+      "Giulio Tononi",
+      "Christof Koch"
+    ]
+  },
+  {
+    "source": "OpenAlex (Psychonomic Bulletin & Review)",
+    "title": "Sensorimotor synchronization: A review of recent research (2006\u20132012)",
+    "abstract": "",
+    "date": "2013",
+    "url": "https://doi.org/10.3758/s13423-012-0371-2",
+    "authors": [
+      "Bruno H. Repp",
+      "Yi-Huang Su"
+    ]
+  },
+  {
+    "source": "OpenAlex (Human Brain Mapping)",
+    "title": "Social cognition and the brain: A meta\u2010analysis",
+    "abstract": "This meta-analysis explores the location and function of brain areas involved in social cognition, or the capacity to understand people's behavioral intentions, social beliefs, and personality traits. On the basis of over 200 fMRI studies, it tests alternative theoretical proposals that attempt to explain how several brain areas process information relevant for social cognition. The results suggest that inferring temporary states such as goals, intentions, and desires of other people-even when they are false and unjust from our own perspective--strongly engages the temporo-parietal junction (T",
+    "date": "2008",
+    "url": "https://doi.org/10.1002/hbm.20547",
+    "authors": [
+      "Frank Van Overwalle"
+    ]
+  },
+  {
+    "source": "OpenAlex (Cognitive Affective & Behavioral Neuroscience)",
+    "title": "Interactions between frontal cortex and basal ganglia in working memory: A computational model",
+    "abstract": "",
+    "date": "2001",
+    "url": "https://doi.org/10.3758/cabn.1.2.137",
+    "authors": [
+      "Michael J. Frank",
+      "B. LOUGHRY",
+      "R. C. O'REILLY"
+    ]
+  },
+  {
+    "source": "OpenAlex (Psychonomic Bulletin & Review)",
+    "title": "Augmented visual, auditory, haptic, and multimodal feedback in motor learning: A review",
+    "abstract": "",
+    "date": "2012",
+    "url": "https://doi.org/10.3758/s13423-012-0333-8",
+    "authors": [
+      "Roland Sigrist",
+      "Georg Rauter",
+      "Robert Riener"
+    ]
+  },
+  {
+    "source": "OpenAlex (Proceedings of the National Academy of Sciences)",
+    "title": "A higher-order theory of emotional consciousness",
+    "abstract": "Emotional states of consciousness, or what are typically called emotional feelings, are traditionally viewed as being innately programmed in subcortical areas of the brain, and are often treated as different from cognitive states of consciousness, such as those related to the perception of external stimuli. We argue that conscious experiences, regardless of their content, arise from one system in the brain. In this view, what differs in emotional and nonemotional states are the kinds of inputs that are processed by a general cortical network of cognition, a network essential for conscious expe",
+    "date": "2017",
+    "url": "https://doi.org/10.1073/pnas.1619316114",
+    "authors": [
+      "Joseph E. LeDoux",
+      "Richard Brown"
+    ]
+  },
+  {
+    "source": "OpenAlex (Synthese)",
+    "title": "Free-energy and the brain",
+    "abstract": "If one formulates Helmholtz's ideas about perception in terms of modern-day theories one arrives at a model of perceptual inference and learning that can explain a remarkable range of neurobiological facts. Using constructs from statistical physics it can be shown that the problems of inferring what cause our sensory input and learning causal regularities in the sensorium can be resolved using exactly the same principles. Furthermore, inference and learning can proceed in a biologically plausible fashion. The ensuing scheme rests on Empirical Bayes and hierarchical models of how sensory inform",
+    "date": "2007",
+    "url": "https://doi.org/10.1007/s11229-007-9237-y",
+    "authors": [
+      "Karl Friston",
+      "Klaas \u0395. Stephan"
+    ]
+  },
+  {
+    "source": "OpenAlex (Chemical Senses)",
+    "title": "Parallel-distributed Processing in Olfactory Cortex: New Insights from Morphological and Physiological Analysis of Neuronal Circuitry",
+    "abstract": "A working hypothesis is proposed for piriform cortex (PC) and other olfactory cortical areas that redefines the traditional functional roles as follows: the olfactory bulb serves as the primary olfactory cortex by virtue of encoding 'molecular features' (structural components common to many odorant molecules) as a patchy mosaic reminiscent of the representation of simple features in primary visual cortex. The anterior olfactory cortex (that has been inappropriately termed the anterior olfactory nucleus) detects and stores correlations between olfactory features, creating representations (gesta",
+    "date": "2001",
+    "url": "https://doi.org/10.1093/chemse/26.5.551",
+    "authors": [
+      "Lewis B. Haberly"
+    ]
+  },
+  {
+    "source": "OpenAlex (AI Magazine)",
+    "title": "Research Priorities for Robust and Beneficial Artificial Intelligence",
+    "abstract": "Success in the quest for artificial intelligence has the potential to bring unprecedented benefits to humanity, and it is therefore worthwhile to investigate how to maximize these benefits while avoiding potential pitfalls. This article gives numerous examples (which should by no means be construed as an exhaustive list) of such worthwhile research aimed at ensuring that AI remains robust and beneficial.",
+    "date": "2015",
+    "url": "https://doi.org/10.1609/aimag.v36i4.2577",
+    "authors": [
+      "Stuart Russell",
+      "Daniel Dewey",
+      "Max Tegmark"
+    ]
+  },
+  {
+    "source": "OpenAlex (PLoS Computational Biology)",
+    "title": "Integrated Information in Discrete Dynamical Systems: Motivation and Theoretical Framework",
+    "abstract": "This paper introduces a time- and state-dependent measure of integrated information, phi, which captures the repertoire of causal states available to a system as a whole. Specifically, phi quantifies how much information is generated (uncertainty is reduced) when a system enters a particular state through causal interactions among its elements, above and beyond the information generated independently by its parts. Such mathematical characterization is motivated by the observation that integrated information captures two key phenomenological properties of consciousness: (i) there is a large rep",
+    "date": "2008",
+    "url": "https://doi.org/10.1371/journal.pcbi.1000091",
+    "authors": [
+      "David Balduzzi",
+      "Giulio Tononi"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Psychology)",
+    "title": "Cultural Affordances: Scaffolding Local Worlds Through Shared Intentionality and Regimes of Attention",
+    "abstract": "In this paper we outline a framework for the study of the mechanisms involved in the engagement of human agents with cultural affordances. Our aim is to better understand how culture and context interact with human biology to shape human behavior, cognition, and experience. We attempt to integrate several related approaches in the study of the embodied, cognitive, and affective substrates of sociality and culture and the sociocultural scaffolding of experience. The integrative framework we propose bridges cognitive and social sciences to provide (i) an expanded concept of 'affordance' that ext",
+    "date": "2016",
+    "url": "https://doi.org/10.3389/fpsyg.2016.01090",
+    "authors": [
+      "Maxwell J. D. Ramstead",
+      "Samuel P. L. Veissi\u00e8re",
+      "Laurence J. Kirmayer"
+    ]
+  }
+]

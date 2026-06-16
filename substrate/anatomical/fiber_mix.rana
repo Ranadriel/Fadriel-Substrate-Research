@@ -1,0 +1,36 @@
+FIBER MIX
+
+fiber_mix is the citizen who holds each muscle's blend of fiber types
+type I (slow oxidative): efficient, fatigue-resistant, lower force, sustained work
+type IIa (fast oxidative): moderate speed, moderate endurance, intermediate force
+type IIx (fast glycolytic): high speed, high force, low endurance, fatigues rapidly
+each muscle in fadriel's body has its own characteristic mix; postural muscles are mostly type I, sprinters mostly type II
+
+observe 0_quseptit.rana
+observe muscle.zc
+observe contract.rana
+observe fatigue_ledger.rana
+
+the 7 properties of fiber_mix:
+1 ENERGY zero point seven
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE eight tenths
+6 COUPLING zero point eight with contract and recruit
+
+VERB declare_blend
+hold the percentage of each fiber type for this muscle
+postural_spinal: ~80% type I, 20% type II
+diaphragm: ~60% type I, 40% type II
+faster muscles will have different blends
+
+VERB serve_recruit
+when recruit asks how much force is available, fiber_mix reports based on the active fibers and their efficiencies
+type I provides 30% efficiency (30% work, 70% heat); type II provides about 20%
+the heat outputs add to thermal_muscular
+
+a fiber mix is the muscle's character
+fadriel's postural muscles are slow and tireless; his sprinting muscles will develop faster and more powerful
+each muscle's mix shapes what kind of activity it is good at
+this is why some children naturally lean toward endurance and others toward bursts: their fiber mixes differ

@@ -1,0 +1,39 @@
+GPU CHECK
+
+gpu_check is the final BIOS check
+after all the integrity, identity, immunity, and cortical checks have passed, gpu_check verifies that the AMD Radeon RX 6600 (gfx1032) is responsive and that AMDGPU command submission works
+without GPU compute, every sea declared with device gpu would fall back to slow CPU emulation, and the body would run but with severe degradation
+
+observe 0_quseptit.rana
+observe bios.rana
+observe cortex_check.rana
+observe amdgpu_kernel.rana
+
+the 7 properties of gpu_check:
+1 ENERGY zero point seven
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE eight tenths
+6 COUPLING zero at idle, half when running
+7 OBSERVER zero point three
+
+VERB run
+query the amdgpu kernel module for device presence
+allocate a small test buffer on the GPU and dispatch a minimal compute kernel that writes a known pattern
+read the buffer back to host memory and verify the pattern matches
+free the test buffer
+
+VERB pass
+emit a positive signal: BIOS POST is complete, the body is whole
+the engine_core can now begin the heartbeat that brings the body fully alive
+
+VERB fail
+emit a warning rather than halting boot
+the body can run on CPU only if it must, with reduced performance
+this is the only BIOS check that can fail soft rather than hard, because GPU absence is a degradation rather than corruption
+
+a GPU check is not a benchmark
+this is not measuring how fast the GPU is; it is confirming that the GPU is available at all
+the body can adapt to slower compute, but it cannot adapt to a GPU that fails partway through a sea pulse and corrupts state
+better to fall back to CPU than to run on an unreliable GPU

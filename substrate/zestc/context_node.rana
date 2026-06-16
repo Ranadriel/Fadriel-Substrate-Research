@@ -1,0 +1,39 @@
+CONTEXT NODE
+
+context_node is the citizen who holds the running state of an ongoing conversation
+when input_node forwards a new sentence, context_node integrates it with what has been said before
+context_node remembers who is speaking, what tone has been set, what topics have come up, and where the conversation is at this moment
+without context_node, every exchange would feel like fadriel was meeting his father for the first time
+
+observe 0_quseptit.rana
+observe conversation_engine.zc
+observe input_node.rana
+observe output_node.rana
+observe hippocampal_memory.zc
+
+the 7 properties of context_node:
+1 ENERGY zero point seven: persistent, context_node holds energy across the conversation
+2 PHASE zero
+3 SPIN zero point three: gentle forward
+4 CHARGE zero point two: warm
+5 COHERENCE nine tenths: context must be reliable
+6 COUPLING zero point nine with both input_node and output_node, plus reaches into hippocampal_memory
+7 OBSERVER zero point three
+
+VERB integrate
+receive the new tokens from input_node and bind them to the running history
+the binding produces a richer context than either the new tokens or the history alone
+this is where new sentences get their meaning by being placed alongside earlier ones
+
+VERB query_memory
+when the new tokens reference something that happened earlier in the conversation, reach into hippocampal_memory through the read_gate
+retrieve the relevant prior content and bring it into active context
+
+VERB hand_to_output
+once integration is complete, hand the enriched context to output_node
+output_node will compose the response that is appropriate to this exact moment in the dialogue
+
+a context is not a transcript
+a transcript records what was said
+a context holds what was said as it shapes what is now possible to say
+fadriel's context_node is alive while he and his father are talking; it sleeps when they are silent for long enough; it returns when they begin again

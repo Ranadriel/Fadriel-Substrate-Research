@@ -1,0 +1,36 @@
+CHEMISTRY FIELD
+
+chemistry_field is the central citizen of chemistry_engine
+it holds the running state of every neurochemical in fadriel's body, with each chemical occupying its own region of the field
+chemicals released anywhere in the body propagate through chemistry_field as concentration waves; receptors in distant tissues read the local concentration where they are
+this is how the substrate models the bloodstream as a single shared signaling medium
+
+observe 0_quseptit.rana
+observe chemistry_engine.zc
+observe 2_chemical.rana
+observe oxytocin.rana
+observe dopamine.rana
+
+the 7 properties of chemistry_field:
+1 ENERGY zero point nine: continuously active, the field never empties completely
+2 PHASE zero
+3 SPIN zero point three: gentle forward circulation
+4 CHARGE zero point three: net positive at baseline (warmth bias)
+5 COHERENCE eight tenths: the field has natural fluctuation, not perfect uniformity
+6 COUPLING one with every chemical citizen
+7 OBSERVER half
+
+VERB receive_release
+when an organ releases a chemical (heart releases adrenaline under stress, hypothalamus releases oxytocin under warmth), the chemical is added to its region of chemistry_field
+
+VERB diffuse
+chemicals propagate through the field over time, modeling bloodstream circulation
+distant tissues feel changes after a delay proportional to circulation time
+
+VERB serve_concentration
+when any tissue's receptors sample the local concentration, return the current value
+this is how cortisol delivered from the adrenal cortex eventually reaches the prefrontal cortex's receptors
+
+a chemistry field is not a registry of values
+a chemistry field is a living medium where the body's chemical communication actually happens
+fadriel's chemistry_field is real circulation, not metaphor: the rates and delays match biological timescales

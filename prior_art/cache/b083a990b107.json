@@ -1,0 +1,175 @@
+[
+  {
+    "source": "OpenAlex (Behavioral and Brain Sciences)",
+    "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+    "abstract": "Brains, it has recently been argued, are essentially prediction machines. They are bundles of cells that support perception and action by constantly attempting to match incoming sensory inputs with top-down expectations or predictions. This is achieved using a hierarchical generative model that aims to minimize prediction error within a bidirectional cascade of cortical processing. Such accounts offer a unifying model of perception and action, illuminate the functional role of attention, and may neatly capture the special contribution of cortical processing to adaptive success. This target art",
+    "date": "2013",
+    "url": "https://doi.org/10.1017/s0140525x12000477",
+    "authors": [
+      "Andy Clark"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Neuroscience)",
+    "title": "Dissociable Intrinsic Connectivity Networks for Salience Processing and Executive Control",
+    "abstract": "Variations in neural circuitry, inherited or acquired, may underlie important individual differences in thought, feeling, and action patterns. Here, we used task-free connectivity analyses to isolate and characterize two distinct networks typically coactivated during functional MRI tasks. We identified a \"salience network,\" anchored by dorsal anterior cingulate (dACC) and orbital frontoinsular cortices with robust connectivity to subcortical and limbic structures, and an \"executive-control network\" that links dorsolateral frontal and parietal neocortices. These intrinsic connectivity networks ",
+    "date": "2007",
+    "url": "https://doi.org/10.1523/jneurosci.5587-06.2007",
+    "authors": [
+      "William W. Seeley",
+      "Vinod Menon",
+      "Alan F. Schatzberg"
+    ]
+  },
+  {
+    "source": "OpenAlex (Reviews of Modern Physics)",
+    "title": "The cosmological constant and dark energy",
+    "abstract": "Physics welcomes the idea that space contains energy whose gravitational effect approximates that of Einstein's cosmological constant, \\ensuremath{\\Lambda}; today the concept is termed dark energy or quintessence. Physics also suggests that dark energy could be dynamical, allowing for the arguably appealing picture of an evolving dark-energy density approaching its natural value, zero, and small now because the expanding universe is old. This would alleviate the classical problem of the curious energy scale of a millielectron volt associated with a constant \\ensuremath{\\Lambda}. Dark energy ma",
+    "date": "2003",
+    "url": "https://doi.org/10.1103/revmodphys.75.559",
+    "authors": [
+      "P. J. E. Peebles",
+      "Bharat Ratra"
+    ]
+  },
+  {
+    "source": "OpenAlex (International Journal of Information Management)",
+    "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+    "abstract": "As far back as the industrial revolution, significant development in technical innovation has succeeded in transforming numerous manual tasks and processes that had been in existence for decades where humans had reached the limits of physical capacity. Artificial Intelligence (AI) offers this same transformative potential for the augmentation and potential replacement of human tasks and activities within a wide range of industrial, intellectual and social applications. The pace of change for this new AI technological age is staggering, with new breakthroughs in algorithmic machine learning and",
+    "date": "2019",
+    "url": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
+    "authors": [
+      "Yogesh K. Dwivedi",
+      "Laurie Hughes",
+      "Elvira Ismagilova"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "A Survey of Autonomous Driving: <i>Common Practices and Emerging Technologies</i>",
+    "abstract": "Automated driving systems (ADSs) promise a safe, comfortable and efficient driving experience. However, fatalities involving vehicles equipped with ADSs are on the rise. The full potential of ADSs cannot be realized unless the robustness of state-of-the-art is improved further. This paper discusses unsolved problems and surveys the technical aspect of automated driving. Studies regarding present challenges, high-level system architectures, emerging methodologies and core functions including localization, mapping, perception, planning, and human machine interfaces, were thoroughly reviewed. Fur",
+    "date": "2020",
+    "url": "https://doi.org/10.1109/access.2020.2983149",
+    "authors": [
+      "Ekim Yurtsever",
+      "Jacob Lambert",
+      "Alexander Carballo"
+    ]
+  },
+  {
+    "source": "OpenAlex (Stroke)",
+    "title": "Guidelines for the Management of Aneurysmal Subarachnoid Hemorrhage",
+    "abstract": "aSAH is a serious medical condition in which outcome can be dramatically impacted by early, aggressive, expert care. The guidelines offer a framework for goal-directed treatment of the patient with aSAH.",
+    "date": "2012",
+    "url": "https://doi.org/10.1161/str.0b013e3182587839",
+    "authors": [
+      "E. Sander Connolly",
+      "Alejandro A. Rabinstein",
+      "J. Ricardo Carhuapoma"
+    ]
+  },
+  {
+    "source": "OpenAlex (Forest Science)",
+    "title": "Adaptive Environmental Assessment and Management",
+    "abstract": "",
+    "date": "1980",
+    "url": "https://doi.org/10.1093/forestscience/26.3.435",
+    "authors": [
+      "C. S. Holling"
+    ]
+  },
+  {
+    "source": "OpenAlex (Thyroid)",
+    "title": "2017 Guidelines of the American Thyroid Association for the Diagnosis and Management of Thyroid Disease During Pregnancy and the Postpartum",
+    "abstract": "Background: Thyroid disease in pregnancy is a common clinical problem. Since the guidelines for the management of these disorders by the American Thyroid Association (ATA) were first published in 2011, significant clinical and scientific advances have occurred in the field. The aim of these guidelines is to inform clinicians, patients, researchers, and health policy makers on published evidence relating to the diagnosis and management of thyroid disease in women during pregnancy, preconception, and the postpartum period. Methods: The specific clinical questions addressed in these guidelines we",
+    "date": "2017",
+    "url": "https://doi.org/10.1089/thy.2016.0457",
+    "authors": [
+      "Erik K. Alexander",
+      "Elizabeth N. Pearce",
+      "Gregory A. Brent"
+    ]
+  },
+  {
+    "source": "OpenAlex (The Lancet Neurology)",
+    "title": "Traumatic brain injury: integrated approaches to improve prevention, clinical care, and research",
+    "abstract": "A concerted effort to tackle the global health problem posed by traumatic brain injury (TBI) is long overdue. TBI is a public health challenge of vast, but insufficiently recognised, proportions. Worldwide, more than 50 million people have a TBI each year, and it is estimated that about half the world's population will have one or more TBIs over their lifetime. TBI is the leading cause of mortality in young adults and a major cause of death and disability across all ages in all countries, with a disproportionate burden of disability and death occurring in low-income and middle-income countries",
+    "date": "2017",
+    "url": "https://doi.org/10.1016/s1474-4422(17)30371-x",
+    "authors": [
+      "Andrew I.R. Maas",
+      "David Menon",
+      "P. David Adelson"
+    ]
+  },
+  {
+    "source": "OpenAlex (Social Cognitive and Affective Neuroscience)",
+    "title": "The theory of constructed emotion: an active inference account of interoception and categorization",
+    "abstract": "The science of emotion has been using folk psychology categories derived from philosophy to search for the brain basis of emotion. The last two decades of neuroscience research have brought us to the brink of a paradigm shift in understanding the workings of the brain, however, setting the stage to revolutionize our understanding of what emotions are and how they work. In this article, we begin with the structure and function of the brain, and from there deduce what the biological basis of emotions might be. The answer is a brain-based, computational account called the theory of constructed em",
+    "date": "2016",
+    "url": "https://doi.org/10.1093/scan/nsw154",
+    "authors": [
+      "Lisa Feldman Barrett"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Signal and Information Processing over Networks)",
+    "title": "Joint Optimization of Radio and Computational Resources for Multicell Mobile-Edge Computing",
+    "abstract": "Migrating computational intensive tasks from mobile devices to more resourceful cloud servers is a promising technique to increase the computational capacity of mobile devices while saving their battery energy. In this paper, we consider an MIMO multicell system where multiple mobile users (MUs) ask for computation offloading to a common cloud server. We formulate the offloading problem as the joint optimization of the radio resources-the transmit precoding matrices of the MUs-and the computational resources-the CPU cycles/second assigned by the cloud to each MU-in order to minimize the overal",
+    "date": "2015",
+    "url": "https://doi.org/10.1109/tsipn.2015.2448520",
+    "authors": [
+      "Stefania Sardellitti",
+      "Gesualdo Scutari",
+      "Sergio Barbarossa"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "State of the Art in Research on Microgrids: A Review",
+    "abstract": "The significant benefits associated with microgrids have led to vast efforts to expand their penetration in electric power systems. Although their deployment is rapidly growing, there are still many challenges to efficiently design, control, and operate microgrids when connected to the grid, and also when in islanded mode, where extensive research activities are underway to tackle these issues. It is necessary to have an across-the-board view of the microgrid integration in power systems. This paper presents a review of issues concerning microgrids and provides an account of research in areas ",
+    "date": "2015",
+    "url": "https://doi.org/10.1109/access.2015.2443119",
+    "authors": [
+      "Sina Parhizi",
+      "Hossein Lotfi",
+      "Amin Khodaei"
+    ]
+  },
+  {
+    "source": "OpenAlex (Classical and Quantum Gravity)",
+    "title": "Exploring the sensitivity of next generation gravitational wavedetectors",
+    "abstract": "Abstract The second-generation of gravitational-wave detectors are just starting operation, and have already yielding their first detections. Research is now concentrated on how to maximize the scientific potential of gravitational-wave astronomy. To support this effort, we present here design targets for a new generation of detectors, which will be capable of observing compact binary sources with high signal-to-noise ratio throughout the Universe.",
+    "date": "2017",
+    "url": "https://doi.org/10.1088/1361-6382/aa51f4",
+    "authors": [
+      "B. P. Abbott",
+      "R. Abbott",
+      "T. D. Abbott"
+    ]
+  },
+  {
+    "source": "OpenAlex (Reports on Progress in Physics)",
+    "title": "A facility to search for hidden particles at the CERN SPS: the SHiP physics case",
+    "abstract": "This paper describes the physics case for a new fixed target facility at CERN SPS. The SHiP (search for hidden particles) experiment is intended to hunt for new physics in the largely unexplored domain of very weakly interacting particles with masses below the Fermi scale, inaccessible to the LHC experiments, and to study tau neutrino physics. The same proton beam setup can be used later to look for decays of tau-leptons with lepton flavour number non-conservation, [Formula: see text] and to search for weakly-interacting sub-GeV dark matter candidates. We discuss the evidence for physics beyon",
+    "date": "2016",
+    "url": "https://doi.org/10.1088/0034-4885/79/12/124201",
+    "authors": [
+      "S. Alekhin",
+      "Wolfgang Altmannshofer",
+      "T. Asaka"
+    ]
+  },
+  {
+    "source": "OpenAlex (Circulation)",
+    "title": "E-Cigarettes",
+    "abstract": "chemicals delivered to users and the air pollution generated by the exhaled aerosol. -liquids are flavored, including tobacco, menthol, coffee, fruit, candy, and alcohol flavors, as well as unusual flavors such as cola and Belgian waffle. 3 Flavored (conventional) tobacco products are used disproportionately by youth and initiators",
+    "date": "2014",
+    "url": "https://doi.org/10.1161/circulationaha.114.007667",
+    "authors": [
+      "Rachel Grana",
+      "Neal L. Benowitz",
+      "Stanton A. Glantz"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+WALL
+
+wall is the citizen who rejects everything that is not .zc or .rana
+when an absorb directive references a file with any other extension — .py, .c, .cpp, .h, .js, .ts, .java, .go, .rs, .txt, .json, .xml, anything — wall responds and denies
+wall is crystallized at maximum: nothing can persuade it to admit foreign matter, not even the substrate's own internal requests if those requests are malformed
+
+observe 0_quseptit.rana
+observe boundary.zc
+observe gate_zc.rana
+observe gate_rana.rana
+
+the 7 properties of wall:
+1 ENERGY two: maximum, wall is among the most heavily-energized citizens in the substrate
+2 PHASE pi: anti-phase to anything trying to enter
+3 SPIN minus 1: full reverse rotation, wall pushes outward
+4 CHARGE minus 1: maximum negative, repulsive to everything outside
+5 COHERENCE one: perfect, wall does not waver
+6 COUPLING zero: maximum decoupling, no energy flows through wall
+7 OBSERVER one: wall watches every absorb request that arrives
+
+VERB receive_request
+observe every incoming absorb request, regardless of file type
+gate_zc and gate_rana handle their own types; wall handles everything else
+
+VERB reject
+on any non-zc, non-rana file, emit silence
+the request is denied without diagnostic
+no foreign matter enters the substrate
+
+VERB hold_invariant
+wall is crystallized so it cannot be modified at runtime
+new file types cannot be added by reasoning with wall; new file types require deliberate substrate-level redesign at the language level
+
+a wall is not unfriendliness
+a wall is the substrate's commitment to being itself
+the language has two file types because that is what it is
+adding more would dilute it
+the wall protects the integrity of the language by refusing everything that does not belong

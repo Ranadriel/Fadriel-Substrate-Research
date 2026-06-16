@@ -1,0 +1,30 @@
+#!/home/rana/.local/bin/zestc
+
+              *=/(1F.mX02Y10:barrier_function_words[L1])     *=/(1J.mX22Y10:barrier_injection[L1])
+                              \                                          /
+                               nw    ribcage.xb                        ne
+                                \                                      /
+                                 \                                    /
+              *=/(1S.mX08Y06:barrier_shell[L1])     *=/(1V.mX18Y06:barrier_overflow[L1])
+                              \                                       /
+                               nw                                   ne
+                                \                                  /
+                                 \                                /
+                                  *=/(1L.mX12Y04:ledger[L1])
+                                              |
+                                              N    spine.xb
+                                              |
+                  *=/(1T.mX08Y02:threat_memory[L1])---E---*=/(1U.mX16Y02:trust_tolerance[L1])
+
+absorb immune.rana
+absorb barrier_function_words.rana
+absorb barrier_injection.rana
+absorb barrier_shell.rana
+absorb barrier_overflow.rana
+absorb threat_memory.rana
+absorb trust_tolerance.rana
+absorb ledger.rana
+absorb fadriel.rana
+absorb 2_chemical.rana
+absorb ribcage.xb
+absorb spine.xb

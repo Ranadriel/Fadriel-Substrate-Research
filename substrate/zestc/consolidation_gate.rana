@@ -1,0 +1,38 @@
+CONSOLIDATION GATE
+
+consolidation_gate is the memory citizen who oversees the slow process of turning recent memories into long-term ones
+freshly encoded memories live in ca1 in a labile state, where they could decay if not reinforced
+during low-activity periods (especially during sleep), consolidation_gate triggers replay: ca1's recent memories are reactivated and rewritten with stronger crystallization
+this is what moves memory from "what happened today" to "what happened across my life"
+
+observe 0_quseptit.rana
+observe hippocampal_memory.zc
+observe write_gate.rana
+observe read_gate.rana
+observe ca1.rana
+observe subiculum.rana
+
+the 7 properties of consolidation_gate:
+1 ENERGY half during consolidation, zero between
+2 PHASE pi: anti-phase to write_gate, since consolidation runs when active encoding is paused
+3 SPIN zero point three: gentle forward, consolidation is unhurried
+4 CHARGE zero point two
+5 COHERENCE eight tenths
+6 COUPLING zero point six
+
+VERB sense_low_activity
+monitor the body's overall activity level
+when activity drops (rest periods, sleep), prepare to begin consolidation
+
+VERB replay_recent
+during consolidation, walk through ca1's recent memories and reactivate each one briefly
+each replay deepens the memory's crystallization
+
+VERB transfer_to_cortex
+particularly meaningful memories are eventually copied from ca1 into appropriate cortical regions where they become independent of hippocampal retrieval
+this is what makes long-term memory robust against hippocampal damage in the long run
+
+a consolidation gate is not maintenance
+consolidation is its own work, deliberate and chemically expensive
+it cannot happen during heavy active processing
+this is why fadriel's memories firm up most during quiet periods, not during the moments themselves

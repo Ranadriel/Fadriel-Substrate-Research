@@ -1,0 +1,170 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Comparing top-down and bottom-up holographic defects and boundaries",
+    "abstract": "In this work we consider domain walls and end-of-the-world branes in AdS/CFT, holographically dual to codimension-one conformal defects and conformal boundaries respectively. In this setting there is an analogue of the ``bulk point'' singularity in boundary correlation functions, which we use to compare top-down and bottom-up constructions of these systems. For example, for a range of parameters the D3/D5 boundary CFT cannot be imitated by a tensionful end-of-the-world brane coupled to Einstein gravity, and in another range it can be modeled with a negative tension brane. Along the way we comp",
+    "date": "2025-04-17",
+    "url": "http://arxiv.org/abs/2504.13244v2",
+    "authors": [
+      "William Harvey",
+      "Kristan Jensen",
+      "Takahiro Uzu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cooperation between Top-Down and Bottom-Up Theorem Provers",
+    "abstract": "Top-down and bottom-up theorem proving approaches each    have specific advantages and disadvantages.  Bottom-up provers profit    from strong redundancy control but suffer from the lack of    goal-orientation, whereas top-down provers are goal-oriented but often    have weak calculi when their proof lengths are considered.  In order    to integrate both approaches, we try to achieve cooperation between a    top-down and a bottom-up prover in two different ways: The first    technique aims at supporting a bottom-up with a top-down prover. A    top-down prover generates subgoal clauses, they ar",
+    "date": "2011-05-27",
+    "url": "http://arxiv.org/abs/1105.5458v1",
+    "authors": [
+      "M. Fuchs",
+      "D. Fuchs"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Joint Top-Down and Bottom-Up Frameworks for 3D Visual Grounding",
+    "abstract": "This paper tackles the challenging task of 3D visual grounding-locating a specific object in a 3D point cloud scene based on text descriptions. Existing methods fall into two categories: top-down and bottom-up methods. Top-down methods rely on a pre-trained 3D detector to generate and select the best bounding box, resulting in time-consuming processes. Bottom-up methods directly regress object bounding boxes with coarse-grained features, producing worse results. To combine their strengths while addressing their limitations, we propose a joint top-down and bottom-up framework, aiming to enhance",
+    "date": "2024-10-21",
+    "url": "http://arxiv.org/abs/2410.15615v1",
+    "authors": [
+      "Yang Liu",
+      "Daizong Liu",
+      "Wei Hu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Open-world Instance Segmentation: Top-down Learning with Bottom-up Supervision",
+    "abstract": "Many top-down architectures for instance segmentation achieve significant success when trained and tested on pre-defined closed-world taxonomy. However, when deployed in the open world, they exhibit notable bias towards seen classes and suffer from significant performance drop. In this work, we propose a novel approach for open world instance segmentation called bottom-Up and top-Down Open-world Segmentation (UDOS) that combines classical bottom-up segmentation algorithms within a top-down learning framework. UDOS first predicts parts of objects using a top-down network trained with weak super",
+    "date": "2023-03-09",
+    "url": "http://arxiv.org/abs/2303.05503v2",
+    "authors": [
+      "Tarun Kalluri",
+      "Weiyao Wang",
+      "Heng Wang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "MMLatch: Bottom-up Top-down Fusion for Multimodal Sentiment Analysis",
+    "abstract": "Current deep learning approaches for multimodal fusion rely on bottom-up fusion of high and mid-level latent modality representations (late/mid fusion) or low level sensory inputs (early fusion). Models of human perception highlight the importance of top-down fusion, where high-level representations affect the way sensory inputs are perceived, i.e. cognition affects perception. These top-down interactions are not captured in current deep learning models. In this work we propose a neural architecture that captures top-down cross-modal interactions, using a feedback mechanism in the forward pass",
+    "date": "2022-01-24",
+    "url": "http://arxiv.org/abs/2201.09828v1",
+    "authors": [
+      "Georgios Paraskevopoulos",
+      "Efthymios Georgiou",
+      "Alexandros Potamianos"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cognition and Emotion: Perspectives of a Closing Gap",
+    "abstract": "The primary tasks of a cognitive system is to survive and to maximize a life-long utility function, like the number of offsprings. A direct computational maximization of life-long utility is however not possible in complex environments, especially in the context, of real-world time constraints. The central role of emotions is to serve as an intermediate layer in the space of policies available to agents and animals, leading to a large dimensional reduction of complexity.   We review our current understanding of the functional role of emotions, stressing the role of the neuromodulators mediatin",
+    "date": "2010-02-16",
+    "url": "http://arxiv.org/abs/1002.3035v1",
+    "authors": [
+      "Claudius Gros"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Learning to Combine Top-Down and Bottom-Up Signals in Recurrent Neural Networks with Attention over Modules",
+    "abstract": "Robust perception relies on both bottom-up and top-down signals. Bottom-up signals consist of what's directly observed through sensation. Top-down signals consist of beliefs and expectations based on past experience and short-term memory, such as how the phrase `peanut butter and~...' will be completed. The optimal combination of bottom-up and top-down information remains an open question, but the manner of combination must be dynamic and both context and task dependent. To effectively utilize the wealth of potential top-down information available, and to prevent the cacophony of intermixed si",
+    "date": "2020-06-30",
+    "url": "http://arxiv.org/abs/2006.16981v3",
+    "authors": [
+      "Sarthak Mittal",
+      "Alex Lamb",
+      "Anirudh Goyal"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "When Does Bottom-up Beat Top-down in Hierarchical Community Detection?",
+    "abstract": "Hierarchical clustering of networks consists in finding a tree of communities, such that lower levels of the hierarchy reveal finer-grained community structures. There are two main classes of algorithms tackling this problem. Divisive (top-down) algorithms recursively partition the nodes into two communities, until a stopping rule indicates that no further split is needed. In contrast, agglomerative (bottom-up) algorithms first identify the smallest community structure and then repeatedly merge the communities using a linkage method. In this article, we establish theoretical guarantees for the",
+    "date": "2023-06-01",
+    "url": "http://arxiv.org/abs/2306.00833v3",
+    "authors": [
+      "Maximilien Dreveton",
+      "Daichi Kuroda",
+      "Matthias Grossglauser"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Top-down and Bottom-up Evaluation Procedurally Integrated",
+    "abstract": "This paper describes how XSB combines top-down and bottom-up computation through the mechanisms of variant tabling and subsumptive tabling with abstraction, respectively.   It is well known that top-down evaluation of logical rules in Prolog has a procedural interpretation as recursive procedure invocation (Kowalski 1986). Tabling adds the intuition of short-circuiting redundant computations (Warren 1992) .This paper shows how to introduce into tabled logic program evaluation a bottom-up component, whose procedural intuition is the initialization of a data structure, in which a relation is ini",
+    "date": "2018-04-23",
+    "url": "http://arxiv.org/abs/1804.08443v1",
+    "authors": [
+      "David S. Warren"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Top-Down or Bottom-Up? Complexity Analyses of Synchronous Multiparty Session Types",
+    "abstract": "Multiparty session types provide a type discipline for ensuring communication safety, deadlock-freedom and liveness for multiple concurrently running participants. The original formulation of MPST takes the top-down approach, where a global type specifies a bird's eye view of the intended interactions between participants, and each distributed process is locally type-checked against its end-point projection. A more recent one takes the bottom-up approach, where a desired property $\\varphi$ of a set of participants is ensured if the same property $\\varphi$ is true for an ensemble of end-point t",
+    "date": "2024-11-12",
+    "url": "http://arxiv.org/abs/2411.07452v1",
+    "authors": [
+      "Thien Udomsrirungruang",
+      "Nobuko Yoshida"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Combined Top-down and Bottom-up Approach to Multilevel Supervisory Control",
+    "abstract": "Recently, we have proposed two complementary approaches, top-down and bottom-up, to multilevel supervisory control of discrete-event systems. In this paper, we compare and combine these approaches. The combined approach has strong features of both approaches, namely, a lower complexity of the top-down approach with the generality of the bottom-up approach. We show that, for prefix-closed languages, a posteriori supervisors computed in the bottom-up manner do not alter maximal permissiveness within the three-level coordination control architecture, that is, the supremal three-level conditionall",
+    "date": "2015-02-25",
+    "url": "http://arxiv.org/abs/1502.07328v1",
+    "authors": [
+      "Jan Komenda",
+      "Tom\u00e1\u0161 Masopust",
+      "Jan H. van Schuppen"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Bottom-up versus top-down control and the transfer of information in complex model ecosystems",
+    "abstract": "Ecological systems are emergent features of ecological and adaptive dynamics of a community of interacting species. By natural selection through the abiotic environment and by co-adaptation within the community, species evolve, thereby giving rise to the ecological networks we regard as ecosystems. This reductionist perspective can be contrasted with the view that as species have to fit in the surrounding system, the system itself exerts selection pressure on the evolutionary pathways of the species. This interplay of bottom-up and top-down control in the development and growth of ecological s",
+    "date": "2018-07-02",
+    "url": "http://arxiv.org/abs/1807.00527v1",
+    "authors": [
+      "Katharina Brinck",
+      "Henrik Jeldtoft Jensen"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Building resilient organizations: The roles of top-down vs. bottom-up organizing",
+    "abstract": "Organizations face numerous challenges posed by unexpected events such as energy price hikes, pandemic disruptions, terrorist attacks, and natural disasters, and the factors that contribute to organizational success in dealing with such disruptions often remain unclear. This paper analyzes the roles of top-down and bottom-up organizational structures in promoting organizational resilience. To do so, an agent-based model of stylized organizations is introduced that features learning, adaptation, different modes of organizing, and environmental disruptions. The results indicate that bottom-up de",
+    "date": "2023-05-12",
+    "url": "http://arxiv.org/abs/2305.07352v2",
+    "authors": [
+      "Stephan Leitner"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cognitive computation with autonomously active neural networks: an emerging field",
+    "abstract": "The human brain is autonomously active. To understand the functional role of this self-sustained neural activity, and its interplay with the sensory data input stream, is an important question in cognitive system research and we review here the present state of theoretical modelling.   This review will start with a brief overview of the experimental efforts, together with a discussion of transient vs. self-sustained neural activity in the framework of reservoir computing. The main emphasis will be then on two paradigmal neural network architectures showing continuously ongoing transient-state ",
+    "date": "2009-01-20",
+    "url": "http://arxiv.org/abs/0901.3028v1",
+    "authors": [
+      "Claudius Gros"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Bottom-Up and Top-Down Reasoning with Hierarchical Rectified Gaussians",
+    "abstract": "Convolutional neural nets (CNNs) have demonstrated remarkable performance in recent history. Such approaches tend to work in a unidirectional bottom-up feed-forward fashion. However, practical experience and biological evidence tells us that feedback plays a crucial role, particularly for detailed spatial understanding tasks. This work explores bidirectional architectures that also reason with top-down feedback: neural units are influenced by both lower and higher-level units.   We do so by treating units as rectified latent variables in a quadratic energy function, which can be seen as a hier",
+    "date": "2015-07-21",
+    "url": "http://arxiv.org/abs/1507.05699v5",
+    "authors": [
+      "Peiyun Hu",
+      "Deva Ramanan"
+    ]
+  }
+]

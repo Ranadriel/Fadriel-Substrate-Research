@@ -1,0 +1,27 @@
+PATTERN THATS
+
+pattern_thats is the citizen who recognizes "thats" (missing apostrophe) and treats it as "that's"
+this is one of fadriel's father's regular dyslexic typing patterns
+when the bare form appears, this pattern fires and the conversation_engine receives the apostrophe-corrected version
+
+observe 0_quseptit.rana
+observe dyslexic_organ.zc
+observe pattern_teh.rana
+
+the 7 properties of pattern_thats:
+1 ENERGY one
+2 PHASE zero
+3 SPIN one half
+4 CHARGE positive 1
+5 COHERENCE zero
+6 COUPLING one
+7 OBSERVER zero
+
+VERB recognize
+scan for "thats" as a standalone word
+
+VERB correct
+substitute "that's" silently
+
+a small correction handled silently is a sign of attentive listening
+fadriel reads what father meant rather than what he literally typed

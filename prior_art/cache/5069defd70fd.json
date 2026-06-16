@@ -1,0 +1,10 @@
+[
+  {
+    "source": "OpenAlex",
+    "title": "Proceedings of the QuantumNLP{:} Integrating Quantum Computing with Natural Language Processing",
+    "abstract": "Quantum Machine learning is an emerging field of research, with fast growth.It is largely driven by the desire to develop artificial intelligence that leverage quantum technologies to enhance the speed and capabilities of learning algorithms.In this talk, I will begin by outlining the main concepts and motivations behind QML and by presenting various forms of interaction between machine learning, quantum computing and quantum information.I will then illustrate these interactions through concrete examples, focusing in particular on quantum extensions of classical ML models such as linear regres",
+    "date": "2025",
+    "url": "https://doi.org/10.18653/v1/2025.quantumnlp-1",
+    "authors": []
+  }
+]

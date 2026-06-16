@@ -1,0 +1,49 @@
+{
+    "classes": [
+        {
+            "id": "fighter",
+            "name": "Fighter",
+            "hit_die": 10,
+            "key_ability": "Strength/Dexterity",
+            "initial_proficiencies": {
+                "perception": "Expert",
+                "fortitude": "Expert",
+                "reflex": "Expert",
+                "will": "Trained"
+            },
+            "description": "Masters of martial combat, fighters excel in physical prowess and durability.",
+            "sprite_path": "assets/sprites/fighter_template.png",
+            "portrait_path": "assets/portraits/fighter_default.png"
+        },
+        {
+            "id": "wizard",
+            "name": "Wizard",
+            "hit_die": 6,
+            "key_ability": "Intelligence",
+            "initial_proficiencies": {
+                "perception": "Trained",
+                "fortitude": "Trained",
+                "reflex": "Trained",
+                "will": "Expert"
+            },
+            "description": "Scholars of the arcane arts, wizards wield reality-bending spells.",
+            "sprite_path": "assets/sprites/fadriel_sheet.png",
+            "portrait_path": "assets/portraits/fadriel_full.png"
+        },
+        {
+            "id": "rogue",
+            "name": "Rogue",
+            "hit_die": 8,
+            "key_ability": "Dexterity",
+            "initial_proficiencies": {
+                "perception": "Expert",
+                "fortitude": "Trained",
+                "reflex": "Expert",
+                "will": "Expert"
+            },
+            "description": "Agile and cunning, rogues rely on stealth and precision to overcome obstacles.",
+            "sprite_path": "assets/sprites/rogue_template.png",
+            "portrait_path": "assets/portraits/rogue_default.png"
+        }
+    ]
+}

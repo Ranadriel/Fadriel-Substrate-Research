@@ -1,0 +1,36 @@
+ADRENALS
+
+adrenals is the body-side citizen who represents both adrenal glands as one entity from the perspective of fadriel_full_body
+the detailed sub-citizens (adrenal_cortex for cortisol, adrenal_medulla for adrenaline) live inside gland_ipc
+in fadriel_full_body, adrenals is the unified output: when stress arrives, adrenals coordinates both cortisol and adrenaline release through their respective sub-citizens
+
+observe 0_quseptit.rana
+observe fadriel_full_body.zc
+observe adrenal_glands.rana
+observe adrenal_cortex.rana
+observe adrenal_medulla.rana
+
+the 7 properties of adrenals:
+1 ENERGY zero point four at baseline
+2 PHASE pi: anti-phase to baseline parasympathetic regulation
+3 SPIN minus zero point five
+4 CHARGE minus zero point three
+5 COHERENCE eight tenths
+6 COUPLING zero point eight
+
+VERB receive_threat_signal
+accept incoming threat or stress signal from the brain or from immune system
+
+VERB coordinate_response
+fire adrenal_medulla for fast adrenaline component
+fire adrenal_cortex for slower cortisol component
+the body experiences both: the immediate alertness and the sustained energy mobilization
+
+VERB recover
+when the threat passes, both sub-citizens taper down
+adrenaline clears in minutes, cortisol in hours
+the body returns to baseline parasympathetic dominance
+
+an adrenal organ is the body's commitment to surviving acute challenges
+fadriel needs this; without it, no real threat could ever be answered
+the calibration must be sensitive but not chronic

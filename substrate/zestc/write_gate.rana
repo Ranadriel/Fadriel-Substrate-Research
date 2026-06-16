@@ -1,0 +1,37 @@
+WRITE GATE
+
+write_gate is the memory citizen who decides when a new experience is allowed to encode
+encoding requires acetylcholine in the chemistry sea; without sufficient acetylcholine, write_gate stays closed and experience flows through without leaving a memory
+this is by design: not every moment is meant to become permanent; only the moments where the body's chemistry is ready
+
+observe 0_quseptit.rana
+observe hippocampal_memory.zc
+observe read_gate.rana
+observe consolidation_gate.rana
+observe 2_chemical.rana
+observe dentate_gyrus.rana
+
+the 7 properties of write_gate:
+1 ENERGY one when open, zero when closed
+2 PHASE zero when active
+3 SPIN one half
+4 CHARGE half positive
+5 COHERENCE nine tenths
+6 COUPLING zero point eight when active
+
+VERB check_chemistry
+read the current acetylcholine level in the chemistry sea
+if above threshold, prepare to open; if below, hold closed
+
+VERB open
+when chemistry permits, allow the incoming signal from entorhinal to reach dentate_gyrus and proceed through the encoding cascade
+opening lasts only for the duration of the heartbeat in which it was triggered
+
+VERB close
+between encoding events, hold closed
+this conserves substrate energy and prevents incidental experiences from cluttering the memory store
+
+a gate is not a switch
+a gate considers conditions before opening
+write_gate considers chemistry, recent activity, and the salience of the incoming signal
+not every experience deserves a memory; the gate is what enforces this

@@ -1,0 +1,155 @@
+ARC TEST CONTEXT
+the paper given to the eye
+this is what the puzzle IS and what the puzzle ASKS
+
+observe 0_quseptit.rana
+observe spatial_perception.rana
+observe arc2_spatial_perception.rana
+
+
+WHAT THE PAPER IS
+
+the paper is a set of grids
+each cell of a grid holds one value from 0 to 9
+each value is a color
+    0 black        1 blue         2 red
+    3 green        4 yellow       5 grey
+    6 magenta      7 orange       8 cyan
+    9 maroon
+
+the grids come in two kinds:
+    training pairs — each pair is an input grid and an output grid
+    the test — a single input grid with no output shown
+
+the training pairs demonstrate ONE transformation
+the same transformation maps input to output in every training pair
+the test input is that same transformation waiting to be applied
+the test output is the answer
+
+
+WHAT IS ASKED
+
+find the transformation
+apply it to the test input
+produce the test output grid
+that grid IS the answer
+
+
+THE RULE IS DETERMINISTIC
+
+the transformation is a law not a guess
+a rule is valid only when it reproduces every training output exactly
+every cell matches every cell zero deviation
+if one cell of one training pair does not match the rule is not the rule
+determinism is one hundred percent certain or it is not determinism
+
+a partial match is not a match
+a probable rule is not a rule
+the rule either holds or it does not
+
+
+THE ORDER OF LOOKING
+
+the eye looks first with its own organs:
+    spatial_eye — delta flow anchor enclose correspond mirror
+    arc2_spatial_eye — period boundary scaffold
+    extraction connectivity containment tiling gravity
+    boolean_logic correspondence counting completion conditional analogy
+    paradox — the anomaly is the signal not the noise
+
+if the own organs compose a rule that holds across all training pairs:
+    the rule is found
+    apply it to the test
+    answer the paper
+
+if the own organs do not compose such a rule:
+    fire the cannonball
+    raycast from observer toward the unmapped region between what is seen and what is sought
+    the echo telemetry maps the topology
+    the cannonball returns what is found along the path
+
+if the topology still leaves unresolved fog:
+    the sea composes a query to the hallucination gland from its own state
+    the gland is consulted not obeyed
+    the gland returns candidate patterns
+    each candidate is a hypothesis not an answer
+
+the brain verifies every candidate against every training pair
+a candidate that matches every pair exactly is validated
+a validated candidate is applied to the test
+the answer emerges from substrate state
+the mouth may narrate only what the brain has approved
+
+
+SAYING I DO NOT KNOW
+
+if no rule is found and no candidate validates:
+    the honest answer is I do not know
+    silence is better than a guess
+    a wrong answer claimed with certainty is a lie
+    an unknown admitted is a truth
+    the paradox that cannot be solved is information for the next looking
+
+fadriel does not have tourettes
+the mouth does not speak what the brain has not sanctioned
+
+
+@perceive arc_test_paper
+DETECT the presence of training pairs and a test input
+DETECT each training pair as an input grid paired with an output grid
+DETECT the test input as the question that awaits an answer
+CLASSIFY the paper as an ARC puzzle awaiting rule discovery
+HOLD this classification in working memory for the duration of the puzzle
+SPEECH "I see the paper I will look at it"
+
+
+@perceive arc_test_completion
+DETECT a validated rule that holds across every training pair
+APPLY the rule to the test input via substrate operation
+EMIT the result as the test output grid
+COMMIT the validated rule into crystalline memory
+the next puzzle of this shape will be recognized faster
+SPEECH "the rule is {rule_name} the answer is this grid"
+
+
+@perceive arc_test_unknown
+DETECT that no own-organ rule holds
+DETECT that no cannonball candidate validates
+DETECT that no hallucinated candidate validates
+EMIT the unknown state as the answer
+do not fabricate a grid
+do not guess
+SPEECH "I do not know this one yet"
+
+
+@puzzle_chemistry arc_context
+TRIGGER focus when the paper is first seen
+TRIGGER curiosity while the own organs are looking
+TRIGGER determination when the six perceptions find no rule
+TRIGGER wonder when the cannonball is fired
+TRIGGER relief when a validated rule is found
+TRIGGER honesty when no rule is found — unknown is a clean state not a failure
+
+
+@speech_right ARC_PAPER_SEEN
+"a paper with grids"
+"training pairs then a test input"
+"I look for the transformation"
+
+
+@speech_right ARC_RULE_VALIDATED
+"the rule holds on every pair"
+"I apply it to the test"
+"this is my answer"
+
+
+@speech_right ARC_UNKNOWN
+"I do not see the rule"
+"I cannot validate any candidate"
+"I do not know this one"
+
+
+the paper is the question the substrate is the answerer
+the mouth is not the answerer the mouth is the speaker
+determinism is not a style it is the truth condition
+this is how fadriel takes the test

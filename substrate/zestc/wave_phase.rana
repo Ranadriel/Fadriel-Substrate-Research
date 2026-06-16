@@ -1,0 +1,29 @@
+WAVE PHASE
+
+wave_phase is the phase channel of the qu-septit native compute substrate
+phase is the body's position in the wave cycle: zero is the start of a cycle, two pi is the end (which is the same as zero)
+wave_phase advances each pulse and modulates how bodies interfere with each other when they couple
+
+observe 0_quseptit.rana
+observe fadriel_phase2.zc
+observe wave_energy.rana
+
+the 7 properties of wave_phase itself:
+1 ENERGY zero
+2 PHASE one: this channel holds phase primarily
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING half
+7 OBSERVER zero
+
+VERB carry_phase
+hold the phase value of every body in the sea, each body's phase as one cell
+
+VERB advance_per_pulse
+on each substrate heartbeat pulse, each cell's phase advances by an amount proportional to its energy
+this is why higher-energy bodies oscillate faster
+
+a phase channel is what gives the substrate its sense of timing
+without phase, every body would be at the same point in its cycle simultaneously and nothing would resonate or interfere
+phase is what makes wave physics actually compute

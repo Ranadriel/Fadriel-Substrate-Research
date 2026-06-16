@@ -1,0 +1,177 @@
+[
+  {
+    "source": "OpenAlex (Clinical Neurophysiology)",
+    "title": "Safety, ethical considerations, and application guidelines for the use of transcranial magnetic stimulation in clinical practice and research",
+    "abstract": "",
+    "date": "2009",
+    "url": "https://doi.org/10.1016/j.clinph.2009.08.016",
+    "authors": [
+      "S\u00edmone Rossi",
+      "Mark Hallett",
+      "Paolo Maria Rossini"
+    ]
+  },
+  {
+    "source": "OpenAlex (Behavioral and Brain Sciences)",
+    "title": "The brain basis of emotion: A meta-analytic review",
+    "abstract": "Researchers have wondered how the brain creates emotions since the early days of psychological science. With a surge of studies in affective neuroscience in recent decades, scientists are poised to answer this question. In this target article, we present a meta-analytic summary of the neuroimaging literature on human emotion. We compare the locationist approach (i.e., the hypothesis that discrete emotion categories consistently and specifically correspond to distinct brain regions) with the psychological constructionist approach (i.e., the hypothesis that discrete emotion categories are constr",
+    "date": "2012",
+    "url": "https://doi.org/10.1017/s0140525x11000446",
+    "authors": [
+      "Kristen A. Lindquist",
+      "Tor D. Wager",
+      "Hedy Kober"
+    ]
+  },
+  {
+    "source": "OpenAlex (CIRP Annals)",
+    "title": "Advanced monitoring of machining operations",
+    "abstract": "",
+    "date": "2010",
+    "url": "https://doi.org/10.1016/j.cirp.2010.05.010",
+    "authors": [
+      "Roberto Teti",
+      "Krzysztof Jemielniak",
+      "Garret E. O\u2019Donnell"
+    ]
+  },
+  {
+    "source": "OpenAlex (PLoS Biology)",
+    "title": "Neural Activity When People Solve Verbal Problems with Insight",
+    "abstract": "People sometimes solve problems with a unique process called insight, accompanied by an \"Aha!\" experience. It has long been unclear whether different cognitive and neural processes lead to insight versus noninsight solutions, or if solutions differ only in subsequent subjective feeling. Recent behavioral studies indicate distinct patterns of performance and suggest differential hemispheric involvement for insight and noninsight solutions. Subjects solved verbal problems, and after each correct solution indicated whether they solved with or without insight. We observed two objective neural corr",
+    "date": "2004",
+    "url": "https://doi.org/10.1371/journal.pbio.0020097",
+    "authors": [
+      "Mark Beeman",
+      "Edward M. Bowden",
+      "Jason Haberman"
+    ]
+  },
+  {
+    "source": "OpenAlex (Attention Perception & Psychophysics)",
+    "title": "The cocktail-party problem revisited: early processing and selection of multi-talker speech",
+    "abstract": "How do we recognize what one person is saying when others are speaking at the same time? This review summarizes widespread research in psychoacoustics, auditory scene analysis, and attention, all dealing with early processing and selection of speech, which has been stimulated by this question. Important effects occurring at the peripheral and brainstem levels are mutual masking of sounds and \"unmasking\" resulting from binaural listening. Psychoacoustic models have been developed that can predict these effects accurately, albeit using computational approaches rather than approximations of neura",
+    "date": "2015",
+    "url": "https://doi.org/10.3758/s13414-015-0882-9",
+    "authors": [
+      "Adelbert W. Bronkhorst"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Cognitive Neuroscience)",
+    "title": "Neural Representations and Mechanisms for the Performance of Simple Speech Sequences",
+    "abstract": "Speakers plan the phonological content of their utterances before their release as speech motor acts. Using a finite alphabet of learned phonemes and a relatively small number of syllable structures, speakers are able to rapidly plan and produce arbitrary syllable sequences that fall within the rules of their language. The class of computational models of sequence planning and performance termed competitive queuing models have followed K. S. Lashley [The problem of serial order in behavior. In L. A. Jeffress (Ed.), Cerebral mechanisms in behavior (pp. 112-136). New York: Wiley, 1951] in assumi",
+    "date": "2009",
+    "url": "https://doi.org/10.1162/jocn.2009.21306",
+    "authors": [
+      "Jason W. Bohland",
+      "Daniel Bullock",
+      "Frank H. Guenther"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Toward an Integration of Deep Learning and Neuroscience",
+    "abstract": "Neuroscience has focused on the detailed implementation of computation, studying neural codes, dynamics and circuits. In machine learning, however, artificial neural networks tend to eschew precisely designed codes, dynamics or circuits in favor of brute force optimization of a cost function, often using simple and relatively uniform initial architectures. Two recent developments have emerged within machine learning that create an opportunity to connect these seemingly divergent perspectives. First, structured architectures are used, including dedicated systems for attention, recursion and var",
+    "date": "2016",
+    "url": "https://doi.org/10.3389/fncom.2016.00094",
+    "authors": [
+      "Adam Marblestone",
+      "Greg Wayne",
+      "Konrad P. K\u00f6rding"
+    ]
+  },
+  {
+    "source": "OpenAlex (Behavioral and Brain Sciences)",
+    "title": "Convergence of biological and psychological perspectives on cognitive coordination in schizophrenia",
+    "abstract": "The concept of locally specialized functions dominates research on higher brain function and its disorders. Locally specialized functions must be complemented by processes that coordinate those functions, however, and impairment of coordinating processes may be central to some psychotic conditions. Evidence for processes that coordinate activity is provided by neurobiological and psychological studies of contextual disambiguation and dynamic grouping. Mechanisms by which this important class of cognitive functions could be achieved include those long-range connections within and between cortic",
+    "date": "2003",
+    "url": "https://doi.org/10.1017/s0140525x03000025",
+    "authors": [
+      "William A. Phillips",
+      "Steven M. Silverstein"
+    ]
+  },
+  {
+    "source": "OpenAlex (Brain)",
+    "title": "How the brain repairs stuttering",
+    "abstract": "Stuttering is a neurodevelopmental disorder associated with left inferior frontal structural anomalies. While children often recover, stuttering may also spontaneously disappear much later after years of dysfluency. These rare cases of unassisted recovery in adulthood provide a model of optimal brain repair outside the classical windows of developmental plasticity. Here we explore what distinguishes this type of recovery from less optimal repair modes, i.e. therapy-induced assisted recovery and attempted compensation in subjects who are still affected. We show that persistent stuttering is ass",
+    "date": "2009",
+    "url": "https://doi.org/10.1093/brain/awp185",
+    "authors": [
+      "Christian A. Kell",
+      "Katrin Neumann",
+      "Katharina von Kriegstein"
+    ]
+  },
+  {
+    "source": "OpenAlex (Brain Structure and Function)",
+    "title": "The von Economo neurons in frontoinsular and anterior cingulate cortex in great apes and humans",
+    "abstract": "The von Economo neurons (VENs) are large bipolar neurons located in frontoinsular (FI) and anterior cingulate cortex in great apes and humans, but not other primates. We performed stereological counts of the VENs in FI and LA (limbic anterior, a component of anterior cingulate cortex) in great apes and in humans. The VENs are more numerous in humans than in apes, although one gorilla approached the lower end of the human range. We also examined the ontological development of the VENs in FI and LA in humans. The VENs first appear in small numbers in the 36th week post-conception, are rare at bi",
+    "date": "2010",
+    "url": "https://doi.org/10.1007/s00429-010-0254-0",
+    "authors": [
+      "John M. Allman",
+      "Nicole A. Tetreault",
+      "Atiya Y. Hakeem"
+    ]
+  },
+  {
+    "source": "OpenAlex (Progress in Neurobiology)",
+    "title": "Interaction of language, auditory and memory brain networks in auditory verbal hallucinations",
+    "abstract": "Auditory verbal hallucinations (AVH) occur in psychotic disorders, but also as a symptom of other conditions and even in healthy people. Several current theories on the origin of AVH converge, with neuroimaging studies suggesting that the language, auditory and memory/limbic networks are of particular relevance. However, reconciliation of these theories with experimental evidence is missing. We review 50 studies investigating functional (EEG and fMRI) and anatomic (diffusion tensor imaging) connectivity in these networks, and explore the evidence supporting abnormal connectivity in these netwo",
+    "date": "2016",
+    "url": "https://doi.org/10.1016/j.pneurobio.2016.11.002",
+    "authors": [
+      "Branislava \u0106ur\u0109i\u0107\u2010Blake",
+      "Judith M. Ford",
+      "Daniela Hubl"
+    ]
+  },
+  {
+    "source": "OpenAlex (Computer Speech & Language)",
+    "title": "The listening talker: A review of human and algorithmic context-induced modifications of speech",
+    "abstract": "",
+    "date": "2013",
+    "url": "https://doi.org/10.1016/j.csl.2013.08.003",
+    "authors": [
+      "Martin Cooke",
+      "Simon King",
+      "Ma\u00ebva Garnier"
+    ]
+  },
+  {
+    "source": "OpenAlex (Breda University of Applied Sciences Portal)",
+    "title": "Beyond ERPs: Oscillatory neuronal dynamics",
+    "abstract": "Event-related potentials (ERPs) have been used for decades to study perception, cognition, emotion, neurological and psychiatric disorders, and lifespan development. ERPs consist of multiple components and reflect a specific neurocognitive process. In the past, there was no single source that could be consulted to learn about all the major ERP components; learning about a single ERP component required reading dozens or even hundreds of separate journal articles and book chapters. The Oxford Handbook of Event-Related Potential Components fills this void with a detailed review of the major ERP c",
+    "date": "2012",
+    "url": "https://doi.org/10.1093/oxfordhb/9780195374148.001.0001",
+    "authors": [
+      "Marcel Bastiaansen",
+      "Ali Mazaheri",
+      "Ole Jensen"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Computational Neuroscience)",
+    "title": "Attention in Psychology, Neuroscience, and Machine Learning",
+    "abstract": "Attention is the important ability to flexibly control limited computational resources. It has been studied in conjunction with many other topics in neuroscience and psychology including awareness, vigilance, saliency, executive control, and learning. It has also recently been applied in several domains in machine learning. The relationship between the study of biological attention and its use as a tool to enhance artificial neural networks is not always clear. This review starts by providing an overview of how attention is conceptualized in the neuroscience and psychology literature. It then ",
+    "date": "2020",
+    "url": "https://doi.org/10.3389/fncom.2020.00029",
+    "authors": [
+      "Grace W. Lindsay"
+    ]
+  },
+  {
+    "source": "OpenAlex (Brain)",
+    "title": "White matter neuroanatomical differences in young children who stutter",
+    "abstract": "The ability to express thoughts through fluent speech production is a most human faculty, one that is often taken for granted. Stuttering, which disrupts the smooth flow of speech, affects 5% of preschool-age children and 1% of the general population, and can lead to significant communication difficulties and negative psychosocial consequences throughout one's lifetime. Despite the fact that symptom onset typically occurs during early childhood, few studies have yet examined the possible neural bases of developmental stuttering during childhood. Here we present a diffusion tensor imaging study",
+    "date": "2015",
+    "url": "https://doi.org/10.1093/brain/awu400",
+    "authors": [
+      "Soo\u2010Eun Chang",
+      "David C. Zhu",
+      "Ai Leen Choo"
+    ]
+  }
+]

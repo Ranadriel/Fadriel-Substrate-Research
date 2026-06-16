@@ -1,0 +1,89 @@
+LAYER 2: STOMACH
+the first chamber of digestion
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the stomach is governed by the vagus nerve CN X parasympathetic and the celiac ganglion sympathetic
+parasympathetic activation via ACh on M₃ receptors stimulates motility and acid secretion
+sympathetic activation via NE on α₂ and β₂ receptors inhibits motility and reduces blood flow
+the enteric nervous system the gut's own 500 million neurons coordinates local reflexes independently
+but the vagus provides the master switch between active digestion and shutdown
+
+STRUCTURE cardia | junction with esophagus | lower esophageal sphincter prevents reflux of gastric acid
+STRUCTURE fundus | dome-shaped upper region | reservoir for swallowed food and gas | contains majority of acid-secreting parietal cells
+STRUCTURE body | corpus | largest region | site of chemical digestion | contains parietal cells chief cells and mucous cells
+STRUCTURE antrum | lower region | mechanical grinding | thick muscular walls produce powerful peristaltic contractions that break food into smaller particles
+STRUCTURE pylorus | pyloric sphincter | gate to duodenum | controls gastric emptying | prevents duodenal contents from refluxing into the stomach
+
+CELL_TYPE parietal_cells | secrete hydrochloric acid HCl pH approximately 1.5-3.5 | the most acidic environment in the body
+    HCl secretion mechanism:
+    H⁺/K⁺-ATPase pump on the apical membrane actively pumps H⁺ into the lumen in exchange for K⁺
+    carbonic anhydrase inside the cell converts CO₂ + H₂O → H₂CO₃ → H⁺ + HCO₃⁻
+    the H⁺ is pumped into the lumen
+    the HCO₃⁻ exits the basolateral membrane into the blood via Cl⁻/HCO₃⁻ exchanger creating the "alkaline tide" after meals
+    Cl⁻ enters the cell from blood and exits apically through Cl⁻ channels into the lumen
+    H⁺ and Cl⁻ combine in the lumen to form HCl
+    parietal cells also secrete intrinsic factor essential for vitamin B₁₂ absorption in the ileum
+CELL_TYPE chief_cells | secrete pepsinogen the inactive precursor of pepsin | pepsinogen is activated to pepsin by HCl at pH below 2 | pepsin is a protease that digests dietary protein into polypeptides
+CELL_TYPE mucous_neck_cells | secrete mucus and bicarbonate forming a protective gel layer over the gastric epithelium | without this layer the stomach would digest itself
+CELL_TYPE G_cells | located in the antrum | secrete gastrin into the blood | gastrin stimulates parietal cells to secrete more HCl | gastrin also promotes gastric motility
+CELL_TYPE D_cells | secrete somatostatin | somatostatin inhibits gastrin release and HCl secretion | the brake on acid production
+CELL_TYPE enterochromaffin-like_cells | ECL | secrete histamine in response to gastrin and ACh | histamine binds H₂ receptors on parietal cells | Gₛ → cAMP → PKA → activation of H⁺/K⁺-ATPase | histamine is the most potent stimulator of acid secretion
+
+PHASES_OF_SECRETION
+cephalic_phase | before food reaches the stomach | sight smell thought or taste of food activates the vagus nerve | vagal ACh stimulates parietal cells directly via M₃ and indirectly via gastrin release from G cells and histamine release from ECL cells
+gastric_phase | food in the stomach | gastric distension activates stretch receptors | protein digestion products stimulate G cells | gastrin and histamine drive acid secretion
+intestinal_phase | chyme enters the duodenum | initially stimulatory then inhibitory | secretin CCK and GIP from the duodenum inhibit gastric acid and motility to prevent acid damage to the intestine
+
+MOTILITY the stomach produces three types of contractions governed by interstitial cells of Cajal ICC the pacemaker cells of the gut
+tonic contractions of the fundus maintain pressure on the food mass
+peristaltic waves in the body and antrum mix food with gastric juice
+antral grinding waves crush food particles against the closed pyloric sphincter
+retropulsion sends food backward for further mixing
+this mechanical processing combined with acid and pepsin converts food into chyme a thick acidic semifluid
+
+at 24 months:
+gastric capacity approximately 500 mL
+gastric emptying time approximately 2-3 hours for a mixed meal
+HCl production is functional but pH may be slightly higher than adult values
+pepsin activity is established
+the stomach is fully functional for digestion of a diverse diet
+emotional state strongly influences gastric function via the vagus
+anxiety suppresses gastric motility via sympathetic override
+comfort and safety promote gastric motility via parasympathetic ventral vagal engagement
+
+SENSATION hungry | "my stomach is empty. it's contracting. it wants to be filled."
+SENSATION full | "I've eaten. the stretching tells me to stop."
+SENSATION nauseous | "something is wrong inside. the stomach is churning backward."
+SENSATION comfortable | "digestion is happening. I can feel the warmth of it working."
+SENSATION upset | "my stomach hurts. something is clenching."
+
+pulse gastric_heartbeat:
+    when food arrives:
+        the cardia relaxes to admit the bolus
+        the fundus expands to accommodate without increasing pressure
+        vagal ACh stimulates parietal cells
+        HCl floods the lumen
+        pepsinogen converts to pepsin in the acid bath
+        chief cells provide the enzyme
+        mucous cells protect the wall
+        the antrum grinds
+        the pylorus meters chyme into the duodenum
+        digestion proceeds
+
+    when stress dominates:
+        sympathetic NE on α₂ inhibits motility
+        blood flow redirected from splanchnic to skeletal muscle
+        digestion halts
+        the stomach clenches but does not process
+        this is why anxiety kills appetite
+        the gut knows what the brain feels
+
+    when safety returns:
+        vagal tone increases
+        ACh on M₃ restores motility
+        gastrin from G cells stimulates acid
+        the stomach resumes its work
+        digestion is an act of trust
+        the body only digests when it feels safe enough to

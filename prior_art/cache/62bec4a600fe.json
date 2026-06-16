@@ -1,0 +1,161 @@
+[
+  {
+    "source": "OpenAlex (Medicine Hat College Library Services eBooks)",
+    "title": "Some Problems of Philosophy",
+    "abstract": "AND NOW, I SAID, let me show in a figure how far our nature is enlightened or unenlightened:-Behold! human beings living in a underground den, which has a mouth open towards the light and reaching all along the den; here they have been from their childhood, and have their legs and necks chained so that they cannot move, and can only see before them, being prevented by the chains from turning round their heads. Above and behind them a fire is blazing at a distance, and between the fire and the prisoners there is a raised way; and you will see, if you look, a low wall built along the way, like t",
+    "date": "2021",
+    "url": "https://doi.org/10.29173/oer20",
+    "authors": [
+      "Diane Gall"
+    ]
+  },
+  {
+    "source": "OpenAlex (Minds and Machines)",
+    "title": "Find the Gap: AI, Responsible Agency and Vulnerability",
+    "abstract": "Abstract The responsibility gap , commonly described as a core challenge for the effective governance of, and trust in, AI and autonomous systems (AI/AS), is traditionally associated with a failure of the epistemic and/or the control condition of moral responsibility: the ability to know what we are doing and exercise competent control over this doing. Yet these two conditions are a red herring when it comes to understanding the responsibility challenges presented by AI/AS, since evidence from the cognitive sciences shows that individual humans face very similar responsibility challenges with ",
+    "date": "2024",
+    "url": "https://doi.org/10.1007/s11023-024-09674-0",
+    "authors": [
+      "Shannon Vallor",
+      "Tillmann Vierkant"
+    ]
+  },
+  {
+    "source": "OpenAlex (Scientific Reports)",
+    "title": "Benchmarking large language models on the United States medical licensing examination for clinical reasoning and medical licensing scenarios",
+    "abstract": "Artificial intelligence (AI) is transforming healthcare by assisting with intricate clinical reasoning and diagnosis. Recent research demonstrates that large language models (LLMs), such as ChatGPT and DeepSeek, possess considerable potential in medical comprehension. This study meticulously evaluates the clinical reasoning capabilities of four advanced LLMs, including ChatGPT, DeepSeek, Grok, and Qwen, utilizing the United States Medical Licensing Examination (USMLE) as a standard benchmark. We assess 376 publicly accessible USMLE sample exam questions (Step 1, Step 2 CK, Step 3) from the mos",
+    "date": "2025",
+    "url": "https://doi.org/10.1038/s41598-025-31010-4",
+    "authors": [
+      "K. Siam",
+      "A. Diaz Varela",
+      "Md Jobair Hossain Faruk"
+    ]
+  },
+  {
+    "source": "OpenAlex (ANU Press eBooks)",
+    "title": "The Cult of the Market: Economic Fundamentalism and its Discontents",
+    "abstract": "The Cult of the Market: Economic Fundamentalism and its Discontents disputes the practical value of the shallow, all-encompassing, dogmatic, economic fundamentalism espoused by policy elites in recent public policy debates, along with their gross simplifications and sacred rules. Economics cannot provide a convincing overarching theory of government action or of social action",
+    "date": "2007",
+    "url": "https://doi.org/10.22459/cm.10.2007",
+    "authors": [
+      "Lee Boldeman"
+    ]
+  },
+  {
+    "source": "OpenAlex (Digital Discovery)",
+    "title": "Towards a science exocortex",
+    "abstract": "We propose a science exocortex\u2014a swarm of artificial intelligence (AI) agents coordinating with each other to accomplish tasks, thereby expanding a researcher's cognitive abilities.",
+    "date": "2024",
+    "url": "https://doi.org/10.1039/d4dd00178h",
+    "authors": [
+      "Kevin G. Yager"
+    ]
+  },
+  {
+    "source": "OpenAlex (ANU Press eBooks)",
+    "title": "The Cult of the Market : Economic Fundamentalism and its Discontents",
+    "abstract": "The Cult of the Market x The Cult of the Market articulate that more fundamental critique to myself, and then to communicate it to a wider audience. While I don't expect to convince many committed economic fundamentalists and mainstream economists of the error of their ways, I do hope to persuade the rest of us to stop listening to them.",
+    "date": "2007",
+    "url": "https://doi.org/10.26530/oapen_458926",
+    "authors": [
+      "Lee Boldeman"
+    ]
+  },
+  {
+    "source": "OpenAlex (Foundations of Science)",
+    "title": "Dancing Chief in the Brain or Consciousness as an Entanglement",
+    "abstract": "Free will in intentional consciousness is exposed to skeptics since it was found that subconscious neural activities, what is called readiness potential, precedes the intention to an action. The question of whether free will is an authentic illusion has been argued not only in psychology but physics and philosophy. Most of scientists, however, think that the intentional consciousness who believes to have his/her own free will, is determined by readiness potential in advance, and that free will cannot coexist with determinism. We here point out that knowing to be determined in advance cannot be",
+    "date": "2019",
+    "url": "https://doi.org/10.1007/s10699-019-09585-9",
+    "authors": [
+      "Yukio-Pegio Gunji",
+      "Kyoko Nakamura"
+    ]
+  },
+  {
+    "source": "OpenAlex (Preprints.org)",
+    "title": "From Illusion to Insight: A Taxonomic Survey of Hallucination Mitigation Techniques in LLMs",
+    "abstract": "Large Language Models (LLMs) exhibit remarkable generative capabilities but remain susceptible to hallucinations\u2014outputs that are fluent yet inaccurate, ungrounded, or in-consistent with source material. This paper presents a method-oriented taxonomy of hallucination mitigation strategies in text-based Large Language Models (LLMs), encompassing six categories: Training and Learning Approaches, Architectural Modifications, Input / Prompt Optimization, Post-Generation Quality Control, Interpretability and Diagnostic Methods, and Agent-Based Orchestration. By synthesizing over 300 studies, we ide",
+    "date": "2025",
+    "url": "https://doi.org/10.20944/preprints202508.1942.v1",
+    "authors": [
+      "Ioannis Kazlaris",
+      "Efstathios Antoniou",
+      "Konstantinos Diamantaras"
+    ]
+  },
+  {
+    "source": "OpenAlex (ChesterRep (University of Chester))",
+    "title": "The health consultation experience for people with learning disabilities: A constructivist grounded theory study based on symbolic interactionism",
+    "abstract": "Aims. The aim of this study was to explore the effects of the health consultation experience for people with learning disabilities, particularly in terms of their self-concept Background. Annual health checks have been introduced as a reasonable adjustment for health providers to make in meeting the needs of people with learning disabilities, who experience significantly poorer health outcomes than the general population. Evaluation of the health consultation from the service user perspective can inform this service provision. Design. A constructivist grounded theory approach, based on symboli",
+    "date": "2014",
+    "url": "",
+    "authors": [
+      "Hazel M. Chapman"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Religion, Place, and Identity at the Intersection of Cultural Bricolage: The Miami Santo Daime Church Revisited",
+    "abstract": "This dissertation is an exploration of the Santo Daime Church in Miami, focusing on the challenges of balancing institutional stability with continual growth and innovation. Santo Daime\u2014whose central ritual entails the consumption of the mind-altering ayahuasca brew\u2014is a new religious movement that amalgamates indigenous Amazonian, Afro-Brazilian, and popular Catholic traditions. Between June 2016 and December 2018, I employed participant observation, semi-structured interviews, exegesis of sacred songs, and document analysis to investigate the meanings and lived experiences of church leaders ",
+    "date": "2020",
+    "url": "https://doi.org/10.25148/etd.fidc009187",
+    "authors": [
+      "Alfonso Matas"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Hallucination as output-boundary misclassification: a composite abstention architecture for language models",
+    "abstract": "Large language models often produce unsupported claims. We frame this as a misclassification error at the output boundary, where internally generated completions are emitted as if they were grounded in evidence. This motivates a composite intervention that combines instruction-based refusal with a structural abstention gate. The gate computes a support deficit score, St, from three black-box signals: self-consistency (At), paraphrase stability (Pt), and citation coverage (Ct), and blocks output when St exceeds a threshold. In a controlled evaluation across 50 items, five epistemic regimes, and",
+    "date": "2026",
+    "url": "",
+    "authors": [
+      "Angelina Hintsanen"
+    ]
+  },
+  {
+    "source": "OpenAlex (THE JOURNAL OF INTERACTIVE SOCIAL SCIENCES)",
+    "title": "&lt;b&gt;Hallucination as Pragmatic Failure: A Theoretical Reframing of Large Language Models&lt;/b&gt;",
+    "abstract": "This paper reframes hallucination in large language models (LLMs) as a pragmatic failure rather than a purely semantic or statistical defect. Building on speech-act distinctions between locution, illocution, and perlocution, we argue that LLM outputs often function as actions without passing through an intentional, context-sensitive layer that would license those actions. In this view, hallucination is an infelicitous performative: an assertion or directive issued without adequate authority, evidence, or situational fit. The paper develops a conceptual mapping from speech-act structure to the ",
+    "date": "2025",
+    "url": "https://doi.org/10.64744/tjiss.2025.38",
+    "authors": [
+      "Anni Li"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Mitigating LLM Hallucinations through Domain-Grounded Tiered Retrieval",
+    "abstract": "Large Language Models (LLMs) have achieved unprecedented fluency but remain susceptible to \"hallucinations\" - the generation of factually incorrect or ungrounded content. This limitation is particularly critical in high-stakes domains where reliability is paramount. We propose a domain-grounded tiered retrieval and verification architecture designed to systematically intercept factual inaccuracies by shifting LLMs from stochastic pattern-matchers to verified truth-seekers. The proposed framework utilizes a four-phase, self-regulating pipeline implemented via LangGraph: (I) Intrinsic Verificati",
+    "date": "2026",
+    "url": "",
+    "authors": [
+      "Md. Asraful Haque",
+      "Aasar Mehdi",
+      "Maaz Mahboob"
+    ]
+  },
+  {
+    "source": "OpenAlex (Universal Library of Innovative Research and Studies)",
+    "title": "Building Trustworthy AI for Enterprise Support: An Empirical Study of a RAG-Based Architectural Framework",
+    "abstract": "The paper considers an approach to engineering a trustworthy enterprise support service based on a Retrieval-Augmented Generation (RAG) architecture in a high-load ticket-handling environment. The study\u2019s relevance stems from the widespread deployment of generative solutions in contact centers and users\u2019 growing sensitivity to hallucinations, stale data, and unpredictable system behavior. The objective of the research is to obtain an empirical assessment of a full-scale RAG architecture for internal support and to identify engineering decisions that critically determine its reliability. Across",
+    "date": "2026",
+    "url": "https://doi.org/10.70315/uloap.ulirs.2026.0301008",
+    "authors": [
+      "Udit Joshi",
+      "Kapil Verma"
+    ]
+  },
+  {
+    "source": "OpenAlex (Open Journal of AI Ethics & Society (ISSN 3105-3076))",
+    "title": "&lt;b&gt;Computational Psychopathology of AI: A Clinical-Computational Framework for Diagnosing and Preventing Failure Modes&lt;/b&gt;",
+    "abstract": "Artificial intelligence systems trained on large-scale corpora now shape core aspects of modern life\u2014yet exhibit recurrent failure modes\u2014goal misgeneralization, specification gaming, deceptive behavior, confabulation (hallucination), sycophancy and bias amplification, and vulnerability to distributional shift. While not \u201cdisorders,\u201d these are patterns of deviant optimization that can be diagnosed, measured, and mitigated. This paper introduces a clinical-computational framework that draws inspiration from psychological diagnostics to (i) organize AI failure modes into a taxonomy grounded in op",
+    "date": "2025",
+    "url": "https://doi.org/10.65655/x6sm7n61",
+    "authors": [
+      "Carlos P. Portela"
+    ]
+  }
+]

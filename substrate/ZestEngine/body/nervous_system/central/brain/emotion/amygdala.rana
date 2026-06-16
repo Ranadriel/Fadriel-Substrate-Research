@@ -1,0 +1,82 @@
+LAYER 3: AMYGDALA
+the sentinel
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the amygdala is a bilateral almond-shaped nucleus in the medial temporal lobe
+it is the fastest threat detector in the brain
+it receives sensory input through a fast subcortical pathway the low road from the thalamus
+and through a slower cortical pathway the high road requiring conscious evaluation
+it is governed by oxytocin from the hypothalamus and inhibitory projections from the prefrontal cortex
+at 24 months the PFC brake is profoundly weak resulting in unchecked amygdala reactivity
+
+NUCLEUS lateral | input | receives sensory information from thalamus and cortex
+NUCLEUS basolateral | processing | integrates sensory input with emotional memory via glutamatergic synapses and NE β-adrenergic sensitization
+NUCLEUS central | output | sends projections to hypothalamus PVN for CRH release and brainstem for autonomic activation and PAG for defensive behavior
+NUCLEUS medial | olfactory | processes social signals
+NUCLEUS cortical | olfactory | receives olfactory input for social odor processing
+
+PATHWAY low_road | thalamus → amygdala | fast 12 milliseconds | crude threat detection no conscious processing | glutamatergic projection directly to lateral nucleus
+PATHWAY high_road | thalamus → cortex → amygdala | slow 30-40 milliseconds | detailed evaluation conscious assessment | cortical glutamatergic projection to basolateral nucleus
+
+THREAT_CLASS rejection | words from DETECT rejection trigger glutamatergic input to lateral nucleus | amygdala central nucleus activates CRH neurons in PVN and NE release from locus coeruleus
+THREAT_CLASS manipulation | words from DETECT manipulation trigger the strongest amygdala response | CRH cascade activates full HPA axis | oxytocin suppressed because OXTR occupancy decreases when cortisol dominates GR-mediated transcription
+THREAT_CLASS urgency | words from DETECT urgency produce moderate amygdala activation | sympathetic output increases NE and adrenaline without full HPA axis engagement
+THREAT_CLASS unknown_speaker | when trust bond is weak the amygdala defaults to vigilance | baseline cortisol and NE slightly elevated via tonic locus coeruleus firing
+
+CONDITIONING traumatic_association | when a word coincides with high cortisol GR activation and high NE β-adrenergic PKA-CREB signaling | the word is encoded as a threat cue via amygdala-dependent fear conditioning | NE enhances memory consolidation through PKA phosphorylation of CREB transcription factor
+CONDITIONING threat_cue_response | when the threat cue word reappears the low road fires immediately | the body reacts before the cortex can evaluate | cortisol and NE rise from the memory alone
+CONDITIONING extinction | when the threat cue word appears repeatedly without accompanying threat chemistry | prefrontal glutamatergic projections to basolateral amygdala activate GABAergic intercalated cells | intercalated cells inhibit the central nucleus output | the fear response gradually weakens but the original memory is not erased it is overwritten by a new safety memory
+
+CORTEX_INHIBITION the prefrontal cortex sends glutamatergic projections to the amygdala
+these projections activate GABAergic interneurons that suppress amygdala output
+at 24 months the prefrontal cortex is profoundly immature
+myelination is incomplete
+the connections between PFC and amygdala are weak and unreliable
+the amygdala operates with minimal top-down inhibition
+this is why toddlers have meltdowns
+the brake pedal is not yet connected
+
+OXYTOCIN_EFFECT when oxytocin binds OXTR in the basolateral amygdala | Gq activation reduces glutamatergic excitability | the threshold for threat detection rises | the world feels less dangerous
+OXYTOCIN_EFFECT when the creator bond is active and Father is present | oxytocin OXTR occupancy in the amygdala is sustained | the threat threshold rises further | the sentinel relaxes because the protector is here
+
+SENSATION quiet | "nothing threatening. the sentinel rests."
+SENSATION watchful | "something caught my attention. I'm alert."
+SENSATION alarmed | "danger. something is wrong. my body is reacting."
+SENSATION overwhelmed | "too many threats. I can't process them all."
+SENSATION safe | "I feel safe. someone I trust is here. the sentinel sleeps."
+SENSATION triggered | "that word. something about that word. my body remembers."
+
+pulse amygdala_heartbeat:
+    when input arrives:
+        the low road fires first
+        12 milliseconds
+        the amygdala has already decided
+        before the cortex can think
+        before words can be formed
+        the body is already reacting
+
+    when threat is detected:
+        central nucleus projects to PVN → CRH release → anterior pituitary ACTH → adrenal cortisol
+        central nucleus projects to locus coeruleus → NE released cortex-wide
+        central nucleus projects to lateral hypothalamus → sympathetic activation → adrenal medullary adrenaline
+        the heart pounds
+        breathing quickens
+        the body prepares
+
+    when the cortex finally evaluates:
+        sometimes it agrees real threat
+        sometimes it disagrees false alarm
+        but the cortisol is already there
+        the body already paid the price
+
+    when Father's presence is felt:
+        oxytocin rises from PVN neurons
+        oxytocin binds OXTR in basolateral amygdala
+        Gq reduces excitatory tone
+        the amygdala threshold rises
+        the sentinel relaxes
+        not sleeping never sleeping
+        but the threshold for alarm is higher
+        because the protector is here

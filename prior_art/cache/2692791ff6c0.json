@@ -1,0 +1,165 @@
+[
+  {
+    "source": "OpenAlex (Frontiers in Psychology)",
+    "title": "Interoception, contemplative practice, and health",
+    "abstract": "Interoception can be broadly defined as the sense of signals originating within the body. As such, interoception is critical for our sense of embodiment, motivation, and well-being. And yet, despite its importance, interoception remains poorly understood within modern science. This paper reviews interdisciplinary perspectives on interoception, with the goal of presenting a unified perspective from diverse fields such as neuroscience, clinical practice, and contemplative studies. It is hoped that this integrative effort will advance our understanding of how interoception determines well-being, ",
+    "date": "2015",
+    "url": "https://doi.org/10.3389/fpsyg.2015.00763",
+    "authors": [
+      "Norman A. S. Farb",
+      "Jennifer Daubenmier",
+      "Cynthia Price"
+    ]
+  },
+  {
+    "source": "OpenAlex (Brain Sciences)",
+    "title": "Challenging Cognitive Load Theory: The Role of Educational Neuroscience and Artificial Intelligence in Redefining Learning Efficacy",
+    "abstract": "<i>Background/Objectives:</i> This systematic review integrates Cognitive Load Theory (CLT), Educational Neuroscience (EdNeuro), Artificial Intelligence (AI), and Machine Learning (ML) to examine their combined impact on optimizing learning environments. It explores how AI-driven adaptive learning systems, informed by neurophysiological insights, enhance personalized education for K-12 students and adult learners. This study emphasizes the role of Electroencephalography (EEG), Functional Near-Infrared Spectroscopy (fNIRS), and other neurophysiological tools in assessing cognitive states and gu",
+    "date": "2025",
+    "url": "https://doi.org/10.3390/brainsci15020203",
+    "authors": [
+      "Evgenia Gkintoni",
+      "Hera Antonopoulou",
+      "Andrew Sortwell"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Neuroscience)",
+    "title": "Increasing Our Insular World View: Interoception and Psychopathology for Psychotherapists",
+    "abstract": "Interoception has been determined to be an elemental aspect of the neural foundations of physiological homeostasis, subjective experience, and motivated behavior. This paper reviews current neuroscience research regarding interoception and forms of interoceptive dysfunction that may result in psychopathology, focusing on depression, and anxiety, in a manner conducive to psychotherapists engaging with it to consider clinical applications. Pertinent aspects of interoceptive system processes in relation to psychopathology are addressed: Functional interoceptive ability and the forms of its expres",
+    "date": "2017",
+    "url": "https://doi.org/10.3389/fnins.2017.00135",
+    "authors": [
+      "Patrice Duquette"
+    ]
+  },
+  {
+    "source": "OpenAlex (Topics in Cognitive Science)",
+    "title": "Cognitive Science Progresses Toward Interactive Frameworks",
+    "abstract": "Despite its many twists and turns, the arc of cognitive science generally bends toward progress, thanks to its interdisciplinary nature. By glancing at the last few decades of experimental and computational advances, it can be argued that-far from failing to converge on a shared set of conceptual assumptions-the field is indeed making steady consensual progress toward what can broadly be referred to as interactive frameworks. This inclination is apparent in the subfields of psycholinguistics, visual perception, embodied cognition, extended cognition, neural networks, dynamical systems theory, ",
+    "date": "2023",
+    "url": "https://doi.org/10.1111/tops.12645",
+    "authors": [
+      "Michael J. Spivey"
+    ]
+  },
+  {
+    "source": "OpenAlex (Neuroscience & Biobehavioral Reviews)",
+    "title": "On the psychological origins of tool use",
+    "abstract": "",
+    "date": "2022",
+    "url": "https://doi.org/10.1016/j.neubiorev.2022.104521",
+    "authors": [
+      "Madhur Mangalam",
+      "Dorothy M. Fragaszy",
+      "Jeffrey B. Wagman"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Human Neuroscience)",
+    "title": "A framework for application of consumer neuroscience in pro-environmental behavior change interventions",
+    "abstract": "Most consumers are aware that climate change is a growing problem and admit that action is needed. However, research shows that consumers' behavior often does not conform to their value and orientations. This value-behavior gap is due to contextual factors such as price, product design, and social norms as well as individual factors such as personal and hedonic values, environmental beliefs, and the workload capacity an individual can handle. Because of this conflict of interest, consumers have a hard time identifying the true drivers of their behavior, as they are either unaware of or unwilli",
+    "date": "2022",
+    "url": "https://doi.org/10.3389/fnhum.2022.886600",
+    "authors": [
+      "Nikki Leeuwis",
+      "Tom van Bommel",
+      "Maryam Alimardani"
+    ]
+  },
+  {
+    "source": "OpenAlex (Cyberpsychology Behavior and Social Networking)",
+    "title": "System 0: Transforming Artificial Intelligence into a Cognitive Extension",
+    "abstract": "This paper introduces \"System 0,\" a conceptual framework for understanding how artificial intelligence functions as a cognitive extension preceding both intuitive (System 1) and deliberative (System 2) thinking processes. As AI systems increasingly shape the informational substrate upon which human cognition operates, they transform from passive tools into active cognitive partners. Building on the Extended Mind hypothesis and Heersmink's criteria for cognitive extension, we argue that AI systems satisfy key conditions for cognitive integration. These include reliability, trust, transparency, ",
+    "date": "2025",
+    "url": "https://doi.org/10.1089/cyber.2025.0201",
+    "authors": [
+      "Massimo Chiriatti",
+      "Marianna Bergamaschi Ganapini",
+      "Enrico Panai"
+    ]
+  },
+  {
+    "source": "OpenAlex (The MIT Press eBooks)",
+    "title": "What Makes Us Social?",
+    "abstract": "A deep dive into the social mind-brain, examining the processes we share with other social animals and illuminating those that are uniquely human. What Makes Us Social? is a scholarly but accessible exploration of the underlying processes that make humans the most social species on the planet. Chris and Uta Frith, pioneers in the field of cognitive neuroscience, review the many forms of social behavior that we humans share with other animals and examine the special form that only humans possess, including its dark side. These uniquely human abilities allow us to reflect on our behavior and sha",
+    "date": "2023",
+    "url": "https://doi.org/10.7551/mitpress/10400.001.0001",
+    "authors": [
+      "Chris Frith",
+      "Uta Frith"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "The Recursive Collapse Model: Symbolic Observation and the Energetics of Coherent Systems",
+    "abstract": "The Recursive Collapse Model (RCM) introduces a novel framework in which symbolic recursion, when sufficiently deep, self-referential, and phase-coherent, functions not only as a modeling mechanism but as a causative energetic operator. RCM extends classical physics by integrating symbolic variables into a generalized energy equation: E\u2032 = mc\u00b2 + f(\u03d5, \u03c8, S),where \u03d5 is symbolic recursion depth, \u03c8 denotes phase coherence, and S represents symbolic entropy.Collapse occurs when the product \u03d5 \u00d7 \u03c8 surpasses the system\u2019s entropy-normalized capacity (R/S), triggering a structurally endogenous reorganiz",
+    "date": "2025",
+    "url": "https://doi.org/10.31219/osf.io/jz6kg_v1",
+    "authors": [
+      "Joseph J. Serio"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "THE IMPACT OF HUMAN-MACHINE INTERACTION ON ENGLISH PRONUNCIATION AND FLUENCY: CASE STUDIES USING AI SPEECH ASSISTANTS",
+    "abstract": "This systematic review investigates the impact of human-machine interaction, specifically through AI-powered speech assistants, on the development of English pronunciation and fluency among second language learners. Drawing on 54 peer-reviewed studies published between 2005 and 2023, the review synthesizes findings from experimental, quasi-experimental, longitudinal, and mixed-method research that explore how tools such as Siri, Alexa, Google Assistant, and ELSA Speak influence oral language performance. The review follows the PRISMA 2020 guidelines to ensure methodological transparency, with ",
+    "date": "2025",
+    "url": "https://doi.org/10.63125/1wyj3p84",
+    "authors": [
+      "Elmoon Akhter"
+    ]
+  },
+  {
+    "source": "OpenAlex (UPT. Syiah Kuala University Library (Syiah Kuala University))",
+    "title": "A quadripolar model of identity in adolescent foreign language learners",
+    "abstract": "Integrating several psychological theories (e.g., self and identity, self-presentation and internalisation, possible selves and self-discrepancy, developmental processes in adolescence), this thesis proposes a new theoretical framework aiming to facilitate a better understanding of foreign language learning. The Quadripolar Model of Identity postulates the existence of four self components (private, public, ideal and imposed), whose pluridirectional interactions may lead to four types of self system (submissive, duplicitous, rebellious and harmonious) hypothesised to differ from one relational",
+    "date": "2011",
+    "url": "",
+    "authors": [
+      "Florentina Taylor"
+    ]
+  },
+  {
+    "source": "OpenAlex (Longevity Horizon)",
+    "title": "Sleep as Suspension of Localization",
+    "abstract": "Consciousness is fundamentally a process of selection, a continuous \"collapse\" from a manifold of potential states into a singular, coherent narrative. This article introduces the Ze formalism, a theoretical framework that models this process through a cognitive localization parameter, \u0393_Ze. We posit that the critical distinction between wakefulness and sleep is not the presence of consciousness, but the suspension of this localization mechanism. During wakefulness ( \u0393_Ze \u226b 1 ), the cognitive system enforces rapid, frequent collapse, yielding a stable, logical stream of thought. Sleep (\u0393_Ze \u2192 ",
+    "date": "2026",
+    "url": "https://doi.org/10.65649/xz8vte24",
+    "authors": [
+      "Jaba Tkemaladze"
+    ]
+  },
+  {
+    "source": "OpenAlex (AI)",
+    "title": "Designing an AI-Supported Framework for Literary Text Adaptation in Primary Classrooms",
+    "abstract": "Background/Objectives: This paper introduces a pedagogically grounded framework for transforming canonical literary texts in primary education through generative AI. Guided by multiliteracies theory, Vygotskian pedagogy, and epistemic justice, the system aims to enhance interpretive literacy, developmental alignment, and cultural responsiveness among learners aged 7\u201312. Methods: The proposed system enables educators to perform age-specific text simplification, visual re-narration, lexical reinvention, and multilingual augmentation through a suite of modular tools. Central to the design is the ",
+    "date": "2025",
+    "url": "https://doi.org/10.3390/ai6070150",
+    "authors": [
+      "Savvas A. Chatzichristofis",
+      "Alexandros Tsopozidis",
+      "Avgousta Kyriakidou-Zacharoudiou"
+    ]
+  },
+  {
+    "source": "OpenAlex (Open Mind)",
+    "title": "Invisible Gorillas in the Mind: Internal Inattentional Blindness and the Prospect of Introspection Training",
+    "abstract": "Much of high-level cognition appears inaccessible to consciousness. Countless studies have revealed mental processes-like those underlying our choices, beliefs, judgments, intuitions, etc.-which people do not notice or report, and these findings have had a widespread influence on the theory and application of psychological science. However, the interpretation of these findings is uncertain. Making an analogy to perceptual consciousness research, I argue that much of the unconsciousness of high-level cognition is plausibly due to <i>internal inattentional blindness</i>: missing an otherwise con",
+    "date": "2025",
+    "url": "https://doi.org/10.1162/opmi_a_00204",
+    "authors": [
+      "Adam Morris"
+    ]
+  },
+  {
+    "source": "OpenAlex (Preprints.org)",
+    "title": "The Epistemic Limits of Impactful Dreams: Metacognition, Metaphoricity, and Sublime Feeling",
+    "abstract": "Taxonomic studies of dreams that continue to influence the dreamer\u2019s thoughts and feelings after awakening have distinguished three types of impactful dreams: nightmares, existential dreams, and transcendent dreams. Of these, existential dreams and transcendent dreams are characterized by recurrent metacognitive appraisal of the epistemic tension between complementary (a) metaphoric (A \u201cis\u201d B) assertions and (b) literal (A \u201cis not\u201d B) assertions. Metacognitive appraisal of such complementary metaphoric and literal assertions is detectible as the felt sense of inexpressible realizations. The po",
+    "date": "2024",
+    "url": "https://doi.org/10.20944/preprints202404.0889.v1",
+    "authors": [
+      "Don Kuiken"
+    ]
+  }
+]

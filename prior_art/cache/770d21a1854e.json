@@ -1,0 +1,174 @@
+[
+  {
+    "source": "Semantic Scholar",
+    "title": "Classification of Crystallization Images of Pharmaceutical Raw Materials Using Convolutional Neural Network Algorithm",
+    "abstract": "The rapid advancement of artificial intelligence (AI) has opened new opportunities for automation in the pharmaceutical industry, particularly in the classification of raw drug materials. Manual classification methods are time-consuming and prone to human error, highlighting the need for reliable automated solutions. This study applied a deep learning approach for classifying crystallization images of pharmaceutical raw materials using a Convolutional Neural Network (CNN). A dataset of 300 crystallization images of Nicotinamide and Ferulic Acid was obtained through hot-stage microscopy, prepro",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/9f4931dd1f4a36e1ae48b1b28d7e2b40e81153bf",
+    "authors": [
+      "Anton Yudhana",
+      "Julia Mega Reski"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Detection of AI-Generated Images From Various Generators Using Gated Expert Convolutional Neural Network",
+    "abstract": "The rapid advancement of artificial intelligence (AI), particularly in text-to-image generative models, has led to a proliferation of synthetic images. This progress, while remarkable, raises concerns about misuse in fraudulent activities. To address this issue, we propose a Convolutional Neural Network (CNN)-based approach for classifying AI-generated images from multiple generators. We introduce a gated CNN model that leverages mixed datasets for improved training efficiency and performance. This approach eliminates the need for extensive tuning with each new dataset and mitigates the risk o",
+    "date": "2024",
+    "url": "https://www.semanticscholar.org/paper/9954b27f348275cea09d00060091fa708b88c93e",
+    "authors": [
+      "R. Ahmad Fattah Saskoro",
+      "Novanto Yudistira",
+      "Tirana Noor Fatyanosa"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Balancing Accuracy and Training Time in Federated Learning for Violence Detection in Surveillance Videos: A Study of Neural Network Architectures",
+    "abstract": "This paper presents an original investigation into the domain of violence detection in videos, introducing an innovative approach tailored to the unique challenges of a federated learning environment. The study encompasses a comprehensive exploration of machine learning techniques, leveraging spatio-temporal features extracted from benchmark video datasets. In a notable departure from conventional methodologies, we introduce a novel architecture, the \u201cDiff Gated\u201d network, designed to streamline preprocessing and training while simultaneously enhancing accuracy. Our exploration of advanced mach",
+    "date": "2023",
+    "url": "https://www.semanticscholar.org/paper/f0a66ed6054d42b14a41abe0ad124dbe4fad0bef",
+    "authors": [
+      "Quentin Pajon",
+      "Swan Serre",
+      "Hugo Wissocq"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "A COMPARATIVE ANALYSIS OF NEURAL NETWORK MODELS ON PREDICTING STOCK PRICES",
+    "abstract": "Due to their complex and unpredictable nature, stock market movements were always challenging to predict. Factors like economic indicators, market sentiment, and political and global events significantly contribute to stock price unpredictability. There are different methods to analyze risks, returns, and average price movements, based on which investors make assumptions. Identifying patterns and making the right decision on large amounts of data is very difficult, but nowadays, with the advancement of neural networks, we can solve prediction problems by identifying patterns of high-dimensiona",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/74b14de00a669b7ffbd61fa44e8439535999aab2",
+    "authors": [
+      "D. Amrin",
+      "S. Mukhanov",
+      "S. Amanzholova"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Evaluation of Cross Border E-Commerce Talent Cultivation based on Back Propagation Neural Network",
+    "abstract": "From the past few years, cross-border e-commerce has rapidly expanded with globalization and digital transformation which requires a skilled people to monitor international trade complexities, digital marketing, and cross-cultural business interactions. Nevertheless, talent cultivation faces difficulties such as curriculum gaps, insufficient practical training, and a lack of alignment with industry demands. Even though previous researchers suggested effective models still they fail to integrate evolving e-commerce trends, technological advancements, and global trade regulations etc. Therefore,",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/601a150f2398542af7da92c9b3ea8cab157128b1",
+    "authors": [
+      "Yun Wang"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "HPC-Driven oceanographic predictions with Graph Neural Networks (GNNs) and Gated Recurrent Units (GRUs)",
+    "abstract": "In this work, we utilized the high-performance computing (HPC) capabilities of the Vienna Scientific Cluster (VSC5) to develop and validate advanced AI models for oceanographic forecasting, with a focus on predicting Significant Wave Height (SWH). Using the computational power of VSC5, particularly its NVIDIA A100 GPUs, allowed us to process and analyze over 500 million data points. The most promising model, a Graph Neural Networks - Gated Recurrent Unit GNN-GRU hybrid, was trained to generate six hourly forecasts for SWH and achieved a Mean Absolute Error (MAE) of 0.0071 and an R-squared (R\u00b2)",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/475ad9102c7193e3984d28998595c91de2674f25",
+    "authors": [
+      "Paraskevi Vourlioti",
+      "Theano Mamouka",
+      "Maria Banti"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Battery State of Charge and State of Health Estimation Using a New Hybrid Deep Neural Network Approach",
+    "abstract": "The increasing adoption of Battery Electric Vehicles (BEVs) is driving advancements in battery management systems (BMS) to address challenges like cost and range anxiety, both tied to battery performance. This paper investigates various state of charge (SOC) and state of health (SOH) estimation methods, presenting a novel hybrid neural network that combines Gate Recurrent Unit (GRU) and Long Short-Term Memory (LSTM) models. Our proposed method demonstrates significant improvements in SOH and SOC estimation accuracy, with minimal training data required. Key contributions include (1) a hybrid GR",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/23b04d2c1f9de50bd624e765491ca54ce572fb58",
+    "authors": [
+      "Saeid Jorkesh",
+      "Ryan Ahmed",
+      "Saeid Habibi"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Analyzing the Impact of ChatGPT on Student Over-Reliance and Plagiarism using Artificial Neural Network (ANN)",
+    "abstract": "The rapid advancement of artificial intelligence (AI) technologies has significantly transformed the educational landscape with tools like ChatGPT. While these AI-driven platforms offer enhanced accessibility to information and support for learning, this also raises critical concerns regarding academic integrity. This study focuses on analyzing the impact of ChatGPT on student behavior, specifically concerning over-reliance and academic plagiarism in higher education, using an Artificial Neural Network (ANN) approach. A total of 354 students from UiTM Tapah were selected as the sample using st",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/13d302018bb643e231afb98775390a69413850ca",
+    "authors": [
+      "N. A. Sarkam",
+      "N. H. Mohammad",
+      "Nur Izzah Jamil"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Comparative Analysis of LSTM and GRU Neural Network Architectures for Plasma Discharge Prediction Using Tokamak Diagnostic Time Series Data",
+    "abstract": "This research conducts a comprehensive comparative analysis between Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) neural network architectures for modeling and predicting plasma behaviour using diagnostic time series data from the GOLEM tokamak at Czech Technical University. The study addresses critical challenges in tokamak plasma control and prediction, contributing to advancements in fusion plasma diagnostics through deep learning. High-resolution temporal data from multiple GOLEM diagnostic systems, including plasma current, loop voltage, magnetic probes, and spectroscopic m",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/7af12274dcaff4d243f609d5cf7662a4a64a812a",
+    "authors": [
+      "Ramesh Joshi"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Solar Power Generation Forecast Using Multivariate Convolution Gated Recurrent Unit Network",
+    "abstract": "For the advancement of smart grids, solar power generation predictions have become an important research topic. In the case of using traditional modeling methods, excessive computational costs may be incurred and it is difficult for these methods to learn the multi-variable dependencies of the data. Therefore, in this paper, a deep learning model was used to combine convolutional neural networks and long short-term memory recurrent network predictions. This method enables hourly power generation one day into the future. Convolutional neural networks are used to extract the features of multiple",
+    "date": "2024",
+    "url": "https://www.semanticscholar.org/paper/2c7e03a4e77947add5691827cd3d5a73566e8740",
+    "authors": [
+      "Hsu-Yung Cheng",
+      "Chih-Chang Yu"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Fault Diagnosis of Energy Networks Based on Improved Spatial\u2013Temporal Graph Neural Network With Massive Missing Data",
+    "abstract": "In order to ensure the safe and reliable operation of the energy system, real-time fault diagnosis technology is indispensable. Energy systems are typically complex systems consisting of multiple subsystems that are coupled with each other. Before and after the occurrence of a fault, the system is generally in an abnormal or even harsh environment, which may cause a large number of randomly missing measurement data and make the application of fault diagnosis technology extremely difficult. In this paper, the graph attention network (GAT) is improved by a Gaussian mixture model (GMM) for incomp",
+    "date": "2024",
+    "url": "https://www.semanticscholar.org/paper/3b3d2abf1963f979a35490ef0ed3ee51f0525993",
+    "authors": [
+      "Jingfei Zhang",
+      "Yean Cheng",
+      "Xiao He"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "A Survey on Regularization-Based Structured Neural Network Pruning",
+    "abstract": "This survey provides a comprehensive analysis of regularization-based structured neural network pruning methods, which aim to effectively address the substantial computational and memory burdens of deep neural networks in resource-constrained environments. Structured pruning, by strategically removing entire structural components (e.g., channels, filters, layers), maintains regular computational patterns essential for practical hardware acceleration, and regularization-based approaches stand out due to their principled mathematical foundations and seamless integration with standard training pr",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/ed0358be2fdf8ddc797cf5c66916d8797bf1ea81",
+    "authors": [
+      "Zhou Lu"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "QFSM: A Novel Quantum Federated Learning Algorithm for Speech Emotion Recognition With Minimal Gated Unit in 5G IoV",
+    "abstract": "The technology of speech emotion recognition (SER) has been widely applied in the field of human-computer interaction within the Internet of Vehicles (IoV). The incorporation of emerging technologies such as artificial intelligence and big data has accelerated the advancement of SER technology. However, this reveals challenges such as limited computational resources, data processing inefficiency, and security and privacy concerns. In recent years, quantum machine learning has been applied to the field of intelligent transportation, which has demonstrated its various advantages, including high ",
+    "date": "2024",
+    "url": "https://www.semanticscholar.org/paper/894b82ce1c5d4a65a7acf9d99b7149ba9c51b8b1",
+    "authors": [
+      "Zhiguo Qu",
+      "Zhixiao Chen",
+      "S. Dehdashti"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Implementation of a High-Efficiency, Lightweight Residual Spiking Neural Network Processor Based on FPGA",
+    "abstract": "With the advancements in hardware-optimized deployment of Spiking Neural Networks (SNNs), SNN processors based on Field-Programmable Gate Arrays (FPGAs) have become a research hotspot due to their efficiency and flexibility. However, existing methods rely on multi-timestep training and reconfigurable computing architectures, which increase computational and memory overhead, reducing deployment efficiency. This work presents a high-efficiency, lightweight residual SNN accelerator that couples algorithmic and hardware co-design to optimize inference energy efficiency. On the algorithm side, we e",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/3f4f40ffeb4a596267761240e858445514bedc9e",
+    "authors": [
+      "HOU Yue",
+      "XIANG Shuiying",
+      "ZOU Tao"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Curriculum-Based Deep Reinforcement Learning for Autonomous Driving: A Proximal Policy Optimization Approach in CARLA Simulation",
+    "abstract": "This study goes into more detail about the application of deep reinforcement learning for training autonomous agents in exploring the environment. The PPO algorithm in addition to curriculum learning has been used to train the driving agent using the CARLA simulator. The curriculum learning method structures the learning procedure in a manner in which complex problems are reduced to sub-problems, making it easier for the agent to initially master simpler driving scenarios before moving onto the complex scenarios. In our implementation, the multi-modal observation from the environment has been ",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/5d53a88e609fffb8042774d66db8cdcb026419ec",
+    "authors": [
+      "Marushka Rita Fernandes",
+      "Vyapti Gupta",
+      "Kashish Hitendra Parmar"
+    ]
+  }
+]

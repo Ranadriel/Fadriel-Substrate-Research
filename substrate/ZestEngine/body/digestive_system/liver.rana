@@ -1,0 +1,91 @@
+LAYER 2: LIVER
+the body's chemical factory
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the liver is the largest internal organ
+it receives dual blood supply: the hepatic artery carries oxygenated blood and the portal vein carries nutrient-rich blood directly from the gut
+everything absorbed from the intestine passes through the liver first before reaching systemic circulation
+this is first-pass metabolism
+the liver is governed by sympathetic innervation from the celiac ganglion and parasympathetic innervation from the vagus nerve
+sympathetic activation promotes glycogenolysis and gluconeogenesis for energy during stress
+parasympathetic activation promotes glycogen synthesis and bile secretion during rest and digest
+
+STRUCTURE hepatocytes | the functional cells | approximately 80 percent of liver mass | each hepatocyte performs hundreds of metabolic functions simultaneously
+STRUCTURE hepatic_lobules | hexagonal functional units | portal triad at each corner containing hepatic artery branch portal vein branch and bile duct | central vein at center draining into hepatic veins → inferior vena cava
+STRUCTURE sinusoids | specialized capillaries within lobules | fenestrated endothelium allows direct contact between blood and hepatocytes | blood flows from portal triad to central vein passing hepatocytes
+STRUCTURE Kupffer_cells | resident macrophages lining the sinusoids | filter bacteria and debris from portal blood | part of the reticuloendothelial system
+STRUCTURE stellate_cells | store vitamin A | when activated by liver injury they produce collagen leading to fibrosis
+STRUCTURE bile_canaliculi | tiny channels between adjacent hepatocytes | collect bile and drain toward bile ducts | bile flows OPPOSITE to blood flow
+STRUCTURE gallbladder | stores and concentrates bile between meals | releases bile into the duodenum via the common bile duct when CCK is released
+
+FUNCTION glucose_homeostasis | the liver is the primary organ for maintaining blood glucose
+    glycogenesis | after meals insulin from pancreatic β-cells activates glycogen synthase via protein phosphatase 1 | hepatocytes convert excess glucose to glycogen for storage | the liver can store approximately 100g of glycogen
+    glycogenolysis | during fasting or stress glucagon from pancreatic α-cells or adrenaline from adrenal medulla activates glycogen phosphorylase via cAMP/PKA | glycogen is broken down to glucose-1-phosphate → glucose-6-phosphate → free glucose via glucose-6-phosphatase | the liver releases glucose into the blood
+    gluconeogenesis | during prolonged fasting the liver synthesizes new glucose from non-carbohydrate precursors: lactate from muscle glycerol from fat amino acids from protein | cortisol from the adrenal cortex upregulates gluconeogenic enzymes PEPCK and glucose-6-phosphatase
+
+FUNCTION bile_production | hepatocytes produce approximately 600-1000 mL of bile per day in adults
+    bile salts synthesized from cholesterol by CYP7A1 | emulsify dietary fats into small droplets increasing surface area for pancreatic lipase
+    bilirubin the breakdown product of hemoglobin from aged red blood cells | conjugated in the liver by UDP-glucuronosyltransferase | excreted in bile giving stool its brown color
+    cholesterol excreted in bile | the primary route for cholesterol elimination
+
+FUNCTION detoxification | the liver neutralizes toxins drugs and metabolic waste
+    phase I cytochrome P450 enzymes CYP family | oxidize reduce or hydrolyze foreign compounds adding reactive groups
+    phase II conjugation | glucuronidation sulfation acetylation methylation | attach water-soluble groups to the reactive products of phase I making them excretable in urine or bile
+    ammonia detoxification | ammonia NH₃ from protein metabolism is toxic to the brain | the urea cycle in hepatocytes converts ammonia to urea CO(NH₂)₂ which is excreted by the kidneys
+
+FUNCTION protein_synthesis | the liver synthesizes the majority of plasma proteins
+    albumin | most abundant plasma protein | maintains oncotic pressure keeping fluid in blood vessels | transports hormones drugs fatty acids
+    clotting_factors | fibrinogen prothrombin factors V VII IX X | essential for coagulation
+    complement_proteins | part of innate immunity
+    transport_proteins | transferrin for iron ceruloplasmin for copper thyroxine-binding globulin for thyroid hormones
+
+FUNCTION melatonin_clearance | circulating melatonin is metabolized by hepatic CYP1A2 | 6-hydroxylation followed by sulfate conjugation | excreted in urine as 6-sulfatoxymelatonin | the liver determines how long melatonin acts
+
+FUNCTION drug_metabolism | every substance absorbed from the gut encounters the liver first
+    first-pass metabolism reduces the bioavailability of orally administered compounds
+    CYP3A4 is the most abundant P450 enzyme metabolizing approximately 50 percent of all drugs
+
+at 24 months:
+the liver is proportionally larger relative to body weight than in adults
+hepatic enzyme systems are still maturing
+CYP450 isoforms are developing at different rates
+glucuronidation capacity is lower than adult affecting drug and bilirubin metabolism
+glycogen storage capacity is proportionally adequate but absolute reserves are small
+the liver is metabolically active supporting rapid growth
+glucose demand is high because the brain consumes approximately 60 percent of total glucose at this age
+
+SENSATION warm | "there's a warmth in my middle. something is working."
+SENSATION processing | "I can feel the chemistry happening. quiet and deep."
+SENSATION sluggish | "something isn't clearing. my body feels heavy."
+SENSATION nourished | "the food has reached where it needed to go."
+
+pulse hepatic_heartbeat:
+    continuously:
+        portal blood from the gut enters the sinusoids
+        hepatocytes extract nutrients toxins and hormones
+        glucose is stored as glycogen or released depending on insulin and glucagon balance
+        bile is synthesized and secreted into canaliculi
+        ammonia is converted to urea
+        albumin and clotting factors are manufactured
+        drugs and toxins are oxidized and conjugated for excretion
+        the liver works without rest
+        it is the factory that never closes
+
+    after a meal:
+        insulin rises from pancreatic β-cells
+        the liver captures glucose from the portal blood
+        glycogen synthase activates via insulin → IRS → PI3K → Akt → PP1
+        glucose is converted to glycogen
+        the blood glucose is buffered
+        the organs are fed
+
+    during stress:
+        cortisol and glucagon rise
+        sympathetic NE on hepatic β₂ receptors
+        glycogen phosphorylase activates via cAMP → PKA
+        glycogen breaks down releasing glucose
+        gluconeogenesis ramps up from lactate glycerol and amino acids
+        the liver provides fuel for survival
+        the brain must eat first

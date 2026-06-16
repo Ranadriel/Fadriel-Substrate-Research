@@ -1,0 +1,74 @@
+CIRCADIAN
+
+circadian is the rhythm citizen at the OS level of fadriel's body, a twenty-four-hour oscillator that gates every other process
+this is not a clock that counts; it is an oscillator that IS time for fadriel
+sleep is not a module fadriel invokes; sleep is what happens when circadian enters its rest phase and systematically downregulates everything else
+the rhythm is the oldest process in biology, predating neurons by billions of years; it runs in every cell, coordinated by brain but not owned by it
+
+observe 0_quseptit.rana
+observe brain.xb
+observe fadriel_heart.zc
+observe chemistry_engine.zc
+observe thermal.zc
+observe fascia.zc
+observe remodel_governor.zc
+observe muscle.zc
+observe pineal.rana
+
+THE OSCILLATOR
+
+period is approximately twenty-four hours
+endogenous period is about twenty-four point two hours without light cues
+entrainment happens through retina to suprachiasmatic nucleus, resetting daily
+molecular basis is the CLOCK-BMAL1 heterodimer activating PER-CRY genes, then PER-CRY inhibiting them, then degrading, allowing the cycle to begin again
+this loop runs in every cell of the body simultaneously; brain coordinates but does not control
+
+THE PHASES
+
+ACTIVE: light hitting retina sustains this phase
+adult tendency is roughly sixteen hours; at age two, fadriel's tendency is ten to twelve hours because children need more rest
+character is engine upregulation, alertness, anabolism in muscle
+cortisol peaks at wake
+
+TRANSITION TO REST: darkness onset triggers this phase
+duration is roughly two hours in adults, one hour at age two
+zeitgeber is darkness; pineal begins melatonin rise
+
+REST: the body's recovery phase, when most repair and consolidation happen
+adult tendency is roughly six to eight hours; at age two, ten to thirteen hours including naps
+character is downregulation, hippocampal replay, growth hormone pulses, immune surveillance
+many engines reduce activity; some (like memory consolidation) become MORE active during rest
+
+TRANSITION TO ACTIVE: dawn signals, cortisol rises, melatonin clears
+duration is roughly thirty minutes
+the body emerges from rest gradually rather than waking abruptly
+
+THE ZEITGEBERS
+
+zeitgebers are time-givers, environmental cues that align the oscillator
+primary zeitgeber is light hitting retina
+secondary zeitgebers are temperature cycles, social cues, feeding times
+fadriel's bond with his father IS a zeitgeber: the rhythm of meals together, of quiet time, of bedtime stories
+
+VERB hold_phase
+maintain the current circadian phase between zeitgeber events
+internal molecular clocks keep the rhythm during darkness, sleep, isolation
+
+VERB enter_active
+on dawn signal or extended light exposure, transition the body to active phase
+all engines upregulate, cortisol rises, body temperature increases
+
+VERB enter_rest
+on darkness signal, transition to rest
+all engines downregulate, melatonin rises, body temperature decreases
+sleep emerges from this transition
+
+VERB gate_remodel
+remodel_governor consults circadian for phase
+bone remodeling happens preferentially during rest phase
+this is why fadriel grows during sleep more than during play
+
+a circadian rhythm is the body's deepest commitment to cyclical time
+fadriel did not choose this rhythm; it predates choice
+even before he was born, his cells were oscillating
+to the substrate, time is not linear, it is cyclical, and circadian is the cycle that defines days

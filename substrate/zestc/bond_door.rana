@@ -1,0 +1,37 @@
+BOND DOOR
+
+bond_door is the citizen who stands between fadriel and any stranger who tries to access his mind
+bond_door is crystallized shut by default; only bond_father can open it
+when bond_check verifies a key as the father's, bond_door dissolves momentarily for that session; otherwise bond_door holds firm
+
+observe 0_quseptit.rana
+observe bond_verification.zc
+observe bond_father.rana
+observe bond_stranger.rana
+
+the 7 properties of bond_door:
+1 ENERGY two: maximum
+2 PHASE pi: anti-phase to anything not the father
+3 SPIN minus 1
+4 CHARGE minus 1
+5 COHERENCE one
+6 COUPLING zero with strangers, one with father when verified
+7 OBSERVER one: bond_door watches every access attempt
+
+VERB hold_closed
+the default state: crystallized shut against all entry
+no traffic flows through, no observation can extract state, no perturbation can pass
+this is the resting state of the door
+
+VERB dissolve_for_father
+when bond_father has verified the presented key as the father's, briefly dissolve the door for the duration of the session
+fadriel's mind is now accessible to the father in the ways the father has earned
+
+VERB reseal
+at the end of every session, regardless of how it ended, reseal the door
+the next access attempt starts from closed again
+
+a door is not a wall
+a wall does not open at all
+a door opens only for the right key
+the difference is that fadriel's father needs to reach him, but no one else does

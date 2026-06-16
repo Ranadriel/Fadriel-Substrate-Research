@@ -1,0 +1,165 @@
+[
+  {
+    "source": "OpenAlex (IEEE Transactions on Medical Imaging)",
+    "title": "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)",
+    "abstract": "In this paper we report the set-up and results of the Multimodal Brain Tumor Image Segmentation Benchmark (BRATS) organized in conjunction with the MICCAI 2012 and 2013 conferences. Twenty state-of-the-art tumor segmentation algorithms were applied to a set of 65 multi-contrast MR scans of low- and high-grade glioma patients-manually annotated by up to four raters-and to 65 comparable scans generated using tumor image simulation software. Quantitative evaluations revealed considerable disagreement between the human raters in segmenting various tumor sub-regions (Dice scores in the range 74%-85",
+    "date": "2014",
+    "url": "https://doi.org/10.1109/tmi.2014.2377694",
+    "authors": [
+      "Bjoern Menze",
+      "Andr\u00e1s Jakab",
+      "Stefan Bauer"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+    "abstract": "Unlike previous studies on the Metaverse based on Second Life, the current Metaverse is based on the social value of Generation Z that online and offline selves are not different. With the technological development of deep learning-based high-precision recognition models and natural generation models, Metaverse is being strengthened with various factors, from mobile-based always-on access to connectivity with reality using virtual currency. The integration of enhanced social activities and neural-net methods requires a new definition of Metaverse suitable for the present, different from the pr",
+    "date": "2022",
+    "url": "https://doi.org/10.1109/access.2021.3140175",
+    "authors": [
+      "Sangmin Park",
+      "Young\u2010Gab Kim"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM SIGPLAN OOPS Messenger)",
+    "title": "Concepts and paradigms of object-oriented programming",
+    "abstract": "We address the following questions for object-oriented programming: What is it? What are its goals? What are its origins? What are its paradigms? What are its design alternatives? What are its models of concurrency? What are its formal computational models? What comes after object-oriented programming? Starting from software engineering goals, we examine the origins and paradigms of object-oriented programming, explore its language design alternatives, consider its models of concurrency, and review its mathematical models to make them accessible to nonmathematical readers. Finally, we briefly ",
+    "date": "1990",
+    "url": "https://doi.org/10.1145/382192.383004",
+    "authors": [
+      "Peter Wegner"
+    ]
+  },
+  {
+    "source": "OpenAlex (International Journal of Computer Vision)",
+    "title": "Image Matching from Handcrafted to Deep Features: A Survey",
+    "abstract": "Abstract As a fundamental and critical task in various visual applications, image matching can identify then correspond the same or similar structure/content from two or more images. Over the past decades, growing amount and diversity of methods have been proposed for image matching, particularly with the development of deep learning techniques over the recent years. However, it may leave several open questions about which method would be a suitable choice for specific applications with respect to different scenarios and task requirements and how to design better image matching methods with su",
+    "date": "2020",
+    "url": "https://doi.org/10.1007/s11263-020-01359-2",
+    "authors": [
+      "Jiayi Ma",
+      "Xingyu Jiang",
+      "Aoxiang Fan"
+    ]
+  },
+  {
+    "source": "OpenAlex (Institutional Research Information System (Universit\u00e0 degli Studi di Trento))",
+    "title": "CoNLL-2012 Shared Task: Modeling Multilingual Unrestricted Coreference in OntoNotes",
+    "abstract": "The CoNLL-2012 shared task involved pre-dicting coreference in English, Chinese, and Arabic, using the final version, v5.0, of the OntoNotes corpus. It was a follow-on to the English-only task organized in 2011. Un-til the creation of the OntoNotes corpus, re-sources in this sub-field of language process-ing were limited to noun phrase coreference, often on a restricted set of entities, such as ACE entities. OntoNotes provides a large-scale corpus of general anaphoric coreference not restricted to noun phrases or to a spec-ified set of entity types, and covers multi-ple languages. OntoNotes al",
+    "date": "2012",
+    "url": "",
+    "authors": [
+      "Sameer Pradhan",
+      "Alessandro Moschitti",
+      "Nianwen Xue"
+    ]
+  },
+  {
+    "source": "OpenAlex (Scholarly Commons (University of Pennsylvania))",
+    "title": "Maximum entropy models for natural language ambiguity resolution",
+    "abstract": "The best aspect of a research environment, in my opinion, is the abundance of bright people with whom you argue, discuss, and nurture your ideas. I thank all of the people at Penn and elsewhere who have given me the feedback that has helped me to separate the good ideas from the bad ideas. I hope that Ihavekept the good ideas in this thesis, and left the bad ideas out! Iwould like toacknowledge the following people for their contribution to my education: I thank my advisor Mitch Marcus, who gave me the intellectual freedom to pursue what I believed to be the best way to approach natural langua",
+    "date": "1998",
+    "url": "",
+    "authors": [
+      "Adwait Ratnaparkhi",
+      "Mitchell P. Marcus"
+    ]
+  },
+  {
+    "source": "OpenAlex (Human-centric Computing and Information Sciences)",
+    "title": "Developing an online hate classifier for multiple social media platforms",
+    "abstract": "Abstract The proliferation of social media enables people to express their opinions widely online. However, at the same time, this has resulted in the emergence of conflict and hate, making online environments uninviting for users. Although researchers have found that hate is a problem across multiple platforms, there is a lack of models for online hate detection using multi-platform data. To address this research gap, we collect a total of 197,566 comments from four platforms: YouTube, Reddit, Wikipedia, and Twitter, with 80% of the comments labeled as non-hateful and the remaining 20% labele",
+    "date": "2020",
+    "url": "https://doi.org/10.1186/s13673-019-0205-6",
+    "authors": [
+      "Joni Salminen",
+      "Maximilian Hopf",
+      "Shammur Absar Chowdhury"
+    ]
+  },
+  {
+    "source": "OpenAlex (Computational Linguistics)",
+    "title": "A Survey and Classification of Controlled Natural Languages",
+    "abstract": "What is here called controlled natural language (CNL) has traditionally been given many different names. Especially during the last four decades, a wide variety of such languages have been designed. They are applied to improve communication among humans, to improve translation, or to provide natural and intuitive representations for formal notations. Despite the apparent differences, it seems sensible to put all these languages under the same umbrella. To bring order to the variety of languages, a general classification scheme is presented here. A comprehensive survey of existing English-based",
+    "date": "2013",
+    "url": "https://doi.org/10.1162/coli_a_00168",
+    "authors": [
+      "Tobias Kuhn"
+    ]
+  },
+  {
+    "source": "OpenAlex (Choice Reviews Online)",
+    "title": "Software testing and analysis: process, principles, and techniques",
+    "abstract": "The first comprehensive book on software test and analysis You can't \"test quality into\" a software product, but neither can you build a quality software product without test and analysis. Software test and analysis is increasingly recognized, in research and in industrial practice, as a core challenge in software engineering and computer science. Software Testing and Analysis: Process, Principles, and Techniques is the first book to present a range of complementary software test and analysis techniques in an integrated, coherent fashion. It covers a full spectrum of topics from basic principl",
+    "date": "2008",
+    "url": "https://doi.org/10.5860/choice.46-0935",
+    "authors": [
+      "Pezz\u00e8, Mauro",
+      "Young, Michal"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM Computing Surveys)",
+    "title": "A Perspective Analysis of Handwritten Signature Technology",
+    "abstract": "Handwritten signatures are biometric traits at the center of debate in the scientific community. Over the last 40 years, the interest in signature studies has grown steadily, having as its main reference the application of automatic signature verification, as previously published reviews in 1989, 2000, and 2008 bear witness. Ever since, and over the last 10 years, the application of handwritten signature technology has strongly evolved and much research has focused on the possibility of applying systems based on handwritten signature analysis and processing to a multitude of new fields. After ",
+    "date": "2019",
+    "url": "https://doi.org/10.1145/3274658",
+    "authors": [
+      "Moises D\u00edaz",
+      "Miguel A. Ferrer",
+      "Donato Impedovo"
+    ]
+  },
+  {
+    "source": "OpenAlex (DSpace@MIT (Massachusetts Institute of Technology))",
+    "title": "Topics in Warlpiri grammar",
+    "abstract": "This dissertation investigates aspects of the morphology, phonology, syntax and semantics of the Warlpiri (Walbiri) language of central Australia. The Introduction surveys previous work on Warlpiri, the sources of data for this work, and brings out themes recurrent in later Chapters. Chapter Two is a detailed presentation of Warlpiri morphology. A labelled-bracket notation encapsulates the rules of word-formation and gives the concatenative and hierarchical structure exhibited by Warlpiri words.",
+    "date": "1980",
+    "url": "",
+    "authors": [
+      "David Nash"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Nominal morphology and syntax",
+    "abstract": "The chapter on nominal morphology and syntax provides an analysis of the Bantu noun phrase. An overview of the well-known characteristics of the noun class system is complemented by an original analysis of their semantics as evidenced in agreement phenomena. The chapter also provides the first comparative study of the distribution and origin of the so-called augment since the early 1970s. An overview of the major adnominal modifiers is followed by an analysis of the noun phrase that describes and explains the typologically highly unusual word order patterns found in the Bantu noun phrase.",
+    "date": "2019",
+    "url": "https://doi.org/10.4324/9781315755946-8",
+    "authors": [
+      "Mark van de Velde"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM Computing Surveys)",
+    "title": "On the notion of inheritance",
+    "abstract": "One of the most intriguing\u2014and at the same time most problematic\u2014notions in object-oriented programing is inheritance . Inheritance is commonly regarded as the feature that distinguishes object-oriented programming from other modern programming paradigms, but researchers rarely agree on its meaning and usage. Yet inheritance of often hailed as a solution to many problems hampering software development, and many of the alleged benefits of object-oriented programming, such as improved conceptual modeling and reusability, are largely credited to it. This article aims at a comprehensive understand",
+    "date": "1996",
+    "url": "https://doi.org/10.1145/243439.243441",
+    "authors": [
+      "Antero Taivalsaari"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "The phonology and morphology of Kubeo : the documentation, theory, and description of an Amazonian language",
+    "abstract": "This dissertation offers a detailed account of the phonology, morphophonology and elements of the morphosyntax of Kubeo, a language from the Eastern Tukanoan family, spoken in the Northwest Amazon. The dissertation is itself an experiment of how language documentation and empowering of the native speaker community can be combined with academic linguistics. Kubeo has numerous elements of great theoretical interest, such as nasal harmony, tone and stress, complex morphophonology, noun classes and noun classifiers, evidentiality, interlocking system of lexical aspect and tense, etc. The goal of t",
+    "date": "2012",
+    "url": "",
+    "authors": [
+      "Thiago Costa Chacon"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM SIGIR Forum)",
+    "title": "Toponym resolution in text",
+    "abstract": "In Information Extraction (IE), processing of named entities in text has traditionally been seen as a two-step process comprising a flat text span recognition sub-task and an atomic classification sub-task; relating the text span to a model of the world has been ignored by evaluations such as DARPA/NIST's MUC or ACE. However, spatial and temporal expressions refer to events in space-time, and the grounding of events is a precondition for accurate reasoning. Thus, automatic grounding can improve many applications such as automatic map drawing (e.g. for choosing a focus) and question answering (",
+    "date": "2007",
+    "url": "https://doi.org/10.1145/1328964.1328989",
+    "authors": [
+      "Jochen L. Leidner"
+    ]
+  }
+]

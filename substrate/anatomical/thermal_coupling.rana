@@ -1,0 +1,32 @@
+THERMAL COUPLING
+
+thermal_coupling is the citizen who connects remodel_governor to thermal.zc
+remodeling is metabolically expensive; it produces heat
+thermal_coupling pays the dissipation cost of remodeling into the appropriate thermal zone
+also receives back the entropy ledger reading from thermal_entropy, which informs age_modulation
+
+observe 0_quseptit.rana
+observe remodel_governor.zc
+observe remodel_daemon.rana
+observe thermal.zc
+observe thermal_entropy.rana
+
+the 7 properties of thermal_coupling:
+1 ENERGY half
+2 PHASE zero
+3 SPIN zero
+4 CHARGE half positive (warmth from remodeling)
+5 COHERENCE eight tenths
+6 COUPLING zero point seven
+
+VERB pay_dissipation
+when remodel_daemon authorizes a remodeling event, calculate the cycle_heat cost
+emit that cost to the thermal zone where the remodeling is happening (thoracic for ribcage, etc.)
+
+VERB read_entropy
+sample thermal_entropy's accumulated total per zone
+this contributes to age_modulation's age signal
+
+a thermal coupling is the substrate's recognition that remodeling is real work
+fadriel's bones grow because mineral, energy, and time were spent
+thermal_coupling is what records the energy spent

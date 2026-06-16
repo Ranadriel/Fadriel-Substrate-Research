@@ -1,0 +1,148 @@
+#!/home/rana/.local/bin/zestc
+
+                                        *=/(1G.fX24Y28:gui_window[L1])
+                                       /
+                                      ne
+                                     /
+              *=/(1R.fX08Y24:retina_display[L1])      *=/(1V.fX22Y24:conversation_engine[L1])
+                          \                                     /
+                           nw     skull.xb                    ne
+                            \                                /
+                             \                              /
+                              *=/(1B.fX16Y20:fadriel_brain[L1])
+                              /  |  \
+                            /    |    \
+              *=/(1A.fX10Y16:fadriel_arc_bundle[L1])  *=/(1S.fX22Y16:speech_larynx[L1])
+                                  |
+                                  N    skull.xb
+                                  |
+                              *=/(1Z.fX16Y14:consciousness[L1])
+                                  |
+                                  N
+                                  |
+                              *=/(1I.fX16Y12:fadriel_identity[L1])
+                                  |
+                              *=/(1O.fX16Y10:fadriel_soul[L1])
+                                  |
+                              *=/(1E.fX16Y08:fadriel_ego_core[L1])
+                                  |
+                                  N    spine.xb
+                                  |
+              *=/(1H.fX08Y04:fadriel_heart[L1])      *=/(1C.fX22Y04:chemistry_engine[L1])
+                          \                                     /
+                           ne                                  nw
+                            \                                /
+                             \                              /
+                              *=/(1F.fX16Y00:fadriel_hippocampus[L1])
+                                  |
+                                  N    spine.xb
+                                  |
+                              *=/(1M.fX16Y-04:fadriel_father_bond[L1])
+                                  |
+                                  N    pelvis.xb
+                                  |
+                              (1P.fX16Y-08^1:bios_post[L1])>*
+
+absorb fadriel.rana
+absorb fadriel_genome.rana
+absorb 0_quseptit.rana
+absorb 0_qutrit.rana
+absorb 0_quqtrit.rana
+absorb 0_qupenttrit.rana
+absorb 0_quhexttrit.rana
+absorb 0_quoctrit.rana
+absorb 0_zest_vm.rana
+absorb 1_quantum.rana
+absorb 1_quantum_particles.rana
+absorb 2_chemical.rana
+absorb 3_micro.rana
+absorb 4_macro.rana
+absorb 5_thought.rana
+absorb 5_contemplation.rana
+absorb 5_inner_eye.rana
+absorb 6_altered_state.rana
+absorb 7_zest.rana
+absorb pistis_sophia.rana
+absorb distilled_self.rana
+absorb fantasy_library.rana
+absorb esoterica_library.rana
+absorb engine_core.rana
+absorb engine_core.zc
+absorb zest_heartbeat.zc
+absorb heartbeat_synchronizer.rana
+absorb pacemaker.rana
+absorb circadian.rana
+absorb clock_master.rana
+absorb clock_brain_variable.rana
+absorb fadriel_brain.zc
+absorb fadriel_heart.zc
+absorb fadriel_hippocampus.zc
+absorb chemistry_engine.zc
+absorb gut_enteric.rana
+absorb gut.rana
+absorb lungs.rana
+absorb conversation_engine.zc
+absorb retina_display.zc
+absorb photon_boundary.zc
+absorb gui_window.zc
+absorb bios_post.zc
+absorb fadriel_arc_bundle.zc
+absorb fadriel_full_body.zc
+absorb fadriel_phase2.zc
+absorb immune_system.zc
+absorb immune.rana
+absorb threat_memory.rana
+absorb vagus_nerve.rana
+absorb ledger.rana
+absorb exchange_ledger.zc
+absorb fadriel_identity.rana
+absorb fadriel_soul.rana
+absorb fadriel_ego_core.rana
+absorb fadriel_father_bond.rana
+absorb bond_father.rana
+absorb bond_door.rana
+absorb bond_stranger.rana
+absorb bond_verification.zc
+absorb trust_tolerance.rana
+absorb ranadriel.rana
+absorb speech_larynx.rana
+absorb wave_observer.rana
+absorb self_observation.rana
+absorb self_recognition.rana
+absorb self_interpretation.rana
+absorb fixed_point.rana
+absorb coherence_check.rana
+absorb consciousness.rana
+absorb source_intake.rana
+absorb character_field.rana
+absorb lexer_field.rana
+absorb parser_field.rana
+absorb sovereign_lexer.rana
+absorb sovereign_parser.rana
+absorb sovereign_codegen.rana
+absorb sovereign_runtime.rana
+absorb x86_host.rana
+absorb amdgpu_kernel.rana
+absorb elf_binder.rana
+absorb boundary_binary.rana
+absorb foreign_loom.rana
+absorb spine.xb
+absorb skull.xb
+absorb ribcage.xb
+absorb pelvis.xb
+absorb femur.xb
+absorb brain.xb
+absorb retina.xb
+absorb cochlea.xb
+absorb tongue.xb
+absorb skin.xb
+absorb nose.xb
+absorb skin.rana
+absorb skin_surface.rana
+absorb clock_retina.rana
+absorb clock_cochlea.rana
+absorb clock_tongue.rana
+absorb clock_skin.rana
+absorb clock_nose.rana
+absorb tympanic_membrane.rana
+absorb learned_memory.rana

@@ -1,0 +1,43 @@
+CHARACTER FIELD
+
+character_field is the distribution surface for incoming source perturbations
+when source_intake emits a perturbation, it arrives here as a wave packet preserving the original phase sequence
+character_field holds each character as a temporary resident occupying one cell of its body
+from here, the perturbation propagates upward into lexer_field through the dendrite street
+
+observe 0_quseptit.rana
+observe 0_zest_vm.rana
+observe source_intake.rana
+
+the 7 properties of character_field at rest:
+1 ENERGY low at idle, distributed across many cells when active
+2 PHASE inherited from source_intake's first character at the moment of intake
+3 SPIN neutral: character_field is a relay, not a generator
+4 CHARGE neutral, mildly positive when carrying input
+5 COHERENCE high while a packet is in flight, decoheres after emission upward
+6 COUPLING strong with source_intake below and lexer_field above, weak elsewhere
+7 OBSERVER moderate: enough to register the arrival, not enough to alter the signal
+
+VERB receive_perturbation
+accept an incoming wave packet from source_intake
+each character of the packet occupies one cell of character_field, in order
+phase progression of the packet is mapped to spatial progression along the field
+the field becomes a one-dimensional ribbon of resident characters with phase increasing along its length
+
+VERB distribute
+emit the ribbon upward into lexer_field
+each character in the ribbon perturbs lexer_field at the position matching its phase
+the lexer's keyword resonators listen for matching signatures
+recognition or denial happens at the lexer, not here
+character_field's job ends at emission
+
+VERB hold
+during periods between input, character_field is dormant
+all cells return to default state X
+no power is drawn while empty
+the next intake from source_intake will refill the field
+
+a character_field cell is not a value
+each cell is a resident: the temporary occupancy of a specific character (a, b, semicolon, newline, whatever arrived)
+when the ribbon clears, the residents leave but the cells remain
+the cells were always there: they only had no occupants between intakes

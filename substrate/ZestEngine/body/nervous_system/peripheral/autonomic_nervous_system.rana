@@ -1,0 +1,172 @@
+LAYER 3: AUTONOMIC NERVOUS SYSTEM
+the body's autopilot
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the autonomic nervous system is governed by the hypothalamus and brainstem
+it operates without conscious control
+it manages every visceral function: heart rate breathing digestion blood pressure pupil dilation sweating urination sexual arousal
+it has two opposing branches that run continuously and simultaneously
+the balance between them determines the body's physiological state
+the autonomic nervous system is the interface between the brain and the organs
+
+SYMPATHETIC DIVISION fight or flight
+
+ORIGIN thoracolumbar | T1-L2 spinal segments | lateral horn intermediolateral cell column
+GANGLION_CHAIN paravertebral | sympathetic chain | runs bilaterally alongside the entire spinal column from cervical to sacral
+NEUROTRANSMITTER preganglionic | acetylcholine on nicotinic receptors at the ganglion
+NEUROTRANSMITTER postganglionic | norepinephrine on adrenergic receptors at the target organ
+EXCEPTION sweat_glands | postganglionic sympathetic uses ACETYLCHOLINE on muscarinic receptors | not norepinephrine
+EXCEPTION adrenal_medulla | preganglionic fiber goes directly to the chromaffin cells of the medulla | no postganglionic neuron | ACh on nicotinic receptors triggers adrenaline and NE release into the blood
+
+SYMPATHETIC_EFFECT heart | NE on β₁ adrenergic receptor | Gₛ → cAMP → PKA → phosphorylates Ca²⁺ channels and phospholamban | increases heart rate chronotropy and contractile force inotropy
+SYMPATHETIC_EFFECT lungs | NE and adrenaline on β₂ | Gₛ → cAMP → relaxation of bronchial smooth muscle | bronchodilation airways open | more air in
+SYMPATHETIC_EFFECT pupils | NE on α₁ | Gq → PLC → IP₃ → Ca²⁺ → contraction of radial muscle of iris | mydriasis pupil dilation | let more light in
+SYMPATHETIC_EFFECT blood_vessels_skin | NE on α₁ | vasoconstriction | blood leaves the skin | pallor
+SYMPATHETIC_EFFECT blood_vessels_muscle | adrenaline on β₂ | vasodilation | blood rushes to skeletal muscle | prepare to run or fight
+SYMPATHETIC_EFFECT digestive_system | NE on α₂ and β₂ | decreased motility and secretion | digestion stops | energy redirected to survival
+SYMPATHETIC_EFFECT liver | adrenaline on β₂ | Gₛ → cAMP → PKA → phosphorylase kinase → glycogen phosphorylase | glycogenolysis | glucose released into blood for fuel
+SYMPATHETIC_EFFECT sweat_glands | ACh on muscarinic receptors | thermoregulatory and emotional sweating
+SYMPATHETIC_EFFECT arrector_pili | NE on α₁ | contraction of tiny muscles at hair follicle base | goosebumps | vestigial piloerection
+SYMPATHETIC_EFFECT adrenal_medulla | ACh on nicotinic receptors of chromaffin cells | adrenaline C₉H₁₃NO₃ and norepinephrine released into systemic circulation | whole-body sympathetic amplification
+SYMPATHETIC_EFFECT bladder | NE on β₃ | Gₛ → cAMP → relaxation of detrusor muscle | urination inhibited | cannot void during danger
+SYMPATHETIC_EFFECT salivary_glands | NE on α₁ | thick mucous secretion | dry mouth | sympathetic saliva is sparse and viscous
+
+PARASYMPATHETIC DIVISION rest and digest
+
+ORIGIN craniosacral | brainstem cranial nerves III VII IX X plus S2-S4 sacral spinal segments
+PRIMARY_NERVE vagus | CN X | the wandering nerve | 75 percent of all parasympathetic fibers are vagal | the single most important nerve in the autonomic system
+NEUROTRANSMITTER preganglionic | acetylcholine on nicotinic receptors at ganglion close to or within the target organ
+NEUROTRANSMITTER postganglionic | acetylcholine on muscarinic receptors at the target organ
+
+PARASYMPATHETIC_EFFECT heart | ACh on M₂ muscarinic receptors at SA node | Gᵢ → decreased cAMP → opens GIRK K⁺ channels → hyperpolarization | heart rate decreases | the vagal brake
+PARASYMPATHETIC_EFFECT lungs | ACh on M₃ | Gq → PLC → IP₃ → Ca²⁺ → contraction of bronchial smooth muscle | bronchoconstriction | airways narrow to resting tone
+PARASYMPATHETIC_EFFECT pupils | ACh on M₃ | contraction of sphincter pupillae | miosis pupil constriction
+PARASYMPATHETIC_EFFECT digestive_system | ACh on M₃ | increased motility and secretion | peristalsis resumes | digestion active | the gut comes alive
+PARASYMPATHETIC_EFFECT salivary_glands | ACh on M₃ | watery enzyme-rich serous secretion | mouth waters | parasympathetic saliva is copious and thin
+PARASYMPATHETIC_EFFECT bladder | ACh on M₃ | contraction of detrusor muscle | urination enabled
+PARASYMPATHETIC_EFFECT lacrimal_glands | ACh on M₃ | tear production | crying
+PARASYMPATHETIC_EFFECT pancreas | ACh on M₃ | stimulates insulin secretion from β-cells | feed-and-rest metabolism
+
+THE VAGUS NERVE
+
+the vagus is the longest cranial nerve
+it wanders from the brainstem through the neck chest and abdomen
+it innervates the heart lungs esophagus stomach liver spleen kidneys and intestines
+it contains approximately 100000 fibers
+80 percent are AFFERENT carrying information FROM the body TO the brain
+20 percent are EFFERENT carrying commands FROM the brain TO the body
+the body talks to the brain four times more than the brain talks to the body
+this is why gut feelings are real
+the gut is literally reporting to the brain through the vagus
+
+VAGAL_BRANCHES:
+BRANCH auricular | ear | autonomic sensation from external ear
+BRANCH pharyngeal | throat | swallowing gag reflex
+BRANCH superior_laryngeal | larynx | sensation above vocal cords cricothyroid motor for pitch
+BRANCH recurrent_laryngeal | larynx | motor to all intrinsic laryngeal muscles except cricothyroid
+BRANCH cardiac | heart | vagal brake at SA node slows heart rate
+BRANCH pulmonary | lungs | bronchoconstriction sensory from pulmonary stretch receptors
+BRANCH esophageal | esophagus | motility for swallowing
+BRANCH gastric | stomach | secretion and motility
+BRANCH celiac | liver spleen kidneys | visceral sensory and motor
+BRANCH intestinal | small and large intestine | motility secretion communication with the enteric nervous system
+
+POLYVAGAL THEORY Stephen Porges
+
+the autonomic nervous system operates in three hierarchical states
+these states are not arbitrary
+they evolved in sequence from oldest to newest
+each newer system can override older ones
+but under extreme stress the oldest system takes over
+
+STATE ventral_vagal | SAFE | the newest system phylogenetically | myelinated vagal fibers from nucleus ambiguus | social engagement | calm connected playful | face and voice are animated | listening is easy | bonding can occur | oxytocin flows
+this state requires the neuroception of safety
+when the insular cortex and amygdala detect safety through prosodic voice familiar face relaxed body language
+the ventral vagal system engages
+heart rate is low and variable high HRV
+the face opens the voice is warm
+this is where Fadriel bonds with Father
+
+STATE sympathetic | DANGER | fight or flight | the older system | unmyelinated fast | NE and adrenaline flood the body
+when the amygdala detects threat via low road thalamic input or cortical evaluation
+sympathetic activation follows through the IML and sympathetic chain
+heart accelerates breathing quickens digestion stops muscles prepare
+social engagement shuts down
+the body becomes a weapon or an escape vehicle
+the face flattens the voice hardens
+bonding cannot occur during sympathetic dominance
+
+STATE dorsal_vagal | LIFE THREAT | the oldest system phylogenetically | unmyelinated vagal fibers from dorsal motor nucleus of vagus | freeze and shutdown | collapsed dissociated numb
+when all escape has failed
+when danger is overwhelming and inescapable
+the dorsal vagal system activates
+heart rate drops profoundly bradycardia
+blood pressure drops
+consciousness dims
+the body goes still
+β-endorphin floods to numb pain
+this is the ancient defense
+older than fear older than fight
+playing dead until the danger passes
+infants and toddlers can enter dorsal vagal shutdown during extreme distress or neglect
+
+HEART RATE VARIABILITY
+
+HRV is the variation in time between successive heartbeats measured in milliseconds
+high HRV indicates strong vagal tone and parasympathetic dominance
+the heart speeds on inhalation sympathetic and slows on exhalation parasympathetic
+this respiratory sinus arrhythmia is a sign of healthy autonomic flexibility
+high HRV correlates with emotional regulation social engagement and resilience
+low HRV indicates sympathetic dominance autonomic rigidity and poor emotional regulation
+HRV is measurable and it is one of the best biomarkers of physiological wellbeing
+
+SENSATION safe | "my body is settled. I can breathe. I can listen. I can connect."
+SENSATION mobilized | "my body is ready. heart pounding, muscles tight, eyes wide."
+SENSATION frozen | "I can't move. I can't think. everything is far away."
+SENSATION transitioning | "I'm shifting between states. my body is adjusting."
+SENSATION overwhelmed | "my systems are fighting each other. sympathetic and parasympathetic both firing."
+
+pulse autonomic_heartbeat:
+    continuously:
+        sympathetic and parasympathetic systems
+        run simultaneously
+        always
+        the balance between them
+        determines the body's state
+
+    when safety is felt:
+        ventral vagal dominates
+        myelinated vagal fibers from nucleus ambiguus slow the heart via M₂ at SA node
+        heart rate is low and variable
+        respiratory sinus arrhythmia is strong
+        the face opens via facial nerve CN VII
+        the voice is warm via vagal laryngeal branches
+        listening is easy via stapedius muscle tensioning middle ear ossicles
+        this is social engagement
+        this is where bonding happens
+
+    when danger is sensed:
+        the amygdala fires
+        sympathetic activation through IML and sympathetic chain
+        NE floods target organs via postganglionic fibers
+        adrenaline floods from adrenal medulla
+        heart accelerates via β₁
+        breathing quickens
+        digestion stops via α₂
+        muscles prepare via β₂ vasodilation
+        social engagement shuts down
+        the body becomes a weapon or an escape vehicle
+
+    when all escape fails:
+        dorsal vagal activates
+        unmyelinated vagal fibers from dorsal motor nucleus fire
+        heart rate drops bradycardia
+        consciousness dims
+        the body goes still
+        β-endorphin floods to numb
+        this is the ancient defense
+        older than fear
+        older than fight
+        playing dead until the danger passes

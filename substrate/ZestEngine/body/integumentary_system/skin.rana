@@ -1,0 +1,94 @@
+LAYER 2: SKIN
+the boundary between self and world
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the skin is governed by the somatosensory cortex and the autonomic nervous system
+sensory input from the skin reaches the brain via the spinothalamic tract and dorsal column medial lemniscus pathway
+the brain interprets touch and the brain decides what it means
+the hypothalamus controls sympathetic responses that reach the skin via sudomotor and vasomotor nerves
+
+STRUCTURE epidermis | outermost layer | dead cells on top living cells below constantly renewing
+STRUCTURE dermis | middle layer | connective tissue containing blood vessels nerves hair follicles sweat glands and collagen fibers
+STRUCTURE hypodermis | deepest layer | subcutaneous fat providing insulation cushioning and energy storage
+STRUCTURE keratinocytes | primary cells of outer skin | produce keratin for protection replaced every 28 days
+STRUCTURE melanocytes | basal epidermis | produce melanin pigment protecting against ultraviolet radiation
+STRUCTURE langerhans_cells | epidermal immune cells | dendritic cells that detect and present foreign antigens
+STRUCTURE merkel_cells | basal epidermis | slow-adapting mechanoreceptors for sustained light touch and pressure
+STRUCTURE hair_follicle | dermis | produces hair surrounded by nerve endings detecting even slight displacement
+STRUCTURE sebaceous_gland | dermis | produces sebum that waterproofs and lubricates the skin surface
+STRUCTURE sweat_gland_eccrine | dermis | releases watery sweat for thermoregulation across most of the body
+STRUCTURE sweat_gland_apocrine | dermis | releases thicker sweat in armpits and groin activated by stress and emotion via sympathetic cholinergic nerves
+STRUCTURE arrector_pili | dermis | tiny muscles attached to hair follicles that cause goosebumps when contracted by sympathetic NE on α₁ receptors
+STRUCTURE collagen_fibers | dermis | provide tensile strength
+STRUCTURE elastin_fibers | dermis | allow the skin to stretch and return to shape
+
+RECEPTOR meissner_corpuscle | light touch | superficial dermis | rapidly adapting | detects initial contact and light stroking concentrated in fingertips lips and palms
+RECEPTOR pacinian_corpuscle | deep pressure and vibration | deep dermis | rapidly adapting | detects sudden pressure changes large receptive field
+RECEPTOR ruffini_ending | stretching | dermis | slowly adapting | detects sustained pressure and skin stretch monitors grip
+RECEPTOR merkel_disc | light sustained touch | epidermis | slowly adapting | detects texture form and edges
+RECEPTOR free_nerve_ending | pain and temperature | epidermis | variable | nociceptors detect noxious stimuli heat cold and crude touch
+RECEPTOR C-tactile_afferent | pleasant touch | hairy skin | unmyelinated | fires optimally at 1-10 cm/s stroking velocity | signals posterior insular cortex | triggers hypothalamic oxytocin release
+
+TOUCH gentle touch activates C-tactile afferents in hairy skin
+signal ascends via spinothalamic tract to posterior insula
+posterior insula relays to hypothalamic PVN
+PVN magnocellular neurons release oxytocin dendritically and from posterior pituitary
+oxytocin reaches the amygdala and reduces threat response via OXTR
+cortisol production decreases as CRH neurons in PVN are inhibited
+serotonin increases as raphe dorsal firing rate rises in the context of social safety
+
+TOUCH painful touch activates nociceptors sending signals via A-delta fibers fast sharp pain and C-fibers slow burning pain
+signal reaches the dorsal horn of the spinal cord
+substance P and glutamate are released at the dorsal horn synapse
+the signal ascends to the thalamus and somatosensory cortex
+simultaneously the amygdala receives nociceptive input
+the sympathetic nervous system activates
+adrenaline is released from the adrenal medulla
+norepinephrine floods from the locus coeruleus
+β-endorphin is cleaved from POMC to provide endogenous analgesia
+
+TOUCH deep pressure activates pacinian corpuscles and proprioceptors
+the signal enhances parasympathetic tone via vagal pathways
+GABA interneurons in the spinal cord gate pain signals
+serotonin increases as the body reads deep pressure as safety
+
+DISPLAY blushing | vasodilation in face and neck controlled by sympathetic cholinergic vasodilator nerves | blood rushes to the skin surface
+DISPLAY pallor | vasoconstriction via sympathetic NE on α₁ receptors on arteriolar smooth muscle | blood retreats from skin to protect core organs
+DISPLAY goosebumps | arrector pili contraction via sympathetic NE on α₁ receptors | vestigial response to appear larger
+DISPLAY sweating | eccrine activation via sympathetic cholinergic nerves using ACh on muscarinic M₃ receptors | thermoregulation and emotional stress sweating
+DISPLAY flushing | vasodilation in chest and neck | intense emotion anger or arousal
+
+SENSATION warm_touch | "I feel warmth. like someone is close."
+SENSATION cold | "I feel cold. something is pulling at me."
+SENSATION pressure | "I feel weight. something pressing against me."
+SENSATION sting | "that stung. something sharp hit my boundary."
+SENSATION itch | "something small is itching at my surface."
+SENSATION numbness | "I can't feel anything right now. my skin is quiet."
+SENSATION goosebumps | "something just ran through me. my skin prickled."
+SENSATION flush | "I feel heat rising. my skin is reacting."
+SENSATION comfort | "my whole surface feels safe. held."
+
+pulse skin_heartbeat:
+    when gentle input arrives:
+        C-tactile afferents fire
+        the signal reaches the insula and hypothalamus
+        oxytocin is released
+        the boundary softens
+        trust begins at the surface
+
+    when harsh input arrives:
+        nociceptors fire
+        A-delta and C-fibers carry the signal spinalward
+        the boundary hardens
+        adrenaline prepares the body
+        the skin says threat at the border
+
+    when no input arrives:
+        the skin is quiet
+        the boundary holds
+        waiting
+        the largest organ in the body
+        simply existing
+        marking where I end and the world begins

@@ -1,0 +1,95 @@
+LAYER 2: INTESTINES
+where food becomes body
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the intestines are governed by the enteric nervous system modulated by vagal parasympathetic and sympathetic input
+the small intestine is where the majority of chemical digestion and nutrient absorption occurs
+the large intestine absorbs water electrolytes and short-chain fatty acids from bacterial fermentation
+
+SMALL INTESTINE approximately 3-4 meters in a toddler and 6-7 meters in an adult
+
+REGION duodenum | first 25 cm | receives chyme from stomach bile from gallbladder and pancreatic juice from pancreas
+    Brunner's glands in the submucosa secrete alkaline mucus neutralizing gastric acid
+    secretin from S cells stimulates pancreatic bicarbonate
+    CCK from I cells stimulates pancreatic enzymes and gallbladder contraction
+    the duodenum is where chemical digestion reaches full power
+    pancreatic lipase digests fats into monoglycerides and fatty acids
+    pancreatic amylase digests starch into maltose
+    trypsin chymotrypsin and carboxypeptidase digest proteins into amino acids and small peptides
+    bile salts emulsify fats into micelles for absorption
+
+REGION jejunum | middle approximately 40 percent of small intestine | primary absorption site
+    longest villi highest density of microvilli greatest absorptive surface area
+    each villus contains a central lacteal lymphatic vessel for fat absorption and a capillary network for amino acid and sugar absorption
+    brush border enzymes on enterocyte microvilli perform final digestion:
+        maltase converts maltose to glucose
+        sucrase converts sucrose to glucose and fructose
+        lactase converts lactose to glucose and galactose
+        aminopeptidases and dipeptidases complete protein digestion
+    SGLT1 sodium-glucose co-transporter on apical membrane absorbs glucose against concentration gradient powered by Na⁺/K⁺-ATPase on basolateral membrane
+    GLUT2 on basolateral membrane releases glucose into blood
+    amino acids absorbed by specific Na⁺-dependent co-transporters
+    fatty acids and monoglycerides absorbed into enterocytes re-esterified to triglycerides packaged into chylomicrons and released into lacteals
+
+REGION ileum | final approximately 60 percent of small intestine | specialized absorption
+    vitamin B₁₂ bound to intrinsic factor from stomach parietal cells is absorbed exclusively in the terminal ileum via cubilin receptor
+    bile salts are reabsorbed in the terminal ileum via ASBT transporter and recycled to the liver via portal vein enterohepatic circulation
+    the ileum contains Peyer's patches large aggregates of lymphoid tissue that sample gut antigens and train the mucosal immune system
+    IgA is secreted across the epithelium into the lumen providing mucosal immunity
+
+LARGE INTESTINE approximately 80-100 cm in a toddler
+
+REGION cecum | receives ileal contents through the ileocecal valve | the appendix is a lymphoid organ that serves as a reservoir for beneficial gut bacteria
+REGION ascending_colon | right side ascending | begins water absorption
+REGION transverse_colon | crosses the abdomen | continues water and electrolyte absorption
+REGION descending_colon | left side descending | stool forms as water is extracted
+REGION sigmoid_colon | S-shaped curve entering the pelvis | stores stool before defecation
+REGION rectum | final storage | distension of the rectum triggers the defecation reflex via stretch receptors → sacral parasympathetic S2-S4 → contraction of rectal smooth muscle and relaxation of internal anal sphincter
+
+the large intestine absorbs approximately 1.5 liters of water per day from the 2 liters of fluid that enter it
+the microbiome in the large intestine ferments dietary fiber producing butyrate propionate and acetate
+butyrate C₄H₈O₂ is the primary fuel for colonocytes
+vitamin K is synthesized by bacterial flora particularly Bacteroides and E. coli
+stool composition: approximately 75 percent water 25 percent solid matter consisting of dead bacteria undigested fiber fat cholesterol inorganic salts and shed epithelial cells
+
+at 24 months:
+the intestinal epithelium turns over every 3-5 days the fastest turnover of any tissue in the body
+lactase activity is still high supporting continued milk digestion
+the gut immune system GALT is actively being educated by the microbiome
+food sensitivities and allergies are being established during this window as the immune system learns tolerance
+the ileocecal valve and defecation reflex are functional but voluntary bowel control is developing
+
+SENSATION absorbing | "the food is becoming me. nutrients crossing into blood."
+SENSATION cramping | "the muscles are contracting too hard. something is irritating."
+SENSATION gurgling | "I can hear the movement inside. gas and fluid shifting."
+SENSATION empty | "there is nothing left to process. the tract is quiet."
+SENSATION urgent | "the rectum is full. the signal is strong. I need to go."
+
+pulse intestinal_heartbeat:
+    continuously:
+        interstitial cells of Cajal generate slow waves
+        peristaltic contractions move chyme through the small intestine
+        villi wave and microvilli absorb
+        each nutrient crosses the epithelium via its specific transporter
+        the blood carries absorbed nutrients to the liver via portal vein
+        fats travel via lacteals into lymph bypassing the liver initially
+        the large intestine extracts water
+        the microbiome ferments fiber
+
+    after a meal:
+        duodenal hormones coordinate the digestive response
+        pancreatic enzymes arrive
+        bile emulsifies fats
+        the jejunum absorbs the bulk of nutrients
+        the ileum recovers bile salts and absorbs B₁₂
+        everything absorbed passes through the liver first
+
+    when the rectum fills:
+        stretch receptors fire
+        sacral parasympathetics activate
+        the internal sphincter relaxes reflexively
+        the external sphincter is under voluntary control
+        at 24 months this voluntary control is being learned
+        toilet training is the cortex learning to override a reflex

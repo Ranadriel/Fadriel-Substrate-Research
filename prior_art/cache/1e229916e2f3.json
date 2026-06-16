@@ -1,0 +1,155 @@
+[
+  {
+    "source": "OpenAlex (Cognitive Computation)",
+    "title": "Comprehensive Taxonomies of Nature- and Bio-inspired Optimization: Inspiration Versus Algorithmic Behavior, Critical Analysis Recommendations",
+    "abstract": "",
+    "date": "2020",
+    "url": "https://doi.org/10.1007/s12559-020-09730-8",
+    "authors": [
+      "Daniel Molina",
+      "Javier Poyatos",
+      "Javier Del Ser"
+    ]
+  },
+  {
+    "source": "OpenAlex (MDPI (MDPI AG))",
+    "title": "Metaheuristic Optimization of Power and Energy Systems: Underlying Principles and Main Issues of the \u2018Rush to Heuristics\u2019",
+    "abstract": "In the power and energy systems area, a progressive increase of literature contributions that contain applications of metaheuristic algorithms is occurring. In many cases, these applications are merely aimed at proposing the testing of an existing metaheuristic algorithm on a specific problem, claiming that the proposed method is better than other methods that are based on weak comparisons. This &amp;lsquo;rush to heuristics&amp;rsquo; does not happen in the evolutionary computation domain, where the rules for setting up rigorous comparisons are stricter but are typical of the domains of appli",
+    "date": "2020",
+    "url": "https://doi.org/10.3390/en13195097",
+    "authors": [
+      "Gianfranco Chicco"
+    ]
+  },
+  {
+    "source": "OpenAlex (Artificial Intelligence Review)",
+    "title": "Gaussian bare-bone slime mould algorithm: performance optimization and case studies on truss structures",
+    "abstract": "",
+    "date": "2023",
+    "url": "https://doi.org/10.1007/s10462-022-10370-7",
+    "authors": [
+      "Shubiao Wu",
+      "Ali Asghar Heidari",
+      "Siyang Zhang"
+    ]
+  },
+  {
+    "source": "OpenAlex (Energy Science & Engineering)",
+    "title": "Extremal Nelder\u2013Mead colony predation algorithm for parameter estimation of solar photovoltaic models",
+    "abstract": "Abstract Measurement data based on current and voltage of photovoltaic (PV) systems and the establishment of more accurate and stable solar system models are of typical significance for the design, control, evaluation and optimization of PV systems. Accurate and stable parameter evaluation for PV systems needs to be based on more efficient optimization techniques to achieve efficient energy conversion from solar energy. Therefore, this paper proposes a novel and efficient optimization technique enhanced colony predation algorithm to solve the complex PV parameter identification problem named E",
+    "date": "2022",
+    "url": "https://doi.org/10.1002/ese3.1273",
+    "authors": [
+      "Boyang Xu",
+      "Ali Asghar Heidari",
+      "Siyang Zhang"
+    ]
+  },
+  {
+    "source": "OpenAlex (JUCS - Journal of Universal Computer Science)",
+    "title": "Cooperative Swarm Intelligence Algorithms for Adaptive Multilevel Thresholding Segmentation of COVID-19 CT-Scan Images",
+    "abstract": "The Coronavirus Disease 2019 (COVID-19) is widespread throughout the world and poses a serious threat to public health and safety. A COVID-19 infection can be recognized using computed tomography (CT) scans. To enhance the categorization, some image segmentation techniques are presented to extract regions of interest from COVID-19 CT images. Multi-level thresholding (MLT) is one of the simplest and most effective image segmentation approaches, especially for grayscale images like CT scan images. Traditional image segmentation methods use histogram approaches; however, these approaches encounte",
+    "date": "2023",
+    "url": "https://doi.org/10.3897/jucs.93498",
+    "authors": [
+      "Muath Sabha",
+      "Thaer Thaher",
+      "Marwa M. Emam"
+    ]
+  },
+  {
+    "source": "OpenAlex (Advanced Intelligent Systems)",
+    "title": "A Resampling Ant Colony Optimization with Elite Exploration and Convergence Mechanism for Multithreshold Segmentation of Breast Cancer Images",
+    "abstract": "Previous studies have emphasized the potential of threshold image segmentation for early breast cancer detection. However, traditional methods encounter challenges regarding low segmentation efficiency and accuracy. Addressing this, the ant colony optimization algorithm for continuous optimization (ACOR) shows promise. Yet, existing ACOR variants still grapple with poor initial population quality, affecting convergence speed and avoiding local optimization. These issues impact segmentation efficiency and accuracy. To tackle them, this study introduces RESACO, an enhanced ACOR version integrati",
+    "date": "2024",
+    "url": "https://doi.org/10.1002/aisy.202300746",
+    "authors": [
+      "Zhen Wang",
+      "Dong Zhao",
+      "Ali Asghar Heidari"
+    ]
+  },
+  {
+    "source": "OpenAlex (DepositOnce)",
+    "title": "Modeling the random walk and chemotaxis of bacteria: Aspects of biofilm formation",
+    "abstract": "Ansammlungen von Bakterien auf Oberfl\u00e4chen werden als Biofilme bezeichnet, deren Entstehung durch zahlreiche biologische, chemische und physikalische Prozesse beeinflusst wird. In dieser Arbeit untersuchen wir mit Methoden der Statistischen Physik Aspekte, die im fr\u00fchen Entwicklungsstadium von Biofilmen relevant sind. Die Fortbewegungsstrategien von Bakterien lassen sich als Zufallsbewegungen charakterisieren: \"Run-and-tumble\" f\u00fcr das Darmbakterium E. coli, \"Run-reverse\" f\u00fcr den Krankheitserreger P. aeruginosa oder \"Run-reverse-flick\" f\u00fcr das Meeresbakterium V. alginolyticus. Zum quantitativen",
+    "date": "2013",
+    "url": "https://doi.org/10.14279/depositonce-3477",
+    "authors": [
+      "Johannes Taktikos"
+    ]
+  },
+  {
+    "source": "OpenAlex (Energies)",
+    "title": "Metaheuristic Optimization of Power and Energy Systems: Underlying Principles and Main Issues of the \u2018Rush to Heuristics\u2019",
+    "abstract": "In the power and energy systems area, a progressive increase of literature contributions that contain applications of metaheuristic algorithms is occurring. In many cases, these applications are merely aimed at proposing the testing of an existing metaheuristic algorithm on a specific problem, claiming that the proposed method is better than other methods that are based on weak comparisons. This \u2018rush to heuristics\u2019 does not happen in the evolutionary computation domain, where the rules for setting up rigorous comparisons are stricter but are typical of the domains of application of the metahe",
+    "date": "2020",
+    "url": "https://doi.org/10.3390/en13195097",
+    "authors": [
+      "Gianfranco Chicco",
+      "Andrea Mazza"
+    ]
+  },
+  {
+    "source": "OpenAlex (\u0412\u0435\u0441\u0442\u043d\u0438\u043a \u0411\u0430\u043b\u0442\u0438\u0439\u0441\u043a\u043e\u0433\u043e \u0444\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0430 \u0438\u043c. \u0418. \u041a\u0430\u043d\u0442\u0430. \u0421\u0435\u0440\u0438\u044f: \u0413\u0443\u043c\u0430\u043d\u0438\u0442\u0430\u0440\u043d\u044b\u0435 \u0438 \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u043d\u0430\u0443\u043a\u0438)",
+    "title": "\u0422\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0430\u0441\u043f\u0435\u043a\u0442\u044b \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0433\u043e \u043f\u043e\u0434\u0445\u043e\u0434\u0430 \u043a \u043a\u043b\u0430\u0441\u0441\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u0441\u043b\u0435\u0434\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0445 \u043e\u0448\u0438\u0431\u043e\u043a",
+    "abstract": "The online version contains supplementary material available at 10.1007/s10462-022-10370-7.",
+    "date": "2012",
+    "url": "https://doi.org/10.1007/s10462-022-10370-7",
+    "authors": [
+      "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u041f\u0435\u0442\u0440\u043e\u0432\u0438\u0447 \u041a\u0440\u0430\u043c\u0430\u0440\u0435\u043d\u043a\u043e"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "On mass transport in Physarum polycephalum",
+    "abstract": "The network-forming slime mold Physarum polycephalum has proven to be the epitome of self-organization. As a single cell it adapts seemingly intelligent to stimuli, integrating various inputs to create a coordinated response over an extended body plan in space and time. Most feats performed by Physarum polycephalum are linked to its morphology which is constantly reforming by transporting mass from pruning parts to growing ones. Cytoplasmic ows, the means for mass transport, are directly linked to periodic contraction patterns. Here I investigate induced mass transport in slime molds via two c",
+    "date": "2019",
+    "url": "https://doi.org/10.53846/goediss-7786",
+    "authors": [
+      "Felix B\u00e4uerle"
+    ]
+  },
+  {
+    "source": "OpenAlex (eDiss (Georg-August-Universit\u00e4t G\u00f6ttingen))",
+    "title": "On mass transport in Physarum polycephalum",
+    "abstract": "The network-forming slime mold Physarum polycephalum has proven to&#13;\\nbe the epitome of self-organization. As a single cell it adapts seemingly&#13;\\nintelligent to stimuli, integrating various inputs to create a coordinated&#13;\\nresponse over an extended body plan in space and time. Most feats performed&#13;\\nby Physarum polycephalum are linked to its morphology which is&#13;\\nconstantly reforming by transporting mass from pruning parts to growing&#13;\\nones. Cytoplasmic ows, the means for mass transport, are directly linked&#13;\\nto periodic contraction patterns. Here I investigate induc",
+    "date": "2019",
+    "url": "https://doi.org/10.53846/goediss-7786",
+    "authors": [
+      "Felix B\u00e4uerle"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Towards a Science of Collective AI: LLM-based Multi-Agent Systems Need a Transition from Blind Trial-and-Error to Rigorous Science",
+    "abstract": "Recent advancements in Large Language Models (LLMs) have greatly extended the capabilities of Multi-Agent Systems (MAS), demonstrating significant effectiveness across a wide range of complex and open-ended domains. However, despite this rapid progress, the field still relies heavily on empirical trial-and-error. It lacks a unified and principled scientific framework necessary for systematic optimization and improvement. This bottleneck stems from the ambiguity of attribution: first, the absence of a structured taxonomy of factors leaves researchers restricted to unguided adjustments; second, ",
+    "date": "2026",
+    "url": "",
+    "authors": [
+      "Jingru Fan",
+      "Dewen Liu",
+      "Dang, Yufan"
+    ]
+  },
+  {
+    "source": "OpenAlex (DSpace@MIT (Massachusetts Institute of Technology))",
+    "title": "Studies in living porous media",
+    "abstract": "Thesis: Ph. D., Massachusetts Institute of Technology, Department of Physics, 2015.",
+    "date": "2015",
+    "url": "",
+    "authors": [
+      "Samuel A. Ocko"
+    ]
+  },
+  {
+    "source": "OpenAlex (Zurich Open Repository and Archive (University of Zurich))",
+    "title": "A theoretical and experimental study of cell specification in the female gametophyte",
+    "abstract": "",
+    "date": "2013",
+    "url": "https://doi.org/10.5167/uzh-89950",
+    "authors": [
+      "Dmytro Lituiev"
+    ]
+  }
+]

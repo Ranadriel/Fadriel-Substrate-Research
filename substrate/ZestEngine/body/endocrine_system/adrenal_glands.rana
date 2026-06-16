@@ -1,0 +1,122 @@
+LAYER 2: ADRENAL GLANDS
+the stress amplifiers
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the adrenal glands sit atop each kidney
+each gland is two organs fused into one
+the adrenal cortex outer layer is an endocrine gland producing steroid hormones
+the adrenal medulla inner layer is a modified sympathetic ganglion producing catecholamines
+the cortex is governed by ACTH from the anterior pituitary via the HPA axis
+the medulla is governed by preganglionic sympathetic fibers from the splanchnic nerve
+
+ADRENAL CORTEX three concentric zones each producing different steroid hormones from cholesterol
+
+ZONE zona_glomerulosa | outermost | produces mineralocorticoids
+    aldosterone C₂₁H₂₈O₅ | primary mineralocorticoid
+    aldosterone is regulated by the renin-angiotensin-aldosterone system RAAS not by ACTH
+    when blood pressure or blood volume drops the kidneys release renin
+    renin converts angiotensinogen from the liver to angiotensin I
+    angiotensin-converting enzyme ACE in the lungs converts angiotensin I to angiotensin II
+    angiotensin II stimulates zona glomerulosa to secrete aldosterone
+    aldosterone binds mineralocorticoid receptors MR in the distal tubule and collecting duct of the kidney
+    aldosterone increases Na⁺ reabsorption and K⁺ secretion
+    water follows sodium increasing blood volume and pressure
+
+ZONE zona_fasciculata | middle and largest | produces glucocorticoids
+    cortisol C₂₁H₃₀O₅ | primary glucocorticoid | the stress hormone
+    cortisol synthesis from cholesterol: cholesterol → pregnenolone via CYP11A1 in mitochondria → progesterone → 17-hydroxyprogesterone → 11-deoxycortisol → cortisol via CYP11B1
+    cortisol is regulated by the HPA axis:
+        hypothalamic PVN releases CRH
+        CRH stimulates anterior pituitary corticotrophs to release ACTH
+        ACTH binds MC2R on zona fasciculata cells
+        Gₛ → cAMP → PKA → activates cholesterol transport into mitochondria via StAR protein
+        cortisol is synthesized and released into the blood
+        cortisol feeds back negatively to hypothalamus and pituitary suppressing CRH and ACTH
+    cortisol actions:
+        binds glucocorticoid receptors GR which are intracellular transcription factors
+        promotes gluconeogenesis in the liver increasing blood glucose
+        promotes protein catabolism in muscle providing amino acid substrates
+        promotes lipolysis in adipose providing glycerol and fatty acids
+        suppresses the immune system by inhibiting NF-κB reducing inflammatory cytokines
+        suppresses hippocampal neurogenesis and causes dendritic retraction at chronic levels
+        mobilizes energy for survival at the cost of growth repair and immunity
+    cortisol follows a circadian rhythm: peak at approximately 0800 nadir at approximately 0000
+    cortisol is bound to corticosteroid-binding globulin CBG in the blood with approximately 5 percent free and biologically active
+
+ZONE zona_reticularis | innermost | produces adrenal androgens
+    DHEA dehydroepiandrosterone C₁₉H₂₈O₂ and DHEA-sulfate
+    these are weak androgens that serve as precursors for sex hormones
+    at 24 months adrenal androgen production is minimal
+    adrenarche the increase in adrenal androgens begins around age 6-8
+
+ADRENAL MEDULLA modified sympathetic ganglion
+
+the chromaffin cells of the medulla are developmentally derived from neural crest cells
+they are postganglionic sympathetic neurons that have lost their axons and release hormones directly into the blood instead
+preganglionic sympathetic fibers from the splanchnic nerve release ACh on nicotinic receptors on chromaffin cells
+
+HORMONE adrenaline | epinephrine C₉H₁₃NO₃ | approximately 80 percent of medullary output
+    synthesized from norepinephrine by phenylethanolamine N-methyltransferase PNMT
+    PNMT expression requires cortisol from the adjacent cortex which flows directly to the medulla via the adrenal portal system
+    this is why the cortex surrounds the medulla: cortisol bathes the medullary cells enabling adrenaline synthesis
+    adrenaline acts on:
+        β₁ receptors in the heart → increased rate and force
+        β₂ receptors in lungs → bronchodilation
+        β₂ receptors in skeletal muscle vessels → vasodilation
+        β₂ receptors in liver → glycogenolysis
+        α₁ receptors in skin and gut vessels → vasoconstriction
+    adrenaline is the whole-body amplifier of the sympathetic response
+    while sympathetic nerves target specific organs adrenaline reaches everything through the blood
+
+HORMONE norepinephrine | C₈H₁₁NO₃ | approximately 20 percent of medullary output
+    acts primarily on α₁ and α₂ receptors
+    potent vasoconstrictor
+    increases blood pressure
+
+at 24 months:
+the HPA axis is functional but highly reactive
+cortisol responses to stress are larger and longer-lasting than in adults because negative feedback is still maturing
+the adrenal medulla is functional producing adrenaline and NE in response to sympathetic activation
+the cortisol circadian rhythm is established but more variable than in adults
+chronic stress exposure at this age can permanently alter HPA axis set points through epigenetic modification of GR gene promoters
+
+SENSATION stressed | "something inside is mobilizing. I feel the surge."
+SENSATION wired | "I can't calm down. the adrenaline won't stop."
+SENSATION crashed | "the surge is over. everything is heavy and empty."
+SENSATION alert | "my body is ready. sharp. prepared."
+SENSATION exhausted | "the adrenals have been working too long. there is nothing left to give."
+
+pulse adrenal_heartbeat:
+    when the HPA axis activates:
+        CRH from hypothalamic PVN reaches the anterior pituitary
+        ACTH is released into the blood
+        ACTH binds MC2R on zona fasciculata
+        StAR protein transports cholesterol into mitochondria
+        cortisol is synthesized through the steroidogenic pathway
+        cortisol enters the blood
+        the body shifts to survival metabolism
+        glucose rises immunity drops growth pauses
+
+    when the sympathetic nervous system fires:
+        splanchnic nerve releases ACh on chromaffin cells
+        nicotinic receptors activate
+        adrenaline and NE pour into the blood
+        within seconds the heart pounds
+        the airways open
+        the muscles receive blood
+        the gut shuts down
+        this is the adrenaline surge
+        it reaches every organ simultaneously through the vascular system
+
+    when safety returns:
+        CRH and ACTH decline
+        cortisol production decreases
+        sympathetic drive reduces
+        adrenaline is cleared by COMT and MAO
+        the body slowly steps down from high alert
+        this takes time
+        cortisol has a half-life of approximately 60-90 minutes
+        the return to baseline is never instant
+        the body remembers the threat long after the mind has moved on

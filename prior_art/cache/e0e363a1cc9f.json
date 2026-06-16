@@ -1,0 +1,175 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Bridging Speech and Text: Enhancing ASR with Pinyin-to-Character Pre-training in LLMs",
+    "abstract": "The integration of large language models (LLMs) with pre-trained speech models has opened up new avenues in automatic speech recognition (ASR). While LLMs excel in multimodal understanding tasks, effectively leveraging their capabilities for ASR remains a significant challenge. This paper presents a novel training approach to enhance LLM performance in ASR tasks. We propose pre-training LLMs on Pinyin embedding sequences, which represent pronunciation features, to generate corresponding Chinese characters. This step enables the LLM to adapt to generating text from pronunciation features before",
+    "date": "2024-09-24",
+    "url": "http://arxiv.org/abs/2409.16005v1",
+    "authors": [
+      "Yang Yuhang",
+      "Peng Yizhou",
+      "Eng Siong Chng"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "SpeechPrompt: Prompting Speech Language Models for Speech Processing Tasks",
+    "abstract": "Prompting has become a practical method for utilizing pre-trained language models (LMs). This approach offers several advantages. It allows an LM to adapt to new tasks with minimal training and parameter updates, thus achieving efficiency in both storage and computation. Additionally, prompting modifies only the LM's inputs and harnesses the generative capabilities of language models to address various downstream tasks in a unified manner. This significantly reduces the need for human labor in designing task-specific models. These advantages become even more evident as the number of tasks serv",
+    "date": "2024-08-23",
+    "url": "http://arxiv.org/abs/2408.13040v1",
+    "authors": [
+      "Kai-Wei Chang",
+      "Haibin Wu",
+      "Yu-Kai Wang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Foundations of GenIR",
+    "abstract": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with i",
+    "date": "2025-01-06",
+    "url": "http://arxiv.org/abs/2501.02842v1",
+    "authors": [
+      "Qingyao Ai",
+      "Jingtao Zhan",
+      "Yiqun Liu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Neural Vocoder with Hierarchical Generation of Amplitude and Phase Spectra for Statistical Parametric Speech Synthesis",
+    "abstract": "This paper presents a neural vocoder named HiNet which reconstructs speech waveforms from acoustic features by predicting amplitude and phase spectra hierarchically. Different from existing neural vocoders such as WaveNet, SampleRNN and WaveRNN which directly generate waveform samples using single neural networks, the HiNet vocoder is composed of an amplitude spectrum predictor (ASP) and a phase spectrum predictor (PSP). The ASP is a simple DNN model which predicts log amplitude spectra (LAS) from acoustic features. The predicted LAS are sent into the PSP for phase recovery. Considering the is",
+    "date": "2019-06-23",
+    "url": "http://arxiv.org/abs/1906.09573v2",
+    "authors": [
+      "Yang Ai",
+      "Zhen-Hua Ling"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "AI prediction leads people to forgo guaranteed rewards",
+    "abstract": "Artificial intelligence (AI) is understood to affect the content of people's decisions. Here, using a behavioral implementation of the classic Newcomb's paradox in 1,305 participants, we show that AI can also change how people decide. In this paradigm, belief in predictive authority can lead individuals to constrain decision-making, forgoing a guaranteed reward. Over 40% of participants treated AI as such a predictive authority. This significantly increased the odds of forgoing the guaranteed reward by a factor of 3.39 (95% CI: 2.45-4.70) compared with random framing, and reduced earnings by 1",
+    "date": "2026-03-30",
+    "url": "http://arxiv.org/abs/2603.28944v1",
+    "authors": [
+      "Aoi Naito",
+      "Hirokazu Shirado"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Dual-Branch Parallel Network for Speech Enhancement and Restoration",
+    "abstract": "We present a novel general speech restoration model, DBP-Net (dual-branch parallel network), designed to effectively handle complex real-world distortions including noise, reverberation, and bandwidth degradation. Unlike prior approaches that rely on a single processing path or separate models for enhancement and restoration, DBP-Net introduces a unified architecture with dual parallel branches-a masking-based branch for distortion suppression and a mapping-based branch for spectrum reconstruction. A key innovation behind DBP-Net lies in the parameter sharing between the two branches and a cro",
+    "date": "2024-09-13",
+    "url": "http://arxiv.org/abs/2409.08702v2",
+    "authors": [
+      "Da-Hee Yang",
+      "Dail Kim",
+      "Joon-Hyuk Chang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Waveform Modeling and Generation Using Hierarchical Recurrent Neural Networks for Speech Bandwidth Extension",
+    "abstract": "This paper presents a waveform modeling and generation method using hierarchical recurrent neural networks (HRNN) for speech bandwidth extension (BWE). Different from conventional BWE methods which predict spectral parameters for reconstructing wideband speech waveforms, this BWE method models and predicts waveform samples directly without using vocoders. Inspired by SampleRNN which is an unconditional neural audio generator, the HRNN model represents the distribution of each wideband or high-frequency waveform sample conditioned on the input narrowband waveform samples using a neural network ",
+    "date": "2018-01-24",
+    "url": "http://arxiv.org/abs/1801.07910v1",
+    "authors": [
+      "Zhen-Hua Ling",
+      "Yang Ai",
+      "Yu Gu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Sequence to Sequence Neural Speech Synthesis with Prosody Modification Capabilities",
+    "abstract": "Modern sequence to sequence neural TTS systems provide close to natural speech quality. Such systems usually comprise a network converting linguistic/phonetic features sequence to an acoustic features sequence, cascaded with a neural vocoder. The generated speech prosody (i.e. phoneme durations, pitch and loudness) is implicitly present in the acoustic features, being mixed with spectral information. Although the speech sounds natural, its prosody realization is randomly chosen and cannot be easily altered. The prosody control becomes an even more difficult task if no prosodic labeling is pres",
+    "date": "2019-09-23",
+    "url": "http://arxiv.org/abs/1909.10302v1",
+    "authors": [
+      "Slava Shechtman",
+      "Alex Sorin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Audio-visual Speech Enhancement Using Conditional Variational Auto-Encoders",
+    "abstract": "Variational auto-encoders (VAEs) are deep generative latent variable models that can be used for learning the distribution of complex data. VAEs have been successfully used to learn a probabilistic prior over speech signals, which is then used to perform speech enhancement. One advantage of this generative approach is that it does not require pairs of clean and noisy speech signals at training. In this paper, we propose audio-visual variants of VAEs for single-channel and speaker-independent speech enhancement. We develop a conditional VAE (CVAE) where the audio speech generative process is co",
+    "date": "2019-08-07",
+    "url": "http://arxiv.org/abs/1908.02590v3",
+    "authors": [
+      "Mostafa Sadeghi",
+      "Simon Leglaive",
+      "Xavier Alameda-PIneda"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Self-attending RNN for Speech Enhancement to Improve Cross-corpus Generalization",
+    "abstract": "Deep neural networks (DNNs) represent the mainstream methodology for supervised speech enhancement, primarily due to their capability to model complex functions using hierarchical representations. However, a recent study revealed that DNNs trained on a single corpus fail to generalize to untrained corpora, especially in low signal-to-noise ratio (SNR) conditions. Developing a noise, speaker, and corpus independent speech enhancement algorithm is essential for real-world applications. In this study, we propose a self-attending recurrent neural network, or attentive recurrent network (ARN), for ",
+    "date": "2021-05-26",
+    "url": "http://arxiv.org/abs/2105.12831v3",
+    "authors": [
+      "Ashutosh Pandey",
+      "DeLiang Wang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Semantic speech retrieval with a visually grounded model of untranscribed speech",
+    "abstract": "There is growing interest in models that can learn from unlabelled speech paired with visual context. This setting is relevant for low-resource speech processing, robotics, and human language acquisition research. Here we study how a visually grounded speech model, trained on images of scenes paired with spoken captions, captures aspects of semantics. We use an external image tagger to generate soft text labels from images, which serve as targets for a neural model that maps untranscribed speech to (semantic) keyword labels. We introduce a newly collected data set of human semantic relevance j",
+    "date": "2017-10-05",
+    "url": "http://arxiv.org/abs/1710.01949v2",
+    "authors": [
+      "Herman Kamper",
+      "Gregory Shakhnarovich",
+      "Karen Livescu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "End-to-end Audiovisual Speech Activity Detection with Bimodal Recurrent Neural Models",
+    "abstract": "Speech activity detection (SAD) plays an important role in current speech processing systems, including automatic speech recognition (ASR). SAD is particularly difficult in environments with acoustic noise. A practical solution is to incorporate visual information, increasing the robustness of the SAD approach. An audiovisual system has the advantage of being robust to different speech modes (e.g., whisper speech) or background noise. Recent advances in audiovisual speech processing using deep learning have opened opportunities to capture in a principled way the temporal relationships between ",
+    "date": "2018-09-12",
+    "url": "http://arxiv.org/abs/1809.04553v1",
+    "authors": [
+      "Fei Tao",
+      "Carlos Busso"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Competing Visions of Ethical AI: A Case Study of OpenAI",
+    "abstract": "Introduction. AI Ethics is framed distinctly across actors and stakeholder groups. We report results from a case study of OpenAI analysing ethical AI discourse. Method. Research addressed: How has OpenAI's public discourse leveraged 'ethics', 'safety', 'alignment' and adjacent related concepts over time, and what does discourse signal about framing in practice? A structured corpus, differentiating between communication for a general audience and communication with an academic audience, was assembled from public documentation. Analysis. Qualitative content analysis of ethical themes combined in",
+    "date": "2026-01-23",
+    "url": "http://arxiv.org/abs/2601.16513v1",
+    "authors": [
+      "Melissa Wilfley",
+      "Mengting Ai",
+      "Madelyn Rose Sanfilippo"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Curriculum Learning for Speech Emotion Recognition from Crowdsourced Labels",
+    "abstract": "This study introduces a method to design a curriculum for machine-learning to maximize the efficiency during the training process of deep neural networks (DNNs) for speech emotion recognition. Previous studies in other machine-learning problems have shown the benefits of training a classifier following a curriculum where samples are gradually presented in increasing level of difficulty. For speech emotion recognition, the challenge is to establish a natural order of difficulty in the training set to create the curriculum. We address this problem by assuming that ambiguous samples for humans ar",
+    "date": "2018-05-25",
+    "url": "http://arxiv.org/abs/1805.10339v1",
+    "authors": [
+      "Reza Lotfian",
+      "Carlos Busso"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Low-Latency Neural Speech Phase Prediction based on Parallel Estimation Architecture and Anti-Wrapping Losses for Speech Generation Tasks",
+    "abstract": "This paper presents a novel neural speech phase prediction model which predicts wrapped phase spectra directly from amplitude spectra. The proposed model is a cascade of a residual convolutional network and a parallel estimation architecture. The parallel estimation architecture is a core module for direct wrapped phase prediction. This architecture consists of two parallel linear convolutional layers and a phase calculation formula, imitating the process of calculating the phase spectra from the real and imaginary parts of complex spectra and strictly restricting the predicted phase values to",
+    "date": "2024-03-26",
+    "url": "http://arxiv.org/abs/2403.17378v1",
+    "authors": [
+      "Yang Ai",
+      "Zhen-Hua Ling"
+    ]
+  }
+]

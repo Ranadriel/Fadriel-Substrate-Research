@@ -1,0 +1,173 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Quantum Architecture Search with Unsupervised Representation Learning",
+    "abstract": "Unsupervised representation learning presents new opportunities for advancing Quantum Architecture Search (QAS) on Noisy Intermediate-Scale Quantum (NISQ) devices. QAS is designed to optimize quantum circuits for Variational Quantum Algorithms (VQAs). Most QAS algorithms tightly couple the search space and search algorithm, typically requiring the evaluation of numerous quantum circuits, resulting in high computational costs and limiting scalability to larger quantum circuits. Predictor-based QAS algorithms mitigate this issue by estimating circuit performance based on structure or embedding. ",
+    "date": "2024-01-21",
+    "url": "http://arxiv.org/abs/2401.11576v6",
+    "authors": [
+      "Yize Sun",
+      "Zixin Wu",
+      "Volker Tresp"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "SEVerA: Verified Synthesis of Self-Evolving Agents",
+    "abstract": "Recent advances have shown the effectiveness of self-evolving LLM agents on tasks such as program repair and scientific discovery. In this paradigm, a planner LLM synthesizes an agent program that invokes parametric models, including LLMs, which are then tuned per task to improve performance. However, existing self-evolving agent frameworks provide no formal guarantees of safety or correctness. Because such programs are often executed autonomously on unseen inputs, this lack of guarantees raises reliability and security concerns. We formulate agentic code generation as a constrained learning p",
+    "date": "2026-03-26",
+    "url": "http://arxiv.org/abs/2603.25111v1",
+    "authors": [
+      "Debangshu Banerjee",
+      "Changming Xu",
+      "Gagandeep Singh"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems",
+    "abstract": "Recent advances in large language models have sparked growing interest in AI agents capable of solving complex, real-world tasks. However, most existing agent systems rely on manually crafted configurations that remain static after deployment, limiting their ability to adapt to dynamic and evolving environments. To this end, recent research has explored agent evolution techniques that aim to automatically enhance agent systems based on interaction data and environmental feedback. This emerging direction lays the foundation for self-evolving AI agents, which bridge the static capabilities of fo",
+    "date": "2025-08-10",
+    "url": "http://arxiv.org/abs/2508.07407v2",
+    "authors": [
+      "Jinyuan Fang",
+      "Yanwen Peng",
+      "Xi Zhang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Holomorphic representation of quantum computations",
+    "abstract": "We study bosonic quantum computations using the Segal-Bargmann representation of quantum states. We argue that this holomorphic representation is a natural one which not only gives a canonical description of bosonic quantum computing using basic elements of complex analysis but also provides a unifying picture which delineates the boundary between discrete- and continuous-variable quantum information theory. Using this representation, we show that the evolution of a single bosonic mode under a Gaussian Hamiltonian can be described as an integrable dynamical system of classical Calogero-Moser p",
+    "date": "2021-10-29",
+    "url": "http://arxiv.org/abs/2111.00117v3",
+    "authors": [
+      "Ulysse Chabaud",
+      "Saeed Mehraban"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Polynomial representations and categorifications of Fock Space",
+    "abstract": "The rings of symmetric polynomials form an inverse system whose limit, the ring of symmetric functions, is the model for the bosonic Fock space representation of the affine Lie algebra. We categorify this construction by considering an inverse limit of categories of polynomial representation of general linear groups. We show that this limit naturally carries an action of the affine Lie algebra (in the sense of Rouquier), thereby obtaining a famiy of categorifications of the bosonic Fock space representation.",
+    "date": "2011-01-12",
+    "url": "http://arxiv.org/abs/1101.2456v3",
+    "authors": [
+      "Jiuzu Hong",
+      "Oded Yacobi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Knowledge Representation for Robots through Human-Robot Interaction",
+    "abstract": "The representation of the knowledge needed by a robot to perform complex tasks is restricted by the limitations of perception. One possible way of overcoming this situation and designing \"knowledgeable\" robots is to rely on the interaction with the user. We propose a multi-modal interaction framework that allows to effectively acquire knowledge about the environment where the robot operates. In particular, in this paper we present a rich representation framework that can be automatically built from the metric map annotated with the indications provided by the user. Such a representation, allow",
+    "date": "2013-07-28",
+    "url": "http://arxiv.org/abs/1307.7351v2",
+    "authors": [
+      "Emanuele Bastianelli",
+      "Domenico Bloisi",
+      "Roberto Capobianco"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Tianyan: Cloud services with quantum advantage",
+    "abstract": "Tianyan Quantum Cloud Platform offers cloud services demonstrating quantum advantage capabilities with a Zuchongzhi 3.0-like superconducting quantum processor. This cloud-accessible superconducting quantum prototype, named Tianyan-287, features 105 qubits and achieves high operational fidelities, with single-qubit gates, two-qubit gates, and readout fidelity at 99.90%, 99.56%, 98.7%, respectively. For a specific benchmark task involving random circuit sampling on a 74-qubit system over 24 cycles, the platform completes one million samples in just 18.4 minutes. In contrast, state-of-the-art cla",
+    "date": "2025-12-11",
+    "url": "http://arxiv.org/abs/2512.10504v2",
+    "authors": [
+      " Tianyan Quantum Group"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Symmetry Protected Quantum Computation",
+    "abstract": "We consider a model of quantum computation using qubits where it is possible to measure whether a given pair are in a singlet (total spin $0$) or triplet (total spin $1$) state. The physical motivation is that we can do these measurements in a way that is protected against revealing other information so long as all terms in the Hamiltonian are $SU(2)$-invariant. We conjecture that this model is equivalent to BQP. Towards this goal, we show: (1) this model is capable of universal quantum computation with polylogarithmic overhead if it is supplemented by single qubit $X$ and $Z$ gates. (2) Witho",
+    "date": "2021-05-10",
+    "url": "http://arxiv.org/abs/2105.04649v3",
+    "authors": [
+      "Michael H. Freedman",
+      "Matthew B. Hastings",
+      "Modjtaba Shokrian Zini"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Structures and Representations of Generalized Path Algebras",
+    "abstract": "It is shown that an algebra $\u039b$ can be lifted with nilpotent Jacobson radical $r = r(\u039b)$ and has a generalized matrix unit $\\{e_{ii}\\}_I$ with each $\\bar e_{ii} $ in the center of $\\bar \u039b= \u039b/r$ iff $\u039b$ is isomorphic to a generalized path algebra with weak relations. Representations of the generalized path algebras are given. As a corollary, $\u039b$ is a finite algebra with non-zero unity element over perfect field $k$ (e.g. a field with characteristic zero or a finite field) iff $\u039b$ is isomorphic to a generalized path algebra $k (D, \u03a9, \u03c1)$ of finite directed graph with weak relations and $dim {\\} ",
+    "date": "2004-02-12",
+    "url": "http://arxiv.org/abs/math/0402188v5",
+    "authors": [
+      "Shouchuan Zhang",
+      "Yao-Zhong Zhang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Finite-Dimensional Representations of Hyper Loop Algebras Over Non-Algebraically Closed Fields",
+    "abstract": "We study finite-dimensional representations of hyper loop algebras over non-algebraically closed fields. The main results concern the classification of the irreducible representations, the construction of the Weyl modules, base change, tensor products of irreducible and Weyl modules, and the block decomposition of the underlying abelian category. Several results are interestingly related to the study of irreducible representations of polynomial algebras and Galois theory.",
+    "date": "2007-11-06",
+    "url": "http://arxiv.org/abs/0711.0795v4",
+    "authors": [
+      "Dijana Jakelic",
+      "Adriano Moura"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Universality in Quantum Computation",
+    "abstract": "We show that in quantum computation almost every gate that operates on two or more bits is a universal gate. We discuss various physical considerations bearing on the proper definition of universality for computational components such as logic gates.",
+    "date": "1995-05-24",
+    "url": "http://arxiv.org/abs/quant-ph/9505018v1",
+    "authors": [
+      "D. Deutsch",
+      "A. Barenco",
+      "A. Ekert"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Quantum signatures in nonlinear gravitational waves",
+    "abstract": "The effective quantum field theory description of gravity, despite its non-renormalizability, allows for predictions beyond classical general relativity. As we enter the age of gravitational wave astronomy, an important and timely question is whether measurable quantum predictions that depart from classical gravity, analogous to quantum optics effects which cannot be explained by classical electrodynamics, can be found. In this work, we investigate quantum signatures in gravitational waves using tools from quantum optics. Squeezed-coherent gravitational waves, which can exhibit sub-Poissonian ",
+    "date": "2021-11-02",
+    "url": "http://arxiv.org/abs/2111.01779v4",
+    "authors": [
+      "Thiago Guerreiro",
+      "Francesco Coradeschi",
+      "Antonia Micol Frassino"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "IBSEAD: - A Self-Evolving Self-Obsessed Learning Algorithm for Machine Learning",
+    "abstract": "We present IBSEAD or distributed autonomous entity systems based Interaction - a learning algorithm for the computer to self-evolve in a self-obsessed manner. This learning algorithm will present the computer to look at the internal and external environment in series of independent entities, which will interact with each other, with and/or without knowledge of the computer's brain. When a learning algorithm interacts, it does so by detecting and understanding the entities in the human algorithm. However, the problem with this approach is that the algorithm does not consider the interaction of ",
+    "date": "2011-06-30",
+    "url": "http://arxiv.org/abs/1106.6186v1",
+    "authors": [
+      "Jitesh Dundas",
+      "David Chik"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Learning Attention-based Representations from Multiple Patterns for Relation Prediction in Knowledge Graphs",
+    "abstract": "Knowledge bases, and their representations in the form of knowledge graphs (KGs), are naturally incomplete. Since scientific and industrial applications have extensively adopted them, there is a high demand for solutions that complete their information. Several recent works tackle this challenge by learning embeddings for entities and relations, then employing them to predict new relations among the entities. Despite their aggrandizement, most of those methods focus only on the local neighbors of a relation to learn the embeddings. As a result, they may fail to capture the KGs' context informa",
+    "date": "2022-06-07",
+    "url": "http://arxiv.org/abs/2206.04801v1",
+    "authors": [
+      "V\u00edtor Louren\u00e7o",
+      "Aline Paes"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Classical (ontological) dual states in quantum theory and the minimal group representation Hilbert space",
+    "abstract": "We investigate the classical aspects of Quantum theory and under which description Quantum theory does appear Classical. Although such descriptions or variables are known as \"ontological\" or \"hidden\", they are not hidden at all, but are dual classical states (in the sense of the general classical-quantum duality of Nature). The application of the Minimal Group Representation immediately classicalizes the system, Mp(2) emerging as the group of the classical-quantum duality symmetry. (Abridged)",
+    "date": "2025-01-19",
+    "url": "http://arxiv.org/abs/2501.11119v1",
+    "authors": [
+      "Diego J. Cirilo-Lombardo",
+      "Norma G. Sanchez"
+    ]
+  }
+]

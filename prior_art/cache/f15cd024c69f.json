@@ -1,0 +1,180 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Binary BPE: A Family of Cross-Platform Tokenizers for Binary Analysis",
+    "abstract": "Sequence models for binary analysis are bottlenecked by byte-level tokenization: raw bytes waste precious context window capacity for transformers and other neural network architectures, and many existing text-oriented tokenizers fail on arbitrary 0x00--0xFF sequences. To address this issue, we introduce the Binary BPE tokenizer family, a set of cross-platform Byte Pair Encoding (BPE) tokenizers for executables trained on a large corpus of binaries spanning multiple platforms, architectures, and operating systems, including Linux, Windows, macOS, Android, and malware sources. We release traine",
+    "date": "2025-11-14",
+    "url": "http://arxiv.org/abs/2511.17573v1",
+    "authors": [
+      "Michael J. Bommarito"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Data Mixture Inference: What do BPE Tokenizers Reveal about their Training Data?",
+    "abstract": "The pretraining data of today's strongest language models is opaque; in particular, little is known about the proportions of various domains or languages represented. In this work, we tackle a task which we call data mixture inference, which aims to uncover the distributional make-up of training data. We introduce a novel attack based on a previously overlooked source of information: byte-pair encoding (BPE) tokenizers, used by the vast majority of modern language models. Our key insight is that the ordered list of merge rules learned by a BPE tokenizer naturally reveals information about the ",
+    "date": "2024-07-23",
+    "url": "http://arxiv.org/abs/2407.16607v4",
+    "authors": [
+      "Jonathan Hayase",
+      "Alisa Liu",
+      "Yejin Choi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Fast WordPiece Tokenization",
+    "abstract": "Tokenization is a fundamental preprocessing step for almost all NLP tasks. In this paper, we propose efficient algorithms for the WordPiece tokenization used in BERT, from single-word tokenization to general text (e.g., sentence) tokenization. When tokenizing a single word, WordPiece uses a longest-match-first strategy, known as maximum matching. The best known algorithms so far are O(n^2) (where n is the input length) or O(nm) (where m is the maximum vocabulary token length). We propose a novel algorithm whose tokenization complexity is strictly O(n). Our method is inspired by the Aho-Corasic",
+    "date": "2020-12-31",
+    "url": "http://arxiv.org/abs/2012.15524v3",
+    "authors": [
+      "Xinying Song",
+      "Alex Salcianu",
+      "Yang Song"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "LiteToken: Removing Intermediate Merge Residues From BPE Tokenizers",
+    "abstract": "Tokenization is fundamental to how language models represent and process text, yet the behavior of widely used BPE tokenizers has received far less study than model architectures and training. In this paper, we investigate intermediate merge residues in BPE vocabularies: tokens that are frequent during merge learning so that retained in the final vocabulary, but are mostly further merged and rarely emitted when tokenizing the corpus during tokenizer usage. Such low-frequency tokens not only waste vocabulary capacity but also increase vulnerability to adversarial or atypical inputs. We present ",
+    "date": "2026-02-04",
+    "url": "http://arxiv.org/abs/2602.04706v1",
+    "authors": [
+      "Yike Sun",
+      "Haotong Yang",
+      "Zhouchen Lin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs",
+    "abstract": "Large language models (LLMs) can often be made to behave in undesirable ways that they are explicitly fine-tuned not to. For example, the LLM red-teaming literature has produced a wide variety of 'jailbreaking' techniques to elicit harmful text from models that were fine-tuned to be harmless. Recent work on red-teaming, model editing, and interpretability suggests that this challenge stems from how (adversarial) fine-tuning largely serves to suppress rather than remove undesirable capabilities from LLMs. Prior work has introduced latent adversarial training (LAT) as a way to improve robustness",
+    "date": "2024-07-22",
+    "url": "http://arxiv.org/abs/2407.15549v3",
+    "authors": [
+      "Abhay Sheshadri",
+      "Aidan Ewart",
+      "Phillip Guo"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "First-order Adversarial Vulnerability of Neural Networks and Input Dimension",
+    "abstract": "Over the past few years, neural networks were proven vulnerable to adversarial images: targeted but imperceptible image perturbations lead to drastically different predictions. We show that adversarial vulnerability increases with the gradients of the training objective when viewed as a function of the inputs. Surprisingly, vulnerability does not depend on network topology: for many standard network architectures, we prove that at initialization, the $\\ell_1$-norm of these gradients grows as the square root of the input dimension, leaving the networks increasingly vulnerable with growing image",
+    "date": "2018-02-05",
+    "url": "http://arxiv.org/abs/1802.01421v4",
+    "authors": [
+      "Carl-Johann Simon-Gabriel",
+      "Yann Ollivier",
+      "L\u00e9on Bottou"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Quaternion Generative Adversarial Networks",
+    "abstract": "Latest Generative Adversarial Networks (GANs) are gathering outstanding results through a large-scale training, thus employing models composed of millions of parameters requiring extensive computational capabilities. Building such huge models undermines their replicability and increases the training instability. Moreover, multi-channel data, such as images or audio, are usually processed by realvalued convolutional networks that flatten and concatenate the input, often losing intra-channel spatial relations. To address these issues related to complexity and information loss, we propose a famil",
+    "date": "2021-04-19",
+    "url": "http://arxiv.org/abs/2104.09630v2",
+    "authors": [
+      "Eleonora Grassucci",
+      "Edoardo Cicero",
+      "Danilo Comminiello"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "BPE Gets Picky: Efficient Vocabulary Refinement During Tokenizer Training",
+    "abstract": "Language models can largely benefit from efficient tokenization. However, they still mostly utilize the classical BPE algorithm, a simple and reliable method. This has been shown to cause such issues as under-trained tokens and sub-optimal compression that may affect the downstream performance. We introduce Picky BPE, a modified BPE algorithm that carries out vocabulary refinement during tokenizer training. Our method improves vocabulary efficiency, eliminates under-trained tokens, and does not compromise text compression. Our experiments show that our method does not reduce the downstream per",
+    "date": "2024-09-06",
+    "url": "http://arxiv.org/abs/2409.04599v1",
+    "authors": [
+      "Pavel Chizhov",
+      "Catherine Arnett",
+      "Elizaveta Korotkova"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Efficient Cold-Start Recommendation via BPE Token-Level Embedding Initialization with LLM",
+    "abstract": "The cold-start issue is the challenge when we talk about recommender systems, especially in the case when we do not have the past interaction data of new users or new items. Content-based features or hybrid solutions are common as conventional solutions, but they can only work in a sparse metadata environment with shallow patterns. In this paper, the efficient cold-start recommendation strategy is presented, which is based on the sub word-level representations by applying Byte Pair Encoding (BPE) tokenization and pre-trained Large Language Model (LLM) embedding in the initialization procedure.",
+    "date": "2025-09-16",
+    "url": "http://arxiv.org/abs/2509.13179v1",
+    "authors": [
+      "Yushang Zhao",
+      "Xinyue Han",
+      "Qian Leng"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "TEAL: Tokenize and Embed ALL for Multi-modal Large Language Models",
+    "abstract": "Despite Multi-modal Large Language Models (MM-LLMs) have made exciting strides recently, they are still struggling to efficiently model the interactions among multi-modal inputs and the generation in non-textual modalities. In this work, we propose TEAL (Tokenize and Embed ALl)}, an approach to treat the input from any modality as a token sequence and learn a joint embedding space for all modalities. Specifically, for the input from any modality, TEAL first discretizes it into a token sequence with the off-the-shelf tokenizer and embeds the token sequence into a joint embedding space with a le",
+    "date": "2023-11-08",
+    "url": "http://arxiv.org/abs/2311.04589v3",
+    "authors": [
+      "Zhen Yang",
+      "Yingxue Zhang",
+      "Fandong Meng"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Self-Supervised and Generalizable Tokenization for CLIP-Based 3D Understanding",
+    "abstract": "Vision-language models like CLIP can offer a promising foundation for 3D scene understanding when extended with 3D tokenizers. However, standard approaches, such as k-nearest neighbor or radius-based tokenization, struggle with cross-domain generalization due to sensitivity to dataset-specific spatial scales. We present a universal 3D tokenizer designed for scale-invariant representation learning with a frozen CLIP backbone. We show that combining superpoint-based grouping with coordinate scale normalization consistently outperforms conventional methods through extensive experimental analysis.",
+    "date": "2025-05-24",
+    "url": "http://arxiv.org/abs/2505.18819v1",
+    "authors": [
+      "Guofeng Mei",
+      "Bin Ren",
+      "Juan Liu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Acoustic BPE for Speech Generation with Discrete Tokens",
+    "abstract": "Discrete audio tokens derived from self-supervised learning models have gained widespread usage in speech generation. However, current practice of directly utilizing audio tokens poses challenges for sequence modeling due to the length of the token sequence. Additionally, this approach places the burden on the model to establish correlations between tokens, further complicating the modeling process. To address this issue, we propose acoustic BPE which encodes frequent audio token patterns by utilizing byte-pair encoding. Acoustic BPE effectively reduces the sequence length and leverages the pr",
+    "date": "2023-10-23",
+    "url": "http://arxiv.org/abs/2310.14580v4",
+    "authors": [
+      "Feiyu Shen",
+      "Yiwei Guo",
+      "Chenpeng Du"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "KL3M Tokenizers: A Family of Domain-Specific and Character-Level Tokenizers for Legal, Financial, and Preprocessing Applications",
+    "abstract": "We present the KL3M tokenizers, a family of specialized tokenizers for legal, financial, and governmental text. Despite established work on tokenization, specialized tokenizers for professional domains remain understudied. Our paper offers two main contributions to this area.   First, we introduce domain-specific BPE tokenizers for legal, financial, and governmental text. Our kl3m-004-128k-cased tokenizer uses 9-17% fewer tokens than GPT-4o and Llama3 for domain-specific documents, despite having a smaller vocabulary. For specialized terminology, our cased tokenizer is even more efficient, usi",
+    "date": "2025-03-21",
+    "url": "http://arxiv.org/abs/2503.17247v1",
+    "authors": [
+      "Michael J Bommarito",
+      "Daniel Martin Katz",
+      "Jillian Bommarito"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Rethinking Tokenization for Rich Morphology: The Dominance of Unigram over BPE and Morphological Alignment",
+    "abstract": "The relationship between tokenizer algorithm (e.g., Byte-Pair Encoding (BPE), Unigram), morphological alignment, tokenization quality (e.g., compression efficiency), and downstream performance remains largely unclear, particularly for languages with complex morphology. In this paper, we conduct a comprehensive evaluation of tokenizers using small-sized BERT models -- from pre-training through fine-tuning -- for Telugu (agglutinative), along with preliminary evaluation in Hindi (primarily fusional with some agglutination) and English (fusional). To evaluate morphological alignment of tokenizers",
+    "date": "2025-08-11",
+    "url": "http://arxiv.org/abs/2508.08424v3",
+    "authors": [
+      "Saketh Reddy Vemula",
+      "Sandipan Dandapat",
+      "Dipti Misra Sharma"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "From Characters to Tokens: Dynamic Grouping with Hierarchical BPE",
+    "abstract": "Subword tokenization methods like Byte Pair Encoding (BPE) are widely used in large language models due to their balance of vocabulary compactness and representational power. However, they suffer from inefficiencies in representing rare words and require large embedding matrices. Character-level models address these issues but introduce performance bottlenecks, particularly in Transformer-based architectures. Recent hierarchical models attempt to merge the benefits of both paradigms by grouping characters into patches, but existing patching strategies either rely on whitespace-limiting applica",
+    "date": "2025-10-17",
+    "url": "http://arxiv.org/abs/2510.15517v1",
+    "authors": [
+      "Rares Dolga",
+      "Lucas Maystre",
+      "Tudor Berariu"
+    ]
+  }
+]

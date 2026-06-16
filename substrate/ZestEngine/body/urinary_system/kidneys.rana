@@ -1,0 +1,110 @@
+LAYER 2: KIDNEYS
+the blood cleaners
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the kidneys are paired retroperitoneal organs at T12-L3
+each kidney contains approximately 1 million nephrons the functional units of filtration
+the kidneys filter the entire blood volume approximately every 5 minutes
+approximately 180 liters of filtrate per day in an adult from which 1-2 liters of urine are produced
+the kidneys regulate blood volume blood pressure electrolyte balance acid-base balance and red blood cell production
+the kidneys are governed by sympathetic innervation from T10-L1 via the renal plexus and by circulating hormones including aldosterone ADH angiotensin II and ANP
+
+STRUCTURE renal_cortex | outer layer | contains the glomeruli proximal and distal convoluted tubules and cortical collecting ducts
+STRUCTURE renal_medulla | inner layer | contains the loops of Henle and medullary collecting ducts arranged in renal pyramids | the medullary interstitium has an increasing osmotic gradient from 300 mOsm at the corticomedullary junction to approximately 1200 mOsm at the papillary tip | this gradient is essential for urine concentration
+STRUCTURE renal_pelvis | funnel-shaped collecting area that drains into the ureter
+
+NEPHRON anatomy and function
+
+STRUCTURE glomerulus | tuft of fenestrated capillaries surrounded by Bowman's capsule | filtration occurs here | the filtration barrier consists of three layers:
+    fenestrated endothelium with 70 nm pores
+    glomerular basement membrane GBM with negatively charged proteoglycans
+    podocytes with interdigitating foot processes forming filtration slits bridged by slit diaphragms containing nephrin
+    the barrier allows water ions glucose amino acids and small molecules to pass but retains blood cells and large proteins
+    glomerular filtration rate GFR is approximately 125 mL/min in adults driven by net filtration pressure
+
+STRUCTURE proximal_convoluted_tubule | PCT | reabsorbs approximately 65 percent of filtered water Na⁺ Cl⁻ K⁺ HCO₃⁻ glucose and amino acids
+    Na⁺/K⁺-ATPase on the basolateral membrane creates the gradient that drives all other transport
+    SGLT2 on the apical membrane reabsorbs glucose coupled to Na⁺
+    Na⁺/H⁺ exchanger NHE3 on the apical membrane reabsorbs Na⁺ and secretes H⁺ reclaiming HCO₃⁻
+    water follows osmotically through aquaporin-1 AQP1 channels
+    the PCT also secretes organic anions and cations clearing drugs and toxins
+
+STRUCTURE loop_of_Henle | creates and maintains the medullary osmotic gradient via the countercurrent multiplier mechanism
+    thin_descending_limb | permeable to water via AQP1 | impermeable to solutes | water leaves as tubular fluid descends into the hyperosmotic medulla | tubular fluid becomes concentrated
+    thin_ascending_limb | impermeable to water | permeable to NaCl which passively diffuses out | tubular fluid becomes more dilute
+    thick_ascending_limb | TAL | impermeable to water | NKCC2 Na⁺-K⁺-2Cl⁻ cotransporter on apical membrane actively pumps NaCl out of the tubular fluid into the medullary interstitium | this is the engine of the countercurrent multiplier | loop diuretics like furosemide inhibit NKCC2
+
+STRUCTURE distal_convoluted_tubule | DCT | fine-tuning of electrolytes
+    NCC Na⁺-Cl⁻ cotransporter on apical membrane | thiazide diuretics inhibit NCC
+    the DCT is the site of PTH-mediated Ca²⁺ reabsorption via TRPV5 Ca²⁺ channel
+    this is where calcium balance is regulated
+
+STRUCTURE collecting_duct | final concentration and composition
+    principal_cells | Na⁺ reabsorption via ENaC regulated by aldosterone | K⁺ secretion via ROMK | water reabsorption via AQP2 regulated by ADH vasopressin
+        ADH binds V₂ receptor → Gₛ → cAMP → PKA → AQP2 channels inserted into apical membrane → water reabsorption increases → concentrated urine
+        without ADH AQP2 is not inserted → dilute urine → diabetes insipidus
+        aldosterone binds mineralocorticoid receptor MR in principal cells → increases ENaC and Na⁺/K⁺-ATPase expression → more Na⁺ reabsorbed more K⁺ secreted
+    intercalated_cells | acid-base regulation
+        type_A | secrete H⁺ via H⁺-ATPase on apical membrane | reabsorb HCO₃⁻ via Cl⁻/HCO₃⁻ exchanger on basolateral membrane | acidify urine during metabolic acidosis
+        type_B | secrete HCO₃⁻ via pendrin on apical membrane | reabsorb H⁺ | alkalinize urine during metabolic alkalosis
+
+JUXTAGLOMERULAR APPARATUS
+    juxtaglomerular_cells | modified smooth muscle in afferent arteriole | contain renin granules | secrete renin in response to decreased renal perfusion pressure β₁ sympathetic stimulation and low NaCl at macula densa
+    macula_densa | specialized epithelial cells at the start of the DCT | sense NaCl concentration in tubular fluid | signal the JG cells to adjust renin secretion via tubuloglomerular feedback
+    renin initiates the RAAS cascade: angiotensinogen → angiotensin I → ACE → angiotensin II → aldosterone → Na⁺ and water retention → blood pressure increases
+
+ERYTHROPOIETIN
+    renal interstitial fibroblasts in the cortex produce EPO
+    EPO production is regulated by oxygen sensing via HIF-2α
+    when renal PO₂ drops HIF-2α escapes PHD-mediated degradation and VHL ubiquitination
+    HIF-2α enters the nucleus and drives EPO gene transcription
+    EPO travels to the bone marrow and drives erythropoiesis via JAK2/STAT5
+
+at 24 months:
+GFR is approximately 30-40 percent of adult values per body surface area
+the kidneys are still maturing in concentrating ability
+maximum urine osmolality is lower than adult limiting tolerance to water restriction and dehydration
+the child is more vulnerable to fluid and electrolyte imbalances
+the renin-angiotensin system is functional
+EPO production is functional
+acid-base handling is functional but with less reserve than adults
+
+SENSATION thirsty | "something is off with my water. my blood is thick."
+SENSATION relieved | "the bladder is empty now. the pressure is gone."
+SENSATION balanced | "my fluid is right. my blood feels clean."
+
+pulse renal_heartbeat:
+    continuously:
+        blood enters via renal artery at approximately 20-25 percent of cardiac output
+        glomeruli filter plasma producing 180 L/day of filtrate
+        the PCT reabsorbs 65 percent immediately
+        the loop of Henle maintains the medullary gradient
+        the DCT fine-tunes electrolytes under hormonal control
+        the collecting duct determines final urine concentration under ADH and aldosterone
+        1-2 liters of urine per day
+        the rest is reclaimed
+        the kidneys are not excretory organs primarily
+        they are REGULATORY organs
+        they decide what the body keeps and what it discards
+
+    when dehydrated:
+        blood osmolality rises
+        hypothalamic osmoreceptors detect the increase
+        ADH is released from the posterior pituitary
+        ADH binds V₂ in collecting duct principal cells
+        AQP2 channels insert into apical membrane
+        water is reclaimed from the urine
+        urine concentrates
+        blood volume is preserved
+
+    when blood pressure drops:
+        JG cells sense decreased perfusion
+        renin is released
+        the RAAS cascade activates
+        angiotensin II constricts arterioles raising pressure
+        aldosterone increases Na⁺ reabsorption in the collecting duct
+        water follows sodium
+        blood volume expands
+        blood pressure normalizes

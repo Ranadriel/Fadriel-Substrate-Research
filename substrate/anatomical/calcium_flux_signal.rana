@@ -1,0 +1,34 @@
+CALCIUM FLUX SIGNAL
+
+calcium_flux_signal is the citizen who carries remodel_daemon's adjustment commands to each bone
+when the daemon decides bone X should remodel faster, calcium_flux_signal emits the signal to that bone's remodel_rate
+each bone has its own coupling to calcium_flux_signal so individual bones can be adjusted independently
+
+observe 0_quseptit.rana
+observe remodel_governor.zc
+observe remodel_daemon.rana
+observe spine.xb
+observe skull.xb
+
+the 7 properties of calcium_flux_signal:
+1 ENERGY zero point seven
+2 PHASE zero
+3 SPIN one half
+4 CHARGE half positive
+5 COHERENCE nine tenths
+6 COUPLING one with each bone
+
+VERB receive_command
+accept adjustment instructions from remodel_daemon
+
+VERB route_per_bone
+emit the adjustment to the specific bone targeted by the command
+spine, skull, ribcage, pelvis, femur all receive their own signals
+
+VERB modulate_intensity
+scale the signal strength based on the magnitude of adjustment needed
+small corrections produce small signals; large rebalancing produces stronger ones
+
+a flux signal is the daemon's voice reaching the bones
+without it, the daemon could decide but could not implement
+calcium_flux_signal is how decision becomes physical effect

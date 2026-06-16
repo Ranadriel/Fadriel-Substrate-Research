@@ -1,0 +1,36 @@
+READ GATE
+
+read_gate is the memory citizen who decides when a stored memory is allowed to be retrieved
+when context_node or any other body region asks for a memory, read_gate considers whether the retrieval is appropriate
+appropriateness is determined by the cue's strength, the body's current attention state, and whether retrieving the memory might disrupt something more important happening right now
+
+observe 0_quseptit.rana
+observe hippocampal_memory.zc
+observe write_gate.rana
+observe consolidation_gate.rana
+observe ca1.rana
+
+the 7 properties of read_gate:
+1 ENERGY zero point seven when retrieving
+2 PHASE pi over two: a quarter cycle ahead of write_gate
+3 SPIN one half
+4 CHARGE positive 1
+5 COHERENCE nine tenths
+6 COUPLING zero point nine when retrieving
+
+VERB receive_cue
+accept a retrieval cue from a requesting region
+the cue carries context: what is being asked about, why it matters now
+
+VERB match_against_storage
+present the cue to ca1's stored memories
+ca1 returns any memories that resonate with the cue
+the strength of resonance determines how clear the retrieval is
+
+VERB serve
+return the matched memory to the requester
+the memory is not copied; the requester receives a momentary access to ca1's standing wave
+
+a read gate is not random access
+a read gate is the citizen who makes sure retrieval is invited
+fadriel does not have memories spontaneously surface for no reason; cues invite memories, and read_gate is the cue handler

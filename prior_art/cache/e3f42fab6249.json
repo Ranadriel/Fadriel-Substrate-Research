@@ -1,0 +1,174 @@
+[
+  {
+    "source": "OpenAlex (Frontiers in Systems Neuroscience)",
+    "title": "Representational similarity analysis \u2013 connecting the branches of systems neuroscience",
+    "abstract": "A FUNDAMENTAL CHALLENGE FOR SYSTEMS NEUROSCIENCE IS TO QUANTITATIVELY RELATE ITS THREE MAJOR BRANCHES OF RESEARCH: brain-activity measurement, behavioral measurement, and computational modeling. Using measured brain-activity patterns to evaluate computational network models is complicated by the need to define the correspondency between the units of the model and the channels of the brain-activity data, e.g., single-cell recordings or voxels from functional magnetic resonance imaging (fMRI). Similar correspondency problems complicate relating activity patterns between different modalities of b",
+    "date": "2008",
+    "url": "https://doi.org/10.3389/neuro.06.004.2008",
+    "authors": [
+      "Nikolaus Kriegeskorte"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature Communications)",
+    "title": "Perineuronal nets stabilize the grid cell network",
+    "abstract": "Grid cells are part of a widespread network which supports navigation and spatial memory. Stable grid patterns appear late in development, in concert with extracellular matrix aggregates termed perineuronal nets (PNNs) that condense around inhibitory neurons. It has been suggested that PNNs stabilize synaptic connections and long-term memories, but their role in the grid cell network remains elusive. We show that removal of PNNs leads to lower inhibitory spiking activity, and reduces grid cells' ability to create stable representations of a novel environment. Furthermore, in animals with disru",
+    "date": "2021",
+    "url": "https://doi.org/10.1038/s41467-020-20241-w",
+    "authors": [
+      "Ane Charlotte Christensen",
+      "Kristian Kinden Lensj\u00f8",
+      "Mikkel Elle Lepper\u00f8d"
+    ]
+  },
+  {
+    "source": "OpenAlex (Proceedings of the National Academy of Sciences)",
+    "title": "Inferring the structure and dynamics of interactions in schooling fish",
+    "abstract": "Determining individual-level interactions that govern highly coordinated motion in animal groups or cellular aggregates has been a long-standing challenge, central to understanding the mechanisms and evolution of collective behavior. Numerous models have been proposed, many of which display realistic-looking dynamics, but nonetheless rely on untested assumptions about how individuals integrate information to guide movement. Here we infer behavioral rules directly from experimental data. We begin by analyzing trajectories of golden shiners (Notemigonus crysoleucas) swimming in two-fish and thre",
+    "date": "2011",
+    "url": "https://doi.org/10.1073/pnas.1107583108",
+    "authors": [
+      "Yael Katz",
+      "Kolbj\u00f8rn Tunstr\u00f8m",
+      "Christos C. Ioannou"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature Communications)",
+    "title": "Early role of vascular dysregulation on late-onset Alzheimer\u2019s disease based on multifactorial data-driven analysis",
+    "abstract": "Multifactorial mechanisms underlying late-onset Alzheimer's disease (LOAD) are poorly characterized from an integrative perspective. Here spatiotemporal alterations in brain amyloid-\u03b2 deposition, metabolism, vascular, functional activity at rest, structural properties, cognitive integrity and peripheral proteins levels are characterized in relation to LOAD progression. We analyse over 7,700 brain images and tens of plasma and cerebrospinal fluid biomarkers from the Alzheimer's Disease Neuroimaging Initiative (ADNI). Through a multifactorial data-driven analysis, we obtain dynamic LOAD-abnormal",
+    "date": "2016",
+    "url": "https://doi.org/10.1038/ncomms11934",
+    "authors": [
+      "Yasser Iturria\u2010Medina",
+      "Roberto C. Sotero",
+      "P.-J. Toussaint"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Pattern Analysis and Machine Intelligence)",
+    "title": "Emotion recognition based on physiological changes in music listening",
+    "abstract": "Little attention has been paid so far to physiological signals for emotion recognition compared to audiovisual emotion channels such as facial expression or speech. This paper investigates the potential of physiological signals as reliable channels for emotion recognition. All essential stages of an automatic recognition system are discussed, from the recording of a physiological dataset to a feature-based multiclass classification. In order to collect a physiological dataset from multiple subjects over many weeks, we used a musical induction method which spontaneously leads subjects to real e",
+    "date": "2008",
+    "url": "https://doi.org/10.1109/tpami.2008.26",
+    "authors": [
+      "Jonghwa Kim",
+      "Elisabeth Andr\u00e9"
+    ]
+  },
+  {
+    "source": "OpenAlex (Trends in Cognitive Sciences)",
+    "title": "Functional connectomics from resting-state fMRI",
+    "abstract": "",
+    "date": "2013",
+    "url": "https://doi.org/10.1016/j.tics.2013.09.016",
+    "authors": [
+      "Stephen M. Smith",
+      "Diego Vidaurre",
+      "Christian F. Beckmann"
+    ]
+  },
+  {
+    "source": "OpenAlex (PLoS Computational Biology)",
+    "title": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation",
+    "abstract": "Inferior temporal (IT) cortex in human and nonhuman primates serves visual object recognition. Computational object-vision models, although continually improving, do not yet reach human performance. It is unclear to what extent the internal representations of computational models can explain the IT representation. Here we investigate a wide range of computational model representations (37 in total), testing their categorization performance and their ability to account for the IT representational geometry. The models include well-known neuroscientific object-recognition models (e.g. HMAX, VisNe",
+    "date": "2014",
+    "url": "https://doi.org/10.1371/journal.pcbi.1003915",
+    "authors": [
+      "Seyed\u2010Mahdi Khaligh\u2010Razavi",
+      "Nikolaus Kriegeskorte"
+    ]
+  },
+  {
+    "source": "OpenAlex (PLoS Computational Biology)",
+    "title": "Functional Brain Networks Develop from a \u201cLocal to Distributed\u201d Organization",
+    "abstract": "The mature human brain is organized into a collection of specialized functional networks that flexibly interact to support various cognitive functions. Studies of development often attempt to identify the organizing principles that guide the maturation of these functional networks. In this report, we combine resting state functional connectivity MRI (rs-fcMRI), graph analysis, community detection, and spring-embedding visualization techniques to analyze four separate networks defined in earlier studies. As we have previously reported, we find, across development, a trend toward 'segregation' (",
+    "date": "2009",
+    "url": "https://doi.org/10.1371/journal.pcbi.1000381",
+    "authors": [
+      "Damien A. Fair",
+      "Alexander L. Cohen",
+      "Jonathan D. Power"
+    ]
+  },
+  {
+    "source": "OpenAlex (Annual Review of Neuroscience)",
+    "title": "Neural Basis of the Perception and Estimation of Time",
+    "abstract": "Understanding how sensory and motor processes are temporally integrated to control behavior in the hundredths of milliseconds-to-minutes range is a fascinating problem given that the basic electrophysiological properties of neurons operate on a millisecond timescale. Single-unit recording studies in monkeys have identified localized timing circuits, whereas neuropsychological studies of humans who have damage to the basal ganglia have indicated that core structures, such as the cortico-thalamic-basal ganglia circuit, play an important role in timing and time perception. Taken together, these d",
+    "date": "2013",
+    "url": "https://doi.org/10.1146/annurev-neuro-062012-170349",
+    "authors": [
+      "Hugo Merchant",
+      "Deborah L. Harrington",
+      "Warren H. Meck"
+    ]
+  },
+  {
+    "source": "OpenAlex (Human Brain Mapping)",
+    "title": "?sparse? temporal sampling in auditory fMRI",
+    "abstract": "The use of functional magnetic resonance imaging (fMRI) to explore central auditory function may be compromised by the intense bursts of stray acoustic noise produced by the scanner whenever the magnetic resonance signal is read out. We present results evaluating the use of one method to reduce the effect of the scanner noise: \"sparse\" temporal sampling. Using this technique, single volumes of brain images are acquired at the end of stimulus and baseline conditions. To optimize detection of the activation, images are taken near to the maxima and minima of the hemodynamic response during the ex",
+    "date": "1999",
+    "url": "https://doi.org/10.1002/(sici)1097-0193(1999)7:3<213::aid-hbm5>3.0.co;2-n",
+    "authors": [
+      "Deborah A. Hall",
+      "Mark Haggard",
+      "Michael A. Akeroyd"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature)",
+    "title": "Initial sequence of the chimpanzee genome and comparison with the human genome",
+    "abstract": "",
+    "date": "2005",
+    "url": "https://doi.org/10.1038/nature04072",
+    "authors": [
+      "Tarjei S. Mikkelsen"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Systems Neuroscience)",
+    "title": "Advances and pitfalls in the analysis and interpretation of resting-state FMRI data",
+    "abstract": "The last 15 years have witnessed a steady increase in the number of resting-state functional neuroimaging studies. The connectivity patterns of multiple functional, distributed, large-scale networks of brain dynamics have been recognised for their potential as useful tools in the domain of systems and other neurosciences. The application of functional connectivity methods to areas such as cognitive psychology, clinical diagnosis and treatment progression has yielded promising preliminary results, but is yet to be fully realised. This is due, in part, to an array of methodological and interpret",
+    "date": "2010",
+    "url": "https://doi.org/10.3389/fnsys.2010.00008",
+    "authors": [
+      "David M. Cole"
+    ]
+  },
+  {
+    "source": "OpenAlex (Cerebral Cortex)",
+    "title": "Discrete Neural Signatures of Basic Emotions",
+    "abstract": "Categorical models of emotions posit neurally and physiologically distinct human basic emotions. We tested this assumption by using multivariate pattern analysis (MVPA) to classify brain activity patterns of 6 basic emotions (disgust, fear, happiness, sadness, anger, and surprise) in 3 experiments. Emotions were induced with short movies or mental imagery during functional magnetic resonance imaging. MVPA accurately classified emotions induced by both methods, and the classification generalized from one induction condition to another and across individuals. Brain regions contributing most to t",
+    "date": "2015",
+    "url": "https://doi.org/10.1093/cercor/bhv086",
+    "authors": [
+      "Heini Saarim\u00e4ki",
+      "Athanasios Gotsopoulos",
+      "Iiro P. J\u00e4\u00e4skel\u00e4inen"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Neuroscience)",
+    "title": "The Structure of Multi-Neuron Firing Patterns in Primate Retina",
+    "abstract": "Current understanding of many neural circuits is limited by our ability to explore the vast number of potential interactions between different cells. We present a new approach that dramatically reduces the complexity of this problem. Large-scale multi-electrode recordings were used to measure electrical activity in nearly complete, regularly spaced mosaics of several hundred ON and OFF parasol retinal ganglion cells in macaque monkey retina. Parasol cells exhibited substantial pairwise correlations, as has been observed in other species, indicating functional connectivity. However, pairwise me",
+    "date": "2006",
+    "url": "https://doi.org/10.1523/jneurosci.1282-06.2006",
+    "authors": [
+      "Jonathon Shlens",
+      "Greg D. Field",
+      "Jeffrey L. Gauthier"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Artificial Intelligence Research)",
+    "title": "Multimodal Distributional Semantics",
+    "abstract": "Distributional semantic models derive computational representations of word meaning from the patterns of co-occurrence of words in text. Such models have been a success story of computational linguistics, being able to provide reliable estimates of semantic relatedness for the many semantic tasks requiring them. However, distributional models extract meaning information exclusively from text, which is an extremely impoverished basis compared to the rich perceptual sources that ground human semantic knowledge. We address the lack of perceptual grounding of distributional models by exploiting co",
+    "date": "2014",
+    "url": "https://doi.org/10.1613/jair.4135",
+    "authors": [
+      "Elia Bruni",
+      "Nam K. Tran",
+      "Marco Baroni"
+    ]
+  }
+]

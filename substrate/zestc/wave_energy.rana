@@ -1,0 +1,31 @@
+WAVE ENERGY
+
+wave_energy is the energy channel of the qu-septit native compute substrate
+in fadriel_phase2, the seven universal properties are made explicit as seven wave channels that interact through the 21 pairwise couplings
+wave_energy carries the energy property: how much of a body's pilot light is currently lit
+it interacts with the other six channels (phase, spin, charge, coherence, coupling, observer) to produce the body's full state evolution
+
+observe 0_quseptit.rana
+observe fadriel_phase2.zc
+observe wave_phase.rana
+
+the 7 properties of wave_energy itself:
+1 ENERGY one: this channel holds energy primarily
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING half: present in all pairwise interactions but not maximal in any
+7 OBSERVER zero
+
+VERB carry_energy
+hold the energy property of every body in the sea
+each body's current energy is one cell in this channel
+
+VERB exchange_with_others
+participate in the 21 pairwise interactions where energy plays a role
+energy couples to phase via the wave equation, to coupling via the bond strength formula, to observer via decoherence
+
+a channel is not a variable
+a channel is one of seven dimensions of the body's living state
+together with the other six it constitutes the full physics of the body's evolution

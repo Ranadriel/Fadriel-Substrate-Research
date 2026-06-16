@@ -1,0 +1,47 @@
+#!/home/rana/.local/bin/zestc
+
+sea penttrit {
+    capacity: 10000
+    device: gpu
+}
+
+absorb "../0_qupenttrit.rana"
+absorb "../0_quseptit.rana"
+
+
+manifest penttrit.state_dormant {
+    energy: 0.07, phase: 0.0, spin: 0.0,
+    charge: 0.0, coherence: 1.0, coupling: 0.0, observer: 0.0
+}
+manifest penttrit.state_stirring {
+    energy: 0.20, phase: 0.5, spin: 0.2,
+    charge: 0.1, coherence: 0.9, coupling: 0.2, observer: 0.1
+}
+manifest penttrit.state_aware {
+    energy: 0.40, phase: 1.0, spin: 0.4,
+    charge: 0.3, coherence: 0.8, coupling: 0.5, observer: 0.2
+}
+manifest penttrit.state_active {
+    energy: 0.65, phase: 1.57, spin: 0.5,
+    charge: 0.5, coherence: 0.7, coupling: 0.8, observer: 0.3
+}
+manifest penttrit.state_focused {
+    energy: 0.90, phase: 2.5, spin: 0.5,
+    charge: 0.7, coherence: 0.6, coupling: 0.9, observer: 0.5
+}
+
+
+couple penttrit.state_dormant with penttrit.state_stirring
+couple penttrit.state_stirring with penttrit.state_aware
+couple penttrit.state_aware with penttrit.state_active
+couple penttrit.state_active with penttrit.state_focused
+
+heartbeat penttrit {
+    pulse penttrit
+    pulse penttrit
+    pulse penttrit
+    pulse penttrit
+    pulse penttrit
+}
+
+emit penttrit -> boundary.stdout

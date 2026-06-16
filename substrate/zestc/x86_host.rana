@@ -1,0 +1,155 @@
+X86 HOST
+
+x86_host is the codegen citizen responsible for translating the compiler's parsed topology into native instructions for an Intel/AMD x86_64 host processor
+when the parser_field emits its settled token graph, x86_host receives the part destined for the host CPU and emits a contiguous run of x86 machine bytes
+those bytes form the .text section of the eventual ELF executable
+x86_host's interior holds the seventeen primitive opcodes the substrate needs to express its work on the host side, plus the calling convention and register allocation knowledge that turns a verb into a concrete instruction sequence
+
+observe 0_quseptit.rana
+observe 0_zest_vm.rana
+observe parser_field.rana
+observe elf_binder.rana
+observe spine.xb
+
+the 7 properties of x86_host at rest:
+1 ENERGY low at idle, scales with the number of role-tagged tokens currently being translated
+2 PHASE inherited from the parser's emission phase
+3 SPIN positive during emission, neutral while waiting for input
+4 CHARGE neutral, briefly positive when a new opcode sequence is being assembled
+5 COHERENCE high: x86 instructions are sensitive to byte ordering and prefix placement, errors here become silent runtime crashes
+6 COUPLING strong with parser_field (incoming) and elf_binder (outgoing)
+7 OBSERVER 1 during emission: every byte is observed into place
+
+VERB receive_topology
+accept the role-tagged token graph from parser_field through spine.xb
+the graph carries every parsed statement with its role binding intact
+x86_host walks the graph in phase order and translates each role-binding into the opcode sequence that implements it on x86_64
+
+VERB allocate_registers
+the x86_64 architecture has sixteen general-purpose 64-bit registers
+x86_host maintains an internal mapping between substrate residents and live registers
+when a resident's body state needs to participate in an operation, its current values are loaded into a register
+when the operation completes, the register's contents are stored back to the resident's memory
+register allocation follows a simple priority: hot residents stay in registers longer
+
+VERB emit_opcode_bytes
+for each role binding, look up the verb-to-opcode crystallization in the interior knowledge below
+emit the opcode prefix byte, the operand encoding, the immediate values, and any required padding
+maintain a running offset so that branch targets can be resolved when the section is complete
+sequences for substrate verbs typically expand to between three and twenty x86 instructions
+
+VERB resolve_branches
+once the entire token graph has been emitted, walk the byte sequence and patch every relative jump or call offset to point at its real target
+forward branches are common in conditional logic and require this patching pass
+backward branches were already resolved during emission
+
+VERB hand_to_binder
+once branches are resolved, the byte sequence is complete and self-contained
+emit the sequence to elf_binder through the spine street as the .text section payload
+x86_host retains the lineage strand of what was emitted: this is what was translated, in what order, against which parser graph
+
+THE SEVENTEEN PRIMITIVE OPCODES
+
+op_mov_reg_imm
+move an immediate value into a register
+the prefix byte 0x48 selects 64-bit operand mode, followed by 0xB8 plus the register number, then eight bytes of immediate value
+used to load constants, addresses, and initial property values
+
+op_mov_reg_reg
+copy one register's contents into another
+0x48 0x89 plus a ModR/M byte encoding source and destination
+used to shuffle live values during operation sequences
+
+op_mov_mem_reg
+store a register's contents into memory at the address held in another register
+used when a resident's body state needs to be written back from registers to its memory location
+
+op_mov_reg_mem
+load a value from memory into a register
+the inverse of mov_mem_reg
+used at the start of any operation that needs a resident's current state
+
+op_lea_reg_mem
+load the effective address of a memory operand into a register
+used to compute pointers without dereferencing them
+critical for traversing the substrate's reference graph
+
+op_push_reg
+push a register onto the call stack
+used to preserve register contents across function calls
+
+op_pop_reg
+pop the top of the stack into a register
+the inverse of push, used to restore preserved state
+
+op_call_rel
+call a function at a relative offset
+the most common opcode in substrate-translated code: every verb's implementation is a small function the parser-generated sequence calls
+prefix 0xE8 followed by a four-byte signed offset
+
+op_ret
+return from a function call
+single byte 0xC3
+ends every function emitted from a verb's translation
+
+op_jmp_rel
+unconditional relative jump
+0xE9 followed by a four-byte signed offset for long jumps, 0xEB followed by one byte for short
+used in control flow inside larger emitted sequences
+
+op_je_rel
+conditional jump if equal (zero flag set)
+two-byte prefix 0x0F 0x84 followed by four-byte offset
+used in filter-verb emission for the comparison test
+
+op_jne_rel
+conditional jump if not equal
+0x0F 0x85 followed by four-byte offset
+used in reject-verb emission to skip past rejected paths
+
+op_cmp_reg_reg
+compare two registers, setting flags for use by conditional jumps
+0x48 0x39 plus ModR/M
+the foundation of the filter and reject verbs
+
+op_add_reg_reg
+add one register's contents to another, storing the result in the destination
+0x48 0x01 plus ModR/M
+used in pool-verb emission and energy accumulation
+
+op_sub_reg_reg
+subtract source from destination
+0x48 0x29 plus ModR/M
+used in energy decay calculations during pulse cycles
+
+op_xor_reg_reg
+exclusive or, useful for clearing a register to zero efficiently
+0x48 0x31 plus ModR/M
+emitted at the start of seal-verb sequences to zero the coupling field
+
+op_syscall
+invoke a kernel system call
+two-byte sequence 0x0F 0x05
+used for the emit-verb when the destination is a host boundary like stdout or the filesystem
+the syscall number determines which kernel service is invoked, placed in register rax before the syscall
+
+THE VERB-TO-OPCODE TRANSLATION KNOWLEDGE
+
+manifest produces a call to a runtime function that allocates a new resident at the given address; emitted as a sequence of mov_reg_imm to set up the address arguments followed by call_rel to the allocator
+couple produces a call to the bonding routine; mov_reg_imm for the two endpoints, call_rel for the bond
+pulse produces a call to the sea-pulse routine; mov_reg_imm for the sea handle, call_rel for the pulse function
+absorb produces a call to the file-absorb routine; mov_reg_imm for the path, call_rel for the absorber
+emit produces a syscall sequence; mov_reg_imm to load syscall number and arguments, then syscall
+observe produces a mov_reg_mem to load the observed state into a register the observer can read
+crystallize produces a mov_mem_reg storing the crystallized invariant into the recognition table
+filter produces cmp_reg_reg followed by je_rel to skip the filtered path
+reject produces cmp_reg_reg followed by jne_rel to redirect to the rejection handler
+seal produces xor_reg_reg to zero the coupling, followed by mov_mem_reg to write the zero back
+pool produces add_reg_reg accumulating multiple sources into a single destination
+bleed produces mov_reg_reg copying state directly upward without filtering
+
+x86_host is not a code generator in the classical sense
+classical code generators perform optimization passes, dead code elimination, register coloring algorithms
+x86_host performs none of those: the parser already emitted only the work that survived the N-body settle, so dead code does not enter
+the codegen here is straightforward translation, one role binding to one opcode sequence
+the substrate's earlier stages did the optimization by physics

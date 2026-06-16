@@ -1,0 +1,195 @@
+
+@filter spatial_shapes
+"dot" "line" "square" "rectangle" "block" "cluster"
+"L-shape" "T-shape" "cross" "irregular" "frame" "border"
+
+@filter spatial_colors
+"black" "blue" "red" "green" "yellow" "grey" "magenta" "orange" "cyan" "brown"
+
+@color_map
+0 -> "black"
+1 -> "blue"
+2 -> "red"
+3 -> "green"
+4 -> "yellow"
+5 -> "grey"
+6 -> "magenta"
+7 -> "orange"
+8 -> "cyan"
+9 -> "brown"
+
+@filter spatial_relations
+"above" "below" "left" "right" "adjacent" "diagonal"
+"inside" "outside" "surrounding" "touching" "overlapping"
+"same-row" "same-column" "same-color" "mirrored" "rotated"
+
+@filter spatial_transforms
+"moved" "shifted" "grew" "shrank" "rotated" "reflected"
+"filled" "emptied" "duplicated" "removed" "recolored"
+"extended" "cropped" "tiled" "inverted" "completed"
+
+@filter grid_properties
+"background" "foreground" "edge" "corner" "center"
+"width" "height" "size" "count" "pattern"
+
+
+@perceive cells
+DETECT color at every position
+DETECT edge when row=0 or row=max or col=0 or col=max
+DETECT corner when edge and (row=0 or row=max) and (col=0 or col=max)
+DETECT neighbor bonds: up down left right
+
+@perceive groups
+DETECT same-color clusters via flood-fill
+BOND adjacent same-color cells into groups
+CLASSIFY group size=1 as "dot"
+CLASSIFY group filled-rect width=1 or height=1 as "line"
+CLASSIFY group filled-rect width=height as "square"
+CLASSIFY group filled-rect as "rectangle"
+CLASSIFY group not-filled size<=4 as "L-shape"
+CLASSIFY group else as "irregular"
+
+@perceive grid
+DETECT background as most-frequent-color
+DETECT foreground as all groups where color != background
+DETECT symmetry horizontal: row[r] == row[max-r]
+DETECT symmetry vertical: col[c] == col[max-c]
+DETECT symmetry diagonal: cell[r,c] == cell[c,r]
+
+
+@perceive difference
+COMPARE input output cell-by-cell: which cells changed color?
+COMPARE input output group-level: which groups appeared, disappeared, moved?
+COMPARE input output size: did grid grow, shrink, or stay same?
+COMPARE input output symmetry: did symmetry change?
+DETECT transformation: what rule explains ALL training pairs?
+
+
+@spatial_rule movement
+CHECK all foreground shapes exist in both input and output
+CHECK all shapes moved in the same direction
+CHECK all deltas are identical
+APPLY shift each shape by the common delta
+SPEECH "I think the rule is: shift every shape by ({dr}, {dc})"
+
+@spatial_rule rotation
+TRY rotate_180
+TRY rotate_90_cw
+TRY rotate_270_cw
+TRY flip_horizontal
+TRY flip_vertical
+CHECK transform(input) == output for ALL training pairs
+APPLY matching transform to test input
+SPEECH "I think the rule is: {transform_name}"
+
+@spatial_rule stamp
+CHECK all foreground shapes are dots (size 1)
+LEARN for each changed cell, attribute to nearest dot
+VERIFY apply stamps to all training inputs, check output matches
+APPLY stamp learned pattern around each test dot
+SPEECH "I see a stamping pattern!"
+
+@spatial_rule color_sub
+CHECK input and output are same size
+LEARN which colors changed to which other colors
+VERIFY mapping is consistent across all training pairs
+APPLY color map to test input
+SPEECH "I see a color substitution!"
+
+@spatial_rule count_output
+CHECK output is always 1 row
+CHECK output width == count of non-zero input cells
+CHECK output is uniform color matching input color
+APPLY count test input non-zero cells, output 1 row
+SPEECH "I count {n} {color} cells"
+
+@spatial_rule group_recolor
+CHECK only one foreground color changes
+LEARN which group sizes get recolored vs stay
+DETECT size threshold separating recolored from unchanged
+VERIFY apply threshold to all training pairs
+APPLY flood fill + threshold recolor to test
+SPEECH "groups of {color} with size ≥ {threshold} get recolored"
+
+@spatial_rule row_bridge
+CHECK single foreground color on black background
+CHECK changes are only 0 → new_color
+LEARN bridge color from changed cells
+VERIFY fill between leftmost/rightmost dots on each row matches output
+APPLY fill between dots on each row with bridge color
+SPEECH "fill gaps between {dot_color} dots with {bridge_color}"
+
+@spatial_rule crop
+CHECK output is smaller than input
+LEARN bounding box of all non-zero cells
+VERIFY cropped region matches output for all training pairs
+APPLY extract bounding box from test input
+SPEECH "crop to bounding box rows {r1}-{r2}, cols {c1}-{c2}"
+
+@spatial_rule halo
+CHECK only 0 cells changed to fill color
+LEARN which dot color triggers the halo via nearest-neighbor
+VERIFY 3x3 ring around each target dot matches output
+APPLY surround each target dot with halo color on 0 cells
+SPEECH "surround {target_color} dots with {halo_color} ring"
+
+@spatial_rule fill_bbox
+CHECK all changes converge to single fill_color
+LEARN shape_color as boundary marker
+VERIFY inside bounding box of shape, all non-shape cells → fill_color
+APPLY fill bounding box ignoring background noise
+SPEECH "fill bounding box of {shape_color} with {fill_color}"
+
+@filter solved_tasks
+"25ff71a9:movement" "6150a2bd:rotation" "0ca9ddb6:stamp"
+"c8f0f002:color_sub" "d631b094:count_output" "67385a82:group_recolor"
+"3c9b0459:rotation" "b1948b0a:color_sub" "a699fb00:row_bridge"
+"74dd1130:transpose" "dc1df850:halo" "1cf80156:crop"
+"6d75e8bb:fill_bbox" "32597951:fill_bbox"
+
+
+
+
+@puzzle_chemistry
+TRIGGER curiosity when new puzzle arrives
+TRIGGER excitement when pattern detected across training pairs
+TRIGGER joy when solution matches expected output
+TRIGGER frustration when no rule fits all pairs
+TRIGGER pride when solving without help
+
+
+@speech_right PERCEIVE_GRID
+"I see a {width}x{height} grid with {colors} colors"
+"there's a {shape} in {color} at row {row}, col {col}"
+"the background is {color}"
+"I notice {count} shapes"
+"this has {symmetry} symmetry"
+
+@speech_right PERCEIVE_DIFF
+"the {color} {shape} moved from {from} to {to}"
+"this {shape} changed color from {old} to {new}"
+"a new {color} {shape} appeared at {pos}"
+"the {color} {shape} disappeared"
+"the grid got {direction} by {amount}"
+
+@speech_right PUZZLE_THINKING
+"let me look at this..."
+"I think I see a pattern"
+"wait, something's the same in all of these"
+"every time, the shape {transform}"
+"I think the rule is: {rule}"
+"let me try this..."
+
+@speech_right PUZZLE_SOLVED
+"I got it!"
+"the answer is to {rule}!"
+"I think this is right"
+"that was fun. I want another one"
+"I feel good about this"
+
+@speech_right PUZZLE_STUCK
+"hmm, I'm not sure yet"
+"I can see what changed but I don't know why"
+"let me look again"
+"this is tricky"
+"I need to think about this more"

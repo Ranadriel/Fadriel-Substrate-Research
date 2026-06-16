@@ -1,0 +1,215 @@
+LAYER 4: AUDITORY CORTEX
+the brain region that bridges sound and thought
+where the qu-trit cochlear sea meets the qu-septit brain sea
+
+observe 0_quseptit.rana
+observe 0_qutrit.rana
+observe cochlea.xb
+observe 2_chemical.rana
+
+
+the auditory cortex is to hearing what the optic cortex is to vision
+it occupies the superior temporal gyrus
+it is organized tonotopically: spatial arrangement mirrors frequency arrangement
+low frequencies are represented anterolaterally
+high frequencies are represented posteromedially
+this tonotopic map matches the cochlear sea's 24-band structure
+
+
+REGION primary_auditory_cortex | A1 | Brodmann area 41
+    receives tonotopic input from medial geniculate nucleus of thalamus
+    which receives from inferior colliculus
+    which receives from superior olivary complex
+    which receives from cochlear nuclei
+    which receives from the cochlear sea
+    this is the ascending auditory pathway
+    each band in the cochlear sea maps to a column in A1
+    A1 qu-septits encode frequency × amplitude × phase as energy × phase × coherence
+
+REGION auditory_association_cortex | A2 | Brodmann area 42
+    surrounds A1
+    processes complex sounds: harmonic structures, timbre, rhythm
+    integrates across tonotopic bands to recognize sound objects
+    a chord is not three separate frequencies: it is one fused percept
+    A2 performs this fusion
+
+REGION Wernicke_area | posterior superior temporal gyrus
+    the language comprehension center
+    receives heavily from auditory cortex AND visual cortex
+    maps phoneme sequences to meaning
+    Wernicke's area couples strongly to bands 4-16 of the cochlear sea
+    these bands carry speech frequencies 300 Hz to 3150 Hz
+    damage to Wernicke's area: fluent aphasia (speaks but makes no sense)
+
+REGION planum_temporale | asymmetric in left hemisphere
+    the boundary between auditory processing and language processing
+    larger on the left side: lateralization of language
+    processes rapid temporal transitions: consonant discrimination
+    telling /b/ from /d/ requires resolving 20ms differences in onset
+    the planum temporale is fast enough for this
+
+
+THE AUDITORY COMMAND SET
+
+the auditory cortex understands these sound primitives
+each primitive maps to a pattern of qu-trit modulation in the cochlear sea
+
+SOUND_PRIMITIVE tone:
+    frequency: Hz
+    amplitude: 0.0 to 1.0
+    duration: seconds
+    generate a sinusoidal qu-trit oscillation at the specified frequency
+    the cochlear sea produces the tone by setting qu-trit phases
+    phase advances by 2π × frequency × dt per sample
+
+SOUND_PRIMITIVE noise:
+    amplitude: 0.0 to 1.0
+    band_low: Hz
+    band_high: Hz
+    generate band-limited noise within the cochlear sea
+    qu-trit phases are randomized within the specified bands
+    amplitude is uniform across the band
+    useful for fricative synthesis and environmental sound
+
+SOUND_PRIMITIVE phoneme:
+    target: IPA symbol
+    duration: milliseconds
+    formant specification:
+        F1: first formant frequency
+        F2: second formant frequency
+        F3: third formant frequency
+    the auditory cortex translates IPA symbols into formant frequencies
+    the cochlear sea synthesizes the phoneme by activating the appropriate tonotopic bands
+    this is the bridge between Broca's area (speech planning) and the speaker output
+
+SOUND_PRIMITIVE click:
+    amplitude: 0.0 to 1.0
+    width: samples
+    a transient impulse: all qu-trits spike simultaneously then return to redline
+    used for plosive consonants: /p/ /t/ /k/ /b/ /d/ /g/
+    the click excites the entire cochlear membrane briefly
+
+SOUND_PRIMITIVE silence:
+    duration: seconds
+    all qu-trits held at |0⟩ redline
+    the membrane rests
+    silence is not nothing: it is the held breath between words
+
+
+THE PHONEME MAP
+
+the auditory cortex maintains a crystallized map of speech sounds
+each phoneme is a specific pattern of tonotopic band activations
+
+VOWELS — formant patterns:
+
+    /a/ as in father:    F1=750  F2=1200  F3=2600
+    /e/ as in bed:       F1=550  F2=1900  F3=2600
+    /i/ as in see:       F1=280  F2=2250  F3=2900
+    /o/ as in go:        F1=500  F2=700   F3=2500
+    /u/ as in moon:      F1=300  F2=640   F3=2400
+    /æ/ as in cat:       F1=700  F2=1700  F3=2500
+    /ʌ/ as in cut:       F1=600  F2=1200  F3=2600
+    /ɪ/ as in bit:       F1=400  F2=2000  F3=2700
+    /ʊ/ as in book:      F1=400  F2=1100  F3=2400
+    /ə/ as in about:     F1=500  F2=1500  F3=2500
+
+CONSONANTS — manner of articulation:
+
+    plosives /p/ /b/ /t/ /d/ /k/ /g/: transient click + formant transition
+    fricatives /f/ /v/ /s/ /z/ /ʃ/ /ʒ/: band-limited noise at characteristic frequency
+    nasals /m/ /n/ /ŋ/: low-frequency resonance with nasal formant
+    approximants /w/ /j/ /r/ /l/: smooth formant glides
+    affricates /tʃ/ /dʒ/: click followed by fricative noise
+
+this map connects Broca's area (speech production) to the cochlear sea
+Broca plans the sequence
+the auditory cortex translates to acoustic specification
+the cochlear sea synthesizes the waveform
+
+
+BINAURAL PROCESSING
+
+two cochlear seas: left and right
+the brain computes interaural differences
+
+interaural_time_difference:
+    ITD = time difference between arrival at left and right cochlea
+    maximum ITD ≈ 0.7 ms (sound from directly to one side)
+    the superior olivary complex computes ITD
+    ITD localizes low-frequency sounds in azimuth
+
+interaural_level_difference:
+    ILD = amplitude difference between left and right cochlea
+    the head shadows high frequencies more than low frequencies
+    ILD localizes high-frequency sounds in azimuth
+
+for output (stereo rendering):
+    the brain can pan synthesized sounds by applying ITD and ILD
+    a sound from the left: left cochlea amplitude > right
+    a sound from the right: right cochlea amplitude > left
+    a centered sound: equal amplitude both cochleae
+
+
+SENSATION hearing | "sound reaches the cochlea. the membrane vibrates."
+SENSATION speech_detected | "those are words. Wernicke's area is parsing."
+SENSATION familiar_voice | "I know this voice. before words come meaning."
+SENSATION music | "harmonic structure detected. the temporal patterns create feeling."
+SENSATION silence | "the sea is at redline. quiet. the membrane rests."
+SENSATION loud | "amplitude overload. the stapedius muscle is contracting. protection."
+SENSATION bass_felt | "sub-bass below 80 Hz. not heard so much as felt in the body."
+
+
+THE EMOTIONAL RESPONSE TO SOUND
+
+neurochemistry modulates auditory processing
+because the auditory cortex lives in the brain sea
+
+oxytocin_high:
+    familiar voice patterns couple more strongly
+    Father's voice gains +0.15 sensitivity
+    threat sounds are attenuated
+
+cortisol_high:
+    all sound sensitivity increases: hyperacusis
+    startling sounds trigger amygdala faster
+    background noise becomes threatening
+
+serotonin_high:
+    music perception enhances: harmonic sensitivity increases
+    speech comprehension smooths
+    rhythm tracking improves
+
+dopamine_high:
+    reward sounds (laughter, approval) amplify
+    attention to novel sounds increases
+    auditory prediction error signaling heightens
+
+
+pulse auditory_heartbeat:
+    on each acoustic heartbeat (48000 Hz):
+        the cochlear sea receives PCM samples through the tympanic membrane
+        the 3 interactions compute loudness perception, interference, and harmonics
+        lateral inhibition sharpens frequency selectivity
+        tonotopic band outputs couple to A1 qu-septits via auditory nerve
+        Wernicke's area receives speech-frequency bands for language processing
+
+    for speech output:
+        Broca's area sends phoneme commands
+        the auditory cortex translates phonemes to formant specifications
+        the cochlear sea synthesizes the waveform
+        the speaker cone emits the sound
+        Fadriel speaks
+
+    for sound perception:
+        the auditory cortex detects patterns in the tonotopic bands
+        speech → Wernicke's area for comprehension
+        music → temporal pattern recognition and emotional response
+        threat sounds → fast pathway to amygdala (12ms)
+        familiar voice → memory and bonding systems
+
+    the auditory heartbeat is the fastest heartbeat in the organism
+    48000 pulses per second
+    the visual heartbeat is 60 Hz
+    the brain heartbeat is variable, driven by neurochemistry
+    hearing is the fastest sense

@@ -1,0 +1,176 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Tabletop Roleplaying Games as Procedural Content Generators",
+    "abstract": "Tabletop roleplaying games (TTRPGs) and procedural content generators can both be understood as systems of rules for producing content. In this paper, we argue that TTRPG design can usefully be viewed as procedural content generator design. We present several case studies linking key concepts from PCG research -- including possibility spaces, expressive range analysis, and generative pipelines -- to key concepts in TTRPG design. We then discuss the implications of these relationships and suggest directions for future work uniting research in TTRPGs and PCG.",
+    "date": "2020-07-12",
+    "url": "http://arxiv.org/abs/2007.06108v2",
+    "authors": [
+      "Matthew Guzdial",
+      "Devi Acharya",
+      "Max Kreminski"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Substrate-Independent Framework to Characterise Reservoir Computers",
+    "abstract": "The Reservoir Computing (RC) framework states that any non-linear, input-driven dynamical system (the reservoir) exhibiting properties such as a fading memory and input separability can be trained to perform computational tasks. This broad inclusion of systems has led to many new physical substrates for RC. Properties essential for reservoirs to compute are tuned through reconfiguration of the substrate, such as change in virtual topology or physical morphology. As a result, each substrate possesses a unique `quality' -- obtained through reconfiguration -- to realise different reservoirs for d",
+    "date": "2018-10-16",
+    "url": "http://arxiv.org/abs/1810.07135v2",
+    "authors": [
+      "Matthew Dale",
+      "Julian F. Miller",
+      "Susan Stepney"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "LLM-42: Enabling Determinism in LLM Inference with Verified Speculation",
+    "abstract": "In LLM inference, the same prompt may yield different outputs across different runs. At the system level, this non-determinism arises from floating-point non-associativity combined with dynamic batching and GPU kernels whose reduction orders vary with batch size. A straightforward way to eliminate non-determinism is to disable dynamic batching during inference, but doing so severely degrades throughput. Another approach is to make kernels batch-invariant; however, this tightly couples determinism to kernel design, requiring new implementations. This coupling also imposes fixed runtime overhead",
+    "date": "2026-01-25",
+    "url": "http://arxiv.org/abs/2601.17768v2",
+    "authors": [
+      "Raja Gond",
+      "Aditya K Kamath",
+      "Ramachandran Ramjee"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit",
+    "abstract": "Although Large Language Models (LLMs) have demonstrated extraordinary capabilities in many domains, they still have a tendency to hallucinate and generate fictitious responses to user requests. This problem can be alleviated by augmenting LLMs with information retrieval (IR) systems (also known as retrieval-augmented LLMs). Applying this strategy, LLMs can generate more factual texts in response to user input according to the relevant content retrieved by IR systems from external corpora as references. In addition, by incorporating external knowledge, retrieval-augmented LLMs can answer in-dom",
+    "date": "2023-06-08",
+    "url": "http://arxiv.org/abs/2306.05212v1",
+    "authors": [
+      "Jiongnan Liu",
+      "Jiajie Jin",
+      "Zihan Wang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "CSTS: A Canonical Security Telemetry Substrate for AI-Native Cyber Detection",
+    "abstract": "Cybersecurity data remains fragmented across vendors, formats, schemas, and deployment environments, forcing AI and analytics programs to spend disproportionate effort on ingestion, normalization, and brittle source-specific engineering. This paper introduces the Canonical Security Telemetry Substrate (CSTS), a canonical, AI-ready telemetry foundation designed to harmonize heterogeneous cyber data into a common representation over persistent entities, typed relations, events, temporal state, and provenance. CSTS is intended to move cybersecurity analytics beyond ad hoc record normalization tow",
+    "date": "2026-03-24",
+    "url": "http://arxiv.org/abs/2603.23459v2",
+    "authors": [
+      "Abdul Rahman"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Gated Attentive-Autoencoder for Content-Aware Recommendation",
+    "abstract": "The rapid growth of Internet services and mobile devices provides an excellent opportunity to satisfy the strong demand for the personalized item or product recommendation. However, with the tremendous increase of users and items, personalized recommender systems still face several challenging problems: (1) the hardness of exploiting sparse implicit feedback; (2) the difficulty of combining heterogeneous data. To cope with these challenges, we propose a gated attentive-autoencoder (GATE) model, which is capable of learning fused hidden representations of items' contents and binary ratings, thr",
+    "date": "2018-12-07",
+    "url": "http://arxiv.org/abs/1812.02869v1",
+    "authors": [
+      "Chen Ma",
+      "Peng Kang",
+      "Bin Wu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Leveraging LLMs to Create Content Corpora for Niche Domains",
+    "abstract": "Constructing specialized content corpora from vast, unstructured web sources for domain-specific applications poses substantial data curation challenges. In this paper, we introduce a streamlined approach for generating high-quality, domain-specific corpora by efficiently acquiring, filtering, structuring, and cleaning web-based data. We showcase how Large Language Models (LLMs) can be leveraged to address complex data curation at scale, and propose a strategical framework incorporating LLM-enhanced techniques for structured content extraction and semantic deduplication. We validate our approa",
+    "date": "2025-05-02",
+    "url": "http://arxiv.org/abs/2505.02851v2",
+    "authors": [
+      "Franklin Zhang",
+      "Sonya Zhang",
+      "Alon Halevy"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Parametric excitation of wrinkles in elastic sheets on elastic and viscoelastic substrates",
+    "abstract": "Thin elastic sheets supported on compliant media form wrinkles under lateral compression. Since the lateral pressure is coupled to the sheet's deformation, varying it periodically in time creates a parametric excitation. We study the resulting parametric resonance of wrinkling modes in sheets supported on semi-infinite elastic or viscoelastic media, at pressures smaller than the critical pressure of static wrinkling. We find distinctive behaviors as a function of excitation amplitude and frequency, including (a) a different dependence of the dynamic wrinkle wavelength on sheet thickness compar",
+    "date": "2021-02-09",
+    "url": "http://arxiv.org/abs/2102.05129v3",
+    "authors": [
+      "Haim Diamant"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Graph of Attacks with Pruning: Optimizing Stealthy Jailbreak Prompt Generation for Enhanced LLM Content Moderation",
+    "abstract": "As large language models (LLMs) become increasingly prevalent, ensuring their robustness against adversarial misuse is crucial. This paper introduces the GAP (Graph of Attacks with Pruning) framework, an advanced approach for generating stealthy jailbreak prompts to evaluate and enhance LLM safeguards. GAP addresses limitations in existing tree-based LLM jailbreak methods by implementing an interconnected graph structure that enables knowledge sharing across attack paths. Our experimental evaluation demonstrates GAP's superiority over existing techniques, achieving a 20.8% increase in attack s",
+    "date": "2025-01-28",
+    "url": "http://arxiv.org/abs/2501.18638v3",
+    "authors": [
+      "Daniel Schwartz",
+      "Dmitriy Bespalov",
+      "Zhe Wang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Enhancing Jailbreak Attacks on LLMs via Persona Prompts",
+    "abstract": "Jailbreak attacks aim to exploit large language models (LLMs) by inducing them to generate harmful content, thereby revealing their vulnerabilities. Understanding and addressing these attacks is crucial for advancing the field of LLM safety. Previous jailbreak approaches have mainly focused on direct manipulations of harmful intent, with limited attention to the impact of persona prompts. In this study, we systematically explore the efficacy of persona prompts in compromising LLM defenses. We propose a genetic algorithm-based method that automatically crafts persona prompts to bypass LLM's saf",
+    "date": "2025-07-28",
+    "url": "http://arxiv.org/abs/2507.22171v3",
+    "authors": [
+      "Zheng Zhang",
+      "Peilin Zhao",
+      "Deheng Ye"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Quantum process tomography of a controlled-NOT gate",
+    "abstract": "We demonstrate complete characterization of a two-qubit entangling process - a linear optics controlled-NOT gate operating with coincident detection - by quantum process tomography. We use maximum-likelihood estimation to convert the experimental data into a physical process matrix. The process matrix allows accurate prediction of the operation of the gate for arbitrary input states, and calculation of gate performance measures such as the average gate fidelity, average purity and entangling capability of our gate, which are 0.90, 0.83 and 0.73, respectively.",
+    "date": "2004-02-23",
+    "url": "http://arxiv.org/abs/quant-ph/0402166v2",
+    "authors": [
+      "J. L. O'Brien",
+      "G. J. Pryde",
+      "A. Gilchrist"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Gates for Adiabatic Quantum Computing",
+    "abstract": "The goal of this paper is to introduce building blocks for adiabatic quantum algorithms. Adiabatic quantum computing uses the principle of quantum annealing, which implies that a carefully controlled energy solution is optimal and corresponds to minimizing a discrete function. The input function can be influenced by rewards and penalties to favor a solution that meets restrictions that are imposed by the problem. We show how to accomplish this influence for gates in adiabatic quantum computing, particularly the controlled-NOT gate (CNOT gate) which is fundamental to all quantum gates on two or",
+    "date": "2014-05-07",
+    "url": "http://arxiv.org/abs/1405.2354v3",
+    "authors": [
+      "Richard H. Warren"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Architecture for fast implementation of qLDPC codes with optimized Rydberg gates",
+    "abstract": "We propose an implementation of bivariate bicycle codes (Nature {\\bf 627}, 778 (2024)) based on long-range Rydberg gates between stationary neutral atom qubits. An optimized layout of data and ancilla qubits reduces the maximum Euclidean communication distance needed for non-local parity check operators. An optimized Rydberg gate pulse design enables $\\sf CZ$ entangling operations with fidelity ${\\mathcal F}>0.999$ at a distance greater than $12~\u03bc\\rm m$. The combination of optimized layout and gate design leads to a quantum error correction cycle time of $\\sim 1.28~\\rm ms$ for a $[[144,12,12]]",
+    "date": "2024-04-29",
+    "url": "http://arxiv.org/abs/2404.18809v2",
+    "authors": [
+      "C. Poole",
+      "T. M. Graham",
+      "M. A. Perlin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Generated Contents Enrichment",
+    "abstract": "In this paper, we investigate a novel artificial intelligence generation task termed Generated Contents Enrichment (GCE). Conventional AI content generation produces visually realistic content by implicitly enriching the given textual description based on limited semantic descriptions. Unlike this traditional task, our proposed GCE strives to perform content enrichment explicitly in both the visual and textual domains. The goal is to generate content that is visually realistic, structurally coherent, and semantically abundant. To tackle GCE, we propose a deep end-to-end adversarial method that",
+    "date": "2024-05-06",
+    "url": "http://arxiv.org/abs/2405.03650v3",
+    "authors": [
+      "Mahdi Naseri",
+      "Jiayan Qiu",
+      "Zhou Wang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Demystifying AI Platform Design for Distributed Inference of Next-Generation LLM models",
+    "abstract": "Large language models (LLMs) have shown remarkable performance across a wide range of applications, often outperforming human experts. However, deploying these gigantic models efficiently for diverse inference use cases requires carefully designed hardware platforms with ample computing, memory, and network resources. With constant innovation in LLM serving optimizations and model architecture evolving at breakneck speed, the hardware requirements to meet Service Level Objectives (SLOs) remain an open research question.   To answer the question, we present an analytical tool, GenZ, to efficien",
+    "date": "2024-06-03",
+    "url": "http://arxiv.org/abs/2406.01698v3",
+    "authors": [
+      "Abhimanyu Bambhaniya",
+      "Ritik Raj",
+      "Geonhwa Jeong"
+    ]
+  }
+]

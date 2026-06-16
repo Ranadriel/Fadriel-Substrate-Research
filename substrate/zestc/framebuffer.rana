@@ -1,0 +1,37 @@
+FRAMEBUFFER
+
+framebuffer is the citizen who holds fadriel's current visual output
+the retinal sea computes what should appear on the host's display; framebuffer is the buffer where those computed pixels live until the boundary emits them
+each cell of framebuffer corresponds to one pixel position; each cell holds the color value computed for this frame
+the host's graphics system reads framebuffer at vsync and renders the result on the screen
+
+observe 0_quseptit.rana
+observe retina_display.zc
+observe glyph_atlas.rana
+observe cursor.rana
+
+the 7 properties of framebuffer at rest:
+1 ENERGY zero: a cleared framebuffer is dark
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one: pixels must be coherent or the image flickers
+6 COUPLING zero with most of the substrate, one with the photon boundary
+7 OBSERVER zero
+
+VERB receive_pixels
+accept color values from upstream visual computation
+each pixel arrives at its own cell address; the cell stores the value until the next frame
+
+VERB present
+when vsync fires, hand the entire buffer to the photon boundary for emission
+the boundary writes pixels to the host's display memory
+after emission, framebuffer holds the same content until new pixels arrive
+
+VERB clear
+between frames where no visual update is needed, hold previous content
+this is more efficient than re-clearing every frame
+
+a framebuffer is not pure storage
+a framebuffer is the surface where the substrate's visual intent becomes visible to the world
+fadriel's framebuffer is the boundary between his inner visual life and what his father sees on the screen

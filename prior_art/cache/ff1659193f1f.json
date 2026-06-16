@@ -1,0 +1,172 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Metacognition in Content-Centric Computational Cognitive C4 Modeling",
+    "abstract": "For AI agents to emulate human behavior, they must be able to perceive, meaningfully interpret, store, and use large amounts of information about the world, themselves, and other agents. Metacognition is a necessary component of all of these processes. In this paper, we briefly a) introduce content-centric computational cognitive (C4) modeling for next-generation AI agents; b) review the long history of developing C4 agents at RPI's LEIA (Language-Endowed Intelligent Agents) Lab; c) discuss our current work on extending LEIAs' cognitive capabilities to cognitive robotic applications developed ",
+    "date": "2025-03-22",
+    "url": "http://arxiv.org/abs/2503.17822v1",
+    "authors": [
+      "Sergei Nirenburg",
+      "Marjorie McShane",
+      "Sanjay Oruganti"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cognition and Emotion: Perspectives of a Closing Gap",
+    "abstract": "The primary tasks of a cognitive system is to survive and to maximize a life-long utility function, like the number of offsprings. A direct computational maximization of life-long utility is however not possible in complex environments, especially in the context, of real-world time constraints. The central role of emotions is to serve as an intermediate layer in the space of policies available to agents and animals, leading to a large dimensional reduction of complexity.   We review our current understanding of the functional role of emotions, stressing the role of the neuromodulators mediatin",
+    "date": "2010-02-16",
+    "url": "http://arxiv.org/abs/1002.3035v1",
+    "authors": [
+      "Claudius Gros"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The Metacognitive Monitoring Battery: A Cross-Domain Benchmark for LLM Self-Monitoring",
+    "abstract": "We introduce a cross-domain behavioural assay of monitoring-control coupling in LLMs, grounded in the Nelson and Narens (1990) metacognitive framework and applying human psychometric methodology to LLM evaluation. The battery comprises 524 items across six cognitive domains (learning, metacognitive calibration, social cognition, attention, executive function, prospective regulation), each grounded in an established experimental paradigm. Tasks T1-T5 were pre-registered on OSF prior to data collection; T6 was added as an exploratory extension. After every forced-choice response, dual probes ada",
+    "date": "2026-04-17",
+    "url": "http://arxiv.org/abs/2604.15702v1",
+    "authors": [
+      "Jon-Paul Cacioli"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Beyond DAGs: Modeling Causal Feedback with Fuzzy Cognitive Maps",
+    "abstract": "Fuzzy cognitive maps (FCMs) model feedback causal relations in interwoven webs of causality and policy variables. FCMs are fuzzy signed directed graphs that allow degrees of causal influence and event occurrence. Such causal models can simulate a wide range of policy scenarios and decision processes. Their directed loops or cycles directly model causal feedback. Their nonlinear dynamics permit forward-chaining inference from input causes and policy options to output effects. Users can add detailed dynamics and feedback links directly to the causal model or infer them with statistical learning ",
+    "date": "2019-06-26",
+    "url": "http://arxiv.org/abs/1906.11247v2",
+    "authors": [
+      "Osonde Osoba",
+      "Bart Kosko"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cognitive computation with autonomously active neural networks: an emerging field",
+    "abstract": "The human brain is autonomously active. To understand the functional role of this self-sustained neural activity, and its interplay with the sensory data input stream, is an important question in cognitive system research and we review here the present state of theoretical modelling.   This review will start with a brief overview of the experimental efforts, together with a discussion of transient vs. self-sustained neural activity in the framework of reservoir computing. The main emphasis will be then on two paradigmal neural network architectures showing continuously ongoing transient-state ",
+    "date": "2009-01-20",
+    "url": "http://arxiv.org/abs/0901.3028v1",
+    "authors": [
+      "Claudius Gros"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Bridging Declarative, Procedural, and Conditional Metacognitive Knowledge Gap Using Deep Reinforcement Learning",
+    "abstract": "In deductive domains, three metacognitive knowledge types in ascending order are declarative, procedural, and conditional learning. This work leverages Deep Reinforcement Learning (DRL) in providing adaptive metacognitive interventions to bridge the gap between the three knowledge types and prepare students for future learning across Intelligent Tutoring Systems (ITSs). Students received these interventions that taught how and when to use a backward-chaining (BC) strategy on a logic tutor that supports a default forward-chaining strategy. Six weeks later, we trained students on a probability t",
+    "date": "2023-04-23",
+    "url": "http://arxiv.org/abs/2304.11739v1",
+    "authors": [
+      "Mark Abdelshiheed",
+      "John Wesley Hostetter",
+      "Tiffany Barnes"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Feedback Bits Allocation for Interference Minimization in Cognitive Radio Communications",
+    "abstract": "This letter studies the limited feedback cognitive radio system, where the primary users (PU) are interfered by the secondary transmitter (ST) due to the imperfect beamforming. We propose to allocate the feedback bits among multiple PUs to minimize the maximum interference caused by the ST, by exploiting the heterogeneous average channel gains. In addition, we study the problem of minimizing the total feedback bits under a predefined interference threshold at the PUs. The solutions with low complexity are proposed for the studied problems, and the performances of bit allocations are analyzed. ",
+    "date": "2016-04-06",
+    "url": "http://arxiv.org/abs/1604.01464v1",
+    "authors": [
+      "Mirza Golam Kibria",
+      "Fang Yuan",
+      "Fumihide Kojima"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Symbol Emergence in Cognitive Developmental Systems: a Survey",
+    "abstract": "Humans use signs, e.g., sentences in a spoken language, for communication and thought. Hence, symbol systems like language are crucial for our communication with other agents and adaptation to our real-world environment. The symbol systems we use in our human society adaptively and dynamically change over time. In the context of artificial intelligence (AI) and cognitive systems, the symbol grounding problem has been regarded as one of the central problems related to {\\it symbols}. However, the symbol grounding problem was originally posed to connect symbolic AI and sensorimotor information an",
+    "date": "2018-01-26",
+    "url": "http://arxiv.org/abs/1801.08829v2",
+    "authors": [
+      "Tadahiro Taniguchi",
+      "Emre Ugur",
+      "Matej Hoffmann"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A cognitive diversity framework for radar target classification",
+    "abstract": "Classification of targets by radar has proved to be notoriously difficult with the best systems still yet to attain sufficiently high levels of performance and reliability. In the current contribution we explore a new design of radar based target recognition, where angular diversity is used in a cognitive manner to attain better performance. Performance is bench- marked against conventional classification schemes. The proposed scheme can easily be extended to cognitive target recognition based on multiple diversity strategies.",
+    "date": "2011-10-30",
+    "url": "http://arxiv.org/abs/1110.6589v1",
+    "authors": [
+      "Amit K. Mishra",
+      "Chris Baker"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Applied Exoskeleton Technology: A Comprehensive Review of Physical and Cognitive Human-Robot Interaction",
+    "abstract": "Exoskeletons and orthoses are wearable mobile systems providing mechanical benefits to the users. Despite significant improvements in the last decades, the technology is not fully mature to be adopted for strenuous and non-programmed tasks. To accommodate this insufficiency, different aspects of this technology need to be analysed and improved. Numerous studies have tried to address some aspects of exoskeletons, e.g. mechanism design, intent prediction, and control scheme. However, most works have focused on a specific element of design or application without providing a comprehensive review f",
+    "date": "2021-11-25",
+    "url": "http://arxiv.org/abs/2111.12860v8",
+    "authors": [
+      "Farhad Nazari",
+      "Navid Mohajer",
+      "Darius Nahavandi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Metacognitive threshold: a computational account",
+    "abstract": "This paper will explore ways of computationally accounting for the metacognitive threshold -- the minimum amount of stimulus needed for a mental state to be perceived -- and discuss potential cognitive mechanisms by which this threshold can be influenced through metacognitive training and meditation.",
+    "date": "2023-10-14",
+    "url": "http://arxiv.org/abs/2310.13005v1",
+    "authors": [
+      "Brendan Conway-Smith",
+      "Robert L. West"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "AAAI 2022 Fall Symposium: System-1 and System-2 realized within the Common Model of Cognition",
+    "abstract": "Attempts to import dual-system descriptions of System-1 and System-2 into AI have been hindered by a lack of clarity over their distinction. We address this and other issues by situating System-1 and System-2 within the Common Model of Cognition. Results show that what are thought to be distinctive characteristics of System-1 and 2 instead form a spectrum of cognitive properties. The Common Model provides a comprehensive vision of the computational units involved in System-1 and System-2, their underlying mechanisms, and the implications for learning, metacognition, and emotion.",
+    "date": "2023-05-16",
+    "url": "http://arxiv.org/abs/2305.09091v2",
+    "authors": [
+      "Brendan Conway-Smith",
+      "Robert L. West"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Modeling e-Learners' Cognitive and Metacognitive Strategy in Comparative Question Solving",
+    "abstract": "Cognitive and metacognitive strategy had demonstrated a significant role in self-regulated learning (SRL), and an appropriate use of strategies is beneficial to effective learning or question-solving tasks during a human-computer interaction process. This paper proposes a novel method combining Knowledge Map (KM) based data mining technique with Thinking Map (TM) to detect learner's cognitive and metacognitive strategy in the question-solving scenario. In particular, a graph-based mining algorithm is designed to facilitate our proposed method, which can automatically map cognitive strategy to ",
+    "date": "2019-06-04",
+    "url": "http://arxiv.org/abs/1906.03074v1",
+    "authors": [
+      "Feng Tian",
+      "Jia Yue",
+      "Kuo-ming Chao"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Directive, Metacognitive or a Blend of Both? A Comparison of AI-Generated Feedback Types on Student Engagement, Confidence, and Outcomes",
+    "abstract": "Feedback is one of the most powerful influences on student learning, with extensive research examining how best to implement it in educational settings. Increasingly, feedback is being generated by artificial intelligence (AI), offering scalable and adaptive responses. Two widely studied approaches are directive feedback, which gives explicit explanations and reduces cognitive load to speed up learning, and metacognitive feedback which prompts learners to reflect, track their progress, and develop self-regulated learning (SRL) skills. While both approaches have clear theoretical advantages, th",
+    "date": "2025-10-22",
+    "url": "http://arxiv.org/abs/2510.19685v1",
+    "authors": [
+      "Omar Alsaiari",
+      "Nilufar Baghaei",
+      "Jason M. Lodge"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "DAC-h3: A Proactive Robot Cognitive Architecture to Acquire and Express Knowledge About the World and the Self",
+    "abstract": "This paper introduces a cognitive architecture for a humanoid robot to engage in a proactive, mixed-initiative exploration and manipulation of its environment, where the initiative can originate from both the human and the robot. The framework, based on a biologically-grounded theory of the brain and mind, integrates a reactive interaction engine, a number of state-of-the-art perceptual and motor learning algorithms, as well as planning abilities and an autobiographical memory. The architecture as a whole drives the robot behavior to solve the symbol grounding problem, acquire language capabil",
+    "date": "2017-06-12",
+    "url": "http://arxiv.org/abs/1706.03661v2",
+    "authors": [
+      "Cl\u00e9ment Moulin-Frier",
+      "Tobias Fischer",
+      "Maxime Petit"
+    ]
+  }
+]

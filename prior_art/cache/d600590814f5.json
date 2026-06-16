@@ -1,0 +1,166 @@
+[
+  {
+    "source": "OpenAlex (International Journal of Educational Technology in Higher Education)",
+    "title": "A meta systematic review of artificial intelligence in higher education: a call for increased ethics, collaboration, and rigour",
+    "abstract": "Abstract Although the field of Artificial Intelligence in Education (AIEd) has a substantial history as a research domain, never before has the rapid evolution of AI applications in education sparked such prominent public discourse. Given the already rapidly growing AIEd literature base in higher education, now is the time to ensure that the field has a solid research and conceptual grounding. This review of reviews is the first comprehensive meta review to explore the scope and nature of AIEd in higher education (AIHEd) research, by synthesising secondary research (e.g., systematic reviews), ",
+    "date": "2024",
+    "url": "https://doi.org/10.1186/s41239-023-00436-z",
+    "authors": [
+      "Melissa Bond",
+      "Hassan Khosravi",
+      "Maarten de Laat"
+    ]
+  },
+  {
+    "source": "OpenAlex (Mathematics Education Research Journal)",
+    "title": "Affect and mathematics education",
+    "abstract": "",
+    "date": "2005",
+    "url": "https://doi.org/10.1007/bf03217413",
+    "authors": [
+      "Gilah C. Leder",
+      "Peter Grootenboer"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM eBooks)",
+    "title": "Computing competencies for undergraduate data science curricula",
+    "abstract": "In 2009, Turing award winner Jim Gray spoke of data science as a fourth paradigm of science (empirical, theoretical, computational and data-driven) arising from and capitalizing on the huge amount of data that is now available for investigation. The confluence of the availability of data and increasing sophisticated tools, processes, and algorithms for analysing and drawing knowledge and insight from data has impacted every area of scientific engagement. It has also opened up exciting new opportunities for interdisciplinary work across the many fields including (but certainly not limited to) c",
+    "date": "2021",
+    "url": "https://doi.org/10.1145/3453538",
+    "authors": [
+      "ACM Data Science Task Force"
+    ]
+  },
+  {
+    "source": "OpenAlex (Education and Information Technologies)",
+    "title": "A neuro-fuzzy model for predicting and analyzing student graduation performance in computing programs",
+    "abstract": "Abstract Predicting student\u2019s successful completion of academic programs and the features that influence their performance can have a significant effect on improving students\u2019 completion, and graduation rates and reduce attrition rates. Therefore, identifying students are at risk, and the courses where improvements in content, delivery mode, pedagogy, and assessment activities can improve students\u2019 learning experience and completion rates. In this work, we have developed a prediction and explanatory model using adaptive neuro-fuzzy inference system (ANFIS) methodology to predict the grade poin",
+    "date": "2022",
+    "url": "https://doi.org/10.1007/s10639-022-11205-2",
+    "authors": [
+      "Riyadh Mehdi",
+      "Mirna Nachouki"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Research in Innovative Teaching & Learning)",
+    "title": "Compassionate education from preschool to graduate school",
+    "abstract": "Purpose -The purpose of this paper is to make the case for bringing compassion to students in educational settings, preschool through graduate school (PK-20). Design/methodology/approach -First, the author defines what is meant by \"compassion\" and differentiates it from the related constructs. Next, the author discusses the importance of bringing compassion into education, thinking specifically about preschool, K-12 (elementary and middle school/junior high/high school), college students, and graduate students (e.g. law, medical, nurses, counselors and therapists-intraining). The author then r",
+    "date": "2018",
+    "url": "https://doi.org/10.1108/jrit-08-2017-0017",
+    "authors": [
+      "Hooria Jazaieri"
+    ]
+  },
+  {
+    "source": "OpenAlex (Sustainability)",
+    "title": "Analyzing Research Trends in University Student Experience Based on Topic Modeling",
+    "abstract": "This study aims to identify research trends in student experience in higher education through analyzing the topics around which research on university students\u2019 experiences has been conducted. Using the topic modeling technique, the Scopus database for studies published up to 2017 containing the terms \u201cstudent experience\u201d and either \u201chigher education\u201d or \u201ctertiary education\u201d in their titles, keywords, and abstracts was searched. After excluding overlapping studies, a total of 1211 studies were extracted. The articles were then classified into a total of 21 topics on university student experien",
+    "date": "2020",
+    "url": "https://doi.org/10.3390/su12093570",
+    "authors": [
+      "Seongyoun Hong",
+      "Taejung Park",
+      "Jaewon Choi"
+    ]
+  },
+  {
+    "source": "OpenAlex (European Journal of Engineering Education)",
+    "title": "Culture and cognition in information technology education",
+    "abstract": "There has been a substantial expansion in the provision of both undergraduate and postgraduate programs offered in English in Finland since the early nineties. It was not until a decade later that research into the results of this education and student experiences begun. The particular focus of the present study is on cognitive processes and learning strategies in multicultural groups of a Bachelor of Engineering programme in information technology in a polytechnic, and the subsequent development of professional expertise in engineering. &#13;\\n This work combines anthropological theory of men",
+    "date": "2007",
+    "url": "https://doi.org/10.1080/03043790601055642",
+    "authors": [
+      "Jaana Holvikivi"
+    ]
+  },
+  {
+    "source": "OpenAlex (Digital Archive @ GSU)",
+    "title": "Adult Reflections on a High School Choral Music Program: Perceptions of Meaning and Lifelong Influence",
+    "abstract": "The purpose of this study was to investigate the lifelong meaning and influence of participation in a high school choral music program. This study described and analyzed the reflections of adults who participated in one high school choral program selected by the researcher as meeting high standards of practice in choral music. The eight participants, who were involved in the choral program for at least three years and pursued careers in fields other than music, were selected via criterion sampling and interviewed regarding their experiences in chorus and how those experiences may have influenc",
+    "date": "2022",
+    "url": "https://doi.org/10.57709/1059086",
+    "authors": [
+      "Melissa Tyson Arasi"
+    ]
+  },
+  {
+    "source": "OpenAlex (BMC Medical Education)",
+    "title": "Modern artificial intelligence and large language models in graduate medical education: a scoping review of attitudes, applications &amp; practice",
+    "abstract": "This scoping review provides a comprehensive overview of applications and limitations of AI in GME but is limited with potential biases, study heterogeneity, and evolving nature of AI.",
+    "date": "2025",
+    "url": "https://doi.org/10.1186/s12909-025-07321-5",
+    "authors": [
+      "Basil George Verghese",
+      "C. V. Krishnakumar Iyer",
+      "Tanvi Borse"
+    ]
+  },
+  {
+    "source": "OpenAlex (Digital Archive @ GSU)",
+    "title": "Educational Leadership in the Age of Artificial Intelligence",
+    "abstract": "Programs that utilize artificial intelligence (AI) are becoming more and more prevalent in classrooms throughout the world. As this technology becomes more available and affordable, school administrators are going to have to decide whether or not these types of programs make sense for their schools. It is essential that school administrators educate themselves about the different types of AI programs available to them, as well as the effects they may have on the education of their students. The purpose of this study was to examine the experiences of educational professionals currently employed",
+    "date": "2022",
+    "url": "https://doi.org/10.57709/18723065",
+    "authors": [
+      "Matthew Mark Tyson"
+    ]
+  },
+  {
+    "source": "OpenAlex (Buildings)",
+    "title": "Teaching with Artificial Intelligence in Architecture: Embedding Technical Skills and Ethical Reflection in a Core Design Studio",
+    "abstract": "This case study examines the integration of artificial intelligence (AI) into undergraduate architectural education through a 2024\u201325 core studio teaching experiment at Zhejiang University. A dual-module framework was implemented, comprising a 20 h AI skills training module and in-class ethics discussions, without altering the existing studio structure. The AI skills module introduced deep learning models, LLMs, AIGC image models, LoRA fine-tuning, and ComfyUI, supported by a dedicated technical instructor. Student feedback indicated phase-dependent and tool-sensitive engagement, and students ",
+    "date": "2025",
+    "url": "https://doi.org/10.3390/buildings15173069",
+    "authors": [
+      "Jiaqi Wang",
+      "Yu Shi",
+      "Xiang Chen"
+    ]
+  },
+  {
+    "source": "OpenAlex (Data Archiving and Networked Services (DANS))",
+    "title": "The ethical space of mindfulness in clinical practice",
+    "abstract": "",
+    "date": "2013",
+    "url": "",
+    "authors": [
+      "Donald McCown"
+    ]
+  },
+  {
+    "source": "OpenAlex (medRxiv)",
+    "title": "Dyadic Parent/Caregiver-Infant Interventions Initiated in the First 6 Months of Life to Support Early Relational Health: A Meta-Analysis",
+    "abstract": "ABSTRACT Importance In 2021, the American Academy of Pediatrics published a policy statement seeking to create a paradigm shift away from a focus on childhood toxic stress and toward the emphasis on early relational health (ERH) as a buffer for childhood adversity and promoter of life-course resilience. A comprehensive appraisal of the efficacy of contemporary parent/caregiver-child interventions in \u2013 primarily \u2013 improving ERH, and \u2013 secondarily \u2013 enhancing child well-being and neurodevelopment is needed to guide widespread implementation and policy. Objective Determine the effectiveness of co",
+    "date": "2022",
+    "url": "https://doi.org/10.1101/2022.10.29.22281681",
+    "authors": [
+      "Andr\u00e9ane Lavall\u00e9e",
+      "Lindsy Pang",
+      "Jennifer M. Warmingham"
+    ]
+  },
+  {
+    "source": "OpenAlex (3C Tecnolog\u00eda_Glosas de innovaci\u00f3n aplicadas a la pyme)",
+    "title": null,
+    "abstract": "The successful promotion of an academic at an institution of higher learning is affected, to a large degree, by the publication record of the applicant.This record is usually updated in a resume, portfolio, or an online database, such as Google Scholar, Research Gate, or LinkedIn.The purpose of this article is to present a metric comparison between Google Scholar and Research Gate for rated scientists who are employed at universities of technology in South Africa.This may help to establish notable similarities or differences between rated scientists from specific universities and identify whic",
+    "date": "2023",
+    "url": "https://doi.org/10.17993/3ctecno.2023.v12n2e44",
+    "authors": [
+      "Namrata Aggarwal",
+      "Ritika Wason",
+      "Parul Arora"
+    ]
+  },
+  {
+    "source": "OpenAlex (Dip\u00f2sit Digital de Documents de la UAB (Universitat Aut\u00f2noma de Barcelona))",
+    "title": "Enhancement of post-editing performance: introducing machine translation post-editing in translator training",
+    "abstract": "Departament responsable de la tesi: Departament de Traducci\u00f3 i d'Interpretaci\u00f3 i d'Estudis de l'\u00c0sia Oriental.",
+    "date": "2018",
+    "url": "",
+    "authors": [
+      "Olena Blagodarna"
+    ]
+  }
+]

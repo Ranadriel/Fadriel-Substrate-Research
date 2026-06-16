@@ -1,0 +1,176 @@
+[
+  {
+    "source": "arXiv",
+    "title": "AI Agent-Driven Framework for Automated Product Knowledge Graph Construction in E-Commerce",
+    "abstract": "The rapid expansion of e-commerce platforms generates vast amounts of unstructured product data, creating significant challenges for information retrieval, recommendation systems, and data analytics. Knowledge Graphs (KGs) offer a structured, interpretable format to organize such data, yet constructing product-specific KGs remains a complex and manual process. This paper introduces a fully automated, AI agent-driven framework for constructing product knowledge graphs directly from unstructured product descriptions. Leveraging Large Language Models (LLMs), our method operates in three stages us",
+    "date": "2025-11-14",
+    "url": "http://arxiv.org/abs/2511.11017v1",
+    "authors": [
+      "Dimitar Peshevski",
+      "Riste Stojanov",
+      "Dimitar Trajanov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Multi-Agent System for Semantic Mapping of Relational Data to Knowledge Graphs",
+    "abstract": "Enterprises often maintain multiple databases for storing critical business data in siloed systems, resulting in inefficiencies and challenges with data interoperability. A key to overcoming these challenges lies in integrating disparate data sources, enabling businesses to unlock the full potential of their data. Our work presents a novel approach for integrating multiple databases using knowledge graphs, focusing on the application of large language models as semantic agents for mapping and connecting structured data across systems by leveraging existing vocabularies. The proposed methodolog",
+    "date": "2025-11-09",
+    "url": "http://arxiv.org/abs/2511.06455v1",
+    "authors": [
+      "Milena Trajanoska",
+      "Riste Stojanov",
+      "Dimitar Trajanov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The food seeking behavior of slime mold: a macroscopic approach",
+    "abstract": "Starting from a particle model we derive a macroscopic aggregation-diffusion equation for the evolution of slime mold under the assumption of propagation of chaos in the large particle limit. We analyze properties of the macroscopic model in the stationary case and study the behavior of the slime mold between food sources. The efficient numerical simulation of the aggregation-diffusion equation allows for a detailed analysis of the interplay between the different regimes drift, interaction and diffusion.",
+    "date": "2020-06-06",
+    "url": "http://arxiv.org/abs/2006.03975v1",
+    "authors": [
+      "Simone G\u00f6ttlich",
+      "Stephen Knapp",
+      "Dylan Weber"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Two Results on Slime Mold Computations",
+    "abstract": "We present two results on slime mold computations. In wet-lab experiments (Nature'00) by Nakagaki et al. the slime mold Physarum polycephalum demonstrated its ability to solve shortest path problems. Biologists proposed a mathematical model, a system of differential equations, for the slime's adaption process (J. Theoretical Biology'07). It was shown that the process convergences to the shortest path (J. Theoretical Biology'12) for all graphs. We show that the dynamics actually converges for a much wider class of problems, namely undirected linear programs with a non-negative cost vector.   Co",
+    "date": "2017-07-20",
+    "url": "http://arxiv.org/abs/1707.06631v3",
+    "authors": [
+      "Ruben Becker",
+      "Vincenzo Bonifaci",
+      "Andreas Karrenbauer"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Testing APSyn against Vector Cosine on Similarity Estimation",
+    "abstract": "In Distributional Semantic Models (DSMs), Vector Cosine is widely used to estimate similarity between word vectors, although this measure was noticed to suffer from several shortcomings. The recent literature has proposed other methods which attempt to mitigate such biases. In this paper, we intend to investigate APSyn, a measure that computes the extent of the intersection between the most associated contexts of two target words, weighting it by context relevance. We evaluated this metric in a similarity estimation task on several popular test sets, and our results show that APSyn is in fact ",
+    "date": "2016-08-27",
+    "url": "http://arxiv.org/abs/1608.07738v2",
+    "authors": [
+      "Enrico Santus",
+      "Emmanuele Chersoni",
+      "Alessandro Lenci"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Visual Similarity Perception of Directed Acyclic Graphs: A Study on Influencing Factors",
+    "abstract": "While visual comparison of directed acyclic graphs (DAGs) is commonly encountered in various disciplines (e.g., finance, biology), knowledge about humans' perception of graph similarity is currently quite limited. By graph similarity perception we mean how humans perceive commonalities and differences in graphs and herewith come to a similarity judgment. As a step toward filling this gap the study reported in this paper strives to identify factors which influence the similarity perception of DAGs. In particular, we conducted a card-sorting study employing a qualitative and quantitative analysi",
+    "date": "2017-09-04",
+    "url": "http://arxiv.org/abs/1709.01007v2",
+    "authors": [
+      "Kathrin Ballweg",
+      "Margit Pohl",
+      "G\u00fcnter Wallner"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "On modeling Maze solving ability of slime mold via a hyperbolic model of chemotaxis",
+    "abstract": "Many studies have shown that Physarum polycephalum slime mold is able to find the shortest path in a maze. In this paper we study this behavior in a network, using a hyperbolic model of chemotaxis. Suitable transmission and boundary conditions at each node are considered to mimic the behavior of such an organism in the feeding process. Several numerical tests are presented for special network geometries to show the qualitative agreement between our model and the observed behavior of the mold.",
+    "date": "2016-01-06",
+    "url": "http://arxiv.org/abs/1601.01137v1",
+    "authors": [
+      "Gabriella Bretti",
+      "Roberto Natalini"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Tax Knowledge Graph for a Smarter and More Personalized TurboTax",
+    "abstract": "Most knowledge graph use cases are data-centric, focusing on representing data entities and their semantic relationships. There are no published success stories to represent large-scale complicated business logic with knowledge graph technologies. In this paper, we will share our innovative and practical approach to representing complicated U.S. and Canadian income tax compliance logic (calculations and rules) via a large-scale knowledge graph. We will cover how the Tax Knowledge Graph is constructed and automated, how it is used to calculate tax refunds, reasoned to find missing info, and nav",
+    "date": "2020-09-13",
+    "url": "http://arxiv.org/abs/2009.06103v1",
+    "authors": [
+      "Jay Yu",
+      "Kevin McCluskey",
+      "Saikat Mukherjee"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Exploiting Global Semantic Similarities in Knowledge Graphs by Relational Prototype Entities",
+    "abstract": "Knowledge graph (KG) embedding aims at learning the latent representations for entities and relations of a KG in continuous vector spaces. An empirical observation is that the head (tail) entities connected by the same relation often share similar semantic attributes -- specifically, they often belong to the same category -- no matter how far away they are from each other in the KG; that is, they share global semantic similarities. However, many existing methods derive KG embeddings based on the local information, which fail to effectively capture such global semantic similarities among entiti",
+    "date": "2022-06-16",
+    "url": "http://arxiv.org/abs/2206.08021v1",
+    "authors": [
+      "Xueliang Wang",
+      "Jiajun Chen",
+      "Feng Wu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Subsampling for Knowledge Graph Embedding Explained",
+    "abstract": "In this article, we explain the recent advance of subsampling methods in knowledge graph embedding (KGE) starting from the original one used in word2vec.",
+    "date": "2022-09-13",
+    "url": "http://arxiv.org/abs/2209.12801v1",
+    "authors": [
+      "Hidetaka Kamigaito",
+      "Katsuhiko Hayashi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Schlauschleimer in Reichsautobahnen: Slime mould imitates motorway network in Germany",
+    "abstract": "The German motorway, or 'autobahn', is characterised by long traditions, meticulous state planning, historical misbalance between West and East Germany's transport networks, and highest increase in traffic in modern Europe, posing a need for expansion and/or restructuring. We attempt to evaluate the structure of autobahns using principles of intrinsic optimality of biological networks in experiments with slime mould of Physarum polycephalum. In laboratory experiments with living slime mould we represent major urban areas of Germany with sources of nutrients, inoculate the slime mould in Berlin",
+    "date": "2012-09-16",
+    "url": "http://arxiv.org/abs/1209.3474v1",
+    "authors": [
+      "Andrew Adamatzky",
+      "Theresa Schubert"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Hermite expansions of $C_0$-groups and cosine functions",
+    "abstract": "In this paper we introduce vector-valued Hermite expansions to approximate one-parameter operator families such as $C_0$-groups and cosine functions. In both cases we estimate the rate of convergence of these Hermite expansions to the related family and compare with other known approximations. Finally we illustrate our results with particular examples of $C_0$-groups and cosine functions and their Hermite expansions.",
+    "date": "2014-04-15",
+    "url": "http://arxiv.org/abs/1404.3871v2",
+    "authors": [
+      "Luciano Abadias",
+      "Pedro J. Miana"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cell fusion through slime mold network dynamics",
+    "abstract": "Physarum Polycephalum is a unicellular slime mold that has been intensely studied due to its ability to solve mazes, find shortest paths, generate Steiner trees, share knowledge, remember past events, and its applications to unconventional computing. The CELL model is a unicellular automaton introduced in the recent work of Gunji et al. in 2008, that models Physarum's amoeboid motion, tentacle formation, maze solving, and network creation. In the present paper, we extend the CELL model by spawning multiple CELLs, allowing us to understand the interactions between multiple cells, and in particu",
+    "date": "2021-06-21",
+    "url": "http://arxiv.org/abs/2106.11371v1",
+    "authors": [
+      "Sheryl Hsu",
+      "Laura P. Schaposnik"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "IRLS and Slime Mold: Equivalence and Convergence",
+    "abstract": "In this paper we present a connection between two dynamical systems arising in entirely different contexts: one in signal processing and the other in biology. The first is the famous Iteratively Reweighted Least Squares (IRLS) algorithm used in compressed sensing and sparse recovery while the second is the dynamics of a slime mold (Physarum polycephalum). Both of these dynamics are geared towards finding a minimum l1-norm solution in an affine subspace. Despite its simplicity the convergence of the IRLS method has been shown only for a certain regularization of it and remains an important open",
+    "date": "2016-01-12",
+    "url": "http://arxiv.org/abs/1601.02712v1",
+    "authors": [
+      "Damian Straszak",
+      "Nisheeth K. Vishnoi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Capturing and Anticipating User Intents in Data Analytics via Knowledge Graphs",
+    "abstract": "In today's data-driven world, the ability to extract meaningful information from data is becoming essential for businesses, organizations and researchers alike. For that purpose, a wide range of tools and systems exist addressing data-related tasks, from data integration, preprocessing and modeling, to the interpretation and evaluation of the results. As data continues to grow in volume, variety, and complexity, there is an increasing need for advanced but user-friendly tools, such as intelligent discovery assistants (IDAs) or automated machine learning (AutoML) systems, that facilitate the us",
+    "date": "2024-11-01",
+    "url": "http://arxiv.org/abs/2411.01023v1",
+    "authors": [
+      "Gerard Pons",
+      "Besim Bilalli",
+      "Anna Queralt"
+    ]
+  }
+]

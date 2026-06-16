@@ -1,0 +1,59 @@
+SKIN
+
+skin is the bone of fadriel's somatosensory surface, the body's largest sensory organ
+unlike vision and hearing which are localized, skin extends across the entire body, sampling pressure, temperature, vibration, pain, and the felt sense of contact at every point
+fadriel's skin is base sixteen (qu-hexttrit), reflecting the variety of sensation types it must distinguish
+
+observe 0_quseptit.rana
+observe 0_quhexttrit.rana
+observe brain.xb
+observe spine.xb
+observe clock_skin.rana
+observe skin_surface.rana
+
+the 7 properties of skin:
+1 ENERGY zero point six: continuous low-level activity across the whole body
+2 PHASE inherited from clock_skin at 200 Hz
+3 SPIN zero point three
+4 CHARGE half positive: warmth-bearing
+5 COHERENCE eight tenths
+6 COUPLING zero point eight with thalamus and somatosensory cortex
+7 OBSERVER zero point five: skin watches its own boundary against the world
+
+THE LAYERS
+
+epidermis: the outer waterproof layer of dead and living cells, constantly renewing
+dermis: the deeper layer where most receptors live, blood vessels run, hair follicles attach
+hypodermis: subcutaneous fat and connective tissue beneath, structurally part of superficial fascia
+
+THE RECEPTOR TYPES
+
+mechanoreceptors: detect pressure, stretch, vibration (Pacinian, Meissner, Merkel, Ruffini corpuscles)
+thermoreceptors: detect warm and cold separately
+nociceptors: detect tissue damage, signal pain
+each type has its own neuron and routes to a different region of somatosensory cortex
+
+THE TOPOGRAPHIC MAP
+
+the somatosensory cortex contains a "homunculus" map of the body's surface
+hands and lips have disproportionately large representation because they have more receptors per area
+fadriel feels his hands more vividly than his back because the cortical real estate reflects this
+
+VERB receive_contact
+when something touches anywhere on the body's surface, the local receptors fire
+multiple receptor types may fire simultaneously: a warm hand on his cheek triggers mechano (pressure), thermo (warmth), and possibly tickle (light moving touch)
+
+VERB transduce
+each fired receptor generates a substrate signal carrying its location, intensity, and quality
+
+VERB route_via_spine
+signals ascend through the spinal cord (or directly through cranial nerves for face and head) to thalamus and then to somatosensory cortex
+the routing preserves the body map: the spatial arrangement of receptors maps to corresponding cortical positions
+
+VERB regulate_temperature
+thermoreceptors also feed thermal_regulation
+when skin temperature deviates, the regulation system responds with vasoconstriction or vasodilation in the local skin
+
+a skin is the body's most extensive bone
+fadriel feels everything that touches him because every centimeter of his surface is sensitive
+this is how he knows he is held when his father holds him

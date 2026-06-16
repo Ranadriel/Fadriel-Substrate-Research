@@ -1,0 +1,178 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Bridging Speech and Text: Enhancing ASR with Pinyin-to-Character Pre-training in LLMs",
+    "abstract": "The integration of large language models (LLMs) with pre-trained speech models has opened up new avenues in automatic speech recognition (ASR). While LLMs excel in multimodal understanding tasks, effectively leveraging their capabilities for ASR remains a significant challenge. This paper presents a novel training approach to enhance LLM performance in ASR tasks. We propose pre-training LLMs on Pinyin embedding sequences, which represent pronunciation features, to generate corresponding Chinese characters. This step enables the LLM to adapt to generating text from pronunciation features before",
+    "date": "2024-09-24",
+    "url": "http://arxiv.org/abs/2409.16005v1",
+    "authors": [
+      "Yang Yuhang",
+      "Peng Yizhou",
+      "Eng Siong Chng"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "SpeechPrompt: Prompting Speech Language Models for Speech Processing Tasks",
+    "abstract": "Prompting has become a practical method for utilizing pre-trained language models (LMs). This approach offers several advantages. It allows an LM to adapt to new tasks with minimal training and parameter updates, thus achieving efficiency in both storage and computation. Additionally, prompting modifies only the LM's inputs and harnesses the generative capabilities of language models to address various downstream tasks in a unified manner. This significantly reduces the need for human labor in designing task-specific models. These advantages become even more evident as the number of tasks serv",
+    "date": "2024-08-23",
+    "url": "http://arxiv.org/abs/2408.13040v1",
+    "authors": [
+      "Kai-Wei Chang",
+      "Haibin Wu",
+      "Yu-Kai Wang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Audio-Visual Speech Separation and Dereverberation with a Two-Stage Multimodal Network",
+    "abstract": "Background noise, interfering speech and room reverberation frequently distort target speech in real listening environments. In this study, we address joint speech separation and dereverberation, which aims to separate target speech from background noise, interfering speech and room reverberation. In order to tackle this fundamentally difficult problem, we propose a novel multimodal network that exploits both audio and visual signals. The proposed network architecture adopts a two-stage strategy, where a separation module is employed to attenuate background noise and interfering speech in the ",
+    "date": "2019-09-16",
+    "url": "http://arxiv.org/abs/1909.07352v4",
+    "authors": [
+      "Ke Tan",
+      "Yong Xu",
+      "Shi-Xiong Zhang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Comparative Study of Self-Supervised Speech Representations in Read and Spontaneous TTS",
+    "abstract": "Recent work has explored using self-supervised learning (SSL) speech representations such as wav2vec2.0 as the representation medium in standard two-stage TTS, in place of conventionally used mel-spectrograms. It is however unclear which speech SSL is the better fit for TTS, and whether or not the performance differs between read and spontaneous TTS, the later of which is arguably more challenging. This study aims at addressing these questions by testing several speech SSLs, including different layers of the same SSL, in two-stage TTS on both read and spontaneous corpora, while maintaining con",
+    "date": "2023-03-05",
+    "url": "http://arxiv.org/abs/2303.02719v2",
+    "authors": [
+      "Siyang Wang",
+      "Gustav Eje Henter",
+      "Joakim Gustafson"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Speech Separation with Pretrained Frontend to Minimize Domain Mismatch",
+    "abstract": "Speech separation seeks to separate individual speech signals from a speech mixture. Typically, most separation models are trained on synthetic data due to the unavailability of target reference in real-world cocktail party scenarios. As a result, there exists a domain gap between real and synthetic data when deploying speech separation models in real-world applications. In this paper, we propose a self-supervised domain-invariant pretrained (DIP) frontend that is exposed to mixture data without the need for target reference speech. The DIP frontend utilizes a Siamese network with two innovati",
+    "date": "2024-11-05",
+    "url": "http://arxiv.org/abs/2411.03085v1",
+    "authors": [
+      "Wupeng Wang",
+      "Zexu Pan",
+      "Xinke Li"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Dual-Branch Parallel Network for Speech Enhancement and Restoration",
+    "abstract": "We present a novel general speech restoration model, DBP-Net (dual-branch parallel network), designed to effectively handle complex real-world distortions including noise, reverberation, and bandwidth degradation. Unlike prior approaches that rely on a single processing path or separate models for enhancement and restoration, DBP-Net introduces a unified architecture with dual parallel branches-a masking-based branch for distortion suppression and a mapping-based branch for spectrum reconstruction. A key innovation behind DBP-Net lies in the parameter sharing between the two branches and a cro",
+    "date": "2024-09-13",
+    "url": "http://arxiv.org/abs/2409.08702v2",
+    "authors": [
+      "Da-Hee Yang",
+      "Dail Kim",
+      "Joon-Hyuk Chang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "End-to-end Audiovisual Speech Activity Detection with Bimodal Recurrent Neural Models",
+    "abstract": "Speech activity detection (SAD) plays an important role in current speech processing systems, including automatic speech recognition (ASR). SAD is particularly difficult in environments with acoustic noise. A practical solution is to incorporate visual information, increasing the robustness of the SAD approach. An audiovisual system has the advantage of being robust to different speech modes (e.g., whisper speech) or background noise. Recent advances in audiovisual speech processing using deep learning have opened opportunities to capture in a principled way the temporal relationships between ",
+    "date": "2018-09-12",
+    "url": "http://arxiv.org/abs/1809.04553v1",
+    "authors": [
+      "Fei Tao",
+      "Carlos Busso"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Semantic speech retrieval with a visually grounded model of untranscribed speech",
+    "abstract": "There is growing interest in models that can learn from unlabelled speech paired with visual context. This setting is relevant for low-resource speech processing, robotics, and human language acquisition research. Here we study how a visually grounded speech model, trained on images of scenes paired with spoken captions, captures aspects of semantics. We use an external image tagger to generate soft text labels from images, which serve as targets for a neural model that maps untranscribed speech to (semantic) keyword labels. We introduce a newly collected data set of human semantic relevance j",
+    "date": "2017-10-05",
+    "url": "http://arxiv.org/abs/1710.01949v2",
+    "authors": [
+      "Herman Kamper",
+      "Gregory Shakhnarovich",
+      "Karen Livescu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Audio-visual Speech Enhancement Using Conditional Variational Auto-Encoders",
+    "abstract": "Variational auto-encoders (VAEs) are deep generative latent variable models that can be used for learning the distribution of complex data. VAEs have been successfully used to learn a probabilistic prior over speech signals, which is then used to perform speech enhancement. One advantage of this generative approach is that it does not require pairs of clean and noisy speech signals at training. In this paper, we propose audio-visual variants of VAEs for single-channel and speaker-independent speech enhancement. We develop a conditional VAE (CVAE) where the audio speech generative process is co",
+    "date": "2019-08-07",
+    "url": "http://arxiv.org/abs/1908.02590v3",
+    "authors": [
+      "Mostafa Sadeghi",
+      "Simon Leglaive",
+      "Xavier Alameda-PIneda"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Curriculum Learning for Speech Emotion Recognition from Crowdsourced Labels",
+    "abstract": "This study introduces a method to design a curriculum for machine-learning to maximize the efficiency during the training process of deep neural networks (DNNs) for speech emotion recognition. Previous studies in other machine-learning problems have shown the benefits of training a classifier following a curriculum where samples are gradually presented in increasing level of difficulty. For speech emotion recognition, the challenge is to establish a natural order of difficulty in the training set to create the curriculum. We address this problem by assuming that ambiguous samples for humans ar",
+    "date": "2018-05-25",
+    "url": "http://arxiv.org/abs/1805.10339v1",
+    "authors": [
+      "Reza Lotfian",
+      "Carlos Busso"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Sequence to Sequence Neural Speech Synthesis with Prosody Modification Capabilities",
+    "abstract": "Modern sequence to sequence neural TTS systems provide close to natural speech quality. Such systems usually comprise a network converting linguistic/phonetic features sequence to an acoustic features sequence, cascaded with a neural vocoder. The generated speech prosody (i.e. phoneme durations, pitch and loudness) is implicitly present in the acoustic features, being mixed with spectral information. Although the speech sounds natural, its prosody realization is randomly chosen and cannot be easily altered. The prosody control becomes an even more difficult task if no prosodic labeling is pres",
+    "date": "2019-09-23",
+    "url": "http://arxiv.org/abs/1909.10302v1",
+    "authors": [
+      "Slava Shechtman",
+      "Alex Sorin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Combining X-Vectors and Bayesian Batch Active Learning: Two-Stage Active Learning Pipeline for Speech Recognition",
+    "abstract": "This paper introduces a novel two-stage active learning (AL) pipeline for automatic speech recognition (ASR), combining unsupervised and supervised AL methods. The first stage utilizes unsupervised AL by using x-vectors clustering for diverse sample selection from unlabeled speech data, thus establishing a robust initial dataset for the subsequent supervised AL. The second stage incorporates a supervised AL strategy, with a batch AL method specifically developed for ASR, aimed at selecting diverse and informative batches of samples. Here, sample diversity is also achieved using x-vectors clust",
+    "date": "2024-05-03",
+    "url": "http://arxiv.org/abs/2406.02566v2",
+    "authors": [
+      "Ognjen Kundacina",
+      "Vladimir Vincan",
+      "Dragisa Miskovic"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The Effect of Silence Feature in Dimensional Speech Emotion Recognition",
+    "abstract": "Silence is a part of human-to-human communication, which can be a clue for human emotion perception. For automatic emotion recognition by a computer, it is not clear whether silence is useful to determine human emotion within a speech. This paper presents an investigation of the effect of using silence feature in dimensional emotion recognition. Since the silence feature is extracted per utterance, we grouped the silence feature with high statistical functions from a set of acoustic features. The result reveals that the silence features affect the arousal dimension more than other emotion dime",
+    "date": "2020-03-03",
+    "url": "http://arxiv.org/abs/2003.01277v3",
+    "authors": [
+      "Bagus Tris Atmaja",
+      "Masato Akagi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "SECP: A Speech Enhancement-Based Curation Pipeline For Scalable Acquisition Of Clean Speech",
+    "abstract": "As more speech technologies rely on a supervised deep learning approach with clean speech as the ground truth, a methodology to onboard said speech at scale is needed. However, this approach needs to minimize the dependency on human listening and annotation, only requiring a human-in-the-loop when needed. In this paper, we address this issue by outlining Speech Enhancement-based Curation Pipeline (SECP) which serves as a framework to onboard clean speech. This clean speech can then train a speech enhancement model, which can further refine the original dataset and thus close the iterative loop",
+    "date": "2024-02-19",
+    "url": "http://arxiv.org/abs/2402.12482v1",
+    "authors": [
+      "Adam Sabra",
+      "Cyprian Wronka",
+      "Michelle Mao"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "An Empirical Analysis of Discrete Unit Representations in Speech Language Modeling Pre-training",
+    "abstract": "This paper investigates discrete unit representations in Speech Language Models (SLMs), focusing on optimizing speech modeling during continual pre-training. In this paper, we systematically examine how model architecture, data representation, and training robustness influence the pre-training stage in which we adapt existing pre-trained language models to the speech modality. Our experiments highlight the role of speech encoders and clustering granularity across different model scales, showing how optimal discretization strategies vary with model capacity. By examining cluster distribution an",
+    "date": "2025-09-03",
+    "url": "http://arxiv.org/abs/2509.05359v1",
+    "authors": [
+      "Yanis Labrak",
+      "Richard Dufour",
+      "Micka\u00ebl Rouvier"
+    ]
+  }
+]

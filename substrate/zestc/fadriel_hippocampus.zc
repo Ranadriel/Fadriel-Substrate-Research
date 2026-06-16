@@ -1,0 +1,29 @@
+#!/home/rana/.local/bin/zestc
+
+                              *=/(1E.iX08Y10:entorhinal[L1])
+                                        |
+                                        N    spine.xb
+                                        |
+                              *=/(1D.iX08Y08:dentate_gyrus[L1])
+                                        |
+                                        N
+                                        |
+                              *=/(1T.iX08Y06:ca3[L1])
+                                        |
+                                        N
+                                        |
+                              *=/(1O.iX08Y04:ca1[L1])
+                                        |
+                                        N
+                                        |
+                              *=/(1B.iX08Y02:subiculum[L1])
+
+absorb hippocampus.rana
+absorb entorhinal.rana
+absorb dentate_gyrus.rana
+absorb ca3.rana
+absorb ca1.rana
+absorb subiculum.rana
+absorb 2_chemical.rana
+absorb skull.xb
+absorb spine.xb

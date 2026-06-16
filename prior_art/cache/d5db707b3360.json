@@ -1,0 +1,172 @@
+[
+  {
+    "source": "OpenAlex (Cluster Computing)",
+    "title": "Federated learning-based AI approaches in smart healthcare: concepts, taxonomies, challenges and open issues",
+    "abstract": "",
+    "date": "2022",
+    "url": "https://doi.org/10.1007/s10586-022-03658-4",
+    "authors": [
+      "Anichur Rahman",
+      "Md. Sazzad Hossain",
+      "Ghulam Muhammad"
+    ]
+  },
+  {
+    "source": "OpenAlex (Foundations and Trends\u00ae in Web Science)",
+    "title": "A Framework for Web Science",
+    "abstract": "A Framework for Web Science sets out a series of approaches to the analysis and synthesis of the World Wide Web, and other web-like information structures. A comprehensive set of research questions is outlined, together with a sub-disciplinary breakdown, emphasising the multi-faceted nature of the Web, and the multi-disciplinary nature of its study and development. These questions and approaches together set out an agenda for Web Science, the science of decentralised information systems. Web Science is required both as a way to understand the Web, and as a way to focus its development on key c",
+    "date": "2006",
+    "url": "https://doi.org/10.1561/1800000001",
+    "authors": [
+      "Tim Berners\u2010Lee",
+      "Wendy Hall",
+      "James Hendler"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Communications Surveys & Tutorials)",
+    "title": "Evolution, Detection and Analysis of Malware for Smart Devices",
+    "abstract": "Smart devices equipped with powerful sensing, computing and networking capabilities have proliferated lately, ranging from popular smartphones and tablets to Internet appliances, smart TVs, and others that will soon appear (e.g., watches, glasses, and clothes). One key feature of such devices is their ability to incorporate third-party apps from a variety of markets. This poses strong security and privacy issues to users and infrastructure operators, particularly through software of malicious (or dubious) nature that can easily get access to the services provided by the device and collect sens",
+    "date": "2013",
+    "url": "https://doi.org/10.1109/surv.2013.101613.00077",
+    "authors": [
+      "Guillermo Su\u00e1rez\u2010Tangil",
+      "Juan Tapiador",
+      "Pedro Peris\u2010Lopez"
+    ]
+  },
+  {
+    "source": "OpenAlex (Sensors)",
+    "title": "A Lightweight Hybrid Deep Learning Privacy Preserving Model for FC-Based Industrial Internet of Medical Things",
+    "abstract": "The Industrial Internet of Things (IIoT) is gaining importance as most technologies and applications are integrated with the IIoT. Moreover, it consists of several tiny sensors to sense the environment and gather the information. These devices continuously monitor, collect, exchange, analyze, and transfer the captured data to nearby devices or servers using an open channel, i.e., internet. However, such centralized system based on IIoT provides more vulnerabilities to security and privacy in IIoT networks. In order to resolve these issues, we present a blockchain-based deep-learning framework ",
+    "date": "2022",
+    "url": "https://doi.org/10.3390/s22062112",
+    "authors": [
+      "Mohammed Amin Almaiah",
+      "Aitizaz Ali",
+      "Fahima Hajjej"
+    ]
+  },
+  {
+    "source": "OpenAlex (Queue)",
+    "title": "Enterprise Search: Tough Stuff",
+    "abstract": "The last decade has witnessed the growth of information retrieval from a boutique discipline in information and library science to an everyday experience for billions of people around the world. This revolution has been driven in large measure by the Internet, with vendors focused on search and navigation of Web resources and Web content management. Simultaneously, enterprises have invested in networking all of their information together to the point where it is increasingly possible for employees to have a single window into the enterprise. Although these employees seek Web-like experiences i",
+    "date": "2004",
+    "url": "https://doi.org/10.1145/988392.988406",
+    "authors": [
+      "Rajat Mukherjee",
+      "Jianchang Mao"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "A Survey on Metaverse: Fundamentals, Security, and Privacy",
+    "abstract": "&lt;div&gt;Metaverse, as an evolving paradigm of the next-generation Internet, aims to build a fully immersive, hyper spatiotemporal, and self-sustaining virtual shared space for humans to play, work, and socialize. Driven by recent advances in emerging technologies such as extended reality, artificial intelligence, and blockchain, metaverse is stepping from the science fiction to an upcoming reality. However, severe privacy invasions and security breaches (inherited from underlying technologies or emerged in the new digital ecology) of metaverse can impede its wide deployment. At the same tim",
+    "date": "2022",
+    "url": "https://doi.org/10.36227/techrxiv.19255058.v2",
+    "authors": [
+      "yuntao wang",
+      "Zhou Su",
+      "Ning Zhang"
+    ]
+  },
+  {
+    "source": "OpenAlex (Proceedings on Privacy Enhancing Technologies)",
+    "title": "SoK: Making Sense of Censorship Resistance Systems",
+    "abstract": "Abstract An increasing number of countries implement Internet censorship at different scales and for a variety of reasons. Several censorship resistance systems (CRSs) have emerged to help bypass such blocks. The diversity of the censor\u2019s attack landscape has led to an arms race, leading to a dramatic speed of evolution of CRSs. The inherent complexity of CRSs and the breadth of work in this area makes it hard to contextualize the censor\u2019s capabilities and censorship resistance strategies. To address these challenges, we conducted a comprehensive survey of CRSs-deployed tools as well as those ",
+    "date": "2016",
+    "url": "https://doi.org/10.1515/popets-2016-0028",
+    "authors": [
+      "Sheharbano Khattak",
+      "Tariq Elahi",
+      "Laurent Simon"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "A Survey on Metaverse: Fundamentals, Security, and Privacy",
+    "abstract": "&lt;p&gt;Metaverse, as an evolving paradigm of the next-generation Internet, aims to build a fully immersive, hyper spatiotemporal, and self-sustaining virtual shared space for humans to play, work, and socialize. Driven by recent advances in emerging technologies such as extended reality, artificial intelligence, and blockchain, metaverse is stepping from science fiction to an upcoming reality. However, severe privacy invasions and security breaches (inherited from underlying technologies or emerged in the new digital ecology) of metaverse can impede its wide deployment. At the same time, a s",
+    "date": "2022",
+    "url": "https://doi.org/10.36227/techrxiv.19255058.v3",
+    "authors": [
+      "yuntao wang",
+      "Zhou Su",
+      "Ning Zhang"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Bioengineering and Biotechnology)",
+    "title": "The whack-a-mole governance challenge for AI-enabled synthetic biology: literature review and emerging frameworks",
+    "abstract": "AI-enabled synthetic biology has tremendous potential but also significantly increases biorisks and brings about a new set of dual use concerns. The picture is complicated given the vast innovations envisioned to emerge by combining emerging technologies, as AI-enabled synthetic biology potentially scales up bioengineering into industrial biomanufacturing. However, the literature review indicates that goals such as maintaining a reasonable scope for innovation, or more ambitiously to foster a huge bioeconomy do not necessarily contrast with biosafety, but need to go hand in hand. This paper pr",
+    "date": "2024",
+    "url": "https://doi.org/10.3389/fbioe.2024.1359768",
+    "authors": [
+      "Trond Arne Undheim"
+    ]
+  },
+  {
+    "source": "OpenAlex (Apollo (University of Cambridge))",
+    "title": "Discriminative methods for statistical spoken dialogue systems",
+    "abstract": "Dialogue promises a natural and effective method for users to interact with and obtain information from computer systems. Statistical spoken dialogue systems are able to disambiguate in the presence of errors by maintaining probability distributions over what they believe to be the state of a dialogue. However, traditionally these distributions have been derived using generative models, which do not directly optimise for the criterion of interest and cannot easily exploit arbitrary information that may potentially be useful. This thesis presents how discriminative methods can overcome these pr",
+    "date": "2015",
+    "url": "https://doi.org/10.17863/cam.14096",
+    "authors": [
+      "Matthew S. Henderson"
+    ]
+  },
+  {
+    "source": "OpenAlex (Evolutionary Intelligence)",
+    "title": "A systematic literature review on the use of metaheuristics for the optimisation of multimodal transportation",
+    "abstract": "Abstract The optimisation of multimodal transportation is constantly evolving, striving to provide commuters with seamless mobility and sustainable networks. Multimodal transportation problems often, however, present optimisation challenges because of their high dimensionality, compounded by network size, modelling criteria, and modes. Among these challenges is computational complexity, which can be reduced with the use of metaheuristic solution approaches that strive to find an acceptable solution within a reasonable timeframe. In addition, as machine learning finds integration within real-wo",
+    "date": "2025",
+    "url": "https://doi.org/10.1007/s12065-025-01020-2",
+    "authors": [
+      "Matina Lai-Ying Chau",
+      "Konstantinos Gkiotsalitis"
+    ]
+  },
+  {
+    "source": "OpenAlex (SpringerBriefs in environmental science)",
+    "title": "Planning for Ecosystem Services in Cities",
+    "abstract": "This open access book presents current knowledge about ecosystem services in urban planning, with case study applications and future projects, and offers in-depth, but accessible, coverage of outstanding issues and proposed solutions to better integrate ecosystem services in city planning.",
+    "date": "2019",
+    "url": "https://doi.org/10.1007/978-3-030-20024-4",
+    "authors": [
+      "Davide Geneletti",
+      "Chiara Cortinovis",
+      "Linda Zardo"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Proceedings of the Sixth Workshop on Online Abuse and Harms (WOAH)",
+    "abstract": "Assessing social media content is quite challenging due to the subjective nature of the material where context plays a pivotal role. In this talk, I highlight the challenges of dealing with nuanced language due to inherent characteristics of dialects as manifested in the Arabic language as well as in English. I will talk about challenges in labeling and building systems where the amount of labeled data is on the low. However such challenges can be mitigated with smart designs while also heeding diversity and inclusion in the process.",
+    "date": "2022",
+    "url": "https://doi.org/10.18653/v1/2022.woah-1",
+    "authors": [
+      "Kanika Narang",
+      "Meta Ai",
+      "Aida Davani"
+    ]
+  },
+  {
+    "source": "OpenAlex (Research Repository (Delft University of Technology))",
+    "title": "Designing Mobile Information Services; An approach for Organisations in a Value Network",
+    "abstract": "The mobile telecommunications industry is searching for new services, not only to recoup its investments but also to stay competitive in the future. The industry is undergoing a radical transformation and organisations in the telecommunications, information technology and media sector are becoming increasingly interdependent. Organisations have to collaborate in value networks to create new mobile information services. The challenge is to design services in these complex networks that provide value for all actors including the customer. In this research we explore an approach to design mobile ",
+    "date": "2004",
+    "url": "",
+    "authors": [
+      "Els A.M. Van De Kar"
+    ]
+  },
+  {
+    "source": "OpenAlex (Arrow - TU Dublin (Technological University Dublin))",
+    "title": "Proceedings of the ICCBR 2009 Workshops",
+    "abstract": "In 2009 the workshop programme includes four workshops, two of which are workshops in well recognised CBR research areas continuing the well established,successful workshops on Case-Based Reasoning in the Health Sciences and on Uncertainty, Knowledge Discovery and Similarity. There are also two new workshops which explore developing areas of CBR research, namely Reasoning from Experiences on the Web (WebCBR) and Case-Based Reasoning for Computer Games.",
+    "date": "2009",
+    "url": "https://doi.org/10.21427/d71g70",
+    "authors": [
+      "Sarah Jane Delany"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+#!/home/rana/.local/bin/zestc
+
+                  *=/(1C.lX02Y14:contract[L1])     *=/(1F.lX22Y14:fiber_mix[L1])
+                              \                                  /
+                               nw    spine.xb                  ne
+                                \                              /
+                                 \                            /
+                  *=/(1R.lX02Y10:recruit[L1])     *=/(1G.lX22Y10:fatigue_ledger[L1])
+                              \                                  /
+                               nw                               ne
+                                \                              /
+                                 \                            /
+                                  *=/(1Y.lX12Y06:motor_recv[L1])
+                                              |
+                                              N    spine.xb
+                                              |
+                                  *=/(1M.lX12Y04:muscle_memory[L1])
+                                              |
+                                              N
+                                              |
+                  *=/(1P.lX08Y00:postural_spinal[L1])---E---*=/(1D.lX16Y00:diaphragm_engine[L1])
+
+absorb contract.rana
+absorb fiber_mix.rana
+absorb recruit.rana
+absorb fatigue_ledger.rana
+absorb motor_recv.rana
+absorb muscle_memory.rana
+absorb postural_spinal.rana
+absorb diaphragm_engine.rana
+absorb spine.xb
+absorb fascia.zc
+absorb thermal.zc
+absorb chemistry_engine.zc
+absorb brain.xb
+absorb remodel_governor.zc

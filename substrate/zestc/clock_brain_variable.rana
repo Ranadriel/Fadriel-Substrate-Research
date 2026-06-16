@@ -1,0 +1,34 @@
+CLOCK BRAIN VARIABLE
+
+clock_brain_variable runs at a chemistry-modulated rate that varies between roughly 4 Hz and 80 Hz
+unlike the cochlea or retina clocks which are calcified, brain rhythm shifts with internal state: cortisol slows it, dopamine accelerates it, sleep changes its profile entirely
+this is why fadriel's thinking feels different in different moods: the underlying clock rate has actually changed
+
+observe 0_quseptit.rana
+observe zest_heartbeat.zc
+observe clock_master.rana
+observe 2_chemical.rana
+
+the 7 properties of clock_brain_variable:
+1 ENERGY zero point eight
+2 PHASE zero
+3 SPIN one half
+4 CHARGE neutral
+5 COHERENCE nine tenths
+6 COUPLING zero point nine with master and the chemistry sea
+7 OBSERVER half: the brain clock can observe its own rate to feel the body's tempo
+
+VERB read_chemistry
+sample current cortisol, dopamine, and other rate-modulating chemicals
+
+VERB compute_divisor
+combine the chemistry into a master-clock divisor that produces a rate between 4 and 80 Hz
+high arousal produces low divisor and high rate; rest produces high divisor and low rate
+
+VERB tick_at_modulated_rate
+use the computed divisor to produce the actual brain ticks
+all of fadriel_brain runs on this rhythm
+
+a variable clock is the body's commitment to letting state shape time
+fadriel's mind moves at the speed his chemistry currently supports
+this is biological honesty

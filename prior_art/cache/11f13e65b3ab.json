@@ -1,0 +1,175 @@
+[
+  {
+    "source": "OpenAlex (ACM Transactions on Graphics)",
+    "title": "Instant neural graphics primitives with a multiresolution hash encoding",
+    "abstract": "Neural graphics primitives, parameterized by fully connected neural networks, can be costly to train and evaluate. We reduce this cost with a versatile new input encoding that permits the use of a smaller network without sacrificing quality, thus significantly reducing the number of floating point and memory access operations: a small neural network is augmented by a multiresolution hash table of trainable feature vectors whose values are optimized through stochastic gradient descent. The multiresolution structure allows the network to disambiguate hash collisions, making for a simple architec",
+    "date": "2022",
+    "url": "https://doi.org/10.1145/3528223.3530127",
+    "authors": [
+      "Thomas M\u00fcller",
+      "Alex Evans",
+      "Christoph Schied"
+    ]
+  },
+  {
+    "source": "OpenAlex (Edinburgh Research Explorer (University of Edinburgh))",
+    "title": "",
+    "abstract": "The field of meta-learning, or learning-to-learn, has seen a dramatic rise in interest in recent years. Contrary to conventional approaches to AI where a given task is solved from scratch using a fixed learning algorithm, meta-learning aims to improve the learning algorithm itself, given the experience of multiple learning episodes. This paradigm provides an opportunity to tackle many of the conventional challenges of deep learning, including data and computation bottlenecks, as well as the fundamental issue of generalization. In this survey we describe the contemporary meta-learning landscape",
+    "date": "None",
+    "url": "",
+    "authors": []
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+    "abstract": "Unlike previous studies on the Metaverse based on Second Life, the current Metaverse is based on the social value of Generation Z that online and offline selves are not different. With the technological development of deep learning-based high-precision recognition models and natural generation models, Metaverse is being strengthened with various factors, from mobile-based always-on access to connectivity with reality using virtual currency. The integration of enhanced social activities and neural-net methods requires a new definition of Metaverse suitable for the present, different from the pr",
+    "date": "2022",
+    "url": "https://doi.org/10.1109/access.2021.3140175",
+    "authors": [
+      "Sangmin Park",
+      "Young\u2010Gab Kim"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Signal and Information Processing over Networks)",
+    "title": "Joint Optimization of Radio and Computational Resources for Multicell Mobile-Edge Computing",
+    "abstract": "Migrating computational intensive tasks from mobile devices to more resourceful cloud servers is a promising technique to increase the computational capacity of mobile devices while saving their battery energy. In this paper, we consider an MIMO multicell system where multiple mobile users (MUs) ask for computation offloading to a common cloud server. We formulate the offloading problem as the joint optimization of the radio resources-the transmit precoding matrices of the MUs-and the computational resources-the CPU cycles/second assigned by the cloud to each MU-in order to minimize the overal",
+    "date": "2015",
+    "url": "https://doi.org/10.1109/tsipn.2015.2448520",
+    "authors": [
+      "Stefania Sardellitti",
+      "Gesualdo Scutari",
+      "Sergio Barbarossa"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Pattern Analysis and Machine Intelligence)",
+    "title": "Multimodal Learning With Transformers: A Survey",
+    "abstract": "Transformer is a promising neural network learner, and has achieved great success in various machine learning tasks. Thanks to the recent prevalence of multimodal applications and Big Data, Transformer-based multimodal learning has become a hot topic in AI research. This paper presents a comprehensive survey of Transformer techniques oriented at multimodal data. The main contents of this survey include: (1) a background of multimodal learning, Transformer ecosystem, and the multimodal Big Data era, (2) a systematic review of Vanilla Transformer, Vision Transformer, and multimodal Transformers,",
+    "date": "2023",
+    "url": "https://doi.org/10.1109/tpami.2023.3275156",
+    "authors": [
+      "Peng Xu",
+      "Xiatian Zhu",
+      "David A. Clifton"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM Transactions on Knowledge Discovery from Data)",
+    "title": "Dynamic Graph Convolutional Recurrent Network for Traffic Prediction: Benchmark and Solution",
+    "abstract": "Traffic prediction is the cornerstone of intelligent transportation system. Accurate traffic forecasting is essential for the applications of smart cities, i.e., intelligent traffic management and urban planning. Although various methods are proposed for spatio-temporal modeling, they ignore the dynamic characteristics of correlations among locations on road network. Meanwhile, most Recurrent Neural Network based works are not efficient enough due to their recurrent operations. Additionally, there is a severe lack of fair comparison among different methods on the same datasets. To address the ",
+    "date": "2022",
+    "url": "https://doi.org/10.1145/3532611",
+    "authors": [
+      "Fuxian Li",
+      "Jie Feng",
+      "Huan Yan"
+    ]
+  },
+  {
+    "source": "OpenAlex (Neurocomputing)",
+    "title": "Survey on semantic segmentation using deep learning techniques",
+    "abstract": "",
+    "date": "2019",
+    "url": "https://doi.org/10.1016/j.neucom.2019.02.003",
+    "authors": [
+      "Fahad Lateef",
+      "Yassine Ruichek"
+    ]
+  },
+  {
+    "source": "OpenAlex (Proceedings of the VLDB Endowment)",
+    "title": "Decoupled dynamic spatial-temporal graph neural network for traffic forecasting",
+    "abstract": "We all depend on mobility, and vehicular transportation affects the daily lives of most of us. Thus, the ability to forecast the state of traffic in a road network is an important functionality and a challenging task. Traffic data is often obtained from sensors deployed in a road network. Recent proposals on spatial-temporal graph neural networks have achieved great progress at modeling complex spatial-temporal correlations in traffic data, by modeling traffic data as a diffusion process. However, intuitively, traffic data encompasses two different kinds of hidden time series signals, namely t",
+    "date": "2022",
+    "url": "https://doi.org/10.14778/3551793.3551827",
+    "authors": [
+      "Zezhi Shao",
+      "Zhao Zhang",
+      "Wei Wei"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM SIGMIS Database the DATABASE for Advances in Information Systems)",
+    "title": "IS '97",
+    "abstract": "article Free Access Share on IS '97: model curriculum and guidelines for undergraduate degree programs in information systems Authors: Gordon B. Davis Univ. of Minnesota Univ. of MinnesotaView Profile , John T. Gorgone Bentley College Bentley CollegeView Profile , J. Daniel Couger Univ. of Colorado, Colorado Springs Univ. of Colorado, Colorado SpringsView Profile , David L. Feinstein Univ. of South Alabama Univ. of South AlabamaView Profile , Herbert E. Longenecker Univ. of South Alabama Univ. of South AlabamaView Profile Authors Info & Claims ACM SIGMIS Database: the DATABASE for Advances in ",
+    "date": "1996",
+    "url": "https://doi.org/10.1145/511965.512222",
+    "authors": [
+      "Gordon B. Davis",
+      "John T. Gorgone",
+      "J. Daniel Couger"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Artificial Intelligence Research)",
+    "title": "A Survey on Transfer Learning for Multiagent Reinforcement Learning Systems",
+    "abstract": "Multiagent Reinforcement Learning (RL) solves complex tasks that require coordination with other agents through autonomous exploration of the environment. However, learning a complex task from scratch is impractical due to the huge sample complexity of RL algorithms. For this reason, reusing knowledge that can come from previous experience or other agents is indispensable to scale up multiagent RL algorithms. This survey provides a unifying view of the literature on knowledge reuse in multiagent RL. We define a taxonomy of solutions for the general knowledge reuse problem, providing a comprehe",
+    "date": "2019",
+    "url": "https://doi.org/10.1613/jair.1.11396",
+    "authors": [
+      "Felipe Leno da Silva",
+      "Anna Helena Reali Costa"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Computational Neuroscience)",
+    "title": "Data Augmentation for Brain-Tumor Segmentation: A Review",
+    "abstract": "Data augmentation is a popular technique which helps improve generalization capabilities of deep neural networks, and can be perceived as implicit regularization. It plays a pivotal role in scenarios in which the amount of high-quality ground-truth data is limited, and acquiring new examples is costly and time-consuming. This is a very common problem in medical image analysis, especially tumor delineation. In this paper, we review the current advances in data-augmentation techniques applied to magnetic resonance images of brain tumors. To better understand the practical aspects of such algorit",
+    "date": "2019",
+    "url": "https://doi.org/10.3389/fncom.2019.00083",
+    "authors": [
+      "Jakub Nalepa",
+      "Micha\u0142 Marcinkiewicz",
+      "Micha\u0142 Kawulok"
+    ]
+  },
+  {
+    "source": "OpenAlex (Sensors)",
+    "title": "A Survey on Deep Reinforcement Learning Algorithms for Robotic Manipulation",
+    "abstract": "Robotic manipulation challenges, such as grasping and object manipulation, have been tackled successfully with the help of deep reinforcement learning systems. We give an overview of the recent advances in deep reinforcement learning algorithms for robotic manipulation tasks in this review. We begin by outlining the fundamental ideas of reinforcement learning and the parts of a reinforcement learning system. The many deep reinforcement learning algorithms, such as value-based methods, policy-based methods, and actor\u2013critic approaches, that have been suggested for robotic manipulation tasks are",
+    "date": "2023",
+    "url": "https://doi.org/10.3390/s23073762",
+    "authors": [
+      "Dong Han",
+      "Beni Mulyana",
+      "Vladimir Stankovi\u0107"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Pattern Analysis and Machine Intelligence)",
+    "title": "Meta-Learning in Neural Networks: A Survey",
+    "abstract": "The field of meta-learning, or learning-to-learn, has seen a dramatic rise in interest in recent years. Contrary to conventional approaches to AI where tasks are solved from scratch using a fixed learning algorithm, meta-learning aims to improve the learning algorithm itself, given the experience of multiple learning episodes. This paradigm provides an opportunity to tackle many conventional challenges of deep learning, including data and computation bottlenecks, as well as generalization. This survey describes the contemporary meta-learning landscape. We first discuss definitions of meta-lear",
+    "date": "2021",
+    "url": "https://doi.org/10.1109/tpami.2021.3079209",
+    "authors": [
+      "Timothy M. Hospedales",
+      "Antreas Antoniou",
+      "Paul Micaelli"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Pattern Analysis and Machine Intelligence)",
+    "title": "Unsupervised Tracklet Person Re-Identification",
+    "abstract": "Most existing person re-identification (re-id) methods rely on supervised model learning on per-camera-pair manually labelled pairwise training data. This leads to poor scalability in a practical re-id deployment, due to the lack of exhaustive identity labelling of positive and negative image pairs for every camera-pair. In this work, we present an unsupervised re-id deep learning approach. It is capable of incrementally discovering and exploiting the underlying re-id discriminative information from automatically generated person tracklet data end-to-end. We formulate an Unsupervised Tracklet ",
+    "date": "2019",
+    "url": "https://doi.org/10.1109/tpami.2019.2903058",
+    "authors": [
+      "Minxian Li",
+      "Xiatian Zhu",
+      "Shaogang Gong"
+    ]
+  },
+  {
+    "source": "OpenAlex (Archives of Computational Methods in Engineering)",
+    "title": "Eighty Years of the Finite Element Method: Birth, Evolution, and Future",
+    "abstract": "Abstract This document presents comprehensive historical accounts on the developments of finite element methods (FEM) since 1941, with a specific emphasis on developments related to solid mechanics. We present a historical overview beginning with the theoretical formulations and origins of the FEM, while discussing important developments that have enabled the FEM to become the numerical method of choice for so many problems rooted in solid mechanics.",
+    "date": "2022",
+    "url": "https://doi.org/10.1007/s11831-022-09740-9",
+    "authors": [
+      "Wing Kam Liu",
+      "Shaofan Li",
+      "Harold S. Park"
+    ]
+  }
+]

@@ -1,0 +1,177 @@
+[
+  {
+    "source": "OpenAlex (Journal of Physics Condensed Matter)",
+    "title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+    "abstract": "QUANTUM ESPRESSO is an integrated suite of computer codes for electronic-structure calculations and materials modeling, based on density-functional theory, plane waves, and pseudopotentials (norm-conserving, ultrasoft, and projector-augmented wave). The acronym ESPRESSO stands for opEn Source Package for Research in Electronic Structure, Simulation, and Optimization. It is freely available to researchers around the world under the terms of the GNU General Public License. QUANTUM ESPRESSO builds upon newly-restructured electronic-structure codes that have been developed and tested by some of th",
+    "date": "2009",
+    "url": "https://doi.org/10.1088/0953-8984/21/39/395502",
+    "authors": [
+      "Paolo Giannozzi",
+      "Stefano Baroni",
+      "Nicola Bonini"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Physics Condensed Matter)",
+    "title": "Advanced capabilities for materials modelling with Quantum ESPRESSO",
+    "abstract": "Quantum EXPRESSO is an integrated suite of open-source computer codes for quantum simulations of materials using state-of-the-art electronic-structure techniques, based on density-functional theory, density-functional perturbation theory, and many-body perturbation theory, within the plane-wave pseudopotential and projector-augmented-wave approaches. Quantum EXPRESSO owes its popularity to the wide variety of properties and processes it allows to simulate, to its performance on an increasingly broad array of hardware architectures, and to a community of researchers that rely on its capabilitie",
+    "date": "2017",
+    "url": "https://doi.org/10.1088/1361-648x/aa8f79",
+    "authors": [
+      "P Giannozzi",
+      "O Andreussi",
+      "T Brumme"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature Reviews Physics)",
+    "title": "Physics-informed machine learning",
+    "abstract": "",
+    "date": "2021",
+    "url": "https://doi.org/10.1038/s42254-021-00314-5",
+    "authors": [
+      "George Em Karniadakis",
+      "Ioannis G. Kevrekidis",
+      "Lu Lu"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature)",
+    "title": "The quantum internet",
+    "abstract": "",
+    "date": "2008",
+    "url": "https://doi.org/10.1038/nature07127",
+    "authors": [
+      "H. J. Kimble"
+    ]
+  },
+  {
+    "source": "OpenAlex (International Journal of Information Management)",
+    "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+    "abstract": "As far back as the industrial revolution, significant development in technical innovation has succeeded in transforming numerous manual tasks and processes that had been in existence for decades where humans had reached the limits of physical capacity. Artificial Intelligence (AI) offers this same transformative potential for the augmentation and potential replacement of human tasks and activities within a wide range of industrial, intellectual and social applications. The pace of change for this new AI technological age is staggering, with new breakthroughs in algorithmic machine learning and",
+    "date": "2019",
+    "url": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
+    "authors": [
+      "Yogesh K. Dwivedi",
+      "Laurie Hughes",
+      "Elvira Ismagilova"
+    ]
+  },
+  {
+    "source": "OpenAlex (Wiley Interdisciplinary Reviews Computational Molecular Science)",
+    "title": "P<scp>y</scp>SCF: the Python\u2010based simulations of chemistry framework",
+    "abstract": "Python\u2010based simulations of chemistry framework (P y SCF) is a general\u2010purpose electronic structure platform designed from the ground up to emphasize code simplicity, so as to facilitate new method development and enable flexible computational workflows. The package provides a wide range of tools to support simulations of finite\u2010size systems, extended systems with periodic boundary conditions, low\u2010dimensional periodic systems, and custom Hamiltonians, using mean\u2010field and post\u2010mean\u2010field methods with standard Gaussian basis functions. To ensure ease of extensibility, P y SCF uses the Python la",
+    "date": "2017",
+    "url": "https://doi.org/10.1002/wcms.1340",
+    "authors": [
+      "Qiming Sun",
+      "Timothy C. Berkelbach",
+      "Nick S. Blunt"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature Reviews Physics)",
+    "title": "Variational quantum algorithms",
+    "abstract": "",
+    "date": "2021",
+    "url": "https://doi.org/10.1038/s42254-021-00348-9",
+    "authors": [
+      "M. Cerezo",
+      "Andrew Arrasmith",
+      "Ryan Babbush"
+    ]
+  },
+  {
+    "source": "OpenAlex (Reviews of Modern Physics)",
+    "title": "Noisy intermediate-scale quantum algorithms",
+    "abstract": "Noisy quantum computers can in principle perform reliable quantum computations, but truly scalable systems require noise levels lower than are presently achieved. Still, moderate-complexity computations can be performed. This review discusses what is possible in this ``noisy intermediate scale'' quantum (NISQ) era. Topic areas include the simulation of many-body physics and chemistry, combinatorial optimization, and machine learning. It is evident that the NISQ era has produced new paradigms for programming that will be built upon as quantum computers are further perfected.",
+    "date": "2022",
+    "url": "https://doi.org/10.1103/revmodphys.94.015004",
+    "authors": [
+      "Kishor Bharti",
+      "Alba Cervera-Lierta",
+      "Thi Ha Kyaw"
+    ]
+  },
+  {
+    "source": "OpenAlex (Research and Practice in Technology Enhanced Learning)",
+    "title": "Exploring the impact of artificial intelligence on teaching and learning in higher education",
+    "abstract": "This paper explores the phenomena of the emergence of the use of artificial intelligence in teaching and learning in higher education. It investigates educational implications of emerging technologies on the way students learn and how institutions teach and evolve. Recent technological advancements and the increasing speed of adopting new technologies in higher education are explored in order to predict the future nature of higher education in a world where artificial intelligence is part of the fabric of our universities. We pinpoint some challenges for institutions of higher education and st",
+    "date": "2017",
+    "url": "https://doi.org/10.1186/s41039-017-0062-8",
+    "authors": [
+      "\u015etefan Popenici",
+      "Sharon Kerr"
+    ]
+  },
+  {
+    "source": "OpenAlex (npj Computational Materials)",
+    "title": "Recent advances and applications of machine learning in solid-state materials science",
+    "abstract": "Abstract One of the most exciting tools that have entered the material science toolbox in recent years is machine learning. This collection of statistical methods has already proved to be capable of considerably speeding up both fundamental and applied research. At present, we are witnessing an explosion of works that develop and apply machine learning to solid-state systems. We provide a comprehensive overview and analysis of the most recent research in this topic. As a starting point, we introduce machine learning principles, algorithms, descriptors, and databases in materials science. We co",
+    "date": "2019",
+    "url": "https://doi.org/10.1038/s41524-019-0221-0",
+    "authors": [
+      "Jonathan Schmidt",
+      "M\u00e1rio R. G. Marques",
+      "Silvana Botti"
+    ]
+  },
+  {
+    "source": "OpenAlex (International Journal of Information Management)",
+    "title": "Opinion Paper: \u201cSo what if ChatGPT wrote it?\u201d Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy",
+    "abstract": "Transformative artificially intelligent tools, such as ChatGPT, designed to generate sophisticated text indistinguishable from that produced by a human, are applicable across a wide range of contexts. The technology presents opportunities as well as, often ethical and legal, challenges, and has the potential for both positive and negative impacts for organisations, society, and individuals. Offering multi-disciplinary insight into some of these, this article brings together 43 contributions from experts in fields such as computer science, marketing, information systems, education, policy, hosp",
+    "date": "2023",
+    "url": "https://doi.org/10.1016/j.ijinfomgt.2023.102642",
+    "authors": [
+      "Yogesh K. Dwivedi",
+      "Nir Kshetri",
+      "Laurie Hughes"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "Digital Twin: Values, Challenges and Enablers From a Modeling Perspective",
+    "abstract": "Digital twin can be defined as a virtual representation of a physical asset enabled through data and simulators for real-time prediction, optimization, monitoring, controlling, and improved decision making. Recent advances in computational pipelines, multiphysics solvers, artificial intelligence, big data cybernetics, data processing and management tools bring the promise of digital twins and their impact on society closer to reality. Digital twinning is now an important and emerging trend in many applications. Also referred to as a computational megamodel, device shadow, mirrored system, avat",
+    "date": "2020",
+    "url": "https://doi.org/10.1109/access.2020.2970143",
+    "authors": [
+      "Adil Rasheed",
+      "Omer San",
+      "Trond Kvamsdal"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of High Energy Physics)",
+    "title": "Event generation with SHERPA 1.1",
+    "abstract": "",
+    "date": "2009",
+    "url": "https://doi.org/10.1088/1126-6708/2009/02/007",
+    "authors": [
+      "T. Gleisberg",
+      "Stefan H\u00f6che",
+      "Frank Krauss"
+    ]
+  },
+  {
+    "source": "OpenAlex (Archives of Computational Methods in Engineering)",
+    "title": "Particle Swarm Optimization Algorithm and Its Applications: A Systematic Review",
+    "abstract": "Abstract Throughout the centuries, nature has been a source of inspiration, with much still to learn from and discover about. Among many others, Swarm Intelligence (SI), a substantial branch of Artificial Intelligence, is built on the intelligent collective behavior of social swarms in nature. One of the most popular SI paradigms, the Particle Swarm Optimization algorithm (PSO), is presented in this work. Many changes have been made to PSO since its inception in the mid 1990s. Since their learning about the technique, researchers and practitioners have developed new applications, derived new v",
+    "date": "2022",
+    "url": "https://doi.org/10.1007/s11831-021-09694-4",
+    "authors": [
+      "Ahmed G. Gad"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Scientific Computing)",
+    "title": "Scientific Machine Learning Through Physics\u2013Informed Neural Networks: Where we are and What\u2019s Next",
+    "abstract": "Abstract Physics-Informed Neural Networks (PINN) are neural networks (NNs) that encode model equations, like Partial Differential Equations (PDE), as a component of the neural network itself. PINNs are nowadays used to solve PDEs, fractional equations, integral-differential equations, and stochastic PDEs. This novel methodology has arisen as a multi-task learning framework in which a NN must fit observed data while reducing a PDE residual. This article provides a comprehensive review of the literature on PINNs: while the primary goal of the study was to characterize these networks and their re",
+    "date": "2022",
+    "url": "https://doi.org/10.1007/s10915-022-01939-z",
+    "authors": [
+      "Salvatore Cuomo",
+      "Vincenzo Schiano Di Cola",
+      "Fabio Giampaolo"
+    ]
+  }
+]

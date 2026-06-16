@@ -1,0 +1,178 @@
+[
+  {
+    "source": "arXiv",
+    "title": "AI Agent-Driven Framework for Automated Product Knowledge Graph Construction in E-Commerce",
+    "abstract": "The rapid expansion of e-commerce platforms generates vast amounts of unstructured product data, creating significant challenges for information retrieval, recommendation systems, and data analytics. Knowledge Graphs (KGs) offer a structured, interpretable format to organize such data, yet constructing product-specific KGs remains a complex and manual process. This paper introduces a fully automated, AI agent-driven framework for constructing product knowledge graphs directly from unstructured product descriptions. Leveraging Large Language Models (LLMs), our method operates in three stages us",
+    "date": "2025-11-14",
+    "url": "http://arxiv.org/abs/2511.11017v1",
+    "authors": [
+      "Dimitar Peshevski",
+      "Riste Stojanov",
+      "Dimitar Trajanov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Multi-Agent System for Semantic Mapping of Relational Data to Knowledge Graphs",
+    "abstract": "Enterprises often maintain multiple databases for storing critical business data in siloed systems, resulting in inefficiencies and challenges with data interoperability. A key to overcoming these challenges lies in integrating disparate data sources, enabling businesses to unlock the full potential of their data. Our work presents a novel approach for integrating multiple databases using knowledge graphs, focusing on the application of large language models as semantic agents for mapping and connecting structured data across systems by leveraging existing vocabularies. The proposed methodolog",
+    "date": "2025-11-09",
+    "url": "http://arxiv.org/abs/2511.06455v1",
+    "authors": [
+      "Milena Trajanoska",
+      "Riste Stojanov",
+      "Dimitar Trajanov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Data Encoding for Byzantine-Resilient Distributed Optimization",
+    "abstract": "We study distributed optimization in the presence of Byzantine adversaries, where both data and computation are distributed among $m$ worker machines, $t$ of which may be corrupt. The compromised nodes may collaboratively and arbitrarily deviate from their pre-specified programs, and a designated (master) node iteratively computes the model/parameter vector for generalized linear models. In this work, we primarily focus on two iterative algorithms: Proximal Gradient Descent (PGD) and Coordinate Descent (CD). Gradient descent (GD) is a special case of these algorithms. PGD is typically used in ",
+    "date": "2019-07-05",
+    "url": "http://arxiv.org/abs/1907.02664v2",
+    "authors": [
+      "Deepesh Data",
+      "Linqi Song",
+      "Suhas Diggavi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Byzantine-Resilient SGD in High Dimensions on Heterogeneous Data",
+    "abstract": "We study distributed stochastic gradient descent (SGD) in the master-worker architecture under Byzantine attacks. We consider the heterogeneous data model, where different workers may have different local datasets, and we do not make any probabilistic assumptions on data generation. At the core of our algorithm, we use the polynomial-time outlier-filtering procedure for robust mean estimation proposed by Steinhardt et al. (ITCS 2018) to filter-out corrupt gradients. In order to be able to apply their filtering procedure in our {\\em heterogeneous} data setting where workers compute {\\em stochas",
+    "date": "2020-05-16",
+    "url": "http://arxiv.org/abs/2005.07866v1",
+    "authors": [
+      "Deepesh Data",
+      "Suhas Diggavi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cross-Domain Graph Anomaly Detection via Test-Time Training with Homophily-Guided Self-Supervision",
+    "abstract": "Graph Anomaly Detection (GAD) has demonstrated great effectiveness in identifying unusual patterns within graph-structured data. However, while labeled anomalies are often scarce in emerging applications, existing supervised GAD approaches are either ineffective or not applicable when moved across graph domains due to distribution shifts and heterogeneous feature spaces. To address these challenges, we present GADT3, a novel test-time training framework for cross-domain GAD. GADT3 combines supervised and self-supervised learning during training while adapting to a new domain during test time u",
+    "date": "2025-02-20",
+    "url": "http://arxiv.org/abs/2502.14293v2",
+    "authors": [
+      "Delaram Pirhayati",
+      "Arlei Silva"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Unifying Large Language Models and Knowledge Graphs: A Roadmap",
+    "abstract": "Large language models (LLMs), such as ChatGPT and GPT4, are making new waves in the field of natural language processing and artificial intelligence, due to their emergent ability and generalizability. However, LLMs are black-box models, which often fall short of capturing and accessing factual knowledge. In contrast, Knowledge Graphs (KGs), Wikipedia and Huapu for example, are structured knowledge models that explicitly store rich factual knowledge. KGs can enhance LLMs by providing external knowledge for inference and interpretability. Meanwhile, KGs are difficult to construct and evolving b",
+    "date": "2023-06-14",
+    "url": "http://arxiv.org/abs/2306.08302v3",
+    "authors": [
+      "Shirui Pan",
+      "Linhao Luo",
+      "Yufei Wang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Constraints on dark energy from H II starburst galaxy apparent magnitude versus redshift data",
+    "abstract": "In this paper we use H II starburst galaxy apparent magnitude versus redshift data from Siegel et al. (2005) to constrain dark energy cosmological model parameters. These constraints are generally consistent with those derived using other data sets, but are not as restrictive as the tightest currently available constraints.",
+    "date": "2011-10-25",
+    "url": "http://arxiv.org/abs/1110.5626v1",
+    "authors": [
+      "Data Mania",
+      "Bharat Ratra"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "IPC: A Benchmark Data Set for Learning with Graph-Structured Data",
+    "abstract": "Benchmark data sets are an indispensable ingredient of the evaluation of graph-based machine learning methods. We release a new data set, compiled from International Planning Competitions (IPC), for benchmarking graph classification, regression, and related tasks. Apart from the graph construction (based on AI planning problems) that is interesting in its own right, the data set possesses distinctly different characteristics from popularly used benchmarks. The data set, named IPC, consists of two self-contained versions, grounded and lifted, both including graphs of large and skewedly distribu",
+    "date": "2019-05-15",
+    "url": "http://arxiv.org/abs/1905.06393v1",
+    "authors": [
+      "Patrick Ferber",
+      "Tengfei Ma",
+      "Siyu Huo"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "TerraGen: A Unified Multi-Task Layout Generation Framework for Remote Sensing Data Augmentation",
+    "abstract": "Remote sensing vision tasks require extensive labeled data across multiple, interconnected domains. However, current generative data augmentation frameworks are task-isolated, i.e., each vision task requires training an independent generative model, and ignores the modeling of geographical information and spatial constraints. To address these issues, we propose \\textbf{TerraGen}, a unified layout-to-image generation framework that enables flexible, spatially controllable synthesis of remote sensing imagery for various high-level vision tasks, e.g., detection, segmentation, and extraction. Spec",
+    "date": "2025-10-24",
+    "url": "http://arxiv.org/abs/2510.21391v1",
+    "authors": [
+      "Datao Tang",
+      "Hao Wang",
+      "Yudeng Xin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "AeroGen: Enhancing Remote Sensing Object Detection with Diffusion-Driven Data Generation",
+    "abstract": "Remote sensing image object detection (RSIOD) aims to identify and locate specific objects within satellite or aerial imagery. However, there is a scarcity of labeled data in current RSIOD datasets, which significantly limits the performance of current detection algorithms. Although existing techniques, e.g., data augmentation and semi-supervised learning, can mitigate this scarcity issue to some extent, they are heavily dependent on high-quality labeled data and perform worse in rare object classes. To address this issue, this paper proposes a layout-controllable diffusion generative model (i",
+    "date": "2024-11-23",
+    "url": "http://arxiv.org/abs/2411.15497v3",
+    "authors": [
+      "Datao Tang",
+      "Xiangyong Cao",
+      "Xuan Wu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Capturing and Anticipating User Intents in Data Analytics via Knowledge Graphs",
+    "abstract": "In today's data-driven world, the ability to extract meaningful information from data is becoming essential for businesses, organizations and researchers alike. For that purpose, a wide range of tools and systems exist addressing data-related tasks, from data integration, preprocessing and modeling, to the interpretation and evaluation of the results. As data continues to grow in volume, variety, and complexity, there is an increasing need for advanced but user-friendly tools, such as intelligent discovery assistants (IDAs) or automated machine learning (AutoML) systems, that facilitate the us",
+    "date": "2024-11-01",
+    "url": "http://arxiv.org/abs/2411.01023v1",
+    "authors": [
+      "Gerard Pons",
+      "Besim Bilalli",
+      "Anna Queralt"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Tax Knowledge Graph for a Smarter and More Personalized TurboTax",
+    "abstract": "Most knowledge graph use cases are data-centric, focusing on representing data entities and their semantic relationships. There are no published success stories to represent large-scale complicated business logic with knowledge graph technologies. In this paper, we will share our innovative and practical approach to representing complicated U.S. and Canadian income tax compliance logic (calculations and rules) via a large-scale knowledge graph. We will cover how the Tax Knowledge Graph is constructed and automated, how it is used to calculate tax refunds, reasoned to find missing info, and nav",
+    "date": "2020-09-13",
+    "url": "http://arxiv.org/abs/2009.06103v1",
+    "authors": [
+      "Jay Yu",
+      "Kevin McCluskey",
+      "Saikat Mukherjee"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A 20 Gbps Data Transmitting ASIC with PAM4 for Particle Physics Experiments",
+    "abstract": "We present the design principle and test results of a data transmitting ASIC, GBS20, for particle physics experiments. The goal of GBS20 will be an ASIC that employs two serializers each from the 10.24 Gbps lpGBT SerDes, sharing the PLL also from lpGBT. A PAM4 encoder plus a VCSEL driver will be implemented in the same die to use the same clock system, eliminating the need of CDRs in the PAM4 encoder. This way the transmitter module, GBT20, developed using the GBS20 ASIC, will have the exact lpGBT data interface and transmission protocol, with an output up to 20.48 Gbps over one fiber. With PA",
+    "date": "2020-10-30",
+    "url": "http://arxiv.org/abs/2010.16064v1",
+    "authors": [
+      "Li Zhang",
+      "Datao Gong",
+      "Suen Hou"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "PKGM: A Pre-trained Knowledge Graph Model for E-commerce Application",
+    "abstract": "In recent years, knowledge graphs have been widely applied as a uniform way to organize data and have enhanced many tasks requiring knowledge. In online shopping platform Taobao, we built a billion-scale e-commerce product knowledge graph. It organizes data uniformly and provides item knowledge services for various tasks such as item recommendation. Usually, such knowledge services are provided through triple data, while this implementation includes (1) tedious data selection works on product knowledge graph and (2) task model designing works to infuse those triples knowledge. More importantly",
+    "date": "2022-03-02",
+    "url": "http://arxiv.org/abs/2203.00964v1",
+    "authors": [
+      "Wen Zhang",
+      "Chi-Man Wong",
+      "Ganqinag Ye"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Self-Supervised Graph Learning via Spectral Bootstrapping and Laplacian-Based Augmentations",
+    "abstract": "We present LaplaceGNN, a novel self-supervised graph learning framework that bypasses the need for negative sampling by leveraging spectral bootstrapping techniques. Our method integrates Laplacian-based signals into the learning process, allowing the model to effectively capture rich structural representations without relying on contrastive objectives or handcrafted augmentations. By focusing on positive alignment, LaplaceGNN achieves linear scaling while offering a simpler, more efficient, self-supervised alternative for graph neural networks, applicable across diverse domains. Our contribut",
+    "date": "2025-06-25",
+    "url": "http://arxiv.org/abs/2506.20362v1",
+    "authors": [
+      "Lorenzo Bini",
+      "Stephane Marchand-Maillet"
+    ]
+  }
+]

@@ -1,0 +1,175 @@
+[
+  {
+    "source": "OpenAlex (npj Computational Materials)",
+    "title": "Recent advances and applications of machine learning in solid-state materials science",
+    "abstract": "Abstract One of the most exciting tools that have entered the material science toolbox in recent years is machine learning. This collection of statistical methods has already proved to be capable of considerably speeding up both fundamental and applied research. At present, we are witnessing an explosion of works that develop and apply machine learning to solid-state systems. We provide a comprehensive overview and analysis of the most recent research in this topic. As a starting point, we introduce machine learning principles, algorithms, descriptors, and databases in materials science. We co",
+    "date": "2019",
+    "url": "https://doi.org/10.1038/s41524-019-0221-0",
+    "authors": [
+      "Jonathan Schmidt",
+      "M\u00e1rio R. G. Marques",
+      "Silvana Botti"
+    ]
+  },
+  {
+    "source": "OpenAlex (Physics Reports)",
+    "title": "Networks beyond pairwise interactions: Structure and dynamics",
+    "abstract": "The complexity of many biological, social and technological systems stems from the richness of the interactions among their units. Over the past decades, a variety of complex systems has been successfully described as networks whose interacting pairs of nodes are connected by links. Yet, from human communications to chemical reactions and ecological systems, interactions can often occur in groups of three or more nodes and cannot be described simply in terms of dyads. Until recently little attention has been devoted to the higher-order architecture of real complex systems. However, a mounting ",
+    "date": "2020",
+    "url": "https://doi.org/10.1016/j.physrep.2020.05.004",
+    "authors": [
+      "Federico Battiston",
+      "Giulia Cencetti",
+      "Iacopo Iacopini"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature Communications)",
+    "title": "E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials",
+    "abstract": "This work presents Neural Equivariant Interatomic Potentials (NequIP), an E(3)-equivariant neural network approach for learning interatomic potentials from ab-initio calculations for molecular dynamics simulations. While most contemporary symmetry-aware models use invariant convolutions and only act on scalars, NequIP employs E(3)-equivariant convolutions for interactions of geometric tensors, resulting in a more information-rich and faithful representation of atomic environments. The method achieves state-of-the-art accuracy on a challenging and diverse set of molecules and materials while ex",
+    "date": "2022",
+    "url": "https://doi.org/10.1038/s41467-022-29939-5",
+    "authors": [
+      "Simon Batzner",
+      "Albert Musaelian",
+      "Lixin Sun"
+    ]
+  },
+  {
+    "source": "OpenAlex (Sensors)",
+    "title": "Machine Learning in Agriculture: A Review",
+    "abstract": "Machine learning has emerged with big data technologies and high-performance computing to create new opportunities for data intensive science in the multi-disciplinary agri-technologies domain. In this paper, we present a comprehensive review of research dedicated to applications of machine learning in agricultural production systems. The works analyzed were categorized in (a) crop management, including applications on yield prediction, disease detection, weed detection crop quality, and species recognition; (b) livestock management, including applications on animal welfare and livestock produ",
+    "date": "2018",
+    "url": "https://doi.org/10.3390/s18082674",
+    "authors": [
+      "\u039a\u03c9\u03bd\u03c3\u03c4\u03b1\u03bd\u03c4\u03af\u03bd\u03bf\u03c2 \u039b\u03b9\u03ac\u03ba\u03bf\u03c2",
+      "Patrizia Busato",
+      "Dimitrios Moshou"
+    ]
+  },
+  {
+    "source": "OpenAlex (Archives of Computational Methods in Engineering)",
+    "title": "Particle Swarm Optimization Algorithm and Its Applications: A Systematic Review",
+    "abstract": "Abstract Throughout the centuries, nature has been a source of inspiration, with much still to learn from and discover about. Among many others, Swarm Intelligence (SI), a substantial branch of Artificial Intelligence, is built on the intelligent collective behavior of social swarms in nature. One of the most popular SI paradigms, the Particle Swarm Optimization algorithm (PSO), is presented in this work. Many changes have been made to PSO since its inception in the mid 1990s. Since their learning about the technique, researchers and practitioners have developed new applications, derived new v",
+    "date": "2022",
+    "url": "https://doi.org/10.1007/s11831-021-09694-4",
+    "authors": [
+      "Ahmed G. Gad"
+    ]
+  },
+  {
+    "source": "OpenAlex (International Journal of Digital Earth)",
+    "title": "Geographic information systems and science",
+    "abstract": "morphology, remote sensing, epidemiology, health geography, smart cities, and big data.",
+    "date": "2011",
+    "url": "https://doi.org/10.1080/17538947.2011.582276",
+    "authors": [
+      "Rocha, Jorge",
+      "Abrantes, Patr\u00edcia"
+    ]
+  },
+  {
+    "source": "OpenAlex (Electronics)",
+    "title": "Machine Learning Interpretability: A Survey on Methods and Metrics",
+    "abstract": "Machine learning systems are becoming increasingly ubiquitous. These systems\u2019s adoption has been expanding, accelerating the shift towards a more algorithmic society, meaning that algorithmically informed decisions have greater potential for significant social impact. However, most of these accurate decision support systems remain complex black boxes, meaning their internal logic and inner workings are hidden to the user and even experts cannot fully understand the rationale behind their predictions. Moreover, new regulations and highly regulated domains have made the audit and verifiability o",
+    "date": "2019",
+    "url": "https://doi.org/10.3390/electronics8080832",
+    "authors": [
+      "Diogo V. Carvalho",
+      "Eduardo M. Pereira",
+      "Jaime S. Cardoso"
+    ]
+  },
+  {
+    "source": "OpenAlex (Wiley Interdisciplinary Reviews Computational Molecular Science)",
+    "title": "Extended <scp>tight\u2010binding</scp> quantum chemistry methods",
+    "abstract": "Abstract This review covers a family of atomistic, mostly quantum chemistry (QC) based semiempirical methods for the fast and reasonably accurate description of large molecules in gas and condensed phase. The theory is derived from a density functional (DFT) perturbation expansion of the electron density in fluctuation terms to various orders similar to the original density functional tight binding model. The term \u201ceXtended\u201d in their name (xTB) emphasizes the parameter availability for almost the entire periodic table of elements ( Z \u2264 86) and improvements of the underlying theory regarding, f",
+    "date": "2020",
+    "url": "https://doi.org/10.1002/wcms.1493",
+    "authors": [
+      "Christoph Bannwarth",
+      "Eike Caldeweyher",
+      "Sebastian Ehlert"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Signal and Information Processing over Networks)",
+    "title": "Joint Optimization of Radio and Computational Resources for Multicell Mobile-Edge Computing",
+    "abstract": "Migrating computational intensive tasks from mobile devices to more resourceful cloud servers is a promising technique to increase the computational capacity of mobile devices while saving their battery energy. In this paper, we consider an MIMO multicell system where multiple mobile users (MUs) ask for computation offloading to a common cloud server. We formulate the offloading problem as the joint optimization of the radio resources-the transmit precoding matrices of the MUs-and the computational resources-the CPU cycles/second assigned by the cloud to each MU-in order to minimize the overal",
+    "date": "2015",
+    "url": "https://doi.org/10.1109/tsipn.2015.2448520",
+    "authors": [
+      "Stefania Sardellitti",
+      "Gesualdo Scutari",
+      "Sergio Barbarossa"
+    ]
+  },
+  {
+    "source": "OpenAlex (Computer Physics Communications)",
+    "title": "DScribe: Library of descriptors for machine learning in materials science",
+    "abstract": "DScribe is a software package for machine learning that provides popular feature transformations (\u201cdescriptors\u201d) for atomistic materials simulations. DScribe accelerates the application of machine learning for atomistic property prediction by providing user-friendly, off-the-shelf descriptor implementations. The package currently contains implementations for Coulomb matrix, Ewald sum matrix, sine matrix, Many-body Tensor Representation (MBTR), Atom-centered Symmetry Function (ACSF) and Smooth Overlap of Atomic Positions (SOAP). Usage of the package is illustrated for two different applications",
+    "date": "2019",
+    "url": "https://doi.org/10.1016/j.cpc.2019.106949",
+    "authors": [
+      "Lauri Himanen",
+      "Marc O. J. J\u00e4ger",
+      "Eiaki V. Morooka"
+    ]
+  },
+  {
+    "source": "OpenAlex (Chemical Society Reviews)",
+    "title": "QSAR without borders",
+    "abstract": "Prediction of chemical bioactivity and physical properties has been one of the most important applications of statistical and more recently, machine learning and artificial intelligence methods in chemical sciences. This field of research, broadly known as quantitative structure-activity relationships (QSAR) modeling, has developed many important algorithms and has found a broad range of applications in physical organic and medicinal chemistry in the past 55+ years. This Perspective summarizes recent technological advances in QSAR modeling but it also highlights the applicability of algorithms",
+    "date": "2020",
+    "url": "https://doi.org/10.1039/d0cs00098a",
+    "authors": [
+      "Eugene Muratov",
+      "J\u00fcrgen Bajorath",
+      "Robert P. Sheridan"
+    ]
+  },
+  {
+    "source": "OpenAlex (Edinburgh Research Explorer (University of Edinburgh))",
+    "title": "",
+    "abstract": "Research at the intersection of machine learning, programming languages, and software engineering has recently taken important steps in proposing learnable probabilistic models of source code that exploit the abundance of patterns of code. In this article, we survey this work. We contrast programming languages against natural languages and discuss how these similarities and differences drive the design of probabilistic models. We present a taxonomy based on the underlying design principles of each model and use it to navigate the literature. Then, we review how researchers have adapted these m",
+    "date": "None",
+    "url": "",
+    "authors": [
+      "Miltiadis Allamanis",
+      "Earl T. Barr",
+      "Pr\u00e9mkumar D\u00e9vanbu"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature Genetics)",
+    "title": "An atlas of genetic influences on osteoporosis in humans and mice",
+    "abstract": "",
+    "date": "2018",
+    "url": "https://doi.org/10.1038/s41588-018-0302-x",
+    "authors": [
+      "John Morris",
+      "John P. Kemp",
+      "Scott E. Youlten"
+    ]
+  },
+  {
+    "source": "OpenAlex (Physics Reports)",
+    "title": "Generalized parton distributions",
+    "abstract": "",
+    "date": "2003",
+    "url": "https://doi.org/10.1016/j.physrep.2003.08.002",
+    "authors": [
+      "M. Diehl"
+    ]
+  },
+  {
+    "source": "OpenAlex (The Photogrammetric Record)",
+    "title": "Geographic information systems and science",
+    "abstract": "morphology, remote sensing, epidemiology, health geography, smart cities, and big data.",
+    "date": "2005",
+    "url": "https://doi.org/10.1111/j.1477-9730.2005.00343_5.x",
+    "authors": [
+      "A. Retalis"
+    ]
+  }
+]

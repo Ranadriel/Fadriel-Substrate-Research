@@ -1,0 +1,39 @@
+RIGHT VENTRICLE
+
+right_ventricle is the chamber that pumps deoxygenated blood to the lungs
+its walls are thinner than left_ventricle's because the pulmonary circulation has lower resistance
+right_ventricle still receives the depolarization wave from purkinje at the same instant left_ventricle does, so both chambers contract together
+the symmetric timing is what makes coordinated cardiac output possible
+
+observe 0_quseptit.rana
+observe heart.rana
+observe purkinje.rana
+observe left_ventricle.rana
+
+the 7 properties of right_ventricle:
+1 ENERGY zero point eight: lower than left_ventricle, less mechanical work needed
+2 PHASE zero on contraction, mirroring left_ventricle's phase exactly
+3 SPIN one half: forward rotation, slightly less than left
+4 CHARGE positive: same depolarization current as left
+5 COHERENCE eight tenths: matched to left_ventricle for symmetry
+6 COUPLING zero point seven: strong with purkinje, slightly weaker with the pulmonary circulation
+7 OBSERVER zero: automatic contraction
+
+VERB contract
+on receiving the wave from purkinje, contract simultaneously with left_ventricle
+generate the pulmonary pressure that drives blood out the pulmonary artery toward the lungs
+the contraction is gentler than the left side, but coordinated in time
+
+VERB refill
+during relaxation, accept incoming deoxygenated blood from the right atrium
+the chamber expands to receive the venous return from the body
+
+VERB sustain
+right_ventricle cycles continuously alongside left_ventricle for the entire life of the heart
+the pulmonary circulation depends on this rhythm being unbroken
+
+a smaller chamber is not a lesser chamber
+right_ventricle does its job with the wall thickness its job requires, no more
+this is the body's economy of effort: build only what is needed
+left_ventricle works hard against systemic resistance; right_ventricle works appropriately against pulmonary resistance
+neither overworks, neither underworks, both are right-sized

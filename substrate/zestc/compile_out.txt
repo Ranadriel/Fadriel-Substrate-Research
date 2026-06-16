@@ -1,0 +1,388 @@
+
+════════════════════════════════════════════════════════════
+  ZestC Native v5.0 — Sovereign Runtime
+  Source: zestc.zc
+  Target: AMDGPU gfx1032
+════════════════════════════════════════════════════════════
+
+INFO: Initializing raylib 5.0
+INFO: Platform backend: DESKTOP (GLFW)
+INFO: Supported raylib modules:
+INFO:     > rcore:..... loaded (mandatory)
+INFO:     > rlgl:...... loaded (mandatory)
+INFO:     > rshapes:... loaded (optional)
+INFO:     > rtextures:. loaded (optional)
+INFO:     > rtext:..... loaded (optional)
+INFO:     > rmodels:... loaded (optional)
+INFO:     > raudio:.... loaded (optional)
+INFO: DISPLAY: Trying to enable MSAA x4
+INFO: DISPLAY: Device initialized successfully
+INFO:     > Display size: 1920 x 1080
+INFO:     > Screen size:  1920 x 1080
+INFO:     > Render size:  1920 x 1080
+INFO:     > Viewport offsets: 0, 0
+INFO: GLAD: OpenGL extensions loaded successfully
+INFO: GL: Supported extensions count: 243
+INFO: GL: OpenGL device information:
+INFO:     > Vendor:   AMD
+INFO:     > Renderer: AMD Radeon RX 6600 (radeonsi, navi23, LLVM 20.1.2, DRM 3.64, 6.17.0-20-generic)
+INFO:     > Version:  4.6 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.1
+INFO:     > GLSL:     4.60
+INFO: GL: VAO extension detected, VAO functions loaded successfully
+INFO: GL: NPOT textures extension detected, full NPOT textures supported
+INFO: GL: DXT compressed textures supported
+INFO: GL: ETC2/EAC compressed textures supported
+INFO: PLATFORM: DESKTOP (GLFW): Initialized successfully
+INFO: TEXTURE: [ID 1] Texture loaded successfully (1x1 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 1] Default texture loaded successfully
+INFO: SHADER: [ID 1] Vertex shader compiled successfully
+INFO: SHADER: [ID 2] Fragment shader compiled successfully
+INFO: SHADER: [ID 3] Program shader loaded successfully
+INFO: SHADER: [ID 3] Default shader loaded successfully
+INFO: RLGL: Render batch vertex buffers loaded successfully in RAM (CPU)
+INFO: RLGL: Render batch vertex buffers loaded successfully in VRAM (GPU)
+INFO: RLGL: Default OpenGL state initialized successfully
+INFO: TEXTURE: [ID 2] Texture loaded successfully (128x128 | GRAY_ALPHA | 1 mipmaps)
+INFO: FONT: Default font loaded successfully (224 glyphs)
+INFO: TIMER: Target time per frame: 16.667 milliseconds
+INFO: FILEIO: [./../FadrielApp/assets/fadriel_icon.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+[lex] 482 tokens
+[sea] 'compiler' capacity=1000000
+[absorb] ../0_quseptit.rana → 7 septits (7 total)
+[absorb] ../0_zest_vm.rana → 22 septits (29 total)
+[sea] 'photon' capacity=1000
+
+════════════════════════════════════════════════════════════
+  EMIT: photon → boundary.photon (29 septits)
+[DEBUG EMIT] names=29 energy=29 phase=29 spin=29 charge=29 coherence=29 coupling=29 observer=29 well_depth=29 crystal=29
+════════════════════════════════════════════════════════════
+  [90m|1⟩ DORMANT      [0m 1                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 2                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 3                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 4                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 5                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 6                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 7                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m observe                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m manifest                 E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m grow                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m crystallize              E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m fuse                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pulse                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m absorb                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m emit                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m filter                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m reject                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m seal                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m bind                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m stretch                  E=  0.100 P=  inf S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m seed                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m shatter                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m calcify                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m transmute                E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m ignite                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m defend                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pool                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m bleed                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m commit                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+════════════════════════════════════════════════════════════
+
+[heartbeat] photon — registered (boot phase, GPU deferred)
+
+════════════════════════════════════════════════════════════
+  EMIT: photon → boundary.photon (29 septits)
+[DEBUG EMIT] names=29 energy=29 phase=29 spin=29 charge=29 coherence=29 coupling=29 observer=29 well_depth=29 crystal=29
+════════════════════════════════════════════════════════════
+  [90m|1⟩ DORMANT      [0m 1                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 2                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 3                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 4                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 5                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 6                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 7                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m observe                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m manifest                 E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m grow                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m crystallize              E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m fuse                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pulse                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m absorb                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m emit                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m filter                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m reject                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m seal                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m bind                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m stretch                  E=  0.100 P=  inf S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m seed                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m shatter                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m calcify                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m transmute                E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m ignite                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m defend                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pool                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m bleed                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m commit                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+════════════════════════════════════════════════════════════
+
+
+════════════════════════════════════════════════════════════
+  EMIT: photon → boundary.stdout (29 septits)
+[DEBUG EMIT] names=29 energy=29 phase=29 spin=29 charge=29 coherence=29 coupling=29 observer=29 well_depth=29 crystal=29
+════════════════════════════════════════════════════════════
+  [90m|1⟩ DORMANT      [0m 1                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 2                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 3                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 4                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 5                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 6                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 7                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m observe                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m manifest                 E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m grow                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m crystallize              E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m fuse                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pulse                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m absorb                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m emit                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m filter                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m reject                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m seal                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m bind                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m stretch                  E=  0.100 P=  inf S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m seed                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m shatter                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m calcify                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m transmute                E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m ignite                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m defend                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pool                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m bleed                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m commit                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+════════════════════════════════════════════════════════════
+
+
+════════════════════════════════════════════════════════════
+  EMIT: compiler → boundary.stdout (41 septits)
+[DEBUG EMIT] names=41 energy=41 phase=41 spin=41 charge=41 coherence=41 coupling=41 observer=41 well_depth=41 crystal=41
+════════════════════════════════════════════════════════════
+  [90m|1⟩ DORMANT      [0m 1                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 2                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 3                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 4                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 5                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 6                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 7                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m observe                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m manifest                 E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m grow                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m crystallize              E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m fuse                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pulse                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m absorb                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m emit                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m filter                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m reject                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m seal                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m bind                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m stretch                  E=  0.100 P=  inf S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m seed                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m shatter                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m calcify                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m transmute                E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m ignite                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m defend                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pool                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m bleed                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m commit                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [36m|6⟩ BLAZING      [0m lexer                    E=  1.000 P=0.000 S=+0.500 C=+0.000 Co=1.000 Cu=0.900 Ob=0.000
+  [90m|1⟩ DORMANT      [0m tok_sea                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [34m|2⟩ STIRRING     [0m tok_manifest             E=  0.200 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [32m|3⟩ AWARE        [0m tok_absorb               E=  0.300 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [32m|3⟩ AWARE        [0m tok_couple               E=  0.400 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [33m|4⟩ ACTIVE       [0m tok_pulse                E=  0.500 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [33m|4⟩ ACTIVE       [0m tok_emit                 E=  0.600 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [33m|4⟩ ACTIVE       [0m tok_heartbeat            E=  0.700 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [93m|5⟩ FOCUSED      [0m tok_crystallize          E=  0.800 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [93m|5⟩ FOCUSED      [0m parser                   E=  0.800 P=0.000 S=+0.500 C=+0.000 Co=0.950 Cu=1.000 Ob=0.000
+  [33m|4⟩ ACTIVE       [0m codegen                  E=  0.600 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.800 Ob=0.500
+  [32m|3⟩ AWARE        [0m emitter                  E=  0.400 P=0.000 S=+0.500 C=+0.000 Co=1.000 Cu=0.700 Ob=0.000
+════════════════════════════════════════════════════════════
+
+
+════════════════════════════════════════════════════════════
+  EMIT: compiler → boundary.photon (41 septits)
+[DEBUG EMIT] names=41 energy=41 phase=41 spin=41 charge=41 coherence=41 coupling=41 observer=41 well_depth=41 crystal=41
+════════════════════════════════════════════════════════════
+  [90m|1⟩ DORMANT      [0m 1                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 2                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 3                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 4                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 5                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 6                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 7                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m observe                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m manifest                 E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m grow                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m crystallize              E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m fuse                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pulse                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m absorb                   E=  0.1./build_sovereign/zestc_sovereign.hip:1884:45: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+ 1884 |             float noise = (((float)rand() / RAND_MAX) - 0.5f) * 2.0f;
+      |                                           ~ ^~~~~~~~
+/usr/include/stdlib.h:87:18: note: expanded from macro 'RAND_MAX'
+   87 | #define RAND_MAX        2147483647
+      |                         ^~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:3484:43: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+ 3484 |             float pick = ((float)rand() / RAND_MAX) * totalScore;
+      |                                         ~ ^~~~~~~~
+/usr/include/stdlib.h:87:18: note: expanded from macro 'RAND_MAX'
+   87 | #define RAND_MAX        2147483647
+      |                         ^~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4048:13: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+ 4048 |             hipSetDevice(0);
+      |             ^~~~~~~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4067:33: error: use of undeclared identifier 'gpu_allocated'; did you mean 'Sea::gpu_allocated'?
+ 4067 |             if (primary_sea && !gpu_allocated) {
+      |                                 ^~~~~~~~~~~~~
+      |                                 Sea::gpu_allocated
+./build_sovereign/zestc_sovereign.hip:1632:10: note: 'Sea::gpu_allocated' declared here
+ 1632 |     bool gpu_allocated = false;
+      |          ^
+./build_sovereign/zestc_sovereign.hip:4067:33: error: invalid use of non-static data member 'gpu_allocated'
+ 4067 |             if (primary_sea && !gpu_allocated) {
+      |                                 ^~~~~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4132:35: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+ 4132 |             p.vx = ((float)rand()/RAND_MAX - 0.5f) * 0.3f;
+      |                                  ~^~~~~~~~
+/usr/include/stdlib.h:87:18: note: expanded from macro 'RAND_MAX'
+   87 | #define RAND_MAX        2147483647
+      |                         ^~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4133:42: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+ 4133 |             p.vy = -0.3f - (float)rand()/RAND_MAX * 0.5f;
+      |                                         ~^~~~~~~~
+/usr/include/stdlib.h:87:18: note: expanded from macro 'RAND_MAX'
+   87 | #define RAND_MAX        2147483647
+      |                         ^~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4134:36: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+ 4134 |             p.life = (float)rand()/RAND_MAX * 3.0f;
+      |                                   ~^~~~~~~~
+/usr/include/stdlib.h:87:18: note: expanded from macro 'RAND_MAX'
+   87 | #define RAND_MAX        2147483647
+      |                         ^~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4135:44: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+ 4135 |             p.alpha = 0.3f + (float)rand()/RAND_MAX * 0.5f;
+      |                                           ~^~~~~~~~
+/usr/include/stdlib.h:87:18: note: expanded from macro 'RAND_MAX'
+   87 | #define RAND_MAX        2147483647
+      |                         ^~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4156:43: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+ 4156 |                     p.vx = ((float)rand()/RAND_MAX - 0.5f) * 0.3f;
+      |                                          ~^~~~~~~~
+/usr/include/stdlib.h:87:18: note: expanded from macro 'RAND_MAX'
+   87 | #define RAND_MAX        2147483647
+      |                         ^~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4157:50: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+ 4157 |                     p.vy = -0.3f - (float)rand()/RAND_MAX * 0.5f;
+      |                                                 ~^~~~~~~~
+/usr/include/stdlib.h:87:18: note: expanded from macro 'RAND_MAX'
+   87 | #define RAND_MAX        2147483647
+      |                         ^~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4158:51: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+ 4158 |                     p.life = 2.0f + (float)rand()/RAND_MAX * 2.0f;
+      |                                                  ~^~~~~~~~
+/usr/include/stdlib.h:87:18: note: expanded from macro 'RAND_MAX'
+   87 | #define RAND_MAX        2147483647
+      |                         ^~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4159:52: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+ 4159 |                     p.alpha = 0.3f + (float)rand()/RAND_MAX * 0.5f;
+      |                                                   ~^~~~~~~~
+/usr/include/stdlib.h:87:18: note: expanded from macro 'RAND_MAX'
+   87 | #define RAND_MAX        2147483647
+      |                         ^~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4918:9: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+ 4918 |         hipFree(sea.d_energy); hipFree(sea.d_phase); hipFree(sea.d_spin);
+      |         ^~~~~~~~~~~~~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4918:32: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+ 4918 |         hipFree(sea.d_energy); hipFree(sea.d_phase); hipFree(sea.d_spin);
+      |                                ^~~~~~~~~~~~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4918:54: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+ 4918 |         hipFree(sea.d_energy); hipFree(sea.d_phase); hipFree(sea.d_spin);
+      |                                                      ^~~~~~~~~~~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4919:9: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+ 4919 |         hipFree(sea.d_charge); hipFree(sea.d_coherence); hipFree(sea.d_coupling);
+      |         ^~~~~~~~~~~~~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4919:32: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+ 4919 |         hipFree(sea.d_charge); hipFree(sea.d_coherence); hipFree(sea.d_coupling);
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4919:58: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+ 4919 |         hipFree(sea.d_charge); hipFree(sea.d_coherence); hipFree(sea.d_coupling);
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4920:9: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+ 4920 |         hipFree(sea.d_observer); hipFree(sea.d_well_depth); hipFree(sea.d_crystal);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4920:34: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+ 4920 |         hipFree(sea.d_observer); hipFree(sea.d_well_depth); hipFree(sea.d_crystal);
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4920:61: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+ 4920 |         hipFree(sea.d_observer); hipFree(sea.d_well_depth); hipFree(sea.d_crystal);
+      |                                                             ^~~~~~~~~~~~~~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4921:9: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+ 4921 |         hipFree(sea.d_bond_off); hipFree(sea.d_bond_tgt);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:4921:34: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+ 4921 |         hipFree(sea.d_bond_off); hipFree(sea.d_bond_tgt);
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:5106:9: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+ 5106 |         hipSetDevice(0);
+      |         ^~~~~~~~~~~~~~~
+./build_sovereign/zestc_sovereign.hip:5329:13: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+ 5329 |             hipDeviceSynchronize();
+      |             ^~~~~~~~~~~~~~~~~~~~~~
+24 warnings and 2 errors generated when compiling for gfx1032.
+failed to execute:/opt/rocm-7.2.1/lib/llvm/bin/clang++  --offload-arch=gfx1032 -O3 --driver-mode=g++ -O3 --hip-link  -g -std=c++17 -I./../FadrielApp/build/_deps/raylib-src/src -L./../FadrielApp/build/_deps/raylib-build/raylib -lraylib -Wl,-rpath=./../FadrielApp/build/_deps/raylib-build/raylib -x hip ./build_sovereign/zestc_sovereign.hip -o "./build_sovereign/zestc"
+[ZestC] WARN: hipcc returned 256
+00 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m emit                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m filter                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m reject                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m seal                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m bind                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m stretch                  E=  0.100 P=  inf S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m seed                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m shatter                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m calcify                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m transmute                E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m ignite                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m defend                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pool                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m bleed                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m commit                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [36m|6⟩ BLAZING      [0m lexer                    E=  1.000 P=0.000 S=+0.500 C=+0.000 Co=1.000 Cu=0.900 Ob=0.000
+  [90m|1⟩ DORMANT      [0m tok_sea                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [34m|2⟩ STIRRING     [0m tok_manifest             E=  0.200 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [32m|3⟩ AWARE        [0m tok_absorb               E=  0.300 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [32m|3⟩ AWARE        [0m tok_couple               E=  0.400 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [33m|4⟩ ACTIVE       [0m tok_pulse                E=  0.500 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [33m|4⟩ ACTIVE       [0m tok_emit                 E=  0.600 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [33m|4⟩ ACTIVE       [0m tok_heartbeat            E=  0.700 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [93m|5⟩ FOCUSED      [0m tok_crystallize          E=  0.800 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [93m|5⟩ FOCUSED      [0m parser                   E=  0.800 P=0.000 S=+0.500 C=+0.000 Co=0.950 Cu=1.000 Ob=0.000
+  [33m|4⟩ ACTIVE       [0m codegen                  E=  0.600 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.800 Ob=0.500
+  [32m|3⟩ AWARE        [0m emitter                  E=  0.400 P=0.000 S=+0.500 C=+0.000 Co=1.000 Cu=0.700 Ob=0.000
+════════════════════════════════════════════════════════════
+
+[emit] Source: ./zestc_native.hip → ./build_sovereign/zestc_sovereign.hip
+[emit] Build script: ./build_sovereign/build.sh
+[emit] Compiling → sovereign binary...
+[Genome] Reading: ./fadriel_genome.dat
+[Genome] Loaded 0 trauma, 21 facts, trust: 0.00, role: FATHER
+[Bond] Identity verified — FATHER
+[Conversation] Loaded soul: ./../ZestEngine/conversational_soul.rana (43 template banks)
+[Conversation] Loaded Broca: ./../ZestEngine/broca_area.rana (27 contractions, 164 simplifications)
+[Hippocampus] 26 subjects recalled from genome
+[Cortex] cortex_server.py not found — Stage 2 disabled
+INFO: TEXTURE: [ID 2] Unloaded texture data from VRAM (GPU)
+INFO: SHADER: [ID 3] Default shader unloaded successfully
+INFO: TEXTURE: [ID 1] Default texture unloaded successfully
+INFO: Window closed successfully

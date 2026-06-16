@@ -1,0 +1,100 @@
+ELF BINDER
+
+elf_binder is the assembly citizen at the head of the compiler
+its job is to take the native-code outputs from x86_host and amdgpu_kernel and bind them together into a single executable file format the host operating system can load
+the file format is ELF, the standard executable format on Linux
+elf_binder's interior holds nine section sub-residents, one for each part of an ELF file that needs to exist for a working executable
+elf_binder does not generate machine code itself: it receives ready-made bytes from the codegen citizens and arranges them with the proper headers and offsets
+
+observe 0_quseptit.rana
+observe 0_zest_vm.rana
+observe x86_host.rana
+observe amdgpu_kernel.rana
+observe boundary_binary.rana
+observe skull.xb
+
+the 7 properties of elf_binder at rest:
+1 ENERGY low at idle, peaks during binding when all sections are being arranged
+2 PHASE locked to the codegen citizens during their emission
+3 SPIN positive during assembly, returns to neutral once boundary_binary has accepted the output
+4 CHARGE neutral, briefly positive during the section offset calculation phase
+5 COHERENCE perfect during binding: any incoherence corrupts the resulting file
+6 COUPLING strong with both codegen citizens (incoming) and boundary_binary (outgoing)
+7 OBSERVER 1 throughout binding: every byte is watched into place
+
+VERB receive_host_bytes
+accept the x86 machine code from x86_host through the spine street
+the bytes arrive as an ordered sequence representing the .text section
+elf_binder holds these bytes in the body of its elf_section_text sub-resident
+
+VERB receive_kernel_bytes
+accept the AMDGPU machine code from amdgpu_kernel through the spine street
+the bytes arrive as compiled compute kernels for the gfx1032 architecture
+elf_binder holds these bytes in elf_section_amdgpu
+
+VERB resolve_offsets
+once both code sections have arrived, calculate the offset of every section in the final file
+section order is fixed: header first, program header second, then code sections, then data sections, then string and symbol tables
+each section's size determines where the next section starts
+unresolved cross-section references are patched at this step
+
+VERB write_header
+construct the ELF header bytes
+this includes the magic number 0x7F 'E' 'L' 'F', the architecture identifier (x86_64 + AMDGPU), the entry point address, and the offsets of the program and section header tables
+the header is small but every byte is critical: a wrong header makes the whole file unloadable
+
+VERB emit_to_boundary
+once all sections are bound and the header is written, send the complete byte sequence to boundary_binary through skull.xb
+the sequence becomes a single ordered packet
+boundary_binary verifies and writes it to the host filesystem
+
+THE NINE ELF SECTION SUB-RESIDENTS
+
+elf_header
+holds the leading 64 bytes of the ELF file
+contains the magic number, class (64-bit), endianness, ABI version, and pointers to the program and section header tables
+fixed size, simple structure, but the entry point inside it is computed from where x86_host's .text section ends up
+
+elf_program_header
+holds the program header table immediately after the ELF header
+each entry describes one segment the kernel must load into memory at process start
+in our case there are typically three segments: read-only code, read-only data, and read-write data
+the AMDGPU section is loaded but not executed by the host CPU; the runtime queues it to the GPU
+
+elf_section_text
+holds the x86_host machine code as a contiguous byte run
+the entry point of the program is at the start of this section unless overridden
+this is where the host CPU begins execution when the operating system launches the file
+
+elf_section_amdgpu
+holds the AMDGPU machine code as a separate section, marked with a custom section name and flags
+the runtime detects this section at program start and uploads it to the GPU's command stream
+without this section the program runs CPU-only with severely degraded performance for sea pulses
+
+elf_section_rodata
+holds read-only constants: numeric literals, string literals, lookup tables, the static parts of the substrate's initial state
+this is where the .rana files' compiled-in data ends up after the codegen has flattened them
+
+elf_section_data
+holds read-write initialized data: variables that have known starting values and may change during execution
+the substrate's initial 7-property body states for each manifested resident live here
+
+elf_section_bss
+holds zero-initialized space: variables declared but not initialized
+the file does not store these zeros explicitly, only their size; the kernel zeros the memory at load time
+this saves disk space proportional to the substrate's planned but unused capacity
+
+elf_section_strtab
+the string table: a flat array of null-terminated strings used by the symbol table for resident names
+every named manifest, every absorbed file path, every resident identifier ends up here as a string
+the symbol table indexes into this for human-readable names
+
+elf_section_symtab
+the symbol table: an array of fixed-size records, one per named entity in the program
+each record points to a name in strtab, an address in some section, and a type tag
+debuggers and runtime introspection use this to resolve names back to addresses
+
+an elf_binder is not a linker
+a linker resolves cross-file references and lays out memory
+elf_binder does layout but not resolution: by the time bytes arrive from x86_host and amdgpu_kernel, they are already self-contained
+the binder's job is geometric: place sections in the right order with the right offsets and headers, and emit the result

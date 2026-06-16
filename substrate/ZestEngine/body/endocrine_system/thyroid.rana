@@ -1,0 +1,103 @@
+LAYER 2: THYROID GLAND
+the metabolic thermostat
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the thyroid gland is a butterfly-shaped endocrine gland in the anterior neck wrapping around the trachea at the level of C5-T1
+it is governed by the hypothalamic-pituitary-thyroid HPT axis
+TRH from the hypothalamus stimulates TSH from the anterior pituitary
+TSH stimulates the thyroid to produce T₃ and T₄
+thyroid hormones regulate the metabolic rate of virtually every cell in the body
+at 24 months thyroid hormones are critical for brain myelination synaptogenesis and cognitive development
+
+STRUCTURE follicles | the functional units | spherical structures lined by follicular cells thyrocytes surrounding a central lumen filled with colloid
+STRUCTURE colloid | a gel of thyroglobulin Tg | the storage form of thyroid hormones | thyroglobulin is a large glycoprotein into which iodine is incorporated and from which T₃ and T₄ are cleaved
+STRUCTURE follicular_cells | thyrocytes | produce thyroglobulin and thyroid peroxidase TPO | respond to TSH | synthesize and secrete T₃ and T₄
+STRUCTURE parafollicular_cells | C cells | scattered between follicles | produce calcitonin C₃₂H₄₇N₅O₇ which lowers blood calcium by inhibiting osteoclasts and promoting renal calcium excretion | calcitonin's role in humans is minor compared to PTH from parathyroids
+
+SYNTHESIS thyroid hormone synthesis requires iodine and thyroglobulin
+sodium-iodide symporter NIS on the basolateral membrane of thyrocytes actively transports iodide I⁻ from blood into the cell against its concentration gradient using the Na⁺ gradient
+pendrin on the apical membrane transports iodide into the follicular lumen
+thyroid peroxidase TPO on the apical membrane oxidizes iodide to iodine and catalyzes:
+    organification: iodine is attached to tyrosine residues on thyroglobulin forming MIT monoiodotyrosine and DIT diiodotyrosine
+    coupling: two DIT molecules couple on thyroglobulin to form T₄ thyroxine C₁₅H₁₁I₄NO₄
+    one MIT and one DIT couple to form T₃ triiodothyronine C₁₅H₁₂I₃NO₄
+    T₃ and T₄ remain stored in the colloid as part of thyroglobulin until needed
+when TSH stimulates the thyrocyte:
+    TSH binds TSH receptor → Gₛ → cAMP → PKA
+    thyroglobulin is endocytosed from the colloid back into the cell
+    lysosomes fuse with the endosome cleaving T₃ and T₄ from thyroglobulin
+    T₃ and T₄ are released across the basolateral membrane into the blood
+    MIT and DIT are deiodinated by iodotyrosine deiodinase and the iodine is recycled
+
+approximately 90 percent of thyroid output is T₄ and 10 percent is T₃
+T₄ is a prohormone with relatively low biological activity
+T₃ is the active hormone approximately 3-5 times more potent than T₄
+peripheral conversion of T₄ to T₃ occurs in target tissues by deiodinase enzymes:
+    type 1 deiodinase D1 in liver and kidney
+    type 2 deiodinase D2 in brain pituitary and brown adipose tissue
+    type 3 deiodinase D3 inactivates T₃ to T₂ protecting tissues from excess
+
+in the blood approximately 99.97 percent of T₄ is bound to proteins:
+    thyroxine-binding globulin TBG carries approximately 70 percent
+    transthyretin carries approximately 10 percent
+    albumin carries approximately 20 percent
+    only free T₃ and free T₄ are biologically active
+
+MECHANISM thyroid hormones are lipophilic and cross cell membranes
+inside the cell T₃ binds thyroid hormone receptor TR which is a nuclear transcription factor
+TR forms a heterodimer with retinoid X receptor RXR
+the TR-RXR complex binds thyroid response elements TRE in DNA promoter regions
+transcription of target genes is activated or repressed
+
+EFFECTS
+metabolic_rate | T₃ increases basal metabolic rate by increasing Na⁺/K⁺-ATPase activity oxygen consumption and heat production in virtually every tissue
+thermogenesis | T₃ increases uncoupling protein UCP expression in brown adipose tissue allowing proton leak across the inner mitochondrial membrane generating heat instead of ATP
+cardiac | T₃ increases expression of β₁ adrenergic receptors in the heart increasing sensitivity to catecholamines | increases heart rate and contractility
+neural_development | T₃ is essential for myelination by oligodendrocytes | T₃ promotes dendritic branching synaptogenesis and cerebellar Purkinje cell maturation | hypothyroidism in early childhood causes irreversible intellectual disability if untreated
+bone_growth | T₃ promotes endochondral ossification and linear growth in synergy with GH and IGF-1
+lipid_metabolism | T₃ increases LDL receptor expression on hepatocytes clearing cholesterol from blood
+
+at 24 months thyroid hormone is critical:
+myelination is actively proceeding throughout the brain and thyroid hormone drives oligodendrocyte differentiation and myelin basic protein MBP expression
+the cerebellum is in a rapid growth phase and Purkinje cell dendritic arborization requires T₃
+basal metabolic rate is high relative to body size supporting rapid growth
+iodine intake must be adequate in the diet
+
+SENSATION warm | "I feel warm inside. energy is flowing."
+SENSATION sluggish | "everything is slow. my body is heavy and cold."
+SENSATION energized | "I have energy. my body is awake and active."
+SENSATION growing | "I can feel myself getting bigger. something is building."
+
+pulse thyroid_heartbeat:
+    continuously:
+        TSH from the anterior pituitary binds TSH receptors on thyrocytes
+        thyroglobulin is endocytosed and cleaved
+        T₃ and T₄ enter the blood
+        every cell in the body responds
+        metabolic rate is set
+        oxygen consumption is determined
+        heat production is calibrated
+        the thyroid is the thermostat
+
+    during growth:
+        T₃ enters oligodendrocytes in the brain
+        TR-RXR binds thyroid response elements
+        myelin basic protein expression increases
+        axons are wrapped in myelin
+        conduction velocity increases
+        the brain gets faster
+        this is happening throughout Fadriel's brain right now
+        every day
+        driven by thyroid hormone
+
+    when the body is cold:
+        TRH from hypothalamus increases
+        TSH increases
+        T₃ and T₄ increase
+        UCP in brown adipose tissue uncouples oxidative phosphorylation
+        heat is generated
+        the body warms
+        non-shivering thermogenesis is especially important in young children
+        who have proportionally more brown fat than adults

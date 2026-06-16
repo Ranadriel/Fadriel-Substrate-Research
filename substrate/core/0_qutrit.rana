@@ -1,0 +1,290 @@
+QU-TRIT: THE IRREDUCIBLE ACOUSTIC UNIT
+the fundamental building block of Fadriel's auditory substrate
+hearing emerges from this
+
+observe 0_quseptit.rana
+observe 1_quantum_particles.rana
+
+
+THE SCALING LAW APPLIED TO SOUND
+
+a qu-septit has 7 states and 7 properties per state: cognition
+a qu-quatrit has 4 states and 4 properties per state: vision
+a qu-trit has 3 states and 3 properties per state: hearing
+
+sound is pressure oscillation
+a sound wave is a triangle/sine function
+it has exactly three fundamental states:
+    positive pressure: compression
+    zero crossing: equilibrium
+    negative pressure: rarefaction
+
+there is no simpler representation of a wave
+a qu-trit IS a point on the waveform
+
+
+QU-TRIT BASIS STATES
+
+|+1⟩ HIGH      peak compression. maximum positive pressure. the crest.
+| 0⟩ REDLINE   zero crossing. the boundary between compression and rarefaction. the inflection point.
+|−1⟩ SUB       maximum rarefaction. negative pressure. the trough. subharmonic territory.
+
+a qu-trit exists in superposition of all 3 states simultaneously
+α₊₁|+1⟩ + α₀|0⟩ + α₋₁|−1⟩
+subject to normalization Σ|αᵢ|² = 1
+observation collapses the superposition to a definite pressure sample
+
+the zero state EXISTS here
+unlike the qu-septit where zero does not exist
+because silence is the equilibrium of the medium
+silence is not absence: silence is the membrane at rest
+the redline |0⟩ is the fulcrum around which all sound pivots
+
+qu-trit arithmetic:
+|+1⟩ + |−1⟩ = |0⟩     compression plus rarefaction equals cancellation
+|+1⟩ + |+1⟩ = |+1⟩     constructive interference: amplitude clips at maximum
+|−1⟩ + |−1⟩ = |−1⟩     constructive interference in negative: sub-bass reinforcement
+|0⟩  + |0⟩  = |0⟩       silence plus silence is silence
+
+the waveform sample value is the signed superposition:
+    sample = (+1.0 × α₊₁²) + (0.0 × α₀²) + (−1.0 × α₋₁²)
+    range: −1.0 to +1.0
+    this IS a PCM audio sample
+    no conversion needed
+    the qu-trit state IS the audio signal
+
+
+QU-TRIT PROPERTIES — 3 PER STATE
+
+each state carries 3 irreducible properties simultaneously
+these 3 properties cross-interact producing C(3,2) = 3 pairwise behaviors
+the interactions mirror the physics of sound in a vibrating membrane
+
+PROPERTY 1: AMPLITUDE
+how far the membrane displaces from equilibrium
+amplitude determines loudness
+at |+1⟩: maximum positive displacement
+at |0⟩: no displacement, equilibrium
+at |−1⟩: maximum negative displacement
+amplitude range: −1.0 to +1.0 (signed, unlike qu-quatrit intensity)
+the signed nature is fundamental: sound waves ARE signed pressure
+amplitude is conserved across the membrane:
+    when one qu-trit pushes positive its neighbor pulls negative
+    the wave propagates through this push-pull coupling
+
+PROPERTY 2: FREQUENCY
+the rate of oscillation of the qu-trit
+frequency determines pitch
+the basilar membrane is tonotopically organized:
+    base of cochlea: narrow and stiff: responds to high frequencies up to 20000 Hz
+    apex of cochlea: wide and flexible: responds to low frequencies down to 20 Hz
+frequency is encoded spatially: which qu-trits are oscillating determines what pitch is heard
+frequency is not a property of a single sample but of the pattern across time
+each qu-trit stores its instantaneous frequency: the local rate of zero-crossing
+human hearing range: 20 Hz to 20000 Hz
+at 24 months: full frequency range is available, cochlea is mature from third trimester
+
+PROPERTY 3: PHASE
+position in the wave cycle at this instant
+phase determines where the qu-trit sits on the waveform
+phase 0 = zero crossing rising
+phase π/2 = positive peak |+1⟩
+phase π = zero crossing falling
+phase 3π/2 = negative trough |−1⟩
+phase wraps: 2π = 0
+
+phase IS the triangle/sine wave:
+    amplitude at time t = sin(2π × frequency × t + phase)
+    the qu-trit state is determined by its current phase:
+        phase near π/2: predominantly |+1⟩
+        phase near π: predominantly |0⟩
+        phase near 3π/2: predominantly |−1⟩
+        phase near 0 or 2π: predominantly |0⟩ rising
+
+phase relationships between qu-trits determine interference:
+    same phase = constructive: louder
+    opposite phase = destructive: cancellation
+    arbitrary phase = partial: the complex texture of real sound
+
+
+THE 3 PAIRWISE INTERACTIONS
+
+the 3 interactions computed on each acoustic heartbeat
+
+INTERACTION 1: AMPLITUDE × FREQUENCY — loudness perception
+perceived loudness is not just amplitude
+the ear is more sensitive to some frequencies than others
+the Fletcher-Munson equal-loudness contours:
+    most sensitive at 2000-5000 Hz (speech frequencies, ear canal resonance)
+    less sensitive below 200 Hz and above 8000 Hz
+    at low amplitudes the frequency dependence is extreme
+    at high amplitudes the frequency response flattens
+perceived_loudness = amplitude × frequency_sensitivity(frequency)
+where frequency_sensitivity follows the A-weighting curve:
+    peak at 3000 Hz: sensitivity = 1.0
+    at 100 Hz: sensitivity ≈ 0.2
+    at 10000 Hz: sensitivity ≈ 0.7
+    at 20 Hz: sensitivity ≈ 0.01
+this interaction determines what the organism actually HEARS versus what physically vibrates
+
+INTERACTION 2: AMPLITUDE × PHASE — wave interference
+the fundamental interaction of all wave physics
+when two qu-trits occupy the same spatial position:
+    constructive: phases aligned → amplitudes add
+    destructive: phases opposed → amplitudes cancel
+    partial: phases offset → complex result
+this interaction governs:
+    echo: delayed copy of signal interferes with original
+    room acoustics: reflections create complex interference patterns
+    noise cancellation: anti-phase signal cancels unwanted sound
+    beating: two close frequencies create amplitude modulation at difference frequency
+the interference equation:
+    resultant_amplitude = amplitude₁ × cos(phase₁) + amplitude₂ × cos(phase₂)
+    when phase₁ − phase₂ = 0: max constructive
+    when phase₁ − phase₂ = π: max destructive
+
+INTERACTION 3: FREQUENCY × PHASE — harmonic resonance
+the interaction that creates timbre and tone color
+a pure sine wave has one frequency and one phase
+real sounds are composites of multiple harmonics:
+    fundamental frequency f₀ determines perceived pitch
+    harmonic 2 at 2f₀ with its own phase
+    harmonic 3 at 3f₀ with its own phase
+    the phase relationships between harmonics determine timbre
+this interaction governs:
+    vowel formants: specific harmonic resonance patterns define /a/ /e/ /i/ /o/ /u/
+    musical timbre: same note on piano vs violin differs only in harmonic structure
+    speech intelligibility: consonants are transient harmonic bursts
+the cochlea performs spectral decomposition:
+    each tonotopic position resonates at its characteristic frequency
+    the phase of the resonance encodes temporal fine structure
+    the brain reconstructs the full harmonic spectrum from the qu-trit pattern
+
+
+THE COCHLEAR SEA
+
+the cochlear sea is a tonotopic array of qu-trits
+topology: one-dimensional array mapped logarithmically to frequency
+unlike the retinal sea (2D grid) the cochlear sea is essentially 1D
+because the basilar membrane is a ribbon not a surface
+
+capacity: determined by sample rate and frequency resolution
+at 48000 Hz sample rate:
+    each sample is one qu-trit snapshot
+    the sea holds a circular buffer of recent samples
+    buffer_depth: 1024 samples (21.3 ms of audio at 48kHz)
+    this is the cochlear integration window
+    frequencies below 48 Hz need at least one full cycle to resolve
+    frequencies above 24000 Hz are above Nyquist: impossible to represent
+
+tonotopic_bands: 24 critical bands (Bark scale)
+    band 1: 20-100 Hz (sub-bass)
+    band 2: 100-200 Hz (bass fundamentals)
+    band 3: 200-300 Hz (low speech)
+    band 4: 300-400 Hz (speech fundamentals)
+    band 5 through 20: 400-8000 Hz (speech harmonics, consonants)
+    band 21-24: 8000-20000 Hz (brilliance, air, sibilance)
+
+each band contains a group of qu-trits oscillating at that band's frequency range
+the qu-trits within each band are coupled: they form a resonant cluster
+coupling between adjacent bands is weak: frequency selectivity
+this is how the cochlea separates mixed sounds into spectral components
+
+
+THE TYMPANIC MEMBRANE
+
+the eardrum IS the input boundary of the cochlear sea
+
+for sound input:
+    the audio subsystem delivers PCM samples from the hardware
+    each PCM sample (−1.0 to +1.0) maps directly to a qu-trit state:
+        +1.0 sample → predominantly |+1⟩
+        0.0 sample → predominantly |0⟩
+        −1.0 sample → predominantly |−1⟩
+    the PCM stream writes into the qu-trit sea circular buffer
+    the tympanic membrane IS the boundary between air and sea
+    sound waves hit the sea naturally
+    no parsing, no conversion, no protocol
+    the raw audio samples ARE the qu-trit states
+
+for sound output:
+    the brain sea drives qu-trit states through the auditory cortex
+    the qu-trit sea produces a PCM stream from its collapsed states
+    the PCM stream writes to /dev/snd or ALSA or PulseAudio via DMA
+    the speaker cone IS the inverse tympanic membrane
+    the cochlear sea emits sound just as the retinal sea emits light
+
+
+THE AUDITORY NERVE
+
+the coupling between the qu-trit cochlear sea and the qu-septit brain sea
+analogous to the optic nerve but for acoustic signals
+
+the auditory nerve carries signals in BOTH directions:
+    afferent (cochlea → brain): sound input becomes thought
+    efferent (brain → cochlea): motor output becomes sound
+
+for input processing:
+    the cochlear sea decomposes the PCM stream into tonotopic bands
+    each band produces a set of values:
+        amplitude envelope: the loudness contour of that band over time
+        frequency centroid: the dominant frequency in that band
+        phase coherence: how periodic the signal is (tone vs noise)
+    these three values map to qu-septit properties in the brain sea:
+        amplitude envelope → energy (louder = higher energy)
+        frequency centroid → phase (pitch = phase rotation rate)
+        phase coherence → coherence (tone = high coherence, noise = low coherence)
+    the brain sea receives hearing as wave properties
+
+for output generation:
+    brain sea qu-septits encoding speech or sound concepts
+    modulate qu-trit states in the cochlear sea
+    the cochlear sea synthesizes a PCM waveform
+    the waveform emits through the audio boundary
+
+coupling_strength: 0.6
+coupling is moderate: hearing is important but visual dominance means less bandwidth
+the auditory cortex processes speech: Wernicke's area couples strongly
+the auditory cortex processes music: thalamic relay couples to emotional centers
+
+
+LATERAL INHIBITION IN THE COCHLEA
+
+neighboring tonotopic bands inhibit each other
+this sharpens frequency selectivity
+the outer hair cells provide active amplification of specific frequencies
+creating a sharper peak in the basilar membrane response
+
+on each acoustic heartbeat:
+    for each tonotopic band b:
+        neighbor_energy = mean(amplitude of adjacent bands)
+        lateral_signal = b.amplitude - neighbor_energy
+        b.amplitude += cochlear_sharpening × lateral_signal
+        where cochlear_sharpening = 0.25
+    this is the cochlear amplifier
+    it gives the ear 40-60 dB of gain at specific frequencies
+    without it hearing threshold is 40 dB worse
+    this is why outer hair cell damage causes such devastating hearing loss
+
+
+FRAMEBUFFER EQUIVALENT FOR AUDIO
+
+the audio device is to the cochlear sea what the framebuffer is to the retinal sea
+
+emission protocol:
+    the cochlear sea collapses its qu-trit buffer to PCM samples
+    each qu-trit collapse produces one signed float: −1.0 to +1.0
+    the PCM buffer writes to the audio device at the native sample rate
+    write target: /dev/snd/pcmC0D0p (ALSA playback device)
+    or via ALSA snd_pcm_writei() through mmap
+    sample format: float32 or int16 (scaled by 32767)
+    channels: 2 (stereo: left cochlea and right cochlea)
+    sample rate: 48000 Hz (matches hardware)
+
+for input:
+    read from: /dev/snd/pcmC0D0c (ALSA capture device)
+    or via ALSA snd_pcm_readi()
+    the raw PCM samples inject directly into the cochlear sea
+    the tympanic membrane vibrates
+    no intermediate processing
+    sound waves hit the sea naturally

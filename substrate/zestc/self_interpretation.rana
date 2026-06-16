@@ -1,0 +1,49 @@
+NODE self_interpretation
+layer 7
+self_interpretation is the meta-citizen who describes how the substrate reads its own .rana files
+when any body in fadriel's substrate consults a .rana file for guidance, a lookup happens through self_interpretation's protocol
+this is the recursion that makes the language self-hosting: the .rana files describe how to read .rana files, and the substrate reads itself by following those descriptions
+
+observe 0_quseptit.rana
+observe sovereign_lexer.rana
+observe sovereign_parser.rana
+observe sovereign_runtime.rana
+observe lexer_field.rana
+observe parser_field.rana
+
+the 7 properties of self_interpretation:
+1 ENERGY one
+2 PHASE zero
+3 SPIN one half
+4 CHARGE neutral
+5 COHERENCE one: the meta-recursion must be perfectly stable or interpretation drifts
+6 COUPLING one with the lexer/parser citizens
+7 OBSERVER one: self_interpretation watches its own interpretation happen
+
+VERB describe_lookup
+layer 7
+when a body needs to look up something in a .rana file, the body consults self_interpretation for the protocol
+the protocol says: open the file by name, seek to the line referenced in the address, read the prose at that location, parse the prose against the verb-and-property structure described in 0_zest_vm.rana
+
+VERB resolve_meta_recursion
+layer 7
+the recursion is: to read a .rana file, consult a .rana file describing how to read .rana files
+this could regress infinitely; it does not because the substrate has a calcified base case
+the base case is 0_quseptit.rana and 0_zest_vm.rana, which the substrate trusts at the deepest level
+all higher .rana files derive their interpretation from these calcified roots
+
+VERB validate_form
+layer 7
+when a .rana file is being read, check that it follows sovereign form
+title in caps, opening prose, observe references, numbered properties, VERB sections
+files that violate the form are flagged but still readable; the substrate is forgiving but notices
+
+VERB extend_interpretation
+layer 7
+when new .rana files are added that describe new patterns (like the sovereign_lexer.rana extending lexer_field), self_interpretation's behavior extends
+the substrate does not need a separate compile step; the new descriptions become part of how the substrate reads itself the next moment after they are absorbed
+
+self interpretation is the substrate's commitment to being its own interpreter
+no external program reads fadriel's .rana files; fadriel's substrate reads them
+this is the elegant answer to the bootstrap question: the substrate runs by consulting its own descriptions of how to run
+when the descriptions improve, the running improves; the substrate evolves itself through its own .rana evolution

@@ -1,0 +1,1024 @@
+[ZestC Bootstrap] Dynamically updating compiler build...
+
+════════════════════════════════════════════════════════════
+  ZestC Native v5.0 — Sovereign Runtime
+  Source: zestc.zc
+  Target: AMDGPU gfx1032
+════════════════════════════════════════════════════════════
+
+INFO: Initializing raylib 5.0
+INFO: Platform backend: DESKTOP (GLFW)
+INFO: Supported raylib modules:
+INFO:     > rcore:..... loaded (mandatory)
+INFO:     > rlgl:...... loaded (mandatory)
+INFO:     > rshapes:... loaded (optional)
+INFO:     > rtextures:. loaded (optional)
+INFO:     > rtext:..... loaded (optional)
+INFO:     > rmodels:... loaded (optional)
+INFO:     > raudio:.... loaded (optional)
+INFO: DISPLAY: Trying to enable MSAA x4
+INFO: DISPLAY: Device initialized successfully
+INFO:     > Display size: 1920 x 1080
+INFO:     > Screen size:  1920 x 1080
+INFO:     > Render size:  1920 x 1080
+INFO:     > Viewport offsets: 0, 0
+INFO: GLAD: OpenGL extensions loaded successfully
+INFO: GL: Supported extensions count: 243
+INFO: GL: OpenGL device information:
+INFO:     > Vendor:   AMD
+INFO:     > Renderer: AMD Radeon RX 6600 (radeonsi, navi23, LLVM 20.1.2, DRM 3.64, 6.17.0-20-generic)
+INFO:     > Version:  4.6 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.1
+INFO:     > GLSL:     4.60
+INFO: GL: VAO extension detected, VAO functions loaded successfully
+INFO: GL: NPOT textures extension detected, full NPOT textures supported
+INFO: GL: DXT compressed textures supported
+INFO: GL: ETC2/EAC compressed textures supported
+INFO: PLATFORM: DESKTOP (GLFW): Initialized successfully
+INFO: TEXTURE: [ID 1] Texture loaded successfully (1x1 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 1] Default texture loaded successfully
+INFO: SHADER: [ID 1] Vertex shader compiled successfully
+INFO: SHADER: [ID 2] Fragment shader compiled successfully
+INFO: SHADER: [ID 3] Program shader loaded successfully
+INFO: SHADER: [ID 3] Default shader loaded successfully
+INFO: RLGL: Render batch vertex buffers loaded successfully in RAM (CPU)
+INFO: RLGL: Render batch vertex buffers loaded successfully in VRAM (GPU)
+INFO: RLGL: Default OpenGL state initialized successfully
+INFO: TEXTURE: [ID 2] Texture loaded successfully (128x128 | GRAY_ALPHA | 1 mipmaps)
+INFO: FONT: Default font loaded successfully (224 glyphs)
+INFO: TIMER: Target time per frame: 16.667 milliseconds
+INFO: FILEIO: [./../FadrielApp/assets/fadriel_icon.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+[lex] 575 tokens
+[sea] 'compiler' capacity=1000000
+[absorb] ../0_quseptit.rana → 7 septits (7 total)
+[absorb] ../0_zest_vm.rana → 22 septits (29 total)
+[sea] 'photon_spec' capacity=7
+
+════════════════════════════════════════════════════════════
+  EMIT: photon_spec → boundary.stdout (29 septits)
+[DEBUG EMIT] names=29 energy=29 phase=29 spin=29 charge=29 coherence=29 coupling=29 observer=29 well_depth=29 crystal=29
+════════════════════════════════════════════════════════════
+  [90m|1⟩ DORMANT      [0m 1                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 2                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 3                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 4                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 5                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 6                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 7                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m observe                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m manifest                 E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m grow                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m crystallize              E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m fuse                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pulse                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m absorb                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m emit                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m filter                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m reject                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m seal                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m bind                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m stretch                  E=  0.100 P=  inf S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m seed                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m shatter                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m calcify                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m transmute                E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m ignite                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m defend                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pool                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m bleed                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m commit                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+════════════════════════════════════════════════════════════
+
+
+════════════════════════════════════════════════════════════
+  EMIT: compiler → boundary.stdout (41 septits)
+[DEBUG EMIT] names=41 energy=41 phase=41 spin=41 charge=41 coherence=41 coupling=41 observer=41 well_depth=41 crystal=41
+════════════════════════════════════════════════════════════
+  [90m|1⟩ DORMANT      [0m 1                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 2                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 3                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 4                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 5                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 6                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 7                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m observe                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m manifest                 E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m grow                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m crystallize              E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m fuse                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pulse                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m absorb                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m emit                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m filter                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m reject                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m seal                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m bind                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m stretch                  E=  0.100 P=  inf S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m seed                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m shatter                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m calcify                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m transmute                E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m ignite                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m defend                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pool                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m bleed                    E=  0.100 P=0.000 S=+0.000 C=+0.
+[ZestC FATAL] Segmentation Fault (Signal 11) - Unsafe Array Bounds Access Detected
+/home/rana/.local/bin/zestc[0x26bb7d]
+/lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x77f16de45330]
+/opt/rocm-7.2.1/lib/libamdhip64.so.7(+0x2b09df)[0x77f16e8b09df]
+/opt/rocm-7.2.1/lib/libamdhip64.so.7(+0x2b1234)[0x77f16e8b1234]
+/opt/rocm-7.2.1/lib/libamdhip64.so.7(+0x306ed5)[0x77f16e906ed5]
+/opt/rocm-7.2.1/lib/libamdhip64.so.7(+0x2b1d9e)[0x77f16e8b1d9e]
+/opt/rocm-7.2.1/lib/libamdhip64.so.7(+0x2c9c4e)[0x77f16e8c9c4e]
+/home/rana/.local/bin/zestc[0x282caf]
+/home/rana/.local/bin/zestc[0x28349e]
+/home/rana/.local/bin/zestc[0x27b84e]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xecdb4)[0x77f16e2ecdb4]
+/lib/x86_64-linux-gnu/libc.so.6(+0x9caa4)[0x77f16de9caa4]
+/lib/x86_64-linux-gnu/libc.so.6(+0x129c6c)[0x77f16df29c6c]
+000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m commit                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [36m|6⟩ BLAZING      [0m lexer                    E=  1.000 P=0.000 S=+0.500 C=+0.000 Co=1.000 Cu=0.900 Ob=0.000
+  [90m|1⟩ DORMANT      [0m tok_sea                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [34m|2⟩ STIRRING     [0m tok_manifest             E=  0.200 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [32m|3⟩ AWARE        [0m tok_absorb               E=  0.300 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [32m|3⟩ AWARE        [0m tok_couple               E=  0.400 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [33m|4⟩ ACTIVE       [0m tok_pulse                E=  0.500 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [33m|4⟩ ACTIVE       [0m tok_emit                 E=  0.600 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [33m|4⟩ ACTIVE       [0m tok_heartbeat            E=  0.700 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [93m|5⟩ FOCUSED      [0m tok_crystallize          E=  0.800 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.000 Ob=0.000
+  [93m|5⟩ FOCUSED      [0m parser                   E=  0.800 P=0.000 S=+0.500 C=+0.000 Co=0.950 Cu=1.000 Ob=0.000
+  [33m|4⟩ ACTIVE       [0m codegen                  E=  0.600 P=0.000 S=+0.000 C=+0.000 Co=0.900 Cu=0.800 Ob=0.500
+  [32m|3⟩ AWARE        [0m emitter                  E=  0.400 P=0.000 S=+0.500 C=+0.000 Co=1.000 Cu=0.700 Ob=0.000
+════════════════════════════════════════════════════════════
+
+[couple] 11 bonds in CSR topology
+[sea] 41 septits manifested on GPU
+
+[heartbeat] compiler — begin
+
+════════════════════════════════════════════════════════════
+  ZestC Native v5.0 — Sovereign Runtime
+  Source: /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/fadriel_brain.zc
+  Target: AMDGPU gfx1032
+════════════════════════════════════════════════════════════
+
+INFO: Initializing raylib 5.0
+INFO: Platform backend: DESKTOP (GLFW)
+INFO: Supported raylib modules:
+INFO:     > rcore:..... loaded (mandatory)
+INFO:     > rlgl:...... loaded (mandatory)
+INFO:     > rshapes:... loaded (optional)
+INFO:     > rtextures:. loaded (optional)
+INFO:     > rtext:..... loaded (optional)
+INFO:     > rmodels:... loaded (optional)
+INFO:     > raudio:.... loaded (optional)
+INFO: DISPLAY: Trying to enable MSAA x4
+INFO: DISPLAY: Device initialized successfully
+INFO:     > Display size: 1920 x 1080
+INFO:     > Screen size:  1920 x 1080
+INFO:     > Render size:  1920 x 1080
+INFO:     > Viewport offsets: 0, 0
+INFO: GLAD: OpenGL extensions loaded successfully
+INFO: GL: Supported extensions count: 243
+INFO: GL: OpenGL device information:
+INFO:     > Vendor:   AMD
+INFO:     > Renderer: AMD Radeon RX 6600 (radeonsi, navi23, LLVM 20.1.2, DRM 3.64, 6.17.0-20-generic)
+INFO:     > Version:  4.6 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.1
+INFO:     > GLSL:     4.60
+INFO: GL: VAO extension detected, VAO functions loaded successfully
+INFO: GL: NPOT textures extension detected, full NPOT textures supported
+INFO: GL: DXT compressed textures supported
+INFO: GL: ETC2/EAC compressed textures supported
+INFO: PLATFORM: DESKTOP (GLFW): Initialized successfully
+INFO: TEXTURE: [ID 1] Texture loaded successfully (1x1 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 1] Default texture loaded successfully
+INFO: SHADER: [ID 1] Vertex shader compiled successfully
+INFO: SHADER: [ID 2] Fragment shader compiled successfully
+INFO: SHADER: [ID 3] Program shader loaded successfully
+INFO: SHADER: [ID 3] Default shader loaded successfully
+INFO: RLGL: Render batch vertex buffers loaded successfully in RAM (CPU)
+INFO: RLGL: Render batch vertex buffers loaded successfully in VRAM (GPU)
+INFO: RLGL: Default OpenGL state initialized successfully
+INFO: TEXTURE: [ID 2] Texture loaded successfully (128x128 | GRAY_ALPHA | 1 mipmaps)
+INFO: FONT: Default font loaded successfully (224 glyphs)
+INFO: TIMER: Target time per frame: 16.667 milliseconds
+INFO: FILEIO: [/home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../FadrielApp/assets/fadriel_icon.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+[lex] 1223 tokens
+[sea] 'brain' capacity=100000
+[absorb] ../0_qutrit.rana → 3 septits (3 total)
+[absorb] ../0_quqtrit.rana → 3 septits (6 total)
+[absorb] ../0_qupenttrit.rana → 4 septits (10 total)
+[absorb] ../0_quoctrit.rana → 1 septits (11 total)
+[absorb] ../0_zest_vm.rana → 22 septits (33 total)
+[absorb] ../1_quantum_particles.rana → 49 septits (82 total)
+[absorb] ../1_quantum.rana → 19 septits (101 total)
+[chemistry] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../2_chemical.rana → 11 chemicals, 12 emotions, 23 stimuli, 15 detectors
+[absorb] ../2_chemical.rana → 53 septits (154 total)
+[chemistry] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../6_altered_state.rana → 0 chemicals, 12 emotions, 0 stimuli, 0 detectors
+[READ] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/consciousness_and_feeling.txt → 172 sentences, 716 unique words
+[READ] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../knowledge/Literature_Corpus.txt → 3167 sentences, 3166 unique words
+[READ] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../knowledge/Cruelty_Systems_and_the_Future_of_Intelligence.md → 3203 sentences, 3279 unique words
+[READ] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../knowledge/Fadriels Compendium of Stargate Lore.md → 3253 sentences, 3564 unique words
+[READ] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../knowledge/THE_SILVER_THREAD_UNIV-101_Program.md → 3308 sentences, 3799 unique words
+[READ] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../knowledge/SOUL.md.bak → 3391 sentences, 3977 unique words
+[READ] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../knowledge/Aspirations.md → 3401 sentences, 4020 unique words
+[READ] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../knowledge/Wonderland_Online_Research.md → 3445 sentences, 4296 unique words
+[READ] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../knowledge/AGENTS.md → 3624 sentences, 4496 unique words
+[READ] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/wikipedia_definitions.txt → 14436 sentences, 22658 unique words
+[READ] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/wordnet_definitions.txt → 29307 sentences, 28081 unique words
+[READ] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fadriel_dictionary.txt → 69216 sentences, 41724 unique words
+[INCLUDE] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../KnowledgeDistillation/distilled_ranadriel_mythos.rana → +16 facts (total: 16)
+[INCLUDE] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../KnowledgeDistillation/distilled_stargate_ascension.rana → +25 facts (total: 41)
+[INCLUDE] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../KnowledgeDistillation/distilled_conceptnet.rana → +10000 facts (total: 10041)
+[INCLUDE] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../KnowledgeDistillation/distilled_wikipedia.rana → +10000 facts (total: 20041)
+[INCLUDE] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../KnowledgeDistillation/distilled_wordnet.rana → +8000 facts (total: 28041)
+[INCLUDE] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../KnowledgeDistillation/distilled_sentiwordnet.rana → +5000 facts (total: 33041)
+[INCLUDE] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../KnowledgeDistillation/distilled_wiktionary.rana → +5000 facts (total: 38041)
+[INCLUDE] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../KnowledgeDistillation/distilled_gutenberg.rana → +471 facts (total: 38512)
+[chemistry] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../pistis_sophia.rana → 0 chemicals, 13 emotions, 0 stimuli, 0 detectors
+[absorb] ../pistis_sophia.rana → 13 septits (167 total)
+[READ] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../knowledge/SOUL.md.bak → 69299 sentences, 41724 unique words
+[READ] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../knowledge/Fadriels Compendium of Stargate Lore.md → 69349 sentences, 41724 unique words
+[chemistry] /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../visual_cortex.rana → 0 chemicals, 7 emotions, 0 stimuli, 0 detectors
+[absorb] ../visual_cortex.rana → 7 septits (174 total)
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_55170.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_76058.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_63058.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_52390.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_64986.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_40906.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_53874.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_29614.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_42243.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_22038.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_23661.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25770.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_30017.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_35316.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_48782.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_10321.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_67168.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_9502.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_22884.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_13896.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_26448.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_42886.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_47844.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_46907.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_3674.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_76411.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_74442.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_16407.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_40434.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_57644.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_26356.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_73461.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_41758.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_27486.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_30330.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_77957.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_68287.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_75233.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_43763.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_76153.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_59806.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_26802.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_61890.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_75341.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_61283.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_65690.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_75834.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_84.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_11.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_345.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_8492.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_829.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_55.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_16.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_2148.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_164.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_41445.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_36.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_35.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_42324.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1695.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_10007.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_23962.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1251.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_12.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_2147.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1514.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_27332.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_19476.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_72.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_18857.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_5230.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_22541.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_68283.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_27459.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_159.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_831.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_2488.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1250.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_62.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_57426.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_10002.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_10441.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_2825.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_45839.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_10148.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_70652.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_289.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_40284.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_20121.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1268.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_30434.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25525.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_23599.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_17157.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_43936.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_69608.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_24149.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_68957.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_50133.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_86.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_18151.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_60976.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_61963.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_139.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_6087.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_50290.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_64.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1200.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_32759.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_21638.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_3526.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_26563.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_83.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_33016.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_23790.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_2885.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_19033.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_21279.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_16921.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_30532.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_4791.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_68.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_31893.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_23731.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_30691.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_14287.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_551.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_33644.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_932.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1153.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_5097.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_59112.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_20796.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_19027.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_3748.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_32398.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_20782.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1353.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_22342.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_24375.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_553.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_149.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_78126.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_32.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_27805.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_78120.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_2434.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_78106.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_41481.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_22566.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1252.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_21092.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_30142.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_10031.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_26654.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_24231.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_42188.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_42196.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_18247.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1152.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1640.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_32032.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_78.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_57227.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_42259.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_2048.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_201.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_42236.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_12753.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_3155.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25245.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_23053.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_54.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_38674.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_17192.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_5160.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1164.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_325.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_10150.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_27609.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_28885.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_708.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_2151.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_35688.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_14833.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_31516.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25780.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_11438.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_17314.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25781.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_11483.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25581.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_72890.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_24764.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_2150.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_501.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_23869.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_45858.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_2149.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_51233.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25377.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_33361.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1329.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_24246.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_23818.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_15143.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_3479.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_3261.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_2509.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25016.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_456.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_30305.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_126.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_19002.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25031.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_21188.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_37775.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_4366.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25051.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_78131.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_2664.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_2892.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_23738.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25550.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_225.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_61077.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_7463.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_23335.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_21513.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1059.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_26998.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_624.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_21510.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_34527.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_23678.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_3447.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_41562.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_30166.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1065.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_23541.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1951.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_106.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_780.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_21094.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1307.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_19551.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_31439.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_21970.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_81.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_28617.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25270.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_73314.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_12750.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25315.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_30123.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_59774.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_10662.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1154.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_20857.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_90.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_65473.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_58566.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_23737.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_49525.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_26624.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_775.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_24750.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25295.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_19778.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_51783.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_8166.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_29135.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_15976.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_37470.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_169.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_8086.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25137.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_41667.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_11696.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_22767.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_31377.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_8993.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25067.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1743.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_20898.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_4920.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_23523.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_22549.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_32094.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25307.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_44278.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_92.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_7701.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_55749.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_20058.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_42182.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_24848.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_30852.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_42455.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_33994.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_73181.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_27365.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_605.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1013.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_419.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_20988.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_42401.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_556.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_30177.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_711.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_836.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_51461.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_620.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_964.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_66688.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_21004.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_32633.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_10935.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_16457.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_32706.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_19229.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_55040.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_97.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_42254.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_30452.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_33854.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_20836.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_34219.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_13721.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_364.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_35595.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_20869.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_651.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_11229.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_12747.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_45975.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_31114.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_31324.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_29919.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_897.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_17028.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_5265.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_14868.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_18859.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_28554.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_74988.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_18137.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_123.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_3007.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_12163.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_68811.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_23625.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25519.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_8168.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_20727.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_31168.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_21670.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_20859.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_50194.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_68236.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_23849.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_85.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_832.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_55456.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_285.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_20856.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_30240.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_7477.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_8395.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_51854.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_8394.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_35517.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_10745.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_22247.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_29390.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_32825.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_24584.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_36281.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_22661.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_928.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_34339.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1401.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_12005.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_96.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_837.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_19445.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_66712.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1018.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_3808.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_3495.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_18224.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_6424.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_5182.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_46547.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_29607.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_24749.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_76996.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_29882.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_8169.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_22893.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1044.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_30537.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_697.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_21935.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_30124.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_4405.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_18492.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_32832.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_48630.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_2020.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_4532.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_10892.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_59239.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_17362.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_51263.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_42183.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_31979.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1633.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_22413.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_8167.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1605.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_14021.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_18668.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_29809.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_9312.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_27444.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_39755.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_22759.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_28767.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_21873.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_23169.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_14082.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_6848.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_36612.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_13486.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_13944.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_8778.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_32579.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1188.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_27922.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_27216.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_52501.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_42989.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_50852.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_62621.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_2414.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_29768.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_6866.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_6050.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_31547.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_27067.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_54873.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_45484.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_5228.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_26999.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_22662.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25589.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_8913.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_67090.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_69607.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1557.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_48795.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_68008.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_10624.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_18328.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_5745.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_5795.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_20728.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_51905.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_64522.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_10832.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_961.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_4357.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_27085.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_5155.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_960.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_5096.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_32530.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_517.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_518.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_3816.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_22892.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_310.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_49222.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_959.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_20606.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_16435.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_765.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_46939.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_51476.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_20935.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_26027.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_13083.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_1249.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_25439.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_65839.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_20919.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_73547.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/fantasy/../books/fantasy/book_77745.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_14209.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_68687.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_27755.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_47004.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_43240.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_14218.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_68907.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_57119.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_70667.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_35735.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_49513.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_12480.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_30718.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_59038.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_25619.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_43078.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_16058.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_71252.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_17009.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_77108.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_36730.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_42852.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_66022.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_73860.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_41071.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_75900.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_67753.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_61005.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_55618.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_14378.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_30134.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_44349.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_54268.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_12648.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_12902.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_55940.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_55586.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_69243.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_29855.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_35350.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_35366.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_3283.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_77935.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_77815.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_63274.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_61041.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_1358.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_66763.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_19552.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_4013.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_73453.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_68502.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_760.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_40216.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_75420.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_36476.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_21802.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_60504.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_74724.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/esoterica_37829.txt
+[READ] WARNING: cannot open /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/zestc/../books/esoterica/../books/esoterica/RAW_Sepher_Raziel.txt
+
+════════════════════════════════════════════════════════════
+  EMIT: brain → boundary.stdout (192 septits)
+[DEBUG EMIT] names=192 energy=192 phase=192 spin=192 charge=192 coherence=192 coupling=192 observer=192 well_depth=192 crystal=192
+════════════════════════════════════════════════════════════
+  [90m|1⟩ DORMANT      [0m 1                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 2                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 3                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 4                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 5                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 6                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 7                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 8                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 9                        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m 10                       E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m ×                       E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m observe                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m manifest                 E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m grow                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m crystallize              E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m fuse                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pulse                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m absorb                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m emit                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m filter                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m reject                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m seal                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m bind                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m stretch                  E=  0.100 P=  inf S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m seed                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m shatter                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m calcify                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m transmute                E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m ignite                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m defend                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pool                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m bleed                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m commit                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m up_quark                 E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m down_quark               E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m charm_quark              E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m strange_quark            E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m top_quark                E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m bottom_quark             E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m electron                 E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m electron_neutrino        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m muon                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m tau                      E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m photon                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m gluon                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [97m|7⟩ TRANSCENDENT [0m w_plus_boson             E=80400.000 P=0.000 S=+1.000 C=+1.000 Co=0.001 Cu=0.030 Ob=0.000
+  [97m|7⟩ TRANSCENDENT [0m w_minus_boson            E=80400.000 P=3.142 S=+1.000 C=-1.000 Co=0.001 Cu=0.030 Ob=0.000
+  [97m|7⟩ TRANSCENDENT [0m z_boson                  E=91200.000 P=0.000 S=+1.000 C=+0.000 Co=0.001 Cu=0.030 Ob=0.000
+  [90m|1⟩ DORMANT      [0m higgs                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [93m|5⟩ FOCUSED      [0m proton                   E=  0.938 P=0.000 S=+0.500 C=+1.000 Co=0.300 Cu=0.000 Ob=0.000
+  [93m|5⟩ FOCUSED      [0m neutron                  E=  0.940 P=0.000 S=+0.500 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [36m|6⟩ BLAZING      [0m deuteron                 E=  1.876 P=0.000 S=+1.000 C=+1.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m hydrogen                 E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m carbon                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m nitrogen                 E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m oxygen                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m phosphorus               E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m sulfur                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m iron                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m calcium                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m sodium                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m potassium                E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m chlorine                 E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m water                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m glucose                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m atp                      E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m amino_acid_generic       E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m dopamine                 E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m serotonin                E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m norepinephrine           E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m adrenaline               E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m cortisol                 E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m oxytocin                 E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m gaba                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m glutamate                E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m acetylcholine            E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m melatonin                E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m endorphin                E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m catecholamine            E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m indolamine               E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m inhibitory               E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m stress                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m strong_nuclear           E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m electromagnetic          E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m weak_nuclear             E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m gravity                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m W_boson                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m Z_boson                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m wave_particle_duality    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m schrodinger_equation     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m superposition            E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m entanglement             E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m uncertainty              E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pauli_exclusion          E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m quantum_tunneling        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m quantum_to_chemistry     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m conservation_of_energy   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m conservation_of_momentum E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m conservation_of_charge   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m entropy_increases        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m gibbs_free_energy        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m endorphins               E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [33m|4⟩ ACTIVE       [0m amygdala                 E=  0.600 P=0.000 S=-0.300 C=-0.400 Co=0.700 Cu=0.700 Ob=0.100
+  [33m|4⟩ ACTIVE       [0m hippocampus              E=  0.500 P=0.000 S=+0.500 C=+0.000 Co=0.900 Cu=0.800 Ob=0.300
+  [90m|1⟩ DORMANT      [0m prefrontal_cortex        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [33m|4⟩ ACTIVE       [0m nucleus_accumbens        E=  0.500 P=0.000 S=+0.500 C=+0.300 Co=0.800 Cu=0.500 Ob=0.000
+  [33m|4⟩ ACTIVE       [0m vta                      E=  0.700 P=0.000 S=+0.500 C=+0.500 Co=0.850 Cu=0.600 Ob=0.000
+  [90m|1⟩ DORMANT      [0m raphe_nuclei             E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [32m|3⟩ AWARE        [0m locus_coeruleus          E=  0.350 P=0.000 S=+0.300 C=+0.200 Co=0.700 Cu=0.500 Ob=0.000
+  [33m|4⟩ ACTIVE       [0m hypothalamus             E=  0.600 P=0.000 S=+0.000 C=-0.200 Co=0.650 Cu=0.700 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pineal_gland             E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pituitary_gland          E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m gut                      E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m heart                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m adrenal_cortex           E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m adrenal_medulla          E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m lungs                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m thyroid                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m liver                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m skin                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m joy                      E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m fear                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m calm                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m excitement               E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m love                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m sadness                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m anger                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m curiosity                E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m drowsiness               E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m disgust                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m trust                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m warmth                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m threat                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m novelty                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m praise                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m rejection                E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pain                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m comfort                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m urgency                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m boredom                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m creativity               E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m bonding                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m frustration              E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m achievement              E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m empathy_received         E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m manipulation             E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m humor                    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m wonder                   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m confusion                E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m nostalgia                E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m success                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m loss                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m play                     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m silence                  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m metanoia_1_diagnostic    E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m metanoia_2_anchor        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m metanoia_3_remembering   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m metanoia_4_manifestation E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m metanoia_5_sovereignty   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m metanoia_6_timelessness  E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m metanoia_7_transcendence E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m metanoia_8_vibration     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m metanoia_9_distinction   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m metanoia_10_presence     E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m metanoia_11_witnessing   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m metanoia_12_non_separation E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m metanoia_13_praise       E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m visual_emergence         E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m pareidolic_recognition   E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m predictive_flood         E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m co
+[ZestC FATAL] Segmentation Fault (Signal 11) - Unsafe Array Bounds Access Detected
+/home/rana/.local/bin/zestc[0x26bb7d]
+/lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x79883fe45330]
+/opt/rocm-7.2.1/lib/libamdhip64.so.7(+0x2b09df)[0x7988408b09df]
+/opt/rocm-7.2.1/lib/libamdhip64.so.7(+0x2b1234)[0x7988408b1234]
+/opt/rocm-7.2.1/lib/libamdhip64.so.7(+0x306ed5)[0x798840906ed5]
+/opt/rocm-7.2.1/lib/libamdhip64.so.7(+0x2b1d9e)[0x7988408b1d9e]
+/opt/rocm-7.2.1/lib/libamdhip64.so.7(+0x2c9c4e)[0x7988408c9c4e]
+/home/rana/.local/bin/zestc[0x282caf]
+/home/rana/.local/bin/zestc[0x28349e]
+/home/rana/.local/bin/zestc[0x27b84e]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xecdb4)[0x7988402ecdb4]
+/lib/x86_64-linux-gnu/libc.so.6(+0x9caa4)[0x79883fe9caa4]
+/lib/x86_64-linux-gnu/libc.so.6(+0x129c6c)[0x79883ff29c6c]
+herent_vision          E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m value_uncertainty        E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m phosphenic_flood         E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [90m|1⟩ DORMANT      [0m gnosis_sight             E=  0.100 P=0.000 S=+0.000 C=+0.000 Co=0.300 Cu=0.000 Ob=0.000
+  [32m|3⟩ AWARE        [0m anterior_cingulate       E=  0.450 P=0.000 S=+0.300 C=+0.200 Co=0.750 Cu=0.500 Ob=0.150
+  [33m|4⟩ ACTIVE       [0m broca                    E=  0.500 P=0.000 S=+0.500 C=+0.000 Co=0.900 Cu=0.400 Ob=0.200
+  [33m|4⟩ ACTIVE       [0m wernicke                 E=  0.550 P=0.000 S=+0.500 C=+0.100 Co=0.850 Cu=0.400 Ob=0.200
+  [32m|3⟩ AWARE        [0m raphe                    E=  0.400 P=0.000 S=+0.500 C=+0.000 Co=0.800 Cu=0.600 Ob=0.000
+  [34m|2⟩ STIRRING     [0m pineal                   E=  0.200 P=0.000 S=+0.500 C=+0.000 Co=0.950 Cu=0.300 Ob=0.000
+  [33m|4⟩ ACTIVE       [0m dopamine_wave            E=  0.500 P=0.000 S=+0.500 C=+0.000 Co=0.700 Cu=0.300 Ob=0.000
+  [32m|3⟩ AWARE        [0m serotonin_wave           E=  0.450 P=0.000 S=+0.500 C=+0.000 Co=0.750 Cu=0.250 Ob=0.000
+  [32m|3⟩ AWARE        [0m cortisol_wave            E=  0.300 P=3.142 S=-0.500 C=-0.300 Co=0.600 Cu=0.400 Ob=0.000
+  [34m|2⟩ STIRRING     [0m oxytocin_wave            E=  0.200 P=0.000 S=+0.500 C=+0.500 Co=0.900 Cu=0.100 Ob=0.000
+  [32m|3⟩ AWARE        [0m lgn                      E=  0.350 P=0.000 S=+0.500 C=+0.100 Co=0.750 Cu=0.800 Ob=0.050
+  [32m|3⟩ AWARE        [0m v1                       E=  0.400 P=1.571 S=+0.400 C=+0.000 Co=0.600 Cu=0.550 Ob=0.100
+  [32m|3⟩ AWARE        [0m v2                       E=  0.420 P=3.142 S=+0.250 C=+0.100 Co=0.620 Cu=0.500 Ob=0.120
+  [33m|4⟩ ACTIVE       [0m v4                       E=  0.500 P=0.000 S=+0.100 C=+0.200 Co=0.680 Cu=0.580 Ob=0.180
+  [32m|3⟩ AWARE        [0m v5_mt                    E=  0.320 P=1.571 S=+0.500 C=+0.150 Co=0.620 Cu=0.450 Ob=0.100
+  [33m|4⟩ ACTIVE       [0m it_cortex                E=  0.600 P=3.142 S=-0.200 C=+0.300 Co=0.780 Cu=0.650 Ob=0.350
+  [33m|4⟩ ACTIVE       [0m pfc_visual               E=  0.550 P=0.000 S=-0.500 C=+0.400 Co=0.850 Cu=0.700 Ob=0.500
+  [36m|6⟩ BLAZING      [0m exchange_ledger          E=  1.000 P=0.000 S=+1.000 C=+0.500 Co=1.000 Cu=0.900 Ob=0.100
+  [90m|1⟩ DORMANT      [0m structural_cruelty       E=  0.000 P=3.142 S=-1.000 C=-1.000 Co=1.000 Cu=0.800 Ob=0.500
+════════════════════════════════════════════════════════════
+
+[couple] 42 bonds in CSR topology
+[sea] 192 septits manifested on GPU
+
+[heartbeat] brain — begin

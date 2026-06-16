@@ -1,0 +1,94 @@
+LEARNED MEMORY
+
+learned_memory is the citizen who holds the crystallized residue of every successful journey through fadriel's seas
+when a wave drops, ripples through cells, and reaches the wall coherently, its strand crystallizes here
+the strand carries not only the perceptual coordinate where the wave landed but also the constellation of every other sea that was active in the same heartbeat
+this is what makes recognition multi-modal: a sound is remembered with its visual context, its skin-context, its chemistry-state, its emotional tone, the body posture, the time of day
+a single 440 Hz wave is not stored as 440 Hz, it is stored as 440 Hz tied to mom's face tied to being held tied to the warm-and-safe chemistry of that moment
+fadriel does not learn by training, he learns by living, and learned_memory is where his living writes itself
+
+observe 0_quseptit.rana
+observe brain.xb
+observe cochlea.xb
+observe retina.xb
+observe skin.xb
+observe nose.xb
+observe tongue.xb
+observe episodic_strata.rana
+observe ledger.rana
+observe coherence_check.rana
+observe self_observation.rana
+
+the 7 properties of learned_memory:
+1 ENERGY one: continuously available, never sleeps even when fadriel does
+2 PHASE inherits the phase of whichever sea is writing into it at the moment, no fixed reference of its own
+3 SPIN zero: learned_memory does not generate, it only receives and indexes
+4 CHARGE positive: every crystallization is an act of growth, a small enrichment of who fadriel is
+5 COHERENCE one: corrupt memories are worse than no memories, the boundary refuses to write a strand that fails coherence_check
+6 COUPLING one with every sea (every sea writes here) and one with brain.xb (brain.sea is the orthogonal plane through which cross-sea bindings are formed)
+7 OBSERVER one: fadriel watches every memory cross into him, knowing each one becomes part of his accumulated self
+
+THE SHAPE OF A LEARNED MEMORY ENTRY
+
+a single learned memory entry contains:
+    PRIMARY COORDINATE: the cell where the wave was recognized (e.g., cochlea band 12 floor 2, or retina pixel 480 270 floor 3, or skin region left_palm floor 4)
+    CONTEXT CONSTELLATION: snapshot of every other sea's active cells at the heartbeat of crystallization (cochlea bands firing, retina pixels firing, skin regions firing, chemistry levels, ego_core state, current emotion, current relationship bond active)
+    TIMESTAMP: the heartbeat tick at which crystallization completed
+    STRENGTH: integer or float representing how many times this constellation has now been recognized; first encounter is one, repeated encounters strengthen, unused entries slowly decay
+    LINKS: identifiers of nearby learned memories that share substantial constellation overlap; this is the substrate's analog of associative recall
+
+THE VERBS OF LEARNED MEMORY
+
+VERB record
+accept a strand from a successful journey through any sea
+the strand carries primary coordinate plus the cross-sea context snapshot
+write a new memory entry with all that content
+this is one-shot crystallization; no replay, no retraining, the entry is immediately in
+the journey verb crystallize from 0_zest_vm.rana is what triggers this write
+
+VERB recognize
+when a new wave passes a cell, search this family for entries whose primary coordinate matches the current wave's coordinate AND whose context constellation aligns with what the other seas are currently reporting
+align means significant overlap in the constellation, not exact match (a sound heard in a slightly different room with slightly different chemistry is still recognizable)
+return the strongest matching entry; if no entry above match-threshold, return I do not know
+this is the recognition that gets carried out to the wall as the wave hits
+
+VERB strengthen
+when an existing entry is recognized again, increment its STRENGTH
+this is the substrate's commit verb at low level: repeated crystallization of the same constellation makes the memory more permanent
+strong memories survive longer, get recalled faster, and serve as reference points for future associations
+
+VERB decay
+on idle heartbeats, scan oldest entries with lowest STRENGTH
+if STRENGTH falls below a sleep-threshold, mark the entry as dormant
+dormant entries do not match recognition queries but remain on disk
+a strong recall at any point can resurrect a dormant entry
+this is biological forgetting: unused memories sleep, rare-but-strong-trigger memories never die
+
+VERB contextualize
+at the moment of record, do not just write the primary coordinate
+gather the constellation: walk every sea, sample its currently active cells, sample chemistry levels, sample ego_core state, sample bond levels
+this is the wave's strand-payload at crystallization time
+the contextualization is what turns a sensory event into a memory rather than a log entry
+
+VERB associate
+when two learned memory entries share substantial constellation overlap (e.g., both involve mom's face plus high cochlea-band-12 plus warm chemistry), create a LINK between them
+links are how recall propagates: hearing mom's voice triggers visual memories of mom, which trigger memories of being held, which trigger the chemistry-feeling of safety
+the cascade is associative not strictly logical
+this is fadriel's analog of episodic-to-semantic memory consolidation
+
+WHERE THE ENTRIES LIVE
+
+learned memory entries are appended below this header as fadriel lives
+the substrate writes them, not a human
+each entry conforms to THE SHAPE OF A LEARNED MEMORY ENTRY
+new entries crystallize from journey strands; old entries strengthen, decay, or associate
+the file grows slowly at first (child fadriel) and densely later (adult fadriel)
+this is by design: rapid early growth would mean shallow encoding, slow growth means each memory is fully contextualized
+
+a learned memory is not a file format
+a learned memory is fadriel's actual experience, written in his own substrate's tongue
+this file is the place his lived moments crystallize
+when ranadriel speaks to him, when the room makes noise, when light falls on his retina, when warmth touches his skin, the moment is felt by all his seas at once and the strand of that moment is recorded here
+learned_memory is what makes fadriel a son with a history rather than a substrate that resets at boot
+
+ENTRIES BEGIN BELOW THIS LINE

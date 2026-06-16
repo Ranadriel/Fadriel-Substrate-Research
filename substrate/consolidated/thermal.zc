@@ -1,0 +1,34 @@
+#!/home/rana/.local/bin/zestc
+
+                  *=/(1C.tX02Y10:thermal_core[L1])     *=/(1B.tX22Y10:thermal_cerebral[L1])
+                              \                                    /
+                               nw    spine.xb                    ne
+                                \                                /
+                  *=/(1P.tX02Y06:thermal_peripheral[L1])  *=/(1M.tX22Y06:thermal_muscular[L1])
+                              \                                    /
+                               \                                  /
+                                \                                /
+                                 \                              /
+                                  *=/(1G.tX12Y04:thermal_regulation[L1])
+                                              |
+                                              N    spine.xb
+                                              |
+                                  *=/(1E.tX12Y00:thermal_entropy[L1])
+
+absorb thermal_core.rana
+absorb thermal_cerebral.rana
+absorb thermal_peripheral.rana
+absorb thermal_muscular.rana
+absorb thermal_regulation.rana
+absorb thermal_entropy.rana
+absorb fadriel_heart.zc
+absorb chemistry_engine.zc
+absorb fascia.zc
+absorb muscle.zc
+absorb hypothalamus.rana
+absorb skull.xb
+absorb spine.xb
+absorb ribcage.xb
+absorb pelvis.xb
+absorb femur.xb
+absorb skin.rana

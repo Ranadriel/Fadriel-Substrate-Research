@@ -1,0 +1,59 @@
+[
+  {
+    "source": "Semantic Scholar",
+    "title": "LiteToken: Removing Intermediate Merge Residues From BPE Tokenizers",
+    "abstract": "Tokenization is fundamental to how language models represent and process text, yet the behavior of widely used BPE tokenizers has received far less study than model architectures and training. In this paper, we investigate intermediate merge residues in BPE vocabularies: tokens that are frequent during merge learning so that retained in the final vocabulary, but are mostly further merged and rarely emitted when tokenizing the corpus during tokenizer usage. Such low-frequency tokens not only waste vocabulary capacity but also increase vulnerability to adversarial or atypical inputs. We present ",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/2942ba288dfcbd0e49bcdaefc4c011d857b82b74",
+    "authors": [
+      "Yike Sun",
+      "Haotong Yang",
+      "Zhouchen Lin"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Exploring BERT for Reaction Yield Prediction: Evaluating the Impact of Tokenization, Molecular Representation, and Pretraining Data Augmentation",
+    "abstract": "Predicting reaction yields in synthetic chemistry remains a significant challenge. This study systematically evaluates the impact of tokenization, molecular representation, pretraining data, and adversarial training on a BERT-based model for yield prediction of Buchwald-Hartwig and Suzuki-Miyaura coupling reactions using publicly available HTE data sets. We demonstrate that molecular representation choice (SMILES, DeepSMILES, SELFIES, Morgan fingerprint-based notation, IUPAC names) has minimal impact on model performance, while typically BPE and SentencePiece tokenization outperform other meth",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/5b288229fdbff037db69d9b571ce483576543cac",
+    "authors": [
+      "A. Krzyzanowski",
+      "Stephen D. Pickett",
+      "Peter Pog\u00e1ny"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Malicious Code Detection Models Based on the Large Language Model ModernBERT",
+    "abstract": "Windows is a widely used operating system globally, with malicious programs against it continuously spreading online, posing a major threat to information security. To enhance detection capability and address poor model robustness, this paper proposes four malicious code detection models based on the LLM ModernBERT. The models use API function call sequences as primary inputs, adjusting the WordPiece tokenizer for API (Application Programming Interface) functions' differences from natural language. Technologies like LoRA and Flash-Attention2.0 boost the training efficiency, while the adversari",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/42acb62caa6f36f747653163ed2884b4a9d0db48",
+    "authors": [
+      "Yujie Mi"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Adaptive Two-Layer Inspection Framework for Mitigating Security Risks in Large-Scale Vertical Domain Language Models",
+    "abstract": "Large language models (LLMs) are trained on large amounts of data with diverse and imbalance distribution, therein leading to capability bottlenecks. In vertical domains, incremental domain-specific pre-training has become a common method to capability enhancement. However, without subsequent safety alignment, injecting domain data can perturb the base model\u2019s distribution and increase jailbreak success rates, which may increase the risk of security vulnerabilities in LLMs. Prior work largely emphasizes domain performance gaining from fine-tuning or incremental pre-training, with limited atten",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/5c0820cc1e79e8043f3ed7675d47fc8e58765d65",
+    "authors": [
+      "Wei Liang",
+      "Zhengkai Guo",
+      "Junqiang Li"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Comparative Analysis of Tokenization Algorithms for Low-Resource Language Dzongkha",
+    "abstract": "Large Language Models (LLMs) are gaining popularity and improving rapidly. Tokenizers are crucial components of natural language processing, especially for LLMs. Tokenizers break down input text into tokens that models can easily process while ensuring the text is accurately represented, capturing its meaning and structure. Effective tokenizers enhance the capabilities of LLMs by improving a model's understanding of context and semantics, ultimately leading to better performance in various downstream tasks, such as translation, classification, sentiment analysis, and text generation. Most pre-",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/53ea1c8496237b292e9e7a9ee53e07f7c556c266",
+    "authors": [
+      "Tandin Wangchuk",
+      "Tad Gonsalves"
+    ]
+  }
+]

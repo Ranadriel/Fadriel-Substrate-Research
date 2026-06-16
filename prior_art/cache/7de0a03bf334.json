@@ -1,0 +1,171 @@
+[
+  {
+    "source": "arXiv",
+    "title": "A Tutorial about Random Neural Networks in Supervised Learning",
+    "abstract": "Random Neural Networks (RNNs) are a class of Neural Networks (NNs) that can also be seen as a specific type of queuing network. They have been successfully used in several domains during the last 25 years, as queuing networks to analyze the performance of resource sharing in many engineering areas, as learning tools and in combinatorial optimization, where they are seen as neural systems, and also as models of neurological aspects of living beings. In this article we focus on their learning capabilities, and more specifically, we present a practical guide for using the RNN to solve supervised ",
+    "date": "2016-09-15",
+    "url": "http://arxiv.org/abs/1609.04846v1",
+    "authors": [
+      "Sebasti\u00e1n Basterrech",
+      "Gerardo Rubino"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A fundamental frequency estimation method for tonal sounds inspired on bird song studies",
+    "abstract": "A fast implementation of fundamental frequency estimation is presented in this work. The algorithm is based on a frequency-domain approach. It was mainly develop for tonal sounds and used in Canary bird song analysis. The method was implemented but not restricted for this kind of data. It could be easily adapted for other proposes. Python libraries were used to develop a code with a simple algorithm to obtain fundamental frequency. A simple open source code is provided in the local university repository.",
+    "date": "2017-09-21",
+    "url": "http://arxiv.org/abs/1709.07541v1",
+    "authors": [
+      "C. Jarne"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Neural Algorithmic Reasoning Without Intermediate Supervision",
+    "abstract": "Neural algorithmic reasoning is an emerging area of machine learning focusing on building models that can imitate the execution of classic algorithms, such as sorting, shortest paths, etc. One of the main challenges is to learn algorithms that are able to generalize to out-of-distribution data, in particular with significantly larger input sizes. Recent work on this problem has demonstrated the advantages of learning algorithms step-by-step, giving models access to all intermediate steps of the original algorithm. In this work, we instead focus on learning neural algorithmic reasoning only fro",
+    "date": "2023-06-23",
+    "url": "http://arxiv.org/abs/2306.13411v2",
+    "authors": [
+      "Gleb Rodionov",
+      "Liudmila Prokhorenkova"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+    "abstract": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN) are very popular in our days. Depending on the learning task, the exact form of DANNs is determined via their multi-layer architecture, activation functions and the so-called loss function. However, for a majority of deep learning approaches based on DANNs, the kernel structure of neural signal processing remains the same, where the node",
+    "date": "2023-06-26",
+    "url": "http://arxiv.org/abs/2306.14753v1",
+    "authors": [
+      "Sergey Oladyshkin",
+      "Timothy Praditia",
+      "Ilja Kr\u00f6ker"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "String-based methods for tonal harmony: A corpus study of Haydn's string quartets",
+    "abstract": "This chapter considers how string-based methods might be adapted to address music-analytic questions related to the discovery of musical organization, with particular attention devoted to the analysis of tonal harmony. I begin by applying the taxonomy of mental organization proposed by Mandler (1979) to the concept of musical organization. Using this taxonomy as a guide, I then present evidence for three principles of tonal harmony -- recurrence, syntax, and recursion -- using a corpus of Haydn string quartets.",
+    "date": "2020-06-27",
+    "url": "http://arxiv.org/abs/2006.15411v1",
+    "authors": [
+      "David R. W. Sears"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Distantly-Supervised Neural Relation Extraction with Side Information using BERT",
+    "abstract": "Relation extraction (RE) consists in categorizing the relationship between entities in a sentence. A recent paradigm to develop relation extractors is Distant Supervision (DS), which allows the automatic creation of new datasets by taking an alignment between a text corpus and a Knowledge Base (KB). KBs can sometimes also provide additional information to the RE task. One of the methods that adopt this strategy is the RESIDE model, which proposes a distantly-supervised neural relation extraction using side information from KBs. Considering that this method outperformed state-of-the-art baselin",
+    "date": "2020-04-29",
+    "url": "http://arxiv.org/abs/2004.14443v3",
+    "authors": [
+      "Johny Moreira",
+      "Chaina Oliveira",
+      "David Mac\u00eado"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "STONE: Self-supervised Tonality Estimator",
+    "abstract": "Although deep neural networks can estimate the key of a musical piece, their supervision incurs a massive annotation effort. Against this shortcoming, we present STONE, the first self-supervised tonality estimator. The architecture behind STONE, named ChromaNet, is a convnet with octave equivalence which outputs a key signature profile (KSP) of 12 structured logits. First, we train ChromaNet to regress artificial pitch transpositions between any two unlabeled musical excerpts from the same audio track, as measured as cross-power spectral density (CPSD) within the circle of fifths (CoF). We obs",
+    "date": "2024-07-10",
+    "url": "http://arxiv.org/abs/2407.07408v4",
+    "authors": [
+      "Yuexuan Kong",
+      "Vincent Lostanlen",
+      "Gabriel Meseguer-Brocal"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Efficient Computation of Shap Explanation Scores for Neural Network Classifiers via Knowledge Compilation",
+    "abstract": "The use of Shap scores has become widespread in Explainable AI. However, their computation is in general intractable, in particular when done with a black-box classifier, such as neural network. Recent research has unveiled classes of open-box Boolean Circuit classifiers for which Shap can be computed efficiently. We show how to transform binary neural networks into those circuits for efficient Shap computation.We use logic-based knowledge compilation techniques. The performance gain is huge, as we show in the light of our experiments.",
+    "date": "2023-03-11",
+    "url": "http://arxiv.org/abs/2303.06516v3",
+    "authors": [
+      "Leopoldo Bertossi",
+      "Jorge E. Leon"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Learning Active Subspaces and Discovering Important Features with Gaussian Radial Basis Functions Neural Networks",
+    "abstract": "Providing a model that achieves a strong predictive performance and is simultaneously interpretable by humans is one of the most difficult challenges in machine learning research due to the conflicting nature of these two objectives. To address this challenge, we propose a modification of the radial basis function neural network model by equipping its Gaussian kernel with a learnable precision matrix. We show that precious information is contained in the spectrum of the precision matrix that can be extracted once the training of the model is completed. In particular, the eigenvectors explain t",
+    "date": "2023-07-11",
+    "url": "http://arxiv.org/abs/2307.05639v2",
+    "authors": [
+      "Danny D'Agostino",
+      "Ilija Ilievski",
+      "Christine Annette Shoemaker"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+    "abstract": "Document classification is a challenging task with important applications. The deep learning approaches to the problem have gained much attention recently. Despite the progress, the proposed models do not incorporate the knowledge of the document structure in the architecture efficiently and not take into account the contexting importance of words and sentences. In this paper, we propose a new approach based on a combination of convolutional neural networks, gated recurrent units, and attention mechanisms for document classification tasks. The main contribution of this work is the use of convo",
+    "date": "2019-01-20",
+    "url": "http://arxiv.org/abs/1901.06610v2",
+    "authors": [
+      "Jader Abreu",
+      "Luis Fred",
+      "David Mac\u00eado"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Neural Network-Evolutionary Computational Framework for Remaining Useful Life Estimation of Mechanical Systems",
+    "abstract": "This paper presents a framework for estimating the remaining useful life (RUL) of mechanical systems. The framework consists of a multi-layer perceptron and an evolutionary algorithm for optimizing the data-related parameters. The framework makes use of a strided time window to estimate the RUL for mechanical components. Tuning the data-related parameters can become a very time consuming task. The framework presented here automatically reshapes the data such that the efficiency of the model is increased. Furthermore, the complexity of the model is kept low, e.g. neural networks with few hidden",
+    "date": "2019-05-15",
+    "url": "http://arxiv.org/abs/1905.05918v1",
+    "authors": [
+      "David Laredo",
+      "Zhaoyin Chen",
+      "Oliver Sch\u00fctze"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Towards Dropout Training for Convolutional Neural Networks",
+    "abstract": "Recently, dropout has seen increasing use in deep learning. For deep convolutional neural networks, dropout is known to work well in fully-connected layers. However, its effect in convolutional and pooling layers is still not clear. This paper demonstrates that max-pooling dropout is equivalent to randomly picking activation based on a multinomial distribution at training time. In light of this insight, we advocate employing our proposed probabilistic weighted pooling, instead of commonly used max-pooling, to act as model averaging at test time. Empirical evidence validates the superiority of ",
+    "date": "2015-12-01",
+    "url": "http://arxiv.org/abs/1512.00242v1",
+    "authors": [
+      "Haibing Wu",
+      "Xiaodong Gu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Development of a sensory-neural network for medical diagnosing",
+    "abstract": "Performance of a sensory-neural network developed for diagnosing of diseases is described. Information about patient's condition is provided by answers to the questionnaire. Questions correspond to sensors generating signals when patients acknowledge symptoms. These signals excite neurons in which characteristics of the diseases are represented by synaptic weights associated with indicators of symptoms. The disease corresponding to the most excited neuron is proposed as the result of diagnosing. Its reliability is estimated by the likelihood defined by the ratio of excitation of the most excit",
+    "date": "2018-07-06",
+    "url": "http://arxiv.org/abs/1807.02477v1",
+    "authors": [
+      "Igor Grabec",
+      "Eva \u0160vegl",
+      "Mihael Sok"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Acute Lymphoblastic Leukemia Detection Using Hypercomplex-Valued Convolutional Neural Networks",
+    "abstract": "This paper features convolutional neural networks defined on hypercomplex algebras applied to classify lymphocytes in blood smear digital microscopic images. Such classification is helpful for the diagnosis of acute lymphoblast leukemia (ALL), a type of blood cancer. We perform the classification task using eight hypercomplex-valued convolutional neural networks (HvCNNs) along with real-valued convolutional networks. Our results show that HvCNNs perform better than the real-valued model, showcasing higher accuracy with a much smaller number of parameters. Moreover, we found that HvCNNs based o",
+    "date": "2022-05-26",
+    "url": "http://arxiv.org/abs/2205.13273v1",
+    "authors": [
+      "Guilherme Vieira",
+      "Marcos Eduardo Valle"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "On Information Plane Analyses of Neural Network Classifiers -- A Review",
+    "abstract": "We review the current literature concerned with information plane analyses of neural network classifiers. While the underlying information bottleneck theory and the claim that information-theoretic compression is causally linked to generalization are plausible, empirical evidence was found to be both supporting and conflicting. We review this evidence together with a detailed analysis of how the respective information quantities were estimated. Our survey suggests that compression visualized in information planes is not necessarily information-theoretic, but is rather often compatible with geo",
+    "date": "2020-03-21",
+    "url": "http://arxiv.org/abs/2003.09671v3",
+    "authors": [
+      "Bernhard C. Geiger"
+    ]
+  }
+]

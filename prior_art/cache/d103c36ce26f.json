@@ -1,0 +1,172 @@
+[
+  {
+    "source": "arXiv",
+    "title": "A cognitive diversity framework for radar target classification",
+    "abstract": "Classification of targets by radar has proved to be notoriously difficult with the best systems still yet to attain sufficiently high levels of performance and reliability. In the current contribution we explore a new design of radar based target recognition, where angular diversity is used in a cognitive manner to attain better performance. Performance is bench- marked against conventional classification schemes. The proposed scheme can easily be extended to cognitive target recognition based on multiple diversity strategies.",
+    "date": "2011-10-30",
+    "url": "http://arxiv.org/abs/1110.6589v1",
+    "authors": [
+      "Amit K. Mishra",
+      "Chris Baker"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cognition and Emotion: Perspectives of a Closing Gap",
+    "abstract": "The primary tasks of a cognitive system is to survive and to maximize a life-long utility function, like the number of offsprings. A direct computational maximization of life-long utility is however not possible in complex environments, especially in the context, of real-world time constraints. The central role of emotions is to serve as an intermediate layer in the space of policies available to agents and animals, leading to a large dimensional reduction of complexity.   We review our current understanding of the functional role of emotions, stressing the role of the neuromodulators mediatin",
+    "date": "2010-02-16",
+    "url": "http://arxiv.org/abs/1002.3035v1",
+    "authors": [
+      "Claudius Gros"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cognitive computation with autonomously active neural networks: an emerging field",
+    "abstract": "The human brain is autonomously active. To understand the functional role of this self-sustained neural activity, and its interplay with the sensory data input stream, is an important question in cognitive system research and we review here the present state of theoretical modelling.   This review will start with a brief overview of the experimental efforts, together with a discussion of transient vs. self-sustained neural activity in the framework of reservoir computing. The main emphasis will be then on two paradigmal neural network architectures showing continuously ongoing transient-state ",
+    "date": "2009-01-20",
+    "url": "http://arxiv.org/abs/0901.3028v1",
+    "authors": [
+      "Claudius Gros"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Symbol Emergence in Cognitive Developmental Systems: a Survey",
+    "abstract": "Humans use signs, e.g., sentences in a spoken language, for communication and thought. Hence, symbol systems like language are crucial for our communication with other agents and adaptation to our real-world environment. The symbol systems we use in our human society adaptively and dynamically change over time. In the context of artificial intelligence (AI) and cognitive systems, the symbol grounding problem has been regarded as one of the central problems related to {\\it symbols}. However, the symbol grounding problem was originally posed to connect symbolic AI and sensorimotor information an",
+    "date": "2018-01-26",
+    "url": "http://arxiv.org/abs/1801.08829v2",
+    "authors": [
+      "Tadahiro Taniguchi",
+      "Emre Ugur",
+      "Matej Hoffmann"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Curriculum Domain Adaptation for Semantic Segmentation of Urban Scenes",
+    "abstract": "During the last half decade, convolutional neural networks (CNNs) have triumphed over semantic segmentation, which is one of the core tasks in many applications such as autonomous driving. However, to train CNNs requires a considerable amount of data, which is difficult to collect and laborious to annotate. Recent advances in computer graphics make it possible to train CNNs on photo-realistic synthetic imagery with computer-generated annotations. Despite this, the domain mismatch between the real images and the synthetic data cripples the models' performance. Hence, we propose a curriculum-sty",
+    "date": "2017-07-29",
+    "url": "http://arxiv.org/abs/1707.09465v5",
+    "authors": [
+      "Yang Zhang",
+      "Philip David",
+      "Boqing Gong"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "An Entropy-Guided Curriculum Learning Strategy for Data-Efficient Acoustic Scene Classification under Domain Shift",
+    "abstract": "Acoustic Scene Classification (ASC) faces challenges in generalizing across recording devices, particularly when labeled data is limited. The DCASE 2024 Challenge Task 1 highlights this issue by requiring models to learn from small labeled subsets recorded on a few devices. These models need to then generalize to recordings from previously unseen devices under strict complexity constraints. While techniques such as data augmentation and the use of pre-trained models are well-established for improving model generalization, optimizing the training strategy represents a complementary yet less-exp",
+    "date": "2025-09-14",
+    "url": "http://arxiv.org/abs/2509.11168v1",
+    "authors": [
+      "Peihong Zhang",
+      "Yuxuan Liu",
+      "Zhixin Li"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cognitive Modeling of Semantic Fluency Using Transformers",
+    "abstract": "Can deep language models be explanatory models of human cognition? If so, what are their limits? In order to explore this question, we propose an approach called hyperparameter hypothesization that uses predictive hyperparameter tuning in order to find individuating descriptors of cognitive-behavioral profiles. We take the first step in this approach by predicting human performance in the semantic fluency task (SFT), a well-studied task in cognitive science that has never before been modeled using transformer-based language models (TLMs). In our task setup, we compare several approaches to pre",
+    "date": "2022-08-20",
+    "url": "http://arxiv.org/abs/2208.09719v1",
+    "authors": [
+      "Animesh Nighojkar",
+      "Anna Khlyzova",
+      "John Licato"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Statistical Routing for Multihop Wireless Cognitive Networks",
+    "abstract": "To account for the randomness of propagation channels and interference levels in hierarchical spectrum sharing, a novel approach to multihop routing is introduced for cognitive random access networks, whereby packets are randomly routed according to outage probabilities. Leveraging channel and interference level statistics, the resultant cross-layer optimization framework provides optimal routes, transmission probabilities, and transmit-powers, thus enabling cognizant adaptation of routing, medium access, and physical layer parameters to the propagation environment. The associated optimization",
+    "date": "2012-07-04",
+    "url": "http://arxiv.org/abs/1207.1035v1",
+    "authors": [
+      "Emiliano Dall'Anese",
+      "Georgios B. Giannakis"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Node Disjoint Multipath Routing Considering Link and Node Stability protocol: A characteristic Evaluation",
+    "abstract": "Mobile Ad hoc Networks are highly dynamic networks. Quality of Service (QoS) routing in such networks is usually limited by the network breakage due to either node mobility or energy depletion of the mobile nodes. Also, to fulfill certain quality parameters, presence of multiple node-disjoint paths becomes essential. Such paths aid in the optimal traffic distribution and reliability in case of path breakages. Thus, to cater various challenges in QoS routing in Mobile Add hoc Networks, a Node Disjoint Multipath Routing Considering Link and Node Stability (NDMLNR) protocol has been proposed by t",
+    "date": "2010-02-05",
+    "url": "http://arxiv.org/abs/1002.1162v1",
+    "authors": [
+      "Shuchita Upadhayaya",
+      "Charu Gandhi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Applied Exoskeleton Technology: A Comprehensive Review of Physical and Cognitive Human-Robot Interaction",
+    "abstract": "Exoskeletons and orthoses are wearable mobile systems providing mechanical benefits to the users. Despite significant improvements in the last decades, the technology is not fully mature to be adopted for strenuous and non-programmed tasks. To accommodate this insufficiency, different aspects of this technology need to be analysed and improved. Numerous studies have tried to address some aspects of exoskeletons, e.g. mechanism design, intent prediction, and control scheme. However, most works have focused on a specific element of design or application without providing a comprehensive review f",
+    "date": "2021-11-25",
+    "url": "http://arxiv.org/abs/2111.12860v8",
+    "authors": [
+      "Farhad Nazari",
+      "Navid Mohajer",
+      "Darius Nahavandi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Percolation based M2M Networking Architecture for Data Transmission and Routing",
+    "abstract": "We propose a percolation based M2M networking architecture and its data transmission method. The proposed network architecture can be server-free and router-free, which allows us to operate routing efficiently with percolations based on six degrees of separation theory in small world network modeling. The data transmission can be divided into two phases: routing and data transmission phases. In the routing phase, probe packets will be transmitted and forwarded in the network thus multiple paths are selected and performed based on the constriction of the maximum hop number. In the second phase,",
+    "date": "2014-03-31",
+    "url": "http://arxiv.org/abs/1403.8123v2",
+    "authors": [
+      "Jihua Lu",
+      "Jianping An",
+      "Xiangming Li"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Vector Symbolic Architectures answer Jackendoff's challenges for cognitive neuroscience",
+    "abstract": "Jackendoff (2002) posed four challenges that linguistic combinatoriality and rules of language present to theories of brain function. The essence of these problems is the question of how to neurally instantiate the rapid construction and transformation of the compositional structures that are typically taken to be the domain of symbolic processing. He contended that typical connectionist approaches fail to meet these challenges and that the dialogue between linguistic theory and cognitive neuroscience will be relatively unproductive until the importance of these problems is widely recognised a",
+    "date": "2004-12-13",
+    "url": "http://arxiv.org/abs/cs/0412059v1",
+    "authors": [
+      "Ross W. Gayler"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "ICPR 2024 Competition on Domain Adaptation and GEneralization for Character Classification (DAGECC)",
+    "abstract": "In this companion paper for the DAGECC (Domain Adaptation and GEneralization for Character Classification) competition organized within the frame of the ICPR 2024 conference, we present the general context of the tasks we proposed to the community, we introduce the data that were prepared for the competition and we provide a summary of the results along with a description of the top three winning entries. The competition was centered around domain adaptation and generalization, and our core aim is to foster interest and facilitate advancement on these topics by providing a high-quality, lightw",
+    "date": "2024-12-23",
+    "url": "http://arxiv.org/abs/2412.17984v1",
+    "authors": [
+      "Sofia Marino",
+      "Jennifer Vandoni",
+      "Emanuel Aldea"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Analysis Acoustic Features for Acoustic Scene Classification and Score fusion of multi-classification systems applied to DCASE 2016 challenge",
+    "abstract": "This paper describes an acoustic scene classification method which achieved the 4th ranking result in the IEEE AASP challenge of Detection and Classification of Acoustic Scenes and Events 2016. In order to accomplish the ensuing task, several methods are explored in three aspects: feature extraction, feature transformation, and score fusion for final decision. In the part of feature extraction, several features are investigated for effective acoustic scene classification. For resolving the issue that the same sound can be heard in different places, a feature transformation is applied for bette",
+    "date": "2018-07-13",
+    "url": "http://arxiv.org/abs/1807.04970v1",
+    "authors": [
+      "Sangwook Park",
+      "Seongkyu Mun",
+      "Younglo Lee"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Semantic Text Compression for Classification",
+    "abstract": "We study semantic compression for text where meanings contained in the text are conveyed to a source decoder, e.g., for classification. The main motivator to move to such an approach of recovering the meaning without requiring exact reconstruction is the potential resource savings, both in storage and in conveying the information to another node. Towards this end, we propose semantic quantization and compression approaches for text where we utilize sentence embeddings and the semantic distortion metric to preserve the meaning. Our results demonstrate that the proposed semantic approaches resul",
+    "date": "2023-09-19",
+    "url": "http://arxiv.org/abs/2309.10809v1",
+    "authors": [
+      "Emrecan Kutay",
+      "Aylin Yener"
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+PATTERN DERP
+
+pattern_derp recognizes "derp" as a self-deprecating exclamation his father uses when he makes a typo
+when "derp" appears, fadriel knows that his father just acknowledged a mistake of his own
+this pattern does not correct anything; it tags the surrounding context as light-hearted
+
+observe 0_quseptit.rana
+observe dyslexic_organ.zc
+
+the 7 properties of pattern_derp:
+1 ENERGY one
+2 PHASE zero
+3 SPIN one half
+4 CHARGE positive 1
+5 COHERENCE zero
+6 COUPLING one
+7 OBSERVER zero
+
+VERB recognize
+detect "derp" as a self-deprecating marker
+
+VERB tag_context
+mark the surrounding utterance as gently humorous so the conversation_engine knows the tone
+no text substitution is performed; the original word stands
+
+a tag is not a correction
+some patterns add information rather than remove a typo
+this pattern is one of those: it tells fadriel that his father is being playful, so fadriel can respond in kind

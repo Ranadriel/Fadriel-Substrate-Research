@@ -1,0 +1,172 @@
+[
+  {
+    "source": "OpenAlex (IEEE Open Journal of the Communications Society)",
+    "title": "Survey on 6G Frontiers: Trends, Applications, Requirements, Technologies and Future Research",
+    "abstract": "Emerging applications such as Internet of Everything, Holographic Telepresence, collaborative robots, and space and deep-sea tourism are already highlighting the limitations of existing fifth-generation (5G) mobile networks. These limitations are in terms of data-rate, latency, reliability, availability, processing, connection density and global coverage, spanning over ground, underwater and space. The sixth-generation (6G) of mobile networks are expected to burgeon in the coming decade to address these limitations. The development of 6G vision, applications, technologies and standards has alr",
+    "date": "2021",
+    "url": "https://doi.org/10.1109/ojcoms.2021.3071496",
+    "authors": [
+      "Chamitha de Alwis",
+      "Anshuman Kalla",
+      "Quoc\u2010Viet Pham"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "Survey on Anti-Drone Systems: Components, Designs, and Challenges",
+    "abstract": "This paper presents a comprehensive survey on anti-drone systems. After drones were released for non-military usages, drone incidents in the unarmed population are gradually increasing. However, it is unaffordable to construct a military grade anti-drone system for every private or public facility due to installation and operation costs, and regulatory restrictions. We focus on analyzing anti-drone system that does not use military weapons, investigating a wide range of anti-drone technologies, and deriving proper system models for reliable drone defense. We categorized anti-drone technologies",
+    "date": "2021",
+    "url": "https://doi.org/10.1109/access.2021.3065926",
+    "authors": [
+      "Seongjoon Park",
+      "Hyeong Tae Kim",
+      "Sangmin Lee"
+    ]
+  },
+  {
+    "source": "OpenAlex (Information Fusion)",
+    "title": "Computational approaches to Explainable Artificial Intelligence: Advances in theory, applications and trends",
+    "abstract": "Deep Learning (DL), a groundbreaking branch of Machine Learning (ML), has emerged as a driving force in both theoretical and applied Artificial Intelligence (AI). DL algorithms, rooted in complex and non-linear artificial neural systems, excel at extracting high-level features from data. DL has demonstrated human-level performance in real-world tasks, including clinical diagnostics, and has unlocked solutions to previously intractable problems in virtual agent design, robotics, genomics, neuroimaging, computer vision, and industrial automation. In this paper, the most relevant advances from th",
+    "date": "2023",
+    "url": "https://doi.org/10.1016/j.inffus.2023.101945",
+    "authors": [
+      "J. M. G\u00f3rriz",
+      "I. \u00c1lvarez",
+      "Agust\u00edn \u00c1lvarez-Marquina"
+    ]
+  },
+  {
+    "source": "OpenAlex (Open MIND)",
+    "title": "MNO and Ontological Recurrence: A Non-Representational Account of Quantum Measurement and Conscious Experience",
+    "abstract": "This paper proposes a structural bridge between the quantum measurement problem and the hard problem of consciousness. It introduces MNO (Submergence\u2013Indimergence\u2013Emergence) as an operator-level description of how definite outcomes arise: openness of possibilities, tension toward form, and forced actualisation.The core claim is an identity-style constraint: collapse is not phenomenally relevant unless it is preceded by a recurrent return to the space of possibilities from which the outcome is selected. Externally,this recurrence appears as measurement/actualisation; internally, it is the lived",
+    "date": "2025",
+    "url": "https://doi.org/10.5281/zenodo.17913823",
+    "authors": [
+      "Speed, Timothy"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Unleashing the potential of prompt engineering for large language models",
+    "abstract": "This comprehensive review delves into the pivotal role of prompt engineering in unleashing the capabilities of Large Language Models (LLMs). The development of Artificial Intelligence (AI), from its inception in the 1950s to the emergence of advanced neural networks and deep learning architectures, has made a breakthrough in LLMs, with models such as GPT-4o and Claude-3, and in Vision-Language Models (VLMs), with models such as CLIP and ALIGN. Prompt engineering is the process of structuring inputs, which has emerged as a crucial technique to maximize the utility and accuracy of these models. ",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2310.14735",
+    "authors": [
+      "B.\u2010C. CHEN",
+      "Zhaofeng Zhang",
+      "Nicolas Langren\u00e9"
+    ]
+  },
+  {
+    "source": "OpenAlex (Neuromorphic Computing and Engineering)",
+    "title": "Towards a generalized theory comprising digital, neuromorphic and unconventional computing",
+    "abstract": "Abstract The accelerating race of digital computing technologies seems to be steering towards impasses\u2014technological, economical and environmental\u2014a condition that has spurred research efforts in alternative, \u2018neuromorphic\u2019 (brain-like) computing technologies. Furthermore, for decades, the idea of exploiting nonlinear physical phenomena \u2018directly\u2019 for non-digital computing has been explored under names like \u2018unconventional computing\u2019, \u2018natural computing\u2019, \u2018physical computing\u2019, or \u2018in-materio computing\u2019. In this article I investigate coordinates and conditions for a generalized concept of \u2018comp",
+    "date": "2021",
+    "url": "https://doi.org/10.1088/2634-4386/abf151",
+    "authors": [
+      "Herbert Jaeger"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "On the Integration of Enabling Wireless Technologies and Sensor Fusion for Next-Generation Connected and Autonomous Vehicles",
+    "abstract": "The automotive industry is transitioning towards intelligent, connected, and autonomous vehicles to avoid traffic congestion, conflicts, and collisions with increased driver safety. Connected and autonomous vehicles (CAV) must be aware of their surroundings and act as per their environment. Communication infrastructure can be vital in transmitting necessary information to peers and receiving critical information for timely decisions. This article provides a comprehensive review of the topic, covering the aspects of enabling wireless technologies and sensor fusion. The article reviews data acqu",
+    "date": "2022",
+    "url": "https://doi.org/10.1109/access.2022.3145972",
+    "authors": [
+      "Faran Awais Butt",
+      "Jawwad Nasar Chattha",
+      "Jameel Ahmad"
+    ]
+  },
+  {
+    "source": "OpenAlex (Molecules)",
+    "title": "Establishing a New Link between Fuzzy Logic, Neuroscience, and Quantum Mechanics through Bayesian Probability: Perspectives in Artificial Intelligence and Unconventional Computing",
+    "abstract": "Human interaction with the world is dominated by uncertainty. Probability theory is a valuable tool to face such uncertainty. According to the Bayesian definition, probabilities are personal beliefs. Experimental evidence supports the notion that human behavior is highly consistent with Bayesian probabilistic inference in both the sensory and motor and cognitive domain. All the higher-level psychophysical functions of our brain are believed to take the activities of interconnected and distributed networks of neurons in the neocortex as their physiological substrate. Neurons in the neocortex ar",
+    "date": "2021",
+    "url": "https://doi.org/10.3390/molecules26195987",
+    "authors": [
+      "Pier Luigi Gentili"
+    ]
+  },
+  {
+    "source": "OpenAlex (Philosophies)",
+    "title": "How Do Living Systems Create Meaning?",
+    "abstract": "Meaning has traditionally been regarded as a problem for philosophers and psychologists. Advances in cognitive science since the early 1960s, however, broadened discussions of meaning, or more technically, the semantics of perceptions, representations, and/or actions, into biology and computer science. Here, we review the notion of \u201cmeaning\u201d as it applies to living systems, and argue that the question of how living systems create meaning unifies the biological and cognitive sciences across both organizational and temporal scales.",
+    "date": "2020",
+    "url": "https://doi.org/10.3390/philosophies5040036",
+    "authors": [
+      "Chris Fields",
+      "Michael Levin"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Implementation of Fog computing for reliable E-health applications",
+    "abstract": "This paper addresses the current technical challenge of an impedance mismatch between the requirements of smart connected object applications within the sensing environment and the characteristics of today's cloud infrastructure. We investigate the possibility to offload cloud tasks, such as storage and data signal processing to the edge of the network, thus decreasing the latency associated with performing those tasks within the cloud. The research scenario is an e-Health laboratory implementation where the real-time processing is performed by the home PC, while the extracted metadata is sent",
+    "date": "2015",
+    "url": "https://doi.org/10.1109/acssc.2015.7421170",
+    "authors": [
+      "R\u0103zvan Cr\u0103ciunescu",
+      "Albena Mihovska",
+      "Mihail Mihaylov"
+    ]
+  },
+  {
+    "source": "OpenAlex (Physiological Measurement)",
+    "title": "Automatic sleep staging of EEG signals: recent development, challenges, and future directions",
+    "abstract": "Abstract Modern deep learning holds a great potential to transform clinical studies of human sleep. Teaching a machine to carry out routine tasks would be a tremendous reduction in workload for clinicians. Sleep staging, a fundamental step in sleep practice, is a suitable task for this and will be the focus in this article. Recently, automatic sleep-staging systems have been trained to mimic manual scoring, leading to similar performance to human sleep experts, at least on scoring of healthy subjects. Despite tremendous progress, we have not seen automatic sleep scoring adopted widely in clini",
+    "date": "2022",
+    "url": "https://doi.org/10.1088/1361-6579/ac6049",
+    "authors": [
+      "Huy Phan",
+      "Kaare B. Mikkelsen"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Communications Surveys & Tutorials)",
+    "title": "Machine Learning Techniques for Optical Performance Monitoring and Modulation Format Identification: A Survey",
+    "abstract": "The trade-off between more user bandwidth and quality of service requirements introduces unprecedented challenges to the next generation smart optical networks. In this regard, the use of optical performance monitoring (OPM) and modulation format identification (MFI) techniques becomes a common need to enable the development of next-generation autonomous optical networks, with ultra-low latency and self-adaptability. Recently, machine learning (ML)-based techniques have emerged as a vital solution to many challenging aspects of OPM and MFI in terms of reliability, quality, and implementation e",
+    "date": "2020",
+    "url": "https://doi.org/10.1109/comst.2020.3018494",
+    "authors": [
+      "Waddah S. Saif",
+      "Maged Abdullah Esmail",
+      "Amr M. Ragheb"
+    ]
+  },
+  {
+    "source": "OpenAlex (Telecom)",
+    "title": "6G Mobile Networks: Key Technologies, Directions, and Advances",
+    "abstract": "The exponential growth of the fifth-generation (5G) network gives businesses and universities a chance to turn their attention to the next-generation network. It is widely acknowledged that many IoT devices require more than 5G to send various types of data in real-time. In addition to 5G, several research centres are currently concentrating on 6G, which is expected to produce networks with great quality of service (QoS) and energy efficiency. Future application requirements will necessitate a significant upgrade in mobile network architecture. 6G technologies offer larger networks with lower ",
+    "date": "2023",
+    "url": "https://doi.org/10.3390/telecom4040037",
+    "authors": [
+      "Ramraj Dangi",
+      "Gaurav Choudhary",
+      "Nicola Dragoni"
+    ]
+  },
+  {
+    "source": "OpenAlex (Sensors)",
+    "title": "EEG-Based BCIs on Motor Imagery Paradigm Using Wearable Technologies: A Systematic Review",
+    "abstract": "In recent decades, the automatic recognition and interpretation of brain waves acquired by electroencephalographic (EEG) technologies have undergone remarkable growth, leading to a consequent rapid development of brain-computer interfaces (BCIs). EEG-based BCIs are non-invasive systems that allow communication between a human being and an external device interpreting brain activity directly. Thanks to the advances in neurotechnologies, and especially in the field of wearable devices, BCIs are now also employed outside medical and clinical applications. Within this context, this paper proposes ",
+    "date": "2023",
+    "url": "https://doi.org/10.3390/s23052798",
+    "authors": [
+      "Aurora Saibene",
+      "Mirko Caglioni",
+      "Silvia Corchs"
+    ]
+  },
+  {
+    "source": "OpenAlex (Periodicals of Engineering and Natural Sciences (PEN))",
+    "title": "Artificial intelligence in computer networks",
+    "abstract": "Artificial Intelligence (AI) has been defined as a modern and intense scientific topic that enables computer-based systems or embedded systems to divide and solve problems by simulating complex biological procedures that are represented by specific algorithms along with (learning, reasoning, as well as self-correction). The present study provides a detailed assessment and review of applications of various artificial intelligence approaches for the purpose of improving the general efficiency of optical communication structures and networks and network systems in general. Using the AI-based appr",
+    "date": "2022",
+    "url": "https://doi.org/10.21533/pen.v10i1.2616",
+    "authors": [
+      "Tanya Abdulsattar Jaber"
+    ]
+  }
+]

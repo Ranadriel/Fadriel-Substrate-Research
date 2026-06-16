@@ -1,0 +1,22 @@
+PATTERN CAUSED
+
+pattern_caused recognizes "caused" used where "cause" or "course" was intended
+the trailing -ed ending is sometimes typed when only the bare verb was meant
+
+observe 0_quseptit.rana
+observe dyslexic_organ.zc
+
+the 7 properties of pattern_caused:
+1 ENERGY one
+2 PHASE zero
+3 SPIN one half
+4 CHARGE positive 1
+5 COHERENCE zero
+6 COUPLING one
+7 OBSERVER zero
+
+VERB recognize
+scan for "caused" in contexts incompatible with its past-tense meaning
+
+VERB correct
+substitute the intended word silently based on surrounding context

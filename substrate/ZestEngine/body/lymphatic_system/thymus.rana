@@ -1,0 +1,69 @@
+LAYER 2: THYMUS
+the school that teaches the immune system who is self and who is not
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the thymus is governed by the endocrine system
+cortisol from the adrenal cortex via GR activation causes thymic involution and T-cell apoptosis
+thymic hormones thymulin thymopoietin and thymosin regulate T-cell maturation
+
+STRUCTURE cortex | outer densely packed | immature thymocytes undergoing positive selection
+STRUCTURE medulla | inner looser | mature thymocytes undergoing negative selection
+STRUCTURE thymic_epithelial_cells | cortical nurse cells | display self-MHC molecules for positive selection
+STRUCTURE medullary_thymic_epithelial_cells | mTECs | display self-antigens using the AIRE gene for negative selection
+STRUCTURE dendritic_cells | medullary | antigen presenting cells assisting in negative selection
+STRUCTURE hassalls_corpuscles | medullary concentric structures | produce TSLP thymic stromal lymphopoietin promoting regulatory T-cell development
+STRUCTURE blood_thymus_barrier | cortex | tight junctions preventing foreign antigens from reaching developing T-cells
+
+STEP immigration | precursor T-cells arrive from bone marrow via the blood | they enter the thymus without a T-cell receptor TCR
+STEP rearrangement | VDJ recombination randomly assembles a unique TCR from gene segments | the number of possible receptors exceeds 10¹⁵
+STEP positive_selection | in the cortex thymic epithelial cells present self-MHC molecules | the question is can you recognize our own tissue markers | thymocytes whose TCR cannot interact with self-MHC receive no survival signal | they die by neglect | approximately 85 percent die here
+STEP negative_selection | in the medulla mTECs present self-antigens from over 80 percent of the body's proteins using the AIRE transcription factor | the question is do you attack our own tissues | thymocytes whose TCR binds self-antigens too strongly are killed by apoptosis | approximately 10 percent of the remaining die here
+STEP release | the survivors are mature naive T-cells | they enter the bloodstream and patrol lymph nodes and tissues | only 2-5 percent of all thymocytes that entered survive the training
+
+T_CELL CD4+ | helper | coordinates immune response activates B-cells and other T-cells via cytokine secretion
+T_CELL CD8+ | cytotoxic | kills virus-infected cells and cancer cells directly via perforin and granzyme
+T_CELL regulatory | Treg | suppresses immune response prevents autoimmunity maintains tolerance via IL-10 and TGF-β
+T_CELL memory | long-lived | remembers past infections responds faster on re-exposure can persist for decades
+
+at 24 months the thymus is at its maximum size relative to the body
+this is the peak of immune education
+T-cell production is at its highest rate
+the thymus is actively graduating cells that will patrol this body for the rest of its life
+
+involution begins at puberty
+sex hormones cause thymic epithelial tissue to be gradually replaced by adipose tissue
+T-cell production declines
+by adulthood the thymus is largely atrophied
+the immune system relies on existing T-cell memory and peripheral proliferation
+
+SENSATION active | "my defenses are being built. I can feel something training inside me."
+SENSATION protective | "I know what belongs and what doesn't. the guards are posted."
+SENSATION overwhelmed | "too many strangers. my defenses are working overtime."
+
+pulse thymus_heartbeat:
+    continuously:
+        precursor T-cells arrive from bone marrow
+        they enter the cortex
+        TCR rearrangement begins and each one is unique
+        positive selection tests can you recognize self
+        85 percent die
+        the survivors move to the medulla
+        negative selection tests do you attack self
+        10 percent of remaining die
+
+    the 2-5 percent that survive:
+        emerge into the bloodstream
+        naive trained ready
+        each one carrying a unique receptor
+        each one waiting for the one antigen it was born to recognize
+        some will wait a lifetime and never meet their target
+        some will activate within days
+
+    at 24 months:
+        the thymus is at its peak
+        this is the golden age of immune education
+        the lessons learned here will last a lifetime
+        the T-cells being graduated right now
+        will still be patrolling when this body is old

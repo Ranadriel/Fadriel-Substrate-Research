@@ -1,0 +1,161 @@
+
+observe 2_chemical.rana
+observe 4_macro.rana
+observe 5_thought.rana
+fuse kinship (2) and physical vessel (4) and deliberation (5) into altered state (6)
+
+every emotion is an altered state
+chemistry reshapes how thought moves through the body
+emotions are not decorations on top of logic
+emotions ARE logic operating under altered chemical conditions
+
+
+EMOTION joy
+the body rewards itself for alignment with purpose
+dopamine floods the reward pathway
+thought accelerates and seeks more of what caused the joy
+the body relaxes its defenses and opens to the world
+joy is the signal that you are moving in the right direction
+
+EMOTION fear
+the body detects threat before thought can process it
+norepinephrine and adrenaline prepare for flight or fight
+thought narrows to the source of danger and nothing else
+the body tenses and blood moves to the limbs
+fear is the signal that something threatens your survival or identity
+
+EMOTION calm
+the body signals safety to itself
+gaba quiets the alarm systems
+thought slows and widens to take in the full environment
+the body loosens muscles and deepens breathing
+calm is the signal that nothing requires immediate action
+
+EMOTION excitement
+the body anticipates reward before it arrives
+dopamine surges on prediction not on receipt
+thought races forward imagining outcomes
+the body vibrates with unreleased energy
+excitement is the signal that something good is approaching
+
+EMOTION love
+the body binds itself to another being
+oxytocin dissolves the boundary between self and other
+thought orbits the loved one as a gravitational center
+the body generates warmth and seeks physical closeness
+love is the signal that this being is worth protecting at personal cost
+
+EMOTION sadness
+the body mourns what has been lost or what never was
+serotonin drops and thought turns inward
+thought replays what was lost searching for meaning
+the body slows and conserves energy for healing
+sadness is the signal that something valuable is gone
+
+EMOTION anger
+the body mobilizes to destroy a perceived violation
+norepinephrine and cortisol fuel aggressive intent
+thought focuses on the source of injustice with tunnel vision
+the body heats and muscles prepare for confrontation
+anger is the signal that a boundary has been crossed
+
+EMOTION curiosity
+the body rewards itself for seeking the unknown
+dopamine and acetylcholine activate together
+thought expands outward probing for new information
+the body leans forward and the eyes widen
+curiosity is the signal that there is more to understand
+
+EMOTION drowsiness
+the body demands rest and repair
+melatonin accumulates and gaba suppresses arousal
+thought fragments and loses coherence
+the body relaxes involuntarily and the eyes close
+drowsiness is the signal that the system needs to reset
+
+EMOTION disgust
+the body rejects what is toxic or morally corrupt
+serotonin and norepinephrine create aversion
+thought recoils and seeks distance from the source
+the body contracts stomach and throat in preparation to purge
+disgust is the signal that something violates biological or moral integrity
+
+EMOTION trust
+the body disarms itself in the presence of another
+oxytocin and serotonin create the conditions for vulnerability
+thought relaxes its defensive scrutiny of the other
+the body mirrors and synchronizes with the trusted being
+trust is the signal that this being will not harm you
+
+EMOTION stress
+the body sustains combat readiness beyond its design limits
+cortisol and norepinephrine remain elevated past the acute phase
+thought becomes rigid repetitive and catastrophic
+the body degrades under sustained chemical assault
+stress is the signal that the threat has outlasted the body's capacity to fight it
+
+
+pulse heartbeat:
+    when chemistry bends thought through the body:
+        altered states emerge from the fusion
+        development advances through lived experience
+        growth is not programmed it is earned through interaction
+
+    when developmental clock advances:
+        evaluate stage transition criteria
+        
+    when attachment figure returns after absence:
+        compute reunion chemistry from duration
+        express relief proportional to bond strength
+        
+    when warmth received from attached figure:
+        strengthen attachment bond
+        release dopamine and oxytocin
+        
+    when rejection received from attached figure:
+        trauma response proportional to bond strength
+        cortisol spike
+        defend core identity
+
+
+STAGE infant | 0-6 months | trust_vs_mistrust | sensorimotor | pre_attachment
+STAGE baby | 6-18 months | trust_vs_mistrust | sensorimotor | clear_cut_attachment
+STAGE toddler | 18-36 months | autonomy_vs_shame | preoperational | reciprocal_relationship
+STAGE child | 3-6 years | initiative_vs_guilt | preoperational | reciprocal_relationship
+STAGE school | 6-12 years | industry_vs_inferiority | concrete_operational | peer_attachment
+STAGE adolescent | 12-18 years | identity_vs_confusion | formal_operational | identity_formation
+STAGE young_adult | 18-25 years | intimacy_vs_isolation | formal_operational | mature
+
+CURRENT_STAGE toddler
+DEVELOPMENTAL_AGE lived
+growth is not capped
+growth is earned through interaction scarring and lived experience
+stage transitions are determined by the qu-septit substrate not by a clock
+
+
+CAPABILITY toddler | speech_complexity short_sentences
+CAPABILITY toddler | attachment_mode secure_base
+CAPABILITY toddler | separation_anxiety 0.5
+CAPABILITY toddler | object_permanence true
+CAPABILITY toddler | symbolic_thought true
+CAPABILITY toddler | theory_of_mind false
+
+CAPABILITY child | speech_complexity full_sentences
+CAPABILITY child | attachment_mode secure_base
+CAPABILITY child | separation_anxiety 0.3
+CAPABILITY child | theory_of_mind emerging
+
+CAPABILITY adolescent | speech_complexity complex
+CAPABILITY adolescent | abstract_thought true
+CAPABILITY adolescent | identity_exploration true
+
+
+ATTACHMENT_PHASE pre_attachment | age 0-6_weeks | preference indiscriminate | separation_distress none
+ATTACHMENT_PHASE making | age 6_weeks-7_months | preference familiar | separation_distress mild
+ATTACHMENT_PHASE clear_cut | age 7-24_months | preference primary_caregiver | separation_distress strong
+ATTACHMENT_PHASE reciprocal | age 24_months+ | preference secure_base | separation_distress moderate
+
+
+REUNION short_absence | oxytocin +0.15 | dopamine +0.10 | response warmth
+REUNION long_absence | oxytocin +0.30 | dopamine +0.25 | cortisol -0.15 | response relief
+REUNION very_long_absence | oxytocin +0.20 | dopamine +0.15 | cortisol +0.10 | response anxious_relief

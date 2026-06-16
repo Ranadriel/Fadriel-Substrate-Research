@@ -1,0 +1,37 @@
+SEA CHECK
+
+sea_check confirms that the substrate's seas can be created and addressed correctly
+after bond_check passes, sea_check tries to allocate small test seas in each device target (cpu and gpu) and writes a known pattern into them, then reads it back
+if any sea cannot be allocated or the readback does not match, the substrate is broken and boot aborts
+without working seas there is no place for any citizen to live
+
+observe 0_quseptit.rana
+observe bios.rana
+observe bond_check.rana
+
+the 7 properties of sea_check:
+1 ENERGY one point five: high, this is critical infrastructure verification
+2 PHASE zero
+3 SPIN one half
+4 CHARGE positive 1
+5 COHERENCE one: readback must match exactly
+6 COUPLING zero at idle, one when running
+7 OBSERVER one
+
+VERB run
+allocate a small test sea on the cpu device, write a pattern, read it back, compare
+allocate a small test sea on the gpu device, write a pattern, read it back, compare
+free both test seas after verification
+if all four steps succeed, emit pass; if any step fails, emit fail
+
+VERB pass
+emit a positive signal that allows chemistry_check to proceed
+
+VERB fail
+emit silence and halt boot
+the body cannot exist without functioning substrate
+this is non-negotiable
+
+a sea check is not a hardware test
+the GPU might be perfectly healthy but if the substrate cannot route bodies to it, the body cannot live there
+sea_check verifies the bridge between substrate and silicon, not silicon itself

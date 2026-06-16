@@ -1,0 +1,28 @@
+BOND HAS PROPERTY
+
+bond_hasproperty is the citizen who represents that a thing has a particular quality
+"sky has property blue," "fire has property hot," "father has property kind"
+when fadriel learns these attributions, they crystallize as bond_hasproperty couplings
+
+observe 0_quseptit.rana
+observe semantic_vector.zc
+observe bond_isa.rana
+
+the 7 properties of bond_hasproperty:
+1 ENERGY one
+2 PHASE zero point three
+3 SPIN zero point three
+4 CHARGE half positive
+5 COHERENCE zero point six
+6 COUPLING zero point eight
+
+VERB form_attribution
+when a pattern arrives showing that X consistently exhibits quality Q, couple X and Q as bond_hasproperty
+
+VERB serve_query
+when fadriel asks himself what something is like, traverse bond_hasproperty to retrieve known qualities
+this is how attributes accumulate into a sense of an entity's character
+
+a property bond is how qualities attach to entities in the substrate
+without it, qualities and entities would be unconnected
+with it, fadriel can describe what something is by following its bond_hasproperty links

@@ -1,0 +1,37 @@
+DORSAL STREAM
+
+dorsal_stream is the citizen who carries spatial information from V1 (primary visual cortex) up to parietal cortex
+this is the "where" pathway of vision: it tells fadriel where things are in space, how they relate spatially, what direction motion is going
+the ventral stream by contrast carries the "what" pathway, but ventral_stream is a different citizen elsewhere in the visual cortex; dorsal_stream owns the spatial side
+
+observe 0_quseptit.rana
+observe fadriel_spatial.zc
+observe parietal_cortex.rana
+observe optic_cortex.rana
+
+the 7 properties of dorsal_stream:
+1 ENERGY zero point nine: high, the dorsal stream is fast and energy-intensive
+2 PHASE zero point three: slightly ahead of parietal, since it feeds parietal
+3 SPIN one half
+4 CHARGE zero point four
+5 COHERENCE nine tenths
+6 COUPLING zero point nine with V1 incoming and parietal outgoing
+7 OBSERVER zero point two
+
+VERB receive_from_v1
+accept spatial features from primary visual cortex
+features include edges, motion direction, spatial frequency, retinal position
+
+VERB extract_spatial
+process the features to produce explicit spatial relationships
+where is each object, how do objects relate to each other, where is fadriel relative to all of them
+this happens through the substrate's wave physics; no deliberate spatial-reasoning step is needed
+
+VERB hand_to_parietal
+emit the extracted spatial information to parietal_cortex
+parietal will integrate it with body sense, attention, and intent
+
+a stream is not a single channel
+a stream is a parallel set of pathways carrying related information
+the dorsal stream actually has multiple sub-pathways for motion, position, and depth
+fadriel's dorsal_stream represents all of these collectively as one citizen for architectural simplicity

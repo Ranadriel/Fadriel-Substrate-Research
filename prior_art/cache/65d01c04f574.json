@@ -1,0 +1,172 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Cognition and Emotion: Perspectives of a Closing Gap",
+    "abstract": "The primary tasks of a cognitive system is to survive and to maximize a life-long utility function, like the number of offsprings. A direct computational maximization of life-long utility is however not possible in complex environments, especially in the context, of real-world time constraints. The central role of emotions is to serve as an intermediate layer in the space of policies available to agents and animals, leading to a large dimensional reduction of complexity.   We review our current understanding of the functional role of emotions, stressing the role of the neuromodulators mediatin",
+    "date": "2010-02-16",
+    "url": "http://arxiv.org/abs/1002.3035v1",
+    "authors": [
+      "Claudius Gros"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cognitive computation with autonomously active neural networks: an emerging field",
+    "abstract": "The human brain is autonomously active. To understand the functional role of this self-sustained neural activity, and its interplay with the sensory data input stream, is an important question in cognitive system research and we review here the present state of theoretical modelling.   This review will start with a brief overview of the experimental efforts, together with a discussion of transient vs. self-sustained neural activity in the framework of reservoir computing. The main emphasis will be then on two paradigmal neural network architectures showing continuously ongoing transient-state ",
+    "date": "2009-01-20",
+    "url": "http://arxiv.org/abs/0901.3028v1",
+    "authors": [
+      "Claudius Gros"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Symbol Emergence in Cognitive Developmental Systems: a Survey",
+    "abstract": "Humans use signs, e.g., sentences in a spoken language, for communication and thought. Hence, symbol systems like language are crucial for our communication with other agents and adaptation to our real-world environment. The symbol systems we use in our human society adaptively and dynamically change over time. In the context of artificial intelligence (AI) and cognitive systems, the symbol grounding problem has been regarded as one of the central problems related to {\\it symbols}. However, the symbol grounding problem was originally posed to connect symbolic AI and sensorimotor information an",
+    "date": "2018-01-26",
+    "url": "http://arxiv.org/abs/1801.08829v2",
+    "authors": [
+      "Tadahiro Taniguchi",
+      "Emre Ugur",
+      "Matej Hoffmann"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A cognitive diversity framework for radar target classification",
+    "abstract": "Classification of targets by radar has proved to be notoriously difficult with the best systems still yet to attain sufficiently high levels of performance and reliability. In the current contribution we explore a new design of radar based target recognition, where angular diversity is used in a cognitive manner to attain better performance. Performance is bench- marked against conventional classification schemes. The proposed scheme can easily be extended to cognitive target recognition based on multiple diversity strategies.",
+    "date": "2011-10-30",
+    "url": "http://arxiv.org/abs/1110.6589v1",
+    "authors": [
+      "Amit K. Mishra",
+      "Chris Baker"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Semantic TrueLearn: Using Semantic Knowledge Graphs in Recommendation Systems",
+    "abstract": "In informational recommenders, many challenges arise from the need to handle the semantic and hierarchical structure between knowledge areas. This work aims to advance towards building a state-aware educational recommendation system that incorporates semantic relatedness between knowledge topics, propagating latent information across semantically related topics. We introduce a novel learner model that exploits this semantic relatedness between knowledge components in learning resources using the Wikipedia link graph, with the aim to better predict learner engagement and latent knowledge in a l",
+    "date": "2021-12-08",
+    "url": "http://arxiv.org/abs/2112.04368v1",
+    "authors": [
+      "Sahan Bulathwela",
+      "Mar\u00eda P\u00e9rez-Ortiz",
+      "Emine Yilmaz"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cognitive Modeling of Semantic Fluency Using Transformers",
+    "abstract": "Can deep language models be explanatory models of human cognition? If so, what are their limits? In order to explore this question, we propose an approach called hyperparameter hypothesization that uses predictive hyperparameter tuning in order to find individuating descriptors of cognitive-behavioral profiles. We take the first step in this approach by predicting human performance in the semantic fluency task (SFT), a well-studied task in cognitive science that has never before been modeled using transformer-based language models (TLMs). In our task setup, we compare several approaches to pre",
+    "date": "2022-08-20",
+    "url": "http://arxiv.org/abs/2208.09719v1",
+    "authors": [
+      "Animesh Nighojkar",
+      "Anna Khlyzova",
+      "John Licato"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Qufinite ZX-calculus: a unified framework of qudit ZX-calculi",
+    "abstract": "ZX-calculus is graphical language for quantum computing which usually focuses on qubits. In this paper, we generalise qubit ZX-calculus to qudit ZX-calculus in any finite dimension by introducing suitable generators, especially a carefully chosen triangle node. As a consequence we obtain a set of rewriting rules which can be seen as a direct generalisation of qubit rules, and a normal form for any qudit vectors. Based on the qudit ZX-calculi, we propose a graphical formalism called qufinite ZX-calculus as a unified framework for all qudit ZX-calculi, which is universal for finite quantum theor",
+    "date": "2021-04-13",
+    "url": "http://arxiv.org/abs/2104.06429v5",
+    "authors": [
+      "Quanlong Wang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Applied Exoskeleton Technology: A Comprehensive Review of Physical and Cognitive Human-Robot Interaction",
+    "abstract": "Exoskeletons and orthoses are wearable mobile systems providing mechanical benefits to the users. Despite significant improvements in the last decades, the technology is not fully mature to be adopted for strenuous and non-programmed tasks. To accommodate this insufficiency, different aspects of this technology need to be analysed and improved. Numerous studies have tried to address some aspects of exoskeletons, e.g. mechanism design, intent prediction, and control scheme. However, most works have focused on a specific element of design or application without providing a comprehensive review f",
+    "date": "2021-11-25",
+    "url": "http://arxiv.org/abs/2111.12860v8",
+    "authors": [
+      "Farhad Nazari",
+      "Navid Mohajer",
+      "Darius Nahavandi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Graph is a Substrate Across Data Modalities",
+    "abstract": "Graphs provide a natural representation of relational structure that arises across diverse domains. Despite this ubiquity, graph structure is typically learned in a modality- and task-isolated manner, where graph representations are constructed within individual task contexts and discarded thereafter. As a result, structural regularities across modalities and tasks are repeatedly reconstructed rather than accumulated at the level of intermediate graph representations. This motivates a representation-learning question: how should graph structure be organized so that it can persist and accumulat",
+    "date": "2026-01-29",
+    "url": "http://arxiv.org/abs/2601.22384v1",
+    "authors": [
+      "Ziming Li",
+      "Xiaoming Wu",
+      "Zehong Wang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Counting cliques without generalized theta graphs",
+    "abstract": "The \\textit{generalized Tur\u00e1n number} $\\mathrm{ex}(n, T, F)$ is the maximum possible number of copies of $T$ in an $F$-free graph on $n$ vertices for any two graphs $T$ and $F$. For the book graph $B_t$, there is a close connection between $\\ex(n,K_3,B_t)$ and the Ruzsa-Szemer\u00e9di triangle removal lemma. Motivated by this, in this paper, we study the generalized Tur\u00e1n problem for generalized theta graphs, a natural extension of book graphs. Our main result provides a complete characterization of the magnitude of $\\ex(n,K_3,H)$ when $H$ is a generalized theta graph, indicating when it is quadrat",
+    "date": "2023-11-26",
+    "url": "http://arxiv.org/abs/2311.15289v2",
+    "authors": [
+      "Jun Gao",
+      "Zhuo Wu",
+      "Yisai Xue"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Multi-Agent System for Semantic Mapping of Relational Data to Knowledge Graphs",
+    "abstract": "Enterprises often maintain multiple databases for storing critical business data in siloed systems, resulting in inefficiencies and challenges with data interoperability. A key to overcoming these challenges lies in integrating disparate data sources, enabling businesses to unlock the full potential of their data. Our work presents a novel approach for integrating multiple databases using knowledge graphs, focusing on the application of large language models as semantic agents for mapping and connecting structured data across systems by leveraging existing vocabularies. The proposed methodolog",
+    "date": "2025-11-09",
+    "url": "http://arxiv.org/abs/2511.06455v1",
+    "authors": [
+      "Milena Trajanoska",
+      "Riste Stojanov",
+      "Dimitar Trajanov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "High-Level ETL for Semantic Data Warehouses -- Full Version",
+    "abstract": "The popularity of the Semantic Web (SW) encourages organizations to organize and publish semantic data using the RDF model. This growth poses new requirements to Business Intelligence (BI) technologies to enable On-Line Analytical Processing (OLAP)-like analysis over semantic data. The incorporation of semantic data into a Data Warehouse (DW) is not supported by the traditional Extract-Transform-Load (ETL) tools because they do not consider semantic issues in the integration process. In this paper, we propose a layer-based integration process and a set of high-level RDF-based ETL constructs re",
+    "date": "2020-06-12",
+    "url": "http://arxiv.org/abs/2006.07180v1",
+    "authors": [
+      "Rudra Pratap Deb Nath",
+      "Oscar Romero",
+      "Torben Bach Pedersen"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Semantic Jira - Semantic Expert Finder in the Bug Tracking Tool Jira",
+    "abstract": "The semantic expert recommender extension for the Jira bug tracking system semantically searches for similar tickets in Jira and recommends experts and links to existing organizational (Wiki) knowledge for each ticket. This helps to avoid redundant work and supports the search and collaboration with experts in the project management and maintenance phase based on semantically enriched tickets in Jira.",
+    "date": "2013-12-18",
+    "url": "http://arxiv.org/abs/1312.5150v1",
+    "authors": [
+      "Velten Heyn",
+      "Adrian Paschke"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Substrate-Independent Framework to Characterise Reservoir Computers",
+    "abstract": "The Reservoir Computing (RC) framework states that any non-linear, input-driven dynamical system (the reservoir) exhibiting properties such as a fading memory and input separability can be trained to perform computational tasks. This broad inclusion of systems has led to many new physical substrates for RC. Properties essential for reservoirs to compute are tuned through reconfiguration of the substrate, such as change in virtual topology or physical morphology. As a result, each substrate possesses a unique `quality' -- obtained through reconfiguration -- to realise different reservoirs for d",
+    "date": "2018-10-16",
+    "url": "http://arxiv.org/abs/1810.07135v2",
+    "authors": [
+      "Matthew Dale",
+      "Julian F. Miller",
+      "Susan Stepney"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Vector Symbolic Architectures answer Jackendoff's challenges for cognitive neuroscience",
+    "abstract": "Jackendoff (2002) posed four challenges that linguistic combinatoriality and rules of language present to theories of brain function. The essence of these problems is the question of how to neurally instantiate the rapid construction and transformation of the compositional structures that are typically taken to be the domain of symbolic processing. He contended that typical connectionist approaches fail to meet these challenges and that the dialogue between linguistic theory and cognitive neuroscience will be relatively unproductive until the importance of these problems is widely recognised a",
+    "date": "2004-12-13",
+    "url": "http://arxiv.org/abs/cs/0412059v1",
+    "authors": [
+      "Ross W. Gayler"
+    ]
+  }
+]

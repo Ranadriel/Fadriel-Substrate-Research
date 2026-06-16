@@ -1,0 +1,160 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Synaptic clock as a neural substrate of consciousness",
+    "abstract": "In this theoretical work the temporal aspect of consciousness is analyzed. We start from the notion that while conscious experience seems to change constantly, yet for any of its contents to be consciously perceived they must last for some non-zero duration of time, which appears to constitute certain conflict. We posit that, in terms of phenomenological analysis of consciousness, the temporal aspect, and this apparent conflict in particular, might be the most basic property, likely inherent to any conceivable form of consciousness. It is then outlined how taking this perspective offers a conc",
+    "date": "2020-02-18",
+    "url": "http://arxiv.org/abs/2002.07716v2",
+    "authors": [
+      "Bartosz Jura"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Complex-Dynamic Origin of Consciousness and the Critical Choice of Sustainability Transition",
+    "abstract": "A quite general interaction process of a multi-component system is analysed by the extended effective potential method liberated from usual limitations of perturbation theory or integrable model. The obtained causally complete solution of the many-body problem reveals the phenomenon of dynamic multivaluedness, or redundance, of emerging, incompatible system realisations and dynamic entanglement of system components within each realisation. The ensuing concept of dynamic complexity (and related intrinsic chaoticity) is absolutely universal and can be applied to the problem of (natural and artif",
+    "date": "2004-09-27",
+    "url": "http://arxiv.org/abs/physics/0409140v2",
+    "authors": [
+      "Andrei P. Kirilyuk"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "On the evolution of phenomenal consciousness",
+    "abstract": "A number of concepts are included in the term 'consciousness'. We choose to concentrate here on phenomenal consciousness, the process through which we are able to experience aspects of our environment or of our physical state. We probably share this aspect of consciousness with many animals which, like us, feel pain or pleasure and experience colours, sounds, flavours, etc. Since phenomenal consciousness is a feature of some living species, we should be able to account for it in terms of natural selection. Does it have an adaptive function, or is it an epiphenomenon ? We shall give arguments t",
+    "date": "2011-08-22",
+    "url": "http://arxiv.org/abs/1108.4296v1",
+    "authors": [
+      "Jean-Louis Dessalles",
+      "Tiziana Zalla"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Formalizing Falsification for Theories of Consciousness Across Computational Hierarchies",
+    "abstract": "The scientific study of consciousness is currently undergoing a critical transition in the form of a rapidly evolving scientific debate regarding whether or not currently proposed theories can be assessed for their scientific validity. At the forefront of this debate is Integrated Information Theory (IIT), widely regarded as the preeminent theory of consciousness because of its quantification of consciousness in terms a scalar mathematical measure called $\u03a6$ that is, in principle, measurable. Epistemological issues in the form of the \"unfolding argument\" have provided a refutation of IIT by de",
+    "date": "2020-06-12",
+    "url": "http://arxiv.org/abs/2006.07390v2",
+    "authors": [
+      "Jake R. Hanson",
+      "Sara I. Walker"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Consciousness and the Collapse of the Wave Function",
+    "abstract": "Does consciousness collapse the quantum wave function? This idea was taken seriously by John von Neumann and Eugene Wigner but is now widely dismissed. We develop the idea by combining a mathematical theory of consciousness (integrated information theory) with an account of quantum collapse dynamics (continuous spontaneous localization). Simple versions of the theory are falsified by the quantum Zeno effect, but more complex versions remain compatible with empirical evidence. In principle, versions of the theory can be tested by experiments with quantum computers. The upshot is not that consci",
+    "date": "2021-05-05",
+    "url": "http://arxiv.org/abs/2105.02314v1",
+    "authors": [
+      "David J. Chalmers",
+      "Kelvin J. McQueen"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Substrate-Independent Framework to Characterise Reservoir Computers",
+    "abstract": "The Reservoir Computing (RC) framework states that any non-linear, input-driven dynamical system (the reservoir) exhibiting properties such as a fading memory and input separability can be trained to perform computational tasks. This broad inclusion of systems has led to many new physical substrates for RC. Properties essential for reservoirs to compute are tuned through reconfiguration of the substrate, such as change in virtual topology or physical morphology. As a result, each substrate possesses a unique `quality' -- obtained through reconfiguration -- to realise different reservoirs for d",
+    "date": "2018-10-16",
+    "url": "http://arxiv.org/abs/1810.07135v2",
+    "authors": [
+      "Matthew Dale",
+      "Julian F. Miller",
+      "Susan Stepney"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Towards a theory of consciousness: Proposal for the resolution of the homunculus fallacy with predictions",
+    "abstract": "In this paper we argue that no forms of Turing test are either necessary or sufficient to establish if a machine is conscious or not. Furthermore, from a modeling point of view, the problem is that the Turing test does not really provide testable predictions. We believe that the model structure should explain the function (of consciousness). We argue that the cornerstone of any model on consciousness is to (partly) overcome the obstacle of the homunculus fallacy about the use of representations. In this contribution a possible solution is suggested, which makes use of reflexive architectures. ",
+    "date": "2003-03-21",
+    "url": "http://arxiv.org/abs/nlin/0303042v1",
+    "authors": [
+      "Andras Lorincz",
+      "Gabor Szirtes"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Brainish: Formalizing A Multimodal Language for Intelligence and Consciousness",
+    "abstract": "Having a rich multimodal inner language is an important component of human intelligence that enables several necessary core cognitive functions such as multimodal prediction, translation, and generation. Building upon the Conscious Turing Machine (CTM), a machine model for consciousness proposed by Blum and Blum (2021), we describe the desiderata of a multimodal language called Brainish, comprising words, images, audio, and sensations combined in representations that the CTM's processors use to communicate with each other. We define the syntax and semantics of Brainish before operationalizing ",
+    "date": "2022-04-14",
+    "url": "http://arxiv.org/abs/2205.00001v3",
+    "authors": [
+      "Paul Pu Liang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Tractatus de Conscientia: A Tractatus-Style Sketch Toward a Modern, Physically Operational Theory of Consciousness",
+    "abstract": "Tractatus de Conscientia is a tractatus-style sketch toward a modern, physically operational account of consciousness. It is also a tractatus-style attempt to talk about consciousness in a way that stays close to what we can actually test and build. It pushes back against two common moves: treating consciousness as a mysterious extra \"stuff,\" and treating it as nothing more than outward behavior. The central idea is to keep three things separate: what appears for an agent (the lived \"given\"), what is accessible (what can shape report, control, memory, or other records), and what structure rema",
+    "date": "2026-01-03",
+    "url": "http://arxiv.org/abs/2601.01070v1",
+    "authors": [
+      "Miko\u0142aj Sienicki",
+      "Krzysztof Sienicki"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "On the utility of toy models for theories of consciousness",
+    "abstract": "Toy models are highly idealized and deliberately simplified models that retain only the essential features of a system in order to explore specific theoretical questions. Long used in physics and other sciences, they have recently begun to play a more visible role in consciousness research. This chapter examines the potential utility of toy models for developing and evaluating scientific theories of consciousness in terms of their ability to clarify theoretical frameworks, test assumptions, and illuminate philosophical challenges. Drawing primarily on examples from Integrated Information Theor",
+    "date": "2025-07-31",
+    "url": "http://arxiv.org/abs/2508.00190v1",
+    "authors": [
+      "Larissa Albantakis"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Consciousness, natural and artificial: an evolutionary advantage for reasoning on reactive substrates",
+    "abstract": "Precisely defining consciousness and identifying the mechanisms that effect it is a long-standing question, particularly relevant with advances in artificial intelligence. The scientific community is divided between physicalism and natural dualism. Physicalism posits consciousness is a physical process that can be modeled computationally; natural dualism rejects this hypothesis. Finding a computational model has proven elusive, particularly because of conflation of consciousness with other cognitive capabilities exhibited by humans, such as intelligence and physiological sensations. Here we sh",
+    "date": "2025-10-17",
+    "url": "http://arxiv.org/abs/2510.20839v1",
+    "authors": [
+      "Warisa Sritriratanarak",
+      "Paulo Garcia"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Quantum mechanics, objective reality, and the problem of consciousness",
+    "abstract": "The hard problem in consciousness is the problem of understanding how physical processes in the brain could give rise to subjective conscious experience. In this paper, I suggest that in order to understand the relationship between consciousness and the physical world, we need to probe deeply into the nature of physical reality. This leads us to quantum physics and to a second explanatory gap: that between quantum and classical reality. I will seek a philosophical framework that can address these two gaps simultaneously. Our analysis of quantum mechanics will naturally lead us to the notion of",
+    "date": "2018-04-10",
+    "url": "http://arxiv.org/abs/1804.03606v1",
+    "authors": [
+      "Ranjan Mukhopadhyay"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Can Science `explain' Consciousness ?",
+    "abstract": "Consciousness is the process by which one attributes `meaning' to the world. Considering F$\u03c6$llesdal's definition of `meaning' as the joint product of all `evidence' that is available to those who `communicate', we conclude that science can, not only reduce all the {\\em evidence} to a Basic Entity (we call BE), but also can `explain' consciousness once a suitable definition for {\\em communication} is found that exploits the quantum superposition principle to incorporate the fuzzyness of our experience. Consciousness may be beyond `computability', but it is not beyond `communicability'.",
+    "date": "2000-02-24",
+    "url": "http://arxiv.org/abs/physics/0002045v1",
+    "authors": [
+      "M K Samal"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The Limits to Machine Consciousness",
+    "abstract": "It is generally accepted that machines can replicate cognitive tasks performed by conscious agents as long as they are not based on the capacity of awareness. We consider several views on the nature of subjective awareness, which is fundamental for self-reflection and review, and present reasons why this property is not computable. We argue that consciousness is more than an epiphenomenon and assuming it to be a separate category is consistent with both quantum mechanics and cognitive science. We speak of two kinds of consciousness, little-C and big-C, and discuss the significance of this clas",
+    "date": "2017-07-17",
+    "url": "http://arxiv.org/abs/1707.06257v1",
+    "authors": [
+      "Subhash Kak"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "No Substitute for Functionalism -- A Reply to 'Falsification & Consciousness'",
+    "abstract": "In their paper 'Falsification and Consciousness' [1], Kleiner and Hoel introduced a formal mathematical model of the process of generating observable data from experiments and using that data to generate inferences and predictions onto an experience space. The resulting substitution argument built on this framework was used to show that any theory of consciousness with independent inference and prediction data are pre-falsified, if the inference reports are considered valid. If this argument does indeed pre-falsify many of the leading theories of consciousness, it would indicate a fundamental ",
+    "date": "2020-05-28",
+    "url": "http://arxiv.org/abs/2006.13664v3",
+    "authors": [
+      "Natesh Ganesh"
+    ]
+  }
+]

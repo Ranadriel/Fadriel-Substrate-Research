@@ -1,0 +1,173 @@
+[
+  {
+    "source": "OpenAlex (Bioengineering)",
+    "title": "A Comprehensive Review on Synergy of Multi-Modal Data and AI Technologies in Medical Diagnosis",
+    "abstract": "Disease diagnosis represents a critical and arduous endeavor within the medical field. Artificial intelligence (AI) techniques, spanning from machine learning and deep learning to large model paradigms, stand poised to significantly augment physicians in rendering more evidence-based decisions, thus presenting a pioneering solution for clinical practice. Traditionally, the amalgamation of diverse medical data modalities (e.g., image, text, speech, genetic data, physiological signals) is imperative to facilitate a comprehensive disease analysis, a topic of burgeoning interest among both researc",
+    "date": "2024",
+    "url": "https://doi.org/10.3390/bioengineering11030219",
+    "authors": [
+      "Xi Xu",
+      "Jianqiang Li",
+      "Zhichao Zhu"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Big Data)",
+    "title": "Challenges and efforts in managing AI trustworthiness risks: a state of knowledge",
+    "abstract": "This paper addresses the critical gaps in existing AI risk management frameworks, emphasizing the neglect of human factors and the absence of metrics for socially related or human threats. Drawing from insights provided by NIST AI RFM and ENISA, the research underscores the need for understanding the limitations of human-AI interaction and the development of ethical and social measurements. The paper explores various dimensions of trustworthiness, covering legislation, AI cyber threat intelligence, and characteristics of AI adversaries. It delves into technical threats and vulnerabilities, inc",
+    "date": "2024",
+    "url": "https://doi.org/10.3389/fdata.2024.1381163",
+    "authors": [
+      "Nineta Polemi",
+      "Isabel Pra\u00e7a",
+      "Kitty Kioskli"
+    ]
+  },
+  {
+    "source": "OpenAlex (Electronics)",
+    "title": "Evaluating Trustworthiness in AI: Risks, Metrics, and Applications Across Industries",
+    "abstract": "Ensuring the trustworthiness of artificial intelligence (AI) systems is critical as they become increasingly integrated into domains like healthcare, finance, and public administration. This paper explores frameworks and metrics for evaluating AI trustworthiness, focusing on key principles such as fairness, transparency, privacy, and security. This study is guided by two central questions: how can trust in AI systems be systematically measured across the AI lifecycle, and what are the trade-offs involved when optimizing for different trustworthiness dimensions? By examining frameworks such as ",
+    "date": "2025",
+    "url": "https://doi.org/10.3390/electronics14132717",
+    "authors": [
+      "Aleksandra Nastoska",
+      "Bojana Jancheska",
+      "Maryan Rizinski"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "Trustworthiness Assurance Assessment for High-Risk AI-Based Systems",
+    "abstract": "This work proposes methodologies for ensuring the trustworthiness of high-risk artificial intelligence (AI) systems (AIS) to achieve compliance with the European Union\u2019s (EU) AI Act. High-risk classified AIS must fulfill seven requirements to be considered trustworthy and human-centric, and subsequently be considered for deployment. These requirements are equally important, mutually supportive, and should be implemented and evaluated throughout the AI lifecycle. The assurance of trustworthiness is influenced by ethical considerations, amongst others. Hence, the operational design domain (ODD) ",
+    "date": "2024",
+    "url": "https://doi.org/10.1109/access.2024.3364387",
+    "authors": [
+      "Georg Stettinger",
+      "Patrick Weissensteiner",
+      "Siddartha Khastgir"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Generative AI in the Construction Industry: A State-of-the-art Analysis",
+    "abstract": "The construction industry is a vital sector of the global economy, but it faces many productivity challenges in various processes, such as design, planning, procurement, inspection, and maintenance. Generative artificial intelligence (AI), which can create novel and realistic data or content, such as text, image, video, or code, based on some input or prior knowledge, offers innovative and disruptive solutions to address these challenges. However, there is a gap in the literature on the current state, opportunities, and challenges of generative AI in the construction industry. This study aims ",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2402.09939",
+    "authors": [
+      "Ridwan Taiwo",
+      "Idris Temitope Bello",
+      "Sulemana Fatoama Abdulai"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Managing Misuse Risk for Dual-Use Foundation Models",
+    "abstract": "i This term, and other terms throughout the document, are defined in Appendix A.ii Executive Order 14110 defines a \"dual-use foundation model\" as \"an AI model that is trained on broad data; generally uses self-supervision; contains at least tens of billions of parameters; is applicable across a wide range of contexts; and that exhibits, or could be easily modified to exhibit, high levels of performance at tasks that pose a serious risk to security, national economic security, national public health or safety, or any combination of those matters, such as by: (i) substantially lowering the barri",
+    "date": "2025",
+    "url": "https://doi.org/10.6028/nist.ai.800-1.2pd",
+    "authors": [
+      "Gaithersburg MD NIST"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "A Review on Vibe Coding: Fundamentals, State-of-the-art, Challenges and Future Directions",
+    "abstract": "Vibe coding-where high-level natural-language directives orchestrate end-to-end software creation-has emerged as a transformative paradigm in modern development. Going beyond token-level autocomplete, vibe coding platforms employ multi-agent pipelines, Retrieval-Augmented Generation (RAG), and dynamic context management to autonomously scaffold entire projects: generating directory structures, Application Programming Interface (API) layers, user interfaces, test suites, and Continuous Integration/Continuous Delivery/Deployment (CI/CD) configurations from conversational prompts. In this review,",
+    "date": "2025",
+    "url": "https://doi.org/10.36227/techrxiv.174681482.27435614/v1",
+    "authors": [
+      "Partha Pratim Ray"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Fraud-R1 : A Multi-Round Benchmark for Assessing the Robustness of LLM Against Augmented Fraud and Phishing Inducements",
+    "abstract": "We introduce Fraud-R1 , a benchmark designed to evaluate LLMs' ability to defend against internet fraud and phishing in dynamic, real-world scenarios.Fraud-R1 comprises 8,564 fraud cases sourced from phishing scams, fake job postings, social media, and news, categorized into 5 major fraud types.Unlike previous benchmarks, Fraud-R1 introduces a multiround evaluation pipeline to assess LLMs' resistance to fraud at different stages, including credibility building, urgency creation, and emotional manipulation.Furthermore, we evaluate 15 LLMs under two settings: (i) Helpful-Assistant, where the LLM",
+    "date": "2025",
+    "url": "https://doi.org/10.18653/v1/2025.findings-acl.226",
+    "authors": [
+      "Shu Yang",
+      "S. S. Zhu",
+      "Zeyu Wu"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Towards AI Transparency and Accountability: A Global Framework for Exchanging Information on AI Systems",
+    "abstract": "We propose that future AI transparency and accountability regulations are based on an open global standard for exchanging information about AI systems, which allows co-existence of potentially conflicting local regulations. Then, we discuss key components of a lightweight and effective AI transparency and/or accountability regulation. To prevent overregulation, the proposed approach encourages collaboration between regulators and industry to create a scalable and cost-efficient mutually beneficial solution. This includes using automated assessments and benchmarks with results transparently com",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2307.13658",
+    "authors": [
+      "Buckley, Warren",
+      "Byrne, Adrian",
+      "Nicholas Perello"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Cybersecurity and Privacy)",
+    "title": "The Erosion of Cybersecurity Zero-Trust Principles Through Generative AI: A Survey on the Challenges and Future Directions",
+    "abstract": "Generative artificial intelligence (AI) and persistent empirical gaps are reshaping the cyber threat landscape faster than Zero-Trust Architecture (ZTA) research can respond. We reviewed 10 recent ZTA surveys and 136 primary studies (2022\u20132024) and found that 98% provided only partial or no real-world validation, leaving several core controls largely untested. Our critique, therefore, proceeds on two axes: first, mainstream ZTA research is empirically under-powered and operationally unproven; second, generative-AI attacks exploit these very weaknesses, accelerating policy bypass and detection ",
+    "date": "2025",
+    "url": "https://doi.org/10.3390/jcp5040087",
+    "authors": [
+      "Dan Xu",
+      "Iqbal Gondal",
+      "Xun Yi"
+    ]
+  },
+  {
+    "source": "OpenAlex (Preprints.org)",
+    "title": "Zero Trust for AI Systems: A Reference Architecture and Assurance Framework",
+    "abstract": "Artificial intelligence systems are rapidly becoming integral to defense, intelligence, and critical infrastructure; yet, existing cybersecurity frameworks provide limited guidance for securing AI-specific components, such as model supply chains and training data pipelines. While Zero Trust Architecture (ZTA) offers a powerful foundation for modern cybersecurity, and while secure MLOps practices and ZT-adjacent controls for ML pipelines have emerged in practitioner literature, these efforts have not been integrated into a comprehensive framework that decomposes AI systems into distinct trust l",
+    "date": "2026",
+    "url": "https://doi.org/10.20944/preprints202602.0085.v1",
+    "authors": [
+      "Robert Campbell"
+    ]
+  },
+  {
+    "source": "OpenAlex (IoT)",
+    "title": "A Two-Stage Hybrid Federated Learning Framework for Privacy-Preserving IoT Anomaly Detection and Classification",
+    "abstract": "The rapid surge of Artificial Internet-of-Things (AIoT) devices has outpaced the deployment of robust, privacy-preserving anomaly detection solutions suitable for resource-constrained edge environments. This paper presents a two-stage hybrid Federated Learning (FL) framework for IoT anomaly detection and classification, validated on the real-world N-BaIoT dataset. In the first stage, each device trains a generative Artificial Intelligence (AI) model on benign traffic only, and in the second stage a Histogram-based Gradient-Boosting (HGB) classifier labels flagged traffic. All models operate un",
+    "date": "2025",
+    "url": "https://doi.org/10.3390/iot6030048",
+    "authors": [
+      "Mohammad Shahin",
+      "Ali Hosseinzadeh",
+      "F. Frank Chen"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "ESGenius: Benchmarking LLMs on Environmental, Social, and Governance (ESG) and Sustainability Knowledge",
+    "abstract": "Chaoyue He, Xin Zhou, Yi Wu, Xinjia Yu, Yan Zhang, Lei Zhang, Di Wang, Shengfei Lyu, Hong Xu, Wang Xiaoqiao, Wei Liu, Chunyan Miao. Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing. 2025.",
+    "date": "2025",
+    "url": "https://doi.org/10.18653/v1/2025.emnlp-main.739",
+    "authors": [
+      "Chuan He",
+      "Xin Zhou",
+      "Yi Wu"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "A Review of TRiSM Frameworks in Artificial Intelligence Systems: Fundamentals, Taxonomy, Use Cases, Key Challenges and Future Directions",
+    "abstract": "The rapid expansion of generative AI-particularly large language models (LLMs)-into mission-critical domains has underscored the urgent need for unified frameworks that embed trust, risk and security management (TRiSM) throughout the AI lifecycle. In this work, we present a comprehensive review and synthesis of AI TRiSM, uniting five foundational pillars: explainability with real-time drift monitoring, ModelOps governance, application-level security, data protection and privacy, and adversarial resilience. We introduce three aligned taxonomies for trust dimensions (e.g. fairness, transparency,",
+    "date": "2025",
+    "url": "https://doi.org/10.36227/techrxiv.174913612.20443736/v1",
+    "authors": [
+      "Partha Pratim Ray"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Fairness Certification for Natural Language Processing and Large Language Models",
+    "abstract": "Natural Language Processing (NLP) plays an important role in our daily lives, particularly due to the enormous progress of Large Language Models (LLM). However, NLP has many fairness-critical use cases, e.g., as an expert system in recruitment or as an LLM-based tutor in education. Since NLP is based on human language, potentially harmful biases can diffuse into NLP systems and produce unfair results, discriminate against minorities or generate legal issues. Hence, it is important to develop a fairness certification for NLP approaches. We follow a qualitative research approach towards a fairne",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2401.01262",
+    "authors": [
+      "Vincent Freiberger",
+      "Erik Buchmann"
+    ]
+  }
+]

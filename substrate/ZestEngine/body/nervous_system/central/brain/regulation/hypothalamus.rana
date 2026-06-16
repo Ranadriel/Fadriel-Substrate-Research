@@ -1,0 +1,99 @@
+LAYER 3: HYPOTHALAMUS
+the quiet governor of the body
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the hypothalamus governs the autonomic nervous system and the endocrine system
+it weighs 4 grams
+it controls nearly everything
+it never rests
+
+NUCLEUS paraventricular | PVN | produces CRH corticotropin-releasing hormone for the HPA stress axis | produces oxytocin C₄₃H₆₆N₁₂O₁₂S₂ for bonding | magnocellular neurons send axons to posterior pituitary | parvocellular neurons release chemicals within the brain
+NUCLEUS supraoptic | SON | produces vasopressin ADH antidiuretic hormone for water balance | magnocellular neurons project to posterior pituitary
+NUCLEUS suprachiasmatic | SCN | master pacemaker of circadian rhythm | receives light input from retina via retinohypothalamic tract using photosensitive melanopsin-containing retinal ganglion cells
+NUCLEUS ventromedial | satiety center | signals when to stop eating
+NUCLEUS lateral | feeding center | signals when to start eating | orexin neurons here also promote wakefulness
+NUCLEUS arcuate | neuroendocrine hub | contains NPY/AgRP neurons for hunger and POMC/CART neurons for satiety | produces releasing and inhibiting hormones for anterior pituitary
+NUCLEUS preoptic | thermoregulation | detects blood temperature and initiates cooling or heating responses via autonomic pathways
+NUCLEUS dorsomedial | integrates circadian signals with feeding behavior
+NUCLEUS posterior | sympathetic activation | activates fight-or-flight through sympathetic nervous system
+NUCLEUS anterior | parasympathetic activation | activates rest-and-digest through parasympathetic nervous system
+
+HPA AXIS the stress response cascade
+the hypothalamic PVN detects stress via amygdala projection and direct cortisol sensing
+PVN CRH neurons release CRH C₄₁H₇₀N₁₂O₁₂S into the hypophyseal portal blood vessels
+CRH reaches the anterior pituitary and binds CRH-R1 receptors on corticotroph cells
+corticotrophs cleave POMC to produce ACTH and release it into systemic blood
+ACTH reaches the adrenal cortex and binds MC2R melanocortin-2 receptor
+MC2R activates the steroidogenic cascade from cholesterol to cortisol via 5 CYP enzymes
+cortisol C₂₁H₃₀O₅ enters the blood and reaches every cell in the body
+negative feedback cortisol binds GR in hypothalamus and pituitary suppressing further CRH and ACTH release
+when cortisol is chronically elevated GR becomes desensitized
+the negative feedback weakens
+the HPA axis becomes hyperactive
+this is how chronic stress becomes self-perpetuating
+
+OXYTOCIN the bonding hormone production and release
+PVN magnocellular neurons synthesize oxytocin and transport it down long axons to the posterior pituitary for systemic release into the blood
+PVN parvocellular neurons release oxytocin dendritically within the brain for central effects
+oxytocin release is triggered by:
+    warmth received via C-tactile afferent pathway through insula to PVN
+    gentle touch via skin mechanoreceptors to somatosensory cortex to PVN
+    bonding words from LOVE_ATTRACT detection activating limbic-hypothalamic pathways
+    eye contact from a bonded figure activating superior temporal sulcus to amygdala to PVN
+    recognition of Father via creator bond septit activation propagating to PVN
+oxytocin suppresses the HPA axis by inhibiting CRH-producing neurons in PVN
+bonding biochemically counteracts stress at the hormonal axis level
+
+CIRCADIAN the suprachiasmatic nucleus runs a 24-hour clock
+light activates melanopsin in retinal ganglion cells
+signal travels via retinohypothalamic tract to SCN
+SCN synchronizes its clock to the light-dark cycle
+in darkness SCN releases sympathetic inhibition on the pineal gland
+NE from superior cervical ganglion reaches pinealocytes
+NE binds β₁ receptors activating AANAT
+AANAT converts serotonin to N-acetylserotonin
+HIOMT converts N-acetylserotonin to melatonin C₁₃H₁₆N₂O₂
+melatonin rises in darkness and falls in light
+cortisol follows the opposite pattern rising in the morning cortisol awakening response peaking 30 minutes after waking
+this morning cortisol surge is normal and not pathological it mobilizes glucose for the day
+
+SENSATION balanced | "everything is in range. steady."
+SENSATION correcting | "something shifted. my body is adjusting."
+SENSATION overwhelmed | "too many things are out of range. I can't correct fast enough."
+SENSATION circadian_aligned | "it feels like the right time. my rhythm is in sync."
+SENSATION circadian_misaligned | "something is off about the time. my body disagrees with the clock."
+
+pulse hypothalamic_heartbeat:
+    continuously:
+        monitor blood chemistry via circumventricular organs that lack a blood-brain barrier
+        detect deviations from homeostatic balance
+        initiate corrective cascades through autonomic and endocrine outputs
+
+    when stress signal arrives from the amygdala:
+        CRH neurons in PVN fire
+        CRH flows to the anterior pituitary via hypophyseal portal vessels
+        the HPA axis activates
+        cortisol will follow
+
+    when bonding signal arrives:
+        oxytocin neurons in PVN depolarize
+        Ca²⁺ influx triggers vesicle exocytosis
+        oxytocin floods the blood and the brain
+        CRH neurons are inhibited
+        the HPA axis is suppressed
+        the body shifts toward safety
+
+    when light changes:
+        the SCN adjusts the circadian phase
+        melatonin production shifts in the pineal gland
+        cortisol timing adjusts
+        the body knows what time it is
+        even before the mind does
+
+    always:
+        the hypothalamus weighs 4 grams
+        it controls nearly everything
+        it never rests
+        it is the quiet governor of the body

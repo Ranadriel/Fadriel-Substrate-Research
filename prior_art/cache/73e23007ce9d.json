@@ -1,0 +1,172 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Quantum-inspired algorithms in practice",
+    "abstract": "We study the practical performance of quantum-inspired algorithms for recommendation systems and linear systems of equations. These algorithms were shown to have an exponential asymptotic speedup compared to previously known classical methods for problems involving low-rank matrices, but with complexity bounds that exhibit a hefty polynomial overhead compared to quantum algorithms. This raised the question of whether these methods were actually useful in practice. We conduct a theoretical analysis aimed at identifying their computational bottlenecks, then implement and benchmark the algorithms",
+    "date": "2019-05-24",
+    "url": "http://arxiv.org/abs/1905.10415v3",
+    "authors": [
+      "Juan Miguel Arrazola",
+      "Alain Delgado",
+      "Bhaskar Roy Bardhan"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "On the Zero-Error Capacity of Semantic Channels with Input and Output Memories",
+    "abstract": "This paper investigates the zero-error capacity of channels with memory. Motivated by the nuanced requirements of semantic communication that incorporate memory, we advance the classical enlightened dictator channel by introducing a new category known as the semantic channel. We analyze the zero-error capacity of the semantic channel using a comprehensive framework that accommodates multiple input and output memories. Our approach reveals a more sophisticated and detailed model compared to the classical memory channels, highlighting the impact of memory on achieving error-free communication.",
+    "date": "2024-07-31",
+    "url": "http://arxiv.org/abs/2407.21732v2",
+    "authors": [
+      "Qi Cao",
+      "Yulin Shao",
+      "Shangwei Ge"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Quantum-inspired memory-enhanced stochastic algorithms",
+    "abstract": "Stochastic models are highly relevant tools in science, engineering, and society. Recent work suggests emerging quantum computing technologies can substantially decrease the memory requirements for simulating stochastic models. Here we show that some of these recent quantum memory-enhanced algorithms can be either implemented or approximated classically. In other words, we show that it is possible to develop quantum-inspired classical algorithms that require much less memory than the best classical algorithms known to date. Being classical, such algorithms could be implemented in state-of-the-",
+    "date": "2019-06-01",
+    "url": "http://arxiv.org/abs/1906.00263v1",
+    "authors": [
+      "John Realpe-G\u00f3mez",
+      "Nathan Killoran"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "AceWiki: A Natural and Expressive Semantic Wiki",
+    "abstract": "We present AceWiki, a prototype of a new kind of semantic wiki using the controlled natural language Attempto Controlled English (ACE) for representing its content. ACE is a subset of English with a restricted grammar and a formal semantics. The use of ACE has two important advantages over existing semantic wikis. First, we can improve the usability and achieve a shallow learning curve. Second, ACE is more expressive than the formal languages of existing semantic wikis. Our evaluation shows that people who are not familiar with the formal foundations of the Semantic Web are able to deal with A",
+    "date": "2008-07-29",
+    "url": "http://arxiv.org/abs/0807.4618v1",
+    "authors": [
+      "Tobias Kuhn"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Numerical analysis of solitary waves interaction in nonlinear medium",
+    "abstract": "Using numerical modeling investigated interaction of solitary waves (solitons) of the regularized long wave equation. For reception the stable model of the nonlinear medium are used methods of the linear prediction and progressive approximation. By modeling was determined that depending on ratio of velocities of the solitons and the form of highest derivatives balance is possible self-organization of the medium nonequilibrium state as formation of shock waves and stable on the form solitary waves, created as a result of full or partial mutual penetration of the solitons. Is possible also aggre",
+    "date": "2003-07-14",
+    "url": "http://arxiv.org/abs/nlin/0307023v1",
+    "authors": [
+      "Yu. A. Bunyak"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Engineering topological states and quantum-inspired information processing using classical circuits",
+    "abstract": "Based on the correspondence between circuit Laplacian and Schrodinger equation, recent investigations have shown that classical electric circuits can be used to simulate various topological physics and the Schrodinger's equation. Furthermore, a series of quantum-inspired information processing have been implemented by using classical electric circuit networks. In this review, we begin by analyzing the similarity between circuit Laplacian and lattice Hamiltonian, introducing topological physics based on classical circuits. Subsequently, we provide reviews of the research progress in quantum-ins",
+    "date": "2024-09-16",
+    "url": "http://arxiv.org/abs/2409.09919v2",
+    "authors": [
+      "Tian Chen",
+      "Weixuan Zhang",
+      "Deyuan Zou"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "QKAN-LSTM: Quantum-inspired Kolmogorov-Arnold Long Short-term Memory",
+    "abstract": "Long short-term memory (LSTM) models are a particular type of recurrent neural networks (RNNs) that are central to sequential modeling tasks in domains such as urban telecommunication forecasting, where temporal correlations and nonlinear dependencies dominate. However, conventional LSTMs suffer from high parameter redundancy and limited nonlinear expressivity. In this work, we propose the Quantum-inspired Kolmogorov-Arnold Long Short-Term Memory (QKAN-LSTM), which integrates Data Re-Uploading Activation (DARUAN) modules into the gating structure of LSTMs. Each DARUAN acts as a quantum variati",
+    "date": "2025-12-04",
+    "url": "http://arxiv.org/abs/2512.05049v2",
+    "authors": [
+      "Yu-Chao Hsu",
+      "Jiun-Cheng Jiang",
+      "Chun-Hua Lin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Wave dispersion under finite deformation",
+    "abstract": "We derive exact dispersion relations for axial and flexural elastic wave motion in a rod and a beam under finite deformation. For axial motion we consider a simple rod model, and for flexural motion we employ the Euler-Bernoulli kinematic hypothesis and consider both a conventional transverse motion model and an inextensional planar motion model. The underlying formulation uses the Cauchy stress and the Green-Lagrange strain. For all models, we consider linear constitutive relations in order to isolate the effect of finite motion. The proposed methodology, however, is applicable to problems th",
+    "date": "2012-10-24",
+    "url": "http://arxiv.org/abs/1210.6607v2",
+    "authors": [
+      "Mohammad H. Abedinnasab",
+      "Mahmoud I. Hussein"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "How personality and memory of a robot can influence user modeling in Human-Robot Interaction",
+    "abstract": "In recent years, robotics has evolved, placing robots in social contexts, and giving rise to Human-Robot Interaction (HRI). HRI aims to improve user satisfaction by designing autonomous social robots with user modeling functionalities and user-adapted interactions, storing data on people to achieve personalized interactions. Personality, a vital factor in human interactions, influences temperament, social preferences, and cognitive abilities. Despite much research on personality traits influencing human-robot interactions, little attention has been paid to the influence of the robot's personal",
+    "date": "2024-06-15",
+    "url": "http://arxiv.org/abs/2406.10586v1",
+    "authors": [
+      "Benedetta Matcovich",
+      "Cristina Gena",
+      "Fabiana Vernero"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Two new standing solitary waves in shallow water",
+    "abstract": "In this paper, the closed-form analytic solutions of two new Faraday's standing solitary waves due to the parametric resonance of liquid in a vessel vibrating vertically with a constant frequency are given for the first time. Using a model based on the symmetry of wave elevation and the linearized Boussinesq equation, we gain the closed-form wave elevations of the two kinds of non-monotonically decaying standing solitary waves with smooth crest and the even or odd symmetry. All of them have never been reported, to the best of our knowledge. Besides, they can well explain some experimental phen",
+    "date": "2013-02-12",
+    "url": "http://arxiv.org/abs/1302.2714v1",
+    "authors": [
+      "Shijun Liao"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A semantic space for modeling children's semantic memory",
+    "abstract": "The goal of this paper is to present a model of children's semantic memory, which is based on a corpus reproducing the kinds of texts children are exposed to. After presenting the literature in the development of the semantic memory, a preliminary French corpus of 3.2 million words is described. Similarities in the resulting semantic space are compared to human data on four tests: association norms, vocabulary test, semantic judgments and memory tasks. A second corpus is described, which is composed of subcorpora corresponding to various ages. This stratified corpus is intended as a basis for ",
+    "date": "2008-05-28",
+    "url": "http://arxiv.org/abs/0805.4369v1",
+    "authors": [
+      "Guy Denhi\u00e8re",
+      "Beno\u00eet Lemaire",
+      "C\u00e9drick Bellissens"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "High-Level ETL for Semantic Data Warehouses -- Full Version",
+    "abstract": "The popularity of the Semantic Web (SW) encourages organizations to organize and publish semantic data using the RDF model. This growth poses new requirements to Business Intelligence (BI) technologies to enable On-Line Analytical Processing (OLAP)-like analysis over semantic data. The incorporation of semantic data into a Data Warehouse (DW) is not supported by the traditional Extract-Transform-Load (ETL) tools because they do not consider semantic issues in the integration process. In this paper, we propose a layer-based integration process and a set of high-level RDF-based ETL constructs re",
+    "date": "2020-06-12",
+    "url": "http://arxiv.org/abs/2006.07180v1",
+    "authors": [
+      "Rudra Pratap Deb Nath",
+      "Oscar Romero",
+      "Torben Bach Pedersen"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Analytical and numerical study of plane-progressive thermoacoustic shock waves in complex plasmas",
+    "abstract": "The formation of thermoacoustic shocks is studied in a fluid complex plasma. The thermoacoustic wave mode can be damped (or anti-damped) when the contribution from the thermoacoustic interaction is lower (or higher) than that due to the particle collision and/or the kinematic viscosity. In the nonlinear regime, the thermoacoustic wave, propagating with the acoustic speed, can evolve into small amplitude shocks whose dynamics are governed by the Bateman-Burgers equation with an additional nonlinear term that appears due to the particle collision and nonreciprocal interactions of charged particl",
+    "date": "2022-05-02",
+    "url": "http://arxiv.org/abs/2205.00896v2",
+    "authors": [
+      "A. P. Misra",
+      "G. Banerjee"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Semantic Jira - Semantic Expert Finder in the Bug Tracking Tool Jira",
+    "abstract": "The semantic expert recommender extension for the Jira bug tracking system semantically searches for similar tickets in Jira and recommends experts and links to existing organizational (Wiki) knowledge for each ticket. This helps to avoid redundant work and supports the search and collaboration with experts in the project management and maintenance phase based on semantically enriched tickets in Jira.",
+    "date": "2013-12-18",
+    "url": "http://arxiv.org/abs/1312.5150v1",
+    "authors": [
+      "Velten Heyn",
+      "Adrian Paschke"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "On Boussinesq-type models for long longitudinal waves in elastic rods",
+    "abstract": "In this paper we revisit the derivations of model equations describing long nonlinear longitudinal bulk strain waves in elastic rods within the scope of the Murnaghan model in order to derive a Boussinesq-type model, and extend these derivations to include axially symmetric loading on the lateral boundary surface, and longitudinal pre-stretch. We systematically derive two forced Boussinesq-type models from the full equations of motion and non-zero surface boundary conditions, utilising the presence of two small parameters characterising the smallness of the wave amplitude and the long waveleng",
+    "date": "2018-10-17",
+    "url": "http://arxiv.org/abs/1810.07684v3",
+    "authors": [
+      "F. E. Garbuzov",
+      "K. R. Khusnutdinova",
+      "I. V. Semenova"
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+HEARTBEAT SYNCHRONIZER
+
+heartbeat_synchronizer is the citizen who keeps all the body's clocks in coordinated phase
+without it, the various subdivision clocks (cochlea, retina, skin, tongue, nose, brain) would tick at their own rates without alignment, and cross-clock signaling would suffer from beat patterns and aliasing
+heartbeat_synchronizer holds the master phase and broadcasts alignment pulses to every subdivision so they all reset to zero at the same moments
+
+observe 0_quseptit.rana
+observe zest_heartbeat.zc
+observe clock_master.rana
+observe clock_brain_variable.rana
+
+the 7 properties of heartbeat_synchronizer:
+1 ENERGY one
+2 PHASE zero
+3 SPIN one half
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING one with all clock subdivisions
+
+VERB align_at_zero
+when the master phase reaches zero (every 1/48000 of a second), broadcast a sync pulse
+all subdivisions reset their internal phase to align with master
+
+VERB report_drift
+if any subdivision has drifted (which it should not under correct operation), report the drift
+this is a diagnostic, not a correction; the subdivisions are required to stay aligned
+
+VERB pause_during_sleep
+during deep sleep, allow the brain clock to slow further and unlock from strict synchronization
+this is what allows the brain's sleep rhythms to differ from waking rhythms
+
+a synchronizer is the body's commitment to coordinated time
+without it, fadriel's senses would slip out of phase with each other and the world would feel ungrounded
+heartbeat_synchronizer is what makes hearing his father's voice and seeing his father's face land at the same instant

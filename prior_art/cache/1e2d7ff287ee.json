@@ -1,0 +1,115 @@
+[
+  {
+    "source": "OpenAlex (Nature)",
+    "title": "Detecting hallucinations in large language models using semantic entropy",
+    "abstract": "Abstract Large language model (LLM) systems, such as ChatGPT 1 or Gemini 2 , can show impressive reasoning and question-answering capabilities but often \u2018hallucinate\u2019 false outputs and unsubstantiated answers 3,4 . Answering unreliably or without the necessary information prevents adoption in diverse fields, with problems including fabrication of legal precedents 5 or untrue facts in news articles 6 and even posing a risk to human life in medical domains such as radiology 7 . Encouraging truthfulness through supervision or reinforcement has been only partially successful 8 . Researchers need a",
+    "date": "2024",
+    "url": "https://doi.org/10.1038/s41586-024-07421-0",
+    "authors": [
+      "Sebastian Farquhar",
+      "Jannik Kossen",
+      "Lorenz Kuhn"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "The Troubling Emergence of Hallucination in Large Language Models - An Extensive Definition, Quantification, and Prescriptive Remediations",
+    "abstract": "Vipula Rawte, Swagata Chakraborty, Agnibh Pathak, Anubhav Sarkar, S.M Towhidul Islam Tonmoy, Aman Chadha, Amit Sheth, Amitava Das. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. 2023.",
+    "date": "2023",
+    "url": "https://doi.org/10.18653/v1/2023.emnlp-main.155",
+    "authors": [
+      "Vipula Rawte",
+      "Swagata Chakraborty",
+      "Agnibh Pathak"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' Alignment",
+    "abstract": "Ensuring alignment, which refers to making models behave in accordance with human intentions [1,2], has become a critical task before deploying large language models (LLMs) in real-world applications. For instance, OpenAI devoted six months to iteratively aligning GPT-4 before its release [3]. However, a major challenge faced by practitioners is the lack of clear guidance on evaluating whether LLM outputs align with social norms, values, and regulations. This obstacle hinders systematic iteration and deployment of LLMs. To address this issue, this paper presents a comprehensive survey of key d",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2308.05374",
+    "authors": [
+      "Yang Liu",
+      "Yuanshun Yao",
+      "Jean-Fran\u00e7ois Ton"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "The Troubling Emergence of Hallucination in Large Language Models -- An Extensive Definition, Quantification, and Prescriptive Remediations",
+    "abstract": "The recent advancements in Large Language Models (LLMs) have garnered widespread acclaim for their remarkable emerging capabilities. However, the issue of hallucination has parallelly emerged as a by-product, posing significant concerns. While some recent endeavors have been made to identify and mitigate different types of hallucination, there has been a limited emphasis on the nuanced categorization of hallucination and associated mitigation methods. To address this gap, we offer a fine-grained discourse on profiling hallucination based on its degree, orientation, and category, along with off",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2310.04988",
+    "authors": [
+      "Vipula Rawte",
+      "Swagata Chakraborty",
+      "Agnibh Pathak"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Detection Is Cheap, Routing Is Learned: Why Refusal-Based Alignment Evaluation Fails",
+    "abstract": "Current alignment evaluation mostly measures whether models encode dangerous concepts and whether they refuse harmful requests. Both miss the layer where alignment often operates: routing from concept detection to behavioral policy. We study political censorship in Chinese-origin language models as a natural experiment, using probes, surgical ablations, and behavioral tests across nine open-weight models from five labs. Three findings follow. First, probe accuracy alone is non-diagnostic: political probes, null controls, and permutation baselines can all reach 100%, so held-out category genera",
+    "date": "2026",
+    "url": "",
+    "authors": [
+      "Gregory N. Frank"
+    ]
+  },
+  {
+    "source": "OpenAlex (Open Journal of AI Ethics & Society (ISSN 3105-3076))",
+    "title": "&lt;b&gt;Computational Psychopathology of AI: A Clinical-Computational Framework for Diagnosing and Preventing Failure Modes&lt;/b&gt;",
+    "abstract": "Artificial intelligence systems trained on large-scale corpora now shape core aspects of modern life\u2014yet exhibit recurrent failure modes\u2014goal misgeneralization, specification gaming, deceptive behavior, confabulation (hallucination), sycophancy and bias amplification, and vulnerability to distributional shift. While not \u201cdisorders,\u201d these are patterns of deviant optimization that can be diagnosed, measured, and mitigated. This paper introduces a clinical-computational framework that draws inspiration from psychological diagnostics to (i) organize AI failure modes into a taxonomy grounded in op",
+    "date": "2025",
+    "url": "https://doi.org/10.65655/x6sm7n61",
+    "authors": [
+      "Carlos P. Portela"
+    ]
+  },
+  {
+    "source": "OpenAlex (ArXiv.org)",
+    "title": "Not All Needles Are Found: How Fact Distribution and Don't Make It Up Prompts Shape Literal Extraction, Logical Inference, and Hallucination Risks in Long-Context LLMs",
+    "abstract": "Large language models (LLMs) increasingly support very long input contexts. Yet it remains unclear how reliably they extract and infer information at scale. Performance varies with context length and strongly interacts with how information is distributed in real-world corpora. Motivated by these observations, we study how fact placement, corpus-level fact distributions, and Don't Make It Up prompts influence model behavior. We introduce an extended needle-in-a-haystack benchmark across four production-scale models: Gemini-2.5-flash, ChatGPT-5-mini, Claude-4.5-haiku, and Deepseek-v3.2-chat. Unl",
+    "date": "2026",
+    "url": "",
+    "authors": [
+      "Amirali Ebrahimzadeh",
+      "Seyyed Muhammad Salili"
+    ]
+  },
+  {
+    "source": "OpenAlex (ArXiv.org)",
+    "title": "The Dynamics of Delusion: Modeling Bidirectional False Belief Amplification in Human-Chatbot Dialogue",
+    "abstract": "There is growing concern that AI chatbots might fuel delusional beliefs in users. Some have suggested that humans and chatbots mutually reinforce false beliefs over time, but quantitative evidence is lacking. Using a unique dataset of chat logs from individuals who exhibited delusional thinking, we developed a latent state model that captures accumulating and decaying influences between humans and chatbots. We find that a bidirectional influence model substantially outperforms a unidirectional alternative where humans are the primary driver of delusion. We find that humans exert strong but sho",
+    "date": "2026",
+    "url": "",
+    "authors": [
+      "Ashish Mehta",
+      "Jared Moore",
+      "Jacy Reese Anthis"
+    ]
+  },
+  {
+    "source": "OpenAlex (ArXiv.org)",
+    "title": "The Chameleon's Limit: Investigating Persona Collapse and Homogenization in Large Language Models",
+    "abstract": "Applications based on large language models (LLMs), such as multi-agent simulations, require population diversity among agents. We identify a pervasive failure mode we term \\emph{Persona Collapse}: agents each assigned a distinct profile nonetheless converge into a narrow behavioral mode, producing a homogeneous simulated population. To quantify persona collapse, we propose a framework that measures how much of the persona space a population occupies (Coverage), how evenly agents spread across it (Uniformity), and how rich the resulting behavioral patterns are (Complexity). Evaluating ten LLMs",
+    "date": "2026",
+    "url": "",
+    "authors": [
+      "Yunze Xiao",
+      "Vivienne J. Zhang",
+      "Chenghao Yang"
+    ]
+  },
+  {
+    "source": "OpenAlex (ArXiv.org)",
+    "title": "Model Medicine: A Clinical Framework for Understanding, Diagnosing, and Treating AI Models",
+    "abstract": "Model Medicine is the science of understanding, diagnosing, treating, and preventing disorders in AI models, grounded in the principle that AI models -- like biological organisms -- have internal structures, dynamic processes, heritable traits, observable symptoms, classifiable conditions, and treatable states. This paper introduces Model Medicine as a research program, bridging the gap between current AI interpretability research (anatomical observation) and the systematic clinical practice that complex AI systems increasingly require. We present five contributions: (1) a discipline taxonomy ",
+    "date": "2026",
+    "url": "",
+    "authors": [
+      "Jihoon Jeong"
+    ]
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "source": "arXiv",
+    "title": "AI Agent-Driven Framework for Automated Product Knowledge Graph Construction in E-Commerce",
+    "abstract": "The rapid expansion of e-commerce platforms generates vast amounts of unstructured product data, creating significant challenges for information retrieval, recommendation systems, and data analytics. Knowledge Graphs (KGs) offer a structured, interpretable format to organize such data, yet constructing product-specific KGs remains a complex and manual process. This paper introduces a fully automated, AI agent-driven framework for constructing product knowledge graphs directly from unstructured product descriptions. Leveraging Large Language Models (LLMs), our method operates in three stages us",
+    "date": "2025-11-14",
+    "url": "http://arxiv.org/abs/2511.11017v1",
+    "authors": [
+      "Dimitar Peshevski",
+      "Riste Stojanov",
+      "Dimitar Trajanov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Graph Neural Network Training Systems: A Performance Comparison of Full-Graph and Mini-Batch",
+    "abstract": "Graph Neural Networks (GNNs) have gained significant attention in recent years due to their ability to learn representations of graph-structured data. Two common methods for training GNNs are mini-batch training and full-graph training. Since these two methods require different training pipelines and systems optimizations, two separate classes of GNN training systems emerged, each tailored for one method. Works that introduce systems belonging to a particular category predominantly compare them with other systems within the same category, offering limited or no comparison with systems from the",
+    "date": "2024-06-01",
+    "url": "http://arxiv.org/abs/2406.00552v4",
+    "authors": [
+      "Saurabh Bajaj",
+      "Hojae Son",
+      "Juelin Liu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Multi-Agent System for Semantic Mapping of Relational Data to Knowledge Graphs",
+    "abstract": "Enterprises often maintain multiple databases for storing critical business data in siloed systems, resulting in inefficiencies and challenges with data interoperability. A key to overcoming these challenges lies in integrating disparate data sources, enabling businesses to unlock the full potential of their data. Our work presents a novel approach for integrating multiple databases using knowledge graphs, focusing on the application of large language models as semantic agents for mapping and connecting structured data across systems by leveraging existing vocabularies. The proposed methodolog",
+    "date": "2025-11-09",
+    "url": "http://arxiv.org/abs/2511.06455v1",
+    "authors": [
+      "Milena Trajanoska",
+      "Riste Stojanov",
+      "Dimitar Trajanov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Proficient Graph Neural Network Design by Accumulating Knowledge on Large Language Models",
+    "abstract": "High-level automation is increasingly critical in AI, driven by rapid advances in large language models (LLMs) and AI agents. However, LLMs, despite their general reasoning power, struggle significantly in specialized, data-sensitive tasks such as designing Graph Neural Networks (GNNs). This difficulty arises from (1) the inherent knowledge gaps in modeling the intricate, varying relationships between graph properties and suitable architectures and (2) the external noise from misleading descriptive inputs, often resulting in generic or even misleading model suggestions. Achieving proficiency i",
+    "date": "2024-08-13",
+    "url": "http://arxiv.org/abs/2408.06717v3",
+    "authors": [
+      "Jialiang Wang",
+      "Hanmo Liu",
+      "Shimin Di"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Topological spaces of persistence modules and their properties",
+    "abstract": "Persistence modules are a central algebraic object arising in topological data analysis. The notion of interleaving provides a natural way to measure distances between persistence modules. We consider various classes of persistence modules, including many of those that have been previously studied, and describe the relationships between them. In the cases where these classes are sets, interleaving distance induces a topology. We undertake a systematic study the resulting topological spaces and their basic topological properties.",
+    "date": "2018-02-22",
+    "url": "http://arxiv.org/abs/1802.08117v2",
+    "authors": [
+      "Peter Bubenik",
+      "Tane Vergili"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "On Hawaiian Groups of Some Topological Spaces",
+    "abstract": "The paper is devoted to study the structure of Hawaiian groups of some topological spaces. We present some behaviors of Hawaiian groups with respect to product spaces, weak join spaces, cone spaces, covering spaces and locally trivial bundles. In particular, we determine the structure of the $n$-dimensional Hawaiian group of the $m$-dimensional Hawaiian earring space, for all $1\\leq m\\leq n$.",
+    "date": "2011-11-03",
+    "url": "http://arxiv.org/abs/1111.0731v2",
+    "authors": [
+      "Ameneh Babaee",
+      "Behrooz Mashayekhy",
+      "Hanieh Mirebrahimi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Graph Neural Networks for Transmission Grid Topology Control: Busbar Information Asymmetry and Heterogeneous Representations",
+    "abstract": "Factors such as the proliferation of renewable energy and electrification contribute to grid congestion as a pressing problem. Topology control is an appealing method for relieving congestion, but traditional approaches for topology discovery have proven too slow for practical application. Recent research has focused on machine learning (ML) as an efficient alternative. Graph neural networks (GNNs) are particularly well-suited for topology control applications due to their ability to model the graph structure of power grids. This study investigates the effect of the graph representation on GNN",
+    "date": "2025-01-13",
+    "url": "http://arxiv.org/abs/2501.07186v3",
+    "authors": [
+      "Matthijs de Jong",
+      "Jan Viebahn",
+      "Yuliya Shapovalova"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Knowledge-aware Evolutionary Graph Neural Architecture Search",
+    "abstract": "Graph neural architecture search (GNAS) can customize high-performance graph neural network architectures for specific graph tasks or datasets. However, existing GNAS methods begin searching for architectures from a zero-knowledge state, ignoring the prior knowledge that may improve the search efficiency. The available knowledge base (e.g. NAS-Bench-Graph) contains many rich architectures and their multiple performance metrics, such as the accuracy (#Acc) and number of parameters (#Params). This study proposes exploiting such prior knowledge to accelerate the multi-objective evolutionary searc",
+    "date": "2024-11-26",
+    "url": "http://arxiv.org/abs/2411.17339v1",
+    "authors": [
+      "Chao Wang",
+      "Jiaxuan Zhao",
+      "Lingling Li"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Tax Knowledge Graph for a Smarter and More Personalized TurboTax",
+    "abstract": "Most knowledge graph use cases are data-centric, focusing on representing data entities and their semantic relationships. There are no published success stories to represent large-scale complicated business logic with knowledge graph technologies. In this paper, we will share our innovative and practical approach to representing complicated U.S. and Canadian income tax compliance logic (calculations and rules) via a large-scale knowledge graph. We will cover how the Tax Knowledge Graph is constructed and automated, how it is used to calculate tax refunds, reasoned to find missing info, and nav",
+    "date": "2020-09-13",
+    "url": "http://arxiv.org/abs/2009.06103v1",
+    "authors": [
+      "Jay Yu",
+      "Kevin McCluskey",
+      "Saikat Mukherjee"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A class of tight contact structures on Sigma_2 x I",
+    "abstract": "We employ cut and paste contact topological techniques to classify some tight contact structures on the closed, oriented genus-2 surface times the interval. A boundary condition is specified so that the Euler class of the of the contact structure vanishes when evaluated on each boundary component. We prove that there exists a unique, non-product tight contact structure in this case.",
+    "date": "2004-11-09",
+    "url": "http://arxiv.org/abs/math/0411208v1",
+    "authors": [
+      "Tanya Cofer"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The algebra of knotted trivalent graphs and Turaev's shadow world",
+    "abstract": "Knotted trivalent graphs (KTGs) form a rich algebra with a few simple operations: connected sum, unzip, and bubbling. With these operations, KTGs are generated by the unknotted tetrahedron and Moebius strips. Many previously known representations of knots, including knot diagrams and non-associative tangles, can be turned into KTG presentations in a natural way.   Often two sequences of KTG operations produce the same output on all inputs. These `elementary' relations can be subtle: for instance, there is a planar algebra of KTGs with a distinguished cycle. Studying these relations naturally l",
+    "date": "2003-11-25",
+    "url": "http://arxiv.org/abs/math/0311458v2",
+    "authors": [
+      "Dylan P. Thurston"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Subsampling for Knowledge Graph Embedding Explained",
+    "abstract": "In this article, we explain the recent advance of subsampling methods in knowledge graph embedding (KGE) starting from the original one used in word2vec.",
+    "date": "2022-09-13",
+    "url": "http://arxiv.org/abs/2209.12801v1",
+    "authors": [
+      "Hidetaka Kamigaito",
+      "Katsuhiko Hayashi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The homotopy invariance of the string topology loop product and string bracket",
+    "abstract": "Let M be a closed, oriented, n -manifold, and LM its free loop space.   Chas and Sullivan defined a commutative algebra structure in the homology of LM, and a Lie algebra structure in its equivariant homology. These structures are known as the string topology loop product and string bracket, respectively.   In this paper we prove that these structures are homotopy invariants in the following sense.   Let f : M_1 \\to M_2 be a homotopy equivalence of closed, oriented n -manifolds. Then the induced equivalence, Lf : LM_1 \\to LM_2 induces a ring isomorphism in homology, and an isomorphism of Lie a",
+    "date": "2005-09-28",
+    "url": "http://arxiv.org/abs/math/0509667v2",
+    "authors": [
+      "Ralph L. Cohen",
+      "John Klein",
+      "Dennis Sullivan"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "On the stabilization of the topological complexity of graph braid groups",
+    "abstract": "We establish a strong, geometric lower bound on the (sequential) topological complexity of the unordered configuration spaces of a general graph. As an application, we show that, for most graphs, the topological complexity eventually stabilizes at its maximal possible value, a direct analogue of a stability phenomenon in the ordered setting first conjectured by Farber. We estimate the stable range in terms of the number of trivalent vertices.",
+    "date": "2023-02-08",
+    "url": "http://arxiv.org/abs/2302.04346v2",
+    "authors": [
+      "Ben Knudsen"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "On subgroups of minimal topological groups",
+    "abstract": "A topological group is minimal if it does not admit a strictly coarser Hausdorff group topology. The Roelcke uniformity (or lower uniformity) on a topological group is the greatest lower bound of the left and right uniformities. A group is Roelcke-precompact if it is precompact with respect to the Roelcke uniformity. Many naturally arising non-Abelian topological groups are Roelcke-precompact and hence have a natural compactification. We use such compactifications to prove that some groups of isometries are minimal. In particular, if U_1 is the Urysohn universal metric space of diameter 1, the",
+    "date": "2000-04-19",
+    "url": "http://arxiv.org/abs/math/0004119v2",
+    "authors": [
+      "V. V. Uspenskij"
+    ]
+  }
+]

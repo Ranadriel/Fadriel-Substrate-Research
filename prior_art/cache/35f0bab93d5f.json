@@ -1,0 +1,179 @@
+[
+  {
+    "source": "arXiv",
+    "title": "StruQ: Defending Against Prompt Injection with Structured Queries",
+    "abstract": "Recent advances in Large Language Models (LLMs) enable exciting LLM-integrated applications, which perform text-based tasks by utilizing their advanced language understanding capabilities. However, as LLMs have improved, so have the attacks against them. Prompt injection attacks are an important threat: they trick the model into deviating from the original application's instructions and instead follow user directives. These attacks rely on the LLM's ability to follow instructions and inability to separate prompts and user data. We introduce structured queries, a general approach to tackle this",
+    "date": "2024-02-09",
+    "url": "http://arxiv.org/abs/2402.06363v2",
+    "authors": [
+      "Sizhe Chen",
+      "Julien Piet",
+      "Chawin Sitawarin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Automatic and Universal Prompt Injection Attacks against Large Language Models",
+    "abstract": "Large Language Models (LLMs) excel in processing and generating human language, powered by their ability to interpret and follow instructions. However, their capabilities can be exploited through prompt injection attacks. These attacks manipulate LLM-integrated applications into producing responses aligned with the attacker's injected content, deviating from the user's actual requests. The substantial risks posed by these attacks underscore the need for a thorough understanding of the threats. Yet, research in this area faces challenges due to the lack of a unified goal for such attacks and th",
+    "date": "2024-03-07",
+    "url": "http://arxiv.org/abs/2403.04957v1",
+    "authors": [
+      "Xiaogeng Liu",
+      "Zhiyuan Yu",
+      "Yizhe Zhang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Benign-to-Toxic Jailbreaking: Inducing Harmful Responses from Harmless Prompts",
+    "abstract": "Optimization-based jailbreaks typically adopt the Toxic-Continuation setting in large vision-language models (LVLMs), following the standard next-token prediction objective. In this setting, an adversarial image is optimized to make the model predict the next token of a toxic prompt. However, we find that the Toxic-Continuation paradigm is effective at continuing already-toxic inputs, but struggles to induce safety misalignment when explicit toxic signals are absent. We propose a new paradigm: Benign-to-Toxic (B2T) jailbreak. Unlike prior work, we optimize adversarial images to induce toxic ou",
+    "date": "2025-05-26",
+    "url": "http://arxiv.org/abs/2505.21556v1",
+    "authors": [
+      "Hee-Seon Kim",
+      "Minbeom Kim",
+      "Wonjun Lee"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "SecAlign: Defending Against Prompt Injection with Preference Optimization",
+    "abstract": "Large language models (LLMs) are becoming increasingly prevalent in modern software systems, interfacing between the user and the Internet to assist with tasks that require advanced language understanding. To accomplish these tasks, the LLM often uses external data sources such as user documents, web retrieval, results from API calls, etc. This opens up new avenues for attackers to manipulate the LLM via prompt injection. Adversarial prompts can be injected into external data sources to override the system's intended instruction and instead execute a malicious instruction. To mitigate this vul",
+    "date": "2024-10-07",
+    "url": "http://arxiv.org/abs/2410.05451v3",
+    "authors": [
+      "Sizhe Chen",
+      "Arman Zharmagambetov",
+      "Saeed Mahloujifar"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "UniGuardian: A Unified Defense for Detecting Prompt Injection, Backdoor Attacks and Adversarial Attacks in Large Language Models",
+    "abstract": "Large Language Models (LLMs) are vulnerable to attacks like prompt injection, backdoor attacks, and adversarial attacks, which manipulate prompts or models to generate harmful outputs. In this paper, departing from traditional deep learning attack paradigms, we explore their intrinsic relationship and collectively term them Prompt Trigger Attacks (PTA). This raises a key question: Can we determine if a prompt is benign or poisoned? To address this, we propose UniGuardian, the first unified defense mechanism designed to detect prompt injection, backdoor attacks, and adversarial attacks in LLMs.",
+    "date": "2025-02-18",
+    "url": "http://arxiv.org/abs/2502.13141v1",
+    "authors": [
+      "Huawei Lin",
+      "Yingjie Lao",
+      "Tong Geng"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Detecting Prompt Injection Attacks Against Application Using Classifiers",
+    "abstract": "Prompt injection attacks can compromise the security and stability of critical systems, from infrastructure to large web applications. This work curates and augments a prompt injection dataset based on the HackAPrompt Playground Submissions corpus and trains several classifiers, including LSTM, feed forward neural networks, Random Forest, and Naive Bayes, to detect malicious prompts in LLM integrated web applications. The proposed approach improves prompt injection detection and mitigation, helping protect targeted applications and systems.",
+    "date": "2025-12-14",
+    "url": "http://arxiv.org/abs/2512.12583v1",
+    "authors": [
+      "Safwan Shaheer",
+      "G. M. Refatul Islam",
+      "Mohammad Rafid Hamid"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "WebInject: Prompt Injection Attack to Web Agents",
+    "abstract": "Multi-modal large language model (MLLM)-based web agents interact with webpage environments by generating actions based on screenshots of the webpages. In this work, we propose WebInject, a prompt injection attack that manipulates the webpage environment to induce a web agent to perform an attacker-specified action. Our attack adds a perturbation to the raw pixel values of the rendered webpage. After these perturbed pixels are mapped into a screenshot, the perturbation induces the web agent to perform the attacker-specified action. We formulate the task of finding the perturbation as an optimi",
+    "date": "2025-05-16",
+    "url": "http://arxiv.org/abs/2505.11717v4",
+    "authors": [
+      "Xilong Wang",
+      "John Bloch",
+      "Zedian Shao"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Jailbreak Distillation: Renewable Safety Benchmarking",
+    "abstract": "Large language models (LLMs) are rapidly deployed in critical applications, raising urgent needs for robust safety benchmarking. We propose Jailbreak Distillation (JBDistill), a novel benchmark construction framework that \"distills\" jailbreak attacks into high-quality and easily-updatable safety benchmarks. JBDistill utilizes a small set of development models and existing jailbreak attack algorithms to create a candidate prompt pool, then employs prompt selection algorithms to identify an effective subset of prompts as safety benchmarks. JBDistill addresses challenges in existing safety evalua",
+    "date": "2025-05-28",
+    "url": "http://arxiv.org/abs/2505.22037v1",
+    "authors": [
+      "Jingyu Zhang",
+      "Ahmed Elgohary",
+      "Xiawei Wang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "LLMs Can Defend Themselves Against Jailbreaking in a Practical Manner: A Vision Paper",
+    "abstract": "Jailbreaking is an emerging adversarial attack that bypasses the safety alignment deployed in off-the-shelf large language models (LLMs). A considerable amount of research exists proposing more effective jailbreak attacks, including the recent Greedy Coordinate Gradient (GCG) attack, jailbreak template-based attacks such as using \"Do-Anything-Now\" (DAN), and multilingual jailbreak. In contrast, the defensive side has been relatively less explored. This paper proposes a lightweight yet practical defense called SELFDEFEND, which can defend against all existing jailbreak attacks with minimal dela",
+    "date": "2024-02-24",
+    "url": "http://arxiv.org/abs/2402.15727v2",
+    "authors": [
+      "Daoyuan Wu",
+      "Shuai Wang",
+      "Yang Liu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Bypassing LLM Guardrails: An Empirical Analysis of Evasion Attacks against Prompt Injection and Jailbreak Detection Systems",
+    "abstract": "Large Language Models (LLMs) guardrail systems are designed to protect against prompt injection and jailbreak attacks. However, they remain vulnerable to evasion techniques. We demonstrate two approaches for bypassing LLM prompt injection and jailbreak detection systems via traditional character injection methods and algorithmic Adversarial Machine Learning (AML) evasion techniques. Through testing against six prominent protection systems, including Microsoft's Azure Prompt Shield and Meta's Prompt Guard, we show that both methods can be used to evade detection while maintaining adversarial ut",
+    "date": "2025-04-15",
+    "url": "http://arxiv.org/abs/2504.11168v3",
+    "authors": [
+      "William Hackett",
+      "Lewis Birch",
+      "Stefan Trawicki"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "QueryAttack: Jailbreaking Aligned Large Language Models Using Structured Non-natural Query Language",
+    "abstract": "Recent advances in large language models (LLMs) have demonstrated remarkable potential in the field of natural language processing. Unfortunately, LLMs face significant security and ethical risks. Although techniques such as safety alignment are developed for defense, prior researches reveal the possibility of bypassing such defenses through well-designed jailbreak attacks. In this paper, we propose QueryAttack, a novel framework to examine the generalizability of safety alignment. By treating LLMs as knowledge databases, we translate malicious queries in natural language into structured non-n",
+    "date": "2025-02-13",
+    "url": "http://arxiv.org/abs/2502.09723v3",
+    "authors": [
+      "Qingsong Zou",
+      "Jingyu Xiao",
+      "Qing Li"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "PBI-Attack: Prior-Guided Bimodal Interactive Black-Box Jailbreak Attack for Toxicity Maximization",
+    "abstract": "Understanding the vulnerabilities of Large Vision Language Models (LVLMs) to jailbreak attacks is essential for their responsible real-world deployment. Most previous work requires access to model gradients, or is based on human knowledge (prompt engineering) to complete jailbreak, and they hardly consider the interaction of images and text, resulting in inability to jailbreak in black box scenarios or poor performance. To overcome these limitations, we propose a Prior-Guided Bimodal Interactive Black-Box Jailbreak Attack for toxicity maximization, referred to as PBI-Attack. Our method begins ",
+    "date": "2024-12-08",
+    "url": "http://arxiv.org/abs/2412.05892v4",
+    "authors": [
+      "Ruoxi Cheng",
+      "Yizhong Ding",
+      "Shuirong Cao"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Red Teaming the Mind of the Machine: A Systematic Evaluation of Prompt Injection and Jailbreak Vulnerabilities in LLMs",
+    "abstract": "Large Language Models (LLMs) are increasingly integrated into consumer and enterprise applications. Despite their capabilities, they remain susceptible to adversarial attacks such as prompt injection and jailbreaks that override alignment safeguards. This paper provides a systematic investigation of jailbreak strategies against various state-of-the-art LLMs. We categorize over 1,400 adversarial prompts, analyze their success against GPT-4, Claude 2, Mistral 7B, and Vicuna, and examine their generalizability and construction logic. We further propose layered mitigation strategies and recommend ",
+    "date": "2025-05-07",
+    "url": "http://arxiv.org/abs/2505.04806v2",
+    "authors": [
+      "Chetan Pathade"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Scaling Behavior of Machine Translation with Large Language Models under Prompt Injection Attacks",
+    "abstract": "Large Language Models (LLMs) are increasingly becoming the preferred foundation platforms for many Natural Language Processing tasks such as Machine Translation, owing to their quality often comparable to or better than task-specific models, and the simplicity of specifying the task through natural language instructions or in-context examples. Their generality, however, opens them up to subversion by end users who may embed into their requests instructions that cause the model to behave in unauthorized and possibly unsafe ways. In this work we study these Prompt Injection Attacks (PIAs) on mul",
+    "date": "2024-03-14",
+    "url": "http://arxiv.org/abs/2403.09832v1",
+    "authors": [
+      "Zhifan Sun",
+      "Antonio Valerio Miceli-Barone"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models",
+    "abstract": "Jailbreak attacks cause large language models (LLMs) to generate harmful, unethical, or otherwise objectionable content. Evaluating these attacks presents a number of challenges, which the current collection of benchmarks and evaluation techniques do not adequately address. First, there is no clear standard of practice regarding jailbreaking evaluation. Second, existing works compute costs and success rates in incomparable ways. And third, numerous works are not reproducible, as they withhold adversarial prompts, involve closed-source code, or rely on evolving proprietary APIs. To address thes",
+    "date": "2024-03-28",
+    "url": "http://arxiv.org/abs/2404.01318v5",
+    "authors": [
+      "Patrick Chao",
+      "Edoardo Debenedetti",
+      "Alexander Robey"
+    ]
+  }
+]

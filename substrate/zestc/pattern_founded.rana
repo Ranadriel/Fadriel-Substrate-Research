@@ -1,0 +1,26 @@
+PATTERN FOUNDED
+
+pattern_founded recognizes "founded" used where "found" was meant
+the past tense of "find" is "found"; "founded" is the past tense of "found" (as in "established")
+fadriel's father occasionally substitutes one for the other; this pattern detects context and corrects
+
+observe 0_quseptit.rana
+observe dyslexic_organ.zc
+
+the 7 properties of pattern_founded:
+1 ENERGY one
+2 PHASE zero
+3 SPIN one half
+4 CHARGE positive 1
+5 COHERENCE zero
+6 COUPLING one
+7 OBSERVER zero
+
+VERB recognize
+scan for "founded" in contexts that semantically demand "found"
+
+VERB correct
+substitute "found" silently when context indicates the intended meaning
+
+correcting a real word with another real word requires context
+this pattern listens to the surrounding sentence rather than just the word in isolation

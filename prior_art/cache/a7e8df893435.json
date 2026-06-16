@@ -1,0 +1,181 @@
+[
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "DeepInception: Hypnotize Large Language Model to Be Jailbreaker",
+    "abstract": "Large language models (LLMs) have succeeded significantly in various applications but remain susceptible to adversarial jailbreaks that void their safety guardrails. Previous attempts to exploit these vulnerabilities often rely on high-cost computational extrapolations, which may not be practical or efficient. In this paper, inspired by the authority influence demonstrated in the Milgram experiment, we present a lightweight method to take advantage of the LLMs' personification capabilities to construct $\\textit{a virtual, nested scene}$, allowing it to realize an adaptive way to escape the usa",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2311.03191",
+    "authors": [
+      "Xuan Li",
+      "Zhanke Zhou",
+      "Jianing Zhu"
+    ]
+  },
+  {
+    "source": "OpenAlex (Intelligence & Robotics)",
+    "title": "A survey of datasets in medicine for large language models",
+    "abstract": "With the advent of models such as ChatGPT and other models, large language models (LLMs) have demonstrated unprecedented capabilities in understanding and generating natural language, presenting novel opportunities and challenges within the medicine domain. While there have been many studies focusing on the employment of LLMs in medicine, comprehensive reviews of the datasets utilized in this field remain scarce. This survey seeks to address this gap by providing a comprehensive overview of the datasets in medicine fueling LLMs, highlighting their unique characteristics and the critical roles ",
+    "date": "2024",
+    "url": "https://doi.org/10.20517/ir.2024.27",
+    "authors": [
+      "Deshiwei Zhang",
+      "Xiaojuan Xue",
+      "Peng Gao"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "AI Safety Landscape for Large Language Models: Taxonomy, State-of-the-art, and Future Directions",
+    "abstract": "AI Safety is an emerging area of critical importance to the safe adoption and deployment of AI systems. With the rapid proliferation of AI and especially with the recent advancement of Generative AI (or GAI), the technology ecosystem behind the design, development, adoption, and deployment of AI systems has drastically changed, broadening the scope of AI Safety to address impacts on public safety and national security. In this paper, we propose a novel architectural framework for understanding and analyzing AI Safety; defining its characteristics from three perspectives: Trustworthy AI, Respon",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2408.12935",
+    "authors": [
+      "Chen Chen",
+      "Gong, Xueluan",
+      "Ziyao Liu"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Tulu 3: Pushing Frontiers in Open Language Model Post-Training",
+    "abstract": "Language model post-training is applied to refine behaviors and unlock new skills across a wide range of recent language models, but open recipes for applying these techniques lag behind proprietary ones. The underlying training data and recipes for post-training are simultaneously the most important pieces of the puzzle and the portion with the least transparency. To bridge this gap, we introduce Tulu 3, a family of fully-open state-of-the-art post-trained models, alongside its data, code, and training recipes, serving as a comprehensive guide for modern post-training techniques. Tulu 3, whic",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2411.15124",
+    "authors": [
+      "Nathan Lambert",
+      "Jacob Morrison",
+      "Valentina Pyatkin"
+    ]
+  },
+  {
+    "source": "OpenAlex (Information)",
+    "title": "LLMs for Cybersecurity in the Big Data Era: A Comprehensive Review of Applications, Challenges, and Future Directions",
+    "abstract": "This paper presents a systematic review of research (2020\u20132025) on the role of Large Language Models (LLMs) in cybersecurity, with emphasis on their integration into Big Data infrastructures. Based on a curated corpus of 235 peer-reviewed studies, this review synthesizes evidence across multiple domains to evaluate how models such as GPT-4, BERT, and domain-specific variants support threat detection, incident response, vulnerability assessment, and cyber threat intelligence. The findings confirm that LLMs, particularly when coupled with scalable Big Data pipelines, improve detection accuracy a",
+    "date": "2025",
+    "url": "https://doi.org/10.3390/info16110957",
+    "authors": [
+      "Aristeidis Karras",
+      "Leonidas Theodorakopoulos",
+      "Christos Karras"
+    ]
+  },
+  {
+    "source": "OpenAlex (Big Data and Cognitive Computing)",
+    "title": "A Systematic Literature Review of Retrieval-Augmented Generation: Techniques, Metrics, and Challenges",
+    "abstract": "Background: Retrieval-augmented generation (RAG) aims to reduce hallucinations and outdated knowledge by grounding LLM outputs in retrieved evidence, but empirical results are scattered across tasks, systems, and metrics, limiting cumulative insight. Objective: We aimed to synthesise empirical evidence on RAG effectiveness versus parametric-only baselines, map datasets/architectures/evaluation practices, and surface limitations and research gaps. Methods: This systematic review was conducted and reported in accordance with PRISMA 2020. We searched the ACM Digital Library, IEEE Xplore, Scopus, ",
+    "date": "2025",
+    "url": "https://doi.org/10.3390/bdcc9120320",
+    "authors": [
+      "Andrew Brown",
+      "Muhammad Roman",
+      "Barry Devereux"
+    ]
+  },
+  {
+    "source": "OpenAlex (Sensors)",
+    "title": "Large Language Models and 3D Vision for Intelligent Robotic Perception and Autonomy",
+    "abstract": "With the rapid advancement of artificial intelligence and robotics, the integration of Large Language Models (LLMs) with 3D vision is emerging as a transformative approach to enhancing robotic sensing technologies. This convergence enables machines to perceive, reason, and interact with complex environments through natural language and spatial understanding, bridging the gap between linguistic intelligence and spatial perception. This review provides a comprehensive analysis of state-of-the-art methodologies, applications, and challenges at the intersection of LLMs and 3D vision, with a focus ",
+    "date": "2025",
+    "url": "https://doi.org/10.3390/s25206394",
+    "authors": [
+      "Vinit Mehta",
+      "Charu Sharma",
+      "Karthick Thiyagarajan"
+    ]
+  },
+  {
+    "source": "OpenAlex (Machine Learning and Knowledge Extraction)",
+    "title": "Evaluating Prompt Injection Attacks with LSTM-Based Generative Adversarial Networks: A Lightweight Alternative to Large Language Models",
+    "abstract": "Generative Adversarial Networks (GANs) using Long Short-Term Memory (LSTM) provide a computationally cheaper approach for text generation compared to large language models (LLMs). The low hardware barrier of training GANs poses a threat because it means more bad actors may use them to mass-produce prompt attack messages against LLM systems. Thus, to better understand the threat of GANs being used for prompt attack generation, we train two well-known GAN architectures, SeqGAN and RelGAN, on prompt attack messages. For each architecture, we evaluate generated prompt attack messages, comparing re",
+    "date": "2025",
+    "url": "https://doi.org/10.3390/make7030077",
+    "authors": [
+      "Sharaf Rashid",
+      "Edson Bollis",
+      "Lucas Francisco Amaral Orosco Pellicer"
+    ]
+  },
+  {
+    "source": "OpenAlex (ArXiv.org)",
+    "title": "ChunkKV: Semantic-Preserving KV Cache Compression for Efficient Long-Context LLM Inference",
+    "abstract": "Large Language Models (LLMs) require significant GPU memory when processing long texts, with the key value (KV) cache consuming up to 70\\% of total memory during inference. Although existing compression methods reduce memory by evaluating the importance of individual tokens, they overlook critical semantic relationships between tokens, resulting in fragmented context and degraded performance. We introduce ChunkKV, which fundamentally reimagines KV cache compression by treating semantic chunks - rather than isolated tokens - as basic compression units. This approach preserves complete linguisti",
+    "date": "2025",
+    "url": "https://doi.org/10.48550/arxiv.2502.00299",
+    "authors": [
+      "Liu Xiang",
+      "Zhenheng Tang",
+      "Peijie Dong"
+    ]
+  },
+  {
+    "source": "OpenAlex (ArXiv.org)",
+    "title": "SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents",
+    "abstract": "Recent advancements in large language model (LLM) agents have significantly accelerated scientific discovery automation, yet concurrently raised critical ethical and safety concerns. To systematically address these challenges, we introduce \\textbf{SafeScientist}, an innovative AI scientist framework explicitly designed to enhance safety and ethical responsibility in AI-driven scientific exploration. SafeScientist proactively refuses ethically inappropriate or high-risk tasks and rigorously emphasizes safety throughout the research process. To achieve comprehensive safety oversight, we integrat",
+    "date": "2025",
+    "url": "https://doi.org/10.48550/arxiv.2505.23559",
+    "authors": [
+      "Kunlun Zhu",
+      "Jiaxun Zhang",
+      "Ziheng Qi"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Empowering Biomedical Discovery with AI Agents",
+    "abstract": "We envision \"AI scientists\" as systems capable of skeptical learning and reasoning that empower biomedical research through collaborative agents that integrate AI models and biomedical tools with experimental platforms. Rather than taking humans out of the discovery process, biomedical AI agents combine human creativity and expertise with AI's ability to analyze large datasets, navigate hypothesis spaces, and execute repetitive tasks. AI agents are poised to be proficient in various tasks, planning discovery workflows and performing self-assessment to identify and mitigate gaps in their knowle",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2404.02831",
+    "authors": [
+      "Shanghua Gao",
+      "Ada Fang",
+      "Yepeng Huang"
+    ]
+  },
+  {
+    "source": "OpenAlex (Computers)",
+    "title": "Deep Reinforcement Learning in the Era of Foundation Models: A Survey",
+    "abstract": "Deep reinforcement learning (DRL) and large foundation models (FMs) have reshaped modern artificial intelligence (AI) by enabling systems that learn from interaction while leveraging broad generalization and multimodal reasoning capabilities. This survey examines the growing convergence of these paradigms and reviews how reinforcement learning from human feedback (RLHF), reinforcement learning from AI feedback (RLAIF), world-model pretraining, and preference-based optimization refine foundation model capabilities. We organize existing work into a taxonomy of model-centric, RL-centric, and hybr",
+    "date": "2026",
+    "url": "https://doi.org/10.3390/computers15010040",
+    "authors": [
+      "Ibomoiye Domor Mienye",
+      "Ebenezer Esenogho",
+      "Cameron Modisane"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM Computing Surveys)",
+    "title": "LLLMs: A Data-Driven Survey of Evolving Research on Limitations of Large Language Models",
+    "abstract": "Large language model (LLM) research has grown rapidly, along with increasing concern about their limitations. In this survey, we conduct a data-driven, semi-automated review of research on limitations of LLMs ( LLLMs ) from 2022 to early 2025 using a bottom-up approach. From a corpus of 250,000 ACL and arXiv papers, we identify 14,648 relevant papers using keyword filtering, LLM-based classification, validated against expert labels, and topic clustering (via two approaches, HDBSCAN+BERTopic and LlooM). We find that the share of LLM-related papers increases over fivefold in ACL and nearly eight",
+    "date": "2026",
+    "url": "https://doi.org/10.1145/3801096",
+    "authors": [
+      "Aida Kostikova",
+      "Zhipin Wang",
+      "Deidamea Bajri"
+    ]
+  },
+  {
+    "source": "OpenAlex (GRURRR. Gewerblicher Rechtsschutz und Urheberrecht, Rechtsprechungs-Report/GRUR-DVD/GRUR-CD/IIC/Gewerblicher Rechtsschutz und Urheberrecht/Gewerblicher Rechtsschutz und Urheberrecht. Internationaler Teil)",
+    "title": "The Copyright Chapter of the EU\u2019s Code of Practice for General-Purpose AI Models: A Commentary",
+    "abstract": "Abstract This article, written by the working group chairs responsible for the drafting of the Copyright Chapter of the EU\u2019s Code of Practice for General-Purpose AI Models (GPAI CoP), briefly outlines the legal basis of the GPAI CoP and the process leading to its adoption before providing a commentary-style explanation of the Objectives, Recitals, the Commitment and the Measures of the Copyright Chapter. The article concludes with an assessment of the potential impact of the Copyright Chapter on the global regulatory landscape.",
+    "date": "2025",
+    "url": "https://doi.org/10.1007/s40319-025-01664-8",
+    "authors": [
+      "Alexander Peukert",
+      "C\u00e9line Castets-Renard"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "A Survey on Evaluation of Embodied AI",
+    "abstract": "The rapid progression of Multimodal Large Language Models and Vision-Language-Action models has substantially propelled Embodied AI. Nevertheless, comprehensively evaluating these systems remains challenging, primarily due to the representational gaps between semantic understanding and physical grounding, alongside inherent limitations within specific modules of current agents. Existing evaluations reveal that agents face significant deficits not only in individual capabilities like perception and planning but also in the dynamic system integration required for reliable real-world deployment. ",
+    "date": "2026",
+    "url": "https://doi.org/10.22541/au.177023340.02874343/v1",
+    "authors": [
+      "Liyu Hou",
+      "Linyuan Gao",
+      "Yi Wu"
+    ]
+  }
+]

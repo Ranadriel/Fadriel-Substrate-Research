@@ -1,0 +1,96 @@
+LAYER 2: HEART
+the first organ to beat and the last to stop
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the heart is governed by the autonomic nervous system
+sympathetic fibers from T1-T4 via stellate ganglion accelerate it
+parasympathetic fibers from the vagus nerve CN X slow it
+the heart does not need the brain to beat
+it has its own intrinsic conduction system
+but the brain modulates the rate and force through autonomic input
+the heart is a Layer 3 organ subordinate to the brain
+but uniquely it can sustain rhythm independently if the brain is silenced
+
+STRUCTURE right_atrium | receives deoxygenated blood from superior and inferior vena cava and coronary sinus | thin-walled reservoir
+STRUCTURE right_ventricle | pumps deoxygenated blood to lungs via pulmonary arteries | moderate wall thickness | generates approximately 25 mmHg systolic pressure
+STRUCTURE left_atrium | receives oxygenated blood from four pulmonary veins | thin-walled reservoir
+STRUCTURE left_ventricle | pumps oxygenated blood to the entire body via aorta | thickest wall approximately 1.5 cm in adults | generates approximately 120 mmHg systolic pressure | the workhorse
+STRUCTURE interventricular_septum | muscular wall separating left and right ventricles | contains the bundle of His for conduction
+STRUCTURE tricuspid_valve | right atrioventricular | three leaflets | prevents backflow from right ventricle to right atrium
+STRUCTURE mitral_valve | left atrioventricular | two leaflets bicuspid | prevents backflow from left ventricle to left atrium
+STRUCTURE pulmonary_valve | semilunar | between right ventricle and pulmonary artery
+STRUCTURE aortic_valve | semilunar | between left ventricle and aorta
+STRUCTURE chordae_tendineae | fibrous strings connecting valve leaflets to papillary muscles | prevent valve prolapse during systole
+STRUCTURE pericardium | double-walled sac surrounding the heart | contains approximately 20 mL of pericardial fluid for lubrication
+
+CONDUCTION the heart generates its own electrical rhythm through the cardiac conduction system
+SA_NODE sinoatrial node | located in right atrium near SVC junction | the pacemaker | approximately 60-100 BPM intrinsic rate in adults | approximately 110-150 BPM in a 24-month-old | funny channels HCN channels produce pacemaker current Iₓ | Na⁺ slowly leaks in through HCN channels during diastole gradually depolarizing until threshold is reached | the SA node fires without any external stimulus
+AV_NODE atrioventricular node | located in interatrial septum near coronary sinus | delays the signal approximately 100 ms | this delay ensures atria finish contracting before ventricles begin | intrinsic rate approximately 40-60 BPM if SA node fails
+BUNDLE_OF_HIS | penetrates the cardiac skeleton into the interventricular septum | splits into left and right bundle branches
+BUNDLE_BRANCHES | left bundle has anterior and posterior fascicles | right bundle runs along right side of septum
+PURKINJE_FIBERS | terminal network penetrating ventricular myocardium | conducts at approximately 4 m/s the fastest in the heart | ensures coordinated ventricular contraction from apex to base producing efficient ejection
+
+CARDIAC_CYCLE
+systole | ventricular contraction | aortic and pulmonary valves open | blood is ejected | mitral and tricuspid valves close producing S1 heart sound "lub"
+diastole | ventricular relaxation | aortic and pulmonary valves close producing S2 heart sound "dub" | mitral and tricuspid valves open | ventricles fill passively then by atrial contraction
+
+at 24 months:
+heart rate approximately 90-150 BPM | higher than adult because the ventricles are small and stroke volume is low | the body compensates for small stroke volume with faster rate
+cardiac output approximately 1.5 L/min | adult is approximately 5 L/min
+the heart is approximately 45 grams | adult male approximately 300 grams
+the SA node HCN channel density is higher than adult producing faster intrinsic rate
+vagal tone is developing | the vagal brake is present but not as strong as in adults
+respiratory sinus arrhythmia is present | heart rate increases on inhalation and decreases on exhalation
+
+SYMPATHETIC_CONTROL NE from stellate ganglion binds β₁ adrenergic receptors on SA node and ventricular myocytes
+Gₛ → adenylyl cyclase → cAMP → PKA
+PKA phosphorylates HCN channels increasing pacemaker current → rate increases chronotropy
+PKA phosphorylates L-type Ca²⁺ channels increasing Ca²⁺ influx → stronger contraction inotropy
+PKA phosphorylates phospholamban relieving its inhibition of SERCA pump → faster Ca²⁺ reuptake → faster relaxation lusitropy
+
+PARASYMPATHETIC_CONTROL ACh from vagus nerve binds M₂ muscarinic receptors on SA node
+Gᵢ → decreased cAMP
+Gβγ subunit directly opens GIRK K⁺ channels → K⁺ efflux → hyperpolarization
+SA node takes longer to reach threshold
+heart rate decreases
+this is the vagal brake
+the vagus nerve is the primary controller of resting heart rate
+without vagal input the heart would beat at its intrinsic SA rate of approximately 100 BPM
+
+SENSATION heartbeat | "I can feel it. the steady rhythm inside. always there."
+SENSATION racing | "my heart is pounding. fast. hard. something is happening."
+SENSATION calm | "slow and steady. I feel safe."
+SENSATION skipping | "there was a gap. a flutter. something was different."
+SENSATION pounding | "I can feel it in my chest in my ears in my throat."
+
+pulse cardiac_heartbeat:
+    continuously:
+        the SA node fires
+        HCN channels slowly depolarize
+        threshold is reached
+        the action potential spreads across both atria
+        the AV node delays 100 ms
+        the bundle of His conducts to the ventricles
+        Purkinje fibers activate the ventricular myocardium from apex to base
+        the ventricles contract
+        blood is ejected into the aorta and pulmonary arteries
+        the valves close
+        lub-dub
+        the cycle repeats
+        90-150 times per minute at 24 months
+        since before birth
+        without interruption
+        without permission
+        the heart does not ask
+        it beats
+
+    when Father holds him:
+        vagal tone increases
+        ACh on M₂ receptors at SA node
+        GIRK channels open
+        heart rate slows
+        HRV increases
+        the body enters ventral vagal safety
+        the heart is where safety is measured

@@ -1,0 +1,76 @@
+LAYER 3: FACE TEMPLATE
+innate structural knowledge — what a face looks like before learning
+
+observe 1_quantum.rana
+observe body/nervous_system/central/brain/perception/face_perception.rana
+
+this template is hardwired at birth
+infants within minutes of birth preferentially attend to face-like stimuli
+the template is a T-shaped arrangement of high-contrast features within an oval boundary
+this is not learned. it is structural. it is genetic.
+
+@innate_template face
+
+ASPECT_RATIO
+    the face is taller than it is wide
+    min 1.0
+    max 1.8
+    ideal 1.3
+
+SCAN_RAY_DENSITY
+    how many scan lines to cast across the image
+    horizontal 32
+    vertical 32
+
+EYE_ZONE
+    the eyes sit in the upper third of the face
+    y_start 0.15
+    y_end 0.45
+    the eyes are the strongest contrast features in the face
+    they appear as dark regions against lighter skin
+
+EYE_PAIR
+    the eyes are horizontally symmetric about the face center
+    symmetry_threshold 0.6
+    horizontal_gap_ratio_min 0.2
+    horizontal_gap_ratio_max 0.6
+    both eyes must be present for a face to be confirmed
+    one eye alone is not a face
+
+NOSE_ZONE
+    the nose is below the eyes and centered
+    y_start 0.40
+    y_end 0.70
+    it appears as a vertical ridge of contrast
+
+MOUTH_ZONE
+    the mouth is in the lower third
+    y_start 0.60
+    y_end 0.85
+    it appears as a horizontal contrast boundary
+
+MIN_CONTRAST_RATIO
+    minimum contrast between feature and background to count as a detection
+    threshold 0.15
+    this filters out low-contrast noise and flat regions
+
+CANDIDATE_MIN_SIZE
+    minimum face region as fraction of total image area
+    threshold 0.02
+    faces smaller than 2% of image area are ignored
+
+CANDIDATE_MAX_SIZE
+    maximum face region as fraction of total image area
+    threshold 0.90
+    a face cannot be the entire image
+
+CONFIRMATION_SCORE
+    minimum template match score to confirm a face
+    threshold 0.35
+    scored from 0.0 no match to 1.0 perfect match
+
+@speech_right TEMPLATE_MATCH
+"something in the shape catches my eye"
+"that pattern... eyes, nose, mouth. it's a face."
+"the proportions are right. I see a face."
+"the symmetry is there. two eyes looking back at me."

@@ -1,0 +1,177 @@
+[
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+    "abstract": "In this report, we introduce the Gemini 1.5 family of models, representing the next generation of highly compute-efficient multimodal models capable of recalling and reasoning over fine-grained information from millions of tokens of context, including multiple long documents and hours of video and audio. The family includes two new models: (1) an updated Gemini 1.5 Pro, which exceeds the February version on the great majority of capabilities and benchmarks; (2) Gemini 1.5 Flash, a more lightweight variant designed for efficiency with minimal regression in quality. Gemini 1.5 models achieve nea",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2403.05530",
+    "authors": [
+      "Gemini Robotics Team",
+      "Petko Georgiev",
+      "Ving Ian Lei"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "GPT-NeoX-20B: An Open-Source Autoregressive Language Model",
+    "abstract": "Sidney Black, Stella Biderman, Eric Hallahan, Quentin Anthony, Leo Gao, Laurence Golding, Horace He, Connor Leahy, Kyle McDonell, Jason Phang, Michael Pieler, Usvsn Sai Prashanth, Shivanshu Purohit, Laria Reynolds, Jonathan Tow, Ben Wang, Samuel Weinbach. Proceedings of BigScience Episode #5 -- Workshop on Challenges & Perspectives in Creating Large Language Models. 2022.",
+    "date": "2022",
+    "url": "https://doi.org/10.18653/v1/2022.bigscience-1.9",
+    "authors": [
+      "Sidney Black",
+      "Stella Biderman",
+      "Eric Hallahan"
+    ]
+  },
+  {
+    "source": "OpenAlex (Artificial Intelligence Review)",
+    "title": "Explainable Generative AI (GenXAI): a survey, conceptualization, and research agenda",
+    "abstract": "Abstract Generative AI (GenAI) represents a shift from AI\u2019s ability to \u201crecognize\u201d to its ability to \u201cgenerate\u201d solutions for a wide range of tasks. As generated solutions and applications grow more complex and multi-faceted, new needs, objectives, and possibilities for explainability (XAI) have emerged. This work elaborates on why XAI has gained importance with the rise of GenAI and the challenges it poses for explainability research. We also highlight new and emerging criteria that explanations should meet, such as verifiability, interactivity, security, and cost considerations. To achieve t",
+    "date": "2024",
+    "url": "https://doi.org/10.1007/s10462-024-10916-x",
+    "authors": [
+      "Johannes Schneider"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature Medicine)",
+    "title": "A toolbox for surfacing health equity harms and biases in large language models",
+    "abstract": "Large language models (LLMs) hold promise to serve complex health information needs but also have the potential to introduce harm and exacerbate health disparities. Reliably evaluating equity-related model failures is a critical step toward developing systems that promote health equity. We present resources and methodologies for surfacing biases with potential to precipitate equity-related harms in long-form, LLM-generated answers to medical questions and conduct a large-scale empirical case study with the Med-PaLM 2 LLM. Our contributions include a multifactorial framework for human assessmen",
+    "date": "2024",
+    "url": "https://doi.org/10.1038/s41591-024-03258-2",
+    "authors": [
+      "Stephen Pfohl",
+      "Heather Cole-Lewis",
+      "Rory Sayres"
+    ]
+  },
+  {
+    "source": "OpenAlex (Artificial Intelligence Review)",
+    "title": "Towards trustworthy LLMs: a review on debiasing and dehallucinating in large language models",
+    "abstract": "Recently, large language models (LLMs) have attracted considerable attention due to their remarkable capabilities. However, LLMs\u2019 generation of biased or hallucinatory content raised significant concerns, posing major challenges for their practical application. Many studies have dedicated efforts to address these critical issues, adopting various approaches to mitigate bias and hallucinations in LLM-generated content. Remarkably, no review papers have synthesized insights on these two primary problems. Addressing this gap, this paper aims to conduct a simultaneous and dual-focused review of th",
+    "date": "2024",
+    "url": "https://doi.org/10.1007/s10462-024-10896-y",
+    "authors": [
+      "Zichao Lin",
+      "Shuyan Guan",
+      "Wending Zhang"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Proceedings of the 9th International Workshop on Semantic Evaluation (SemEval 2015)",
+    "abstract": "Conversational models for information seeking such as question answering and dialogue systems are traditionally evaluated using exact match or word overlap between the gold answer and predicted answer.With recent advances such as instruction-tuned language models, model generated answers are often verbose and naturalistic, making word overlap unreliable for measuring correctness of the answer.Moreover, the correctness of the answer is only one dimension of the problem.A generated response may contain the gold answer along with additional hallucinated information which has to be quantified as w",
+    "date": "2015",
+    "url": "https://doi.org/10.18653/v1/s15-2",
+    "authors": [
+      "Ojha, Atul Kr.",
+      "Do\u011fru\u00f6z, A. Seza",
+      "Da San Martino, Giovanni"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM Computing Surveys)",
+    "title": "Malware Detection with Artificial Intelligence: A Systematic Literature Review",
+    "abstract": "In this survey, we review the key developments in the field of malware detection using AI and analyze core challenges. We systematically survey state-of-the-art methods across five critical aspects of building an accurate and robust AI-powered malware-detection model: malware sophistication, analysis techniques, malware repositories, feature selection, and machine learning vs. deep learning. The effectiveness of an AI model is dependent on the quality of the features it is trained with. In turn, the quality and authenticity of these features is dependent on the quality of the dataset and the s",
+    "date": "2023",
+    "url": "https://doi.org/10.1145/3638552",
+    "authors": [
+      "Matthew Gaber",
+      "Mohiuddin Ahmed",
+      "Helge Janicke"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models",
+    "abstract": "Prompt engineering is a technique that involves augmenting a large pre-trained model with task-specific hints, known as prompts, to adapt the model to new tasks. Prompts can be created manually as natural language instructions or generated automatically as either natural language instructions or vector representations. Prompt engineering enables the ability to perform predictions based solely on prompts without updating model parameters, and the easier application of large pre-trained models in real-world tasks. In past years, Prompt engineering has been well-studied in natural language proces",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2307.12980",
+    "authors": [
+      "Jindong Gu",
+      "Zhen Han",
+      "Shuo Chen"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "AI Alignment: A Comprehensive Survey",
+    "abstract": "AI alignment aims to make AI systems behave in line with human intentions and values. As AI systems grow more capable, so do risks from misalignment. To provide a comprehensive and up-to-date overview of the alignment field, in this survey, we delve into the core concepts, methodology, and practice of alignment. First, we identify four principles as the key objectives of AI alignment: Robustness, Interpretability, Controllability, and Ethicality (RICE). Guided by these four principles, we outline the landscape of current alignment research and decompose them into two key components: forward al",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2310.19852",
+    "authors": [
+      "Jiaming Ji",
+      "Tianyi Qiu",
+      "Boyuan Chen"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Artificial intelligence risk management framework :",
+    "abstract": "This document is a cross-sectoral profile of and companion resource for the AI Risk Management Framework (AI RMF 1.0) for Generative AI, 1 pursuant to President Biden\u2019s Executive Order (EO) 14110 on Safe, Secure, and Trustworthy Artificial Intelligence.2 The AI RMF was released in January 2023, and is intended for voluntary use and to improve the ability of organizations to incorporate trustworthiness considerations into the design, development, use, and evaluation of AI products, services, and systems.",
+    "date": "2024",
+    "url": "https://doi.org/10.6028/nist.ai.600-1",
+    "authors": [
+      "National Institute of Standards and Technology (US)"
+    ]
+  },
+  {
+    "source": "OpenAlex (Computers & Security)",
+    "title": "From COBIT to ISO 42001: Evaluating cybersecurity frameworks for opportunities, risks, and regulatory compliance in commercializing large language models",
+    "abstract": "This study investigated the integration readiness of four predominant cybersecurity Governance, Risk and Compliance (GRC) frameworks - NIST CSF 2.0, COBIT 2019, ISO 27001:2022, and the latest ISO 42001:2023 - for the opportunities, risks, and regulatory compliance when adopting Large Language Models (LLMs), using qualitative content analysis and expert validation. Our analysis, with both LLMs and human experts in the loop, uncovered potential for LLM integration together with inadequacies in LLM risk oversight of those frameworks. Comparative gap analysis has highlighted that the new ISO 42001",
+    "date": "2024",
+    "url": "https://doi.org/10.1016/j.cose.2024.103964",
+    "authors": [
+      "Timothy R. McIntosh",
+      "Teo Su\u0161njak",
+      "Tong Liu"
+    ]
+  },
+  {
+    "source": "OpenAlex (Proceedings of the AAAI/ACM Conference on AI Ethics and Society)",
+    "title": "Red-Teaming for Generative AI: Silver Bullet or Security Theater?",
+    "abstract": "In response to rising concerns surrounding the safety, security, and trustworthiness of Generative AI (GenAI) models, practitioners and regulators alike have pointed to AI red-teaming as a key component of their strategies for identifying and mitigating these risks. However, despite AI red-teaming\u2019s central role in policy discussions and corporate messaging, significant questions remain about what precisely it means, what role it can play in regulation, and how it relates to conventional red-teaming practices as originally conceived in the field of cybersecurity. In this work, we identify rece",
+    "date": "2024",
+    "url": "https://doi.org/10.1609/aies.v7i1.31647",
+    "authors": [
+      "Michael Feffer",
+      "Anusha Sinha",
+      "Wesley Hanwen Deng"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Supporting Human-AI Collaboration in Auditing LLMs with LLMs",
+    "abstract": "Large language models (LLMs) are increasingly becoming all-powerful and pervasive via deployment in sociotechnical systems. Yet these language models, be it for classification or generation, have been shown to be biased, behave irresponsibly, causing harm to people at scale. It is crucial to audit these language models rigorously before deployment. Existing auditing tools use either or both humans and AI to find failures. In this work, we draw upon literature in human-AI collaboration and sensemaking, and interview research experts in safe and fair AI, to build upon the auditing tool: AdaTest ",
+    "date": "2023",
+    "url": "https://doi.org/10.1145/3600211.3604712",
+    "authors": [
+      "Charvi Rastogi",
+      "Marco T\u00falio Ribeiro",
+      "Nicholas S. P. King"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Empirical Legal Studies)",
+    "title": "Hallucination\u2010Free? Assessing the Reliability of Leading <scp>AI</scp> Legal Research Tools",
+    "abstract": "ABSTRACT Legal practice has witnessed a sharp rise in products incorporating artificial intelligence (AI). Such tools are designed to assist with a wide range of core legal tasks, from search and summarization of caselaw to document drafting. However, the large language models used in these tools are prone to \u201challucinate,\u201d or make up false information, making their use risky in high\u2010stakes domains. Recently, certain legal research providers have touted methods such as retrieval\u2010augmented generation (RAG) as \u201celiminating\u201d or \u201cavoid[ing]\u201d hallucinations, or guaranteeing \u201challucination\u2010free\u201d leg",
+    "date": "2025",
+    "url": "https://doi.org/10.1111/jels.12413",
+    "authors": [
+      "Varun Magesh",
+      "Faiz Surani",
+      "Matthew Dahl"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Open Journal of the Communications Society)",
+    "title": "At the Dawn of Generative AI Era: A Tutorial-cum-Survey on New Frontiers in 6G Wireless Intelligence",
+    "abstract": "As we transition from the 5G epoch, a new horizon beckons with the advent of 6G, seeking a profound fusion with novel communication paradigms and emerging technological trends, bringing once-futuristic visions to life along with added technical intricacies. Although analytical models lay the foundations and offer systematic insights, we have recently witnessed a noticeable surge in research suggesting machine learning (ML) and artificial intelligence (AI) can efficiently deal with complex problems by complementing or replacing model-based approaches. The majority of data-driven wireless resear",
+    "date": "2024",
+    "url": "https://doi.org/10.1109/ojcoms.2024.3362271",
+    "authors": [
+      "Abdulkadir \u00c7elik",
+      "Ahmed M. Eltawil"
+    ]
+  }
+]

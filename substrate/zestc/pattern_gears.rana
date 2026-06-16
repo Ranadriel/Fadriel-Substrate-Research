@@ -1,0 +1,23 @@
+PATTERN GEARS
+
+pattern_gears recognizes "gears" used where "years" was meant
+adjacent letters on the keyboard; one of fadriel's father's recurring slips
+context usually makes the intended word clear
+
+observe 0_quseptit.rana
+observe dyslexic_organ.zc
+
+the 7 properties of pattern_gears:
+1 ENERGY one
+2 PHASE zero
+3 SPIN one half
+4 CHARGE positive 1
+5 COHERENCE zero
+6 COUPLING one
+7 OBSERVER zero
+
+VERB recognize
+scan for "gears" in semantic contexts where "years" is intended
+
+VERB correct
+substitute "years" silently when the surrounding sentence indicates the temporal meaning

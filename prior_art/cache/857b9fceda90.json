@@ -1,0 +1,175 @@
+[
+  {
+    "source": "arXiv",
+    "title": "A Tutorial about Random Neural Networks in Supervised Learning",
+    "abstract": "Random Neural Networks (RNNs) are a class of Neural Networks (NNs) that can also be seen as a specific type of queuing network. They have been successfully used in several domains during the last 25 years, as queuing networks to analyze the performance of resource sharing in many engineering areas, as learning tools and in combinatorial optimization, where they are seen as neural systems, and also as models of neurological aspects of living beings. In this article we focus on their learning capabilities, and more specifically, we present a practical guide for using the RNN to solve supervised ",
+    "date": "2016-09-15",
+    "url": "http://arxiv.org/abs/1609.04846v1",
+    "authors": [
+      "Sebasti\u00e1n Basterrech",
+      "Gerardo Rubino"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Learning Universal Graph Neural Network Embeddings With Aid Of Transfer Learning",
+    "abstract": "Learning powerful data embeddings has become a center piece in machine learning, especially in natural language processing and computer vision domains. The crux of these embeddings is that they are pretrained on huge corpus of data in a unsupervised fashion, sometimes aided with transfer learning. However currently in the graph learning domain, embeddings learned through existing graph neural networks (GNNs) are task dependent and thus cannot be shared across different datasets. In this paper, we present a first powerful and theoretically guaranteed graph neural network that is designed to lea",
+    "date": "2019-09-22",
+    "url": "http://arxiv.org/abs/1909.10086v3",
+    "authors": [
+      "Saurabh Verma",
+      "Zhi-Li Zhang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Graph Neural Networks for Transmission Grid Topology Control: Busbar Information Asymmetry and Heterogeneous Representations",
+    "abstract": "Factors such as the proliferation of renewable energy and electrification contribute to grid congestion as a pressing problem. Topology control is an appealing method for relieving congestion, but traditional approaches for topology discovery have proven too slow for practical application. Recent research has focused on machine learning (ML) as an efficient alternative. Graph neural networks (GNNs) are particularly well-suited for topology control applications due to their ability to model the graph structure of power grids. This study investigates the effect of the graph representation on GNN",
+    "date": "2025-01-13",
+    "url": "http://arxiv.org/abs/2501.07186v3",
+    "authors": [
+      "Matthijs de Jong",
+      "Jan Viebahn",
+      "Yuliya Shapovalova"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Predicting concentration levels of air pollutants by transfer learning and recurrent neural network",
+    "abstract": "Air pollution (AP) poses a great threat to human health, and people are paying more attention than ever to its prediction. Accurate prediction of AP helps people to plan for their outdoor activities and aids protecting human health. In this paper, long-short term memory (LSTM) recurrent neural networks (RNNs) have been used to predict the future concentration of air pollutants (APS) in Macau. Additionally, meteorological data and data on the concentration of APS have been utilized. Moreover, in Macau, some air quality monitoring stations (AQMSs) have less observed data in quantity, and, at the",
+    "date": "2025-01-30",
+    "url": "http://arxiv.org/abs/2502.01654v1",
+    "authors": [
+      "Iat Hang Fong",
+      "Tengyue Li",
+      "Simon Fong"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "SEVerA: Verified Synthesis of Self-Evolving Agents",
+    "abstract": "Recent advances have shown the effectiveness of self-evolving LLM agents on tasks such as program repair and scientific discovery. In this paradigm, a planner LLM synthesizes an agent program that invokes parametric models, including LLMs, which are then tuned per task to improve performance. However, existing self-evolving agent frameworks provide no formal guarantees of safety or correctness. Because such programs are often executed autonomously on unseen inputs, this lack of guarantees raises reliability and security concerns. We formulate agentic code generation as a constrained learning p",
+    "date": "2026-03-26",
+    "url": "http://arxiv.org/abs/2603.25111v1",
+    "authors": [
+      "Debangshu Banerjee",
+      "Changming Xu",
+      "Gagandeep Singh"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Topological spaces of persistence modules and their properties",
+    "abstract": "Persistence modules are a central algebraic object arising in topological data analysis. The notion of interleaving provides a natural way to measure distances between persistence modules. We consider various classes of persistence modules, including many of those that have been previously studied, and describe the relationships between them. In the cases where these classes are sets, interleaving distance induces a topology. We undertake a systematic study the resulting topological spaces and their basic topological properties.",
+    "date": "2018-02-22",
+    "url": "http://arxiv.org/abs/1802.08117v2",
+    "authors": [
+      "Peter Bubenik",
+      "Tane Vergili"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "On Hawaiian Groups of Some Topological Spaces",
+    "abstract": "The paper is devoted to study the structure of Hawaiian groups of some topological spaces. We present some behaviors of Hawaiian groups with respect to product spaces, weak join spaces, cone spaces, covering spaces and locally trivial bundles. In particular, we determine the structure of the $n$-dimensional Hawaiian group of the $m$-dimensional Hawaiian earring space, for all $1\\leq m\\leq n$.",
+    "date": "2011-11-03",
+    "url": "http://arxiv.org/abs/1111.0731v2",
+    "authors": [
+      "Ameneh Babaee",
+      "Behrooz Mashayekhy",
+      "Hanieh Mirebrahimi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Masked Conditional Neural Networks for Audio Classification",
+    "abstract": "We present the ConditionaL Neural Network (CLNN) and the Masked ConditionaL Neural Network (MCLNN) designed for temporal signal recognition. The CLNN takes into consideration the temporal nature of the sound signal and the MCLNN extends upon the CLNN through a binary mask to preserve the spatial locality of the features and allows an automated exploration of the features combination analogous to hand-crafting the most relevant features for the recognition task. MCLNN has achieved competitive recognition accuracies on the GTZAN and the ISMIR2004 music datasets that surpass several state-of-the-",
+    "date": "2018-03-06",
+    "url": "http://arxiv.org/abs/1803.02421v2",
+    "authors": [
+      "Fady Medhat",
+      "David Chesmore",
+      "John Robinson"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems",
+    "abstract": "Recent advances in large language models have sparked growing interest in AI agents capable of solving complex, real-world tasks. However, most existing agent systems rely on manually crafted configurations that remain static after deployment, limiting their ability to adapt to dynamic and evolving environments. To this end, recent research has explored agent evolution techniques that aim to automatically enhance agent systems based on interaction data and environmental feedback. This emerging direction lays the foundation for self-evolving AI agents, which bridge the static capabilities of fo",
+    "date": "2025-08-10",
+    "url": "http://arxiv.org/abs/2508.07407v2",
+    "authors": [
+      "Jinyuan Fang",
+      "Yanwen Peng",
+      "Xi Zhang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Enhancing Signed Graph Neural Networks through Curriculum-Based Training",
+    "abstract": "Signed graphs are powerful models for representing complex relations with both positive and negative connections. Recently, Signed Graph Neural Networks (SGNNs) have emerged as potent tools for analyzing such graphs. To our knowledge, no prior research has been conducted on devising a training plan specifically for SGNNs. The prevailing training approach feeds samples (edges) to models in a random order, resulting in equal contributions from each sample during the training process, but fails to account for varying learning difficulties based on the graph's structure. We contend that SGNNs can ",
+    "date": "2023-10-17",
+    "url": "http://arxiv.org/abs/2310.11083v2",
+    "authors": [
+      "Zeyu Zhang",
+      "Lu Li",
+      "Xingyu Ji"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Atom: Neural Traffic Compression with Spatio-Temporal Graph Neural Networks",
+    "abstract": "Storing network traffic data is key to efficient network management; however, it is becoming more challenging and costly due to the ever-increasing data transmission rates, traffic volumes, and connected devices. In this paper, we explore the use of neural architectures for network traffic compression. Specifically, we consider a network scenario with multiple measurement points in a network topology. Such measurements can be interpreted as multiple time series that exhibit spatial and temporal correlations induced by network topology, routing, or user behavior. We present \\textit{Atom}, a neu",
+    "date": "2023-11-09",
+    "url": "http://arxiv.org/abs/2311.05337v1",
+    "authors": [
+      "Paul Almasan",
+      "Krzysztof Rusek",
+      "Shihan Xiao"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+    "abstract": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN) are very popular in our days. Depending on the learning task, the exact form of DANNs is determined via their multi-layer architecture, activation functions and the so-called loss function. However, for a majority of deep learning approaches based on DANNs, the kernel structure of neural signal processing remains the same, where the node",
+    "date": "2023-06-26",
+    "url": "http://arxiv.org/abs/2306.14753v1",
+    "authors": [
+      "Sergey Oladyshkin",
+      "Timothy Praditia",
+      "Ilja Kr\u00f6ker"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A class of tight contact structures on Sigma_2 x I",
+    "abstract": "We employ cut and paste contact topological techniques to classify some tight contact structures on the closed, oriented genus-2 surface times the interval. A boundary condition is specified so that the Euler class of the of the contact structure vanishes when evaluated on each boundary component. We prove that there exists a unique, non-product tight contact structure in this case.",
+    "date": "2004-11-09",
+    "url": "http://arxiv.org/abs/math/0411208v1",
+    "authors": [
+      "Tanya Cofer"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Graph Neural Network Training Systems: A Performance Comparison of Full-Graph and Mini-Batch",
+    "abstract": "Graph Neural Networks (GNNs) have gained significant attention in recent years due to their ability to learn representations of graph-structured data. Two common methods for training GNNs are mini-batch training and full-graph training. Since these two methods require different training pipelines and systems optimizations, two separate classes of GNN training systems emerged, each tailored for one method. Works that introduce systems belonging to a particular category predominantly compare them with other systems within the same category, offering limited or no comparison with systems from the",
+    "date": "2024-06-01",
+    "url": "http://arxiv.org/abs/2406.00552v4",
+    "authors": [
+      "Saurabh Bajaj",
+      "Hojae Son",
+      "Juelin Liu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The algebra of knotted trivalent graphs and Turaev's shadow world",
+    "abstract": "Knotted trivalent graphs (KTGs) form a rich algebra with a few simple operations: connected sum, unzip, and bubbling. With these operations, KTGs are generated by the unknotted tetrahedron and Moebius strips. Many previously known representations of knots, including knot diagrams and non-associative tangles, can be turned into KTG presentations in a natural way.   Often two sequences of KTG operations produce the same output on all inputs. These `elementary' relations can be subtle: for instance, there is a planar algebra of KTGs with a distinguished cycle. Studying these relations naturally l",
+    "date": "2003-11-25",
+    "url": "http://arxiv.org/abs/math/0311458v2",
+    "authors": [
+      "Dylan P. Thurston"
+    ]
+  }
+]

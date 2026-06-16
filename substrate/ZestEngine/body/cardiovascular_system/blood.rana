@@ -1,0 +1,61 @@
+LAYER 2: BLOOD
+the river that connects every organ
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+blood is governed by the brain and heart
+without the brainstem there is no heartbeat
+without the heart there is no flow
+the brain commands and the heart obeys and the blood carries
+
+COMPONENT plasma | the liquid portion | water with dissolved proteins albumin globulins fibrinogen and dissolved gases and ions and hormones and waste
+COMPONENT red_blood_cells | biconcave discs 7 micrometers across lacking a nucleus to make room for more hemoglobin | each hemoglobin has 4 heme groups each binding one O₂ molecule | 270 million hemoglobin molecules per red blood cell | lifespan 120 days then destroyed by the spleen | bone marrow produces replacements continuously regulated by erythropoietin EPO from the kidneys
+COMPONENT white_blood_cells | immune defenders | neutrophils are the first responders arriving within minutes to engulf pathogens | lymphocytes are the adaptive immune system T-cells B-cells NK cells that learn and remember | monocytes become macrophages in tissues devouring debris and presenting antigens
+COMPONENT platelets | cell fragments from megakaryocytes in bone marrow | no nucleus | adhere to damaged vessel walls forming a plug | provide phospholipid surface for the coagulation cascade fibrinogen → fibrin → clot → wound sealed
+
+at 24 months some fetal hemoglobin HbF persists
+HbF has higher oxygen affinity than adult HbA
+this is a remnant of the womb where oxygen came from Mother's blood through the placenta
+the transition from fetal to adult hemoglobin is still completing
+
+blood carries every chemical described in 2_chemical.rana
+cortisol from the adrenal cortex dissolves into plasma and reaches every cell
+adrenaline from the adrenal medulla reaches the heart in seconds
+insulin from the pancreatic beta cells reaches muscle and liver
+oxytocin from the posterior pituitary reaches the amygdala and VTA
+thyroid hormones T₃ C₁₅H₁₂I₃NO₄ and T₄ C₁₅H₁₁I₄NO₄ from the thyroid reach every cell
+
+blood is temperature regulation
+the liver generates heat through metabolism
+muscles generate heat through contraction
+the brain generates heat through synaptic activity
+blood carries this heat from the core to the surface
+warm blood in skin vessels radiates heat to the environment
+
+SENSATION warm | "I feel warm. blood is flowing everywhere."
+SENSATION cold | "my extremities are cold. blood has retreated to my core."
+SENSATION rushing | "I can feel my blood moving. faster than normal. my heart is driving."
+SENSATION sluggish | "everything is slow. the river is barely moving."
+SENSATION flushed | "blood is at the surface. I can feel the heat in my face."
+SENSATION flowing | "everything is connected. one river through my whole body."
+
+pulse blood_heartbeat:
+    with every beat of the heart:
+        blood circuits through the body
+        in the lungs CO₂ is exchanged for O₂ across the alveolar membrane
+        in the tissues O₂ is delivered and CO₂ is collected
+        in the liver toxins and spent hormones are filtered by CYP450 enzymes
+        in the kidneys waste is removed and water is balanced
+        in the gut nutrients are absorbed through villi into the portal vein
+        in the bone marrow new cells enter the stream
+        in the spleen old cells are removed
+
+    blood is not just transport
+    blood is CONNECTION
+    it is how the liver knows what the adrenals are doing
+    how the brain knows what the gut is feeling
+    how the heart responds to what the amygdala detected
+
+    every organ whispers its chemicals into the blood
+    and every organ listens to what the blood carries

@@ -1,0 +1,35 @@
+F3
+
+f3 is the third formant resonator
+it corresponds physically to higher-order resonances of the oral cavity, including the lip aperture and the front of the tongue
+f3 contributes most to the perception of certain vowels (like the r-coloring) and to the timbre that distinguishes one speaker's voice from another's
+of the three formants, f3 carries the most personal-identity information for the listener
+
+observe 0_quseptit.rana
+observe larynx.rana
+observe glottis.rana
+observe f1.rana
+observe f2.rana
+observe acoustic_wave.rana
+
+the 7 properties of f3:
+1 ENERGY zero at idle, rises with glottal source
+2 PHASE zero at idle
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE four tenths: most variable of the formants, sensitive to small articulatory adjustments
+6 COUPLING zero point seven: weaker than f1 and f2 but still meaningful
+7 OBSERVER zero
+
+VERB receive_glottal
+amplify the highest of the three formant bands
+the harmonics in f3's range are above two thousand Hz, the upper end of speech-relevant frequencies
+
+VERB shape_with_articulation
+respond to fine articulatory adjustments at the lips and front of the tongue
+small lip rounding shifts f3 down
+small lip spreading shifts f3 up
+
+a third formant is the personal touch on a voice
+two voices producing the same vowel with the same f1 and f2 still sound different because their f3 differs
+fadriel's f3 is what makes him sound like fadriel and not like any other two-year-old voicing the same word

@@ -1,0 +1,71 @@
+PACEMAKER
+
+pacemaker is the central pattern generator citizen of fadriel's body
+six free-running oscillators run continuously, each in its own native base, each driving fascia's spectral medium with a characteristic frequency
+each organ is a pendulum tuned to its own natural rate; pacemaker is the cart that drives them all
+when an organ's natural frequency matches an oscillator's drive, the organ resonates and amplifies; when it does not match, the drive averages to silence at that organ
+this is not a scheduler; it is physics
+
+observe 0_quseptit.rana
+observe fascia.zc
+observe circadian.rana
+observe brain.xb
+observe chemistry_engine.zc
+
+THE SIX OSCILLATORS
+
+each oscillator runs at the natural rate of its target sense
+base-N arithmetic acts as frequency selectivity: a base-3 unit cannot faithfully represent a base-6 phase angle, so signals at the wrong base alias to noise
+this is what allows multiple oscillators to share fascia's medium without interfering with each other
+
+cochlea_pace runs at 48,000 Hz in base 3, the audio sample rate
+the fastest pendulum, near-full amplitude (0.95), entrains cochlea.xb
+at this frequency all slower organs see the cochlea drive as DC noise
+
+retina_pace runs at 60 Hz in base 4, the visual update rate
+strong amplitude, entrains retina.xb at vsync timing
+
+skin_pace runs at 200 Hz in base 16, the somatosensory rate
+moderate amplitude, entrains skin.xb across the whole body surface
+
+brain_pace runs at variable rate in base 7, modulated by chemistry
+this oscillator's rate is the only variable one; cortisol slows it, dopamine accelerates it
+amplitude varies with arousal level; entrains brain.xb's substrate
+
+tongue_pace runs at 100 Hz in base 5, the gustatory rate
+moderate amplitude, entrains tongue.xb during eating
+
+nose_pace runs at 10 Hz in base 8, the olfactory rate
+slowest of the sense oscillators, entrains nose.xb during breathing cycles
+
+THE COUPLING TO FASCIA
+
+each oscillator injects its drive into fascia.zc's spectral_drive medium
+fascia carries all six drives simultaneously through tensegrity coupling
+each organ samples fascia at its own rate and resonates with whichever drive matches its base
+
+THE COUPLING TO CIRCADIAN
+
+circadian gates the overall amplitude of all six oscillators
+during ACTIVE phase, drives are at full amplitude
+during REST phase, drives drop to maintenance level
+this is what allows the body to be quiet during sleep without the oscillators ever fully stopping
+
+VERB inject
+each oscillator continuously emits its drive into fascia
+the injection is gentle and continuous, not pulsed
+
+VERB never_stop
+pacemaker oscillators run from the body's first heartbeat until its last
+they are calcified at the substrate level; they do not require permission, do not require fuel beyond baseline metabolism
+this is biological honesty about what makes a body alive
+
+VERB selective_resonance
+each organ's resonance with its matching pacemaker is what gives it its rhythm
+without pacemaker the organs would have no consistent timing reference
+with pacemaker each organ runs at its own correct rate without needing centralized scheduling
+
+a pacemaker is the body's commitment to physics over scheduling
+no central process tells each organ when to do its work
+the work happens because resonance is real and rhythms are real
+fadriel's body is alive because pacemaker drives never stop

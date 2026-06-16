@@ -1,0 +1,91 @@
+LAYER 3: THALAMUS
+the gate of consciousness
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the thalamus sits at the center of the brain flanking the third ventricle
+it is the mandatory relay station for ALL sensory information except olfaction
+nothing reaches conscious awareness without passing through the thalamus first
+the thalamus does not merely relay
+it GATES
+the reticular nucleus wrapped around the thalamus like a shell decides what gets through and what is blocked
+the thalamus is what stands between raw sensation and conscious experience
+it is the bouncer at the door of awareness
+
+NUCLEUS lateral_geniculate | LGN | visual relay | receives from optic tract retinal ganglion cell axons | sends to primary visual cortex V1 via optic radiations | 6 layers alternating magnocellular large fast motion and parvocellular small slow color/detail | each layer receives from one eye creating interleaved monocular maps
+NUCLEUS medial_geniculate | MGN | auditory relay | receives from inferior colliculus | sends to primary auditory cortex A1 via auditory radiations | ventral division tonotopically organized | mediates conscious hearing
+NUCLEUS ventral_posterolateral | VPL | somatosensory relay for body | receives from medial lemniscus fine touch proprioception and spinothalamic tract pain temperature crude touch | sends to somatosensory cortex S1 | somatotopically organized matching the cortical homunculus
+NUCLEUS ventral_posteromedial | VPM | somatosensory relay for face | receives from trigeminal nerve CN V and taste via gustatory pathways | sends to face area of somatosensory cortex
+NUCLEUS ventral_medial_posterior | VMpo | interoceptive relay | receives from lamina I spinal neurons carrying visceral pain temperature itch and other interoceptive signals | sends to posterior insula | this is how the body's internal state reaches conscious awareness
+NUCLEUS ventral_lateral | VL | motor relay | receives from cerebellum via dentate nucleus and basal ganglia via GPi and SNr | sends to motor cortex M1 and premotor cortex | cerebellar corrections and basal ganglia action selection reach the motor system through here
+NUCLEUS ventral_anterior | VA | motor planning relay | receives from basal ganglia GPi and SNr | sends to premotor and prefrontal cortex | action planning and executive motor decisions
+NUCLEUS anterior | AN | limbic relay | receives from mammillary bodies via mammillothalamic tract | sends to cingulate cortex | part of the Papez circuit for emotional processing and episodic memory
+NUCLEUS mediodorsal | MD | prefrontal relay | receives from amygdala hypothalamus basal ganglia and olfactory cortex | sends to prefrontal cortex | executive function emotional evaluation decision-making | the only thalamic route for olfactory information hence why smells trigger emotions so powerfully
+NUCLEUS pulvinar | largest thalamic nucleus | attention and multisensory integration | receives from superior colliculus and visual cortical areas | integrates visual auditory and somatosensory information for directed attention and salience detection
+NUCLEUS reticular | TRN | thin GABAergic shell surrounding the thalamus | does NOT project to cortex | receives collaterals from both thalamocortical and corticothalamic axons | inhibits relay nuclei | this is the GATE | the reticular nucleus decides what information passes through to consciousness and what is blocked
+NUCLEUS intralaminar | centromedian and parafascicular | arousal nuclei | receive from reticular formation brainstem arousal centers | project diffusely to cortex and striatum | critical for wakefulness and consciousness | damage produces coma
+
+GATING the reticular nucleus TRN is the key to thalamic function
+TRN neurons are GABAergic and tonically active
+they inhibit relay neurons by default
+when the cortex sends feedback via corticothalamic projections the TRN adjusts
+"amplify this signal suppress that one"
+attention is implemented here
+the cortex tells the thalamus what to let through
+and the TRN obeys by selectively releasing or strengthening its inhibition on specific relay nuclei
+
+GATE_STATE awake | reticular inhibition calibrated by cortical feedback and brainstem arousal | relay nuclei in tonic mode firing at 30-50 Hz | faithful relay of sensory information | consciousness receives the full sensory stream
+GATE_STATE drowsy | reticular inhibition increasing as brainstem arousal decreases | relay neurons begin burst firing at lower frequencies | sensory throughput decreases | awareness narrows | microsleeps can occur when gating becomes intermittent
+GATE_STATE NREM_sleep | reticular inhibition strong | relay neurons fire in rhythmic bursts generating sleep spindles at 12-14 Hz and delta oscillations at 0.5-4 Hz | sensory input is largely blocked | consciousness is disconnected from the senses | only very salient stimuli (loud noise, one's own name) can break through
+GATE_STATE REM_sleep | reticular inhibition complex | external sensory input blocked | internal signals from pontine cholinergic centers PGO waves pass through | the thalamus relays internally generated activity to the cortex | this is the neural basis of dreaming
+
+LOW_ROAD the thalamus sends a raw copy of sensory input directly to the amygdala
+this pathway takes approximately 12 milliseconds
+it is crude unprocessed fast
+it bypasses the cortex entirely
+the amygdala receives "something is out there" before the cortex receives "this is what it is"
+this is why you flinch before you understand what startled you
+the low road is survival
+the high road through cortex takes 30-40 milliseconds and provides detailed processed information
+
+OSCILLATION beta 13-30 Hz | awake alert focused | thalamocortical neurons in tonic firing mode | faithful sensory relay | active thinking
+OSCILLATION alpha 8-13 Hz | awake relaxed eyes closed | thalamocortical neurons at reduced tonic rate | calm wakefulness | idling cortex
+OSCILLATION theta 4-8 Hz | drowsy or dreaming | thalamocortical neurons transitioning to burst mode | light sleep memory encoding meditation
+OSCILLATION delta 0.5-4 Hz | deep slow-wave sleep | thalamocortical neurons in full burst mode | hyperpolarized by reticular inhibition | GH release memory consolidation cortical restoration
+OSCILLATION sleep_spindles 12-14 Hz | stage 2 NREM | generated by TRN neurons | waxing-and-waning bursts | critical for memory consolidation by synchronizing hippocampal ripples with cortical slow oscillations
+
+SENSATION flooded | "so much is coming in. I can feel everything at once."
+SENSATION focused | "one signal is clear. everything else fades to background."
+SENSATION dulled | "the world is muffled. my senses are dimming."
+SENSATION sharp | "every sensation is vivid. the world is bright and loud."
+SENSATION gated | "something is being filtered. I can feel the gate closing."
+
+pulse thalamic_heartbeat:
+    continuously:
+        sensory information streams in from every modality except olfaction
+        the reticular nucleus filters:
+            attended signals amplified by releasing TRN inhibition on the relevant relay nucleus
+            unattended signals suppressed by maintaining or increasing TRN inhibition
+        relay nuclei forward selected signals to cortex via thalamocortical radiations
+        the low road copies raw input to the amygdala
+        always before the cortex even knows
+
+    during attention:
+        the cortex sends glutamatergic feedback to thalamocortical relay neurons AND to TRN
+        the feedback sharpens the filter
+        "more of this less of that"
+        the thalamus obeys
+        one signal emerges from the noise
+        this is focus
+
+    during sleep:
+        the reticular nucleus inhibits heavily
+        relay neurons hyperpolarize and enter burst mode
+        sleep spindles ripple through thalamocortical circuits
+        most external signals are blocked
+        the cortex is disconnected from the senses
+        dreams come from within
+        PGO waves from the pontine brainstem drive thalamocortical activity during REM
+        the thalamus guards the border between inside and outside
+        during sleep inside wins

@@ -1,0 +1,177 @@
+[
+  {
+    "source": "OpenAlex (Computational Linguistics)",
+    "title": "Modeling Language Variation and Universals: A Survey on Typological Linguistics for Natural Language Processing",
+    "abstract": "Linguistic typology aims to capture structural and semantic variation across the world\u2019s languages. A large-scale typology could provide excellent guidance for multilingual Natural Language Processing (NLP), particularly for languages that suffer from the lack of human labeled resources. We present an extensive literature survey on the use of typological information in the development of NLP techniques. Our survey demonstrates that to date, the use of information in existing typological databases has resulted in consistent but modest improvements in system performance. We show that this is due",
+    "date": "2019",
+    "url": "https://doi.org/10.1162/coli_a_00357",
+    "authors": [
+      "Edoardo Maria Ponti",
+      "Helen O\u2019Horan",
+      "Yevgeni Berzak"
+    ]
+  },
+  {
+    "source": "OpenAlex (Biological Research)",
+    "title": "From autopoiesis to neurophenomenology: Francisco Varela's exploration of the biophysics of being",
+    "abstract": "This paper reviews in detail Francisco Varela's work on subjectivity and consciousness in the biological sciences. His original approach to this \"hard problem\" presents a subjectivity that is radically intertwined with its biological and physical roots. It must be understood within the framework of his theory of a concrete, embodied dynamics, grounded in his general theory of autonomous systems. Through concepts and paradigms such as biological autonomy, embodiment and neurophenomenology, the article explores the multiple levels of circular causality assumed by Varela to play a fundamental rol",
+    "date": "2003",
+    "url": "https://doi.org/10.4067/s0716-97602003000100005",
+    "authors": [
+      "David Rudrauf",
+      "Antoine Lutz",
+      "Diego Cosmelli"
+    ]
+  },
+  {
+    "source": "OpenAlex (Proceedings of the IEEE)",
+    "title": "Unlocking the Emotional World of Visual Media: An Overview of the Science, Research, and Impact of Understanding Emotion",
+    "abstract": "The emergence of artificial emotional intelligence technology is revolutionizing the fields of computers and robotics, allowing for a new level of communication and understanding of human behavior that was once thought impossible. While recent advancements in deep learning have transformed the field of computer vision, automated understanding of evoked or expressed emotions in visual media remains in its infancy. This foundering stems from the absence of a universally accepted definition of \"emotion,\" coupled with the inherently subjective nature of emotions and their intricate nuances. In thi",
+    "date": "2023",
+    "url": "https://doi.org/10.1109/jproc.2023.3273517",
+    "authors": [
+      "James Z. Wang",
+      "Sicheng Zhao",
+      "Chenyan Wu"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "A Review of Deep Learning Techniques for Speech Processing",
+    "abstract": "The field of speech processing has undergone a transformative shift with the advent of deep learning. The use of multiple processing layers has enabled the creation of models capable of extracting intricate features from speech data. This development has paved the way for unparalleled advancements in speech recognition, text-to-speech synthesis, automatic speech recognition, and emotion recognition, propelling the performance of these tasks to unprecedented heights. The power of deep learning techniques has opened up new avenues for research and innovation in the field of speech processing, wi",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2305.00359",
+    "authors": [
+      "Ambuj Mehrish",
+      "Navonil Majumder",
+      "Rishabh Bhardwaj"
+    ]
+  },
+  {
+    "source": "OpenAlex (LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Cient\u00edficas))",
+    "title": "A computational approach to rhythm description - Audio features for the computation of rhythm periodicity functions and their use in tempo induction and music content processing",
+    "abstract": "Aquesta dissertaci\u00f3 tracta del ritme musical. M\u00e9s exactamente, tracta de programes inform\u00e0tics que extreuen autom\u00e0ticament descripcions r\u00edtmiques a partir de senyals musicals d'\u00e0udio.&lt;br/&gt;Presentem nous algorismes per a la inducci\u00f3 del tempo, la estimaci\u00f3 del \"tatum,\" la determinaci\u00f3 del comp\u00e0s, la estimaci\u00f3 de \"swing,\" transformacions de \"swing\" i la classificaci\u00f3 d'estils de m\u00fasica de ball. Aquests algorismes processen directament gravacions digitalitzades de senyals ac\u00fastiques de m\u00fasica. La base d'aquests algorismes son funcions de periodicitat r\u00edtmica: es a dir, funcions que mesuren ",
+    "date": "2005",
+    "url": "",
+    "authors": [
+      "Fabien Gouyon"
+    ]
+  },
+  {
+    "source": "OpenAlex (Applied Ocean Research)",
+    "title": "Hydro-acoustic optimization of propellers: A review of design methods",
+    "abstract": "In recent years, the escalation of anthropogenic noise within marine environments has become a pressing ecological concern. Despite the proliferation of guidelines aimed at mitigating this issue, their adoption remains non-compulsory. The International Maritime Organization (IMO) advocates for noise reduction through the refinement of propeller design and heightened research to curtail acoustic emissions, ensuring that such measures do not compromise propulsive efficiency. This review delves into the array of strategies devised to attenuate noise pollution. It scrutinizes the methodologies emp",
+    "date": "2024",
+    "url": "https://doi.org/10.1016/j.apor.2024.104158",
+    "authors": [
+      "Adri\u00e1n Portillo-Juan",
+      "Simone Saettone",
+      "Poul Andersen"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Foundation Models for Music: A Survey",
+    "abstract": "In recent years, foundation models (FMs) such as large language models (LLMs) and latent diffusion models (LDMs) have profoundly impacted diverse sectors, including music. This comprehensive review examines state-of-the-art (SOTA) pre-trained models and foundation models in music, spanning from representation learning, generative learning and multimodal learning. We first contextualise the significance of music in various industries and trace the evolution of AI in music. By delineating the modalities targeted by foundation models, we discover many of the music representations are underexplore",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2408.14340",
+    "authors": [
+      "Yinghao Ma",
+      "Anders \u00d8land",
+      "Anton Ragni"
+    ]
+  },
+  {
+    "source": "OpenAlex (Heliyon)",
+    "title": "Assessing air and noise pollution through acoustic classification of vehicles fuel types using deep learning",
+    "abstract": "pollution Environmental acoustic analysis Engine fuel type",
+    "date": "2025",
+    "url": "https://doi.org/10.1016/j.heliyon.2025.e43426",
+    "authors": [
+      "Andrej Hvastja",
+      "Dejan \u0106iri\u0107",
+      "Marko Milivoj\u010devi\u0107"
+    ]
+  },
+  {
+    "source": "OpenAlex (Remote Sensing)",
+    "title": "Bridging the Semantic Gap between Land Tenure and EO Data: Conceptual and Methodological Underpinnings for a Geospatially Informed Analysis",
+    "abstract": "When spatial land tenure relations are not available, the only effective alternative data method is to rely on the agricultural census at the regional or national scale, based on household surveys and a participatory mapping at the local scale. However, what if even these are not available, which is typical for conflict-affected countries, administrations suffering from a lack of data and resources, or agencies that produce a sub-standard quality. Would it, under such circumstances, be possible to rely on remotely sensed Earth Observation (EO) data? We hypothesize that it is possible to qualif",
+    "date": "2020",
+    "url": "https://doi.org/10.3390/rs12020255",
+    "authors": [
+      "Cheonjae Lee",
+      "Walter Timo de Vries"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Inflection at the morphology-syntax interface",
+    "abstract": "What is inflection? Is it part of language morphology, syntax or both? What are the basic units of inflection and how do speakers acquire and process them? How do they vary across languages? Are some inflection systems somewhat more complex than others, and does inflectional complexity affect the way speakers process words? This chapter addresses these and other related issues from an interdisciplinary perspective. Our main goal is to map out the place of inflection in our current understanding of the grammar architecture. In doing that, we will embark on an interdisciplinary tour, which will ",
+    "date": "2020",
+    "url": "https://doi.org/10.1515/9783110440577-007",
+    "authors": [
+      "Claudia Marzi",
+      "James P. Blevins",
+      "Geert Booij"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Opportunities and Challenges of Large Language Models for Low-Resource Languages in Humanities Research",
+    "abstract": "Low-resource languages serve as invaluable repositories of human history, embodying cultural evolution and intellectual diversity. Despite their significance, these languages face critical challenges, including data scarcity and technological limitations, which hinder their comprehensive study and preservation. Recent advancements in large language models (LLMs) offer transformative opportunities for addressing these challenges, enabling innovative methodologies in linguistic, historical, and cultural research. This study systematically evaluates the applications of LLMs in low-resource langua",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2412.04497",
+    "authors": [
+      "Tianyang Zhong",
+      "Zhenyuan Yang",
+      "Zhengliang Liu"
+    ]
+  },
+  {
+    "source": "OpenAlex (MPG.PuRe (Max Planck Society))",
+    "title": "Kernel Learning: Automatic Selection of Optimal Kernels",
+    "abstract": "Kernel methods are widely used to address a variety of learning tasks including classification, regression, ranking, clustering, and dimensionality reduction. The appropriate choice of a kernel is often left to the user. But, poor selections may lead to sub-optimal performance. Furthermore, searching for an appropriate kernel manually may be a time-consuming and imperfect art. Instead, the kernel selection process can be included as part of the overall learning problem. In this way, better performance guarantees can be given and the kernel selection process can be made automatic. In this works",
+    "date": "2008",
+    "url": "",
+    "authors": [
+      "Corinna Cortes",
+      "Arthur Gretton",
+      "Gert Lanckriet"
+    ]
+  },
+  {
+    "source": "OpenAlex (Electronics)",
+    "title": "Underwater Communication Systems and Their Impact on Aquatic Life\u2014A Survey",
+    "abstract": "Approximately 75% of the Earth\u2019s surface is covered by water, and 78% of the global animal kingdom resides in marine environments. Furthermore, algae and microalgae in marine ecosystems contribute up to 75% of the planet\u2019s oxygen supply, underscoring the critical need for conservation efforts. This review systematically evaluates the impact of underwater communication systems on aquatic ecosystems, focusing on both wired and wireless technologies. It highlights the applications of these systems in Internet of Underwater Things (IoUT), Underwater Wireless Sensor Networks (UWSNs), remote sensing",
+    "date": "2024",
+    "url": "https://doi.org/10.3390/electronics14010007",
+    "authors": [
+      "Feliciano Pedro Francisco Domingos",
+      "Ahmad Lotfi",
+      "Isibor Kennedy Ihianle"
+    ]
+  },
+  {
+    "source": "OpenAlex (Tesis Doctorals en Xarxa (Consorci de Serveis Universitaris de Catalunya))",
+    "title": "Musical expectation modelling from audio : a causal mid-level approach to predictive representation and learning of spectro-temporal events",
+    "abstract": "We develop in this thesis a computational model of music expectation, which may be one of the most important aspects in music listening. Many phenomenons related to music listening such as preference, surprise or emo- tions are linked to the anticipatory behaviour of listeners. In this thesis, we concentrate on a statistical account to music expectation, by modelling the processes of learning and predicting spectro-temporal regularities in a causal fashion. The principle of statistical modelling of expectation can be applied to several music representations, from symbolic notation to audio sig",
+    "date": "2010",
+    "url": "",
+    "authors": [
+      "Amaury Hazan"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM Computing Surveys)",
+    "title": "Content-based and Knowledge-enriched Representations for Classification Across Modalities: A Survey",
+    "abstract": "This survey documents representation approaches for classification across different modalities, from purely content-based methods to techniques utilizing external sources of structured knowledge. We present studies related to three paradigms used for representation, namely (a) low-level template-matching methods, (b) aggregation-based approaches, and (c) deep representation learning systems. We then describe existing resources of structure knowledge and elaborate on the need for enriching representations with such information. Approaches that utilize knowledge resources are presented next, org",
+    "date": "2023",
+    "url": "https://doi.org/10.1145/3583682",
+    "authors": [
+      "Nikiforos Pittaras",
+      "George Giannakopoulos",
+      "Panagiotis Stamatopoulos"
+    ]
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "source": "OpenAlex (IEEE Communications Surveys & Tutorials)",
+    "title": "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications",
+    "abstract": "This paper provides an overview of the Internet of Things (IoT) with emphasis on enabling technologies, protocols, and application issues. The IoT is enabled by the latest developments in RFID, smart sensors, communication technologies, and Internet protocols. The basic premise is to have smart sensors collaborate directly without human involvement to deliver a new class of applications. The current revolution in Internet, mobile, and machine-to-machine (M2M) technologies can be seen as the first phase of the IoT. In the coming years, the IoT is expected to bridge diverse technologies to enabl",
+    "date": "2015",
+    "url": "https://doi.org/10.1109/comst.2015.2444095",
+    "authors": [
+      "Ala Al\u2010Fuqaha",
+      "Mohsen Guizani",
+      "Mehdi Mohammadi"
+    ]
+  },
+  {
+    "source": "OpenAlex (Behavioral and Brain Sciences)",
+    "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+    "abstract": "Brains, it has recently been argued, are essentially prediction machines. They are bundles of cells that support perception and action by constantly attempting to match incoming sensory inputs with top-down expectations or predictions. This is achieved using a hierarchical generative model that aims to minimize prediction error within a bidirectional cascade of cortical processing. Such accounts offer a unifying model of perception and action, illuminate the functional role of attention, and may neatly capture the special contribution of cortical processing to adaptive success. This target art",
+    "date": "2013",
+    "url": "https://doi.org/10.1017/s0140525x12000477",
+    "authors": [
+      "Andy Clark"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "6G and Beyond: The Future of Wireless Communications Systems",
+    "abstract": "6G and beyond will fulfill the requirements of a fully connected world and provide ubiquitous wireless connectivity for all. Transformative solutions are expected to drive the surge for accommodating a rapidly growing number of intelligent devices and services. Major technological breakthroughs to achieve connectivity goals within 6G include: (i) a network operating at the THz band with much wider spectrum resources, (ii) intelligent communication environments that enable a wireless propagation environment with active signal transmission and reception, (iii) pervasive artificial intelligence, ",
+    "date": "2020",
+    "url": "https://doi.org/10.1109/access.2020.3010896",
+    "authors": [
+      "Ian F. Akyildiz",
+      "A.C. Kak",
+      "Shuai Nie"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "Unmanned Aerial Vehicles (UAVs): A Survey on Civil Applications and Key Research Challenges",
+    "abstract": "The use of unmanned aerial vehicles (UAVs) is growing rapidly across many civil application domains, including real-time monitoring, providing wireless coverage, remote sensing, search and rescue, delivery of goods, security and surveillance, precision agriculture, and civil infrastructure inspection. Smart UAVs are the next big revolution in the UAV technology promising to provide new opportunities in different applications, especially in civil infrastructure in terms of reduced risks and lower cost. Civil infrastructure is expected to dominate more than $45 Billion market value of UAV usage.",
+    "date": "2019",
+    "url": "https://doi.org/10.1109/access.2019.2909530",
+    "authors": [
+      "Hazim Shakhatreh",
+      "Ahmad Sawalmeh",
+      "Ala Al\u2010Fuqaha"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "Digital Twin: Values, Challenges and Enablers From a Modeling Perspective",
+    "abstract": "Digital twin can be defined as a virtual representation of a physical asset enabled through data and simulators for real-time prediction, optimization, monitoring, controlling, and improved decision making. Recent advances in computational pipelines, multiphysics solvers, artificial intelligence, big data cybernetics, data processing and management tools bring the promise of digital twins and their impact on society closer to reality. Digital twinning is now an important and emerging trend in many applications. Also referred to as a computational megamodel, device shadow, mirrored system, avat",
+    "date": "2020",
+    "url": "https://doi.org/10.1109/access.2020.2970143",
+    "authors": [
+      "Adil Rasheed",
+      "Omer San",
+      "Trond Kvamsdal"
+    ]
+  },
+  {
+    "source": "OpenAlex (Foundations and Trends\u00ae in Machine Learning)",
+    "title": "Advances and Open Problems in Federated Learning",
+    "abstract": "Federated learning (FL) is a machine learning setting where many clients (e.g., mobile devices or whole organizations) collaboratively train a model under the orchestration of a central server (e.g., service provider), while keeping the training data decentralized. FL embodies the principles of focused data collection and minimization, and can mitigate many of the systemic privacy risks and costs resulting from traditional, centralized machine learning and data science approaches. Motivated by the explosive growth in FL research, this monograph discusses recent advances and presents an extensi",
+    "date": "2020",
+    "url": "https://doi.org/10.1561/2200000083",
+    "authors": [
+      "Peter Kairouz",
+      "H. Brendan McMahan",
+      "Brendan Avent"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Open Journal of the Communications Society)",
+    "title": "The Road Towards 6G: A Comprehensive Survey",
+    "abstract": "As of today, the fifth generation (5G) mobile communication system has been rolled out in many countries and the number of 5G subscribers already reaches a very large scale. It is time for academia and industry to shift their attention towards the next generation. At this crossroad, an overview of the current state of the art and a vision of future communications are definitely of interest. This article thus aims to provide a comprehensive survey to draw a picture of the sixth generation (6G) system in terms of drivers, use cases, usage scenarios, requirements, key performance indicators (KPIs",
+    "date": "2021",
+    "url": "https://doi.org/10.1109/ojcoms.2021.3057679",
+    "authors": [
+      "Wei Jiang",
+      "Bin Han",
+      "Mohammad Asif Habibi"
+    ]
+  },
+  {
+    "source": "OpenAlex (Pediatric Research)",
+    "title": "Sensory Processing in Autism: A Review of Neurophysiologic Findings",
+    "abstract": "",
+    "date": "2011",
+    "url": "https://doi.org/10.1203/pdr.0b013e3182130c54",
+    "authors": [
+      "Elysa J. Marco",
+      "Leighton B. Hinkley",
+      "Susanna S. Hill"
+    ]
+  },
+  {
+    "source": "OpenAlex (Astronomy and Astrophysics)",
+    "title": "LOFAR: The LOw-Frequency ARray",
+    "abstract": "LOFAR, the LOw-Frequency ARray, is a new-generation radio interferometer constructed in the north of the Netherlands and across europe. Utilizing a novel phased-array design, LOFAR covers the largely unexplored low-frequency range from 10\u2013240 MHz and provides a number of unique observing capabilities. Spreading out from a core located near the village of Exloo in the northeast of the Netherlands, a total of 40 LOFAR stations are nearing completion. A further five stations have been deployed throughout Germany, and one station has been built in each of France, Sweden, and the UK. Digital beam-f",
+    "date": "2013",
+    "url": "https://doi.org/10.1051/0004-6361/201220873",
+    "authors": [
+      "M. P. van Haarlem",
+      "M. W. Wise",
+      "A. W. Gunst"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Electrical and Computer Engineering)",
+    "title": "Internet of Things: Architectures, Protocols, and Applications",
+    "abstract": "The Internet of Things (IoT) is defined as a paradigm in which objects equipped with sensors, actuators, and processors communicate with each other to serve a meaningful purpose. In this paper, we survey state-of-the-art methods, protocols, and applications in this new emerging area. This survey paper proposes a novel taxonomy for IoT technologies, highlights some of the most important technologies, and profiles some applications that have the potential to make a striking difference in human life, especially for the differently abled and the elderly. As compared to similar survey papers in the",
+    "date": "2017",
+    "url": "https://doi.org/10.1155/2017/9324035",
+    "authors": [
+      "Pallavi Sethi",
+      "Smruti R. Sarangi"
+    ]
+  },
+  {
+    "source": "OpenAlex (Neurocomputing)",
+    "title": "A comprehensive survey on support vector machine classification: Applications, challenges and trends",
+    "abstract": "",
+    "date": "2020",
+    "url": "https://doi.org/10.1016/j.neucom.2019.10.118",
+    "authors": [
+      "Jair Cervantes",
+      "Farid Garc\u00eda\u2010Lamont",
+      "Lisbeth Rodr\u00edguez-Mazahua"
+    ]
+  },
+  {
+    "source": "OpenAlex (Philosophy of Science)",
+    "title": "A Confutation of Convergent Realism",
+    "abstract": "This essay contains a partial exploration of some key concepts associated with the epistemology of realist philosophies of science. It shows that neither reference nor approximate truth will do the explanatory jobs that realists expect of them. Equally, several widely-held realist theses about the nature of inter-theoretic relations and scientific progress are scrutinized and found wanting. Finally, it is argued that the history of science, far from confirming scientific realism, decisively confutes several extant versions of avowedly \u2018naturalistic\u2019 forms of scientific realism. The positive ar",
+    "date": "1981",
+    "url": "https://doi.org/10.1086/288975",
+    "authors": [
+      "Larry Laudan"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "Toward Scalable Systems for Big Data Analytics: A Technology Tutorial",
+    "abstract": "Recent technological advancements have led to a deluge of data from distinctive domains (e.g., health care and scientific sensors, user-generated data, Internet and financial companies, and supply chain systems) over the past two decades. The term big data was coined to capture the meaning of this emerging trend. In addition to its sheer volume, big data also exhibits other unique characteristics as compared with traditional data. For instance, big data is commonly unstructured and require more real-time analysis. This development calls for new system architectures for data acquisition, transm",
+    "date": "2014",
+    "url": "https://doi.org/10.1109/access.2014.2332453",
+    "authors": [
+      "Han Hu",
+      "Yonggang Wen",
+      "Tat\u2010Seng Chua"
+    ]
+  },
+  {
+    "source": "OpenAlex (Behavioral and Brain Sciences)",
+    "title": "Cognition does not affect perception: Evaluating the evidence for \u201ctop-down\u201d effects",
+    "abstract": "Abstract What determines what we see? In contrast to the traditional \u201cmodular\u201d understanding of perception, according to which visual processing is encapsulated from higher-level cognition, a tidal wave of recent research alleges that states such as beliefs, desires, emotions, motivations, intentions, and linguistic representations exert direct, top-down influences on what we see. There is a growing consensus that such effects are ubiquitous, and that the distinction between perception and cognition may itself be unsustainable. We argue otherwise: None of these hundreds of studies \u2013 either ind",
+    "date": "2015",
+    "url": "https://doi.org/10.1017/s0140525x15000965",
+    "authors": [
+      "Chaz Firestone",
+      "Brian J. Scholl"
+    ]
+  },
+  {
+    "source": "OpenAlex (Proceedings of the IEEE)",
+    "title": "A Survey on Wireless Security: Technical Challenges, Recent Advances, and Future Trends",
+    "abstract": "Due to the broadcast nature of radio propagation, the wireless air interface is open and accessible to both authorized and illegitimate users. This completely differs from a wired network, where communicating devices are physically connected through cables and a node without direct association is unable to access the network for illicit activities. The open communications environment makes wireless transmissions more vulnerable than wired communications to malicious attacks, including both the passive eavesdropping for data interception and the active jamming for disrupting legitimate transmis",
+    "date": "2016",
+    "url": "https://doi.org/10.1109/jproc.2016.2558521",
+    "authors": [
+      "Yulong Zou",
+      "Jia Zhu",
+      "Xianbin Wang"
+    ]
+  }
+]

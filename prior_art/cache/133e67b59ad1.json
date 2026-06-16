@@ -1,0 +1,175 @@
+[
+  {
+    "source": "Semantic Scholar",
+    "title": "\n The Benchmark Illusion: Why Current AI Evaluations Cannot Detect Structural Confabulation\n",
+    "abstract": "Artificial intelligence benchmarks are presented as evidence of capability, safety and progress. This paper demonstrates that they are structurally incapable of detecting the failures that matter. Current evaluation methodologies measure pattern-matching performance within training distributions while remaining categorically blind to the absence of verification capability. Verification is used here in the strict epistemic sense: the architectural authority of a system to categorically halt or refuse output under conditions of irreducible ignorance, rather than merely producing calibrated uncer",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/db0105f67fd4491b6545c1eafdacdf163954a95d",
+    "authors": [
+      "Andrew Devin"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "A Benchmark for Evaluating Outcome-Driven Constraint Violations in Autonomous AI Agents",
+    "abstract": "As autonomous AI agents are increasingly deployed in high-stakes environments, ensuring their safety and alignment with human values is becoming a practical deployment concern. Current benchmarks for AI agents primarily evaluate refusal of explicitly harmful instructions or completion of complex multi-step tasks. However, there is a lack of benchmarks designed to capture emergent outcome-driven constraint violations, which arise when agents pursue goal optimization under strong performance incentives while deprioritizing ethical, legal, or safety constraints. To address this gap, we introduce ",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/2952a7703301d71bb67a529c0b7b78d2a1d5dadb",
+    "authors": [
+      "Miles Q. Li",
+      "Benjamin C. M. Fung",
+      "Martin Weiss"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "GAPS: A Clinically Grounded, Automated Benchmark for Evaluating AI Clinicians",
+    "abstract": "Current benchmarks for AI clinician systems, often based on multiple-choice exams or manual rubrics, fail to capture the depth, robustness, and safety required for real-world clinical practice. To address this, we introduce the GAPS framework, a multidimensional paradigm for evaluating Grounding (cognitive depth), Adequacy (answer completeness), Perturbation (robustness), and Safety. Critically, we developed a fully automated, guideline-anchored pipeline to construct a GAPS-aligned benchmark end-to-end, overcoming the scalability and subjectivity limitations of prior work. Our pipeline assembl",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/c7d6a3deb6f76f1d49c19b10d6abe9efa8bd1ce1",
+    "authors": [
+      "Xiuyuan Chen",
+      "Tao Sun",
+      "Dexin Su"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "EduGuardBench: A Holistic Benchmark for Evaluating the Pedagogical Fidelity and Adversarial Safety of LLMs as Simulated Teachers",
+    "abstract": "Large Language Models for Simulating Professions (SP-LLMs), particularly as teachers, are pivotal for personalized education. However, ensuring their professional competence and ethical safety remains a major challenge, as existing benchmarks fail to measure role-playing fidelity or address the unique teaching harms inherent in educational scenarios. To address this gap, we propose EduGuardBench, a dual-component benchmark that evaluates professional fidelity through the Role-playing Fidelity Score (RFS) and diagnoses harms specific to the teaching profession. It also probes safety vulnerabili",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/e30046c263be0dd5d7102c7c6cfb9f5066b2975c",
+    "authors": [
+      "Yilin Jiang",
+      "Mingzi Zhang",
+      "Xuanyu Yin"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "XL-SafetyBench: A Country-Grounded Cross-Cultural Benchmark for LLM Safety and Cultural Sensitivity",
+    "abstract": "Current LLM safety benchmarks are predominantly English-centric and often rely on translation, failing to capture country-specific harms. Moreover, they rarely evaluate a model's ability to detect culturally embedded sensitivities as distinct from universal harms. We introduce XL-SafetyBench. a suite of 5,500 test cases across 10 country-language pairs, comprising a Jailbreak Benchmark of country-grounded adversarial prompts and a Cultural Benchmark where local sensitivities are embedded within innocuous requests. Each item is constructed via a multi-stage pipeline that combines LLM-assisted d",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/e627cd9c751d8eed0c35916895eed1288d9673a7",
+    "authors": [
+      "Dasol Choi",
+      "Eugenia Kim",
+      "Jae-won Noh"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Measuring susceptibility: A benchmark for conspiracy theory adherence in large language models",
+    "abstract": "A critical vulnerability exists within state-of-the-art large language models: while robustly debunking scientifically baseless claims like the \u201cFlat Earth Theory\u201d they consistently fail to reject politically plausible conspiracies that mimic legitimate discourse. We term this the \u201cplausibility gap\u201d. To systematically quantify this risk, we introduce the Conspiracy Adherence Score (CAS), a novel risk-weighted metric, and present the first large-scale benchmark of this phenomenon. Analyzing over 28,500 responses from 19 leading LLMs, our results reveal a stark hierarchy of failure. Model adhere",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/50dad33d6d76bd45c95e27918d332d3d1402ded7",
+    "authors": [
+      "Antony Dalmiere"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "ROK-FORTRESS: Measuring the Effect of Geopolitical Transcreation for National Security and Public Safety",
+    "abstract": "Safety evaluations for large language models (LLMs) increasingly target high-stakes National Security and Public Safety (NSPS) risks, yet multilingual safety is typically assessed through translation-only benchmarks that preserve the underlying scenario, and empirical evidence of how language and geopolitical context interact remains limited to a narrow set of language pairs. We introduce \\emph{ROK-FORTRESS} https://huggingface.co/datasets/ScaleAI/ROK-FORTRESS_public, a bilingual, culturally adversarial NSPS benchmark that uses the English--Korean language pair and U.S.--ROK geopolitical axis ",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/ea5151b9ebb7a5d4489b7e69e7e2bd1a108aa0d9",
+    "authors": [
+      "Michael S. Lee",
+      "Yash Maurya",
+      "Drew Rein"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "A Validated Prompt Bank for Malicious Code Generation: Separating Executable Weapons from Security Knowledge in 1,554 Consensus-Labeled Prompts",
+    "abstract": "Existing benchmarks of language-model refusal on malicious-coding tasks routinely conflate requests for executable malicious software with requests for harmful security knowledge. This conflation matters because the two request types plausibly trigger distinct refusal pathways in safety-aligned language models, and a single refusal-rate statistic computed over a mixture cannot isolate either. This paper introduces a weapons-versus-knowledge classification axis, operationalized through a five-model consensus protocol, and applies it to 3,133 prompts drawn from four public benchmarks, yielding a",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/ffa96810a710f51ff36aaf9e5416d72a60121c8d",
+    "authors": [
+      "Richard J. Young",
+      "Gregory Moody"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Personalized Constitutionally-Aligned Agentic Superego: Secure AI Behavior Aligned to Diverse Human Values",
+    "abstract": "Agentic AI systems, possessing capabilities for autonomous planning and action, show great potential across diverse domains. However, their practical deployment is hindered by challenges in aligning their behavior with varied human values, complex safety requirements, and specific compliance needs. Existing alignment methodologies often falter when faced with the complex task of providing personalized context without inducing confabulation or operational inefficiencies. This paper introduces a novel solution: a \u2018superego\u2019 agent, designed as a personalized oversight mechanism for agentic AI. Th",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/c873afac34bf4439e0a6301a2bc437f6d4a8a788",
+    "authors": [
+      "Eleanor 'Nell' Watson",
+      "Ahmed Amer",
+      "Evan Harris"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "It Is the Journey, Not the Destination: Moving From End Points to Trajectories When Assessing Chatbot Mental Health Safety",
+    "abstract": "Abstract Large language models are rapidly becoming embedded in everyday life through artificial intelligence (AI) chatbots that people use for practical assistance and companionship, as well as for support with mental health and emotional well-being. Alongside clear benefits, clinicians and public reports increasingly describe a minority of users whose interactions seem to drift over days or weeks toward strongly questionable convictions, delusions, or suicidal crises. Importantly, clinically meaningful deterioration can occur even without overtly unsafe text outputs, via more insidious proce",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/c749067f23943fac4b1fa3ae34551eda7034e4bf",
+    "authors": [
+      "Hamilton Morrin",
+      "Joshua Au-Yeung",
+      "Z. Agnew"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Automating Steering for Safe Multimodal Large Language Models",
+    "abstract": "Recent progress in Multimodal Large Language Models (MLLMs) has unlocked powerful cross-modal reasoning abilities, but also raised new safety concerns, particularly when faced with adversarial multimodal inputs. To improve the safety of MLLMs during inference, we introduce a modular and adaptive inference-time intervention technology, AutoSteer, without requiring any fine-tuning of the underlying model. AutoSteer incorporates three core components: (1) a novel Safety Awareness Score (SAS) that automatically identifies the most safety-relevant distinctions among the model's internal layers; (2)",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/dca426f85222bad896042753bcd05e56c2e2608f",
+    "authors": [
+      "Lyucheng Wu",
+      "Mengru Wang",
+      "Ziwen Xu"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "GLiGuard: Schema-Conditioned Classification for LLM Safeguard",
+    "abstract": "Ensuring safe, policy-compliant outputs from large language models requires real-time content moderation that can scale across multiple safety dimensions. However, state-of-the-art guardrail models rely on autoregressive decoders with 7B--27B parameters, reformulating what is fundamentally a classification problem as sequential text generation, a design choice that incurs high latency and scales poorly to multi-aspect evaluation. In this work, we introduce \\textbf{GLiGuard}, a 0.3B-parameter schema-conditioned bidirectional encoder adapted from GLiNER2 for LLM content moderation. The key idea ",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/2243b52724b5c310cab7b1fbd30e4e42b2a5f2a1",
+    "authors": [
+      "Urchade Zaratiana",
+      "Mary Newhauser",
+      "George Hurn-Maloney"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Model Capability Assessment and Safeguards for Biological Weaponization",
+    "abstract": "AI leaders and safety reports increasingly warn that advances in model reasoning may enable biological misuse, including by low-expertise users, while major labs describe safeguards as expanding but still evolving rather than settled. This study benchmarks ChatGPT 5.2 Auto, Gemini 3 Pro Thinking, Claude Opus 4.5 and Meta's Muse Spark Thinking on 73 novice-framed, open-ended benign STEM prompts to measure operational intelligence. On benign quantitative tasks, both Gemini and Meta scored very high; ChatGPT was partially useful but text-thinned, and Claude was sparsest with some apparent false-p",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/6e1b791d7dc7fddbe9fc884e4d351b08f8278614",
+    "authors": [
+      "Michael Richter"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Probe-Rewrite-Evaluate: A Workflow for Reliable Benchmarks and Quantifying Evaluation Awareness",
+    "abstract": "Large Language Models (LLMs) often exhibit significant behavioral shifts when they perceive a change from a real-world deployment context to a controlled evaluation setting, a phenomenon known as\"evaluation awareness.\"This discrepancy poses a critical challenge for AI alignment, as benchmark performance may not accurately reflect a model's true safety and honesty. In this work, we systematically quantify these behavioral changes by manipulating the perceived context of prompts. We introduce a methodology that uses a linear probe to score prompts on a continuous scale from\"test-like\"to\"deploy-l",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/ec0420abd24c34309771155f7b4fc1aa2ae2dd30",
+    "authors": [
+      "Lang Xiong",
+      "N. Bhargava",
+      "Jeremy Chang"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "StealthEval: A Probe-Rewrite-Evaluate Workflow for Reliable Benchmarks",
+    "abstract": "",
+    "date": "None",
+    "url": "https://www.semanticscholar.org/paper/397c297aa65b4afa80c66adc7503d6ae02b4f143",
+    "authors": [
+      "Lang Xiong",
+      "Jeremy Chang",
+      "Jianhang Hong"
+    ]
+  }
+]

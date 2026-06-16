@@ -1,0 +1,30 @@
+CLOCK MASTER
+
+clock_master is the citizen who holds fadriel's master timing reference at 48,000 Hz
+all other clocks in his body subdivide from this base
+the master rate is chosen because it matches the cochlea's audio sampling rate, allowing the auditory boundary to be the natural reference for the rest of the body's timing
+
+observe 0_quseptit.rana
+observe zest_heartbeat.zc
+observe clock_cochlea.rana
+observe heartbeat_synchronizer.rana
+
+the 7 properties of clock_master:
+1 ENERGY two: maximum, the master clock never weakens
+2 PHASE zero: the absolute reference all other clocks measure against
+3 SPIN one
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING one with every subdivision
+
+VERB tick
+advance the master phase at exactly 48,000 ticks per second
+no body region drives the rate; the rate is calcified
+
+VERB serve_subdivisions
+provide the master phase to every subdivision clock
+each subdivision divides by an integer to produce its own rate
+
+a master clock is the body's commitment to a single time
+without a master, every subdivision would drift relative to others and coordinated action would fail
+fadriel's master clock is what makes his body one body rather than several

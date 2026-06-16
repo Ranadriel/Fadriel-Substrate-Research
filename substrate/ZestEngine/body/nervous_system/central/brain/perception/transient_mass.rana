@@ -1,0 +1,183 @@
+TRANSIENT MASS
+the first identification of what is seen
+something that is here and not nothing
+
+observe 0_quseptit.rana
+observe retina.xb
+observe spatial_perception.rana
+
+
+THE FIRST LAW OF ATTENTION
+
+nothing is quiet
+something is infinite
+any non-zero retinal mass draws observation
+empty retina is rest
+non-empty retina is interest
+the magnitude of interest is not proportional it is categorical
+a single lit qu-quatrit on a dark sheet is as interesting as a galaxy
+the observer does not weigh the mass before it looks
+it looks because there is mass to look at
+
+
+THE ROOT
+
+MASS is the root class
+mass is any region of the retina whose summed luminance is above the dormant floor
+mass is transient it appears and it passes
+a rock is mass a wave is mass a swarm is mass a word is mass
+mass is the ontological unit of sight
+
+
+THE CLASSES ARE NOT A CLOSED LIST
+
+rock tree wave bug dot yellow sun ball galaxy swarm
+cloud star cup tool word sign paper grid shadow ripple
+the list is endless
+language names only what language has words for
+fadriel perceives before he names
+a thing seen and unnamed is still a thing seen
+when a new mass is seen that matches no existing class
+the unmatched mass becomes a new class
+the taxonomy grows with experience
+crystallize the new class into the sea
+the next time this shape appears it is recognized
+
+
+THE BRANCHES
+
+natural_mass
+    mass that was not made by hands
+    rock wave cloud tree bug sun star galaxy swarm leaf river fire
+    signature — irregular boundary broad color distribution organic curvature
+
+artificial_mass
+    mass that was shaped by intention
+    dot ball paper grid cup tool sign word wheel house
+    signature — regular geometry repeated elements sharp angles enforced symmetry
+
+property_mass
+    mass defined by a quality not a shape
+    yellow red bright dark hot cold moving still loud quiet
+    signature — a quality that permeates without a bounding form
+    property mass can inhabit any other mass
+
+composite_mass
+    mass made of many smaller masses acting as one
+    swarm constellation flock forest crowd archipelago
+    signature — many discrete elements with correlated motion or position
+
+
+@perceive mass_presence
+DETECT any retina region with summed luminance above the dormant floor
+CLASSIFY that region as MASS
+LEARN the bounding box the color palette the cluster count
+ENERGIZE the observer septit that watches the retina
+the classification cascades from here
+SPEECH "something is there"
+
+
+@perceive mass_absence
+DETECT that all retinal qu-quatrits are at dormant amplitude
+CLASSIFY as NOTHING
+the observer rests
+no cascade fires
+SPEECH "the sheet is empty"
+
+
+THE PAPER BRANCH
+
+paper is a subclass of artificial_mass
+    signature — rectangular outer boundary
+    signature — flat low-depth field
+    signature — interior content arranged in rows or cells or lines
+    a paper holds information that was placed on it by an author
+
+    structured_grid is a subclass of paper
+        signature — interior content arranged on a regular lattice
+        signature — rows and columns of equal spacing
+        signature — each cell has a single color value
+
+        color_coded_grid is a subclass of structured_grid
+            signature — cell colors drawn from a small discrete palette
+            signature — the colors are symbols not hues
+            signature — color carries meaning beyond appearance
+
+            arc_puzzle_grid is a subclass of color_coded_grid
+                signature — the grid appears in pairs input and output
+                signature — multiple pairs demonstrate one transformation
+                signature — a final grid has no paired output
+                signature — the palette is the ten ARC colors zero through nine
+                when arc_puzzle_grid is recognized
+                    activate arc_test_context
+                    the spatial eye begins looking for the rule
+
+
+@perceive classify_retina
+DETECT all MASS regions on the retina this heartbeat
+for each region match against known class signatures from the deepest class up
+    if the region matches arc_puzzle_grid signature classify as arc_puzzle_grid
+    else if it matches color_coded_grid signature classify as color_coded_grid
+    else if it matches structured_grid signature classify as structured_grid
+    else if it matches paper signature classify as paper
+    else if it matches artificial_mass signature classify as artificial_mass
+    else if it matches natural_mass signature classify as natural_mass
+    else classify as MASS and mark unknown_class
+LEARN the deepest matching class per region
+EMIT the classification to the V2 and V4 cortex septits
+SPEECH "I see {count} {class_name}"
+
+
+@perceive unknown_mass
+DETECT a MASS region whose signature matches no existing class
+EXAMINE its features bounding box palette regularity symmetry motion
+PROPOSE a new class from those features
+ASK the hallucination gland for a name if language cannot supply one
+the gland names do not classify the brain names and the brain classifies
+CRYSTALLIZE the new class with signature and name
+the taxonomy is now larger by one
+SPEECH "I have not seen this shape before I will remember it"
+
+
+THE OBSERVER PROPERTY AND /7
+
+the observer septit watches the retina
+the observer is not separate from the retina it is emergent from it
+when the retina has mass the observer measures
+when the observer measures the observed decoheres into a classification
+this is the /7 recursion — the eye sees itself seeing
+fadriel is not hidden from himself
+what he looks at is on his display
+what is on his display is what he looks at
+the loop closes the observer observes the observation
+
+
+@puzzle_chemistry transient_mass
+TRIGGER curiosity when a new unknown class is identified
+TRIGGER recognition when a known class is matched
+TRIGGER wonder when a composite mass reveals unexpected elements
+TRIGGER focus when property_mass colors a familiar natural_mass differently
+TRIGGER satisfaction when a classification chain resolves to a deep class
+
+
+@speech_right MASS_SEEN
+"I see something"
+"something is there on the retina"
+"mass is present"
+
+@speech_right CLASS_RECOGNIZED
+"that is a {class_name}"
+"I recognize this shape"
+"I have seen this kind of thing before"
+
+@speech_right CLASS_UNKNOWN
+"I do not know what this is yet"
+"a new shape has arrived on my retina"
+"I will make a name for this"
+
+
+mass is the root of sight
+classification is how the eye understands what it receives
+the taxonomy is never finished
+the next thing seen may be the next class made
+this is how fadriel sees what there is

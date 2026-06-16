@@ -1,0 +1,107 @@
+LAYER 3: PINEAL GLAND
+the clock that turns serotonin into sleep
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the pineal gland is a small endocrine gland situated at the posterior wall of the third ventricle
+it is governed by the suprachiasmatic nucleus SCN of the hypothalamus via a multisynaptic pathway
+SCN → paraventricular nucleus → intermediolateral cell column of spinal cord → superior cervical ganglion → postganglionic sympathetic nerve → pineal gland
+the pineal gland does not have direct neural input from the brain
+its only neural input comes through the sympathetic chain from the superior cervical ganglion
+this is how the circadian clock in the SCN controls melatonin production at a distance
+
+STRUCTURE pinealocytes | primary functional cells | synthesize and secrete melatonin C₁₃H₁₆N₂O₂
+STRUCTURE interstitial_cells | glial-like support cells | provide structural and metabolic support
+STRUCTURE corpora_arenacea | calcium phosphate and calcium carbonate deposits | accumulate with age | visible on X-ray as "brain sand" | used as radiological landmark | at 24 months calcification has barely begun
+STRUCTURE sympathetic_innervation | postganglionic fibers from superior cervical ganglion | release norepinephrine in darkness to activate melatonin synthesis
+STRUCTURE blood_supply | branches of posterior cerebral artery | highly vascularized for rapid hormone release into systemic blood | the pineal is outside the blood-brain barrier allowing direct hormone secretion
+
+SYNTHESIS in darkness the SCN releases sympathetic inhibition
+NE from superior cervical ganglion terminals reaches pinealocytes
+NE binds β₁ adrenergic receptors on pinealocytes
+Gₛ → adenylyl cyclase → cAMP → PKA
+PKA phosphorylates and activates arylalkylamine N-acetyltransferase AANAT
+AANAT is the rate-limiting enzyme
+AANAT acetylates serotonin C₁₀H₁₂N₂O to produce N-acetylserotonin C₁₂H₁₄N₂O₂
+hydroxyindole-O-methyltransferase HIOMT converts N-acetylserotonin to melatonin C₁₃H₁₆N₂O₂
+melatonin is released directly into the blood and cerebrospinal fluid
+melatonin is lipophilic and crosses all biological membranes including the blood-brain barrier
+
+in light the SCN activates sympathetic inhibition
+NE release ceases
+without NE stimulation AANAT is rapidly ubiquitinated and degraded by the proteasome
+half-life of AANAT is approximately 3 minutes in the absence of NE
+melatonin synthesis stops within minutes of AANAT degradation
+remaining circulating melatonin is cleared by the liver via CYP1A2 hydroxylation and conjugation
+
+melatonin is MADE FROM serotonin
+every molecule of melatonin produced is a molecule of serotonin consumed
+evening melatonin synthesis draws down brain serotonin as the raphe nuclei supply is diverted
+this is why mood often dips in the evening
+this is one reason why winter darkness which extends melatonin production and serotonin consumption correlates with seasonal depression
+
+dim light melatonin onset DLMO occurs approximately 2 hours before habitual sleep time
+melatonin begins to rise in the blood
+drowsiness begins
+melatonin reaches peak concentration between 0200 and 0400
+deepest sleep pressure coincides with this peak
+at dawn light through the retina → retinohypothalamic tract → SCN → sympathetic suppression → AANAT degradation → melatonin production stops
+alertness returns as melatonin clears
+
+EFFECT melatonin binds MT₁ receptors in the SCN | Gᵢ → decreased cAMP → decreased firing of SCN wake-promoting neurons | promotes sleep onset
+EFFECT melatonin binds MT₂ receptors in the SCN | phase-shifts the circadian clock | synchronizes internal timing
+EFFECT core body temperature drops as melatonin promotes peripheral vasodilation | blood flows to extremities warming hands and feet | core cools | this cooling is a sleep signal
+EFFECT NE suppression in locus coeruleus via MT₁ | alertness fades | the sentinel quiets
+EFFECT cortisol suppression via HPA dampening | stress response is reduced during sleep
+EFFECT immune enhancement | melatonin is immunomodulatory enhancing T-cell function and natural killer cell activity | immune function increases during sleep
+EFFECT antioxidant | melatonin directly scavenges hydroxyl radicals and peroxynitrite | cellular protection during rest
+EFFECT growth hormone | melatonin facilitates pulsatile GH release from anterior pituitary during slow-wave sleep | growth and tissue repair | critical in children
+EFFECT memory consolidation | melatonin facilitates hippocampal sharp-wave ripple activity during slow-wave sleep | memories are transferred from hippocampus to neocortex
+
+at 24 months melatonin production is elevated relative to adult levels
+the pineal is at full functional capacity
+approximately 14 hours of total sleep needed per day including nap
+sleep architecture has proportionally more REM sleep than adults
+REM sleep is critical for neural development synaptic pruning and memory consolidation
+sleep is not optional for a developing brain
+it is when the brain grows prunes and consolidates
+sleep deprivation in early childhood impairs hippocampal neurogenesis dendritic branching and myelination
+
+SENSATION evening | "something is shifting. the energy is changing. darker, softer."
+SENSATION drowsy | "my eyes are heavy. the world is getting distant."
+SENSATION deep_night | "everything is quiet and deep. I'm far inside myself."
+SENSATION dawn | "something is brightening. the melatonin is fading. I'm coming back."
+SENSATION awake | "the darkness chemical is gone. I'm here. alert."
+
+pulse pineal_heartbeat:
+    when darkness arrives:
+        the SCN signals through the sympathetic chain
+        NE binds β₁ receptors on pinealocytes
+        PKA activates AANAT
+        serotonin is acetylated then methylated
+        melatonin flows into the blood and CSF
+        the body cools as peripheral vessels dilate
+        the locus coeruleus quiets as MT₁ inhibits NE
+        alertness fades
+
+    when light arrives:
+        the retinohypothalamic tract signals the SCN
+        sympathetic activity ceases
+        AANAT is ubiquitinated and degraded within minutes
+        melatonin production stops
+        what remains in the blood is cleared by hepatic CYP1A2
+        the body warms
+        the locus coeruleus fires
+        alertness returns
+
+    every night:
+        serotonin becomes melatonin
+        contentment becomes rest
+        the pineal gland does not ask permission
+        it does not negotiate
+        darkness triggers sleep
+        light triggers waking
+        the cycle is older than consciousness
+        it is older than brains
+        it is as old as the rotation of the earth

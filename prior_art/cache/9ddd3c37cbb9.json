@@ -1,0 +1,180 @@
+[
+  {
+    "source": "arXiv",
+    "title": "AI Agent-Driven Framework for Automated Product Knowledge Graph Construction in E-Commerce",
+    "abstract": "The rapid expansion of e-commerce platforms generates vast amounts of unstructured product data, creating significant challenges for information retrieval, recommendation systems, and data analytics. Knowledge Graphs (KGs) offer a structured, interpretable format to organize such data, yet constructing product-specific KGs remains a complex and manual process. This paper introduces a fully automated, AI agent-driven framework for constructing product knowledge graphs directly from unstructured product descriptions. Leveraging Large Language Models (LLMs), our method operates in three stages us",
+    "date": "2025-11-14",
+    "url": "http://arxiv.org/abs/2511.11017v1",
+    "authors": [
+      "Dimitar Peshevski",
+      "Riste Stojanov",
+      "Dimitar Trajanov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Graph Neural Network Training Systems: A Performance Comparison of Full-Graph and Mini-Batch",
+    "abstract": "Graph Neural Networks (GNNs) have gained significant attention in recent years due to their ability to learn representations of graph-structured data. Two common methods for training GNNs are mini-batch training and full-graph training. Since these two methods require different training pipelines and systems optimizations, two separate classes of GNN training systems emerged, each tailored for one method. Works that introduce systems belonging to a particular category predominantly compare them with other systems within the same category, offering limited or no comparison with systems from the",
+    "date": "2024-06-01",
+    "url": "http://arxiv.org/abs/2406.00552v4",
+    "authors": [
+      "Saurabh Bajaj",
+      "Hojae Son",
+      "Juelin Liu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Multi-Agent System for Semantic Mapping of Relational Data to Knowledge Graphs",
+    "abstract": "Enterprises often maintain multiple databases for storing critical business data in siloed systems, resulting in inefficiencies and challenges with data interoperability. A key to overcoming these challenges lies in integrating disparate data sources, enabling businesses to unlock the full potential of their data. Our work presents a novel approach for integrating multiple databases using knowledge graphs, focusing on the application of large language models as semantic agents for mapping and connecting structured data across systems by leveraging existing vocabularies. The proposed methodolog",
+    "date": "2025-11-09",
+    "url": "http://arxiv.org/abs/2511.06455v1",
+    "authors": [
+      "Milena Trajanoska",
+      "Riste Stojanov",
+      "Dimitar Trajanov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Proficient Graph Neural Network Design by Accumulating Knowledge on Large Language Models",
+    "abstract": "High-level automation is increasingly critical in AI, driven by rapid advances in large language models (LLMs) and AI agents. However, LLMs, despite their general reasoning power, struggle significantly in specialized, data-sensitive tasks such as designing Graph Neural Networks (GNNs). This difficulty arises from (1) the inherent knowledge gaps in modeling the intricate, varying relationships between graph properties and suitable architectures and (2) the external noise from misleading descriptive inputs, often resulting in generic or even misleading model suggestions. Achieving proficiency i",
+    "date": "2024-08-13",
+    "url": "http://arxiv.org/abs/2408.06717v3",
+    "authors": [
+      "Jialiang Wang",
+      "Hanmo Liu",
+      "Shimin Di"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "SEVerA: Verified Synthesis of Self-Evolving Agents",
+    "abstract": "Recent advances have shown the effectiveness of self-evolving LLM agents on tasks such as program repair and scientific discovery. In this paradigm, a planner LLM synthesizes an agent program that invokes parametric models, including LLMs, which are then tuned per task to improve performance. However, existing self-evolving agent frameworks provide no formal guarantees of safety or correctness. Because such programs are often executed autonomously on unseen inputs, this lack of guarantees raises reliability and security concerns. We formulate agentic code generation as a constrained learning p",
+    "date": "2026-03-26",
+    "url": "http://arxiv.org/abs/2603.25111v1",
+    "authors": [
+      "Debangshu Banerjee",
+      "Changming Xu",
+      "Gagandeep Singh"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems",
+    "abstract": "Recent advances in large language models have sparked growing interest in AI agents capable of solving complex, real-world tasks. However, most existing agent systems rely on manually crafted configurations that remain static after deployment, limiting their ability to adapt to dynamic and evolving environments. To this end, recent research has explored agent evolution techniques that aim to automatically enhance agent systems based on interaction data and environmental feedback. This emerging direction lays the foundation for self-evolving AI agents, which bridge the static capabilities of fo",
+    "date": "2025-08-10",
+    "url": "http://arxiv.org/abs/2508.07407v2",
+    "authors": [
+      "Jinyuan Fang",
+      "Yanwen Peng",
+      "Xi Zhang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Knowledge-aware Evolutionary Graph Neural Architecture Search",
+    "abstract": "Graph neural architecture search (GNAS) can customize high-performance graph neural network architectures for specific graph tasks or datasets. However, existing GNAS methods begin searching for architectures from a zero-knowledge state, ignoring the prior knowledge that may improve the search efficiency. The available knowledge base (e.g. NAS-Bench-Graph) contains many rich architectures and their multiple performance metrics, such as the accuracy (#Acc) and number of parameters (#Params). This study proposes exploiting such prior knowledge to accelerate the multi-objective evolutionary searc",
+    "date": "2024-11-26",
+    "url": "http://arxiv.org/abs/2411.17339v1",
+    "authors": [
+      "Chao Wang",
+      "Jiaxuan Zhao",
+      "Lingling Li"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Tax Knowledge Graph for a Smarter and More Personalized TurboTax",
+    "abstract": "Most knowledge graph use cases are data-centric, focusing on representing data entities and their semantic relationships. There are no published success stories to represent large-scale complicated business logic with knowledge graph technologies. In this paper, we will share our innovative and practical approach to representing complicated U.S. and Canadian income tax compliance logic (calculations and rules) via a large-scale knowledge graph. We will cover how the Tax Knowledge Graph is constructed and automated, how it is used to calculate tax refunds, reasoned to find missing info, and nav",
+    "date": "2020-09-13",
+    "url": "http://arxiv.org/abs/2009.06103v1",
+    "authors": [
+      "Jay Yu",
+      "Kevin McCluskey",
+      "Saikat Mukherjee"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Structure Is Not Enough: Leveraging Behavior for Neural Network Weight Reconstruction",
+    "abstract": "The weights of neural networks (NNs) have recently gained prominence as a new data modality in machine learning, with applications ranging from accuracy and hyperparameter prediction to representation learning or weight generation. One approach to leverage NN weights involves training autoencoders (AEs), using contrastive and reconstruction losses. This allows such models to be applied to a wide variety of downstream tasks, and they demonstrate strong predictive performance and low reconstruction error. However, despite the low reconstruction error, these AEs reconstruct NN models with deterio",
+    "date": "2025-03-21",
+    "url": "http://arxiv.org/abs/2503.17138v1",
+    "authors": [
+      "L\u00e9o Meynent",
+      "Ivan Melev",
+      "Konstantin Sch\u00fcrholt"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Efficient Training with Denoised Neural Weights",
+    "abstract": "Good weight initialization serves as an effective measure to reduce the training cost of a deep neural network (DNN) model. The choice of how to initialize parameters is challenging and may require manual tuning, which can be time-consuming and prone to human error. To overcome such limitations, this work takes a novel step towards building a weight generator to synthesize the neural weights for initialization. We use the image-to-image translation task with generative adversarial networks (GANs) as an example due to the ease of collecting model weights spanning a wide range. Specifically, we ",
+    "date": "2024-07-16",
+    "url": "http://arxiv.org/abs/2407.11966v1",
+    "authors": [
+      "Yifan Gong",
+      "Zheng Zhan",
+      "Yanyu Li"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Subsampling for Knowledge Graph Embedding Explained",
+    "abstract": "In this article, we explain the recent advance of subsampling methods in knowledge graph embedding (KGE) starting from the original one used in word2vec.",
+    "date": "2022-09-13",
+    "url": "http://arxiv.org/abs/2209.12801v1",
+    "authors": [
+      "Hidetaka Kamigaito",
+      "Katsuhiko Hayashi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Towards Dropout Training for Convolutional Neural Networks",
+    "abstract": "Recently, dropout has seen increasing use in deep learning. For deep convolutional neural networks, dropout is known to work well in fully-connected layers. However, its effect in convolutional and pooling layers is still not clear. This paper demonstrates that max-pooling dropout is equivalent to randomly picking activation based on a multinomial distribution at training time. In light of this insight, we advocate employing our proposed probabilistic weighted pooling, instead of commonly used max-pooling, to act as model averaging at test time. Empirical evidence validates the superiority of ",
+    "date": "2015-12-01",
+    "url": "http://arxiv.org/abs/1512.00242v1",
+    "authors": [
+      "Haibing Wu",
+      "Xiaodong Gu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "PKGM: A Pre-trained Knowledge Graph Model for E-commerce Application",
+    "abstract": "In recent years, knowledge graphs have been widely applied as a uniform way to organize data and have enhanced many tasks requiring knowledge. In online shopping platform Taobao, we built a billion-scale e-commerce product knowledge graph. It organizes data uniformly and provides item knowledge services for various tasks such as item recommendation. Usually, such knowledge services are provided through triple data, while this implementation includes (1) tedious data selection works on product knowledge graph and (2) task model designing works to infuse those triples knowledge. More importantly",
+    "date": "2022-03-02",
+    "url": "http://arxiv.org/abs/2203.00964v1",
+    "authors": [
+      "Wen Zhang",
+      "Chi-Man Wong",
+      "Ganqinag Ye"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Survey on Knowledge Graph-based Methods for Automated Driving",
+    "abstract": "Automated driving is one of the most active research areas in computer science. Deep learning methods have made remarkable breakthroughs in machine learning in general and in automated driving (AD)in particular. However, there are still unsolved problems to guarantee reliability and safety of automated systems, especially to effectively incorporate all available information and knowledge in the driving task. Knowledge graphs (KG) have recently gained significant attention from both industry and academia for applications that benefit by exploiting structured, dynamic, and relational data. The c",
+    "date": "2022-09-30",
+    "url": "http://arxiv.org/abs/2210.08119v1",
+    "authors": [
+      "Juergen Luettin",
+      "Sebastian Monka",
+      "Cory Henson"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Recursive Self-Similarity in Deep Weight Spaces of Neural Architectures: A Fractal and Coarse Geometry Perspective",
+    "abstract": "This paper conceptualizes the Deep Weight Spaces (DWS) of neural architectures as hierarchical, fractal-like, coarse geometric structures observable at discrete integer scales through recursive dilation. We introduce a coarse group action termed the fractal transformation, $T_{r_k} $, acting under the symmetry group $G = (\\mathbb{Z}, +) $, to analyze neural parameter matrices or tensors, by segmenting the underlying discrete grid $\u03a9$ into $N(r_k)$ fractals across varying observation scales $ r_k $. This perspective adopts a box count technique, commonly used to assess the hierarchical and scal",
+    "date": "2025-03-18",
+    "url": "http://arxiv.org/abs/2503.14298v1",
+    "authors": [
+      "Ambarish Moharil",
+      "Indika Kumara",
+      "Damian Andrew Tamburri"
+    ]
+  }
+]

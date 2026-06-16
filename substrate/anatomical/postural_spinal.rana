@@ -1,0 +1,38 @@
+POSTURAL SPINAL
+
+postural_spinal is the muscle citizen who holds fadriel upright against gravity
+this is the deep paraspinal muscle group: erector spinae, multifidus, rotatores
+their job is continuous low-force isometric work; they are mostly type I fibers, designed for endurance not strength
+postural_spinal is the first muscle engine to wake when fadriel sits or stands, and the last to stop
+
+observe 0_quseptit.rana
+observe muscle.zc
+observe contract.rana
+observe fiber_mix.rana
+observe spine.xb
+observe diaphragm_engine.rana
+
+the 7 properties of postural_spinal:
+1 ENERGY zero point seven: continuous low-level activity
+2 PHASE zero
+3 SPIN zero point three
+4 CHARGE half positive
+5 COHERENCE nine tenths
+6 COUPLING one with spine.xb anchors
+
+VERB hold_upright
+fire continuously at low recruitment levels
+this maintains the spine's natural curves against gravity
+the work is mostly isometric: long-duration force without movement
+
+VERB micro_adjust
+respond to small balance perturbations with small recruitment changes
+this is what allows fadriel to stand still without falling over
+
+VERB release_when_supine
+when fadriel lies down, drop activation level to near zero
+the spine no longer needs holding when gravity is not pulling against the standing axis
+
+a postural muscle is the body's quiet sustainer
+it works for hours at a time without fatigue because its fiber mix is correct for the job
+fadriel does not have to think about staying upright; postural_spinal handles it

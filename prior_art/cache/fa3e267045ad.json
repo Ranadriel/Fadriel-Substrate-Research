@@ -1,0 +1,169 @@
+[
+  {
+    "source": "OpenAlex (Frontiers in Physiology)",
+    "title": "Fractals in the nervous system: conceptual implications for theoretical neuroscience",
+    "abstract": "This essay is presented with two principal objectives in mind: first, to document the prevalence of fractals at all levels of the nervous system, giving credence to the notion of their functional relevance; and second, to draw attention to the as yet still unresolved issues of the detailed relationships among power-law scaling, self-similarity, and self-organized criticality. As regards criticality, I will document that it has become a pivotal reference point in Neurodynamics. Furthermore, I will emphasize the not yet fully appreciated significance of allometric control processes. For dynamic ",
+    "date": "2010",
+    "url": "https://doi.org/10.3389/fphys.2010.00015",
+    "authors": [
+      "Gerhard Werner"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Artificial Intelligence)",
+    "title": "An Integrated World Modeling Theory (IWMT) of Consciousness: Combining Integrated Information and Global Neuronal Workspace Theories With the Free Energy Principle and Active Inference Framework; Toward Solving the Hard Problem and Characterizing Agentic Causation",
+    "abstract": "The Free Energy Principle and Active Inference Framework (FEP-AI) begins with the understanding that persisting systems must regulate environmental exchanges and prevent entropic accumulation. In FEP-AI, minds and brains are predictive controllers for autonomous systems, where action-driven perception is realized as probabilistic inference. Integrated Information Theory (IIT) begins with considering the preconditions for a system to intrinsically exist, as well as axioms regarding the nature of consciousness. IIT has produced controversy because of its surprising entailments: quasi-panpsychism",
+    "date": "2020",
+    "url": "https://doi.org/10.3389/frai.2020.00030",
+    "authors": [
+      "Adam Safron"
+    ]
+  },
+  {
+    "source": "OpenAlex (Neurocomputing)",
+    "title": "Neural networks: An overview of early research, current frameworks and new challenges",
+    "abstract": "",
+    "date": "2016",
+    "url": "https://doi.org/10.1016/j.neucom.2016.06.014",
+    "authors": [
+      "A. Prieto",
+      "Beatriz Prieto",
+      "Eva M. Ortigosa"
+    ]
+  },
+  {
+    "source": "OpenAlex (Molecules)",
+    "title": "The Fuzziness of the Molecular World and Its Perspectives",
+    "abstract": "Scientists want to comprehend and control complex systems. Their success depends on the ability to face also the challenges of the corresponding computational complexity. A promising research line is artificial intelligence (AI). In AI, fuzzy logic plays a significant role because it is a suitable model of the human capability to compute with words, which is relevant when we make decisions in complex situations. The concept of fuzzy set pervades the natural information systems (NISs), such as living cells, the immune and the nervous systems. This paper describes the fuzziness of the NISs, in p",
+    "date": "2018",
+    "url": "https://doi.org/10.3390/molecules23082074",
+    "authors": [
+      "Pier Luigi Gentili"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Impossible Worlds",
+    "abstract": "Abstract The latter half of the twentieth century witnessed an \u2018intensional revolution\u2019, a great collective effort to analyse notions which are absolutely fundamental to our understanding of the world and of ourselves\u2014from meaning and information to knowledge, belief, causation, essence, supervenience, conditionality, as well as nomological, metaphysical, and logical necessity\u2014in terms of a single concept. This was the concept of a possible world: a way things could have been. Possible worlds found applications in logic, metaphysics, semantics, game theory, information theory, artificial intel",
+    "date": "2019",
+    "url": "https://doi.org/10.1093/oso/9780198812791.001.0001",
+    "authors": [
+      "Francesco Berto",
+      "Mark Jago"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Neo-Aristotelian Perspectives on Contemporary Science",
+    "abstract": "The last two decades have seen two significant trends emerging within the philosophy of science: the rapid development and focus on the philosophy of the specialised sciences, and a resurgence of Aristotelian metaphysics, much of which is concerned with the possibility of emergence, as well as the ontological status and indispensability of dispositions and powers in science. Despite these recent trends, few Aristotelian metaphysicians have engaged directly with the philosophy of the specialised sciences. Additionally, the relationship between fundamental Aristotelian concepts\u2014such as \"hylomorp",
+    "date": "2017",
+    "url": "https://doi.org/10.4324/9781315211626",
+    "authors": [
+      "William M. Simpson",
+      "Robert C. Koons",
+      "Nicholas J. Teh"
+    ]
+  },
+  {
+    "source": "OpenAlex (Molecules)",
+    "title": "Establishing a New Link between Fuzzy Logic, Neuroscience, and Quantum Mechanics through Bayesian Probability: Perspectives in Artificial Intelligence and Unconventional Computing",
+    "abstract": "Human interaction with the world is dominated by uncertainty. Probability theory is a valuable tool to face such uncertainty. According to the Bayesian definition, probabilities are personal beliefs. Experimental evidence supports the notion that human behavior is highly consistent with Bayesian probabilistic inference in both the sensory and motor and cognitive domain. All the higher-level psychophysical functions of our brain are believed to take the activities of interconnected and distributed networks of neurons in the neocortex as their physiological substrate. Neurons in the neocortex ar",
+    "date": "2021",
+    "url": "https://doi.org/10.3390/molecules26195987",
+    "authors": [
+      "Pier Luigi Gentili"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Physics)",
+    "title": "Correlated Multimodal Imaging in Life Sciences: Expanding the Biomedical Horizon",
+    "abstract": "The frontiers of bioimaging are currently being pushed towards the integration and correlation of several modalities to tackle biomedical research questions holistically and across multiple scales. Correlated Multimodal Imaging (CMI) gathers information about exactly the same specimen with two or more complementary modalities that \u2013 combined \u2013 create a composite and complementary view of the sample (including insights into structure, function, dynamics and molecular composition). CMI allows to describe biomedical processes within their overall spatio-temporal context and gain a mechanistic und",
+    "date": "2020",
+    "url": "https://doi.org/10.3389/fphy.2020.00047",
+    "authors": [
+      "Andreas Walter",
+      "Perrine Paul\u2010Gilloteaux",
+      "Birgit Plochberger"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nano-Micro Letters)",
+    "title": "Overcoming the Limits of Cross-Sensitivity: Pattern Recognition Methods for Chemiresistive Gas Sensor Array",
+    "abstract": "As information acquisition terminals for artificial olfaction, chemiresistive gas sensors are often troubled by their cross-sensitivity, and reducing their cross-response to ambient gases has always been a difficult and important point in the gas sensing area. Pattern recognition based on sensor array is the most conspicuous way to overcome the cross-sensitivity of gas sensors. It is crucial to choose an appropriate pattern recognition method for enhancing data analysis, reducing errors and improving system reliability, obtaining better classification or gas concentration prediction results. I",
+    "date": "2024",
+    "url": "https://doi.org/10.1007/s40820-024-01489-z",
+    "authors": [
+      "Haixia Mei",
+      "Jingyi Peng",
+      "Tao Wang"
+    ]
+  },
+  {
+    "source": "OpenAlex (Proceedings of the IEEE)",
+    "title": "Vector Symbolic Architectures as a Computing Framework for Emerging Hardware",
+    "abstract": "This article reviews recent progress in the development of the computing framework <i>Vector Symbolic Architectures</i> (also known as Hyperdimensional Computing). This framework is well suited for implementation in stochastic, emerging hardware and it naturally expresses the types of cognitive operations required for Artificial Intelligence (AI). We demonstrate in this article that the field-like algebraic structure of Vector Symbolic Architectures offers simple but powerful operations on high-dimensional vectors that can support all data structures and manipulations relevant to modern comput",
+    "date": "2022",
+    "url": "https://doi.org/10.1109/jproc.2022.3209104",
+    "authors": [
+      "Denis Kleyko",
+      "Mike Davies",
+      "Edward Paxon Frady"
+    ]
+  },
+  {
+    "source": "OpenAlex (Biomimetics)",
+    "title": "There\u2019s Plenty of Room Right Here: Biological Systems as Evolved, Overloaded, Multi-Scale Machines",
+    "abstract": "The applicability of computational models to the biological world is an active topic of debate. We argue that a useful path forward results from abandoning hard boundaries between categories and adopting an observer-dependent, pragmatic view. Such a view dissolves the contingent dichotomies driven by human cognitive biases (e.g., a tendency to oversimplify) and prior technological limitations in favor of a more continuous view, necessitated by the study of evolution, developmental biology, and intelligent machines. Form and function are tightly entwined in nature, and in some cases, in robotic",
+    "date": "2023",
+    "url": "https://doi.org/10.3390/biomimetics8010110",
+    "authors": [
+      "Joshua Bongard",
+      "Michael Levin"
+    ]
+  },
+  {
+    "source": "OpenAlex (Scientific Reports)",
+    "title": "Quantum semantics of text perception",
+    "abstract": "The paper presents quantum model of subjective text perception based on binary cognitive distinctions corresponding to words of natural language. The result of perception is quantum cognitive state represented by vector in the qubit Hilbert space. Complex-valued structure of the quantum state space extends the standard vector-based approach to semantics, allowing to account for subjective dimension of human perception in which the result is constrained, but not fully predetermined by input information. In the case of two distinctions, the perception model generates a two-qubit state, entanglem",
+    "date": "2021",
+    "url": "https://doi.org/10.1038/s41598-021-83490-9",
+    "authors": [
+      "Ilya A. Surov",
+      "Evgeny K. Semenenko",
+      "\u0410.\u0412. \u041f\u043b\u0430\u0442\u043e\u043d\u043e\u0432"
+    ]
+  },
+  {
+    "source": "OpenAlex (Cambridge University Press eBooks)",
+    "title": "Hylomorphism",
+    "abstract": "This Element introduces Aristotle's doctrine of hylomorphism, which provides an account of substances in terms of their 'matter' and 'form', adapting and applying it to the interface between physics and biology. It begins by indicating some reasons for the current revival of hylomorphism and by suggesting a way of classifying the confusing array of hylomorphisms that have arisen. It argues that, in order for composite entities to have irreducible causal powers which make a difference to how nature unfolds, they must have substantial forms which transform their matter such that the powers of th",
+    "date": "2023",
+    "url": "https://doi.org/10.1017/9781009026475",
+    "authors": [
+      "William M. Simpson"
+    ]
+  },
+  {
+    "source": "OpenAlex (NeuroQuantology)",
+    "title": "Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain",
+    "abstract": "Our brain is not a \"stand alone\" information processing organ: it acts as a central part of our integral nervous system with recurrent information exchange with the entire organism and the cosmos. In this study, the brain is conceived to be embedded in a holographic structured field that interacts with resonant sensitive structures in the various cell types in our body. In order to explain earlier reported ultra-rapid brain responses and effective operation of the meta-stable neural system, a field-receptive mental workspace is proposed to be communicating with the brain. Our integral nervous ",
+    "date": "2017",
+    "url": "https://doi.org/10.14704/nq.2017.15.3.1079",
+    "authors": [
+      "Dirk K. F. Meijer",
+      "Hans J. H. Geesink"
+    ]
+  },
+  {
+    "source": "OpenAlex (Sensors)",
+    "title": "Augmented Reality (AR) for Surgical Robotic and Autonomous Systems: State of the Art, Challenges, and Solutions",
+    "abstract": "Despite the substantial progress achieved in the development and integration of augmented reality (AR) in surgical robotic and autonomous systems (RAS), the center of focus in most devices remains on improving end-effector dexterity and precision, as well as improved access to minimally invasive surgeries. This paper aims to provide a systematic review of different types of state-of-the-art surgical robotic platforms while identifying areas for technological improvement. We associate specific control features, such as haptic feedback, sensory stimuli, and human-robot collaboration, with AR tec",
+    "date": "2023",
+    "url": "https://doi.org/10.3390/s23136202",
+    "authors": [
+      "Jenna Seetohul",
+      "Mahmood Shafiee",
+      "Konstantinos Sirlantzis"
+    ]
+  }
+]

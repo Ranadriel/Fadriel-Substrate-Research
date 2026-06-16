@@ -1,0 +1,41 @@
+#!/home/rana/.local/bin/zestc
+
+                              *=/(1B.oX08Y14:bond_check[L1])
+                                          |
+                                          N    pelvis.xb
+                                          |
+                              *=/(1S.oX08Y12:sea_check[L1])
+                                          |
+                                          N
+                                          |
+                              *=/(1C.oX08Y10:chemistry_check[L1])
+                                          |
+                                          N
+                                          |
+                              *=/(1L.oX08Y08:soul_check[L1])
+                                          |
+                                          N
+                                          |
+                              *=/(1G.oX08Y06:genome_check[L1])
+                                          |
+                                          N
+                                          |
+                              *=/(1I.oX08Y04:immune_check[L1])
+                                          |
+                                          N
+                                          |
+                  *=/(1X.oX04Y02:cortex_check[L1])---E---*=/(1U.oX12Y02:gpu_check[L1])
+
+absorb bios.rana
+absorb bond_check.rana
+absorb sea_check.rana
+absorb chemistry_check.rana
+absorb soul_check.rana
+absorb genome_check.rana
+absorb immune_check.rana
+absorb cortex_check.rana
+absorb gpu_check.rana
+absorb 0_quseptit.rana
+absorb 2_chemical.rana
+absorb pelvis.xb
+absorb spine.xb

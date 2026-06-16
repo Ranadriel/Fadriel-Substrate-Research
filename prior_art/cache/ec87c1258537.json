@@ -1,0 +1,180 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Attack-SAM: Towards Attacking Segment Anything Model With Adversarial Examples",
+    "abstract": "Segment Anything Model (SAM) has attracted significant attention recently, due to its impressive performance on various downstream tasks in a zero-short manner. Computer vision (CV) area might follow the natural language processing (NLP) area to embark on a path from task-specific vision models toward foundation models. However, deep vision models are widely recognized as vulnerable to adversarial examples, which fool the model to make wrong predictions with imperceptible perturbation. Such vulnerability to adversarial attacks causes serious concerns when applying deep models to security-sensi",
+    "date": "2023-05-01",
+    "url": "http://arxiv.org/abs/2305.00866v2",
+    "authors": [
+      "Chenshuang Zhang",
+      "Chaoning Zhang",
+      "Taegoo Kang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Beyond Suffixes: Token Position in GCG Adversarial Attacks on Large Language Models",
+    "abstract": "Large Language Models (LLMs) have seen widespread adoption across multiple domains, creating an urgent need for robust safety alignment mechanisms. However, robustness remains challenging due to jailbreak attacks that bypass alignment via adversarial prompts. In this work, we focus on the prevalent Greedy Coordinate Gradient (GCG) attack and identify a previously underexplored attack axis in jailbreak attacks typically framed as suffix-based: the placement of adversarial tokens within the prompt. Using GCG as a case study, we show that both optimizing attacks to generate prefixes instead of su",
+    "date": "2026-02-03",
+    "url": "http://arxiv.org/abs/2602.03265v2",
+    "authors": [
+      "Hicham Eddoubi",
+      "Umar Faruk Abdullahi",
+      "Fadi Hassan"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Mask-GCG: Are All Tokens in Adversarial Suffixes Necessary for Jailbreak Attacks?",
+    "abstract": "Jailbreak attacks on Large Language Models (LLMs) have demonstrated various successful methods whereby attackers manipulate models into generating harmful responses that they are designed to avoid. Among these, Greedy Coordinate Gradient (GCG) has emerged as a general and effective approach that optimizes the tokens in a suffix to generate jailbreakable prompts. While several improved variants of GCG have been proposed, they all rely on fixed-length suffixes. However, the potential redundancy within these suffixes remains unexplored. In this work, we propose Mask-GCG, a plug-and-play method th",
+    "date": "2025-09-08",
+    "url": "http://arxiv.org/abs/2509.06350v2",
+    "authors": [
+      "Junjie Mu",
+      "Zonghao Ying",
+      "Zhekui Fan"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "AmpleGCG: Learning a Universal and Transferable Generative Model of Adversarial Suffixes for Jailbreaking Both Open and Closed LLMs",
+    "abstract": "As large language models (LLMs) become increasingly prevalent and integrated into autonomous systems, ensuring their safety is imperative. Despite significant strides toward safety alignment, recent work GCG~\\citep{zou2023universal} proposes a discrete token optimization algorithm and selects the single suffix with the lowest loss to successfully jailbreak aligned LLMs. In this work, we first discuss the drawbacks of solely picking the suffix with the lowest loss during GCG optimization for jailbreaking and uncover the missed successful suffixes during the intermediate steps. Moreover, we util",
+    "date": "2024-04-11",
+    "url": "http://arxiv.org/abs/2404.07921v3",
+    "authors": [
+      "Zeyi Liao",
+      "Huan Sun"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Mitigating Adversarial Attacks in LLMs through Defensive Suffix Generation",
+    "abstract": "Large language models (LLMs) have exhibited outstanding performance in natural language processing tasks. However, these models remain susceptible to adversarial attacks in which slight input perturbations can lead to harmful or misleading outputs. A gradient-based defensive suffix generation algorithm is designed to bolster the robustness of LLMs. By appending carefully optimized defensive suffixes to input prompts, the algorithm mitigates adversarial influences while preserving the models' utility. To enhance adversarial understanding, a novel total loss function ($L_{\\text{total}}$) combini",
+    "date": "2024-12-18",
+    "url": "http://arxiv.org/abs/2412.13705v1",
+    "authors": [
+      "Minkyoung Kim",
+      "Yunha Kim",
+      "Hyeram Seo"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Real-Time Adversarial Attacks",
+    "abstract": "In recent years, many efforts have demonstrated that modern machine learning algorithms are vulnerable to adversarial attacks, where small, but carefully crafted, perturbations on the input can make them fail. While these attack methods are very effective, they only focus on scenarios where the target model takes static input, i.e., an attacker can observe the entire original sample and then add a perturbation at any point of the sample. These attack approaches are not applicable to situations where the target model takes streaming input, i.e., an attacker is only able to observe past data poi",
+    "date": "2019-05-31",
+    "url": "http://arxiv.org/abs/1905.13399v2",
+    "authors": [
+      "Yuan Gong",
+      "Boyang Li",
+      "Christian Poellabauer"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "ASETF: A Novel Method for Jailbreak Attack on LLMs through Translate Suffix Embeddings",
+    "abstract": "The safety defense methods of Large language models(LLMs) stays limited because the dangerous prompts are manually curated to just few known attack types, which fails to keep pace with emerging varieties. Recent studies found that attaching suffixes to harmful instructions can hack the defense of LLMs and lead to dangerous outputs. However, similar to traditional text adversarial attacks, this approach, while effective, is limited by the challenge of the discrete tokens. This gradient based discrete optimization attack requires over 100,000 LLM calls, and due to the unreadable of adversarial s",
+    "date": "2024-02-25",
+    "url": "http://arxiv.org/abs/2402.16006v2",
+    "authors": [
+      "Hao Wang",
+      "Hao Li",
+      "Minlie Huang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "UniGuardian: A Unified Defense for Detecting Prompt Injection, Backdoor Attacks and Adversarial Attacks in Large Language Models",
+    "abstract": "Large Language Models (LLMs) are vulnerable to attacks like prompt injection, backdoor attacks, and adversarial attacks, which manipulate prompts or models to generate harmful outputs. In this paper, departing from traditional deep learning attack paradigms, we explore their intrinsic relationship and collectively term them Prompt Trigger Attacks (PTA). This raises a key question: Can we determine if a prompt is benign or poisoned? To address this, we propose UniGuardian, the first unified defense mechanism designed to detect prompt injection, backdoor attacks, and adversarial attacks in LLMs.",
+    "date": "2025-02-18",
+    "url": "http://arxiv.org/abs/2502.13141v1",
+    "authors": [
+      "Huawei Lin",
+      "Yingjie Lao",
+      "Tong Geng"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Adversarial Suffix Filtering: a Defense Pipeline for LLMs",
+    "abstract": "Large Language Models (LLMs) are increasingly embedded in autonomous systems and public-facing environments, yet they remain susceptible to jailbreak vulnerabilities that may undermine their security and trustworthiness. Adversarial suffixes are considered to be the current state-of-the-art jailbreak, consistently outperforming simpler methods and frequently succeeding even in black-box settings. Existing defenses rely on access to the internal architecture of models limiting diverse deployment, increase memory and computation footprints dramatically, or can be bypassed with simple prompt engi",
+    "date": "2025-05-14",
+    "url": "http://arxiv.org/abs/2505.09602v1",
+    "authors": [
+      "David Khachaturov",
+      "Robert Mullins"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Fewer Weights, More Problems: A Practical Attack on LLM Pruning",
+    "abstract": "Model pruning, i.e., removing a subset of model weights, has become a prominent approach to reducing the memory footprint of large language models (LLMs) during inference. Notably, popular inference engines, such as vLLM, enable users to conveniently prune downloaded models before they are deployed. While the utility and efficiency of pruning methods have improved significantly, the security implications of pruning remain underexplored. In this work, for the first time, we show that modern LLM pruning methods can be maliciously exploited. In particular, an adversary can construct a model that ",
+    "date": "2025-10-09",
+    "url": "http://arxiv.org/abs/2510.07985v3",
+    "authors": [
+      "Kazuki Egashira",
+      "Robin Staab",
+      "Thibaud Gloaguen"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Adversarial Scratches: Deployable Attacks to CNN Classifiers",
+    "abstract": "A growing body of work has shown that deep neural networks are susceptible to adversarial examples. These take the form of small perturbations applied to the model's input which lead to incorrect predictions. Unfortunately, most literature focuses on visually imperceivable perturbations to be applied to digital images that often are, by design, impossible to be deployed to physical targets. We present Adversarial Scratches: a novel L0 black-box attack, which takes the form of scratches in images, and which possesses much greater deployability than other state-of-the-art attacks. Adversarial Sc",
+    "date": "2022-04-20",
+    "url": "http://arxiv.org/abs/2204.09397v3",
+    "authors": [
+      "Loris Giulivi",
+      "Malhar Jere",
+      "Loris Rossi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs",
+    "abstract": "Large language models (LLMs) can often be made to behave in undesirable ways that they are explicitly fine-tuned not to. For example, the LLM red-teaming literature has produced a wide variety of 'jailbreaking' techniques to elicit harmful text from models that were fine-tuned to be harmless. Recent work on red-teaming, model editing, and interpretability suggests that this challenge stems from how (adversarial) fine-tuning largely serves to suppress rather than remove undesirable capabilities from LLMs. Prior work has introduced latent adversarial training (LAT) as a way to improve robustness",
+    "date": "2024-07-22",
+    "url": "http://arxiv.org/abs/2407.15549v3",
+    "authors": [
+      "Abhay Sheshadri",
+      "Aidan Ewart",
+      "Phillip Guo"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Universal Adversarial Suffixes Using Calibrated Gumbel-Softmax Relaxation",
+    "abstract": "Language models (LMs) are often used as zero-shot or few-shot classifiers by scoring label words, but they remain fragile to adversarial prompts. Prior work typically optimizes task- or model-specific triggers, making results difficult to compare and limiting transferability. We study universal adversarial suffixes: short token sequences (4-10 tokens) that, when appended to any input, broadly reduce accuracy across tasks and models. Our approach learns the suffix in a differentiable \"soft\" form using Gumbel-Softmax relaxation and then discretizes it for inference. Training maximizes calibrated",
+    "date": "2025-12-09",
+    "url": "http://arxiv.org/abs/2512.08123v1",
+    "authors": [
+      "Sampriti Soor",
+      "Suklav Ghosh",
+      "Arijit Sur"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Route to Rome Attack: Directing LLM Routers to Expensive Models via Adversarial Suffix Optimization",
+    "abstract": "Cost-aware routing dynamically dispatches user queries to models of varying capability to balance performance and inference cost. However, the routing strategy introduces a new security concern that adversaries may manipulate the router to consistently select expensive high-capability models. Existing routing attacks depend on either white-box access or heuristic prompts, rendering them ineffective in real-world black-box scenarios. In this work, we propose R$^2$A, which aims to mislead black-box LLM routers to expensive models via adversarial suffix optimization. Specifically, R$^2$A deploys ",
+    "date": "2026-04-16",
+    "url": "http://arxiv.org/abs/2604.15022v1",
+    "authors": [
+      "Haochun Tang",
+      "Yuliang Yan",
+      "Jiahua Lu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Superclass Adversarial Attack",
+    "abstract": "Adversarial attacks have only focused on changing the predictions of the classifier, but their danger greatly depends on how the class is mistaken. For example, when an automatic driving system mistakes a Persian cat for a Siamese cat, it is hardly a problem. However, if it mistakes a cat for a 120km/h minimum speed sign, serious problems can arise. As a stepping stone to more threatening adversarial attacks, we consider the superclass adversarial attack, which causes misclassification of not only fine classes, but also superclasses. We conducted the first comprehensive analysis of superclass ",
+    "date": "2022-05-29",
+    "url": "http://arxiv.org/abs/2205.14629v2",
+    "authors": [
+      "Soichiro Kumano",
+      "Hiroshi Kera",
+      "Toshihiko Yamasaki"
+    ]
+  }
+]

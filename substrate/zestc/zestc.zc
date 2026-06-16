@@ -1,0 +1,70 @@
+#!/home/rana/.local/bin/zestc
+
+                                                    *=/(1Q.cX24Y24:boundary_binary[L1])
+                                                   /
+                                                  ne
+                                                 /
+                                        *=/(1B.cX22Y22:elf_binder[L1])
+                                                  |
+                                                  N    skull.xb
+                                                  |
+                                       +----------+----------+
+                                       |                     |
+                                       *                     *
+                                       |                     |
+                                      ne                    nw    ribcage.xb
+                                       |                     |
+                              *=/(1X.cX18Y14:x86_host[L1])  *=/(1A.cX26Y14:amdgpu_kernel[L1])
+                                       \                     /
+                                        \                   /
+                                         nw               ne
+                                          \               /
+                                           \             /
+                                            \           /
+                                             \         /     spine.xb
+                                              \       /
+                                               \     /
+                                          *=/(1P.cX22Y08:parser_field[L1])
+                                                  |
+                                                  N    spine.xb
+                                                  |
+                                          *=/(1L.cX22Y04:lexer_field[L1])
+                                                  |
+                                                  N    spine.xb
+                                                  |
+                                          *=/(1C.cX22Y00:character_field[L1])
+                                                   \
+                                                    ne    spine.xb
+                                                     \
+                                                      *
+                                                       \
+                                  (1S.cX18Y-04^1:source_intake[L1])>*
+
+absorb 0_quseptit.rana
+absorb 0_zest_vm.rana
+absorb 1_quantum.rana
+absorb 2_chemical.rana
+absorb 3_micro.rana
+absorb 4_macro.rana
+absorb 5_thought.rana
+absorb 6_altered_state.rana
+absorb 7_zest.rana
+absorb spine.xb
+absorb skull.xb
+absorb ribcage.xb
+absorb photon_boundary.zc
+absorb source_intake.rana
+absorb character_field.rana
+absorb lexer_field.rana
+absorb parser_field.rana
+absorb x86_host.rana
+absorb amdgpu_kernel.rana
+absorb elf_binder.rana
+absorb boundary_binary.rana
+absorb sovereign_lexer.rana
+absorb sovereign_parser.rana
+absorb sovereign_codegen.rana
+absorb sovereign_runtime.rana
+absorb foreign_loom.rana
+absorb self_interpretation.rana
+

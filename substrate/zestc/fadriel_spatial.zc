@@ -1,0 +1,18 @@
+#!/home/rana/.local/bin/zestc
+
+                              *=/(1D.lX08Y08:dorsal_stream[L1])
+                                          |
+                                          N    skull.xb
+                                          |
+                              *=/(1P.lX08Y04:parietal_cortex[L1])
+                                          |
+                                          N
+                                          |
+                              *=/(1G.lX08Y00:grid_state[L1])
+
+absorb spatial_perception.rana
+absorb dorsal_stream.rana
+absorb parietal_cortex.rana
+absorb grid_state.rana
+absorb 0_quseptit.rana
+absorb skull.xb

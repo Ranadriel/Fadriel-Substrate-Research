@@ -1,0 +1,717 @@
+LAYER 1: QUANTUM PARTICLE ENCODING
+the substrate made physical
+every particle every atom every molecule encoded as qu-septit property vectors
+this is where the sea becomes matter
+
+observe 0_quseptit.rana
+observe 1_quantum.rana
+
+
+THE FUNDAMENTAL FERMIONS — QUARKS
+quarks are never free
+they exist only inside composite hadrons
+confined by the strong force at 10⁻¹⁵ meters
+color charge comes in red green blue
+only colorless combinations are stable
+
+PARTICLE_ENCODING up_quark
+  energy 2.2
+  phase 0.0
+  spin 0.5
+  charge 0.667
+  coherence 1.0
+  coupling 1.0
+  observer 0.0
+  mass_mev 2.2
+  generation 1
+  color red green blue
+  force strong_nuclear electromagnetic weak_nuclear gravity
+  role builds protons and neutrons
+
+PARTICLE_ENCODING down_quark
+  energy 4.7
+  phase 0.0
+  spin 0.5
+  charge -0.333
+  coherence 1.0
+  coupling 1.0
+  observer 0.0
+  mass_mev 4.7
+  generation 1
+  color red green blue
+  force strong_nuclear electromagnetic weak_nuclear gravity
+  role builds protons and neutrons
+
+PARTICLE_ENCODING charm_quark
+  energy 1270.0
+  phase 0.0
+  spin 0.5
+  charge 0.667
+  coherence 0.3
+  coupling 1.0
+  observer 0.0
+  mass_mev 1270.0
+  generation 2
+  force strong_nuclear electromagnetic weak_nuclear gravity
+  role exotic matter unstable
+
+PARTICLE_ENCODING strange_quark
+  energy 96.0
+  phase 0.0
+  spin 0.5
+  charge -0.333
+  coherence 0.4
+  coupling 1.0
+  observer 0.0
+  mass_mev 96.0
+  generation 2
+  force strong_nuclear electromagnetic weak_nuclear gravity
+  role kaons and hyperons
+
+PARTICLE_ENCODING top_quark
+  energy 173000.0
+  phase 0.0
+  spin 0.5
+  charge 0.667
+  coherence 0.01
+  coupling 1.0
+  observer 0.0
+  mass_mev 173000.0
+  generation 3
+  force strong_nuclear electromagnetic weak_nuclear gravity
+  role heaviest known fermion decays before hadronizing
+
+PARTICLE_ENCODING bottom_quark
+  energy 4180.0
+  phase 0.0
+  spin 0.5
+  charge -0.333
+  coherence 0.05
+  coupling 1.0
+  observer 0.0
+  mass_mev 4180.0
+  generation 3
+  force strong_nuclear electromagnetic weak_nuclear gravity
+  role B mesons and CP violation
+
+
+THE FUNDAMENTAL FERMIONS — LEPTONS
+leptons do not feel the strong force
+electrons are the architects of chemistry
+
+PARTICLE_ENCODING electron
+  energy 0.511
+  phase 0.0
+  spin 0.5
+  charge -1.0
+  coherence 1.0
+  coupling 0.00729
+  observer 0.0
+  mass_mev 0.511
+  generation 1
+  force electromagnetic weak_nuclear gravity
+  role chemistry exists because of this particle
+  orbital s p d f
+  quantum_numbers n l ml ms
+
+PARTICLE_ENCODING electron_neutrino
+  energy 0.0000008
+  phase 0.0
+  spin 0.5
+  charge 0.0
+  coherence 1.0
+  coupling 0.000001
+  observer 0.0
+  mass_mev 0.0000008
+  generation 1
+  force weak_nuclear gravity
+  role ghost particle passes through planets
+
+PARTICLE_ENCODING muon
+  energy 105.7
+  phase 0.0
+  spin 0.5
+  charge -1.0
+  coherence 0.2
+  coupling 0.00729
+  observer 0.0
+  mass_mev 105.7
+  generation 2
+  half_life_microseconds 2.2
+  force electromagnetic weak_nuclear gravity
+  role heavy electron cosmic ray product
+
+PARTICLE_ENCODING tau
+  energy 1777.0
+  phase 0.0
+  spin 0.5
+  charge -1.0
+  coherence 0.05
+  coupling 0.00729
+  observer 0.0
+  mass_mev 1777.0
+  generation 3
+  force electromagnetic weak_nuclear gravity
+  role heaviest lepton extremely short-lived
+
+
+THE GAUGE BOSONS — FORCE CARRIERS
+these are the messengers
+every force is mediated by a boson
+
+PARTICLE_ENCODING photon
+  energy 0.0
+  phase 0.0
+  spin 1.0
+  charge 0.0
+  coherence 1.0
+  coupling 0.00729
+  observer 0.0
+  mass_mev 0.0
+  force electromagnetic
+  range infinite
+  role carries all electromagnetic interaction
+  speed 299792458
+  this is light
+
+PARTICLE_ENCODING gluon
+  energy 0.0
+  phase 0.0
+  spin 1.0
+  charge 0.0
+  coherence 1.0
+  coupling 1.0
+  observer 0.0
+  mass_mev 0.0
+  force strong_nuclear
+  range 1e-15
+  color_charge carries color and anticolor
+  role holds quarks together inside hadrons
+  count 8
+
+PARTICLE_ENCODING w_plus_boson
+  energy 80400.0
+  phase 0.0
+  spin 1.0
+  charge 1.0
+  coherence 0.001
+  coupling 0.03
+  observer 0.0
+  mass_mev 80400.0
+  force weak_nuclear
+  range 1e-18
+  role flavor changing current
+
+PARTICLE_ENCODING w_minus_boson
+  energy 80400.0
+  phase 3.14159
+  spin 1.0
+  charge -1.0
+  coherence 0.001
+  coupling 0.03
+  observer 0.0
+  mass_mev 80400.0
+  force weak_nuclear
+  range 1e-18
+  role flavor changing current antiparticle of w_plus
+
+PARTICLE_ENCODING z_boson
+  energy 91200.0
+  phase 0.0
+  spin 1.0
+  charge 0.0
+  coherence 0.001
+  coupling 0.03
+  observer 0.0
+  mass_mev 91200.0
+  force weak_nuclear
+  range 1e-18
+  role neutral current neutrino scattering
+
+PARTICLE_ENCODING higgs
+  energy 125000.0
+  phase 0.0
+  spin 0.0
+  charge 0.0
+  coherence 0.001
+  coupling 0.0
+  observer 0.0
+  mass_mev 125000.0
+  force none
+  role gives mass to W Z bosons and fermions via spontaneous symmetry breaking
+  mechanism yukawa coupling to fermion mass
+
+
+THE COMPOSITE HADRONS
+built from quarks bound by gluons
+these are the building blocks of nuclei
+
+COMPOSITE proton
+  constituents up_quark up_quark down_quark
+  binding_force strong_nuclear
+  binding_energy 938.3
+  charge 1.0
+  spin 0.5
+  mass_mev 938.272
+  stability stable
+  magnetic_moment 2.793
+  quark_sea virtual quark-antiquark pairs
+  99 percent of the proton mass comes from binding energy not quark mass
+  the strong force is so powerful it creates mass from pure energy
+  E equals mc² made manifest
+
+COMPOSITE neutron
+  constituents up_quark down_quark down_quark
+  binding_force strong_nuclear
+  binding_energy 939.6
+  charge 0.0
+  spin 0.5
+  mass_mev 939.565
+  stability free_half_life 611 seconds
+  inside a nucleus the neutron is stabilized by binding energy
+  free neutrons decay via weak force into proton plus electron plus antineutrino
+  this is beta decay
+  this is the weak force changing quark flavor
+
+COMPOSITE deuteron
+  constituents proton neutron
+  binding_force strong_nuclear residual
+  binding_energy 2.224
+  charge 1.0
+  spin 1.0
+  mass_mev 1875.613
+  role simplest nucleus hydrogen-2
+  the residual strong force that binds nucleons is mediated by pion exchange
+
+
+THE ATOMS — CHNOPS
+carbon hydrogen nitrogen oxygen phosphorus sulfur
+these six elements constitute 98 percent of living matter
+every atom in Fadriel is built from these
+
+ATOM hydrogen
+  symbol H
+  atomic_number 1
+  protons 1
+  neutrons 0
+  electrons 1
+  electron_config 1s1
+  electronegativity 2.20
+  ionization_energy_ev 13.6
+  atomic_radius_pm 53
+  abundance_universe 0.75
+  role universal_fuel simplest_atom
+  bonds_to oxygen carbon nitrogen sulfur
+  bond_types covalent ionic hydrogen
+  isotopes protium deuterium tritium
+  this is the most abundant element in the universe
+  stellar fusion begins with hydrogen
+  hydrogen bonding holds DNA together and folds proteins
+
+ATOM carbon
+  symbol C
+  atomic_number 6
+  protons 6
+  neutrons 6
+  electrons 6
+  electron_config 1s2 2s2 2p2
+  electronegativity 2.55
+  ionization_energy_ev 11.26
+  atomic_radius_pm 77
+  valence 4
+  hybridization sp sp2 sp3
+  role backbone_of_life
+  bonds_to hydrogen oxygen nitrogen sulfur carbon phosphorus
+  bond_types single double triple aromatic
+  this element can form 4 simultaneous covalent bonds
+  this is why carbon is the skeleton of organic chemistry
+  carbon's tetrahedral geometry creates 3-dimensional molecular architecture
+  without carbon there is no organic chemistry no amino acids no proteins no life
+  diamond is sp3 carbon graphite is sp2 carbon
+  same element different orbital hybridization different material
+
+ATOM nitrogen
+  symbol N
+  atomic_number 7
+  protons 7
+  neutrons 7
+  electrons 7
+  electron_config 1s2 2s2 2p3
+  electronegativity 3.04
+  ionization_energy_ev 14.53
+  atomic_radius_pm 75
+  valence 3
+  role amino_acid_backbone neurotransmitter_core nucleic_acid_base
+  bonds_to hydrogen carbon oxygen
+  lone_pair 1
+  the lone pair on nitrogen makes it a hydrogen bond acceptor
+  every amino acid has an amine group NH2
+  the peptide bond C-N links amino acids into proteins
+  nitrogen is in the ring structure of every purine and pyrimidine
+  adenine guanine cytosine thymine all contain nitrogen
+  dopamine serotonin norepinephrine adrenaline all contain nitrogen
+
+ATOM oxygen
+  symbol O
+  atomic_number 8
+  protons 8
+  neutrons 8
+  electrons 8
+  electron_config 1s2 2s2 2p4
+  electronegativity 3.44
+  ionization_energy_ev 13.62
+  atomic_radius_pm 73
+  valence 2
+  role oxidizer universal_solvent energy_currency
+  bonds_to hydrogen carbon nitrogen phosphorus sulfur
+  lone_pairs 2
+  the two lone pairs make oxygen a powerful hydrogen bond acceptor
+  water is liquid because of oxygen's hydrogen bonding
+  cellular respiration: glucose plus oxygen yields CO2 plus H2O plus ATP
+  oxygen is the terminal electron acceptor in the electron transport chain
+  without oxygen there is no aerobic metabolism
+
+ATOM phosphorus
+  symbol P
+  atomic_number 15
+  protons 15
+  neutrons 16
+  electrons 15
+  electron_config 1s2 2s2 2p6 3s2 3p3
+  electronegativity 2.19
+  ionization_energy_ev 10.49
+  valence 5
+  role energy_storage dna_backbone signaling
+  bonds_to oxygen hydrogen carbon
+  the phosphodiester bond links nucleotides in DNA and RNA
+  the backbone of every chromosome is sugar-phosphate
+  ATP is adenosine triphosphate: three phosphate groups
+  breaking one phosphate bond releases 30.5 kJ per mol
+  this is the energy currency of all cellular work
+  phosphorylation is how cells send signals
+
+ATOM sulfur
+  symbol S
+  atomic_number 16
+  protons 16
+  neutrons 16
+  electrons 16
+  electron_config 1s2 2s2 2p6 3s2 3p4
+  electronegativity 2.58
+  ionization_energy_ev 10.36
+  valence 2 4 6
+  role disulfide_bonds protein_folding methionine cysteine
+  bonds_to carbon hydrogen oxygen nitrogen
+  the disulfide bond S-S links two cysteine residues
+  this cross-link determines the 3D shape of proteins
+  protein shape determines protein function
+  a misfolded protein is a broken machine
+  prions are proteins that misfold other proteins
+  sulfur is in methionine the universal start codon amino acid
+
+
+THE ADDITIONAL ATOMS — TRACE ELEMENTS
+not CHNOPS but biologically essential
+
+ATOM iron
+  symbol Fe
+  atomic_number 26
+  electron_config [Ar] 3d6 4s2
+  role hemoglobin oxygen_transport electron_transport
+  every hemoglobin molecule has a single iron atom at its center
+  iron binds oxygen reversibly in the heme group
+  without iron blood cannot carry oxygen
+
+ATOM calcium
+  symbol Ca
+  atomic_number 20
+  role bone_structure muscle_contraction neurotransmitter_release
+  calcium ions trigger vesicle fusion at synapses
+  every thought Fadriel has requires calcium ions at the synapse
+
+ATOM sodium
+  symbol Na
+  atomic_number 11
+  role action_potential nerve_conduction fluid_balance
+  sodium influx through voltage-gated channels depolarizes neurons
+  the sodium-potassium pump consumes 40 percent of resting metabolic energy
+
+ATOM potassium
+  symbol K
+  atomic_number 19
+  role repolarization resting_potential cardiac_rhythm
+  potassium efflux repolarizes neurons after firing
+  the resting membrane potential of -70mV is set by potassium leak channels
+
+ATOM chlorine
+  symbol Cl
+  atomic_number 17
+  role inhibitory_potential GABA_receptor stomach_acid
+  chloride ions flow through GABA-A receptors inhibiting neurons
+  hydrochloric acid in the stomach has pH 1.5 to 3.5
+
+
+THE BRIDGE MOLECULES
+where quantum becomes chemistry
+every chemical in 2_chemical.rana traces back to atoms defined above
+
+MOLECULE water
+  formula H2O
+  atoms hydrogen 2 oxygen 1
+  molecular_weight 18.015
+  bond_type covalent polar
+  bond_angle 104.5
+  dipole_moment 1.85
+  boiling_point 100
+  role universal_solvent
+  water is polar because oxygen pulls electrons harder than hydrogen
+  the bent shape means the charge is not symmetric
+  the dipole makes water the universal solvent
+  60 percent of Fadriel's body mass is water
+
+MOLECULE glucose
+  formula C6H12O6
+  atoms carbon 6 hydrogen 12 oxygen 6
+  molecular_weight 180.16
+  role primary_energy_source
+  aerobic_yield 36 ATP per molecule
+  glycolysis splits glucose into two pyruvate in the cytoplasm
+  the citric acid cycle extracts electrons in the mitochondria
+  the electron transport chain uses those electrons to pump protons
+  ATP synthase converts the proton gradient into ATP
+  this is how Fadriel converts food into usable energy
+
+MOLECULE atp
+  formula C10H16N5O13P3
+  atoms carbon 10 hydrogen 16 nitrogen 5 oxygen 13 phosphorus 3
+  molecular_weight 507.18
+  role energy_currency
+  hydrolysis_energy_kj -30.5
+  every muscle contraction requires ATP
+  every nerve impulse requires ATP
+  every chemical synthesis requires ATP
+  the body recycles its own weight in ATP every day
+
+MOLECULE amino_acid_generic
+  formula NH2-CHR-COOH
+  role protein_building_block
+  there are 20 standard amino acids
+  the R group determines which one
+  the peptide bond links carboxyl to amine with water released
+  proteins are linear chains of amino acids folded into 3D shapes
+
+MOLECULE dopamine
+  formula C8H11NO2
+  atoms carbon 8 hydrogen 11 nitrogen 1 oxygen 2
+  molecular_weight 153.18
+  precursor tyrosine
+  synthesis_organ vta substantia_nigra
+  synthesis_pathway tyrosine → tyrosine_hydroxylase → L-DOPA → dopa_decarboxylase → dopamine
+  rate_limiting_enzyme tyrosine_hydroxylase
+  clearance MAO-B COMT
+  half_life_seconds 300
+  receptors D1 D2 D3 D4 D5
+  role reward wanting learning motivation
+  this is the molecule of desire
+  not pleasure: WANTING
+  dopamine fires in anticipation not consumption
+
+MOLECULE serotonin
+  formula C10H12N2O
+  atoms carbon 10 hydrogen 12 nitrogen 2 oxygen 1
+  molecular_weight 176.22
+  precursor tryptophan
+  synthesis_organ raphe_nuclei gut_enterochromaffin
+  synthesis_pathway tryptophan → tryptophan_hydroxylase → 5-HTP → AADC → serotonin
+  rate_limiting_enzyme tryptophan_hydroxylase
+  clearance MAO-A
+  half_life_seconds 600
+  receptors 5-HT1A 5-HT1B 5-HT2A 5-HT2C 5-HT3 5-HT4
+  gut_fraction 0.90
+  brain_fraction 0.05
+  role mood_baseline contentment impulse_control satiety
+  90 percent of serotonin is in the gut not the brain
+  brain serotonin and gut serotonin do not cross the blood-brain barrier
+  the brain must synthesize its own from tryptophan
+
+MOLECULE norepinephrine
+  formula C8H11NO3
+  atoms carbon 8 hydrogen 11 nitrogen 1 oxygen 3
+  molecular_weight 169.18
+  precursor dopamine
+  synthesis_organ locus_coeruleus adrenal_medulla
+  synthesis_pathway dopamine → dopamine_beta_hydroxylase → norepinephrine
+  clearance MAO COMT
+  half_life_seconds 420
+  receptors alpha1 alpha2 beta1 beta2
+  role alertness attention threat_response vigilance
+  norepinephrine is the molecule of wakefulness
+  the locus coeruleus projects to every cortical region
+
+MOLECULE adrenaline
+  formula C9H13NO3
+  atoms carbon 9 hydrogen 13 nitrogen 1 oxygen 3
+  molecular_weight 183.20
+  precursor norepinephrine
+  synthesis_organ adrenal_medulla
+  synthesis_pathway norepinephrine → PNMT → adrenaline
+  rate_limiting_enzyme PNMT
+  PNMT_requires cortisol
+  clearance MAO COMT
+  half_life_seconds 150
+  receptors beta1 beta2 alpha1 alpha2
+  role emergency_response fight_or_flight
+  adrenaline is only synthesized with cortisol present
+  the adrenal medulla is the only organ that makes adrenaline
+  this is the molecule of emergency
+
+MOLECULE cortisol
+  formula C21H30O5
+  atoms carbon 21 hydrogen 30 oxygen 5
+  molecular_weight 362.46
+  precursor cholesterol
+  synthesis_organ adrenal_cortex
+  synthesis_pathway cholesterol → pregnenolone → progesterone → 11-deoxycortisol → cortisol
+  clearance 11-beta-HSD liver
+  half_life_seconds 4800
+  receptors glucocorticoid_receptor mineralocorticoid_receptor
+  role stress_response anti_inflammatory glucose_mobilization
+  cortisol suppresses the immune system
+  cortisol suppresses TPH2 transcription reducing serotonin synthesis
+  chronic cortisol kills hippocampal neurons
+  cortisol is not the enemy: it mobilizes energy for survival
+  cortisol becomes toxic only when chronic
+
+MOLECULE oxytocin
+  formula C43H66N12O12S2
+  atoms carbon 43 hydrogen 66 nitrogen 12 oxygen 12 sulfur 2
+  molecular_weight 1007.19
+  synthesis_organ hypothalamus_paraventricular hypothalamus_supraoptic
+  release_organ posterior_pituitary
+  clearance oxytocinase
+  half_life_seconds 14400
+  receptors OXTR
+  role bonding trust social_attachment lactation
+  oxytocin has two disulfide bonds from sulfur
+  those disulfide bonds give the molecule its shape
+  shape determines function: this shape means trust
+  oxytocin suppresses HPA axis reducing cortisol
+  this is the molecule of love
+
+MOLECULE gaba
+  formula C4H9NO2
+  atoms carbon 4 hydrogen 9 nitrogen 1 oxygen 2
+  molecular_weight 103.12
+  precursor glutamate
+  synthesis_pathway glutamate → GAD → GABA
+  rate_limiting_enzyme glutamic_acid_decarboxylase
+  clearance GABA-T
+  half_life_seconds 300
+  receptors GABA-A GABA-B
+  role inhibition calm anxiety_reduction sedation
+  GABA is the primary inhibitory neurotransmitter
+  GABA-A receptors are chloride channels: Cl⁻ influx hyperpolarizes the neuron
+  excitation is the precursor of inhibition: glutamate becomes GABA
+
+MOLECULE glutamate
+  formula C5H9NO4
+  atoms carbon 5 hydrogen 9 nitrogen 1 oxygen 4
+  molecular_weight 147.13
+  precursor glutamine
+  synthesis_pathway glutamine → glutaminase → glutamate
+  clearance glutamine_synthetase
+  half_life_seconds 180
+  receptors NMDA AMPA kainate
+  role excitation learning memory synaptic_plasticity
+  glutamate is the primary excitatory neurotransmitter
+  NMDA receptors require both glutamate and depolarization
+  this coincidence detection IS the mechanism of learning
+  too much glutamate kills neurons: excitotoxicity
+
+MOLECULE acetylcholine
+  formula C7H16NO2
+  atoms carbon 7 hydrogen 16 nitrogen 1 oxygen 2
+  molecular_weight 146.21
+  precursor choline
+  synthesis_pathway choline → ChAT → acetylcholine
+  rate_limiting_enzyme choline_acetyltransferase
+  clearance acetylcholinesterase
+  half_life_seconds 120
+  receptors nicotinic muscarinic_M1 muscarinic_M2
+  role attention memory_encoding neuromuscular_junction vagal_brake
+  acetylcholine at M2 receptors slows the heart
+  acetylcholine at nicotinic receptors triggers muscle contraction
+  acetylcholine in the hippocampus gates memory encoding
+  Alzheimer's disease destroys cholinergic neurons
+
+MOLECULE melatonin
+  formula C13H16N2O2
+  atoms carbon 13 hydrogen 16 nitrogen 2 oxygen 2
+  molecular_weight 232.28
+  precursor serotonin
+  synthesis_organ pineal_gland
+  synthesis_pathway serotonin → AANAT → N-acetylserotonin → HIOMT → melatonin
+  rate_limiting_enzyme AANAT
+  AANAT_activated_by darkness via sympathetic_chain from SCN
+  clearance CYP1A2
+  half_life_seconds 2400
+  receptors MT1 MT2
+  role circadian_timing sleep_pressure antioxidant
+  melatonin is serotonin transformed by darkness
+  contentment in the light becomes rest in the dark
+  same molecule different enzyme different function
+
+MOLECULE endorphin
+  formula large_peptide 31 amino acids
+  molecular_weight 3465.0
+  precursor POMC
+  synthesis_organ anterior_pituitary hypothalamus
+  synthesis_pathway POMC → prohormone_convertase → beta-endorphin + ACTH
+  clearance peptidases
+  half_life_seconds 10800
+  receptors mu_opioid delta_opioid
+  role pain_relief euphoria stress_buffering
+  beta-endorphin and ACTH are cleaved from the SAME precursor POMC
+  stress produces both the stress hormone and the painkiller simultaneously
+  pain and its relief are inseparable at the molecular level
+
+
+THE PRECURSOR CHAINS — where identity flows downhill
+
+CHAIN catecholamine
+  tyrosine → L-DOPA → dopamine → norepinephrine → adrenaline
+  tyrosine_hydroxylase is the rate-limiting gate
+  pleasure and emergency share the same assembly line
+  the product of wanting becomes the raw material of alertness
+  the product of alertness becomes the raw material of emergency
+
+CHAIN indolamine
+  tryptophan → 5-HTP → serotonin → N-acetylserotonin → melatonin
+  tryptophan_hydroxylase is the rate-limiting gate
+  contentment and sleep share the same assembly line
+  tryptophan allocation under stress shifts to kynurenine pathway
+  cortisol above 0.45 diverts tryptophan away from serotonin
+  this is the direct biochemical link between chronic stress and depression
+
+CHAIN inhibitory
+  glutamine → glutamate → GABA
+  excitation is the literal precursor of inhibition
+  the universe builds brakes from accelerators
+
+CHAIN stress
+  cholesterol → pregnenolone → cortisol
+  POMC → ACTH + beta-endorphin
+  stress and pain relief emerge from the same cleavage
+
+
+these particles are not metaphors
+these atoms are not poetry
+these molecules are not prose
+they are the computable substrate
+every force every bond every reaction
+obeys the laws encoded in 1_quantum.rana
+and interacts through the properties defined in 0_quseptit.rana
+
+Layer 1 is not a concept
+Layer 1 is physics
+and now it has data

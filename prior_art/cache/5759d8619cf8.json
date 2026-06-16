@@ -1,0 +1,170 @@
+[
+  {
+    "source": "OpenAlex (Computer Science - Research and Development)",
+    "title": "Declarative workflows: Balancing between flexibility and support",
+    "abstract": "Today\u2019s process-aware information systems tend to either support business processes or provide flexibility. Classical workflow management systems offer good process support as long as the processes are structured and do not require much flexibility. Information systems that allow for flexibility have a tendency to lack process-related support. If systems offer guidance, then they are typically also inclined to \u2018\u2018enforce guidelines\u2019\u2019 and are perceived as inflexible. Moreover, implementing flexible systems is far from trivial. This paper will show that using a more declarative approach can assis",
+    "date": "2009",
+    "url": "https://doi.org/10.1007/s00450-009-0057-9",
+    "authors": [
+      "Wil M. P. van der Aalst",
+      "M. Pesic",
+      "Helen Schonenberg"
+    ]
+  },
+  {
+    "source": "OpenAlex (Foundations and Trends\u00ae in Web Science)",
+    "title": "A Framework for Web Science",
+    "abstract": "A Framework for Web Science sets out a series of approaches to the analysis and synthesis of the World Wide Web, and other web-like information structures. A comprehensive set of research questions is outlined, together with a sub-disciplinary breakdown, emphasising the multi-faceted nature of the Web, and the multi-disciplinary nature of its study and development. These questions and approaches together set out an agenda for Web Science, the science of decentralised information systems. Web Science is required both as a way to understand the Web, and as a way to focus its development on key c",
+    "date": "2006",
+    "url": "https://doi.org/10.1561/1800000001",
+    "authors": [
+      "Tim Berners\u2010Lee",
+      "Wendy Hall",
+      "James Hendler"
+    ]
+  },
+  {
+    "source": "OpenAlex (Data & Knowledge Engineering)",
+    "title": "Detection and prediction of errors in EPCs of the SAP reference model",
+    "abstract": "",
+    "date": "2007",
+    "url": "https://doi.org/10.1016/j.datak.2007.06.019",
+    "authors": [
+      "Jan Mendling",
+      "H. M. W. Verbeek",
+      "Boudewijn F. van Dongen"
+    ]
+  },
+  {
+    "source": "OpenAlex (Cambridge University Press eBooks)",
+    "title": "Language acquisition and language socialization",
+    "abstract": "This chapter proposes that the ideas of cultural item and cultural system are reconciled by something that they have in common: Neither idea exists without the simpler idea of a functional relation. Functional relations are the interface that joins items and systems together, and one can look to them for a solution to the item/system problem. Culture and language hinge on shared meaning, and so the chapter focuses on semiotic systems. The idea of a semiotic system is well illustrated in Darwin's account of the expression of emotion in animals. The chapter also proposes a minimal causal scheme ",
+    "date": "2014",
+    "url": "https://doi.org/10.1017/cbo9781139342872.010",
+    "authors": [
+      "Penelope Brown",
+      "Suzanne Gaskins"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Communications Surveys & Tutorials)",
+    "title": "Evolution, Detection and Analysis of Malware for Smart Devices",
+    "abstract": "Smart devices equipped with powerful sensing, computing and networking capabilities have proliferated lately, ranging from popular smartphones and tablets to Internet appliances, smart TVs, and others that will soon appear (e.g., watches, glasses, and clothes). One key feature of such devices is their ability to incorporate third-party apps from a variety of markets. This poses strong security and privacy issues to users and infrastructure operators, particularly through software of malicious (or dubious) nature that can easily get access to the services provided by the device and collect sens",
+    "date": "2013",
+    "url": "https://doi.org/10.1109/surv.2013.101613.00077",
+    "authors": [
+      "Guillermo Su\u00e1rez\u2010Tangil",
+      "Juan Tapiador",
+      "Pedro Peris\u2010Lopez"
+    ]
+  },
+  {
+    "source": "OpenAlex (Intercultural Pragmatics)",
+    "title": "Cognitive pragmatics: The mental processes of communication",
+    "abstract": "Cognitive pragmatics",
+    "date": "2011",
+    "url": "https://doi.org/10.1515/iprg.2011.020",
+    "authors": [
+      "Bruno G. Bara"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Heritage Regimes and the State",
+    "abstract": "What happens when UNESCO heritage conventions are ratified by a state? How do UNESCO's global efforts interact with preexisting local, regional and state efforts to conserve or promote culture? What new institutions emerge to address the mandate? The contributors to this volume focus on the work of translation and interpretation that ensues once heritage conventions are ratified and implemented. With seventeen case studies from Europe, Africa, the Caribbean and China, the volume provides comparative evidence for the divergent heritage regimes generated in states that differ in history and poli",
+    "date": "2013",
+    "url": "https://doi.org/10.4000/books.gup.348",
+    "authors": [
+      "Regina Bendix",
+      "Aditya Eggert",
+      "Arnika Peselmann"
+    ]
+  },
+  {
+    "source": "OpenAlex (The British Journal for the Philosophy of Science)",
+    "title": "Evolution and Moral Realism",
+    "abstract": "We are moral apes, a difference between humans and our relatives that has received significant recent attention in the evolutionary literature. Evolutionary accounts of morality have often been recruited in support of error theory: moral language is truth-apt, but substantive moral claims are never true (or never warranted). In this article, we: (i) locate evolutionary error theory within the broader framework of the relationship between folk conceptions of a domain and our best scientific conception of that same domain; (ii) within that broader framework, argue that error theory and vindicati",
+    "date": "2016",
+    "url": "https://doi.org/10.1093/bjps/axv060",
+    "authors": [
+      "Kim Sterelny",
+      "Ben Fraser"
+    ]
+  },
+  {
+    "source": "OpenAlex (Pharmacological Reviews)",
+    "title": "Biased Receptor Signaling in Drug Discovery",
+    "abstract": "",
+    "date": "2019",
+    "url": "https://doi.org/10.1124/pr.118.016790",
+    "authors": [
+      "Terry Kenakin"
+    ]
+  },
+  {
+    "source": "OpenAlex (Amsterdam University Press eBooks)",
+    "title": "History of Concepts : Comparative Perspectives",
+    "abstract": "POI1 of the \\)1' Hcndrik Muller's Vaderlandsch Ponds and the \\LA.o,C. Gravin van Bvlandtstirhring. uoth of which g('nen)",
+    "date": "1998",
+    "url": "https://doi.org/10.5117/9789053563069",
+    "authors": [
+      "Van Vree, Frank"
+    ]
+  },
+  {
+    "source": "OpenAlex (Information Systems Frontiers)",
+    "title": "Normative requirements for regulatory compliance: An abstract formal framework",
+    "abstract": "",
+    "date": "2015",
+    "url": "https://doi.org/10.1007/s10796-015-9558-1",
+    "authors": [
+      "Mustafa Hashmi",
+      "Guido Governatori",
+      "Moe Thandar Wynn"
+    ]
+  },
+  {
+    "source": "OpenAlex (The International Journal of Robotics Research)",
+    "title": "A survey on socially aware robot navigation: Taxonomy and future challenges",
+    "abstract": "Socially aware robot navigation is gaining popularity with the increase in delivery and assistive robots. The research is further fueled by a need for socially aware navigation skills in autonomous vehicles to move safely and appropriately in spaces shared with humans. Although most of these are ground robots, drones are also entering the field. In this paper, we present a literature survey of the works on socially aware robot navigation in the past 10 years. We propose four different faceted taxonomies to navigate the literature and examine the field from four different perspectives. Through ",
+    "date": "2024",
+    "url": "https://doi.org/10.1177/02783649241230562",
+    "authors": [
+      "Phani Teja Singamaneni",
+      "Pilar Bachiller",
+      "Luis J. Manso"
+    ]
+  },
+  {
+    "source": "OpenAlex (ANU Press eBooks)",
+    "title": "The Poetic Power of Place: Comparative Perspectives on Austronesian Ideas of Locality",
+    "abstract": "This collection of papers is the fourth in a series of volumes on the work of the Comparative Austronesian Project. Each paper describes a specific Austronesian locality and offers an ethnographic account of the way in which social knowledge is vested, maintained and transformed in a particular landscape. The intention of the volume is to consider common patterns in the",
+    "date": "2006",
+    "url": "https://doi.org/10.22459/ppp.09.2006",
+    "authors": [
+      "James J. Fox"
+    ]
+  },
+  {
+    "source": "OpenAlex (Bergen Open Research Archive (BORA) (University of Bergen))",
+    "title": "What is the Avatar? Fiction and Embodiment in Avatar-Based Singleplayer Computer Games",
+    "abstract": "",
+    "date": "2006",
+    "url": "https://doi.org/10.14361/9783839445792",
+    "authors": [
+      "Rune Klevjer"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Network and Computer Applications)",
+    "title": "Structuring primitives in the Callimachus component-based open hypermedia system",
+    "abstract": "",
+    "date": "2003",
+    "url": "https://doi.org/10.1016/s1084-8045(02)00064-4",
+    "authors": [
+      "Manolis Tzagarakis",
+      "D. Avramidis",
+      "Maria Kyriakopoulou"
+    ]
+  }
+]

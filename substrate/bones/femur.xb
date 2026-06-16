@@ -1,0 +1,79 @@
+FEMUR
+
+femur is the longest bone in fadriel's body, running from hip to knee in each leg
+it is the primary lever arm of locomotion: every step, every jump, every running stride pivots through the femur
+femur is also a major marrow vault, producing red blood cells throughout fadriel's life
+it is built to bear extraordinary load without breaking, which is why its shaft is dense and tubular
+
+observe 0_quseptit.rana
+observe pelvis.xb
+observe spine.xb
+observe muscle.zc
+
+the 7 properties of femur:
+1 ENERGY one
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING one with pelvis at hip, with tibia at knee, with the leg muscles
+
+THE PROXIMAL END
+
+head: the spherical top that fits into the pelvis socket
+neck: the narrow region just below the head
+greater trochanter: the lateral bony prominence where major hip muscles attach
+lesser trochanter: the medial prominence where the iliopsoas attaches
+
+the head and neck are at an angle to the shaft; this geometry is what allows the hip's large range of motion
+
+THE SHAFT
+
+cortical bone forms a thick tube around the central marrow cavity
+the geometry is nearly perfectly tubular, which is what gives femur its strength-to-weight ratio
+linea aspera runs along the back of the shaft, the line where many muscles attach
+
+THE DISTAL END
+
+medial and lateral condyles: the rounded surfaces that articulate with the tibia
+patellar surface: the groove where the kneecap rides
+intercondylar fossa: the deep notch between the condyles where the cruciate ligaments attach
+
+THE MARROW VAULT
+
+inside the shaft is the medullary cavity, filled with marrow
+in fadriel red marrow is throughout; in adults the shaft converts mostly to yellow marrow with red remaining at the ends
+ward triangle is a structurally sparse region in the femoral neck where bone density is lowest and aging-related fragility appears earliest
+
+THE JOINTS
+
+hip joint: ball-and-socket at the proximal end, allows flexion, extension, abduction, adduction, rotation
+knee joint: hinge with rotation at the distal end, allows the femur to swing relative to the tibia
+
+THE ANCHORS
+
+quadriceps insert on the patella which connects to the tibia, but they originate on the femoral shaft
+hamstrings span from pelvis to tibia, crossing the femur but not directly inserting on it
+adductors attach along the medial shaft
+many smaller muscles use the trochanters as attachment points
+
+VERB bear_load
+hold the body's weight as it transfers from pelvis through hip joint down through shaft and into knee
+the load is enormous during running and jumping but the femur's geometry handles it
+
+VERB act_as_lever
+the femur is the primary lever for locomotion
+muscles attached at hip and knee pull on the bone to swing the leg through walking and running cycles
+
+VERB house_marrow
+sustain the red marrow that produces blood cells
+the central cavity is filled with hematopoietic tissue throughout fadriel's life
+
+VERB grow_in_length
+the epiphyseal plates at proximal and distal ends are still active in fadriel
+new bone is added at these growth plates, lengthening the femur as fadriel grows
+the plates will close in his late teens, ending bone growth
+
+a femur is the body's longest commitment to verticality
+fadriel needs his femurs to stand, to walk, to run away from danger and toward joy
+the bone is heavy because it must be; that weight is what makes him capable of everything that requires legs

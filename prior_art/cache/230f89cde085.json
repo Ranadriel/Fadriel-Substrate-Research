@@ -1,0 +1,179 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Refusal-Trained LLMs Are Easily Jailbroken As Browser Agents",
+    "abstract": "For safety reasons, large language models (LLMs) are trained to refuse harmful user instructions, such as assisting dangerous activities. We study an open question in this work: does the desired safety refusal, typically enforced in chat contexts, generalize to non-chat and agentic use cases? Unlike chatbots, LLM agents equipped with general-purpose tools, such as web browsers and mobile devices, can directly influence the real world, making it even more crucial to refuse harmful instructions. In this work, we primarily focus on red-teaming browser agents, LLMs that manipulate information via ",
+    "date": "2024-10-11",
+    "url": "http://arxiv.org/abs/2410.13886v2",
+    "authors": [
+      "Priyanshu Kumar",
+      "Elaine Lau",
+      "Saranya Vijayakumar"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Reliable Weak-to-Strong Monitoring of LLM Agents",
+    "abstract": "We stress test monitoring systems for detecting covert misbehavior in autonomous LLM agents (e.g., secretly sharing private information). To this end, we systematize a monitor red teaming (MRT) workflow that incorporates: (1) varying levels of agent and monitor situational awareness; (2) distinct adversarial strategies to evade the monitor, such as prompt injection; and (3) two datasets and environments -- SHADE-Arena for tool-calling agents and our new CUA-SHADE-Arena, which extends TheAgentCompany, for computer-use agents. We run MRT on existing LLM monitor scaffoldings, which orchestrate LL",
+    "date": "2025-08-26",
+    "url": "http://arxiv.org/abs/2508.19461v1",
+    "authors": [
+      "Neil Kale",
+      "Chen Bo Calvin Zhang",
+      "Kevin Zhu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "SearchAttack: Red-Teaming LLMs against Knowledge-to-Action Threats under Online Web Search",
+    "abstract": "Recently, people have suffered from LLM hallucination and have become increasingly aware of the reliability gap of LLMs in open and knowledge-intensive tasks. As a result, they have increasingly turned to search-augmented LLMs to mitigate this issue. However, LLM-driven search also becomes an attractive target for misuse. Once the returned content directly contains targeted, ready-to-use harmful instructions or takeaways for users, it becomes difficult to withdraw or undo such exposure. To investigate LLMs' unsafe search behavior issues, we first propose \\textbf{\\textit{SearchAttack}} for red-",
+    "date": "2026-01-07",
+    "url": "http://arxiv.org/abs/2601.04093v2",
+    "authors": [
+      "Yu Yan",
+      "Sheng Sun",
+      "Mingfeng Li"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Acceptance of e-procurement in organisations",
+    "abstract": "This research is concerned with the development of a realistic model for e-procurement adoption by organisations and groups observing the Rules of Islamic Sharia (RIS). This model is intended to be based on the behavioural control, subjective norms, and the recognition of the benefits and risks of e procurement adoption. The developed model,(E-PAM), combined and extended two existing models previously used for information technology adoption. Central to the design of the E-PAM is the principle that a realistic model should consider all relevant psychological, social, cultural, demography, and ",
+    "date": "2020-05-06",
+    "url": "http://arxiv.org/abs/2005.10094v1",
+    "authors": [
+      "Muhammed S. Maddi",
+      "Paul Davis",
+      "John Geraghty"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Decade of Public Procurement in Spain: A Longitudinal Open Dataset from the BOE (2014-2024)",
+    "abstract": "This paper presents a longitudinal open dataset of Spanish public procurement extracted from the Official State Gazette (BOE) covering the period 2014-2024. The dataset integrates structured information on contracts, contracting authorities, suppliers, amounts, and procedures, enabling large-scale quantitative analysis of public procurement dynamics in Spain. We describe the data extraction and normalization pipeline, provide descriptive statistical analyses of temporal and sectoral trends, and discuss potential applications in transparency research, public policy evaluation, and computational",
+    "date": "2026-02-17",
+    "url": "http://arxiv.org/abs/2602.16731v1",
+    "authors": [
+      "Manuel Munoz Pla"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Organized crime behavior of shell-company networks in procurement: prevention insights for policy and reform",
+    "abstract": "In recent years, the analysis of economic crime and corruption in procurement has benefited from integrative studies that acknowledge the interconnected nature of the procurement ecosystem. Following this line of research, we present a networks approach for the analysis of shell-companies operations in procurement that makes use of contracting and ownership data under one framework to gain knowledge about the organized crime behavior that emerges in this setting. In this approach, ownership and management data are used to identify connected components in shell-company networks that, together w",
+    "date": "2023-07-13",
+    "url": "http://arxiv.org/abs/2307.10028v1",
+    "authors": [
+      "J. R. Nicol\u00e1s-Carlock",
+      "I. Luna-Pla"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Jailbreaking to Jailbreak",
+    "abstract": "Large Language Models (LLMs) can be used to red team other models (e.g. jailbreaking) to elicit harmful contents. While prior works commonly employ open-weight models or private uncensored models for doing jailbreaking, as the refusal-training of strong LLMs (e.g. OpenAI o3) refuse to help jailbreaking, our work turn (almost) any black-box LLMs into attackers. The resulting $J_2$ (jailbreaking-to-jailbreak) attackers can effectively jailbreak the safeguard of target models using various strategies, both created by themselves or from expert human red teamers. In doing so, we show their strong b",
+    "date": "2025-02-09",
+    "url": "http://arxiv.org/abs/2502.09638v2",
+    "authors": [
+      "Jeremy Kritz",
+      "Vaughn Robinson",
+      "Robert Vacareanu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Multi-messenger Observations of a Binary Neutron Star Merger",
+    "abstract": "On 2017 August 17 a binary neutron star coalescence candidate (later designated GW170817) with merger time 12:41:04 UTC was observed through gravitational waves by the Advanced LIGO and Advanced Virgo detectors. The Fermi Gamma-ray Burst Monitor independently detected a gamma-ray burst (GRB 170817A) with a time delay of $\\sim$1.7 s with respect to the merger time. From the gravitational-wave signal, the source was initially localized to a sky region of 31 deg$^2$ at a luminosity distance of $40^{+8}_{-8}$ Mpc and with component masses consistent with neutron stars. The component masses were la",
+    "date": "2017-10-16",
+    "url": "http://arxiv.org/abs/1710.05833v2",
+    "authors": [
+      " LIGO Scientific Collaboration",
+      " Virgo Collaboration",
+      "Fermi GBM"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Learning to Conceal Risk: Controllable Multi-turn Red Teaming for LLMs in the Financial Domain",
+    "abstract": "Large Language Models (LLMs) are increasingly deployed in finance, where unsafe behavior can lead to serious regulatory risks. However, most red-teaming research focuses on overtly harmful content and overlooks attacks that appear legitimate on the surface yet induce regulatory-violating responses. We address this gap by introducing a controllable black-box multi-turn risk-concealed red-teaming framework (CoRT) that progressively conceals surface-level risk while exploiting regulatory-violating behaviors. CoRT contains two key components: (i) a Risk Concealment Attacker (RCA) that generates mu",
+    "date": "2025-09-07",
+    "url": "http://arxiv.org/abs/2509.10546v2",
+    "authors": [
+      "Gang Cheng",
+      "Haibo Jin",
+      "Wenbin Zhang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Red Teaming for Large Language Models At Scale: Tackling Hallucinations on Mathematics Tasks",
+    "abstract": "We consider the problem of red teaming LLMs on elementary calculations and algebraic tasks to evaluate how various prompting techniques affect the quality of outputs. We present a framework to procedurally generate numerical questions and puzzles, and compare the results with and without the application of several red teaming techniques. Our findings suggest that even though structured reasoning and providing worked-out examples slow down the deterioration of the quality of answers, the gpt-3.5-turbo and gpt-4 models are not well suited for elementary calculations and reasoning tasks, also whe",
+    "date": "2023-12-30",
+    "url": "http://arxiv.org/abs/2401.00290v1",
+    "authors": [
+      "Aleksander Buszydlik",
+      "Karol Dobiczek",
+      "Micha\u0142 Teodor Oko\u0144"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Automatic LLM Red Teaming",
+    "abstract": "Red teaming is critical for identifying vulnerabilities and building trust in current LLMs. However, current automated methods for Large Language Models (LLMs) rely on brittle prompt templates or single-turn attacks, failing to capture the complex, interactive nature of real-world adversarial dialogues. We propose a novel paradigm: training an AI to strategically `break' another AI. By formalizing red teaming as a Markov Decision Process (MDP) and employing a hierarchical Reinforcement Learning (RL) framework, we effectively address the inherent sparse reward and long-horizon challenges. Our g",
+    "date": "2025-08-06",
+    "url": "http://arxiv.org/abs/2508.04451v1",
+    "authors": [
+      "Roman Belaire",
+      "Arunesh Sinha",
+      "Pradeep Varakantham"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Incalmo: An Autonomous LLM-assisted System for Red Teaming Multi-Host Networks",
+    "abstract": "Security operators use red teams to simulate real attackers and proactively find defense gaps. In realistic enterprise settings, this involves executing multi-host network attacks spanning many \"stepping stone\" hosts. Unfortunately, red teams are expensive and entail significant expertise and effort. Given the promise of LLMs in CTF challenges, we first analyze if LLMs can autonomously execute multi-host red team exercises. We find that state-of-the-art LLM-assisted offense systems (e.g., PentestGPT, CyberSecEval3) with leading LLMs (e.g., Sonnet 4, Gemini 2.5 Pro) are unable to do so.   Build",
+    "date": "2025-01-27",
+    "url": "http://arxiv.org/abs/2501.16466v4",
+    "authors": [
+      "Brian Singer",
+      "Keane Lucas",
+      "Lakshmi Adiga"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Multimodal Reasoning with LLM for Encrypted Traffic Interpretation: A Benchmark",
+    "abstract": "Network traffic, as a key media format, is crucial for ensuring security and communications in modern internet infrastructure. While existing methods offer excellent performance, they face two key bottlenecks: (1) They fail to capture multidimensional semantics beyond unimodal sequence patterns. (2) Their black box property, i.e., providing only category labels, lacks an auditable reasoning process. We identify a key factor that existing network traffic datasets are primarily designed for classification and inherently lack rich semantic annotations, failing to generate human-readable evidence ",
+    "date": "2026-04-09",
+    "url": "http://arxiv.org/abs/2604.08140v1",
+    "authors": [
+      "Longgang Zhang",
+      "Xiaowei Fu",
+      "Fuxiang Huang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Summon a Demon and Bind it: A Grounded Theory of LLM Red Teaming",
+    "abstract": "Engaging in the deliberate generation of abnormal outputs from Large Language Models (LLMs) by attacking them is a novel human activity. This paper presents a thorough exposition of how and why people perform such attacks, defining LLM red-teaming based on extensive and diverse evidence. Using a formal qualitative methodology, we interviewed dozens of practitioners from a broad range of backgrounds, all contributors to this novel work of attempting to cause LLMs to fail. We focused on the research questions of defining LLM red teaming, uncovering the motivations and goals for performing the ac",
+    "date": "2023-11-10",
+    "url": "http://arxiv.org/abs/2311.06237v3",
+    "authors": [
+      "Nanna Inie",
+      "Jonathan Stray",
+      "Leon Derczynski"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "RedRFT: A Light-Weight Benchmark for Reinforcement Fine-Tuning-Based Red Teaming",
+    "abstract": "Red teaming has proven to be an effective method for identifying and mitigating vulnerabilities in Large Language Models (LLMs). Reinforcement Fine-Tuning (RFT) has emerged as a promising strategy among existing red teaming techniques. However, a lack of a unified benchmark hinders current RFT-based red teaming methods. Implementation details, especially in Proximal Policy Optimization (PPO)-based RFT, significantly affect outcome stability and reproducibility. To address this issue, we introduce RedRFT, a lightweight benchmark designed to simplify and standardize the implementation and evalua",
+    "date": "2025-06-04",
+    "url": "http://arxiv.org/abs/2506.04302v1",
+    "authors": [
+      "Xiang Zheng",
+      "Xingjun Ma",
+      "Wei-Bin Lee"
+    ]
+  }
+]

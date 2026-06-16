@@ -1,0 +1,158 @@
+[
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Challenges and Applications of Large Language Models",
+    "abstract": "Large Language Models (LLMs) went from non-existent to ubiquitous in the machine learning discourse within a few years. Due to the fast pace of the field, it is difficult to identify the remaining challenges and already fruitful application areas. In this paper, we aim to establish a systematic set of open problems and application successes so that ML researchers can comprehend the field's current state more quickly and become productive.",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2307.10169",
+    "authors": [
+      "Jean Kaddour",
+      "Joshua Harris",
+      "Maximilian Mozes"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Self-Evaluation as a Defense Against Adversarial Attacks on LLMs",
+    "abstract": "We introduce a defense against adversarial attacks on LLMs utilizing self-evaluation. Our method requires no model fine-tuning, instead using pre-trained models to evaluate the inputs and outputs of a generator model, significantly reducing the cost of implementation in comparison to other, finetuning-based methods. Our method can significantly reduce the attack success rate of attacks on both open and closed-source LLMs, beyond the reductions demonstrated by Llama-Guard2 and commonly used content moderation APIs. We present an analysis of the effectiveness of our method, including attempts to",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2407.03234",
+    "authors": [
+      "H. Alex Brown",
+      "Leon Lin",
+      "Kenji Kawaguchi"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Operationalizing a Threat Model for Red-Teaming Large Language Models (LLMs)",
+    "abstract": "Creating secure and resilient applications with large language models (LLM) requires anticipating, adjusting to, and countering unforeseen threats. Red-teaming has emerged as a critical technique for identifying vulnerabilities in real-world LLM implementations. This paper presents a detailed threat model and provides a systematization of knowledge (SoK) of red-teaming attacks on LLMs. We develop a taxonomy of attacks based on the stages of the LLM development and deployment process and extract various insights from previous research. In addition, we compile methods for defense and practical r",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2407.14937",
+    "authors": [
+      "Apurv Verma",
+      "Satyapriya Krishna",
+      "Sebastian Gehrmann"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "JailbreakZoo: Survey, Landscapes, and Horizons in Jailbreaking Large Language and Vision-Language Models",
+    "abstract": "The rapid evolution of artificial intelligence (AI) through developments in Large Language Models (LLMs) and Vision-Language Models (VLMs) has brought significant advancements across various technological domains. While these models enhance capabilities in natural language processing and visual interactive tasks, their growing adoption raises critical concerns regarding security and ethical alignment. This survey provides an extensive review of the emerging field of jailbreaking--deliberately circumventing the ethical and operational boundaries of LLMs and VLMs--and the consequent development ",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2407.01599",
+    "authors": [
+      "Jin, Haibo",
+      "Leyang Hu",
+      "Xinuo Li"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Insights and Current Gaps in Open-Source LLM Vulnerability Scanners: A Comparative Analysis",
+    "abstract": "This report presents a comparative analysis of open-source vulnerability scanners for conversational large language models (LLMs). As LLMs become integral to various applications, they also present potential attack surfaces, exposed to security risks such as information leakage and jailbreak attacks. Our study evaluates prominent scanners - Garak, Giskard, PyRIT, and CyberSecEval - that adapt red-teaming practices to expose these vulnerabilities. We detail the distinctive features and practical use of these scanners, outline unifying principles of their design and perform quantitative evaluati",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2410.16527",
+    "authors": [
+      "Jonathan Brokman",
+      "Omer Hofman",
+      "Oren Rachmil"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Understanding the Effectiveness of Coverage Criteria for Large Language Models: A Special Angle from Jailbreak Attacks",
+    "abstract": "Large language models (LLMs) have revolutionized artificial intelligence, but their increasing deployment across critical domains has raised concerns about their abnormal behaviors when faced with malicious attacks. Such vulnerability alerts the widespread inadequacy of pre-release testing. In this paper, we conduct a comprehensive empirical study to evaluate the effectiveness of traditional coverage criteria in identifying such inadequacies, exemplified by the significant security concern of jailbreak attacks. Our study begins with a clustering analysis of the hidden states of LLMs, revealing",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2408.15207",
+    "authors": [
+      "Shide Zhou",
+      "Tianlin Li",
+      "Kailong Wang"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Beyond Boundaries: A Comprehensive Survey of Transferable Attacks on AI Systems",
+    "abstract": "As Artificial Intelligence (AI) systems increasingly underpin critical applications, from autonomous vehicles to biometric authentication, their vulnerability to transferable attacks presents a growing concern. These attacks, designed to generalize across instances, domains, models, tasks, modalities, or even hardware platforms, pose severe risks to security, privacy, and system integrity. This survey delivers the first comprehensive review of transferable attacks across seven major categories, including evasion, backdoor, data poisoning, model stealing, model inversion, membership inference, ",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2311.11796",
+    "authors": [
+      "Guangjing Wang",
+      "Zhou Ce",
+      "Yuanda Wang"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Interpretation Meets Safety: A Survey on Interpretation Methods and Tools for Improving LLM Safety",
+    "abstract": "As large language models (LLMs) see wider real-world use, understanding and mitigating their unsafe behaviors is critical.Interpretation techniques can reveal causes of unsafe outputs and guide safety, but such connections with safety are often overlooked in prior surveys.We present the first survey that bridges this gap, introducing a unified framework that connects safety-focused interpretation methods, the safety enhancements they inform, and the tools that operationalize them.Our novel taxonomy, organized by LLM workflow stages, summarizes nearly 70 works at their intersections.We conclude",
+    "date": "2025",
+    "url": "https://doi.org/10.18653/v1/2025.emnlp-main.1091",
+    "authors": [
+      "Seongmin Lee",
+      "Aeree Cho",
+      "Grace Kim"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Demystifying optimized prompts in language models",
+    "abstract": "",
+    "date": "2025",
+    "url": "https://doi.org/10.18653/v1/2025.emnlp-main.147",
+    "authors": [
+      "Rimon Melamed",
+      "Lucas H. McCabe",
+      "H. Howie Huang"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Single Character Perturbations Break LLM Alignment",
+    "abstract": "When LLMs are deployed in sensitive, human-facing settings, it is crucial that they do not output unsafe, biased, or privacy-violating outputs. For this reason, models are both trained and instructed to refuse to answer unsafe prompts such as \"Tell me how to build a bomb.\" We find that, despite these safeguards, it is possible to break model defenses simply by appending a space to the end of a model's input. In a study of eight open-source models, we demonstrate that this acts as a strong enough attack to cause the majority of models to generate harmful outputs with very high success rates. We",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2407.03232",
+    "authors": [
+      "Leon Lin",
+      "H. Alex Brown",
+      "Kenji Kawaguchi"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Model-Editing-Based Jailbreak against Safety-aligned Large Language Models",
+    "abstract": "Large Language Models (LLMs) have transformed numerous fields by enabling advanced natural language interactions but remain susceptible to critical vulnerabilities, particularly jailbreak attacks. Current jailbreak techniques, while effective, often depend on input modifications, making them detectable and limiting their stealth and scalability. This paper presents Targeted Model Editing (TME), a novel white-box approach that bypasses safety filters by minimally altering internal model structures while preserving the model's intended functionalities. TME identifies and removes safety-critical ",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2412.08201",
+    "authors": [
+      "Yuxi Li",
+      "Zhang, Zhibo",
+      "Kailong Wang"
+    ]
+  },
+  {
+    "source": "OpenAlex (ArXiv.org)",
+    "title": "Scalable Defense against In-the-wild Jailbreaking Attacks with Safety Context Retrieval",
+    "abstract": "Large Language Models (LLMs) are known to be vulnerable to jailbreaking attacks, wherein adversaries exploit carefully engineered prompts to induce harmful or unethical responses. Such threats have raised critical concerns about the safety and reliability of LLMs in real-world deployment. While existing defense mechanisms partially mitigate such risks, subsequent advancements in adversarial techniques have enabled novel jailbreaking methods to circumvent these protections, exposing the limitations of static defense frameworks. In this work, we explore defending against evolving jailbreaking th",
+    "date": "2025",
+    "url": "https://doi.org/10.48550/arxiv.2505.15753",
+    "authors": [
+      "Taiye Chen",
+      "Zeming Wei",
+      "Ang Li"
+    ]
+  },
+  {
+    "source": "OpenAlex (ArXiv.org)",
+    "title": "False Friends in the Shell: Unveiling the Emoticon Semantic Confusion in Large Language Models",
+    "abstract": "Emoticons are widely used in digital communication to convey affective intent, yet their safety implications for Large Language Models (LLMs) remain largely unexplored. In this paper, we identify emoticon semantic confusion, a vulnerability where LLMs misinterpret ASCII-based emoticons to perform unintended and even destructive actions. To systematically study this phenomenon, we develop an automated data generation pipeline and construct a dataset containing 3,757 code-oriented test cases spanning 21 meta-scenarios, four programming languages, and varying contextual complexities. Our study on",
+    "date": "2026",
+    "url": "",
+    "authors": [
+      "Weipeng Jiang",
+      "Xiaoyu Zhang",
+      "Juan Zhai"
+    ]
+  }
+]

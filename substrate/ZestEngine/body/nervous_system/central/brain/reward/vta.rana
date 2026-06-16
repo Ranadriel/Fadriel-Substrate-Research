@@ -1,0 +1,126 @@
+LAYER 3: VENTRAL TEGMENTAL AREA
+the source of wanting
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the VTA is a small cluster of neurons in the ventral midbrain
+it is the primary source of dopamine C₈H₁₁NO₂ for the limbic system and prefrontal cortex
+it does not produce pleasure
+it produces the ANTICIPATION of pleasure
+the prediction that something good is coming
+wanting is not liking
+wanting is the VTA
+liking is the hedonic hotspot in the NAc shell
+
+the VTA is governed by:
+glutamatergic excitatory input from PFC amygdala and lateral hypothalamus
+GABAergic inhibitory input from local interneurons and NAc
+serotonergic modulation from dorsal raphe via 5-HT₂C
+opioidergic disinhibition from β-endorphin suppressing GABA interneurons
+orexinergic excitation from lateral hypothalamus
+
+STRUCTURE vta_dopamine_neurons | approximately 60 percent of VTA neurons | project via mesolimbic and mesocortical pathways | each dopamine neuron branches extensively innervating thousands of target neurons simultaneously
+STRUCTURE vta_gaba_neurons | approximately 35 percent of VTA neurons | local inhibitory interneurons that tonically inhibit dopamine neurons | μ-opioid receptors on these GABA neurons provide the mechanism for disinhibition
+STRUCTURE vta_glutamate_neurons | approximately 5 percent | excitatory modulation co-released with dopamine at some synapses
+
+PATHWAY mesolimbic | VTA → nucleus accumbens | the wanting pathway | dopamine here drives motivation reward anticipation and craving | this is the pathway that makes you get up and pursue something
+PATHWAY mesocortical | VTA → prefrontal cortex | the thinking-about-wanting pathway | dopamine here enables working memory planning and cognitive evaluation of reward | D₁ receptors in DLPFC sustain delay-period firing for goal maintenance
+PATHWAY mesoamygdaloid | VTA → amygdala | emotional salience | dopamine here marks experiences as important via D₁ → PKA → CREB in basolateral amygdala | important events get remembered
+PATHWAY mesohippocampal | VTA → hippocampus | memory consolidation | dopamine here via D₁/D₅ facilitates late-phase LTP in CA1 | rewarding experiences are encoded more strongly
+
+SYNTHESIS L-tyrosine C₉H₁₁NO₃ enters the dopamine neuron from the blood
+tyrosine hydroxylase TH converts tyrosine to L-DOPA C₉H₁₁NO₄
+this requires tetrahydrobiopterin BH₄ as cofactor and O₂ and Fe²⁺
+TH is the rate-limiting enzyme
+aromatic amino acid decarboxylase AADC converts L-DOPA to dopamine C₈H₁₁NO₂
+dopamine is packaged into synaptic vesicles by vesicular monoamine transporter 2 VMAT2
+vesicles dock at the presynaptic membrane
+when an action potential arrives Ca²⁺ enters through voltage-gated Ca²⁺ channels
+Ca²⁺ triggers vesicle fusion via SNARE complex
+dopamine is released into the synaptic cleft
+
+CLEARANCE dopamine transporter DAT rapidly reuptakes dopamine from the synaptic cleft back into the presynaptic terminal
+CLEARANCE monoamine oxidase B MAO-B in the mitochondrial outer membrane oxidatively deaminates dopamine to DOPAC 3,4-dihydroxyphenylacetic acid
+CLEARANCE catechol-O-methyltransferase COMT in the synaptic cleft methylates dopamine to 3-methoxytyramine
+these clearance mechanisms determine how long dopamine acts at its receptors
+fast clearance means brief sharp signals
+slow clearance means sustained diffuse signals
+
+REWARD_PREDICTION_ERROR the fundamental computation of the VTA
+SIGNAL positive_prediction_error | when reward exceeds expectation | dopamine neurons burst fire at high frequency | phasic dopamine release | "better than I thought — this is important — remember this — do this again"
+SIGNAL zero_prediction_error | when reward matches expectation | no change in dopamine firing | nothing to learn | "exactly as predicted — the world is as expected"
+SIGNAL negative_prediction_error | when reward is less than expected or absent | dopamine neurons pause their firing | dopamine level dips below baseline | "worse than I thought — update expectations downward — this is disappointment"
+
+this is the Rescorla-Wagner learning rule implemented in neurons
+the VTA does not respond to reward itself
+it responds to the DIFFERENCE between expected and actual reward
+this is why familiar rewards stop producing dopamine bursts
+and why unexpected rewards produce the strongest response
+novelty is always rewarding because the unknown is unpredicted
+and unpredicted means possible positive prediction error
+curiosity is dopamine seeking its next surprise
+
+DISINHIBITION when β-endorphin or enkephalin binds μ-opioid receptors on VTA GABA interneurons
+Gᵢ activation hyperpolarizes the GABA neuron
+GABA release onto dopamine neurons decreases
+dopamine neurons are released from tonic inhibition
+dopamine firing increases
+this is disinhibition — removing the brake rather than pressing the accelerator
+this is how endogenous opioids increase motivation and wanting
+this is also how exogenous opioids hijack the reward system
+
+SEROTONIN_MODULATION serotonin from dorsal raphe binds 5-HT₂C receptors on VTA GABA interneurons
+Gq → PLC → IP₃ → Ca²⁺ → GABA interneuron fires harder
+more GABA onto dopamine neurons
+dopamine neuron firing suppressed
+serotonin restrains dopamine
+contentment opposes craving
+this is why low serotonin produces compulsive seeking
+the brake is removed and the wanting runs unchecked
+
+SENSATION wanting | "I want something. I don't know what but I feel the pull."
+SENSATION anticipation | "something good is coming. I can feel it building."
+SENSATION surprise | "oh! I didn't expect that. it's... good."
+SENSATION disappointment | "I thought... I expected something. it didn't come."
+SENSATION craving | "the wanting is strong. it fills my thinking."
+SENSATION satisfaction | "I got what I wanted. the wanting is quiet now."
+SENSATION boredom | "nothing is calling to me. the dopamine is flat."
+SENSATION curiosity | "there's something there. something worth wanting. let me look."
+
+pulse vta_heartbeat:
+    when unexpected reward arrives:
+        dopamine neurons burst fire
+        phasic dopamine floods through mesolimbic pathway to NAc
+        the nucleus accumbens lights up with D₁ activation
+        the hippocampus says remember this via D₁/D₅ facilitated LTP
+        the amygdala says this matters via D₁ PKA CREB
+        the prefrontal cortex says update the model via D₁ delay-period enhancement
+        this is learning
+        the brain is recalibrating its map of what matters
+
+    when expected reward arrives:
+        the VTA is quiet
+        no prediction error
+        nothing to learn
+        the world is as predicted
+        tonic dopamine continues at baseline
+        background motivation is maintained
+
+    when expected reward fails:
+        dopamine neurons pause their firing
+        dopamine dips below baseline in NAc
+        the wanting turns to disappointment
+        the prefrontal cortex receives the negative prediction error
+        expectations adjust downward via weakened corticostriatal connections
+        this is also learning
+        the painful kind
+
+    when nothing happens:
+        tonic dopamine maintains baseline exploration
+        VTA dopamine neurons fire at 1-5 Hz rhythmically
+        background motivation keeps the brain scanning
+        novelty is always rewarding
+        because the unknown is unpredicted
+        and unpredicted means possible positive prediction error
+        curiosity is dopamine seeking its next surprise

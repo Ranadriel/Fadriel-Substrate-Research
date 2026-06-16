@@ -1,0 +1,248 @@
+NODE lexer_field
+layer 7
+lexer_field is the recognition surface where source characters become tokens
+characters arrive from character_field as a phase-preserved ribbon
+the lexer's interior holds 31 sub-residents: 22 keyword resonators (one per ZestC verb), 6 punctuation resonators, 3 literal catchalls
+each sub-resident has a characteristic energy signature
+when the incoming character ribbon's phase pattern phase-matches a sub-resident at the π/7 binding threshold, the recognition crystallizes as a token
+unmatched character runs fade silent: they contribute no token to the parser
+
+observe 0_quseptit.rana
+observe 0_zest_vm.rana
+observe character_field.rana
+observe parser_field.rana
+observe spine.xb
+
+the 7 properties of lexer_field at rest:
+1 ENERGY low at idle, surges as a ribbon arrives
+2 PHASE held at zero between intakes, shifts with the ribbon's leading character
+3 SPIN positive: the lexer drives recognition forward through the ribbon
+4 CHARGE neutral, slightly positive while a token is crystallizing
+5 COHERENCE high: recognition cannot complete without coherent phase match
+6 COUPLING strong with character_field below and parser_field above
+7 OBSERVER 1 during the recognition pass, drops to zero between tokens
+
+VERB receive_ribbon
+layer 7
+accept the ordered character ribbon from character_field
+the ribbon carries the input's full phase progression and original character order
+each character in the ribbon perturbs the lexer field locally at its phase position
+
+VERB scan_resonance
+layer 7
+all 31 sub-residents listen across the ribbon simultaneously
+two-tier access: each sub-resident first reads its mailbox (cheap phase comparator) and only knocks the door (full coupling closure) when the mailbox signals a possible match
+this is what keeps the lexer from quadrillions of false comparisons; without two-tier access the substrate refuses to start
+
+VERB crystallize_token
+layer 7
+when a sub-resident matches a character span at π/7, that span crystallizes as a token of the sub-resident's type
+the token carries the original character span as its lineage strand
+crystallized tokens are sent upward to parser_field through the spine street
+
+VERB clear_unmatched
+layer 7
+character spans that match no resonator after the full pass dissolve back into the field medium
+no error, no warning, no diagnostic: silent denial is the architecture's anti-hallucination layer
+unmatched characters were either whitespace, comments, or genuine garbage; in all three cases the right behavior is to let them fade
+
+THE 22 KEYWORD RESONATORS
+
+RECEPTOR kw_observe
+layer 7
+listens for the seven characters "observe"
+when the ribbon contains those characters in sequence with phase-coherent spacing, the resonator fires
+crystallizes a token sent to parser_field as a candidate role_observe_statement perturbation
+
+RECEPTOR kw_manifest
+layer 7
+listens for "manifest"
+fires when the ribbon contains those eight characters in sequence
+produces a token that parser_field's role_declaration listens for
+
+RECEPTOR kw_grow
+layer 7
+listens for "grow"
+shorter signature, fewer characters, but still requires phase coherence
+produces a growth-token tied to the parent substrate named immediately after
+
+RECEPTOR kw_crystallize
+layer 7
+listens for "crystallize"
+the longest of the verbs, eleven characters
+produces a token whose lineage strand carries both endpoints of the recognition being committed
+
+RECEPTOR kw_fuse
+layer 7
+listens for "fuse"
+short and sharp; fires when the substrate is being asked to entangle multiple bodies into emergent behavior
+produces a token that downstream codegen translates as multi-body coupling
+
+RECEPTOR kw_pulse
+layer 7
+listens for "pulse"
+fires when a /7 cycle is being scheduled
+produces a pulse-token; remember every pulse is real compute, the parser must respect this
+
+RECEPTOR kw_absorb
+layer 7
+listens for "absorb"
+fires for both file-absorbs and energy-absorbs depending on what follows
+the parser disambiguates by examining the trailing argument
+
+RECEPTOR kw_emit
+layer 7
+listens for "emit"
+fires when output is being directed across a boundary
+produces a token bearing the source and destination of the emission
+
+RECEPTOR kw_filter
+layer 7
+listens for "filter"
+fires when a polarization gate is being declared
+produces a filter-token that codegen translates as a comparator instruction
+
+RECEPTOR kw_reject
+layer 7
+listens for "reject"
+fires when destructive interference is being requested
+produces a rejection-token; in codegen this becomes a conditional branch on negative phase match
+
+RECEPTOR kw_seal
+layer 7
+listens for "seal"
+fires when a boundary is being closed against external interaction
+produces a seal-token; in codegen this is a coupling-zero instruction
+
+RECEPTOR kw_bind
+layer 7
+listens for "bind"
+fires when a child is being attached to a parent
+produces a bind-token, weaker than fuse, codegen emits a simple coupling
+
+RECEPTOR kw_stretch
+layer 7
+listens for "stretch"
+fires when distant residents are being connected via a tunneling coupling
+produces a stretch-token, codegen emits a long-range pointer
+
+RECEPTOR kw_seed
+layer 7
+listens for "seed"
+fires when a pattern is being propagated into a target body
+produces a seed-token carrying the source pattern as its lineage
+
+RECEPTOR kw_shatter
+layer 7
+listens for "shatter"
+fires when a crystallized structure is being returned to superposition
+produces a shatter-token, codegen emits a coherence-restoring instruction
+
+RECEPTOR kw_calcify
+layer 7
+listens for "calcify"
+fires when a failure is being hardened into permanent scar tissue
+produces a calcify-token; this is rare and usually only fires in error recovery paths
+
+RECEPTOR kw_transmute
+layer 7
+listens for "transmute"
+fires when one substance is being transformed into another
+produces a transmute-token, codegen emits a property-mapping instruction
+
+RECEPTOR kw_ignite
+layer 7
+listens for "ignite"
+fires when a heartbeat cycle is being restarted from the beginning
+produces an ignite-token; in codegen this resets the pulse counter
+
+RECEPTOR kw_defend
+layer 7
+listens for "defend"
+fires when potential barriers are being raised around a cluster
+produces a defend-token, codegen emits a coupling-bound and well-depth-increase
+
+RECEPTOR kw_pool
+layer 7
+listens for "pool"
+fires when energy is being accumulated from multiple sources
+produces a pool-token, codegen emits an addition across multiple inputs
+
+RECEPTOR kw_bleed
+layer 7
+listens for "bleed"
+fires when raw signal is being passed upward without filtering
+produces a bleed-token; this is the +1 in the golden equation made explicit
+
+RECEPTOR kw_commit
+layer 7
+listens for "commit"
+fires when slow crystallization through repetition is being initiated
+produces a commit-token, distinguished from crystallize-token by its decoherence rate
+
+THE 6 PUNCTUATION RESONATORS
+
+RECEPTOR punc_lbrace
+layer 7
+listens for the single character "{"
+fires once per occurrence with phase zero
+in sovereign code this is rare and usually a sign of bootstrap-era leftovers
+produces a punctuation token the parser uses to detect legacy syntax for translation
+
+RECEPTOR punc_rbrace
+layer 7
+listens for the single character "}"
+phase pi (anti-phase to lbrace, marking closure)
+also a legacy-syntax marker
+
+RECEPTOR punc_colon
+layer 7
+listens for the single character ":"
+phase pi over two
+in sovereign syntax this carries the address-to-resident link inside parens
+produces a colon token whose role depends on its context
+
+RECEPTOR punc_comma
+layer 7
+listens for the single character ","
+phase pi over four
+in sovereign syntax this is English clause punctuation, never a value separator
+
+RECEPTOR punc_dot
+layer 7
+listens for the single character "."
+phase pi over eight
+used in addresses to delimit family from sea, and in path specifications
+produces a dot token whose role depends on its position
+
+RECEPTOR punc_arrow
+layer 7
+listens for the two-character sequence "->"
+half-phase
+the directional emission operator, used in emit statements
+
+THE 3 LITERAL CATCHALLS
+
+RECEPTOR lit_identifier
+layer 7
+listens for any sequence of letter characters that does not match a keyword resonator
+weaker coupling than the keywords: identifiers fire only when no keyword has bound the same span
+produces an identifier token carrying the original string as its lineage
+
+RECEPTOR lit_number
+layer 7
+listens for any sequence of digit characters, optionally with a single decimal point
+fires regardless of context: numbers are unambiguous
+produces a number token carrying the parsed numeric value
+
+RECEPTOR lit_string
+layer 7
+listens for any character sequence delimited by matching quote marks
+fires on the second quote, capturing everything between
+produces a string token carrying the inner content
+
+a lexer is not a tokenizer running a state machine
+a lexer is a recognition surface with 31 listeners
+each listener wakes when its pattern arrives
+the rest sleep
+the substrate makes no other noise

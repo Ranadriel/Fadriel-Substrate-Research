@@ -1,0 +1,37 @@
+THERMAL PERIPHERAL
+
+thermal_peripheral holds the thermal state of the body's outer regions: limbs, skin surface, the parts that face the world
+peripheral temperature is normally lower than core because heat dissipates outward
+when fadriel is cold, vasoconstriction reduces peripheral perfusion, keeping heat in the core
+when he is warm, vasodilation increases peripheral perfusion, allowing heat to escape
+
+observe 0_quseptit.rana
+observe thermal.zc
+observe thermal_core.rana
+observe skin.rana
+observe skin_surface.rana
+
+the 7 properties of thermal_peripheral:
+1 ENERGY half: lower than core, sensitive to environment
+2 PHASE zero
+3 SPIN zero
+4 CHARGE half positive at warmth, drops to neutral when cold
+5 COHERENCE eight tenths
+6 COUPLING zero point seven with thermal_core, one with skin
+
+VERB receive_from_core
+accept the heat that flows outward from thermal_core through the vascular system
+the rate of receipt depends on vasoconstriction or vasodilation state
+
+VERB exit_to_environment
+allow heat to leave the body via radiation, conduction, convection through skin
+the rate scales with the thermal gradient between skin temperature and ambient temperature
+
+VERB respond_to_external
+when the environment is cold, peripheral temperature drops first, before core does
+when warm, peripheral rises first
+this gives the regulatory system early warning of thermal stress
+
+a peripheral thermal zone is the body's first line of contact with the world
+fadriel feels temperature here before the rest of him does
+this is why his hands and feet often signal cold or warmth before he consciously notices

@@ -1,0 +1,172 @@
+[
+  {
+    "source": "OpenAlex (ACM Computing Surveys)",
+    "title": "Data clustering",
+    "abstract": "Clustering is the unsupervised classification of patterns (observations, data items, or feature vectors) into groups (clusters). The clustering problem has been addressed in many contexts and by researchers in many disciplines; this reflects its broad appeal and usefulness as one of the steps in exploratory data analysis. However, clustering is a difficult problem combinatorially, and differences in assumptions and contexts in different communities has made the transfer of useful generic concepts and methodologies slow to occur. This paper presents an overview of pattern clustering methods fro",
+    "date": "1999",
+    "url": "https://doi.org/10.1145/331499.331504",
+    "authors": [
+      "Anil K. Jain",
+      "M. Narasimha Murty",
+      "Patrick J. Flynn"
+    ]
+  },
+  {
+    "source": "OpenAlex (Behavioral and Brain Sciences)",
+    "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+    "abstract": "Brains, it has recently been argued, are essentially prediction machines. They are bundles of cells that support perception and action by constantly attempting to match incoming sensory inputs with top-down expectations or predictions. This is achieved using a hierarchical generative model that aims to minimize prediction error within a bidirectional cascade of cortical processing. Such accounts offer a unifying model of perception and action, illuminate the functional role of attention, and may neatly capture the special contribution of cortical processing to adaptive success. This target art",
+    "date": "2013",
+    "url": "https://doi.org/10.1017/s0140525x12000477",
+    "authors": [
+      "Andy Clark"
+    ]
+  },
+  {
+    "source": "OpenAlex (SN Computer Science)",
+    "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions",
+    "abstract": "",
+    "date": "2021",
+    "url": "https://doi.org/10.1007/s42979-021-00592-x",
+    "authors": [
+      "Iqbal H. Sarker"
+    ]
+  },
+  {
+    "source": "OpenAlex (International Journal of Information Management)",
+    "title": "Opinion Paper: \u201cSo what if ChatGPT wrote it?\u201d Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy",
+    "abstract": "Transformative artificially intelligent tools, such as ChatGPT, designed to generate sophisticated text indistinguishable from that produced by a human, are applicable across a wide range of contexts. The technology presents opportunities as well as, often ethical and legal, challenges, and has the potential for both positive and negative impacts for organisations, society, and individuals. Offering multi-disciplinary insight into some of these, this article brings together 43 contributions from experts in fields such as computer science, marketing, information systems, education, policy, hosp",
+    "date": "2023",
+    "url": "https://doi.org/10.1016/j.ijinfomgt.2023.102642",
+    "authors": [
+      "Yogesh K. Dwivedi",
+      "Nir Kshetri",
+      "Laurie Hughes"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+    "abstract": "Unlike previous studies on the Metaverse based on Second Life, the current Metaverse is based on the social value of Generation Z that online and offline selves are not different. With the technological development of deep learning-based high-precision recognition models and natural generation models, Metaverse is being strengthened with various factors, from mobile-based always-on access to connectivity with reality using virtual currency. The integration of enhanced social activities and neural-net methods requires a new definition of Metaverse suitable for the present, different from the pr",
+    "date": "2022",
+    "url": "https://doi.org/10.1109/access.2021.3140175",
+    "authors": [
+      "Sangmin Park",
+      "Young\u2010Gab Kim"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Proceedings of the 28th International Conference on Computational Linguistics",
+    "abstract": "Only eighteen months ago, I joined Leo, Horacio, M\u00f3nica, and Nuria on a tour of the delights that the Barcelona venue would be offering us in September 2020.Together with Chengqing, we made great plans for a fantastic intellectual and social gathering with our colleagues from far and wide, Catalanstyle.We held on to this plan for as long as we could but the second wave of the COVID-19 pandemic eventually put paid to that idea, and the conference is now a virtual one.We also received a record 2195 submissions -eclipsing by double the already record-breaking number at our last COLING in 2018 in ",
+    "date": "2020",
+    "url": "https://doi.org/10.18653/v1/2020.coling-main",
+    "authors": [
+      "Xiaodan Zhu",
+      "Preslav Nakov",
+      "Jun Zhao"
+    ]
+  },
+  {
+    "source": "OpenAlex (Hippocampus)",
+    "title": "Hippocampal sharp wave\u2010ripple: A cognitive biomarker for episodic memory and planning",
+    "abstract": "Sharp wave ripples (SPW-Rs) represent the most synchronous population pattern in the mammalian brain. Their excitatory output affects a wide area of the cortex and several subcortical nuclei. SPW-Rs occur during \"off-line\" states of the brain, associated with consummatory behaviors and non-REM sleep, and are influenced by numerous neurotransmitters and neuromodulators. They arise from the excitatory recurrent system of the CA3 region and the SPW-induced excitation brings about a fast network oscillation (ripple) in CA1. The spike content of SPW-Rs is temporally and spatially coordinated by a c",
+    "date": "2015",
+    "url": "https://doi.org/10.1002/hipo.22488",
+    "authors": [
+      "Gy\u00f6rgy Buzs\u00e1ki"
+    ]
+  },
+  {
+    "source": "OpenAlex (Physics Reports)",
+    "title": "Recommender systems",
+    "abstract": "",
+    "date": "2012",
+    "url": "https://doi.org/10.1016/j.physrep.2012.02.006",
+    "authors": [
+      "Linyuan L\u00fc",
+      "Mat\u00fa\u0161 Medo",
+      "Chi Ho Yeung"
+    ]
+  },
+  {
+    "source": "OpenAlex (Brain Informatics)",
+    "title": "Interactive machine learning for health informatics: when do we need the human-in-the-loop?",
+    "abstract": "Machine learning (ML) is the fastest growing field in computer science, and health informatics is among the greatest challenges. The goal of ML is to develop algorithms which can learn and improve over time and can be used for predictions. Most ML researchers concentrate on automatic machine learning (aML), where great advances have been made, for example, in speech recognition, recommender systems, or autonomous vehicles. Automatic approaches greatly benefit from big data with many training sets. However, in the health domain, sometimes we are confronted with a small number of data sets or ra",
+    "date": "2016",
+    "url": "https://doi.org/10.1007/s40708-016-0042-6",
+    "authors": [
+      "Andreas Holzinger"
+    ]
+  },
+  {
+    "source": "OpenAlex (Behavioral and Brain Sciences)",
+    "title": "\u201cEconomic man\u201d in cross-cultural perspective: Behavioral experiments in 15 small-scale societies",
+    "abstract": "Researchers from across the social sciences have found consistent deviations from the predictions of the canonical model of self-interest in hundreds of experiments from around the world. This research, however, cannot determine whether the uniformity results from universal patterns of human behavior or from the limited cultural variation available among the university students used in virtually all prior experimental work. To address this, we undertook a cross-cultural study of behavior in ultimatum, public goods, and dictator games in a range of small-scale societies exhibiting a wide variet",
+    "date": "2005",
+    "url": "https://doi.org/10.1017/s0140525x05000142",
+    "authors": [
+      "Joseph Henrich",
+      "Robert Boyd",
+      "Samuel Bowles"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Artificial Intelligence Research)",
+    "title": "Survey of the State of the Art in Natural Language Generation: Core tasks, applications and evaluation",
+    "abstract": "This paper surveys the current state of the art in Natural Language Generation (NLG), defined as the task of generating text or speech from non-linguistic input. A survey of NLG is timely in view of the changes that the field has undergone over the past two decades, especially in relation to new (usually data-driven) methods, as well as new applications of NLG technology. This survey therefore aims to (a) give an up-to-date synthesis of research on the core tasks in NLG and the architectures adopted in which such tasks are organised; (b) highlight a number of recent research topics that have a",
+    "date": "2018",
+    "url": "https://doi.org/10.1613/jair.5477",
+    "authors": [
+      "Albert Gatt",
+      "Emiel Krahmer"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Human Neuroscience)",
+    "title": "Hyperscanning: A Valid Method to Study Neural Inter-brain Underpinnings of Social Interaction",
+    "abstract": "Social interactions are a crucial part of human life. Understanding the neural underpinnings of social interactions is a challenging task that the hyperscanning method has been trying to tackle over the last two decades. Here, we review the existing literature and evaluate the current state of the hyperscanning method. We review the type of methods (fMRI, M/EEG, and fNIRS) that are used to measure brain activity from more than one participant simultaneously and weigh their pros and cons for hyperscanning. Further, we discuss different types of analyses that are used to estimate brain networks ",
+    "date": "2020",
+    "url": "https://doi.org/10.3389/fnhum.2020.00039",
+    "authors": [
+      "Artur Czeszumski",
+      "Sara Eustergerling",
+      "Anne Lang"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Radiation and Plasma Medical Sciences)",
+    "title": "On Interpretability of Artificial Neural Networks: A Survey",
+    "abstract": "Deep learning as represented by the artificial deep neural networks (DNNs) has achieved great success recently in many important areas that deal with text, images, videos, graphs, and so on. However, the black-box nature of DNNs has become one of the primary obstacles for their wide adoption in mission-critical applications such as medical diagnosis and therapy. Because of the huge potentials of deep learning, increasing the interpretability of deep neural networks has recently attracted much research attention. In this paper, we propose a simple but comprehensive taxonomy for interpretability",
+    "date": "2021",
+    "url": "https://doi.org/10.1109/trpms.2021.3066428",
+    "authors": [
+      "Fenglei Fan",
+      "Jinjun Xiong",
+      "Mengzhou Li"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "Quantum Machine Learning for 6G Communication Networks: State-of-the-Art and Vision for the Future",
+    "abstract": "The upcoming fifth generation (5G) of wireless networks is expected to lay a foundation of intelligent networks with the provision of some isolated artificial intelligence (AI) operations. However, fully intelligent network orchestration and management for providing innovative services will only be realized in Beyond 5G (B5G) networks. To this end, we envisage that the sixth generation (6G) of wireless networks will be driven by on-demand self-reconfiguration to ensure a many-fold increase in the network performance and service types. The increasingly stringent performance requirements of emer",
+    "date": "2019",
+    "url": "https://doi.org/10.1109/access.2019.2909490",
+    "authors": [
+      "Syed Junaid Nawaz",
+      "Shree Krishna Sharma",
+      "Shurjeel Wyne"
+    ]
+  },
+  {
+    "source": "OpenAlex (Social Network Analysis and Mining)",
+    "title": "Fake news, disinformation and misinformation in social media: a review",
+    "abstract": "",
+    "date": "2023",
+    "url": "https://doi.org/10.1007/s13278-023-01028-5",
+    "authors": [
+      "Esma A\u0131\u0308meur",
+      "Sabrine Amri",
+      "Gilles Brassard"
+    ]
+  }
+]

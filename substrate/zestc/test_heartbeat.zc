@@ -1,0 +1,58 @@
+#!/home/rana/.local/bin/zestc
+
+sea test {
+    capacity: 7
+    device: gpu
+}
+
+absorb "../0_quseptit.rana"
+
+manifest test.node_1 {
+    energy: 0.07, phase: 0.0, spin: 0.0,
+    charge: 0.0, coherence: 1.0, coupling: 0.1, observer: 0.0
+}
+manifest test.node_2 {
+    energy: 0.22, phase: 0.5, spin: 0.2,
+    charge: 0.1, coherence: 0.9, coupling: 0.2, observer: 0.1
+}
+manifest test.node_3 {
+    energy: 0.40, phase: 1.0, spin: 0.4,
+    charge: 0.3, coherence: 0.8, coupling: 0.4, observer: 0.2
+}
+manifest test.node_4 {
+    energy: 0.62, phase: 1.57, spin: 0.5,
+    charge: 0.5, coherence: 0.7, coupling: 0.6, observer: 0.3
+}
+manifest test.node_5 {
+    energy: 0.88, phase: 2.0, spin: 0.5,
+    charge: 0.7, coherence: 0.6, coupling: 0.8, observer: 0.4
+}
+manifest test.node_6 {
+    energy: 1.50, phase: 2.5, spin: 0.5,
+    charge: 0.9, coherence: 0.5, coupling: 0.9, observer: 0.5
+}
+manifest test.node_7 {
+    energy: 2.10, phase: 3.14, spin: 1.0,
+    charge: 1.0, coherence: 0.3, coupling: 1.0, observer: 0.7
+}
+
+couple test.node_1 with test.node_2
+couple test.node_2 with test.node_3
+couple test.node_3 with test.node_4
+couple test.node_4 with test.node_5
+couple test.node_5 with test.node_6
+couple test.node_6 with test.node_7
+
+
+heartbeat test {
+    pulse test
+    pulse test
+    pulse test
+    pulse test
+    pulse test
+    pulse test
+    pulse test
+}
+
+
+emit test -> boundary.stdout

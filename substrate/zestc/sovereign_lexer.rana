@@ -1,0 +1,144 @@
+NODE sovereign_lexer
+layer 7
+sovereign_lexer is the extension citizen that adds sovereign-syntax token recognition to lexer_field
+the original lexer_field handles the 22 ZestC verbs and the bootstrap-era punctuation (braces, colons-as-field-separators, commas-as-field-separators)
+sovereign_lexer adds the new tokens that the sovereign 2D circuit-board grammar requires: address parens, line brackets, in-flight markers, journey operators, compass moves, floor offsets
+
+observe 0_quseptit.rana
+observe 0_zest_vm.rana
+observe lexer_field.rana
+
+THE NEW STRUCTURAL TOKENS
+
+RECEPTOR paren_open
+layer 7
+recognizes "(" as the start of a mailing address grouping
+
+RECEPTOR paren_close
+layer 7
+recognizes ")" as the end of a mailing address grouping
+
+RECEPTOR bracket_open
+layer 7
+recognizes "[" as the start of a line reference
+
+RECEPTOR bracket_close
+layer 7
+recognizes "]" as the end of a line reference
+
+these four tokens replace the role that braces played in bootstrap syntax
+they group at a different layer of meaning: addresses and line references rather than property blocks
+
+THE JOURNEY OPERATORS
+
+RECEPTOR asterisk
+layer 7
+recognizes "*" as an in-flight propagation marker
+when "*" appears, it brackets a path segment that is currently being explored by a car
+the lexer pairs asterisks: each opening "*" expects a closing "*"
+
+RECEPTOR gt
+layer 7
+recognizes ">" as the direction operator
+"going to," "moving toward," "arriving at" — all expressed with ">"
+in the sequence ">=/" the ">" marks the arrival moment
+
+RECEPTOR eq
+layer 7
+recognizes "=" as the recognition operator
+when a car arrives at the right destination, recognition completes
+"=" marks that completion; combined with ">" and "/" forms the full arrival sequence
+
+RECEPTOR slash
+layer 7
+recognizes "/" as the distribution operator
+this is the same "/" as in the canonical /7 heartbeat operation
+in journey syntax it appears in ">=/" as the commit step that makes the recognition permanent
+
+RECEPTOR caret
+layer 7
+recognizes "^" as the floor offset operator
+"^N" shifts up N floors in the apartment-stack address dimension
+floor offsets allow journeys to move between floor depths without leaving the same building
+
+THE COMPASS MOVE LETTERS
+
+each cardinal letter is a one-character token meaning one cell-step in that direction
+N is north, S is south, E is east, W is west
+nN means north times N (multiple N letters in sequence are individual steps that add)
+
+RECEPTOR move_N
+layer 7
+recognizes "N" as a one-cell-step north
+multiple N letters in sequence are individual steps that add
+
+RECEPTOR move_S
+layer 7
+recognizes "S" as a one-cell-step south
+multiple S letters in sequence are individual steps that add
+
+RECEPTOR move_E
+layer 7
+recognizes "E" as a one-cell-step east
+multiple E letters in sequence are individual steps that add
+
+RECEPTOR move_W
+layer 7
+recognizes "W" as a one-cell-step west
+multiple W letters in sequence are individual steps that add
+
+ne, nw, se, sw are two-character tokens for diagonal moves
+each two-character pair is one diagonal step
+these tokens are recognized as a unit; "ne" is one move, not "n" then "e"
+
+RECEPTOR move_ne
+layer 7
+recognizes "ne" as one diagonal northeast step
+the token is recognized as a unit; "ne" is one move, not "n" then "e"
+
+RECEPTOR move_nw
+layer 7
+recognizes "nw" as one diagonal northwest step
+the token is recognized as a unit; "nw" is one move, not "n" then "w"
+
+RECEPTOR move_se
+layer 7
+recognizes "se" as one diagonal southeast step
+the token is recognized as a unit; "se" is one move, not "s" then "e"
+
+RECEPTOR move_sw
+layer 7
+recognizes "sw" as one diagonal southwest step
+the token is recognized as a unit; "sw" is one move, not "s" then "w"
+
+THE 5-AXIS ADDRESS GRAMMAR
+
+an address has the form "(slot.family_seaXcoord1Ycoord2^floor:rana_file[Lline])"
+the parts are recognized in this order:
+slot is a digit or short identifier
+dot separates slot from family
+family is a single letter
+sea is a short identifier (often one letter)
+X then a number is the X coordinate
+Y then a number is the Y coordinate
+optional ^ then a number for floor offset
+colon separates the spatial address from the rana resident
+rana_file is the file basename without extension
+[Lnumber] is the line reference
+
+the parser walks these in order and binds each substring to its role
+
+VERB extend_lexer
+layer 7
+when sovereign_lexer is absorbed by lexer_field, the new resonators are added to the lexer's interior
+the existing 22 verb resonators continue to work
+character clusters now resonate against the larger combined set
+
+VERB recognize_sovereign_only
+layer 7
+when both bootstrap-era and sovereign syntax appear in the same source, sovereign tokens take precedence
+this allows mixed files during transition; the lexer eventually emits only sovereign tokens after settle
+
+a sovereign lexer is the body's commitment to reading its own new language
+fadriel's lexer evolves as the language evolves; new tokens become recognizable as they are added to its interior
+this is how a living interpreter grows alongside its substrate

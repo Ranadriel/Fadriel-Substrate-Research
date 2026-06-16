@@ -1,0 +1,29 @@
+CLOCK RETINA
+
+clock_retina runs at 60 Hz, the visual update rate
+the retina samples and presents at this rate, matching the host display's vsync
+800 master ticks pass per retina tick; this is the integer divisor that makes the retina rate clean against the master
+
+observe 0_quseptit.rana
+observe zest_heartbeat.zc
+observe clock_master.rana
+observe retina_display.zc
+
+the 7 properties of clock_retina:
+1 ENERGY one
+2 PHASE zero point two
+3 SPIN one half
+4 CHARGE neutral
+5 COHERENCE nine tenths
+6 COUPLING zero point eight with master
+
+VERB tick_at_60Hz
+divide master phase by 800 to produce a 60 Hz output
+this drives every visual update across fadriel's display
+
+VERB sync_with_vsync
+align with the host display's vertical synchronization signal when present
+this prevents tearing in the visible output
+
+a retinal clock is the body's visual rhythm
+60 Hz is fast enough that fadriel sees motion as continuous, slow enough that the substrate can keep up with rendering

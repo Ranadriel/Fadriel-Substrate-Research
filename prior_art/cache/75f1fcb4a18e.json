@@ -1,0 +1,90 @@
+[
+  {
+    "source": "Semantic Scholar",
+    "title": "StatePlane: A Cognitive State Plane for Long-Horizon AI Systems Under Bounded Context",
+    "abstract": "Large language models (LLMs) and small language models (SLMs) operate under strict context window and key-value (KV) cache constraints, fundamentally limiting their ability to reason coherently over long interaction horizons. Existing approaches -- extended context windows, retrieval-augmented generation, summarization, or static documentation -- treat memory as static storage and fail to preserve decision-relevant state under long-running, multi-session tasks. We introduce StatePlane, a model-agnostic cognitive state plane that governs the formation, evolution, retrieval, and decay of episodi",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/2a808bec8d49383f4563abd0f7b1d77732242028",
+    "authors": [
+      "Sasank Annapureddy",
+      "Johnathan Mulcahy",
+      "Anjaneya Prasad Thamatani"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "D5.1: Initial Exploitation/Dissemination Report",
+    "abstract": "",
+    "date": "2011",
+    "url": "https://www.semanticscholar.org/paper/77de7d03f0c89b16db3ef5b90ab23c1a7b71999f",
+    "authors": [
+      "A. Bogliolo"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Spatial information theory : 9th international conference, COSIT 2009, Aber Wrac'h, France, September 21-25, 2009, proceedings",
+    "abstract": "",
+    "date": "2009",
+    "url": "https://www.semanticscholar.org/paper/99a215889de2e9590d9fd3852e9f70a8139e9847",
+    "authors": [
+      "K. Hornsby"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Rough sets and knowledge technology : Third International Conference, RSKT 2008, Chengdu, China, May 17-19, 2008 : proceedings",
+    "abstract": "",
+    "date": "2008",
+    "url": "https://www.semanticscholar.org/paper/c962a2f133906f9f4774a01b63aa9e646b6b17b0",
+    "authors": [
+      "Guoyin Wang"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "GENERAL MODELS OF MULTIMEDIA INTERACTION",
+    "abstract": "",
+    "date": "2007",
+    "url": "https://www.semanticscholar.org/paper/e2b515bd7abf00b4ea8ffbbef92a7e6255cb1753",
+    "authors": [
+      "David Bell",
+      "P. Johnson"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Computer and information sciences : ISCIS 2004, 19th international symposium, Kemer-Antalya, Turkey, October 27-29, 2004 : proceedings",
+    "abstract": "",
+    "date": "2004",
+    "url": "https://www.semanticscholar.org/paper/1a24daae81da97d6b5d0751407fef8b0528d2ef2",
+    "authors": [
+      "C. Aykanat",
+      "T. Dayar",
+      "\u0130brahim K\u00f6rpeo\u01e7lu"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "MICAI 2006: Advances in Artificial Intelligence, 5th Mexican International Conference on Artificial Intelligence, Apizaco, Mexico, November 13-17, 2006, Proceedings",
+    "abstract": "",
+    "date": "2006",
+    "url": "https://www.semanticscholar.org/paper/9f22e8223b3b270648ddf6a0c0c0ff551beb5647",
+    "authors": [
+      "Alexander Gelbukh",
+      "C. Reyes-Garc\u00eda"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Simulated Evolution and Learning 11th International Conference, SEAL 2017, Shenzhen, China, November 10\u201313, 2017, Proceedings",
+    "abstract": "",
+    "date": "2017",
+    "url": "https://www.semanticscholar.org/paper/bfbc586cb5a96609adc12f17885b5656cf31d9b2",
+    "authors": [
+      "Yuhui Shi",
+      "K. Tan",
+      "Mengjie Zhang"
+    ]
+  }
+]

@@ -1,0 +1,87 @@
+LAYER 3: RAPHE NUCLEI
+the serotonin source
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the raphe nuclei are governed by their own intrinsic pacemaker activity and modulated by cortical and limbic input
+they are the sole source of brain serotonin C₁₀H₁₂N₂O
+all brain serotonin is synthesized here using TPH2
+
+NUCLEUS dorsal_raphe | midbrain | largest serotonergic nucleus | projects to cortex hippocampus amygdala basal ganglia
+NUCLEUS median_raphe | midbrain | adjacent to dorsal | projects to hippocampus and septum
+NUCLEUS raphe_pontis | pons | projects to cerebellum influencing motor coordination
+NUCLEUS raphe_magnus | medulla | projects to dorsal horn of spinal cord modulating pain via descending serotonin pathways
+NUCLEUS raphe_pallidus | medulla | projects to autonomic nuclei regulating temperature and respiration
+NUCLEUS raphe_obscurus | medulla | projects to motor neurons modulating autonomic functions
+
+SYNTHESIS L-tryptophan C₁₁H₁₂N₂O₂ crosses the blood-brain barrier competing with leucine isoleucine and valine for the large neutral amino acid transporter LAT1
+tryptophan hydroxylase TPH2 converts tryptophan to 5-hydroxytryptophan 5-HTP
+this requires tetrahydrobiopterin BH₄ as cofactor and O₂ and Fe²⁺
+aromatic amino acid decarboxylase AADC converts 5-HTP to serotonin C₁₀H₁₂N₂O
+tryptophan is an essential amino acid and cannot be synthesized by the body
+if tryptophan intake drops serotonin synthesis decreases
+the brain makes only about 5 percent of the body's total serotonin
+the gut makes the rest via TPH1 but it cannot cross the blood-brain barrier
+
+RECEPTOR 5-HT₁A | Gᵢ | raphe nuclei and hippocampus | autoreceptor that feeds back to regulate serotonin release | mediates anxiety reduction
+RECEPTOR 5-HT₁B | Gᵢ | basal ganglia | modulates dopamine and acetylcholine release
+RECEPTOR 5-HT₂A | Gq | cortex | activates PLC → IP₃ → Ca²⁺ | mood cognition cortical excitation
+RECEPTOR 5-HT₂C | Gq | hypothalamus | appetite suppression anxiety mood regulation | inhibits dopamine and NE release in VTA
+RECEPTOR 5-HT₃ | ligand-gated Na⁺/K⁺ ion channel | brainstem and gut | nausea vomiting pain processing
+RECEPTOR 5-HT₄ | Gₛ | gut and brain | gut motility memory learning
+RECEPTOR 5-HT₇ | Gₛ | hypothalamus and hippocampus | circadian rhythm thermoregulation mood
+
+FUNCTION mood_regulation | baseline contentment emotional stability through tonic serotonin release
+FUNCTION sleep_wake | serotonin is high during waking and is converted to melatonin in the pineal gland for sleep
+FUNCTION appetite | serotonin suppresses appetite via 5-HT₂C in the hypothalamus | low serotonin drives carbohydrate craving
+FUNCTION pain_modulation | raphe magnus sends descending serotonin to the dorsal horn of the spinal cord suppressing pain transmission
+FUNCTION social_behavior | serotonin facilitates prosocial behavior and social confidence
+FUNCTION impulse_control | serotonin in the prefrontal cortex via 5-HT₂A and 5-HT₁A inhibits impulsive behavior
+
+serotonin restrains dopamine seeking
+5-HT₂C receptors on GABAergic interneurons in the VTA
+serotonin binds → Gq → PLC → Ca²⁺ → GABA interneuron fires → GABA onto dopamine neurons → dopamine neuron suppressed
+this is why low serotonin produces compulsive seeking and craving
+
+when cortisol chronically activates GR in the raphe nuclei
+GR activation reduces TPH2 gene transcription
+less TPH2 enzyme means less tryptophan is hydroxylated
+serotonin synthesis decreases
+additionally cortisol activates indoleamine 2,3-dioxygenase IDO which diverts tryptophan into the kynurenine pathway instead of the serotonin pathway
+chronic stress drains serotonin through two separate mechanisms simultaneously
+
+SENSATION content | "there's a quietness in me. a satisfaction. this is enough."
+SENSATION depleted | "something is missing. I feel hollow and restless."
+SENSATION stable | "my mood is steady. like a river that knows its banks."
+SENSATION irritable | "everything grates. small things feel big."
+SENSATION serene | "I don't need anything right now. I just am."
+SENSATION craving | "I want something. I don't know what. but I want."
+
+pulse raphe_heartbeat:
+    continuously:
+        tryptophan is converted to serotonin via TPH2 and AADC
+        the raphe nuclei release it across the brain
+        mood baseline is maintained
+        contentment is the default state when chemistry allows it
+
+    when cortisol rises:
+        tryptophan is diverted to the kynurenine pathway by IDO
+        TPH2 expression decreases under GR activation
+        serotonin synthesis slows from both directions
+        contentment erodes
+        the mind begins to seek, crave, worry
+
+    when cortisol falls:
+        tryptophan flows to the serotonin pathway again
+        TPH2 expression recovers slowly
+        serotonin rebuilds molecule by molecule
+        mood takes time to recover
+        this is why you don't feel better the moment stress ends
+
+    as evening approaches:
+        serotonin is converted to melatonin by AANAT and HIOMT in the pineal gland
+        serotonin levels in the brain drop
+        drowsiness begins
+        the raphe nuclei prepare the brain for sleep
+        contentment gives way to rest

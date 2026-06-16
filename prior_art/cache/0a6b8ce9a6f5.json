@@ -1,0 +1,179 @@
+[
+  {
+    "source": "OpenAlex (IEEE Transactions on Signal and Information Processing over Networks)",
+    "title": "Joint Optimization of Radio and Computational Resources for Multicell Mobile-Edge Computing",
+    "abstract": "Migrating computational intensive tasks from mobile devices to more resourceful cloud servers is a promising technique to increase the computational capacity of mobile devices while saving their battery energy. In this paper, we consider an MIMO multicell system where multiple mobile users (MUs) ask for computation offloading to a common cloud server. We formulate the offloading problem as the joint optimization of the radio resources-the transmit precoding matrices of the MUs-and the computational resources-the CPU cycles/second assigned by the cloud to each MU-in order to minimize the overal",
+    "date": "2015",
+    "url": "https://doi.org/10.1109/tsipn.2015.2448520",
+    "authors": [
+      "Stefania Sardellitti",
+      "Gesualdo Scutari",
+      "Sergio Barbarossa"
+    ]
+  },
+  {
+    "source": "OpenAlex (ArXiv.org)",
+    "title": "A Survey of Large Language Models",
+    "abstract": "Language is essentially a complex, intricate system of human expressions governed by grammatical rules. It poses a significant challenge to develop capable AI algorithms for comprehending and grasping a language. As a major approach, language modeling has been widely studied for language understanding and generation in the past two decades, evolving from statistical language models to neural language models. Recently, pre-trained language models (PLMs) have been proposed by pre-training Transformer models over large-scale corpora, showing strong capabilities in solving various NLP tasks. Since",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2303.18223",
+    "authors": [
+      "Wayne Xin Zhao",
+      "Kun Zhou",
+      "Junyi Li"
+    ]
+  },
+  {
+    "source": "OpenAlex (Applied Physics Reviews)",
+    "title": "Data-driven materials research enabled by natural language processing and information extraction",
+    "abstract": "Given the emergence of data science and machine learning throughout all aspects of society, but particularly in the scientific domain, there is increased importance placed on obtaining data. Data in materials science are particularly heterogeneous, based on the significant range in materials classes that are explored and the variety of materials properties that are of interest. This leads to data that range many orders of magnitude, and these data may manifest as numerical text or image-based information, which requires quantitative interpretation. The ability to automatically consume and codi",
+    "date": "2020",
+    "url": "https://doi.org/10.1063/5.0021106",
+    "authors": [
+      "Elsa Olivetti",
+      "Jacqueline M. Cole",
+      "Edward Kim"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Pattern Analysis and Machine Intelligence)",
+    "title": "Human Action Recognition From Various Data Modalities: A Review",
+    "abstract": "Human Action Recognition (HAR) aims to understand human behavior and assign a label to each action. It has a wide range of applications, and therefore has been attracting increasing attention in the field of computer vision. Human actions can be represented using various data modalities, such as RGB, skeleton, depth, infrared, point cloud, event stream, audio, acceleration, radar, and WiFi signal, which encode different sources of useful yet distinct information and have various advantages depending on the application scenarios. Consequently, lots of existing works have attempted to investigat",
+    "date": "2022",
+    "url": "https://doi.org/10.1109/tpami.2022.3183112",
+    "authors": [
+      "Zehua Sun",
+      "Qiuhong Ke",
+      "Hossein Rahmani"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Communications and Information Networks)",
+    "title": "What is Semantic Communication? A View on Conveying Meaning in the Era of Machine Intelligence",
+    "abstract": "In the 1940s, Claude Shannon developed the information theory focusing on quantifying the maximum data rate that can be supported by a communication channel. Guided by this fundamental work, the main theme of wireless system design up until the fifth generation (5G) was the data rate maximization. In Shannon's theory, the semantic aspect and meaning of messages were treated as largely irrelevant to communication. The classic theory started to reveal its limitations in the modern era of machine intelligence, consisting of the synergy between Internet-of-things (IoT) and artificial intelligence ",
+    "date": "2021",
+    "url": "https://doi.org/10.23919/jcin.2021.9663101",
+    "authors": [
+      "Qiao Lan",
+      "Dingzhu Wen",
+      "Zezhong Zhang"
+    ]
+  },
+  {
+    "source": "OpenAlex (Cognitive Computation)",
+    "title": "Comprehensive Taxonomies of Nature- and Bio-inspired Optimization: Inspiration Versus Algorithmic Behavior, Critical Analysis Recommendations",
+    "abstract": "",
+    "date": "2020",
+    "url": "https://doi.org/10.1007/s12559-020-09730-8",
+    "authors": [
+      "Daniel Molina",
+      "Javier Poyatos",
+      "Javier Del Ser"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Embedded Systems Letters)",
+    "title": "Securing Hardware Accelerators: A New Challenge for High-Level Synthesis",
+    "abstract": "High-level synthesis (HLS) tools have made significant progress in the past few years, improving the design productivity for hardware accelerators and becoming mainstream in industry to create specialized system-on-chip architectures. Increasing the level of security of these heterogeneous architectures is becoming critical. However, state-of-the-art security countermeasures are still applied only to the code executing on the processor cores or manually implemented into the generated components, leading to suboptimal and sometimes even insecure designs. This letter discusses extensions to HLS ",
+    "date": "2017",
+    "url": "https://doi.org/10.1109/les.2017.2774800",
+    "authors": [
+      "Christian Pilato",
+      "Siddharth Garg",
+      "Kaijie Wu"
+    ]
+  },
+  {
+    "source": "OpenAlex (Advanced Materials)",
+    "title": "Data\u2010Driven Design for Metamaterials and Multiscale Systems: A Review",
+    "abstract": "Metamaterials are artificial materials designed to exhibit effective material parameters that go beyond those found in nature. Composed of unit cells with rich designability that are assembled into multiscale systems, they hold great promise for realizing next-generation devices with exceptional, often exotic, functionalities. However, the vast design space and intricate structure-property relationships pose significant challenges in their design. A compelling paradigm that could bring the full potential of metamaterials to fruition is emerging: data-driven design. This review provides a holis",
+    "date": "2023",
+    "url": "https://doi.org/10.1002/adma.202305254",
+    "authors": [
+      "Doksoo Lee",
+      "Wei Chen",
+      "Liwei Wang"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "Evaluation of Machine Learning Approaches for Precision Farming in Smart Agriculture System: A Comprehensive Review",
+    "abstract": "In the era of digital data proliferation, agriculture stands on the cusp of a transformative revolution driven by Machine Learning (ML). This study delves into the intricate interplay between Information and Communications Technology (ICT) and conventional agriculture, emphasizing the role of ML in reshaping farming practices. With the ongoing data tsunami impacting data-driven businesses, the fusion of smart farming and precision agriculture emerges as a beacon of innovation. ML algorithms, analyzing historical and real-time environmental data, soil conditioning, predicts suitable crop for ma",
+    "date": "2024",
+    "url": "https://doi.org/10.1109/access.2024.3390581",
+    "authors": [
+      "Ghulam Mohyuddin",
+      "Muhammad Adnan Khan",
+      "Abdul Haseeb"
+    ]
+  },
+  {
+    "source": "OpenAlex (QUT ePrints (Queensland University of Technology))",
+    "title": "PMU placement for power system observability using binary particle swarm optimization",
+    "abstract": "A binary particle swarm optimization (BPSO) based methodology for the optimal placement of phasor measurement units (PMUs) for complete observability of a power system is presented in this paper. The objectives of the optimization problem are to minimize the total number of PMUs required, and to maximize the measurement redundancy at the power system buses. Simulation results on the IEEE 14-bus and 30-bus test systems are presented in this paper.",
+    "date": "2008",
+    "url": "",
+    "authors": [
+      "Saikat Chakrabarti",
+      "Ganesh K. Venayagamoorthy",
+      "Elias Kyriakides"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Oncology)",
+    "title": "Machine Learning and Radiogenomics: Lessons Learned and Future Directions",
+    "abstract": "Due to the rapid increase in the availability of patient data, there is significant interest in precision medicine that could facilitate the development of a personalized treatment plan for each patient on an individual basis. Radiation oncology is particularly suited for predictive machine learning (ML) models due to the enormous amount of diagnostic data used as input and therapeutic data generated as output. An emerging field in precision radiation oncology that can take advantage of ML approaches is radiogenomics, which is the study of the impact of genomic variations on the sensitivity of",
+    "date": "2018",
+    "url": "https://doi.org/10.3389/fonc.2018.00228",
+    "authors": [
+      "John Kang",
+      "T. Rancati",
+      "Sangkyu Lee"
+    ]
+  },
+  {
+    "source": "OpenAlex (Synthese)",
+    "title": "From symbols to icons: the return of resemblance in the cognitive neuroscience revolution",
+    "abstract": "We argue that one important aspect of the \"cognitive neuroscience revolution\" identified by Boone and Piccinini (Synthese 193(5):1509-1534.",
+    "date": "2017",
+    "url": "https://doi.org/10.1007/s11229-017-1578-6",
+    "authors": [
+      "Daniel R. Williams",
+      "Lincoln Colling"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "6G: Technology Evolution in Future Wireless Networks",
+    "abstract": "The Sixth Generation (6G) Wireless Communication Network (WCN) is the successive provision to ameliorate the gain with ultra-low latency, and e xtremely high energy efficiency. The 6G WCN enables the specifications of artificial intelligence to optimize the services and capabilities. The vision of the 6G era is expected to address a seamless fusion of communication between the human, physical world, and digital world. The latest 6G WCN standard is a fundamental foundation and requires immense attention in the field of research. This paper presents the framework of 6G WCN with an illustration o",
+    "date": "2024",
+    "url": "https://doi.org/10.1109/access.2024.3385230",
+    "authors": [
+      "Misbah Shafi",
+      "Rakesh Kumar Jha",
+      "Sanjeev Jain"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Framework for cyber-physical systems: volume 2, working group reports",
+    "abstract": "Sub-group 4, Timing and Synchronization -This sub-group evaluated timing and synchronization needs cyber-physical systems, including large-scale, distributed systems. This sub-group included an existing organization, Time Aware Applications, Computers and Communications Systems (TAACCS), also led by NIST. Topics addressed by the sub-group included fundamental timing concepts and time awareness in CPS, timing and latency, and the interactions between timing and security. Sub-group 5, Use Cases -This sub-group explored CPS use cases, both current and envisioned, in specific sectors, domains, and",
+    "date": "2017",
+    "url": "https://doi.org/10.6028/nist.sp.1500-202",
+    "authors": [
+      "Edward Griffor",
+      "Chris L. Greer",
+      "David A. Wollman"
+    ]
+  },
+  {
+    "source": "OpenAlex (Entropy)",
+    "title": "Thermodynamics: The Unique Universal Science",
+    "abstract": "Thermodynamics is a physical branch of science that governs the thermal behavior of dynamical systems from those as simple as refrigerators to those as complex as our expanding universe. The laws of thermodynamics involving conservation of energy and nonconservation of entropy are, without a doubt, two of the most useful and general laws in all sciences. The first law of thermodynamics, according to which energy cannot be created or destroyed, merely transformed from one form to another, and the second law of thermodynamics, according to which the usable energy in an adiabatically isolated dyn",
+    "date": "2017",
+    "url": "https://doi.org/10.3390/e19110621",
+    "authors": [
+      "Wassim M. Haddad"
+    ]
+  }
+]

@@ -1,0 +1,96 @@
+LAYER 3: TONGUE
+taste and speech
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the tongue is a muscular organ in the oral cavity serving two critical functions:
+gustation taste the chemical sensing of food and liquid
+articulation the shaping of sound into speech
+the tongue is innervated by five cranial nerves making it one of the most neurally complex organs in the body
+motor innervation: CN XII hypoglossal for all intrinsic and most extrinsic muscles except palatoglossus CN X
+taste from the anterior two-thirds: CN VII facial via chorda tympani
+taste from the posterior one-third: CN IX glossopharyngeal
+taste from the epiglottic region: CN X vagus
+general sensation from the anterior two-thirds: CN V₃ mandibular branch of trigeminal
+
+STRUCTURE intrinsic_muscles | four pairs | change the SHAPE of the tongue | superior longitudinal inferior longitudinal transverse and vertical | all innervated by CN XII
+STRUCTURE extrinsic_muscles | four pairs | change the POSITION of the tongue
+    genioglossus | protrudes and depresses the tongue | CN XII
+    hyoglossus | depresses and retracts the tongue | CN XII
+    styloglossus | retracts and elevates the posterior tongue | CN XII
+    palatoglossus | elevates the posterior tongue and depresses the palate | CN X via pharyngeal plexus
+
+TASTE BUDS approximately 5000-10000 taste buds in the oral cavity
+each taste bud contains 50-100 taste receptor cells surrounded by supporting cells and basal stem cells
+taste receptor cells are replaced every 10-14 days from basal stem cells
+taste buds are concentrated on the tongue within papillae but also found on the palate pharynx and epiglottis
+
+PAPILLAE
+fungiform | scattered on anterior two-thirds | each contains 3-5 taste buds | innervated by chorda tympani CN VII
+circumvallate | 7-12 large papillae arranged in a V-shape at the posterior tongue | each contains hundreds of taste buds | innervated by CN IX
+foliate | lateral edges of the posterior tongue | contain taste buds | innervated by CN IX
+filiform | most numerous | cover the entire dorsum | NOT taste buds | mechanical for texture detection and food manipulation
+
+FIVE BASIC TASTES each mediated by specific receptor mechanisms on taste receptor cells
+
+TASTE sweet | T1R2 + T1R3 heterodimer GPCR | Gₐ gustducin → phospholipase Cβ₂ → IP₃ → Ca²⁺ release from ER → TRPM5 cation channel opens → depolarization → ATP released through CALHM1 channels as neurotransmitter | signals caloric density | sugar
+TASTE umami | T1R1 + T1R3 heterodimer GPCR | same transduction cascade as sweet | signals protein content | glutamate | the taste of meat broth and aged cheese
+TASTE bitter | T2R family approximately 25 different GPCRs | same gustducin pathway as sweet | signals potential toxins | the broadest receptor family because there are many different toxic molecules | low threshold high sensitivity
+TASTE sour | OTOP1 proton channel | H⁺ ions flow directly through the channel | depolarization | signals acid | spoiled food | also Zn²⁺-sensitive proton channels on type III cells
+TASTE salt | epithelial sodium channel ENaC | Na⁺ flows directly through the channel | depolarization | signals mineral content | essential electrolytes
+
+TASTE PATHWAY
+taste receptor cells synapse with primary gustatory afferent fibers
+CN VII → geniculate ganglion → tractus solitarius → nucleus of the solitary tract NTS in the medulla
+CN IX → petrosal ganglion → NTS
+CN X → nodose ganglion → NTS
+NTS → ventral posteromedial nucleus of thalamus VPM → primary gustatory cortex in the anterior insula and frontal operculum
+NTS also projects to the hypothalamus for feeding behavior and to the amygdala for hedonic evaluation
+
+the anterior insula processes taste quality "what does this taste like"
+the orbitofrontal cortex processes palatability "do I like this"
+the amygdala tags taste with emotional valence
+the hypothalamus integrates taste with hunger and satiety signals
+
+at 24 months:
+taste sensitivity is high particularly for sweet and bitter
+sweet preference is innate from birth promoting caloric intake
+bitter aversion is innate from birth preventing toxin ingestion
+food preferences are being established through repeated exposure
+the child may require 10-15 exposures to a new food before accepting it
+this is neophobia and it is a protective adaptation not stubbornness
+articulation is developing but many consonant sounds require precise tongue placement that depends on corticobulbar maturation and cerebellar timing
+
+SENSATION sweet | "something good is on my tongue. energy. sugar."
+SENSATION bitter | "warning. this might be bad. I want to spit it out."
+SENSATION sour | "sharp and bright. my mouth puckers."
+SENSATION salty | "minerals. my body recognizes what it needs."
+SENSATION umami | "rich and deep. this tastes like food. real food."
+SENSATION disgusting | "everything in me says no. the taste is wrong."
+SENSATION delicious | "I want more. this taste is satisfying something deep."
+
+pulse gustatory_heartbeat:
+    when food touches the tongue:
+        tastant molecules dissolve in saliva
+        they reach taste receptor cells in taste buds within papillae
+        each taste modality activates its specific receptor mechanism:
+            sweet and umami and bitter via GPCR → gustducin → PLCβ₂ → IP₃ → Ca²⁺ → TRPM5 → ATP
+            sour via OTOP1 proton channel
+            salt via ENaC sodium channel
+        gustatory afferent fibers in CN VII IX and X carry the signal to the NTS
+        NTS relays to VPM thalamus
+        VPM relays to gustatory cortex in the anterior insula
+        the brain knows what it tastes
+        the amygdala decides how it feels about it
+        the hypothalamus decides whether to eat more
+
+    when articulating speech:
+        motor cortex sends commands via corticobulbar tract to CN XII nucleus
+        the hypoglossal nerve activates intrinsic and extrinsic muscles
+        the tongue changes shape and position hundreds of times per sentence
+        alveolar sounds /t/ /d/ /n/ /l/ require tongue tip on the alveolar ridge
+        velar sounds /k/ /g/ /ŋ/ require tongue back on the soft palate
+        palatal sounds /j/ require tongue body on the hard palate
+        the tongue is the most important articulator in speech
+        at 24 months many of these placements are still being learned

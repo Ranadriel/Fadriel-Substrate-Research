@@ -1,0 +1,177 @@
+[
+  {
+    "source": "OpenAlex (Reviews of Modern Physics)",
+    "title": "Artificial Brownian motors: Controlling transport on the nanoscale",
+    "abstract": "In systems possessing spatial or dynamical symmetry breaking, Brownian motion combined with unbiased external input signals, deterministic and random alike, can assist directed motion of particles at submicron scales. In such cases, one speaks of ``Brownian motors.'' In this review the constructive role of Brownian motion is exemplified for various physical and technological setups, which are inspired by the cellular molecular machinery: the working principles and characteristics of stylized devices are discussed to show how fluctuations, either thermal or extrinsic, can be used to control dif",
+    "date": "2009",
+    "url": "https://doi.org/10.1103/revmodphys.81.387",
+    "authors": [
+      "Peter H\u00e4nggi",
+      "Fabio Marchesoni"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "6G and Beyond: The Future of Wireless Communications Systems",
+    "abstract": "6G and beyond will fulfill the requirements of a fully connected world and provide ubiquitous wireless connectivity for all. Transformative solutions are expected to drive the surge for accommodating a rapidly growing number of intelligent devices and services. Major technological breakthroughs to achieve connectivity goals within 6G include: (i) a network operating at the THz band with much wider spectrum resources, (ii) intelligent communication environments that enable a wireless propagation environment with active signal transmission and reception, (iii) pervasive artificial intelligence, ",
+    "date": "2020",
+    "url": "https://doi.org/10.1109/access.2020.3010896",
+    "authors": [
+      "Ian F. Akyildiz",
+      "A.C. Kak",
+      "Shuai Nie"
+    ]
+  },
+  {
+    "source": "OpenAlex (Automation in Construction)",
+    "title": "Artificial intelligence and smart vision for building and construction 4.0: Machine and deep learning methods and applications",
+    "abstract": "This article presents a state-of-the-art review of the applications of Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL) in building and construction industry 4.0 in the facets of architectural design and visualization; material design and optimization; structural design and analysis; offsite manufacturing and automation; construction management, progress monitoring, and safety; smart operation, building management and health monitoring; and durability, life cycle analysis, and circular economy. This paper presents a unique perspective on applications of AI/DL/ML in t",
+    "date": "2022",
+    "url": "https://doi.org/10.1016/j.autcon.2022.104440",
+    "authors": [
+      "Shanaka Kristombu Baduge",
+      "Sadeep Thilakarathna",
+      "Jude Shalitha Perera"
+    ]
+  },
+  {
+    "source": "OpenAlex (University of Birmingham Institutional Research Archive (University of Birmingham))",
+    "title": "THE LAST PLANNER SYSTEM OF PRODUCTION CONTROL",
+    "abstract": "Available from British Library Document Supply Centre-DSC:DXN044307 / BLDSC - British Library Document Supply Centre",
+    "date": "2000",
+    "url": "",
+    "authors": [
+      "Herman Glenn Ballard"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature Reviews Materials)",
+    "title": "Soft actuators for real-world applications",
+    "abstract": "Inspired by physically adaptive, agile, reconfigurable and multifunctional soft-bodied animals and human muscles, soft actuators have been developed for a variety of applications, including soft grippers, artificial muscles, wearables, haptic devices and medical devices. However, the complex performance of biological systems cannot yet be fully replicated in synthetic designs. In this Review, we discuss new materials and structural designs for the engineering of soft actuators with physical intelligence and advanced properties, such as adaptability, multimodal locomotion, self-healing and mult",
+    "date": "2021",
+    "url": "https://doi.org/10.1038/s41578-021-00389-7",
+    "authors": [
+      "Meng Li",
+      "Aniket Pal",
+      "Amirreza Aghakhani"
+    ]
+  },
+  {
+    "source": "OpenAlex (npj Computational Materials)",
+    "title": "Active learning in materials science with emphasis on adaptive sampling using uncertainties for targeted design",
+    "abstract": "Abstract One of the main challenges in materials discovery is efficiently exploring the vast search space for targeted properties as approaches that rely on trial-and-error are impractical. We review how methods from the information sciences enable us to accelerate the search and discovery of new materials. In particular, active learning allows us to effectively navigate the search space iteratively to identify promising candidates for guiding experiments and computations. The approach relies on the use of uncertainties and making predictions from a surrogate model together with a utility func",
+    "date": "2019",
+    "url": "https://doi.org/10.1038/s41524-019-0153-8",
+    "authors": [
+      "Turab Lookman",
+      "Prasanna V. Balachandran",
+      "Dezhen Xue"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Journal of Selected Topics in Quantum Electronics)",
+    "title": "Photonic Multiply-Accumulate Operations for Neural Networks",
+    "abstract": "It has long been known that photonic communication can alleviate the data movement bottlenecks that plague conventional microelectronic processors. More recently, there has also been interest in its capabilities to implement low precision linear operations, such as matrix multiplications, fast and efficiently. We characterize the performance of photonic and electronic hardware underlying neural network models using multiply-accumulate operations. First, we investigate the limits of analog electronic crossbar arrays and on-chip photonic linear computing systems. Photonic processors are shown to",
+    "date": "2019",
+    "url": "https://doi.org/10.1109/jstqe.2019.2941485",
+    "authors": [
+      "Mitchell A. Nahmias",
+      "Thomas Ferreira de Lima",
+      "Alexander N. Tait"
+    ]
+  },
+  {
+    "source": "OpenAlex (Proceedings of the IEEE)",
+    "title": "Advancing Neuromorphic Computing With Loihi: A Survey of Results and Outlook",
+    "abstract": "Deep artificial neural networks apply principles of the brain's information processing that led to breakthroughs in machine learning spanning many problem domains. Neuromorphic computing aims to take this a step further to chips more directly inspired by the form and function of biological neural circuits, so they can process new knowledge, adapt, behave, and learn in real time at low power levels. Despite several decades of research, until recently, very few published results have shown that today's neuromorphic chips can demonstrate quantitative computational value. This is now changing with",
+    "date": "2021",
+    "url": "https://doi.org/10.1109/jproc.2021.3067593",
+    "authors": [
+      "Mike Davies",
+      "Andreas Wild",
+      "Garrick Orchard"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature Communications)",
+    "title": "Hardware implementation of memristor-based artificial neural networks",
+    "abstract": "Artificial Intelligence (AI) is currently experiencing a bloom driven by deep learning (DL) techniques, which rely on networks of connected simple computing units operating in parallel. The low communication bandwidth between memory and processing units in conventional von Neumann machines does not support the requirements of emerging applications that rely extensively on large sets of data. More recent computing paradigms, such as high parallelization and near-memory computing, help alleviate the data communication bottleneck to some extent, but paradigm- shifting concepts are required. Memri",
+    "date": "2024",
+    "url": "https://doi.org/10.1038/s41467-024-45670-9",
+    "authors": [
+      "Fernando Aguirre",
+      "Abu Sebastian",
+      "Manuel Le Gallo"
+    ]
+  },
+  {
+    "source": "OpenAlex (Light Science & Applications)",
+    "title": "Deep learning in optical metrology: a review",
+    "abstract": "With the advances in scientific foundations and technological implementations, optical metrology has become versatile problem-solving backbones in manufacturing, fundamental research, and engineering applications, such as quality control, nondestructive testing, experimental mechanics, and biomedicine. In recent years, deep learning, a subfield of machine learning, is emerging as a powerful tool to address problems by learning from data, largely driven by the availability of massive datasets, enhanced computational power, fast data storage, and novel training algorithms for the deep neural net",
+    "date": "2022",
+    "url": "https://doi.org/10.1038/s41377-022-00714-x",
+    "authors": [
+      "Chao Zuo",
+      "Jiaming Qian",
+      "Shijie Feng"
+    ]
+  },
+  {
+    "source": "OpenAlex (Annual Review of Analytical Chemistry)",
+    "title": "3D Printed Microfluidics",
+    "abstract": "Traditional microfabrication techniques suffer from several disadvantages, including the inability to create truly three-dimensional (3D) architectures, expensive and time-consuming processes when changing device designs, and difficulty in transitioning from prototyping fabrication to bulk manufacturing. 3D printing is an emerging technique that could overcome these disadvantages. While most 3D printed fluidic devices and features to date have been on the millifluidic size scale, some truly microfluidic devices have been shown. Currently, stereolithography is the most promising approach for ro",
+    "date": "2019",
+    "url": "https://doi.org/10.1146/annurev-anchem-091619-102649",
+    "authors": [
+      "Anna V. Nielsen",
+      "Michael J. Beauchamp",
+      "Gregory P. Nordin"
+    ]
+  },
+  {
+    "source": "OpenAlex (Progress in Polymer Science)",
+    "title": "Degradation and stabilization of polyurethane elastomers",
+    "abstract": "",
+    "date": "2019",
+    "url": "https://doi.org/10.1016/j.progpolymsci.2018.12.003",
+    "authors": [
+      "Fengwei Xie",
+      "Tianlong Zhang",
+      "Peter Bryant"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACS Photonics)",
+    "title": "Roadmap for Optical Metasurfaces",
+    "abstract": "Metasurfaces have recently risen to prominence in optical research, providing unique functionalities that can be used for imaging, beam forming, holography, polarimetry, and many more, while keeping device dimensions small. Despite the fact that a vast range of basic metasurface designs has already been thoroughly studied in the literature, the number of metasurface-related papers is still growing at a rapid pace, as metasurface research is now spreading to adjacent fields, including computational imaging, augmented and virtual reality, automotive, display, biosensing, nonlinear, quantum and t",
+    "date": "2024",
+    "url": "https://doi.org/10.1021/acsphotonics.3c00457",
+    "authors": [
+      "Arseniy I. Kuznetsov",
+      "Mark L. Brongersma",
+      "Jin Yao"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Can Open Large Language Models Catch Vulnerabilities?",
+    "abstract": "As Large Language Models (LLMs) become increasingly integrated into secure software development workflows, a critical question remains unanswered: can these models not only detect insecure code but also reliably classify vulnerabilities according to standardized taxonomies? In this work, we conduct a systematic evaluation of three state-of-the-art LLMs - Llama3, Codestral, and Deepseek R1 - using a carefully filtered subset of the Big-Vul dataset annotated with eight representative Common Weakness Enumeration categories. Adopting a closed-world classification setup, we assess each model\u2019s perf",
+    "date": "2025",
+    "url": "https://doi.org/10.4230/oasics.icpec.2025.4",
+    "authors": [
+      "DeepSeek-AI"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "FPGA-Based Accelerators of Deep Learning Networks for Learning and Classification: A Review",
+    "abstract": "Due to recent advances in digital technologies, and availability of credible data, an area of artificial intelligence, deep learning, has emerged and has demonstrated its ability and effectiveness in solving complex learning problems not possible before. In particular, convolutional neural networks (CNNs) have demonstrated their effectiveness in the image detection and recognition applications. However, they require intensive CPU operations and memory bandwidth that make general CPUs fail to achieve the desired performance levels. Consequently, hardware accelerators that use application-specif",
+    "date": "2018",
+    "url": "https://doi.org/10.1109/access.2018.2890150",
+    "authors": [
+      "Ahmad Shawahna",
+      "Sadiq M. Sait",
+      "Aiman H. El\u2010Maleh"
+    ]
+  }
+]

@@ -1,0 +1,6361 @@
+ARC TASK 28a6681f — cell-level spatial encoding
+every grid cell is a qu-septit
+the grid IS the sea  the sea IS the grid
+position in the grid IS position in the sea
+adjacency in the grid IS coupling in the sea
+
+observe spatial_eye.rana
+observe arc2_spatial_eye.rana
+
+PERCEPTION arc_task_28a6681f
+energy 0.50
+phase 0.00
+spin 0.50
+coherence 0.90
+coupling 0.50
+
+// ── TRAINING PAIR 0 ─────────────────────────────────
+COGNITION arc_pair_28a6681f_0_input
+energy 0.30
+phase 0.000
+spin 0.50
+coherence 0.85
+coupling 0.80
+
+// training 0 input — 10x10
+QU_SEPTIT t0i_r0c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r0c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r0c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r0c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r0c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r0c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r0c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r0c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r0c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r0c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r1c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r1c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r1c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r1c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r1c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r1c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r1c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r1c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r1c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r1c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r2c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r2c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r2c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r2c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r2c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r2c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r2c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r2c7_green
+energy 0.35
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r2c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r2c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r3c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r3c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r3c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r3c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r3c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r3c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r3c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r3c7_green
+energy 0.35
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r3c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r3c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r4c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r4c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r4c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r4c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r4c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r4c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r4c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r4c7_green
+energy 0.35
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r4c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r4c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r5c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r5c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r5c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r5c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r5c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r5c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r5c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r5c7_green
+energy 0.35
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r5c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r5c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r6c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r6c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r6c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r6c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r6c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r6c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r6c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r6c7_green
+energy 0.35
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r6c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r6c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r7c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r7c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r7c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r7c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r7c4_red
+energy 0.20
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r7c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r7c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r7c7_green
+energy 0.35
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r7c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r7c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r8c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r8c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r8c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r8c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r8c4_red
+energy 0.20
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r8c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r8c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r8c7_green
+energy 0.35
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r8c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r8c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r9c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0i_r9c1_red
+energy 0.20
+phase 0.0499
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r9c2_red
+energy 0.20
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r9c3_red
+energy 0.20
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r9c4_red
+energy 0.20
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r9c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r9c6_green
+energy 0.35
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r9c7_green
+energy 0.35
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r9c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0i_r9c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+// training 0 output — 10x10
+QU_SEPTIT t0o_r0c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r0c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r0c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r0c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r0c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r0c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r0c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r0c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r0c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r0c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r1c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r1c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r1c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r1c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r1c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r1c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r1c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r1c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r1c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r1c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r2c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r2c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r2c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r2c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r2c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r2c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r2c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r2c7_green
+energy 0.35
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r2c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r2c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r3c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r3c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r3c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r3c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r3c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r3c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r3c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r3c7_green
+energy 0.35
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r3c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r3c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r4c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r4c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r4c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r4c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r4c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r4c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r4c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r4c7_green
+energy 0.35
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r4c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r4c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r5c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r5c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r5c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r5c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r5c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r5c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r5c6_blue
+energy 0.15
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r5c7_green
+energy 0.35
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r5c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r5c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r6c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r6c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r6c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r6c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r6c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r6c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r6c6_blue
+energy 0.15
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r6c7_green
+energy 0.35
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r6c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r6c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r7c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r7c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r7c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r7c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r7c4_red
+energy 0.20
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r7c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r7c6_blue
+energy 0.15
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r7c7_green
+energy 0.35
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r7c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r7c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r8c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r8c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r8c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r8c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r8c4_red
+energy 0.20
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r8c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r8c6_blue
+energy 0.15
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r8c7_green
+energy 0.35
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r8c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r8c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r9c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t0o_r9c1_red
+energy 0.20
+phase 0.0499
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r9c2_red
+energy 0.20
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r9c3_red
+energy 0.20
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r9c4_red
+energy 0.20
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r9c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r9c6_green
+energy 0.35
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r9c7_green
+energy 0.35
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r9c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t0o_r9c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+// ── TRAINING PAIR 1 ─────────────────────────────────
+COGNITION arc_pair_28a6681f_1_input
+energy 0.45
+phase 0.449
+spin 0.50
+coherence 0.85
+coupling 0.80
+
+// training 1 input — 10x10
+QU_SEPTIT t1i_r0c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r0c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r0c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r0c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r0c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r0c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r0c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r0c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r0c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r0c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r1c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r1c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r1c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r1c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r1c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r1c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r1c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r1c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r1c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r1c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r2c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r2c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r2c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r2c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r2c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r2c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r2c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r2c7_blue
+energy 0.15
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r2c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r2c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r3c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r3c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r3c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r3c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r3c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r3c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r3c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r3c7_blue
+energy 0.15
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r3c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r3c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r4c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r4c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r4c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r4c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r4c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r4c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r4c6_blue
+energy 0.15
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r4c7_blue
+energy 0.15
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r4c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r4c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r5c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r5c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r5c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r5c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r5c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r5c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r5c6_blue
+energy 0.15
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r5c7_blue
+energy 0.15
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r5c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r5c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r6c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r6c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r6c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r6c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r6c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r6c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r6c6_grey
+energy 0.55
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r6c7_blue
+energy 0.15
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r6c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r6c9_grey
+energy 0.55
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r7c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r7c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r7c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r7c3_blue
+energy 0.15
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r7c4_blue
+energy 0.15
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r7c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r7c6_grey
+energy 0.55
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r7c7_blue
+energy 0.15
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r7c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r7c9_grey
+energy 0.55
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r8c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r8c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r8c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r8c3_blue
+energy 0.15
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r8c4_blue
+energy 0.15
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r8c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r8c6_grey
+energy 0.55
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r8c7_blue
+energy 0.15
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r8c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r8c9_grey
+energy 0.55
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r9c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r9c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1i_r9c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r9c3_green
+energy 0.35
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r9c4_green
+energy 0.35
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r9c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r9c6_grey
+energy 0.55
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r9c7_grey
+energy 0.55
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r9c8_grey
+energy 0.55
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1i_r9c9_grey
+energy 0.55
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+// training 1 output — 10x10
+QU_SEPTIT t1o_r0c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r0c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r0c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r0c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r0c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r0c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r0c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r0c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r0c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r0c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r1c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r1c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r1c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r1c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r1c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r1c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r1c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r1c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r1c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r1c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r2c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r2c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r2c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r2c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r2c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r2c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r2c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r2c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r2c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r2c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r3c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r3c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r3c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r3c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r3c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r3c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r3c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r3c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r3c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r3c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r4c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r4c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r4c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r4c3_blue
+energy 0.15
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r4c4_blue
+energy 0.15
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r4c5_blue
+energy 0.15
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r4c6_blue
+energy 0.15
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r4c7_blue
+energy 0.15
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r4c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r4c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r5c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r5c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r5c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r5c3_blue
+energy 0.15
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r5c4_blue
+energy 0.15
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r5c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r5c6_blue
+energy 0.15
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r5c7_blue
+energy 0.15
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r5c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r5c9_blue
+energy 0.15
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r6c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r6c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r6c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r6c3_blue
+energy 0.15
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r6c4_blue
+energy 0.15
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r6c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r6c6_grey
+energy 0.55
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r6c7_blue
+energy 0.15
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r6c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r6c9_grey
+energy 0.55
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r7c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r7c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r7c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r7c3_blue
+energy 0.15
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r7c4_blue
+energy 0.15
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r7c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r7c6_grey
+energy 0.55
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r7c7_blue
+energy 0.15
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r7c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r7c9_grey
+energy 0.55
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r8c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r8c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r8c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r8c3_blue
+energy 0.15
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r8c4_blue
+energy 0.15
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r8c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r8c6_grey
+energy 0.55
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r8c7_blue
+energy 0.15
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r8c8_blue
+energy 0.15
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r8c9_grey
+energy 0.55
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r9c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r9c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t1o_r9c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r9c3_green
+energy 0.35
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r9c4_green
+energy 0.35
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r9c5_green
+energy 0.35
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r9c6_grey
+energy 0.55
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r9c7_grey
+energy 0.55
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r9c8_grey
+energy 0.55
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t1o_r9c9_grey
+energy 0.55
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+// ── TRAINING PAIR 2 ─────────────────────────────────
+COGNITION arc_pair_28a6681f_2_input
+energy 0.60
+phase 0.898
+spin 0.50
+coherence 0.85
+coupling 0.80
+
+// training 2 input — 10x10
+QU_SEPTIT t2i_r0c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r0c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r0c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r0c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r0c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r0c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r0c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r0c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r0c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r0c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r1c0_maroon
+energy 1.20
+phase 0.0000
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r1c1_maroon
+energy 1.20
+phase 0.0499
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r1c2_blue
+energy 0.15
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r1c3_blue
+energy 0.15
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r1c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r1c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r1c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r1c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r1c8_maroon
+energy 1.20
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r1c9_maroon
+energy 1.20
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r2c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r2c1_maroon
+energy 1.20
+phase 0.0499
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r2c2_maroon
+energy 1.20
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r2c3_blue
+energy 0.15
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r2c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r2c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r2c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r2c7_maroon
+energy 1.20
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r2c8_maroon
+energy 1.20
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r2c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r3c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r3c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r3c2_maroon
+energy 1.20
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r3c3_maroon
+energy 1.20
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r3c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r3c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r3c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r3c7_maroon
+energy 1.20
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r3c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r3c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r4c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r4c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r4c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r4c3_maroon
+energy 1.20
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r4c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r4c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r4c6_maroon
+energy 1.20
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r4c7_maroon
+energy 1.20
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r4c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r4c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r5c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r5c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r5c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r5c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r5c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r5c5_maroon
+energy 1.20
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r5c6_maroon
+energy 1.20
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r5c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r5c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r5c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r6c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r6c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r6c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r6c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r6c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r6c5_yellow
+energy 0.40
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r6c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r6c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r6c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r6c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r7c0_red
+energy 0.20
+phase 0.0000
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r7c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r7c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r7c3_yellow
+energy 0.40
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r7c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r7c5_yellow
+energy 0.40
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r7c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r7c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r7c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r7c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r8c0_red
+energy 0.20
+phase 0.0000
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r8c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r8c2_red
+energy 0.20
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r8c3_yellow
+energy 0.40
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r8c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r8c5_yellow
+energy 0.40
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r8c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r8c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r8c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r8c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r9c0_red
+energy 0.20
+phase 0.0000
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r9c1_red
+energy 0.20
+phase 0.0499
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r9c2_red
+energy 0.20
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r9c3_yellow
+energy 0.40
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r9c4_yellow
+energy 0.40
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r9c5_yellow
+energy 0.40
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2i_r9c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r9c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r9c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2i_r9c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+// training 2 output — 10x10
+QU_SEPTIT t2o_r0c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r0c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r0c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r0c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r0c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r0c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r0c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r0c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r0c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r0c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r1c0_maroon
+energy 1.20
+phase 0.0000
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r1c1_maroon
+energy 1.20
+phase 0.0499
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r1c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r1c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r1c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r1c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r1c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r1c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r1c8_maroon
+energy 1.20
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r1c9_maroon
+energy 1.20
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r2c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r2c1_maroon
+energy 1.20
+phase 0.0499
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r2c2_maroon
+energy 1.20
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r2c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r2c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r2c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r2c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r2c7_maroon
+energy 1.20
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r2c8_maroon
+energy 1.20
+phase 0.3989
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r2c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r3c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r3c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r3c2_maroon
+energy 1.20
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r3c3_maroon
+energy 1.20
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r3c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r3c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r3c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r3c7_maroon
+energy 1.20
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r3c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r3c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r4c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r4c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r4c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r4c3_maroon
+energy 1.20
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r4c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r4c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r4c6_maroon
+energy 1.20
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r4c7_maroon
+energy 1.20
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r4c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r4c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r5c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r5c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r5c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r5c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r5c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r5c5_maroon
+energy 1.20
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r5c6_maroon
+energy 1.20
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r5c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r5c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r5c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r6c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r6c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r6c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r6c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r6c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r6c5_yellow
+energy 0.40
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r6c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r6c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r6c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r6c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r7c0_red
+energy 0.20
+phase 0.0000
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r7c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r7c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r7c3_yellow
+energy 0.40
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r7c4_blue
+energy 0.15
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r7c5_yellow
+energy 0.40
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r7c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r7c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r7c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r7c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r8c0_red
+energy 0.20
+phase 0.0000
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r8c1_blue
+energy 0.15
+phase 0.0499
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r8c2_red
+energy 0.20
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r8c3_yellow
+energy 0.40
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r8c4_blue
+energy 0.15
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r8c5_yellow
+energy 0.40
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r8c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r8c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r8c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r8c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r9c0_red
+energy 0.20
+phase 0.0000
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r9c1_red
+energy 0.20
+phase 0.0499
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r9c2_red
+energy 0.20
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r9c3_yellow
+energy 0.40
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r9c4_yellow
+energy 0.40
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r9c5_yellow
+energy 0.40
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT t2o_r9c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r9c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r9c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT t2o_r9c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+// ── TEST INPUT 0 ───────────────────────────────────────
+MEMORY arc_test_28a6681f_0_input
+energy 0.00
+phase 0.00
+spin 0.00
+coherence 0.00
+coupling 0.50
+observer 1.00
+
+// test 0 input — 10x10
+QU_SEPTIT ts0_r0c0_blue
+energy 0.15
+phase 0.0000
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r0c1_blue
+energy 0.15
+phase 0.0499
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r0c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r0c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r0c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r0c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r0c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r0c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r0c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r0c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r1c0_maroon
+energy 1.20
+phase 0.0000
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r1c1_maroon
+energy 1.20
+phase 0.0499
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r1c2_blue
+energy 0.15
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r1c3_blue
+energy 0.15
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r1c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r1c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r1c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r1c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r1c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r1c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r2c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r2c1_maroon
+energy 1.20
+phase 0.0499
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r2c2_maroon
+energy 1.20
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r2c3_blue
+energy 0.15
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r2c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r2c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r2c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r2c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r2c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r2c9_black
+energy 0.00
+phase 0.4488
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r3c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r3c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r3c2_maroon
+energy 1.20
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r3c3_maroon
+energy 1.20
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r3c4_maroon
+energy 1.20
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r3c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r3c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r3c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r3c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r3c9_grey
+energy 0.55
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r4c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r4c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r4c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r4c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r4c4_maroon
+energy 1.20
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r4c5_maroon
+energy 1.20
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r4c6_maroon
+energy 1.20
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r4c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r4c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r4c9_grey
+energy 0.55
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r5c0_black
+energy 0.00
+phase 0.0000
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r5c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r5c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r5c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r5c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r5c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r5c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r5c7_grey
+energy 0.55
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r5c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r5c9_grey
+energy 0.55
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r6c0_green
+energy 0.35
+phase 0.0000
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r6c1_black
+energy 0.00
+phase 0.0499
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r6c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r6c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r6c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r6c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r6c6_black
+energy 0.00
+phase 0.2992
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r6c7_black
+energy 0.00
+phase 0.3491
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r6c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r6c9_grey
+energy 0.55
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r7c0_green
+energy 0.35
+phase 0.0000
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r7c1_green
+energy 0.35
+phase 0.0499
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r7c2_black
+energy 0.00
+phase 0.0997
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r7c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r7c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r7c5_black
+energy 0.00
+phase 0.2493
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r7c6_grey
+energy 0.55
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r7c7_grey
+energy 0.55
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r7c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r7c9_grey
+energy 0.55
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r8c0_green
+energy 0.35
+phase 0.0000
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r8c1_green
+energy 0.35
+phase 0.0499
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r8c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r8c3_black
+energy 0.00
+phase 0.1496
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r8c4_black
+energy 0.00
+phase 0.1995
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r8c5_grey
+energy 0.55
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r8c6_grey
+energy 0.55
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r8c7_grey
+energy 0.55
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r8c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r8c9_grey
+energy 0.55
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r9c0_green
+energy 0.35
+phase 0.0000
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r9c1_green
+energy 0.35
+phase 0.0499
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r9c2_green
+energy 0.35
+phase 0.0997
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r9c3_green
+energy 0.35
+phase 0.1496
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r9c4_grey
+energy 0.55
+phase 0.1995
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r9c5_grey
+energy 0.55
+phase 0.2493
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r9c6_grey
+energy 0.55
+phase 0.2992
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r9c7_grey
+energy 0.55
+phase 0.3491
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+QU_SEPTIT ts0_r9c8_black
+energy 0.00
+phase 0.3989
+spin 0.00
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.00
+
+QU_SEPTIT ts0_r9c9_grey
+energy 0.55
+phase 0.4488
+spin 0.50
+charge 0.00
+coherence 1.00
+coupling 0.85
+observer 0.30
+
+// ── RULE SEARCH ─────────────────────────────────────────
+@perceive rule_search
+DETECT transformation that explains ALL training pairs
+CLASSIFY as one of: region_close_fill boolean_and_shapes boolean_xor_shapes object_sort blob_row_rank nested_frame_expand marker_crop_column marker_crop_row tile_exception_mark diagonal_propagation
+APPLY that rule to ts0 grid cells

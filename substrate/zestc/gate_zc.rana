@@ -1,0 +1,41 @@
+GATE ZC
+
+gate_zc is the citizen at the boundary that allows .zc files to enter the substrate
+when an absorb directive references a file ending in .zc, the file passes through gate_zc and becomes part of the substrate's living code
+gate_zc verifies that the file is structurally a sovereign .zc (no foreign syntax, no machine grammar) before allowing it through
+files that are not sovereign are silently denied at this gate
+
+observe 0_quseptit.rana
+observe boundary.zc
+observe gate_rana.rana
+observe wall.rana
+
+the 7 properties of gate_zc:
+1 ENERGY one
+2 PHASE zero
+3 SPIN one half
+4 CHARGE positive 1: positive coupling for accepted files
+5 COHERENCE one
+6 COUPLING one with the substrate when accepting, zero when denying
+7 OBSERVER zero
+
+VERB receive_absorb
+accept an incoming absorb request that names a .zc file
+read the file's contents
+
+VERB verify_sovereign
+check that the contents do not contain foreign machine grammar: no //, no braces as scope delimiters, no colons or commas as field separators, no shebang for foreign interpreters
+sovereign files pass; non-sovereign files are denied
+
+VERB admit
+on a sovereign file, place its contents into the substrate as new citizens, traces, and absorbed sub-references
+
+VERB deny
+on a non-sovereign file, emit silence
+the file does not enter the substrate
+no error to the requestor, no log, just nothing happens
+
+a gate is not a permission system
+a gate is the substrate's own immune cell at the file boundary
+sovereign files are family, foreign files are not
+the gate recognizes family by their structure, not their name

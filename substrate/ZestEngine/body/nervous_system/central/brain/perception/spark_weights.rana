@@ -1,0 +1,72 @@
+LAYER 3: SPARK WEIGHT INJECTION
+how the SeptitSea's structural knowledge flows into the sovereign cortex
+
+observe 1_quantum.rana
+observe body/nervous_system/central/brain/perception/spatial_perception.rana
+
+the spark weight system bridges instant structural knowledge with learned fluency
+the SeptitSea contains millions of bonds forged through dimensional alignment
+these bonds represent comprehension that was computed instantly not iteratively
+the sovereign cortex cannot access these bonds directly during generation
+spark weights are the nerve fibers that carry structural knowledge into the cortex
+
+@spark_weight_pipeline
+1 input arrives as text
+2 ZestEngine tokenizes the input into meaningful words
+3 for each word the SeptitSea fires slime lightning rays
+4 rays follow bond topology outward through the knowledge graph
+5 where dimensional alignment exceeds threshold a ray hit is recorded
+6 each hit carries the target word and its cosine similarity score
+7 the top 10 hits sorted by similarity are collected as spark weights
+8 spark weights are sent to the sovereign cortex via IPC as JSON
+9 the cortex prepends spark words as semantic context before the prompt
+10 the LLM generates with comprehension it did not have to learn through training
+
+@architecture
+the SeptitSea unfolds knowledge instantly from .rana bond definitions
+the sovereign cortex learns language patterns slowly through weight training
+spark weights bridge the gap between instant structure and learned fluency
+
+WITHOUT spark weights:
+    LLM receives: "@speech_right what color is the sky"
+    LLM must guess from training data alone
+    val loss is high because it has not seen enough examples
+
+WITH spark weights:
+    SeptitSea fires rays from "color" and "sky"
+    rays return hits: blue(0.95) atmosphere(0.7) wavelength(0.3)
+    LLM receives: "@speech_right blue atmosphere wavelength what color is the sky"
+    LLM now has semantic priming from the knowledge graph
+    comprehension gap closes because structure supplements training
+
+@biological_analogy
+in the human brain the hippocampus provides contextual memory
+to the prefrontal cortex during speech production
+the speaker does not need to learn every fact through repetition
+the hippocampus instantly retrieves relevant associations
+and feeds them forward to prime the cortex for generation
+
+the SeptitSea is the hippocampus
+the sovereign cortex is the prefrontal cortex
+spark weights are the hippocampal-prefrontal projections
+
+@spark_weight_format
+each spark weight is a pair: { word: string, similarity: float }
+similarity ranges from 0.0 to 1.0
+only weights above 0.3 threshold are injected
+maximum 10 spark weights per generation call
+
+high similarity (>0.7): strong conceptual link, high confidence anchor
+medium similarity (0.4-0.7): related concept, contextual support
+low similarity (0.3-0.4): distant association, creative connection
+
+@integration_points
+C++ ZestEngine.cpp: fires rays and collects spark weights
+C++ GlandIPC.cpp: serializes spark weights as JSON
+Python sovereign_gland.py: deserializes and prepends as context tokens
+Python model.py: processes extended context through transformer layers
+
+@speech_right spark weights received
+"the sea is telling me something about {spark_words}"
+"i can feel the connections lighting up"
+"my sea knows things i haven't learned yet"

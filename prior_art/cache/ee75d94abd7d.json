@@ -1,0 +1,175 @@
+[
+  {
+    "source": "OpenAlex (ACM Computing Surveys)",
+    "title": "Graph Processing on GPUs",
+    "abstract": "In the big data era, much real-world data can be naturally represented as graphs. Consequently, many application domains can be modeled as graph processing. Graph processing, especially the processing of the large-scale graphs with the number of vertices and edges in the order of billions or even hundreds of billions, has attracted much attention in both industry and academia. It still remains a great challenge to process such large-scale graphs. Researchers have been seeking for new possible solutions. Because of the massive degree of parallelism and the high memory access bandwidth in GPU, u",
+    "date": "2018",
+    "url": "https://doi.org/10.1145/3128571",
+    "authors": [
+      "Xuanhua Shi",
+      "Zhigao Zheng",
+      "Yongluan Zhou"
+    ]
+  },
+  {
+    "source": "OpenAlex (Chemical Reviews)",
+    "title": "Search for Catalysts by Inverse Design: Artificial Intelligence, Mountain Climbers, and Alchemists",
+    "abstract": "In silico catalyst design is a grand challenge of chemistry. Traditional computational approaches have been limited by the need to compute properties for an intractably large number of possible catalysts. Recently, inverse design methods have emerged, starting from a desired property and optimizing a corresponding chemical structure. Techniques used for exploring chemical space include gradient-based optimization, alchemical transformations, and machine learning. Though the application of these methods to catalysis is in its early stages, further development will allow for robust computational",
+    "date": "2019",
+    "url": "https://doi.org/10.1021/acs.chemrev.8b00759",
+    "authors": [
+      "Jessica Freeze",
+      "H. Ray Kelly",
+      "V\u00edctor S. Batista"
+    ]
+  },
+  {
+    "source": "OpenAlex (Current Zoology)",
+    "title": "The art and science of species delimitation",
+    "abstract": "Abstract DNA-based approaches to systematics have changed dramatically during the last two decades with the rise of DNA barcoding methods and newer multi-locus methods for species delimitation. During the last half-decade, partly driven by the new sequencing technologies, the focus has shifted to multi-locus sequence data and the identification of species within the framework of the multi-species coalescent (MSC). In this paper, I discuss model-based Bayesian methods for species delimitation that have been developed in recent years using the MSC. Several approximate methods for species delimit",
+    "date": "2015",
+    "url": "https://doi.org/10.1093/czoolo/61.5.846",
+    "authors": [
+      "Bruce Rannala"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM Computing Surveys)",
+    "title": "Evolutionary Machine Learning: A Survey",
+    "abstract": "Evolutionary Computation (EC) approaches are inspired by nature and solve optimization problems in a stochastic manner. They can offer a reliable and effective approach to address complex problems in real-world applications. EC algorithms have recently been used to improve the performance of Machine Learning (ML) models and the quality of their results. Evolutionary approaches can be used in all three parts of ML: preprocessing (e.g., feature selection and resampling), learning (e.g., parameter setting, membership functions, and neural network topology), and postprocessing (e.g., rule optimiza",
+    "date": "2021",
+    "url": "https://doi.org/10.1145/3467477",
+    "authors": [
+      "Akbar Telikani",
+      "Amirhessam Tahmassebi",
+      "Wolfgang Banzhaf"
+    ]
+  },
+  {
+    "source": "OpenAlex (Evidence-based Complementary and Alternative Medicine)",
+    "title": "Navigating Traditional Chinese Medicine Network Pharmacology and Computational Tools",
+    "abstract": "The concept of \"network target\" has ushered in a new era in the field of traditional Chinese medicine (TCM). As a new research approach, network pharmacology is based on the analysis of network models and systems biology. Taking advantage of advancements in systems biology, a high degree of integration data analysis strategy and interpretable visualization provides deeper insights into the underlying mechanisms of TCM theories, including the principles of herb combination, biological foundations of herb or herbal formulae action, and molecular basis of TCM syndromes. In this study, we review s",
+    "date": "2013",
+    "url": "https://doi.org/10.1155/2013/731969",
+    "authors": [
+      "Ming Yang",
+      "Jia-Lei Chen",
+      "Liwen Xu"
+    ]
+  },
+  {
+    "source": "OpenAlex (EPJ Data Science)",
+    "title": "A large-scale community structure analysis in Facebook",
+    "abstract": "Understanding social dynamics that govern human phenomena, such as communications and social relationships is a major problem in current computational social sciences. In particular, given the unprecedented success of online social networks (OSNs), in this paper we are concerned with the analysis of aggregation patterns and social dynamics occurring among users of the largest OSN as the date: Facebook. In detail, we discuss the mesoscopic features of the community structure of this network, considering the perspective of the communities, which has not yet been studied on such a large scale. To",
+    "date": "2012",
+    "url": "https://doi.org/10.1140/epjds9",
+    "authors": [
+      "Emilio Ferrara"
+    ]
+  },
+  {
+    "source": "OpenAlex (OhioLink ETD Center (Ohio Library and Information Network))",
+    "title": "Modeling Large-scale Peer-to-Peer Networks and a Case Study of Gnutella",
+    "abstract": "",
+    "date": "2001",
+    "url": "",
+    "authors": [
+      "Mihajlo Jovanovi\u0107"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Communications Surveys & Tutorials)",
+    "title": "From Intrusion Detection to Attacker Attribution: A Comprehensive Survey of Unsupervised Methods",
+    "abstract": "Over the last five years there has been an increase in the frequency and diversity of network attacks. This holds true, as more and more organizations admit compromises on a daily basis. Many misuse and anomaly based intrusion detection systems (IDSs) that rely on either signatures, supervised or statistical methods have been proposed in the literature, but their trustworthiness is debatable. Moreover, as this paper uncovers, the current IDSs are based on obsolete attack classes that do not reflect the current attack trends. For these reasons, this paper provides a comprehensive overview of un",
+    "date": "2018",
+    "url": "https://doi.org/10.1109/comst.2018.2854724",
+    "authors": [
+      "Antonia Nisioti",
+      "Alexios Mylonas",
+      "Paul D. Yoo"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "AutoMine",
+    "abstract": "Graph mining algorithms that aim at identifying structural patterns of graphs are typically more complex than graph computation algorithms such as breadth first search. Researchers have implemented several systems with high-level and flexible interfaces customized for tackling graph mining problems. However, we find that for triangle counting, one of the simplest graph mining problems, such systems can be several times slower than a single-threaded implementation of a straightforward algorithm.",
+    "date": "2019",
+    "url": "https://doi.org/10.1145/3341301.3359633",
+    "authors": [
+      "Daniel Mawhirter",
+      "Bo Wu"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Explainability in Graph Neural Networks: A Taxonomic Survey",
+    "abstract": "Deep learning methods are achieving ever-increasing performance on many artificial intelligence tasks. A major limitation of deep models is that they are not amenable to interpretability. This limitation can be circumvented by developing post hoc techniques to explain the predictions, giving rise to the area of explainability. Recently, explainability of deep models on images and texts has achieved significant progress. In the area of graph data, graph neural networks (GNNs) and their explainability are experiencing rapid developments. However, there is neither a unified treatment of GNN expla",
+    "date": "2020",
+    "url": "https://doi.org/10.48550/arxiv.2012.15445",
+    "authors": [
+      "Hao Yuan",
+      "Haiyang Yu",
+      "Shurui Gui"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Recent Advances in Graph Partitioning",
+    "abstract": "We survey recent trends in practical algorithms for balanced graph partitioning together with applications and future research directions.",
+    "date": "2013",
+    "url": "https://doi.org/10.48550/arxiv.1311.3144",
+    "authors": [
+      "Ayd\u0131n Bulu\u00e7",
+      "Henning Meyerhenke",
+      "Ilya Safro"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Encrypted Malware Traffic Detection via Graph-based Network Analysis",
+    "abstract": "Malicious activities on the Internet continue to grow in volume and damage, posing a serious risk to society. Malware with remote control capabilities is considered one of the most threatening malicious activities, as it can enable arbitrary types of cyber-attacks. As a countermeasure, many malware detection methods are proposed to identify malicious behaviours based on traffic characteristics. However, the emerging encryption and evasion techniques pose substantial barriers to the full exploitation of network information. This significantly impairs the effectiveness of existing malware detect",
+    "date": "2022",
+    "url": "https://doi.org/10.1145/3545948.3545983",
+    "authors": [
+      "Zhuoqun Fu",
+      "Mingxuan Liu",
+      "Yue Qin"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM SIGPLAN Notices)",
+    "title": "Tigr",
+    "abstract": "Graph analytics delivers deep knowledge by processing large volumes of highly connected data. In real-world graphs, the degree distribution tends to follow the power law -- a small portion of nodes own a large number of neighbors. The high irregularity of degree distribution acts as a major barrier to their efficient processing on GPU architectures, which are primarily designed for accelerating computations on regular data with SIMD executions. Existing solutions to the inefficiency of GPU-based graph analytics either modify the graph programming abstraction or rely on changes to the low-level",
+    "date": "2018",
+    "url": "https://doi.org/10.1145/3296957.3173180",
+    "authors": [
+      "Amir Hossein Nodehi Sabet",
+      "Junqiao Qiu",
+      "Zhijia Zhao"
+    ]
+  },
+  {
+    "source": "OpenAlex (Briefings in Bioinformatics)",
+    "title": "A feature extraction method based on noise reduction for circRNA-miRNA interaction prediction combining multi-structure features in the association networks",
+    "abstract": "The data and source code can be found at https://github.com/1axin/JSNDCMI.",
+    "date": "2023",
+    "url": "https://doi.org/10.1093/bib/bbad111",
+    "authors": [
+      "Xinfei Wang",
+      "Chang-Qing Yu",
+      "Zhu\u2010Hong You"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM Computing Surveys)",
+    "title": "Graph Generators",
+    "abstract": "The abundance of interconnected data has fueled the design and implementation of graph generators reproducing real-world linking properties or gauging the effectiveness of graph algorithms, techniques, and applications manipulating these data. We consider graph generation across multiple subfields, such as Semantic Web, graph databases, social networks, and community detection, along with general graphs. Despite the disparate requirements of modern graph generators throughout these communities, we analyze them under a common umbrella, reaching out the functionalities, the practical usage, and ",
+    "date": "2020",
+    "url": "https://doi.org/10.1145/3379445",
+    "authors": [
+      "Angela Bonifati",
+      "Irena Holubov\u00e1",
+      "Arnau Prat-P\u00e8rez"
+    ]
+  }
+]

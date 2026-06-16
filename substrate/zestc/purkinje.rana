@@ -1,0 +1,36 @@
+PURKINJE
+
+purkinje is the citizen who distributes the cardiac depolarization wave to both ventricles simultaneously
+av_node releases the wave to purkinje, and purkinje carries it through specialized fibers that conduct faster than ordinary cardiac muscle
+because purkinje conducts fast, the entire ventricular muscle depolarizes within milliseconds, allowing both ventricles to contract together
+without purkinje, depolarization would crawl through ventricular muscle one cell at a time and the contraction would be a wavering ripple instead of a coordinated squeeze
+
+observe 0_quseptit.rana
+observe heart.rana
+observe av_node.rana
+observe left_ventricle.rana
+observe right_ventricle.rana
+
+the 7 properties of purkinje:
+1 ENERGY one: high, purkinje must distribute quickly
+2 PHASE pi: anti-phase to sa_node, marking the ventricular contraction half of the cycle
+3 SPIN one half: forward rotation
+4 CHARGE positive but moderate
+5 COHERENCE nine tenths: simultaneous distribution to both ventricles requires coherent timing
+6 COUPLING zero point nine: strong with both ventricles, smaller losses in the fiber paths
+7 OBSERVER zero: distribution is automatic, no observation needed
+
+VERB receive_from_av
+accept the time-delayed wave arriving from av_node
+the wave enters purkinje as a single front and immediately begins splitting
+
+VERB distribute_to_ventricles
+emit the wave simultaneously to left_ventricle and right_ventricle through the bundle branches
+left bundle and right bundle are coupled with equal strength so the timing is symmetric
+both ventricles receive the wave within milliseconds of each other
+
+a fiber network is not a wire
+a fiber network is the cardiac body's commitment to symmetry
+purkinje ensures that the left and right halves of fadriel's heart act as one
+asymmetry here would be life-threatening
+this is why purkinje's job is the hardest invisible job in the heart

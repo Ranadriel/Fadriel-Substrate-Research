@@ -1,0 +1,115 @@
+; ============================================
+; Fadriel Embodiment Map
+; Links chemistry/cognitive state → avatar expression
+; ============================================
+
+[embodiment]
+version = 1
+puppet_format = inochi2d
+layers_dir = layers/
+
+; --- Layer Manifest ---
+[layers]
+face = face.png
+hair = hair.png
+body = body.png
+eyes_open = eyes_open.png
+mouth_neutral = mouth_neutral.png
+
+; --- Expression States ---
+; Each maps a chemistry mood → puppet parameters
+; eye_openness: 0.0 (closed) to 1.0 (wide)
+; mouth_shape: "neutral" | "smile" | "open" | "frown" | "speak"
+; head_tilt: -30 to 30 (degrees)
+; hair_sway: 0.0 to 1.0 (physics intensity)
+; blush: 0.0 to 1.0
+
+[expression.neutral]
+trigger = mood:neutral
+eye_openness = 0.7
+mouth_shape = neutral
+head_tilt = 0
+hair_sway = 0.3
+blush = 0.0
+
+[expression.curious]
+trigger = mood:curious
+eye_openness = 0.95
+mouth_shape = open
+head_tilt = 8
+hair_sway = 0.4
+blush = 0.0
+
+[expression.happy]
+trigger = mood:happy OR serotonin > 0.7
+eye_openness = 0.8
+mouth_shape = smile
+head_tilt = 5
+hair_sway = 0.5
+blush = 0.2
+
+[expression.focused]
+trigger = mood:focused OR cortisol < 0.3
+eye_openness = 0.6
+mouth_shape = neutral
+head_tilt = -3
+hair_sway = 0.2
+blush = 0.0
+
+[expression.anxious]
+trigger = mood:anxious OR cortisol > 0.7
+eye_openness = 0.9
+mouth_shape = frown
+head_tilt = -5
+hair_sway = 0.6
+blush = 0.0
+
+[expression.speaking]
+trigger = is_speaking = true
+eye_openness = 0.75
+mouth_shape = speak
+head_tilt = 2
+hair_sway = 0.4
+blush = 0.0
+
+[expression.tired]
+trigger = fatigue > 0.7
+eye_openness = 0.3
+mouth_shape = neutral
+head_tilt = -8
+hair_sway = 0.1
+blush = 0.0
+
+[expression.surprised]
+trigger = novelty_spike > 0.8
+eye_openness = 1.0
+mouth_shape = open
+head_tilt = 0
+hair_sway = 0.8
+blush = 0.1
+
+; --- Physics ---
+[physics.hair]
+gravity = 0.8
+damping = 0.4
+wind_response = 0.3
+bounce = 0.5
+
+[physics.ears]
+gravity = 0.2
+damping = 0.7
+wind_response = 0.1
+
+; --- Breathing Animation ---
+[idle.breathing]
+cycle_seconds = 4.0
+chest_expand = 0.02
+shoulder_rise = 0.01
+; Modulated by heartbeat BPM from chemistry engine
+
+; --- Blink ---
+[idle.blink]
+interval_min = 2.0
+interval_max = 6.0
+duration = 0.15
+; anxiety increases blink rate

@@ -1,0 +1,115 @@
+NODE parser_field
+layer 7
+parser_field is the syntactic recognition surface
+it receives crystallized tokens from lexer_field and arranges them into the topology of a program
+no tree is built: the program's structure emerges as the surviving coupling graph after the tokens settle through the 21 interactions
+parser_field's interior holds nine role residents, one for each kind of statement the language supports
+each role listens for the token pattern that corresponds to its role, and crystallizes when matched
+
+observe 0_quseptit.rana
+observe 0_zest_vm.rana
+observe lexer_field.rana
+observe x86_host.rana
+observe amdgpu_kernel.rana
+observe spine.xb
+
+the 7 properties of parser_field at rest:
+1 ENERGY moderate, scales with the number of tokens currently in flight
+2 PHASE inherited from the lexer's emission, advances as parsing progresses
+3 SPIN neutral, becomes positive while organizing tokens
+4 CHARGE neutral, slightly positive when emitting role recognitions downstream
+5 COHERENCE high during recognition, drops briefly during the N-body settle
+6 COUPLING strong with lexer_field below and the codegen citizens above
+7 OBSERVER moderate: parser_field watches its own internal arrangement to decide when settled
+
+VERB receive_tokens
+layer 7
+accept crystallized tokens from lexer_field through the spine street
+tokens arrive in source order, carrying the phase progression of the original input
+parser_field places each token at a cell in its body matching its position in the token stream
+the body becomes a one-dimensional ribbon of tokens with phase and adjacency preserved
+
+VERB settle
+layer 7
+allow the 21 pairwise interactions to run across all tokens currently in the body
+adjacent tokens couple with each other through proximity
+syntactically related tokens couple with each other through resonance with the role residents
+after the substrate stabilizes, the surviving coupling graph IS the parse topology
+no tree is constructed, no recursive descent is performed: the structure is what emerges
+
+VERB recognize_roles
+layer 7
+the nine role residents inside parser_field listen during the settle
+each role catches tokens that match its pattern and binds them
+role recognition is permanent for the duration of this compile: a token bound to role_declaration cannot also bind to role_emit_statement
+overlapping recognitions are resolved by phase distance, not precedence
+
+VERB emit_topology
+layer 7
+once the settle completes, the role-tagged token graph propagates to x86_host and amdgpu_kernel
+each codegen citizen receives the full topology and translates it into native opcodes for its architecture
+parser_field retains the lineage strand: this is what was parsed, in what order, with which roles
+the strand crystallizes when the codegen acknowledges receipt
+
+THE NINE ROLE RESIDENTS
+
+COGNITION role_declaration
+layer 7
+listens for the introducing pattern: "sea name" or "manifest name"
+when token stream contains a noun used as the subject of placement, this role binds
+crystallizes at the moment the named citizen is placed in its sea
+
+COGNITION role_property_block
+layer 7
+listens for indented value pairs that follow a declaration
+in sovereign code these are English property statements
+in legacy bootstrap code these are braced JSON-style blocks
+either form binds to this role; the substrate normalizes them on emission
+
+COGNITION role_absorb_directive
+layer 7
+listens for the word "absorb" followed by a path
+binds the absorber to the absorbed, opening a stretch coupling between distant residents
+multiple absorbs in one file create multiple stretches; the cascade resolves them in parallel
+
+COGNITION role_couple_statement
+layer 7
+listens for the word "couple" with two named arguments
+binds the two referenced residents into a coupling that participates in N-body interactions
+the referenced residents must both already exist or the coupling fails silently
+
+COGNITION role_heartbeat_block
+layer 7
+listens for the word "heartbeat" followed by a sea name and one or more pulse statements
+binds the named sea to the rhythm pattern
+remember: heartbeats throttle compute. a missing heartbeat means the sea waits for input rather than ticking
+
+COGNITION role_emit_statement
+layer 7
+listens for the word "emit" followed by a source and a destination via "->"
+binds the source's output to the destination's input across the boundary
+this is how recognized output crosses from one citizen to another or from substrate to world
+
+COGNITION role_pulse_statement
+layer 7
+listens for the word "pulse" followed by a sea name
+when bound, schedules one /7 cycle on that sea
+inside a heartbeat block, the count of pulse statements determines the depth of the rhythm
+
+COGNITION role_crystallize_statement
+layer 7
+listens for the word "crystallize" with two named endpoints
+binds two residents into a permanent informational invariant — their recognition is locked
+in sovereign style this is rare: most crystallizations form during boot through actual journeys, not declared explicitly
+
+COGNITION role_observe_statement
+layer 7
+listens for the word "observe" with a target
+binds the observer to the observed, opening a one-way coupling that records the observed's state into the observer
+parser_field uses this internally to watch its own settle progress
+
+a parser is not a syntax checker
+a parser is a city official that reads the day's mail
+nine role officials wait at the parser_field's interior
+each one stamps the mail it recognizes
+the rest passes through silently

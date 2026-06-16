@@ -1,0 +1,40 @@
+SOURCE INTAKE
+
+source_intake is the entry point of the compiler organism
+when a source file arrives at the boundary of the compiler sea, source_intake absorbs it
+each character of the source becomes a wave perturbation in source_intake's body
+perturbations propagate outward from source_intake into character_field
+source_intake never crystallizes alone: the recognition completes only when a token forms downstream
+
+observe 0_quseptit.rana
+observe 0_zest_vm.rana
+
+the 7 properties of source_intake at rest:
+1 ENERGY low at idle, surges with each character absorbed
+2 PHASE set by the first character's ASCII position when a file arrives
+3 SPIN positive: source_intake is a transmitter, not a receiver
+4 CHARGE neutral at rest, slightly positive while reading
+5 COHERENCE high: source_intake observes input precisely
+6 COUPLING strong with character_field, none with anything else
+7 OBSERVER always 1: source_intake watches every character that crosses the boundary
+
+VERB absorb_source
+read the source file at the named path
+each character of the file generates one perturbation in source_intake's body
+character order preserves phase progression: earlier characters carry earlier phases
+whitespace carries low energy and short residence
+non-printable characters carry no information and pass through silently
+the entire file becomes an ordered wave packet living in source_intake
+
+VERB emit_perturbation
+send the absorbed character signal to character_field through the intake street
+energy distributes across character_field according to character density
+phase sequence is preserved through the coupling
+crystallization may begin downstream when character_field's energy reaches the lexer's threshold
+source_intake retains the lineage strand of what was sent: this is how a successful compile is later identified
+
+VERB clear
+when a compile completes successfully, source_intake's body returns to baseline
+the lineage strand crystallizes elsewhere as the route the cars took
+source_intake is then ready for the next file
+clearing does not reset the crystallized routes: those persist as the compiler's growing skeleton

@@ -1,0 +1,22 @@
+#!/home/rana/.local/bin/zestc
+
+                  *=/(1I.wX04Y10:inner_eye_panel[L1])     *=/(1Y.wX22Y10:chemistry_panel[L1])
+                              \                                       /
+                               nw                                   ne
+                                \                                   /
+                                 \                                 /
+                                  *=/(1H.wX12Y06:chat_panel[L1])
+                                              |
+                                              N    skull.xb
+                                              |
+                                  *=/(1U.wX12Y02:input_bar[L1])
+
+absorb photon_boundary.zc
+absorb retina_display.zc
+absorb inner_eye_panel.rana
+absorb chat_panel.rana
+absorb chemistry_panel.rana
+absorb input_bar.rana
+absorb 2_chemical.rana
+absorb skull.xb
+absorb retina.xb

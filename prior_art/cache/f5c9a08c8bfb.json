@@ -1,0 +1,175 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Confabulation: The Surprising Value of Large Language Model Hallucinations",
+    "abstract": "This paper presents a systematic defense of large language model (LLM) hallucinations or 'confabulations' as a potential resource instead of a categorically negative pitfall. The standard view is that confabulations are inherently problematic and AI research should eliminate this flaw. In this paper, we argue and empirically demonstrate that measurable semantic characteristics of LLM confabulations mirror a human propensity to utilize increased narrativity as a cognitive resource for sense-making and communication. In other words, it has potential value. Specifically, we analyze popular halluc",
+    "date": "2024-06-06",
+    "url": "http://arxiv.org/abs/2406.04175v2",
+    "authors": [
+      "Peiqi Sui",
+      "Eamon Duede",
+      "Sophie Wu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Critical Confabulation: Can LLMs Hallucinate for Social Good?",
+    "abstract": "LLMs hallucinate, yet some confabulations can have social affordances if carefully bounded. We propose critical confabulation (inspired by critical fabulation from literary and social theory), the use of LLM hallucinations to \"fill-in-the-gap\" for omissions in archives due to social and political inequality, and reconstruct divergent yet evidence-bound narratives for history's ``hidden figures''. We simulate these gaps with an open-ended narrative cloze task: asking LLMs to generate a masked event in a character-centric timeline sourced from a novel corpus of unpublished texts. We evaluate aud",
+    "date": "2025-11-11",
+    "url": "http://arxiv.org/abs/2511.07722v2",
+    "authors": [
+      "Peiqi Sui",
+      "Eamon Duede",
+      "Hoyt Long"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Mitigating Multimodal Hallucination via Phase-wise Self-reward",
+    "abstract": "Large Vision-Language Models (LVLMs) still struggle with vision hallucination, where generated responses are inconsistent with the visual input. Existing methods either rely on large-scale annotated data for fine-tuning, which incurs massive computational overhead, or employ static post-hoc strategies that overlook the dynamic nature of hallucination emergence. To address these, we introduce a new self-rewarding framework, enabling dynamic hallucination mitigation at inference time without external supervision. On the empirical side, we reveal that visual hallucination exhibits phase-wise dyna",
+    "date": "2026-04-20",
+    "url": "http://arxiv.org/abs/2604.17982v1",
+    "authors": [
+      "Yu Zhang",
+      "Chuyang Sun",
+      "Kehai Chen"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Are Hallucinations Bad Estimations?",
+    "abstract": "We formalize hallucinations in generative models as failures to link an estimate to any plausible cause. Under this interpretation, we show that even loss-minimizing optimal estimators still hallucinate. We confirm this with a general high probability lower bound on hallucinate rate for generic data distributions. This reframes hallucination as structural misalignment between loss minimization and human-acceptable outputs, and hence estimation errors induced by miscalibration. Experiments on coin aggregation, open-ended QA, and text-to-image support our theory.",
+    "date": "2025-09-25",
+    "url": "http://arxiv.org/abs/2509.21473v1",
+    "authors": [
+      "Hude Liu",
+      "Jerry Yao-Chieh Hu",
+      "Jennifer Yuntong Zhang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Fact-Controlled Diagnosis of Hallucinations in Medical Text Summarization",
+    "abstract": "Hallucinations in large language models (LLMs) during summarization of patient-clinician dialogues pose significant risks to patient care and clinical decision-making. However, the phenomenon remains understudied in the clinical domain, with uncertainty surrounding the applicability of general-domain hallucination detectors. The rarity and randomness of hallucinations further complicate their investigation. In this paper, we conduct an evaluation of hallucination detection methods in the medical domain, and construct two datasets for the purpose: A fact-controlled Leave-N-out dataset -- genera",
+    "date": "2025-05-31",
+    "url": "http://arxiv.org/abs/2506.00448v1",
+    "authors": [
+      "Suhas BN",
+      "Han-Chin Shing",
+      "Lei Xu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Hallucinated Adversarial Learning for Robust Visual Tracking",
+    "abstract": "Humans can easily learn new concepts from just a single exemplar, mainly due to their remarkable ability to imagine or hallucinate what the unseen exemplar may look like in different settings. Incorporating such an ability to hallucinate diverse new samples of the tracked instance can help the trackers alleviate the over-fitting problem in the low-data tracking regime. To achieve this, we propose an effective adversarial approach, denoted as adversarial \"hallucinator\" (AH), for robust visual tracking. The proposed AH is designed to firstly learn transferable non-linear deformations between a p",
+    "date": "2019-06-17",
+    "url": "http://arxiv.org/abs/1906.07008v1",
+    "authors": [
+      "Qiangqiang Wu",
+      "Zhihui Chen",
+      "Lin Cheng"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "First Hallucination Tokens Are Different from Conditional Ones",
+    "abstract": "Large Language Models (LLMs) hallucinate, and detecting these cases is key to ensuring trust. While many approaches address hallucination detection at the response or span level, recent work explores token-level detection, enabling more fine-grained intervention. However, the distribution of hallucination signal across sequences of hallucinated tokens remains unexplored. We leverage token-level annotations from the RAGTruth corpus and find that the first hallucinated token is far more detectable than later ones. This structural property holds across models, suggesting that first hallucination ",
+    "date": "2025-07-28",
+    "url": "http://arxiv.org/abs/2507.20836v4",
+    "authors": [
+      "Jakob Snel",
+      "Seong Joon Oh"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The Information Geometry of Softmax: Probing and Steering",
+    "abstract": "This paper concerns the question of how AI systems encode semantic structure into the geometric structure of their representation spaces. The motivating observation of this paper is that the natural geometry of these representation spaces should reflect the way models use representations to produce behavior. We focus on the important special case of representations that define softmax distributions. In this case, we argue that the natural geometry is information geometry. Our focus is on the role of information geometry on semantic encoding and the linear representation hypothesis. As an illus",
+    "date": "2026-02-17",
+    "url": "http://arxiv.org/abs/2602.15293v1",
+    "authors": [
+      "Kiho Park",
+      "Todd Nief",
+      "Yo Joong Choe"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "TuLiPA: Towards a Multi-Formalism Parsing Environment for Grammar Engineering",
+    "abstract": "In this paper, we present an open-source parsing environment (Tuebingen Linguistic Parsing Architecture, TuLiPA) which uses Range Concatenation Grammar (RCG) as a pivot formalism, thus opening the way to the parsing of several mildly context-sensitive formalisms. This environment currently supports tree-based grammars (namely Tree-Adjoining Grammars, TAG) and Multi-Component Tree-Adjoining Grammars with Tree Tuples (TT-MCTAG)) and allows computation not only of syntactic structures, but also of the corresponding semantic representations. It is used for the development of a tree-based grammar f",
+    "date": "2008-07-23",
+    "url": "http://arxiv.org/abs/0807.3622v1",
+    "authors": [
+      "Laura Kallmeyer",
+      "Timm Lichte",
+      "Wolfgang Maier"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Construction Grammar and Language Models",
+    "abstract": "Recent progress in deep learning and natural language processing has given rise to powerful models that are primarily trained on a cloze-like task and show some evidence of having access to substantial linguistic information, including some constructional knowledge. This groundbreaking discovery presents an exciting opportunity for a synergistic relationship between computational methods and Construction Grammar research. In this chapter, we explore three distinct approaches to the interplay between computational methods and Construction Grammar: (i) computational methods for text analysis, (i",
+    "date": "2023-08-25",
+    "url": "http://arxiv.org/abs/2308.13315v2",
+    "authors": [
+      "Harish Tayyar Madabushi",
+      "Laurence Romain",
+      "Petar Milin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Quantum cloning of steering",
+    "abstract": "Quantum steering in a global state allows an observer to remotely steer a subsystem into different ensembles by performing different local measurements on the other part. We show that, in general, this property cannot be perfectly cloned by any joint operation between a steered subsystem and a third system. Perfect cloning is viable if and only if the initial state is of zero discord. We also investigate the process of cloning the steered qubit of a Bell state using a universal cloning machine. Einstein-Podolsky-Rosen (EPR) steering, which is a type of quantum correlation existing in the state",
+    "date": "2022-04-15",
+    "url": "http://arxiv.org/abs/2204.07322v4",
+    "authors": [
+      "Dian Zhu",
+      "Wei-Min Shang",
+      "Fu-Lin Zhang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The single-photon steering and the quantum mechanical free-interaction measurement are identical phenomena",
+    "abstract": "In this work, firstly, we propose how to experimentally demonstrate the single photon steering phenomenon in a simple way. The quantum steering phenomenon was discovered by Erwin Schrodinger, who reason that the laws of quantum mechanics obliges us to admit that by suitable measurements taken on one of two entangled system, then the state of the other system can be determined and steered. On the other hand, the first proposal about the nonlocal property of a single photon focus on showing the Bell nonlocality by using the single-photon path entanglement. Here, we propose a new experimental sch",
+    "date": "2024-06-21",
+    "url": "http://arxiv.org/abs/2407.01587v2",
+    "authors": [
+      "LM Ar\u00e9valo Aguilar",
+      "Rolando Vel\u00e1zquez Garc\u00eda"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Construction Grammar and Artificial Intelligence",
+    "abstract": "In this chapter, we argue that it is highly beneficial for the contemporary construction grammarian to have a thorough understanding of the strong relationship between the research fields of construction grammar and artificial intelligence. We start by unravelling the historical links between the two fields, showing that their relationship is rooted in a common attitude towards human communication and language. We then discuss the first direction of influence, focussing in particular on how insights and techniques from the field of artificial intelligence play an important role in operationali",
+    "date": "2023-08-31",
+    "url": "http://arxiv.org/abs/2309.00135v1",
+    "authors": [
+      "Katrien Beuls",
+      "Paul Van Eecke"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Minimalist Grammars and Minimalist Categorial Grammars, definitions toward inclusion of generated languages",
+    "abstract": "Stabler proposes an implementation of the Chomskyan Minimalist Program, Chomsky 95 with Minimalist Grammars - MG, Stabler 97. This framework inherits a long linguistic tradition. But the semantic calculus is more easily added if one uses the Curry-Howard isomorphism. Minimalist Categorial Grammars - MCG, based on an extension of the Lambek calculus, the mixed logic, were introduced to provide a theoretically-motivated syntax-semantics interface, Amblard 07. In this article, we give full definitions of MG with algebraic tree descriptions and of MCG, and take the first steps towards giving a pro",
+    "date": "2011-08-25",
+    "url": "http://arxiv.org/abs/1108.5096v1",
+    "authors": [
+      "Maxime Amblard"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Detecting AI Hallucinations in Finance: An Information-Theoretic Method Cuts Hallucination Rate by 92%",
+    "abstract": "Large language models (LLMs) produce fluent but unsupported answers - hallucinations - limiting safe deployment in high-stakes domains. We propose ECLIPSE, a framework that treats hallucination as a mismatch between a model's semantic entropy and the capacity of available evidence. We combine entropy estimation via multi-sample clustering with a novel perplexity decomposition that measures how models use retrieved evidence. We prove that under mild conditions, the resulting entropy-capacity objective is strictly convex with a unique stable optimum. We evaluate on a controlled financial questio",
+    "date": "2025-12-02",
+    "url": "http://arxiv.org/abs/2512.03107v1",
+    "authors": [
+      "Mainak Singha"
+    ]
+  }
+]

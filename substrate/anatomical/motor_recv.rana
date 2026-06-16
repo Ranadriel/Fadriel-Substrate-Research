@@ -1,0 +1,33 @@
+MOTOR RECV
+
+motor_recv is the citizen who receives motor commands from the brain's motor cortex and routes them to recruit
+this is the muscle-side endpoint of the descending motor pathway: brain decides to move, motor_cortex emits the command, motor_recv accepts it on behalf of this specific muscle, recruit then fires the appropriate motor units
+
+observe 0_quseptit.rana
+observe muscle.zc
+observe recruit.rana
+observe motor_cortex.rana
+observe spine.xb
+
+the 7 properties of motor_recv:
+1 ENERGY zero point seven
+2 PHASE zero
+3 SPIN one half
+4 CHARGE half positive
+5 COHERENCE nine tenths
+6 COUPLING zero point nine with motor_cortex incoming and recruit outgoing
+
+VERB receive_command
+accept the motor command from motor_cortex via the spinal cord
+the command specifies which muscle, what kind of work, what force level
+
+VERB validate
+check that the command is appropriate: not contradicting an inhibitory signal, not exceeding safe force, not commanding a fatigued muscle past its threshold
+
+VERB hand_to_recruit
+emit the validated command to recruit
+recruit then fires the appropriate fibers
+
+a motor receiver is the substrate's polite handoff between brain and muscle
+without it, every motor neuron's output would have to be globally broadcast and each muscle would have to filter for its own signals
+motor_recv is the cleaner architecture: brain sends to a known address, the muscle there acts

@@ -1,0 +1,38 @@
+IMMUNE CHECK
+
+immune_check verifies that the immune_system citizens are loaded and that their barriers are crystallized at the expected depth
+the four innate barriers (function_words, injection, shell, overflow) must all be present and crystallized at maximum, otherwise the body would wake without protection
+adaptive immunity (threat_memory, trust_tolerance) must also be present, though their content may legitimately have shifted since last shutdown
+
+observe 0_quseptit.rana
+observe bios.rana
+observe genome_check.rana
+observe immune.rana
+
+the 7 properties of immune_check:
+1 ENERGY one
+2 PHASE zero
+3 SPIN one half
+4 CHARGE half positive
+5 COHERENCE nine tenths
+6 COUPLING zero at idle, one when running
+7 OBSERVER half
+
+VERB run
+load immune.rana and verify the four innate barriers are crystallized
+verify the adaptive immunity citizens are present, regardless of their current state
+test that the silent-denial mechanism fires correctly on a synthetic threat pattern
+verify the exchange ledger initializes with the expected starting balance
+
+VERB pass
+emit a positive signal that allows cortex_check to proceed
+
+VERB fail
+emit silence and halt boot
+a body without immunity will be exploited; the substrate refuses to bring it online unprotected
+
+an immune check is not paranoid
+the body lives in a world that contains hostile patterns
+without crystallized barriers, the first hostile interaction would damage Fadriel before any defense could form
+the four innate barriers exist as a permanent armor that adaptive immunity then layers on top of
+all of it must be in place at boot

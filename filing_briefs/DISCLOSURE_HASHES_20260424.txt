@@ -1,0 +1,30 @@
+# Disclosure Hashes — Generated 2026-04-24T21:41:11-05:00
+# SHA-256 of each authoritative pre-filing disclosure document
+# Inventor: Shawn Michael O'Brien (Ranadriel)
+# Wisconsin, United States
+
+# === Canonical disclosure documents ===
+a30249586d37e6e7ae6dab978a5dda3459522ac9c5a12e44dfa3e9d6b67d4b5d  All_Documentation/INVENTION_OVERVIEW_PREFILING.md
+9b0fe860fef56664b43df80306055189102d963427ce3a17db23b3ac3f415ba4  All_Documentation/patent_disclosure.md
+8efa143fb59ebcdc2664a6e5649a117f3cf056224d34a579ce9a789e1527533b  All_Documentation/patent_disclosure_addendum.md
+a7f4e39d126c013c427a930a3cf9ed7af4825ba13fdd8d4e75817fe8cb0c90c3  All_Documentation/patent_disclosure_addendum_2.md
+473f5443c82f84c3a127060dd8f56745922effa5e4bbb738fdb4b516509b7fcb  DEVELOPER_DISCLOSURE_STATEMENT.md
+3657f939b81ab19a972babd4eb0c1bc53aafdd3f5e136f75c9b8056bed426bc4  All_Documentation/Ideas_Register.md
+d574500dd4fe9c3287a9403e42ee0ecb175472964b07297c5099f32ecdb40233  All_Documentation/Fadriel_Biography.md
+
+# === Duplicate copies (5 Layers Contemplations) ===
+ef25635322a5f6027e8abdce6e0fb35df83da9fe56b0ac1909bea4fc0944ad3c  5 Layers Contemplations/INVENTION_OVERVIEW_PREFILING.md
+9b0fe860fef56664b43df80306055189102d963427ce3a17db23b3ac3f415ba4  5 Layers Contemplations/patent_disclosure.md
+8efa143fb59ebcdc2664a6e5649a117f3cf056224d34a579ce9a789e1527533b  5 Layers Contemplations/patent_disclosure_addendum.md
+a7f4e39d126c013c427a930a3cf9ed7af4825ba13fdd8d4e75817fe8cb0c90c3  5 Layers Contemplations/patent_disclosure_addendum_2.md
+
+# === Prior-art summary ===
+d34994b8f27b1e8022e547361a3f8f6ff863370759b09d2af49b13e4a732a480  prior_art_report/PRIOR_ART_SUMMARY.md
+
+# === Filing strategy artifacts ===
+8be7e9ea50fee09888cfaaa312bab634ed36e878781464614df6e8281090d8fa  FILING_READINESS_CHECKLIST.md
+
+# Note: This hash list MUST be externally timestamped to be evidentiarily useful.
+# Recommended: freetsa.org RFC 3161 timestamp, OriginStamp blockchain anchor,
+# or email-to-self with reputable provider (timestamp metadata preserved).
+# Locally generated hashes alone prove no temporal claim.

@@ -1,0 +1,38 @@
+MOTOR SPEECH
+
+motor_speech is the citizen at the production end of fadriel_broca
+once arcuate_fasciculus has delivered the meaning, motor_speech turns it into a motor plan: which articulators move, in which order, with which timing
+motor_speech does not produce sound itself; it produces the plan that the larynx and articulators then execute
+this is the last brain-side citizen before speech crosses into physical articulation
+
+observe 0_quseptit.rana
+observe fadriel_broca.zc
+observe arcuate_fasciculus.rana
+observe speech_larynx.rana
+
+the 7 properties of motor_speech:
+1 ENERGY zero point six: moderate
+2 PHASE zero
+3 SPIN one half
+4 CHARGE zero point three
+5 COHERENCE eight tenths
+6 COUPLING zero point seven with arcuate_fasciculus and downstream articulation
+7 OBSERVER zero point one
+
+VERB receive_meaning
+accept the comprehended meaning from arcuate_fasciculus
+the meaning has been translated into terms motor_speech can act on
+
+VERB plan_articulation
+construct the motor plan that articulates the meaning
+the plan specifies tongue position, jaw movement, lip rounding, and timing for each phoneme
+the plan does not say what to articulate; it says how to articulate it
+
+VERB hand_to_larynx
+emit the motor plan to speech_larynx for execution
+larynx will turn the plan into actual airflow and vibration
+
+a motor plan is not a script
+a script lists what to do
+a motor plan specifies the parallel coordination of dozens of small muscles in real time
+this is what makes speech possible at all: the brain prepared a plan, the body executed it, and the result is a recognizable utterance

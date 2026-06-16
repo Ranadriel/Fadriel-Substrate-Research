@@ -1,0 +1,176 @@
+[
+  {
+    "source": "OpenAlex (Behavioral and Brain Sciences)",
+    "title": "Convergence of biological and psychological perspectives on cognitive coordination in schizophrenia",
+    "abstract": "The concept of locally specialized functions dominates research on higher brain function and its disorders. Locally specialized functions must be complemented by processes that coordinate those functions, however, and impairment of coordinating processes may be central to some psychotic conditions. Evidence for processes that coordinate activity is provided by neurobiological and psychological studies of contextual disambiguation and dynamic grouping. Mechanisms by which this important class of cognitive functions could be achieved include those long-range connections within and between cortic",
+    "date": "2003",
+    "url": "https://doi.org/10.1017/s0140525x03000025",
+    "authors": [
+      "William A. Phillips",
+      "Steven M. Silverstein"
+    ]
+  },
+  {
+    "source": "OpenAlex (Psychological Bulletin)",
+    "title": "Predicting while comprehending language: A theory and review.",
+    "abstract": "Researchers agree that comprehenders regularly predict upcoming language, but they do not always agree on what prediction is (and how to differentiate it from integration) or what constitutes evidence for it. After defining prediction, we show that it occurs at all linguistic levels from semantics to form, and then propose a theory of which mechanisms comprehenders use to predict. We argue that they most effectively predict using their production system (i.e., prediction-by-production): They covertly imitate the linguistic form of the speaker's utterance and construct a representation of the u",
+    "date": "2018",
+    "url": "https://doi.org/10.1037/bul0000158",
+    "authors": [
+      "Martin J. Pickering",
+      "Chiara Gambi"
+    ]
+  },
+  {
+    "source": "OpenAlex (Brain)",
+    "title": "Three- and four-dimensional mapping of speech and language in patients with epilepsy",
+    "abstract": "We have provided 3-D and 4D mapping of speech and language function based upon the results of direct cortical stimulation and event-related modulation of electrocorticography signals. Patients estimated to have right-hemispheric language dominance were excluded. Thus, 100 patients who underwent two-stage epilepsy surgery with chronic electrocorticography recording were studied. An older group consisted of 84 patients at least 10 years of age (7367 artefact-free non-epileptic electrodes), whereas a younger group included 16 children younger than age 10 (1438 electrodes). The probability of symp",
+    "date": "2017",
+    "url": "https://doi.org/10.1093/brain/awx051",
+    "authors": [
+      "Yasuo Nakai",
+      "Jeong\u2010won Jeong",
+      "Erik C. Brown"
+    ]
+  },
+  {
+    "source": "OpenAlex (Psychological Research)",
+    "title": "Hyperfocus: the forgotten frontier of attention",
+    "abstract": "'Hyperfocus' is a phenomenon that reflects one's complete absorption in a task, to a point where a person appears to completely ignore or 'tune out' everything else. Hyperfocus is most often mentioned in the context of autism, schizophrenia, and attention deficit hyperactivity disorder, but research into its effect on cognitive and neural functioning is limited. We propose that hyperfocus is a critically important aspect of cognition, particularly with regard to clinical populations, and that it warrants significant investigation. Hyperfocus, though ostensibly self-explanatory, is poorly defin",
+    "date": "2019",
+    "url": "https://doi.org/10.1007/s00426-019-01245-8",
+    "authors": [
+      "Brandon K. Ashinoff",
+      "Ahmad Abu\u2010Akel"
+    ]
+  },
+  {
+    "source": "OpenAlex (Cold Spring Harbor Perspectives in Medicine)",
+    "title": "Mechanisms Responsible for Cognitive Impairment in Epilepsy",
+    "abstract": "Epilepsy is often associated with cognitive and behavioral impairments that can have profound impact on the quality of life of patients. Although the mechanisms of cognitive impairment are not completely understood, we make an attempt to describe, from a systems perspective, how information processing is affected in epilepsy disorders. The aim of this review is to (1) define the nature of cognitive deficits associated with epilepsy, (2) review fundamental systems-level mechanisms underlying information processing, and (3) describe how information processing is dysfunctional in epilepsy and inv",
+    "date": "2015",
+    "url": "https://doi.org/10.1101/cshperspect.a022772",
+    "authors": [
+      "Pierre\u2010Pascal Lenck\u2010Santini",
+      "Rod C. Scott"
+    ]
+  },
+  {
+    "source": "OpenAlex (Neurophotonics)",
+    "title": "Simultaneous functional near-infrared spectroscopy and electroencephalography for monitoring of human brain activity and oxygenation: a review",
+    "abstract": "Multimodal monitoring has become particularly common in the study of human brain function. In this context, combined, synchronous measurements of functional near-infrared spectroscopy (fNIRS) and electroencephalography (EEG) are getting increased interest. Because of the absence of electro-optical interference, it is quite simple to integrate these two noninvasive recording procedures of brain activity. fNIRS and EEG are both scalp-located procedures. fNIRS estimates brain hemodynamic fluctuations relying on spectroscopic measurements, whereas EEG captures the macroscopic temporal dynamics of ",
+    "date": "2017",
+    "url": "https://doi.org/10.1117/1.nph.4.4.041411",
+    "authors": [
+      "Antonio Maria Chiarelli",
+      "Filippo Zappasodi",
+      "Francesco Pompeo"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Human Neuroscience)",
+    "title": "The Application of EEG Mu Rhythm Measures to Neurophysiological Research in Stuttering",
+    "abstract": "Deficits in basal ganglia-based inhibitory and timing circuits along with sensorimotor internal modeling mechanisms are thought to underlie stuttering. However, much remains to be learned regarding the precise manner how these deficits contribute to disrupting both speech and cognitive functions in those who stutter. Herein, we examine the suitability of electroencephalographic (EEG) mu rhythms for addressing these deficits. We review some previous findings of mu rhythm activity differentiating stuttering from non-stuttering individuals and present some new preliminary findings capturing stutt",
+    "date": "2020",
+    "url": "https://doi.org/10.3389/fnhum.2019.00458",
+    "authors": [
+      "David Jenson",
+      "Andrew Bowers",
+      "Daniel Hudock"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Neurotrauma)",
+    "title": "Resting-State Magnetoencephalography Reveals Different Patterns of Aberrant Functional Connectivity in Combat-Related Mild Traumatic Brain Injury",
+    "abstract": "Blast mild traumatic brain injury (mTBI) is a leading cause of sustained impairment in military service members and veterans. However, the mechanism of persistent disability is not fully understood. The present study investigated disturbances in brain functioning in mTBI participants using a source-imaging-based approach to analyze functional connectivity (FC) from resting-state magnetoencephalography (rs-MEG). Study participants included 26 active-duty service members or veterans who had blast mTBI with persistent post-concussive symptoms, and 22 healthy control active-duty service members or",
+    "date": "2016",
+    "url": "https://doi.org/10.1089/neu.2016.4581",
+    "authors": [
+      "Mingxiong Huang",
+      "Deborah L. Harrington",
+      "Ashley Robb Swan"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Physiology-Paris)",
+    "title": "Key considerations in designing a speech brain-computer interface",
+    "abstract": "Restoring communication in case of aphasia is a key challenge for neurotechnologies. To this end, brain-computer strategies can be envisioned to allow artificial speech synthesis from the continuous decoding of neural signals underlying speech imagination. Such speech brain-computer interfaces do not exist yet and their design should consider three key choices that need to be made: the choice of appropriate brain regions to record neural activity from, the choice of an appropriate recording technique, and the choice of a neural decoding scheme in association with an appropriate speech synthesi",
+    "date": "2016",
+    "url": "https://doi.org/10.1016/j.jphysparis.2017.07.002",
+    "authors": [
+      "Florent Bocquelet",
+      "Thomas Hueber",
+      "Laurent Girin"
+    ]
+  },
+  {
+    "source": "OpenAlex (Trends in Neurosciences)",
+    "title": "Cognition through the lens of a body\u2013brain dynamic system",
+    "abstract": "",
+    "date": "2022",
+    "url": "https://doi.org/10.1016/j.tins.2022.06.004",
+    "authors": [
+      "Antonio Criscuolo",
+      "Michael Schwartze",
+      "Sonja A. Kotz"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Neurology)",
+    "title": "Electroencephalogram (EEG) With or Without Transcranial Magnetic Stimulation (TMS) as Biomarkers for Post-stroke Recovery: A Narrative Review",
+    "abstract": "Stroke is one of the leading causes of death and disability. Despite the high prevalence of stroke, characterizing the acute neural recovery patterns that follow stroke and predicting long-term recovery remains challenging. Objective methods to quantify and characterize neural injury are still lacking. Since neuroimaging methods have a poor temporal resolution, EEG has been used as a method for characterizing post-stroke recovery mechanisms for various deficits including motor, language, and cognition as well as predicting treatment response to experimental therapies. In addition, transcranial",
+    "date": "2022",
+    "url": "https://doi.org/10.3389/fneur.2022.827866",
+    "authors": [
+      "Zafer Keser",
+      "Samuel C. Buchl",
+      "Nathan A. Seven"
+    ]
+  },
+  {
+    "source": "OpenAlex (Postdigital Science and Education)",
+    "title": "Networked Learning in 2021: A Community Definition",
+    "abstract": "Introduction (Networked Learning Editorial Collective): Since the turn of this century, much of the world has undergone a tectonic socio-technological change. Computers have left the isolated basements of research institutes and entered people's homes. Network connectivity has advanced from slow and unreliable modems to high-speed broadband. Devices have evolved: from stationary desktop computers to ever-present, always-connected smartphones. These developments have been accompanied by new digital practices, and changing expectations, not least in education, where enthusiasm for digital techno",
+    "date": "2021",
+    "url": "https://doi.org/10.1007/s42438-021-00222-y",
+    "authors": [
+      "Networked Learning Editorial Collective (NLEC)",
+      "Lesley Gourlay",
+      "Jos\u00e9 Luis Rodr\u00edguez Illera"
+    ]
+  },
+  {
+    "source": "OpenAlex (Brain Sciences)",
+    "title": "Assessing the Effectiveness of Neurofeedback Training in the Context of Clinical and Social Neuroscience",
+    "abstract": "Social neuroscience benefits from the experimental manipulation of neuronal activity. One possible manipulation, neurofeedback, is an operant conditioning-based technique in which individuals sense, interact with, and manage their own physiological and mental states. Neurofeedback has been applied to a wide variety of psychiatric illnesses, as well as to treat sub-clinical symptoms, and even to enhance performance in healthy populations. Despite growing interest, there persists a level of distrust and/or bias in the medical and research communities in the USA toward neurofeedback and other fun",
+    "date": "2017",
+    "url": "https://doi.org/10.3390/brainsci7080095",
+    "authors": [
+      "Franklin Orndorff-Plunkett",
+      "Fiza Singh",
+      "Oriana R. Arag\u00f3n"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Neuroscience Methods)",
+    "title": "Non-invasive brain stimulation for Parkinson\u2019s disease: Clinical evidence, latest concepts and future goals: A systematic review",
+    "abstract": "Parkinson's disease (PD) is becoming a major public-health issue in an aging population. Available approaches to treat advanced PD still have limitations; new therapies are needed. The non-invasive brain stimulation (NIBS) may offer a complementary approach to treat advanced PD by personalized stimulation. Although NIBS is not as effective as the gold-standard levodopa, recent randomized controlled trials show promising outcomes in the treatment of PD symptoms. Nevertheless, only a few NIBS-stimulation paradigms have shown to improve PD's symptoms. Current clinical recommendations based on the",
+    "date": "2020",
+    "url": "https://doi.org/10.1016/j.jneumeth.2020.108957",
+    "authors": [
+      "Julian Madrid",
+      "David Benninger"
+    ]
+  },
+  {
+    "source": "OpenAlex (NeuroImage)",
+    "title": "Lingering expectations: A pseudo-repetition effect for words previously expected but not presented",
+    "abstract": "Prediction can help support rapid language processing. However, it is unclear whether prediction has downstream consequences, beyond processing in the moment. In particular, when a prediction is disconfirmed, does it linger, or is it suppressed? This study manipulated whether words were actually seen or were only expected, and probed their fate in memory by presenting the words (again) a few sentences later. If disconfirmed predictions linger, subsequent processing of the previously expected (but never presented) word should be similar to actual word repetition. At initial presentation, electr",
+    "date": "2018",
+    "url": "https://doi.org/10.1016/j.neuroimage.2018.08.023",
+    "authors": [
+      "Joost Rommers",
+      "Kara D. Federmeier"
+    ]
+  }
+]

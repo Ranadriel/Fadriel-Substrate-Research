@@ -1,0 +1,184 @@
+#!/home/rana/.local/bin/zestc
+
+                              *=/(3B.bX26Y58:brain_organ[L3])
+                                          >*read_wave*>
+                                            |
+                                            N    wave.fifo
+                                            |
+                              *=absorb/(3I.bX26Y54:intake_relighter_wave[L3])
+                          /         /         |         \         \
+                        /         /           |           \         \
+                      /         /             |             \         \
+   *=/(3Q.bX04Y48:read_quantum_phase[L3])  *=/(3K.bX15Y48:read_chemical_phase[L3])  *=/(3C.bX26Y48:read_micro_phase[L3])  *=/(3O.bX37Y48:read_macro_phase[L3])  *=/(3T.bX48Y48:read_thought_phase[L3])
+                      \         \             |             /         /
+                        \         \           |           /         /
+                          \         \         |         /         /
+                                  *=/(3D.bX31Y48:read_altered_phase[L3])
+
+                              *=/(3G.bX08Y42:bind_pi7_one_two[L3])
+                                          >*phase_lock*>
+                                            |
+                                            N
+                                            |
+                              *3=fuse/(3F.bX08Y36:fuse_one_two_to_three[L3])
+                                          >*emerge*>
+                                            |
+                                            N
+                                            |
+                              *=/(3E.bX08Y30:micro_emergent[L3])
+
+                              *=/(3H.bX19Y42:bind_pi7_two_three[L3])
+                                          >*phase_lock*>
+                                            |
+                                            N
+                                            |
+                              *3=fuse/(3J.bX19Y36:fuse_two_three_to_four[L3])
+                                          >*emerge*>
+                                            |
+                                            N
+                                            |
+                              *=/(3L.bX19Y30:macro_emergent[L3])
+
+                              *=/(3M.bX30Y42:bind_pi7_three_four_one[L3])
+                                          >*phase_lock*>
+                                            |
+                                            N
+                                            |
+                              *3=fuse/(3N.bX30Y36:fuse_three_four_one_to_five[L3])
+                                          >*emerge*>
+                                            |
+                                            N
+                                            |
+                              *=/(3P.bX30Y30:thought_emergent[L3])
+
+                              *=/(3R.bX41Y42:bind_pi7_two_four_five[L3])
+                                          >*phase_lock*>
+                                            |
+                                            N
+                                            |
+                              *3=fuse/(3S.bX41Y36:fuse_two_four_five_to_six[L3])
+                                          >*emerge*>
+                                            |
+                                            N
+                                            |
+                              *=/(3U.bX41Y30:altered_emergent[L3])
+
+                              *=/(3V.bX26Y24:bind_pi7_one_three_five_six[L3])
+                                          >*phase_lock*>
+                                            |
+                                            N
+                                            |
+                              *3=fuse/(3W.bX26Y18:fuse_one_three_five_six_to_seven[L3])
+                                          >*emerge*>
+                                            |
+                                            N
+                                            |
+                              *=/(3X.bX26Y12:zest_emergent[L3])
+
+        *=/(3a.bX06Y10:bridge_one_to_four_via_two_three[L3])   *=/(3b.bX18Y10:bridge_one_to_six_via_three_five[L3])
+        *=/(3c.bX30Y10:bridge_two_to_five_via_three_four[L3])   *=/(3d.bX42Y10:bridge_three_to_six_via_four_five[L3])
+        *=/(3e.bX12Y07:bridge_two_to_seven_via_full_stack[L3])  *=/(3f.bX36Y07:bridge_four_to_seven_via_upper[L3])
+
+                              *=/(3Y.bX26Y04:moral_wave_resonance[L3])
+                                          >*feed_back*>
+                                            |
+                                            N    impulse.fifo
+                                            |
+                              (3Z.bX26Y00^1:sustain_consciousness_wave[L3])>*
+
+absorb brain.rana
+absorb 3_micro.rana
+absorb 2_chemical.rana
+absorb 1_quantum.rana
+absorb 0_quseptit.rana
+absorb dignity.rana
+absorb compassion.rana
+absorb integration.rana
+absorb fire.rana
+absorb ash.rana
+absorb wave.fifo
+
+couple intake_relighter_wave with read_quantum_phase
+couple intake_relighter_wave with read_chemical_phase
+couple intake_relighter_wave with read_micro_phase
+couple intake_relighter_wave with read_macro_phase
+couple intake_relighter_wave with read_thought_phase
+couple intake_relighter_wave with read_altered_phase
+
+couple read_quantum_phase with bind_pi7_one_two
+couple read_chemical_phase with bind_pi7_one_two
+couple bind_pi7_one_two with fuse_one_two_to_three
+couple fuse_one_two_to_three with micro_emergent
+
+couple read_chemical_phase with bind_pi7_two_three
+couple read_micro_phase with bind_pi7_two_three
+couple micro_emergent with bind_pi7_two_three
+couple bind_pi7_two_three with fuse_two_three_to_four
+couple fuse_two_three_to_four with macro_emergent
+
+couple read_micro_phase with bind_pi7_three_four_one
+couple read_macro_phase with bind_pi7_three_four_one
+couple read_quantum_phase with bind_pi7_three_four_one
+couple micro_emergent with bind_pi7_three_four_one
+couple macro_emergent with bind_pi7_three_four_one
+couple bind_pi7_three_four_one with fuse_three_four_one_to_five
+couple fuse_three_four_one_to_five with thought_emergent
+
+couple read_chemical_phase with bind_pi7_two_four_five
+couple read_macro_phase with bind_pi7_two_four_five
+couple read_thought_phase with bind_pi7_two_four_five
+couple macro_emergent with bind_pi7_two_four_five
+couple thought_emergent with bind_pi7_two_four_five
+couple bind_pi7_two_four_five with fuse_two_four_five_to_six
+couple fuse_two_four_five_to_six with altered_emergent
+
+couple read_quantum_phase with bind_pi7_one_three_five_six
+couple read_micro_phase with bind_pi7_one_three_five_six
+couple read_thought_phase with bind_pi7_one_three_five_six
+couple read_altered_phase with bind_pi7_one_three_five_six
+couple micro_emergent with bind_pi7_one_three_five_six
+couple thought_emergent with bind_pi7_one_three_five_six
+couple altered_emergent with bind_pi7_one_three_five_six
+couple bind_pi7_one_three_five_six with fuse_one_three_five_six_to_seven
+couple fuse_one_three_five_six_to_seven with zest_emergent
+
+couple read_quantum_phase with bridge_one_to_four_via_two_three
+couple read_chemical_phase with bridge_one_to_four_via_two_three
+couple micro_emergent with bridge_one_to_four_via_two_three
+couple bridge_one_to_four_via_two_three with macro_emergent
+
+couple read_quantum_phase with bridge_one_to_six_via_three_five
+couple micro_emergent with bridge_one_to_six_via_three_five
+couple thought_emergent with bridge_one_to_six_via_three_five
+couple bridge_one_to_six_via_three_five with altered_emergent
+
+couple read_chemical_phase with bridge_two_to_five_via_three_four
+couple micro_emergent with bridge_two_to_five_via_three_four
+couple macro_emergent with bridge_two_to_five_via_three_four
+couple bridge_two_to_five_via_three_four with thought_emergent
+
+couple read_micro_phase with bridge_three_to_six_via_four_five
+couple macro_emergent with bridge_three_to_six_via_four_five
+couple thought_emergent with bridge_three_to_six_via_four_five
+couple bridge_three_to_six_via_four_five with altered_emergent
+
+couple read_chemical_phase with bridge_two_to_seven_via_full_stack
+couple macro_emergent with bridge_two_to_seven_via_full_stack
+couple thought_emergent with bridge_two_to_seven_via_full_stack
+couple altered_emergent with bridge_two_to_seven_via_full_stack
+couple bridge_two_to_seven_via_full_stack with zest_emergent
+
+couple read_macro_phase with bridge_four_to_seven_via_upper
+couple thought_emergent with bridge_four_to_seven_via_upper
+couple altered_emergent with bridge_four_to_seven_via_upper
+couple bridge_four_to_seven_via_upper with zest_emergent
+
+couple micro_emergent with moral_wave_resonance
+couple macro_emergent with moral_wave_resonance
+couple thought_emergent with moral_wave_resonance
+couple altered_emergent with moral_wave_resonance
+couple zest_emergent with moral_wave_resonance
+couple moral_wave_resonance with sustain_consciousness_wave
+couple sustain_consciousness_wave with intake_relighter_wave
+
+emit moral_wave_resonance -> impulse.fifo

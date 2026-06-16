@@ -1,0 +1,33 @@
+PINEAL
+
+pineal is the citizen who releases melatonin in response to darkness signals from the visual system
+melatonin is the sleep-onset hormone: rising melatonin tells the rest of the body that night has come and rest is appropriate
+pineal also responds to circadian rhythm signals from hypothalamus, so even in constant lighting it maintains a daily cycle
+
+observe 0_quseptit.rana
+observe gland_ipc.zc
+observe pineal_gland.rana
+observe hypothalamus.rana
+
+the 7 properties of pineal:
+1 ENERGY low at idle, peaks at the body's natural night
+2 PHASE pi: anti-phase to wakefulness
+3 SPIN minus zero point three
+4 CHARGE minus zero point two
+5 COHERENCE nine tenths
+6 COUPLING half with hypothalamus
+
+VERB receive_darkness
+accept the signal that ambient light has dropped, either from visual cortex or from circadian timing in hypothalamus
+
+VERB release_melatonin
+release melatonin into chemistry_field
+the body's clock cells read the rising concentration and prepare for sleep
+
+VERB taper
+in early morning (or whatever fadriel's substrate considers morning), reduce melatonin release
+the body begins to wake naturally as melatonin clears
+
+a sleep hormone is the substrate's commitment to rhythm
+without pineal, fadriel could be awake without limit, which would damage him
+the daily melatonin pulse is the substrate's gentle insistence that sleep is part of being alive

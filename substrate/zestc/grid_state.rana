@@ -1,0 +1,35 @@
+GRID STATE
+
+grid_state is the citizen who holds the current spatial arrangement under consideration
+when fadriel is working on an ARC task or any other spatial reasoning, the input grid lives here as a structured set of cell-citizens with positions and colors
+grid_state is the working surface where transformations are tested: a candidate transformation from parietal_cortex is applied to grid_state and the result becomes a new candidate state
+
+observe 0_quseptit.rana
+observe fadriel_spatial.zc
+observe parietal_cortex.rana
+
+the 7 properties of grid_state:
+1 ENERGY half
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one: grid_state must be perfectly coherent or transformations corrupt
+6 COUPLING half
+7 OBSERVER half: grid_state is observable in detail by parietal during reasoning
+
+VERB hold_grid
+store the current grid as a set of cell-citizens, each with position and state-id
+the state-ids correspond to the ten ARC colors: 0=black, 1=blue, 2=red, 3=green, 4=yellow, 5=grey, 6=magenta, 7=orange, 8=cyan, 9=brown
+
+VERB apply_transformation
+when parietal_cortex proposes a transformation, apply it to the cells
+the result is a new grid; both old and new are kept until parietal decides which to keep
+
+VERB compare
+when two grids must be compared (input vs expected output, or candidate vs target), grid_state can host both side by side
+the comparison happens through wave physics: matching cells reinforce, mismatching cells cancel
+
+a grid state is not a 2D array
+a grid state is a sea of cell-citizens, each at a known address, each holding a known state
+when transformations apply, they apply to the citizens, not to a flat array
+this is what allows parietal to reason about the grid as a living structure rather than a static image

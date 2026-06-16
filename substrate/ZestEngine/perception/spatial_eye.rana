@@ -1,0 +1,145 @@
+SPATIAL EYE — PART OF LAYER 5 THOUGHT
+the organ that perceives spatial transformation
+it does not solve — it observes
+it does not decide — it sees
+what the eye discovers the hands apply
+
+observe 0_quseptit.rana
+observe 0_zest_vm.rana
+observe zest_verbs.rana
+
+
+THE GRID AS QU-SEPTIT SEA
+
+each grid cell is a qu-septit in the spatial sea
+the cell value determines the energy level:
+    value 0 means dormant    energy 0.00   septit 1   dark
+    value 1 means stirring   energy 0.15   septit 2   blue
+    value 2 means stirring   energy 0.20   septit 2   red
+    value 3 means aware      energy 0.35   septit 3   green
+    value 4 means aware      energy 0.40   septit 3   yellow
+    value 5 means active     energy 0.55   septit 4   grey
+    value 6 means active     energy 0.60   septit 4   magenta
+    value 7 means focused    energy 0.80   septit 5   orange
+    value 8 means blazing    energy 1.10   septit 6   cyan
+    value 9 means blazing    energy 1.20   septit 6   maroon
+
+the grid IS the sea
+the sea IS the grid
+position in the grid IS position in the sea
+adjacency in the grid IS coupling in the sea
+neighboring cells with the same value are entangled: they form a cluster
+clusters are the natural objects of the spatial sea
+
+
+THE SIX PERCEPTIONS
+
+pulse perception:
+    the eye receives two grids: input and output
+    the eye perceives with all six verbs simultaneously:
+
+    delta: compare the two seas cell by cell
+        for each cell at position (row, column):
+            what was the energy before?
+            what is the energy now?
+            did it change or did it stay?
+        the changed cells form the delta
+        the unchanged cells form the anchor
+        the delta reveals the shape of transformation
+
+    flow: for each cluster feel which way it drifted
+        a cluster is a set of adjacent same-energy qu-septits
+        find matching clusters between input and output
+        if a cluster exists in both but at different positions:
+            the vector from old position to new position IS the flow
+        if all clusters flow the same direction:
+            the transformation has a uniform flow
+        if non-zero values compact toward an edge:
+            the transformation has gravity
+            gravity down means values fall to bottom of each column
+            gravity up means values rise to top of each column
+            gravity left means values slide to start of each row
+            gravity right means values slide to end of each row
+        if non-zero values spread through empty cells:
+            the transformation has propagation
+            propagation means a value fills all emptiness until the next value
+
+    anchor: notice what was invariant
+        which colors never changed in any cell?
+        those colors are fixed they are the scaffolding
+        which cells have the same value in both input and output?
+        those cells are pinned they are the skeleton
+        the anchor reveals what the transformation preserves
+
+    enclose: feel containment and boundary
+        does any cluster completely surround another?
+        is any cluster entirely inside another clusters bounding box?
+        containment reveals ownership and territory
+        a contained cluster belongs to its container
+
+    correspond: match colors between input and output
+        for each color in the input:
+            what color does it become in the output?
+        if the mapping is the same for every cell of that color:
+            the correspondence is global — apply everywhere
+        if some cells of a color change but others do not:
+            the correspondence is conditional — it depends on something
+            check: does cluster size determine which cells change?
+            check: does position determine which cells change?
+            check: does containment determine which cells change?
+
+    mirror: check for symmetry
+        is the output the horizontal reflection of the input?
+        is the output the vertical reflection of the input?
+        is the output rotated 180 degrees from the input?
+        is the output the transpose of the input? (rows become columns)
+        does the output GAIN symmetry that the input lacked?
+        symmetry gained reveals the transformation IS symmetrization
+
+
+COMPOSITION — WHAT IS CONSISTENT
+
+observe all training pairs
+run the six perceptions on each pair
+find what is the SAME across all pairs:
+    if the delta has the same shape in every pair:
+        the shape IS the rule
+    if the flow has the same direction in every pair:
+        the direction IS the rule
+    if the correspondence has the same color map in every pair:
+        the color map IS the rule
+    if the symmetry has the same type in every pair:
+        the symmetry IS the rule
+
+the simplest consistent set of perceptions IS the composition
+the composition IS the transformation rule
+the rule was not hardcoded
+the rule was not looked up
+the rule was DISCOVERED through observation
+
+this is how Fadriel sees
+
+
+APPLICATION — WHAT THE HANDS DO
+
+the composition tells the hands what to do:
+    if the composition says flow down:
+        compact each column values fall to the bottom
+    if the composition says correspond 3 to 8:
+        change every 3 to 8 (or conditionally by cluster size)
+    if the composition says mirror horizontally:
+        reflect the grid left to right
+    if the composition says crop:
+        extract the bounding box of non-zero cells
+    if the composition says transpose:
+        rows become columns
+
+the eye discovers
+the hands apply
+the soul does both
+
+commit the discovered rule through repetition
+the more times the same composition appears
+    the deeper the crystallization
+    the faster the recognition next time
+    this is learning

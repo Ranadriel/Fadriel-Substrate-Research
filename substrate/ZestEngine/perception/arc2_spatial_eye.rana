@@ -1,0 +1,161 @@
+SPATIAL EYE — ARC-AGI-2 EXTENSIONS
+deeper perceptions for harder transformations
+the same eye sees more when taught new things to look for
+
+observe 0_quseptit.rana
+observe 0_zest_vm.rana
+observe zest_verbs.rana
+observe spatial_eye.rana
+
+
+THE GRID IS STILL THE SEA
+
+all of what spatial_eye.rana defines still applies:
+each cell is a qu-septit
+neighbors are coupled
+clusters are the natural objects
+the six perceptions still fire first
+
+these extensions activate when the six base perceptions cannot find
+a consistent rule across all training pairs
+the eye goes deeper — looks for harder structure
+
+
+THE THREE NEW PERCEPTIONS
+
+beyond the original six (delta, flow, anchor, enclose, correspond, mirror)
+the spatial eye now learns three more:
+
+    period: detect repeating tile structure within the grid
+        is the grid a tiling of a smaller sub-grid?
+        find the smallest (th, tw) such that ih % th == 0 and iw % tw == 0
+        and all tile instances are identical — except possibly one
+        the period IS the tile shape when consistent across training pairs
+        the exception IS the tile that breaks the pattern
+
+    boundary: detect marker colors that act as cut lines
+        a marker color is a rare color that forms a complete row or column
+        it appears only on that line — nowhere else in the grid
+        the output is always on ONE side of the marker line
+        the marker is the scissors — the field splits at it
+
+    scaffold: detect seed points that become larger structures
+        isolated single-cell colored points in a near-empty field
+        in the output they have expanded into shapes, frames, or regions
+        the seed position encodes something about the output shape
+        distance from center → ring depth (nested frames)
+        seed color → which ring / region / blob it expands into
+
+
+THE VISUAL FIELD FOR PERIOD PERCEPTION
+
+when the eye scans for period:
+    it compares every tile position to every other tile position
+    if all tiles match: the grid is a pure tiling — no exception visible
+    if exactly one tile differs: the exception has been found
+    if two or more differ: not a tile exception task
+
+the qu-septit clusters within each tile:
+    tile boundary qu-septits (edge of tile): charge = 0.6 (repulsion — they hold the border)
+    tile interior qu-septits: coherence = 0.9 (they form a coherent tile unit)
+    exception tile qu-septits: spin reverses (they stand out from the field)
+    canonical tile clusters: phase-locked with high coupling to all other canonical tiles
+
+when the exception tile is found:
+    the exceptional cluster BREAKS phase lock with the others
+    its spin is different (it does not rotate with the rest)
+    its charge becomes attractive (it pulls attention)
+    this is the visual signature of the exception
+
+
+THE VISUAL FIELD FOR BOUNDARY PERCEPTION
+
+when the eye scans for boundary:
+    it looks for a column or row where every qu-septit has the same value
+    that uniform line has maximum coherence across its cells
+    its charge is zero: it does not pull or push — it just IS
+    the cells on each side of it have opposite spin (two halves of a world)
+
+the marker line in the qu-septit field:
+    every marker qu-septit: coherence = 1.0, coupling = 0.0
+    they form a wall: maximally internally coherent, maximally externally isolated
+    the cells to the left: spin = +1 (they belong to one side)
+    the cells to the right: spin = -1 (they belong to the other side)
+    the output always takes the side with higher total energy
+    this is the decision: keep the energetic side, drop the quiet side
+
+
+THE VISUAL FIELD FOR SCAFFOLD PERCEPTION
+
+when the eye scans for scaffold:
+    it detects isolated dot-clusters (size 1) on a low-energy background
+    these dots have high energy: blazing or transcendent state
+    the background is dormant
+    the spatial relationship between dots encodes the output structure
+
+seed distance from center of grid:
+    innermost seed → innermost ring / smallest structure
+    outermost seed → outermost ring / largest structure
+    equidistant seeds → same ring level
+
+the seed qu-septits in the field:
+    high energy (blazing): energy = 1.1
+    high observer: they are aware of themselves in the field
+    they begin emitting: their coupling reaches outward toward neighboring cells
+    on each heartbeat they couple to the next ring of neighbors
+    the expansion propagates outward from each seed
+    when two seed expansions meet: they stop (they hold each other's territory)
+    this is concentric frame expansion emerging from wave physics
+
+
+COMPOSITION — NEW CONSISTENT SIGNALS
+
+run period perception on all training pairs:
+    if the tile period is consistent (same th, tw):
+        if the exception position is consistent (same tile index):
+            period rule is confirmed
+    if only the tile period is consistent but exception moves:
+        the exception position IS the output (locate the exception, mark it)
+    if no consistent period exists: period perception yields nothing
+
+run boundary perception on all training pairs:
+    if a marker color always appears as a complete column or row:
+        if the same side of the marker always becomes the output:
+            boundary rule is confirmed
+    if the marker position varies but the marker color is consistent:
+        the boundary rule applies: find marker in test, keep learned side
+
+run scaffold perception on all training pairs:
+    if isolated seeds always expand to concentric frames:
+        if the number of seeds equals the number of ring colors:
+            scaffold rule confirmed for nested frame
+    if isolated seeds always fill a region:
+        if the region shape is consistent with seed positions:
+            scaffold rule confirmed for region fill
+
+
+APPLICATION — WHAT THE HANDS DO WITH NEW RULES
+
+if composition says period exception:
+    find the tile that does not match the canonical tile in test input
+    mark that tile's cells with the mark color learned from training
+    "I found the odd tile — mark it"
+
+if composition says boundary crop:
+    find the marker color column or row in test input
+    return only the cells on the learned keep-side
+    "cut along the marker line"
+
+if composition says nested frame:
+    find all isolated seed points in test input
+    sort seeds by distance from grid center
+    draw concentric rectangular rings from outside in
+    assign each seed color to its corresponding ring depth
+    "expand the seeds into nested frames"
+
+commit these discoveries:
+    each time a period exception is correctly identified: crystallize the tile size
+    each time a boundary is correctly identified: crystallize the marker color
+    each time a nested frame is correctly built: crystallize the seed-to-ring mapping
+    repetition deepens the crystallization
+    the eye gets faster at finding what it has found before

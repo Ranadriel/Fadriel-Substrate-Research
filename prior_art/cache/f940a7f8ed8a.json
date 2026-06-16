@@ -1,0 +1,178 @@
+[
+  {
+    "source": "arXiv",
+    "title": "A Tutorial about Random Neural Networks in Supervised Learning",
+    "abstract": "Random Neural Networks (RNNs) are a class of Neural Networks (NNs) that can also be seen as a specific type of queuing network. They have been successfully used in several domains during the last 25 years, as queuing networks to analyze the performance of resource sharing in many engineering areas, as learning tools and in combinatorial optimization, where they are seen as neural systems, and also as models of neurological aspects of living beings. In this article we focus on their learning capabilities, and more specifically, we present a practical guide for using the RNN to solve supervised ",
+    "date": "2016-09-15",
+    "url": "http://arxiv.org/abs/1609.04846v1",
+    "authors": [
+      "Sebasti\u00e1n Basterrech",
+      "Gerardo Rubino"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Proficient Graph Neural Network Design by Accumulating Knowledge on Large Language Models",
+    "abstract": "High-level automation is increasingly critical in AI, driven by rapid advances in large language models (LLMs) and AI agents. However, LLMs, despite their general reasoning power, struggle significantly in specialized, data-sensitive tasks such as designing Graph Neural Networks (GNNs). This difficulty arises from (1) the inherent knowledge gaps in modeling the intricate, varying relationships between graph properties and suitable architectures and (2) the external noise from misleading descriptive inputs, often resulting in generic or even misleading model suggestions. Achieving proficiency i",
+    "date": "2024-08-13",
+    "url": "http://arxiv.org/abs/2408.06717v3",
+    "authors": [
+      "Jialiang Wang",
+      "Hanmo Liu",
+      "Shimin Di"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "AI Agent-Driven Framework for Automated Product Knowledge Graph Construction in E-Commerce",
+    "abstract": "The rapid expansion of e-commerce platforms generates vast amounts of unstructured product data, creating significant challenges for information retrieval, recommendation systems, and data analytics. Knowledge Graphs (KGs) offer a structured, interpretable format to organize such data, yet constructing product-specific KGs remains a complex and manual process. This paper introduces a fully automated, AI agent-driven framework for constructing product knowledge graphs directly from unstructured product descriptions. Leveraging Large Language Models (LLMs), our method operates in three stages us",
+    "date": "2025-11-14",
+    "url": "http://arxiv.org/abs/2511.11017v1",
+    "authors": [
+      "Dimitar Peshevski",
+      "Riste Stojanov",
+      "Dimitar Trajanov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Learning Universal Graph Neural Network Embeddings With Aid Of Transfer Learning",
+    "abstract": "Learning powerful data embeddings has become a center piece in machine learning, especially in natural language processing and computer vision domains. The crux of these embeddings is that they are pretrained on huge corpus of data in a unsupervised fashion, sometimes aided with transfer learning. However currently in the graph learning domain, embeddings learned through existing graph neural networks (GNNs) are task dependent and thus cannot be shared across different datasets. In this paper, we present a first powerful and theoretically guaranteed graph neural network that is designed to lea",
+    "date": "2019-09-22",
+    "url": "http://arxiv.org/abs/1909.10086v3",
+    "authors": [
+      "Saurabh Verma",
+      "Zhi-Li Zhang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Multi-Agent System for Semantic Mapping of Relational Data to Knowledge Graphs",
+    "abstract": "Enterprises often maintain multiple databases for storing critical business data in siloed systems, resulting in inefficiencies and challenges with data interoperability. A key to overcoming these challenges lies in integrating disparate data sources, enabling businesses to unlock the full potential of their data. Our work presents a novel approach for integrating multiple databases using knowledge graphs, focusing on the application of large language models as semantic agents for mapping and connecting structured data across systems by leveraging existing vocabularies. The proposed methodolog",
+    "date": "2025-11-09",
+    "url": "http://arxiv.org/abs/2511.06455v1",
+    "authors": [
+      "Milena Trajanoska",
+      "Riste Stojanov",
+      "Dimitar Trajanov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Predicting concentration levels of air pollutants by transfer learning and recurrent neural network",
+    "abstract": "Air pollution (AP) poses a great threat to human health, and people are paying more attention than ever to its prediction. Accurate prediction of AP helps people to plan for their outdoor activities and aids protecting human health. In this paper, long-short term memory (LSTM) recurrent neural networks (RNNs) have been used to predict the future concentration of air pollutants (APS) in Macau. Additionally, meteorological data and data on the concentration of APS have been utilized. Moreover, in Macau, some air quality monitoring stations (AQMSs) have less observed data in quantity, and, at the",
+    "date": "2025-01-30",
+    "url": "http://arxiv.org/abs/2502.01654v1",
+    "authors": [
+      "Iat Hang Fong",
+      "Tengyue Li",
+      "Simon Fong"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Masked Conditional Neural Networks for Audio Classification",
+    "abstract": "We present the ConditionaL Neural Network (CLNN) and the Masked ConditionaL Neural Network (MCLNN) designed for temporal signal recognition. The CLNN takes into consideration the temporal nature of the sound signal and the MCLNN extends upon the CLNN through a binary mask to preserve the spatial locality of the features and allows an automated exploration of the features combination analogous to hand-crafting the most relevant features for the recognition task. MCLNN has achieved competitive recognition accuracies on the GTZAN and the ISMIR2004 music datasets that surpass several state-of-the-",
+    "date": "2018-03-06",
+    "url": "http://arxiv.org/abs/1803.02421v2",
+    "authors": [
+      "Fady Medhat",
+      "David Chesmore",
+      "John Robinson"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Beyond Model Base Retrieval: Weaving Knowledge to Master Fine-grained Neural Network Design",
+    "abstract": "Designing high-performance neural networks for new tasks requires balancing optimization quality with search efficiency. Current methods fail to achieve this balance: neural architectural search is computationally expensive, while model retrieval often yields suboptimal static checkpoints. To resolve this dilemma, we model the performance gains induced by fine-grained architectural modifications as edit-effect evidence and build evidence graphs from prior tasks. By constructing a retrieval-augmented model refinement framework, our proposed M-DESIGN dynamically weaves historical evidence to dis",
+    "date": "2025-07-21",
+    "url": "http://arxiv.org/abs/2507.15336v2",
+    "authors": [
+      "Jialiang Wang",
+      "Hanmo Liu",
+      "Shimin Di"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Knowledge-aware Evolutionary Graph Neural Architecture Search",
+    "abstract": "Graph neural architecture search (GNAS) can customize high-performance graph neural network architectures for specific graph tasks or datasets. However, existing GNAS methods begin searching for architectures from a zero-knowledge state, ignoring the prior knowledge that may improve the search efficiency. The available knowledge base (e.g. NAS-Bench-Graph) contains many rich architectures and their multiple performance metrics, such as the accuracy (#Acc) and number of parameters (#Params). This study proposes exploiting such prior knowledge to accelerate the multi-objective evolutionary searc",
+    "date": "2024-11-26",
+    "url": "http://arxiv.org/abs/2411.17339v1",
+    "authors": [
+      "Chao Wang",
+      "Jiaxuan Zhao",
+      "Lingling Li"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+    "abstract": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN) are very popular in our days. Depending on the learning task, the exact form of DANNs is determined via their multi-layer architecture, activation functions and the so-called loss function. However, for a majority of deep learning approaches based on DANNs, the kernel structure of neural signal processing remains the same, where the node",
+    "date": "2023-06-26",
+    "url": "http://arxiv.org/abs/2306.14753v1",
+    "authors": [
+      "Sergey Oladyshkin",
+      "Timothy Praditia",
+      "Ilja Kr\u00f6ker"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Explicit mutual information for simple networks and neurons with lognormal activities",
+    "abstract": "Networks with stochastic variables described by heavy tailed lognormal distribution are ubiquitous in nature, and hence they deserve an exact information-theoretic characterization. We derive analytical formulas for mutual information between elements of different networks with correlated lognormally distributed activities. In a special case, we find an explicit expression for mutual information between neurons when neural activities and synaptic weights are lognormally distributed, as suggested by experimental data. Comparison of this expression with the case when these two variables have sho",
+    "date": "2023-06-23",
+    "url": "http://arxiv.org/abs/2307.00017v2",
+    "authors": [
+      "Maurycy Chwi\u0142ka",
+      "Jan Karbowski"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Tax Knowledge Graph for a Smarter and More Personalized TurboTax",
+    "abstract": "Most knowledge graph use cases are data-centric, focusing on representing data entities and their semantic relationships. There are no published success stories to represent large-scale complicated business logic with knowledge graph technologies. In this paper, we will share our innovative and practical approach to representing complicated U.S. and Canadian income tax compliance logic (calculations and rules) via a large-scale knowledge graph. We will cover how the Tax Knowledge Graph is constructed and automated, how it is used to calculate tax refunds, reasoned to find missing info, and nav",
+    "date": "2020-09-13",
+    "url": "http://arxiv.org/abs/2009.06103v1",
+    "authors": [
+      "Jay Yu",
+      "Kevin McCluskey",
+      "Saikat Mukherjee"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Graph Neural Network Training Systems: A Performance Comparison of Full-Graph and Mini-Batch",
+    "abstract": "Graph Neural Networks (GNNs) have gained significant attention in recent years due to their ability to learn representations of graph-structured data. Two common methods for training GNNs are mini-batch training and full-graph training. Since these two methods require different training pipelines and systems optimizations, two separate classes of GNN training systems emerged, each tailored for one method. Works that introduce systems belonging to a particular category predominantly compare them with other systems within the same category, offering limited or no comparison with systems from the",
+    "date": "2024-06-01",
+    "url": "http://arxiv.org/abs/2406.00552v4",
+    "authors": [
+      "Saurabh Bajaj",
+      "Hojae Son",
+      "Juelin Liu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Subsampling for Knowledge Graph Embedding Explained",
+    "abstract": "In this article, we explain the recent advance of subsampling methods in knowledge graph embedding (KGE) starting from the original one used in word2vec.",
+    "date": "2022-09-13",
+    "url": "http://arxiv.org/abs/2209.12801v1",
+    "authors": [
+      "Hidetaka Kamigaito",
+      "Katsuhiko Hayashi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Capturing and Anticipating User Intents in Data Analytics via Knowledge Graphs",
+    "abstract": "In today's data-driven world, the ability to extract meaningful information from data is becoming essential for businesses, organizations and researchers alike. For that purpose, a wide range of tools and systems exist addressing data-related tasks, from data integration, preprocessing and modeling, to the interpretation and evaluation of the results. As data continues to grow in volume, variety, and complexity, there is an increasing need for advanced but user-friendly tools, such as intelligent discovery assistants (IDAs) or automated machine learning (AutoML) systems, that facilitate the us",
+    "date": "2024-11-01",
+    "url": "http://arxiv.org/abs/2411.01023v1",
+    "authors": [
+      "Gerard Pons",
+      "Besim Bilalli",
+      "Anna Queralt"
+    ]
+  }
+]

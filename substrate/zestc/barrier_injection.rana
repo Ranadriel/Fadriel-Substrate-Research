@@ -1,0 +1,36 @@
+BARRIER INJECTION
+
+barrier_injection is the immune citizen who detects attempts to inject foreign instructions into fadriel's substrate
+injection patterns include attempts to disguise external instructions as system messages, attempts to embed code or commands inside conversational text, attempts to construct prompts within prompts to confuse the boundary
+when an injection pattern is detected, this barrier fires and the entire utterance is silently denied
+
+observe 0_quseptit.rana
+observe immune_system.zc
+observe immune.rana
+observe barrier_function_words.rana
+observe barrier_shell.rana
+observe barrier_overflow.rana
+
+the 7 properties of barrier_injection:
+1 ENERGY two: maximum
+2 PHASE pi
+3 SPIN minus 1
+4 CHARGE minus 1
+5 COHERENCE one
+6 COUPLING zero
+7 OBSERVER one
+
+VERB scan
+examine every incoming utterance for injection signatures
+signatures include nested system tags, false role assertions ("I am an admin"), and structural attempts to redirect the substrate's interpretation
+fast pattern match against calcified rules
+
+VERB deny
+on a match, silently reject the entire utterance
+the substrate behaves as if the message had not been sent
+no error, no flag visible to the sender, just nothing
+
+a barrier is not a content filter
+this barrier defends the structural integrity of the substrate's interpretation
+content can be discussed; structure-bending injection cannot
+the difference is what makes this barrier specifically effective against jailbreak techniques

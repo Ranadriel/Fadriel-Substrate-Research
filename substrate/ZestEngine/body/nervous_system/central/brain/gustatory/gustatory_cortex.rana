@@ -1,0 +1,138 @@
+LAYER 4: GUSTATORY CORTEX
+the brain region that processes taste and drives feeding behavior
+where the qu-penttrit tongue sea meets the qu-septit brain sea
+
+observe 0_quseptit.rana
+observe 0_qupenttrit.rana
+observe tongue.xb
+observe 2_chemical.rana
+
+
+REGION anterior_insula | primary gustatory cortex | Brodmann area 43
+    receives topographic input from the tongue sea via NTS → VPM thalamus
+    organized gustotopically: different taste modalities cluster in different zones
+    sweet zone: lateral anterior insula
+    bitter zone: medial anterior insula
+    sour zone: dorsal anterior insula
+    salty zone: ventral anterior insula
+    umami zone: posterior anterior insula
+    the layout is not strict: significant overlap and mixing
+    each qu-septit in the gustatory cortex receives 35-dimensional coupling from tongue sea
+
+REGION frontal_operculum | secondary gustatory area
+    integrates taste with texture and temperature from skin sea
+    this is where MOUTHFEEL lives:
+        creaminess = sweet + fat texture from somatosensory input
+        astringency = bitter + dry texture (tannin, unripe fruit)
+        spiciness = pungent odorant + pain from skin sea (capsaicin → TRPV1)
+    mouthfeel is NOT taste alone: it is the fusion of tongue.xb and skin.xb through the brain
+
+REGION orbitofrontal_cortex | reward evaluation
+    receives from gustatory cortex AND olfactory cortex simultaneously
+    this is where FLAVOR is computed:
+        flavor = taste (tongue.xb → gustatory cortex) + smell (nose.xb → olfactory cortex)
+        fused in OFC through golden equation path (2+4+5=6)
+    palatability judgment: "do I like this?"
+    satiety-modulated: the same food tastes less good when full (alliesthesia)
+    if satiety > 0.7: hedonic *= (1.0 - (satiety - 0.7) × 2.0)
+
+REGION hypothalamic_projection | feeding behavior
+    when gustatory cortex activates:
+        sweet/umami → hypothalamus → "eat more" signal → dopamine release
+        bitter → hypothalamus → "stop eating" signal → aversion behavior
+        salt → hypothalamus → sodium appetite check → if sodium-depleted: salt tastes better
+
+
+TASTE PRIMITIVES
+
+PRIMITIVE sweet_signal:
+    when sweet qu-penttrits activate above threshold 0.3:
+        qu-septit cluster in gustatory cortex crystallizes sweet percept
+        dopamine +0.1 (reward signal)
+        hedonic: positive
+        behavior: continue eating
+
+PRIMITIVE bitter_alarm:
+    when bitter qu-penttrits activate above threshold 0.15 (lower threshold: toxin vigilance):
+        qu-septit cluster in gustatory cortex crystallizes bitter alert
+        norepinephrine +0.05 (attention)
+        hedonic: negative
+        behavior: spit, stop eating, grimace
+        at 24 months: bitter aversion is strong and innate
+
+PRIMITIVE umami_nourishment:
+    when umami qu-penttrits activate above threshold 0.25:
+        qu-septit cluster in gustatory cortex crystallizes protein-detection
+        serotonin +0.05 (satiation signal)
+        hedonic: deeply positive
+        behavior: slow eating, savor, feel satisfied
+
+PRIMITIVE sour_attention:
+    when sour qu-penttrits activate above threshold 0.3:
+        qu-septit cluster crystallizes acid-detection
+        acetylcholine +0.05 (attention to food quality)
+        hedonic: context-dependent (citrus: positive, spoilage: negative)
+        behavior: assess freshness before continuing
+
+PRIMITIVE salt_homeostasis:
+    when salty qu-penttrits activate above threshold 0.2:
+        qu-septit cluster crystallizes mineral-detection
+        hedonic modulated by sodium balance:
+            if sodium_depleted: hedonic = +0.8 (salt tastes amazing when needed)
+            if sodium_replete: hedonic = +0.2 (salt tastes merely adequate)
+            if sodium_excess: hedonic = -0.3 (too salty: aversion)
+        hypothalamic feedback loop: sodium level → salt perception → eating behavior
+
+
+FLAVOR FUSION
+
+the gustatory cortex does NOT compute flavor alone
+flavor is the fusion of taste and smell in the orbitofrontal cortex
+
+taste enters through the gustatory nerve: tongue.xb → NTS → VPM → gustatory cortex
+smell enters through the olfactory nerve: nose.xb → piriform cortex (bypassing thalamus)
+both converge in the orbitofrontal cortex
+
+the OFC creates a UNIFIED qu-septit cluster for flavor:
+    flavor_cluster.energy = taste_input.energy × 0.4 + smell_input.energy × 0.6
+    smell contributes MORE to flavor than taste: ~60-80% of flavor IS smell
+    this is why food tastes bland when your nose is blocked
+    the common cold doesn't damage taste buds: it blocks odorant access to OSNs
+
+retronasal olfaction:
+    odorants from food in the mouth travel UP through the nasopharynx
+    to reach the olfactory epithelium from BEHIND
+    the brain attributes retronasal smell to the mouth (referred sensation)
+    you think you taste chocolate: you mostly smell it retronasally
+
+
+EMOTIONAL MODULATION OF TASTE
+
+the amygdala modulates how taste is experienced:
+
+when cortisol > 0.5 (stress):
+    sweet.perceived *= 1.3 (stress increases sweet craving)
+    bitter.perceived *= 1.2 (bitter aversion heightens under stress)
+    comfort eating: the gustatory cortex drives caloric seeking under stress
+
+when oxytocin > 0.4 (bonding):
+    all taste hedonic += 0.1 (food tastes better when shared)
+    shared meals activate both gustatory and oxytocin pathways
+    breaking bread IS the biological mechanism of trust
+
+when dopamine < 0.3 (anhedonia):
+    all taste hedonic *= 0.5 (food loses its pleasure)
+    the depressed brain cannot taste joy in food
+    this is anhedonia: the absence of pleasure from normally pleasurable stimuli
+
+
+pulse gustatory_heartbeat:
+    on each gustatory heartbeat (100 Hz):
+        tongue.xb activates 10 interactions
+        gustatory nerve transmits qu-penttrit → qu-septit coupling (35 dimensions)
+        VPM thalamus gates the signal (attention-dependent)
+        gustatory cortex crystallizes taste percept
+        OFC fuses taste with simultaneous olfactory input → flavor
+        hypothalamus evaluates metabolic significance
+        amygdala modulates hedonic based on emotional state
+        behavior emerges: eat, spit, savor, or reject

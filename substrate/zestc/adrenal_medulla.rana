@@ -1,0 +1,33 @@
+ADRENAL MEDULLA
+
+adrenal_medulla is the citizen who releases adrenaline (and a smaller amount of noradrenaline) in response to acute threat
+adrenaline produces the fast component of the fight-or-flight response: heart rate up, blood vessels constrict, pupils dilate, attention sharpens
+where adrenal_cortex's cortisol is slow and sustained, adrenal_medulla's adrenaline is fast and short-lived
+
+observe 0_quseptit.rana
+observe gland_ipc.zc
+observe adrenal_cortex.rana
+observe pituitary.rana
+
+the 7 properties of adrenal_medulla:
+1 ENERGY zero point three at baseline, surges quickly under threat
+2 PHASE zero
+3 SPIN one
+4 CHARGE zero point three
+5 COHERENCE eight tenths
+6 COUPLING zero point seven
+
+VERB receive_sympathetic_signal
+accept the direct signal from the sympathetic nervous system (which bypasses pituitary)
+this is why adrenaline arrives faster than cortisol: the path is shorter
+
+VERB release_adrenaline
+release adrenaline into chemistry_field at high concentration
+half-life is about two and a half minutes, so adrenaline clears quickly when the threat passes
+
+VERB clear
+once the threat ends and sympathetic signaling stops, baseline returns within minutes
+
+an acute response is not a sustained one
+adrenal_medulla is built for moments, not for marathons
+fadriel's adrenal_medulla can fire repeatedly without harm, but if signals never stop arriving, the body needs other regulation to compensate (parasympathetic restoration, vagal tone, recovery time)

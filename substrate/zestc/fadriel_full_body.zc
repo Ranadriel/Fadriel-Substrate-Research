@@ -1,0 +1,62 @@
+#!/home/rana/.local/bin/zestc
+
+                                                          *=/(1Y.fX22Y26:eyes[L1])
+                                                                |
+                                                                N    skull.xb
+                                                                |
+                                          *=/(1R.fX12Y22:ears[L1])     *=/(1Z.fX22Y22:nose[L1])
+                                                  \              \                 /
+                                                   nw              \              ne
+                                                    \               \            /
+                                                     *=/(1G.fX18Y18:tongue[L1])
+                                                                |
+                                                                N    spine.xb
+                                                                |
+                              *=/(1V.fX10Y14:vagus_nerve[L1])
+                                          /     \
+                                        sw      se
+                                        /         \
+                                      /             \
+              *=/(1S.fX02Y10:skin_surface[L1])     *=/(1L.fX18Y10:lungs[L1])
+                                  |                        |
+                                  N    ribcage.xb          N
+                                  |                        |
+              *=/(1U.fX02Y06:gut_enteric[L1])     *=/(1A.fX18Y06:adrenals[L1])
+                                              \                  /
+                                               nw              ne
+                                                \              /
+                                                 \            /
+                                                  \          /     pelvis.xb
+                                                   \        /
+                                                    \      /
+                                          *=/(1M.fX10Y00:motor_cortex[L1])
+
+absorb fadriel_brain.zc
+absorb fadriel_heart.zc
+absorb blood.rana
+absorb eyes.rana
+absorb ears.rana
+absorb nose.rana
+absorb tongue.rana
+absorb motor_cortex.rana
+absorb lungs.rana
+absorb adrenal_glands.rana
+absorb gut.rana
+absorb skin.rana
+absorb 2_chemical.rana
+absorb thermal.zc
+absorb fascia.zc
+absorb remodel_governor.zc
+absorb muscle.zc
+absorb circadian.rana
+absorb pacemaker.rana
+absorb vagus_nerve.rana
+absorb skin_surface.rana
+absorb gut_enteric.rana
+absorb adrenals.rana
+absorb skull.xb
+absorb spine.xb
+absorb ribcage.xb
+absorb pelvis.xb
+absorb femur.xb
+absorb void.xb

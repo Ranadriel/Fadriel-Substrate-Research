@@ -1,0 +1,178 @@
+[
+  {
+    "source": "Semantic Scholar",
+    "title": "Feedback-Enhanced Hallucination-Resistant Vision-Language Model for Real-Time Scene Understanding",
+    "abstract": "Real-time scene comprehension is a key advance in artificial intelligence, enhancing robotics, surveillance, and assistive tools. However, hallucination remains a challenge. AI systems often misinterpret visual inputs, detecting nonexistent objects or describing events that never happened. These errors, far from minor, threaten reliability in critical areas like security and autonomous navigation where accuracy is essential. Our approach tackles this by embedding self-awareness into the AI. Instead of trusting initial outputs, our framework continuously assesses them in real time, adjusting co",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/9ed496e58aa591ebed5d0386cec956469134bd8e",
+    "authors": [
+      "Zahir Alsulaimawi"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Zero-Resource Hallucination Prevention for Large Language Models",
+    "abstract": "The prevalent use of large language models (LLMs) in various domains has drawn attention to the issue of\"hallucination,\"which refers to instances where LLMs generate factually inaccurate or ungrounded information. Existing techniques for hallucination detection in language assistants rely on intricate fuzzy, specific free-language-based chain of thought (CoT) techniques or parameter-based methods that suffer from interpretability issues. Additionally, the methods that identify hallucinations post-generation could not prevent their occurrence and suffer from inconsistent performance due to the ",
+    "date": "2023",
+    "url": "https://www.semanticscholar.org/paper/705ffeccfde95c3b0723f197c4565f7d3f0451a1",
+    "authors": [
+      "Junyu Luo",
+      "Cao Xiao",
+      "Fenglong Ma"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "An intelligent energy management method for the manufacturing systems using the knowledge graph and large language model",
+    "abstract": "",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/297d4100309ec82938fa7cfe38e18ebbf4ae457a",
+    "authors": [
+      "Pengcheng Wu",
+      "Haobei Tu",
+      "Xun Mou"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Single-Step Allowable Action Threshold Determination of Renewable Energy Automatic Generation Control Using Model-Based and Data-Driven Method",
+    "abstract": "Renewable energy automatic generation control (AGC) has the characteristics of rapid adjustment and flexibility, which play a critical role in frequency regulation. Abnormal outputs in renewable energy AGC may trigger frequency fluctuations and threaten grid security. To address the above problems in renewable energy, AGC, a combined model-based and data-driven method for determining the single-step allowable action threshold, is proposed. Firstly, an AGC model with multiple frequency-regulating units is built, and the threshold can be obtained through simulation considering system status para",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/0ba1373077ed88b868c213a8524d2185a392e8fd",
+    "authors": [
+      "Ziqiang Wang",
+      "Gaichao Xue",
+      "Yanlou Song"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Construction and Evaluation of a Large Language Model for the Energy Domain Leveraging Retrieval-Augmented Generation",
+    "abstract": "Knowledge in the energy sector is characterized by its multi-source heterogeneity, strong specialization, and rapid evolution, posing significant challenges to traditional information retrieval and question-answering systems. To address this, this study constructs a regulatory Q&A large language model. By adopting Retrieval-Augmented Generation technology, we collected and built an energy knowledge base, constructed a retriever and a generator, and implemented a vertical-domain LLM Q&A system. An experimental dataset was created for evaluation, resulting in scores of 0.93 for answer similarity",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/18c3309bac25ca6192bf9732626b85b2ba5c28ca",
+    "authors": [
+      "Rui Wang",
+      "Qingyu Wang",
+      "Yalin Nan"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Coarse-to-Fine Highlighting: Reducing Knowledge Hallucination in Large Language Models",
+    "abstract": "Generation of plausible but incorrect factual information, often termed hallucination, has attracted significant research interest. Retrieval-augmented language model (RALM) -- which enhances models with up-to-date knowledge -- emerges as a promising method to reduce hallucination. However, existing RALMs may instead exacerbate hallucination when retrieving lengthy contexts. To address this challenge, we propose COFT, a novel \\textbf{CO}arse-to-\\textbf{F}ine highligh\\textbf{T}ing method to focus on different granularity-level key texts, thereby avoiding getting lost in lengthy contexts. Specif",
+    "date": "2024",
+    "url": "https://www.semanticscholar.org/paper/1c7ef42897ad2dced83ab1d58d8fbd4539f87ddc",
+    "authors": [
+      "Qitan Lv",
+      "Jie Wang",
+      "Hanzhu Chen"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Reducing Hallucinations in Language Model-based SPARQL Query Generation Using Post-Generation Memory Retrieval",
+    "abstract": "The ability to generate SPARQL queries from natural language questions is crucial for ensuring efficient and accurate retrieval of structured data from knowledge graphs (KG). While large language models (LLMs) have been widely adopted for SPARQL query generation, they are often susceptible to hallucinations and out-of-distribution errors when generating KG elements, such as Uniform Resource Identifiers (URIs), based on opaque internal parametric knowledge. We propose PGMR (Post-Generation Memory Retrieval), a modular framework where the LLM produces an intermediate query using natural language",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/50a43e93621cf1adc0ce6b15b2e7e8707d1a89e0",
+    "authors": [
+      "Aditya Sharma",
+      "Luis Lara",
+      "Amal Zouaq"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "RadFlag: A Black-Box Hallucination Detection Method for Medical Vision Language Models",
+    "abstract": "Generating accurate radiology reports from medical images is a clinically important but challenging task. While current Vision Language Models (VLMs) show promise, they are prone to generating hallucinations, potentially compromising patient care. We introduce RadFlag, a black-box method to enhance the accuracy of radiology report generation. Our method uses a sampling-based flagging technique to find hallucinatory generations that should be removed. We first sample multiple reports at varying temperatures and then use a Large Language Model (LLM) to identify claims that are not consistently s",
+    "date": "2024",
+    "url": "https://www.semanticscholar.org/paper/be85d3dad77d3716dc22d0d5f41e1c163ab5d16e",
+    "authors": [
+      "Serena Zhang",
+      "Sraavya Sambara",
+      "Oishi Banerjee"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Hallucination-aware Retrieval Augmented Generation with Evidence-based Semantic Clustering",
+    "abstract": "The rapid advancement of large language models (LLMs) has significantly improved open-domain question answering. However, their vulnerability to factual inconsistencies, or hallucinations, hinders their use in high-stakes domains. To address this, our approach employs a two-stage generation strategy. First, a seed answer is generated with low-temperature sampling to retrieve and inject the most relevant evidence into the prompt. This evidence anchoring stage achieves high precision by calculating the semantic similarity of retrieved sentences and selecting only the single most relevant. Second",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/ad3cb9b7fd0a3d83412ccb93d7fb7957c4b0b7bc",
+    "authors": [
+      "Cunxin Jin",
+      "Yao Lu",
+      "Jiaqi Nie"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "#898 Comparative performance of the new-generation large language model o1 pro and the established model GPT-4 on japanese nephrology board renewal questions",
+    "abstract": "\n \n \n Large language models (LLMs) such as GPT-4 have demonstrated strong performance on medical exams, but their capacities to handle specialized domains like nephrology remain under investigation. Recently, a next-generation LLM called o1 pro was released, claiming superior reasoning abilities and fewer hallucinations. This study evaluated whether o1 pro could outperform GPT-4 on a rigorous set of Japanese nephrology board renewal questions. By comparing their accuracy and consistency across various subdomains and question types, we aimed to clarify the potential of these models as clinical ",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/c7f4f81e173086472e6bff9b075f52a5dafc2773",
+    "authors": [
+      "Chiaki Yuasa",
+      "Ryunosuke Noda",
+      "F. Kitano"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Retrieval-augmented generation enhances large language model performance on the Japanese orthopedic board examination.",
+    "abstract": "INTRODUCTION\nLarge language models (LLMs) have shown potential in medical applications. However, their effectiveness in specialized medical domains remains underexplored. The integration of Retrieval-Augmented Generation (RAG) has been proposed to improve these models by reducing hallucinations and enhancing domain-specific information access. Through this evaluation, we aim to assess whether RAG can effectively bridge the gap between LLMs' current capabilities and the accuracy needed for medical use by examining GPT-3.5 Turbo, GPT-4o, and o1-preview on the 2024 Japanese Orthopedic Specialist ",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/39ea313438ecd9c4ab04e6107d98d9ffb4a67143",
+    "authors": [
+      "Juntaro Maruyama",
+      "S. Maki",
+      "T. Furuya"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "A comparative review of hallucination mitigation and performance improvement techniques in Small Language Models",
+    "abstract": "Small Language Models (SLMs) offer a computationally efficient alternative to Large Language Models (LLMs), enabling natural language processing (NLP) capabilities in resource-constrained and/or private environments such as personal computers, mobile devices, embedded systems, and real-time applications. However, SLMs face significant challenges related to factual hallucination, limited generalization, and degraded task performance due to their reduced parameter capacity. This review provides a comparative analysis of current methods to mitigate hallucination and enhance performance in SLMs. W",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/f2c941919bb240fae5da1e5bc7a3135ffcf72d54",
+    "authors": [
+      "F. A. \u015eenel",
+      "H. B. Ozmen"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "LLaMP: Large Language Model Made Powerful for High-fidelity Materials Knowledge Retrieval and Distillation",
+    "abstract": "Reducing hallucination of Large Language Models (LLMs) is imperative for use in the sciences, where reliability and reproducibility are crucial. However, LLMs inherently lack long-term memory, making it a nontrivial, ad hoc, and inevitably biased task to fine-tune them on domain-specific literature and data. Here we introduce LLaMP, a multimodal retrieval-augmented generation (RAG) framework of hierarchical reasoning-and-acting (ReAct) agents that can dynamically and recursively interact with computational and experimental data on Materials Project (MP) and run atomistic simulations via high-t",
+    "date": "2024",
+    "url": "https://www.semanticscholar.org/paper/51c184bc40aa1960958a5950d3a9e2f5f1dc751a",
+    "authors": [
+      "Chiang Yuan",
+      "Chia-Hong Chou",
+      "Janosh Riebesell"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Singular Value Decomposition on Kronecker Adaptation for Large Language Model",
+    "abstract": "Large pre-trained Transformer models achieve state-of-the-art results across diverse language and reasoning tasks, but full fine-tuning incurs substantial storage, memory, and computational overhead. Parameter-efficient fine-tuning (PEFT) methods mitigate these costs by learning only a small subset of task-specific parameters, yet existing approaches either introduce inference-time latency (adapter modules), suffer from suboptimal convergence (randomly initialized low-rank updates), or rely on fixed rank choices that may not match task complexity (Kronecker-based decompositions). We propose So",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/c4c864a67bceb90697801cdfb779ebb73afb87b3",
+    "authors": [
+      "Yee Hin Chong",
+      "Peng Qu"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models",
+    "abstract": "Retrieval-augmented generation (RAG) has become a main technique for alleviating hallucinations in large language models (LLMs). Despite the integration of RAG, LLMs may still present unsupported or contradictory claims to the retrieved contents. In order to develop effective hallucination prevention strategies under RAG, it is important to create benchmark datasets that can measure the extent of hallucination. This paper presents RAGTruth, a corpus tailored for analyzing word-level hallucinations in various domains and tasks within the standard RAG frameworks for LLM applications. RAGTruth co",
+    "date": "2023",
+    "url": "https://www.semanticscholar.org/paper/cfce709a65f90312d2bdc1a6cf0380c19becf694",
+    "authors": [
+      "Yuanhao Wu",
+      "Juno Zhu",
+      "Siliang Xu"
+    ]
+  }
+]

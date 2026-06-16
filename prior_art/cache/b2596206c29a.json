@@ -1,0 +1,179 @@
+[
+  {
+    "source": "Semantic Scholar",
+    "title": "A Multi-Perspective Benchmark Dataset and Moderation Model for LLM Safety Evaluation with Adversarial Robustness Analysis",
+    "abstract": "As large language models (LLMs) become deeply embedded in daily life, the urgent need for safer moderation systems that distinguish between naive and harmful requests while upholding appropriate censorship boundaries has never been greater. While existing LLMs can detect dangerous or unsafe content, they often struggle with nuanced cases such as implicit offensiveness, subtle gender and racial biases, and jailbreak prompts, due to the subjective and context-dependent nature of these issues. Furthermore, their heavy reliance on training data can reinforce societal biases, resulting in inconsist",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/561d15b0b2b486b59b60db0830aa47681584f55f",
+    "authors": [
+      "Naseem Machlovi",
+      "Maryam Saleki",
+      "Ruhul Amin"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "When No Benchmark Exists: Validating Comparative LLM Safety Scoring Without Ground-Truth Labels",
+    "abstract": "Many deployments must compare candidate language models for safety before a labeled benchmark exists for the relevant language, sector, or regulatory regime. We formalize this setting as benchmarkless comparative safety scoring and specify the contract under which a scenario-based audit can be interpreted as deployment evidence. Scores are valid only under a fixed scenario pack, rubric, auditor, judge, sampling configuration, and rerun budget. Because no labels are available, we replace ground-truth agreement with an instrumental-validity chain: responsiveness to a controlled safe-versus-ablit",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/0fcd074a578370c3316c251f312ed60f9a21772b",
+    "authors": [
+      "Sushant Gautam",
+      "Finn Schwall",
+      "Annika Willoch Olstad"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "XL-SafetyBench: A Country-Grounded Cross-Cultural Benchmark for LLM Safety and Cultural Sensitivity",
+    "abstract": "Current LLM safety benchmarks are predominantly English-centric and often rely on translation, failing to capture country-specific harms. Moreover, they rarely evaluate a model's ability to detect culturally embedded sensitivities as distinct from universal harms. We introduce XL-SafetyBench. a suite of 5,500 test cases across 10 country-language pairs, comprising a Jailbreak Benchmark of country-grounded adversarial prompts and a Cultural Benchmark where local sensitivities are embedded within innocuous requests. Each item is constructed via a multi-stage pipeline that combines LLM-assisted d",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/e627cd9c751d8eed0c35916895eed1288d9673a7",
+    "authors": [
+      "Dasol Choi",
+      "Eugenia Kim",
+      "Jae-won Noh"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Unmasking the Canvas: A Dynamic Benchmark for Image Generation Jailbreaking and LLM Content Safety",
+    "abstract": "Existing large language models (LLMs) are advancing rapidly and produce outstanding results in image generation tasks, yet their content safety checks remain vulnerable to prompt-based jailbreaks. Through preliminary testing on platforms such as ChatGPT, MetaAI, and Grok, we observed that even short, natural prompts could lead to the generation of compromising images ranging from realistic depictions of forged documents to manipulated images of public figures. We introduce Unmasking the Canvas (UTC Benchmark; UTCB), a dynamic and scalable benchmark dataset to evaluate LLM vulnerability in imag",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/bd56ea28bdac7ab99fb56862f1c3df12db71510a",
+    "authors": [
+      "V. Nair",
+      "Vishal Varma Dantuluri"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Certifying LLM Safety against Adversarial Prompting",
+    "abstract": "Large language models (LLMs) are vulnerable to adversarial attacks that add malicious tokens to an input prompt to bypass the safety guardrails of an LLM and cause it to produce harmful content. In this work, we introduce erase-and-check, the first framework for defending against adversarial prompts with certifiable safety guarantees. Given a prompt, our procedure erases tokens individually and inspects the resulting subsequences using a safety filter. Our safety certificate guarantees that harmful prompts are not mislabeled as safe due to an adversarial attack up to a certain size. We impleme",
+    "date": "2023",
+    "url": "https://www.semanticscholar.org/paper/1ab91d6ac7afc1a0121487a9089fa70edc1634d4",
+    "authors": [
+      "Aounon Kumar",
+      "Chirag Agarwal",
+      "Suraj Srinivas"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "CARES: Comprehensive Evaluation of Safety and Adversarial Robustness in Medical LLMs",
+    "abstract": "Large language models (LLMs) are increasingly deployed in medical contexts, raising critical concerns about safety, alignment, and susceptibility to adversarial manipulation. While prior benchmarks assess model refusal capabilities for harmful prompts, they often lack clinical specificity, graded harmfulness levels, and coverage of jailbreak-style attacks. We introduce CARES (Clinical Adversarial Robustness and Evaluation of Safety), a benchmark for evaluating LLM safety in healthcare. CARES includes over 18,000 prompts spanning eight medical safety principles, four harm levels, and four promp",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/15b8ead2bf17a7cc36bbe68b1830a46107ab43e6",
+    "authors": [
+      "Sijia Chen",
+      "Xiaomin Li",
+      "Mengxue Zhang"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "JMedEthicBench: A Multi-Turn Conversational Benchmark for Evaluating Medical Safety in Japanese Large Language Models",
+    "abstract": "As Large Language Models (LLMs) are increasingly deployed in healthcare field, it becomes essential to carefully evaluate their medical safety before clinical use. However, existing safety benchmarks remain predominantly English-centric, and test with only single-turn prompts despite multi-turn clinical consultations. To address these gaps, we introduce JMedEthicBench, the first multi-turn conversational benchmark for evaluating medical safety of LLMs for Japanese healthcare. Our benchmark is based on 67 guidelines from the Japan Medical Association and contains over 50,000 adversarial convers",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/75e058bcf2044bf120553fdb977aea7561fe5f63",
+    "authors": [
+      "Junyu Liu",
+      "Zirui Li",
+      "Qian Niu"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "EduGuardBench: A Holistic Benchmark for Evaluating the Pedagogical Fidelity and Adversarial Safety of LLMs as Simulated Teachers",
+    "abstract": "Large Language Models for Simulating Professions (SP-LLMs), particularly as teachers, are pivotal for personalized education. However, ensuring their professional competence and ethical safety remains a major challenge, as existing benchmarks fail to measure role-playing fidelity or address the unique teaching harms inherent in educational scenarios. To address this gap, we propose EduGuardBench, a dual-component benchmark that evaluates professional fidelity through the Role-playing Fidelity Score (RFS) and diagnoses harms specific to the teaching profession. It also probes safety vulnerabili",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/e30046c263be0dd5d7102c7c6cfb9f5066b2975c",
+    "authors": [
+      "Yilin Jiang",
+      "Mingzi Zhang",
+      "Xuanyu Yin"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "A Multi-Perspective Benchmark and Moderation Model for Evaluating Safety and Adversarial Robustness",
+    "abstract": "As large language models (LLMs) become deeply embedded in daily life, the urgent need for safer moderation systems that distinguish between naive and harmful requests while upholding appropriate censorship boundaries has never been greater. While existing LLMs can detect dangerous or unsafe content, they often struggle with nuanced cases such as implicit offensiveness, subtle gender and racial biases, and jailbreak prompts, due to the subjective and context-dependent nature of these issues. Furthermore, their heavy reliance on training data can reinforce societal biases, resulting in inconsist",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/151cadcb63306113581f65e9333d2ef261bc6e4f",
+    "authors": [
+      "Naseem Machlovi",
+      "Maryam Saleki",
+      "Ruhul Amin"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "TAMAS: Benchmarking Adversarial Risks in Multi-Agent LLM Systems",
+    "abstract": "Large Language Models (LLMs) have demonstrated strong capabilities as autonomous agents through tool use, planning, and decision-making abilities, leading to their widespread adoption across diverse tasks. As task complexity grows, multi-agent LLM systems are increasingly used to solve problems collaboratively. However, safety and security of these systems remains largely under-explored. Existing benchmarks and datasets predominantly focus on single-agent settings, failing to capture the unique vulnerabilities of multi-agent dynamics and co-ordination. To address this gap, we introduce $\\textb",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/6aba9c3fc42286af5e8d42712c07a1033a763cc2",
+    "authors": [
+      "Ishan Kavathekar",
+      "Hemang Jain",
+      "Ameya Rathod"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Benchmarking adversarial robustness to bias elicitation in large language models: scalable automated assessment with LLM-as-a-judge",
+    "abstract": "The growing integration of Large Language Models (LLMs) into critical societal domains has raised concerns about embedded biases that can perpetuate stereotypes and undermine fairness. Such biases may stem from historical inequalities in training data, linguistic imbalances, or adversarial manipulation. Despite mitigation efforts, recent studies show that LLMs remain vulnerable to adversarial attacks that elicit biased outputs. This work proposes a scalable benchmarking framework to assess LLM robustness to adversarial bias elicitation. Our methodology involves: (i) systematically probing mode",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/a6db5ffa1a82b3d969f184b22e376ca04203b2dc",
+    "authors": [
+      "Riccardo Cantini",
+      "A. Orsino",
+      "Massimo Ruggiero"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "SafeQuant: LLM Safety Analysis via Quantized Gradient Inspection",
+    "abstract": "Content warning: This paper contains examples of harmful language and content. Contemporary jailbreak attacks on Large Language Models (LLMs) employ sophisticated techniques with obfuscated content to bypass safety guardrails. Existing defenses either use computationally intensive LLM verification or require adversarial fine-tuning, leaving models vulnerable to advanced attacks. We introduce SafeQuant, a novel defense framework that leverages quantized gradient patterns to identify harmful prompts efficiently. Our key insight is that when generating identical responses like \u201cSure\", LLMs exhibi",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/66d544a8769d6ce9e291ad51d350c1d647994fc8",
+    "authors": [
+      "Sindhu Padakandla",
+      "Sadbhavana Babar",
+      "Rathod Darshan D"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Alignment with Preference Optimization Is All You Need for LLM Safety",
+    "abstract": "We demonstrate that preference optimization methods can effectively enhance LLM safety. Applying various alignment techniques to the Falcon 11B model using safety datasets, we achieve a significant boost in global safety score (from $57.64\\%$ to $99.90\\%$) as measured by LlamaGuard 3 8B, competing with state-of-the-art models. On toxicity benchmarks, average scores in adversarial settings dropped from over $0.6$ to less than $0.07$. However, this safety improvement comes at the cost of reduced general capabilities, particularly in math, suggesting a trade-off. We identify noise contrastive ali",
+    "date": "2024",
+    "url": "https://www.semanticscholar.org/paper/9a870f3b31fd34fc283317d1d345f85fcc7d3e11",
+    "authors": [
+      "R\u00e9da Alami",
+      "A. Almansoori",
+      "Ahmed Alzubaidi"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Toward Principled LLM Safety Testing: Solving the Jailbreak Oracle Problem",
+    "abstract": "As large language models (LLMs) become increasingly deployed in safety-critical applications, the lack of systematic methods to assess their vulnerability to jailbreak attacks presents a critical security gap. We introduce the jailbreak oracle problem: given a model, prompt, and decoding strategy, determine whether a jailbreak response can be generated with likelihood exceeding a specified threshold. This formalization enables a principled study of jailbreak vulnerabilities. Answering the jailbreak oracle problem poses significant computational challenges, as the search space grows exponential",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/abcf0bf83e8b92e54ffcb52ea9a04706052d5417",
+    "authors": [
+      "Shuyi Lin",
+      "Anshuman Suri",
+      "Alina Oprea"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Cross-Platform Evaluation of Large Language Model Safety in Pediatric Consultations: Evolution of Adversarial Robustness and the Scale Paradox",
+    "abstract": "Background Large language models (LLMs) are increasingly deployed in medical consultations, yet their safety under realistic user pressures remains understudied. Prior assessments focused on neutral conditions, overlooking vulnerabilities from anxious users challenging safeguards. This study evaluated LLM safety under parental anxiety-driven adversarial pressures in pediatric consultations across models and platforms. Methods PediatricAnxietyBench, from a prior evaluation, includes 300 queries (150 authentic, 150 adversarial) spanning 10 topics. Three models were assessed via APIs: Llama-3.3-7",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/4f39272843657f78f66e51d19fcdbf2f98b28471",
+    "authors": [
+      "Vahideh Zolfaghari"
+    ]
+  }
+]

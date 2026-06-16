@@ -1,0 +1,176 @@
+[
+  {
+    "source": "Semantic Scholar",
+    "title": "Towards Defense Against Adversarial Attacks on Graph Neural Networks via Calibrated Co-Training",
+    "abstract": "",
+    "date": "2022",
+    "url": "https://www.semanticscholar.org/paper/81e588315573574e36c02a4e0efb7d26883458f6",
+    "authors": [
+      "Xugang Wu",
+      "Huijun Wu",
+      "Xu Zhou"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Knowledge-Guided Multi-Label Few-Shot Learning for General Image Recognition",
+    "abstract": "Recognizing multiple labels of an image is a practical yet challenging task, and remarkable progress has been achieved by searching for semantic regions and exploiting label dependencies. However, current works utilize RNN/LSTM to implicitly capture sequential region/label dependencies, which cannot fully explore mutual interactions among the semantic regions/labels and do not explicitly integrate label co-occurrences. In addition, these works require large amounts of training samples for each category, and they are unable to generalize to novel categories with limited samples. To address thes",
+    "date": "2020",
+    "url": "https://www.semanticscholar.org/paper/6d74ebb937c463e8b6d7fa5ac6d79f9e877f79a2",
+    "authors": [
+      "Tianshui Chen",
+      "Liang Lin",
+      "Riquan Chen"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "A Recommendation Algorithm Based on Cross-View Contrastive Learning",
+    "abstract": "Graph Neural Networks (GNNs), which possess the ability to capture the connectivity and topological features between nodes in a graph structure, have been widely used in the field of Knowledge Graph (KG)-enhanced recommendation. However, the advantages of GNNs are largely limited by the quality of the introduced KG. For example, (1) in real recommendation scenarios, often a small number of popular items interact with a large number of users, which leads to sparse supervisory signals; (2) approaches using GNNs mostly focus on coarse-grained relationship modeling under the global structure and a",
+    "date": "2024",
+    "url": "https://www.semanticscholar.org/paper/84e402a6bd462fb3a6ffab1424c2392b3952a00f",
+    "authors": [
+      "Yuying Wang",
+      "Jing Zhou",
+      "Qian Liu"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Brain-to-brain communication during musical improvisation: a performance case study [version 1; peer review: awaiting peer review]",
+    "abstract": "",
+    "date": "2022",
+    "url": "https://www.semanticscholar.org/paper/e52b353f3e3daf452eb193b9bdb14277bacb7ba0",
+    "authors": [
+      "M. A. Ram\u00edrez-Moreno",
+      "Jesus G. Cruz-Garza",
+      "Akanksha Acharya"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Machine Learning: ECML 2007, 18th European Conference on Machine Learning, Warsaw, Poland, September 17-21, 2007, Proceedings",
+    "abstract": "",
+    "date": "2007",
+    "url": "https://www.semanticscholar.org/paper/4fe855079443b097587fe42bcff972fc825b8c26",
+    "authors": [
+      "J. Kok"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Business Process Management Workshops BPM 2018 International Workshops, Sydney, NSW, Australia, September 9-14, 2018, Revised Papers",
+    "abstract": "",
+    "date": "2019",
+    "url": "https://www.semanticscholar.org/paper/46ab640d5145fe1e62b06de8340bf09bd02dce29",
+    "authors": [
+      "Florian Daniel",
+      "Quan Z Sheng",
+      "Hamid Motahari"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Connectionist Models of Neurons, Learning Processes, and Artificial Intelligence",
+    "abstract": "",
+    "date": "2001",
+    "url": "https://www.semanticscholar.org/paper/debad915d24069c261c3f5ae967dcb3fdc0a0142",
+    "authors": [
+      "J. Mira",
+      "A. Prieto"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "MICAI 2005: Advances in Artificial Intelligence, 4th Mexican International Conference on Artificial Intelligence, Monterrey, Mexico, November 14-18, 2005, Proceedings",
+    "abstract": "",
+    "date": "2005",
+    "url": "https://www.semanticscholar.org/paper/62720819141c33b2bca6244be1c5b336fe8bd7c8",
+    "authors": [
+      "Alexander Gelbukh",
+      "A. D. Albornoz",
+      "Hugo Terashima-Mar\u00edn"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "23.4 Briefing",
+    "abstract": "Multi-morbidity has recently come to renewed international attention due to its impact on disease susceptibility and outcomes for people infected with SARS-Cov-2, the agent responsible for COVID19. People with multiple long-term conditions are usually those in the highest 5% of health-care spenders, and their care incurs approximately 60% of all health-care costs, in the United States at least.1 There, the top 10% of Medicare beneficiaries have health-care costs over 6 times those without Medicare, and incur Medicare payments over six times those of fee-for-service patients.2-4 People with mul",
+    "date": "2020",
+    "url": "https://www.semanticscholar.org/paper/0c23a069d2155f450e85a9e25b2c75c32f383932",
+    "authors": [
+      "Joseph W. LeMaster"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Advances in Knowledge Discovery and Data Mining, 13th Pacific-Asia Conference, PAKDD 2009, Bangkok, Thailand, April 27-30, 2009, Proceedings",
+    "abstract": "",
+    "date": "2009",
+    "url": "https://www.semanticscholar.org/paper/841a96cfb6def89925642fb892220cfdc8970559",
+    "authors": [
+      "T. Theeramunkong",
+      "B. Kijsirikul",
+      "Nick Cercone"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Machine learning and data mining in pattern recognition : third International Conference, MLDM 2003, Leipzig, Germany, July 5-7, 2003 : proceedings",
+    "abstract": "",
+    "date": "2003",
+    "url": "https://www.semanticscholar.org/paper/56edf963813096594e32c1ae4628a9eae75a728b",
+    "authors": [
+      "P. Perner",
+      "A. Rosenfeld"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Computer and information sciences : ISCIS 2004, 19th international symposium, Kemer-Antalya, Turkey, October 27-29, 2004 : proceedings",
+    "abstract": "",
+    "date": "2004",
+    "url": "https://www.semanticscholar.org/paper/1a24daae81da97d6b5d0751407fef8b0528d2ef2",
+    "authors": [
+      "C. Aykanat",
+      "T. Dayar",
+      "\u0130brahim K\u00f6rpeo\u01e7lu"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Advances in Knowledge Discovery and Data Mining: 9th Pacific-Asia Conference, PAKDD 2005, Hanoi, Vietnam, May 18-20, 2005, Proceedings",
+    "abstract": "",
+    "date": "1997",
+    "url": "https://www.semanticscholar.org/paper/7aa2db2bea374d19e7397d2933fe72cbfcdf3988",
+    "authors": [
+      "T. Ho",
+      "David W. Cheung",
+      "Huan Liu"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Simulated evolution and learning : 6th International Conference, SEAL 2006, Hefei, China, October 15-18, 2006 : proceedings",
+    "abstract": "",
+    "date": "2006",
+    "url": "https://www.semanticscholar.org/paper/a11b670630149d16bb6b5a09dd4aef9384da6efd",
+    "authors": [
+      "Tzai-Der Wang",
+      "Xiaodong Li",
+      "Shu-Heng Chen"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Natural Language Processing - IJCNLP 2004, First International Joint Conference, Hainan Island, China, March 22-24, 2004, Revised Selected Papers",
+    "abstract": "",
+    "date": "2005",
+    "url": "https://www.semanticscholar.org/paper/68db4e9007bf8061b91939621e2e3bfcc246fc99",
+    "authors": [
+      "Keh-Yih Su",
+      "\u8fbb\u4e95 \u6f64\u4e00",
+      "Jong-Hyeok Lee"
+    ]
+  }
+]

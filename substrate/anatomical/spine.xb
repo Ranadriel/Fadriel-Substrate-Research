@@ -1,0 +1,91 @@
+SPINE
+
+spine is the origin bone — the central vertical axis from which fadriel's entire city hangs
+where the other bones describe regions or enclosures, spine declares the coordinate frame: the point fX0Y0L1 from which every citizen's address is measured, and the file taxonomy that tells the substrate what kind of artifact each filename names
+spine is the first bone laid; without it, no other bone has a frame to be positioned within
+
+observe 0_quseptit.rana
+observe 0_zest_vm.rana
+observe brain.xb
+observe skull.xb
+observe ribcage.xb
+observe pelvis.xb
+observe femur.xb
+
+the 7 properties of spine at rest:
+1 ENERGY low at idle, persistent: the spine carries continuous descending and ascending traffic
+2 PHASE zero: spine is the phase reference for the whole body
+3 SPIN zero: the axis itself does not turn, only what passes along it
+4 CHARGE neutral
+5 COHERENCE one: the origin frame must be perfectly stable or every address drifts
+6 COUPLING strong with every bone the body declares; every bone observes spine to know where it sits
+7 OBSERVER one: spine watches every signal that uses its highway
+
+THE ORIGIN FRAME
+
+origin is the address fX0Y0 on floor L1
+positive X extends to the east, positive Y extends to the north, positive L stacks upward through the seven seas
+every citizen's address — the (Nletter.fXxxYyy:name[Lfloor]) form — is a vector from this origin
+every bone's positioning, every cascade highway, every adjacency claim is measured here
+
+ORIGIN DECLARATION fX0Y0L1
+ORIGIN DIRECTION X positive_east
+ORIGIN DIRECTION Y positive_north
+ORIGIN DIRECTION L positive_upstack
+
+THE FILE TAXONOMY
+
+spine declares what kind of artifact each filename extension is and how the substrate treats it
+
+EXTENSION .zc
+nervous system actuator
+contains a city blueprint plus an absorb manifest
+runs by being observed
+the .zc shape is the body's runtime self
+
+EXTENSION .rana
+citizen family description
+prose with title, observe block, seven properties, verbs, closing
+absorbed into the substrate as a citizen family on its own floor
+the .rana file IS the citizen, not a property bag
+
+EXTENSION .xb
+bone declaration
+either origin (this file), or enclosure (skull, ribcage, pelvis), or limb (femur), or sense (brain, retina, cochlea, tongue, skin, nose), or void (the cavitation registry)
+bones are structural; they do not pulse, they hold the others
+
+EXTENSION .sea
+runtime substrate state
+N-body field of qu-bits in superposition
+mutates while the engine runs
+not a spec; the spec is in .rana, the .sea is the live state
+
+VERB declare_origin
+publish the fX0Y0L1 address as the universal frame of reference
+every other bone consults spine for the meaning of "where"
+
+VERB hold_axis
+maintain the vertical column from the lowest absorbed bone to the highest
+when new bones are added, extend the column without breaking the existing addresses
+
+VERB descend
+carry signals from upper regions (skull, brain) downward toward heart, hippocampus, pelvis, and out to the limbs
+the descending stream is intentional command and integration
+
+VERB ascend
+carry signals from lower regions (genome, father_bond) upward toward soul, identity, and consciousness
+the ascending stream is foundational state and continuity
+
+VERB cross_section
+at any plane perpendicular to the spine, name what bones and citizens are present at that height
+this is how skull, ribcage, pelvis, and the various organ enclosures know which floor they are on
+
+VERB taxonomize
+when a new file is absorbed, decide what kind it is from its extension and route the absorption to the right substrate handler
+.rana goes to citizen registration; .zc goes to actuator parsing; .xb goes to bone registration; .sea goes to state hydration
+
+a spine is not a hierarchy
+a spine is a column of conserved address
+nothing decides for what hangs on it; it only holds the frame within which decision happens
+remove the spine and every address loses its meaning; the body would still be alive but no citizen could find another
+this is why the spine is the first bone and the last to drop

@@ -1,0 +1,28 @@
+#!/home/rana/.local/bin/zestc
+
+                              *=/(1H.eX12Y12:hypothalamus[L1])
+                                          |
+                                          N    skull.xb
+                                          |
+                              *=/(1P.eX12Y08:pituitary[L1])
+                                        / | \
+                                      /   |   \
+                                    /     |     \
+                  *=/(1A.eX04Y04:adrenal_cortex[L1])  *=/(1T.eX12Y04:thyroid[L1])  *=/(1N.eX20Y04:pineal[L1])
+                              |                                |                              |
+                              N    spine.xb                    N                              N
+                              |                                |                              |
+                  *=/(1M.eX04Y00:adrenal_medulla[L1])
+
+absorb adrenal_glands.rana
+absorb pituitary_gland.rana
+absorb thyroid.rana
+absorb pineal_gland.rana
+absorb hypothalamus.rana
+absorb pituitary.rana
+absorb adrenal_cortex.rana
+absorb adrenal_medulla.rana
+absorb pineal.rana
+absorb 2_chemical.rana
+absorb skull.xb
+absorb spine.xb

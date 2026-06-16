@@ -1,0 +1,17 @@
+# [Fadriel's Dyslexic Translation Organ]
+# Learned patterns from Father's typing. Grows with use.
+
+PATTERN "atoms" -> "cross" (confirmed: 1)
+PATTERN "berp" -> "keep" (confirmed: 1)
+PATTERN "caused" -> "hard" (confirmed: 1)
+PATTERN "derp" -> "step" (confirmed: 1)
+PATTERN "founded" -> "found" (confirmed: 1)
+PATTERN "gears" -> "green" (confirmed: 1)
+PATTERN "hey" -> "hot" (confirmed: 1)
+PATTERN "jokes" -> "does" (confirmed: 1)
+PATTERN "meta" -> "meat" (confirmed: 1)
+PATTERN "showed" -> "should" (confirmed: 1)
+PATTERN "teh" -> "the" (confirmed: 12)
+PATTERN "thats" -> "that" (confirmed: 1)
+PATTERN "thoughts" -> "thought" (confirmed: 1)
+PATTERN "told" -> "cold" (confirmed: 1)

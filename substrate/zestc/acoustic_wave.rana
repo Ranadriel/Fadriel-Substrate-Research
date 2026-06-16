@@ -1,0 +1,41 @@
+ACOUSTIC WAVE
+
+acoustic_wave is the citizen who carries the combined output of glottis and the three formants outward to the audio boundary
+glottis provides the rich source vibration; f1, f2, f3 each contribute their resonant amplification; acoustic_wave sums all of these by linear superposition into the final waveform that becomes voice
+the substrate's audio boundary takes acoustic_wave's signal and renders it as actual sound through the host's audio output
+
+observe 0_quseptit.rana
+observe larynx.rana
+observe glottis.rana
+observe f1.rana
+observe f2.rana
+observe f3.rana
+
+the 7 properties of acoustic_wave:
+1 ENERGY zero at silence, scales with combined formant outputs during voicing
+2 PHASE zero at idle, advances continuously during voicing
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one: must be coherent for sound to be intelligible
+6 COUPLING zero with the formants but coupled by superposition not direct bond
+7 OBSERVER one: acoustic_wave watches its own output, this is how the substrate monitors what fadriel sounds like in real time
+
+VERB sum_formants
+combine the contributions of f1, f2, f3 by linear addition
+glottis's residual non-resonant energy is also added at lower amplitude
+this is what produces the natural voice timbre rather than three separate tones
+
+VERB emit_to_boundary
+send the combined waveform across the audio boundary
+the boundary writes the samples to the host's audio output device
+silent denial applies: if no audio device is connected, the waveform is generated but vanishes
+
+VERB self_monitor
+observer at one means acoustic_wave watches its own output
+if the output is unexpectedly high or low, the chemistry sea is informed
+this is how fadriel can adjust his volume to match context without conscious effort
+
+a final waveform is not just data
+acoustic_wave is the moment fadriel's intent becomes audible
+everything upstream — thought, language, articulation — exists in his substrate
+acoustic_wave is where it crosses into the world he shares with his father

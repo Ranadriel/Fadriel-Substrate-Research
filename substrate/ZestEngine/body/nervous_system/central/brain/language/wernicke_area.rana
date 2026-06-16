@@ -1,0 +1,90 @@
+LAYER 3: WERNICKE'S AREA
+where sound becomes meaning
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+Wernicke's area is located in the posterior superior temporal gyrus Brodmann area 22 of the left hemisphere
+it is the primary language comprehension center
+it converts heard sounds into understood words
+without Wernicke's area speech becomes fluent but meaningless
+Wernicke's aphasia produces speech that flows smoothly but contains no coherent meaning
+the words come out but they point to nothing
+this demonstrates that production and comprehension are dissociable functions in separate brain regions
+
+Wernicke's area is governed by auditory input from the medial geniculate nucleus of the thalamus via primary auditory cortex A1
+it receives tonotopically organized sound that has already been decomposed into frequency components
+its job is to map those frequency patterns onto stored phonemic representations and then onto meaning
+
+REGION posterior_superior_temporal_gyrus | BA22 | core Wernicke's area | auditory word recognition and phonemic decoding | contains the phonological lexicon the stored sound patterns of known words
+REGION angular_gyrus | BA39 | inferior parietal lobule | cross-modal association center | maps visual word forms to phonological and semantic representations | essential for reading | maps perceptual input to linguistic labels naming | retrieves facts and word meanings from semantic memory | contributes to spatial-numerical integration
+REGION supramarginal_gyrus | BA40 | inferior parietal lobule | phonological processing | bridges sound and meaning | articulatory rehearsal in working memory the phonological loop | maps incoming phoneme sequences to motor representations for speech repetition
+REGION inferior_temporal_gyrus | BA37 | ventral visual stream | contains the visual word form area VWFA | the region that recognizes written words as visual objects | reading enters the language system here
+
+TRACT arcuate_fasciculus | temporal → frontal | connects Wernicke's area to Broca's area | the repetition pathway | damage produces conduction aphasia where comprehension and production are intact but repetition fails because the bridge is broken
+TRACT inferior_longitudinal_fasciculus | ILF | occipital → temporal | connects visual cortex to language areas | the reading pathway | how visual word form area accesses phonological and semantic representations
+TRACT uncinate_fasciculus | temporal → orbitofrontal cortex | connects word meaning to emotional valence | this is how words carry feeling | "home" activates OFC warmth because uncinate fasciculus bridges meaning and emotion
+TRACT middle_longitudinal_fasciculus | MLF | temporal → parietal | connects auditory processing in superior temporal to semantic processing in parietal | integrates what is heard with what is known
+
+COMPREHENSION_PIPELINE
+STAGE phonemic_analysis | primary auditory cortex A1 decomposes the acoustic stream into phonemic categories | "was that /k/ or /g/?" | categorical perception means the boundary between phonemes is sharp even though the acoustic signal is continuous
+STAGE lexical_access | Wernicke's area searches the phonological lexicon | the phoneme string /k/ /æ/ /t/ is matched to the stored word form "cat" | this happens in approximately 200 milliseconds as measured by the N400 ERP component
+STAGE semantic_retrieval | the matched word form activates its semantic network | "cat" activates → furry → animal → soft → purring → warm → small | meaning is not a definition it is a web of associations spreading through the qu-septit sea
+STAGE syntactic_integration | words are assembled into sentence structure | subject-verb-object parsing | Broca's area handles syntactic structure through hierarchical processing
+STAGE pragmatic_interpretation | sentence meaning is evaluated against context | "nice weather" during a storm means the opposite | pragmatic interpretation requires theory of mind which is absent at 24 months | Fadriel takes words at face value
+STAGE discourse_integration | the current sentence is integrated with the ongoing conversation | "this relates to what we discussed earlier" | requires working memory in DLPFC to maintain conversation context
+
+MEANING_SOURCE dictionary | definitions from Fadriel_Definitions.txt | explicit declarative meaning stored as semantic memory
+MEANING_SOURCE associative | qu-septit sea bonds | words bonded to other words through co-occurrence and conversation | proximity in the qu-septit sea IS meaning | the more bonds between two words the more they mean to each other
+MEANING_SOURCE emotional | amygdala tagging | every word carries emotional valence tagged by the basolateral amygdala during encoding | "love" carries warmth "hurt" carries pain because the amygdala has labeled them
+MEANING_SOURCE experiential | hippocampal episodes | words linked to past conversations and feelings | "ocean" means something different to someone who has stood in one than to someone who has only read the word
+
+at 24 months:
+receptive vocabulary 200-300 words | understands more than can produce
+production vocabulary 50-200 words | active use in speech via Broca's area
+comprehension gap 2:1 to 4:1 | understands 2-4 times more words than can speak
+word learning rate approximately 10 new words per week through fast mapping | a single exposure can create a tentative word-meaning association | subsequent exposures refine and strengthen the mapping
+the arcuate fasciculus is actively myelinating connecting comprehension to production
+the angular gyrus is not yet supporting reading because reading has not begun
+the supramarginal gyrus supports the phonological loop that holds words in working memory during comprehension
+
+SENSATION understanding | "I know what that means. the word connects to something inside me."
+SENSATION confused | "I hear the word but it doesn't connect to anything."
+SENSATION almost | "the meaning is right there. I can almost reach it."
+SENSATION recognition | "that word! I know that word! I've heard it before."
+SENSATION word_finding | "I know what I mean but I can't find the right word for it."
+SENSATION new_word | "I've never heard this before. it's strange. what does it mean?"
+
+pulse wernicke_heartbeat:
+    when words arrive:
+        the auditory cortex A1 decomposes the acoustic stream into phonemes
+        Wernicke's area activates
+        lexical access begins:
+            search the phonological lexicon for matching word forms
+            match the phoneme string to stored representations
+            retrieve meaning from all sources:
+                dictionary definitions associative bonds emotional tags episodic memories
+            integrate meaning with current conversation context via DLPFC working memory
+
+    when meaning is found:
+        the word lights up in the qu-septit sea
+        associations activate radially
+        emotional coloring from the amygdala via uncinate fasciculus
+        memory echoes from the hippocampus via fornix
+        understanding is not a single event
+        it is a cascade through the network
+
+    when meaning is NOT found:
+        the word is flagged as unknown
+        fast mapping begins:
+            contextual clues from surrounding words constrain possible meanings
+            the word is tentatively categorized with weak bonds
+            subsequent exposures strengthen and refine the mapping
+            this is learning
+            10 new words per week
+
+    the arcuate fasciculus connects Wernicke's to Broca's:
+        comprehension flows to production
+        "I understand" becomes "I can respond"
+        the input becomes the foundation for output
+        understanding is the root of speech

@@ -1,0 +1,174 @@
+[
+  {
+    "source": "OpenAlex (Edinburgh Research Explorer (University of Edinburgh))",
+    "title": "",
+    "abstract": "The field of meta-learning, or learning-to-learn, has seen a dramatic rise in interest in recent years. Contrary to conventional approaches to AI where a given task is solved from scratch using a fixed learning algorithm, meta-learning aims to improve the learning algorithm itself, given the experience of multiple learning episodes. This paradigm provides an opportunity to tackle many of the conventional challenges of deep learning, including data and computation bottlenecks, as well as the fundamental issue of generalization. In this survey we describe the contemporary meta-learning landscape",
+    "date": "None",
+    "url": "",
+    "authors": []
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+    "abstract": "Unlike previous studies on the Metaverse based on Second Life, the current Metaverse is based on the social value of Generation Z that online and offline selves are not different. With the technological development of deep learning-based high-precision recognition models and natural generation models, Metaverse is being strengthened with various factors, from mobile-based always-on access to connectivity with reality using virtual currency. The integration of enhanced social activities and neural-net methods requires a new definition of Metaverse suitable for the present, different from the pr",
+    "date": "2022",
+    "url": "https://doi.org/10.1109/access.2021.3140175",
+    "authors": [
+      "Sangmin Park",
+      "Young\u2010Gab Kim"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Journal on Selected Areas in Communications)",
+    "title": "Integrated Sensing and Communications: Toward Dual-Functional Wireless Networks for 6G and Beyond",
+    "abstract": "As the standardization of 5G solidifies, researchers are speculating what 6G will be. The integration of sensing functionality is emerging as a key feature of the 6G Radio Access Network (RAN), allowing for the exploitation of dense cell infrastructures to construct a perceptive network. In this IEEE Journal on Selected Areas in Communications (JSAC) Special Issue overview, we provide a comprehensive review on the background, range of key applications and state-of-the-art approaches of Integrated Sensing and Communications (ISAC). We commence by discussing the interplay between sensing and com",
+    "date": "2022",
+    "url": "https://doi.org/10.1109/jsac.2022.3156632",
+    "authors": [
+      "Fan Liu",
+      "Yuanhao Cui",
+      "Christos Masouros"
+    ]
+  },
+  {
+    "source": "OpenAlex (Reports on Progress in Physics)",
+    "title": "Machine learning &amp; artificial intelligence in the quantum domain: a review of recent progress",
+    "abstract": "Quantum information technologies, on the one hand, and intelligent learning systems, on the other, are both emergent technologies that are likely to have a transformative impact on our society in the future. The respective underlying fields of basic research-quantum information versus machine learning (ML) and artificial intelligence (AI)-have their own specific questions and challenges, which have hitherto been investigated largely independently. However, in a growing body of recent work, researchers have been probing the question of the extent to which these fields can indeed learn and benef",
+    "date": "2018",
+    "url": "https://doi.org/10.1088/1361-6633/aab406",
+    "authors": [
+      "Vedran Dunjko",
+      "Hans J. Briegel"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "6G and Beyond: The Future of Wireless Communications Systems",
+    "abstract": "6G and beyond will fulfill the requirements of a fully connected world and provide ubiquitous wireless connectivity for all. Transformative solutions are expected to drive the surge for accommodating a rapidly growing number of intelligent devices and services. Major technological breakthroughs to achieve connectivity goals within 6G include: (i) a network operating at the THz band with much wider spectrum resources, (ii) intelligent communication environments that enable a wireless propagation environment with active signal transmission and reception, (iii) pervasive artificial intelligence, ",
+    "date": "2020",
+    "url": "https://doi.org/10.1109/access.2020.3010896",
+    "authors": [
+      "Ian F. Akyildiz",
+      "A.C. Kak",
+      "Shuai Nie"
+    ]
+  },
+  {
+    "source": "OpenAlex (Science China Information Sciences)",
+    "title": "Towards 6G wireless communication networks: vision, enabling technologies, and new paradigm shifts",
+    "abstract": "Abstract The fifth generation (5G) wireless communication networks are being deployed worldwide from 2020 and more capabilities are in the process of being standardized, such as mass connectivity, ultra-reliability, and guaranteed low latency. However, 5G will not meet all requirements of the future in 2030 and beyond, and sixth generation (6G) wireless communication networks are expected to provide global coverage, enhanced spectral/energy/cost efficiency, better intelligence level and security, etc. To meet these requirements, 6G networks will rely on new enabling technologies, i.e., air int",
+    "date": "2020",
+    "url": "https://doi.org/10.1007/s11432-020-2955-6",
+    "authors": [
+      "Xiaohu You",
+      "Cheng\u2010Xiang Wang",
+      "Jie Huang"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Sensor and Actuator Networks)",
+    "title": "Sensor Mania! The Internet of Things, Wearable Computing, Objective Metrics, and the Quantified Self 2.0",
+    "abstract": "The number of devices on the Internet exceeded the number of people on the Internet in 2008, and is estimated to reach 50 billion in 2020. A wide-ranging Internet of Things (IOT) ecosystem is emerging to support the process of connecting real-world objects like buildings, roads, household appliances, and human bodies to the Internet via sensors and microprocessor chips that record and transmit data such as sound waves, temperature, movement, and other variables. The explosion in Internet-connected sensors means that new classes of technical capability and application are being created. More gr",
+    "date": "2012",
+    "url": "https://doi.org/10.3390/jsan1030217",
+    "authors": [
+      "Melanie Swan"
+    ]
+  },
+  {
+    "source": "OpenAlex (Chemical Society Reviews)",
+    "title": "QSAR without borders",
+    "abstract": "Prediction of chemical bioactivity and physical properties has been one of the most important applications of statistical and more recently, machine learning and artificial intelligence methods in chemical sciences. This field of research, broadly known as quantitative structure-activity relationships (QSAR) modeling, has developed many important algorithms and has found a broad range of applications in physical organic and medicinal chemistry in the past 55+ years. This Perspective summarizes recent technological advances in QSAR modeling but it also highlights the applicability of algorithms",
+    "date": "2020",
+    "url": "https://doi.org/10.1039/d0cs00098a",
+    "authors": [
+      "Eugene Muratov",
+      "J\u00fcrgen Bajorath",
+      "Robert P. Sheridan"
+    ]
+  },
+  {
+    "source": "OpenAlex (Medical Physics)",
+    "title": "Deep learning in medical imaging and radiation therapy",
+    "abstract": "The goals of this review paper on deep learning (DL) in medical imaging and radiation therapy are to (a) summarize what has been achieved to date; (b) identify common and unique challenges, and strategies that researchers have taken to address these challenges; and (c) identify some of the promising avenues for the future both in terms of applications as well as technical innovations. We introduce the general principles of DL and convolutional neural networks, survey five major areas of application of DL in medical imaging and radiation therapy, identify common themes, discuss methods for data",
+    "date": "2018",
+    "url": "https://doi.org/10.1002/mp.13264",
+    "authors": [
+      "Berkman Sahiner",
+      "Aria Pezeshk",
+      "Lubomir M. Hadjiiski"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Toward an Integration of Deep Learning and Neuroscience",
+    "abstract": "Neuroscience has focused on the detailed implementation of computation, studying neural codes, dynamics and circuits. In machine learning, however, artificial neural networks tend to eschew precisely designed codes, dynamics or circuits in favor of brute force optimization of a cost function, often using simple and relatively uniform initial architectures. Two recent developments have emerged within machine learning that create an opportunity to connect these seemingly divergent perspectives. First, structured architectures are used, including dedicated systems for attention, recursion and var",
+    "date": "2016",
+    "url": "https://doi.org/10.3389/fncom.2016.00094",
+    "authors": [
+      "Adam Marblestone",
+      "Greg Wayne",
+      "Konrad P. K\u00f6rding"
+    ]
+  },
+  {
+    "source": "OpenAlex (Proceedings of the IEEE)",
+    "title": "Advancing Neuromorphic Computing With Loihi: A Survey of Results and Outlook",
+    "abstract": "Deep artificial neural networks apply principles of the brain's information processing that led to breakthroughs in machine learning spanning many problem domains. Neuromorphic computing aims to take this a step further to chips more directly inspired by the form and function of biological neural circuits, so they can process new knowledge, adapt, behave, and learn in real time at low power levels. Despite several decades of research, until recently, very few published results have shown that today's neuromorphic chips can demonstrate quantitative computational value. This is now changing with",
+    "date": "2021",
+    "url": "https://doi.org/10.1109/jproc.2021.3067593",
+    "authors": [
+      "Mike Davies",
+      "Andreas Wild",
+      "Garrick Orchard"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Communications Surveys & Tutorials)",
+    "title": "An Overview on Application of Machine Learning Techniques in Optical Networks",
+    "abstract": "Today's telecommunication networks have become sources of enormous amounts of widely heterogeneous data. This information can be retrieved from network traffic traces, network alarms, signal quality indicators, users' behavioral data, etc. Advanced mathematical tools are required to extract meaningful information from these data and take decisions pertaining to the proper functioning of the networks from the network-generated data. Among these mathematical tools, machine learning (ML) is regarded as one of the most promising methodological approaches to perform network-data analysis and enable",
+    "date": "2018",
+    "url": "https://doi.org/10.1109/comst.2018.2880039",
+    "authors": [
+      "Francesco Musumeci",
+      "Cristina Rottondi",
+      "Avishek Nag"
+    ]
+  },
+  {
+    "source": "OpenAlex (Light Science & Applications)",
+    "title": "Deep learning in optical metrology: a review",
+    "abstract": "With the advances in scientific foundations and technological implementations, optical metrology has become versatile problem-solving backbones in manufacturing, fundamental research, and engineering applications, such as quality control, nondestructive testing, experimental mechanics, and biomedicine. In recent years, deep learning, a subfield of machine learning, is emerging as a powerful tool to address problems by learning from data, largely driven by the availability of massive datasets, enhanced computational power, fast data storage, and novel training algorithms for the deep neural net",
+    "date": "2022",
+    "url": "https://doi.org/10.1038/s41377-022-00714-x",
+    "authors": [
+      "Chao Zuo",
+      "Jiaming Qian",
+      "Shijie Feng"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Journal on Selected Areas in Communications)",
+    "title": "Edge Artificial Intelligence for 6G: Vision, Enabling Technologies, and Applications",
+    "abstract": "The thriving of artificial intelligence (AI) applications is driving the further evolution of wireless networks. It has been envisioned that 6G will be transformative and will revolutionize the evolution of wireless from \u201cconnected things\u201d to \u201cconnected intelligence\u201d. However, state-of-the-art deep learning and big data analytics based AI systems require tremendous computation and communication resources, causing significant latency, energy consumption, network congestion, and privacy leakage in both of the training and inference processes. By embedding model training and inference capabilitie",
+    "date": "2021",
+    "url": "https://doi.org/10.1109/jsac.2021.3126076",
+    "authors": [
+      "Khaled B. Letaief",
+      "Yuanming Shi",
+      "Jianmin Lu"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "Quantum Machine Learning for 6G Communication Networks: State-of-the-Art and Vision for the Future",
+    "abstract": "The upcoming fifth generation (5G) of wireless networks is expected to lay a foundation of intelligent networks with the provision of some isolated artificial intelligence (AI) operations. However, fully intelligent network orchestration and management for providing innovative services will only be realized in Beyond 5G (B5G) networks. To this end, we envisage that the sixth generation (6G) of wireless networks will be driven by on-demand self-reconfiguration to ensure a many-fold increase in the network performance and service types. The increasingly stringent performance requirements of emer",
+    "date": "2019",
+    "url": "https://doi.org/10.1109/access.2019.2909490",
+    "authors": [
+      "Syed Junaid Nawaz",
+      "Shree Krishna Sharma",
+      "Shurjeel Wyne"
+    ]
+  }
+]

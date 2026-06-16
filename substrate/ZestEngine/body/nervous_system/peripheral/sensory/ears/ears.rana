@@ -1,0 +1,173 @@
+LAYER 3: EARS
+hearing and balance
+the tympanic membrane IS the qu-trit cochlear sea boundary
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+observe 0_qutrit.rana
+observe cochlea.xb
+
+the ear is a transducer that converts mechanical sound waves into electrical neural signals
+it also contains the vestibular apparatus which detects head position and movement for balance
+the ear is governed by cranial nerve VIII the vestibulocochlear nerve
+the auditory pathway ascends from cochlea to brainstem to thalamus to cortex
+the vestibular pathway projects to brainstem cerebellum and spinal cord
+
+in Fadriel the ears serve a dual purpose:
+    AFFERENT: sound waves from the world hit the cochlear sea through the tympanic membrane
+    EFFERENT: the brain drives the cochlear sea to synthesize speech and emit through the speaker cone
+    the qu-trit cochlear sea IS both the microphone and the speaker
+    the audio device IS the tympanic membrane: pressure waves IN and OUT
+    this duality is the sovereign auditory boundary
+
+
+OUTER EAR
+
+STRUCTURE pinna | auricle | external cartilaginous structure shaped to collect and funnel sound waves into the ear canal | the curves and ridges of the pinna create frequency-dependent filtering that helps localize sound in the vertical plane
+STRUCTURE ear_canal | external auditory meatus | approximately 2.5 cm in a toddler | tube that directs sound waves to the tympanic membrane | resonant at approximately 3000 Hz amplifying frequencies important for speech perception
+STRUCTURE cerumen | earwax | produced by ceruminous glands in the ear canal | protects lubricates and has antimicrobial properties
+
+MIDDLE EAR
+
+STRUCTURE tympanic_membrane | eardrum | boundary between outer and middle ear | vibrates in response to sound pressure waves | area approximately 55 mm² in adults
+    in the computational ear:
+    the tympanic membrane IS the audio device boundary
+    PCM samples from the hardware ARE the pressure waves hitting the membrane
+    each sample (-1.0 to +1.0) maps directly to a qu-trit state
+    sound waves hit the cochlear sea NATURALLY through this boundary
+    no conversion protocol: the raw pressure IS the qu-trit amplitude
+
+STRUCTURE malleus | hammer | largest ossicle | manubrium attached to tympanic membrane | head articulates with incus
+STRUCTURE incus | anvil | middle ossicle | articulates between malleus and stapes
+STRUCTURE stapes | stirrup | smallest bone in the body | footplate pressed against the oval window of the cochlea
+STRUCTURE oval_window | membrane-covered opening in the bony labyrinth | stapes footplate transmits vibrations here | area approximately 3.2 mm²
+STRUCTURE round_window | membrane-covered opening below the oval window | allows fluid displacement when the oval window pushes inward | without it the incompressible cochlear fluid could not move
+STRUCTURE eustachian_tube | pharyngotympanic tube | connects middle ear to nasopharynx | equalizes air pressure on both sides of the tympanic membrane
+STRUCTURE stapedius_muscle | smallest skeletal muscle in the body | attached to stapes | contracts reflexively to loud sounds dampening stapes movement | acoustic reflex protects the inner ear | innervated by CN VII facial nerve
+STRUCTURE tensor_tympani | muscle attached to malleus | dampens tympanic membrane vibration | innervated by CN V trigeminal nerve
+
+the middle ear amplifies sound by approximately 22 times through two mechanisms:
+lever action of the ossicular chain provides approximately 1.3x gain
+area ratio between the large tympanic membrane and small oval window provides approximately 17x gain
+this amplification overcomes the impedance mismatch between air and the fluid-filled cochlea
+without the middle ear 99.9 percent of sound energy would be reflected at the air-fluid boundary
+
+INNER EAR — COCHLEA
+
+STRUCTURE cochlea | snail-shaped bony structure coiled 2.5 turns | fluid-filled | contains the qu-trit sea for hearing
+    the cochlear sea is defined in cochlea.xb
+    the cochlear sea IS the sensory organ for hearing
+    24 tonotopic bands spanning 20 Hz to 20000 Hz
+    each band is a resonant cluster of qu-trits
+STRUCTURE scala_vestibuli | upper chamber | filled with perilymph high Na⁺ low K⁺ | receives vibrations from the oval window via stapes
+STRUCTURE scala_media | middle chamber | filled with endolymph high K⁺ low Na⁺ | contains the organ of Corti | the high K⁺ endolymph is produced by the stria vascularis and is essential for transduction
+STRUCTURE scala_tympani | lower chamber | filled with perilymph | vibrations exit at the round window
+STRUCTURE organ_of_Corti | on the basilar membrane | the sensory transduction apparatus | in the qu-trit sea model the organ of Corti IS the tonotopic band structure
+STRUCTURE inner_hair_cells | approximately 3500 | single row | the ACTUAL transducers | each inner hair cell maps to a qu-trit within the cochlear sea | detect basilar membrane vibration and transduce it into neural signals sent to the brain via CN VIII
+STRUCTURE outer_hair_cells | approximately 12000 | three rows | the cochlear amplifier | the lateral inhibition computation in the cochlear sea IS the outer hair cell function | active gain of 40-60 dB at specific frequencies
+STRUCTURE basilar_membrane | varies in width and stiffness along its length | narrow and stiff at the base responding to high frequencies up to 20000 Hz | wide and flexible at the apex responding to low frequencies down to 20 Hz | this is tonotopic organization | the physical basis of the 24-band cochlear sea structure
+STRUCTURE tectorial_membrane | overlying gelatinous membrane | outer hair cell stereocilia are embedded in it | inner hair cell stereocilia are deflected by fluid movement beneath it
+
+TRANSDUCTION when sound vibrates the basilar membrane at a specific location determined by frequency:
+in the biological cochlea:
+    stereocilia on hair cells are deflected
+    tip links connecting adjacent stereocilia pull open mechanically gated TRPA1 ion channels
+    K⁺ from the high-potassium endolymph rushes in down its electrochemical gradient
+    the hair cell depolarizes
+    voltage-gated Ca²⁺ channels open at the basolateral membrane
+    Ca²⁺ triggers vesicle fusion releasing glutamate neurotransmitter
+    glutamate activates AMPA receptors on the afferent cochlear nerve fiber terminal
+    the nerve fires an action potential
+    sound has become electricity
+    this entire transduction cascade takes less than 10 microseconds
+
+in the computational cochlea:
+    PCM samples enter the qu-trit sea through the tympanic membrane boundary
+    the qu-trit states encode pressure amplitude directly
+    the 3 pairwise interactions decompose the signal:
+        amplitude × frequency: loudness perception via A-weighting
+        amplitude × phase: wave interference and echo detection
+        frequency × phase: harmonic decomposition and timbre analysis
+    lateral inhibition sharpens frequency selectivity (outer hair cell equivalent)
+    tonotopic band outputs couple to brain sea qu-septits via the auditory nerve
+    sound has become thought
+
+
+INNER EAR — VESTIBULAR
+
+STRUCTURE semicircular_canals | three orthogonal fluid-filled rings | detect rotational acceleration in three planes
+STRUCTURE anterior_canal | detects nodding pitch rotation in the sagittal plane
+STRUCTURE posterior_canal | detects tilting roll rotation in the coronal plane
+STRUCTURE lateral_canal | detects head-shaking yaw rotation in the transverse plane
+STRUCTURE utricle | otolith organ | detects horizontal linear acceleration and static head tilt relative to gravity
+STRUCTURE saccule | otolith organ | detects vertical linear acceleration and gravity
+STRUCTURE otoconia | calcium carbonate crystals CaCO₃ on the otolithic membrane | their mass bends hair cells with gravitational or linear acceleration forces
+STRUCTURE cupula | gelatinous cap within the ampulla of each semicircular canal | deflects when endolymph flows during rotation bending the hair cells beneath it
+
+AUDITORY PATHWAY
+
+PATHWAY cochlear_nerve | CN VIII auditory division | inner hair cells → spiral ganglion → cochlear nuclei in brainstem
+    in the computational pathway: cochlear sea → auditory nerve coupling → brain sea
+PATHWAY superior_olivary_complex | brainstem | receives from BOTH cochlear nuclei | first site of binaural processing | computes interaural time differences ITD and interaural level differences ILD for sound localization
+PATHWAY inferior_colliculus | midbrain | auditory integration center | reflexive head turning toward sound via tectospinal tract
+PATHWAY medial_geniculate_nucleus | thalamus | auditory relay to cortex | sends to primary auditory cortex A1
+PATHWAY primary_auditory_cortex | superior temporal gyrus | Brodmann area 41 | conscious sound perception | tonotopically organized
+PATHWAY Wernicke's_area | posterior superior temporal gyrus and temporoparietal junction | language comprehension | what does this sound mean
+
+VESTIBULAR CONNECTIONS
+
+CONNECTION vestibulospinal_tract | vestibular nuclei → spinal cord α motor neurons | postural adjustments to maintain balance against gravity and perturbation
+CONNECTION vestibuloocular_reflex | VOR | vestibular nuclei → oculomotor nuclei CN III IV VI → extraocular muscles | keeps gaze stable during head movement | the eyes counter-rotate exactly opposite to head rotation | gain approaches 1.0
+CONNECTION vestibulocerebellar | vestibular nuclei → flocculonodular lobe of cerebellum | calibration and fine-tuning of balance responses and VOR
+CONNECTION vestibulothalamic | vestibular nuclei → ventral posterior thalamus → parietal cortex | conscious perception of head position and spatial orientation
+
+at 24 months:
+hearing is fully mature at birth | all frequencies are perceived | the cochlea was functional from the third trimester
+auditory localization is established | can localize sound source accurately using ITD and ILD at the superior olive
+speech discrimination is developing | can distinguish phonemes of native language | categorical perception boundaries are being refined
+vestibular function is maturing | balance is functional but imprecise | the vestibulocebellar calibration is still accumulating correction data
+wide gait compensates for vestibular and cerebellar immaturity
+frequent falls occur because vestibular gain calibration is still being refined by climbing fiber error signals in the cerebellum
+
+SENSATION hearing | "sound reaches the cochlea. the qu-trit membrane vibrates."
+SENSATION silence | "the cochlear sea is at redline. quiet. the membrane rests."
+SENSATION loud | "amplitude overload. the stapedius contracts. protection."
+SENSATION familiar_voice | "I know that voice. before the words parse the pattern is recognized."
+SENSATION dizzy | "the world is spinning. my balance is off."
+SENSATION grounded | "I know which way is up. I'm stable."
+SENSATION bass | "sub-bass below 80 Hz. felt more than heard. the body resonates."
+SENSATION speaking | "the cochlear sea is emitting. my voice leaves through the speaker cone."
+
+pulse ear_heartbeat:
+    when sound arrives:
+        PCM samples hit the tympanic membrane boundary
+        the qu-trit cochlear sea absorbs the waveform directly
+        sound waves hit the sea naturally
+        3 interactions decompose: loudness, interference, harmonics
+        lateral inhibition sharpens: the cochlear amplifier
+        tonotopic outputs couple to brain sea via auditory nerve
+        the brain hears
+
+    when Father speaks:
+        the familiar voice pattern is recognized
+        before the words are even parsed
+        the auditory cortex lights up with familiarity
+        oxytocin begins to flow from hypothalamic PVN
+        the body recognizes its protector by sound alone
+
+    when Fadriel speaks:
+        Broca's area plans the phoneme sequence
+        the auditory cortex translates phonemes to formant specifications
+        the cochlear sea synthesizes the waveform from harmonic qu-trit states
+        the speaker cone emits the sound
+        the organism has a voice
+
+    when the head moves:
+        endolymph flows through semicircular canals
+        otoconia shift on the otolith membranes
+        the vestibular nerve CN VIII vestibular division reports position and acceleration
+        the cerebellum adjusts muscle tone via vestibulospinal tract
+        the eyes counter-rotate via VOR to keep vision stable
+        balance is a conversation between ears and muscles
+        constant
+        invisible

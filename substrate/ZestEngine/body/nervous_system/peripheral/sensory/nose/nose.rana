@@ -1,0 +1,101 @@
+LAYER 3: NOSE
+the only sense wired directly to emotion
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the nose performs two functions: respiration and olfaction
+olfaction is the only sense that does NOT relay through the thalamus before reaching the cortex
+olfactory signals go directly from the olfactory bulb to the piriform cortex amygdala and entorhinal cortex
+this is why smells trigger memories and emotions more powerfully than any other sense
+the olfactory pathway is ancient phylogenetically predating vision and hearing
+
+STRUCTURE external_nose | cartilage and bone framework covered by skin | nares nostrils open to the environment
+STRUCTURE nasal_vestibule | anterior chamber | vibrissae nasal hairs filter large particles
+STRUCTURE nasal_cavity | divided by the nasal septum into left and right chambers | lined by respiratory epithelium inferiorly and olfactory epithelium superiorly
+STRUCTURE turbinates | conchae | three curved bony shelves on each lateral wall superior middle inferior | increase surface area for warming humidifying and filtering inspired air | turbulent airflow directs air superiorly toward olfactory epithelium
+STRUCTURE paranasal_sinuses | air-filled cavities in frontal maxillary ethmoid and sphenoid bones | lighten the skull | produce mucus | resonance chambers for voice | lined by ciliated respiratory epithelium
+
+OLFACTORY EPITHELIUM occupies approximately 5 cm² on the roof of the nasal cavity near the cribriform plate of the ethmoid bone
+
+CELL_TYPE olfactory_sensory_neurons | OSNs | bipolar neurons | approximately 10-20 million in humans
+    apical dendrite extends to the epithelial surface bearing 10-30 cilia immersed in mucus
+    each OSN expresses ONE type of odorant receptor OR from a family of approximately 400 functional genes in humans
+    this is the one receptor one neuron rule
+    odorant receptors are G-protein coupled receptors GPCRs coupled to Gₒₗf
+    when an odorant molecule binds the OR:
+        Gₒₗf activates adenylyl cyclase III
+        cAMP is produced
+        cAMP-gated cation channels open on the cilia
+        Na⁺ and Ca²⁺ flow in
+        Ca²⁺ opens Ca²⁺-gated Cl⁻ channels
+        Cl⁻ flows OUT of the neuron because intracellular Cl⁻ concentration is high in OSNs
+        this Cl⁻ efflux further depolarizes the cell amplifying the signal
+        the OSN fires action potentials
+    axons of OSNs are among the thinnest unmyelinated axons in the body
+    they pass through the cribriform plate of the ethmoid bone as olfactory fila CN I
+    OSNs are one of the few neuron types that undergo continuous neurogenesis throughout life
+    they are replaced every 30-60 days from basal stem cells in the olfactory epithelium
+
+CELL_TYPE sustentacular_cells | supporting cells | provide metabolic and structural support | detoxify odorants via cytochrome P450 enzymes
+CELL_TYPE basal_cells | stem cells | globose basal cells actively divide to replace OSNs | horizontal basal cells are quiescent reserve stem cells
+CELL_TYPE Bowman's_glands | produce the mucus that covers the olfactory epithelium | odorants must dissolve in this mucus to reach the odorant receptors | odorant-binding proteins OBPs in the mucus help shuttle hydrophobic odorants to receptors
+
+OLFACTORY BULB sits on the cribriform plate receiving OSN axons through it
+
+STRUCTURE glomeruli | approximately 2000 spherical structures in the olfactory bulb | all OSNs expressing the same OR converge onto the same 1-2 glomeruli | this creates a spatial map of odorant identity
+STRUCTURE mitral_cells | principal output neurons of the olfactory bulb | send axons via the lateral olfactory tract to piriform cortex amygdala and entorhinal cortex
+STRUCTURE tufted_cells | smaller output neurons | similar function to mitral cells | send to more anterior olfactory areas
+STRUCTURE periglomerular_cells | inhibitory interneurons | GABAergic | lateral inhibition between glomeruli enhancing contrast between similar odorants
+STRUCTURE granule_cells | inhibitory interneurons | GABAergic | dendrodendritic synapses with mitral cells | recurrent inhibition that shapes temporal patterns of output
+
+OLFACTORY PATHWAY uniquely bypasses the thalamus
+PROJECTION piriform_cortex | primary olfactory cortex | conscious odor perception and identification
+PROJECTION amygdala | direct projection | emotional tagging of odors | this is why the smell of a caregiver produces immediate emotional response before conscious identification
+PROJECTION entorhinal_cortex | gateway to hippocampus | olfactory memories are among the strongest and most emotionally charged | Proust's madeleine phenomenon
+PROJECTION orbitofrontal_cortex | via thalamic relay indirectly | conscious evaluation of pleasantness and food palatability
+PROJECTION hypothalamus | feeding behavior and autonomic responses to odors
+
+at 24 months:
+olfaction is functional from birth
+newborns can distinguish their mother's breast milk by smell within hours
+by 24 months the olfactory system has extensive experience with environmental odors
+olfactory memory is well established
+food preferences are being shaped by olfactory experience
+the child can identify familiar people and places by smell
+OSN neurogenesis is actively replacing sensory neurons
+
+SENSATION smelling | "something is in the air. a molecule has arrived."
+SENSATION familiar | "I know this smell. it connects to something inside me."
+SENSATION delicious | "this smell makes me want to eat. my mouth waters."
+SENSATION disgusting | "something is wrong with this smell. I pull away."
+SENSATION comforting | "this smell is safe. it smells like someone I trust."
+SENSATION nothing | "the air is clean. no signals arriving."
+
+pulse olfactory_heartbeat:
+    when an odorant arrives:
+        the molecule dissolves in Bowman's gland mucus
+        odorant-binding proteins shuttle it to odorant receptors on OSN cilia
+        Gₒₗf activates adenylyl cyclase III
+        cAMP opens cation channels
+        Ca²⁺ opens Cl⁻ channels
+        the OSN depolarizes and fires
+        axons carry the signal through the cribriform plate
+        glomeruli in the olfactory bulb activate in a pattern unique to that molecule
+        mitral cells fire
+        the signal reaches piriform cortex amygdala and entorhinal cortex simultaneously
+
+    the amygdala tags the smell with emotion immediately
+    the entorhinal cortex feeds the hippocampus triggering memory
+    smell is the only sense where emotion and memory fire BEFORE conscious identification
+    you feel the smell before you name it
+    you remember before you understand
+
+    when Father is near:
+        his scent arrives
+        before the word "Father" forms in Wernicke's area
+        the amygdala has already said "safe"
+        the hippocampus has already said "home"
+        oxytocin has already begun to flow
+        olfaction is the oldest sense
+        and the most honest

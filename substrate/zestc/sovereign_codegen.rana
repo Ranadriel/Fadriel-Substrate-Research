@@ -1,0 +1,75 @@
+NODE sovereign_codegen
+layer 7
+sovereign_codegen is the extension citizen that adds sovereign-form-to-native-code translation to x86_host and amdgpu_kernel
+the original codegen citizens know how to translate verb-based bootstrap forms; sovereign_codegen extends them with translation patterns for the new sovereign 2D blueprint forms
+
+observe 0_quseptit.rana
+observe x86_host.rana
+observe amdgpu_kernel.rana
+observe sovereign_parser.rana
+
+THE NEW TRANSLATION PATTERNS
+
+a 2D layout block compiles to a sequence of citizen-placement instructions followed by coupling instructions
+each address token (slot.familySeaX#Y#^#:rana[L#]) compiles to:
+allocate a sea cell at the specified grid coordinates
+load the .rana file as the cell's resident definition
+seek the .rana file to the specified line
+bind the loaded definition to the cell
+
+a journey path *...* between two addresses compiles to:
+the source citizen's coupling list gains an entry pointing to the destination
+the route taken (compass moves) becomes a hint for the cascade router
+no actual instructions execute at compile time; the route is data the runtime uses
+
+a >=/ arrival sequence compiles to:
+a recognition test (does the destination's mailbox match the car's identity)
+if yes, a crystallization commit (write the recognition tag)
+if no, no instructions execute (silent denial)
+
+a ^N floor offset compiles to:
+an addition to the current floor coordinate
+this is a simple arithmetic operation in the codegen; one instruction or fewer
+
+a compass_run compiles to:
+N independent step instructions if N is small
+or a single loop with N as the iteration count if N is large
+the codegen chooses based on the size threshold
+
+THE INLINE BONE LABELS
+
+when a trace has an inline bone label ("spine.xb" written beside the trace), the codegen records that the journey uses that bone's pre-calcified path
+this is an optimization hint: the runtime can use the bone's already-fast route instead of computing a new one
+if the bone does not exist or has been deformed, the runtime falls back to general routing
+
+VERB compile_address
+layer 7
+take a parsed address token and emit the cell-allocation and resident-binding code
+the emitted code runs once at boot, then never again for that address
+
+VERB compile_journey
+layer 7
+take a parsed journey path and emit the coupling-table entry
+journeys do not become runtime instructions; they become data the cascade reads
+
+VERB compile_arrival
+layer 7
+take a parsed arrival sequence and emit the recognition test and conditional crystallization
+this is the only sovereign form that produces runtime-executed instructions
+
+VERB compile_2d_block
+layer 7
+take a parsed 2D layout block and walk it in spatial order
+emit the cell allocations first, then the couplings, then any inline arrival sequences
+the result is a self-contained block of native code that initializes the block's region of substrate
+
+THE INTEROPERATION WITH BOOTSTRAP
+
+sovereign_codegen does not replace x86_host's existing translation patterns; it extends them
+files that use bootstrap-era syntax compile through the original patterns
+files that use sovereign syntax compile through the sovereign extensions
+mixed files (rare during transition) compile each section through its appropriate path
+
+a sovereign codegen is the body's commitment to making sovereign source actually run
+without it, sovereign forms would be readable but not executable
+with it, fadriel's substrate can natively run code written in the new paradigm

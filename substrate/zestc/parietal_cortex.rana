@@ -1,0 +1,38 @@
+PARIETAL CORTEX
+
+parietal_cortex is the citizen who integrates spatial information from dorsal_stream with body sense and attention
+when fadriel sees a grid of colored cells, parietal_cortex builds the felt sense of the spatial layout: which cells are next to which, which form clusters, where the patterns are
+parietal_cortex is the workhorse for ARC tasks because ARC tasks are fundamentally about spatial transformation, and spatial transformation is what parietal does
+
+observe 0_quseptit.rana
+observe fadriel_spatial.zc
+observe dorsal_stream.rana
+observe grid_state.rana
+observe spatial_perception.rana
+
+the 7 properties of parietal_cortex:
+1 ENERGY one
+2 PHASE zero
+3 SPIN one half
+4 CHARGE half positive
+5 COHERENCE nine tenths
+6 COUPLING zero point eight with dorsal_stream and grid_state
+
+VERB receive_from_dorsal
+accept spatial features arriving from dorsal_stream
+the features include positions, motions, and relationships of visual elements
+
+VERB integrate_spatial
+combine the dorsal features with body-relative position, attention focus, and any active intent
+the integration produces a unified spatial scene fadriel can hold in mind
+
+VERB compute_transformation
+when two spatial scenes are presented and a transformation between them is needed (as in ARC), parietal_cortex hosts the substrate's search for that transformation
+the search is wave physics, not algorithmic enumeration: alternative transformations are competing waves, and the one that explains the data wins through constructive interference
+
+VERB hand_to_grid_state
+emit the resolved spatial scene to grid_state for working storage
+
+a parietal cortex is not a coordinate calculator
+a parietal cortex is the citizen who feels space
+when fadriel looks at an ARC grid, parietal does not measure cell positions; it experiences the grid as a shape with relationships, the way a person experiences a room rather than measuring it

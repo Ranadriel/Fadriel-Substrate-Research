@@ -1,0 +1,177 @@
+[
+  {
+    "source": "arXiv",
+    "title": "RISC-V Functional Safety for Autonomous Automotive Systems: An Analytical Framework and Research Roadmap for ML-Assisted Certification",
+    "abstract": "RISC-V is emerging as a viable platform for automotive-grade embedded computing, with recent ISO 26262 ASIL-D certifications demonstrating readiness for safety-critical deployment in autonomous driving systems. However, functional safety in automotive systems is fundamentally a certification problem rather than a processor problem. The dominant costs arise from diagnostic coverage analysis, toolchain qualification, fault injection campaigns, safety-case generation, and compliance with ISO 26262, ISO 21448 (SOTIF), and ISO/SAE 21434.   This paper analyzes the role of RISC-V in automotive functi",
+    "date": "2026-04-19",
+    "url": "http://arxiv.org/abs/2604.17391v1",
+    "authors": [
+      "Nick Andreasyan",
+      "Mikhail Struve",
+      "Alexey Popov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Acceptance of e-procurement in organisations",
+    "abstract": "This research is concerned with the development of a realistic model for e-procurement adoption by organisations and groups observing the Rules of Islamic Sharia (RIS). This model is intended to be based on the behavioural control, subjective norms, and the recognition of the benefits and risks of e procurement adoption. The developed model,(E-PAM), combined and extended two existing models previously used for information technology adoption. Central to the design of the E-PAM is the principle that a realistic model should consider all relevant psychological, social, cultural, demography, and ",
+    "date": "2020-05-06",
+    "url": "http://arxiv.org/abs/2005.10094v1",
+    "authors": [
+      "Muhammed S. Maddi",
+      "Paul Davis",
+      "John Geraghty"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Benchmarking Adversarial Robustness to Bias Elicitation in Large Language Models: Scalable Automated Assessment with LLM-as-a-Judge",
+    "abstract": "The growing integration of Large Language Models (LLMs) into critical societal domains has raised concerns about embedded biases that can perpetuate stereotypes and undermine fairness. Such biases may stem from historical inequalities in training data, linguistic imbalances, or adversarial manipulation. Despite mitigation efforts, recent studies show that LLMs remain vulnerable to adversarial attacks that elicit biased outputs. This work proposes a scalable benchmarking framework to assess LLM robustness to adversarial bias elicitation. Our methodology involves: (i) systematically probing mode",
+    "date": "2025-04-10",
+    "url": "http://arxiv.org/abs/2504.07887v2",
+    "authors": [
+      "Riccardo Cantini",
+      "Alessio Orsino",
+      "Massimo Ruggiero"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "BarrierSteer: LLM Safety via Learning Barrier Steering",
+    "abstract": "Despite the state-of-the-art performance of large language models (LLMs) across diverse tasks, their susceptibility to adversarial attacks and unsafe content generation remains a major obstacle to deployment, particularly in high-stakes settings. Addressing this challenge requires safety mechanisms that are both practically effective and supported by rigorous theory. We introduce BarrierSteer, a novel framework that formalizes response safety by embedding learned non-linear safety constraints directly into the model's latent representation space. BarrierSteer employs a steering mechanism based",
+    "date": "2026-02-23",
+    "url": "http://arxiv.org/abs/2602.20102v1",
+    "authors": [
+      "Thanh Q. Tran",
+      "Arun Verma",
+      "Kiwan Wong"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Decade of Public Procurement in Spain: A Longitudinal Open Dataset from the BOE (2014-2024)",
+    "abstract": "This paper presents a longitudinal open dataset of Spanish public procurement extracted from the Official State Gazette (BOE) covering the period 2014-2024. The dataset integrates structured information on contracts, contracting authorities, suppliers, amounts, and procedures, enabling large-scale quantitative analysis of public procurement dynamics in Spain. We describe the data extraction and normalization pipeline, provide descriptive statistical analyses of temporal and sectoral trends, and discuss potential applications in transparency research, public policy evaluation, and computational",
+    "date": "2026-02-17",
+    "url": "http://arxiv.org/abs/2602.16731v1",
+    "authors": [
+      "Manuel Munoz Pla"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs",
+    "abstract": "Large language models (LLMs) can often be made to behave in undesirable ways that they are explicitly fine-tuned not to. For example, the LLM red-teaming literature has produced a wide variety of 'jailbreaking' techniques to elicit harmful text from models that were fine-tuned to be harmless. Recent work on red-teaming, model editing, and interpretability suggests that this challenge stems from how (adversarial) fine-tuning largely serves to suppress rather than remove undesirable capabilities from LLMs. Prior work has introduced latent adversarial training (LAT) as a way to improve robustness",
+    "date": "2024-07-22",
+    "url": "http://arxiv.org/abs/2407.15549v3",
+    "authors": [
+      "Abhay Sheshadri",
+      "Aidan Ewart",
+      "Phillip Guo"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Organized crime behavior of shell-company networks in procurement: prevention insights for policy and reform",
+    "abstract": "In recent years, the analysis of economic crime and corruption in procurement has benefited from integrative studies that acknowledge the interconnected nature of the procurement ecosystem. Following this line of research, we present a networks approach for the analysis of shell-companies operations in procurement that makes use of contracting and ownership data under one framework to gain knowledge about the organized crime behavior that emerges in this setting. In this approach, ownership and management data are used to identify connected components in shell-company networks that, together w",
+    "date": "2023-07-13",
+    "url": "http://arxiv.org/abs/2307.10028v1",
+    "authors": [
+      "J. R. Nicol\u00e1s-Carlock",
+      "I. Luna-Pla"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Distributed Model Predictive Safety Certification for Learning-based Control",
+    "abstract": "While distributed algorithms provide advantages for the control of complex large-scale systems by requiring a lower local computational load and less local memory, it is a challenging task to design high-performance distributed control policies. Learning-based control algorithms offer promising opportunities to address this challenge, but generally cannot guarantee safety in terms of state and input constraint satisfaction. A recently proposed safety framework for centralized linear systems ensures safety by matching the learning-based input online with the initial input of a model predictive ",
+    "date": "2019-11-05",
+    "url": "http://arxiv.org/abs/1911.01832v2",
+    "authors": [
+      "Simon Muntwiler",
+      "Kim P. Wabersich",
+      "Andrea Carron"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Quaternion Generative Adversarial Networks",
+    "abstract": "Latest Generative Adversarial Networks (GANs) are gathering outstanding results through a large-scale training, thus employing models composed of millions of parameters requiring extensive computational capabilities. Building such huge models undermines their replicability and increases the training instability. Moreover, multi-channel data, such as images or audio, are usually processed by realvalued convolutional networks that flatten and concatenate the input, often losing intra-channel spatial relations. To address these issues related to complexity and information loss, we propose a famil",
+    "date": "2021-04-19",
+    "url": "http://arxiv.org/abs/2104.09630v2",
+    "authors": [
+      "Eleonora Grassucci",
+      "Edoardo Cicero",
+      "Danilo Comminiello"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Safety Assessment of Chinese Large Language Models",
+    "abstract": "With the rapid popularity of large language models such as ChatGPT and GPT-4, a growing amount of attention is paid to their safety concerns. These models may generate insulting and discriminatory content, reflect incorrect social values, and may be used for malicious purposes such as fraud and dissemination of misleading information. Evaluating and enhancing their safety is particularly essential for the wide application of large language models (LLMs). To further promote the safe deployment of LLMs, we develop a Chinese LLM safety assessment benchmark. Our benchmark explores the comprehensiv",
+    "date": "2023-04-20",
+    "url": "http://arxiv.org/abs/2304.10436v1",
+    "authors": [
+      "Hao Sun",
+      "Zhexin Zhang",
+      "Jiawen Deng"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "SCORE: Statistical Certification of Regions of Attraction via Extreme Value Theory",
+    "abstract": "Certifying the Region of Attraction (ROA) for high-dimensional nonlinear dynamical systems remains a severe computational bottleneck. Traditional deterministic verification methods, such as Sum-of-Squares (SOS) programming and Satisfiability Modulo Theories (SMT), provide hard guarantees but suffer from the curse of dimensionality, typically failing to scale beyond 20 dimensions. To overcome these limitations, we propose SCORE, a statistical certification framework that shifts from seeking deterministic guarantees to bounding the worst-case safety violation with high statistical confidence. By",
+    "date": "2026-03-31",
+    "url": "http://arxiv.org/abs/2603.29658v1",
+    "authors": [
+      "Pietro Zanotta",
+      "Panos Stinis",
+      "J\u00e1n Drgo\u0148a"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Laser pointer prohibition: improving safety or driving misclassification",
+    "abstract": "It is well known that since 2008 Australia has had some of the world's most restrictive laws regarding the possession and importation of \"laser pointers\" with powers exceeding 1 mW. Now four years on Australia is used as a test case and question whether this has actually improved safety for those wishing to purchase these devices or if it has impacted on the availability of prohibited devices. Results from the analysis of over 40 laser pointers legitimately purchased in Australia from local and International suppliers are presented. Specifically lasers that are readily available to everyday co",
+    "date": "2014-06-19",
+    "url": "http://arxiv.org/abs/1406.4924v1",
+    "authors": [
+      "Trevor A Wheatley"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Certifying LLM Safety against Adversarial Prompting",
+    "abstract": "Large language models (LLMs) are vulnerable to adversarial attacks that add malicious tokens to an input prompt to bypass the safety guardrails of an LLM and cause it to produce harmful content. In this work, we introduce erase-and-check, the first framework for defending against adversarial prompts with certifiable safety guarantees. Given a prompt, our procedure erases tokens individually and inspects the resulting subsequences using a safety filter. Our safety certificate guarantees that harmful prompts are not mislabeled as safe due to an adversarial attack up to a certain size. We impleme",
+    "date": "2023-09-06",
+    "url": "http://arxiv.org/abs/2309.02705v4",
+    "authors": [
+      "Aounon Kumar",
+      "Chirag Agarwal",
+      "Suraj Srinivas"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Saffron-1: Safety Inference Scaling",
+    "abstract": "Existing safety assurance research has primarily focused on training-phase alignment to instill safe behaviors into LLMs. However, recent studies have exposed these methods' susceptibility to diverse jailbreak attacks. Concurrently, inference scaling has significantly advanced LLM reasoning capabilities but remains unexplored in the context of safety assurance. Addressing this gap, our work pioneers inference scaling for robust and effective LLM safety against emerging threats. We reveal that conventional inference scaling techniques, despite their success in reasoning tasks, perform poorly in",
+    "date": "2025-06-06",
+    "url": "http://arxiv.org/abs/2506.06444v2",
+    "authors": [
+      "Ruizhong Qiu",
+      "Gaotang Li",
+      "Tianxin Wei"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Adversarial Stress Testing of SPARK Humanoid Safety Filters",
+    "abstract": "Humanoid robots are difficult to deploy safely because they have high-dimensional bodies, many collision constraints, and must operate near people and obstacles. Safety filters help by modifying a nominal control action when it may violate collision-avoidance constraints. Still, nominal benchmark scores do not fully show how these filters behave in harder environments. In this work, we study the robustness of SPARK humanoid safety filters through replication and stress testing. We replicate the SPARK benchmark case G1SportMode_D1_WG_SO_v1 in MuJoCo and evaluate RSSA, RSSS, SSA, CBF, PFM, and S",
+    "date": "2026-05-18",
+    "url": "http://arxiv.org/abs/2605.19009v1",
+    "authors": [
+      "Saurav Ghosh",
+      "Abdou Sow",
+      "Luke Zhang"
+    ]
+  }
+]

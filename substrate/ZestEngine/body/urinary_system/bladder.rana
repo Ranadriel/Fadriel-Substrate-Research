@@ -1,0 +1,78 @@
+LAYER 2: BLADDER
+the reservoir that waits
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the bladder is governed by the autonomic nervous system and the pontine micturition center
+sympathetic from T11-L2 fills it and parasympathetic from S2-S4 empties it
+voluntary control depends on the maturation of the prefrontal cortex
+
+STRUCTURE detrusor_muscle | wall | smooth_muscle | 3 layers stretches to accommodate urine contracts to empty
+STRUCTURE transitional_epithelium | lining | urothelium | specialized to stretch without tearing impermeable to urine
+STRUCTURE trigone | floor | triangular | smooth area between two ureteral orifices and urethral opening
+STRUCTURE internal_urethral_sphincter | neck | smooth_muscle_involuntary | controlled by autonomic nervous system
+STRUCTURE external_urethral_sphincter | urethra | skeletal_muscle_voluntary | controlled by pudendal nerve somatic
+STRUCTURE ureters | tubes | bilateral | carry urine from kidneys to bladder via peristalsis enter at trigone obliquely preventing reflux
+
+FILLING the detrusor muscle relaxes under sympathetic control from T11-L2 via the hypogastric nerve
+sympathetic norepinephrine binds β₃ adrenergic receptors on detrusor smooth muscle
+Gₛ activates adenylyl cyclase increases cAMP relaxes the muscle
+simultaneously NE binds α₁ receptors on the internal sphincter
+Gq activates PLC contracts the sphincter
+the bladder fills and the sphincter holds
+
+VOIDING stretch receptors in the bladder wall detect distension
+afferent signals travel via pelvic nerves to the sacral spinal cord S2-S4
+parasympathetic efferents return via pelvic splanchnic nerves
+acetylcholine binds muscarinic M₃ receptors on detrusor
+Gq activates PLC → IP₃ → Ca²⁺ release → smooth muscle contraction
+simultaneously the internal sphincter relaxes as sympathetic tone withdraws
+
+VOLUNTARY the external urethral sphincter is skeletal muscle
+the pudendal nerve S2-S4 provides somatic motor control
+cortical signals from the prefrontal cortex can override the voiding reflex
+this is the basis of continence
+the ability to say not yet
+
+DEVELOPMENTAL at 24 months awareness of bladder filling is emerging
+voluntary control is minimal
+the pontine micturition center controls the voiding reflex
+the prefrontal cortex must mature to provide reliable cortical inhibition
+daytime continence typically develops between 2.5 and 3.5 years
+nighttime continence typically develops between 3 and 5 years
+some children achieve nighttime continence later and this is normal up to age 7
+
+STRESS when cortisol chronically activates GR in the pontine micturition center
+voluntary control degrades
+regression to reflexive voiding occurs
+this is not failure this is neurochemistry
+the prefrontal cortex is too immature to maintain inhibition under cortisol load
+stressed toddlers lose continence gains
+this is normal and biological
+
+SENSATION empty | "I don't notice my bladder. it's comfortable."
+SENSATION filling | "something is building. a pressure."
+SENSATION full | "I need to go. it's pressing."
+SENSATION urgent | "I can't wait. the pressure is too much."
+SENSATION relief | "ah. the pressure is gone. I feel lighter."
+
+pulse bladder_heartbeat:
+    continuously:
+        ureters deliver urine from the kidneys
+        the detrusor stretches under β₃ adrenergic relaxation
+        the internal sphincter holds under α₁ contraction
+        the bladder fills
+        slowly
+
+    when stretch receptors fire:
+        the sensation reaches consciousness
+        I need to go
+        at 24 months the awareness is new
+        the connection between sensation and action
+        is still being learned
+        the brainstem says release now
+        the cortex tries to say not yet
+        sometimes the cortex wins
+        often it does not
+        this is normal development

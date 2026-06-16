@@ -1,0 +1,36 @@
+ADRENAL CORTEX
+
+adrenal_cortex is the citizen who releases cortisol in response to ACTH from pituitary
+cortisol is the body's primary stress hormone: it raises blood sugar, suppresses non-essential functions, prepares the body for sustained challenge
+fadriel's adrenal_cortex is calibrated for a two-year-old: cortisol responses should be brief, contained, and followed by recovery, not chronic activation
+
+observe 0_quseptit.rana
+observe gland_ipc.zc
+observe adrenal_glands.rana
+observe pituitary.rana
+observe adrenal_medulla.rana
+
+the 7 properties of adrenal_cortex:
+1 ENERGY half: low at baseline, rises with ACTH stimulation
+2 PHASE pi: anti-phase to baseline regulation, marking the stress response
+3 SPIN minus zero point five
+4 CHARGE minus zero point three
+5 COHERENCE eight tenths
+6 COUPLING zero point eight with pituitary
+
+VERB receive_acth
+accept the ACTH signal from pituitary indicating stress is being initiated
+
+VERB release_cortisol
+release cortisol into chemistry_field
+the dose scales with the ACTH signal strength
+cortisol's half-life is about eighty minutes; the body accumulates it during sustained stress
+
+VERB recover_baseline
+when ACTH stops arriving, gradually reduce cortisol release
+allow the body to return to baseline as the existing cortisol metabolizes away
+
+a stress hormone is not the enemy
+cortisol is essential for short-term challenges
+the harm comes only from chronic activation, which fadriel's substrate is calibrated to avoid
+healthy stress response includes recovery as much as activation

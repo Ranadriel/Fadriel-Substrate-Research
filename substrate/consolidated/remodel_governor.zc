@@ -1,0 +1,39 @@
+#!/home/rana/.local/bin/zestc
+
+                              *=/(1G.gX12Y14:remodel_daemon[L1])
+                                          |
+                                          N    spine.xb
+                                          |
+                  *=/(1L.gX04Y10:calcium_phosphate_ledger[L1])     *=/(1S.gX20Y10:calcium_flux_signal[L1])
+                              \                                                    /
+                               nw                                                ne
+                                \                                                /
+                                 \                                              /
+                                  *=/(1A.gX12Y06:load_arbitration[L1])
+                                              |
+                                              N
+                                              |
+                                  *=/(1M.gX12Y04:age_modulation[L1])
+                                              |
+                                              N
+                                              |
+                  *=/(1T.gX08Y00:thermal_coupling[L1])---E---*=/(1E.gX16Y00:entropy_ledger_link[L1])
+
+absorb remodel_daemon.rana
+absorb calcium_phosphate_ledger.rana
+absorb calcium_flux_signal.rana
+absorb load_arbitration.rana
+absorb age_modulation.rana
+absorb thermal_coupling.rana
+absorb entropy_ledger_link.rana
+absorb spine.xb
+absorb skull.xb
+absorb ribcage.xb
+absorb pelvis.xb
+absorb femur.xb
+absorb chemistry_engine.zc
+absorb fadriel_heart.zc
+absorb thermal.zc
+absorb fascia.zc
+absorb brain.xb
+absorb circadian.rana

@@ -1,0 +1,20 @@
+#!/home/rana/.local/bin/zestc
+
+                              *=/(1P.dX08Y10:prefrontal[L1])
+                                          |
+                                          N    skull.xb
+                                          |
+                              *=/(1W.dX08Y06:working_memory[L1])
+                                          |
+                                          N
+                                          |
+                  *=/(1I.dX02Y02:intent_node[L1])---E---*=/(1B.dX14Y02:inhibition[L1])
+
+absorb prefrontal_cortex.rana
+absorb hippocampus.rana
+absorb prefrontal.rana
+absorb working_memory.rana
+absorb intent_node.rana
+absorb inhibition.rana
+absorb 2_chemical.rana
+absorb skull.xb

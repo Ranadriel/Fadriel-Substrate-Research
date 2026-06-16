@@ -1,0 +1,177 @@
+[
+  {
+    "source": "OpenAlex",
+    "title": "Proceedings of the 28th International Conference on Computational Linguistics",
+    "abstract": "Only eighteen months ago, I joined Leo, Horacio, M\u00f3nica, and Nuria on a tour of the delights that the Barcelona venue would be offering us in September 2020.Together with Chengqing, we made great plans for a fantastic intellectual and social gathering with our colleagues from far and wide, Catalanstyle.We held on to this plan for as long as we could but the second wave of the COVID-19 pandemic eventually put paid to that idea, and the conference is now a virtual one.We also received a record 2195 submissions -eclipsing by double the already record-breaking number at our last COLING in 2018 in ",
+    "date": "2020",
+    "url": "https://doi.org/10.18653/v1/2020.coling-main",
+    "authors": [
+      "Xiaodan Zhu",
+      "Preslav Nakov",
+      "Jun Zhao"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "A Survey of Deep Learning-Based Object Detection",
+    "abstract": "Object detection is one of the most important and challenging branches of computer vision, which has been widely applied in people\u2019s life, such as monitoring security, autonomous driving and so on, with the purpose of locating instances of semantic objects of a certain class. With the rapid development of deep learning algorithms for detection tasks, the performance of object detectors has been greatly improved. In order to understand the main development status of object detection pipeline thoroughly and deeply, in this survey, we analyze the methods of existing typical detection models and d",
+    "date": "2019",
+    "url": "https://doi.org/10.1109/access.2019.2939201",
+    "authors": [
+      "Licheng Jiao",
+      "Fan Zhang",
+      "Fang Liu"
+    ]
+  },
+  {
+    "source": "OpenAlex (Transactions of the Association for Computational Linguistics)",
+    "title": "Analysis Methods in Neural Language Processing: A Survey",
+    "abstract": "Abstract The field of natural language processing has seen impressive progress in recent years, with neural network models replacing many of the traditional systems. A plethora of new models have been proposed, many of which are thought to be opaque compared to their feature-rich counterparts. This has led researchers to analyze, interpret, and evaluate neural networks in novel and more fine-grained ways. In this survey paper, we review analysis methods in neural language processing, categorize them according to prominent research trends, highlight existing limitations, and point to potential ",
+    "date": "2019",
+    "url": "https://doi.org/10.1162/tacl_a_00254",
+    "authors": [
+      "Yonatan Belinkov",
+      "James Glass"
+    ]
+  },
+  {
+    "source": "OpenAlex (Future Internet)",
+    "title": "ChatGPT and Open-AI Models: A Preliminary Review",
+    "abstract": "According to numerous reports, ChatGPT represents a significant breakthrough in the field of artificial intelligence. ChatGPT is a pre-trained AI model designed to engage in natural language conversations, utilizing sophisticated techniques from Natural Language Processing (NLP), Supervised Learning, and Reinforcement Learning to comprehend and generate text comparable to human-generated text. This article provides an overview of the training process and fundamental functionality of ChatGPT, accompanied by a preliminary review of the relevant literature. Notably, this article presents the firs",
+    "date": "2023",
+    "url": "https://doi.org/10.3390/fi15060192",
+    "authors": [
+      "Konstantinos I. Roumeliotis",
+      "Nikolaos D. Tselikas"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM Transactions on Intelligent Systems and Technology)",
+    "title": "Explainability for Large Language Models: A Survey",
+    "abstract": "Large language models (LLMs) have demonstrated impressive capabilities in natural language processing. However, their internal mechanisms are still unclear and this lack of transparency poses unwanted risks for downstream applications. Therefore, understanding and explaining these models is crucial for elucidating their behaviors, limitations, and social impacts. In this article, we introduce a taxonomy of explainability techniques and provide a structured overview of methods for explaining Transformer-based language models. We categorize techniques based on the training paradigms of LLMs: tra",
+    "date": "2024",
+    "url": "https://doi.org/10.1145/3639372",
+    "authors": [
+      "Haiyan Zhao",
+      "Hanjie Chen",
+      "Fan Yang"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+    "abstract": "In this report, we introduce the Gemini 1.5 family of models, representing the next generation of highly compute-efficient multimodal models capable of recalling and reasoning over fine-grained information from millions of tokens of context, including multiple long documents and hours of video and audio. The family includes two new models: (1) an updated Gemini 1.5 Pro, which exceeds the February version on the great majority of capabilities and benchmarks; (2) Gemini 1.5 Flash, a more lightweight variant designed for efficiency with minimal regression in quality. Gemini 1.5 models achieve nea",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2403.05530",
+    "authors": [
+      "Gemini Robotics Team",
+      "Petko Georgiev",
+      "Ving Ian Lei"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+    "abstract": "We present QLoRA, an efficient finetuning approach that reduces memory usage enough to finetune a 65B parameter model on a single 48GB GPU while preserving full 16-bit finetuning task performance. QLoRA backpropagates gradients through a frozen, 4-bit quantized pretrained language model into Low Rank Adapters~(LoRA). Our best model family, which we name Guanaco, outperforms all previous openly released models on the Vicuna benchmark, reaching 99.3% of the performance level of ChatGPT while only requiring 24 hours of finetuning on a single GPU. QLoRA introduces a number of innovations to save m",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2305.14314",
+    "authors": [
+      "Tim Dettmers",
+      "Artidoro Pagnoni",
+      "Ari Holtzman"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers",
+    "abstract": "Machine learning is widely used to develop classifiers for security tasks. However, the robustness of these methods against motivated adversaries is uncertain. In this work, we propose a generic method to evaluate the robustness of classifiers under attack. The key idea is to stochastically manipulate a malicious sample to find a variant that preserves the malicious behavior but is classified as benign by the classifier. We present a general approach to search for evasive variants and report on results from experiments using our techniques against two PDF malware classifiers, PDFrate and Hidos",
+    "date": "2016",
+    "url": "https://doi.org/10.14722/ndss.2016.23115",
+    "authors": [
+      "Weilin Xu",
+      "Yanjun Qi",
+      "David Evans"
+    ]
+  },
+  {
+    "source": "OpenAlex (Lecture notes in computer science)",
+    "title": "VerifAI: A Toolkit for the Formal Design and Analysis of Artificial Intelligence-Based Systems",
+    "abstract": "We present VerifAI, a software toolkit for the formal design and analysis of systems that include artificial intelligence (AI) and machine learning (ML) components. VerifAI particularly addresses challenges with applying formal methods to ML components such as perception systems based on deep neural networks, as well as systems containing them, and to model and analyze system behavior in the presence of environment uncertainty. We describe the initial version of VerifAI, which centers on simulation-based verification and synthesis, guided by formal models and specifications. We give examples o",
+    "date": "2019",
+    "url": "https://doi.org/10.1007/978-3-030-25540-4_25",
+    "authors": [
+      "Tommaso Dreossi",
+      "Daniel J. Fremont",
+      "Shromona Ghosh"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "A Survey on Large Language Models: Applications, Challenges, Limitations, and Practical Usage",
+    "abstract": "Within the vast expanse of computerized language processing, a revolutionary entity known as Large Language Models (LLMs) has emerged, wielding immense power in its capacity to comprehend intricate linguistic patterns and conjure coherent and contextually fitting responses. Large language models (LLMs) are a type of artificial intelligence (AI) that have emerged as powerful tools for a wide range of tasks, including natural language processing (NLP), machine translation, and question-answering. This survey paper provides a comprehensive overview of LLMs, including their history, architecture, ",
+    "date": "2023",
+    "url": "https://doi.org/10.36227/techrxiv.23589741.v1",
+    "authors": [
+      "Muhammad Usman Hadi",
+      "qasem al tashi",
+      "Rizwan Qureshi"
+    ]
+  },
+  {
+    "source": "OpenAlex (PLoS Computational Biology)",
+    "title": "Cross-species regulatory sequence activity prediction",
+    "abstract": "Machine learning algorithms trained to predict the regulatory activity of nucleic acid sequences have revealed principles of gene regulation and guided genetic variation analysis. While the human genome has been extensively annotated and studied, model organisms have been less explored. Model organism genomes offer both additional training sequences and unique annotations describing tissue and cell states unavailable in humans. Here, we develop a strategy to train deep convolutional neural networks simultaneously on multiple genomes and apply it to learn sequence predictors for large compendia",
+    "date": "2020",
+    "url": "https://doi.org/10.1371/journal.pcbi.1008050",
+    "authors": [
+      "David R. Kelley"
+    ]
+  },
+  {
+    "source": "OpenAlex (bioRxiv (Cold Spring Harbor Laboratory))",
+    "title": "Opportunities and obstacles for deep learning in biology and medicine",
+    "abstract": "Abstract Deep learning, which describes a class of machine learning algorithms, has recently showed impressive results across a variety of domains. Biology and medicine are data rich, but the data are complex and often ill-understood. Problems of this nature may be particularly well-suited to deep learning techniques. We examine applications of deep learning to a variety of biomedical problems\u2014patient classification, fundamental biological processes, and treatment of patients\u2014and discuss whether deep learning will transform these tasks or if the biomedical sphere poses unique challenges. We fi",
+    "date": "2017",
+    "url": "https://doi.org/10.1101/142760",
+    "authors": [
+      "Travers Ching",
+      "Daniel Himmelstein",
+      "Brett K. Beaulieu\u2010Jones"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "A Survey on Evaluation of Large Language Models",
+    "abstract": "Large language models (LLMs) are gaining increasing popularity in both academia and industry, owing to their unprecedented performance in various applications. As LLMs continue to play a vital role in both research and daily use, their evaluation becomes increasingly critical, not only at the task level, but also at the society level for better understanding of their potential risks. Over the past years, significant efforts have been made to examine LLMs from various perspectives. This paper presents a comprehensive review of these evaluation methods for LLMs, focusing on three key dimensions:",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2307.03109",
+    "authors": [
+      "Yupeng Chang",
+      "Xu Wang",
+      "Jindong Wang"
+    ]
+  },
+  {
+    "source": "OpenAlex (Computational Linguistics)",
+    "title": "Argument Mining: A Survey",
+    "abstract": "Argument mining is the automatic identification and extraction of the structure of inference and reasoning expressed as arguments presented in natural language. Understanding argumentative structure makes it possible to determine not only what positions people are adopting, but also why they hold the opinions they do, providing valuable insights in domains as diverse as financial market prediction and public relations. This survey explores the techniques that establish the foundations for argument mining, provides a review of recent advances in argument mining techniques, and discusses the cha",
+    "date": "2019",
+    "url": "https://doi.org/10.1162/coli_a_00364",
+    "authors": [
+      "John Lawrence",
+      "Chris Reed"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "BloombergGPT: A Large Language Model for Finance",
+    "abstract": "The use of NLP in the realm of financial technology is broad and complex, with applications ranging from sentiment analysis and named entity recognition to question answering. Large Language Models (LLMs) have been shown to be effective on a variety of tasks; however, no LLM specialized for the financial domain has been reported in literature. In this work, we present BloombergGPT, a 50 billion parameter language model that is trained on a wide range of financial data. We construct a 363 billion token dataset based on Bloomberg's extensive data sources, perhaps the largest domain-specific data",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2303.17564",
+    "authors": [
+      "Shijie Wu",
+      "Ozan \u0130rsoy",
+      "Steven Lu"
+    ]
+  }
+]

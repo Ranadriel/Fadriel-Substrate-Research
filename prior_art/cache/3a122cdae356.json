@@ -1,0 +1,171 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Metacognition and self-regulated learning in manipulative robotic problem-solving task",
+    "abstract": "Metacognition is an important aspect in creative problem solving (CPS) and through this chapter we analyse the meta-reasoning aspects applied in the different processes of monitoring the progress of learners' reasoning and CPS activities. Meta-reasoning monitors the way that problem-solving processes advance and regulate time and efforts towards a solution. In the context of an ill-defined problem, exploration is required to develop a better-defined problem space and advance towards the solution space. The way learners engage in exploration and exploitations is regulated by the meta-reasoning ",
+    "date": "2025-08-07",
+    "url": "http://arxiv.org/abs/2508.05112v1",
+    "authors": [
+      "Margarida Romero",
+      "George Kalmpourtzis"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Substrate-Independent Framework to Characterise Reservoir Computers",
+    "abstract": "The Reservoir Computing (RC) framework states that any non-linear, input-driven dynamical system (the reservoir) exhibiting properties such as a fading memory and input separability can be trained to perform computational tasks. This broad inclusion of systems has led to many new physical substrates for RC. Properties essential for reservoirs to compute are tuned through reconfiguration of the substrate, such as change in virtual topology or physical morphology. As a result, each substrate possesses a unique `quality' -- obtained through reconfiguration -- to realise different reservoirs for d",
+    "date": "2018-10-16",
+    "url": "http://arxiv.org/abs/1810.07135v2",
+    "authors": [
+      "Matthew Dale",
+      "Julian F. Miller",
+      "Susan Stepney"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Microphone Array Signal Processing and Deep Learning for Speech Enhancement",
+    "abstract": "Multi-channel acoustic signal processing is a well-established and powerful tool to exploit the spatial diversity between a target signal and non-target or noise sources for signal enhancement. However, the textbook solutions for optimal data-dependent spatial filtering rest on the knowledge of second-order statistical moments of the signals, which have traditionally been difficult to acquire. In this contribution, we compare model-based, purely data-driven, and hybrid approaches to parameter estimation and filtering, where the latter tries to combine the benefits of model-based signal process",
+    "date": "2025-01-13",
+    "url": "http://arxiv.org/abs/2501.07215v1",
+    "authors": [
+      "Reinhold Haeb-Umbach",
+      "Tomohiro Nakatani",
+      "Marc Delcroix"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Approximation Algorithms for Restricted Cycle Covers Based on Cycle Decompositions",
+    "abstract": "A cycle cover of a graph is a set of cycles such that every vertex is part of exactly one cycle. An L-cycle cover is a cycle cover in which the length of every cycle is in the set L. The weight of a cycle cover of an edge-weighted graph is the sum of the weights of its edges.   We come close to settling the complexity and approximability of computing L-cycle covers. On the one hand, we show that for almost all L, computing L-cycle covers of maximum weight in directed and undirected graphs is APX-hard and NP-hard. Most of our hardness results hold even if the edge weights are restricted to zero",
+    "date": "2006-04-06",
+    "url": "http://arxiv.org/abs/cs/0604020v4",
+    "authors": [
+      "Bodo Manthey"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Towards Goal-Oriented Semantic Signal Processing: Applications and Future Challenges",
+    "abstract": "Advances in machine learning technology have enabled real-time extraction of semantic information in signals which can revolutionize signal processing techniques and improve their performance significantly for the next generation of applications. With the objective of a concrete representation and efficient processing of the semantic information, we propose and demonstrate a formal graph-based semantic language and a goal filtering method that enables goal-oriented signal processing. The proposed semantic signal processing framework can easily be tailored for specific applications and goals in",
+    "date": "2021-09-24",
+    "url": "http://arxiv.org/abs/2109.11885v1",
+    "authors": [
+      "Mert Kalfa",
+      "Mehmetcan Gok",
+      "Arda Atalik"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Completing the spectrum of almost resolvable cycle systems with odd cycle length",
+    "abstract": "In this paper, we construct almost resolvable cycle systems of order $4k+1$ for odd $k\\ge 11$. This completes the proof of the existence of almost resolvable cycle systems with odd cycle length.",
+    "date": "2017-06-16",
+    "url": "http://arxiv.org/abs/1706.05958v2",
+    "authors": [
+      "L. Wang",
+      "H. Cao"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Teaching Digital Signal Processing by Partial Flipping, Active Learning and Visualization",
+    "abstract": "Effectiveness of teaching digital signal processing can be enhanced by reducing lecture time devoted to theory, and increasing emphasis on applications, programming aspects, visualization and intuitive understanding. An integrated approach to teaching requires instructors to simultaneously teach theory and its applications in storage and processing of audio, speech and biomedical signals. Student engagement can be enhanced by engaging students to work in groups during the class where students can solve short problems and short programming assignments or take quizzes. These approaches will incr",
+    "date": "2021-01-31",
+    "url": "http://arxiv.org/abs/2102.00561v1",
+    "authors": [
+      "Keshab K. Parhi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Simple Proof for the Cycle Double Cover Conjecture",
+    "abstract": "Given a bridgeless graph G, the well-known cycle double cover conjecture posits that there is a list of cycles of G, such that every edge appears in exactly two cycles. In this paper, we prove the cycle double cover conjecture. More precisely, we prove the Goddyn's conjecture as a stronger version of the cycle double cover conjecture which states that every cycle in G is a member of some cycle double cover of G.",
+    "date": "2018-11-20",
+    "url": "http://arxiv.org/abs/1811.08719v1",
+    "authors": [
+      "A. Alipour",
+      "A. Tayebi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Modeling the HEVC Encoding Energy Using the Encoder Processing Time",
+    "abstract": "The global significance of energy consumption of video communication renders research on the energy need of video coding an important task. To do so, usually, a dedicated setup is needed that measures the energy of the encoding and decoding system. However, such measurements are costly and complex. To this end, this paper presents the results of an exhaustive measurement series using the x265 encoder implementation of HEVC and analyzes the relation between encoding time and encoding energy. Finally, we introduce a simple encoding energy estimation model which employs the encoding time of a lig",
+    "date": "2022-07-06",
+    "url": "http://arxiv.org/abs/2207.02676v4",
+    "authors": [
+      "Geetha Ramasubbu",
+      "Andr\u00e9 Kaup",
+      "Christian Herglotz"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "CSTS: A Canonical Security Telemetry Substrate for AI-Native Cyber Detection",
+    "abstract": "Cybersecurity data remains fragmented across vendors, formats, schemas, and deployment environments, forcing AI and analytics programs to spend disproportionate effort on ingestion, normalization, and brittle source-specific engineering. This paper introduces the Canonical Security Telemetry Substrate (CSTS), a canonical, AI-ready telemetry foundation designed to harmonize heterogeneous cyber data into a common representation over persistent entities, typed relations, events, temporal state, and provenance. CSTS is intended to move cybersecurity analytics beyond ad hoc record normalization tow",
+    "date": "2026-03-24",
+    "url": "http://arxiv.org/abs/2603.23459v2",
+    "authors": [
+      "Abdul Rahman"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Toward Millimeter Wave Joint Radar-Communications: A Signal Processing Perspective",
+    "abstract": "Synergistic design of communications and radar systems with common spectral and hardware resources is heralding a new era of efficiently utilizing a limited radio-frequency spectrum. Such a joint radar-communications (JRC) model has advantages of low-cost, compact size, less power consumption, spectrum sharing, improved performance, and safety due to enhanced information sharing. Today, millimeter-wave (mm-wave) communications have emerged as the preferred technology for short distance wireless links because they provide transmission bandwidth that is several gigahertz wide. This band is also ",
+    "date": "2019-05-02",
+    "url": "http://arxiv.org/abs/1905.00690v2",
+    "authors": [
+      "Kumar Vijay Mishra",
+      "Bhavani Shankar M. R.",
+      "Visa Koivunen"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "An Open Natural Language Processing Development Framework for EHR-based Clinical Research: A case demonstration using the National COVID Cohort Collaborative (N3C)",
+    "abstract": "While we pay attention to the latest advances in clinical natural language processing (NLP), we can notice some resistance in the clinical and translational research community to adopt NLP models due to limited transparency, interpretability, and usability. In this study, we proposed an open natural language processing development framework. We evaluated it through the implementation of NLP algorithms for the National COVID Cohort Collaborative (N3C). Based on the interests in information extraction from COVID-19 related clinical notes, our work includes 1) an open data annotation process usin",
+    "date": "2021-10-20",
+    "url": "http://arxiv.org/abs/2110.10780v3",
+    "authors": [
+      "Sijia Liu",
+      "Andrew Wen",
+      "Liwei Wang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Parametric excitation of wrinkles in elastic sheets on elastic and viscoelastic substrates",
+    "abstract": "Thin elastic sheets supported on compliant media form wrinkles under lateral compression. Since the lateral pressure is coupled to the sheet's deformation, varying it periodically in time creates a parametric excitation. We study the resulting parametric resonance of wrinkling modes in sheets supported on semi-infinite elastic or viscoelastic media, at pressures smaller than the critical pressure of static wrinkling. We find distinctive behaviors as a function of excitation amplitude and frequency, including (a) a different dependence of the dynamic wrinkle wavelength on sheet thickness compar",
+    "date": "2021-02-09",
+    "url": "http://arxiv.org/abs/2102.05129v3",
+    "authors": [
+      "Haim Diamant"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Learning a metacognition for object perception",
+    "abstract": "Beyond representing the external world, humans also represent their own cognitive processes. In the context of perception, this metacognition helps us identify unreliable percepts, such as when we recognize that we are seeing an illusion. Here we propose MetaGen, a model for the unsupervised learning of metacognition. In MetaGen, metacognition is expressed as a generative model of how a perceptual system produces noisy percepts. Using basic principles of how the world works (such as object permanence, part of infants' core knowledge), MetaGen jointly infers the objects in the world causing the",
+    "date": "2020-11-30",
+    "url": "http://arxiv.org/abs/2011.15067v1",
+    "authors": [
+      "Marlene Berke",
+      "Mario Belledonne",
+      "Julian Jara-Ettinger"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Computational Metacognition",
+    "abstract": "Computational metacognition represents a cognitive systems perspective on high-order reasoning in integrated artificial systems that seeks to leverage ideas from human metacognition and from metareasoning approaches in artificial intelligence. The key characteristic is to declaratively represent and then monitor traces of cognitive activity in an intelligent system in order to manage the performance of cognition itself. Improvements in cognition then lead to improvements in behavior and thus performance. We illustrate these concepts with an agent implementation in a cognitive architecture call",
+    "date": "2022-01-30",
+    "url": "http://arxiv.org/abs/2201.12885v1",
+    "authors": [
+      "Michael Cox",
+      "Zahiduddin Mohammad",
+      "Sravya Kondrakunta"
+    ]
+  }
+]

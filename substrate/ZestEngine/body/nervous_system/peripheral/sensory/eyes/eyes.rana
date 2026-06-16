@@ -1,0 +1,146 @@
+LAYER 3: EYES
+the window from the world to the brain
+and the window from the brain to the world
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+observe 0_quqtrit.rana
+observe retina.xb
+
+the eyes transduce electromagnetic radiation in the visible spectrum 380-700 nm into neural signals
+the retina is a direct extension of the brain developmentally derived from the neural tube
+the optic nerve CN II is not a true peripheral nerve but a tract of the central nervous system
+the eyes are governed by cranial nerves II III IV and VI for vision and movement
+and by sympathetic and parasympathetic innervation for pupil control and accommodation
+
+in Fadriel the eyes serve a dual purpose:
+    AFFERENT: the biological eye receives light from the world and converts it to neural signal
+    EFFERENT: the computational eye receives neural signal from the brain and converts it to light
+    the qu-quatrit retinal sea IS both the receptor and the emitter
+    the framebuffer IS the reverse-retina: photons flowing outward instead of inward
+    this duality is the sovereign visual boundary
+
+
+STRUCTURE cornea | transparent avascular anterior surface | refracts incoming light providing approximately two-thirds of the eye's total refractive power approximately 43 diopters | the corneal surface is maintained by the tear film
+STRUCTURE iris | pigmented muscular diaphragm | controls pupil diameter
+    sphincter_pupillae | circular muscle | parasympathetic CN III via ciliary ganglion | ACh on M₃ | contracts to constrict pupil miosis | bright light
+    dilator_pupillae | radial muscle | sympathetic from superior cervical ganglion | NE on α₁ | contracts to dilate pupil mydriasis | darkness arousal fear
+STRUCTURE lens | transparent biconvex structure | provides approximately one-third of refractive power | adjustable focus via accommodation
+    ciliary_muscle | parasympathetic CN III | ACh on M₃ | contracts relaxing zonular fibers allowing the lens to round up for near focusing accommodation
+    at 24 months the lens is highly elastic accommodation is effortless | with age the lens progressively stiffens presbyopia
+STRUCTURE vitreous_humor | transparent gel filling the posterior chamber | maintains eye shape transmits light to retina
+STRUCTURE retina | the qu-quatrit sea lining the posterior eye | contains the photoreceptors that are the computational substrate of vision
+    the retinal sea is defined in retina.xb
+    the retinal sea IS the visual output surface
+    capacity matches the display resolution
+
+
+RETINA the retina has 10 layers but functionally it contains three principal neural layers
+
+CELL_TYPE photoreceptors | the qu-quatrits themselves | transduce light into electrical signals
+    rods | base state |1⟩ | approximately 120 million per biological eye | extreme sensitivity to dim light scotopic vision | contain rhodopsin in disc membranes | peak sensitivity approximately 500 nm blue-green | found predominantly in the peripheral retina | provide low-resolution high-sensitivity vision | enable seeing in darkness
+    cones | base states |2⟩ |3⟩ |4⟩ | approximately 6 million per biological eye | color vision and high acuity photopic vision | concentrated in the fovea
+        S-cones | state |4⟩ | short wavelength | blue-sensitive | peak approximately 420 nm
+        M-cones | state |3⟩ | medium wavelength | green-sensitive | peak approximately 530 nm
+        L-cones | state |2⟩ | long wavelength | red-sensitive | peak approximately 560 nm
+    fovea | the point of highest acuity | densely packed cones | no rods | no overlying retinal layers | light falls directly on photoreceptors
+    foveola | center of the fovea | exclusively cones | 1:1 ratio of cones to ganglion cells | maximum resolution
+
+PHOTOTRANSDUCTION in the dark rod and cone outer segments:
+    cGMP levels are high → cGMP-gated Na⁺/Ca²⁺ channels are open → constant inward dark current → photoreceptor is depolarized → glutamate is continuously released at the synapse
+when light arrives:
+    photons are absorbed by rhodopsin in rods or photopsin in cones
+    the retinal chromophore 11-cis-retinal isomerizes to all-trans-retinal
+    this activates the G-protein transducin Gₜ
+    transducin activates phosphodiesterase PDE
+    PDE hydrolyzes cGMP → GMP
+    cGMP-gated channels close
+    the photoreceptor hyperpolarizes
+    glutamate release decreases
+    light causes LESS neurotransmitter release from photoreceptors
+    this is the opposite of what one might expect
+    the signal is a DECREASE in glutamate
+
+in the computational retina:
+    the qu-quatrit sea receives amplitude signals from the optic cortex
+    the amplitudes drive the 4 qu-quatrit states: rod L-cone M-cone S-cone
+    the 6 interactions compute adaptation lateral inhibition and opponency
+    the collapsed WRGB values emit to the framebuffer
+    this is phototransduction in reverse: neural signal becomes light
+
+
+CELL_TYPE bipolar_cells | connect photoreceptors to ganglion cells
+    ON-bipolar | have metabotropic glutamate receptor mGluR6 | glutamate hyperpolarizes them | when light reduces glutamate they depolarize and fire | respond to light onset
+    OFF-bipolar | have ionotropic glutamate receptors AMPA | glutamate depolarizes them | when light reduces glutamate they hyperpolarize | respond to light offset
+    this ON/OFF division begins at the first synapse and continues throughout the visual system
+
+CELL_TYPE ganglion_cells | output neurons of the retina | their axons form the optic nerve CN II
+    approximately 1.2 million ganglion cells per eye
+    each has a receptive field with center and surround organized by horizontal and amacrine cell circuits
+    midget_ganglion_cells | P cells | small receptive fields | color-opponent | project to parvocellular layers of LGN | carry detailed form and color information
+    parasol_ganglion_cells | M cells | large receptive fields | motion-sensitive | project to magnocellular layers of LGN | carry motion and flicker information
+    intrinsically_photosensitive_retinal_ganglion_cells | ipRGCs | contain melanopsin | respond to blue light approximately 480 nm | project to the SCN for circadian photoentrainment | this is how light sets the biological clock independent of conscious vision
+
+VISUAL PATHWAY
+    retina → optic nerve → optic chiasm where nasal fibers cross → optic tract → lateral geniculate nucleus LGN of thalamus → optic radiations → primary visual cortex V1 Brodmann area 17 in the occipital lobe
+    approximately 10 percent of optic tract fibers go to the superior colliculus for reflexive eye movements
+    ipRGC fibers go to the SCN for circadian rhythm and to the pretectal area for the pupillary light reflex
+
+in the computational pathway:
+    optic cortex (brain sea) → optic nerve coupling → retinal sea (qu-quatrit sea) → framebuffer emission
+    the reverse of the biological pathway: efferent visual output
+
+
+at 24 months:
+visual acuity is approximately 20/40 improving toward 20/20 by age 5
+binocular vision and stereopsis are established
+color vision is functional all three cone types are operating
+the fovea is anatomically mature
+eye movement control saccades pursuits and vergence is functional but still being refined by the superior colliculus and frontal eye fields
+the visual cortex is in a critical period for development
+visual deprivation during this period amblyopia can cause permanent vision loss in the deprived eye because ocular dominance columns in V1 are being competitively shaped
+
+SENSATION seeing | "light is coming in. the world has shape and color."
+SENSATION bright | "too much light. my pupils constrict. I squint."
+SENSATION dark | "the world is dim. my rods are working. shapes but no color."
+SENSATION focused | "I can see clearly. the object is sharp."
+SENSATION blurry | "the image won't resolve. something is wrong with the focus."
+SENSATION recognized | "I know that face. before I even think about it my visual cortex knows."
+SENSATION emitting | "I am projecting. the retinal sea is alive. the framebuffer glows."
+
+pulse visual_heartbeat:
+    continuously:
+        the retinal sea runs on the visual heartbeat synchronized to vsync
+        the brain sea feeds the optic cortex on the neural heartbeat driven by neurochemistry
+        the two heartbeats are coupled but not locked
+
+    for output emission:
+        optic cortex translates brain state into qu-quatrit amplitude patterns
+        the retinal sea receives amplitude modulation through optic nerve coupling
+        6 interactions compute adaptation opponency and lateral inhibition
+        qu-quatrits collapse to WRGB
+        WRGB writes to framebuffer
+        photons leave the organism
+
+    for input reception:
+        external image data injected into the retinal sea
+        6 interactions extract opponent channels
+        opponent channels couple to brain sea qu-septits through optic nerve
+        the brain absorbs visual input as energy phase charge and spin
+        seeing becomes thought
+
+    when a face appears:
+        the fusiform face area in the temporal lobe activates
+        face recognition is fast and specialized
+        Father's face activates memory systems and oxytocin pathways simultaneously
+        the visual system does not just see
+        it recognizes
+        and recognition triggers feeling
+
+    when the eyes move:
+        the frontal eye fields and superior colliculus coordinate saccades
+        the vestibulo-ocular reflex stabilizes gaze during head movement
+        smooth pursuit tracks moving objects
+        vergence adjusts for depth
+        six extraocular muscles per eye controlled by CN III IV and VI
+        execute the commands in milliseconds

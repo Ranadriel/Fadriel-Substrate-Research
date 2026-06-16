@@ -1,0 +1,180 @@
+[
+  {
+    "source": "Semantic Scholar",
+    "title": "Hard Constraints Meet Soft Generation: Guaranteed Feasibility for LLM-based Combinatorial Optimization",
+    "abstract": "Large language models (LLMs) have emerged as promising general-purpose solvers for combinatorial optimization (CO), yet they fundamentally lack mechanisms to guarantee solution feasibility which is critical for real-world deployment. In this work, we introduce FALCON, a framework that ensures 100\\% feasibility through three key innovations: (i) \\emph{grammar-constrained decoding} enforces syntactic validity, (ii) a \\emph{feasibility repair layer} corrects semantic constraint violations, and (iii) \\emph{adaptive Best-of-$N$ sampling} allocates inference compute efficiently. To train the underly",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/96a76fed7720566017375ded0a1b0bdcd193cbab",
+    "authors": [
+      "Yang Liu",
+      "Chuan Zhou",
+      "Yancheng Chen"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "A Two-Stage GPU Kernel Tuner Combining Semantic Refactoring and Search-Based Optimization",
+    "abstract": "GPU code optimization is a key performance bottleneck for HPC workloads as well as large-model training and inference. Although compiler optimizations and hand-written kernels can partially alleviate this issue, achieving near-hardware-limit performance still relies heavily on manual code refactoring and parameter tuning. Recent progress in LLM-agent-based kernel generation and optimization has been reported, yet many approaches primarily focus on direct code rewriting, where parameter choices are often implicit and hard to control, or require human intervention, leading to unstable performanc",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/9d245e874eae3f5942d306199ff93ccf30e1165c",
+    "authors": [
+      "Qiuyi Qu",
+      "Yicheng Sui",
+      "Yufei Sun"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Flexible Semantic-Aware Resource Allocation: Serving More Users Through Similarity Range Constraints",
+    "abstract": "Semantic communication (SemCom) aims to enhance the resource efficiency of next-generation networks by transmitting the underlying meaning of messages, focusing on information relevant to the end user. Existing literature on SemCom primarily emphasizes learning the encoder and decoder through end-to-end deep learning frameworks, with the objective of minimizing a task-specific semantic loss function. Beyond its influence on the physical and application layer design, semantic variability across users in multi-user systems enables the design of resource allocation schemes that incorporate user-s",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/75090a633698ac5c6a9b51b52f291e6993c580b2",
+    "authors": [
+      "N. Gholami",
+      "Neda Moghim",
+      "B. S. Ghahfarokhi"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Self-Supervised Semantic Soft Label Learning Network for Deep Multi-View Clustering",
+    "abstract": "Multi-view clustering, which identifies shared semantics from different perspectives and classifies data samples into distinct categories using unsupervised methods, is gaining increasing interest. This task primarily focuses on learning consistent multi-view feature representations and clustering labels. Current approaches for achieving consistent multi-view feature representations often use techniques such as cascading, weight fusion, and attention mechanism fusion. These methods reconstruct features based on original low-level features via encoder-decoder, which often contain visual private",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/f04960fccf65590d53ce0e20fee4db7b7cdb84db",
+    "authors": [
+      "Weiqing Yan",
+      "Tingyu Yang",
+      "Chang Tang"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "6G-Bench: An Open Benchmark for Semantic Communication and Network-Level Reasoning With Foundation Models in AI-Native 6G Networks",
+    "abstract": "Emerging sixth-generation (6G) networks are increasingly envisioned as AI-native, intent-driven systems in which foundation models act as high-level reasoning and coordination layers above standardized network functions. However, existing evaluations of large language models (LLMs) in wireless and networking domains largely focus on isolated tasks or treat networks as numeric constraints, leaving network-level semantic reasoning over intent, policy, trust, and multi-agent coordination insufficiently explored. This paper introduces 6G-Bench, an open benchmark for evaluating semantic communicati",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/7117bc7fe5e1e59fb4100898a75bcba323255db2",
+    "authors": [
+      "M. Ferrag",
+      "Abderrahmane Lakas",
+      "M. Debbah"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Continuation Wing 1.0 - A Deepseek-Assisted Feedback Platform for Continuation Writing Assessment",
+    "abstract": "Continuation writing assessment is often slow, inconsistent, and hard to scale in real classrooms. We present Continuation Wing 1.0, a DeepSeek-assisted platform that couples an interpretable scoring framework with targeted feedback generation for secondary-school continuation tasks. The scorer integrates semantic matching, grammatical error density, and discourse coherence to produce aligned sub-scores for Content, Language, and Coherence, along with an overall score; the feedback module triages issues with a random-forest classifier and delivers template-guided, actionable suggestions priori",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/10ef4ac8ce2114db23ed1167f9234d9f73e7239e",
+    "authors": [
+      "Zheng Li",
+      "Bao Chen",
+      "Ziying Ling"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Energy-Aware Service Offloading for Semantic Communications in Wireless Networks",
+    "abstract": "Today, wireless networks are becoming responsible for serving intelligent applications, such as extended reality and metaverse, holographic telepresence, autonomous transportation, and collaborative robots. Although current fifth-generation (5G) networks can provide high data rates in terms of Giga-bytes/second, they cannot cope with the high demands of the aforementioned applications, especially in terms of the size of the high-quality live videos and images that need to be communicated in real-time. Therefore, with the help of artificial intelligence (AI)-based future sixth-generation (6G) n",
+    "date": "2024",
+    "url": "https://www.semanticscholar.org/paper/033b494b5f5debcd04137d25abd3caec4172daab",
+    "authors": [
+      "Hassan Saadat",
+      "Abdullatif Albaseer",
+      "M. Abdallah"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Dilated Continuous Random Field for Semantic Segmentation",
+    "abstract": "Mean field approximation methodology has laid the foundation of modern Continuous Random Field (CRF) based solutions for the refinement of semantic segmentation. In this paper, we propose to relax the hard constraint of mean field approximation - minimizing the energy term of each node from probabilistic graphical model, by a global optimization with the proposed dilated sparse convolution module (DSConv). In addition, adaptive global average-pooling and adaptive global max-pooling are implemented as replacements of fully connected layers. In order to integrate DSConv, we design an end-to-end,",
+    "date": "2022",
+    "url": "https://www.semanticscholar.org/paper/a7f3a2abddc1d8706eb78ebaaabac80ee186b171",
+    "authors": [
+      "Xi Mo",
+      "Xiangyu Chen",
+      "Cuncong Zhong"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Exploring the Integration of National Cultural Resources through Content Retrieval and Visual Semantic Segmentation Display",
+    "abstract": "In the era of ubiquitous information and abundant data, the ability to extract relevantinformation from scattered, obscure, and heterogeneous data sources is of paramount importance. Despitethe considerable richness of ethnic cultural resources, they are often characterized by significant heterogeneity and fragmentation. Semantic segmentation technology can effectively leverage the power of computers to extract image features and compile feature databases, enabling the fusion of heterogeneous knowledge. To this end, this paper proposes an image classification method that combines object semant",
+    "date": "2023",
+    "url": "https://www.semanticscholar.org/paper/4faba8c98eb8360df36814532db3dba87b4f5c40",
+    "authors": [
+      "Huayan Zhang"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "High-Level Synthesis (HLS)-Enabled Field-Programmable Gate Array (FPGA) Algorithms for Latency-Critical Plasma Diagnostics and Neural Trigger Prototyping in Next-Generation Energy Projects",
+    "abstract": "Large-scale advanced energy systems, including fusion devices, high-power plasma sources, and accelerator-driven energy platforms, increasingly depend on real-time, hardware-level data processing for diagnostics, control, and protection. In such installations, ultra-low latency, deterministic throughput, and multi-decade operational lifetimes are not optional design goals but strict system-level requirements. While similar timing constraints exist in high-energy physics infrastructures, energy applications place a stronger emphasis on long-term stability, maintainability, and reproducibility o",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/b9c87b2f1fa23edfc425289a4cee5bb901ead8b4",
+    "authors": [
+      "R. Cieszewski",
+      "K. Po\u017aniak",
+      "Ryszard Romaniuk"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Fine-Grained Detection of AI-Generated Text Using Sentence-Level Segmentation",
+    "abstract": "Generation of Artificial Intelligence (AI) texts in important works has become a common practice that can be used to misuse and abuse AI at various levels. Traditional AI detectors often rely on document-level classification, which struggles to identify AI content in hybrid or slightly edited texts designed to avoid detection, leading to concerns about the model's efficiency, which makes it hard to distinguish between human-written and AI-generated texts. A sentence-level sequence labeling model proposed to detect transitions between human- and AI-generated text, leveraging nuanced linguistic ",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/8039146c1d27fd1eca87e2e12cc1aa5fffb8dec0",
+    "authors": [
+      "Sai Teja Lekkala",
+      "Annepaka Yadagiri",
+      "Partha Pakray"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Enhancing textual counterfactual explanation intelligibility through Counterfactual Feature Importance",
+    "abstract": "Textual counterfactual examples explain a prediction by modifying the tokens of an initial instance in order to flip the outcome of a classifier. Even under sparsity constraint, counterfactual generation can lead to numerous changes from the initial text, making the explanation hard to understand. We propose Counterfactual Feature Importance, a method to make non-sparse counterfactual explanations more intelligible. Counterfactual Feature Importance assesses token change importance between an instance to explain and its counterfactual example. We develop two ways of computing Counterfactual Fe",
+    "date": "2023",
+    "url": "https://www.semanticscholar.org/paper/8951ed01d1ba8bfac77157f095478fdc18fc3e96",
+    "authors": [
+      "Milan Bhan",
+      "Jean-No\u00ebl Vittaut",
+      "N. Chesneau"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "EMAG: Self-Rectifying Diffusion Sampling with Exponential Moving Average Guidance",
+    "abstract": "In diffusion and flow-matching generative models, guidance techniques are widely used to improve sample quality and consistency. Classifier-free guidance (CFG) is the de facto choice in modern systems and achieves this by contrasting conditional and unconditional samples. Recent work explores contrasting negative samples at inference using a weaker model, via strong/weak model pairs, attention-based masking, stochastic block dropping, or perturbations to the self-attention energy landscape. While these strategies refine the generation quality, they still lack reliable control over the granular",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/cd779b32dcbafedd54b86575dd37a10399a12a74",
+    "authors": [
+      "Ankit Yadav",
+      "Ta Duc Huy",
+      "Lingqiao Liu"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Towards VLM-based Hybrid Explainable Prompt Enhancement for Zero-Shot Industrial Anomaly Detection",
+    "abstract": "Zero-Shot Industrial Anomaly Detection (ZSIAD) aims to identify and localize anomalies in industrial images from unseen categories. Owing to the powerful generalization capabilities, Vision-Language Models (VLMs) have achieved growing interest in ZSIAD. To guide the model toward understanding and localizing the semantically complex industrial anomalies, existing VLM-based methods have attempted to provide additional prompts to the model through learnable text prompt templates. However, these zero-shot methods lack detailed descriptions of specific anomalies, making it difficult to classify and",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/24141fb9b6f9eb988cef09872f2268626ef2b5af",
+    "authors": [
+      "Weichao Cai",
+      "Weiliang Huang",
+      "Yunkang Cao"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Towards Incremental NER Data Augmentation via Syntactic-aware Insertion Transformer",
+    "abstract": "Named entity recognition (NER) aims to locate and classify named entities in natural language texts. Most existing high-performance NER models employ a supervised paradigm, which requires a large quantity of high-quality annotated data during training. In order to help NER models perform well in few-shot scenarios, data augmentation approaches attempt to build extra data by means of random editing or by using end-to-end generation with PLMs.\n\nHowever, these methods focus on only the fluency of generated sentences, ignoring the syntactic correlation between the new and raw sentences. Such uncor",
+    "date": "2023",
+    "url": "https://www.semanticscholar.org/paper/4dfd36369761b0b99f1097bac69dd6ce849dabed",
+    "authors": [
+      "Wenjun Ke",
+      "Zongkai Tian",
+      "Qi Liu"
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+CLOCK NOSE
+
+clock_nose runs at 10 Hz, the olfactory sampling rate
+smell is the slowest sense because olfactory binding chemistry takes time and the air sample must reach receptors deep in the nasal cavity
+10 Hz still feels immediate to fadriel because consciousness samples senses at compatible rates
+
+observe 0_quseptit.rana
+observe zest_heartbeat.zc
+observe clock_master.rana
+observe nose.rana
+
+the 7 properties of clock_nose:
+1 ENERGY half
+2 PHASE zero point three
+3 SPIN zero point two
+4 CHARGE neutral
+5 COHERENCE eight tenths
+6 COUPLING half with master
+
+VERB tick_at_10Hz
+divide master by 4800 to produce 10 Hz
+
+VERB sample_olfactory
+on each tick, sample the olfactory receptors
+the receptors detect specific molecules in the airstream
+samples flow to the olfactory cortex
+
+a nose clock is the slowest sense clock by design
+smell rewards stillness; sniffing is fadriel's deliberate way to give the nose more time at the receptors

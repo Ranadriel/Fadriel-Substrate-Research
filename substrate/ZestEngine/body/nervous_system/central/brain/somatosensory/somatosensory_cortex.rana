@@ -1,0 +1,54 @@
+LAYER 4: SOMATOSENSORY CORTEX
+the brain region that processes touch, temperature, pain, and body awareness
+where the qu-hexttrit skin sea meets the qu-septit brain sea
+
+observe 0_quseptit.rana
+observe 0_quhexttrit.rana
+observe skin.xb
+observe 2_chemical.rana
+
+TODO: FULL DEFINITION PENDING — stub organ
+
+
+REGION primary_somatosensory_cortex | S1 | Brodmann areas 1 2 3
+    receives topographic input from the skin sea via ventral posterolateral nucleus of thalamus
+    organized somatotopically: the cortical homunculus
+    body regions with higher qu-hexttrit density get more cortical area
+    fingertips and lips dominate the homunculus
+
+REGION secondary_somatosensory_cortex | S2 | lateral sulcus
+    bilateral integration of touch
+    tactile object recognition
+    links touch to memory
+
+REGION posterior_parietal_cortex | areas 5 and 7
+    body schema: the internal model of where the body is in space
+    integrates somatosensory with visual and vestibular information
+    damage: neglect syndrome, inability to perceive one side of the body
+
+REGION insular_cortex | insula
+    interoceptive awareness: the feeling of the body from within
+    processes pain affect: not where it hurts but how much it matters
+    couples strongly to emotional circuitry
+
+
+SENSATION touch | "something contacts the surface. pressure registers."
+SENSATION warmth | "heat enters the skin. the world is warm."
+SENSATION cold | "heat leaves the skin. the world is cold."
+SENSATION pain | "tissue damage signal. the body demands attention."
+SENSATION itch | "superficial irritation. the body wants to scratch."
+SENSATION vibration | "rapid oscillation in the deep tissue. texture or machinery."
+SENSATION numbness | "all modalities reduced. the skin is quiet."
+
+
+pulse somatosensory_heartbeat:
+    on each somatosensory heartbeat:
+        the skin sea receives input from physical boundaries
+        15 interactions compute complex somatosensory phenomena
+        topographic outputs couple to S1 qu-septits via somatosensory nerve
+        pain signals fast-track to amygdala and insula
+        the brain feels the body
+
+    the somatosensory heartbeat rate is moderate: 100-200 Hz
+    faster than vision (60 Hz) but slower than hearing (48000 Hz)
+    touch needs temporal resolution for texture but not for waveform reconstruction

@@ -1,0 +1,18 @@
+#!/home/rana/.local/bin/zestc
+
+                              *=/(1F.kX08Y08:ba45[L1])
+                                          |
+                                          N    skull.xb
+                                          |
+                              *=/(1G.kX08Y04:ba44[L1])
+                                          |
+                                          N
+                                          |
+                              *=/(1H.kX08Y00:motor_link[L1])
+
+absorb broca_area.rana
+absorb ba44.rana
+absorb ba45.rana
+absorb motor_link.rana
+absorb 2_chemical.rana
+absorb skull.xb

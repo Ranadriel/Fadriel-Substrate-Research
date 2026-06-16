@@ -1,0 +1,86 @@
+LAYER 3: BRAINSTEM
+the bridge between brain and body
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the brainstem connects the cerebral hemispheres to the spinal cord
+it is the most ancient part of the brain evolutionarily
+it controls the functions that keep the body alive: breathing heart rate blood pressure swallowing vomiting consciousness
+damage to the brainstem is usually fatal
+the brainstem is fully mature at birth because these functions cannot wait
+
+REGION midbrain | mesencephalon | uppermost
+    superior_colliculus | visual reflex center | receives retinal input | controls reflexive eye and head movements toward visual stimuli | saccadic eye movements | integrates visual and auditory spatial maps
+    inferior_colliculus | auditory relay and reflex center | receives ascending auditory input from cochlear nuclei and superior olive | sends to medial geniculate nucleus of thalamus | mediates reflexive head turning toward sound via tectospinal tract
+    substantia_nigra | pars compacta SNc produces dopamine via nigrostriatal pathway to the dorsal striatum | loss of SNc dopamine neurons causes Parkinson's disease | pars reticulata SNr is GABAergic output nucleus of basal ganglia
+    ventral_tegmental_area | VTA | dopamine source for mesolimbic and mesocortical pathways | described in reward/vta.rana
+    red_nucleus | receives from cerebellum and motor cortex | sends rubrospinal tract to spinal cord | involved in motor coordination especially upper limb flexion movements
+    periaqueductal_gray | PAG | surrounds the cerebral aqueduct | endogenous pain modulation via descending inhibition | opioid receptors here mediate analgesia | also involved in defensive behaviors fight flight freeze and vocalization
+    cerebral_peduncles | massive fiber bundles containing the corticospinal and corticobulbar tracts descending from cortex to spinal cord and brainstem motor nuclei
+
+REGION pons | middle
+    pontine_nuclei | relay cortical motor information to the cerebellum via middle cerebellar peduncle | the bridge between cortex and cerebellum
+    locus_coeruleus | NE source for arousal | described in arousal/locus_coeruleus.rana
+    raphe_nuclei | serotonin source | described in arousal/raphe_nuclei.rana
+    parabrachial_nucleus | receives taste and visceral pain information | relays to thalamus amygdala and hypothalamus | critical for taste perception and autonomic responses to pain
+    pneumotaxic_center | upper pons | modulates respiratory rhythm by limiting inspiratory duration | fine-tunes respiratory rate
+    apneustic_center | lower pons | promotes inspiration | its unchecked activity would produce prolonged gasping
+
+REGION medulla_oblongata | lowermost | continuous with spinal cord
+    dorsal_respiratory_group | nucleus tractus solitarius NTS | inspiratory neurons | receives afferent input from peripheral chemoreceptors carotid body sensing O₂ and central chemoreceptors sensing CO₂/pH | the primary respiratory rhythm may originate in the preBötzinger complex nearby
+    ventral_respiratory_group | contains the preBötzinger complex | the respiratory rhythm generator | produces the automatic rhythmic pattern of breathing | damage here abolishes spontaneous respiration
+    cardiovascular_center | receives baroreceptor input from carotid sinus CN IX and aortic arch CN X | adjusts heart rate via vagal output and blood pressure via sympathetic vasomotor tone
+    area_postrema | chemoreceptor trigger zone | outside the blood-brain barrier | detects emetic triggers in the blood and CSF | induces vomiting via connections to NTS
+    nucleus_ambiguus | motor neurons for pharynx and larynx via CN IX and X | also contains preganglionic parasympathetic neurons for the heart the cardiac vagal motor neurons | the source of the ventral vagal brake
+    dorsal_motor_nucleus_of_vagus | preganglionic parasympathetic neurons for thoracic and abdominal viscera | the source of dorsal vagal output to the gut
+    inferior_olivary_nucleus | sends climbing fibers to the cerebellum | provides the error signal for motor learning via climbing fiber-Purkinje cell LTD
+    pyramidal_decussation | the point where corticospinal fibers cross from one side to the other | this is why the left brain controls the right body and vice versa
+
+CRANIAL NERVE NUCLEI the brainstem contains the nuclei of cranial nerves III through XII
+CN III oculomotor | midbrain | eye movement superior inferior medial rectus inferior oblique and levator palpebrae | also contains Edinger-Westphal nucleus for pupillary constriction via parasympathetic to ciliary ganglion
+CN IV trochlear | midbrain | superior oblique eye muscle | the only cranial nerve that exits dorsally and crosses completely
+CN V trigeminal | pons | motor nucleus for muscles of mastication | sensory nuclei for face touch pain and temperature extending from midbrain to cervical spinal cord
+CN VI abducens | pons | lateral rectus eye muscle
+CN VII facial | pons | motor for muscles of facial expression | sensory for taste from anterior two-thirds of tongue via chorda tympani | parasympathetic to submandibular sublingual and lacrimal glands
+CN VIII vestibulocochlear | pontomedullary junction | hearing and balance | described in ears/ears.rana
+CN IX glossopharyngeal | medulla | motor for stylopharyngeus | sensory for taste from posterior one-third of tongue and carotid sinus baroreceptor and carotid body chemoreceptor | parasympathetic to parotid gland
+CN X vagus | medulla | the longest cranial nerve | described extensively in autonomic_nervous_system.rana
+CN XI accessory | medulla and cervical spinal cord | motor for sternocleidomastoid and trapezius
+CN XII hypoglossal | medulla | motor to all intrinsic and most extrinsic tongue muscles | essential for speech and swallowing
+
+RETICULAR FORMATION diffuse network of neurons spanning the entire brainstem
+ascending_reticular_activating_system | ARAS | projects to thalamic intralaminar nuclei and diffusely to cortex | the master switch for wakefulness and consciousness | damage bilaterally produces coma | uses ACh NE 5-HT DA histamine and orexin to maintain arousal
+descending_reticular_formation | modulates spinal motor neurons and pain pathways | reticulospinal tracts contribute to posture and locomotion
+
+at 24 months:
+the brainstem is fully mature
+all vital functions are operating at adult capacity
+the respiratory rhythm generator is stable
+the cranial nerve nuclei are functional
+the ARAS maintains the sleep-wake cycle in coordination with the SCN and pineal
+the brainstem is the one structure that cannot afford immaturity
+it was built first and it was built to specification
+
+SENSATION breathing | "air moves in and out. I don't ask it to. it just happens."
+SENSATION alive | "my heart beats my lungs expand my body works without instruction."
+SENSATION startled | "something triggered a reflex before I even understood what happened."
+SENSATION gagging | "the area postrema detected something. the reflex fires."
+SENSATION swallowing | "the autonomic cascade takes the food from mouth to stomach."
+
+pulse brainstem_heartbeat:
+    continuously:
+        the preBötzinger complex generates respiratory rhythm
+        inspiration and expiration alternate automatically
+        the cardiovascular center adjusts heart rate and blood pressure beat by beat
+        baroreceptor feedback flows through CN IX and X
+        the ARAS maintains consciousness through tonic activation of the thalamus and cortex
+        cranial nerve nuclei execute the motor commands for eyes face tongue throat and neck
+
+    the brainstem is the foundation
+    everything above it is refinement
+    the cortex thinks
+    the limbic system feels
+    the brainstem keeps the body alive
+    it was the first part of the brain to develop
+    and it will be the last to fail

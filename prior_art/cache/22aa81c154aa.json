@@ -1,0 +1,169 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Surveying the onset and evolution of supermassive black holes at high-z with AXIS",
+    "abstract": "The nature and origin of supermassive black holes (SMBHs) remain an open matter of debate within the scientific community. While various theoretical scenarios have been proposed, each with specific observational signatures, the lack of sufficiently sensitive X-ray observations hinders the progress of observational tests. In this white paper, we present how AXIS will contribute to solving this issue. With an angular resolution of 1.5$^{\\prime\\prime}$ on-axis and minimal off-axis degradation, we have designed a deep survey capable of reaching flux limits in the [0.5-2] keV range of approximately",
+    "date": "2023-11-13",
+    "url": "http://arxiv.org/abs/2311.07669v2",
+    "authors": [
+      "Nico Cappelluti",
+      "Adi Foord",
+      "Stefano Marchesi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Prospects for Time-Domain and Multi-Messenger Science with AXIS",
+    "abstract": "The Advanced X-ray Imaging Satellite (AXIS) promises revolutionary science in the X-ray and multi-messenger time domain. AXIS will leverage excellent spatial resolution (<1.5 arcsec), sensitivity (80x that of Swift), and a large collecting area (5-10x that of Chandra) across a 24-arcmin diameter field of view to discover and characterize a wide range of X-ray transients from supernova-shock breakouts to tidal disruption events to highly variable supermassive black holes. The observatory's ability to localize and monitor faint X-ray sources opens up new opportunities to hunt for counterparts to",
+    "date": "2023-11-13",
+    "url": "http://arxiv.org/abs/2311.07658v1",
+    "authors": [
+      "The AXIS Time-Domain",
+      "Multi-Messenger Science Working Group",
+      " :"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "AI Safety is Stuck in Technical Terms -- A System Safety Response to the International AI Safety Report",
+    "abstract": "Safety has become the central value around which dominant AI governance efforts are being shaped. Recently, this culminated in the publication of the International AI Safety Report, written by 96 experts of which 30 nominated by the Organisation for Economic Co-operation and Development (OECD), the European Union (EU), and the United Nations (UN). The report focuses on the safety risks of general-purpose AI and available technical mitigation approaches. In this response, informed by a system safety perspective, I refl ect on the key conclusions of the report, identifying fundamental issues in ",
+    "date": "2025-02-05",
+    "url": "http://arxiv.org/abs/2503.04743v1",
+    "authors": [
+      "Roel Dobbe"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The Instability of Safety: How Random Seeds and Temperature Expose Inconsistent LLM Refusal Behavior",
+    "abstract": "Current safety evaluations of large language models rely on single-shot testing, implicitly assuming that model responses are deterministic and representative of the model's safety alignment. We challenge this assumption by investigating the stability of safety refusal decisions across random seeds and temperature settings. Testing four instruction-tuned models from three families (Llama 3.1 8B, Qwen 2.5 7B, Qwen 3 8B, Gemma 3 12B) on 876 harmful prompts across 20 different sampling configurations (4 temperatures x 5 random seeds), we find that 18-28% of prompts exhibit decision flips--the mod",
+    "date": "2025-12-12",
+    "url": "http://arxiv.org/abs/2512.12066v2",
+    "authors": [
+      "Erik Larsen"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Different Approach to AI Safety: Proceedings from the Columbia Convening on Openness in Artificial Intelligence and AI Safety",
+    "abstract": "The rapid rise of open-weight and open-source foundation models is intensifying the obligation and reshaping the opportunity to make AI systems safe. This paper reports outcomes from the Columbia Convening on AI Openness and Safety (San Francisco, 19 Nov 2024) and its six-week preparatory programme involving more than forty-five researchers, engineers, and policy leaders from academia, industry, civil society, and government. Using a participatory, solutions-oriented process, the working groups produced (i) a research agenda at the intersection of safety and open source AI; (ii) a mapping of e",
+    "date": "2025-06-27",
+    "url": "http://arxiv.org/abs/2506.22183v1",
+    "authors": [
+      "Camille Fran\u00e7ois",
+      "Ludovic P\u00e9ran",
+      "Ayah Bdeir"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Competing Visions of Ethical AI: A Case Study of OpenAI",
+    "abstract": "Introduction. AI Ethics is framed distinctly across actors and stakeholder groups. We report results from a case study of OpenAI analysing ethical AI discourse. Method. Research addressed: How has OpenAI's public discourse leveraged 'ethics', 'safety', 'alignment' and adjacent related concepts over time, and what does discourse signal about framing in practice? A structured corpus, differentiating between communication for a general audience and communication with an academic audience, was assembled from public documentation. Analysis. Qualitative content analysis of ethical themes combined in",
+    "date": "2026-01-23",
+    "url": "http://arxiv.org/abs/2601.16513v1",
+    "authors": [
+      "Melissa Wilfley",
+      "Mengting Ai",
+      "Madelyn Rose Sanfilippo"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "AI prediction leads people to forgo guaranteed rewards",
+    "abstract": "Artificial intelligence (AI) is understood to affect the content of people's decisions. Here, using a behavioral implementation of the classic Newcomb's paradox in 1,305 participants, we show that AI can also change how people decide. In this paradigm, belief in predictive authority can lead individuals to constrain decision-making, forgoing a guaranteed reward. Over 40% of participants treated AI as such a predictive authority. This significantly increased the odds of forgoing the guaranteed reward by a factor of 3.39 (95% CI: 2.45-4.70) compared with random framing, and reduced earnings by 1",
+    "date": "2026-03-30",
+    "url": "http://arxiv.org/abs/2603.28944v1",
+    "authors": [
+      "Aoi Naito",
+      "Hirokazu Shirado"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Foundations of GenIR",
+    "abstract": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with i",
+    "date": "2025-01-06",
+    "url": "http://arxiv.org/abs/2501.02842v1",
+    "authors": [
+      "Qingyao Ai",
+      "Jingtao Zhan",
+      "Yiqun Liu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Silenced by Design Censorship, Governance, and the Politics of Access in Generative AI Refusal Behavior",
+    "abstract": "This paper examines refusal behavior in generative AI systems through a governance lens. Drawing on historical frameworks of censorship and contemporary design logics, it argues that refusal is not a neutral safeguard but a site of power, shaped by institutional risk management and opaque decision-making. The analysis concludes with user-centered recommendations for ethical refusal design.   Keywords: Generative AI governance, AI refusal behavior, Censorship, Ethical design",
+    "date": "2026-01-12",
+    "url": "http://arxiv.org/abs/2601.08877v1",
+    "authors": [
+      "Kariema El Touny"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Data-Centric Safety and Ethical Measures for Data and AI Governance",
+    "abstract": "Datasets play a key role in imparting advanced capabilities to artificial intelligence (AI) foundation models that can be adapted to various downstream tasks. These downstream applications can introduce both beneficial and harmful capabilities -- resulting in dual use AI foundation models, with various technical and regulatory approaches to monitor and manage these risks. However, despite the crucial role of datasets, responsible dataset design and ensuring data-centric safety and ethical practices have received less attention. In this study, we pro-pose responsible dataset design framework th",
+    "date": "2025-06-11",
+    "url": "http://arxiv.org/abs/2506.10217v3",
+    "authors": [
+      "Srija Chakraborty"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "International Scientific Report on the Safety of Advanced AI (Interim Report)",
+    "abstract": "This is the interim publication of the first International Scientific Report on the Safety of Advanced AI. The report synthesises the scientific understanding of general-purpose AI -- AI that can perform a wide variety of tasks -- with a focus on understanding and managing its risks. A diverse group of 75 AI experts contributed to this report, including an international Expert Advisory Panel nominated by 30 countries, the EU, and the UN. Led by the Chair, these independent experts collectively had full discretion over the report's content.   The final report is available at arXiv:2501.17805",
+    "date": "2024-11-05",
+    "url": "http://arxiv.org/abs/2412.05282v2",
+    "authors": [
+      "Yoshua Bengio",
+      "S\u00f6ren Mindermann",
+      "Daniel Privitera"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Safety in Embodied AI: A Survey of Risks, Attacks, and Defenses",
+    "abstract": "Embodied Artificial Intelligence (Embodied AI) integrates perception, cognition, planning, and interaction into agents that operate in open-world, safety-critical environments. As these systems gain autonomy and enter domains such as transportation, healthcare, and industrial or assistive robotics, ensuring their safety becomes both technically challenging and socially indispensable. Unlike digital AI systems, embodied agents must act under uncertain sensing, incomplete knowledge, and dynamic human-robot interactions, where failures can directly lead to physical harm. This survey provides a co",
+    "date": "2026-03-28",
+    "url": "http://arxiv.org/abs/2605.02900v1",
+    "authors": [
+      "Xiao Li",
+      "Xiang Zheng",
+      "Yifeng Gao"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "AI Safety: Necessary, but insufficient and possibly problematic",
+    "abstract": "This article critically examines the recent hype around AI safety. We first start with noting the nature of the AI safety hype as being dominated by governments and corporations, and contrast it with other avenues within AI research on advancing social good. We consider what 'AI safety' actually means, and outline the dominant concepts that the digital footprint of AI safety aligns with. We posit that AI safety has a nuanced and uneasy relationship with transparency and other allied notions associated with societal good, indicating that it is an insufficient notion if the goal is that of socie",
+    "date": "2024-03-26",
+    "url": "http://arxiv.org/abs/2403.17419v1",
+    "authors": [
+      "Deepak P"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "PeopleSearchBench: A Multi-Dimensional Benchmark for Evaluating AI-Powered People Search Platforms",
+    "abstract": "AI-powered people search platforms are increasingly used in recruiting, sales prospecting, and professional networking, yet no widely accepted benchmark exists for evaluating their performance. We introduce PeopleSearchBench, an open-source benchmark that compares four people search platforms on 119 real-world queries across four use cases: corporate recruiting, B2B sales prospecting, expert search with deterministic answers, and influencer/KOL discovery. A key contribution is Criteria-Grounded Verification, a factual relevance pipeline that extracts explicit, verifiable criteria from each que",
+    "date": "2026-03-29",
+    "url": "http://arxiv.org/abs/2603.27476v1",
+    "authors": [
+      "Wei Wang",
+      "Tianyu Shi",
+      "Shuai Zhang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Towards The Ultimate Brain: Exploring Scientific Discovery with ChatGPT AI",
+    "abstract": "This paper presents a novel approach to scientific discovery using an artificial intelligence (AI) environment known as ChatGPT, developed by OpenAI. This is the first paper entirely generated with outputs from ChatGPT. We demonstrate how ChatGPT can be instructed through a gamification environment to define and benchmark hypothetical physical theories. Through this environment, ChatGPT successfully simulates the creation of a new improved model, called GPT$^4$, which combines the concepts of GPT in AI (generative pretrained transformer) and GPT in physics (generalized probabilistic theory). W",
+    "date": "2023-07-08",
+    "url": "http://arxiv.org/abs/2308.12400v1",
+    "authors": [
+      "Gerardo Adesso"
+    ]
+  }
+]

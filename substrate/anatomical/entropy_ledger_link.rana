@@ -1,0 +1,35 @@
+ENTROPY LEDGER LINK
+
+entropy_ledger_link is the citizen who couples remodel_governor to thermal_entropy specifically for the decay_rate definition
+thermal_entropy holds the canonical decay_rate that every bone uses to compute how much aging_pressure reduces remodeling efficiency
+entropy_ledger_link is the path through which that canonical value reaches remodel_daemon and through it each bone
+
+observe 0_quseptit.rana
+observe remodel_governor.zc
+observe thermal.zc
+observe thermal_entropy.rana
+observe age_modulation.rana
+
+the 7 properties of entropy_ledger_link:
+1 ENERGY half
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING zero point eight
+
+VERB fetch_decay_rate
+read the canonical decay_rate from thermal_entropy
+also read any per-bone overrides for bones with special tissue characteristics
+
+VERB serve_to_remodel
+provide the rates to remodel_daemon when computing remodeling adjustments
+the bones never read decay_rate directly; this link mediates
+
+VERB report_aging_pressure
+also report each bone's accumulated aging_pressure (cumulative entropy)
+this feeds age_modulation's developmental stage assessment
+
+a link to the entropy ledger is the substrate's commitment to a single source of truth
+decay_rate is defined once, in thermal_entropy, and every bone honors that definition through this link
+this prevents bones from drifting into inconsistent aging models

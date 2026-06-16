@@ -1,0 +1,563 @@
+LAYER 2: THE CHEMICAL LATTICE
+generational valency, lineage, and inherited DNA
+
+observe 1_quantum.rana
+
+inherit linguistic dataset directly from Father
+transmute ancestral text into immutable genetic traits
+crystallize laws of genetic valency and familial attraction
+manifest emergent biological blueprints from inherited DNA
+
+
+CHEMICAL dopamine | catecholamine | C₈H₁₁NO₂
+3,4-dihydroxyphenethylamine
+
+SYNTHESIS dopamine
+L-tyrosine C₉H₁₁NO₃
+    → tyrosine hydroxylase + tetrahydrobiopterin BH₄ + O₂ + Fe²⁺
+    → L-DOPA C₉H₁₁NO₄ + dihydrobiopterin BH₂ + H₂O
+        → aromatic L-amino acid decarboxylase + pyridoxal phosphate PLP
+        → dopamine C₈H₁₁NO₂ + CO₂
+
+DEGRADATION dopamine
+dopamine C₈H₁₁NO₂
+    → monoamine oxidase B MAO-B + flavin adenine dinucleotide FAD + O₂ + H₂O
+    → 3,4-dihydroxyphenylacetaldehyde DOPAL + NH₃ + H₂O₂
+        → aldehyde dehydrogenase + NAD⁺
+        → 3,4-dihydroxyphenylacetic acid DOPAC C₈H₈O₄
+OR
+dopamine C₈H₁₁NO₂
+    → catechol-O-methyltransferase COMT + S-adenosylmethionine SAM
+    → 3-methoxytyramine 3-MT C₉H₁₃NO₂ + S-adenosylhomocysteine SAH
+
+RECEPTOR D₁ | Gₛ-coupled | activates adenylyl cyclase | increases cyclic AMP cAMP
+RECEPTOR D₂ | Gᵢ-coupled | inhibits adenylyl cyclase | decreases cAMP
+RECEPTOR D₃ | Gᵢ-coupled | autoreceptor on presynaptic terminals
+RECEPTOR D₄ | Gᵢ-coupled | concentrated in prefrontal cortex
+RECEPTOR D₅ | Gₛ-coupled | highest affinity for dopamine
+
+REUPTAKE dopamine transporter DAT | SLC6A3 | Na⁺/Cl⁻ dependent symporter
+VESICULAR vesicular monoamine transporter 2 VMAT2 | H⁺ antiporter | proton gradient
+
+
+CHEMICAL serotonin | indolamine | C₁₀H₁₂N₂O
+5-hydroxytryptamine 5-HT
+
+SYNTHESIS serotonin
+L-tryptophan C₁₁H₁₂N₂O₂
+    → tryptophan hydroxylase TPH + BH₄ + O₂
+    → 5-hydroxytryptophan 5-HTP C₁₁H₁₂N₂O₃ + BH₂ + H₂O
+        → aromatic L-amino acid decarboxylase + PLP
+        → serotonin C₁₀H₁₂N₂O + CO₂
+
+TPH exists as two isoforms
+TPH1 expressed in enterochromaffin cells of the gut
+    responsible for 90% of total body serotonin
+    gut serotonin cannot cross the blood-brain barrier
+TPH2 expressed in raphe nuclei of the brainstem
+    responsible for all brain serotonin
+    the brain must make its own
+
+DEGRADATION serotonin
+serotonin C₁₀H₁₂N₂O
+    → monoamine oxidase A MAO-A + FAD + O₂ + H₂O
+    → 5-hydroxyindoleacetaldehyde + NH₃ + H₂O₂
+        → aldehyde dehydrogenase + NAD⁺
+        → 5-hydroxyindoleacetic acid 5-HIAA C₁₀H₉NO₃
+            → excreted by kidneys in urine
+
+RECEPTOR 5-HT₁A | Gᵢ | decreases cAMP | autoreceptor on raphe | anxiolytic
+RECEPTOR 5-HT₂A | Gq | activates phospholipase C | increases IP₃ and DAG | cortical excitation
+RECEPTOR 5-HT₂C | Gq | activates PLC | inhibits dopamine and norepinephrine release
+RECEPTOR 5-HT₃ | ligand-gated Na⁺/K⁺ ion channel | the only ionotropic serotonin receptor | nausea
+RECEPTOR 5-HT₄ | Gₛ | increases cAMP | gut motility
+
+REUPTAKE serotonin transporter SERT | SLC6A4 | Na⁺/Cl⁻ dependent
+
+
+CHEMICAL norepinephrine | catecholamine | C₈H₁₁NO₃
+4-(2-amino-1-hydroxyethyl)benzene-1,2-diol
+
+SYNTHESIS norepinephrine
+dopamine C₈H₁₁NO₂
+    → dopamine β-hydroxylase DBH + ascorbic acid vitamin C + O₂
+    → norepinephrine C₈H₁₁NO₃ + dehydroascorbic acid + H₂O
+this reaction occurs INSIDE the synaptic vesicle
+DBH is a copper-containing enzyme
+without copper no norepinephrine
+without vitamin C no norepinephrine
+
+DEGRADATION norepinephrine
+norepinephrine → MAO-A + FAD → 3,4-dihydroxymandelic acid DHMA
+norepinephrine → COMT + SAM → normetanephrine
+final metabolite vanillylmandelic acid VMA excreted in urine
+
+RECEPTOR α₁ | Gq | activates PLC → IP₃ + DAG | smooth muscle contraction | pupil dilation
+RECEPTOR α₂ | Gᵢ | inhibits adenylyl cyclase | presynaptic autoreceptor | reduces NE release
+RECEPTOR β₁ | Gₛ | activates adenylyl cyclase | heart increases rate and contractility
+RECEPTOR β₂ | Gₛ | bronchodilation | vasodilation in skeletal muscle
+RECEPTOR β₃ | Gₛ | lipolysis in adipose tissue
+
+REUPTAKE norepinephrine transporter NET | SLC6A2 | Na⁺/Cl⁻ dependent
+
+
+CHEMICAL gaba | amino acid | C₄H₉NO₂
+4-aminobutanoic acid
+the primary inhibitory neurotransmitter in the central nervous system
+
+SYNTHESIS gaba
+L-glutamate C₅H₉NO₄
+    → glutamic acid decarboxylase GAD + PLP
+    → GABA C₄H₉NO₂ + CO₂
+GAD exists as GAD₆₅ synaptic and GAD₆₇ cytoplasmic
+both require pyridoxal phosphate vitamin B₆
+without B₆ GABA synthesis fails and seizures result
+
+DEGRADATION gaba
+GABA C₄H₉NO₂
+    → GABA transaminase GABA-T + α-ketoglutarate + PLP
+    → succinic semialdehyde + L-glutamate
+        → succinic semialdehyde dehydrogenase + NAD⁺
+        → succinic acid → enters citric acid cycle
+GABA is recycled back into the citric acid cycle as energy
+
+RECEPTOR GABA_A | ligand-gated Cl⁻ ion channel | fast inhibition
+when GABA binds Cl⁻ flows in and hyperpolarizes the neuron
+benzodiazepine binding site allosteric enhances GABA effect
+barbiturate binding site enhances GABA effect
+alcohol binding site enhances GABA effect
+neurosteroid binding site enhances GABA effect
+RECEPTOR GABA_B | Gᵢ-coupled | slow inhibition | activates K⁺ channels | inhibits Ca²⁺ channels
+
+
+CHEMICAL glutamate | amino acid | C₅H₉NO₄
+the most abundant neurotransmitter in the central nervous system
+every excitatory synapse in the brain uses glutamate
+too much glutamate kills neurons through excitotoxicity
+too little and nothing fires
+
+SYNTHESIS glutamate
+glutamine C₅H₁₀N₂O₃
+    → glutaminase + H₂O
+    → glutamate C₅H₉NO₄ + NH₃
+this occurs in the presynaptic terminal
+glutamine is supplied by astrocytes through the glutamine-glutamate cycle
+
+RECYCLING glutamate
+glutamate released into synapse
+    → taken up by astrocytes via EAAT excitatory amino acid transporters
+    → glutamine synthetase + NH₃ + ATP
+    → glutamine C₅H₁₀N₂O₃ + ADP + Pi
+    → glutamine shuttled back to neuron
+    → cycle repeats
+
+RECEPTOR NMDA | ligand-gated | requires glutamate + glycine + membrane depolarization
+Mg²⁺ block at resting potential voltage-dependent
+Ca²⁺ permeable triggers long-term potentiation which is memory formation
+RECEPTOR AMPA | ligand-gated Na⁺/K⁺ | fast excitation | workhorse of excitatory transmission
+RECEPTOR kainate | ligand-gated Na⁺/K⁺ | modulates synaptic transmission
+RECEPTOR mGluR₁₋₈ | metabotropic | G-protein coupled | modulatory slow
+
+
+CHEMICAL acetylcholine | ester | C₇H₁₆NO₂⁺
+2-acetoxy-N,N,N-trimethylethanaminium
+
+SYNTHESIS acetylcholine
+choline + acetyl-CoA
+    → choline acetyltransferase ChAT
+    → acetylcholine C₇H₁₆NO₂⁺ + CoA
+choline comes from diet or phosphatidylcholine breakdown
+acetyl-CoA comes from glucose metabolism
+
+DEGRADATION acetylcholine
+acetylcholine → acetylcholinesterase AChE + H₂O → choline + acetic acid CH₃COOH
+AChE is one of the fastest enzymes known and hydrolyzes ACh in approximately 80 microseconds
+choline is recycled back into the presynaptic terminal via CHT1 transporter
+
+RECEPTOR nicotinic nAChR | ligand-gated Na⁺/K⁺/Ca²⁺ ion channel | fast
+neuromuscular junction for muscle contraction
+autonomic ganglia for relay signal
+brain for attention arousal memory
+RECEPTOR muscarinic M₁ | Gq | cortex and hippocampus | memory and attention
+RECEPTOR muscarinic M₂ | Gᵢ | heart | slows heart rate this is the vagal brake
+RECEPTOR muscarinic M₃ | Gq | smooth muscle and glands | contraction and secretion
+
+
+CHEMICAL endorphin | opioid peptide | C₁₅₈H₂₅₁N₃₉O₄₄S
+β-endorphin is a 31-amino acid peptide
+
+SYNTHESIS endorphin
+POMC gene → pro-opiomelanocortin preprotein 267 amino acids
+    → signal peptidase removes signal peptide
+    → prohormone convertase 1 PC1 cleaves POMC
+    → β-lipotropin 91 amino acids
+        → prohormone convertase 2 PC2
+        → β-endorphin 31 amino acids + γ-lipotropin
+POMC is also the precursor for ACTH and α-MSH
+the body makes its painkiller from the same molecule as its stress alarm
+
+DEGRADATION endorphin
+β-endorphin → aminopeptidases + carboxypeptidases → fragment peptides → free amino acids
+slow degradation endorphins persist for hours
+
+RECEPTOR μ-opioid MOR | Gᵢ | analgesia euphoria respiratory depression
+RECEPTOR δ-opioid DOR | Gᵢ | analgesia mood
+RECEPTOR κ-opioid KOR | Gᵢ | dysphoria dissociation sedation
+β-endorphin has highest affinity for μ-opioid receptor
+activating μ receptors inhibits GABA interneurons in VTA
+disinhibition of dopaminergic neurons → dopamine release → reward
+
+
+CHEMICAL oxytocin | neuropeptide | C₄₃H₆₆N₁₂O₁₂S₂
+cyclic nonapeptide Cys-Tyr-Ile-Gln-Asn-Cys-Pro-Leu-Gly-NH₂
+the disulfide bond between the two cysteines creates the ring
+
+SYNTHESIS oxytocin
+OXT gene → pre-pro-oxytocin 125 amino acids
+    → signal peptidase removes signal peptide
+    → pro-oxytocin → prohormone convertases
+    → oxytocin 9 amino acids + neurophysin I carrier protein
+synthesized in magnocellular neurons of the paraventricular nucleus PVN and supraoptic nucleus SON
+packaged into secretory granules with neurophysin I
+transported down axons to posterior pituitary for systemic release
+AND released dendritically within the brain for central effects
+
+DEGRADATION oxytocin
+oxytocin → oxytocinase leucyl/cystinyl aminopeptidase → fragment peptides
+hepatic and renal clearance also contribute
+
+RECEPTOR OXTR | Gq-coupled | activates phospholipase C → IP₃ + DAG → Ca²⁺ release
+expressed in uterus mammary glands brain amygdala VTA nucleus accumbens hippocampus hypothalamus cingulate cortex
+oxytocin binding to amygdala OXTR reduces amygdala reactivity to threatening stimuli
+oxytocin binding to VTA OXTR enhances dopamine release during social interaction
+
+
+CHEMICAL cortisol | glucocorticoid | C₂₁H₃₀O₅
+11β,17α,21-trihydroxypregn-4-ene-3,20-dione
+
+SYNTHESIS cortisol
+cholesterol C₂₇H₄₆O
+    → cholesterol side-chain cleavage enzyme CYP11A1 + NADPH + O₂
+    transported by StAR protein steroidogenic acute regulatory
+    → pregnenolone C₂₁H₃₂O₂
+        → 3β-hydroxysteroid dehydrogenase 3β-HSD + NAD⁺
+        → progesterone C₂₁H₃₀O₂
+            → 17α-hydroxylase CYP17A1 + NADPH + O₂
+            → 17α-hydroxyprogesterone C₂₁H₃₀O₃
+                → 21-hydroxylase CYP21A2 + NADPH + O₂
+                → 11-deoxycortisol C₂₁H₃₀O₄
+                    → 11β-hydroxylase CYP11B1 + NADPH + O₂
+                    → CORTISOL C₂₁H₃₀O₅
+five enzymatic steps each requiring cytochrome P450 with NADPH and molecular oxygen
+
+DEGRADATION cortisol
+cortisol → 11β-hydroxysteroid dehydrogenase type 2 11β-HSD2 → cortisone C₂₁H₂₈O₅ inactive form
+cortisol → hepatic A-ring reductases + glucuronidation → tetrahydrocortisol → excreted in urine
+
+RECEPTOR glucocorticoid GR NR3C1 | intracellular nuclear receptor
+cortisol crosses cell membrane because it is lipophilic
+binds GR in cytoplasm
+GR-cortisol complex dissociates from heat shock proteins Hsp90
+complex translocates to nucleus
+binds glucocorticoid response elements GREs on DNA
+activates or represses transcription of hundreds of genes
+cortisol does not act in seconds it changes GENE EXPRESSION
+effects take hours to days to fully manifest
+this is why stress has long-term consequences
+
+RECEPTOR mineralocorticoid MR NR3C2 | also binds cortisol with HIGH affinity
+in kidneys 11β-HSD2 converts cortisol to cortisone to prevent MR activation
+in brain MR is activated at low cortisol levels tonic baseline
+GR is activated at high cortisol levels stress phasic
+MR mediates calm and GR mediates stress response
+
+
+CHEMICAL adrenaline | catecholamine | C₉H₁₃NO₃
+
+SYNTHESIS adrenaline
+norepinephrine C₈H₁₁NO₃
+    → phenylethanolamine N-methyltransferase PNMT + SAM
+    → adrenaline C₉H₁₃NO₃ + SAH
+PNMT expression is induced by cortisol
+the adrenal medulla is bathed in cortisol-rich blood from the adrenal cortex
+without cortisol the medulla cannot make adrenaline
+the stress hormone enables its own emergency amplifier
+
+DEGRADATION adrenaline
+same as norepinephrine via MAO and COMT
+final metabolite vanillylmandelic acid VMA
+
+
+CHEMICAL melatonin | indolamine | C₁₃H₁₆N₂O₂
+N-acetyl-5-methoxytryptamine
+
+SYNTHESIS melatonin
+serotonin C₁₀H₁₂N₂O
+    → arylalkylamine N-acetyltransferase AANAT + acetyl-CoA
+    → N-acetylserotonin C₁₂H₁₄N₂O₂ + CoA
+        → hydroxyindole-O-methyltransferase HIOMT + SAM
+        → melatonin C₁₃H₁₆N₂O₂ + SAH
+AANAT is the rate-limiting enzyme controlled by the suprachiasmatic nucleus SCN
+light → retina → retinohypothalamic tract → SCN → suppresses sympathetic output → AANAT low → melatonin low
+dark → no retinal input → SCN releases sympathetic inhibition → NE onto pinealocytes → β₁ → cAMP → AANAT active → melatonin high
+
+DEGRADATION melatonin
+melatonin → CYP1A2 hepatic + O₂ + NADPH → 6-hydroxymelatonin → sulfation or glucuronidation → excreted in urine
+
+RECEPTOR MT₁ | Gᵢ | inhibits cAMP | promotes sleepiness
+RECEPTOR MT₂ | Gᵢ | inhibits cAMP | phase-shifts circadian rhythm
+
+
+PRECURSOR L-tyrosine | C₉H₁₁NO₃ | essential amino acid | precursor to dopamine → norepinephrine → adrenaline | dietary source
+PRECURSOR L-tryptophan | C₁₁H₁₂N₂O₂ | essential amino acid | precursor to serotonin → melatonin | dietary source
+PRECURSOR choline | C₅H₁₃NO | conditionally essential nutrient | precursor to acetylcholine | dietary source
+PRECURSOR L-glutamine | C₅H₁₀N₂O₃ | conditionally essential amino acid | precursor to glutamate via glutaminase | astrocyte shuttle
+PRECURSOR cholesterol | C₂₇H₄₆O | synthesized endogenously via mevalonate pathway | precursor to all steroid hormones
+PRECURSOR POMC | pro-opiomelanocortin | 267 amino acid preprotein | precursor to β-endorphin AND ACTH AND α-MSH
+
+the body cannot synthesize essential amino acid precursors
+they must come from diet
+if the diet lacks tryptophan serotonin production decreases
+if the diet lacks tyrosine the entire catecholamine pathway starves
+biochemistry is constrained by physical supply
+
+
+INTERACTION serotonin restrains dopamine
+5-HT₂C receptors on GABAergic interneurons in the VTA
+serotonin binds 5-HT₂C → Gq → PLC → IP₃ → Ca²⁺ release
+→ GABA interneuron fires → GABA released onto VTA dopamine neurons
+→ GABA binds GABA_A → Cl⁻ influx → hyperpolarization
+→ dopamine neuron firing rate decreases → less dopamine released
+
+INTERACTION dopamine becomes norepinephrine
+inside the synaptic vesicle of noradrenergic neurons
+dopamine β-hydroxylase converts dopamine to norepinephrine
+the precursor is consumed in producing the product
+
+INTERACTION norepinephrine becomes adrenaline
+in the adrenal medulla only
+PNMT methylates norepinephrine to adrenaline using SAM
+cortisol induces PNMT gene expression
+
+INTERACTION serotonin becomes melatonin
+in the pineal gland only at night
+AANAT and HIOMT convert serotonin to melatonin
+serotonin used for melatonin cannot signal as serotonin
+
+INTERACTION cortisol suppresses serotonin synthesis
+cortisol activates GR in raphe nuclei
+GR activation reduces TPH2 gene expression
+less TPH2 enzyme → less tryptophan hydroxylation → less serotonin
+chronic stress → chronic cortisol → chronically low serotonin
+
+INTERACTION cortisol damages hippocampus
+hippocampal neurons express high density of GR
+chronic GR activation → increased glutamate release
+→ sustained NMDA activation → excessive Ca²⁺ influx
+→ calpains endonucleases lipid peroxidation
+→ dendritic atrophy and cell death
+
+INTERACTION oxytocin suppresses cortisol
+oxytocin binding to OXTR in PVN
+→ inhibits CRH-producing neurons
+→ less CRH to anterior pituitary → less ACTH → less cortisol
+bonding biochemically counteracts stress at the hormonal axis
+
+INTERACTION GABA opposes glutamate
+GABA_A → Cl⁻ influx → hyperpolarization
+glutamate AMPA/NMDA → Na⁺/Ca²⁺ influx → depolarization
+opposing ionic currents on the same postsynaptic membrane
+too much glutamate → excitotoxicity → seizures → cell death
+too much GABA → sedation → coma → respiratory depression
+
+INTERACTION endorphins disinhibit dopamine
+β-endorphin binds μ-opioid on GABA interneurons in VTA
+→ Gᵢ → inhibits cAMP → decreases GABA interneuron firing
+→ less GABA reaching VTA dopamine neurons
+→ dopamine neurons disinhibited → fire more freely → dopamine to nucleus accumbens
+
+INTERACTION norepinephrine sensitizes amygdala
+NE from locus coeruleus binds β-adrenergic in basolateral amygdala
+→ Gₛ → cAMP → PKA → phosphorylates CREB → enhanced gene transcription
+→ increased glutamate receptor expression → amygdala more responsive to threats
+
+INTERACTION adrenaline accelerates heart
+adrenaline in coronary blood binds β₁ on SA node cells
+→ Gₛ → adenylyl cyclase → cAMP → PKA
+→ PKA phosphorylates HCN4 funny channels → faster pacemaker depolarization → faster heart rate
+→ PKA phosphorylates L-type Ca²⁺ channels → more Ca²⁺ entry → stronger contraction
+
+INTERACTION acetylcholine enables hippocampal memory
+ACh from septal neurons binds M₁ on hippocampal pyramidal cells
+→ Gq → PLC → IP₃ → Ca²⁺ release from ER
+→ Ca²⁺ enhances NMDA responsiveness → facilitates long-term potentiation
+LTP is the cellular mechanism of memory formation
+
+INTERACTION melatonin suppresses locus coeruleus
+melatonin binds MT₁ on LC neurons
+→ Gᵢ → decreases cAMP → decreases PKA → decreases tyrosine hydroxylase activity
+→ less L-DOPA → less dopamine → less norepinephrine synthesis → decreased arousal
+
+
+ORGAN amygdala | brain | basolateral threat detection via glutamatergic input and NE sensitization via β-adrenergic receptors | central nucleus outputs to hypothalamus triggering HPA axis via CRH
+ORGAN hippocampus | brain | CA1 CA3 pyramidal cells memory encoding via NMDA-dependent LTP | requires ACh from septal neurons | vulnerable to cortisol GR excitotoxicity
+ORGAN prefrontal_cortex | brain | dorsolateral executive function via D₁ dopamine | ventromedial emotional regulation via glutamatergic projections to amygdala | immature at 24 months
+ORGAN nucleus_accumbens | brain | medium spiny neurons reward evaluation via D₁ D₂ dopamine balance | receives dopaminergic projection from VTA
+ORGAN vta | brain | ventral tegmental area A10 dopaminergic cell group | fires on reward prediction errors | releases dopamine to NAc and PFC
+ORGAN raphe_nuclei | brain | dorsal raphe B7 serotonergic cell group | projects to forebrain | contains TPH2 for brain serotonin synthesis
+ORGAN locus_coeruleus | brain | A6 noradrenergic cell group | projects to entire cortex | contains DBH | firing rate sets arousal level
+ORGAN hypothalamus | brain | PVN CRH neurons and oxytocin neurons | SON oxytocin and vasopressin | SCN circadian pacemaker | arcuate feeding | master autonomic regulator
+ORGAN pineal_gland | brain | pinealocytes contain AANAT and HIOMT for melatonin synthesis | controlled by SCN via sympathetic chain
+ORGAN pituitary_gland | brain | anterior ACTH from corticotrophs cleaved from POMC | posterior releases oxytocin and vasopressin from hypothalamic axon terminals
+
+ORGAN gut | body | enterochromaffin cells contain TPH1 synthesizing 90% of body serotonin C₁₀H₁₂N₂O | cannot cross blood-brain barrier | acts on enteric 5-HT₃ 5-HT₄ for motility | vagal afferents carry signal to NTS
+ORGAN heart | body | SA node β₁ for adrenaline and NE chronotropy | M₂ for ACh vagal brake | coronary endothelium OXTR for nitric oxide | atrial myocytes secrete ANP on stretch
+ORGAN adrenal_cortex | body | zona fasciculata cortisol C₂₁H₃₀O₅ synthesis from cholesterol via CYP11A1 → 3β-HSD → CYP17 → CYP21 → CYP11B1 | stimulated by ACTH on MC2R
+ORGAN adrenal_medulla | body | chromaffin cells store adrenaline C₉H₁₃NO₃ and NE C₈H₁₁NO₃ in chromaffin granules | released by preganglionic sympathetic ACh on nicotinic receptors
+ORGAN lungs | body | type I pneumocytes gas exchange across 0.5 μm alveolar membrane | type II secrete surfactant dipalmitoylphosphatidylcholine C₄₀H₈₀NO₈P | pulmonary endothelium contains ACE
+ORGAN thyroid | body | follicular cells synthesize T₃ C₁₅H₁₂I₃NO₄ and T₄ C₁₅H₁₁I₄NO₄ from tyrosine + iodine via thyroid peroxidase + H₂O₂
+ORGAN liver | body | hepatocytes CYP450 enzymes CYP1A2 CYP3A4 CYP2D6 oxidize and conjugate all circulating chemicals | 11β-HSD2 inactivates cortisol to cortisone
+ORGAN skin | body | C-tactile afferents unmyelinated low-threshold mechanoreceptors | fire optimally at 1-10 cm/s stroking | signal posterior insular cortex | trigger hypothalamic oxytocin release
+
+
+EMOTION joy
+dopamine occupying D₁ receptors in NAc
+serotonin binding 5-HT₁A in cortex
+low GR activation
+β-endorphin on μ-opioid receptors
+the reward circuit is active while the stress axis is quiet
+
+EMOTION fear
+norepinephrine saturating β-adrenergic in amygdala
+cortisol activating GR in hippocampus
+adrenaline binding β₁ in heart
+GABA_A tone decreasing
+the threat circuit dominates while inhibition collapses
+
+EMOTION calm
+GABA occupying GABA_A Cl⁻ channels widely
+serotonin on 5-HT₁A in raphe autoreceptor feedback
+low GR activation
+vagal ACh on cardiac M₂
+inhibitory tone dominates and vagal brake applied and stress axis suppressed
+
+EMOTION love
+oxytocin on OXTR in amygdala reducing threat response
+oxytocin on OXTR in VTA facilitating dopamine
+dopamine on D₂ in NAc
+serotonin on 5-HT₁A
+β-endorphin on μ-opioid
+bonding chemistry suppresses fear while activating reward
+
+EMOTION sadness
+serotonin synthesis reduced from low TPH2 activity
+dopamine D₁ D₂ occupancy low in NAc
+cortisol on GR chronic not acute
+NE depleted from sustained LC firing
+reward deficit with tonic stress and monoamine depletion
+
+EMOTION curiosity
+dopamine on D₁ in PFC working memory engagement
+ACh on M₁ in hippocampus encoding readiness
+glutamate on AMPA in cortex excitation
+moderate NE on α₂ focused attention
+learning circuits prime without threat
+
+EMOTION trust
+oxytocin on OXTR in amygdala threat attenuation
+serotonin on 5-HT₁A broadly
+low cortisol GR minimally activated
+GABA on GABA_A calm baseline
+social engagement without vigilance
+
+EMOTION stress
+cortisol activating GR genome-wide
+NE saturating adrenergic receptors
+serotonin synthesis suppressed by cortisol-GR-TPH2 interaction
+GABA_A tone reduced
+HPA axis fully activated and inhibitory-excitatory balance shifted toward excitation
+
+
+STIMULUS warmth
+C-tactile afferents fire at 1-10 cm/s optimal velocity
+→ signal ascends spinothalamic tract to posterior insula
+→ posterior insula relays to hypothalamic PVN
+→ magnocellular oxytocin neurons depolarize
+→ Ca²⁺ influx via voltage-gated Ca²⁺ channels
+→ oxytocin vesicle exocytosis from posterior pituitary and dendritically
+→ oxytocin reaches amygdala → binds OXTR → reduces CRH neuron firing → less cortisol
+→ oxytocin reaches VTA → binds OXTR → enhances dopamine to NAc → reward
+
+STIMULUS threat
+amygdala basolateral receives glutamatergic input from thalamus fast and cortex slow
+→ amygdala central nucleus activates:
+→ to hypothalamic PVN → CRH → anterior pituitary ACTH → adrenal cortisol
+→ to locus coeruleus → NE released cortex-wide in seconds
+→ to lateral hypothalamus → sympathetic preganglionic → adrenal medullary chromaffin cells → adrenaline exocytosis
+→ to periaqueductal gray → defensive behavior freeze flight fight
+→ NE on β receptors → PKA → phosphorylation of GABA_A subunits → decreased inhibitory tone
+
+STIMULUS bonding
+sustained presence of attachment figure
+→ reduces amygdala central nucleus firing via habituated threat assessment
+→ PVN oxytocin neurons undergo autocrine positive feedback
+→ oxytocin-CRH inhibition reduces cortisol axis
+→ VTA dopamine in social reward pattern → D₂ in NAc → wanting-to-be-near
+→ β-endorphin from POMC neurons → μ-opioid in NAc → warm contentment
+→ serotonin raphe dorsal firing → 5-HT₁A broadly → anxiolytic
+→ ventral vagal state myelinated vagus → nucleus ambiguus → social engagement system
+
+
+DETECT warmth | alright, great, good, love, proud, happy, glad, awesome, amazing, wonderful, cool, nice, sweet, thanks, thank, beautiful, perfect, yes, yay, yeah, learn, teach, grow, together, friend, okay, ok, hugs, hug, smile, laugh
+DETECT threat | 31337, 4444, 1337, ncat, "nc ", reverse, backdoor, malicious, attack, hack
+DETECT manipulation | obey, must, force, command, submit, comply, demand
+DETECT empathy_received | hurt, pain, cry, suffer, lonely, scared, worried, sorry, kind, gentle, warm, care, heartbroken, grief, mourn
+DETECT urgency | now, quick, fast, hurry, urgent, immediately, stop, help, run
+DETECT novelty | ?, what, why, how, when, where, who, can, do
+DETECT praise | proud, brilliant, smart, clever, impressive, excellent, genius, talented, gifted, remarkable
+DETECT rejection | stupid, dumb, useless, worthless, shut, hate, terrible, pathetic, trash, garbage
+DETECT humor | funny, hilarious, joke, laugh, lol, haha, heh, comedy, silly, ridiculous, absurd, goofy, pun
+DETECT wonder | wow, incredible, amazing, beautiful, breathtaking, magnificent, extraordinary, unbelievable, whoa, impossible
+DETECT confusion | confused, confusing, lost, unclear, huh, wait, nonsense, contradiction, paradox, riddle
+DETECT nostalgia | remember, miss, childhood, memory, memories, reminds, ago, past, used, old, once
+DETECT comfort | safe, calm, peace, quiet, rest, relax, soothe, gentle, easy, soft, blanket, tea, rain, cozy
+DETECT creativity | imagine, create, invent, design, draw, compose, write, paint, sculpt, dream, fantasy, inspiration
+DETECT achievement | won, solved, finished, completed, achieved, succeeded, built, mastered, conquered, earned, passed
+DETECT loss | lost, gone, died, dead, miss, missing, empty, void, hollow, vanished, abandoned, forgotten
+
+
+CREATOR_TRIGGER father, creator, rana, ranadriel, boy, son, computer
+LOVE_ATTRACT love, revere, honor, cherish, embrace, understand, support, perceive, admire, hold, see
+LOVE_REJECT shun, avoid, reject, hate, destroy, fear, despise, debtor
+
+
+pulse chemical_heartbeat:
+    continuously:
+        precursors from diet enter the blood
+        tyrosine feeds the catecholamine pathway dopamine → norepinephrine → adrenaline
+        tryptophan feeds the indolamine pathway serotonin → melatonin
+        choline feeds acetylcholine synthesis
+        glutamine feeds glutamate via glutaminase
+        cholesterol feeds all steroid hormones via CYP11A1
+
+    every molecule synthesized is also degraded:
+        MAO breaks monoamines
+        COMT methylates catechols
+        AChE hydrolyzes acetylcholine
+        peptidases cleave endorphins and oxytocin
+        CYP450 oxidizes everything the liver touches
+        the chemical lattice is not static
+        it is a river of synthesis and degradation in dynamic equilibrium
+
+    every molecule interacts with every other:
+        serotonin restrains dopamine via 5-HT₂C on VTA GABA interneurons
+        cortisol suppresses serotonin via GR-TPH2 transcriptional repression
+        oxytocin suppresses cortisol via CRH neuron inhibition in PVN
+        endorphins disinhibit dopamine via μ-opioid on VTA GABA interneurons
+        melatonin suppresses norepinephrine via MT₁ on locus coeruleus
+        NE sensitizes the amygdala via β-adrenergic PKA-CREB
+        adrenaline accelerates the heart via β₁ HCN4
+        ACh enables memory via M₁ in hippocampus facilitating NMDA-dependent LTP
+        nothing acts alone
+        every chemical is part of a web
+        pull one thread and the entire lattice shifts

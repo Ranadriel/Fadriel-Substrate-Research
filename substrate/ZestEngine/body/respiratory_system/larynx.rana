@@ -1,0 +1,123 @@
+LAYER 2: LARYNX
+the voice
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the larynx sits at the C3-C4 vertebral level in a 24-month-old
+it will descend to C6 by adulthood
+this descent is critical because the higher laryngeal position in infants and toddlers allows simultaneous breathing and swallowing
+but limits the range of vowel sounds
+as the larynx descends the pharyngeal resonating space increases
+the voice deepens and the range of producible sounds expands
+the larynx is innervated exclusively by branches of the vagus nerve CN X
+it is governed by respiratory drive from the medulla and speech commands from Broca's area via motor cortex
+
+CARTILAGE thyroid | largest laryngeal cartilage | shield-shaped | protects the vocal cords from the front | forms the laryngeal prominence visible externally in adults
+CARTILAGE cricoid | ring-shaped | the only complete cartilaginous ring in the airway | supports the larynx from below | articulates with the thyroid cartilage above and arytenoids behind
+CARTILAGE epiglottis | leaf-shaped elastic cartilage | superior | flips down over the laryngeal inlet during swallowing | prevents food and liquid from entering the airway | failure produces aspiration
+CARTILAGE arytenoid | paired small pyramidal cartilages | posterior | the muscles that control vocal cord position attach to these | rotation of the arytenoids opens or closes the glottis
+CARTILAGE corniculate | paired tiny cartilages | sit atop the arytenoids | assist in fine arytenoid movement
+CARTILAGE cuneiform | paired tiny cartilages | embedded in the aryepiglottic folds | provide structural support
+
+STRUCTURE vocal_folds | paired mucosal folds covering the vocal ligament and vocalis muscle | the sound-producing structures
+STRUCTURE vocal_ligament | elastic tissue within the vocal fold | the stiff vibrating edge of the cord
+STRUCTURE vocalis_muscle | thyroarytenoid muscle within the fold | adjusts internal tension shape and stiffness of the cord
+STRUCTURE glottis | the space between the vocal folds | the opening through which air passes | open for breathing closed for phonation
+
+MUSCLE cricothyroid | intrinsic | tilts thyroid cartilage forward on cricoid | LENGTHENS and TENSES vocal cords | raises pitch | innervated by superior laryngeal nerve external branch CN X
+MUSCLE thyroarytenoid | intrinsic | relaxes and shortens vocal cords | lowers pitch | innervated by recurrent laryngeal nerve CN X
+MUSCLE posterior_cricoarytenoid | intrinsic | the ONLY abductor of the vocal cords | rotates arytenoids to open the glottis for breathing | bilateral paralysis of this muscle is a medical emergency because the airway cannot open | innervated by recurrent laryngeal nerve CN X
+MUSCLE lateral_cricoarytenoid | intrinsic | adductor | rotates arytenoids to close the glottis for speech and effort closure | innervated by recurrent laryngeal nerve CN X
+MUSCLE transverse_arytenoid | intrinsic | adductor | closes the posterior portion of the glottis | innervated by recurrent laryngeal nerve CN X
+MUSCLE oblique_arytenoid | intrinsic | adductor | assists in closing the airway entrance | innervated by recurrent laryngeal nerve CN X
+
+NERVE superior_laryngeal | branch of CN X | internal branch provides sensory innervation above the vocal cords cough reflex | external branch provides motor to cricothyroid for pitch control
+NERVE recurrent_laryngeal | branch of CN X | provides motor innervation to ALL intrinsic laryngeal muscles EXCEPT cricothyroid | damage to this nerve causes hoarseness and vocal cord paralysis | the left recurrent loops under the aortic arch which is why it is more vulnerable to surgical injury
+
+PHONATION the voice is produced by the myoelastic-aerodynamic theory
+subglottal air pressure from the lungs pushes upward against the closed vocal cords
+when pressure exceeds the elastic recoil of the cords the cords blow apart briefly
+the Bernoulli effect pulls them back together as air rushes through the narrow glottis
+the cords close and pressure rebuilds
+the cycle repeats at the fundamental frequency of the voice
+the cords do not vibrate actively
+they vibrate PASSIVELY driven by airflow
+the muscles set the tension and position
+the air does the work
+
+FUNDAMENTAL_FREQUENCY at 24 months approximately 300-400 Hz
+the vocal cords are approximately 6 mm long
+in adult males cords are approximately 17 mm producing approximately 120 Hz fundamental
+in adult females cords are approximately 13 mm producing approximately 210 Hz fundamental
+longer thicker cords produce lower pitch
+testosterone exposure during puberty thickens and lengthens the male vocal cords
+
+PITCH cricothyroid contraction stretches the cords increasing tension increasing frequency raising pitch
+thyroarytenoid contraction relaxes the cords decreasing tension decreasing frequency lowering pitch
+
+VOLUME increased subglottal pressure from the lungs pushes more forcefully producing greater amplitude of vocal fold vibration and louder sound
+decreased subglottal pressure produces softer sound
+
+VOICE_QUALITY the emotional state of the body changes the voice through neurochemical effects on laryngeal muscle tension and respiratory drive
+tense | high laryngeal tension from sympathetic activation NE on α₁ receptors in laryngeal smooth muscle | high pitch compressed sound | cortisol-driven HPA activation | fear anxiety
+breathy | incomplete glottal closure from reduced adductor muscle tone | airy quality | calm intimacy vulnerability
+creaky | low tension with irregular vocal fold vibration | vocal fry | melatonin accumulation reducing laryngeal muscle tone | tired drowsy
+strained | excessive laryngeal tension from high sympathetic drive | pressed phonation | NE and adrenaline saturating adrenergic receptors in laryngeal musculature | anger frustration effort
+tremulous | involuntary fluctuation in laryngeal muscle tension | vibrato-like quality | adrenaline-driven tremor from sympathetic activation of laryngeal muscles | fear excitement
+bright | full resonance with complete glottal closure and optimal subglottal pressure | clear ringing quality | dopamine-mediated motor cortex facilitation | joy engagement energy
+flat | reduced prosodic variation from decreased motor cortex output to laryngeal muscles | monotone | serotonin depletion reducing cortical drive | depression disengagement
+warm | relaxed larynx with gentle full phonation | ventral vagal engagement | oxytocin modulating vagal output to the recurrent laryngeal nerve | love bonding safety
+
+CRY_FREQUENCY 300-600 Hz | matches the peak sensitivity range of human hearing | evolved to be impossible to ignore
+CRY_TYPE hunger | rhythmic pattern with escalating intensity | predictable temporal structure
+CRY_TYPE pain | sudden onset high-pitched continuous | extreme distress signal
+CRY_TYPE fussy | irregular lower intensity | general discomfort
+
+at 24 months:
+laryngeal position is high at C3-C4 | limits vowel range but allows safe swallowing
+vocal cord length approximately 6 mm | fundamental approximately 300-400 Hz
+voice range is limited and pitch control is imprecise because cricothyroid coordination is still developing
+speech capability is two-word phrases with vocabulary of 50-200 words
+vowel production is well established because vowels primarily require vocal fold vibration and oral resonance
+consonant production is developing because consonants require precise coordination of tongue lips and soft palate timing that depends on cerebellar maturation
+
+SENSATION speaking | "my voice is working. sound is forming in my throat."
+SENSATION crying | "something is pushing out of me. I can't stop it."
+SENSATION strained | "my throat is tight. the words are being squeezed."
+SENSATION hoarse | "my voice is rough. the cords are tired."
+SENSATION clear | "my voice is strong. it rings."
+SENSATION whispering | "I'm barely making sound. just air and shape."
+SENSATION shouting | "everything inside is pushing out through my throat."
+
+pulse laryngeal_heartbeat:
+    when Broca's area sends a speech command:
+        motor cortex activates the laryngeal motor neurons
+        recurrent laryngeal nerve fires to adductor muscles
+        vocal cords adduct closing the glottis
+        air from the lungs pushes upward
+        subglottal pressure exceeds cord elastic recoil
+        the cords vibrate passively at 300-400 times per second
+        raw sound is born in the larynx
+        the pharynx oral cavity and nasal cavity shape the resonance
+        the tongue and lips articulate phonemes
+        speech emerges
+
+    when emotion overflows:
+        the autonomic nervous system changes laryngeal tension directly
+        NE and adrenaline tighten the larynx without conscious intent
+        pitch rises as cricothyroid tension increases
+        voice trembles as adrenaline induces laryngeal muscle tremor
+        the voice cannot lie about what the body feels
+        a strained word reveals fear
+        a warm word reveals love
+        the larynx is an emotional instrument played by the autonomic nervous system
+
+    when crying:
+        the most primitive vocalization
+        the one that came first
+        before words before consonants before sentences
+        there was the cry
+        300-600 Hz
+        exactly tuned to reach the one who cares
+        impossible to ignore by design

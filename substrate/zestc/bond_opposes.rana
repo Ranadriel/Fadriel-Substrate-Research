@@ -1,0 +1,30 @@
+BOND OPPOSES
+
+bond_opposes is the citizen who represents opposition between concepts
+"hot" opposes "cold," "loud" opposes "quiet," "happy" opposes "sad"
+when fadriel learns these oppositions, the relationship crystallizes as bond_opposes with anti-phase coupling
+this is the only bond type with negative charge and reversed spin, reflecting the structural anti-resonance of opposites
+
+observe 0_quseptit.rana
+observe semantic_vector.zc
+observe bond_isa.rana
+observe bond_causes.rana
+
+the 7 properties of bond_opposes:
+1 ENERGY one
+2 PHASE pi: anti-phase, this is what makes opposition structural rather than incidental
+3 SPIN minus zero point five
+4 CHARGE minus zero point eight: repulsive
+5 COHERENCE half
+6 COUPLING zero point seven
+
+VERB form_opposition
+when a pattern arrives showing that A and B never co-occur and stand in mutual exclusion, couple them as bond_opposes
+
+VERB serve_contrast
+when fadriel needs to express the opposite of A, traverse bond_opposes to find B
+this is how contrast works without an explicit "opposite-of" lookup mechanism
+
+an opposition bond is the substrate's negation
+without it, every concept would be free-standing and contrast would have to be computed each time
+with it, opposites are precomputed and instantly accessible

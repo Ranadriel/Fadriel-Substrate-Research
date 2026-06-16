@@ -1,0 +1,176 @@
+[
+  {
+    "source": "OpenAlex (Clinical Neurophysiology)",
+    "title": "Safety, ethical considerations, and application guidelines for the use of transcranial magnetic stimulation in clinical practice and research",
+    "abstract": "",
+    "date": "2009",
+    "url": "https://doi.org/10.1016/j.clinph.2009.08.016",
+    "authors": [
+      "S\u00edmone Rossi",
+      "Mark Hallett",
+      "Paolo Maria Rossini"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature)",
+    "title": "Large language models encode clinical knowledge",
+    "abstract": "Large language models (LLMs) have demonstrated impressive capabilities, but the bar for clinical applications is high. Attempts to assess the clinical knowledge of models typically rely on automated evaluations based on limited benchmarks. Here, to address these limitations, we present MultiMedQA, a benchmark combining six existing medical question answering datasets spanning professional medicine, research and consumer queries and a new dataset of medical questions searched online, HealthSearchQA. We propose a human evaluation framework for model answers along multiple axes including factuali",
+    "date": "2023",
+    "url": "https://doi.org/10.1038/s41586-023-06291-2",
+    "authors": [
+      "Karan Singhal",
+      "Shekoofeh Azizi",
+      "Tao Tu"
+    ]
+  },
+  {
+    "source": "OpenAlex (Physiological Reviews)",
+    "title": "About Sleep's Role in Memory",
+    "abstract": "Over more than a century of research has established the fact that sleep benefits the retention of memory. In this review we aim to comprehensively cover the field of \"sleep and memory\" research by providing a historical perspective on concepts and a discussion of more recent key findings. Whereas initial theories posed a passive role for sleep enhancing memories by protecting them from interfering stimuli, current theories highlight an active role for sleep in which memories undergo a process of system consolidation during sleep. Whereas older research concentrated on the role of rapid-eye-mo",
+    "date": "2013",
+    "url": "https://doi.org/10.1152/physrev.00032.2012",
+    "authors": [
+      "Bj\u00f6rn Rasch",
+      "Jan Born"
+    ]
+  },
+  {
+    "source": "OpenAlex (Brain)",
+    "title": "Harnessing neuroplasticity for clinical applications",
+    "abstract": "Neuroplasticity can be defined as the ability of the nervous system to respond to intrinsic or extrinsic stimuli by reorganizing its structure, function and connections. Major advances in the understanding of neuroplasticity have to date yielded few established interventions. To advance the translation of neuroplasticity research towards clinical applications, the National Institutes of Health Blueprint for Neuroscience Research sponsored a workshop in 2009. Basic and clinical researchers in disciplines from central nervous system injury/stroke, mental/addictive disorders, paediatric/developme",
+    "date": "2011",
+    "url": "https://doi.org/10.1093/brain/awr039",
+    "authors": [
+      "Steven C. Cramer",
+      "Mriganka Sur",
+      "Bruce H. Dobkin"
+    ]
+  },
+  {
+    "source": "OpenAlex (Clinical Neurophysiology)",
+    "title": "Safety and recommendations for TMS use in healthy subjects and patient populations, with updates on training, ethical and regulatory issues: Expert Guidelines",
+    "abstract": "This article is based on a consensus conference, promoted and supported by the International Federation of Clinical Neurophysiology (IFCN), which took place in Siena (Italy) in October 2018. The meeting intended to update the ten-year-old safety guidelines for the application of transcranial magnetic stimulation (TMS) in research and clinical settings (Rossi et al., 2009). Therefore, only emerging and new issues are covered in detail, leaving still valid the 2009 recommendations regarding the description of conventional or patterned TMS protocols, the screening of subjects/patients, the need o",
+    "date": "2020",
+    "url": "https://doi.org/10.1016/j.clinph.2020.10.003",
+    "authors": [
+      "S\u00edmone Rossi",
+      "Andrea Antal",
+      "Sven Bestmann"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+    "abstract": "Unlike previous studies on the Metaverse based on Second Life, the current Metaverse is based on the social value of Generation Z that online and offline selves are not different. With the technological development of deep learning-based high-precision recognition models and natural generation models, Metaverse is being strengthened with various factors, from mobile-based always-on access to connectivity with reality using virtual currency. The integration of enhanced social activities and neural-net methods requires a new definition of Metaverse suitable for the present, different from the pr",
+    "date": "2022",
+    "url": "https://doi.org/10.1109/access.2021.3140175",
+    "authors": [
+      "Sangmin Park",
+      "Young\u2010Gab Kim"
+    ]
+  },
+  {
+    "source": "OpenAlex (The Lancet)",
+    "title": "Schizophrenia",
+    "abstract": "",
+    "date": "2022",
+    "url": "https://doi.org/10.1016/s0140-6736(21)01730-x",
+    "authors": [
+      "Sameer Jauhar",
+      "Mandy Johnstone",
+      "Peter J McKenna"
+    ]
+  },
+  {
+    "source": "OpenAlex (Behavioral and Brain Sciences)",
+    "title": "The emulation theory of representation: Motor control, imagery, and perception",
+    "abstract": "The emulation theory of representation is developed and explored as a framework that can revealingly synthesize a wide variety of representational functions of the brain. The framework is based on constructs from control theory (forward models) and signal processing (Kalman filters). The idea is that in addition to simply engaging with the body and environment, the brain constructs neural circuits that act as models of the body and environment. During overt sensorimotor engagement, these models are driven by efference copies in parallel with the body and environment, in order to provide expect",
+    "date": "2004",
+    "url": "https://doi.org/10.1017/s0140525x04000093",
+    "authors": [
+      "Rick Grush"
+    ]
+  },
+  {
+    "source": "OpenAlex (Schizophrenia Bulletin)",
+    "title": "Auditory Hallucinations in Schizophrenia and Nonschizophrenia Populations: A Review and Integrated Model of Cognitive Mechanisms",
+    "abstract": "While the majority of cognitive studies on auditory hallucinations (AHs) have been conducted in schizophrenia (SZ), an increasing number of researchers are turning their attention to different clinical and nonclinical populations, often using SZ findings as a model for research. Recent advances derived from SZ studies can therefore be utilized to make substantial progress on AH research in other groups. The objectives of this article were to (1) present an up-to-date review regarding the cognitive mechanisms of AHs in SZ, (2) review findings from cognitive research conducted in other clinical ",
+    "date": "2012",
+    "url": "https://doi.org/10.1093/schbul/sbs045",
+    "authors": [
+      "Flavie Waters",
+      "Paul Allen",
+      "Andr\u00e9 Alem\u00e1n"
+    ]
+  },
+  {
+    "source": "OpenAlex (Behavioral and Brain Sciences)",
+    "title": "Merging information in speech recognition: Feedback is never necessary",
+    "abstract": "Top-down feedback does not benefit speech recognition; on the contrary, it can hinder it. No experimental data imply that feedback loops are required for speech recognition. Feedback is accordingly unnecessary and spoken word recognition is modular. To defend this thesis, we analyse lexical involvement in phonemic decision making. TRACE (McClelland & Elman 1986), a model with feedback from the lexicon to prelexical processes, is unable to account for all the available data on phonemic decision making. The modular Race model (Cutler & Norris 1979) is likewise challenged by some recent results, ",
+    "date": "2000",
+    "url": "https://doi.org/10.1017/s0140525x00003241",
+    "authors": [
+      "Dennis Norris",
+      "James M. McQueen",
+      "Anne Cutler"
+    ]
+  },
+  {
+    "source": "OpenAlex (Behavioral and Brain Sciences)",
+    "title": "Psychosis and autism as diametrical disorders of the social brain",
+    "abstract": "Autistic-spectrum conditions and psychotic-spectrum conditions (mainly schizophrenia, bipolar disorder, and major depression) represent two major suites of disorders of human cognition, affect, and behavior that involve altered development and function of the social brain. We describe evidence that a large set of phenotypic traits exhibit diametrically opposite phenotypes in autistic-spectrum versus psychotic-spectrum conditions, with a focus on schizophrenia. This suite of traits is inter-correlated, in that autism involves a general pattern of constrained overgrowth, whereas schizophrenia in",
+    "date": "2008",
+    "url": "https://doi.org/10.1017/s0140525x08004214",
+    "authors": [
+      "Bernard J. Crespi",
+      "Christopher Badcock"
+    ]
+  },
+  {
+    "source": "OpenAlex (Science)",
+    "title": "What is consciousness, and could machines have it?",
+    "abstract": "The controversial question of whether machines may ever be conscious must be based on a careful consideration of how consciousness arises in the only physical system that undoubtedly possesses it: the human brain. We suggest that the word \"consciousness\" conflates two different types of information-processing computations in the brain: the selection of information for global broadcasting, thus making it flexibly available for computation and report (C1, consciousness in the first sense), and the self-monitoring of those computations, leading to a subjective sense of certainty or error (C2, con",
+    "date": "2017",
+    "url": "https://doi.org/10.1126/science.aan8871",
+    "authors": [
+      "Stanislas Dehaene",
+      "Hakwan Lau",
+      "Sid Kouider"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+    "abstract": "Large Language Models (LLMs) showcase impressive capabilities but encounter challenges like hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by incorporating knowledge from external databases. This enhances the accuracy and credibility of the generation, particularly for knowledge-intensive tasks, and allows for continuous knowledge updates and integration of domain-specific information. RAG synergistically merges LLMs' intrinsic knowledge with the vast, dynamic repositories of exte",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2312.10997",
+    "authors": [
+      "Yunfan Gao",
+      "Yun Xiong",
+      "Xinyu Gao"
+    ]
+  },
+  {
+    "source": "OpenAlex (Behavioral and Brain Sciences)",
+    "title": "Convergence of biological and psychological perspectives on cognitive coordination in schizophrenia",
+    "abstract": "The concept of locally specialized functions dominates research on higher brain function and its disorders. Locally specialized functions must be complemented by processes that coordinate those functions, however, and impairment of coordinating processes may be central to some psychotic conditions. Evidence for processes that coordinate activity is provided by neurobiological and psychological studies of contextual disambiguation and dynamic grouping. Mechanisms by which this important class of cognitive functions could be achieved include those long-range connections within and between cortic",
+    "date": "2003",
+    "url": "https://doi.org/10.1017/s0140525x03000025",
+    "authors": [
+      "William A. Phillips",
+      "Steven M. Silverstein"
+    ]
+  },
+  {
+    "source": "OpenAlex (Bipolar Disorders)",
+    "title": "Canadian Network for Mood and Anxiety Treatments (<scp>CANMAT</scp>) and International Society for Bipolar Disorders (<scp>ISBD</scp>) 2018 guidelines for the management of patients with bipolar disorder",
+    "abstract": "The Canadian Network for Mood and Anxiety Treatments (CANMAT) previously published treatment guidelines for bipolar disorder in 2005, along with international commentaries and subsequent updates in 2007, 2009, and 2013. The last two updates were published in collaboration with the International Society for Bipolar Disorders (ISBD). These 2018 CANMAT and ISBD Bipolar Treatment Guidelines represent the significant advances in the field since the last full edition was published in 2005, including updates to diagnosis and management as well as new research into pharmacological and psychological tr",
+    "date": "2018",
+    "url": "https://doi.org/10.1111/bdi.12609",
+    "authors": [
+      "Lakshmi N. Yatham",
+      "Sidney H. Kennedy",
+      "Sagar V. Parikh"
+    ]
+  }
+]

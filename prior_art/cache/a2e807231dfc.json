@@ -1,0 +1,161 @@
+[
+  {
+    "source": "Semantic Scholar",
+    "title": "Self-evolving cognitive substrates through metabolic data processing and recursive self-representation with autonomous memory prioritization mechanisms",
+    "abstract": "Introduction Conventional artificial intelligence (AI) systems are limited by static architectures that require periodic retraining and fail to adapt efficiently to continuously changing data environments. To address this limitation, this research introduces a novel biologically inspired computing paradigm that supports perpetual learning through continuous data assimilation and autonomous structural evolution. The proposed system aims to emulate biological cognition, enabling lifelong learning, self-repair, and adaptive evolution without human intervention. Methods The system is built upon dy",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/b707529d9729024bc2c948ea6970d8e5ed345942",
+    "authors": [
+      "Mohammadreza Nehzati"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Schrodinger Neural Network and Uncertainty Quantification: Quantum Machine",
+    "abstract": "We introduce the Schrodinger Neural Network (SNN), a principled architecture for conditional density estimation and uncertainty quantification inspired by quantum mechanics. The SNN maps each input to a normalized wave function on the output domain and computes predictive probabilities via the Born rule. The SNN departs from standard parametric likelihood heads by learning complex coefficients of a spectral expansion (e . g ., Chebyshev polynomials) whose squared modulus yields the conditional density $p(y|x)=\\left| \\psi _x(y)\\right| {}^2$ with analytic normalization. This representation confe",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/192a3ce24f26a3773d68ad280a65ac2c46d16148",
+    "authors": [
+      "M. M. Hammad"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Time-dependent quantum-mechanical methods for molecular dynamics",
+    "abstract": "",
+    "date": "1988",
+    "url": "https://www.semanticscholar.org/paper/4ff14d98aae84da340a6c81e8b1c30d9f3021740",
+    "authors": [
+      "R. Kosloff"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "EV: Multilevel Music Knowledge Representation and Programming",
+    "abstract": "",
+    "date": "2005",
+    "url": "https://www.semanticscholar.org/paper/7b2b83836fe7a846bce585e76c18478ea2e648fd",
+    "authors": [
+      "Jes\u00fas L. Alvaro",
+      "E. Miranda",
+      "B. Barros"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Quantum molecular trajectory and stochastic theories of quantum fluctuations",
+    "abstract": "",
+    "date": "2017",
+    "url": "https://www.semanticscholar.org/paper/dda33378fc34f9973675d954905cbffa954d70c4",
+    "authors": [
+      "Francesco Avanzini"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "\u201cRepresenting Probabilities as Sets instead of Numbers Allows Classical Realization of Quantum Computing\u201d Monday, February 24, 2020 (3:30-4:30 p.m. BRK 1001)",
+    "abstract": "",
+    "date": "2020",
+    "url": "https://www.semanticscholar.org/paper/f847475299921bce8bc7106bb3f3eca7cbbaaee6",
+    "authors": [
+      "Gerard Rod"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Relativistic Quantum Chemistry: The Fundamental Theory of Molecular Science",
+    "abstract": "",
+    "date": "2009",
+    "url": "https://www.semanticscholar.org/paper/61a451b9d627160c349ad05e01d9cbabcfa1a686",
+    "authors": [
+      "M. Reiher",
+      "A. Wolf"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Intermolecular interactions : physical picture, computational methods, model potentials",
+    "abstract": "",
+    "date": "2006",
+    "url": "https://www.semanticscholar.org/paper/6f8517fbada90536c8f0e9201e39504ac17d0490",
+    "authors": [
+      "I. Kaplan"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Speakers at the Hello Session",
+    "abstract": "",
+    "date": "2022",
+    "url": "https://www.semanticscholar.org/paper/a1d089feab0eaa0f1dcfe6e839e768428a99c2e7",
+    "authors": [
+      "Anson Macdonald",
+      "Brock D Sherlock",
+      "Dilshan Wijesena"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Self-Emergence of Structures in Gene Expression Programming",
+    "abstract": "",
+    "date": "2005",
+    "url": "https://www.semanticscholar.org/paper/4546c82748d37e9e362da02c2a62d1ea2a78151e",
+    "authors": [
+      "Xin Li"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Artificial intelligence and computational intelligence : International Conference, AICI 2009, Shanghai, China, November 7-8, 2009 : proceedings",
+    "abstract": "",
+    "date": "2009",
+    "url": "https://www.semanticscholar.org/paper/365ac8f553b2450e9e7c953415138d9c95bf8a16",
+    "authors": [
+      "H. Deng"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "SELF-ORGANIZING TOPOLOGIES FOR SPATIAL DESCRIPTION",
+    "abstract": "",
+    "date": "2010",
+    "url": "https://www.semanticscholar.org/paper/2f1b577daf0b8c94cd7ef9977ec6cdf06c12b29a",
+    "authors": [
+      "T. Parvin",
+      "R. Puusepp"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Toward Supporting Fine-Grained, Structured, Meaningful and Engaging Feedback in Educational Applications",
+    "abstract": "Recent advancements in machine learning have started to put their mark on educational technology. Technology is evolving fast and, as people adopt it, schools and universities must also keep up (nearly 70% of primary and secondary schools in the UK are now using tablets for various purposes). As these numbers are likely going to follow the same increasing trend, it is imperative for schools to adapt and benefit from the advantages offered by technology: real-time processing of data, availability of different resources through connectivity, efficiency, and many others. To this end, this work co",
+    "date": "2018",
+    "url": "https://www.semanticscholar.org/paper/3382bb3015546024b7add04c5df90dbb73b30747",
+    "authors": [
+      "Florin Adrian Bulgarov"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Artificial Neural Networks: Biological Inspirations - ICANN 2005, 15th International Conference, Warsaw, Poland, September 11-15, 2005, Proceedings, Part I",
+    "abstract": "",
+    "date": "2005",
+    "url": "https://www.semanticscholar.org/paper/ca69bd141d4d1c0223e5aa6c3c5cfec2e99d7dbf",
+    "authors": [
+      "Wlodzislaw Duch",
+      "J. Kacprzyk",
+      "E. Oja"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Connectionist Models of Neurons, Learning Processes, and Artificial Intelligence",
+    "abstract": "",
+    "date": "2001",
+    "url": "https://www.semanticscholar.org/paper/debad915d24069c261c3f5ae967dcb3fdc0a0142",
+    "authors": [
+      "J. Mira",
+      "A. Prieto"
+    ]
+  }
+]

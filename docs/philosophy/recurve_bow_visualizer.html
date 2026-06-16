@@ -1,0 +1,1602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Recurve Bow + 7-phi-3 Visualizer</title>
+<style>
+  :root {
+    --bg: #07090d;
+    --panel: #0f141c;
+    --panel2: #131a25;
+    --ink: #e8eef7;
+    --muted: #94a0b8;
+    --accent: #ffd54a;        /* G / wavefront / arrow */
+    --gold: #d4af37;          /* phi */
+    --chain: #b9c5d6;         /* string */
+    --tip: #ff5b5b;           /* failure vectors A, F */
+    --abs: #5ad6ff;           /* B, E */
+    --trough: #b079ff;        /* C */
+    --aim: #6cf09c;           /* D */
+    --pending: #ff9a3c;       /* (L-N)(R-N) */
+    --grid: #1a2230;
+    --ok: #6cf09c;
+    --warn: #ff9a3c;
+    --err: #ff5b5b;
+    --line: #243049;
+  }
+  html, body {
+    margin: 0; padding: 0; height: 100%;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    overflow: hidden;
+  }
+  #app {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 38px 1fr;
+    height: 100vh;
+    width: 100vw;
+    gap: 6px;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+  header {
+    grid-column: 1;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0 14px;
+    gap: 14px;
+    flex-wrap: wrap;
+    min-height: 38px;
+  }
+  /* Narrow-viewport graceful stacking — keeps the visualizer usable
+     down to ~720px without any JS resize choreography. */
+  @media (max-width: 1100px) {
+    html, body { overflow: auto; }
+    #app {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto minmax(420px, 60vh) auto;
+      height: auto;
+      min-height: 100vh;
+    }
+    header { grid-column: 1; }
+    #stage-wrap { min-height: 420px; }
+    .panel { max-height: none; }
+  }
+  header .title {
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    font-size: 16px;
+  }
+  header .sub {
+    color: var(--muted);
+    font-size: 13px;
+  }
+  header .spacer { flex: 1; }
+  header button, header .toggle {
+    background: var(--panel2);
+    color: var(--ink);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 13px;
+  }
+  header button:hover { background: #1c2535; }
+  header button.active { background: #25324a; border-color: #3a4a6e; }
+  /* Restore-canonical button — prominent gold so it always reads as the "safe return". */
+  header button#btn-restore {
+    background: rgba(212,175,55,0.10);
+    border: 1.5px solid var(--gold);
+    color: var(--gold);
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 6px 14px;
+  }
+  header button#btn-restore:hover {
+    background: rgba(212,175,55,0.22);
+    box-shadow: 0 0 14px rgba(212,175,55,0.35);
+  }
+  header .legend {
+    display: flex; gap: 10px; font-size: 13px; color: var(--muted);
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  header .legend .dot {
+    display: inline-block; width: 11px; height: 11px; border-radius: 50%;
+    margin-right: 5px; vertical-align: middle;
+  }
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 10px 12px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 0;
+  }
+  .panel h3 {
+    margin: 0 0 4px 0; font-size: 16px; font-weight: 600;
+    color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px;
+  }
+  .panel .sub-note {
+    font-size: 14px; color: var(--muted); line-height: 1.45;
+  }
+  /* Magnitude-pending warning block — gold/orange border, distinct from
+     regular telemetry. Lives at the very top of the left panel. */
+  #mag-pending-block {
+    border: 1.5px solid var(--warn);
+    background: rgba(255,154,60,0.07);
+    border-radius: 6px;
+    padding: 9px 11px 10px 11px;
+    margin: 0 0 4px 0;
+  }
+  #mag-pending-block .mag-pending-title {
+    color: var(--warn);
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  #mag-pending-block .mag-pending-body {
+    color: var(--ink);
+    font-size: 13px;
+    line-height: 1.45;
+  }
+  #mag-pending-block .mag-pending-date {
+    color: var(--muted);
+    font-style: italic;
+  }
+  #mag-pending-block .mag-pending-list-label {
+    color: var(--muted);
+    font-size: 12px;
+    margin-top: 6px;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  #mag-pending-block .mag-pending-list {
+    margin: 4px 0 4px 0;
+    padding-left: 18px;
+    color: var(--ink);
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  #mag-pending-block .mag-pending-foot {
+    color: var(--muted);
+    font-size: 12px;
+    margin-top: 4px;
+    font-style: italic;
+  }
+  /* Inline failure explanation under the CD≥(L-N)(R-N) chip when red. */
+  .chip-failure-note {
+    color: var(--warn);
+    font-size: 13px;
+    line-height: 1.45;
+    margin-top: 6px;
+    padding: 5px 8px;
+    border-left: 3px solid var(--warn);
+    background: rgba(255,154,60,0.07);
+    border-radius: 0 4px 4px 0;
+  }
+  #stage-wrap {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    min-width: 0;
+    min-height: 0;
+    perspective: 1500px;
+    perspective-origin: 50% 50%;
+  }
+  canvas#stage {
+    display: block;
+    width: 100%; height: 100%;
+    background: radial-gradient(ellipse at center, #0c1320 0%, #06090e 75%);
+    transform-origin: 50% 50% 0;
+    will-change: transform;
+  }
+  #gizmo {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    width: 118px;
+    height: 118px;
+    background: rgba(7, 9, 13, 0.62);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    pointer-events: none;
+    z-index: 10;
+  }
+  .stage-overlay {
+    position: absolute; pointer-events: none;
+    top: 8px; left: 10px; right: 10px;
+    display: flex; justify-content: space-between;
+    color: var(--muted); font-size: 13px;
+    text-shadow: 0 1px 2px #000;
+  }
+  /* Chain-length live readout — bottom-left of stage, exploration data only. */
+  #chain-length-readout {
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+    color: var(--ink);
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 14px;
+    background: rgba(7,9,13,0.78);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 7px 11px;
+    line-height: 1.45;
+    pointer-events: none;
+    text-shadow: 0 1px 2px #000;
+    max-width: 320px;
+  }
+  #chain-length-readout .lab {
+    color: var(--muted); font-size: 12px; text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: block;
+  }
+  #chain-length-readout .v {
+    color: var(--accent); font-size: 16px; font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  #chain-length-readout .delta { font-size: 13px; color: var(--muted); }
+  #chain-length-readout .delta.up   { color: var(--warn); }
+  #chain-length-readout .delta.down { color: var(--abs); }
+  #chain-length-readout .note {
+    display: block; font-size: 11px; color: var(--muted); margin-top: 3px;
+    font-family: -apple-system, system-ui, sans-serif;
+  }
+  .bar-row {
+    display: grid;
+    grid-template-columns: 100px 1fr 84px;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+  }
+  .bar-row .lab { color: var(--ink); font-variant-numeric: tabular-nums; font-size: 14px; }
+  .bar-row .val { color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; font-size: 14px; }
+  .bar {
+    height: 16px;
+    background: #0a0f17;
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+  }
+  .bar > .fill {
+    height: 100%;
+    transition: width 0.08s linear;
+  }
+  .bar.pending {
+    background: repeating-linear-gradient(45deg, #1a1208 0 6px, #0a0f17 6px 12px);
+    border-color: #4a3010;
+  }
+  .meter {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: baseline;
+    border-bottom: 1px dashed #1c2538;
+    padding: 6px 0;
+    font-size: 15px;
+  }
+  .meter .lab { color: var(--muted); font-size: 14px; }
+  .meter .val { font-variant-numeric: tabular-nums; font-size: 15px; font-weight: 600; }
+  .meter .val.ok { color: var(--ok); }
+  .meter .val.warn { color: var(--warn); }
+  .meter .val.err { color: var(--err); }
+  .meter .val.gold { color: var(--gold); }
+  #pyramid {
+    width: 100%;
+    aspect-ratio: 1.05 / 1;
+    margin: 4px auto 0 auto;
+    display: block;
+  }
+  .badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    background: #2a1a08;
+    color: var(--pending);
+    border: 1px solid #4a3010;
+  }
+  .badge.live {
+    background: #082a17; color: var(--ok); border-color: #105030;
+  }
+  .badge.lock {
+    background: #2a200a; color: var(--gold); border-color: #5a4810;
+  }
+  /* RESONANCE FOUND flourish */
+  #resonance-flourish {
+    position: absolute;
+    top: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 7px 20px;
+    border-radius: 6px;
+    background: rgba(42, 32, 10, 0.85);
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    box-shadow: 0 0 22px rgba(212,175,55,0.55);
+    opacity: 0;
+    transition: opacity 480ms ease;
+    pointer-events: none;
+    text-shadow: 0 0 8px rgba(212,175,55,0.65);
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  #resonance-flourish.on { opacity: 1; }
+  /* φ-ratio flash when locked */
+  #m-ratio.flash-gold {
+    text-shadow: 0 0 10px rgba(212,175,55,0.95);
+    background: rgba(212,175,55,0.10);
+    border-radius: 3px;
+    padding: 0 4px;
+  }
+  /* 7-phi-3 prominent header */
+  .phi3-title {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--gold);
+    letter-spacing: 1.6px;
+    text-shadow: 0 0 10px rgba(212,175,55,0.45);
+    margin: 4px 0 6px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .phi3-title .phi-glyph {
+    color: var(--accent);
+    font-size: 26px;
+    text-shadow: 0 0 8px rgba(255,213,74,0.5);
+  }
+  .phi3-components {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    gap: 6px 10px;
+    font-size: 14px;
+    color: var(--ink);
+    margin-top: 8px;
+    padding: 9px 11px;
+    background: rgba(212,175,55,0.06);
+    border: 1px solid rgba(212,175,55,0.25);
+    border-radius: 5px;
+    line-height: 1.5;
+  }
+  .phi3-components .k {
+    color: var(--gold);
+    font-family: ui-monospace, Menlo, monospace;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: 0.4px;
+  }
+  .phi3-components .k.tip { color: var(--tip); }
+  .phi3-components span:not(.k) {
+    color: #c8d2e3;
+    font-size: 13px;
+  }
+  .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .pill {
+    background: var(--panel2);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 5px 12px;
+    font-size: 14px;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .pill b { color: var(--ink); font-weight: 600; font-size: 15px; }
+  .eq {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 14px;
+    background: #0a0f17;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 8px 10px;
+    color: var(--ink);
+    line-height: 1.55;
+    white-space: pre-wrap;
+  }
+  .eq .acc { color: var(--accent); }
+  .eq .gld { color: var(--gold); }
+  .eq .mut { color: var(--muted); }
+  .slider-row {
+    display: grid; grid-template-columns: 64px 1fr 70px;
+    align-items: center; gap: 8px; font-size: 14px;
+  }
+  .slider-row input[type="range"] { width: 100%; accent-color: var(--aim); }
+  .slider-row .v { color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; font-size: 14px; }
+  .small { font-size: 13px; color: var(--muted); }
+  /* Canvas grab cursor — drives the drag affordance for all 7 anchors. */
+  canvas#stage { cursor: default; }
+  canvas#stage.grab     { cursor: grab; }
+  canvas#stage.grabbing { cursor: grabbing; }
+  /* RESTORE CANONICAL flash — gold pulse on click. */
+  @keyframes restore-flash {
+    0%   { box-shadow: 0 0 0 0 rgba(212,175,55,0.85); background: rgba(212,175,55,0.55); }
+    50%  { box-shadow: 0 0 22px 6px rgba(212,175,55,0.55); background: rgba(212,175,55,0.30); }
+    100% { box-shadow: 0 0 0 0 rgba(212,175,55,0.0); background: rgba(212,175,55,0.10); }
+  }
+  header button#btn-restore.flashing { animation: restore-flash 520ms ease-out; }
+  .bow-tip-marker { fill: var(--tip); }
+  .divider { height: 1px; background: var(--line); margin: 2px 0; }
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #1f2a3e; border-radius: 4px; }
+</style>
+</head>
+<body>
+<div id="app">
+
+  <header>
+    <div class="title">Recurve Bow / 7-phi-3</div>
+    <div class="spacer"></div>
+    <div class="legend">
+      <span><span class="dot" style="background:var(--tip)"></span>A,F (failure vectors)</span>
+      <span><span class="dot" style="background:var(--abs)"></span>B,E (abstractions)</span>
+      <span><span class="dot" style="background:var(--trough)"></span>C (trough)</span>
+      <span><span class="dot" style="background:var(--aim)"></span>D (free aim)</span>
+      <span><span class="dot" style="background:var(--accent)"></span>G = Vt</span>
+      <span><span class="dot" style="background:var(--pending)"></span>(L−N)(R−N)</span>
+    </div>
+    <button id="btn-restore" title="Snap A,B,C,D,E,F,G back to recurve_bow.rana declared values">restore canonical</button>
+    <button id="btn-reset">reset G</button>
+    <button id="btn-pause">paused</button>
+    <button id="btn-reset-view" title="Snap camera back to head-on view">reset view</button>
+  </header>
+
+  <!-- CENTER: stage -->
+  <div id="stage-wrap">
+    <canvas id="stage"></canvas>
+    <canvas id="gizmo" width="118" height="118"></canvas>
+    <div class="stage-overlay">
+      <span>chain wraps the 7 anchors  ·  arrow fires into the valid field bounded by failure tips A and F  ·  drag any anchor</span>
+      <span id="overlay-tick">tick 0</span>
+    </div>
+  </div>
+
+</div>
+
+<script>
+"use strict";
+
+// ----------------------------------------------------------------------------
+// Constants from recurve_bow.rana (declared, not invented)
+// ----------------------------------------------------------------------------
+const PHI = (1 + Math.sqrt(5)) / 2;     // 1.6180339887...
+const INV_PHI2 = 1 / (PHI * PHI);       // 0.38196601125...
+const SEVEN = 7;
+
+// Canonical declared values from recurve_bow.rana — frozen reference.
+// Sandbox drag mutates state.{A,B,C,D,E,F,G}; "restore canonical" snaps
+// every anchor back to these. Never touched at runtime by the equation.
+const CANON = {
+  A: 0.0,                  // ORIGIN — fixed at manifest
+  B: 0.5,                  // polarizes to +G; canonical seed = G's seed
+  C: -1.0,                 // TROUGH — fixed at manifest
+  D: 0.25,                 // FREE — Ranadriel's exploration knob
+  E: 0.5,                  // polarizes to +G; canonical seed = G's seed
+  F: 1.0,                  // BOUNDARY/ceiling — fixed at manifest
+  G: 0.5,                  // COMPUTED — seeded at one half (per .rana)
+};
+
+// ----------------------------------------------------------------------------
+// State (the single source of truth for every displayed value)
+//
+// Per .rana classification (preserved as labels even when sandbox-dragged):
+//   FIXED   : A, C, F   — declared at manifest, immutable in physics
+//   POLAR   : B, E      — equation forces B := +G, E := +G each heartbeat
+//   FREE    : D         — user-controlled
+//   COMPUTED: G         — iterates per the recurve equation
+//
+// Sandbox-mode drag is allowed on ALL seven; the equation continues to
+// express itself with whatever values the user has set. The polarization
+// rule on B/E will visibly snap them back to G on the next tick — that's
+// the .rana speaking, not a UI override.
+// ----------------------------------------------------------------------------
+const state = {
+  A: CANON.A,
+  B: CANON.B,
+  C: CANON.C,
+  D: CANON.D,              // user-controlled (slider OR canvas drag)
+  E: CANON.E,
+  F: CANON.F,
+  G: CANON.G,              // seeded at one half (per .rana)
+  G_secondary: CANON.G,    // previous-pass G
+  tick: 0,
+  running: false,           // PAUSED by default — user opts in via toggle
+  d_history: [],
+  g_history: [],
+  ratio_history: [],
+  // Per-anchor position overrides — null until user has dragged that anchor.
+  // anchorPositions() reads override.{x,y} when present, else uses canonical
+  // W-curve geometry. Drag MOVES the anchor (changes geometry/aim);
+  // it does not modify energy. Energy stays a separate state.<X>.
+  posOverride: { A:null, B:null, C:null, D:null, E:null, F:null, G:null },
+  // Drag bookkeeping — null when not dragging.
+  //   dragKey       = which anchor key is being dragged
+  //   dragMouseDX/DY = mouse offset from anchor center at mousedown
+  //   dragStartX/Y   = anchor's canvas position at mousedown
+  // Drag updates posOverride[key] = { x, y } as cursor moves.
+  dragKey: null,
+  dragMouseDX: 0,
+  dragMouseDY: 0,
+  dragStartX: 0,
+  dragStartY: 0,
+  // canonical chain length, captured once at boot for Δ readout
+  canonChainLen: 0,
+};
+
+// Per-.rana classification used for hover labels + anchor adornments.
+// Tooltips reflect actual runtime behavior so dragging never reads as a bug:
+//   fixed (A,C,F)  — drag is sandbox; equation flows through state.{A,C,F}.
+//                     Restore-canonical snaps them back to ±1.
+//   polar (B,E)    — equation re-asserts B := +G and E := +G EVERY tick
+//                     (recurve_bow.rana lines 78-80, 91-92). A drag will
+//                     visibly snap back on the next heartbeat — that snap
+//                     IS the polarization, not a UI override.
+//   free  (D)      — canonical D is intentionally unconstrained; the wave
+//                     physics is supposed to settle D at G/φ². Currently
+//                     D is user-controlled via slider AND canvas drag.
+//   computed (G)   — iterates per the equation; G_secondary = previous-pass G.
+const ANCHOR_CLASS = {
+  A: { kind: "fixed",    blurb: "ORIGIN (A=0, manifest-fixed energy) — drag MOVES anchor position to aim the bow; energy stays 0" },
+  C: { kind: "fixed",    blurb: "TROUGH (C=-1, manifest-fixed energy) — drag MOVES anchor position to aim the bow; energy stays -1" },
+  F: { kind: "fixed",    blurb: "BOUNDARY (F=1, manifest-fixed energy) — drag MOVES anchor position to aim the bow; energy stays 1" },
+  B: { kind: "polar",    blurb: "LEFT ABSTRACTION (energy polarizes to +G each tick) — drag MOVES anchor position; energy is computed" },
+  E: { kind: "polar",    blurb: "RIGHT ABSTRACTION (energy polarizes to +G each tick) — drag MOVES anchor position; energy is computed" },
+  D: { kind: "free",     blurb: "MACRO AIM (free — energy via D slider; settles to G/φ² when topology is correct) — drag MOVES position" },
+  G: { kind: "computed", blurb: "GOLDEN WAVEFRONT (energy iterates: G = (G−C)/(2G−D+F)/G_prev/7) — drag MOVES position; arrow fires into the valid firing field bounded by the failure tips A and F (bisector of G→A and G→F)" },
+};
+
+// ----------------------------------------------------------------------------
+// One heartbeat = one application of the .rana equation
+// ----------------------------------------------------------------------------
+function step() {
+  // B and E energies polarize to +G each heartbeat (literal from .rana lines
+  // 78-80, 91-92). Note: drag now MOVES anchor positions — it does not
+  // touch energy values — so polarization always works on whatever G is.
+  state.B = +state.G;
+  state.E = +state.G;
+
+  const G = state.G;
+  const D = state.D;
+  const Gprev = state.G_secondary;
+  // C and F energies are manifest-fixed (-1, 1). Drag moves their position,
+  // not their energy. Restore-canonical clears any position overrides.
+  const C = state.C;
+  const F = state.F;
+
+  // G = (G - C) / (2G - D + F) / G_secondary / 7
+  const numerator = (G - C);
+  const denom = (2 * G - D + F);
+  let Gnew;
+  if (Math.abs(denom) < 1e-9 || Math.abs(Gprev) < 1e-9) {
+    // Equation collapses; mark as oscillating, do not invent a recovery
+    Gnew = G;  // hold; resonance flag will read 'unstable'
+  } else {
+    Gnew = numerator / denom / Gprev / SEVEN;
+  }
+
+  state.G_secondary = G;
+  state.G = Gnew;
+  state.tick++;
+
+  state.g_history.push(Gnew);
+  if (state.g_history.length > 240) state.g_history.shift();
+
+  state.d_history.push(D);
+  if (state.d_history.length > 240) state.d_history.shift();
+
+  const c6 = Gnew;
+  const c7 = Gnew - D;
+  const r = (Math.abs(c7) > 1e-9) ? c6 / c7 : NaN;
+  state.ratio_history.push(r);
+  if (state.ratio_history.length > 240) state.ratio_history.shift();
+}
+
+// ----------------------------------------------------------------------------
+// Geometry: PINNED anchor positions on the W-curve.
+//
+// Anchors are LEGO gears mounted on a board (per loose_chain_1/2/3.png in
+// 5 Layers Contemplations). Each gear sits at a FIXED canvas coordinate —
+// the geometry of the bow body. What CHANGES is each anchor's ENERGY VALUE
+// (a property of the gear, not its location). Energy is visualized
+// separately as a halo around the anchor (radius scales with |energy|)
+// plus a numeric readout under the letter.
+//
+// Layout (the W-curve from .rana, A→B→C→G→D→E→F):
+//   A    upper-left bow tip      (origin, ground state)
+//   B    descending toward C     (left abstraction)
+//   C    bottom-left trough      (the draw / lowest)
+//   G    center of the W         (the wavefront)
+//   D    ascending from trough   (macro aim)
+//   E    ascending toward F      (right abstraction)
+//   F    upper-right bow tip     (boundary)
+//   (L−N)(R−N)  below center, pending placeholder
+// ----------------------------------------------------------------------------
+function geomFrame(w, h) {
+  const cx = w / 2;
+  const baseY = h * 0.46;
+  const span = Math.min(w, h) * 0.40;
+  return {
+    cx, baseY, span,
+    tipY: baseY - span * 0.62,   // A, F (upper tips)
+    absY: baseY - span * 0.10,   // B, E (mid-upper inner)
+    lowY: baseY + span * 0.55,   // C, D (lower inner trough/aim)
+    gY:   baseY + span * 0.10,   // G  (center of the W)
+    // pixels per unit-energy — used by the halo radius scaling and by the
+    // delta-based drag handler to translate mouse motion into energy delta.
+    energyScale: span * 0.55,
+  };
+}
+
+// Anchor positions. Default = canonical W-curve geometry derived from canvas
+// dimensions. If user has dragged an anchor, posOverride[key] = {x,y} takes
+// precedence — the anchor sits where the user put it. Drag is purely
+// geometric (changes the bow shape / aim direction); energy values remain
+// separate state.<X> and are not affected by drag.
+function anchorPositions(w, h) {
+  const F = geomFrame(w, h);
+  const { cx, baseY, span, tipY, absY, lowY, gY } = F;
+  const o = state.posOverride || {};
+  const pick = (k, defX, defY) => {
+    const ov = o[k];
+    return (ov && Number.isFinite(ov.x) && Number.isFinite(ov.y))
+      ? { x: ov.x, y: ov.y } : { x: defX, y: defY };
+  };
+  // A sits 8px above F so the "A is strictly topmost" constraint is
+  // satisfied at the canonical layout (not just at equality).
+  const pA = pick("A", cx - span * 1.05, tipY - 8);
+  const pF = pick("F", cx + span * 1.05, tipY);
+  const pB = pick("B", cx - span * 0.55, absY);
+  const pE = pick("E", cx + span * 0.55, absY);
+  const pC = pick("C", cx - span * 0.22, lowY);
+  const pD = pick("D", cx + span * 0.22, lowY);
+  const pG = pick("G", cx,               gY);
+  return {
+    A: { x: pA.x, y: pA.y, energy: state.A, role: "ORIGIN / floor failure vector", cls: "fixed", key: "A" },
+    F: { x: pF.x, y: pF.y, energy: state.F, role: "BOUNDARY / ceiling failure vector", cls: "fixed", key: "F" },
+    B: { x: pB.x, y: pB.y, energy: state.B, role: "LEFT ABSTRACTION (B := +G)", cls: "polar", key: "B" },
+    E: { x: pE.x, y: pE.y, energy: state.E, role: "RIGHT ABSTRACTION (E := +G)", cls: "polar", key: "E" },
+    C: { x: pC.x, y: pC.y, energy: state.C, role: "TROUGH / current context", cls: "fixed", key: "C" },
+    D: { x: pD.x, y: pD.y, energy: state.D, role: "MACRO AIM (free)", cls: "free", key: "D" },
+    G: { x: pG.x, y: pG.y, energy: state.G, role: "GOLDEN WAVEFRONT (self-coupled)", cls: "computed", key: "G" },
+    // (L-N)(R-N): PENDING DEFINITION — not draggable, no energy semantics yet.
+    LN: { x: cx - span * 0.45, y: lowY + span * 0.48, energy: null, role: "(L−N) — pending", cls: "pending", key: "LN" },
+    RN: { x: cx + span * 0.45, y: lowY + span * 0.48, energy: null, role: "(R−N) — pending", cls: "pending", key: "RN" },
+  };
+}
+
+// ----------------------------------------------------------------------------
+// Canvas drawing
+// ----------------------------------------------------------------------------
+const stage = document.getElementById("stage");
+const ctx = stage.getContext("2d");
+const stageWrap = document.getElementById("stage-wrap");
+
+// ----------------------------------------------------------------------------
+// 3D viewport — the bow lives entirely on the XY plane (z=0). The canvas is
+// the paper; CSS perspective on #stage-wrap + transform on #stage rotates the
+// paper in 3D space. No drawing code below this point needs to change; we
+// only inverse-transform mouse coords back to canvas-local for picking/drag.
+//
+// Convention: yaw rotates around world Y (CSS y-down), pitch rotates around
+// world X. Camera always points at G (which is locked at canvas center).
+// ----------------------------------------------------------------------------
+const VIEW_PERSPECTIVE = 1500;        // matches CSS `perspective: 1500px`
+const camera = { yaw: 0, pitch: 0 };
+
+function applyCameraTransform() {
+  const yawDeg   = camera.yaw   * 180 / Math.PI;
+  const pitchDeg = camera.pitch * 180 / Math.PI;
+  stage.style.transform = `rotateX(${pitchDeg}deg) rotateY(${yawDeg}deg)`;
+  drawGizmo();
+}
+
+// Convert a screen client point (from a MouseEvent) to the canvas-local
+// CSS-pixel coord that lives on the rotated z=0 plane. Returns null when
+// the ray misses the plane (extreme angles only).
+function screenToCanvasLocal(clientX, clientY) {
+  const rect = stageWrap.getBoundingClientRect();
+  const W = rect.width, H = rect.height;
+  if (W <= 0 || H <= 0) return null;
+  const mx = clientX - rect.left;
+  const my = clientY - rect.top;
+  const cy_ = Math.cos(camera.yaw),   sy_ = Math.sin(camera.yaw);
+  const cp_ = Math.cos(camera.pitch), sp_ = Math.sin(camera.pitch);
+  // Rotated canvas plane normal = rotateX(pitch) · rotateY(yaw) · (0,0,1)
+  const nx = sy_;
+  const ny = -sp_ * cy_;
+  const nz =  cp_ * cy_;
+  // Eye at (W/2, H/2, P), screen at (mx, my, 0). Ray dir = (dx, dy, -P).
+  const dx = mx - W / 2;
+  const dy = my - H / 2;
+  const P = VIEW_PERSPECTIVE;
+  const denom = dx * nx + dy * ny - P * nz;
+  if (Math.abs(denom) < 1e-6) return null;
+  const t = (-P * nz) / denom;
+  // Hit point relative to canvas center (which sits at (W/2, H/2, 0)).
+  const Hx = t * dx;
+  const Hy = t * dy;
+  const Hz = P * (1 - t);
+  // Inverse rotate: rotateX(-pitch) then rotateY(-yaw)
+  const x1 = Hx;
+  const y1 = cp_ * Hy + sp_ * Hz;
+  const z1 = -sp_ * Hy + cp_ * Hz;
+  const xLocal = cy_ * x1 - sy_ * z1;
+  const yLocal = y1;
+  return { x: xLocal + W / 2, y: yLocal + H / 2 };
+}
+
+// ----------------------------------------------------------------------------
+// Blender-style XYZ axis gizmo (mini overlay canvas, top-right of stage).
+// G is at world origin (0,0,0). Axes follow the same rotation that the paper
+// itself receives, so the gizmo always agrees with what the user is seeing.
+//   X = canvas-right (red)
+//   Y = canvas-up    (green)   ← negative canvas-y direction so it points up
+//   Z = out of paper toward viewer (blue)
+// ----------------------------------------------------------------------------
+const gizmo = document.getElementById("gizmo");
+const gctx  = gizmo ? gizmo.getContext("2d") : null;
+
+function projectGizmoVec(vx, vy, vz) {
+  // Same composite rotation the paper receives via CSS: rotateY(yaw) first,
+  // then rotateX(pitch). We apply the matrices to the world-axis unit vector.
+  const cy_ = Math.cos(camera.yaw),   sy_ = Math.sin(camera.yaw);
+  const cp_ = Math.cos(camera.pitch), sp_ = Math.sin(camera.pitch);
+  const x1 =  cy_ * vx + sy_ * vz;
+  const y1 =  vy;
+  const z1 = -sy_ * vx + cy_ * vz;
+  const X  =  x1;
+  const Y  =  cp_ * y1 - sp_ * z1;
+  const Z  =  sp_ * y1 + cp_ * z1;
+  return { sx: X, sy: Y, depth: Z };
+}
+
+function drawGizmo() {
+  if (!gctx) return;
+  const W = gizmo.width;
+  const H = gizmo.height;
+  gctx.clearRect(0, 0, W, H);
+  const cx = W / 2;
+  const cy = H / 2 - 4;
+  const L  = 36;
+
+  const axes = [
+    { vec: [ 1,  0, 0], color: "#ff5b5b", label: "X" },
+    { vec: [ 0, -1, 0], color: "#6cf09c", label: "Y" },
+    { vec: [ 0,  0, 1], color: "#5ad6ff", label: "Z" },
+  ];
+
+  // Project, then sort by depth so back axes draw first and front draws last.
+  const projected = axes.map(a => {
+    const p = projectGizmoVec(a.vec[0], a.vec[1], a.vec[2]);
+    return Object.assign({}, a, p);
+  });
+  projected.sort((a, b) => a.depth - b.depth);
+
+  for (const a of projected) {
+    const ex = cx + a.sx * L;
+    const ey = cy + a.sy * L;
+    const inFront = a.depth >= -0.05;
+    gctx.globalAlpha = inFront ? 1 : 0.42;
+
+    gctx.strokeStyle = a.color;
+    gctx.lineWidth = 2;
+    gctx.beginPath();
+    gctx.moveTo(cx, cy);
+    gctx.lineTo(ex, ey);
+    gctx.stroke();
+
+    // Tip dot + label (offset slightly past the tip along the axis dir).
+    gctx.fillStyle = a.color;
+    gctx.beginPath();
+    gctx.arc(ex, ey, 3.5, 0, Math.PI * 2);
+    gctx.fill();
+
+    gctx.font = "700 11px ui-monospace, Menlo, monospace";
+    gctx.textAlign = "center";
+    gctx.textBaseline = "middle";
+    gctx.fillText(a.label, ex + a.sx * 9, ey + a.sy * 9);
+  }
+  gctx.globalAlpha = 1;
+
+  // Origin marker — G at (0,0,0).
+  gctx.fillStyle = "#ffd54a";
+  gctx.shadowColor = "rgba(255,213,74,0.85)";
+  gctx.shadowBlur  = 8;
+  gctx.beginPath();
+  gctx.arc(cx, cy, 3.5, 0, Math.PI * 2);
+  gctx.fill();
+  gctx.shadowBlur = 0;
+
+  gctx.fillStyle = "rgba(232,238,247,0.78)";
+  gctx.font = "600 10px -apple-system, system-ui, sans-serif";
+  gctx.textAlign = "center";
+  gctx.textBaseline = "alphabetic";
+  gctx.fillText("G  (0, 0, 0)", W / 2, H - 7);
+}
+
+function resizeStage() {
+  const r = stage.getBoundingClientRect();
+  const dpr = window.devicePixelRatio || 1;
+  stage.width = Math.max(300, Math.floor(r.width * dpr));
+  stage.height = Math.max(300, Math.floor(r.height * dpr));
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+}
+window.addEventListener("resize", resizeStage);
+// Catch container-driven size changes (the responsive grid breakpoint
+// reflows the canvas without firing a window resize).
+if (typeof ResizeObserver !== "undefined") {
+  const ro = new ResizeObserver(() => resizeStage());
+  ro.observe(stage);
+}
+
+// ----------------------------------------------------------------------------
+// Chain rendering — LEGO loose-chain fidelity:
+// the chain VISIBLY WRAPS each anchor (small arcs hugging the gear)
+// before continuing to the next. It does not pass through points smoothly.
+// Reference: loose_chain_1.png / 2.png / 3.png  (5 Layers Contemplations)
+// ----------------------------------------------------------------------------
+const ANCHOR_RADII = {
+  A: 14, F: 14,        // boundary "gears" — largest wrap
+  B: 11, E: 11,        // abstraction wraps — mid
+  C: 9,  D: 9,         // trough/aim wraps — smaller
+  G: 13,               // wavefront — central, slightly larger
+  LN: 7, RN: 7,        // pending layer — subordinate
+};
+
+// Build a wrap-aware chain path. The chain is drawn as ONE continuous
+// piece per segment: entry-tangent on the previous gear → free slack span
+// → exit-tangent on the next gear. Each anchor's WRAP SIDE is the OUTSIDE
+// of its bend (rope-over-pulley-over-the-bend), determined by the signed
+// cross product of the incoming and outgoing chain directions. Tangent
+// points sit on the gear circle along the perpendicular to the line of
+// centers, on each gear's own outer-bend side. Wrap arcs are drawn
+// between adjacent segments' tangent points so the bezier endpoints and
+// arc endpoints coincide.
+function drawChain(ctx, p, w, h) {
+  // Path order from .rana line 98: A -> B -> C -> G -> D -> E -> F
+  const route = [p.A, p.B, p.C, p.G, p.D, p.E, p.F];
+  const keys  = ["A","B","C","G","D","E","F"];
+
+  ctx.save();
+  ctx.strokeStyle = "rgba(185,197,214,0.92)";
+  ctx.lineWidth = 2.2;
+  ctx.lineCap = "round";
+  ctx.lineJoin = "round";
+  ctx.shadowBlur = 6;
+  ctx.shadowColor = "rgba(255,213,74,0.08)";
+
+  // ---- Pass 0: per-anchor wrap side from the bend cross product ----
+  // For each interior anchor we look at v_in (prev->this) and v_out
+  // (this->next). cross = v_in.x * v_out.y - v_in.y * v_out.x.
+  // In canvas coords (+y down):
+  //   cross > 0 → bend turns clockwise visually → outside = TOP    (ny = -1 sign)
+  //   cross < 0 → bend turns counter-clockwise   → outside = BOTTOM (ny = +1 sign)
+  // For endpoints (only one neighbor), default outside = BOTTOM so the
+  // chain visibly drapes off the bow tip — this matches the LEGO photos
+  // where the chain hangs below the outermost gears.
+  // wrapSign is +1 for "outer side has +y component" (bottom-ish),
+  //          -1 for "outer side has -y component" (top-ish).
+  const wrapSign = new Array(route.length);
+  for (let i = 0; i < route.length; i++) {
+    if (i === 0 || i === route.length - 1) {
+      wrapSign[i] = +1;   // endpoint default — drape downward
+      continue;
+    }
+    const a = route[i-1], b = route[i], c = route[i+1];
+    const ix = b.x - a.x, iy = b.y - a.y;
+    const ox = c.x - b.x, oy = c.y - b.y;
+    const cross = ix * oy - iy * ox;
+    wrapSign[i] = (cross >= 0) ? -1 : +1;
+  }
+
+  // ---- Pass 1: build per-segment tangent points + sag control ----
+  const segs = [];
+  for (let i = 0; i < route.length - 1; i++) {
+    const a = route[i], b = route[i+1];
+    const ra = ANCHOR_RADII[keys[i]] || 9;
+    const rb = ANCHOR_RADII[keys[i+1]] || 9;
+
+    // line-of-centers unit vector a -> b
+    const dx = b.x - a.x, dy = b.y - a.y;
+    const L = Math.max(1e-3, Math.sqrt(dx*dx + dy*dy));
+    const ux = dx / L, uy = dy / L;
+
+    // base perpendicular to the line of centers, normalised so its y
+    // component is positive (i.e. points "down" in canvas coords). We
+    // then flip it per anchor to land on each end's own outer-bend side.
+    let pnx = -uy, pny = ux;
+    if (pny < 0) { pnx = -pnx; pny = -pny; }
+    // After this normalisation, sign +1 means "this perpendicular as-is";
+    // sign -1 means "flipped" — which lines up with our wrapSign convention.
+    const sA = wrapSign[i];
+    const sB = wrapSign[i + 1];
+
+    const naX = pnx * sA, naY = pny * sA;   // outer side at gear a
+    const nbX = pnx * sB, nbY = pny * sB;   // outer side at gear b
+
+    // tangent points: gear center + radius * outer perpendicular
+    const exitA  = { x: a.x + naX * ra, y: a.y + naY * ra };
+    const enterB = { x: b.x + nbX * rb, y: b.y + nbY * rb };
+
+    // Sag control point. When both ends wrap the SAME side, the slack
+    // is bowed outward on that shared side (LEGO gravity-sag idiom).
+    // When the ends wrap OPPOSITE sides (e.g. C-bottom → G-top), the
+    // bezier already crosses the line of centers naturally; pushing a
+    // sag offset would kink it, so the control point is the plain
+    // midpoint and the curvature comes from the endpoints alone.
+    const sagBase = Math.min(40, L * 0.20);
+    const sameSide = (sA === sB);
+    // Slack derives from REAL endpoint energy magnitudes. The chain
+    // wraps fixed gears; what changes is how much it droops between
+    // them. Convention (documented, not invented physics):
+    //   tension(seg) = clamp(mean(|eA|, |eB|), 0, 1)
+    //   slackFactor  = 1 - 0.5 * tension
+    // High energy at the endpoints → chain pulled tighter (less sag).
+    // Low energy → chain droops more. No sin(t) anywhere.
+    const eA = Number.isFinite(state[keys[i]])     ? state[keys[i]]     : 0;
+    const eB = Number.isFinite(state[keys[i + 1]]) ? state[keys[i + 1]] : 0;
+    const tension = Math.min(1, Math.max(0, (Math.abs(eA) + Math.abs(eB)) / 2));
+    const slackFactor = 1 - 0.5 * tension;
+    const sag = sameSide ? sagBase * slackFactor : 0;
+
+    const mx = (exitA.x + enterB.x) / 2 + (sameSide ? naX * sag : 0);
+    const my = (exitA.y + enterB.y) / 2 + (sameSide ? naY * sag : 0);
+
+    segs.push({ exitA, enterB, mx, my });
+  }
+
+  // ---- Pass 2: draw slack between gears ----
+  for (const s of segs) {
+    ctx.beginPath();
+    ctx.moveTo(s.exitA.x, s.exitA.y);
+    ctx.quadraticCurveTo(s.mx, s.my, s.enterB.x, s.enterB.y);
+    ctx.stroke();
+  }
+
+  // ---- Pass 3: wrap arc on each anchor (outer side of the bend) ----
+  // Each interior anchor has incoming tangent (segs[i-1].enterB) and
+  // outgoing tangent (segs[i].exitA), both on the gear's outer bend
+  // side. We sweep the short arc between them — the one whose midpoint
+  // lies on the wrapSign-chosen hemisphere — so the chain visibly hugs
+  // the outside of every bend, regardless of whether that's the top of
+  // a peak (G) or the bottom of a trough (C).
+  ctx.lineWidth = 2.2;
+  ctx.strokeStyle = "rgba(185,197,214,0.95)";
+  for (let i = 0; i < route.length; i++) {
+    const c = route[i];
+    const r = ANCHOR_RADII[keys[i]] || 9;
+
+    let aIn  = null, aOut = null;
+    if (i > 0) {
+      const prevSeg = segs[i-1];
+      aIn  = Math.atan2(prevSeg.enterB.y - c.y, prevSeg.enterB.x - c.x);
+    }
+    if (i < route.length - 1) {
+      const nextSeg = segs[i];
+      aOut = Math.atan2(nextSeg.exitA.y  - c.y, nextSeg.exitA.x  - c.x);
+    }
+
+    // No tangent jitter — wraps sit on the gears statically. Aliveness
+    // belongs in real iterating data (energy halos, G readout), not in
+    // synthetic wrap breathing.
+    const jitter = 0;
+
+    ctx.beginPath();
+    if (aIn !== null && aOut !== null) {
+      // Pick sweep so the arc midpoint lands on the OUTER bend side.
+      // Outer side: wrapSign[i] = +1 → bottom (sin(mid) > 0)
+      //             wrapSign[i] = -1 → top    (sin(mid) < 0)
+      const wantTop = (wrapSign[i] === -1);
+      const start = aIn, end = aOut;
+      // candidate midpoints for clockwise (false) and counter-clockwise (true) sweeps
+      const cwMid  = (end >= start) ? (start + end) / 2 : (start + end + 2 * Math.PI) / 2;
+      const ccwMid = (end <= start) ? (start + end) / 2 : (start + end - 2 * Math.PI) / 2;
+      // sin(angle) is the y-coord on the unit circle in canvas coords (+down)
+      const cwOnTop  = Math.sin(cwMid)  < 0;
+      const ccwOnTop = Math.sin(ccwMid) < 0;
+      // sweep = true means counter-clockwise in canvas-arc API
+      let sweep;
+      if (cwOnTop === ccwOnTop) {
+        // degenerate (very short bend) — fall back to shorter arc
+        sweep = Math.abs(end - start) > Math.PI;
+      } else {
+        sweep = (wantTop ? ccwOnTop : !ccwOnTop);
+      }
+      ctx.arc(c.x, c.y, r, start + jitter, end - jitter, sweep);
+    } else if (aOut !== null) {
+      // Endpoint A — half-wrap on the outgoing side, on this end's outer side
+      const bias = (wrapSign[i] === -1) ? -1 : +1;
+      const start = aOut + bias * Math.PI * 0.55;
+      const end   = aOut;
+      ctx.arc(c.x, c.y, r, start + jitter, end - jitter, bias < 0);
+    } else if (aIn !== null) {
+      // Endpoint F — half-wrap on the incoming side, on this end's outer side
+      const bias = (wrapSign[i] === -1) ? -1 : +1;
+      const start = aIn;
+      const end   = aIn - bias * Math.PI * 0.55;
+      ctx.arc(c.x, c.y, r, start + jitter, end - jitter, bias < 0);
+    }
+    ctx.stroke();
+  }
+
+  // Self-coupling loop on G (G->G, line 108 of .rana). Static geometry;
+  // brightness tied to REAL |G| value (not sin(t)). Resonance state
+  // distinguished by line weight + shadow only — no oscillation.
+  const Dpred = state.G * INV_PHI2;
+  const dErr  = isFinite(Dpred) ? Math.abs(state.D - Dpred) : Infinity;
+  const nearResonance = dErr < 0.02;
+  const gMag  = Math.min(1, Math.abs(state.G));   // 0..1 from real iteration
+  ctx.beginPath();
+  ctx.strokeStyle = `rgba(255,213,74,${0.35 + 0.55 * gMag})`;
+  ctx.lineWidth = nearResonance ? 2.0 : 1.4;
+  ctx.shadowBlur = nearResonance ? 18 : 10;
+  ctx.shadowColor = "rgba(255,213,74,0.55)";
+  const gLoopR = 22;
+  ctx.arc(p.G.x, p.G.y - gLoopR * 0.4, gLoopR, 0, Math.PI * 2);
+  ctx.stroke();
+  ctx.shadowBlur = 0;
+
+  ctx.restore();
+}
+
+function drawAnchor(ctx, pt, color, label, sub, opts) {
+  opts = opts || {};
+  // ENERGY HALO — radius and opacity scale with |energy|. This is the
+  // separate visual channel that replaces y-position-as-energy. A=0
+  // produces an essentially invisible halo (correct: the origin has no
+  // energy yet); C=-1 and F=1 produce visible static halos; B/E/G/D
+  // halos jump on each tick as their real energy values update.
+  // Sign convention: positive = full saturation; negative = same color
+  // shown desaturated, indicating polarity without changing geometry.
+  const energy = (typeof opts.energy === "number" && Number.isFinite(opts.energy)) ? opts.energy : 0;
+  const energyMag = Math.min(2.5, Math.abs(energy));
+  const negative = energy < 0;
+  const cls = opts.cls || null;  // "fixed" | "polar" | "free" | "computed" | "pending"
+  const hovered = !!opts.hovered;
+  const dragging = !!opts.dragging;
+  ctx.save();
+  // Halo radius derives from real energy magnitude. Hover/drag still lift
+  // it slightly so the affordance reads instantly — that is interaction
+  // state, not synthetic decoration.
+  const interactiveLift = (hovered ? 0.25 : 0) + (dragging ? 0.45 : 0);
+  const glowR = 18 + energyMag * 28 + (hovered ? 6 : 0) + (dragging ? 10 : 0);
+  // Halo color: polarity-aware. Negative energies use a desaturated
+  // (alpha-attenuated) version of the anchor color.
+  const haloColor = negative ? color.replace(/^#/, "#") : color; // visual cue happens via alpha below
+  const grd = ctx.createRadialGradient(pt.x, pt.y, 0, pt.x, pt.y, glowR);
+  grd.addColorStop(0, haloColor);
+  grd.addColorStop(1, "rgba(0,0,0,0)");
+  ctx.fillStyle = grd;
+  // Opacity proportional to energy magnitude; negatives muted so polarity
+  // reads at a glance. Hover/drag still lift it.
+  const baseAlpha = 0.20 + 0.55 * Math.min(1, energyMag);
+  const polarityScale = negative ? 0.55 : 1.0;
+  ctx.globalAlpha = Math.min(1, baseAlpha * polarityScale + interactiveLift);
+  ctx.beginPath();
+  ctx.arc(pt.x, pt.y, glowR, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.globalAlpha = 1.0;
+
+  // Body — slight scale-up on hover/drag.
+  const bodyR = 8 + (hovered ? 1.5 : 0) + (dragging ? 2.5 : 0);
+  ctx.fillStyle = color;
+  ctx.beginPath();
+  ctx.arc(pt.x, pt.y, bodyR, 0, Math.PI * 2);
+  ctx.fill();
+
+  ctx.strokeStyle = "rgba(255,255,255,0.85)";
+  ctx.lineWidth = dragging ? 2.0 : 1.4;
+  ctx.beginPath();
+  ctx.arc(pt.x, pt.y, bodyR, 0, Math.PI * 2);
+  ctx.stroke();
+
+  // Class adornment — visual distinction for fixed/polar/free/computed.
+  // Drawn OUTSIDE the body circle so it does not obscure the dot.
+  if (cls === "fixed") {
+    // dotted ring + tiny lock dot above
+    ctx.save();
+    ctx.setLineDash([2, 3]);
+    ctx.strokeStyle = "rgba(212,175,55,0.85)";
+    ctx.lineWidth = 1.2;
+    ctx.beginPath();
+    ctx.arc(pt.x, pt.y, bodyR + 5, 0, Math.PI * 2);
+    ctx.stroke();
+    ctx.restore();
+  } else if (cls === "computed") {
+    // Static "iterates" ring — class adornment, no synthetic oscillation.
+    // The aliveness for G is in its energy halo (driven by real |G|) and
+    // in the readout updating each tick.
+    ctx.save();
+    ctx.strokeStyle = "rgba(255,213,74,0.55)";
+    ctx.lineWidth = 1.1;
+    ctx.beginPath();
+    ctx.arc(pt.x, pt.y, bodyR + 6, 0, Math.PI * 2);
+    ctx.stroke();
+    ctx.restore();
+  }
+
+  // Anchor letter — bumped for dyslexia readability.
+  ctx.fillStyle = "#e8eef7";
+  ctx.font = "700 16px -apple-system, system-ui, sans-serif";
+  ctx.textAlign = "center";
+  ctx.fillText(label, pt.x, pt.y - bodyR - 9);
+
+  if (sub !== undefined && sub !== null) {
+    ctx.fillStyle = "#a7b3cb";
+    ctx.font = "13px -apple-system, system-ui, sans-serif";
+    ctx.fillText(sub, pt.x, pt.y + bodyR + 17);
+  }
+  ctx.restore();
+}
+
+function drawArrow(ctx, p, w, h, resonanceLevel) {
+  // Arrow direction = G fires INTO the valid firing field bounded by the
+  // two failure-vector tips, A and F (per FAILURE_VECTOR_AIMING.md and
+  // recurve_bow.rana). The direction that represents "into the field" is
+  // the bisector of the open angle G→A and G→F — the center ray of the
+  // cone between the two impossibility boundaries. B, C, D, E couple
+  // through the chain and shape G's energy via the iteration equation,
+  // but the firing field itself is defined by the failure tips alone.
+  resonanceLevel = resonanceLevel || 0;
+
+  const anchors = [p.A, p.B, p.C, p.D, p.E, p.F];
+  let cx = 0, cy = 0;
+  for (const a of anchors) { cx += a.x; cy += a.y; }
+  cx /= anchors.length; cy /= anchors.length;
+  // X axis = AIM DIRECTION: horizontal lean of centroid relative to G (inverted).
+  // Y axis = POWER: how far anchors sit below G drives arrow length, NOT tilt.
+  const aimX = -(cx - p.G.x);
+  // POWER = magnitude of the limb stretch on each side: |A.y − C.y| + |F.y − D.y|.
+  const powerY = Math.abs(p.A.y - p.C.y) + Math.abs(p.F.y - p.D.y);
+  let sx = aimX, sy = -200;
+  let L = Math.hypot(sx, sy);
+  let nx = sx / L, ny = sy / L;
+
+  const baseX = p.G.x;
+  const baseY = p.G.y;
+  const Gmag = Math.max(0, Math.min(2.5, state.G));
+  const len = 30 + Gmag * 90 + 18 * resonanceLevel + powerY * 0.3;
+  const tipX = baseX + nx * len;
+  const tipY = baseY + ny * len;
+
+  ctx.save();
+  const lineAlpha = 0.85 + 0.15 * resonanceLevel;
+  ctx.strokeStyle = `rgba(255,213,74,${lineAlpha})`;
+  ctx.lineWidth = 2.4 + 1.2 * resonanceLevel;
+  ctx.shadowColor = "rgba(255,213,74,0.85)";
+  ctx.shadowBlur = 14 + 18 * resonanceLevel;
+  ctx.beginPath();
+  ctx.moveTo(baseX, baseY);
+  ctx.lineTo(tipX, tipY);
+  ctx.stroke();
+
+  // Arrowhead — wings perpendicular to the (nx,ny) direction, drawn from
+  // a "shoulder" point set back along the shaft so the head sits on the tip.
+  const headLen = 12 + 2 * resonanceLevel;
+  const headHalfWidth = 8 + 2 * resonanceLevel;
+  const shoulderX = tipX - nx * headLen;
+  const shoulderY = tipY - ny * headLen;
+  // perpendicular unit (-ny, nx)
+  const perpX = -ny;
+  const perpY =  nx;
+  ctx.beginPath();
+  ctx.moveTo(tipX, tipY);
+  ctx.lineTo(shoulderX + perpX * headHalfWidth, shoulderY + perpY * headHalfWidth);
+  ctx.lineTo(shoulderX - perpX * headHalfWidth, shoulderY - perpY * headHalfWidth);
+  ctx.closePath();
+  ctx.fillStyle = "rgba(255,213,74,1)";
+  ctx.fill();
+
+  ctx.shadowBlur = 0;
+  ctx.restore();
+}
+
+function drawBowTips(ctx, p) {
+  // Failure half-plane: line A→C extended to infinity; the red field lives
+  // on the side opposite G (the outside of the bow).
+  ctx.save();
+  ctx.fillStyle = "rgba(255,91,91,0.08)";
+  const FAR = 5000;
+  const drawHalfPlane = (P1, P2) => {
+    const dx = P2.x - P1.x, dy = P2.y - P1.y;
+    const dl = Math.hypot(dx, dy) || 1;
+    const ux = dx / dl, uy = dy / dl;
+    let nx = -uy, ny = ux;
+    if (nx * (p.G.x - P1.x) + ny * (p.G.y - P1.y) > 0) { nx = -nx; ny = -ny; }
+    const e1 = { x: P1.x - ux * FAR, y: P1.y - uy * FAR };
+    const e2 = { x: P2.x + ux * FAR, y: P2.y + uy * FAR };
+    ctx.beginPath();
+    ctx.moveTo(e1.x, e1.y);
+    ctx.lineTo(e2.x, e2.y);
+    ctx.lineTo(e2.x + nx * FAR, e2.y + ny * FAR);
+    ctx.lineTo(e1.x + nx * FAR, e1.y + ny * FAR);
+    ctx.closePath();
+    ctx.fill();
+  };
+  drawHalfPlane(p.A, p.C);
+  drawHalfPlane(p.F, p.D);
+
+  // Lagrange-style convergence point: intersection of line AC and line FD.
+  const r1x = p.C.x - p.A.x, r1y = p.C.y - p.A.y;
+  const r2x = p.D.x - p.F.x, r2y = p.D.y - p.F.y;
+  const denom = r1x * r2y - r1y * r2x;
+  if (Math.abs(denom) > 1e-6) {
+    const t = ((p.F.x - p.A.x) * r2y - (p.F.y - p.A.y) * r2x) / denom;
+    const ix = p.A.x + t * r1x;
+    const iy = p.A.y + t * r1y;
+    ctx.fillStyle = "rgba(255,91,91,0.95)";
+    ctx.font = "700 22px ui-serif, Georgia, serif";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.shadowColor = "rgba(255,91,91,0.6)";
+    ctx.shadowBlur = 10;
+    ctx.fillText("φ", ix, iy);
+  }
+  ctx.restore();
+}
+
+function drawPendingLayer(ctx, p) {
+  // (L-N)(R-N) layer: render visibly as PENDING DEFINITION.
+  // Subordinate wrap arcs — the chain idea continues, but dashed/lighter
+  // because the magnitude function is unauthored.
+  ctx.save();
+
+  // dashed slack between LN and RN
+  ctx.strokeStyle = "rgba(255,154,60,0.55)";
+  ctx.setLineDash([6, 5]);
+  ctx.lineWidth = 1.4;
+  ctx.beginPath();
+  ctx.moveTo(p.LN.x, p.LN.y);
+  ctx.bezierCurveTo(
+    p.LN.x + 30, p.LN.y + 30,
+    p.RN.x - 30, p.RN.y + 30,
+    p.RN.x, p.RN.y
+  );
+  ctx.stroke();
+
+  // Subordinate wrap arcs around LN and RN — match the LEGO idiom
+  // but kept dashed and lighter to signal "pending." Static arcs; this
+  // layer has no real iterating data to derive aliveness from.
+  for (const pt of [p.LN, p.RN]) {
+    const r = ANCHOR_RADII.LN || 7;
+    const a0 = Math.PI * 0.15;
+    const a1 = Math.PI * 0.85;
+    ctx.beginPath();
+    ctx.arc(pt.x, pt.y, r, a0, a1);
+    ctx.stroke();
+  }
+  ctx.setLineDash([]);
+
+  // hollow markers
+  for (const pt of [p.LN, p.RN]) {
+    ctx.beginPath();
+    ctx.arc(pt.x, pt.y, 8, 0, Math.PI * 2);
+    ctx.strokeStyle = "rgba(255,154,60,0.9)";
+    ctx.lineWidth = 1.4;
+    ctx.stroke();
+    ctx.fillStyle = "rgba(255,154,60,0.10)";
+    ctx.fill();
+  }
+
+  ctx.fillStyle = "rgba(255,154,60,0.95)";
+  ctx.font = "700 14px -apple-system, system-ui, sans-serif";
+  ctx.textAlign = "center";
+  ctx.fillText("(L−N)", p.LN.x, p.LN.y - 14);
+  ctx.fillText("(R−N)", p.RN.x, p.RN.y - 14);
+  ctx.restore();
+}
+
+function render() {
+  const w = stage.clientWidth;
+  const h = stage.clientHeight;
+  ctx.clearRect(0, 0, w, h);
+
+  const p = anchorPositions(w, h);
+
+  // Resonance metric — derived from REAL state values (no clock):
+  //   resonanceLevel — 0..1, climbs as |D − G/φ²| → 0
+  const Dpred = state.G * INV_PHI2;
+  const dErr  = isFinite(Dpred) ? Math.abs(state.D - Dpred) : Infinity;
+  const resonanceLevel = isFinite(dErr)
+    ? Math.max(0, Math.min(1, 1 - dErr / 0.05))
+    : 0;
+
+  drawBowTips(ctx, p);
+  drawChain(ctx, p, w, h);
+  drawPendingLayer(ctx, p);
+
+  // Draw anchors — energy halo per anchor scales with REAL |state.<X>|.
+  // Aliveness comes from the iterating equation (G updates → halo updates;
+  // B/E polarize each tick → halos jump). No synthetic per-anchor pulses.
+  const hoverK = state.hoverKey || null;
+  const dragK  = state.dragKey  || null;
+  const drawOpt = (key) => ({
+    energy: state[key],
+    cls: ANCHOR_CLASS[key] ? ANCHOR_CLASS[key].kind : null,
+    hovered: hoverK === key && dragK !== key,
+    dragging: dragK === key,
+  });
+  drawAnchor(ctx, p.A, "#ff5b5b", "A", null, drawOpt("A"));
+  drawAnchor(ctx, p.F, "#ff5b5b", "F", null, drawOpt("F"));
+  drawAnchor(ctx, p.B, "#5ad6ff", "B", null, drawOpt("B"));
+  drawAnchor(ctx, p.E, "#5ad6ff", "E", null, drawOpt("E"));
+  drawAnchor(ctx, p.C, "#b079ff", "C", null, drawOpt("C"));
+  drawAnchor(ctx, p.D, "#6cf09c", "D", null, drawOpt("D"));
+  drawAnchor(ctx, p.G, "#ffd54a", "G", "Phi holds bow", drawOpt("G"));
+
+  drawArrow(ctx, p, w, h, resonanceLevel);
+
+  document.getElementById("overlay-tick").textContent = "tick " + state.tick;
+}
+
+
+// ----------------------------------------------------------------------------
+// Loop
+// ----------------------------------------------------------------------------
+let last = performance.now();
+let acc = 0;
+const STEPS_PER_SECOND = 12;   // visible iteration cadence
+const STEP_INTERVAL = 1000 / STEPS_PER_SECOND;
+
+function frame(now) {
+  const dt = now - last;
+  last = now;
+
+  if (state.running) {
+    acc += dt;
+    while (acc >= STEP_INTERVAL) {
+      step();
+      acc -= STEP_INTERVAL;
+    }
+  } else {
+    acc = 0;
+  }
+
+  render();
+  requestAnimationFrame(frame);
+}
+
+
+// ----------------------------------------------------------------------------
+// Controls
+// ----------------------------------------------------------------------------
+document.getElementById("btn-pause").addEventListener("click", (e) => {
+  state.running = !state.running;
+  e.target.textContent = state.running ? "running" : "paused";
+  e.target.classList.toggle("active", state.running);
+});
+document.getElementById("btn-reset").addEventListener("click", () => {
+  state.G = 0.5;
+  state.G_secondary = 0.5;
+  state.tick = 0;
+  state.g_history.length = 0;
+  state.d_history.length = 0;
+  state.ratio_history.length = 0;
+});
+document.getElementById("btn-restore").addEventListener("click", (e) => {
+  state.A = CANON.A;
+  state.B = CANON.B;
+  state.C = CANON.C;
+  state.D = CANON.D;
+  state.E = CANON.E;
+  state.F = CANON.F;
+  state.G = CANON.G;
+  state.G_secondary = CANON.G;
+  state.posOverride = { A:null, B:null, C:null, D:null, E:null, F:null, G:null };
+  e.target.classList.remove("flashing");
+  void e.target.offsetWidth;
+  e.target.classList.add("flashing");
+});
+
+// ----------------------------------------------------------------------------
+// Canvas drag — all 7 anchors (A,B,C,D,E,F,G) are draggable. (L−N)(R−N)
+// stays non-draggable (pending). Drag MOVES the anchor on the canvas
+// (changes the bow's geometry / aim direction). It does NOT modify energy
+// values — those remain in state.<X> and are only changed by the equation
+// (or the D slider for D's free aim).
+//
+// Mouse offset from the anchor center is captured at mousedown so the
+// anchor doesn't visually jump to the cursor on grab — it follows naturally.
+//
+//   mousedown:  dragMouseDX,DY := mouse - anchor.position
+//               dragStartX,Y   := anchor.position (for cancel logic)
+//   mousemove:  posOverride[key] = { x: mouse.x - dragMouseDX,
+//                                    y: mouse.y - dragMouseDY }
+// ----------------------------------------------------------------------------
+const DRAGGABLE_KEYS = ["A", "B", "C", "D", "E", "F", "G"];
+const HIT_SLOP = 6;  // pixels of forgiveness around bodyR
+
+function pickAnchor(mx, my) {
+  const w = stage.clientWidth || 600;
+  const h = stage.clientHeight || 400;
+  const p = anchorPositions(w, h);
+  let best = null;
+  let bestD = Infinity;
+  for (const k of DRAGGABLE_KEYS) {
+    const a = p[k];
+    const r = (ANCHOR_RADII[k] || 9) + HIT_SLOP;
+    const dx = mx - a.x, dy = my - a.y;
+    const d2 = dx*dx + dy*dy;
+    if (d2 <= r*r && d2 < bestD) { best = k; bestD = d2; }
+  }
+  return best;
+}
+
+function eventXY(ev) {
+  const local = screenToCanvasLocal(ev.clientX, ev.clientY);
+  if (local) return local;
+  // Fallback if the ray misses (camera at extreme grazing angle): use raw rect.
+  const r = stage.getBoundingClientRect();
+  return { x: ev.clientX - r.left, y: ev.clientY - r.top };
+}
+
+// Topology lock-out. The chain A→B→C→G→D→E→F is only a valid recurve when:
+//   1. A is strictly the topmost of the seven anchors
+//   2. B stays above (smaller y than) the imaginary line A→C
+//   3. E stays above the imaginary line F→D (mirror of 2)
+//   4. F stays above the imaginary line A→G (the upper-right protected wedge)
+// A drag that would break any of these is rejected — the anchor sticks at
+// its last valid position rather than entering the lock-out zone.
+const VALID_MARGIN = 1;
+function lineY(a, b, atX) {
+  const dx = b.x - a.x;
+  if (Math.abs(dx) < 1e-6) return a.y;
+  return a.y + (atX - a.x) / dx * (b.y - a.y);
+}
+function isValidPositions(p) {
+  const M = VALID_MARGIN;
+  if (p.A.y >= Math.min(p.B.y, p.C.y, p.D.y, p.E.y, p.F.y, p.G.y) - M) return false;
+  if (p.B.y >= lineY(p.A, p.C, p.B.x) - M) return false;
+  if (p.E.y >= lineY(p.F, p.D, p.E.x) - M) return false;
+  if (p.F.y >= lineY(p.A, p.G, p.F.x) - M) return false;
+  if (p.C.y <= p.B.y + M) return false;
+  if (p.A.x >= p.G.x - M) return false;
+  if (p.B.x >= p.G.x - M) return false;
+  if (p.C.x >= p.G.x - M) return false;
+  if (p.F.x <= p.G.x + M) return false;
+  if (p.E.x <= p.G.x + M) return false;
+  if (p.D.x <= p.G.x + M) return false;
+  if (p.D.y <= p.E.y + M) return false;
+  return true;
+}
+
+// Orbit-drag state: track raw screen mouse for camera rotation.
+let orbitDrag = null;   // { lastClientX, lastClientY } when actively orbiting
+
+stageWrap.addEventListener("mousemove", (ev) => {
+  if (orbitDrag) {
+    const dx = ev.clientX - orbitDrag.lastClientX;
+    const dy = ev.clientY - orbitDrag.lastClientY;
+    camera.yaw   +=  dx * 0.006;
+    camera.pitch +=  dy * 0.006;
+    const lim = Math.PI / 2 - 0.04;
+    if (camera.pitch >  lim) camera.pitch =  lim;
+    if (camera.pitch < -lim) camera.pitch = -lim;
+    orbitDrag.lastClientX = ev.clientX;
+    orbitDrag.lastClientY = ev.clientY;
+    applyCameraTransform();
+    return;
+  }
+  const { x, y } = eventXY(ev);
+  if (state.dragKey) {
+    const k = state.dragKey;
+    const newX = x - state.dragMouseDX;
+    const newY = y - state.dragMouseDY;
+    const w = stage.clientWidth || 600;
+    const h = stage.clientHeight || 400;
+    const prevOverride = state.posOverride[k];
+    state.posOverride[k] = { x: newX, y: newY };
+    const candidate = anchorPositions(w, h);
+    if (!isValidPositions(candidate)) {
+      state.posOverride[k] = prevOverride;
+    }
+    stage.classList.remove("grab");
+    stage.classList.add("grabbing");
+    return;
+  }
+  // Hover state — drives anchor highlight + cursor affordance.
+  const k = pickAnchor(x, y);
+  state.hoverKey = k;
+  if (k) {
+    stage.classList.add("grab");
+    stage.classList.remove("grabbing");
+    stage.title = (ANCHOR_CLASS[k] && ANCHOR_CLASS[k].blurb) || k;
+  } else {
+    stage.classList.remove("grab", "grabbing");
+    stage.title = "";
+  }
+});
+
+stageWrap.addEventListener("mousedown", (ev) => {
+  const { x, y } = eventXY(ev);
+  const k = pickAnchor(x, y);
+  if (k && k !== "G") {
+    const w = stage.clientWidth || 600;
+    const h = stage.clientHeight || 400;
+    const p = anchorPositions(w, h);
+    state.dragKey = k;
+    state.dragMouseDX = x - p[k].x;
+    state.dragMouseDY = y - p[k].y;
+    state.dragStartX  = p[k].x;
+    state.dragStartY  = p[k].y;
+    stage.classList.remove("grab");
+    stage.classList.add("grabbing");
+    ev.preventDefault();
+    return;
+  }
+  // Empty space (or G itself) → start camera orbit.
+  orbitDrag = { lastClientX: ev.clientX, lastClientY: ev.clientY };
+  stage.classList.add("grabbing");
+  ev.preventDefault();
+});
+
+function endDrag() {
+  if (state.dragKey) {
+    state.dragKey = null;
+    stage.classList.remove("grabbing");
+  }
+  if (orbitDrag) {
+    orbitDrag = null;
+    stage.classList.remove("grabbing");
+  }
+}
+window.addEventListener("mouseup", endDrag);
+stageWrap.addEventListener("mouseleave", () => {
+  // Don't end drag on leave — user may swing past the edge and come back.
+  state.hoverKey = null;
+  if (!state.dragKey && !orbitDrag) stage.classList.remove("grab", "grabbing");
+});
+
+// Reset view button — snap camera back to head-on.
+const btnResetView = document.getElementById("btn-reset-view");
+if (btnResetView) {
+  btnResetView.addEventListener("click", () => {
+    camera.yaw = 0;
+    camera.pitch = 0;
+    applyCameraTransform();
+  });
+}
+
+// Initial transform application so canvas starts head-on (identity).
+applyCameraTransform();
+
+// ----------------------------------------------------------------------------
+// Boot
+// ----------------------------------------------------------------------------
+window.addEventListener("load", () => {
+  resizeStage();
+  const w = stage.clientWidth || 600;
+  const h = stage.clientHeight || 400;
+  if (!isValidPositions(anchorPositions(w, h))) {
+    console.warn("recurve-bow: canonical positions violate topology constraints");
+  }
+  render();
+  requestAnimationFrame(frame);
+});
+</script>
+</body>
+</html>

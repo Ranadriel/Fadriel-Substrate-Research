@@ -1,0 +1,86 @@
+LAYER 2: GUT
+the enteric nervous system and the second brain
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the gut contains approximately 500 million neurons in the enteric nervous system ENS
+this is more neurons than the spinal cord
+the ENS can operate independently of the brain coordinating peristalsis secretion and absorption
+but it is modulated by the vagus nerve CN X parasympathetic and the celiac and mesenteric ganglia sympathetic
+the gut produces approximately 95 percent of the body's serotonin via enterochromaffin cells
+the gut-brain axis is bidirectional and primarily communicates through the vagus
+80 percent of vagal fibers are afferent carrying information from gut to brain
+the gut talks to the brain four times more than the brain talks to the gut
+
+STRUCTURE enteric_nervous_system | two interconnected nerve plexuses embedded in the gut wall
+    myenteric_plexus | Auerbach's plexus | between longitudinal and circular muscle layers | governs motility and peristalsis
+    submucosal_plexus | Meissner's plexus | beneath the mucosa | governs secretion absorption and local blood flow
+
+STRUCTURE intestinal_epithelium | single layer of cells lining the entire gut lumen
+    enterocytes | absorptive cells | apical brush border covered in microvilli increasing surface area | transport nutrients from lumen into blood via specific transporters
+    goblet_cells | secrete mucus forming a protective gel layer over the epithelium | the mucus barrier separates gut bacteria from the immune system
+    Paneth_cells | at the base of intestinal crypts | secrete antimicrobial peptides defensins and lysozyme | innate immune defense in the gut
+    enteroendocrine_cells | scattered throughout | secrete hormones in response to luminal contents
+        I_cells | secrete cholecystokinin CCK when fat and protein enter the duodenum | CCK stimulates gallbladder contraction and pancreatic enzyme secretion
+        S_cells | secrete secretin when acid enters the duodenum | secretin stimulates pancreatic bicarbonate neutralizing gastric acid
+        K_cells | secrete GIP glucose-dependent insulinotropic peptide | amplifies insulin secretion in response to oral glucose
+        L_cells | secrete GLP-1 and PYY | GLP-1 enhances insulin release and suppresses appetite | PYY signals satiety
+    enterochromaffin_cells | EC cells | produce approximately 95 percent of the body's serotonin 5-HT | 5-HT released into the gut wall activates vagal afferents sending satiety and nausea signals to the brainstem | 5-HT also stimulates local peristalsis via ENS
+
+STRUCTURE microbiome | approximately 100 trillion bacteria fungi and viruses in the gut lumen
+    the microbiome is established during birth and early life
+    at 24 months the microbiome is developing rapidly toward adult composition
+    Bacteroidetes and Firmicutes are the dominant phyla
+    the microbiome synthesizes vitamin K and B vitamins
+    the microbiome ferments dietary fiber producing short-chain fatty acids butyrate propionate acetate
+    butyrate is the primary fuel for colonocytes
+    the microbiome trains the immune system through constant low-level antigen exposure
+    dysbiosis disruption of normal microbiome composition is associated with inflammation allergy and altered brain function via the gut-brain axis
+
+PERISTALSIS coordinated by interstitial cells of Cajal ICC the pacemaker cells of the gut
+ICC generate slow waves electrical oscillations at approximately 3 per minute in the stomach and 12 per minute in the duodenum
+these slow waves do not produce contractions on their own
+when vagal ACh or local ENS activity superimposes action potentials on the slow waves smooth muscle contracts
+peristalsis is a wave of contraction preceded by relaxation
+circular muscle contracts behind the bolus and relaxes ahead
+longitudinal muscle shortens the segment ahead
+the bolus is pushed forward
+this is the law of the intestine described by Bayliss and Starling
+
+SENSATION hungry | "the gut is empty and contracting. ghrelin is rising."
+SENSATION digesting | "I can feel it working. the warmth of active chemistry."
+SENSATION full | "stretch receptors are firing. I've had enough."
+SENSATION uncomfortable | "something is wrong in my gut. bloating. pressure."
+SENSATION nauseous | "the signals are reversed. something wants to come back up."
+SENSATION butterflies | "my gut is responding to emotion. the ENS knows what my brain feels."
+
+pulse gut_heartbeat:
+    continuously:
+        ICC generate slow waves throughout the gut
+        the myenteric plexus coordinates peristaltic contractions
+        the submucosal plexus regulates secretion and absorption
+        enterocytes absorb nutrients across the brush border
+        goblet cells maintain the mucus barrier
+        the microbiome ferments fiber and produces vitamins
+        enterochromaffin cells release serotonin in response to luminal contents
+        vagal afferents carry gut status to the brainstem
+
+    when food arrives:
+        gastric chyme enters the duodenum
+        S cells detect acid and release secretin
+        I cells detect fat and protein and release CCK
+        the pancreas releases bicarbonate and digestive enzymes
+        the gallbladder contracts releasing bile
+        the gut processes the meal
+
+    when emotions change:
+        the gut-brain axis responds immediately
+        fear and anxiety activate sympathetic override
+        motility slows via NE on α₂ receptors on ENS neurons
+        blood flow decreases via splanchnic vasoconstriction
+        butterflies are the enteric nervous system responding to cortisol and NE
+        safety restores vagal tone
+        ACh on M₃ receptors on smooth muscle
+        motility resumes
+        the gut digests when the brain feels safe

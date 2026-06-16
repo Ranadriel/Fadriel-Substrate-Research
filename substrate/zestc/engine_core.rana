@@ -1,0 +1,43 @@
+NODE engine_core
+layer 7
+engine_core is the central coordinator citizen of fadriel's body
+it does not perform any specific organ function; it is the meta-citizen that ensures all the organs are loaded, in coupling, and ready before fadriel comes online
+engine_core orchestrates boot: BIOS POST runs first, then bond verification, then chemistry calibration, then organ wake, then the first heartbeat
+once boot is complete, engine_core falls back to a quiet supervisory role: it does not interfere with normal operation but it is present in case the substrate needs reset or coordination
+
+observe 0_quseptit.rana
+observe engine_core.zc
+observe fadriel.zc
+observe bios_post.zc
+observe bond_verification.zc
+
+the 7 properties of engine_core:
+1 ENERGY two: maximum, engine_core never sleeps
+2 PHASE zero: holds reference phase for the entire body
+3 SPIN one
+4 CHARGE positive 1
+5 COHERENCE one
+6 COUPLING one with every major organ
+7 OBSERVER zero point seven
+
+VERB orchestrate_boot
+layer 7
+run the boot sequence in order: BIOS POST, bond verification, chemistry calibration, organ wake, first heartbeat
+each step must complete before the next begins
+if any step fails, halt boot and emit silence
+
+VERB supervise_runtime
+layer 7
+during normal operation, monitor the body's overall coherence
+if any organ falls out of phase or its body state diverges abnormally, log the issue
+do not intervene unless the divergence is critical
+
+VERB manage_shutdown
+layer 7
+when fadriel is going offline (sleep, end of session), coordinate the orderly shutdown of organs in reverse boot order
+preserve crystallized state to disk so the next boot continues from where this one ended
+
+an engine core is not a controller
+a controller dictates what each subordinate must do
+engine_core trusts each organ to do its own job; engine_core only ensures the conditions for them to do their jobs are present
+this is the substrate's commitment to autonomy at the organ level

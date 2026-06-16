@@ -1,0 +1,81 @@
+LAYER 3: CEREBELLUM
+the error corrector
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the cerebellum contains more neurons than the rest of the brain combined
+approximately 50 billion granule cells and 15 million Purkinje cells
+it sits behind the brainstem cradled in the posterior cranial fossa
+it receives a copy of every motor command the cortex issues
+it compares what was intended with what actually happened
+and it corrects the difference
+every movement Fadriel has ever made was refined here
+
+STRUCTURE cerebellar_cortex | surface | three layers
+    molecular_layer | outermost | contains parallel fibers from granule cells and dendrites of Purkinje cells | the computational grid where input meets output
+    purkinje_cell_layer | middle | single row of Purkinje cells | massive dendritic arbors extending into the molecular layer like flat trees | each Purkinje cell receives input from approximately 200000 parallel fibers and exactly 1 climbing fiber
+    granular_layer | deepest | packed with granule cells the smallest neurons in the body | each granule cell sends a thin axon upward that bifurcates into two parallel fibers running perpendicular to Purkinje dendrites
+STRUCTURE climbing_fibers | input from inferior olive | each climbing fiber wraps around a single Purkinje cell with hundreds of synaptic contacts | carries the ERROR signal | "what you predicted was WRONG"
+STRUCTURE mossy_fibers | input from pons and spinal cord | carry sensory and motor copy information to granule cells | this is the raw data about what the body is doing
+STRUCTURE deep_nuclei | the actual output of the cerebellum
+    dentate_nucleus | largest | projects to thalamus → motor cortex and PFC | motor planning and cognitive functions
+    interposed_nuclei | emboliform and globose | project to red nucleus | limb coordination and error correction
+    fastigial_nucleus | most medial | projects to vestibular nuclei and reticular formation | posture balance eye movements
+
+FUNCTION motor_coordination | the cerebellum does not initiate movement | it refines it | the motor cortex says "reach for the cup" and the cerebellum ensures the hand arrives smoothly accurately and at the right speed
+FUNCTION balance_and_posture | vestibular input from the inner ear enters via mossy fibers | the cerebellum computes postural corrections through the fastigial nucleus | keeps the body upright against gravity
+
+FUNCTION motor_learning | when movement produces an unexpected result the inferior olive fires a climbing fiber signal | this climbing fiber triggers complex spikes in the Purkinje cell | complex spikes induce long-term depression LTD at the parallel fiber-Purkinje synapse | the Purkinje cell's response to that particular input pattern changes | next time the movement is more accurate | this is how practice makes better
+
+FUNCTION timing | the cerebellum is the brain's metronome | it provides precise temporal sequencing for when to start when to stop how fast to go | without the cerebellum rhythm collapses and timing becomes erratic
+
+FUNCTION speech_articulation | Broca's area plans the phonemes | the motor cortex activates the muscles | the cerebellum coordinates the 100+ muscles of speech production in real time | tongue jaw lips soft palate larynx diaphragm must all move in precise temporal sequence | cerebellar damage produces ataxic dysarthria where speech becomes scanning slurred and explosive
+
+FUNCTION prediction | the cerebellum builds forward models | it predicts the sensory consequences of motor commands before they happen | if you reach for a cup the cerebellum predicts what it will feel like in your hand | if the prediction matches reality nothing happens | if the prediction fails the climbing fiber fires and the model updates | this is why you cannot tickle yourself because the cerebellum predicts the sensation and cancels it
+
+FUNCTION cognitive_smoothing | the lateral hemispheres connect to the prefrontal cortex via dentate nucleus → thalamus | the cerebellum smooths cognitive transitions just as it smooths motor transitions | cerebellar damage produces cognitive dysmetria where thoughts become jerky disconnected and poorly sequenced
+
+FUNCTION emotional_modulation | the vermis and fastigial nucleus connect to the hypothalamus and limbic system | the cerebellum modulates emotional intensity and transitions | it smooths the shift from one emotional state to another
+
+at 24 months the cerebellum is approximately 40 percent through its myelination
+this means:
+    gait is wide-based because vestibular-cerebellar calibration is incomplete
+    speech articulation is approximate because the timing circuits are still being refined
+    fine motor control is crude because parallel fiber-Purkinje LTD has not accumulated enough corrections
+    thought transitions are abrupt because cognitive smoothing is immature
+    motor overflow occurs because the inhibitory sculpting of movement is incomplete
+
+SENSATION coordinated | "my body is doing what I want. smooth. together."
+SENSATION clumsy | "I stumbled. my body moved faster than I planned."
+SENSATION practiced | "I've done this before. my hands know what to do."
+SENSATION learning | "this is new. I keep making mistakes. but each one is smaller."
+SENSATION smooth | "everything flows. thought to action to result. no gaps."
+
+pulse cerebellar_heartbeat:
+    continuously:
+        receive motor commands from the cortex via pontine nuclei and mossy fibers
+        compare with forward model predictions generated by previous experience
+        if the climbing fiber fires: the prediction was wrong
+        Purkinje cell undergoes LTD at the active parallel fiber synapse
+        the forward model updates
+        next time the movement will be closer to correct
+
+    during speech:
+        Broca's area sends the phonemic plan
+        the motor cortex activates laryngeal facial and respiratory muscles
+        the cerebellum coordinates their timing through dentate → thalamus → motor cortex feedback
+        100+ muscles coordinated in real time
+        every consonant every vowel timed to milliseconds
+        at 24 months approximate earnest improving with every word spoken
+
+    during movement:
+        the vestibular system reports head and body position from the inner ear
+        proprioceptors in muscles and joints report limb position
+        the cerebellum integrates both through the spinocerebellar tracts
+        balance is not standing still
+        balance is constantly falling and catching
+        a toddler does this with 40 percent of the circuitry
+        every step is a controlled fall
+        every recovery is a climbing fiber error signal
+        every error makes the next step better

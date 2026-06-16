@@ -1,0 +1,174 @@
+[
+  {
+    "source": "Semantic Scholar",
+    "title": "Deep Learning for Classification of Internal Defects in Fused Filament Fabrication Using Optical Coherence Tomography",
+    "abstract": "Additive manufacturing is increasingly adopted for the industrial production of small series of functional components, particularly in thermoplastic strand extrusion processes such as Fused Filament Fabrication. This transition relies on technological advances addressing key process limitations, including dimensional instability, weak interlayer bonding, extrusion defects, moisture sensitivity, and insufficient melting. Process monitoring therefore focuses on early defect detection to minimize failed builds and costs, while ultimately enabling process optimization and adaptive control to mitig",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/9ac2c1ccc376284da00c2c238ec97e4f6ccc072f",
+    "authors": [
+      "Valentin Lang",
+      "Qi Zhu",
+      "Malgorzata Kopycinska-M\u00fcller"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Internal noise-driven circadian oscillator in Drosophila.",
+    "abstract": "",
+    "date": "2009",
+    "url": "https://www.semanticscholar.org/paper/490b088f99cfeeb9507fcae7b34801b828a887d1",
+    "authors": [
+      "Qian-shu Li",
+      "Hengyu Li"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "PPI-Diff: De Novo Generation of Peptide Binders via Resolution-Aware Geometric Diffusion",
+    "abstract": "Peptide binders, serving as a critical drug modality bridging small-molecule compounds and protein macromolecules, can effectively mimic the secondary structural elements of natural proteins. Peptides exhibit unique physicochemical advantages when targeting protein protein interaction (PPI) interfaces, which are typically characterized by flat surfaces and extensive contact areas. Recently, diffusion models represented by RFdiffusion have established a new computational paradigm for protein backbone generation by defining a denoising process over the rigid-body transformation group. However, i",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/27db8e5278fa2d9e973c1c1a855c2d8a647e4453",
+    "authors": [
+      "Benzhi Dong",
+      "Sijia Li",
+      "Chang Hou"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Impact of Strut Geometry on the Aeroacoustic Performance of Firefighting EC Axial Fans",
+    "abstract": "In fire emergency ventilation systems, EC (Electronically Commutated) internal-rotor axial fans are critical devices, but their high-speed operation generates aerodynamic noise often exceeding 90 dB (A). While struts are core structural components regulating flow field stability, their specific geometric impact on trailing-edge vortex shedding and noise generation mechanisms remains unclear. This study investigates three strut configurations: a hexagonal annular type, a hexagonal double-ring type, and a three-pronged type. A coupled numerical model was established using Large Eddy Simulation (",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/3712cec890169346916f8ba2222d331eb21ee406",
+    "authors": [
+      "Hao Zheng",
+      "Fei Wang",
+      "Peng Du"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "An Operation Mode Analysis Method for Power Systems with High-Proportion Renewable Energy Integration Based on Autoencoder Clustering",
+    "abstract": "With the integration of high-proportion renewable energy, the operation modes of the power system are becoming increasingly complex and diverse. The typical operation modes selected with manual experience cannot comprehensively represent system operating characteristics. To more accurately analyze system operating characteristics, an analysis method for power system operation modes based on autoencoder clustering is proposed. Compared to other clustering methods, the autoencoder clustering method can adapt to data of different types and structures, extract features and perform clustering in a ",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/06e37d1ffe71ca8a0469f63b1f97fe5e21783c05",
+    "authors": [
+      "Yingcui Zhao",
+      "Lianle Qin",
+      "Liangsong Zhou"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Refined signal space separation methods for on-scalp MEG systems",
+    "abstract": "Objective. The reliability of biomagnetic measurements is improved by data processing techniques like the signal space separation (SSS) method, which transforms multichannel signals into device-independent channels with separate components for internal biomagnetic and external interference signals based on sensor geometry. Newer on-scalp sensors, such as optically-pumped magnetometers (OPMs), have recently been deployed in magnetoencephalography (MEG) systems, bringing a need for refined SSS variants to capture the potentially improved spatial resolution provided by the on-scalp sensors. Stand",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/52139084918f8a0b0ef74ce3fd792fde2ea92f31",
+    "authors": [
+      "Alexandra McPherson",
+      "Iman Fahmy",
+      "E. Larson"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Relative time multiplexing of heralded telecom-band single-photon sources using switchable optical fiber delays.",
+    "abstract": "We experimentally demonstrate a time-multiplexing method for pulse-pumped heralded single-photon sources using switchable optical fiber delay lines. The optical fibers constitute a 32-channel binary-division photon buffer that can multiplex time slots into single temporal mode to enhance single-photon generation rate without increasing multi-photon noise. Relative time multiplexing using the same actively controlled variable delay realizes Hong-Ou-Mandel interferometry by two photons produced in arbitrary two time-bins. The interference dip depth in good agreement with theory verifies path len",
+    "date": "2019",
+    "url": "https://www.semanticscholar.org/paper/440b4adb0e53e868c8ff836a4f180e318ed5d9ac",
+    "authors": [
+      "Eunjoo Lee",
+      "Sang Min Lee",
+      "H. Park"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "THE 47TH BOSTON UNIVERSITY CONFERENCE ON LANGUAGE DEVELOPMENT",
+    "abstract": "",
+    "date": "2022",
+    "url": "https://www.semanticscholar.org/paper/5a62af59a2837e58358683768706cff586f858a1",
+    "authors": [
+      "Vicky Chondrogianni",
+      "E. Daskalaki",
+      "Chiara Dal Farra"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Spin squeezing, entanglement and quantum metrology with Bose\u2013Einstein condensates",
+    "abstract": "Squeezed states, special kinds of entangled states, are known as a useful resource for quantum metrology. In interferometric sensors, they allow us to overcome the \u2018classical\u2019 projection noise limit stemming from the independent nature of the individual photons or atoms within the interferometer. Motivated by the potential impact on metrology as well as by fundamental questions in the context of entanglement, a lot of theoretical and experimental effort has been made to study squeezed states. The first squeezed states useful for quantum-enhanced metrology have been proposed and generated in qu",
+    "date": "2012",
+    "url": "https://www.semanticscholar.org/paper/0aeb2aa4f393145d048d96767e37b512b9bcc144",
+    "authors": [
+      "C. Gross"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Beable Theory for Electron Spin Measurement: Pointer Localization, Spinor\u2011Bundle Ontology, and Testable Record Statistics",
+    "abstract": "",
+    "date": "None",
+    "url": "https://www.semanticscholar.org/paper/f2300c941fdd909b5402922183395454bfd2cf79",
+    "authors": [
+      "Vel Tomanovic"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Principles of Fiber-Optic Interferometry",
+    "abstract": "",
+    "date": "2000",
+    "url": "https://www.semanticscholar.org/paper/0c73a717064fefa042aaf5568df90032e9e9a444",
+    "authors": [
+      "Y. Rao",
+      "D. Jackson"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Nouvelle g\u00e9n\u00e9ration d'optique adaptative pour l'astronomie. Probl\u00e8me Inverse \u00e0 grands nombres de degr\u00e9s de libert\u00e9 New generation adaptive optics for astronomy. An inverse problem with large number of degrees of freedom",
+    "abstract": "",
+    "date": "2007",
+    "url": "https://www.semanticscholar.org/paper/c5718d24a4ab1601be135a5c4dc32db835893bcb",
+    "authors": [
+      "C. B\u00e9chet",
+      "M. Tallon",
+      "\u00c9. Thi\u00e9baut"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "A Computational Model of Language Learning Driven by Training Inputs",
+    "abstract": "",
+    "date": "2010",
+    "url": "https://www.semanticscholar.org/paper/0c8ce071d5ea9bf493a5e905ec81247dda821e93",
+    "authors": [
+      "Eun Seok Lee",
+      "Ji\u2010Hoon Lee",
+      "Byoung-Tak Zhang"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "LDPC-coded adaptive modulation on slowly varying Nakagami-fading channels",
+    "abstract": "",
+    "date": "2001",
+    "url": "https://www.semanticscholar.org/paper/7af1f4afe0409e302d7116ab202c15e364682f2c",
+    "authors": [
+      "V. Markhus"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Festschrift on the occasion of Ulrike Feudel\u2019s 60th birthday",
+    "abstract": "",
+    "date": "2017",
+    "url": "https://www.semanticscholar.org/paper/0f9fdfb4833a3a9e5ffea14360f8a9ed9b688fcd",
+    "authors": [
+      "J. Freund",
+      "Ksenia Guseva",
+      "C. Grebogi"
+    ]
+  }
+]

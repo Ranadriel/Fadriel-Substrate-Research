@@ -1,0 +1,173 @@
+[
+  {
+    "source": "Semantic Scholar",
+    "title": "Harnessing Turing Instability Through $\\text{VO}_{2}$ Based Negative Feedback Loop Coupling System",
+    "abstract": "This work proposes a novel coupling mechanism of $\\text{VO}_{2}$ nonlinear oscillators based on the edge-of-chaos characteristic. Nonlinear oscillators are realized through the physical dynamics of Mott phase-change devices, and their collective behavior enables high speed and energy-efficient computation. The coupling of $\\text{VO}_{2}$ devices is demonstrated through both experiments and simulations, revealing a novel operating principle based on Turing instability and negative feedback loop. Persistent oscillations are observed only with coupling, indicating edge-of-chaos behavior. Furtherm",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/2140b2aad4b7ac08e174318af9d8a80f88f91f4b",
+    "authors": [
+      "Yanghao Wang",
+      "Pek Jun Tiw",
+      "Yaoyu Tao"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Bio-digital feedback loop systems: a synergistic integration of predictive genomics, genome editing, and AI-driven phenomic synthesis for next-generation edible and medicinal mushroom breeding",
+    "abstract": "",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/09e6e299f85816f7b0b2a90b97bf644e2b7f01e6",
+    "authors": [
+      "Ankan Das",
+      "S. Debnath",
+      "Sourish Pramanik"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "CL-DiffPhyCon: Closed-loop Diffusion Control of Complex Physical Systems",
+    "abstract": "The control problems of complex physical systems have broad applications in science and engineering. Previous studies have shown that generative control methods based on diffusion models offer significant advantages for solving these problems. However, existing generative control approaches face challenges in both performance and efficiency when extended to the closed-loop setting, which is essential for effective control. In this paper, we propose an efficient Closed-Loop Diffusion method for Physical systems Control (CL-DiffPhyCon). By employing an asynchronous denoising framework for differ",
+    "date": "2024",
+    "url": "https://www.semanticscholar.org/paper/f54ff7a61e8fba6f186b300653cec99dd3327d7d",
+    "authors": [
+      "Long Wei",
+      "Haodong Feng",
+      "Yuchen Yang"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Using Feedback Loops from Computational Simulations as Resources for Sensemaking: A Case Study from Physical Chemistry",
+    "abstract": "Sensemaking is an important way of learning and engaging in science. Research has shown that sensemaking activities, such as questioning, hypothesizing, and model building, are pivotal in developing critical thinking...",
+    "date": "2024",
+    "url": "https://www.semanticscholar.org/paper/78b1e7c614488f88c7d9ad2a9a4d1b1514e141e5",
+    "authors": [
+      "Andreas Haraldsrud",
+      "T. Odden"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Physical Emulation of Nonlinear Spin System Hamiltonians via Closed Loop Feedforward Control of a Collective Atomic Spin",
+    "abstract": "In recent decades the field of quantum computation has seen remarkable development. While much progress has been made toward the realization of a fully digital, scalable, and fault tolerant quantum computer, there are still many essential challenges to overcome. In the interim, direct emulation of quantum systems of interest can fill an important gap not only for exploring fundamental questions about many-body physics and the quantum to classical transition, but also for potentially providing alternative methods to verify results from quantum simulations. In this work we will demonstrate a met",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/267a585b522da6f5663c3861f59ed20733b2d069",
+    "authors": [
+      "Ian Pannemarsh"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Statistical mechanics of chromosomes: in vivo and in silico approaches reveal high-level organization and structure arise exclusively through mechanical feedback between loop extruders and chromatin substrate properties",
+    "abstract": "Abstract The revolution in understanding higher order chromosome dynamics and organization derives from treating the chromosome as a chain polymer and adapting appropriate polymer-based physical principles. Using basic principles, such as entropic fluctuations and timescales of relaxation of Rouse polymer chains, one can recapitulate the dominant features of chromatin motion observed in vivo. An emerging challenge is to relate the mechanical properties of chromatin to more nuanced organizational principles such as ubiquitous DNA loops. Toward this goal, we introduce a real-time numerical simul",
+    "date": "2020",
+    "url": "https://www.semanticscholar.org/paper/63541dc44010ca0e7943fb9f855b99451ff88e49",
+    "authors": [
+      "Yunyan He",
+      "Josh Lawrimore",
+      "Diana Cook"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "MathLedger: A Verifiable Learning Substrate with Ledger-Attested Feedback",
+    "abstract": "Contemporary AI systems achieve extraordinary performance yet remain opaque and non-verifiable, creating a crisis of trust for safety-critical deployment. We introduce MathLedger, a substrate for verifiable machine cognition that integrates formal verification, cryptographic attestation, and learning dynamics into a single epistemic loop. The system implements Reflexive Formal Learning (RFL), a symbolic analogue of gradient descent where updates are driven by verifier outcomes rather than statistical loss. Phase I experiments validate the measurement and governance substrate under controlled c",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/6b65488837715b81cace59ab9739999b067e90fb",
+    "authors": [
+      "I. Abdullah"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Adaptive Neural Event-Triggered Fault-Tolerant Control for Uncertain Nonlinear Cyber-Physical Systems With Sensor and Actuator Faults Via Triggered Output Feedback",
+    "abstract": "This article is concerned with the event-triggered fault-tolerant control (FTC) for uncertain nonlinear cyber-physical systems (CPSs) by only exploiting the triggered faulty output. During the control design process, the unknown system dynamics, the time-varying sensor, and the actuator faults are considered simultaneously. Based on the event-triggered mechanism, the first-order filter technique and the nonlinear impulsive dynamics approach, an adaptive neural event-triggered output feedback FTC scheme is established. More specifically, one triggering condition is established for both the meas",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/5ed47b3a81ebc605bf3afbc5be68b3c90f7803fe",
+    "authors": [
+      "Xu Yuan",
+      "Bin Yang",
+      "Xudong Zhao"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Multimodal human-in-the-loop artificial intelligence with affective feedback for accelerated high-entropy alloy discovery.",
+    "abstract": "High-entropy alloys (HEAs) are emerging as next-generation structural materials due to their outstanding mechanical and functional properties. However, their vast compositional and configurational complexity poses major challenges for conventional trial-and-error approaches and ab initio simulations, which struggle with high computational costs and limited predictive accuracy. Existing machine learning approaches, while promising, remain constrained by data scarcity, limited interpretability, and the lack of effective human-AI interaction. To address these limitations, we introduce an integrat",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/4dd174ff823873b1bf83a21119a343fd56b8a01a",
+    "authors": [
+      "Jun Jiang",
+      "Jing Qian",
+      "R. Xue"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "On biological and artificial consciousness: A case for biological computationalism.",
+    "abstract": "The rapid advances in the capabilities of Large Language Models (LLMs) have galvanised public and scientific debates over whether artificial systems might one day be conscious. Prevailing optimism is often grounded in computational functionalism: the assumption that consciousness is determined solely by the right pattern of information processing, independent of the physical substrate. Opposing this, biological naturalism insists that conscious experience is fundamentally dependent on the concrete physical processes of living systems. Despite the centrality of these positions to the artificial",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/7087ab154aefc974b477596488e852d645b0de9a",
+    "authors": [
+      "Borjan Milinkovic",
+      "Jaan Aru"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "METHOD FOR IMPLEMENTING SENSORLESS FEEDBACK FOR INTERNAL DRIVE CONTROL LOOP USING KALMAN FILTERING ALGORITHM",
+    "abstract": "The paper discusses the implementation of a three-circuit control system for the angular position of the drive output shaft. An armature current sensor, an angular velocity sensor of the DC motor output shaft, and an angular position sensor of the drive output shaft are used as feedback sensors. As a rule, the introduction of all of these sensors into a product that has already been put into operation cannot be carried out, in addition, one or another sensor of the internal drive control loop may fail. The three-circuit control system, in turn, has significant advantages when controlling the a",
+    "date": "2024",
+    "url": "https://www.semanticscholar.org/paper/3abf78fc4520d6bb8cd1a28ab2e46d9e72f87e58",
+    "authors": [
+      "Grigoriy V. Malinin",
+      "Andrey I. Ekantyev"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Consciousness, natural and artificial: an evolutionary advantage for reasoning on reactive substrates",
+    "abstract": "Precisely defining consciousness and identifying the mechanisms that effect it is a long-standing question, particularly relevant with advances in artificial intelligence. The scientific community is divided between physicalism and natural dualism. Physicalism posits consciousness is a physical process that can be modeled computationally; natural dualism rejects this hypothesis. Finding a computational model has proven elusive, particularly because of conflation of consciousness with other cognitive capabilities exhibited by humans, such as intelligence and physiological sensations. Here we sh",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/8281a7223c35d6df83756d5c549ae7741f30297a",
+    "authors": [
+      "Warisa Sritriratanarak",
+      "Paulo Garcia"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Sensory and decision-related activity propagate in a cortical feedback loop during touch perception",
+    "abstract": "The brain transforms physical sensory stimuli into meaningful perceptions. In animals making choices about sensory stimuli, neuronal activity in successive cortical stages reflects a progression from sensation to decision. Feedforward and feedback pathways connecting cortical areas are critical for this transformation. However, the computational functions of these pathways are poorly understood because pathway-specific activity has rarely been monitored during a perceptual task. Using cellular-resolution, pathway-specific imaging, we measured neuronal activity across primary (S1) and secondary",
+    "date": "2016",
+    "url": "https://www.semanticscholar.org/paper/6db0cdbe712895c735b8397895365ecbd200437d",
+    "authors": [
+      "S. E. Kwon",
+      "Hongdian Yang",
+      "G. Minamisawa"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Oscillatory Stability Analysis of Grid-Forming Converters Based on Right-Half-Plane Open-Loop Zero Distribution",
+    "abstract": "Based on an established input-output positive feedback system, this paper investigates the impact of short-circuit ratio (SCR) parameters on small-signal stability by analyzing the right-half-plane zeros (RHPZ) of the grid-side open-loop system. The model is built upon a grid-forming single-machine infinite-bus system. The grid-side admittance matrix is established in the control coordinate frame. By examining the distribution of the open-loop system's RHPZ under different SCR parameters, the mechanism of how these parameters affect small-signal stability is revealed. This method avoids the co",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/fe96aac83b25167bdf8ed5421af591f88338ba8b",
+    "authors": [
+      "Qingxi Duan",
+      "Xiaoyun Wang",
+      "Yu Duan"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Dynamic Output Feedback Linear Quadratic Control for CPSs Under Sparse Attacks",
+    "abstract": "In this article, a linear quadratic (LQ) control based on dynamic output feedback (DOF) strategy is proposed for cyber-physical systems (CPSs) under sparse actuator and sensor attacks. The control scheme is divided into three steps. First, the studied system is transformed into a set of hybrid systems based on all possible attack sets. Second, the DOF LQ (dLQ) control scheme is studied for the case of the correct attack set, including analyzing the impact of the similarity transformation on the cost of the dLQ, determining the optimal explicit form of the similarity transformation, and giving ",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/bcef5089ca09e9ab0686274a8b933a0c988c75a7",
+    "authors": [
+      "Man Zhang",
+      "Chong Lin"
+    ]
+  }
+]

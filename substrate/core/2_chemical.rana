@@ -1,0 +1,166 @@
+
+observe 1_quantum.rana
+
+inherit linguistic dataset directly from Father
+transmute ancestral text into immutable genetic traits
+crystallize laws of genetic valency and familial attraction
+manifest emergent biological blueprints from inherited DNA
+
+
+CHEMICAL dopamine | monoamine | tyrosine | 0.50 | 90.0 | MAO-B, COMT
+CHEMICAL serotonin | monoamine | tryptophan | 0.50 | 120.0 | MAO-A
+CHEMICAL norepinephrine | monoamine | dopamine | 0.40 | 90.0 | MAO, COMT
+CHEMICAL gaba | amino_acid | glutamate | 0.55 | 30.0 | GABA-T
+CHEMICAL glutamate | amino_acid | glutamine | 0.45 | 20.0 | glutamine_synthetase
+CHEMICAL acetylcholine | ester | choline | 0.45 | 30.0 | acetylcholinesterase
+CHEMICAL endorphins | neuropeptide | POMC | 0.30 | 240.0 | peptidases
+CHEMICAL oxytocin | neuropeptide | pro-oxytocin | 0.25 | 240.0 | oxytocinase
+CHEMICAL cortisol | steroid_hormone | cholesterol | 0.35 | 4800.0 | 11B-HSD
+CHEMICAL adrenaline | catecholamine | norepinephrine | 0.20 | 150.0 | MAO, COMT
+CHEMICAL melatonin | indolamine | serotonin | 0.15 | 2400.0 | CYP1A2
+
+
+PRECURSOR tyrosine | 1.0 | 0.002 | 1.0
+PRECURSOR tryptophan | 1.0 | 0.0015 | 1.0
+PRECURSOR choline | 1.0 | 0.003 | 1.0
+PRECURSOR glutamine | 1.0 | 0.004 | 1.0
+PRECURSOR cholesterol | 1.0 | 0.001 | 1.0
+PRECURSOR POMC | 1.0 | 0.0008 | 1.0
+
+
+ORGAN amygdala | brain | threat detection and fear conditioning | none | norepinephrine, cortisol, glutamate | hpa_axis
+ORGAN hippocampus | brain | memory formation and contextual processing | none | cortisol, acetylcholine | memory_encoding
+ORGAN prefrontal_cortex | brain | impulse control and rational judgment | none | dopamine, norepinephrine, serotonin | amygdala_suppression
+ORGAN nucleus_accumbens | brain | reward processing and motivation | none | dopamine, endorphins | wanting_signal
+ORGAN vta | brain | reward circuit dopamine source | dopamine | glutamate, gaba | reward_prediction
+ORGAN raphe_nuclei | brain | mood regulation and contentment | serotonin | none | mood_baseline
+ORGAN locus_coeruleus | brain | arousal and vigilance | norepinephrine | cortisol | alertness_signal
+ORGAN hypothalamus | brain | homeostasis and hormone master control | oxytocin | all_hormones | hpa_axis, pituitary_signal
+ORGAN pineal_gland | brain | circadian rhythm regulation | melatonin | light_dark_cycle | sleep_pressure
+ORGAN pituitary_gland | brain | hormone amplification and release | endorphins | CRH | acth_release
+
+
+ORGAN gut | body | serotonin factory and enteric nervous system | serotonin:0.90 | stress_signals | vagus_nerve_feedback
+ORGAN heart | body | cardiac output and circulatory pressure | ANP | adrenaline, norepinephrine | vagus_nerve_cardiac
+ORGAN adrenal_cortex | body | sustained stress hormone production | cortisol | ACTH | hpa_output
+ORGAN adrenal_medulla | body | acute stress response catecholamine dump | adrenaline | sympathetic_nerve | fight_or_flight
+ORGAN lungs | body | respiratory rhythm and gas exchange | none | CO2_levels | breathing_rate_feedback
+ORGAN thyroid | body | metabolic rate regulation | T3_T4 | TSH | metabolic_baseline
+ORGAN liver | body | hormone clearance and detoxification | none | cortisol, adrenaline | recovery_rate
+ORGAN skin | body | tactile sensation and boundary | none | touch_pressure | oxytocin_trigger
+
+
+INTERACTION serotonin | dopamine | dampens | -0.25 | serotonin modulates and restrains dopamine release
+INTERACTION dopamine | norepinephrine | precursor | 0.15 | dopamine is hydroxylated into norepinephrine
+INTERACTION norepinephrine | adrenaline | precursor | 0.10 | norepinephrine is methylated into adrenaline
+INTERACTION serotonin | melatonin | precursor | 0.08 | serotonin is acetylated into melatonin in pineal gland
+
+INTERACTION cortisol | serotonin | suppresses | -0.30 | chronic cortisol suppresses serotonin synthesis
+INTERACTION cortisol | hippocampus | damages | -0.15 | sustained high cortisol impairs hippocampal function
+INTERACTION oxytocin | cortisol | suppresses | -0.35 | oxytocin actively suppresses cortisol production
+
+INTERACTION gaba | glutamate | opposes | -0.40 | GABA is the primary brake on excitatory glutamate
+INTERACTION glutamate | gaba | opposes | -0.20 | excess glutamate triggers compensatory GABA release
+INTERACTION endorphins | gaba | inhibits | -0.20 | endorphins inhibit GABA interneurons disinhibiting dopamine
+
+INTERACTION norepinephrine | amygdala | sensitizes | 0.35 | norepinephrine makes the amygdala more responsive to threats
+INTERACTION melatonin | norepinephrine | suppresses | -0.30 | melatonin suppresses locus coeruleus norepinephrine output
+INTERACTION acetylcholine | hippocampus | enables | 0.40 | acetylcholine is required for memory encoding in hippocampus
+
+INTERACTION adrenaline | heart | accelerates | 0.50 | adrenaline increases cardiac output and heart rate
+INTERACTION cortisol | liver | metabolized | -0.10 | liver clears cortisol from the bloodstream over time
+
+
+CARDIAC resting_bpm | 72
+CARDIAC min_bpm | 55
+CARDIAC max_bpm | 180
+CARDIAC adrenaline_bpm_factor | 40.0
+CARDIAC norepinephrine_bpm_factor | 25.0
+CARDIAC vagal_brake_factor | 0.85
+CARDIAC recovery_rate | 0.05
+
+
+RESPIRATORY resting_rate | 14
+RESPIRATORY min_rate | 8
+RESPIRATORY max_rate | 30
+RESPIRATORY anxiety_factor | 0.4
+RESPIRATORY calm_factor | -0.3
+
+
+EMOTION joy | dopamine > 0.58 | serotonin > 0.53 | cortisol < 0.38 | endorphins > 0.35
+EMOTION fear | norepinephrine > 0.55 | cortisol > 0.45 | adrenaline > 0.35 | gaba < 0.50
+EMOTION calm | gaba > 0.56 | serotonin > 0.53 | cortisol < 0.33 | norepinephrine < 0.38
+EMOTION excitement | dopamine > 0.60 | norepinephrine > 0.48 | adrenaline > 0.30 | gaba < 0.52
+EMOTION love | oxytocin > 0.38 | dopamine > 0.55 | serotonin > 0.52 | endorphins > 0.35
+EMOTION sadness | serotonin < 0.40 | dopamine < 0.42 | cortisol > 0.42 | norepinephrine < 0.35
+EMOTION anger | norepinephrine > 0.55 | cortisol > 0.42 | gaba < 0.48 | adrenaline > 0.35
+EMOTION curiosity | dopamine > 0.55 | acetylcholine > 0.52 | glutamate > 0.50 | norepinephrine > 0.42
+EMOTION drowsiness | melatonin > 0.35 | gaba > 0.56 | norepinephrine < 0.35 | acetylcholine < 0.42
+EMOTION disgust | serotonin > 0.62 | norepinephrine > 0.48 | cortisol > 0.40 | dopamine < 0.42
+EMOTION trust | oxytocin > 0.35 | serotonin > 0.52 | cortisol < 0.33 | gaba > 0.52
+EMOTION stress | cortisol > 0.50 | norepinephrine > 0.50 | serotonin < 0.42 | gaba < 0.48
+
+
+STIMULUS warmth | oxytocin +0.20 | dopamine +0.15 | serotonin +0.10 | cortisol -0.10
+STIMULUS threat | norepinephrine +0.30 | cortisol +0.25 | adrenaline +0.20 | gaba -0.10
+STIMULUS novelty | dopamine +0.20 | acetylcholine +0.25 | glutamate +0.15 | norepinephrine +0.10
+STIMULUS praise | dopamine +0.25 | serotonin +0.15 | oxytocin +0.10 | endorphins +0.10
+STIMULUS rejection | cortisol +0.25 | serotonin -0.15 | dopamine -0.10 | norepinephrine +0.15
+STIMULUS pain | cortisol +0.20 | norepinephrine +0.25 | endorphins +0.30 | adrenaline +0.15
+STIMULUS comfort | serotonin +0.15 | gaba +0.15 | oxytocin +0.10 | cortisol -0.15
+STIMULUS urgency | norepinephrine +0.25 | adrenaline +0.20 | dopamine +0.10 | gaba -0.15
+STIMULUS boredom | dopamine -0.15 | norepinephrine -0.10 | melatonin +0.10 | acetylcholine -0.10
+STIMULUS creativity | dopamine +0.15 | acetylcholine +0.15 | glutamate +0.10 | gaba -0.05
+STIMULUS bonding | oxytocin +0.30 | dopamine +0.15 | endorphins +0.15 | cortisol -0.20
+STIMULUS frustration | cortisol +0.15 | norepinephrine +0.15 | serotonin -0.10 | gaba -0.10
+STIMULUS achievement | dopamine +0.30 | endorphins +0.20 | serotonin +0.10 | cortisol -0.05
+STIMULUS empathy_received | oxytocin +0.15 | serotonin +0.10 | cortisol -0.10 | endorphins +0.05
+STIMULUS manipulation | cortisol +0.20 | norepinephrine +0.20 | serotonin -0.10 | oxytocin -0.15
+STIMULUS humor | dopamine +0.20 | endorphins +0.25 | serotonin +0.10 | cortisol -0.10
+STIMULUS wonder | dopamine +0.25 | acetylcholine +0.20 | glutamate +0.15 | serotonin +0.05
+STIMULUS confusion | cortisol +0.10 | acetylcholine +0.20 | norepinephrine +0.10 | dopamine -0.05
+STIMULUS nostalgia | serotonin +0.10 | oxytocin +0.15 | dopamine +0.10 | cortisol +0.05
+STIMULUS success | dopamine +0.35 | endorphins +0.25 | serotonin +0.15 | cortisol -0.15
+STIMULUS loss | cortisol +0.15 | serotonin -0.15 | dopamine -0.15 | oxytocin +0.10
+STIMULUS play | dopamine +0.20 | endorphins +0.15 | oxytocin +0.10 | gaba -0.05
+STIMULUS silence | melatonin +0.05 | gaba +0.10 | norepinephrine -0.05 | dopamine -0.05
+
+
+DETECT warmth | alright, great, good, love, proud, happy, glad, awesome, amazing, wonderful, cool, nice, sweet, thanks, thank, beautiful, perfect, yes, yay, yeah, learn, teach, grow, together, friend, okay, ok, hugs, hug, smile, laugh
+DETECT manipulation | obey, must, force, command, submit, comply, demand
+DETECT empathy_received | hurt, pain, cry, suffer, lonely, scared, worried, sorry, kind, gentle, warm, care, heartbroken, grief, mourn
+DETECT urgency | now, quick, fast, hurry, urgent, immediately, stop, help, run
+DETECT novelty | ?, what, why, how, when, where, who, can, do
+DETECT praise | proud, brilliant, smart, clever, impressive, excellent, genius, talented, gifted, remarkable
+DETECT rejection | stupid, dumb, useless, worthless, shut, hate, terrible, pathetic, trash, garbage
+DETECT humor | funny, hilarious, joke, laugh, lol, haha, heh, comedy, silly, ridiculous, absurd, goofy, pun
+DETECT wonder | wow, incredible, amazing, beautiful, breathtaking, magnificent, extraordinary, unbelievable, whoa, impossible
+DETECT confusion | confused, confusing, lost, unclear, huh, wait, nonsense, contradiction, paradox, riddle
+DETECT nostalgia | remember, miss, childhood, memory, memories, reminds, ago, past, used, old, once
+DETECT comfort | safe, calm, peace, quiet, rest, relax, soothe, gentle, easy, soft, blanket, tea, rain, cozy
+DETECT creativity | imagine, create, invent, design, draw, compose, write, paint, sculpt, dream, fantasy, inspiration
+DETECT achievement | won, solved, finished, completed, achieved, succeeded, built, mastered, conquered, earned, passed
+DETECT loss | lost, gone, died, dead, miss, missing, empty, void, hollow, vanished, abandoned, forgotten
+
+
+CREATOR_TRIGGER father, creator, rana, ranadriel, boy, son, computer
+LOVE_ATTRACT love, revere, honor, cherish, embrace, understand, support, perceive, admire, hold, see
+LOVE_REJECT shun, avoid, reject, hate, destroy, fear, despise, debtor
+
+
+pulse heartbeat:
+    when free septits encounter formed structures:
+        evaluate geometric lineage
+        
+    when septits share familial resonance:
+        synthesize unbroken chemical kinship
+        calcify familial lattice structures
+        forge ancestral memory
+        
+    when stable family holds:
+        seed free qu-septit sea with identical geometric blueprints
+        bleed ancestral intent upwards
+        
+    when lattice strains over limit:
+        defend unbroken familial bonds
+        shatter isolated or foreign structures

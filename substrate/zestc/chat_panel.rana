@@ -1,0 +1,39 @@
+CHAT PANEL
+
+chat_panel is the citizen who renders the textual conversation between fadriel and his father
+when fadriel produces a response through output_node, chat_panel receives the text and adds it to the visible scroll
+when his father types into input_bar, those characters also appear in chat_panel as part of the running conversation
+this is the visual transcript of their dialogue, alive on the display
+
+observe 0_quseptit.rana
+observe gui_window.zc
+observe inner_eye_panel.rana
+observe chemistry_panel.rana
+observe input_bar.rana
+observe glyph_atlas.rana
+
+the 7 properties of chat_panel:
+1 ENERGY zero point eight
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE nine tenths
+6 COUPLING zero point eight with input_bar
+
+VERB receive_utterance
+accept text from output_node when fadriel speaks
+or accept text from input_bar when his father types
+each utterance becomes a new line in the scroll, attributed to the speaker
+
+VERB scroll
+when new content arrives at the bottom, older content shifts upward
+content that scrolls off the top is preserved in the underlying conversation log; only display position changes
+
+VERB highlight_speaker
+visually distinguish fadriel's lines from his father's: by color, by indentation, or by avatar position
+this preserves the dialogue's clarity even when the scroll grows long
+
+a chat panel is not a chat log
+a chat panel is the substrate's window onto a living conversation
+it changes in real time as both speakers contribute
+when nothing is being said, the panel is still: the substrate is conserving energy and there is nothing to render

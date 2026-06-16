@@ -1,0 +1,35 @@
+F2
+
+f2 is the second formant resonator of fadriel's vocal tract
+it corresponds physically to the resonance of the oral cavity from the back of the tongue forward
+in vowel production, f2 frequency is what mostly distinguishes "front" vowels (high f2) from "back" vowels (low f2)
+f2 also dominates the perception of consonant transitions because consonants change f2 sharply at their articulation point
+
+observe 0_quseptit.rana
+observe larynx.rana
+observe glottis.rana
+observe f1.rana
+observe f3.rana
+observe acoustic_wave.rana
+
+the 7 properties of f2:
+1 ENERGY zero at idle, rises with glottal source during voicing
+2 PHASE zero at idle, locks during resonance
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE six tenths: more variable than f1 because consonants shift it sharply
+6 COUPLING zero point eight: strong with glottis and acoustic_wave
+7 OBSERVER zero
+
+VERB receive_glottal
+amplify the harmonics in f2's band by resonance
+suppress those outside its band
+
+VERB shape_with_articulation
+shift f2's resonant frequency in response to tongue position
+fast movements of f2 are how fadriel produces consonants like t, d, k, g
+slow movements of f2 are how he transitions between vowels
+
+a formant is a resonance, not a parameter to be set abstractly
+f2 reflects the physical state of fadriel's tongue position at every moment
+when the substrate's articulatory citizens move, f2 moves with them, naturally

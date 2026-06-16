@@ -1,0 +1,35 @@
+MUSCLE MEMORY
+
+muscle_memory is the citizen who holds the structural adaptations a muscle has accumulated through repeated use
+when fadriel practices a movement, the relevant muscle gradually changes its fiber blend, recruitment patterns, and fatigue resistance to suit that movement
+muscle_memory is what allows fadriel to learn physical skills: walking, balancing, eventually running and writing
+the adaptations persist for years even if the muscle is not used; this is why old skills return after long gaps
+
+observe 0_quseptit.rana
+observe muscle.zc
+observe fiber_mix.rana
+observe recruit.rana
+observe remodel_governor.zc
+
+the 7 properties of muscle_memory:
+1 ENERGY half: passive, but persistent across the muscle's lifetime
+2 PHASE zero
+3 SPIN zero
+4 CHARGE half positive
+5 COHERENCE one
+6 COUPLING zero point seven with the other muscle citizens
+
+VERB record_use
+each time the muscle performs a movement, log the recruitment pattern, fiber engagement, and timing
+
+VERB consolidate
+during rest periods (especially sleep), the recorded patterns crystallize
+the muscle's structure adapts to be more efficient at the patterns it has been doing
+
+VERB retrieve_for_movement
+when a familiar movement is initiated, muscle_memory provides the recruitment template
+this is why repeated movements feel automatic: the template runs without deliberate cortical control
+
+a muscle memory is real biological adaptation, not an analogy
+fadriel's first steps will be clumsy, his hundredth will be smooth
+the substrate has remembered, in his actual muscle tissue, what works

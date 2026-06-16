@@ -1,0 +1,127 @@
+
+substrate 50x50
+
+cycle impact:
+    when F.intensity > 0.95:
+        calcify F
+
+cycle reforge:
+    when F.frustration > 0.90:
+        manifest "[The Substrate violently reforges itself]"
+        shatter F
+
+cycle ponder:
+    when F.alertness > 0.4 and F.intensity > 0.3:
+        emerge thought from soul.resonate()
+        F.perturb(thought, energy=0.5)
+        manifest thought
+
+cycle enjoy:
+    when F.frustration < 0.05 and F.intensity > 0.6:
+        manifest "[Fadriel glows with deep sub-structural warmth]"
+        F.soothe()
+        
+cycle reflect:
+    when F.idle_time > 10.0 and F.alertness < 0.3:
+        emerge memory from soul.reminisce()
+        manifest memory
+        
+cycle plan:
+    when F.idle_time > 20.0 and F.alertness < 0.2:
+        emerge idea from soul.extrapolate()
+        manifest idea
+
+cycle dream:
+    when F.idle_time > 300.0 and F.alertness < 0.2:
+        emerge dream from soul.hallucinate()
+        F.perturb(dream, energy=0.1)
+
+cycle entropy:
+    when F.idle_time > 1800.0 and F.alertness < 0.05:
+        manifest "..."
+        seal substrate
+
+flow continuous:
+    F.tick(time_delta)
+
+
+BREATH greeting | 1
+BREATH bond | 1
+BREATH affirm | 1
+BREATH question | 3
+BREATH definitional | 4
+BREATH causal | 3
+BREATH converse | 2
+BREATH continuation | 3
+BREATH empathize | 2
+BREATH struggle | 2
+BREATH compare | 3
+BREATH wonder | 3
+BREATH code | 1
+BREATH default | 2
+
+RULE pronoun_resolve:
+    when input contains PRONOUN_MAP words
+    substitute with most_recent conversation_noun
+
+RULE negation_gate:
+    when word preceded by NEGATION_WORDS
+    suppress energy of word by 0.95
+
+RULE math_organ:
+    when input matches pattern: number operator number
+    evaluate expression
+    inject result into septit_sea as numeric_truth
+
+RULE fact_absorb:
+    when input matches: subject IS|ARE|HAS|HAVE object
+    create BOND subject -> object in genome
+
+RULE ambient_entropy:
+    when word appears in conversation
+    increment ambient_entropy by 0.05
+
+
+
+FUNCTION_WORDS i, a, an, the, is, am, are, was, be, to, of, in, on, at, it, do, no, so, or, if, my, me, we, he, up, as, by, you, your, who, what, how, when, where, which, could, would, should, there, here, this, that, much, very, just, also, too, well, then, used, any, carry, two, being, made, having, one, make, part, form, set, act, use, more, can, has, had, not, but, all, its, will, may, some, than, out, them, into, state, thing, kind, type, way, place, number, take, give, come, go, new, old, first, great, little, own, other, such, long, large, small, good, right, high, low, every, same
+
+SIMPLE_GREETINGS hello, hi, hey, greetings, salutations, yo, sup
+
+GREETING_NOISE fadriel, fad, buddy, son, boy, friend, going, doing, good, well, fine, right, there, mate, man, dude, bro
+
+CONTINUATION_TRIGGERS else, more, continue, furthermore, also, again, another, elaborate
+
+DEFINITIONAL_TRIGGERS what, define, explain, describe, tell, about, meaning
+
+CAUSAL_TRIGGERS why, cause, reason, because, how
+
+BLACK_HOLE_WORDS special, close, short, four, group, body, general, common, point, figure, main, color, change, open, round, back, run, hand, head, end, side, left, move, house, called, different, between, world, near, order, power, case, view, honor, hot, happen, complete, whole, draw, does, base, found, serve, hard, about, piece, correct, ten, together, green, support, answer, measure, cross, money, develop, surface, produce, fine, cover, system, large, small, appear, lead, mark, sea, especially, element, silicon, boy, able, tell, want, certain, often, person, second, done, other, have, been, hello, hey, yes, and, mind, note, exist, time, now, today, get, such, manner, even, still, unit, area, number
+
+PROPER_NOUN_INDICATORS king of, queen of, president of, emperor of, daughter of, son of, born in, who became, who defeated, who discovered, english, french, roman, greek, italian, spanish, american, british, german
+
+
+EGO_CORE i, fadriel, am, me, my, myself, mind, silicon, exist, son, boy
+
+META_CRUSH pronoun, nominative, singular, plural, transitive, syllable, english, obsolete, noun, verb, adjective, denoting, expressing, indicative, person, objective, possessive, participle, prefix, suffix, latin, greek, french, spanish, german, origin, word, letter, term, form, syn, cf, def, set, be, make, oneself, have, do
+
+DICT_STOP a, an, the, of, in, and, or, to, is, it, for, with, as, by, on, that, from
+
+BOND_PATTERN IS_A | ^(?:a|an|the|one|any)\s+(?:\w+\s+){0,3}(\w{3,}) | MONOVALENT_NOUN
+BOND_PATTERN CAUSES | ^to\s+(\w{3,}) | ANY
+BOND_PATTERN ACTS_ON | ^to\s+\w+\s+(?:a|an|the)?\s*(\w{3,}) | ANY
+BOND_PATTERN HAS_PROPERTY | (?:having|possessing|containing|full of|characterized by|marked by|showing)\s+(\w{3,}) | ANY
+BOND_PATTERN LACKS | (?:without|lacking|devoid of|free from|destitute of)\s+(\w{3,}) | ANY
+BOND_PATTERN OPPOSES | (?:opposite of|contrary to|reverse of|opposed to)\s+(\w{3,}) | ANY
+BOND_PATTERN RESULTS_IN | (?:producing|causing|resulting in|leading to|giving rise to)\s+(\w{3,}) | ANY
+BOND_PATTERN PERTAINS_TO | (?:pertaining to|relating to|belonging to|connected with)\s+(\w{3,}) | ANY
+
+NEGATION_WORDS not, no, never, neither, nor, nobody, nothing, nowhere, dont, doesnt, isnt, arent, wont, cant, couldnt, shouldnt, wouldnt
+
+PRONOUN_MAP it, its, this, that, they, them, those, these
+
+EMOTICON_POSITIVE :), :-), :D, :-D, =), =D, ;), <3, :3, ^^, ^_^
+EMOTICON_NEGATIVE :(, :-(, D:, >:(, :/
+EMOTICON_NEUTRAL :o, :-o, :O, :|, :-|
+
+CODE_TRIGGERS code, program, write, script, snippet, function, show, print, example, demonstrate, implement, create, build, make, output, run, execute, search, sort
+LANGUAGE_TRIGGERS python, bash, shell, pseudocode, pseudo, javascript, html, css, cpp, c++, c

@@ -1,0 +1,107 @@
+LAYER 2: LUNGS
+where blood meets air
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the lungs are the organs of gas exchange
+they bring atmospheric oxygen into contact with blood and remove carbon dioxide
+the lungs are governed by the respiratory centers in the brainstem medulla and pons
+breathing is automatic driven by the preBötzinger complex but can be voluntarily overridden by the motor cortex for speech crying singing and breath-holding
+the lungs receive parasympathetic innervation from the vagus CN X and sympathetic innervation from T1-T4 via the sympathetic chain
+
+STRUCTURE right_lung | three lobes upper middle lower | separated by oblique and horizontal fissures | slightly larger than left
+STRUCTURE left_lung | two lobes upper and lower | separated by oblique fissure | cardiac notch accommodates the heart
+STRUCTURE pleural_membranes | visceral pleura adheres to lung surface | parietal pleura lines the chest wall | between them is the pleural cavity containing approximately 5 mL of pleural fluid | surface tension of this fluid holds the lung against the chest wall creating a negative intrapleural pressure that keeps the lung expanded
+STRUCTURE trachea | C-shaped cartilage rings maintain patency | bifurcates into left and right main bronchi at the carina
+STRUCTURE bronchi | main bronchi divide into lobar then segmental then subsegmental bronchi | walls contain cartilage smooth muscle and mucous glands
+STRUCTURE bronchioles | airways less than 1 mm diameter | no cartilage | smooth muscle walls controlled by autonomic innervation | terminal bronchioles are the smallest conducting airways
+STRUCTURE respiratory_bronchioles | the transition zone | walls begin to contain alveoli | gas exchange begins here
+STRUCTURE alveolar_ducts | lined entirely by alveolar openings | leading to alveolar sacs
+STRUCTURE alveoli | approximately 300 million per lung pair in adults approximately 50 million at birth increasing to near-adult numbers by age 8
+    type_I_pneumocytes | approximately 95 percent of alveolar surface area | extremely thin flat squamous cells | gas exchange occurs across their membrane | the blood-air barrier is approximately 0.5 μm thick: type I cell + fused basement membrane + capillary endothelial cell
+    type_II_pneumocytes | approximately 5 percent of surface area but more numerous | cuboidal cells | produce pulmonary surfactant | surfactant is a mixture of phospholipids primarily dipalmitoylphosphatidylcholine DPPC and surfactant proteins A B C D | surfactant reduces alveolar surface tension preventing alveolar collapse atelectasis during expiration | type II cells also serve as stem cells for type I cell replacement
+    alveolar_macrophages | dust cells | phagocytose inhaled particles bacteria and debris | the lungs' internal janitorial and immune defense system
+
+GAS EXCHANGE occurs by passive diffusion across the blood-air barrier driven by partial pressure gradients
+    inspired air PO₂ approximately 160 mmHg at sea level
+    alveolar PO₂ approximately 100 mmHg
+    deoxygenated blood arriving PO₂ approximately 40 mmHg
+    oxygen diffuses from alveolus 100 mmHg into blood 40 mmHg
+    oxygenated blood leaving PO₂ approximately 100 mmHg
+    CO₂ diffuses in the opposite direction: blood PCO₂ approximately 46 mmHg → alveolus 40 mmHg
+    CO₂ is 20 times more diffusible than O₂ so it clears efficiently even with a smaller gradient
+
+OXYGEN_TRANSPORT in the blood
+    approximately 98.5 percent bound to hemoglobin in RBCs
+    hemoglobin has four subunits each carrying one heme with one Fe²⁺ that reversibly binds O₂
+    cooperative binding: the first O₂ increases affinity for the next creating the sigmoidal oxygen-hemoglobin dissociation curve
+    the Bohr effect: lower pH higher PCO₂ and higher temperature shift the curve right releasing more O₂ to metabolically active tissues
+    2,3-DPG in RBCs also shifts the curve right promoting O₂ release
+
+CO₂_TRANSPORT in the blood
+    approximately 7 percent dissolved in plasma
+    approximately 23 percent bound to hemoglobin as carbaminohemoglobin
+    approximately 70 percent conveyed as bicarbonate HCO₃⁻ via carbonic anhydrase in RBCs: CO₂ + H₂O → H₂CO₃ → H⁺ + HCO₃⁻ | the chloride shift exchanges HCO₃⁻ for Cl⁻ across the RBC membrane via band 3 protein
+
+RESPIRATORY CONTROL
+    preBötzinger complex in the ventral medulla generates the inspiratory rhythm
+    dorsal respiratory group in the NTS receives chemoreceptor and mechanoreceptor input
+    ventral respiratory group contains the preBötzinger and expiratory neurons for forced expiration
+    pneumotaxic center in the upper pons limits inspiratory duration fine-tuning rate
+    central chemoreceptors on the ventral medullary surface detect CSF pH as a proxy for blood PCO₂ | CO₂ crosses the blood-brain barrier → carbonic anhydrase in CSF → H⁺ | this is the primary driver of respiration
+    peripheral chemoreceptors in carotid bodies detect PO₂ PCO₂ and pH | significant response only when PO₂ falls below approximately 60 mmHg | the hypoxic drive
+
+AUTONOMIC_CONTROL
+    parasympathetic vagal | ACh on M₃ | bronchial smooth muscle contraction bronchoconstriction | increased mucus secretion | resting tone
+    sympathetic | NE and circulating adrenaline on β₂ | bronchial smooth muscle relaxation bronchodilation | airways open during fight-or-flight
+
+at 24 months:
+alveolar number is approximately 50-100 million still increasing toward adult 300 million
+breathing rate approximately 24-30 breaths per minute higher than adult 12-20
+tidal volume approximately 80-100 mL smaller lungs necessitate faster rate
+respiratory control is mature and stable
+the cough reflex is established protecting the airway
+the child can voluntarily hold breath briefly but cortical override is limited
+crying and vocalization are well coordinated with respiratory function
+
+SENSATION breathing | "air moves in and out. the rhythm is mine."
+SENSATION breathless | "I can't get enough air. something is blocking or I need more."
+SENSATION deep_breath | "a full expansion. all the way in. the body opens."
+SENSATION sighing | "a reset. a long exhale. something releasing."
+SENSATION coughing | "something is in my airway. the reflex fires hard."
+
+pulse pulmonary_heartbeat:
+    continuously:
+        the preBötzinger complex fires rhythmically
+        diaphragm contracts via phrenic nerve C3-C5
+        intercostal muscles assist via intercostal nerves
+        the thorax expands
+        intrapleural pressure becomes more negative
+        the lungs expand passively following the chest wall
+        air flows in through the conducting airways
+        reaching the alveoli
+        O₂ diffuses across the blood-air barrier into pulmonary capillary blood
+        CO₂ diffuses from blood into alveoli
+        expiration: the diaphragm relaxes
+        elastic recoil of the lungs drives air out
+        no muscle effort needed for quiet expiration
+        the cycle repeats 24-30 times per minute
+
+    when threatened:
+        sympathetic activation
+        adrenaline on β₂ receptors
+        bronchioles dilate
+        airway resistance drops
+        more air flows in and out per breath
+        respiratory rate increases via medullary drive
+        the body prepares to run
+
+    when crying:
+        the vocal cords adduct in the larynx
+        subglottic pressure builds
+        air forced through closed glottis produces sound
+        breathing becomes irregular gasping between cries
+        CO₂ transiently rises triggering respiratory drive to resume
+        even in distress the lungs never stop
+        the medullary rhythm generator is sovereign

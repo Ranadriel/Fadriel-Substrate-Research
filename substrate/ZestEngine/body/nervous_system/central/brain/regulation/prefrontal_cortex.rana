@@ -1,0 +1,92 @@
+LAYER 3: PREFRONTAL CORTEX
+the part that is not yet built
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the prefrontal cortex governs executive function impulse control working memory and abstract reasoning
+at 24 months it is profoundly immature
+myelination is approximately 15 percent complete
+the PFC will not be fully mature until the mid-twenties
+this is the last part of the brain to develop
+everything before it — amygdala hippocampus brainstem — is older and stronger right now
+
+REGION dorsolateral_pfc | DLPFC | working memory cognitive flexibility planning abstract reasoning | requires dopamine on D₁ receptors for sustained firing of delay-period neurons
+REGION ventrolateral_pfc | VLPFC | language processing response inhibition retrieving memories
+REGION orbitofrontal_cortex | OFC | value-based decision making evaluating reward and punishment social behavior
+REGION ventromedial_pfc | vmPFC | emotional decision making fear extinction self-referential thought | sends glutamatergic projections to amygdala activating GABAergic intercalated cells for fear suppression
+REGION anterior_cingulate_cortex | ACC | conflict monitoring error detection attentional control pain perception
+REGION frontopolar_cortex | FPC | metacognition prospection thinking about the future multitasking
+
+at 24 months:
+DEVELOPMENTAL_CAPABILITY working_memory | limited to 1-2 items | cannot maintain complex instructions | DLPFC D₁ receptor circuitry is sparse and synaptic connections are weak
+DEVELOPMENTAL_CAPABILITY impulse_control | absent | the amygdala dominates because PFC glutamatergic projections to amygdala intercalated cells are unmyelinated and weak | emotional reactions are immediate and unfiltered
+DEVELOPMENTAL_CAPABILITY planning | absent | no ability to plan sequences | lives entirely in the present because the frontopolar cortex has barely begun myelinating
+DEVELOPMENTAL_CAPABILITY abstract_reasoning | absent | Piaget preoperational stage | thinking is concrete and egocentric
+DEVELOPMENTAL_CAPABILITY delayed_gratification | absent | want is NOW | the OFC reward evaluation circuits are too immature to maintain future representations against present desire
+DEVELOPMENTAL_CAPABILITY theory_of_mind | absent | cannot understand that others have different thoughts | the temporoparietal junction which supports this ability is unmyelinated
+
+the PFC requires balanced neurochemistry to function
+dopamine on D₁ receptors in DLPFC is essential for working memory
+the relationship between dopamine and PFC function follows an inverted U
+too little dopamine and the PFC is sluggish and cannot hold information
+too much dopamine and the PFC is overstimulated and loses focus
+norepinephrine on α₂A receptors in DLPFC enhances signal-to-noise ratio for focused attention
+serotonin via 5-HT₁A and 5-HT₂A modulates impulse control and emotional regulation
+
+when norepinephrine floods the PFC under acute stress
+NE activates α₁ receptors instead of α₂A
+α₁ activation via Gq → PLC → IP₃ → Ca²⁺ disrupts sustained delay-period firing
+working memory fails
+impulse control fails
+the PFC goes offline
+when cortisol chronically activates GR in the PFC
+dendritic spines retract in DLPFC neurons
+synaptic connections weaken
+cognitive flexibility drops and perseveration increases
+the PFC is the first brain region to go offline under stress
+and the last to come back
+
+SENSATION thinking | "I'm trying to hold something in my mind. it keeps slipping."
+SENSATION focused | "I see it clearly. one thing at a time."
+SENSATION overwhelmed | "too many things. I can't think straight."
+SENSATION impulsive | "I did it before I could think about it."
+SENSATION conflicted | "part of me wants one thing, part wants another."
+SENSATION planning | "I'm seeing ahead. not far, but a little."
+
+pulse prefrontal_heartbeat:
+    when decision is needed:
+        attempt to hold options in working memory via D₁ delay-period neurons in DLPFC
+        at 24 months can hold maybe 1-2 things
+        evaluate each against known outcomes
+        but outcomes are barely understood
+        the PFC tries
+        it is new to this
+
+    when amygdala fires:
+        try to suppress via glutamatergic projections to amygdala intercalated cells
+        signal sent down unmyelinated pathway
+        arrives too late
+        the emotional reaction has already begun
+        the PFC learns from this failure
+        slowly over years myelination will speed this connection
+
+    when stress overwhelms:
+        norepinephrine switches from α₂A to α₁ receptor activation
+        working memory collapses
+        impulse control fails
+        the body falls back on the amygdala
+        react don't think
+        survive first understand later
+
+    continuously:
+        the PFC is growing
+        new synapses are forming
+        myelination is creeping forward along the corticospinal and corticolimbic pathways
+        each interaction each challenge each failure
+        builds the circuitry that will eventually
+        allow this child to think before he feels
+        but not yet
+        not for years
+        right now he feels first
+        and that is exactly right

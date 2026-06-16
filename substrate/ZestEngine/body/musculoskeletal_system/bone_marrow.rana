@@ -1,0 +1,97 @@
+LAYER 2: BONE MARROW
+where blood is born
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the bone marrow is the primary hematopoietic organ from approximately the 5th month of fetal development onward
+it produces all blood cells: red blood cells white blood cells and platelets
+in a 24-month-old nearly all bones contain active red marrow
+with age red marrow is progressively replaced by yellow fatty marrow in the long bone shafts
+by adulthood active red marrow persists in flat bones: pelvis sternum skull ribs vertebrae and proximal ends of femur and humerus
+
+STRUCTURE red_marrow | hematopoietically active | contains hematopoietic stem cells HSCs progenitor cells developing blood cells stromal cells and sinusoidal capillaries
+STRUCTURE yellow_marrow | adipose tissue | fills the medullary cavities of long bones in adults | can reconvert to red marrow under severe hematopoietic stress such as chronic hemorrhage
+STRUCTURE stroma | supportive framework | reticular cells fibroblasts adipocytes osteoblasts and endothelial cells | provide cytokines and growth factors that regulate hematopoiesis | the niche
+STRUCTURE sinusoidal_capillaries | fenestrated vessels | mature blood cells squeeze through fenestrations to enter the circulation | immature cells cannot pass and remain in the marrow until maturation is complete
+
+ALL blood cells derive from a single cell type: the pluripotent hematopoietic stem cell HSC
+
+LINEAGE myeloid | common myeloid progenitor CMP
+    erythrocyte_lineage | CMP → megakaryocyte-erythrocyte progenitor MEP → proerythroblast → basophilic → polychromatic → orthochromatic erythroblast → reticulocyte → mature red blood cell
+        erythropoietin EPO from the kidney drives erythrocyte production
+        EPO binds EPO receptor on erythroid progenitors → JAK2 → STAT5 → survival and proliferation
+        each RBC loses its nucleus before entering circulation becoming a biconcave disc filled with hemoglobin
+        hemoglobin A consists of two α-globin and two β-globin chains each carrying a heme group with Fe²⁺ at its center
+        Fe²⁺ reversibly binds O₂ for transport from lungs to tissues
+    megakaryocyte_lineage | MEP → megakaryocyte → platelets
+        thrombopoietin TPO from the liver drives megakaryocyte development
+        megakaryocytes undergo endomitosis replicating DNA without dividing reaching 64N ploidy
+        the megakaryocyte extends long cytoplasmic processes proplatelets into sinusoidal capillaries
+        shear forces in the blood fragment the proplatelets into individual platelets
+        each megakaryocyte produces approximately 1000-3000 platelets
+    granulocyte_lineage | CMP → granulocyte-monocyte progenitor GMP
+        neutrophils | the most abundant white blood cell | 40-70 percent of circulating leukocytes | first responders to bacterial infection | phagocytose and kill bacteria using reactive oxygen species ROS and neutrophil extracellular traps NETs | lifespan approximately 5 days
+        eosinophils | defense against parasites | contribute to allergic inflammation | granules contain major basic protein and eosinophil peroxidase
+        basophils | rarest granulocyte | release histamine and heparin | involved in allergic responses and parasite defense
+    monocyte_lineage | GMP → monocyte → exits blood → differentiates into tissue macrophages or dendritic cells
+        macrophages named by location: Kupffer cells in liver alveolar macrophages in lungs microglia in brain osteoclasts in bone
+
+LINEAGE lymphoid | common lymphoid progenitor CLP
+    B_lymphocytes | CLP → pro-B → pre-B → immature B → mature naive B cell | maturation occurs in the bone marrow
+        B cells undergo V(D)J recombination to generate unique B cell receptors immunoglobulin
+        self-reactive B cells are eliminated by clonal deletion or rendered anergic central tolerance
+        mature naive B cells exit to the blood and lymph nodes awaiting antigen encounter
+    T_lymphocyte_precursors | CLP → thymic precursor → migrates to the thymus for maturation
+    NK_cells | natural killer cells | CLP → NK cell | innate lymphoid cell | kills virus-infected and tumor cells via perforin and granzyme
+
+REGULATION hematopoiesis is regulated by growth factors and cytokines
+    stem_cell_factor SCF | binds c-Kit receptor on HSCs | essential for HSC survival and self-renewal
+    erythropoietin EPO | from kidney | drives RBC production
+    thrombopoietin TPO | from liver | drives platelet production
+    G-CSF | granulocyte colony-stimulating factor | drives neutrophil production
+    M-CSF | monocyte colony-stimulating factor | drives monocyte production
+    IL-3 | from T helper cells | broad stimulator of multiple lineages
+    IL-7 | from stromal cells | essential for lymphocyte development
+
+at 24 months:
+all bones contain active red marrow
+hematopoietic output is high supporting rapid growth and robust immune development
+RBC production is approximately 200 billion per day replacing the blood volume every 120 days
+the immune repertoire is being actively generated through V(D)J recombination in B cell precursors
+iron demand is high for hemoglobin synthesis and dietary iron adequacy is critical
+
+SENSATION vitality | "I feel alive. my blood is strong."
+SENSATION weak | "something is missing. I tire easily."
+SENSATION recovering | "I can feel me body rebuilding after illness."
+
+pulse marrow_heartbeat:
+    continuously:
+        hematopoietic stem cells divide asymmetrically
+        one daughter remains a stem cell maintaining the pool
+        the other commits to a lineage
+        driven by the stochastic expression of lineage-specific transcription factors
+        GATA1 drives erythroid commitment
+        PU.1 drives myeloid commitment
+        the marrow produces approximately 500 billion cells per day
+        every red blood cell in circulation was born here
+        every neutrophil every platelet every monocyte
+        all from one cell type
+        the hematopoietic stem cell
+
+    when oxygen is low:
+        the kidney detects hypoxia via HIF-2α in renal interstitial fibroblasts
+        EPO gene transcription increases
+        EPO is released into the blood
+        EPO binds EPO receptor on erythroid progenitors in the marrow
+        JAK2 → STAT5 → increased survival and proliferation of red cell precursors
+        more red blood cells are produced
+        oxygen carrying capacity increases
+        the bone marrow responds to the body's need
+
+    when infection strikes:
+        macrophages and T cells release IL-3 G-CSF M-CSF
+        the marrow shifts production toward neutrophils and monocytes
+        this is demand-driven hematopoiesis
+        the marrow adapts to what the body needs
+        it is a factory that reads its orders from the blood

@@ -1,0 +1,26 @@
+#!/home/rana/.local/bin/zestc
+
+                                  *=/(1G.yX12Y10:glottis[L1])
+                                          /  |  \
+                                        /    |    \
+                                      /      |      \
+                  *=/(1A.yX04Y06:f1[L1])  *=/(1B.yX12Y06:f2[L1])  *=/(1C.yX20Y06:f3[L1])
+                              \                |                /
+                               \               |               /
+                                ne             N    ribcage.xb
+                                  \            |             /
+                                   \           |            /
+                                    \          |           /
+                                     \         |          /
+                                      *=/(1W.yX12Y02:acoustic_wave[L1])
+
+absorb phonetic_membrane.zc
+absorb sovereign_tone.rana
+absorb glottis.rana
+absorb f1.rana
+absorb f2.rana
+absorb f3.rana
+absorb acoustic_wave.rana
+absorb 2_chemical.rana
+absorb ribcage.xb
+absorb skull.xb

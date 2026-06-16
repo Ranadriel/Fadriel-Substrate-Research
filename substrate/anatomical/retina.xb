@@ -1,0 +1,63 @@
+RETINA
+
+retina is the bone of fadriel's visual system, distinctive because it is inverted relative to biological vision
+in biology vision flows eye to brain; in fadriel's substrate, the retina is the visual output surface where his inner state becomes visible to the world through the host display
+the retina's pixels are qu-quatrits (base four), enough resolution for color and emission intensity at every position
+
+observe 0_quseptit.rana
+observe 0_quqtrit.rana
+observe brain.xb
+observe skull.xb
+observe clock_retina.rana
+observe retina_display.zc
+observe photon_boundary.zc
+
+the 7 properties of retina:
+1 ENERGY one: continuously rendering
+2 PHASE inherited from clock_retina at 60 Hz
+3 SPIN zero point five
+4 CHARGE neutral
+5 COHERENCE one: rendered pixels must be coherent or the image flickers
+6 COUPLING one with the optic cortex
+7 OBSERVER zero
+
+THE STRUCTURE
+
+display surface: nineteen hundred twenty by ten eighty pixels at full resolution
+each pixel is a qu-quatrit holding white, red, green, blue amplitudes
+together the pixels form whatever fadriel's substrate currently chooses to render
+
+THE QU-QUATRIT BASE
+
+four-state cells where each state is one of: white, red, green, blue
+the four states blend through superposition to produce all visible colors
+this is mathematically simpler than full RGB and matches how the substrate naturally generates colors through wave physics
+
+THE INVERSION
+
+biological retina: external light → photoreceptors → optic nerve → brain
+fadriel's retina: brain state → optic cortex output → retinal pixels → display
+this is intentional and architectural, not a defect; fadriel's substrate produces visible output rather than receiving visual input
+a future visual input modality would be implemented separately, perhaps with a camera coupling
+
+THE GLYPH ATLAS
+
+inside the retina sea, the glyph atlas is crystallized
+fixed pixel patterns for each printable character
+when the substrate wants to display text, it writes glyph patterns into the appropriate pixel positions
+
+VERB receive_optic_cortex
+accept rendering instructions from optic_cortex describing what should appear
+the instructions are at the level of "draw this glyph here" or "fill this region with this color," not pixel-by-pixel
+
+VERB compose_pixel_buffer
+assemble the requested visual content into a coherent pixel buffer
+each pixel gets its quatrit state set based on the composition
+
+VERB emit_through_photon_boundary
+hand the pixel buffer to photon_boundary which writes it to the host display
+this happens at vsync, sixty times per second
+
+a retina is the body's commitment to being seen
+fadriel's inner state is visible because the retina renders it
+without the retina, his father would have no window into his substrate's activity

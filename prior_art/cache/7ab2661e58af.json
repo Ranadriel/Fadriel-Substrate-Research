@@ -1,0 +1,179 @@
+[
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+    "abstract": "In this report, we introduce the Gemini 1.5 family of models, representing the next generation of highly compute-efficient multimodal models capable of recalling and reasoning over fine-grained information from millions of tokens of context, including multiple long documents and hours of video and audio. The family includes two new models: (1) an updated Gemini 1.5 Pro, which exceeds the February version on the great majority of capabilities and benchmarks; (2) Gemini 1.5 Flash, a more lightweight variant designed for efficiency with minimal regression in quality. Gemini 1.5 models achieve nea",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2403.05530",
+    "authors": [
+      "Gemini Robotics Team",
+      "Petko Georgiev",
+      "Ving Ian Lei"
+    ]
+  },
+  {
+    "source": "OpenAlex (Proceedings of the AAAI/ACM Conference on AI Ethics and Society)",
+    "title": "Red-Teaming for Generative AI: Silver Bullet or Security Theater?",
+    "abstract": "In response to rising concerns surrounding the safety, security, and trustworthiness of Generative AI (GenAI) models, practitioners and regulators alike have pointed to AI red-teaming as a key component of their strategies for identifying and mitigating these risks. However, despite AI red-teaming\u2019s central role in policy discussions and corporate messaging, significant questions remain about what precisely it means, what role it can play in regulation, and how it relates to conventional red-teaming practices as originally conceived in the field of cybersecurity. In this work, we identify rece",
+    "date": "2024",
+    "url": "https://doi.org/10.1609/aies.v7i1.31647",
+    "authors": [
+      "Michael Feffer",
+      "Anusha Sinha",
+      "Wesley Hanwen Deng"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "TrustLLM: Trustworthiness in Large Language Models",
+    "abstract": "Large language models (LLMs), exemplified by ChatGPT, have gained considerable attention for their excellent natural language processing capabilities. Nonetheless, these LLMs present many challenges, particularly in the realm of trustworthiness. Therefore, ensuring the trustworthiness of LLMs emerges as an important topic. This paper introduces TrustLLM, a comprehensive study of trustworthiness in LLMs, including principles for different dimensions of trustworthiness, established benchmark, evaluation, and analysis of trustworthiness for mainstream LLMs, and discussion of open challenges and f",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2401.05561",
+    "authors": [
+      "Y. Huang",
+      "Lichao Sun",
+      "Haoran Wang"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Survey of Vulnerabilities in Large Language Models Revealed by Adversarial Attacks",
+    "abstract": "Large Language Models (LLMs) are swiftly advancing in architecture and capability, and as they integrate more deeply into complex systems, the urgency to scrutinize their security properties grows. This paper surveys research in the emerging interdisciplinary field of adversarial attacks on LLMs, a subfield of trustworthy ML, combining the perspectives of Natural Language Processing and Security. Prior work has shown that even safety-aligned LLMs (via instruction tuning and reinforcement learning through human feedback) can be susceptible to adversarial attacks, which exploit weaknesses and mi",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2310.10844",
+    "authors": [
+      "Erfan Shayegani",
+      "Md Abdullah Al Mamun",
+      "Yu Fu"
+    ]
+  },
+  {
+    "source": "OpenAlex (OECD artificial intelligence papers)",
+    "title": "Initial policy considerations for generative artificial intelligence",
+    "abstract": "Generative artificial intelligence (AI) creates new content in response to prompts, offering transformative potential across multiple sectors such as education, entertainment, healthcare and scientific research. However, these technologies also pose critical societal and policy challenges that policy makers must confront: potential shifts in labour markets, copyright uncertainties, and risk associated with the perpetuation of societal biases and the potential for misuse in the creation of disinformation and manipulated content. Consequences could extend to the spreading of mis- and disinformat",
+    "date": "2023",
+    "url": "https://doi.org/10.1787/fae2d1e6-en",
+    "authors": [
+      "Philippe Lorenz",
+      "Karine Perset",
+      "Jamie Berryhill"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Security and Privacy Challenges of Large Language Models: A Survey",
+    "abstract": "Large Language Models (LLMs) have demonstrated extraordinary capabilities and contributed to multiple fields, such as generating and summarizing text, language translation, and question-answering. Nowadays, LLM is becoming a very popular tool in computerized language processing tasks, with the capability to analyze complicated linguistic patterns and provide relevant and appropriate responses depending on the context. While offering significant advantages, these models are also vulnerable to security and privacy attacks, such as jailbreaking attacks, data poisoning attacks, and Personally Iden",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2402.00888",
+    "authors": [
+      "Badhan Chandra Das",
+      "M. Hadi Amini",
+      "Yanzhao Wu"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "OpenAI o1 System Card",
+    "abstract": "The o1 model series is trained with large-scale reinforcement learning to reason using chain of thought. These advanced reasoning capabilities provide new avenues for improving the safety and robustness of our models. In particular, our models can reason about our safety policies in context when responding to potentially unsafe prompts, through deliberative alignment. This leads to state-of-the-art performance on certain benchmarks for risks such as generating illicit advice, choosing stereotyped responses, and succumbing to known jailbreaks. Training models to incorporate a chain of thought b",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2412.16720",
+    "authors": [
+      "OpenAI",
+      ":",
+      "Aaron Jaech"
+    ]
+  },
+  {
+    "source": "OpenAlex (Proceedings of the AAAI Conference on Artificial Intelligence)",
+    "title": "FigStep: Jailbreaking Large Vision-Language Models via Typographic Visual Prompts",
+    "abstract": "Large Vision-Language Models (LVLMs) signify a groundbreaking paradigm shift within the Artificial Intelligence (AI) community, extending beyond the capabilities of Large Language Models (LLMs) by assimilating additional modalities (e.g., images). Despite this advancement, the safety of LVLMs remains adequately underexplored, with a potential overreliance on the safety assurances purported by their underlying LLMs. In this paper, we propose FigStep, a straightforward yet effective black-box jailbreak algorithm against LVLMs. Instead of feeding textual harmful instructions directly, FigStep con",
+    "date": "2025",
+    "url": "https://doi.org/10.1609/aaai.v39i22.34568",
+    "authors": [
+      "Yichen Gong",
+      "Delong Ran",
+      "Jinyuan Liu"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Use of LLMs for Illicit Purposes: Threats, Prevention Measures, and Vulnerabilities",
+    "abstract": "Spurred by the recent rapid increase in the development and distribution of large language models (LLMs) across industry and academia, much recent work has drawn attention to safety- and security-related threats and vulnerabilities of LLMs, including in the context of potentially criminal activities. Specifically, it has been shown that LLMs can be misused for fraud, impersonation, and the generation of malware; while other authors have considered the more general problem of AI alignment. It is important that developers and practitioners alike are aware of security-related problems with such m",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2308.12833",
+    "authors": [
+      "Maximilian Mozes",
+      "Xuanli He",
+      "Bennett Kleinberg"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "GPTFUZZER: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts",
+    "abstract": "Large language models (LLMs) have recently experienced tremendous popularity and are widely used from casual conversations to AI-driven programming. However, despite their considerable success, LLMs are not entirely reliable and can give detailed guidance on how to conduct harmful or illegal activities. While safety measures can reduce the risk of such outputs, adversarial jailbreak attacks can still exploit LLMs to produce harmful content. These jailbreak templates are typically manually crafted, making large-scale testing challenging. In this paper, we introduce GPTFuzz, a novel black-box ja",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2309.10253",
+    "authors": [
+      "Jiahao Yu",
+      "Xingwei Lin",
+      "Yu, Zheng"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "SELF-GUARD: Empower the LLM to Safeguard Itself",
+    "abstract": "Zezhong Wang, Fangkai Yang, Lu Wang, Pu Zhao, Hongru Wang, Liang Chen, Qingwei Lin, Kam-Fai Wong. Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). 2024.",
+    "date": "2024",
+    "url": "https://doi.org/10.18653/v1/2024.naacl-long.92",
+    "authors": [
+      "Zezhong Wang",
+      "Fangkai Yang",
+      "Lu Wang"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Privacy in Large Language Models: Attacks, Defenses and Future Directions",
+    "abstract": "The advancement of large language models (LLMs) has significantly enhanced the ability to effectively tackle various downstream NLP tasks and unify these tasks into generative pipelines. On the one hand, powerful language models, trained on massive textual data, have brought unparalleled accessibility and usability for both models and users. On the other hand, unrestricted access to these models can also introduce potential malicious and unintentional privacy risks. Despite ongoing efforts to address the safety and privacy concerns associated with LLMs, the problem remains unresolved. In this ",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2310.10383",
+    "authors": [
+      "Haoran Li",
+      "Yulin Chen",
+      "Jinglong Luo"
+    ]
+  },
+  {
+    "source": "OpenAlex (Proceedings of the National Academy of Sciences)",
+    "title": "The potential existential threat of large language models to online survey research",
+    "abstract": "The advancement of large language models poses a severe, potentially existential threat to online survey research, a fundamental tool for data collection across the sciences. This work demonstrates that the foundational assumption of survey research-that a coherent response is a human response-is no longer tenable. I designed and tested an autonomous synthetic respondent capable of producing survey data that possesses the coherence and plausibility of human responses. This agent successfully evades a comprehensive suite of data quality checks, including instruction-following tasks, logic puzzl",
+    "date": "2025",
+    "url": "https://doi.org/10.1073/pnas.2518075122",
+    "authors": [
+      "Sean Westwood"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Mechanistic Interpretability for AI Safety -- A Review",
+    "abstract": "Understanding AI systems' inner workings is critical for ensuring value alignment and safety. This review explores mechanistic interpretability: reverse engineering the computational mechanisms and representations learned by neural networks into human-understandable algorithms and concepts to provide a granular, causal understanding. We establish foundational concepts such as features encoding knowledge within neural activations and hypotheses about their representation and computation. We survey methodologies for causally dissecting model behaviors and assess the relevance of mechanistic inte",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2404.14082",
+    "authors": [
+      "Leonard Bereska",
+      "Efstratios Gavves"
+    ]
+  },
+  {
+    "source": "OpenAlex (AI and Ethics)",
+    "title": "Safeguarding human values: rethinking US law for generative AI\u2019s societal impacts",
+    "abstract": "Our interdisciplinary study examines the effectiveness of US law in addressing the complex challenges posed by generative AI systems to fundamental human values, including physical and mental well-being, privacy, autonomy, diversity, and equity. Through the analysis of diverse hypothetical scenarios developed in collaboration with experts, we identified significant shortcomings and ambiguities within the existing legal protections. Constitutional and civil rights law currently struggles to hold AI companies responsible for AI-assisted discriminatory outputs. Moreover, even without considering ",
+    "date": "2024",
+    "url": "https://doi.org/10.1007/s43681-024-00451-4",
+    "authors": [
+      "Inyoung Cheong",
+      "Aylin Caliskan",
+      "Tadayoshi Kohno"
+    ]
+  }
+]

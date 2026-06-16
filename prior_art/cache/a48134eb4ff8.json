@@ -1,0 +1,179 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Enhancing Signed Graph Neural Networks through Curriculum-Based Training",
+    "abstract": "Signed graphs are powerful models for representing complex relations with both positive and negative connections. Recently, Signed Graph Neural Networks (SGNNs) have emerged as potent tools for analyzing such graphs. To our knowledge, no prior research has been conducted on devising a training plan specifically for SGNNs. The prevailing training approach feeds samples (edges) to models in a random order, resulting in equal contributions from each sample during the training process, but fails to account for varying learning difficulties based on the graph's structure. We contend that SGNNs can ",
+    "date": "2023-10-17",
+    "url": "http://arxiv.org/abs/2310.11083v2",
+    "authors": [
+      "Zeyu Zhang",
+      "Lu Li",
+      "Xingyu Ji"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Robust Tabular Foundation Models",
+    "abstract": "The development of tabular foundation models (TFMs) has accelerated in recent years, showing strong potential to outperform traditional ML methods for structured data. A key finding is that TFMs can be pretrained entirely on synthetic datasets, opening opportunities to design data generators that encourage desirable model properties. Prior work has mainly focused on crafting high-quality priors over generators to improve overall pretraining performance. Our insight is that parameterizing the generator distribution enables an adversarial robustness perspective: during training, we can adapt the",
+    "date": "2025-12-02",
+    "url": "http://arxiv.org/abs/2512.03307v1",
+    "authors": [
+      "Matthew Peroni",
+      "Franck Le",
+      "Vadim Sheinin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Towards Dropout Training for Convolutional Neural Networks",
+    "abstract": "Recently, dropout has seen increasing use in deep learning. For deep convolutional neural networks, dropout is known to work well in fully-connected layers. However, its effect in convolutional and pooling layers is still not clear. This paper demonstrates that max-pooling dropout is equivalent to randomly picking activation based on a multinomial distribution at training time. In light of this insight, we advocate employing our proposed probabilistic weighted pooling, instead of commonly used max-pooling, to act as model averaging at test time. Empirical evidence validates the superiority of ",
+    "date": "2015-12-01",
+    "url": "http://arxiv.org/abs/1512.00242v1",
+    "authors": [
+      "Haibing Wu",
+      "Xiaodong Gu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Quantum Curriculum Learning",
+    "abstract": "Quantum machine learning (QML) requires significant quantum resources to address practical real-world problems. When the underlying quantum information exhibits hierarchical structures in the data, limitations persist in training complexity and generalization. Research should prioritize both the efficient design of quantum architectures and the development of learning strategies to optimize resource usage. We propose a framework called quantum curriculum learning (Q-CurL) for quantum data, where the curriculum introduces simpler tasks or data to the learning model before progressing to more ch",
+    "date": "2024-07-02",
+    "url": "http://arxiv.org/abs/2407.02419v4",
+    "authors": [
+      "Quoc Hoan Tran",
+      "Yasuhiro Endo",
+      "Hirotaka Oshima"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+    "abstract": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN) are very popular in our days. Depending on the learning task, the exact form of DANNs is determined via their multi-layer architecture, activation functions and the so-called loss function. However, for a majority of deep learning approaches based on DANNs, the kernel structure of neural signal processing remains the same, where the node",
+    "date": "2023-06-26",
+    "url": "http://arxiv.org/abs/2306.14753v1",
+    "authors": [
+      "Sergey Oladyshkin",
+      "Timothy Praditia",
+      "Ilja Kr\u00f6ker"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Training Foundation Models as Data Compression: On Information, Model Weights and Copyright Law",
+    "abstract": "The training process of foundation models as for other classes of deep learning systems is based on minimizing the reconstruction error over a training set. For this reason, they are susceptible to the memorization and subsequent reproduction of training samples. In this paper, we introduce a training-as-compressing perspective, wherein the model's weights embody a compressed representation of the training data. From a copyright standpoint, this point of view implies that the weights can be considered a reproduction or, more likely, a derivative work of a potentially protected set of works. We",
+    "date": "2024-07-18",
+    "url": "http://arxiv.org/abs/2407.13493v4",
+    "authors": [
+      "Giorgio Franceschelli",
+      "Claudia Cevenini",
+      "Mirco Musolesi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Do Kernel and Neural Embeddings Help in Training and Generalization?",
+    "abstract": "Recent results on optimization and generalization properties of neural networks showed that in a simple two-layer network, the alignment of the labels to the eigenvectors of the corresponding Gram matrix determines the convergence of the optimization during training. Such analyses also provide upper bounds on the generalization error. We experimentally investigate the implications of these results to deeper networks via embeddings. We regard the layers preceding the final hidden layer as producing different representations of the input data which are then fed to the two-layer model. We show th",
+    "date": "2019-05-13",
+    "url": "http://arxiv.org/abs/1905.05095v3",
+    "authors": [
+      "Arman Rahbar",
+      "Emilio Jorge",
+      "Devdatt Dubhashi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Integrating Feature and Image Pyramid: A Lung Nodule Detector Learned in Curriculum Fashion",
+    "abstract": "Lung nodules suffer large variation in size and appearance in CT images. Nodules less than 10mm can easily lose information after down-sampling in convolutional neural networks, which results in low sensitivity. In this paper, a combination of 3D image and feature pyramid is exploited to integrate lower-level texture features with high-level semantic features, thus leading to a higher recall. However, 3D operations are time and memory consuming, which aggravates the situation with the explosive growth of medical images. To tackle this problem, we propose a general curriculum training strategy ",
+    "date": "2018-07-21",
+    "url": "http://arxiv.org/abs/1807.08135v2",
+    "authors": [
+      "Benyuan Sun",
+      "Zhen Zhou",
+      "Fandong Zhang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Tutorial about Random Neural Networks in Supervised Learning",
+    "abstract": "Random Neural Networks (RNNs) are a class of Neural Networks (NNs) that can also be seen as a specific type of queuing network. They have been successfully used in several domains during the last 25 years, as queuing networks to analyze the performance of resource sharing in many engineering areas, as learning tools and in combinatorial optimization, where they are seen as neural systems, and also as models of neurological aspects of living beings. In this article we focus on their learning capabilities, and more specifically, we present a practical guide for using the RNN to solve supervised ",
+    "date": "2016-09-15",
+    "url": "http://arxiv.org/abs/1609.04846v1",
+    "authors": [
+      "Sebasti\u00e1n Basterrech",
+      "Gerardo Rubino"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Crowd Counting on Heavily Compressed Images with Curriculum Pre-Training",
+    "abstract": "JPEG image compression algorithm is a widely used technique for image size reduction in edge and cloud computing settings. However, applying such lossy compression on images processed by deep neural networks can lead to significant accuracy degradation. Inspired by the curriculum learning paradigm, we propose a training approach called curriculum pre-training (CPT) for crowd counting on compressed images, which alleviates the drop in accuracy resulting from lossy compression. We verify the effectiveness of our approach by extensive experiments on three crowd counting datasets, two crowd counti",
+    "date": "2022-08-15",
+    "url": "http://arxiv.org/abs/2208.07075v2",
+    "authors": [
+      "Arian Bakhtiarnia",
+      "Qi Zhang",
+      "Alexandros Iosifidis"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "DES-LOC: Desynced Low Communication Adaptive Optimizers for Training Foundation Models",
+    "abstract": "Scaling foundation model training with Distributed Data Parallel (DDP) methods is bandwidth-limited. Existing infrequent communication methods like Local SGD were designed to synchronize only model parameters and cannot be trivially applied to adaptive optimizers due to additional optimizer states. Current approaches extending Local SGD either lack convergence guarantees or require synchronizing all optimizer states, tripling communication costs. We propose Desynced Low Communication Adaptive Optimizers (DES-LOC), a family of optimizers assigning independent synchronization periods to paramete",
+    "date": "2025-05-28",
+    "url": "http://arxiv.org/abs/2505.22549v1",
+    "authors": [
+      "Alex Iacob",
+      "Lorenzo Sani",
+      "Mher Safaryan"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Graph Neural Network Training Systems: A Performance Comparison of Full-Graph and Mini-Batch",
+    "abstract": "Graph Neural Networks (GNNs) have gained significant attention in recent years due to their ability to learn representations of graph-structured data. Two common methods for training GNNs are mini-batch training and full-graph training. Since these two methods require different training pipelines and systems optimizations, two separate classes of GNN training systems emerged, each tailored for one method. Works that introduce systems belonging to a particular category predominantly compare them with other systems within the same category, offering limited or no comparison with systems from the",
+    "date": "2024-06-01",
+    "url": "http://arxiv.org/abs/2406.00552v4",
+    "authors": [
+      "Saurabh Bajaj",
+      "Hojae Son",
+      "Juelin Liu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Strengthening the Training of Convolutional Neural Networks By Using Walsh Matrix",
+    "abstract": "DNN structures are continuously developing and achieving high performances in classification problems. Also, it is observed that success rates obtained with DNNs are higher than those obtained with traditional neural networks. In addition, one of the advantages of DNNs is that there is no need to spend an extra effort to determine the features; the CNN automatically extracts the features from the dataset during the training. Besides their benefits, the DNNs have the following three major drawbacks among the others: (i) Researchers have struggled with over-fitting and under-fitting issues in th",
+    "date": "2021-03-31",
+    "url": "http://arxiv.org/abs/2104.00035v1",
+    "authors": [
+      "Tamer \u00d6lmez",
+      "Z\u00fcmray Dokur"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Progressive Growing of Patch Size: Curriculum Learning for Accelerated and Improved Medical Image Segmentation",
+    "abstract": "In this work, we introduce Progressive Growing of Patch Size, an automatic curriculum learning approach for 3D medical image segmentation. Our approach progressively increases the patch size during model training, resulting in an improved class balance for smaller patch sizes and accelerated convergence of the training process. We evaluate our curriculum approach in two settings: a resource-efficient mode and a performance mode, both regarding Dice score performance and computational costs across 15 diverse and popular 3D medical image segmentation tasks. The resource-efficient mode matches th",
+    "date": "2025-10-27",
+    "url": "http://arxiv.org/abs/2510.23241v2",
+    "authors": [
+      "Stefan M. Fischer",
+      "Johannes Kiechle",
+      "Laura Daza"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Neural Network-Evolutionary Computational Framework for Remaining Useful Life Estimation of Mechanical Systems",
+    "abstract": "This paper presents a framework for estimating the remaining useful life (RUL) of mechanical systems. The framework consists of a multi-layer perceptron and an evolutionary algorithm for optimizing the data-related parameters. The framework makes use of a strided time window to estimate the RUL for mechanical components. Tuning the data-related parameters can become a very time consuming task. The framework presented here automatically reshapes the data such that the efficiency of the model is increased. Furthermore, the complexity of the model is kept low, e.g. neural networks with few hidden",
+    "date": "2019-05-15",
+    "url": "http://arxiv.org/abs/1905.05918v1",
+    "authors": [
+      "David Laredo",
+      "Zhaoyin Chen",
+      "Oliver Sch\u00fctze"
+    ]
+  }
+]

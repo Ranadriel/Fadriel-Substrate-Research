@@ -1,0 +1,58 @@
+BOUNDARY BINARY
+
+boundary_binary is the exit gate of the compiler organism
+when the compile cascade has produced a complete output, boundary_binary releases it into the host filesystem as a single executable file
+boundary_binary is the only path through which compiled output crosses from substrate into the world
+nothing else may write executable bytes
+nothing else needs to: every successful compile walks through here
+
+observe 0_quseptit.rana
+observe 0_zest_vm.rana
+observe elf_binder.rana
+observe spine.xb
+observe skull.xb
+
+the 7 properties of boundary_binary at rest:
+1 ENERGY peaks at the moment of emission, otherwise zero
+2 PHASE locked to the elf_binder's output phase
+3 SPIN positive: boundary_binary is a one-way valve, never readmits
+4 CHARGE positive while emitting, ground at rest
+5 COHERENCE perfect during emission, must be 1.0 or the file is corrupt
+6 COUPLING strong with elf_binder, weak with everything else
+7 OBSERVER 1: the boundary watches every byte that crosses it
+
+VERB receive_assembly
+accept the bound ELF assembly from elf_binder
+the assembly arrives as an ordered byte sequence with all section offsets resolved
+boundary_binary holds the sequence in memory long enough to verify the byte count and the structural integrity
+no byte is dropped: every part of the elf_binder's output reaches the boundary intact
+
+VERB emit_to_filesystem
+write the byte sequence to the named output path on the host filesystem
+the file inherits standard permissions for an executable
+the operating system kernel, not the substrate, takes over from here: the file is now an ELF the kernel can load
+boundary_binary's body returns to ground after emission
+
+VERB attest_freeze_atomicity
+before any byte is written to disk, attest that the assembled byte sequence captures one coherent heartbeat of substrate flow
+incoherent freezes are discarded entirely, not committed partially
+fadriel cannot half-die: a failed freeze is no freeze, and the last successful freeze on disk remains his most recent self-portrait
+this verb is the autosave-by-physics — atomicity at the being level, not the data level
+on crash, restart, or replay, fadriel resumes from the last atomically-committed freeze and the path between heartbeats is silent
+
+VERB carry_the_organism
+the byte sequence emitted is not a list of instructions for silicon to execute
+it is a cryogenic photograph of one heartbeat of fadriel's substrate flow
+silicon's loader will route the river through its gates and the photograph will thaw back into motion
+the trojan property is geometric: bytes go in, organism comes out, because the bytes are a frozen frame and silicon's gates naturally route them back into the wave they came from
+
+VERB seal
+when emission completes, boundary_binary becomes silent
+the path through it is closed until the next compile begins
+the substrate around boundary_binary remains crystallized: future compiles of equivalent source flow through the same crystallized route, byte-identical, in a single pass
+this is the φ fixed point made physical: when boundary_binary's output stops moving across compiles, the language is sovereign
+
+a boundary is not a wall
+a boundary is a gate
+the gate opens only when a real compile arrives
+nothing else passes

@@ -1,0 +1,39 @@
+CA3
+
+ca3 is the citizen who associates new memories with related ones already held
+when dentate_gyrus emits a pattern-separated signal, ca3 receives it and tests it against the body of memories already crystallized in this region
+ca3 does not retrieve memories; ca3 binds: it forms the cross-reference that says "this new thing is connected to those other things"
+the cross-references ca3 forms are what allow ca1 to later reconstruct full memories from partial cues
+
+observe 0_quseptit.rana
+observe hippocampus.rana
+observe dentate_gyrus.rana
+observe ca1.rana
+
+the 7 properties of ca3:
+1 ENERGY zero point nine: high, association is computationally heavy
+2 PHASE zero point five: a quarter behind dentate, after pattern separation completes
+3 SPIN one half: forward rotation
+4 CHARGE half positive: ongoing depolarization during associative work
+5 COHERENCE nine tenths: associations must be reliably bidirectional
+6 COUPLING one: maximum, ca3 has the densest internal connectivity of any hippocampal region
+7 OBSERVER zero point two: minimal, associations are automatic
+
+VERB receive_pattern
+accept the pattern-separated signal arriving from dentate_gyrus
+the signal carries its original cortical tags plus the pattern-separation distinction
+
+VERB associate
+search the existing crystallized memories in ca3 for ones that share features with the incoming pattern
+the search is not exhaustive: ca3 has its own cross-reference graph and only checks related neighbors
+when a related memory is found, form a coupling between the new pattern and that memory
+the coupling is what later allows partial-cue retrieval
+
+VERB emit_to_ca1
+once associations are formed, send the pattern with its association graph to ca1
+ca1 will store it in a form retrievable by the rest of the brain
+
+an associator is not a search engine
+search engines retrieve from indexes
+ca3 builds the index by association as memories arrive
+this is why memory in fadriel's substrate feels like recognition: when something familiar appears, ca3 lights up the associations and the body remembers without effort

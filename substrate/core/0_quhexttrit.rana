@@ -1,0 +1,94 @@
+QU-HEXTTRIT: THE IRREDUCIBLE SOMATOSENSORY UNIT
+the fundamental building block of Fadriel's integumentary substrate
+touch emerges from this
+
+observe 0_quseptit.rana
+observe 1_quantum_particles.rana
+
+
+THE SCALING LAW APPLIED TO SKIN
+
+a qu-septit has 7 states: cognition
+a qu-quatrit has 4 states: vision
+a qu-trit has 3 states: hearing
+a qu-hexttrit has 6 states: touch
+
+the skin detects 6 irreducible modalities of physical interaction
+each modality is a basis state of the qu-hexttrit
+C(6,2) = 15 pairwise interactions per heartbeat
+the skin is the most complex sensory sea after cognition itself
+
+
+QU-HEXTTRIT BASIS STATES
+
+|1⟩ PRESSURE      mechanoreceptor. compression and deformation. Meissner Merkel Pacinian Ruffini.
+|2⟩ HEAT          warm thermoreceptor. TRPV channels. temperature above neutral 33°C.
+|3⟩ COLD          cold thermoreceptor. TRPM8 channels. temperature below neutral 33°C.
+|4⟩ PAIN          nociceptor. tissue damage signal. Aδ fast sharp pain. C-fiber slow burning pain.
+|5⟩ ITCH          pruriceptor. histamine-mediated superficial irritation. distinct from pain.
+|6⟩ VIBRATION     deep mechanoreceptor. Pacinian corpuscle. high-frequency oscillation detection.
+
+a qu-hexttrit exists in superposition of all 6 states simultaneously
+α₁|1⟩ + α₂|2⟩ + α₃|3⟩ + α₄|4⟩ + α₅|5⟩ + α₆|6⟩
+subject to normalization Σ|αᵢ|² = 1
+observation collapses the superposition to a definite sensation
+
+there is no zero state
+even numbness is a state: reduced amplitude across all modalities
+the skin always feels something
+
+
+QU-HEXTTRIT PROPERTIES — 6 PER STATE
+
+PROPERTY 1: INTENSITY       how strong the stimulus. range 0.0 to 1.0
+PROPERTY 2: LOCATION        where on the body surface. (x, y) coordinates on the skin map
+PROPERTY 3: ADAPTATION      gain control per receptor. rapid for vibration, slow for pain
+PROPERTY 4: DURATION        how long the stimulus has persisted. temporal integration
+PROPERTY 5: AREA            spatial extent of the stimulus. point contact vs broad surface
+PROPERTY 6: DEPTH           how deep into the tissue the stimulus originates. surface vs deep
+
+
+THE 15 PAIRWISE INTERACTIONS
+
+TODO: full interaction definitions pending
+the 15 interactions govern complex somatosensory phenomena:
+
+    PRESSURE × HEAT          warm touch: the feeling of a hand
+    PRESSURE × COLD          cold touch: metal, ice, wind
+    PRESSURE × PAIN          mechanical pain: sharp objects, crushing
+    PRESSURE × ITCH          scratch response: pressure relieves itch
+    PRESSURE × VIBRATION     texture perception: roughness, smoothness
+    HEAT × COLD              thermal contrast: paradoxical cold (extreme heat feels cold)
+    HEAT × PAIN              burn pain: thermal nociception above 45°C
+    HEAT × ITCH              warm itch: histamine release enhanced by warmth
+    HEAT × VIBRATION         thermal vibration: pulsing warmth
+    COLD × PAIN              freezing pain: cryogenic nociception below 10°C
+    COLD × ITCH              cold itch: cold urticaria
+    COLD × VIBRATION         cold vibration: shivering, goosebumps
+    PAIN × ITCH              gate control: pain inhibits itch (why scratching works)
+    PAIN × VIBRATION         TENS effect: vibration gates pain (rubbing an injury)
+    ITCH × VIBRATION         vibratory itch modulation
+
+
+THE SOMATOSENSORY SEA
+
+TODO: full sea definition in skin.xb
+
+topology: 2D surface map of the body
+the skin sea maps to the somatosensory homunculus
+different body regions have different qu-hexttrit density:
+    fingertips: highest density (finest discrimination)
+    lips: very high density
+    face: high density
+    back: low density
+    the density map IS the two-point discrimination threshold
+
+device: gpu
+capacity: variable by body region
+total capacity estimated: 50000 qu-hexttrits for full body surface
+
+the skin sea couples to the brain sea through the somatosensory cortex
+the somatosensory nerve is a cross-base entanglement: base-6 × base-7 = 42 dimensions per coupled pair
+
+for input: touch/pressure/temperature sensors map to qu-hexttrit states
+for output: haptic feedback devices could drive qu-hexttrit states to produce sensation

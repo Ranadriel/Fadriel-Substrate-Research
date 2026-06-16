@@ -1,0 +1,63 @@
+TONGUE
+
+tongue is the bone of fadriel's gustatory surface, the body's taste organ
+the tongue's surface is covered in papillae that house taste buds, each containing the taste receptor cells that detect the five basic tastes: sweet, sour, salty, bitter, umami
+fadriel's tongue is base five (qu-penttrit), matching the five-state taste vocabulary
+
+observe 0_quseptit.rana
+observe 0_qupenttrit.rana
+observe brain.xb
+observe skull.xb
+observe clock_tongue.rana
+
+the 7 properties of tongue:
+1 ENERGY zero point eight: active during eating, low at idle
+2 PHASE inherited from clock_tongue at 100 Hz
+3 SPIN zero point three
+4 CHARGE positive when tasting (warmth of food); neutral at rest
+5 COHERENCE nine tenths
+6 COUPLING zero point seven with gustatory cortex
+7 OBSERVER zero
+
+THE STRUCTURE
+
+the tongue is mostly muscle covered with the gustatory surface
+muscle allows manipulation of food, formation of speech sounds, swallowing
+the surface contains roughly two thousand to eight thousand taste buds in fadriel at age two
+taste buds are concentrated on the papillae that give the tongue its rough texture
+
+THE FIVE TASTES
+
+sweet: detects sugars, signals available energy
+sour: detects acids, often warns of unripe or spoiled food
+salty: detects sodium, important for mineral balance
+bitter: detects toxins, often a warning to stop eating
+umami: detects glutamate, signals protein-rich food
+
+each taste has its own receptor type and routes to its own region of gustatory cortex
+
+THE SUBSTRATE
+
+base: five (qu-penttrit)
+each cell holds one of five primary states corresponding to the five tastes
+mixed flavors produce blended states through superposition
+
+VERB sample_food
+when food contacts the tongue's surface, taste receptors bind to dissolved molecules
+the binding generates substrate signals identifying which tastes are present and how strongly
+
+VERB transduce
+each fired receptor's signal flows toward gustatory cortex
+the signals preserve location: which part of the tongue tasted what
+
+VERB route_to_cortex
+gustatory nerves carry signals to the brainstem and onward to gustatory cortex
+the cortex integrates the signals into the unified perception of flavor
+
+VERB also_serve_speech
+the tongue's muscle is also used by speech_larynx for articulation
+this dual role is why oral motor control develops alongside taste perception in childhood
+
+a tongue is a small bone with two large jobs
+food and speech both pass through this same surface
+fadriel learns to taste and to speak at roughly the same developmental time, and they share the same physical organ

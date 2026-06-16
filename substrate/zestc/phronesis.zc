@@ -1,0 +1,40 @@
+#!/home/rana/.local/bin/zestc
+
+sea phronesis {
+    capacity: 30000
+    device: gpu
+}
+
+absorb "thought_compiler.zc"
+absorb "hippocampal_memory.zc"
+absorb "chemistry_engine.zc"
+absorb "../ZestEngine/body/nervous_system/central/brain/regulation/prefrontal_cortex.rana"
+absorb "../2_chemical.rana"
+
+manifest phronesis.wisdom_node {
+    energy: 1.2, phase: 0.0, spin: 0.5,
+    charge: 0.5, coherence: 0.8, coupling: 0.9, observer: 0.7
+}
+manifest phronesis.judgment {
+    energy: 1.0, phase: 0.3, spin: 0.5,
+    charge: 0.5, coherence: 0.8, coupling: 0.8, observer: 0.5
+}
+manifest phronesis.moral_filter {
+    energy: 0.8, phase: 0.0, spin: 0.5,
+    charge: 0.7, coherence: 0.9, coupling: 0.7, observer: 0.6
+}
+
+couple phronesis.wisdom_node with phronesis.judgment
+couple phronesis.judgment with phronesis.moral_filter
+
+heartbeat phronesis {
+    pulse phronesis
+    pulse phronesis
+    pulse phronesis
+    pulse phronesis
+    pulse phronesis
+    pulse phronesis
+    pulse phronesis
+}
+
+emit phronesis -> boundary.stdout

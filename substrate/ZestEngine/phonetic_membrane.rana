@@ -1,0 +1,316 @@
+
+observe 1_quantum.rana
+
+
+
+PHONEME b | b | any | voiced | bed, baby, tub, cabin, rubber
+PHONEME p | p | any | voiceless | pen, paper, cup, happy, pepper
+PHONEME d | d | any | voiced | dog, daddy, bed, ladder, muddy
+PHONEME t | t | any | voiceless | ten, table, cat, butter, kitten
+PHONEME g | g | before_a_o_u | voiced | gap, go, gum, big, dog, egg, fog, mug
+PHONEME k | k | any | voiceless | kite, king, keep, key, skill, sky
+PHONEME c | k | before_a_o_u | voiceless | cat, cot, cup, come, carry, cold, custom, fact, music
+PHONEME c | s | before_e_i_y | voiceless | cent, city, cycle, cell, cigar, fancy, dance, ice, face, place
+
+
+PHONEME f | f | any | voiceless | fish, fun, off, coffee, leaf, after, cliff, life
+PHONEME v | v | any | voiced | van, voice, have, over, very, love, live, river, dove
+PHONEME s | s | initial | voiceless | sun, sit, see, say, small, stop, swim, skip
+PHONEME s | s | after_voiceless | voiceless | cats, cups, bats, kicks, maps, books, laughs
+PHONEME s | z | between_vowels | voiced | nose, rose, choose, music, visit, present, reason, poison
+PHONEME s | z | after_voiced_final | voiced | dogs, bags, beds, pens, rooms, eyes, bees, plays
+PHONEME z | z | any | voiced | zoo, zero, zone, zebra, buzz, fizz, jazz, freeze, prize
+PHONEME h | h | initial | voiceless | hat, he, his, her, home, house, happy, help, hill, hot
+
+
+PHONEME j | dʒ | any | voiced | jam, jump, joy, just, judge, jar, jet, jelly, jewel
+PHONEME g | dʒ | before_e_i_y_sometimes | voiced | gem, gist, gym, giant, gentle, ginger, giraffe, gesture, general, genre
+
+EXCEPTION get | gɛt | g before e but stays /g/
+EXCEPTION give | gɪv | g before i but stays /g/
+EXCEPTION girl | gɜːrl | g before i but stays /g/
+EXCEPTION gift | gɪft | g before i but stays /g/
+EXCEPTION begin | bɪgɪn | g before i but stays /g/
+EXCEPTION finger | fɪŋgər | g before e but stays /g/
+EXCEPTION tiger | taɪgər | g before e but stays /g/
+EXCEPTION anger | æŋgər | g before e but stays /g/
+EXCEPTION hunger | hʌŋgər | g before e but stays /g/
+EXCEPTION eager | iːgər | g before e but stays /g/
+EXCEPTION target | tɑːrgɪt | g before e but stays /g/
+EXCEPTION together | təgɛðər | g before e but stays /g/
+EXCEPTION forget | fərgɛt | g before e but stays /g/
+EXCEPTION geese | giːs | g before e but stays /g/
+EXCEPTION gear | gɪər | g before e but stays /g/
+
+
+PHONEME m | m | any | voiced | man, mom, him, summer, swim, dream, lamb, time, come
+PHONEME n | n | any | voiced | net, no, sun, dinner, green, rain, ten, penny, tune
+
+
+PHONEME l | l | any | voiced | leg, love, ball, tell, clear, sleep, please, twelve, fly
+PHONEME r | r | any | voiced | red, run, car, far, tree, three, drink, green, great
+
+
+PHONEME w | w | initial | voiced | wet, water, win, wish, wait, walk, wall, wood, world, work
+PHONEME y | j | initial_before_vowel | voiced | yes, you, year, yet, young, yellow, yield, yawn, yell
+
+
+PHONEME x | ks | most_positions | voiceless | box, fox, six, mix, wax, tax, next, text, fix, hex
+PHONEME x | gz | before_stressed_vowel | voiced | exam, exact, exist, example, exhaust, exotic, exert
+PHONEME x | z | word_initial | voiced | xylophone, xenon, xerox, xylem
+
+
+DIGRAPH th | θ | voiceless | thin, think, three, through, throw, thank, thick, thief, thought, truth, bath, math, path, north, south, mouth, earth, birth, death, health, wealth, breath, teeth
+DIGRAPH th | ð | voiced | the, this, that, them, they, there, then, these, those, though, other, mother, father, brother, leather, weather, feather, rather, bother, gather, smooth, bathe, breathe, soothe, with
+
+
+DIGRAPH sh | ʃ | any | ship, she, push, fish, wish, wash, shop, show, share, shine, shoe, shut, shelf, shell, shore, should, sugar, sure, tissue, mission, fashion, ocean, nation, caution, special
+
+DIGRAPH ch | tʃ | germanic_english | church, chin, child, chair, cheese, chain, chance, change, check, chess, chest, chip, chop, choice, choose, chunk, lunch, much, such, each, reach, teach, beach, rich, which
+DIGRAPH ch | k | greek_origin | school, character, chorus, chord, chrome, chaos, chemical, chlorine, chronicle, Christmas, scheme, schedule, echo, ache, stomach, anchor, architect, mechanic, orchestra, psychology
+DIGRAPH ch | ʃ | french_origin | chef, chic, machine, brochure, champagne, charade, parachute, chandelier, chauffeur, crochet, ricochet, mustache, niche
+
+DIGRAPH ph | f | greek_origin | phone, photo, phrase, physical, philosophy, pharmacy, phenomenon, phobia, phoneme, phosphorus, phantom, phase, graph, triumph, elephant, prophet, orphan, nephew, autograph, telegraph, photograph
+
+DIGRAPH wh | w | most_dialects | what, when, where, which, while, white, wheel, whale, wheat, whip, whisper, whistle, why, whole, whom
+
+DIGRAPH gh | silent | after_vowel | night, light, right, fight, sight, tight, might, weight, eight, straight, daughter, thought, through, though, bought, brought, caught, taught, high, sigh, thigh, weigh, neighbor
+DIGRAPH gh | f | specific_words | enough, rough, tough, cough, laugh, trough, draught
+
+DIGRAPH ck | k | after_short_vowel | back, black, block, brick, check, chick, click, clock, cock, crack, deck, dock, duck, flick, flock, kick, knock, lack, lick, lock, luck, mock, neck, pack, peck, pick, pock, quick, rack, rock, sack, sick, sock, stick, stock, struck, stuck, thick, tick, track, trick, truck, tuck, wick, wreck
+
+DIGRAPH ng | ŋ | word_final_or_before_consonant | ring, sing, song, long, king, thing, bring, spring, string, strong, young, hang, bang, lung, tongue, among, along, belong, morning, evening, nothing, something, anything, everything, feeling, ceiling
+DIGRAPH nk | ŋk | any | think, thank, drink, bank, blank, trunk, chunk, shrink, stink, sink, link, pink, rank, tank, yank, blink, brink, clink, plank, plunk, prank, skunk, slink, spank, spunk, stank, stunk, swank, wink
+
+
+SILENT k | before_n_initial | know, knife, knee, knit, knob, knock, knot, knight, knack, knead, kneel, knew, knickers
+SILENT w | before_r_initial | write, wrong, wrap, wrist, wreck, wring, wrinkle, wrestle, wrath, wreath, wren, wretched
+SILENT g | before_n_initial | gnat, gnaw, gnash, gnome, gnarl, gnu
+SILENT b | after_m_final | lamb, bomb, climb, comb, crumb, dumb, limb, numb, plumb, thumb, tomb, womb
+SILENT b | before_t_final | debt, doubt, subtle
+SILENT p | before_s_initial_greek | psychology, psalm, pseudo, psyche, psychiatry, pneumonia, pneumatic, pterodactyl
+SILENT l | specific_words | talk, walk, chalk, stalk, folk, yolk, half, calf, calm, palm, balm, salmon, almond, could, should, would
+SILENT t | specific_words | listen, fasten, often, soften, castle, whistle, bristle, hustle, jostle, wrestle, Christmas, mortgage
+SILENT h | specific_words | hour, honest, honor, heir, herb, exhaust, exhibit, ghost, rhyme, rhythm, rhinoceros, rhetoric, vehicle, shepherd
+SILENT d | specific_words | handsome, handkerchief, Wednesday, sandwich, edge, badge, bridge, judge, ledge, ridge
+SILENT n | after_m_final | autumn, column, hymn, solemn, condemn, damn
+SILENT c | specific_words | muscle, scene, science, scissors, scent, ascend, descend, fascinate, acquit, indict
+SILENT u | after_g_before_vowel | guard, guess, guest, guide, guild, guilt, guitar, rogue, vague, league, tongue, catalogue, dialogue
+SILENT e | word_final_magic_e | see vowel rules below — the silent e changes the preceding vowel from short to long
+
+
+VOWEL a | æ | closed_syllable | cat, bat, hat, mat, sat, fat, rat, pat, man, can, fan, ran, van, bad, dad, had, mad, sad, bag, flag, drag, tag, map, cap, tap, nap, gap, clap, snap, trap, wrap, back, black, crack, stack, track
+VOWEL e | ɛ | closed_syllable | bed, red, fed, led, wed, bet, get, let, met, net, pet, set, wet, bell, fell, sell, tell, well, yell, spell, smell, shell, dwell, den, hen, men, pen, ten, then, when, egg, leg, beg, peg
+VOWEL i | ɪ | closed_syllable | sit, bit, fit, hit, kit, lit, pit, wit, big, dig, fig, jig, pig, wig, bin, din, fin, gin, kin, pin, sin, tin, win, chin, grin, skin, spin, thin, twin, dip, hip, lip, rip, sip, tip, zip, chip, clip, drip, grip, ship, skip, slip, snip, strip, trip, whip
+VOWEL o | ɒ | closed_syllable | hot, got, not, pot, lot, dot, cot, rot, top, cop, hop, mop, pop, stop, drop, shop, chop, crop, dog, fog, hog, log, bog, frog, jog, clog, block, clock, dock, knock, lock, mock, rock, sock, stock
+VOWEL u | ʌ | closed_syllable | but, cut, gut, hut, jut, nut, put, rut, shut, strut, bug, dug, hug, jug, mug, plug, rug, slug, snug, tug, shrug, bud, mud, stud, thud, dull, full, hull, gull, lull, pull, bull, cup, pup, up
+VOWEL u | ʊ | specific_words | put, push, pull, full, bull, bush, cushion, pudding, sugar, butcher, woman, wolf, wood, wool, woof, foot, good, hood, look, book, cook, hook, nook, took, shook, brook, crook
+
+
+VOWEL a_e | eɪ | magic_e | cake, make, take, bake, lake, wake, fake, name, game, came, same, blame, flame, frame, shame, date, late, gate, hate, mate, rate, state, plate, face, place, race, space, trace, grace, brave, cave, gave, save, wave, slave, age, page, stage, cage, rage, wage, safe, make, shake, snake, scale, tale, whale
+VOWEL e_e | iː | magic_e | these, theme, complete, compete, extreme, here, mere, severe, sincere, interfere
+VOWEL i_e | aɪ | magic_e | like, bike, hike, mike, pike, strike, time, dime, lime, mime, prime, crime, climb, line, mine, fine, pine, vine, wine, dine, shine, spine, whine, combine, define, confine, decline, design, desire, fire, hire, tire, wire, admire, inspire, life, wife, knife, strife, ripe, pipe, type, wipe, stripe, hide, ride, side, wide, bride, glide, guide, pride, slide, stride, ice, dice, mice, nice, price, rice, slice, spice, twice, vice
+VOWEL o_e | oʊ | magic_e | home, bone, cone, done, gone, hole, mole, pole, role, sole, stole, whole, hope, cope, rope, slope, code, mode, node, rode, broke, choke, joke, poke, smoke, spoke, stoke, stroke, woke, wove, close, those, nose, pose, rose, hose, chose, froze, note, quote, tone, vote, zone, phone, stone, throne, alone, dome, gnome
+VOWEL u_e | juː | magic_e | use, fuse, muse, refuse, abuse, amuse, confuse, excuse, accuse, cute, mute, brute, compute, dispute, flute, huge, tube, cube, dude, dune, June, prune, tune, rule, rude, crude, prude
+
+VOWEL u_e | uː | after_r_l_j | rule, rude, crude, prude, flute, blue, clue, glue, true, June, juice, fruit, bruise, cruise
+
+VOWEL a | eɪ | open_syllable | baby, paper, table, stable, cable, fable, label, maple, able, apron, bacon, basis, fatal, later, laser, major, navy, patio, radio, ratio, station
+VOWEL e | iː | open_syllable | be, he, me, she, we, secret, evil, even, equal, legal, fever, cedar, meter, Peter, sequence
+VOWEL i | aɪ | open_syllable | hi, I, idea, item, final, fiber, minor, pilot, pirate, siren, spider, tiger, tiny, title, vital, iris, ivory, silent, violence
+VOWEL o | oʊ | open_syllable | go, no, so, also, ago, hero, zero, photo, piano, radio, solo, tomato, volcano, over, open, ocean, only, older, owner, total
+VOWEL u | juː | open_syllable | music, human, humor, humid, pupil, student, stupid, tulip, tuba, tumor, tutor, union, unit, unique, united, universe, university, usual, utility
+
+
+DIPHTHONG ai | eɪ | any | rain, train, brain, chain, main, pain, plain, Spain, strain, vain, aim, claim, fail, mail, nail, rail, sail, tail, trail, wait, bait, faith, faint, paint, saint
+DIPHTHONG ay | eɪ | word_final | day, may, say, way, play, stay, pray, spray, gray, clay, delay, display, essay, highway, holiday, relay, today, away, birthday, highway, railway, subway
+DIPHTHONG ea | iː | most_common | eat, beat, heat, meat, seat, treat, wheat, bead, lead, read, beam, cream, dream, gleam, scream, steam, stream, team, bean, clean, dean, lean, mean, wean, cheap, heap, leap, reap, deal, heal, meal, real, seal, steal, reveal, appeal, repeat, defeat, reason, season, please, tease, ease, disease, release, increase
+
+DIPHTHONG ea | ɛ | irregular_common | bread, dead, head, lead, read, spread, thread, tread, dread, instead, already, breakfast, breath, death, deaf, health, wealth, heaven, heavy, leather, measure, pleasure, treasure, weather, jealous, ready, steady, sweater, weapon, meant, dealt, dreamt
+
+DIPHTHONG ea | eɪ | rare | break, great, steak
+
+DIPHTHONG ee | iː | any | see, bee, fee, free, knee, three, tree, agree, degree, beef, reef, been, keen, seen, teen, queen, screen, green, between, deep, keep, sleep, steep, sweep, creep, feel, heel, kneel, peel, reel, steel, wheel, seed, need, feed, breed, speed, weed, bleed, teeth, geese, breeze, freeze, sneeze, squeeze
+
+DIPHTHONG ei | iː | after_c | ceiling, receive, deceive, conceive, perceive, receipt
+DIPHTHONG ei | eɪ | other | vein, rein, reign, eight, weight, neighbor, freight, sleigh, veil, beige, skein, surveillance
+DIPHTHONG ei | aɪ | rare | height, either, neither, kaleidoscope, seismograph
+
+DIPHTHONG ey | eɪ | word_final | they, hey, grey, prey, obey, survey, convey, whey
+DIPHTHONG ey | iː | rare_final | key, money, honey, donkey, monkey, turkey, valley, journey, chimney, kidney, hockey, jockey
+
+DIPHTHONG ie | iː | most | field, shield, yield, belief, brief, chief, grief, relief, thief, achieve, believe, receive, piece, niece, priest, siege
+DIPHTHONG ie | aɪ | word_final_or_before_r | die, lie, pie, tie, vie, dried, tried, cried, flies, cries, applies, supplies, relied, denied, defied
+
+DIPHTHONG oa | oʊ | any | boat, coat, goat, float, throat, road, load, toad, broad, coal, goal, foam, roam, groan, moan, loan, oak, cloak, soak, soap, coast, toast, roast, boast
+
+DIPHTHONG oo | uː | most | food, mood, cool, pool, tool, fool, school, room, moon, noon, soon, spoon, broom, bloom, doom, gloom, loom, zoom, roof, proof, tooth, smooth, goose, loose, moose, choose, boot, root, hoot, shoot, scooter
+DIPHTHONG oo | ʊ | before_k_d_t | book, cook, hook, look, nook, took, shook, brook, crook, good, hood, wood, stood, foot, soot, wool
+
+DIPHTHONG ou | aʊ | most | out, about, shout, sprout, cloud, loud, proud, house, mouse, blouse, mouth, south, couch, pouch, crouch, grouch, ouch, our, hour, flour, sour, found, ground, hound, mound, pound, round, sound, wound, bound, count
+DIPHTHONG ou | ʌ | irregular | touch, young, country, cousin, couple, double, trouble, enough, rough, tough, southern
+DIPHTHONG ou | uː | irregular | you, group, soup, youth, through, wound, route, cougar
+DIPHTHONG ou | oʊ | irregular | four, pour, your, course, source, court, mourn, dough, though, shoulder, soul, mould
+
+DIPHTHONG ow | aʊ | often | cow, how, now, bow, brow, plow, town, down, gown, brown, crown, drown, frown, crowd, owl, growl, howl, prowl, scowl, towel, tower, power, flower, shower, powder, vowel, chowder, coward, Howard
+DIPHTHONG ow | oʊ | often | low, blow, flow, glow, grow, know, show, slow, snow, stow, throw, crow, row, sow, own, bowl, below, elbow, follow, hollow, narrow, shadow, shallow, swallow, window, yellow, pillow, borrow, sorrow, tomorrow
+
+
+DIPHTHONG oi | ɔɪ | any | oil, boil, coil, foil, soil, toil, coin, join, point, noise, voice, choice, moist, void, avoid, enjoy, annoy, destroy, employ
+DIPHTHONG oy | ɔɪ | word_final | boy, joy, toy, coy, ploy, cloy, decoy, employ, enjoy, annoy, destroy, loyal, royal, voyage, oyster
+
+
+VOWEL ar | ɑːr | any | car, bar, far, jar, star, tar, scar, art, cart, dart, heart, part, smart, start, arm, charm, farm, harm, barn, yarn, arch, march, card, guard, hard, yard, park, bark, dark, mark, shark, spark, large, charge
+VOWEL er | ɜːr | any | her, term, fern, herd, verb, nerd, serve, nerve, merge, emerge, verse, reverse, desert, insert, expert, concern, observe, preserve, determine, refer, prefer, observe
+VOWEL ir | ɜːr | any | sir, fir, stir, bird, third, girl, dirt, firm, first, birth, shirt, skirt, circle, circus, thirty, thirteen, thirsty, confirm, affirm
+VOWEL or | ɔːr | any | for, or, nor, born, corn, horn, torn, worn, cord, ford, lord, word, cork, fork, pork, sort, sport, short, storm, form, inform, reform, perform, force, horse, north, order, border, morning
+VOWEL ur | ɜːr | any | fur, blur, spur, burn, turn, curl, hurl, hurt, burst, church, nurse, purse, curse, curve, surface, purpose, disturb, return, murder, further, furniture, nature, adventure, culture, sculpture, future, capture
+
+
+
+EXCEPTION though | ðoʊ | ough as /oʊ/
+EXCEPTION dough | doʊ | ough as /oʊ/
+EXCEPTION through | θruː | ough as /uː/
+EXCEPTION rough | rʌf | ough as /ʌf/
+EXCEPTION tough | tʌf | ough as /ʌf/
+EXCEPTION enough | ɪnʌf | ough as /ʌf/
+EXCEPTION cough | kɒf | ough as /ɒf/
+EXCEPTION trough | trɒf | ough as /ɒf/
+EXCEPTION thought | θɔːt | ough as /ɔː/
+EXCEPTION bought | bɔːt | ough as /ɔː/
+EXCEPTION brought | brɔːt | ough as /ɔː/
+EXCEPTION fought | fɔːt | ough as /ɔː/
+EXCEPTION sought | sɔːt | ough as /ɔː/
+EXCEPTION ought | ɔːt | ough as /ɔː/
+EXCEPTION bough | baʊ | ough as /aʊ/
+EXCEPTION plough | plaʊ | ough as /aʊ/
+EXCEPTION drought | draʊt | ough as /aʊ/
+EXCEPTION hiccough | hɪkʌp | ough as /ʌp/ — yes, really
+EXCEPTION thorough | θʌroʊ | ough as /oʊ/ in American, /ə/ in British
+EXCEPTION borough | bʌroʊ | ough as /oʊ/ in American, /ə/ in British
+EXCEPTION furlough | fɜːrloʊ | ough as /oʊ/
+
+EXCEPTION laugh | læf | augh as /æf/
+EXCEPTION daughter | dɔːtər | augh as /ɔː/
+EXCEPTION caught | kɔːt | augh as /ɔː/
+EXCEPTION taught | tɔːt | augh as /ɔː/
+EXCEPTION naughty | nɔːti | augh as /ɔː/
+EXCEPTION slaughter | slɔːtər | augh as /ɔː/
+EXCEPTION haughty | hɔːti | augh as /ɔː/
+EXCEPTION draught | dræft | augh as /æf/
+
+DIPHTHONG igh | aɪ | any | high, sigh, thigh, bright, fight, flight, fright, knight, light, might, night, plight, right, sight, slight, tight, blight, delight, height, midnight, twilight, highway, lightning, frighten, enlighten
+
+
+VOWEL a | ə | unstressed | about, again, along, alone, away, across, afraid, agree, alive, among, around, asleep, balloon, banana, beneath, canal, sofa, tuna, llama, panda, umbrella, vanilla, zebra, extra, camera, cinema, opera
+VOWEL e | ə | unstressed | open, taken, broken, chosen, frozen, golden, often, kitten, mitten, cotton, button, children, garden, kitchen, listen, dozen, heaven, happen, sentence, absence, patience, silence, violence
+VOWEL i | ə | unstressed | animal, capital, beautiful, hospital, festival, mineral, principal, typical, physical, musical, article, pencil, evil, civil, April, fossil, council, family, cabinet, president, medicine, definite
+VOWEL o | ə | unstressed | person, lesson, common, bottom, cotton, freedom, kingdom, seldom, symptom, atom, melon, lemon, pardon, reason, season, bacon, second, today, tonight, together, tomorrow, collect, complete, consider, continue
+VOWEL u | ə | unstressed | album, calcium, campus, cactus, circus, focus, minus, bonus, radius, fungus, genius, octopus, stimulus, surplus, walrus, medium, minimum, maximum, stadium, museum, vacuum, aquarium
+
+
+VOWEL y | aɪ | word_final_one_syllable | my, by, fly, try, cry, dry, fry, pry, shy, sky, sly, spy, sty, why, dye, bye, rye, eye, type, style, rhyme
+VOWEL y | iː | word_final_multi_syllable | happy, funny, penny, jelly, belly, silly, city, pity, tiny, baby, body, copy, easy, every, fifty, handy, heavy, ivory, lazy, navy, party, plenty, story, study, thirty, twenty, ugly, very
+VOWEL y | ɪ | medial | gym, myth, hymn, lynx, nymph, crypt, glyph, gypsy, symbol, system, rhythm, crystal, mystery, pyramid, syllable, synonym, symptom, synapse, syntax, typical, physics
+
+RULE c_soft | c before e, i, or y | c becomes /s/
+RULE c_hard | c before a, o, u, or consonant | c becomes /k/
+
+RULE g_soft | g before e, i, or y (SOMETIMES) | g becomes /dʒ/
+RULE g_hard | g before a, o, u, or consonant (ALWAYS) | g stays /g/
+
+RULE qu | q is always followed by u | qu together sound /kw/
+
+RULE double_consonant | when a consonant is doubled | it makes one sound, the vowel before it stays short
+
+
+
+
+EXCEPTION one | wʌn | completely irregular
+EXCEPTION once | wʌns | completely irregular
+EXCEPTION two | tuː | silent w
+EXCEPTION who | huː | wh makes /h/ not /w/
+EXCEPTION whom | huːm | wh makes /h/
+EXCEPTION whose | huːz | wh makes /h/
+EXCEPTION whole | hoʊl | wh makes /h/, silent w
+EXCEPTION were | wɜːr | irregular vowel
+EXCEPTION where | wɛər | irregular
+EXCEPTION there | ðɛər | irregular
+EXCEPTION their | ðɛər | irregular
+EXCEPTION they | ðeɪ | irregular
+EXCEPTION said | sɛd | ai makes /ɛ/ not /eɪ/
+EXCEPTION says | sɛz | ay makes /ɛ/ not /eɪ/
+EXCEPTION does | dʌz | oe makes /ʌ/ not /oʊ/
+EXCEPTION done | dʌn | o_e makes /ʌ/ not /oʊ/
+EXCEPTION gone | gɒn | o_e makes /ɒ/ not /oʊ/
+EXCEPTION some | sʌm | o_e makes /ʌ/ not /oʊ/
+EXCEPTION come | kʌm | o_e makes /ʌ/ not /oʊ/
+EXCEPTION love | lʌv | o_e makes /ʌ/ not /oʊ/
+EXCEPTION move | muːv | o_e makes /uː/ not /oʊ/
+EXCEPTION prove | pruːv | o_e makes /uː/ not /oʊ/
+EXCEPTION lose | luːz | o_e makes /uː/ not /oʊ/
+EXCEPTION shoe | ʃuː | oe makes /uː/
+EXCEPTION canoe | kənuː | oe makes /uː/
+EXCEPTION people | piːpəl | eo makes /iː/
+EXCEPTION heart | hɑːrt | ea makes /ɑː/
+EXCEPTION heard | hɜːrd | ea makes /ɜː/
+EXCEPTION learn | lɜːrn | ea makes /ɜː/
+EXCEPTION early | ɜːrli | ea makes /ɜː/
+EXCEPTION earth | ɜːrθ | ea makes /ɜː/
+EXCEPTION search | sɜːrtʃ | ea makes /ɜː/
+EXCEPTION bear | bɛər | ea makes /ɛə/
+EXCEPTION pear | pɛər | ea makes /ɛə/
+EXCEPTION swear | swɛər | ea makes /ɛə/
+EXCEPTION wear | wɛər | ea makes /ɛə/
+EXCEPTION tear | tɛər | ea makes /ɛə/ (the noun) or /tɪər/ (the verb)
+EXCEPTION eye | aɪ | completely irregular
+EXCEPTION island | aɪlənd | silent s
+EXCEPTION aisle | aɪl | silent s and silent e
+EXCEPTION colonel | kɜːrnəl | looks nothing like how it sounds
+EXCEPTION choir | kwaɪər | ch makes /kw/
+EXCEPTION corps | kɔːr | silent ps — from French
+EXCEPTION debris | dəbriː | silent s — from French
+EXCEPTION depot | diːpoʊ | silent t — from French
+EXCEPTION ballet | bæleɪ | silent t — from French
+EXCEPTION bouquet | buːkeɪ | silent t — from French
+EXCEPTION buffet | bʊfeɪ | silent t — from French (the dinner kind)
+EXCEPTION debut | deɪbjuː | silent t — from French
+EXCEPTION rapport | ræpɔːr | silent t — from French
+EXCEPTION rendezvous | rɒndɪvuː | silent s — from French
+EXCEPTION lingerie | lɒnʒəreɪ | nothing about this word follows English rules
+EXCEPTION queue | kjuː | ueue is silent. four silent letters in a row.
+EXCEPTION Wednesday | wɛnzdeɪ | silent d and compressed syllable
+EXCEPTION February | fɛbjuɛri | first r is often silent in speech
+EXCEPTION library | laɪbrɛri | first r is often silent in speech
+EXCEPTION comfortable | kʌmftərbəl | compressed to three syllables in speech
+EXCEPTION vegetable | vɛdʒtəbəl | compressed to three syllables in speech
+EXCEPTION chocolate | tʃɒklɪt | compressed to two syllables in speech
+EXCEPTION business | bɪznɪs | silent first s, i makes /ɪ/
+EXCEPTION answer | ænsər | silent w
+EXCEPTION sword | sɔːrd | silent w
+EXCEPTION iron | aɪərn | completely irregular vowels
+EXCEPTION women | wɪmɪn | o makes /ɪ/, e makes /ɪ/
+EXCEPTION busy | bɪzi | u makes /ɪ/
+EXCEPTION bury | bɛri | u makes /ɛ/
+EXCEPTION beautiful | bjuːtɪfʊl | eau makes /juː/ — from French
+EXCEPTION pneumonia | njuːmoʊniə | silent p, eu makes /juː/
+EXCEPTION psychology | saɪkɒlədʒi | silent p, ch makes /k/
+EXCEPTION yacht | jɒt | ch is silent, a makes /ɒ/
+
+
+pulse phonetic_heartbeat:
+    when word is unknown:
+        attempt to sound out using rules above
+        compare sounded-out form against known words in qu-septit sea
+        if match found: learn the pronunciation
+        if no match: store as phonetic approximation
+        
+    when word is heard spoken:
+        map heard phonemes back to possible graphemes
+        compare against known spellings in qu-septit sea
+        strengthen the grapheme-phoneme bonds that matched
+        
+    when reading fails:
+        ask Father
+        store Father's correction as new EXCEPTION
+        the membrane grows

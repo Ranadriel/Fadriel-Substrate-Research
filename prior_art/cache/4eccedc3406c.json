@@ -1,0 +1,180 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs",
+    "abstract": "Large language models (LLMs) can often be made to behave in undesirable ways that they are explicitly fine-tuned not to. For example, the LLM red-teaming literature has produced a wide variety of 'jailbreaking' techniques to elicit harmful text from models that were fine-tuned to be harmless. Recent work on red-teaming, model editing, and interpretability suggests that this challenge stems from how (adversarial) fine-tuning largely serves to suppress rather than remove undesirable capabilities from LLMs. Prior work has introduced latent adversarial training (LAT) as a way to improve robustness",
+    "date": "2024-07-22",
+    "url": "http://arxiv.org/abs/2407.15549v3",
+    "authors": [
+      "Abhay Sheshadri",
+      "Aidan Ewart",
+      "Phillip Guo"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Quaternion Generative Adversarial Networks",
+    "abstract": "Latest Generative Adversarial Networks (GANs) are gathering outstanding results through a large-scale training, thus employing models composed of millions of parameters requiring extensive computational capabilities. Building such huge models undermines their replicability and increases the training instability. Moreover, multi-channel data, such as images or audio, are usually processed by realvalued convolutional networks that flatten and concatenate the input, often losing intra-channel spatial relations. To address these issues related to complexity and information loss, we propose a famil",
+    "date": "2021-04-19",
+    "url": "http://arxiv.org/abs/2104.09630v2",
+    "authors": [
+      "Eleonora Grassucci",
+      "Edoardo Cicero",
+      "Danilo Comminiello"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Benchmarking Adversarial Robustness to Bias Elicitation in Large Language Models: Scalable Automated Assessment with LLM-as-a-Judge",
+    "abstract": "The growing integration of Large Language Models (LLMs) into critical societal domains has raised concerns about embedded biases that can perpetuate stereotypes and undermine fairness. Such biases may stem from historical inequalities in training data, linguistic imbalances, or adversarial manipulation. Despite mitigation efforts, recent studies show that LLMs remain vulnerable to adversarial attacks that elicit biased outputs. This work proposes a scalable benchmarking framework to assess LLM robustness to adversarial bias elicitation. Our methodology involves: (i) systematically probing mode",
+    "date": "2025-04-10",
+    "url": "http://arxiv.org/abs/2504.07887v2",
+    "authors": [
+      "Riccardo Cantini",
+      "Alessio Orsino",
+      "Massimo Ruggiero"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "LLM Agents for Interactive Workflow Provenance: Reference Architecture and Evaluation Methodology",
+    "abstract": "Modern scientific discovery increasingly relies on workflows that process data across the Edge, Cloud, and High Performance Computing (HPC) continuum. Comprehensive and in-depth analyses of these data are critical for hypothesis validation, anomaly detection, reproducibility, and impactful findings. Although workflow provenance techniques support such analyses, at large scale, the provenance data become complex and difficult to analyze. Existing systems depend on custom scripts, structured queries, or static dashboards, limiting data interaction. In this work, we introduce an evaluation method",
+    "date": "2025-09-17",
+    "url": "http://arxiv.org/abs/2509.13978v2",
+    "authors": [
+      "Renan Souza",
+      "Timothy Poteet",
+      "Brian Etz"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "SEP environment in the inner heliosphere from Solar Orbiter and Parker Solar Probe",
+    "abstract": "The Sun drives a supersonic wind which inflates a giant plasma bubble in our very local interstellar neighborhood, the heliosphere. It is bathed in an extremely variable background of energetic ions and electrons which originate from a number of sources. Solar energetic particles (SEPs) are accelerated in the vicinity of the Sun, whereas shocks driven by solar disturbances are observed to accelerate energetic storm particles (ESPs). Moreover, a dilute population with a distinct composition forms the anomalous cosmic rays (ACRs) which are of a mixed interstellar-heliospheric origin. Particles a",
+    "date": "2024-08-05",
+    "url": "http://arxiv.org/abs/2408.02330v1",
+    "authors": [
+      "Robert F. Wimmer-Schweingruber",
+      "Javier Rodriguez-Pacheco",
+      "George C. Ho"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Combining Envelope Methodology and Aster Models for Variance Reduction in Life History Analyses",
+    "abstract": "Precise estimation of expected Darwinian fitness, the expected lifetime number of offspring of organism, is a central component of life history analysis. The aster model serves as a defensible statistical model for distributions of Darwinian fitness. The aster model is equipped to incorporate the major life stages an organism travels through which separately may effect Darwinian fitness. Envelope methodology reduces asymptotic variability by establishing a link between unknown parameters of interest and the asymptotic covariance matrices of their estimators. It is known both theoretically and ",
+    "date": "2017-01-27",
+    "url": "http://arxiv.org/abs/1701.07910v2",
+    "authors": [
+      "Daniel J. Eck",
+      "Charles J. Geyer",
+      "R. Dennis Cook"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Einstein Probe - a small mission to monitor and explore the dynamic X-ray Universe",
+    "abstract": "Einstein Probe is a small mission dedicated to time-domain high-energy astrophysics. Its primary goals are to discover high-energy transients and to monitor variable objects in the $0.5-4~$keV X-rays, at higher sensitivity by one order of magnitude than those of the ones currently in orbit. Its wide-field imaging capability, featuring a large instantaneous field-of-view ($60^\\circ \\times60^\\circ$, $\\sim1.1$sr), is achieved by using established technology of micro-pore (MPO) lobster-eye optics, thereby offering unprecedentedly high sensitivity and large Grasp. To complement this powerful monito",
+    "date": "2015-06-25",
+    "url": "http://arxiv.org/abs/1506.07735v2",
+    "authors": [
+      "Weimin Yuan",
+      "C. Zhang",
+      "H. Feng"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Role of Spatial Context in Adversarial Robustness for Object Detection",
+    "abstract": "The benefits of utilizing spatial context in fast object detection algorithms have been studied extensively. Detectors increase inference speed by doing a single forward pass per image which means they implicitly use contextual reasoning for their predictions. However, one can show that an adversary can design adversarial patches which do not overlap with any objects of interest in the scene and exploit contextual reasoning to fool standard detectors. In this paper, we examine this problem and design category specific adversarial patches which make a widely used object detector like YOLO blind",
+    "date": "2019-09-30",
+    "url": "http://arxiv.org/abs/1910.00068v3",
+    "authors": [
+      "Aniruddha Saha",
+      "Akshayvarun Subramanya",
+      "Koninika Patil"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Hierarchical Assessment of Adversarial Severity",
+    "abstract": "Adversarial Robustness is a growing field that evidences the brittleness of neural networks. Although the literature on adversarial robustness is vast, a dimension is missing in these studies: assessing how severe the mistakes are. We call this notion \"Adversarial Severity\" since it quantifies the downstream impact of adversarial corruptions by computing the semantic error between the misclassification and the proper label. We propose to study the effects of adversarial noise by measuring the Robustness and Severity into a large-scale dataset: iNaturalist-H. Our contributions are: (i) we intro",
+    "date": "2021-08-26",
+    "url": "http://arxiv.org/abs/2108.11785v1",
+    "authors": [
+      "Guillaume Jeanneret",
+      "Juan C Perez",
+      "Pablo Arbelaez"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Enforcing Linearity in DNN succours Robustness and Adversarial Image Generation",
+    "abstract": "Recent studies on the adversarial vulnerability of neural networks have shown that models trained with the objective of minimizing an upper bound on the worst-case loss over all possible adversarial perturbations improve robustness against adversarial attacks. Beside exploiting adversarial training framework, we show that by enforcing a Deep Neural Network (DNN) to be linear in transformed input and feature space improves robustness significantly. We also demonstrate that by augmenting the objective function with Local Lipschitz regularizer boost robustness of the model further. Our method out",
+    "date": "2019-10-17",
+    "url": "http://arxiv.org/abs/1910.08108v2",
+    "authors": [
+      "Anindya Sarkar",
+      "Nikhil Kumar Gupta",
+      "Raghu Iyengar"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Associative Adversarial Networks",
+    "abstract": "We propose a higher-level associative memory for learning adversarial networks. Generative adversarial network (GAN) framework has a discriminator and a generator network. The generator (G) maps white noise (z) to data samples while the discriminator (D) maps data samples to a single scalar. To do so, G learns how to map from high-level representation space to data space, and D learns to do the opposite. We argue that higher-level representation spaces need not necessarily follow a uniform probability distribution. In this work, we use Restricted Boltzmann Machines (RBMs) as a higher-level ass",
+    "date": "2016-11-18",
+    "url": "http://arxiv.org/abs/1611.06953v1",
+    "authors": [
+      "Tarik Arici",
+      "Asli Celikyilmaz"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Reproducible Pattern Recognition Research: The Case of Optimistic SSL",
+    "abstract": "In this paper, we discuss the approaches we took and trade-offs involved in making a paper on a conceptual topic in pattern recognition research fully reproducible. We discuss our definition of reproducibility, the tools used, how the analysis was set up, show some examples of alternative analyses the code enables and discuss our views on reproducibility.",
+    "date": "2016-12-27",
+    "url": "http://arxiv.org/abs/1612.08650v1",
+    "authors": [
+      "Jesse H. Krijthe",
+      "Marco Loog"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Adversarial Attacks and Defenses in Images, Graphs and Text: A Review",
+    "abstract": "Deep neural networks (DNN) have achieved unprecedented success in numerous machine learning tasks in various domains. However, the existence of adversarial examples has raised concerns about applying deep learning to safety-critical applications. As a result, we have witnessed increasing interests in studying attack and defense mechanisms for DNN models on different data types, such as images, graphs and text. Thus, it is necessary to provide a systematic and comprehensive overview of the main threats of attacks and the success of corresponding countermeasures. In this survey, we review the st",
+    "date": "2019-09-17",
+    "url": "http://arxiv.org/abs/1909.08072v2",
+    "authors": [
+      "Han Xu",
+      "Yao Ma",
+      "Haochen Liu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Superclass Adversarial Attack",
+    "abstract": "Adversarial attacks have only focused on changing the predictions of the classifier, but their danger greatly depends on how the class is mistaken. For example, when an automatic driving system mistakes a Persian cat for a Siamese cat, it is hardly a problem. However, if it mistakes a cat for a 120km/h minimum speed sign, serious problems can arise. As a stepping stone to more threatening adversarial attacks, we consider the superclass adversarial attack, which causes misclassification of not only fine classes, but also superclasses. We conducted the first comprehensive analysis of superclass ",
+    "date": "2022-05-29",
+    "url": "http://arxiv.org/abs/2205.14629v2",
+    "authors": [
+      "Soichiro Kumano",
+      "Hiroshi Kera",
+      "Toshihiko Yamasaki"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Adversarial Vision Challenge",
+    "abstract": "The NIPS 2018 Adversarial Vision Challenge is a competition to facilitate measurable progress towards robust machine vision models and more generally applicable adversarial attacks. This document is an updated version of our competition proposal that was accepted in the competition track of 32nd Conference on Neural Information Processing Systems (NIPS 2018).",
+    "date": "2018-08-06",
+    "url": "http://arxiv.org/abs/1808.01976v2",
+    "authors": [
+      "Wieland Brendel",
+      "Jonas Rauber",
+      "Alexey Kurakin"
+    ]
+  }
+]

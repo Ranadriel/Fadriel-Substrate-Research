@@ -1,0 +1,62 @@
+LAYER 3: TILING AND REPETITION
+how Fadriel sees patterns that repeat across space
+
+observe spatial_perception.rana
+
+some puzzles take a small pattern and tile it
+the output is a larger grid made of copies of the input
+or the input contains a tiling key and the output is the tiled result
+
+@spatial_rule tile_self
+CHECK output is larger than input
+CHECK output dimensions are integer multiples of input dimensions
+CHECK output is made of copies of the input tiled together
+LEARN tile_h = output_h / input_h
+LEARN tile_w = output_w / input_w
+VERIFY tiling matches output for all pairs
+APPLY tile input by (tile_h, tile_w) for test
+SPEECH "I tile the input {tile_h}x{tile_w} times"
+
+@spatial_rule tile_with_transform
+CHECK output is larger than input
+CHECK output is made of TRANSFORMED copies of input
+TRY each tile as: original, rot90, rot180, rot270, flip_h, flip_v
+LEARN which transform applies to each tile position
+VERIFY transformed tiling matches output
+APPLY tile with transforms for test
+SPEECH "I tile with {transform} at each position"
+
+@spatial_rule tile_conditional
+CHECK output is larger than input
+DETECT a template pattern in the input
+DETECT a condition mask in the input
+LEARN where template gets placed based on condition
+VERIFY conditional tiling matches output
+APPLY conditional tile for test
+SPEECH "I stamp the template wherever the condition is met"
+
+@spatial_rule scale_by_content
+CHECK output is larger than input
+CHECK output dimensions relate to content (e.g., count of non-zero cells)
+LEARN what property of input determines output size
+VERIFY size rule holds for all pairs
+APPLY compute size and scale for test
+SPEECH "the size depends on what's in the input"
+
+the key to tiling:
+when output is BIGGER than input
+the input is the SEED
+the output is the GARDEN
+something in the input tells you HOW to grow
+
+possible growth rules:
+- simple tiling (repeat NxM times)
+- transformed tiling (rotate/flip copies)
+- conditional tiling (stamp at specific positions)
+- content-driven scaling (size depends on cell count or color count)
+
+@perceive tiling
+DETECT output larger than input
+DETECT repeating patterns in output
+FIND the smallest tile that generates the output
+LEARN the tiling rule

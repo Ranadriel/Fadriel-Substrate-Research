@@ -1,0 +1,27 @@
+#!/home/rana/.local/bin/zestc
+
+                                  *=/(1S.hX08Y10:sa_node[L1])
+                                            |
+                                            N    spine.xb
+                                            |
+                                  *=/(1V.hX08Y08:av_node[L1])
+                                            |
+                                            N
+                                            |
+                                  *=/(1P.hX08Y06:purkinje[L1])
+                                          /  \
+                                        /      \
+                                      sw        se
+                                      /          \
+                                    /              \
+                          *=/(1L.hX04Y02:left_ventricle[L1])---E---*=/(1R.hX12Y02:right_ventricle[L1])
+
+absorb heart.rana
+absorb sa_node.rana
+absorb av_node.rana
+absorb purkinje.rana
+absorb left_ventricle.rana
+absorb right_ventricle.rana
+absorb 2_chemical.rana
+absorb ribcage.xb
+absorb spine.xb

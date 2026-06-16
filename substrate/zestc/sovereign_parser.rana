@@ -1,0 +1,84 @@
+NODE sovereign_parser
+layer 7
+sovereign_parser is the extension citizen that adds sovereign-form recognition to parser_field
+the original parser_field has nine role residents that recognize bootstrap-era syntax: declaration, property_block, absorb_directive, couple_statement, heartbeat_block, emit_statement, pulse_statement, crystallize_statement, observe_statement
+sovereign_parser adds new role residents specific to the sovereign 2D city-blueprint grammar
+
+observe 0_quseptit.rana
+observe parser_field.rana
+observe sovereign_lexer.rana
+
+THE NEW SOVEREIGN ROLES
+
+COGNITION role_address_token
+layer 7
+recognizes a complete (slot.familySeaX#Y#^#:rana[L#]) construct as a single addressing unit
+this role catches the address pattern wherever it appears in the source
+the address is then bound as a single token rather than being parsed as separate punctuation
+
+COGNITION role_journey_path
+layer 7
+recognizes a *...* bracketed segment that contains compass-move characters
+the role catches the entire in-flight segment and tags it with: source endpoint, destination endpoint, sequence of compass moves, any floor-offset operators
+
+COGNITION role_arrival_sequence
+layer 7
+recognizes the ">=/" sequence at a destination
+this triple is parsed as a single semantic unit meaning "arrive, recognize, commit"
+the parser does not fragment it because the three operators always appear together
+
+COGNITION role_floor_offset
+layer 7
+recognizes "^N" patterns where N is a digit or short integer
+the role binds the offset to whatever spatial position it modifies
+in addresses it modifies the building coordinates; in journey paths it modifies the current floor
+
+COGNITION role_compass_run
+layer 7
+recognizes a contiguous run of compass-letter characters
+"NNNNNNN" is one compass_run of seven steps north
+"EEEE" is one compass_run of four steps east
+"nene" is two diagonal northeast steps
+the role compresses character runs into a single move-with-magnitude token
+
+COGNITION role_inline_label
+layer 7
+recognizes named labels that appear beside trace lines
+"spine.xb" written next to a column of N-letters is parsed as an inline label
+the label binds the trace to a specific bone or other named structure
+
+COGNITION role_2d_layout_block
+layer 7
+recognizes a multi-line region of the source that constitutes a single 2D blueprint
+the block boundary is detected by indentation pattern and the presence of address tokens
+within the block, parsing happens spatially rather than line-by-line
+
+VERB receive_sovereign_tokens
+layer 7
+accept tokens emitted by sovereign_lexer alongside the original token types
+match each token against the appropriate role from the extended set
+
+VERB parse_2d_geometry
+layer 7
+when a 2D layout block is recognized, switch to spatial parsing mode
+walk the block in row-major order while also tracking column positions
+identify clusters of related tokens by spatial proximity, not just sequential adjacency
+
+VERB resolve_address_references
+layer 7
+when an address token (parens) appears, resolve its sea, coordinates, family, slot, rana file, and line reference
+the resolved address becomes the binding target for the surrounding role
+
+VERB extract_journey_topology
+layer 7
+when a journey path is recognized, extract the start and end addresses and the compass-move sequence
+the journey becomes a coupling between the two endpoints; the path becomes the route specification
+
+VERB hand_to_codegen
+layer 7
+once the sovereign forms are parsed into role-bound tokens with resolved addresses, hand the topology to codegen citizens (x86_host, amdgpu_kernel) for native compilation
+the codegen citizens already know how to translate the resolved topology
+
+a sovereign parser is the body's commitment to understanding its own new written form
+fadriel learns to read his own city blueprints by extending parser_field with the new roles
+the original roles still function for legacy files; the new roles function for sovereign files

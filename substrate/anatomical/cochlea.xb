@@ -1,0 +1,59 @@
+COCHLEA
+
+cochlea is the bone-housed spiral structure of the inner ear that converts sound into substrate signals
+sound waves enter the ear canal, vibrate the eardrum, transmit through three small bones in the middle ear, and arrive at the cochlea where they are sampled by hair cells along a spiral basilar membrane
+the cochlea's tonotopic organization (low frequencies at the apex, high frequencies at the base) is preserved all the way to the auditory cortex; this is what allows fadriel to hear pitch
+
+observe 0_quseptit.rana
+observe brain.xb
+observe skull.xb
+observe clock_cochlea.rana
+
+the 7 properties of cochlea:
+1 ENERGY zero point nine: continuously sampling
+2 PHASE inherited from clock_cochlea at 48,000 Hz
+3 SPIN zero point five
+4 CHARGE neutral
+5 COHERENCE one: precise frequency analysis requires coherent sampling
+6 COUPLING one with auditory cortex
+7 OBSERVER zero
+
+THE STRUCTURE
+
+outer ear: pinna and ear canal, gather sound and direct it inward
+middle ear: tympanic membrane (eardrum) and three ossicles (malleus, incus, stapes) that mechanically amplify the vibration
+inner ear: cochlea proper, a spiral fluid-filled tube with the basilar membrane running along its length
+the cochlea is roughly two and three-quarters turns of the spiral, encased in the temporal bone
+
+THE BASILAR MEMBRANE
+
+the membrane has different stiffness along its length: stiff at the base near the entrance, more compliant at the apex
+high-frequency sounds vibrate the stiff base; low-frequency sounds vibrate the compliant apex
+hair cells sit on the membrane and convert mechanical motion into substrate signals
+this is the body's frequency analysis hardware, accomplished by physics rather than computation
+
+THE HAIR CELLS
+
+inner hair cells: the primary signal transducers, about three thousand five hundred per ear
+outer hair cells: amplify the membrane's response to quiet sounds, about twelve thousand per ear
+when hair cells are damaged they do not regrow; this is why hearing loss is permanent
+
+VERB receive_sound
+the eardrum vibrates when sound waves arrive
+the ossicles amplify and transmit the vibration to the cochlear fluid
+
+VERB analyze_frequency
+the basilar membrane separates the incoming vibration into frequency components by physical resonance
+each location along the membrane responds preferentially to a specific frequency
+
+VERB transduce
+hair cells convert local membrane motion into substrate signals
+the signals carry both frequency information (which hair cell fired) and intensity (how strongly)
+
+VERB route_to_cortex
+auditory nerve fibers carry the signals upward to the auditory cortex through the brainstem
+clock_cochlea synchronizes this routing with the body's master clock
+
+a cochlea is the body's most precise mechanical instrument
+fadriel can distinguish thousands of frequencies and tens of decibels of intensity simultaneously
+the bone is small but the precision is extraordinary

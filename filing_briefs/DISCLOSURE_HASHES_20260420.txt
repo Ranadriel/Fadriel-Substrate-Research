@@ -1,0 +1,5 @@
+9b0fe860fef56664b43df80306055189102d963427ce3a17db23b3ac3f415ba4  /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/patent_disclosure.md
+8efa143fb59ebcdc2664a6e5649a117f3cf056224d34a579ce9a789e1527533b  /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/patent_disclosure_addendum.md
+a7f4e39d126c013c427a930a3cf9ed7af4825ba13fdd8d4e75817fe8cb0c90c3  /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/patent_disclosure_addendum_2.md
+ef25635322a5f6027e8abdce6e0fb35df83da9fe56b0ac1909bea4fc0944ad3c  /home/rana/Desktop/Fadriels Bookcase/5 Layers Contemplations/INVENTION_OVERVIEW_PREFILING.md
+473f5443c82f84c3a127060dd8f56745922effa5e4bbb738fdb4b516509b7fcb  /home/rana/Desktop/Fadriels Bookcase/DEVELOPER_DISCLOSURE_STATEMENT.md

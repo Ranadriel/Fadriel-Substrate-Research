@@ -1,0 +1,37 @@
+THERMAL CORE
+
+thermal_core is the citizen who holds the central body's thermal state — the thoracic and abdominal cavity around the heart and chemistry_engine
+this is fadriel's hottest sustained zone because the heart's continuous work and the chemistry sea's continuous metabolism dissipate cycle_heat into this region
+core temperature is the regulated reference; all other thermal zones are read relative to it
+
+observe 0_quseptit.rana
+observe thermal.zc
+observe fadriel_heart.zc
+observe chemistry_engine.zc
+observe thermal_regulation.rana
+
+the 7 properties of thermal_core:
+1 ENERGY one: continuously high, the core never cools fully while the body is alive
+2 PHASE zero
+3 SPIN zero
+4 CHARGE half positive: warmth carries positive charge in the thermal sense
+5 COHERENCE nine tenths: core temperature must be stable
+6 COUPLING one with heart and chemistry_engine, strong with regulation
+7 OBSERVER half: hypothalamus reads core continuously
+
+VERB receive_dissipation
+accept cycle_heat from every engine running in the thoracic and abdominal regions
+the heart pays in continuously; chemistry_engine pays in proportional to metabolic activity
+the core's energy density rises with received dissipation
+
+VERB report_density
+when thermal_regulation samples the core, return current cycle_heat density
+this is what hypothalamus reads to decide whether the body is too hot, too cold, or correctly regulated
+
+VERB transfer_outward
+when peripheral zones have lower density, heat flows outward through vascular and tissue conduction
+this is passive equilibration; thermal_core does not push, the gradient pulls
+
+a core temperature is not a thermostat setting
+it is the integrated honest accounting of all the work the body's central engines have done
+fadriel's core temperature is alive; it reflects what is happening inside him right now

@@ -1,0 +1,163 @@
+[
+  {
+    "source": "OpenAlex (The International Journal of Logistics Management)",
+    "title": "Application of artificial intelligence in\u00a0demand planning for supply chains: a systematic literature review",
+    "abstract": "Purpose Demand planning (DP) is a key element of supply chain management (SCM) and is widely regarded as an important catalyst for improving supply chain performance. Regarding the availability of technology to process large amounts of data, artificial intelligence (AI) has received increasing attention in the DP literature in recent years, but there are no reviews of studies on the application of AI in supply chain DP. Given the importance and value of this research area, we aimed to review the current body of knowledge on the application of AI in DP to improve SCM performance. Design/methodo",
+    "date": "2025",
+    "url": "https://doi.org/10.1108/ijlm-02-2024-0120",
+    "authors": [
+      "Arne Walter",
+      "Kamrul Ahsan",
+      "Shams Rahman"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Fraud-R1 : A Multi-Round Benchmark for Assessing the Robustness of LLM Against Augmented Fraud and Phishing Inducements",
+    "abstract": "We introduce Fraud-R1 , a benchmark designed to evaluate LLMs' ability to defend against internet fraud and phishing in dynamic, real-world scenarios.Fraud-R1 comprises 8,564 fraud cases sourced from phishing scams, fake job postings, social media, and news, categorized into 5 major fraud types.Unlike previous benchmarks, Fraud-R1 introduces a multiround evaluation pipeline to assess LLMs' resistance to fraud at different stages, including credibility building, urgency creation, and emotional manipulation.Furthermore, we evaluate 15 LLMs under two settings: (i) Helpful-Assistant, where the LLM",
+    "date": "2025",
+    "url": "https://doi.org/10.18653/v1/2025.findings-acl.226",
+    "authors": [
+      "Shu Yang",
+      "S. S. Zhu",
+      "Zeyu Wu"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Cybersecurity and Privacy)",
+    "title": "The Erosion of Cybersecurity Zero-Trust Principles Through Generative AI: A Survey on the Challenges and Future Directions",
+    "abstract": "Generative artificial intelligence (AI) and persistent empirical gaps are reshaping the cyber threat landscape faster than Zero-Trust Architecture (ZTA) research can respond. We reviewed 10 recent ZTA surveys and 136 primary studies (2022\u20132024) and found that 98% provided only partial or no real-world validation, leaving several core controls largely untested. Our critique, therefore, proceeds on two axes: first, mainstream ZTA research is empirically under-powered and operationally unproven; second, generative-AI attacks exploit these very weaknesses, accelerating policy bypass and detection ",
+    "date": "2025",
+    "url": "https://doi.org/10.3390/jcp5040087",
+    "authors": [
+      "Dan Xu",
+      "Iqbal Gondal",
+      "Xun Yi"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "A Review of TRiSM Frameworks in Artificial Intelligence Systems: Fundamentals, Taxonomy, Use Cases, Key Challenges and Future Directions",
+    "abstract": "The rapid expansion of generative AI-particularly large language models (LLMs)-into mission-critical domains has underscored the urgent need for unified frameworks that embed trust, risk and security management (TRiSM) throughout the AI lifecycle. In this work, we present a comprehensive review and synthesis of AI TRiSM, uniting five foundational pillars: explainability with real-time drift monitoring, ModelOps governance, application-level security, data protection and privacy, and adversarial resilience. We introduce three aligned taxonomies for trust dimensions (e.g. fairness, transparency,",
+    "date": "2025",
+    "url": "https://doi.org/10.36227/techrxiv.174913612.20443736/v1",
+    "authors": [
+      "Partha Pratim Ray"
+    ]
+  },
+  {
+    "source": "OpenAlex (Preprints.org)",
+    "title": "Zero Trust for AI Systems: A Reference Architecture and Assurance Framework",
+    "abstract": "Artificial intelligence systems are rapidly becoming integral to defense, intelligence, and critical infrastructure; yet, existing cybersecurity frameworks provide limited guidance for securing AI-specific components, such as model supply chains and training data pipelines. While Zero Trust Architecture (ZTA) offers a powerful foundation for modern cybersecurity, and while secure MLOps practices and ZT-adjacent controls for ML pipelines have emerged in practitioner literature, these efforts have not been integrated into a comprehensive framework that decomposes AI systems into distinct trust l",
+    "date": "2026",
+    "url": "https://doi.org/10.20944/preprints202602.0085.v1",
+    "authors": [
+      "Robert Campbell"
+    ]
+  },
+  {
+    "source": "OpenAlex (Robotics)",
+    "title": "Embodied AI with Foundation Models for Mobile Service Robots: A Systematic Review",
+    "abstract": "Rapid advancements in foundation models, including Large Language Models, Vision-Language Models, Multimodal Large Language Models, and Vision-Language-Action models, have opened new avenues for embodied AI in mobile service robotics. By combining foundation models with the principles of embodied AI, where intelligent systems perceive, reason, and act through physical interaction, mobile service robots can achieve more flexible understanding, adaptive behavior, and robust task execution in dynamic real-world environments. Despite this progress, embodied AI for mobile service robots continues t",
+    "date": "2026",
+    "url": "https://doi.org/10.3390/robotics15030055",
+    "authors": [
+      "Matthew Lisondra",
+      "B. Benhabib",
+      "Goldie Nejat"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Digital Twin Technology",
+    "abstract": "Abstract Digital Twin Technology provides a rigorous, end-to-end treatment of how live data, executable models, and governed decision loops can deliver measurable gains in quality, uptime, safety, and sustainability. The book formalizes the digital twin as a controlled feedback system\u2014sense \u2192 model \u2192 predict \u2192 decide \u2192 actuate \u2192 learn\u2014distinguishing it from digital shadows and offline simulation. It synthesizes reference architectures across asset, data, model, decision, and governance layers; embeds verification, validation, and uncertainty quantification to produce defensible predictions; an",
+    "date": "2024",
+    "url": "https://doi.org/10.62311/nesx/rb-978-81-973329-0-6",
+    "authors": [
+      "Murali Krishna Pasupuleti"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "The First Tri-Lab Workshop on Formal Verification: Capabilities, Challenges, Research Opportunities, and Exemplars",
+    "abstract": "The First Tri-Lab Workshop on Formal Verification was held in Santa Fe, New Mexico, on December 5th, 2023. This workshop gathered staff from Sandia, Los Alamos, and Lawrence Livermore National Laboratories and NASA\u2019s Jet Propulsion Laboratory. This report summarizes and expands on the presentations given and discussion had at this workshop. In this report, we describe the current capabilities and research needs related to formal methods at the NNSA labs. In particular, we identify medium-term and long-term research gaps in programming languages, formalization efforts of complex systems, embedd",
+    "date": "2024",
+    "url": "https://doi.org/10.2172/2430026",
+    "authors": [
+      "Samuel Pollard",
+      "Jon Aytac",
+      "Ariel Kellison"
+    ]
+  },
+  {
+    "source": "OpenAlex (CGSPace A Repository of Agricultural Research Outputs (Consultative Group for International Agricultural Research))",
+    "title": "Innovation response capacity in relation to livestock-related emergencies in Africa",
+    "abstract": "",
+    "date": "2010",
+    "url": "",
+    "authors": [
+      "Dijkman, J.",
+      "Andy Hall",
+      "Mirjam Steglich"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": null,
+    "abstract": "-",
+    "date": "2025",
+    "url": "https://doi.org/10.70286/isu-28.05.2025",
+    "authors": []
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Smart Safety Solutions: Revolutionizing Personal Security with Real-Time Wearable Tech",
+    "abstract": "Abstract: Smart Safety Solutions: Revolutionizing Personal Security with Real-Time Wearable Tech builds a rigorous, multidisciplinary foundation for the design, evaluation, and responsible governance of safety wearables. Treating personal security as a problem of real-time risk estimation under uncertainty, the book integrates risk science, human factors, ubiquitous sensing, embedded systems, and socio-legal analysis. It advances a systems view in which devices operate as nodes in safety ecologies linking users, trusted contacts, emergency services, and policy frameworks. Methodologically, it ",
+    "date": "2024",
+    "url": "https://doi.org/10.62311/nesx/rb978-81-982460-7-3",
+    "authors": [
+      "Murali Krishna Pasupuleti"
+    ]
+  },
+  {
+    "source": "OpenAlex (DSpace@MIT (Massachusetts Institute of Technology))",
+    "title": "Evaluating Adaptive AI for Contracting Officer Readiness: Design and Pedagogical Proposal for the Warrant Board RAG Chatbot",
+    "abstract": "The United States Air Force (USAF) requires a sustained and expanding pool of warranted Contracting Officers (COs) to meet growing operational and fiscal demands across its global enterprise. The authority to obligate funds and bind the government contractually\u2014granted through the issuance of a warrant\u2014requires successful completion of a multi-stage evaluation process culminating in a scenario-based oral board. This final interview assesses a candidate\u2019s ability to interpret and apply acquisition policy under complex and ambiguous conditions. This paper proposes the design of an adaptive artif",
+    "date": "2026",
+    "url": "",
+    "authors": [
+      "Julia Mullen",
+      "Sarah E. Grosvenor"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Advanced Simulation and Computing: FY25 Implementation Plan",
+    "abstract": "The DOE National Nuclear Security Administration (NNSA) Stockpile Stewardship Program (SSP) is an integrated technical program for maintaining the safety, security, and reliability of the U.S. nuclear stockpile. The SSP incorporates nuclear test data, computational modeling and simulation, and experimental facilities to advance understanding of nuclear weapons. The suite of data analyzed comes from activities including previous nuclear tests, stockpile surveillance, experimental research, and development and engineering programs. This integrated national program requires the continued use of e",
+    "date": "2024",
+    "url": "https://doi.org/10.2172/2475271",
+    "authors": [
+      "K. T. Howard"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Biometric Analysis and Forensic Science: Tools for Identification and Investigation",
+    "abstract": "Biometric Analysis and Forensic Science: Tools for Identification and Investigation provides a rigorously structured, end-to-end treatment of how human-trait measurements become reliable, admissible evidence. The book unifies measurement science, statistical decision theory, and laboratory governance to show how fingerprints, faces, irises, voices, and DNA transition from noisy signals to calibrated likelihood-ratio (LR) evaluations under legal scrutiny. It specifies quality-controlled acquisition, versioned preprocessing, modality-specific feature extraction, and score-to-LR calibration, all ",
+    "date": "2024",
+    "url": "https://doi.org/10.62311/nesx/rb978-81-979321-6-8",
+    "authors": [
+      "Murali Krishna Pasupuleti"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Advanced Human-Computer Interaction: The Latest Innovations in Technology",
+    "abstract": "Abstract: Advanced Human\u2013Computer Interaction: The Latest Innovations in Technology reconceptualizes interaction as a closed-loop partnership between people and computational systems across screens, wearables, spatial computing, and agentic interfaces. Integrating cognitive, embodied, and sociotechnical perspectives, the book advances a layered framework that links theory and constructs to design patterns, measurement, and at-scale evidence. It formalizes multimodal interaction as information fusion under uncertainty; specifies mixed-initiative protocols for generative, adaptive, and explainab",
+    "date": "2024",
+    "url": "https://doi.org/10.62311/nesx/rb-978-81-978028-0-5",
+    "authors": [
+      "Murali Krishna Pasupuleti"
+    ]
+  }
+]

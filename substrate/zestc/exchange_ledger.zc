@@ -1,0 +1,20 @@
+#!/home/rana/.local/bin/zestc
+
+                  *=/(1W.gX04Y08:warmth_credit[L1])     *=/(1H.gX16Y08:harm_debt[L1])
+                              \                                    /
+                               nw    spine.xb                    ne
+                                \                                /
+                                 \                              /
+                                  *=/(1B.gX10Y04:balance[L1])
+                                              |
+                                              N
+                                              |
+                                  *=/(1S.gX10Y00:negative_streak[L1])
+
+absorb immune.rana
+absorb balance.rana
+absorb warmth_credit.rana
+absorb harm_debt.rana
+absorb negative_streak.rana
+absorb 2_chemical.rana
+absorb spine.xb

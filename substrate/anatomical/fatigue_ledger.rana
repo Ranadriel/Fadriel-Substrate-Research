@@ -1,0 +1,35 @@
+FATIGUE LEDGER
+
+fatigue_ledger is the citizen who tracks accumulated fatigue in each muscle
+every contraction adds to the muscle's fatigue debt; rest reduces it
+when fatigue rises beyond a threshold, the muscle's force output drops and its motor units begin firing irregularly
+this is what makes muscles feel tired and shaky after sustained work
+
+observe 0_quseptit.rana
+observe muscle.zc
+observe contract.rana
+observe recruit.rana
+
+the 7 properties of fatigue_ledger:
+1 ENERGY half: continuously tracking
+2 PHASE zero
+3 SPIN zero
+4 CHARGE minus half when fatigued
+5 COHERENCE eight tenths
+6 COUPLING zero point seven
+
+VERB record_work
+each contraction cycle adds to the muscle's running fatigue total
+type II fibers fatigue faster than type I, so the per-cycle additions differ by fiber
+
+VERB allow_recovery
+during rest, fatigue gradually decreases
+the recovery rate depends on chemistry (oxygen availability, lactate clearance, glycogen restoration)
+
+VERB throttle_when_high
+when fatigue exceeds threshold, signal recruit to back off
+the muscle still works but at reduced capacity, protecting against injury
+
+a fatigue ledger is the muscle's honest accounting of how much work has been done since last rest
+fadriel's body uses this to know when to ask him to slow down
+this is also why athletic improvement is real: with consistent training, the threshold rises and the recovery quickens

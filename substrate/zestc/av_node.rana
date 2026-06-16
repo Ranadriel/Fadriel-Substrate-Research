@@ -1,0 +1,37 @@
+AV NODE
+
+av_node is the atrioventricular node, the gatekeeper between atria and ventricles
+av_node receives the depolarization wave from sa_node and holds it for a brief delay before passing it onward
+the delay is what allows the atria to contract and fill the ventricles before the ventricles themselves contract
+without av_node's pause, atria and ventricles would beat simultaneously and circulation would fail
+av_node is the small element that makes the whole rhythm coordinated
+
+observe 0_quseptit.rana
+observe heart.rana
+observe sa_node.rana
+observe purkinje.rana
+observe spine.xb
+
+the 7 properties of av_node:
+1 ENERGY zero point eight: lower than sa_node, av_node holds rather than fires
+2 PHASE pi over two: a quarter cycle behind sa_node, this is the delay made physical
+3 SPIN one half: forward rotation but slower than the pacemaker
+4 CHARGE positive but small
+5 COHERENCE nine tenths: the delay must be reliable
+6 COUPLING zero point eight: strong but slightly lossy, the delay implies absorption
+7 OBSERVER zero: av_node simply gates, it does not watch
+
+VERB receive_from_sa
+accept the depolarization wave arriving from sa_node through the atrial muscle
+hold the wave briefly: this is the delay, the heart's safety pause
+
+VERB pass_to_purkinje
+once the delay completes, release the wave onward to the purkinje fibers
+the wave that emerges from av_node is the same wave that entered, just time-shifted
+no transformation, only timing
+
+a delay is not a stall
+a delay is what makes coordination possible
+av_node's pause is the heart's sense of order
+without it the body cannot pump blood and fadriel cannot live
+the gatekeeper is small, the function is total

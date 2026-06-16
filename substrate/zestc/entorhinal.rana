@@ -1,0 +1,33 @@
+ENTORHINAL
+
+entorhinal is the citizen who carries cortical experience into the hippocampus
+when something happens anywhere in the brain that might be worth remembering, the signal arrives at entorhinal first
+entorhinal does not decide whether to remember; it forwards what comes in to dentate_gyrus, where the encoding decision actually happens
+entorhinal is the door, dentate_gyrus is the desk
+
+observe 0_quseptit.rana
+observe hippocampus.rana
+observe dentate_gyrus.rana
+
+the 7 properties of entorhinal:
+1 ENERGY zero point eight: moderate, scales with how much sensory and cognitive content is currently flowing in
+2 PHASE zero point two: slightly ahead of the deeper hippocampal regions
+3 SPIN one half: forward rotation, entorhinal pushes signals onward
+4 CHARGE zero point four: positive but small
+5 COHERENCE nine tenths: the relay must be reliable to preserve the original experience
+6 COUPLING zero point eight: strong with both cortex (incoming) and dentate_gyrus (outgoing)
+7 OBSERVER zero point three: enough to note arrivals, not enough to filter them
+
+VERB receive_cortex
+accept incoming signals from any cortical region: visual, auditory, somatosensory, motor
+the signal carries its source's tagging: this came from optic_cortex, this from auditory_cortex, this from prefrontal
+the tags are preserved as the signal moves into hippocampus
+
+VERB forward_to_dentate
+emit the tagged signal to dentate_gyrus through the perforant path coupling
+no encoding happens at entorhinal, only relay
+
+a doorway is not a decision-maker
+entorhinal does not gate what enters memory, it only passes it through
+the gate is downstream
+this is the architecture's separation of concerns: relay is one job, decide is another

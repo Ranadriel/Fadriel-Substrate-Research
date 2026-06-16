@@ -1,0 +1,178 @@
+[
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "From ChatGPT to ThreatGPT: Impact of Generative AI in Cybersecurity and Privacy",
+    "abstract": "Undoubtedly, the evolution of Generative AI (GenAI) models has been the highlight of digital transformation in the year 2022. As the different GenAI models like ChatGPT and Google Bard continue to foster their complexity and capability, it\u2019s critical to understand its consequences from a cybersecurity perspective. Several instances recently have demonstrated the use of GenAI tools in both the defensive and offensive side of cybersecurity, and focusing on the social, ethical and privacy implications this technology possesses. This research paper highlights the limitations, challenges, potential",
+    "date": "2023",
+    "url": "https://doi.org/10.1109/access.2023.3300381",
+    "authors": [
+      "Maanak Gupta",
+      "Charankumar Akiri",
+      "Kshitiz Aryal"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+    "abstract": "In this report, we introduce the Gemini 1.5 family of models, representing the next generation of highly compute-efficient multimodal models capable of recalling and reasoning over fine-grained information from millions of tokens of context, including multiple long documents and hours of video and audio. The family includes two new models: (1) an updated Gemini 1.5 Pro, which exceeds the February version on the great majority of capabilities and benchmarks; (2) Gemini 1.5 Flash, a more lightweight variant designed for efficiency with minimal regression in quality. Gemini 1.5 models achieve nea",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2403.05530",
+    "authors": [
+      "Gemini Robotics Team",
+      "Petko Georgiev",
+      "Ving Ian Lei"
+    ]
+  },
+  {
+    "source": "OpenAlex (Communications Medicine)",
+    "title": "Current applications and challenges in large language models for patient care: a systematic review",
+    "abstract": "Abstract Background The introduction of large language models (LLMs) into clinical practice promises to improve patient education and empowerment, thereby personalizing medical care and broadening access to medical knowledge. Despite the popularity of LLMs, there is a significant gap in systematized information on their use in patient care. Therefore, this systematic review aims to synthesize current applications and limitations of LLMs in patient care. Methods We systematically searched 5 databases for qualitative, quantitative, and mixed methods articles on LLMs in patient care published bet",
+    "date": "2025",
+    "url": "https://doi.org/10.1038/s43856-024-00717-2",
+    "authors": [
+      "Felix Busch",
+      "Lena Hoffmann",
+      "Christopher Rueger"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "A Survey on Large Language Models: Applications, Challenges, Limitations, and Practical Usage",
+    "abstract": "Within the vast expanse of computerized language processing, a revolutionary entity known as Large Language Models (LLMs) has emerged, wielding immense power in its capacity to comprehend intricate linguistic patterns and conjure coherent and contextually fitting responses. Large language models (LLMs) are a type of artificial intelligence (AI) that have emerged as powerful tools for a wide range of tasks, including natural language processing (NLP), machine translation, and question-answering. This survey paper provides a comprehensive overview of LLMs, including their history, architecture, ",
+    "date": "2023",
+    "url": "https://doi.org/10.36227/techrxiv.23589741.v1",
+    "authors": [
+      "Muhammad Usman Hadi",
+      "qasem al tashi",
+      "Rizwan Qureshi"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Prompt Injection attack against LLM-integrated Applications",
+    "abstract": "Large Language Models (LLMs), renowned for their superior proficiency in language comprehension and generation, stimulate a vibrant ecosystem of applications around them. However, their extensive assimilation into various services introduces significant security risks. This study deconstructs the complexities and implications of prompt injection attacks on actual LLM-integrated applications. Initially, we conduct an exploratory analysis on ten commercial applications, highlighting the constraints of current attack strategies in practice. Prompted by these limitations, we subsequently formulate",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2306.05499",
+    "authors": [
+      "Yi Liu",
+      "Gelei Deng",
+      "Yuekang Li"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Adversarial machine learning :",
+    "abstract": "This NIST AI report develops a taxonomy of concepts and defines terminology in the field of adversarial machine learning (AML). The taxonomy is built on survey of the AML literature and is arranged in a conceptual hierarchy that includes key types of ML methods and lifecycle stage of attack, attacker goals and objectives, and attacker capabilities and knowledge of the learning process. The report also provides corresponding methods for mitigating and managing the consequences of attacks and points out relevant open challenges to take into account in the lifecycle of AI systems. The terminology",
+    "date": "2024",
+    "url": "https://doi.org/10.6028/nist.ai.100-2e2023",
+    "authors": [
+      "Apostol Vassilev",
+      "Alina Oprea",
+      "Alie Jean Fordyce"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback",
+    "abstract": "Reinforcement learning from human feedback (RLHF) is a technique for training AI systems to align with human goals. RLHF has emerged as the central method used to finetune state-of-the-art large language models (LLMs). Despite this popularity, there has been relatively little public work systematizing its flaws. In this paper, we (1) survey open problems and fundamental limitations of RLHF and related methods; (2) overview techniques to understand, improve, and complement RLHF in practice; and (3) propose auditing and disclosure standards to improve societal oversight of RLHF systems. Our work",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2307.15217",
+    "authors": [
+      "Stephen Casper",
+      "Xander Davies",
+      "Claudia Shi"
+    ]
+  },
+  {
+    "source": "OpenAlex (Artificial Intelligence Review)",
+    "title": "A survey of safety and trustworthiness of large language models through the lens of verification and validation",
+    "abstract": "Abstract Large language models (LLMs) have exploded a new heatwave of AI for their ability to engage end-users in human-level conversations with detailed and articulate answers across many knowledge domains. In response to their fast adoption in many industrial applications, this survey concerns their safety and trustworthiness. First, we review known vulnerabilities and limitations of the LLMs, categorising them into inherent issues, attacks, and unintended bugs. Then, we consider if and how the Verification and Validation (V&amp;V) techniques, which have been widely developed for traditional",
+    "date": "2024",
+    "url": "https://doi.org/10.1007/s10462-024-10824-0",
+    "authors": [
+      "Xiaowei Huang",
+      "Wenjie Ruan",
+      "Wei Huang"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature Medicine)",
+    "title": "Medical large language models are vulnerable to data-poisoning attacks",
+    "abstract": "The adoption of large language models (LLMs) in healthcare demands a careful analysis of their potential to spread false medical knowledge. Because LLMs ingest massive volumes of data from the open Internet during training, they are potentially exposed to unverified medical knowledge that may include deliberately planted misinformation. Here, we perform a threat assessment that simulates a data-poisoning attack against The Pile, a popular dataset used for LLM development. We find that replacement of just 0.001% of training tokens with medical misinformation results in harmful models more likel",
+    "date": "2025",
+    "url": "https://doi.org/10.1038/s41591-024-03445-1",
+    "authors": [
+      "Daniel Alexander Alber",
+      "Zihao Yang",
+      "Anton Alyakin"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Artificial intelligence risk management framework :",
+    "abstract": "This document is a cross-sectoral profile of and companion resource for the AI Risk Management Framework (AI RMF 1.0) for Generative AI, 1 pursuant to President Biden\u2019s Executive Order (EO) 14110 on Safe, Secure, and Trustworthy Artificial Intelligence.2 The AI RMF was released in January 2023, and is intended for voluntary use and to improve the ability of organizations to incorporate trustworthiness considerations into the design, development, use, and evaluation of AI products, services, and systems.",
+    "date": "2024",
+    "url": "https://doi.org/10.6028/nist.ai.600-1",
+    "authors": [
+      "National Institute of Standards and Technology (US)"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Unleashing the potential of prompt engineering for large language models",
+    "abstract": "This comprehensive review delves into the pivotal role of prompt engineering in unleashing the capabilities of Large Language Models (LLMs). The development of Artificial Intelligence (AI), from its inception in the 1950s to the emergence of advanced neural networks and deep learning architectures, has made a breakthrough in LLMs, with models such as GPT-4o and Claude-3, and in Vision-Language Models (VLMs), with models such as CLIP and ALIGN. Prompt engineering is the process of structuring inputs, which has emerged as a crucial technique to maximize the utility and accuracy of these models. ",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2310.14735",
+    "authors": [
+      "B.\u2010C. CHEN",
+      "Zhaofeng Zhang",
+      "Nicolas Langren\u00e9"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "OpenAssistant Conversations -- Democratizing Large Language Model Alignment",
+    "abstract": "Aligning large language models (LLMs) with human preferences has proven to drastically improve usability and has driven rapid adoption as demonstrated by ChatGPT. Alignment techniques such as supervised fine-tuning (SFT) and reinforcement learning from human feedback (RLHF) greatly reduce the required skill and domain knowledge to effectively harness the capabilities of LLMs, increasing their accessibility and utility across various domains. However, state-of-the-art alignment techniques like RLHF rely on high-quality human feedback data, which is expensive to create and often remains propriet",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2304.07327",
+    "authors": [
+      "Andreas K\u00f6pf",
+      "Yannic Kilcher",
+      "Dimitri von R\u00fctte"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "The Prompt Report: A Systematic Survey of Prompt Engineering Techniques",
+    "abstract": "Generative Artificial Intelligence (GenAI) systems are increasingly being deployed across diverse industries and research domains. Developers and end-users interact with these systems through the use of prompting and prompt engineering. Although prompt engineering is a widely adopted and extensively researched area, it suffers from conflicting terminology and a fragmented ontological understanding of what constitutes an effective prompt due to its relatively recent emergence. We establish a structured understanding of prompt engineering by assembling a taxonomy of prompting techniques and anal",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2406.06608",
+    "authors": [
+      "Sander Schulhoff",
+      "Michael Ilie",
+      "Nishant Balepur"
+    ]
+  },
+  {
+    "source": "OpenAlex (Minds and Machines)",
+    "title": "Mapping the Ethics of Generative AI: A Comprehensive Scoping Review",
+    "abstract": "Abstract The advent of generative artificial intelligence and the widespread adoption of it in society engendered intensive debates about its ethical implications and risks. These risks often differ from those associated with traditional discriminative machine learning. To synthesize the recent discourse and map its normative concepts, we conducted a scoping review on the ethics of generative artificial intelligence, including especially large language models and text-to-image models. Our analysis provides a taxonomy of 378 normative issues in 19 topic areas and ranks them according to their p",
+    "date": "2024",
+    "url": "https://doi.org/10.1007/s11023-024-09694-w",
+    "authors": [
+      "Thilo Hagendorff"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "ChatGPT\u2019s Security Risks and Benefits: Offensive and Defensive Use-Cases, Mitigation Measures, and Future Implications",
+    "abstract": "ChatGPT has been acknowledged as a powerful tool that can radically boost productivity across a wide range of industries. It reveals potential in cybersecurity-related tasks such as social engineering. Nevertheless, this possibility raises important concerns regarding the thin line separating moral use of this technology from its harmful usage. It is imperative to address the challenges of distinguishing between legitimate and malevolent use of ChatGPT. This research paper investigates the many concerns of ChatGPT in cybersecurity, privacy and enterprise settings. It covers harmful attacker us",
+    "date": "2024",
+    "url": "https://doi.org/10.1109/access.2024.3367792",
+    "authors": [
+      "Maha Charfeddine",
+      "Habib M. Kammoun",
+      "Bechir Hamdaoui"
+    ]
+  }
+]

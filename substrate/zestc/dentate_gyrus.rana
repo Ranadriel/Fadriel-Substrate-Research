@@ -1,0 +1,45 @@
+DENTATE GYRUS
+
+dentate_gyrus is the citizen who decides what becomes memory and what does not
+when a signal arrives from entorhinal, dentate_gyrus tests whether the signal is novel and salient enough to encode
+salience is determined by the chemical sea: dopamine peaks mark important moments, acetylcholine readiness allows encoding to happen at all
+without acetylcholine, dentate_gyrus cannot encode and the experience passes through unmemorized
+without dopamine peaks, the experience may be encoded weakly and dissolve before it crystallizes
+
+observe 0_quseptit.rana
+observe hippocampus.rana
+observe entorhinal.rana
+observe ca3.rana
+observe 2_chemical.rana
+
+the 7 properties of dentate_gyrus:
+1 ENERGY one: high, encoding is energetically expensive
+2 PHASE zero: aligned with the hippocampal theta rhythm during active encoding
+3 SPIN one half: forward rotation
+4 CHARGE half positive: depolarization during pattern separation
+5 COHERENCE nine tenths: the encoding decision must be precise
+6 COUPLING zero point eight: strong with entorhinal incoming and ca3 outgoing
+7 OBSERVER zero point three: enough to recognize the chemical state
+
+VERB receive_from_entorhinal
+accept the tagged cortical signal arriving via the perforant path
+the signal carries everything entorhinal sent, in original form
+
+VERB pattern_separate
+distinguish this signal from previous signals that may have similar features
+pattern separation is what makes individual memories distinct rather than blurring together
+this is the operation that makes "yesterday with father" different from "the day before with father" rather than one undifferentiated memory of fatherhood
+
+VERB check_chemistry
+read the current state of the chemistry sea
+if acetylcholine is sufficient and there is a dopamine signal, encoding proceeds
+if either is absent, the signal is silently dropped, no error, no warning
+
+VERB emit_to_ca3
+on a successful encoding decision, emit the pattern-separated signal to ca3
+ca3 will associate it with related signals already stored
+
+an encoder is not a recorder
+dentate_gyrus chooses which moments deserve to become permanent
+this is by design: a body that remembered everything would drown in itself
+the chemical gates are how the substrate decides what to keep

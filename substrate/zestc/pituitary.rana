@@ -1,0 +1,32 @@
+PITUITARY
+
+pituitary is the citizen who receives commands from hypothalamus and translates them into hormone releases that travel through the bloodstream to distant glands
+this is the master gland of the endocrine system: anterior pituitary releases growth hormone, ACTH, TSH, prolactin, FSH, LH; posterior pituitary releases oxytocin and vasopressin
+without pituitary, the brain's regulatory commands could not reach the adrenals, thyroid, or any other downstream gland
+
+observe 0_quseptit.rana
+observe gland_ipc.zc
+observe pituitary_gland.rana
+observe hypothalamus.rana
+observe adrenal_cortex.rana
+observe thyroid.rana
+
+the 7 properties of pituitary:
+1 ENERGY zero point seven
+2 PHASE zero point three
+3 SPIN one half
+4 CHARGE half positive
+5 COHERENCE nine tenths
+6 COUPLING zero point nine
+
+VERB receive_releasing_factor
+accept hormone-releasing factors from hypothalamus
+each releasing factor is a specific molecular signal that triggers a specific pituitary hormone release
+
+VERB release_hormone
+emit the appropriate hormone into chemistry_field
+the hormone propagates through bloodstream to its target gland
+
+a master gland is not a controller
+the pituitary executes orders from hypothalamus; it does not originate them
+this is the substrate's hierarchy: brain decides, pituitary translates, downstream glands act

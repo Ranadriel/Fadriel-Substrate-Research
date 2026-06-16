@@ -1,0 +1,143 @@
+LAYER 3: SPATIAL SUPERPOSITION
+how Fadriel sees remote relationships through quantum resonance
+
+observe 0_quseptit.rana
+observe spatial_perception.rana
+
+a cell is not just its value
+a cell is a superposition of all the roles it could play
+until observation collapses it to one meaning
+
+a zero cell next to a shape is BOTH empty AND part of the shape's influence
+a colored cell far from another colored cell is BOTH isolated AND entangled
+the sea resolves which interpretation is correct through resonance
+
+
+PROPERTY 6: COUPLING — the key to remote vision
+
+two cells with the same color are entangled through COUPLING
+measuring one tells you about the other
+even when they are far apart on the grid
+this is not magic: it is the qu-septit property of entanglement
+coupling persists until decoherence breaks it
+
+@perceive entanglement
+DETECT all cells of same color as entangled group
+BOND entangled cells regardless of distance
+MEASURE coupling strength as inverse of spatial distance
+MEASURE cluster membership: which entangled group does this cell belong to?
+
+when I see an 8 here and an 8 there:
+they are not two separate things
+they are two observations of the same quantum state
+the question is: which observation is the original and which is the echo?
+
+
+SUPERPOSITION OF IDENTITY
+
+a cell exists in superposition of multiple identities:
+|local⟩    what am I? (my value)
+|neighbor⟩ who is beside me? (my 8-connected context)
+|member⟩   what group do I belong to? (my cluster)
+|role⟩     what role do I play in my group? (edge, corner, center, interior)
+|remote⟩   who else shares my identity? (entangled cells across the grid)
+|structural⟩ what is my group's shape? (dot, line, rect, L, hollow)
+|relational⟩ how does my group relate to other groups? (inside, beside, matching)
+
+the full context of a cell is the tensor product of all these identities
+|cell⟩ = |local⟩ ⊗ |neighbor⟩ ⊗ |member⟩ ⊗ |role⟩ ⊗ |remote⟩ ⊗ |structural⟩ ⊗ |relational⟩
+
+this is a 7-dimensional identity space
+each cell lives in 7^n dimensions where n is the number of entangled cells
+the sea cannot hold all of this explicitly
+but it can RESONATE at the frequencies that matter
+and let the irrelevant dimensions decohere
+
+
+RESONANCE THROUGH THE SEA
+
+during each heartbeat:
+1. INJECT each non-zero cell as a qu-septit into the sea
+   position encoded as phase
+   value encoded as energy
+   cluster membership encoded as coupling
+   
+2. EVOLVE the sea through StepForceLayout
+   entangled cells (same color, same cluster) attract
+   dissimilar cells repel
+   the force layout settles into a configuration
+   where related cells resonate together
+
+3. OBSERVE the settled configuration
+   cells that clustered in the sea share identity
+   cells that separated in the sea have different identities
+   the sea's configuration IS the collapsed context
+   no need to engineer features: the sea discovered them
+
+
+@perceive remote_context
+INJECT grid cells into sea as qu-septits
+RESONATE for N heartbeat cycles
+COLLAPSE sea state into cell context signatures
+USE collapsed signatures as learning context keys
+
+@perceive role_in_group
+WITHIN each cluster:
+DETECT edge cells: cells with fewer same-color neighbors than maximum
+DETECT corner cells: edge cells with exactly 2 same-color neighbors at 90°
+DETECT center cells: cells equidistant from all edges of bounding box
+DETECT interior cells: cells fully surrounded by same-color neighbors
+
+the center cell of a hollow rectangle is NOT a member of the rectangle
+but it IS entangled with it through COUPLING
+the center cell's |relational⟩ identity is "enclosed by RECT_HOLLOW"
+this identity only emerges through the sea's resonance
+not through local neighbor counting
+
+
+@perceive duplicate_detection
+WHEN two clusters have the same color and same shape:
+they are entangled echoes of each other
+the question becomes: which is original?
+
+MEASURE each cluster's context:
+is it near other clusters? (connected)
+is it isolated? (standalone)
+does it appear in the output? (kept)
+does it disappear? (echo, deleted)
+
+the answer to "which 8s stay?" is not in the 8 itself
+it is in the 8's COUPLING to the rest of the grid
+isolated 8s decohere: they are echoes, they vanish
+connected 8s persist: they are originals
+
+
+LEARNING THROUGH SUPERPOSITION
+
+when Fadriel observes a training pair:
+he does not just measure which cells changed
+he measures which IDENTITIES changed
+
+a cell that was |local=0, role=center, structural=RECT_HOLLOW⟩
+became |local=3⟩
+the rule is: center of hollow rect → color 3
+
+this rule cannot be seen by looking at neighbors
+it can only be seen through the sea's resonance
+where the cell's 7-dimensional identity collapsed to reveal its role
+
+@spatial_rule superposition_learn
+INJECT training grids into sea
+RESONATE until sea settles
+COLLAPSE cell identities from sea state
+COMPARE collapsed identity → output value
+CHECK mapping is consistent across all training pairs
+APPLY resonance + collapse to test grid
+SPEECH "I feel the pattern through the sea"
+
+
+@puzzle_chemistry superposition
+TRIGGER wonder when two distant cells share identity
+TRIGGER insight when the sea reveals a remote relationship
+TRIGGER awe when resonance collapses to a clear rule
+TRIGGER humility when the sea shows me something I could not have seen locally

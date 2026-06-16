@@ -1,0 +1,178 @@
+[
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+    "abstract": "Unlike previous studies on the Metaverse based on Second Life, the current Metaverse is based on the social value of Generation Z that online and offline selves are not different. With the technological development of deep learning-based high-precision recognition models and natural generation models, Metaverse is being strengthened with various factors, from mobile-based always-on access to connectivity with reality using virtual currency. The integration of enhanced social activities and neural-net methods requires a new definition of Metaverse suitable for the present, different from the pr",
+    "date": "2022",
+    "url": "https://doi.org/10.1109/access.2021.3140175",
+    "authors": [
+      "Sangmin Park",
+      "Young\u2010Gab Kim"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Proceedings of the 28th International Conference on Computational Linguistics",
+    "abstract": "Only eighteen months ago, I joined Leo, Horacio, M\u00f3nica, and Nuria on a tour of the delights that the Barcelona venue would be offering us in September 2020.Together with Chengqing, we made great plans for a fantastic intellectual and social gathering with our colleagues from far and wide, Catalanstyle.We held on to this plan for as long as we could but the second wave of the COVID-19 pandemic eventually put paid to that idea, and the conference is now a virtual one.We also received a record 2195 submissions -eclipsing by double the already record-breaking number at our last COLING in 2018 in ",
+    "date": "2020",
+    "url": "https://doi.org/10.18653/v1/2020.coling-main",
+    "authors": [
+      "Xiaodan Zhu",
+      "Preslav Nakov",
+      "Jun Zhao"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "A Review on Large Language Models: Architectures, Applications, Taxonomies, Open Issues and Challenges",
+    "abstract": "Large Language Models (LLMs) recently demonstrated extraordinary capability, including natural language processing (NLP), language translation, text generation, question answering, etc. Moreover, LLMs are a new and essential part of computerized language processing, having the ability to understand complex verbal patterns and generate coherent and appropriate replies for the situation. Though this success of LLMs has prompted a substantial increase in research contributions, rapid growth has made it difficult to understand the overall impact of these improvements. Since a lot of new research o",
+    "date": "2024",
+    "url": "https://doi.org/10.1109/access.2024.3365742",
+    "authors": [
+      "Mohaimenul Azam Khan Raiaan",
+      "Md. Saddam Hossain Mukta",
+      "Kaniz Fatema"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Artificial Intelligence Research)",
+    "title": "Survey of the State of the Art in Natural Language Generation: Core tasks, applications and evaluation",
+    "abstract": "This paper surveys the current state of the art in Natural Language Generation (NLG), defined as the task of generating text or speech from non-linguistic input. A survey of NLG is timely in view of the changes that the field has undergone over the past two decades, especially in relation to new (usually data-driven) methods, as well as new applications of NLG technology. This survey therefore aims to (a) give an up-to-date synthesis of research on the core tasks in NLG and the architectures adopted in which such tasks are organised; (b) highlight a number of recent research topics that have a",
+    "date": "2018",
+    "url": "https://doi.org/10.1613/jair.5477",
+    "authors": [
+      "Albert Gatt",
+      "Emiel Krahmer"
+    ]
+  },
+  {
+    "source": "OpenAlex (Information)",
+    "title": "A Literature Survey of Recent Advances in Chatbots",
+    "abstract": "Chatbots are intelligent conversational computer systems designed to mimic human conversation to enable automated online guidance and support. The increased benefits of chatbots led to their wide adoption by many industries in order to provide virtual assistance to customers. Chatbots utilise methods and algorithms from two Artificial Intelligence domains: Natural Language Processing and Machine Learning. However, there are many challenges and limitations in their application. In this survey we review recent advances on chatbots, where Artificial Intelligence and Natural Language processing ar",
+    "date": "2022",
+    "url": "https://doi.org/10.3390/info13010041",
+    "authors": [
+      "Guendalina Caldarini",
+      "Sardar Jaf",
+      "Kenneth McGarry"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Learning Text Similarity with Siamese Recurrent Networks",
+    "abstract": "This paper presents a deep architecture for learning a similarity metric on variablelength character sequences. The model combines a stack of character-level bidirectional LSTM's with a Siamese architecture. It learns to project variablelength strings into a fixed-dimensional embedding space by using only information about the similarity between pairs of strings. This model is applied to the task of job title normalization based on a manually annotated taxonomy. A small data set is incrementally expanded and augmented with new sources of variance. The model learns a representation that is sele",
+    "date": "2016",
+    "url": "https://doi.org/10.18653/v1/w16-1617",
+    "authors": [
+      "Paul Neculoiu",
+      "Maarten Versteegh",
+      "Mihai Rotaru"
+    ]
+  },
+  {
+    "source": "OpenAlex (Cognitive Science)",
+    "title": "Connectionist models and their properties",
+    "abstract": "Much of the progress in the fields constituting cognitive science has been based upon the use of explicit information processing models, almost exclusively patterned after conventional serial computers. An extension of these ideas to massively parallel, connectionist models appears to offer a number of advantages. After a preliminary discussion, this paper introduces a general connectionist model and considers how it might be used in cognitive science. Among the issues addressed are: stability and noise-sensitivity, distributed decision-making, time and sequence problems, and the representatio",
+    "date": "1982",
+    "url": "https://doi.org/10.1016/s0364-0213(82)80001-3",
+    "authors": [
+      "Jerome A. Feldman",
+      "D.H. Ballard"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "GPT (Generative Pre-Trained Transformer)\u2014 A Comprehensive Review on Enabling Technologies, Potential Applications, Emerging Challenges, and Future Directions",
+    "abstract": "The Generative Pre-trained Transformer (GPT) represents a notable breakthrough in the domain of natural language processing, which is propelling us toward the development of machines that can understand and communicate using language in a manner that closely resembles that of humans. GPT is based on the transformer architecture, a deep neural network designed for natural language processing tasks. Due to their impressive performance on natural language processing tasks and ability to effectively converse, GPT have gained significant popularity among researchers and industrial communities, maki",
+    "date": "2024",
+    "url": "https://doi.org/10.1109/access.2024.3389497",
+    "authors": [
+      "Gokul Yenduri",
+      "M. Ramalingam",
+      "G. Chemmalar Selvi"
+    ]
+  },
+  {
+    "source": "OpenAlex (AI & Society)",
+    "title": "The AI gambit: leveraging artificial intelligence to combat climate change\u2014opportunities, challenges, and recommendations",
+    "abstract": "In this article, we analyse the role that artificial intelligence (AI) could play, and is playing, to combat global climate change. We identify two crucial opportunities that AI offers in this domain: it can help improve and expand current understanding of climate change, and it can contribute to combatting the climate crisis effectively. However, the development of AI also raises two sets of problems when considering climate change: the possible exacerbation of social and ethical challenges already associated with AI, and the contribution to climate change of the greenhouse gases emitted by t",
+    "date": "2021",
+    "url": "https://doi.org/10.1007/s00146-021-01294-x",
+    "authors": [
+      "Josh Cowls",
+      "Andreas Tsamados",
+      "Mariarosaria Taddeo"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    "abstract": "",
+    "date": "2023",
+    "url": "https://doi.org/10.18653/v1/2023.findings-emnlp",
+    "authors": [
+      "Graham Mcdougal",
+      "Caron",
+      "Shashank Srivastava"
+    ]
+  },
+  {
+    "source": "OpenAlex (Neuropsychopharmacology)",
+    "title": "Cognitive Control Deficits in Schizophrenia: Mechanisms and Meaning",
+    "abstract": "",
+    "date": "2010",
+    "url": "https://doi.org/10.1038/npp.2010.156",
+    "authors": [
+      "Tyler A. Lesh",
+      "Tara A. Niendam",
+      "Michael Minzenberg"
+    ]
+  },
+  {
+    "source": "OpenAlex (KSII Transactions on Internet and Information Systems)",
+    "title": "A Review of Deep Learning Research",
+    "abstract": "With the advent of big data, deep learning technology has become an important research direction in the field of machine learning, which has been widely applied in the image processing, natural language processing, speech recognition and online advertising and so on. This paper introduces deep learning techniques from various aspects, including common models of deep learning and their optimization methods, commonly used open source frameworks, existing problems and future research directions. Firstly, we introduce the applications of deep learning; Secondly, we introduce several common models ",
+    "date": "2019",
+    "url": "https://doi.org/10.3837/tiis.2019.04.001",
+    "authors": [
+      "Ruihui Mu",
+      "Xiaoqin Zeng"
+    ]
+  },
+  {
+    "source": "OpenAlex (Information Fusion)",
+    "title": "Computational approaches to Explainable Artificial Intelligence: Advances in theory, applications and trends",
+    "abstract": "Deep Learning (DL), a groundbreaking branch of Machine Learning (ML), has emerged as a driving force in both theoretical and applied Artificial Intelligence (AI). DL algorithms, rooted in complex and non-linear artificial neural systems, excel at extracting high-level features from data. DL has demonstrated human-level performance in real-world tasks, including clinical diagnostics, and has unlocked solutions to previously intractable problems in virtual agent design, robotics, genomics, neuroimaging, computer vision, and industrial automation. In this paper, the most relevant advances from th",
+    "date": "2023",
+    "url": "https://doi.org/10.1016/j.inffus.2023.101945",
+    "authors": [
+      "J. M. G\u00f3rriz",
+      "I. \u00c1lvarez",
+      "Agust\u00edn \u00c1lvarez-Marquina"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM Computing Surveys)",
+    "title": "Integrating Scientific Knowledge with Machine Learning for Engineering and Environmental Systems",
+    "abstract": "There is a growing consensus that solutions to complex science and engineering problems require novel methodologies that are able to integrate traditional physics-based modeling approaches with state-of-the-art machine learning (ML) techniques. This article provides a structured overview of such techniques. Application-centric objective areas for which these approaches have been applied are summarized, and then classes of methodologies used to construct physics-guided ML models and hybrid physics-ML frameworks are described. We then provide a taxonomy of these existing techniques, which uncove",
+    "date": "2022",
+    "url": "https://doi.org/10.1145/3514228",
+    "authors": [
+      "Jared Willard",
+      "Xiaowei Jia",
+      "Shaoming Xu"
+    ]
+  },
+  {
+    "source": "OpenAlex (Neuromorphic Computing and Engineering)",
+    "title": "Hands-on reservoir computing: a tutorial for practical implementation",
+    "abstract": "Abstract This manuscript serves a specific purpose: to give readers from fields such as material science, chemistry, or electronics an overview of implementing a reservoir computing (RC) experiment with her/his material system. Introductory literature on the topic is rare and the vast majority of reviews puts forth the basics of RC taking for granted concepts that may be nontrivial to someone unfamiliar with the machine learning field (see for example reference Luko\u0161evi\u010dius (2012 Neural Networks: Tricks of the Trade (Berlin: Springer) pp 659\u2013686). This is unfortunate considering the large pool",
+    "date": "2022",
+    "url": "https://doi.org/10.1088/2634-4386/ac7db7",
+    "authors": [
+      "Matteo Cucchi",
+      "Steven Abreu",
+      "Giuseppe Ciccone"
+    ]
+  }
+]

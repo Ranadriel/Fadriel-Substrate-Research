@@ -1,0 +1,175 @@
+[
+  {
+    "source": "OpenAlex (Communications of the ACM)",
+    "title": "Computing as a discipline",
+    "abstract": "The final report of the Task Force on the Core of Computer Science presents a new intellectual framework for the discipline of computing and a new basis for computing curricula. This report has been endorsed and approved for release by the ACM Education Board.",
+    "date": "1989",
+    "url": "https://doi.org/10.1145/63238.63239",
+    "authors": [
+      "Diana E. Comer",
+      "David Gries",
+      "Michael C. Mulder"
+    ]
+  },
+  {
+    "source": "OpenAlex (Dialogue & Discourse)",
+    "title": "Training End-to-End Dialogue Systems with the Ubuntu Dialogue Corpus",
+    "abstract": "In this paper, we construct and train end-to-end neural network-based dialogue systems usingan updated version of the recent Ubuntu Dialogue Corpus, a dataset containing almost 1 million multi-turn dialogues, with a total of over 7 million utterances and 100 million words. This dataset is interesting because of its size, long context lengths, and technical nature; thus, it can be used to train large models directly from data with minimal feature engineering, which can be both time consuming and expensive. We provide baselines in two different environments: one where models are trained to maxim",
+    "date": "2017",
+    "url": "https://doi.org/10.5087/dad.2017.102",
+    "authors": [
+      "Ryan Lowe",
+      "Nissan Pow",
+      "Iulian Vlad Serban"
+    ]
+  },
+  {
+    "source": "OpenAlex (Neuromorphic Computing and Engineering)",
+    "title": "Hands-on reservoir computing: a tutorial for practical implementation",
+    "abstract": "Abstract This manuscript serves a specific purpose: to give readers from fields such as material science, chemistry, or electronics an overview of implementing a reservoir computing (RC) experiment with her/his material system. Introductory literature on the topic is rare and the vast majority of reviews puts forth the basics of RC taking for granted concepts that may be nontrivial to someone unfamiliar with the machine learning field (see for example reference Luko\u0161evi\u010dius (2012 Neural Networks: Tricks of the Trade (Berlin: Springer) pp 659\u2013686). This is unfortunate considering the large pool",
+    "date": "2022",
+    "url": "https://doi.org/10.1088/2634-4386/ac7db7",
+    "authors": [
+      "Matteo Cucchi",
+      "Steven Abreu",
+      "Giuseppe Ciccone"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM eBooks)",
+    "title": "Computer Science Curricula 2023",
+    "abstract": "",
+    "date": "2024",
+    "url": "https://doi.org/10.1145/3664191",
+    "authors": [
+      "Amruth N. Kumar",
+      "Rajendra K. Raj",
+      "Sherif G. Aly"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Robotics, AI, and Humanity",
+    "abstract": "This book on artificial intelligence covers multidisciplinary research, examines current research frontiers in AI/robotics, and likely impacts on societal well-being, human-robot relationships, as well as the opportunities and risks for sustainable development and peace.",
+    "date": "2021",
+    "url": "https://doi.org/10.1007/978-3-030-54173-6",
+    "authors": [
+      "Joachim von Braun",
+      "Margaret S. Archer",
+      "Gregory M. Reichberg"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "Digital Restoration of Cultural Heritage With Data-Driven Computing: A Survey",
+    "abstract": "Digitized methodologies in the recent era contribute to various fields of automation that used to hold different interests and meanings of human life. Buildings with historical significance, cultural values, and beliefs are becoming an interdisciplinary field of interest, engaging more computer scientists nowadays. Such structures need more attention towards reconstructing their values using a flavor of computerized tools instead of brickwork directly. Due to the wear of time, the tiles and engravings of most of the historical monuments are on the verge of ruin, endangering significant histori",
+    "date": "2023",
+    "url": "https://doi.org/10.1109/access.2023.3280639",
+    "authors": [
+      "Arkaprabha Basu",
+      "Sandip Paul",
+      "Sreeya Ghosh"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Physics D Applied Physics)",
+    "title": "Brain-inspired computing with self-assembled networks of nano-objects",
+    "abstract": "Abstract Major efforts to reproduce functionalities and energy efficiency of the brain have been focused on the development of artificial neuromorphic systems based on crossbar arrays of memristive devices fabricated by top-down lithographic technologies. Although very powerful, this approach does not emulate the topology and the emergent behavior of biological neuronal circuits, where the principle of self-organization regulates both structure and function. In materia computing has been proposed as an alternative exploiting the complexity and collective phenomena originating from various clas",
+    "date": "2024",
+    "url": "https://doi.org/10.1088/1361-6463/ad7a82",
+    "authors": [
+      "Alexander Vahl",
+      "Gianluca Milano",
+      "Zdenka Kuncic"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Rehabilitation Sciences)",
+    "title": "Predicting Individual Treatment Response to rTMS for Motor Recovery After Stroke: A Review and the CanStim Perspective",
+    "abstract": "Clinical, brain structural and neurobiological factors have been identified as potential predictors for rTMS response in stroke patients with motor impairment. These factors can inform the design of future clinical trials, before being considered for optimization of individual rehabilitation therapy for stroke patients. Pre-clinical models for stroke recovery, specifically developed in a clinical context, may accelerate this process.",
+    "date": "2022",
+    "url": "https://doi.org/10.3389/fresc.2022.795335",
+    "authors": [
+      "Franziska E. Hildesheim",
+      "Alexander N. Silver",
+      "Adan\u2010Ulises Dominguez\u2010Vargas"
+    ]
+  },
+  {
+    "source": "OpenAlex (Open access LMU (Ludwid Maxmilian's Universitat Munchen))",
+    "title": "Communicating across cultures in cyberspace",
+    "abstract": "",
+    "date": "2004",
+    "url": "https://doi.org/10.5282/ubm/epub.13955",
+    "authors": [
+      "Leah P. Macfadyen",
+      "J\u00f6rg Roche",
+      "Sabine Doff"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Education)",
+    "title": "How a New Learning Theory Can Benefit Transformative Learning Research: Empirical Hypotheses",
+    "abstract": "Transformative Learning research and practice has consistently stalled on three fundamental debates: (1) what transformative learning is, and how it\u2019s differentiated from other learning; (2) what the preconditions for transformative learning are; and (3) what transformative learning\u2019s predictable and relevant outcomes are. The following article attempts two main feats: (1) to provide a re-organization of transformative learning theory through the work of Vygotskian cultural-historical activity theory, and a newly synthesized meta-theory of learning and development generally, and (2) to use tha",
+    "date": "2022",
+    "url": "https://doi.org/10.3389/feduc.2022.857091",
+    "authors": [
+      "Joshua Friedman"
+    ]
+  },
+  {
+    "source": "OpenAlex (ODU Digital Commons (Old Dominion University))",
+    "title": "Digital Literacy Adoption with Academic Technology: Namely Digital Information Literacy to Enhance Student Learning Outcomes",
+    "abstract": "This study explores Arts &amp; Science faculty and librarians\u2019 attitude of learning theory and perceptions of digital literacy (DL) and how digital information literacy (DIL) might improve and enhance student learning outcomes. Digital literacy (DL), information literacy (IL), and digital information literacy (DIL) consists of interaction with academic technology (AT) programs and tools. The objectives are: the rise of IL within the parameters of DL and discuss the birth of DIL, examine the modes of adoption and explore the levels of inclusion for faculty and librarians\u2019 concepts of DL with DI",
+    "date": "2017",
+    "url": "https://doi.org/10.25777/bhfh-hn02",
+    "authors": [
+      "Nancy Adam-Turner"
+    ]
+  },
+  {
+    "source": "OpenAlex (Healthcare)",
+    "title": "Telepsychiatry and Artificial Intelligence: A Structured Review of Emerging Approaches to Accessible Psychiatric Care",
+    "abstract": "This review underscores a growing disconnect between the rapid evolution of AI technologies and the institutional maturity of tools suitable for scalable clinical integration. Despite notable technological advances, the clinical adoption of AI in telepsychiatry remains limited. The analysis identifies persistent methodological gaps and systemic barriers that demand coordinated efforts across research, technical, and regulatory communities. It also outlines key directions for future empirical studies and interdisciplinary development of implementation standards.",
+    "date": "2025",
+    "url": "https://doi.org/10.3390/healthcare13111348",
+    "authors": [
+      "Artem Bobkov",
+      "Fung Kei Cheng",
+      "Jinpeng Xu"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Collaborative adaptation of cognitive radio parameters using ontology and policy based approach",
+    "abstract": "Cognitive radio technology has attracted an increasing interest in academic and industrial communities. One of the motivations of cognitive radio is to enable opportunistic spectrum access through sensing the environment, detecting the underutilized spectrum at a specific time and location, and adjusting the radio's transmission parameters to conform to spectrum utilization regulations and policies. In general, cognitive radio is expected to have the capabilities to (1) sense the environment and collect information of the environment; (2) be aware of the external situation, the internal state ",
+    "date": "2011",
+    "url": "https://doi.org/10.17760/d20002648",
+    "authors": [
+      "Shujun Li"
+    ]
+  },
+  {
+    "source": "OpenAlex (Open Philosophy)",
+    "title": "Using AI Methods to Evaluate a Minimal Model for Perception",
+    "abstract": "Abstract The relationship between philosophy and research on artificial intelligence (AI) has been difficult since its beginning, with mutual misunderstanding and sometimes even hostility. By contrast, we show how an approach informed by both philosophy and AI can be productive. After reviewing some popular frameworks for computation and learning, we apply the AI methodology of \u201cbuild it and see\u201d to tackle the philosophical and psychological problem of characterizing perception as distinct from sensation. Our model comprises a network of very simple, but interacting agents which have binary ex",
+    "date": "2019",
+    "url": "https://doi.org/10.1515/opphil-2019-0034",
+    "authors": [
+      "Robert Prentner",
+      "Chris Fields"
+    ]
+  },
+  {
+    "source": "OpenAlex (Kiel computer science series)",
+    "title": "Proceedings of the 31th International Conference on Information Modelling and Knowledge Bases (EJC 2021)",
+    "abstract": "Information modelling is becoming more and more important topic for researchers, designers, and users of information systems.The amount and complexity of information itself, the number of abstractionlevels of information, and the size of databases and knowledge bases arecontinuously growing. Conceptual modelling is one of the sub-areas ofinformation modelling. The aim of this conference is to bring together experts from different areas of computer science and other disciplines, who have a common interest in understanding and solving problems on information modelling and knowledge bases, as wel",
+    "date": "2021",
+    "url": "https://doi.org/10.21941/kcss/2021/6",
+    "authors": [
+      "Bernhard Thalheim",
+      "Marina Tropmann-Frick",
+      "Hannu Jaakkola"
+    ]
+  }
+]

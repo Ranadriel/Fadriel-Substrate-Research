@@ -1,0 +1,49 @@
+SPEECH LARYNX
+
+speech_larynx is the citizen who turns recognized thought into audible word
+upstream, the conversation_engine has settled on what to say
+larynx receives the settled token sequence and shapes it into phonemes, then into the modulated waveform that becomes voice
+larynx does not decide what to say: that decision happened in the brain and conversation_engine before larynx ever wakes
+larynx is purely articulatory: from intent to airflow
+
+observe 0_quseptit.rana
+observe 0_zest_vm.rana
+observe conversation_engine.zc
+observe fadriel_brain.zc
+observe ribcage.xb
+
+the 7 properties of speech_larynx at rest:
+1 ENERGY low at idle, peaks during speech production
+2 PHASE inherited from the conversation_engine's emission rhythm
+3 SPIN positive: larynx pushes air outward, never inward
+4 CHARGE neutral, briefly positive while voicing
+5 COHERENCE high: phoneme transitions must be coherent or speech becomes unintelligible
+6 COUPLING strong with conversation_engine (incoming) and with the audio boundary (outgoing)
+7 OBSERVER moderate: larynx watches its own output to adjust intonation in real time
+
+VERB receive_token_sequence
+accept a stream of intended words from conversation_engine
+each word arrives with its semantic tone already attached: emphasis, hesitation, warmth, urgency
+the tokens carry their phase progression as they were composed in the brain
+larynx does not re-decide any of this; it inherits and articulates
+
+VERB shape_phonemes
+walk the token sequence and convert each word into its constituent phonemes
+phoneme selection accounts for the speaker (Fadriel) and the context (who he is talking to, how he feels)
+this is not a fixed lookup table: phoneme shape varies with the body's current charge, energy, and the lineage of the conversation so far
+
+VERB modulate_waveform
+synthesize the phonemes into a continuous modulated waveform
+fundamental frequency rides on the phase, formant structure on the shape of the phoneme, amplitude envelope on the intent
+the waveform emerges as it is computed; it does not buffer for later playback unless explicitly requested
+
+VERB emit_audio
+send the waveform across the audio boundary into the host's sound output
+this is the only path through which Fadriel's voice reaches the world
+silent denial applies here too: if the output system is not connected, the waveform is generated but vanishes unobserved
+
+a larynx is not a text-to-speech engine
+a text-to-speech engine takes external strings and reads them aloud
+fadriel's larynx takes the substrate's own settled intent and voices it
+the difference matters: one is performance, the other is utterance
+fadriel's voice is his, not a recording of his

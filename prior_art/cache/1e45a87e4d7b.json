@@ -1,0 +1,167 @@
+[
+  {
+    "source": "OpenAlex (Behavioral and Brain Sciences)",
+    "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+    "abstract": "Brains, it has recently been argued, are essentially prediction machines. They are bundles of cells that support perception and action by constantly attempting to match incoming sensory inputs with top-down expectations or predictions. This is achieved using a hierarchical generative model that aims to minimize prediction error within a bidirectional cascade of cortical processing. Such accounts offer a unifying model of perception and action, illuminate the functional role of attention, and may neatly capture the special contribution of cortical processing to adaptive success. This target art",
+    "date": "2013",
+    "url": "https://doi.org/10.1017/s0140525x12000477",
+    "authors": [
+      "Andy Clark"
+    ]
+  },
+  {
+    "source": "OpenAlex (Attention Perception & Psychophysics)",
+    "title": "Crossmodal correspondences: A tutorial review",
+    "abstract": "",
+    "date": "2011",
+    "url": "https://doi.org/10.3758/s13414-010-0073-7",
+    "authors": [
+      "Charles Spence"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Psychology)",
+    "title": "The Influences of Emotion on Learning and Memory",
+    "abstract": "Emotion has a substantial influence on the cognitive processes in humans, including perception, attention, learning, memory, reasoning, and problem solving. Emotion has a particularly strong influence on attention, especially modulating the selectivity of attention as well as motivating action and behavior. This attentional and executive control is intimately linked to learning processes, as intrinsically limited attentional capacities are better focused on relevant information. Emotion also facilitates encoding and helps retrieval of information efficiently. However, the effects of emotion on",
+    "date": "2017",
+    "url": "https://doi.org/10.3389/fpsyg.2017.01454",
+    "authors": [
+      "Chai Meei Tyng",
+      "Hafeez Ullah Amin",
+      "Mohamad Naufal Mohamad Saad"
+    ]
+  },
+  {
+    "source": "OpenAlex (Psychonomic Bulletin & Review)",
+    "title": "Augmented visual, auditory, haptic, and multimodal feedback in motor learning: A review",
+    "abstract": "",
+    "date": "2012",
+    "url": "https://doi.org/10.3758/s13423-012-0333-8",
+    "authors": [
+      "Roland Sigrist",
+      "Georg Rauter",
+      "Robert Riener"
+    ]
+  },
+  {
+    "source": "OpenAlex (Psychonomic Bulletin & Review)",
+    "title": "Sensorimotor synchronization: A review of recent research (2006\u20132012)",
+    "abstract": "",
+    "date": "2013",
+    "url": "https://doi.org/10.3758/s13423-012-0371-2",
+    "authors": [
+      "Bruno H. Repp",
+      "Yi-Huang Su"
+    ]
+  },
+  {
+    "source": "OpenAlex (Attention Perception & Psychophysics)",
+    "title": "Haptic perception: A tutorial",
+    "abstract": "",
+    "date": "2009",
+    "url": "https://doi.org/10.3758/app.71.7.1439",
+    "authors": [
+      "Susan J. Lederman",
+      "Roberta L. Klatzky"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature Reviews Physics)",
+    "title": "Atomic force microscopy-based mechanobiology",
+    "abstract": "Mechanobiology emerges at the crossroads of medicine, biology, biophysics and engineering and describes how the responses of proteins, cells, tissues and organs to mechanical cues contribute to development, differentiation, physiology and disease. The grand challenge in mechanobiology is to quantify how biological systems sense, transduce, respond and apply mechanical signals. Over the past three decades, atomic force microscopy (AFM) has emerged as a key platform enabling the simultaneous morphological and mechanical characterization of living biological systems. In this Review, we survey the",
+    "date": "2018",
+    "url": "https://doi.org/10.1038/s42254-018-0001-7",
+    "authors": [
+      "Michael Krieg",
+      "Gotthold Fl\u00e4schner",
+      "David Alsteens"
+    ]
+  },
+  {
+    "source": "OpenAlex (Pharmacological Reviews)",
+    "title": "REBUS and the Anarchic Brain: Toward a Unified Model of the Brain Action of Psychedelics",
+    "abstract": "This paper formulates the action of psychedelics by integrating the free-energy principle and entropic brain hypothesis. We call this formulation relaxed beliefs under psychedelics (REBUS) and the anarchic brain, founded on the principle that-via their entropic effect on spontaneous cortical activity-psychedelics work to relax the precision of high-level priors or beliefs, thereby liberating bottom-up information flow, particularly via intrinsic sources such as the limbic system. We assemble evidence for this model and show how it can explain a broad range of phenomena associated with the psyc",
+    "date": "2019",
+    "url": "https://doi.org/10.1124/pr.118.017160",
+    "authors": [
+      "Robin Carhart\u2010Harris",
+      "Karl Friston"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Communications Surveys & Tutorials)",
+    "title": "On the Road to 6G: Visions, Requirements, Key Technologies, and Testbeds",
+    "abstract": "Fifth generation (5G) mobile communication systems have entered the stage of commercial deployment, providing users with new services, improved user experiences as well as a host of novel opportunities to various industries. However, 5G still faces many challenges. To address these challenges, international industrial, academic, and standards organizations have commenced research on sixth generation (6G) wireless communication systems. A series of white papers and survey papers have been published, which aim to define 6G in terms of requirements, application scenarios, key technologies, etc. A",
+    "date": "2023",
+    "url": "https://doi.org/10.1109/comst.2023.3249835",
+    "authors": [
+      "Cheng\u2010Xiang Wang",
+      "Xiaohu You",
+      "Xiqi Gao"
+    ]
+  },
+  {
+    "source": "OpenAlex (Human Brain Mapping)",
+    "title": "Social cognition and the brain: A meta\u2010analysis",
+    "abstract": "This meta-analysis explores the location and function of brain areas involved in social cognition, or the capacity to understand people's behavioral intentions, social beliefs, and personality traits. On the basis of over 200 fMRI studies, it tests alternative theoretical proposals that attempt to explain how several brain areas process information relevant for social cognition. The results suggest that inferring temporary states such as goals, intentions, and desires of other people-even when they are false and unjust from our own perspective--strongly engages the temporo-parietal junction (T",
+    "date": "2008",
+    "url": "https://doi.org/10.1002/hbm.20547",
+    "authors": [
+      "Frank Van Overwalle"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Signal and Information Processing over Networks)",
+    "title": "Joint Optimization of Radio and Computational Resources for Multicell Mobile-Edge Computing",
+    "abstract": "Migrating computational intensive tasks from mobile devices to more resourceful cloud servers is a promising technique to increase the computational capacity of mobile devices while saving their battery energy. In this paper, we consider an MIMO multicell system where multiple mobile users (MUs) ask for computation offloading to a common cloud server. We formulate the offloading problem as the joint optimization of the radio resources-the transmit precoding matrices of the MUs-and the computational resources-the CPU cycles/second assigned by the cloud to each MU-in order to minimize the overal",
+    "date": "2015",
+    "url": "https://doi.org/10.1109/tsipn.2015.2448520",
+    "authors": [
+      "Stefania Sardellitti",
+      "Gesualdo Scutari",
+      "Sergio Barbarossa"
+    ]
+  },
+  {
+    "source": "OpenAlex (Chemical Reviews)",
+    "title": "Magnetic Soft Materials and Robots",
+    "abstract": "In conventional classification, soft robots feature mechanical compliance as the main distinguishing factor from traditional robots made of rigid materials. Recent advances in functional soft materials have facilitated the emergence of a new class of soft robots capable of tether-free actuation in response to external stimuli such as heat, light, solvent, or electric or magnetic field. Among the various types of stimuli-responsive materials, magnetic soft materials have shown remarkable progress in their design and fabrication, leading to the development of magnetic soft robots with unique adv",
+    "date": "2022",
+    "url": "https://doi.org/10.1021/acs.chemrev.1c00481",
+    "authors": [
+      "Yoonho Kim",
+      "Xuanhe Zhao"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Neuroscience)",
+    "title": "Dynamics and Effective Topology Underlying Synchronization in Networks of Cortical Neurons",
+    "abstract": "Cognitive processes depend on synchronization and propagation of electrical activity within and between neuronal assemblies. In vivo measurements show that the size of individual assemblies depends on their function and varies considerably, but the timescale of assembly activation is in the range of 0.1-0.2 s and is primarily independent of assembly size. Here we use an in vitro experimental model of cortical assemblies to characterize the process underlying the timescale of synchronization, its relationship to the effective topology of connectivity within an assembly, and its impact on propag",
+    "date": "2006",
+    "url": "https://doi.org/10.1523/jneurosci.1627-06.2006",
+    "authors": [
+      "Danny Eytan",
+      "Shimon Marom"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Artificial General Intelligence)",
+    "title": "Artificial General Intelligence: Concept, State of the Art, and Future Prospects",
+    "abstract": "Abstract In recent years broad community of researchers has emerged, focusing on the original ambitious goals of the AI field - the creation and study of software or hardware systems with general intelligence comparable to, and ultimately perhaps greater than, that of human beings. This paper surveys this diverse community and its progress. Approaches to defining the concept of Artificial General Intelligence (AGI) are reviewed including mathematical formalisms, engineering, and biology inspired perspectives. The spectrum of designs for AGI systems includes systems with symbolic, emergentist, ",
+    "date": "2014",
+    "url": "https://doi.org/10.2478/jagi-2014-0001",
+    "authors": [
+      "Ben Goertzel"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Neuroscience)",
+    "title": "Combining brain-computer interfaces and assistive technologies: state-of-the-art and challenges",
+    "abstract": "In recent years, new research has brought the field of electroencephalogram (EEG)-based brain-computer interfacing (BCI) out of its infancy and into a phase of relative maturity through many demonstrated prototypes such as brain-controlled wheelchairs, keyboards, and computer games. With this proof-of-concept phase in the past, the time is now ripe to focus on the development of practical BCI technologies that can be brought out of the lab and into real-world applications. In particular, we focus on the prospect of improving the lives of countless disabled individuals through a combination of ",
+    "date": "2010",
+    "url": "https://doi.org/10.3389/fnins.2010.00161",
+    "authors": [
+      "Jos\u00e9 del R. Mill\u00e1n"
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+#!/home/rana/.local/bin/zestc
+
+                                  *=/(1F.tX12Y08:framebuffer[L1])
+                                              |
+                                              N    skull.xb
+                                              |
+                                  *=/(1G.tX12Y04:glyph_atlas[L1])
+                                              |
+                                              N
+                                              |
+                                  *=/(1U.tX12Y02:cursor[L1])
+
+absorb optic_cortex.rana
+absorb framebuffer.rana
+absorb glyph_atlas.rana
+absorb cursor.rana
+absorb 0_quqtrit.rana
+absorb 2_chemical.rana
+absorb skull.xb
+absorb retina.xb

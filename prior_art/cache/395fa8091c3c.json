@@ -1,0 +1,179 @@
+[
+  {
+    "source": "OpenAlex (Journal of Artificial Intelligence Research)",
+    "title": "Reinforcement Learning: A Survey",
+    "abstract": "This paper surveys the field of reinforcement learning from a computer-science perspective. It is written to be accessible to researchers familiar with machine learning. Both the historical basis of the field and a broad selection of current work are summarized. Reinforcement learning is the problem faced by an agent that learns behavior through trial-and-error interactions with a dynamic environment. The work described here has a resemblance to work in psychology, but differs considerably in the details and in the use of the word ``reinforcement.'' The paper discusses central issues of reinfo",
+    "date": "1996",
+    "url": "https://doi.org/10.1613/jair.301",
+    "authors": [
+      "Leslie Pack Kaelbling",
+      "Michael L. Littman",
+      "Andrew Moore"
+    ]
+  },
+  {
+    "source": "OpenAlex (Information Fusion)",
+    "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+    "abstract": "",
+    "date": "2019",
+    "url": "https://doi.org/10.1016/j.inffus.2019.12.012",
+    "authors": [
+      "Alejandro Barredo Arrieta",
+      "Natalia D\u00edaz-Rodr\u00edguez",
+      "Javier Del Ser"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal Of Big Data)",
+    "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+    "abstract": "In the last few years, the deep learning (DL) computing paradigm has been deemed the Gold Standard in the machine learning (ML) community. Moreover, it has gradually become the most widely used computational approach in the field of ML, thus achieving outstanding results on several complex cognitive tasks, matching or even beating those provided by human performance. One of the benefits of DL is the ability to learn massive amounts of data. The DL field has grown fast in the last few years and it has been extensively used to successfully address a wide range of traditional applications. More i",
+    "date": "2021",
+    "url": "https://doi.org/10.1186/s40537-021-00444-8",
+    "authors": [
+      "Laith Alzubaidi",
+      "Jinglan Zhang",
+      "Amjad J. Humaidi"
+    ]
+  },
+  {
+    "source": "OpenAlex (SN Computer Science)",
+    "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions",
+    "abstract": "",
+    "date": "2021",
+    "url": "https://doi.org/10.1007/s42979-021-00592-x",
+    "authors": [
+      "Iqbal H. Sarker"
+    ]
+  },
+  {
+    "source": "OpenAlex (ISTI Open Portal)",
+    "title": "A survey of methods for explaining black box models",
+    "abstract": "In recent years, many accurate decision support systems have been constructed as black boxes, that is as systems that hide their internal logic to the user. This lack of explanation constitutes both a practical and an ethical issue. The literature reports many approaches aimed at overcoming this crucial weakness, sometimes at the cost of sacrificing accuracy for interpretability. The applications in which black box decision systems can be used are various, and each approach is typically developed to provide a solution for a specific problem and, as a consequence, it explicitly or implicitly de",
+    "date": "2019",
+    "url": "https://doi.org/10.1145/3236009",
+    "authors": [
+      "Riccardo Guidotti",
+      "Anna Monreale",
+      "Salvatore Ruggieri"
+    ]
+  },
+  {
+    "source": "OpenAlex (Annual Review of Fluid Mechanics)",
+    "title": "Machine Learning for Fluid Mechanics",
+    "abstract": "The field of fluid mechanics is rapidly advancing, driven by unprecedented volumes of data from experiments, field measurements, and large-scale simulations at multiple spatiotemporal scales. Machine learning (ML) offers a wealth of techniques to extract information from data that can be translated into knowledge about the underlying fluid mechanics. Moreover, ML algorithms can augment domain knowledge and automate tasks related to flow control and optimization. This article presents an overview of past history, current developments, and emerging opportunities of ML for fluid mechanics. We out",
+    "date": "2019",
+    "url": "https://doi.org/10.1146/annurev-fluid-010719-060214",
+    "authors": [
+      "Steven L. Brunton",
+      "Bernd R. Noack",
+      "Petros Koumoutsakos"
+    ]
+  },
+  {
+    "source": "OpenAlex (npj Computational Materials)",
+    "title": "Recent advances and applications of machine learning in solid-state materials science",
+    "abstract": "Abstract One of the most exciting tools that have entered the material science toolbox in recent years is machine learning. This collection of statistical methods has already proved to be capable of considerably speeding up both fundamental and applied research. At present, we are witnessing an explosion of works that develop and apply machine learning to solid-state systems. We provide a comprehensive overview and analysis of the most recent research in this topic. As a starting point, we introduce machine learning principles, algorithms, descriptors, and databases in materials science. We co",
+    "date": "2019",
+    "url": "https://doi.org/10.1038/s41524-019-0221-0",
+    "authors": [
+      "Jonathan Schmidt",
+      "M\u00e1rio R. G. Marques",
+      "Silvana Botti"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Systems Man and Cybernetics Part C (Applications and Reviews))",
+    "title": "A Comprehensive Survey of Multiagent Reinforcement Learning",
+    "abstract": "<para xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> Multiagent systems are rapidly finding applications in a variety of domains, including robotics, distributed control, telecommunications, and economics. The complexity of many tasks arising in these domains makes them difficult to solve with preprogrammed agent behaviors. The agents must, instead, discover a solution on their own, using learning. A significant part of the research on multiagent learning concerns reinforcement learning techniques. This paper provides a comprehensive survey of multia",
+    "date": "2008",
+    "url": "https://doi.org/10.1109/tsmcc.2007.913919",
+    "authors": [
+      "Lucian Bu\u015foniu",
+      "Robert Babu\u0161ka",
+      "Bart De Schutter"
+    ]
+  },
+  {
+    "source": "OpenAlex (Cognitive Computation)",
+    "title": "Interpreting Black-Box Models: A Review on Explainable Artificial Intelligence",
+    "abstract": "Abstract Recent years have seen a tremendous growth in Artificial Intelligence (AI)-based methodological development in a broad range of domains. In this rapidly evolving field, large number of methods are being reported using machine learning (ML) and Deep Learning (DL) models. Majority of these models are inherently complex and lacks explanations of the decision making process causing these models to be termed as 'Black-Box'. One of the major bottlenecks to adopt such models in mission-critical application domains, such as banking, e-commerce, healthcare, and public services and safety, is t",
+    "date": "2023",
+    "url": "https://doi.org/10.1007/s12559-023-10179-8",
+    "authors": [
+      "Vikas Hassija",
+      "Vinay Chamola",
+      "Atmesh Mahapatra"
+    ]
+  },
+  {
+    "source": "OpenAlex (Proceedings of the IEEE)",
+    "title": "Edge Intelligence: Paving the Last Mile of Artificial Intelligence With Edge Computing",
+    "abstract": "With the breakthroughs in deep learning, the recent years have witnessed a booming of artificial intelligence (AI) applications and services, spanning from personal assistant to recommendation systems to video/audio surveillance. More recently, with the proliferation of mobile computing and Internet of Things (IoT), billions of mobile and IoT devices are connected to the Internet, generating zillions bytes of data at the network edge. Driving by this trend, there is an urgent need to push the AI frontiers to the network edge so as to fully unleash the potential of the edge big data. To meet th",
+    "date": "2019",
+    "url": "https://doi.org/10.1109/jproc.2019.2918951",
+    "authors": [
+      "Zhi Zhou",
+      "Xu Chen",
+      "En Li"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+    "abstract": "Unlike previous studies on the Metaverse based on Second Life, the current Metaverse is based on the social value of Generation Z that online and offline selves are not different. With the technological development of deep learning-based high-precision recognition models and natural generation models, Metaverse is being strengthened with various factors, from mobile-based always-on access to connectivity with reality using virtual currency. The integration of enhanced social activities and neural-net methods requires a new definition of Metaverse suitable for the present, different from the pr",
+    "date": "2022",
+    "url": "https://doi.org/10.1109/access.2021.3140175",
+    "authors": [
+      "Sangmin Park",
+      "Young\u2010Gab Kim"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Field Robotics)",
+    "title": "Stanley: The robot that won the DARPA Grand Challenge",
+    "abstract": "Abstract This article describes the robot Stanley, which won the 2005 DARPA Grand Challenge. Stanley was developed for high\u2010speed desert driving without manual intervention. The robot's software system relied predominately on state\u2010of\u2010the\u2010art artificial intelligence technologies, such as machine learning and probabilistic reasoning. This paper describes the major components of this architecture, and discusses the results of the Grand Challenge race. \u00a9 2006 Wiley Periodicals, Inc.",
+    "date": "2006",
+    "url": "https://doi.org/10.1002/rob.20147",
+    "authors": [
+      "Sebastian Thrun",
+      "Mike Montemerlo",
+      "Hendrik Dahlkamp"
+    ]
+  },
+  {
+    "source": "OpenAlex (EURASIP Journal on Wireless Communications and Networking)",
+    "title": "Smart radio environments empowered by reconfigurable AI meta-surfaces: an idea whose time has come",
+    "abstract": "Future wireless networks are expected to constitute a distributed intelligent wireless communications, sensing, and computing platform, which will have the challenging requirement of interconnecting the physical and digital worlds in a seamless and sustainable manner. Currently, two main factors prevent wireless network operators from building such networks: (1) the lack of control of the wireless environment, whose impact on the radio waves cannot be customized, and (2) the current operation of wireless radios, which consume a lot of power because new signals are generated whenever data has t",
+    "date": "2019",
+    "url": "https://doi.org/10.1186/s13638-019-1438-9",
+    "authors": [
+      "Marco Di Renzo",
+      "M\u00e9rouane Debbah",
+      "Dinh-Thuy Phan-Huy"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "A Survey of Autonomous Driving: <i>Common Practices and Emerging Technologies</i>",
+    "abstract": "Automated driving systems (ADSs) promise a safe, comfortable and efficient driving experience. However, fatalities involving vehicles equipped with ADSs are on the rise. The full potential of ADSs cannot be realized unless the robustness of state-of-the-art is improved further. This paper discusses unsolved problems and surveys the technical aspect of automated driving. Studies regarding present challenges, high-level system architectures, emerging methodologies and core functions including localization, mapping, perception, planning, and human machine interfaces, were thoroughly reviewed. Fur",
+    "date": "2020",
+    "url": "https://doi.org/10.1109/access.2020.2983149",
+    "authors": [
+      "Ekim Yurtsever",
+      "Jacob Lambert",
+      "Alexander Carballo"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Scientific Computing)",
+    "title": "Scientific Machine Learning Through Physics\u2013Informed Neural Networks: Where we are and What\u2019s Next",
+    "abstract": "Abstract Physics-Informed Neural Networks (PINN) are neural networks (NNs) that encode model equations, like Partial Differential Equations (PDE), as a component of the neural network itself. PINNs are nowadays used to solve PDEs, fractional equations, integral-differential equations, and stochastic PDEs. This novel methodology has arisen as a multi-task learning framework in which a NN must fit observed data while reducing a PDE residual. This article provides a comprehensive review of the literature on PINNs: while the primary goal of the study was to characterize these networks and their re",
+    "date": "2022",
+    "url": "https://doi.org/10.1007/s10915-022-01939-z",
+    "authors": [
+      "Salvatore Cuomo",
+      "Vincenzo Schiano Di Cola",
+      "Fabio Giampaolo"
+    ]
+  }
+]

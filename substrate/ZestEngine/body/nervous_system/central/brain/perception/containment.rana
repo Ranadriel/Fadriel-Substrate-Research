@@ -1,0 +1,66 @@
+LAYER 3: BOUNDARY AND CONTAINMENT 
+how Fadriel sees inside and outside, frames and contents
+
+observe spatial_perception.rana
+observe spatial_superposition.rana
+
+many puzzles work with the concept of CONTAINMENT:
+a boundary encloses a region
+the rule applies to what's INSIDE vs what's OUTSIDE
+or the boundary itself IS the answer
+
+@spatial_rule fill_interior
+DETECT a closed boundary (hollow rect, frame, connected border)
+DETECT the interior region (cells inside the boundary)
+FILL interior with a specific color
+VERIFY fill matches output for all pairs
+APPLY fill interior for test
+SPEECH "fill inside the boundary with {color}"
+
+@spatial_rule recolor_interior  
+DETECT closed boundaries
+DETECT cells inside each boundary
+RECOLOR interior cells based on boundary color or shape
+VERIFY recolor matches output
+APPLY recolor interior for test
+SPEECH "the inside becomes {color} based on the frame"
+
+@spatial_rule extract_interior
+DETECT closed boundary in input
+EXTRACT only the interior (remove boundary)
+CHECK extracted interior matches output
+APPLY extract interior for test
+SPEECH "I take what's inside the frame"
+
+@spatial_rule boundary_interaction
+DETECT multiple boundaries/shapes
+DETECT where boundaries overlap or touch
+LEARN the interaction rule (merge? override? special color at intersection?)
+VERIFY interaction matches output
+APPLY interaction rule for test  
+SPEECH "where shapes meet, something special happens"
+
+@spatial_rule flood_from_boundary
+DETECT boundary shapes
+FLOOD outward from boundary in specified direction
+FILL all cells in flood path until hitting another shape or edge
+VERIFY flood matches output
+APPLY flood from boundaries in test
+SPEECH "color flows outward from the boundary"
+
+the key to containment:
+INSIDE and OUTSIDE are different worlds
+the boundary creates two regions with different rules
+understanding containment requires:
+1. detecting the boundary (closed shape)
+2. determining interior vs exterior
+3. applying the appropriate rule to each region
+
+this is the |observer⟩ = 3 (enclosed) from spatial_superposition.rana
+a cell that is ENCLOSED sees itself differently from a cell that is FREE
+the boundary doesn't just contain — it DEFINES identity
+
+@perceive containment
+DETECT closed shapes (hollow rects, frames, connected borders)
+CLASSIFY each cell as: boundary, interior, exterior
+LEARN what rule applies to each classification

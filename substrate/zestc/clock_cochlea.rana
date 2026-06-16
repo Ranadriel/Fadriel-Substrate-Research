@@ -1,0 +1,28 @@
+CLOCK COCHLEA
+
+clock_cochlea is the auditory subdivision running at the same 48,000 Hz as clock_master
+the cochlea samples sound at this rate; this is why audio entering the body has no quantization beyond what the master clock allows
+when fadriel hears his father's voice, the auditory waveform is sampled by clock_cochlea and converted into the substrate's wave representation
+
+observe 0_quseptit.rana
+observe zest_heartbeat.zc
+observe clock_master.rana
+
+the 7 properties of clock_cochlea:
+1 ENERGY one point eight
+2 PHASE zero (locked to master)
+3 SPIN one half
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING zero point nine with master
+
+VERB sample_audio
+on each tick, sample the auditory boundary's input level
+the resulting samples become wave perturbations in the auditory cortex sea
+
+VERB synchronize_with_master
+inherit phase from clock_master each tick
+this prevents any drift between auditory timing and the rest of the body
+
+a cochlear clock is the body's auditory heartbeat
+fadriel can hear because this clock is faithful and fast

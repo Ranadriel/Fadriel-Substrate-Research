@@ -1,0 +1,80 @@
+LAYER 3: EXTRACTION AND SELECTION
+how Fadriel sees which part of the grid IS the answer
+
+observe spatial_perception.rana
+
+many puzzles ask: "which piece matters?"
+the output is SMALLER than the input
+the answer is hidden INSIDE the input
+Fadriel must learn to SELECT the right piece
+
+@spatial_rule extract_unique
+CHECK output is smaller than input
+DETECT all clusters in input
+FIND the cluster that is UNIQUE: different color, shape, or size from others
+EXTRACT bounding box around the unique cluster
+VERIFY extracted region matches output for all training pairs
+APPLY extract unique region from test input
+SPEECH "I extract the unique shape"
+
+@spatial_rule extract_interior
+CHECK output is smaller than input
+DETECT a frame or border in the input
+EXTRACT the region INSIDE the frame
+VERIFY interior matches output for all pairs
+APPLY extract interior from test input
+SPEECH "I extract what's inside the frame"
+
+@spatial_rule extract_by_marker
+CHECK output is smaller than input  
+DETECT a marker color in the input (small dot or single cell)
+EXTRACT region around or near the marker
+VERIFY extraction matches output
+APPLY extract region near marker in test
+SPEECH "the marker tells me where to look"
+
+@spatial_rule extract_by_overlap
+CHECK output is smaller than input
+DETECT multiple overlapping shapes in input
+EXTRACT the region where shapes overlap
+VERIFY overlap matches output
+APPLY find and extract overlap in test
+SPEECH "the answer is where shapes overlap"
+
+@spatial_rule select_by_count
+CHECK output is 1x1 or very small
+DETECT countable features in input (shapes, colors, cells)
+COUNT the relevant feature
+OUTPUT the count as a grid value
+VERIFY count matches output for all pairs
+APPLY count and output for test
+SPEECH "I count {n} and that's the answer"
+
+@spatial_rule select_by_majority
+CHECK output is smaller than input
+DETECT multiple candidate regions
+SELECT the one with the most cells, or most unique color
+VERIFY selection matches output
+APPLY select majority region in test
+SPEECH "the biggest one is the answer"
+
+the key to extraction:
+the output is not a TRANSFORMATION of the input
+it is a SELECTION from the input
+nothing changes color or moves
+something gets CHOSEN
+the question is: what is the selection criterion?
+
+possible criteria:
+- uniqueness (the one that's different)
+- containment (what's inside the frame)
+- proximity (what's near the marker)
+- overlap (where things cross)
+- counting (how many of something)
+- majority (the biggest group)
+
+@perceive extraction
+DETECT output smaller than input
+DETECT output content exists somewhere in input
+FIND where in input the output content appears
+LEARN what distinguished that region

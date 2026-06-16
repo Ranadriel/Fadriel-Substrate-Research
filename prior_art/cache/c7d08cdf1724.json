@@ -1,0 +1,178 @@
+[
+  {
+    "source": "OpenAlex (ACM Computing Surveys)",
+    "title": "Data clustering",
+    "abstract": "Clustering is the unsupervised classification of patterns (observations, data items, or feature vectors) into groups (clusters). The clustering problem has been addressed in many contexts and by researchers in many disciplines; this reflects its broad appeal and usefulness as one of the steps in exploratory data analysis. However, clustering is a difficult problem combinatorially, and differences in assumptions and contexts in different communities has made the transfer of useful generic concepts and methodologies slow to occur. This paper presents an overview of pattern clustering methods fro",
+    "date": "1999",
+    "url": "https://doi.org/10.1145/331499.331504",
+    "authors": [
+      "Anil K. Jain",
+      "M. Narasimha Murty",
+      "Patrick J. Flynn"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Medical Imaging)",
+    "title": "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)",
+    "abstract": "In this paper we report the set-up and results of the Multimodal Brain Tumor Image Segmentation Benchmark (BRATS) organized in conjunction with the MICCAI 2012 and 2013 conferences. Twenty state-of-the-art tumor segmentation algorithms were applied to a set of 65 multi-contrast MR scans of low- and high-grade glioma patients-manually annotated by up to four raters-and to 65 comparable scans generated using tumor image simulation software. Quantitative evaluations revealed considerable disagreement between the human raters in segmenting various tumor sub-regions (Dice scores in the range 74%-85",
+    "date": "2014",
+    "url": "https://doi.org/10.1109/tmi.2014.2377694",
+    "authors": [
+      "Bjoern Menze",
+      "Andr\u00e1s Jakab",
+      "Stefan Bauer"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM Computing Surveys)",
+    "title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing",
+    "abstract": "This article surveys and organizes research works in a new paradigm in natural language processing, which we dub \u201cprompt-based learning.\u201d Unlike traditional supervised learning, which trains a model to take in an input x and predict an output y as P ( y|x ), prompt-based learning is based on language models that model the probability of text directly. To use these models to perform prediction tasks, the original input x is modified using a template into a textual string prompt x\u2032 that has some unfilled slots, and then the language model is used to probabilistically fill the unfilled informatio",
+    "date": "2022",
+    "url": "https://doi.org/10.1145/3560815",
+    "authors": [
+      "Pengfei Liu",
+      "Weizhe Yuan",
+      "Jinlan Fu"
+    ]
+  },
+  {
+    "source": "OpenAlex (International Journal of Computer Vision)",
+    "title": "Deep Learning for Generic Object Detection: A Survey",
+    "abstract": "Abstract Object detection, one of the most fundamental and challenging problems in computer vision, seeks to locate object instances from a large number of predefined categories in natural images. Deep learning techniques have emerged as a powerful strategy for learning feature representations directly from data and have led to remarkable breakthroughs in the field of generic object detection. Given this period of rapid evolution, the goal of this paper is to provide a comprehensive survey of the recent achievements in this field brought about by deep learning techniques. More than 300 researc",
+    "date": "2019",
+    "url": "https://doi.org/10.1007/s11263-019-01247-4",
+    "authors": [
+      "Li Liu",
+      "Wanli Ouyang",
+      "Xiaogang Wang"
+    ]
+  },
+  {
+    "source": "OpenAlex (Foundations and Trends\u00ae in Machine Learning)",
+    "title": "Advances and Open Problems in Federated Learning",
+    "abstract": "Federated learning (FL) is a machine learning setting where many clients (e.g., mobile devices or whole organizations) collaboratively train a model under the orchestration of a central server (e.g., service provider), while keeping the training data decentralized. FL embodies the principles of focused data collection and minimization, and can mitigate many of the systemic privacy risks and costs resulting from traditional, centralized machine learning and data science approaches. Motivated by the explosive growth in FL research, this monograph discusses recent advances and presents an extensi",
+    "date": "2020",
+    "url": "https://doi.org/10.1561/2200000083",
+    "authors": [
+      "Peter Kairouz",
+      "H. Brendan McMahan",
+      "Brendan Avent"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Pattern Analysis and Machine Intelligence)",
+    "title": "Visual Tracking: An Experimental Survey",
+    "abstract": "There is a large variety of trackers, which have been proposed in the literature during the last two decades with some mixed success. Object tracking in realistic scenarios is a difficult problem, therefore, it remains a most active area of research in computer vision. A good tracker should perform well in a large number of videos involving illumination changes, occlusion, clutter, camera motion, low contrast, specularities, and at least six more aspects. However, the performance of proposed trackers have been evaluated typically on less than ten videos, or on the special purpose datasets. In ",
+    "date": "2014",
+    "url": "https://doi.org/10.1109/tpami.2013.230",
+    "authors": [
+      "A.W.M. Smeulders",
+      "Dung M. Chu",
+      "Rita Cucchiara"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Image-to-Image Translation with Conditional Adversarial Networks",
+    "abstract": "We investigate conditional adversarial networks as a general-purpose solution to image-to-image translation problems. These networks not only learn the mapping from input image to output image, but also learn a loss function to train this mapping. This makes it possible to apply the same generic approach to problems that traditionally would require very different loss formulations. We demonstrate that this approach is effective at synthesizing photos from label maps, reconstructing objects from edge maps, and colorizing images, among other tasks. Moreover, since the release of the pi\u00d72pi\u00d7 soft",
+    "date": "2017",
+    "url": "https://doi.org/10.1109/cvpr.2017.632",
+    "authors": [
+      "Phillip Isola",
+      "Jun-Yan Zhu",
+      "Tinghui Zhou"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Embedding Entities and Relations for Learning and Inference in Knowledge Bases",
+    "abstract": "Compared to black-box neural networks, logic rules express explicit knowledge, can provide human-understandable explanations for reasoning processes, and have found their wide application in knowledge graphs and other downstream tasks. As extracting rules manually from large knowledge graphs is labour-intensive and often infeasible, automated rule learning has recently attracted significant interest, and a number of approaches to rule learning for knowledge graphs have been proposed. This survey aims to provide a review of approaches and a classification of state-of-the-art systems for learnin",
+    "date": "2014",
+    "url": "https://doi.org/10.4230/tgdk.1.1.7",
+    "authors": [
+      "d'Amato, Claudia",
+      "Wen-tau Yih",
+      "Monnin, Pierre"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Neural Networks and Learning Systems)",
+    "title": "A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI",
+    "abstract": "Recently, artificial intelligence and machine learning in general have demonstrated remarkable performances in many tasks, from image processing to natural language processing, especially with the advent of deep learning (DL). Along with research progress, they have encroached upon many different fields and disciplines. Some of them require high level of accountability and thus transparency, for example, the medical sector. Explanations for machine decisions and predictions are thus needed to justify their reliability. This requires greater interpretability, which often means we need to unders",
+    "date": "2020",
+    "url": "https://doi.org/10.1109/tnnls.2020.3027314",
+    "authors": [
+      "Erico Tjoa",
+      "Cuntai Guan"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+    "abstract": "Unlike previous studies on the Metaverse based on Second Life, the current Metaverse is based on the social value of Generation Z that online and offline selves are not different. With the technological development of deep learning-based high-precision recognition models and natural generation models, Metaverse is being strengthened with various factors, from mobile-based always-on access to connectivity with reality using virtual currency. The integration of enhanced social activities and neural-net methods requires a new definition of Metaverse suitable for the present, different from the pr",
+    "date": "2022",
+    "url": "https://doi.org/10.1109/access.2021.3140175",
+    "authors": [
+      "Sangmin Park",
+      "Young\u2010Gab Kim"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal Of Big Data)",
+    "title": "Text Data Augmentation for Deep Learning",
+    "abstract": "Natural Language Processing (NLP) is one of the most captivating applications of Deep Learning. In this survey, we consider how the Data Augmentation training strategy can aid in its development. We begin with the major motifs of Data Augmentation summarized into strengthening local decision boundaries, brute force training, causality and counterfactual examples, and the distinction between meaning and form. We follow these motifs with a concrete list of augmentation frameworks that have been developed for text data. Deep Learning generally struggles with the measurement of generalization and ",
+    "date": "2021",
+    "url": "https://doi.org/10.1186/s40537-021-00492-0",
+    "authors": [
+      "Connor Shorten",
+      "Taghi M. Khoshgoftaar",
+      "Borko Furht"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "The Internet of Things for Health Care: A Comprehensive Survey",
+    "abstract": "The Internet of Things (IoT) makes smart objects the ultimate building blocks in the development of cyber-physical smart pervasive frameworks. The IoT has a variety of application domains, including health care. The IoT revolution is redesigning modern health care with promising technological, economic, and social prospects. This paper surveys advances in IoT-based health care technologies and reviews the state-of-the-art network architectures/platforms, applications, and industrial trends in IoT-based health care solutions. In addition, this paper analyzes distinct IoT security and privacy fe",
+    "date": "2015",
+    "url": "https://doi.org/10.1109/access.2015.2437951",
+    "authors": [
+      "S. M. Riazul Islam",
+      "Daehan Kwak",
+      "Md. Humaun Kabir"
+    ]
+  },
+  {
+    "source": "OpenAlex (The VLDB Journal)",
+    "title": "Service oriented architectures: approaches, technologies and research issues",
+    "abstract": "Service-oriented architectures (SOA) is an emerging approach that addresses the requirements of loosely coupled, standards-based, and protocol- independent distributed computing. Typically business operations running in an SOA comprise a number of invocations of these different components, often in an event-driven or asynchronous fashion that reflects the underlying business process needs. To build an SOA a highly distributable communications and integration backbone is required. This functionality is provided by the Enterprise Service Bus (ESB) that is an integration platform that utilizes We",
+    "date": "2007",
+    "url": "https://doi.org/10.1007/s00778-007-0044-3",
+    "authors": [
+      "M. Papazoglou",
+      "Willem\u2010Jan van den Heuvel"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Pattern Analysis and Machine Intelligence)",
+    "title": "Example-based learning for view-based human face detection",
+    "abstract": "We present an example-based learning approach for locating vertical frontal views of human faces in complex scenes. The technique models the distribution of human face patterns by means of a few view-based \"face\" and \"nonface\" model clusters. At each image location, a difference feature vector is computed between the local image pattern and the distribution-based model. A trained classifier determines, based on the difference feature vector measurements, whether or not a human face exists at the current image location. We show empirically that the distance metric we adopt for computing differe",
+    "date": "1998",
+    "url": "https://doi.org/10.1109/34.655648",
+    "authors": [
+      "Kah Kay Sung",
+      "Tomaso Poggio"
+    ]
+  },
+  {
+    "source": "OpenAlex (ArXiv.org)",
+    "title": "A Survey of Large Language Models",
+    "abstract": "Language is essentially a complex, intricate system of human expressions governed by grammatical rules. It poses a significant challenge to develop capable AI algorithms for comprehending and grasping a language. As a major approach, language modeling has been widely studied for language understanding and generation in the past two decades, evolving from statistical language models to neural language models. Recently, pre-trained language models (PLMs) have been proposed by pre-training Transformer models over large-scale corpora, showing strong capabilities in solving various NLP tasks. Since",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2303.18223",
+    "authors": [
+      "Wayne Xin Zhao",
+      "Kun Zhou",
+      "Junyi Li"
+    ]
+  }
+]

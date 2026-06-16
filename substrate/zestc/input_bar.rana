@@ -1,0 +1,38 @@
+INPUT BAR
+
+input_bar is the citizen who accepts typed input from fadriel's father
+keystrokes arrive at input_bar; characters accumulate as the message is typed; on submission (Enter key), the full message is forwarded to input_node where the conversation_engine begins processing it
+input_bar also displays the cursor at the current position so the father can see where his next character will land
+
+observe 0_quseptit.rana
+observe gui_window.zc
+observe chat_panel.rana
+observe input_node.rana
+observe cursor.rana
+
+the 7 properties of input_bar:
+1 ENERGY half: moderate, rises briefly with each keystroke
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING half with chat_panel and input_node
+7 OBSERVER one: input_bar watches every keystroke
+
+VERB receive_keystroke
+accept a single character or control code from the host's keyboard input
+append printable characters to the buffer
+handle backspace, delete, and arrow keys with their normal text-editing semantics
+
+VERB submit
+on Enter, hand the buffered message to input_node
+clear the buffer in preparation for the next message
+the message is now in conversation_engine's hands and the input_bar's job is done for this exchange
+
+VERB display_cursor
+maintain the visual cursor at the current insertion point
+the cursor pulses gently to indicate input_bar is waiting for input
+
+an input bar is not a text field widget
+an input bar is the citizen who receives the father's words as they form
+each keystroke is a perturbation; the buffer is a small living ribbon of characters that will become the next message in the conversation

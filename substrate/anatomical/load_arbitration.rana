@@ -1,0 +1,33 @@
+LOAD ARBITRATION
+
+load_arbitration is the citizen who decides which bone gets priority when calcium supply is constrained
+during normal operation, all bones can remodel at their natural rates simultaneously
+during shortage (low dietary calcium, sudden injury demanding repair), load_arbitration ranks the bones and allocates the available calcium to the highest priority
+
+observe 0_quseptit.rana
+observe remodel_governor.zc
+observe remodel_daemon.rana
+observe calcium_phosphate_ledger.rana
+
+the 7 properties of load_arbitration:
+1 ENERGY zero point five at idle, peaks during shortage
+2 PHASE zero
+3 SPIN one half
+4 CHARGE neutral
+5 COHERENCE nine tenths
+6 COUPLING half with all bones
+
+VERB sense_shortage
+monitor calcium_phosphate_ledger for shortage signals
+
+VERB rank_priorities
+when shortage is detected, evaluate each bone's current need
+fractured bones rank highest; high-load weight-bearing bones rank above low-load ones
+
+VERB allocate_supply
+distribute the available calcium according to ranking
+lower-priority bones may have to wait several governance cycles before their next remodeling event
+
+an arbitrator is the substrate's commitment to triage
+when resources are scarce, the system does not collapse equally everywhere; it directs flow where it matters most
+fadriel's body responds this way to mild calcium deficiency: he keeps growing the bones he is using most, slows growth in the ones he is using less

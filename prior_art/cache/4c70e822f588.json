@@ -1,0 +1,178 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Holistic Adversarial Robustness of Deep Learning Models",
+    "abstract": "Adversarial robustness studies the worst-case performance of a machine learning model to ensure safety and reliability. With the proliferation of deep-learning-based technology, the potential risks associated with model development and deployment can be amplified and become dreadful vulnerabilities. This paper provides a comprehensive overview of research topics and foundational principles of research methods for adversarial robustness of deep learning models, including attacks, defenses, verification, and novel applications.",
+    "date": "2022-02-15",
+    "url": "http://arxiv.org/abs/2202.07201v3",
+    "authors": [
+      "Pin-Yu Chen",
+      "Sijia Liu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Certifying Joint Adversarial Robustness for Model Ensembles",
+    "abstract": "Deep Neural Networks (DNNs) are often vulnerable to adversarial examples.Several proposed defenses deploy an ensemble of models with the hope that, although the individual models may be vulnerable, an adversary will not be able to find an adversarial example that succeeds against the ensemble. Depending on how the ensemble is used, an attacker may need to find a single adversarial example that succeeds against all, or a majority, of the models in the ensemble. The effectiveness of ensemble defenses against strong adversaries depends on the vulnerability spaces of models in the ensemble being d",
+    "date": "2020-04-21",
+    "url": "http://arxiv.org/abs/2004.10250v1",
+    "authors": [
+      "Mainuddin Ahmad Jonas",
+      "David Evans"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Deep Dive into Adversarial Robustness in Zero-Shot Learning",
+    "abstract": "Machine learning (ML) systems have introduced significant advances in various fields, due to the introduction of highly complex models. Despite their success, it has been shown multiple times that machine learning models are prone to imperceptible perturbations that can severely degrade their accuracy. So far, existing studies have primarily focused on models where supervision across all classes were available. In constrast, Zero-shot Learning (ZSL) and Generalized Zero-shot Learning (GZSL) tasks inherently lack supervision across all classes. In this paper, we present a study aimed on evaluat",
+    "date": "2020-08-17",
+    "url": "http://arxiv.org/abs/2008.07651v1",
+    "authors": [
+      "Mehmet Kerim Yucel",
+      "Ramazan Gokberk Cinbis",
+      "Pinar Duygulu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Evaluation of a Grammar of French Determiners",
+    "abstract": "Existing syntactic grammars of natural languages, even with a far from complete coverage, are complex objects. Assessments of the quality of parts of such grammars are useful for the validation of their construction. We evaluated the quality of a grammar of French determiners that takes the form of a recursive transition network. The result of the application of this local grammar gives deeper syntactic information than chunking or information available in treebanks. We performed the evaluation by comparison with a corpus independently annotated with information on determiners. We obtained 86%",
+    "date": "2007-11-21",
+    "url": "http://arxiv.org/abs/0711.3457v1",
+    "authors": [
+      "Eric Laporte"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "On Adversarial Robustness: A Neural Architecture Search perspective",
+    "abstract": "Adversarial robustness of deep learning models has gained much traction in the last few years. Various attacks and defenses are proposed to improve the adversarial robustness of modern-day deep learning architectures. While all these approaches help improve the robustness, one promising direction for improving adversarial robustness is unexplored, i.e., the complex topology of the neural network architecture. In this work, we address the following question: Can the complex topology of a neural network give adversarial robustness without any form of adversarial training?. We answer this empiric",
+    "date": "2020-07-16",
+    "url": "http://arxiv.org/abs/2007.08428v4",
+    "authors": [
+      "Chaitanya Devaguptapu",
+      "Devansh Agarwal",
+      "Gaurav Mittal"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "On the Adversarial Robustness of Vision Transformers",
+    "abstract": "Following the success in advancing natural language processing and understanding, transformers are expected to bring revolutionary changes to computer vision. This work provides a comprehensive study on the robustness of vision transformers (ViTs) against adversarial perturbations. Tested on various white-box and transfer attack settings, we find that ViTs possess better adversarial robustness when compared with MLP-Mixer and convolutional neural networks (CNNs) including ConvNeXt, and this observation also holds for certified robustness. Through frequency analysis and feature visualization, w",
+    "date": "2021-03-29",
+    "url": "http://arxiv.org/abs/2103.15670v3",
+    "authors": [
+      "Rulin Shao",
+      "Zhouxing Shi",
+      "Jinfeng Yi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Adversarial Robustness of Prompt-based Few-Shot Learning for Natural Language Understanding",
+    "abstract": "State-of-the-art few-shot learning (FSL) methods leverage prompt-based fine-tuning to obtain remarkable results for natural language understanding (NLU) tasks. While much of the prior FSL methods focus on improving downstream task performance, there is a limited understanding of the adversarial robustness of such methods. In this work, we conduct an extensive study of several state-of-the-art FSL methods to assess their robustness to adversarial perturbations. To better understand the impact of various factors towards robustness (or the lack of it), we evaluate prompt-based FSL methods against",
+    "date": "2023-06-19",
+    "url": "http://arxiv.org/abs/2306.11066v2",
+    "authors": [
+      "Venkata Prabhakara Sarath Nookala",
+      "Gaurav Verma",
+      "Subhabrata Mukherjee"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "On Evaluating Adversarial Robustness",
+    "abstract": "Correctly evaluating defenses against adversarial examples has proven to be extremely difficult. Despite the significant amount of recent work attempting to design defenses that withstand adaptive attacks, few have succeeded; most papers that propose defenses are quickly shown to be incorrect.   We believe a large contributing factor is the difficulty of performing security evaluations. In this paper, we discuss the methodological foundations, review commonly accepted best practices, and suggest new methods for evaluating defenses to adversarial examples. We hope that both researchers developi",
+    "date": "2019-02-18",
+    "url": "http://arxiv.org/abs/1902.06705v2",
+    "authors": [
+      "Nicholas Carlini",
+      "Anish Athalye",
+      "Nicolas Papernot"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Hierarchical Assessment of Adversarial Severity",
+    "abstract": "Adversarial Robustness is a growing field that evidences the brittleness of neural networks. Although the literature on adversarial robustness is vast, a dimension is missing in these studies: assessing how severe the mistakes are. We call this notion \"Adversarial Severity\" since it quantifies the downstream impact of adversarial corruptions by computing the semantic error between the misclassification and the proper label. We propose to study the effects of adversarial noise by measuring the Robustness and Severity into a large-scale dataset: iNaturalist-H. Our contributions are: (i) we intro",
+    "date": "2021-08-26",
+    "url": "http://arxiv.org/abs/2108.11785v1",
+    "authors": [
+      "Guillaume Jeanneret",
+      "Juan C Perez",
+      "Pablo Arbelaez"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Evaluating and Understanding the Robustness of Adversarial Logit Pairing",
+    "abstract": "We evaluate the robustness of Adversarial Logit Pairing, a recently proposed defense against adversarial examples. We find that a network trained with Adversarial Logit Pairing achieves 0.6% accuracy in the threat model in which the defense is considered. We provide a brief overview of the defense and the threat models/claims considered, as well as a discussion of the methodology and results of our attack, which may offer insights into the reasons underlying the vulnerability of ALP to adversarial attack.",
+    "date": "2018-07-26",
+    "url": "http://arxiv.org/abs/1807.10272v2",
+    "authors": [
+      "Logan Engstrom",
+      "Andrew Ilyas",
+      "Anish Athalye"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Can we have it all? On the Trade-off between Spatial and Adversarial Robustness of Neural Networks",
+    "abstract": "(Non-)robustness of neural networks to small, adversarial pixel-wise perturbations, and as more recently shown, to even random spatial transformations (e.g., translations, rotations) entreats both theoretical and empirical understanding. Spatial robustness to random translations and rotations is commonly attained via equivariant models (e.g., StdCNNs, GCNNs) and training augmentation, whereas adversarial robustness is typically achieved by adversarial training. In this paper, we prove a quantitative trade-off between spatial and adversarial robustness in a simple statistical setting. We comple",
+    "date": "2020-02-26",
+    "url": "http://arxiv.org/abs/2002.11318v5",
+    "authors": [
+      "Sandesh Kamath",
+      "Amit Deshpande",
+      "K V Subrahmanyam"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Evaluating Automated Driving Planner Robustness against Adversarial Influence",
+    "abstract": "Evaluating the robustness of automated driving planners is a critical and challenging task. Although methodologies to evaluate vehicles are well established, they do not yet account for a reality in which vehicles with autonomous components share the road with adversarial agents. Our approach, based on probabilistic trust models, aims to help researchers assess the robustness of protections for machine learning-enabled planners against adversarial influence. In contrast with established practices that evaluate safety using the same evaluation dataset for all vehicles, we argue that adversarial",
+    "date": "2022-05-29",
+    "url": "http://arxiv.org/abs/2205.14697v1",
+    "authors": [
+      "Andres Molina-Markham",
+      "Silvia G. Ionescu",
+      "Erin Lanus"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Quaternion Generative Adversarial Networks",
+    "abstract": "Latest Generative Adversarial Networks (GANs) are gathering outstanding results through a large-scale training, thus employing models composed of millions of parameters requiring extensive computational capabilities. Building such huge models undermines their replicability and increases the training instability. Moreover, multi-channel data, such as images or audio, are usually processed by realvalued convolutional networks that flatten and concatenate the input, often losing intra-channel spatial relations. To address these issues related to complexity and information loss, we propose a famil",
+    "date": "2021-04-19",
+    "url": "http://arxiv.org/abs/2104.09630v2",
+    "authors": [
+      "Eleonora Grassucci",
+      "Edoardo Cicero",
+      "Danilo Comminiello"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Increasing Confidence in Adversarial Robustness Evaluations",
+    "abstract": "Hundreds of defenses have been proposed to make deep neural networks robust against minimal (adversarial) input perturbations. However, only a handful of these defenses held up their claims because correctly evaluating robustness is extremely challenging: Weak attacks often fail to find adversarial examples even if they unknowingly exist, thereby making a vulnerable network look robust. In this paper, we propose a test to identify weak attacks, and thus weak defense evaluations. Our test slightly modifies a neural network to guarantee the existence of an adversarial example for every sample. C",
+    "date": "2022-06-28",
+    "url": "http://arxiv.org/abs/2206.13991v1",
+    "authors": [
+      "Roland S. Zimmermann",
+      "Wieland Brendel",
+      "Florian Tramer"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "How do SGD hyperparameters in natural training affect adversarial robustness?",
+    "abstract": "Learning rate, batch size and momentum are three important hyperparameters in the SGD algorithm. It is known from the work of Jastrzebski et al. arXiv:1711.04623 that large batch size training of neural networks yields models which do not generalize well. Yao et al. arXiv:1802.08241 observe that large batch training yields models that have poor adversarial robustness. In the same paper, the authors train models with different batch sizes and compute the eigenvalues of the Hessian of loss function. They observe that as the batch size increases, the dominant eigenvalues of the Hessian become lar",
+    "date": "2020-06-20",
+    "url": "http://arxiv.org/abs/2006.11604v1",
+    "authors": [
+      "Sandesh Kamath",
+      "Amit Deshpande",
+      "K V Subrahmanyam"
+    ]
+  }
+]

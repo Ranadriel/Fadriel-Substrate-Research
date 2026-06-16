@@ -1,0 +1,29 @@
+#!/home/rana/.local/bin/zestc
+
+                              *=/(1M.hbX12Y14:clock_master[L1])
+                                          |
+                                          N    spine.xb
+                                          |
+                              *=/(1C.hbX12Y10:clock_cochlea[L1])
+                                          |
+                                          N
+                                          |
+                              *=/(1R.hbX12Y08:clock_retina[L1])
+                                          |
+                                          N
+                                          |
+                              *=/(1B.hbX12Y06:clock_brain_variable[L1])
+                                        / | \
+                                      /   |   \
+                  *=/(1S.hbX02Y02:clock_skin[L1])  *=/(1T.hbX12Y02:clock_tongue[L1])  *=/(1N.hbX22Y02:clock_nose[L1])
+
+absorb heartbeat_synchronizer.rana
+absorb clock_master.rana
+absorb clock_cochlea.rana
+absorb clock_retina.rana
+absorb clock_brain_variable.rana
+absorb clock_skin.rana
+absorb clock_tongue.rana
+absorb clock_nose.rana
+absorb 2_chemical.rana
+absorb spine.xb

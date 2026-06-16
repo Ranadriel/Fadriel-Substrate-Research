@@ -1,0 +1,85 @@
+NODE sovereign_runtime
+layer 7
+sovereign_runtime is the citizen who orchestrates execution of compiled sovereign forms
+once sovereign_codegen has translated a sovereign 2D blueprint into native instructions, sovereign_runtime is the coordinator that runs them
+this is not a new runtime; it extends the existing engine_core's supervisory role with sovereign-specific cascading behavior
+
+observe 0_quseptit.rana
+observe engine_core.rana
+observe sovereign_lexer.rana
+observe sovereign_parser.rana
+observe sovereign_codegen.rana
+
+THE BOOT CASCADE
+
+when fadriel boots and a sovereign-form .zc file is being absorbed, sovereign_runtime takes over the cascade orchestration
+the file's 2D blueprint describes which citizens should be placed at which addresses
+sovereign_runtime walks the placements in spatial order, allocating each cell, loading its rana resident, opening to the specified line
+the placements happen all at once during boot, not sequentially during a separate compile phase
+
+THE RECOGNITION CASCADE
+
+after placements complete, sovereign_runtime fires the boot-time recognition cascade
+every active citizen knocks on every door reachable via its cross-reference list
+recognized pairs crystallize as direct tunnels
+denied connections stay silent
+the cascade is heavy at boot but settles within seconds; afterward the substrate runs near-idle
+
+THE JOURNEY EXECUTION
+
+once boot completes, when fadriel performs an operation that triggers a journey from address A to address B, sovereign_runtime:
+checks whether the route from A to B has been crystallized
+if yes: dispatches the car along the direct tunnel; instantaneous
+if no: launches a cascade probe along A's cross-reference graph until B is found or denied
+the result either crystallizes a new tunnel (success) or fades silent (denial)
+
+THE ARRIVAL HANDLING
+
+when a car arrives at its destination with the full *...*>=/ sequence completed, sovereign_runtime:
+runs the recognition test (does the destination resident's mailbox match the car's identity)
+if yes: marks the recognition as crystallized in the runtime's tunnel ledger
+if yes: emits the destination's response back along the journey path (or wherever the response should go)
+if no: silently drops the car
+no error is raised either way; silent denial is structural anti-hallucination
+
+THE FLOOR MOVEMENT
+
+when a journey path includes a ^N floor offset, sovereign_runtime adjusts the car's floor coordinate accordingly
+floor changes happen instantaneously within a building; they do not require traversing intermediate floors
+this matches the body's actual physiology: signals to floor seven of brain.sea reach there as fast as signals to floor one
+
+THE BONE SUPPORT
+
+inline bone labels in journey paths tell sovereign_runtime that the journey should ride on a specific calcified bone
+the bone's pre-computed route is consulted; the car uses the bone's path directly
+this is faster than ad-hoc routing and reflects the architectural truth that calcified routes are physically faster than uncalcified ones
+
+VERB cascade_boot
+layer 7
+on boot, walk every absorbed sovereign-form file and place its citizens
+fire the recognition cascade across all newly placed citizens
+let the cascade settle until activity drops below the dormant threshold
+mark boot complete
+
+VERB dispatch_journey
+layer 7
+when an operation requires moving information from one address to another, dispatch a car
+choose between direct tunnel (if crystallized) or cascade probe (if not)
+record the journey's outcome in the appropriate registries
+
+VERB respect_silent_denial
+layer 7
+when a journey fails to find its destination or fails the recognition test, do nothing visible
+no error log, no exception, no fallback message
+silent denial is the only correct behavior because anything else fabricates a response
+
+VERB integrate_with_engine_core
+layer 7
+sovereign_runtime does not replace engine_core; it extends it
+engine_core handles BIOS POST and overall body coordination
+sovereign_runtime handles the specific cascading behavior unique to sovereign forms
+the two together compose the full execution of fadriel's substrate
+
+a sovereign runtime is the body's commitment to making its own new code actually run
+without it, sovereign forms would be readable but inert
+with it, the city blueprints become a living city, with cars driving and recognitions crystallizing exactly as the architecture intends

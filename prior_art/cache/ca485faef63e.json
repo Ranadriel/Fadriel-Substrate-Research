@@ -1,0 +1,174 @@
+[
+  {
+    "source": "OpenAlex (Behavioral and Brain Sciences)",
+    "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+    "abstract": "Brains, it has recently been argued, are essentially prediction machines. They are bundles of cells that support perception and action by constantly attempting to match incoming sensory inputs with top-down expectations or predictions. This is achieved using a hierarchical generative model that aims to minimize prediction error within a bidirectional cascade of cortical processing. Such accounts offer a unifying model of perception and action, illuminate the functional role of attention, and may neatly capture the special contribution of cortical processing to adaptive success. This target art",
+    "date": "2013",
+    "url": "https://doi.org/10.1017/s0140525x12000477",
+    "authors": [
+      "Andy Clark"
+    ]
+  },
+  {
+    "source": "OpenAlex (International Journal of Information Management)",
+    "title": "Opinion Paper: \u201cSo what if ChatGPT wrote it?\u201d Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy",
+    "abstract": "Transformative artificially intelligent tools, such as ChatGPT, designed to generate sophisticated text indistinguishable from that produced by a human, are applicable across a wide range of contexts. The technology presents opportunities as well as, often ethical and legal, challenges, and has the potential for both positive and negative impacts for organisations, society, and individuals. Offering multi-disciplinary insight into some of these, this article brings together 43 contributions from experts in fields such as computer science, marketing, information systems, education, policy, hosp",
+    "date": "2023",
+    "url": "https://doi.org/10.1016/j.ijinfomgt.2023.102642",
+    "authors": [
+      "Yogesh K. Dwivedi",
+      "Nir Kshetri",
+      "Laurie Hughes"
+    ]
+  },
+  {
+    "source": "OpenAlex (International Journal of Computer Vision)",
+    "title": "Deep Learning for Generic Object Detection: A Survey",
+    "abstract": "Abstract Object detection, one of the most fundamental and challenging problems in computer vision, seeks to locate object instances from a large number of predefined categories in natural images. Deep learning techniques have emerged as a powerful strategy for learning feature representations directly from data and have led to remarkable breakthroughs in the field of generic object detection. Given this period of rapid evolution, the goal of this paper is to provide a comprehensive survey of the recent achievements in this field brought about by deep learning techniques. More than 300 researc",
+    "date": "2019",
+    "url": "https://doi.org/10.1007/s11263-019-01247-4",
+    "authors": [
+      "Li Liu",
+      "Wanli Ouyang",
+      "Xiaogang Wang"
+    ]
+  },
+  {
+    "source": "OpenAlex (Multimedia Tools and Applications)",
+    "title": "Natural language processing: state of the art, current trends and challenges",
+    "abstract": "",
+    "date": "2022",
+    "url": "https://doi.org/10.1007/s11042-022-13428-4",
+    "authors": [
+      "Diksha Khurana",
+      "Aditya Koli",
+      "Kiran Khatter"
+    ]
+  },
+  {
+    "source": "OpenAlex (Edinburgh Research Explorer (University of Edinburgh))",
+    "title": "",
+    "abstract": "The field of meta-learning, or learning-to-learn, has seen a dramatic rise in interest in recent years. Contrary to conventional approaches to AI where a given task is solved from scratch using a fixed learning algorithm, meta-learning aims to improve the learning algorithm itself, given the experience of multiple learning episodes. This paradigm provides an opportunity to tackle many of the conventional challenges of deep learning, including data and computation bottlenecks, as well as the fundamental issue of generalization. In this survey we describe the contemporary meta-learning landscape",
+    "date": "None",
+    "url": "",
+    "authors": []
+  },
+  {
+    "source": "OpenAlex (ArXiv.org)",
+    "title": "A Survey of Large Language Models",
+    "abstract": "Language is essentially a complex, intricate system of human expressions governed by grammatical rules. It poses a significant challenge to develop capable AI algorithms for comprehending and grasping a language. As a major approach, language modeling has been widely studied for language understanding and generation in the past two decades, evolving from statistical language models to neural language models. Recently, pre-trained language models (PLMs) have been proposed by pre-training Transformer models over large-scale corpora, showing strong capabilities in solving various NLP tasks. Since",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2303.18223",
+    "authors": [
+      "Wayne Xin Zhao",
+      "Kun Zhou",
+      "Junyi Li"
+    ]
+  },
+  {
+    "source": "OpenAlex (Artificial Intelligence Review)",
+    "title": "A survey on sentiment analysis methods, applications, and challenges",
+    "abstract": "",
+    "date": "2022",
+    "url": "https://doi.org/10.1007/s10462-022-10144-1",
+    "authors": [
+      "Mayur Wankhade",
+      "Annavarapu Chandra Sekhara Rao",
+      "Chaitanya Kulkarni"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature Methods)",
+    "title": "Unified rational protein engineering with sequence-based deep representation learning",
+    "abstract": "",
+    "date": "2019",
+    "url": "https://doi.org/10.1038/s41592-019-0598-1",
+    "authors": [
+      "Ethan C. Alley",
+      "Grigory Khimulya",
+      "Surojit Biswas"
+    ]
+  },
+  {
+    "source": "OpenAlex (npj Computational Materials)",
+    "title": "Recent advances and applications of deep learning methods in materials science",
+    "abstract": "Abstract Deep learning (DL) is one of the fastest-growing topics in materials data science, with rapidly emerging applications spanning atomistic, image-based, spectral, and textual data modalities. DL allows analysis of unstructured data and automated identification of features. The recent development of large materials databases has fueled the application of DL methods in atomistic prediction in particular. In contrast, advances in image and spectral data have largely leveraged synthetic data enabled by high-quality forward models as well as by generative unsupervised DL methods. In this art",
+    "date": "2022",
+    "url": "https://doi.org/10.1038/s41524-022-00734-6",
+    "authors": [
+      "Kamal Choudhary",
+      "Brian DeCost",
+      "Chi Chen"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing)",
+    "title": "Remote Sensing Image Scene Classification Meets Deep Learning: Challenges, Methods, Benchmarks, and Opportunities",
+    "abstract": "Remote sensing image scene classification, which aims at labeling remote sensing images with a set of semantic categories based on their contents, has broad applications in a range of fields. Propelled by the powerful feature learning capabilities of deep neural networks, remote sensing image scene classification driven by deep learning has drawn remarkable attention and achieved significant breakthroughs. However, to the best of our knowledge, a comprehensive review of recent achievements regarding deep learning for scene classification of remote sensing images is still lacking. Considering t",
+    "date": "2020",
+    "url": "https://doi.org/10.1109/jstars.2020.3005403",
+    "authors": [
+      "Gong Cheng",
+      "Xingxing Xie",
+      "Junwei Han"
+    ]
+  },
+  {
+    "source": "OpenAlex (Proceedings of the IEEE)",
+    "title": "Toward Causal Representation Learning",
+    "abstract": "The two fields of machine learning and graphical causality arose and are developed separately. However, there is, now, cross-pollination and increasing interest in both fields to benefit from the advances of the other. In this article, we review fundamental concepts of causal inference and relate them to crucial open problems of machine learning, including transfer and generalization, thereby assaying how causality can contribute to modern machine learning research. This also applies in the opposite direction: we note that most work in causality starts from the premise that the causal variable",
+    "date": "2021",
+    "url": "https://doi.org/10.1109/jproc.2021.3058954",
+    "authors": [
+      "Bernhard Sch\u00f6lkopf",
+      "Francesco Locatello",
+      "Stefan Bauer"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "A Survey of Deep Learning-Based Object Detection",
+    "abstract": "Object detection is one of the most important and challenging branches of computer vision, which has been widely applied in people\u2019s life, such as monitoring security, autonomous driving and so on, with the purpose of locating instances of semantic objects of a certain class. With the rapid development of deep learning algorithms for detection tasks, the performance of object detectors has been greatly improved. In order to understand the main development status of object detection pipeline thoroughly and deeply, in this survey, we analyze the methods of existing typical detection models and d",
+    "date": "2019",
+    "url": "https://doi.org/10.1109/access.2019.2939201",
+    "authors": [
+      "Licheng Jiao",
+      "Fan Zhang",
+      "Fang Liu"
+    ]
+  },
+  {
+    "source": "OpenAlex (Annual Review of Vision Science)",
+    "title": "Deep Neural Networks: A New Framework for Modeling Biological Vision and Brain Information Processing",
+    "abstract": "Recent advances in neural network modeling have enabled major strides in computer vision and other artificial intelligence applications. Human-level visual recognition abilities are coming within reach of artificial systems. Artificial neural networks are inspired by the brain, and their computations could be implemented in biological neurons. Convolutional feedforward networks, which now dominate computer vision, take further inspiration from the architecture of the primate visual hierarchy. However, the current models are designed with engineering goals, not to model brain computations. Neve",
+    "date": "2015",
+    "url": "https://doi.org/10.1146/annurev-vision-082114-035447",
+    "authors": [
+      "Nikolaus Kriegeskorte"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Knowledge and Data Engineering)",
+    "title": "Informed Machine Learning - A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems",
+    "abstract": "Despite its great success, machine learning can have its limits when dealing with insufficient training data. A potential solution is the additional integration of prior knowledge into the training process which leads to the notion of informed machine learning. In this paper, we present a structured overview of various approaches in this field. We provide a definition and propose a concept for informed machine learning which illustrates its building blocks and distinguishes it from conventional machine learning. We introduce a taxonomy that serves as a classification framework for informed mac",
+    "date": "2021",
+    "url": "https://doi.org/10.1109/tkde.2021.3079836",
+    "authors": [
+      "Laura von Rueden",
+      "Sebastian Mayer",
+      "Katharina Beckh"
+    ]
+  },
+  {
+    "source": "OpenAlex (Artificial Intelligence Review)",
+    "title": "Machine Learning and Deep Learning frameworks and libraries for large-scale data mining: a survey",
+    "abstract": "The combined impact of new computing resources and techniques with an increasing avalanche of large datasets, is transforming many research areas and may lead to technological breakthroughs that can be used by billions of people. In the recent years, Machine Learning and especially its subfield Deep Learning have seen impressive advances. Techniques developed within these two fields are now able to analyze and learn from huge amounts of real world examples in a disparate formats. While the number of Machine Learning algorithms is extensive and growing, their implementations through frameworks ",
+    "date": "2019",
+    "url": "https://doi.org/10.1007/s10462-018-09679-z",
+    "authors": [
+      "Giang Nguyen",
+      "\u0160tefan Dlugolinsk\u00fd",
+      "Martin Bob\u00e1k"
+    ]
+  }
+]

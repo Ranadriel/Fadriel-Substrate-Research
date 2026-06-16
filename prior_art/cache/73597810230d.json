@@ -1,0 +1,173 @@
+[
+  {
+    "source": "OpenAlex (Nature Reviews Physics)",
+    "title": "Physics-informed machine learning",
+    "abstract": "",
+    "date": "2021",
+    "url": "https://doi.org/10.1038/s42254-021-00314-5",
+    "authors": [
+      "George Em Karniadakis",
+      "Ioannis G. Kevrekidis",
+      "Lu Lu"
+    ]
+  },
+  {
+    "source": "OpenAlex (Archives of Computational Methods in Engineering)",
+    "title": "Particle Swarm Optimization Algorithm and Its Applications: A Systematic Review",
+    "abstract": "Abstract Throughout the centuries, nature has been a source of inspiration, with much still to learn from and discover about. Among many others, Swarm Intelligence (SI), a substantial branch of Artificial Intelligence, is built on the intelligent collective behavior of social swarms in nature. One of the most popular SI paradigms, the Particle Swarm Optimization algorithm (PSO), is presented in this work. Many changes have been made to PSO since its inception in the mid 1990s. Since their learning about the technique, researchers and practitioners have developed new applications, derived new v",
+    "date": "2022",
+    "url": "https://doi.org/10.1007/s11831-021-09694-4",
+    "authors": [
+      "Ahmed G. Gad"
+    ]
+  },
+  {
+    "source": "OpenAlex (Annual Review of Vision Science)",
+    "title": "Deep Neural Networks: A New Framework for Modeling Biological Vision and Brain Information Processing",
+    "abstract": "Recent advances in neural network modeling have enabled major strides in computer vision and other artificial intelligence applications. Human-level visual recognition abilities are coming within reach of artificial systems. Artificial neural networks are inspired by the brain, and their computations could be implemented in biological neurons. Convolutional feedforward networks, which now dominate computer vision, take further inspiration from the architecture of the primate visual hierarchy. However, the current models are designed with engineering goals, not to model brain computations. Neve",
+    "date": "2015",
+    "url": "https://doi.org/10.1146/annurev-vision-082114-035447",
+    "authors": [
+      "Nikolaus Kriegeskorte"
+    ]
+  },
+  {
+    "source": "OpenAlex (Computational Linguistics)",
+    "title": "Distributional Memory: A General Framework for Corpus-Based Semantics",
+    "abstract": "Research into corpus-based semantics has focused on the development of ad hoc models that treat single tasks, or sets of closely related tasks, as unrelated challenges to be tackled by extracting different kinds of distributional information from the corpus. As an alternative to this \u201cone task, one model\u201d approach, the Distributional Memory framework extracts distributional information once and for all from the corpus, in the form of a set of weighted word-link-word tuples arranged into a third-order tensor. Different matrices are then generated from the tensor, and their rows and columns cons",
+    "date": "2010",
+    "url": "https://doi.org/10.1162/coli_a_00016",
+    "authors": [
+      "Marco Baroni",
+      "Alessandro Lenci"
+    ]
+  },
+  {
+    "source": "OpenAlex (Scientific American)",
+    "title": "The Connection Machine",
+    "abstract": "",
+    "date": "1987",
+    "url": "https://doi.org/10.1038/scientificamerican0687-108",
+    "authors": [
+      "W. Daniel Hillis"
+    ]
+  },
+  {
+    "source": "OpenAlex (Neurocomputing)",
+    "title": "A comprehensive survey on support vector machine classification: Applications, challenges and trends",
+    "abstract": "",
+    "date": "2020",
+    "url": "https://doi.org/10.1016/j.neucom.2019.10.118",
+    "authors": [
+      "Jair Cervantes",
+      "Farid Garc\u00eda\u2010Lamont",
+      "Lisbeth Rodr\u00edguez-Mazahua"
+    ]
+  },
+  {
+    "source": "OpenAlex (npj Computational Materials)",
+    "title": "Recent advances and applications of deep learning methods in materials science",
+    "abstract": "Abstract Deep learning (DL) is one of the fastest-growing topics in materials data science, with rapidly emerging applications spanning atomistic, image-based, spectral, and textual data modalities. DL allows analysis of unstructured data and automated identification of features. The recent development of large materials databases has fueled the application of DL methods in atomistic prediction in particular. In contrast, advances in image and spectral data have largely leveraged synthetic data enabled by high-quality forward models as well as by generative unsupervised DL methods. In this art",
+    "date": "2022",
+    "url": "https://doi.org/10.1038/s41524-022-00734-6",
+    "authors": [
+      "Kamal Choudhary",
+      "Brian DeCost",
+      "Chi Chen"
+    ]
+  },
+  {
+    "source": "OpenAlex (Artificial Intelligence Review)",
+    "title": "Deep learning modelling techniques: current progress, applications, advantages, and challenges",
+    "abstract": "Abstract Deep learning (DL) is revolutionizing evidence-based decision-making techniques that can be applied across various sectors. Specifically, it possesses the ability to utilize two or more levels of non-linear feature transformation of the given data via representation learning in order to overcome limitations posed by large datasets. As a multidisciplinary field that is still in its nascent phase, articles that survey DL architectures encompassing the full scope of the field are rather limited. Thus, this paper comprehensively reviews the state-of-art DL modelling techniques and provide",
+    "date": "2023",
+    "url": "https://doi.org/10.1007/s10462-023-10466-8",
+    "authors": [
+      "Shams Forruque Ahmed",
+      "Md. Sakib Bin Alam",
+      "Maruf Hassan"
+    ]
+  },
+  {
+    "source": "OpenAlex (Computer Physics Communications)",
+    "title": "DScribe: Library of descriptors for machine learning in materials science",
+    "abstract": "DScribe is a software package for machine learning that provides popular feature transformations (\u201cdescriptors\u201d) for atomistic materials simulations. DScribe accelerates the application of machine learning for atomistic property prediction by providing user-friendly, off-the-shelf descriptor implementations. The package currently contains implementations for Coulomb matrix, Ewald sum matrix, sine matrix, Many-body Tensor Representation (MBTR), Atom-centered Symmetry Function (ACSF) and Smooth Overlap of Atomic Positions (SOAP). Usage of the package is illustrated for two different applications",
+    "date": "2019",
+    "url": "https://doi.org/10.1016/j.cpc.2019.106949",
+    "authors": [
+      "Lauri Himanen",
+      "Marc O. J. J\u00e4ger",
+      "Eiaki V. Morooka"
+    ]
+  },
+  {
+    "source": "OpenAlex (Communications Materials)",
+    "title": "Graph neural networks for materials science and chemistry",
+    "abstract": "Machine learning plays an increasingly important role in many areas of chemistry and materials science, being used to predict materials properties, accelerate simulations, design new structures, and predict synthesis routes of new materials. Graph neural networks (GNNs) are one of the fastest growing classes of machine learning models. They are of particular relevance for chemistry and materials science, as they directly work on a graph or structural representation of molecules and materials and therefore have full access to all relevant information required to characterize materials. In this ",
+    "date": "2022",
+    "url": "https://doi.org/10.1038/s43246-022-00315-6",
+    "authors": [
+      "Patrick Reiser",
+      "Marlen Neubert",
+      "Andr\u00e9 Eberhard"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Journal of Selected Topics in Signal Processing)",
+    "title": "Deep Learning for Audio Signal Processing",
+    "abstract": "Given the recent surge in developments of deep learning, this paper provides a review of the state-of-the-art deep learning techniques for audio signal processing. Speech, music, and environmental sound processing are considered side-by-side, in order to point out similarities and differences between the domains, highlighting general methods, problems, key references, and potential for cross fertilization between areas. The dominant feature representations (in particular, log-mel spectra and raw waveform) and deep learning models are reviewed, including convolutional neural networks, variants ",
+    "date": "2019",
+    "url": "https://doi.org/10.1109/jstsp.2019.2908700",
+    "authors": [
+      "H.\u2010G. Purwins",
+      "Bo Li",
+      "Tuomas Virtanen"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Artificial General Intelligence)",
+    "title": "Artificial General Intelligence: Concept, State of the Art, and Future Prospects",
+    "abstract": "Abstract In recent years broad community of researchers has emerged, focusing on the original ambitious goals of the AI field - the creation and study of software or hardware systems with general intelligence comparable to, and ultimately perhaps greater than, that of human beings. This paper surveys this diverse community and its progress. Approaches to defining the concept of Artificial General Intelligence (AGI) are reviewed including mathematical formalisms, engineering, and biology inspired perspectives. The spectrum of designs for AGI systems includes systems with symbolic, emergentist, ",
+    "date": "2014",
+    "url": "https://doi.org/10.2478/jagi-2014-0001",
+    "authors": [
+      "Ben Goertzel"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Journal on Selected Areas in Communications)",
+    "title": "Edge Artificial Intelligence for 6G: Vision, Enabling Technologies, and Applications",
+    "abstract": "The thriving of artificial intelligence (AI) applications is driving the further evolution of wireless networks. It has been envisioned that 6G will be transformative and will revolutionize the evolution of wireless from \u201cconnected things\u201d to \u201cconnected intelligence\u201d. However, state-of-the-art deep learning and big data analytics based AI systems require tremendous computation and communication resources, causing significant latency, energy consumption, network congestion, and privacy leakage in both of the training and inference processes. By embedding model training and inference capabilitie",
+    "date": "2021",
+    "url": "https://doi.org/10.1109/jsac.2021.3126076",
+    "authors": [
+      "Khaled B. Letaief",
+      "Yuanming Shi",
+      "Jianmin Lu"
+    ]
+  },
+  {
+    "source": "OpenAlex (Advanced Science)",
+    "title": "Data\u2010Driven Materials Science: Status, Challenges, and Perspectives",
+    "abstract": "Data-driven science is heralded as a new paradigm in materials science. In this field, data is the new resource, and knowledge is extracted from materials datasets that are too big or complex for traditional human reasoning-typically with the intent to discover new or improved materials or materials phenomena. Multiple factors, including the open science movement, national funding, and progress in information technology, have fueled its development. Such related tools as materials databases, machine learning, and high-throughput methods are now established as parts of the materials research to",
+    "date": "2019",
+    "url": "https://doi.org/10.1002/advs.201900808",
+    "authors": [
+      "Lauri Himanen",
+      "Amber Geurts",
+      "Adam Stuart Foster"
+    ]
+  },
+  {
+    "source": "OpenAlex (PLoS ONE)",
+    "title": "A Comprehensive Review of Swarm Optimization Algorithms",
+    "abstract": "Many swarm optimization algorithms have been introduced since the early 60's, Evolutionary Programming to the most recent, Grey Wolf Optimization. All of these algorithms have demonstrated their potential to solve many optimization problems. This paper provides an in-depth survey of well-known optimization algorithms. Selected algorithms are briefly explained and compared with each other comprehensively through experiments conducted using thirty well-known benchmark functions. Their advantages and disadvantages are also discussed. A number of statistical tests are then carried out to determine",
+    "date": "2015",
+    "url": "https://doi.org/10.1371/journal.pone.0122827",
+    "authors": [
+      "Mohd Nadhir Ab Wahab",
+      "Samia Nefti\u2010Meziani",
+      "Adham Atyabi"
+    ]
+  }
+]

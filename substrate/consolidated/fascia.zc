@@ -1,0 +1,32 @@
+#!/home/rana/.local/bin/zestc
+
+                              *=/(1S.aX08Y14:superficial_fascia[L1])
+                                          |
+                                          N    spine.xb
+                                          |
+                              *=/(1D.aX08Y10:deep_fascia[L1])
+                                          |
+                                          N
+                                          |
+                              *=/(1V.aX08Y06:visceral_fascia[L1])
+                                          |
+                                          N
+                                          |
+                              *=/(1M.aX08Y02:meningeal_fascia[L1])
+
+absorb superficial_fascia.rana
+absorb deep_fascia.rana
+absorb visceral_fascia.rana
+absorb meningeal_fascia.rana
+absorb spine.xb
+absorb skull.xb
+absorb ribcage.xb
+absorb pelvis.xb
+absorb femur.xb
+absorb thermal.zc
+absorb brain.xb
+absorb chemistry_engine.zc
+absorb fadriel_heart.zc
+absorb muscle.zc
+absorb remodel_governor.zc
+absorb pacemaker.rana

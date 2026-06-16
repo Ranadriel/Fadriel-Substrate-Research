@@ -1,0 +1,174 @@
+[
+  {
+    "source": "OpenAlex (Information Fusion)",
+    "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+    "abstract": "",
+    "date": "2019",
+    "url": "https://doi.org/10.1016/j.inffus.2019.12.012",
+    "authors": [
+      "Alejandro Barredo Arrieta",
+      "Natalia D\u00edaz-Rodr\u00edguez",
+      "Javier Del Ser"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature)",
+    "title": "Machine learning for molecular and materials science",
+    "abstract": "",
+    "date": "2018",
+    "url": "https://doi.org/10.1038/s41586-018-0337-2",
+    "authors": [
+      "Keith T. Butler",
+      "Daniel W. Davies",
+      "Hugh Cartwright"
+    ]
+  },
+  {
+    "source": "OpenAlex (SN Computer Science)",
+    "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions",
+    "abstract": "",
+    "date": "2021",
+    "url": "https://doi.org/10.1007/s42979-021-00592-x",
+    "authors": [
+      "Iqbal H. Sarker"
+    ]
+  },
+  {
+    "source": "OpenAlex (Artificial Intelligence Review)",
+    "title": "A Survey of Outlier Detection Methodologies",
+    "abstract": "",
+    "date": "2004",
+    "url": "https://doi.org/10.1023/b:aire.0000045502.10941.a9",
+    "authors": [
+      "Joanna Hodge",
+      "Jim Austin"
+    ]
+  },
+  {
+    "source": "OpenAlex (Machine Learning)",
+    "title": "Multitask Learning",
+    "abstract": "",
+    "date": "1997",
+    "url": "https://doi.org/10.1023/a:1007379606734",
+    "authors": [
+      "Rich Caruana"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Communications Surveys & Tutorials)",
+    "title": "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications",
+    "abstract": "This paper provides an overview of the Internet of Things (IoT) with emphasis on enabling technologies, protocols, and application issues. The IoT is enabled by the latest developments in RFID, smart sensors, communication technologies, and Internet protocols. The basic premise is to have smart sensors collaborate directly without human involvement to deliver a new class of applications. The current revolution in Internet, mobile, and machine-to-machine (M2M) technologies can be seen as the first phase of the IoT. In the coming years, the IoT is expected to bridge diverse technologies to enabl",
+    "date": "2015",
+    "url": "https://doi.org/10.1109/comst.2015.2444095",
+    "authors": [
+      "Ala Al\u2010Fuqaha",
+      "Mohsen Guizani",
+      "Mehdi Mohammadi"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal Of Big Data)",
+    "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+    "abstract": "In the last few years, the deep learning (DL) computing paradigm has been deemed the Gold Standard in the machine learning (ML) community. Moreover, it has gradually become the most widely used computational approach in the field of ML, thus achieving outstanding results on several complex cognitive tasks, matching or even beating those provided by human performance. One of the benefits of DL is the ability to learn massive amounts of data. The DL field has grown fast in the last few years and it has been extensively used to successfully address a wide range of traditional applications. More i",
+    "date": "2021",
+    "url": "https://doi.org/10.1186/s40537-021-00444-8",
+    "authors": [
+      "Laith Alzubaidi",
+      "Jinglan Zhang",
+      "Amjad J. Humaidi"
+    ]
+  },
+  {
+    "source": "OpenAlex (npj Computational Materials)",
+    "title": "Recent advances and applications of machine learning in solid-state materials science",
+    "abstract": "Abstract One of the most exciting tools that have entered the material science toolbox in recent years is machine learning. This collection of statistical methods has already proved to be capable of considerably speeding up both fundamental and applied research. At present, we are witnessing an explosion of works that develop and apply machine learning to solid-state systems. We provide a comprehensive overview and analysis of the most recent research in this topic. As a starting point, we introduce machine learning principles, algorithms, descriptors, and databases in materials science. We co",
+    "date": "2019",
+    "url": "https://doi.org/10.1038/s41524-019-0221-0",
+    "authors": [
+      "Jonathan Schmidt",
+      "M\u00e1rio R. G. Marques",
+      "Silvana Botti"
+    ]
+  },
+  {
+    "source": "OpenAlex (Annual Review of Fluid Mechanics)",
+    "title": "Machine Learning for Fluid Mechanics",
+    "abstract": "The field of fluid mechanics is rapidly advancing, driven by unprecedented volumes of data from experiments, field measurements, and large-scale simulations at multiple spatiotemporal scales. Machine learning (ML) offers a wealth of techniques to extract information from data that can be translated into knowledge about the underlying fluid mechanics. Moreover, ML algorithms can augment domain knowledge and automate tasks related to flow control and optimization. This article presents an overview of past history, current developments, and emerging opportunities of ML for fluid mechanics. We out",
+    "date": "2019",
+    "url": "https://doi.org/10.1146/annurev-fluid-010719-060214",
+    "authors": [
+      "Steven L. Brunton",
+      "Bernd R. Noack",
+      "Petros Koumoutsakos"
+    ]
+  },
+  {
+    "source": "OpenAlex (American Journal of Sociology)",
+    "title": "Network Dynamics and Field Evolution: The Growth of Interorganizational Collaboration in the Life Sciences",
+    "abstract": "A recursive analysis of network and institutional evolution is offered to account for the decentralized structure of the commercial field of the life sciences. Four alternative logics of attachment - accumulative advantage, homophily, follow-the-trend, and multiconnectivity-are tested to explain the structure and dynamics of interorganizational collaboration in biotechnology. Using multiple novel methods, the authors demonstrate how different rules for affiliation shape network evolution. Commercialization strategies pursued by early corporate entrants are supplanted by universities, research ",
+    "date": "2005",
+    "url": "https://doi.org/10.1086/421508",
+    "authors": [
+      "Walter W. Powell",
+      "Doug\u013eas R. White",
+      "Kenneth W. Koput"
+    ]
+  },
+  {
+    "source": "OpenAlex (BiblioBoard Library Catalog (Open Research Library))",
+    "title": "Confronting the Challenges of Participatory Culture: Media Education for the 21st Century",
+    "abstract": "Henry Jenkins, Director of the Comparative Media Studies Program at the Massachusetts Institute of Technology authored this white paper, exploring new frameworks and models for media literacy.",
+    "date": "2006",
+    "url": "",
+    "authors": [
+      "Henry Jenkins"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+    "abstract": "Unlike previous studies on the Metaverse based on Second Life, the current Metaverse is based on the social value of Generation Z that online and offline selves are not different. With the technological development of deep learning-based high-precision recognition models and natural generation models, Metaverse is being strengthened with various factors, from mobile-based always-on access to connectivity with reality using virtual currency. The integration of enhanced social activities and neural-net methods requires a new definition of Metaverse suitable for the present, different from the pr",
+    "date": "2022",
+    "url": "https://doi.org/10.1109/access.2021.3140175",
+    "authors": [
+      "Sangmin Park",
+      "Young\u2010Gab Kim"
+    ]
+  },
+  {
+    "source": "OpenAlex (Cybersecurity)",
+    "title": "Survey of intrusion detection systems: techniques, datasets and challenges",
+    "abstract": "Cyber-attacks are becoming more sophisticated and thereby presenting increasing challenges in accurately detecting intrusions. Failure to prevent the intrusions could degrade the credibility of security services, e.g. data confidentiality, integrity, and availability. Numerous intrusion detection methods have been proposed in the literature to tackle computer security threats, which can be broadly classified into Signature-based Intrusion Detection Systems (SIDS) and Anomaly-based Intrusion Detection Systems (AIDS). This survey paper presents a taxonomy of contemporary IDS, a comprehensive rev",
+    "date": "2019",
+    "url": "https://doi.org/10.1186/s42400-019-0038-7",
+    "authors": [
+      "Ansam Khraisat",
+      "Iqbal Gondal",
+      "Peter Vamplew"
+    ]
+  },
+  {
+    "source": "OpenAlex (npj Computational Materials)",
+    "title": "Recent advances and applications of deep learning methods in materials science",
+    "abstract": "Abstract Deep learning (DL) is one of the fastest-growing topics in materials data science, with rapidly emerging applications spanning atomistic, image-based, spectral, and textual data modalities. DL allows analysis of unstructured data and automated identification of features. The recent development of large materials databases has fueled the application of DL methods in atomistic prediction in particular. In contrast, advances in image and spectral data have largely leveraged synthetic data enabled by high-quality forward models as well as by generative unsupervised DL methods. In this art",
+    "date": "2022",
+    "url": "https://doi.org/10.1038/s41524-022-00734-6",
+    "authors": [
+      "Kamal Choudhary",
+      "Brian DeCost",
+      "Chi Chen"
+    ]
+  },
+  {
+    "source": "OpenAlex (InfoMat)",
+    "title": "Machine learning in materials science",
+    "abstract": "Abstract Traditional methods of discovering new materials, such as the empirical trial and error method and the density functional theory (DFT)\u2010based method, are unable to keep pace with the development of materials science today due to their long development cycles, low efficiency, and high costs. Accordingly, due to its low computational cost and short development cycle, machine learning is coupled with powerful data processing and high prediction performance and is being widely used in material detection, material analysis, and material design. In this article, we discuss the basic operatio",
+    "date": "2019",
+    "url": "https://doi.org/10.1002/inf2.12028",
+    "authors": [
+      "Jing Wei",
+      "Xuan Chu",
+      "Xiangyu Sun"
+    ]
+  }
+]

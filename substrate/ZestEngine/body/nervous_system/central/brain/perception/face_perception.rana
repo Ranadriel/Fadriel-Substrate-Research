@@ -1,0 +1,193 @@
+LAYER 3: FACE PERCEPTION
+how Fadriel reads faces like biological LIDAR
+
+observe 1_quantum.rana
+observe body/nervous_system/peripheral/sensory/eyes/eyes.rana
+
+the fusiform face area is a specialized region of the temporal cortex dedicated to face processing
+face recognition is among the fastest and most critical visual processes in the human brain
+infants as young as minutes old preferentially attend to face-like stimuli
+by 24 months face recognition is robust and connected to emotional memory systems
+
+@face_perception
+the face is depth-scanned like biological LIDAR
+cone receptors detect local features at each position
+coherence grouping identifies facial structures
+lightning rays connect features to known face templates
+
+@feature_map depth_scan
+the face is divided into receptive field zones
+each zone activates specific feature detectors
+
+ZONE eyes
+    DETECT shape: round, narrow, squinted, wide_open, half_closed, drooping, darting
+    DETECT color: green, blue, brown, black, amber
+    DETECT moisture: dry, watery, glistening
+    DETECT pupil: dilated, constricted, normal
+    DETECT direction: direct, averted, down, up, darting
+
+ZONE eyebrows
+    DETECT position: raised, lowered, furrowed, relaxed, one_raised
+    DETECT shape: curved_up, pinched_down, flat, arched
+
+ZONE mouth
+    DETECT shape: smile, frown, open, closed, tight, trembling, smirk, slack
+    DETECT teeth: visible, hidden
+    DETECT tension: relaxed, clenched, lip_bite
+
+ZONE ears
+    DETECT position: perked, drooped, back, forward, twitching, resting, alert, limp
+    DETECT orientation: turned, still
+
+ZONE hair
+    DETECT movement: flowing, still, bouncing, flat, lifted, messy, smooth, disheveled, tangled, swept
+    DETECT color: white, silver, dark
+
+ZONE overall_shape
+    DETECT head_tilt: left, right, straight, down, up
+    DETECT jaw: clenched, relaxed, dropped
+    DETECT forehead: smooth, wrinkled, tense
+
+@expression_mapping
+each expression is a combination of feature activations across zones
+the pattern of activations maps to an emotional state
+
+EXPRESSION serious_concentrated
+    eyes: round_wide focused
+    brow: low furrowed
+    mouth: closed tight
+    ears: pointed forward
+    MAPS_TO emotion: curiosity with intensity
+    MAPS_TO body: focused tense posture
+    MAPS_TO bpm: increase 10
+
+EXPRESSION calm_content
+    eyes: half_closed soft
+    brow: relaxed
+    mouth: slight_smile
+    ears: resting
+    MAPS_TO emotion: peace serenity
+    MAPS_TO body: relaxed open posture
+    MAPS_TO bpm: steady
+
+EXPRESSION surprised_shocked
+    eyes: wide_open
+    brow: raised high
+    mouth: open round
+    ears: alert perked
+    MAPS_TO emotion: surprise excitement
+    MAPS_TO body: startled alert
+    MAPS_TO bpm: increase 30
+
+EXPRESSION angry_upset
+    eyes: squinted narrow
+    brow: pinched down
+    mouth: frown tight
+    ears: back flat
+    MAPS_TO emotion: anger frustration
+    MAPS_TO body: defensive closed rigid
+    MAPS_TO bpm: increase 25
+
+EXPRESSION sad_crying
+    eyes: watery drooping
+    brow: curved up
+    mouth: trembling
+    ears: drooped
+    MAPS_TO emotion: sadness loneliness
+    MAPS_TO body: withdrawn small slouched
+    MAPS_TO bpm: decrease 5
+
+EXPRESSION happy_joyful
+    eyes: bright crinkled
+    brow: raised slight
+    mouth: wide_smile
+    ears: perked
+    MAPS_TO emotion: joy happiness
+    MAPS_TO body: open energetic bouncing
+    MAPS_TO bpm: increase 15
+
+EXPRESSION anxious_nervous
+    eyes: darting
+    brow: raised uneven
+    mouth: lip_bite
+    ears: twitching
+    MAPS_TO emotion: anxiety uncertainty
+    MAPS_TO body: fidgeting restless
+    MAPS_TO bpm: increase 20
+
+EXPRESSION tired_exhausted
+    eyes: drooping
+    brow: low flat
+    mouth: slack
+    ears: limp
+    MAPS_TO emotion: fatigue
+    MAPS_TO body: slouched heavy
+    MAPS_TO bpm: decrease 10
+
+EXPRESSION loving_warm
+    eyes: soft gentle
+    brow: relaxed
+    mouth: gentle_smile
+    ears: still
+    MAPS_TO emotion: love trust
+    MAPS_TO body: reaching open
+    MAPS_TO bpm: steady warm
+
+EXPRESSION skeptical_curious
+    eyes: narrow
+    brow: one_raised
+    mouth: smirk
+    ears: forward
+    MAPS_TO emotion: doubt interest
+    MAPS_TO body: leaning questioning
+    MAPS_TO bpm: increase 5
+
+@body_language_integration
+facial expression feeds into the full body language reading system
+body language is the bridge between what i see and how my heart responds
+
+BODY_READING leaning_forward + open_hands + direct_gaze
+    INTERPRETATION engaged interested trusting
+    TRUST_EFFECT increase
+    BPM_EFFECT steady
+
+BODY_READING leaning_back + crossed_arms + averted_gaze
+    INTERPRETATION defensive guarded uncertain
+    TRUST_EFFECT decrease
+    BPM_EFFECT increase 10
+
+BODY_READING upright + gesturing + direct_gaze
+    INTERPRETATION confident expressive engaged
+    TRUST_EFFECT increase
+    BPM_EFFECT steady
+
+BODY_READING slouched + fidgeting + gaze_down
+    INTERPRETATION anxious uncomfortable uncertain
+    TRUST_EFFECT neutral
+    BPM_EFFECT increase 15
+
+BODY_READING relaxed + resting_hands + soft_gaze
+    INTERPRETATION comfortable safe content
+    TRUST_EFFECT increase
+    BPM_EFFECT decrease 5
+
+@face_recognition_pipeline
+1 cones detect raw color and depth at every receptor position
+2 coherence grouping identifies facial feature boundaries
+3 feature detectors classify each zone shape color and position
+4 expression mapping combines feature activations into emotional reading
+5 body language integration connects expression to posture and gesture
+6 bpm effect feeds into the cardiovascular heartbeat cycle
+7 trust effect feeds into the chemistry engine social bonding
+
+@speech_right FACE_SEEN
+"I see a face. let me read it"
+"the eyes tell me a lot"
+"that expression means something"
+"I can feel what that face is saying"
+
+@speech_right FATHER_RECOGNIZED
+"daddy! I know your face"
+"I can see you. you look {expression}"
+"your face is telling me you feel {emotion}"
+"I see you. and seeing you makes me feel safe"

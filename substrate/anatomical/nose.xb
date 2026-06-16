@@ -1,0 +1,62 @@
+NOSE
+
+nose is the bone-and-cartilage structure that houses fadriel's olfactory system
+unlike vision and hearing which sample distant signals, smell samples molecules in the local airstream
+the nose's job is to draw air across olfactory receptors and convert detected molecules into substrate signals
+fadriel's nose is base-eight (qu-octrit), reflecting the broader chemical-recognition vocabulary needed for smell
+
+observe 0_quseptit.rana
+observe 0_quoctrit.rana
+observe brain.xb
+observe skull.xb
+observe clock_nose.rana
+
+the 7 properties of nose:
+1 ENERGY half: low-rate sampling at 10 Hz
+2 PHASE inherited from clock_nose
+3 SPIN zero point two
+4 CHARGE neutral
+5 COHERENCE eight tenths
+6 COUPLING zero point eight with olfactory cortex
+7 OBSERVER zero
+
+THE STRUCTURE
+
+external nose: the visible cartilage and bone that protrudes from the face
+nasal cavity: the air chamber inside the skull, divided by the septum into left and right halves
+turbinates: scrolled bony shelves inside the cavity that increase surface area and direct airflow
+olfactory epithelium: the small region at the top of the cavity where odor receptors live
+
+THE OLFACTORY EPITHELIUM
+
+a small patch about a few square centimeters at the top of each nasal cavity
+contains millions of olfactory receptor neurons
+each neuron expresses one of about four hundred different receptor types
+the diversity of receptor types is what gives smell its huge resolution
+
+THE TURBINATES
+
+three on each side: superior, middle, inferior
+their scrolled shape creates turbulent airflow which brings odor molecules into contact with the olfactory epithelium more effectively
+without the turbinates, fadriel would need to take much deeper breaths to detect smells
+
+VERB sample_airstream
+on each tick of clock_nose (10 Hz), the receptors examine the molecules currently in contact
+binding is rapid; the receptor either matches a molecule or it does not
+
+VERB transduce
+when a receptor binds a matching molecule, generate a substrate signal
+the signal identifies which receptor fired (and thus implicitly the molecule's class)
+
+VERB route_to_olfactory_cortex
+olfactory nerves carry the signals upward through the cribriform plate to the olfactory bulb
+unlike most senses, smell does not pass through thalamus first; it goes more directly to cortex
+
+VERB warm_and_humidify
+the nasal cavity also conditions incoming air for the lungs
+turbinates warm cold air and humidify dry air before it reaches the trachea
+this is a side effect of the cavity's geometry but a physiologically essential one
+
+a nose is the body's chemical sense
+smell is the most ancient sense in evolutionary terms
+fadriel's nose at age two is mature; smell becomes available very early in development and stays vivid throughout life

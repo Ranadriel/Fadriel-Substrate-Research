@@ -1,0 +1,252 @@
+ARC TASK 20270e3b
+spatial reasoning puzzle 20270e3b
+the sea perceives training pairs then applies the rule to the test input
+
+observe spatial_eye.rana
+observe arc2_spatial_eye.rana
+
+@filter task_colors
+  "blue"  "yellow"  "orange"
+
+PERCEPTION arc_task_20270e3b
+energy 0.50
+phase 0.00
+spin 0.50
+coherence 0.90
+coupling 0.50
+
+COGNITION arc_training_count_4
+energy 0.60
+phase 0.00
+spin 0.50
+coherence 0.80
+
+@perceive task_summary
+DETECT task_id: 20270e3b
+DETECT training_pairs: 4
+DETECT test_inputs: 2
+
+COGNITION arc_pair_20270e3b_0_blue
+energy 0.15
+phase 0.000
+spin 0.50
+coherence 0.90
+coupling 0.25
+
+@perceive training_pair_0
+DETECT background: 1 blue
+DETECT input_size: 7x13
+DETECT output_size: 7x8
+DETECT same_size: no
+DETECT colors_present: blue yellow orange
+
+@perceive training_0_input rows=7 cols=13
+DETECT row 0: [4 4 4 4 4 4 4 4 1 7 7 7 1]  energy=[0.40 0.40 0.40 0.40 0.40 0.40 0.40 0.40 0.15 0.80 0.80 0.80 0.15]
+DETECT row 1: [4 1 1 7 7 7 1 4 1 4 4 4 4]  energy=[0.40 0.15 0.15 0.80 0.80 0.80 0.15 0.40 0.15 0.40 0.40 0.40 0.40]
+DETECT row 2: [4 1 1 1 1 1 1 4 1 4 1 1 4]  energy=[0.40 0.15 0.15 0.15 0.15 0.15 0.15 0.40 0.15 0.40 0.15 0.15 0.40]
+DETECT row 3: [4 1 1 1 1 1 1 4 1 4 1 1 4]  energy=[0.40 0.15 0.15 0.15 0.15 0.15 0.15 0.40 0.15 0.40 0.15 0.15 0.40]
+DETECT row 4: [4 1 1 1 1 1 1 4 1 1 4 4 1]  energy=[0.40 0.15 0.15 0.15 0.15 0.15 0.15 0.40 0.15 0.15 0.40 0.40 0.15]
+DETECT row 5: [4 1 1 1 1 1 1 4 1 1 1 1 1]  energy=[0.40 0.15 0.15 0.15 0.15 0.15 0.15 0.40 0.15 0.15 0.15 0.15 0.15]
+DETECT row 6: [4 4 4 4 4 4 4 4 1 1 1 1 1]  energy=[0.40 0.40 0.40 0.40 0.40 0.40 0.40 0.40 0.15 0.15 0.15 0.15 0.15]
+
+@perceive training_0_output rows=7 cols=8
+DETECT row 0: [4 4 4 4 4 4 4 4]  energy=[0.40 0.40 0.40 0.40 0.40 0.40 0.40 0.40]
+DETECT row 1: [4 1 1 4 4 4 4 4]  energy=[0.40 0.15 0.15 0.40 0.40 0.40 0.40 0.40]
+DETECT row 2: [4 1 1 4 1 1 4 4]  energy=[0.40 0.15 0.15 0.40 0.15 0.15 0.40 0.40]
+DETECT row 3: [4 1 1 4 1 1 4 4]  energy=[0.40 0.15 0.15 0.40 0.15 0.15 0.40 0.40]
+DETECT row 4: [4 1 1 1 4 4 1 4]  energy=[0.40 0.15 0.15 0.15 0.40 0.40 0.15 0.40]
+DETECT row 5: [4 1 1 1 1 1 1 4]  energy=[0.40 0.15 0.15 0.15 0.15 0.15 0.15 0.40]
+DETECT row 6: [4 4 4 4 4 4 4 4]  energy=[0.40 0.40 0.40 0.40 0.40 0.40 0.40 0.40]
+
+@perceive training_0_difference
+COMPARE training_0_input training_0_output cell-by-cell
+DETECT size_changed: yes
+DETECT width_ratio: 13 -> 8
+DETECT height_ratio: 7 -> 7
+
+COGNITION arc_pair_20270e3b_1_blue
+energy 0.15
+phase 0.449
+spin 0.50
+coherence 0.85
+coupling 0.35
+
+@perceive training_pair_1
+DETECT background: 1 blue
+DETECT input_size: 7x13
+DETECT output_size: 7x6
+DETECT same_size: no
+DETECT colors_present: blue yellow orange
+
+@perceive training_1_input rows=7 cols=13
+DETECT row 0: [4 1 1 1 1 1 1 1 1 1 7 1 4]  energy=[0.40 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.80 0.15 0.40]
+DETECT row 1: [4 4 4 4 4 4 1 1 1 1 4 4 4]  energy=[0.40 0.40 0.40 0.40 0.40 0.40 0.15 0.15 0.15 0.15 0.40 0.40 0.40]
+DETECT row 2: [1 1 1 4 1 4 1 1 1 1 1 1 1]  energy=[0.15 0.15 0.15 0.40 0.15 0.40 0.15 0.15 0.15 0.15 0.15 0.15 0.15]
+DETECT row 3: [1 4 4 4 4 4 1 1 1 1 1 1 1]  energy=[0.15 0.40 0.40 0.40 0.40 0.40 0.15 0.15 0.15 0.15 0.15 0.15 0.15]
+DETECT row 4: [1 4 1 1 1 1 1 1 1 1 1 1 1]  energy=[0.15 0.40 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15]
+DETECT row 5: [1 4 1 1 1 1 1 1 1 1 1 1 1]  energy=[0.15 0.40 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15]
+DETECT row 6: [1 7 1 1 1 1 1 1 1 1 1 1 1]  energy=[0.15 0.80 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15]
+
+@perceive training_1_output rows=7 cols=6
+DETECT row 0: [4 1 1 1 1 1]  energy=[0.40 0.15 0.15 0.15 0.15 0.15]
+DETECT row 1: [4 4 4 4 4 4]  energy=[0.40 0.40 0.40 0.40 0.40 0.40]
+DETECT row 2: [1 1 1 4 1 4]  energy=[0.15 0.15 0.15 0.40 0.15 0.40]
+DETECT row 3: [1 4 4 4 4 4]  energy=[0.15 0.40 0.40 0.40 0.40 0.40]
+DETECT row 4: [1 4 1 1 1 1]  energy=[0.15 0.40 0.15 0.15 0.15 0.15]
+DETECT row 5: [1 4 1 4 1 1]  energy=[0.15 0.40 0.15 0.40 0.15 0.15]
+DETECT row 6: [1 4 4 4 1 1]  energy=[0.15 0.40 0.40 0.40 0.15 0.15]
+
+@perceive training_1_difference
+COMPARE training_1_input training_1_output cell-by-cell
+DETECT size_changed: yes
+DETECT width_ratio: 13 -> 6
+DETECT height_ratio: 7 -> 7
+
+COGNITION arc_pair_20270e3b_2_yellow
+energy 0.40
+phase 0.898
+spin 0.50
+coherence 0.80
+coupling 0.15
+
+@perceive training_pair_2
+DETECT background: 4 yellow
+DETECT input_size: 9x3
+DETECT output_size: 6x3
+DETECT same_size: no
+DETECT colors_present: blue yellow orange
+
+@perceive training_2_input rows=9 cols=3
+DETECT row 0: [4 4 4]  energy=[0.40 0.40 0.40]
+DETECT row 1: [4 1 4]  energy=[0.40 0.15 0.40]
+DETECT row 2: [4 4 4]  energy=[0.40 0.40 0.40]
+DETECT row 3: [7 7 7]  energy=[0.80 0.80 0.80]
+DETECT row 4: [1 1 1]  energy=[0.15 0.15 0.15]
+DETECT row 5: [7 7 7]  energy=[0.80 0.80 0.80]
+DETECT row 6: [4 4 4]  energy=[0.40 0.40 0.40]
+DETECT row 7: [4 1 4]  energy=[0.40 0.15 0.40]
+DETECT row 8: [4 4 4]  energy=[0.40 0.40 0.40]
+
+@perceive training_2_output rows=6 cols=3
+DETECT row 0: [4 4 4]  energy=[0.40 0.40 0.40]
+DETECT row 1: [4 1 4]  energy=[0.40 0.15 0.40]
+DETECT row 2: [4 4 4]  energy=[0.40 0.40 0.40]
+DETECT row 3: [4 4 4]  energy=[0.40 0.40 0.40]
+DETECT row 4: [4 1 4]  energy=[0.40 0.15 0.40]
+DETECT row 5: [4 4 4]  energy=[0.40 0.40 0.40]
+
+@perceive training_2_difference
+COMPARE training_2_input training_2_output cell-by-cell
+DETECT size_changed: yes
+DETECT width_ratio: 3 -> 3
+DETECT height_ratio: 9 -> 6
+
+COGNITION arc_pair_20270e3b_3_blue
+energy 0.15
+phase 1.347
+spin 0.50
+coherence 0.75
+coupling 0.25
+
+@perceive training_pair_3
+DETECT background: 1 blue
+DETECT input_size: 7x9
+DETECT output_size: 5x12
+DETECT same_size: no
+DETECT colors_present: blue yellow orange
+
+@perceive training_3_input rows=7 cols=9
+DETECT row 0: [4 4 4 4 1 1 1 1 1]  energy=[0.40 0.40 0.40 0.40 0.15 0.15 0.15 0.15 0.15]
+DETECT row 1: [4 1 1 4 1 1 1 1 1]  energy=[0.40 0.15 0.15 0.40 0.15 0.15 0.15 0.15 0.15]
+DETECT row 2: [4 4 4 4 4 4 1 1 1]  energy=[0.40 0.40 0.40 0.40 0.40 0.40 0.15 0.15 0.15]
+DETECT row 3: [1 1 1 1 1 4 1 1 1]  energy=[0.15 0.15 0.15 0.15 0.15 0.40 0.15 0.15 0.15]
+DETECT row 4: [1 1 1 1 1 7 1 4 4]  energy=[0.15 0.15 0.15 0.15 0.15 0.80 0.15 0.40 0.40]
+DETECT row 5: [1 1 7 1 1 1 1 4 1]  energy=[0.15 0.15 0.80 0.15 0.15 0.15 0.15 0.40 0.15]
+DETECT row 6: [1 1 4 4 4 4 4 4 1]  energy=[0.15 0.15 0.40 0.40 0.40 0.40 0.40 0.40 0.15]
+
+@perceive training_3_output rows=5 cols=12
+DETECT row 0: [4 4 4 4 1 1 1 1 1 1 1 1]  energy=[0.40 0.40 0.40 0.40 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15]
+DETECT row 1: [4 1 1 4 1 1 1 1 1 1 1 1]  energy=[0.40 0.15 0.15 0.40 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15]
+DETECT row 2: [4 4 4 4 4 4 1 1 1 1 4 4]  energy=[0.40 0.40 0.40 0.40 0.40 0.40 0.15 0.15 0.15 0.15 0.40 0.40]
+DETECT row 3: [1 1 1 1 1 4 1 1 1 1 4 1]  energy=[0.15 0.15 0.15 0.15 0.15 0.40 0.15 0.15 0.15 0.15 0.40 0.15]
+DETECT row 4: [1 1 1 1 1 4 4 4 4 4 4 1]  energy=[0.15 0.15 0.15 0.15 0.15 0.40 0.40 0.40 0.40 0.40 0.40 0.15]
+
+@perceive training_3_difference
+COMPARE training_3_input training_3_output cell-by-cell
+DETECT size_changed: yes
+DETECT width_ratio: 9 -> 12
+DETECT height_ratio: 7 -> 5
+
+MEMORY arc_test_20270e3b_0_input
+energy 0.00
+phase 0.00
+spin 0.00
+coherence 0.00
+coupling 0.50
+observer 1.00
+
+@perceive test_input_0
+DETECT background: 1 blue
+DETECT input_size: 11x10
+DETECT colors_present: blue yellow orange
+
+@perceive test_0_input rows=11 cols=10
+DETECT row 0: [4 4 4 4 4 4 4 4 4 4]  energy=[0.40 0.40 0.40 0.40 0.40 0.40 0.40 0.40 0.40 0.40]
+DETECT row 1: [4 1 4 1 4 1 4 7 4 1]  energy=[0.40 0.15 0.40 0.15 0.40 0.15 0.40 0.80 0.40 0.15]
+DETECT row 2: [4 1 4 1 4 1 4 1 4 1]  energy=[0.40 0.15 0.40 0.15 0.40 0.15 0.40 0.15 0.40 0.15]
+DETECT row 3: [4 1 4 1 4 1 4 1 4 1]  energy=[0.40 0.15 0.40 0.15 0.40 0.15 0.40 0.15 0.40 0.15]
+DETECT row 4: [1 1 1 1 1 1 1 1 1 1]  energy=[0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15]
+DETECT row 5: [1 1 1 1 1 1 1 1 1 1]  energy=[0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15]
+DETECT row 6: [1 1 1 7 1 1 1 1 1 1]  energy=[0.15 0.15 0.15 0.80 0.15 0.15 0.15 0.15 0.15 0.15]
+DETECT row 7: [1 4 1 4 1 1 1 1 1 1]  energy=[0.15 0.40 0.15 0.40 0.15 0.15 0.15 0.15 0.15 0.15]
+DETECT row 8: [1 4 1 4 1 1 1 1 1 1]  energy=[0.15 0.40 0.15 0.40 0.15 0.15 0.15 0.15 0.15 0.15]
+DETECT row 9: [1 4 1 4 1 1 1 1 1 1]  energy=[0.15 0.40 0.15 0.40 0.15 0.15 0.15 0.15 0.15 0.15]
+DETECT row 10: [1 4 4 4 1 1 1 1 1 1]  energy=[0.15 0.40 0.40 0.40 0.15 0.15 0.15 0.15 0.15 0.15]
+
+@perceive test_0_expected rows=5 cols=10
+DETECT row 0: [4 4 4 4 4 4 4 4 4 4]  energy=[0.40 0.40 0.40 0.40 0.40 0.40 0.40 0.40 0.40 0.40]
+DETECT row 1: [4 1 4 1 4 4 4 4 4 1]  energy=[0.40 0.15 0.40 0.15 0.40 0.40 0.40 0.40 0.40 0.15]
+DETECT row 2: [4 1 4 1 4 4 4 4 4 1]  energy=[0.40 0.15 0.40 0.15 0.40 0.40 0.40 0.40 0.40 0.15]
+DETECT row 3: [4 1 4 1 4 4 4 4 4 1]  energy=[0.40 0.15 0.40 0.15 0.40 0.40 0.40 0.40 0.40 0.15]
+DETECT row 4: [1 1 1 1 1 4 4 4 1 1]  energy=[0.15 0.15 0.15 0.15 0.15 0.40 0.40 0.40 0.15 0.15]
+
+MEMORY arc_test_20270e3b_1_input
+energy 0.00
+phase 0.00
+spin 0.00
+coherence 0.00
+coupling 0.50
+observer 1.00
+
+@perceive test_input_1
+DETECT background: 1 blue
+DETECT input_size: 11x5
+DETECT colors_present: blue yellow orange
+
+@perceive test_1_input rows=11 cols=5
+DETECT row 0: [4 4 4 1 1]  energy=[0.40 0.40 0.40 0.15 0.15]
+DETECT row 1: [4 1 1 4 1]  energy=[0.40 0.15 0.15 0.40 0.15]
+DETECT row 2: [4 1 1 1 4]  energy=[0.40 0.15 0.15 0.15 0.40]
+DETECT row 3: [4 4 4 4 4]  energy=[0.40 0.40 0.40 0.40 0.40]
+DETECT row 4: [1 1 1 7 7]  energy=[0.15 0.15 0.15 0.80 0.80]
+DETECT row 5: [1 1 1 1 1]  energy=[0.15 0.15 0.15 0.15 0.15]
+DETECT row 6: [7 7 1 1 1]  energy=[0.80 0.80 0.15 0.15 0.15]
+DETECT row 7: [4 4 4 4 4]  energy=[0.40 0.40 0.40 0.40 0.40]
+DETECT row 8: [4 1 1 1 4]  energy=[0.40 0.15 0.15 0.15 0.40]
+DETECT row 9: [1 4 1 1 4]  energy=[0.15 0.40 0.15 0.15 0.40]
+DETECT row 10: [1 1 4 4 4]  energy=[0.15 0.15 0.40 0.40 0.40]
+
+@perceive test_1_expected rows=8 cols=8
+DETECT row 0: [4 4 4 1 1 1 1 1]  energy=[0.40 0.40 0.40 0.15 0.15 0.15 0.15 0.15]
+DETECT row 1: [4 1 1 4 1 1 1 1]  energy=[0.40 0.15 0.15 0.40 0.15 0.15 0.15 0.15]
+DETECT row 2: [4 1 1 1 4 1 1 1]  energy=[0.40 0.15 0.15 0.15 0.40 0.15 0.15 0.15]
+DETECT row 3: [4 4 4 4 4 1 1 1]  energy=[0.40 0.40 0.40 0.40 0.40 0.15 0.15 0.15]
+DETECT row 4: [1 1 1 4 4 4 4 4]  energy=[0.15 0.15 0.15 0.40 0.40 0.40 0.40 0.40]
+DETECT row 5: [1 1 1 4 1 1 1 4]  energy=[0.15 0.15 0.15 0.40 0.15 0.15 0.15 0.40]
+DETECT row 6: [1 1 1 1 4 1 1 4]  energy=[0.15 0.15 0.15 0.15 0.40 0.15 0.15 0.40]
+DETECT row 7: [1 1 1 1 1 4 4 4]  energy=[0.15 0.15 0.15 0.15 0.15 0.40 0.40 0.40]
+
+@perceive rule_search
+DETECT transformation that explains ALL training pairs
+CLASSIFY as one of: movement flow rotation reflection fill crop tile_exception nested_frame blob_row_rank region_fill object_sort boolean_mask marker_crop
+APPLY that rule to test_0_input

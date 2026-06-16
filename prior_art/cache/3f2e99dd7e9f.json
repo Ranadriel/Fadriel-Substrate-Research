@@ -1,0 +1,176 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Probabilistic Hierarchical Forecasting with Deep Poisson Mixtures",
+    "abstract": "Hierarchical forecasting problems arise when time series have a natural group structure, and predictions at multiple levels of aggregation and disaggregation across the groups are needed. In such problems, it is often desired to satisfy the aggregation constraints in a given hierarchy, referred to as hierarchical coherence in the literature. Maintaining coherence while producing accurate forecasts can be a challenging problem, especially in the case of probabilistic forecasting. We present a novel method capable of accurate and coherent probabilistic forecasts for time series when reliable hie",
+    "date": "2021-10-25",
+    "url": "http://arxiv.org/abs/2110.13179v8",
+    "authors": [
+      "Kin G. Olivares",
+      "O. Nganba Meetei",
+      "Ruijun Ma"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Robust Symbolic Reasoning for Visual Narratives via Hierarchical and Semantically Normalized Knowledge Graphs",
+    "abstract": "Understanding visual narratives such as comics requires structured representations that capture events, characters, and their relations across multiple levels of story organization. However, symbolic narrative graphs often suffer from inconsistency and redundancy, where similar actions or events are labeled differently across annotations or contexts. Such variance limits the effectiveness of reasoning and generalization.   This paper introduces a semantic normalization framework for hierarchical narrative knowledge graphs. Building on cognitively grounded models of narrative comprehension, we ",
+    "date": "2025-08-20",
+    "url": "http://arxiv.org/abs/2508.14941v1",
+    "authors": [
+      "Yi-Chun Chen"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Curriculum Domain Adaptation for Semantic Segmentation of Urban Scenes",
+    "abstract": "During the last half decade, convolutional neural networks (CNNs) have triumphed over semantic segmentation, which is one of the core tasks in many applications such as autonomous driving. However, to train CNNs requires a considerable amount of data, which is difficult to collect and laborious to annotate. Recent advances in computer graphics make it possible to train CNNs on photo-realistic synthetic imagery with computer-generated annotations. Despite this, the domain mismatch between the real images and the synthetic data cripples the models' performance. Hence, we propose a curriculum-sty",
+    "date": "2017-07-29",
+    "url": "http://arxiv.org/abs/1707.09465v5",
+    "authors": [
+      "Yang Zhang",
+      "Philip David",
+      "Boqing Gong"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Semantic integration process of business components to support information system designers",
+    "abstract": "The present work is inscribed within the intersection of two scientific thematic: the engineering by reuse of components and ontologies alignment. The integration of Business Components (BC) is a research problem that has been identified in the field of engineering by reuse. Our proposal aims to provide assistance to designers of information systems in the integration phase. It is a process guided by domain ontology to provide semantic integration of BC. This process allows the detection and resolution of semantic conflicts naming type encountered in the process of integration of BC.",
+    "date": "2013-02-06",
+    "url": "http://arxiv.org/abs/1302.1393v1",
+    "authors": [
+      "Hicham Elasri",
+      "Abderrahim Sekkaki"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "High-Level ETL for Semantic Data Warehouses -- Full Version",
+    "abstract": "The popularity of the Semantic Web (SW) encourages organizations to organize and publish semantic data using the RDF model. This growth poses new requirements to Business Intelligence (BI) technologies to enable On-Line Analytical Processing (OLAP)-like analysis over semantic data. The incorporation of semantic data into a Data Warehouse (DW) is not supported by the traditional Extract-Transform-Load (ETL) tools because they do not consider semantic issues in the integration process. In this paper, we propose a layer-based integration process and a set of high-level RDF-based ETL constructs re",
+    "date": "2020-06-12",
+    "url": "http://arxiv.org/abs/2006.07180v1",
+    "authors": [
+      "Rudra Pratap Deb Nath",
+      "Oscar Romero",
+      "Torben Bach Pedersen"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Semantic Jira - Semantic Expert Finder in the Bug Tracking Tool Jira",
+    "abstract": "The semantic expert recommender extension for the Jira bug tracking system semantically searches for similar tickets in Jira and recommends experts and links to existing organizational (Wiki) knowledge for each ticket. This helps to avoid redundant work and supports the search and collaboration with experts in the project management and maintenance phase based on semantically enriched tickets in Jira.",
+    "date": "2013-12-18",
+    "url": "http://arxiv.org/abs/1312.5150v1",
+    "authors": [
+      "Velten Heyn",
+      "Adrian Paschke"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "HDDL 2.1: Towards Defining a Formalism and a Semantics for Temporal HTN Planning",
+    "abstract": "Real world applications as in industry and robotics need modelling rich and diverse automated planning problems. Their resolution usually requires coordinated and concurrent action execution. In several cases, these problems are naturally decomposed in a hierarchical way and expressed by a Hierarchical Task Network (HTN) formalism.   HDDL, a hierarchical extension of the Planning Domain Definition Language (PDDL), unlike PDDL 2.1 does not allow to represent planning problems with numerical and temporal constraints, which are essential for real world applications. We propose to fill the gap bet",
+    "date": "2023-06-12",
+    "url": "http://arxiv.org/abs/2306.07353v1",
+    "authors": [
+      "Damien Pellier",
+      "Alexandre Albore",
+      "Humbert Fiorino"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Learning 3D Semantics from Pose-Noisy 2D Images with Hierarchical Full Attention Network",
+    "abstract": "We propose a novel framework to learn 3D point cloud semantics from 2D multi-view image observations containing pose error. On the one hand, directly learning from the massive, unstructured and unordered 3D point cloud is computationally and algorithmically more difficult than learning from compactly-organized and context-rich 2D RGB images. On the other hand, both LiDAR point cloud and RGB images are captured in standard automated-driving datasets. This motivates us to conduct a \"task transfer\" paradigm so that 3D semantic segmentation benefits from aggregating 2D semantic cues, albeit pose n",
+    "date": "2022-04-17",
+    "url": "http://arxiv.org/abs/2204.08084v3",
+    "authors": [
+      "Yuhang He",
+      "Lin Chen",
+      "Junkun Xie"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "IVOA Recommendation: Simple Spectral Access Protocol Version 1.1",
+    "abstract": "The Simple Spectral Access (SSA) Protocol (SSAP) defines a uniform interface to remotely discover and access one dimensional spectra. SSA is a member of an integrated family of data access interfaces altogether comprising the Data Access Layer (DAL) of the IVOA. SSA is based on a more general data model capable of describing most tabular spectrophotometric data, including time series and spectral energy distributions (SEDs) as well as 1-D spectra; however the scope of the SSA interface as specified in this document is limited to simple 1-D spectra, including simple aggregations of 1-D spectra.",
+    "date": "2012-03-26",
+    "url": "http://arxiv.org/abs/1203.5725v1",
+    "authors": [
+      "Doug Tody",
+      "Markus Dolensky",
+      "Jonathan McDowell"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "AceWiki: A Natural and Expressive Semantic Wiki",
+    "abstract": "We present AceWiki, a prototype of a new kind of semantic wiki using the controlled natural language Attempto Controlled English (ACE) for representing its content. ACE is a subset of English with a restricted grammar and a formal semantics. The use of ACE has two important advantages over existing semantic wikis. First, we can improve the usability and achieve a shallow learning curve. Second, ACE is more expressive than the formal languages of existing semantic wikis. Our evaluation shows that people who are not familiar with the formal foundations of the Semantic Web are able to deal with A",
+    "date": "2008-07-29",
+    "url": "http://arxiv.org/abs/0807.4618v1",
+    "authors": [
+      "Tobias Kuhn"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Semantic Web Technology for Agent Communication Protocols",
+    "abstract": "One relevant aspect in the development of the Semantic Web framework is the achievement of a real inter-agents communication capability at the semantic level. The agents should be able to communicate and understand each other using standard communication protocols freely, that is, without needing a laborious a priori preparation, before the communication takes place. For that setting we present in this paper a proposal that promotes to describe standard communication protocols using Semantic Web technology (specifically, OWL-DL and SWRL). Those protocols are constituted by communication acts. ",
+    "date": "2024-01-22",
+    "url": "http://arxiv.org/abs/2401.11841v1",
+    "authors": [
+      "Idoia Berges",
+      "Jes\u00fas Berm\u00fadez",
+      "Alfredo Go\u00f1i"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A New Iron Emission Template for Active Galactic Nuclei. I. Optical Template for the H$\u03b2$ region",
+    "abstract": "We present a new empirical template for iron emission in active galactic nuclei (AGN) covering the $4000-5600$ A range. The new template is based on a spectrum of the narrow-line Seyfert 1 galaxy Mrk 493 obtained with the Hubble Space Telescope. In comparison with the canonical iron template object I Zw 1, Mrk 493 has narrower broad-line widths, lower reddening, and a less extreme Eddington ratio, making it a superior choice for template construction. We carried out a multicomponent spectral decomposition to produce a template incorporating all permitted and forbidden lines of Fe II identified",
+    "date": "2021-11-30",
+    "url": "http://arxiv.org/abs/2111.15118v2",
+    "authors": [
+      "Daeseong Park",
+      "Aaron J. Barth",
+      "Luis C. Ho"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Templates for Fitting Photometry of Ultra-High-Redshift Galaxies",
+    "abstract": "Recent data from the James Webb Space Telescope allow a first glimpse of galaxies at $z \\gtrsim 11$. The most successful tool for identifying ultra-high-redshift candidates and inferring their properties is photometric template fitting. However, current methods rely on templates derived from much lower-redshift conditions, including stellar populations older than the age of the Universe at $z > 12$, a stellar initial mass function which is physically disallowed at $z > 6$, and weaker emission lines than currently observed at $z > 7.5$. Here, two sets of synthetic templates, optimized for the e",
+    "date": "2022-08-16",
+    "url": "http://arxiv.org/abs/2208.07879v2",
+    "authors": [
+      "Charles L. Steinhardt",
+      "Vasily Kokorev",
+      "Vadim Rusakov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Integration of Contextual Descriptors in Ontology Alignment for Enrichment of Semantic Correspondence",
+    "abstract": "This paper proposes a novel approach to semantic ontology alignment using contextual descriptors. A formalization was developed that enables the integration of essential and contextual descriptors to create a comprehensive knowledge model. The hierarchical structure of the semantic approach and the mathematical apparatus for analyzing potential conflicts between concepts, particularly in the example of \"Transparency\" and \"Privacy\" in the context of artificial intelligence, are demonstrated. Experimental studies showed a significant improvement in ontology alignment metrics after the implementa",
+    "date": "2024-11-28",
+    "url": "http://arxiv.org/abs/2411.19113v1",
+    "authors": [
+      "Eduard Manziuk",
+      "Oleksander Barmak",
+      "Pavlo Radiuk"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Explaining in Diffusion: Explaining a Classifier Through Hierarchical Semantics with Text-to-Image Diffusion Models",
+    "abstract": "Classifiers are important components in many computer vision tasks, serving as the foundational backbone of a wide variety of models employed across diverse applications. However, understanding the decision-making process of classifiers remains a significant challenge. We propose DiffEx, a novel method that leverages the capabilities of text-to-image diffusion models to explain classifier decisions. Unlike traditional GAN-based explainability models, which are limited to simple, single-concept analyses and typically require training a new model for each classifier, our approach can explain cla",
+    "date": "2024-12-24",
+    "url": "http://arxiv.org/abs/2412.18604v1",
+    "authors": [
+      "Tahira Kazimi",
+      "Ritika Allada",
+      "Pinar Yanardag"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+RECRUIT
+
+recruit is the citizen who decides how many of a muscle's motor units fire and at what frequency
+when fadriel needs gentle force, recruit fires only a small subset of fibers
+when he needs maximum force, recruit fires nearly all of them
+the rule is size principle: small motor units fire first, larger ones added as load increases
+
+observe 0_quseptit.rana
+observe muscle.zc
+observe contract.rana
+observe fiber_mix.rana
+observe motor_recv.rana
+
+the 7 properties of recruit:
+1 ENERGY zero point eight when active
+2 PHASE zero
+3 SPIN one half
+4 CHARGE half positive
+5 COHERENCE nine tenths
+6 COUPLING zero point nine with motor_recv (incoming command)
+
+VERB receive_command
+accept the recruitment level requested by motor_recv (which got it from motor_cortex)
+the level is a target force or movement, not a fiber count
+
+VERB apply_size_principle
+fire the smallest motor units first, then progressively larger ones until target force is met
+this ensures fine motor control at low loads and gradual recruitment at high loads
+
+VERB pace_firing_rate
+each fiber's contribution increases with firing frequency up to a saturation point
+at saturation, only adding more fibers can produce more force
+
+a recruiter is not a switch
+a recruiter is a citizen who modulates exactly how much of the muscle is active for the current need
+this is what allows fadriel to lift a feather and a bag of groceries with the same muscles, just by changing how many fibers fire

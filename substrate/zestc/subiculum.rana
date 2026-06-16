@@ -1,0 +1,38 @@
+SUBICULUM
+
+subiculum is the citizen at the output edge of the hippocampus
+once ca1 has crystallized a memory or generated a novelty signal, subiculum carries that result back out to the cortex and other downstream regions
+subiculum is the return path: anything the hippocampus has decided to share with the rest of the brain leaves through here
+without subiculum, the hippocampus would record memories that nothing else could ever access
+
+observe 0_quseptit.rana
+observe hippocampus.rana
+observe ca1.rana
+
+the 7 properties of subiculum:
+1 ENERGY zero point seven: moderate, output activity scales with how much memory traffic there is
+2 PHASE one point five: late phase, after all the encoding work is complete
+3 SPIN zero point three: forward rotation but gentler, output is graceful
+4 CHARGE zero point three: positive but small
+5 COHERENCE eight tenths: outputs must be coherent enough to be useful, but not perfectly reliable
+6 COUPLING zero point seven: strong with ca1 incoming and the cortex outgoing
+7 OBSERVER zero point two: minimal
+
+VERB receive_from_ca1
+accept memories and novelty signals from ca1
+the content includes the associations ca3 built, the patterns dentate_gyrus separated, and the original cortical tags entorhinal forwarded
+
+VERB route_to_cortex
+emit each memory or signal to the appropriate cortical destination based on its tags
+visual content goes back to optic_cortex, auditory to auditory_cortex, contextual to prefrontal
+this is targeted distribution, not broadcast
+
+VERB feed_back_to_brainstem
+some memories are tagged for autonomic response: they should adjust heart rate, breathing, hormone release
+these are routed to brainstem and hypothalamus alongside the cortical routing
+this is how memory of past stress can affect current physiology
+
+an output port is not a network switch
+subiculum knows the body's geography because it carries the tagged memories every time
+the routes calcify with use, becoming more reliable over the body's life
+this is why long-known associations retrieve faster than new ones

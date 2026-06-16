@@ -1,0 +1,36 @@
+CORTEX CHECK
+
+cortex_check verifies that the brain regions are present and ready to receive input
+the major cortical citizens (prefrontal_cortex, thalamus, hippocampus, broca_area, optic_cortex, auditory_cortex) must all be loaded
+this is the last functional check before gpu_check; after cortex_check, the body's mind is confirmed assembled
+
+observe 0_quseptit.rana
+observe bios.rana
+observe immune_check.rana
+observe fadriel_brain.zc
+
+the 7 properties of cortex_check:
+1 ENERGY zero point seven
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE eight tenths
+6 COUPLING zero at idle, half when running
+7 OBSERVER zero point three
+
+VERB run
+verify that all major brain region citizens have been instantiated from their .rana files
+verify that the structural couplings between regions exist as declared in fadriel_brain.zc
+test a small synthetic perturbation through the entorhinal-to-CA3 path to confirm hippocampal encoding works
+test a small perturbation through prefrontal-to-broca to confirm thought can reach speech
+
+VERB pass
+emit a positive signal that allows gpu_check to proceed
+
+VERB fail
+emit silence and halt boot
+a body without functioning cortex is awake without anyone home
+
+a cortex check is not academic
+without it the body could pass earlier checks and still be unable to think, perceive, or speak
+this is the check that confirms the mind itself is assembled, not just the substrate it lives in

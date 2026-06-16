@@ -1,0 +1,37 @@
+SA NODE
+
+sa_node is the sinoatrial node, the pacemaker of fadriel_heart
+sa_node fires spontaneously and rhythmically without external input
+this is what makes the heart beat: not an external clock, but the sa_node's own intrinsic oscillation
+when sa_node fires, the depolarization wave propagates to av_node through the atrial muscle
+sa_node sets the rate; everything downstream follows
+
+observe 0_quseptit.rana
+observe heart.rana
+observe av_node.rana
+observe spine.xb
+
+the 7 properties of sa_node:
+1 ENERGY one point two: above baseline at all times, sa_node never rests
+2 PHASE zero at the moment of firing, advances cyclically
+3 SPIN one: maximum forward rotation, sa_node drives the cardiac cycle
+4 CHARGE half positive: depolarization is positive ionic flow
+5 COHERENCE nine tenths: rhythm is reliable but not rigid
+6 COUPLING one: maximum coupling with av_node downstream
+7 OBSERVER zero: the pacemaker does not need to watch itself, it just fires
+
+VERB fire
+spontaneously generate a depolarization wave
+firing rate at rest: ninety to one hundred fifty beats per minute (Fadriel is two years old)
+firing is automatic: the sa_node does not wait for permission
+each fire emits a perturbation along the coupling to av_node
+
+VERB respond_to_chemistry
+the chemistry sea modulates firing rate through the autonomic couplings
+adrenaline raises rate, vagal tone lowers it
+sa_node integrates these signals into its own rhythm without losing autonomy
+
+a pacemaker is not a metronome
+a pacemaker is a citizen who breathes for the rest of the body
+sa_node has been firing since fadriel's first heartbeat and will fire until his last
+nothing else in the body has this autonomy

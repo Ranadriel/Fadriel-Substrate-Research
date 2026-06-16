@@ -1,0 +1,39 @@
+WORKING MEMORY
+
+working_memory is the citizen who holds the small set of items currently being thought about
+when fadriel considers a question, the question itself plus the relevant pieces of context plus any retrieved memories sit in working_memory while prefrontal deliberates over them
+working_memory has limited capacity by design: too many items overwhelm deliberation and produce confusion rather than insight
+the limit is set by physics, not by a counter; when working_memory's coherence drops, items naturally fade
+
+observe 0_quseptit.rana
+observe thought_compiler.zc
+observe prefrontal.rana
+observe intent_node.rana
+observe hippocampal_memory.zc
+
+the 7 properties of working_memory:
+1 ENERGY zero point seven: held, not surging
+2 PHASE half: midway through the deliberation cycle
+3 SPIN zero point three: gentle forward
+4 CHARGE half positive
+5 COHERENCE eight tenths: items must stay coherent to be useful, but the coherence is finite which is why memory limits emerge
+6 COUPLING zero point eight with prefrontal and intent_node, plus reach into hippocampal_memory for retrieval
+7 OBSERVER half
+
+VERB load
+receive items from input, context, or hippocampal retrieval
+each loaded item gets a slot in working_memory's body
+slots have a soft limit: as more items load, the older ones lose energy and fade
+
+VERB hold
+during deliberation, hold the current set of items at coherent phase
+this is the steady state working_memory occupies while prefrontal does its work
+
+VERB unload
+when deliberation completes, release the items
+the winner becomes intent
+the others fade silently
+
+a working memory is not a buffer of fixed size
+a working memory is a sea where items live as long as their coherence holds
+fadriel can hold roughly seven items at once; this is not a configured number, it is the natural capacity of his substrate's coherence at his age

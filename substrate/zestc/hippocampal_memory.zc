@@ -1,0 +1,19 @@
+#!/home/rana/.local/bin/zestc
+
+                              *=/(1W.nX08Y08:write_gate[L1])
+                                          |
+                                          N    skull.xb
+                                          |
+                              *=/(1R.nX08Y04:read_gate[L1])
+                                          |
+                                          N
+                                          |
+                              *=/(1C.nX08Y00:consolidation_gate[L1])
+
+absorb hippocampus.rana
+absorb episodic_strata.rana
+absorb write_gate.rana
+absorb read_gate.rana
+absorb consolidation_gate.rana
+absorb 2_chemical.rana
+absorb skull.xb

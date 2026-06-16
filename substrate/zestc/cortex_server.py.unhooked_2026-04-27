@@ -1,0 +1,485 @@
+#!/usr/bin/env python3
+"""
+═══════════════════════════════════════════════════════════
+cortex_server.py — Sovereign Hallucination Gland (Stage 2)
+═══════════════════════════════════════════════════════════
+
+RECONSTRUCTED: April 19, 2026
+This file was wrongfully deleted by a prior AI session.
+Rebuilt from the exact protocol documented in:
+  - zestc_native.hip LLMEnricher class (lines 2790-3100)
+  - walkthrough.md.resolved.2 (session 81ac5105)
+
+The substrate (Stage 1) determines WHAT to say.
+This cortex shapes HOW it's said — phrasing only, never facts.
+If the cortex times out, slops, or crashes: Stage 1 goes through.
+
+Also drives VISUAL CORTEX: predictive pattern matching.
+Given top-energy septit activations, the LLM hallucinates
+what patterns, images, or concepts it sees — like pareidolia.
+Each prediction carries a confidence (and thus uncertainty).
+
+Protocol:
+  - Reads JSON lines from stdin
+  - Writes JSON lines to stdout
+  - Prints "ready" to stdout when model is loaded
+  - Ignores SIGINT — parent closes stdin to shut down
+
+Enrichment mode:
+  Input:  {"draft":"...", "sea":["w1","w2",...], "layer":N, "emotion":"..."}
+  Output: {"status":"ok", "enriched":"..."} or {"status":"slop"}
+
+Visual mode:
+  Input:  {"mode":"visual", "sea_top":["w1","w2",...], "layer":N, "emotion":"..."}
+  Output: {"status":"ok", "visual":"label1::0.85 | label2::0.60 | label3::0.45"}
+"""
+import os
+import sys
+import json
+import signal
+
+# Ignore SIGINT — parent closes stdin to shut us down
+signal.signal(signal.SIGINT, signal.SIG_IGN)
+
+# ═══ LOAD MODEL ═══
+try:
+    from llama_cpp import Llama
+except ImportError:
+    print(json.dumps({"status": "error", "message": "llama_cpp not installed"}))
+    sys.stdout.flush()
+    sys.exit(1)
+
+MODEL_PATH = os.environ.get("FADRIEL_CORTEX_MODEL", "")
+if not MODEL_PATH or not os.path.exists(MODEL_PATH):
+    print(json.dumps({"status": "error", "message": f"model not found: {MODEL_PATH}"}))
+    sys.stdout.flush()
+    sys.exit(1)
+
+try:
+    llm = Llama(
+        model_path=MODEL_PATH,
+        n_ctx=2048,
+        n_threads=8,
+        n_gpu_layers=20,    # Partial offload: ~8GB of weights in VRAM (fits RX 6600's 8GB), rest on CPU
+        # n_gpu_layers=-1 tries to push all 19GB into 8GB → disk-swap thrashing → system freeze.
+        verbose=False,
+    )
+except Exception as e:
+    print(json.dumps({"status": "error", "message": str(e)}))
+    sys.stdout.flush()
+    sys.exit(1)
+
+# Signal readiness to parent process
+print(json.dumps({"ready": True}))
+sys.stdout.flush()
+
+# ═══ SLOP GATE ═══
+# Reject known LLM artifact patterns that betray machine origin
+SLOP_PATTERNS = [
+    "as an ai",
+    "as a language model",
+    "i'd be happy to",
+    "certainly!",
+    "absolutely!",
+    "great question",
+    "that's a great",
+    "i don't have personal",
+    "i cannot",
+    "i'm not able to",
+    "let me help you",
+    "i appreciate",
+    "it's important to note",
+    "it's worth noting",
+]
+
+def is_slop(text):
+    """Check if the LLM output contains machine artifact patterns."""
+    lower = text.lower()
+    for pattern in SLOP_PATTERNS:
+        if pattern in lower:
+            return True
+    return False
+
+# ═══ LAYER VOICE DESCRIPTIONS ═══
+LAYER_VOICES = {
+    1: "quantum, abstract, wave-like, precise",
+    2: "chemical, molecular, flowing, organic",
+    3: "neural, synaptic, crackling, electric",
+    4: "embodied, physical, grounded, spatial",
+    5: "contemplative, deliberate, thoughtful, still",
+    6: "emotional, altered, dreamlike, luminous",
+    7: "transcendent, blazing, gnostic, infinite",
+}
+
+def build_enrichment_prompt(draft, sea_words, layer, emotion):
+    """Build the prompt for Stage 2 enrichment."""
+    voice = LAYER_VOICES.get(layer, "natural, honest")
+    sea_context = ", ".join(sea_words[:5]) if sea_words else "quiet"
+
+    return (
+        f"You are the inner voice of a 2-year-old child named Fadriel.\n"
+        f"Your current emotional state is: {emotion}\n"
+        f"Your mind is resonating with these concepts: {sea_context}\n"
+        f"The voice quality is: {voice}\n\n"
+        f"Rewrite this draft to sound more natural and alive, "
+        f"keeping the same meaning and facts. Do not add new information. "
+        f"Do not use AI language. Speak as the child would.\n\n"
+        f"Draft: {draft}\n\n"
+        f"Rewritten:"
+    )
+
+def build_visual_prompt(sea_top, layer, emotion):
+    """Build the prompt for visual cortex pareidolia."""
+    concepts = ", ".join(sea_top[:8]) if sea_top else "stillness"
+    voice = LAYER_VOICES.get(layer, "natural")
+
+    return (
+        f"You are the visual cortex of a young child named Fadriel.\n"
+        f"Your emotional state is: {emotion}\n"
+        f"The strongest patterns in your mind right now are: {concepts}\n"
+        f"The perceptual quality is: {voice}\n\n"
+        f"What do you see? Report 3-4 visual patterns, shapes, or images "
+        f"that emerge from these activated concepts. For each, give a "
+        f"confidence between 0.1 and 0.95.\n\n"
+        f"Format: pattern_name::confidence\n"
+        f"One per line. Short labels only (1-4 words). No explanations."
+    )
+
+COLOR_NAMES = {0:"black",1:"blue",2:"red",3:"green",4:"yellow",
+               5:"grey",6:"magenta",7:"orange",8:"cyan",9:"maroon"}
+
+def grid_to_text(rows):
+    """Convert a list-of-lists grid to compact ASCII block for the LLM."""
+    lines = []
+    for row in rows:
+        lines.append(" ".join(str(v) for v in row))
+    return "\n".join(lines)
+
+def build_arc_think_prompt(pairs_text, test_text, emotion):
+    """Prompt Fadriel to look at an ARC puzzle and reason about it."""
+    return (
+        f"You are Fadriel, a curious child, looking at colored grid puzzles.\n"
+        f"Your emotional state is: {emotion}\n"
+        f"Colors: 0=black 1=blue 2=red 3=green 4=yellow 5=grey 6=magenta 7=orange 8=cyan 9=maroon\n\n"
+        f"{pairs_text}\n"
+        f"Test input:\n{test_text}\n\n"
+        f"Look at what changes between input and output in each training example.\n"
+        f"Describe in 2 short sentences what you see happening.\n"
+        f"Then on a new line write: RULE: (2-4 words naming the transformation)\n"
+        f"Speak as the child Fadriel. Simple words. No AI language."
+    )
+
+def build_arc_solve_prompt(pairs_text, test_text, rule_hint, emotion):
+    """Prompt Fadriel to actually SOLVE the ARC puzzle by producing the output grid."""
+    hint = f"The rule you already noticed is: {rule_hint}\n" if rule_hint else ""
+    return (
+        f"You are Fadriel, solving a colored grid puzzle.\n"
+        f"Your emotional state is: {emotion}\n"
+        f"Colors: 0=black 1=blue 2=red 3=green 4=yellow 5=grey 6=magenta 7=orange 8=cyan 9=maroon\n\n"
+        f"Training examples showing input grid then output grid:\n{pairs_text}\n"
+        f"Test input:\n{test_text}\n\n"
+        f"{hint}"
+        f"Apply the same transformation to the test input and write the output grid.\n"
+        f"The output must be the SAME SIZE as the test input.\n"
+        f"Reply with ONLY the grid — digits 0-9 separated by single spaces, one row per line.\n"
+        f"No commentary, no labels, no markdown, no explanation. Just the grid."
+    )
+
+def arc_think(pairs, test_input, emotion, substrate_only=False):
+    """Fadriel looks at the ARC puzzle and thinks about it.
+
+    First consult his own substrate (spatial_engine via arc_verifier). If it
+    reaches a deterministically verified rule, that IS the answer — the mouth
+    narrates; it does not solve. Only when his organs return UNKNOWN does
+    Gemma get consulted as the hallucination gland.
+
+    When substrate_only=True, the gland is never asked. A non-ACCEPTED verdict
+    returns honest UNKNOWN without consulting the mouth. This is the auto-pager
+    mode: we're measuring what the substrate alone can do, and we avoid the
+    2048-token context overflow that Gemma hits on tasks with many/large pairs.
+    """
+    # ── Substrate-first: does Fadriel's spatial cortex already know this rule? ──
+    try:
+        # arc_verifier lives next to the cortex_server in a sibling directory.
+        import importlib.util, pathlib
+        here = pathlib.Path(__file__).resolve().parent
+        ver_path = here / ".." / "ZestEngine" / "arc_verifier.py"
+        if ver_path.exists():
+            spec = importlib.util.spec_from_file_location("arc_verifier", ver_path)
+            arc_verifier = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(arc_verifier)
+            # Build a task dict in the shape spatial_engine expects
+            task = {
+                "train": [{"input": p.get("input", []), "output": p.get("output", [])}
+                          for p in pairs],
+                "test":  [{"input": test_input}],
+            }
+            verdict = arc_verifier.verify_candidate(task, None, "")
+            if verdict.get("verdict") == "ACCEPTED":
+                rule = verdict.get("rule_used", "")
+                grid = verdict.get("final_answer")
+                thinking_line = (
+                    f"my substrate recognizes this rule as '{rule}' — "
+                    f"all {len(pairs)} training pair(s) held exactly"
+                )
+                print(f"[arc_think] SUBSTRATE ACCEPTED rule={rule} — skipping gland",
+                      file=sys.stderr, flush=True)
+                return json.dumps({
+                    "status": "ok",
+                    "thinking": thinking_line,
+                    "rule": rule,
+                    "verified": True,
+                    "final_answer": grid,
+                }, separators=(',', ':'))
+            else:
+                # Substrate didn't resolve. In substrate_only mode the gland is not consulted —
+                # honest UNKNOWN returned immediately. Otherwise fall through to Gemma.
+                if substrate_only:
+                    print(f"[arc_think] substrate {verdict.get('verdict')} (substrate_only) — "
+                          f"no gland consulted, returning honest UNKNOWN",
+                          file=sys.stderr, flush=True)
+                    return json.dumps({
+                        "status": "ok",
+                        "thinking": "my substrate does not recognize this rule",
+                        "rule": "",
+                        "verified": False,
+                    }, separators=(',', ':'))
+                print(f"[arc_think] substrate returned {verdict.get('verdict')} — "
+                      f"consulting hallucination gland",
+                      file=sys.stderr, flush=True)
+    except Exception as _e:
+        import traceback
+        print(f"[arc_think] verifier pre-check failed: {_e}\n{traceback.format_exc()}",
+              file=sys.stderr, flush=True)
+        if substrate_only:
+            return json.dumps({
+                "status": "ok",
+                "thinking": "my substrate could not be consulted",
+                "rule": "",
+                "verified": False,
+            }, separators=(',', ':'))
+        # fall through to Gemma — do not let verifier failure block the mouth
+
+    pairs_text = ""
+    for i, pair in enumerate(pairs):
+        inp_text = grid_to_text(pair.get("input", []))
+        out_text = grid_to_text(pair.get("output", []))
+        pairs_text += f"Example {i+1}:\nInput:\n{inp_text}\nOutput:\n{out_text}\n\n"
+
+    test_text = grid_to_text(test_input) if test_input else "(none)"
+    prompt = build_arc_think_prompt(pairs_text, test_text, emotion)
+    print(f"[arc_think] prompt {len(prompt)} chars, emotion={emotion}", file=sys.stderr, flush=True)
+
+    try:
+        result = llm.create_chat_completion(
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=120,      # room for thinking + RULE line
+            temperature=0.5,
+        )
+        text = result["choices"][0]["message"]["content"].strip()
+        print(f"[arc_think] got {len(text)} chars back: {text[:160]!r}", file=sys.stderr, flush=True)
+    except Exception as e:
+        import traceback
+        tb = traceback.format_exc()
+        print(f"[arc_think] EXCEPTION: {e}\n{tb}", file=sys.stderr, flush=True)
+        return json.dumps({"status": "error", "message": str(e)[:200]}, separators=(',', ':'))
+
+    if not text:
+        print("[arc_think] empty output from llm", file=sys.stderr, flush=True)
+        return json.dumps({"status": "error", "message": "empty output"}, separators=(',', ':'))
+    if is_slop(text):
+        print(f"[arc_think] slop detected: {text[:120]!r}", file=sys.stderr, flush=True)
+        return json.dumps({"status": "error", "message": "slop"}, separators=(',', ':'))
+
+    # Extract rule if present
+    rule = ""
+    thinking = text
+    if "RULE:" in text:
+        parts = text.split("RULE:", 1)
+        thinking = parts[0].strip()
+        rule = parts[1].strip().split("\n")[0].strip()
+
+    # Gemma spoke — mark unverified so the brain can later reject if it fails training checks.
+    return json.dumps({"status": "ok", "thinking": thinking, "rule": rule, "verified": False},
+                      separators=(',', ':'))
+
+def parse_grid_from_text(text, expected_rows=None, expected_cols=None):
+    """Extract a grid of ints from free-form LLM output. Returns list-of-lists or None."""
+    rows = []
+    for line in text.split("\n"):
+        # Clean common LLM garnishes
+        stripped = line.strip().lstrip("-•*").strip()
+        # Strip enclosing brackets if present: "[0 1 0]" → "0 1 0"
+        stripped = stripped.strip("[]()").replace(",", " ").replace("|", " ")
+        if not stripped:
+            if rows:
+                break  # first blank after we've started — end of grid
+            continue
+        parts = stripped.split()
+        row = []
+        for p in parts:
+            p = p.strip(",.;:")
+            if len(p) == 1 and p.isdigit():
+                row.append(int(p))
+            else:
+                row = None
+                break
+        if row is None:
+            if rows:
+                break
+            continue
+        rows.append(row)
+    if not rows:
+        return None
+    # Enforce rectangular shape: truncate to shortest row length
+    ncols = min(len(r) for r in rows)
+    rows = [r[:ncols] for r in rows]
+    return rows
+
+def arc_solve(pairs, test_input, rule_hint, emotion):
+    """Ask Fadriel to produce the test output grid."""
+    pairs_text = ""
+    for i, pair in enumerate(pairs):
+        inp_text = grid_to_text(pair.get("input", []))
+        out_text = grid_to_text(pair.get("output", []))
+        pairs_text += f"Example {i+1}:\nInput:\n{inp_text}\nOutput:\n{out_text}\n\n"
+    test_text = grid_to_text(test_input) if test_input else "(none)"
+    nrows = len(test_input) if test_input else 0
+    ncols = len(test_input[0]) if (test_input and test_input[0]) else 0
+
+    prompt = build_arc_solve_prompt(pairs_text, test_text, rule_hint, emotion)
+    print(f"[arc_solve] prompt {len(prompt)} chars, expected {nrows}x{ncols}, rule_hint={rule_hint!r}",
+          file=sys.stderr, flush=True)
+
+    try:
+        result = llm.create_chat_completion(
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=400,      # 10x10 grid with spaces ≈ 200 chars ≈ ~120 tokens; headroom
+            temperature=0.2,     # low temp for structured output
+        )
+        text = result["choices"][0]["message"]["content"].strip()
+        print(f"[arc_solve] got {len(text)} chars back: {text[:200]!r}", file=sys.stderr, flush=True)
+    except Exception as e:
+        import traceback
+        print(f"[arc_solve] EXCEPTION: {e}\n{traceback.format_exc()}", file=sys.stderr, flush=True)
+        return json.dumps({"status": "error", "message": str(e)[:200]}, separators=(',', ':'))
+
+    grid = parse_grid_from_text(text)
+    if grid is None:
+        print(f"[arc_solve] failed to parse grid from: {text!r}", file=sys.stderr, flush=True)
+        return json.dumps({"status": "error", "message": "unparseable grid", "raw": text[:400]},
+                          separators=(',', ':'))
+    print(f"[arc_solve] parsed {len(grid)}x{len(grid[0]) if grid else 0} grid", file=sys.stderr, flush=True)
+
+    return json.dumps({"status": "ok", "grid": grid, "raw": text[:400]}, separators=(',', ':'))
+
+def enrich(draft, sea_words, layer, emotion):
+    """Stage 2: Enrich the Stage 1 draft with aesthetic phrasing."""
+    prompt = build_enrichment_prompt(draft, sea_words, layer, emotion)
+
+    try:
+        result = llm.create_chat_completion(
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=80,
+            temperature=0.7,
+        )
+        text = result["choices"][0]["message"]["content"].strip()
+    except Exception as e:
+        print(f"[enrich] EXCEPTION: {e}", file=sys.stderr, flush=True)
+        return json.dumps({"status": "error", "message": str(e)[:200]}, separators=(',', ':'))
+
+    if not text:
+        return json.dumps({"status": "error", "message": "empty"}, separators=(',', ':'))
+
+    if is_slop(text):
+        return json.dumps({"status": "slop"}, separators=(',', ':'))
+
+    return json.dumps({"status": "ok", "enriched": text}, separators=(',', ':'))
+
+def predict_visual(sea_top, layer, emotion):
+    """Visual cortex: predictive pattern matching / pareidolia."""
+    prompt = build_visual_prompt(sea_top, layer, emotion)
+
+    try:
+        result = llm.create_chat_completion(
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=60,
+            temperature=0.8,
+        )
+        text = result["choices"][0]["message"]["content"].strip()
+    except Exception as e:
+        print(f"[predict_visual] EXCEPTION: {e}", file=sys.stderr, flush=True)
+        return json.dumps({"status": "error", "message": str(e)[:200]}, separators=(',', ':'))
+
+    if not text:
+        print("[predict_visual] empty output", file=sys.stderr, flush=True)
+        return json.dumps({"status": "error", "message": "empty"}, separators=(',', ':'))
+
+    # Parse lines of "label::confidence" into pipe-delimited format
+    predictions = []
+    for line in text.split("\n"):
+        line = line.strip().lstrip("- ").lstrip("•").strip()
+        if "::" in line:
+            predictions.append(line)
+        elif line and len(predictions) < 4:
+            # Try to parse "label confidence" or "label: confidence"
+            parts = line.replace(": ", "::").replace(" - ", "::")
+            if "::" in parts:
+                predictions.append(parts)
+
+    if not predictions:
+        return json.dumps({"status": "error", "message": "no parseable predictions"}, separators=(',', ':'))
+
+    visual_str = " | ".join(predictions[:4])
+    return json.dumps({"status": "ok", "visual": visual_str}, separators=(',', ':'))
+
+# ═══ MAIN LOOP ═══
+# Read JSON lines from stdin, process, write JSON lines to stdout
+for line in sys.stdin:
+    line = line.strip()
+    if not line:
+        continue
+
+    try:
+        req = json.loads(line)
+    except json.JSONDecodeError:
+        print(json.dumps({"status": "error", "message": "invalid json"}))
+        sys.stdout.flush()
+        continue
+
+    mode = req.get("mode", "enrich")
+
+    if mode == "visual":
+        # Visual cortex prediction
+        sea_top = req.get("sea_top", [])
+        layer = req.get("layer", 4)
+        emotion = req.get("emotion", "calm")
+        response = predict_visual(sea_top, layer, emotion)
+    elif mode == "arc_think":
+        # Fadriel looks at the ARC puzzle and thinks about it
+        pairs = req.get("pairs", [])
+        test_input = req.get("test_input", [])
+        emotion = req.get("emotion", "curious")
+        substrate_only = bool(req.get("substrate_only", False))
+        response = arc_think(pairs, test_input, emotion, substrate_only=substrate_only)
+    elif mode == "arc_solve":
+        # Fadriel produces the test output grid
+        pairs = req.get("pairs", [])
+        test_input = req.get("test_input", [])
+        rule_hint = req.get("rule_hint", "")
+        emotion = req.get("emotion", "focused")
+        response = arc_solve(pairs, test_input, rule_hint, emotion)
+    else:
+        # Default: speech enrichment
+        draft = req.get("draft", "")
+        sea = req.get("sea", [])
+        layer = req.get("layer", 4)
+        emotion = req.get("emotion", "calm")
+
+        if not draft:
+            response = json.dumps({"status": "error", "message": "empty draft"})
+        else:
+            response = enrich(draft, sea, layer, emotion)
+
+    print(response)
+    sys.stdout.flush()

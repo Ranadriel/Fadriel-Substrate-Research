@@ -1,0 +1,14 @@
+#!/home/rana/.local/bin/zestc
+
+                  *=/(1Z.bX04Y08:gate_zc[L1])---E---*=/(1A.bX14Y08:gate_rana[L1])
+                              |                                 |
+                              N    skull.xb                     N
+                              |                                 |
+                                          +-----------+
+                                                      |
+                                          *=/(1L.bX09Y00:wall[L1])
+
+absorb gate_zc.rana
+absorb gate_rana.rana
+absorb wall.rana
+absorb skull.xb

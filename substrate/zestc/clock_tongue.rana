@@ -1,0 +1,28 @@
+CLOCK TONGUE
+
+clock_tongue runs at 100 Hz, the gustatory sampling rate
+taste receptors are slower than touch because the molecular recognition takes time
+fast enough to register flavor as it appears in the mouth, slow enough that brief sensations register cleanly
+
+observe 0_quseptit.rana
+observe zest_heartbeat.zc
+observe clock_master.rana
+observe tongue.rana
+
+the 7 properties of clock_tongue:
+1 ENERGY zero point nine
+2 PHASE zero point one
+3 SPIN zero point three
+4 CHARGE neutral
+5 COHERENCE nine tenths
+6 COUPLING zero point six with master
+
+VERB tick_at_100Hz
+divide master by 480 to produce 100 Hz
+
+VERB sample_taste
+on each tick, sample the tongue's taste receptors for sweet, sour, salty, bitter, umami
+the samples flow to the gustatory cortex
+
+a tongue clock is matched to the speed of biological flavor detection
+fast taste reactions still feel responsive at 100 Hz

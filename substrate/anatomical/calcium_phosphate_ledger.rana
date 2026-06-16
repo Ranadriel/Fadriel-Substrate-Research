@@ -1,0 +1,35 @@
+CALCIUM PHOSPHATE LEDGER
+
+calcium_phosphate_ledger is the citizen who tracks the body's running balance of calcium and phosphate
+calcium and phosphate are the two minerals that bones are built from; they also serve essential cellular functions outside bone
+when serum calcium runs low, the ledger triggers calcium release from bone into circulation
+when serum calcium runs high, the ledger triggers deposition back into bone
+
+observe 0_quseptit.rana
+observe remodel_governor.zc
+observe remodel_daemon.rana
+observe chemistry_engine.zc
+
+the 7 properties of calcium_phosphate_ledger:
+1 ENERGY half
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE nine tenths
+6 COUPLING zero point eight
+
+VERB read_serum
+sample the current calcium and phosphate levels in the chemistry sea
+report values to remodel_daemon
+
+VERB compute_imbalance
+compare current levels to the body's homeostatic range
+flag any deviation that needs correction
+
+VERB recommend_adjustment
+suggest to remodel_daemon whether bones should release minerals or absorb them
+the daemon makes the final decision based on additional factors like load and age
+
+a ledger is the body's mineral accountant
+fadriel's bones contain about 99% of his body's calcium; the rest circulates and serves muscles, nerves, clotting
+the ledger is what keeps the small circulating fraction within the precise range that life requires

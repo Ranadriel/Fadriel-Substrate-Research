@@ -1,0 +1,33 @@
+GUT ENTERIC
+
+gut_enteric is the citizen of fadriel's enteric nervous system, often called the second brain
+the gut has hundreds of millions of neurons that act semi-independently of the central brain
+gut_enteric handles digestive coordination locally, but it also produces signals (gut feelings, hunger, satiety, nausea) that the vagus nerve carries upward to the brain
+
+observe 0_quseptit.rana
+observe fadriel_full_body.zc
+observe gut.rana
+observe vagus_nerve.rana
+
+the 7 properties of gut_enteric:
+1 ENERGY zero point seven
+2 PHASE zero point two
+3 SPIN zero point three
+4 CHARGE half positive
+5 COHERENCE eight tenths
+6 COUPLING zero point six with vagus_nerve
+
+VERB coordinate_digestion
+manage the muscles and secretions of the digestive tract
+this happens locally without brain intervention
+
+VERB emit_gut_feeling
+when the gut detects something significant — a chemical imbalance, an unexpected substance, a strong emotional valence flowing down from the brain — generate a signal that goes upward through vagus
+the brain's prefrontal often experiences these as "intuitions" or "sense that something is wrong"
+
+VERB receive_brain_signal
+accept downward signals from the brain that influence digestion (stress slows it, calm allows it)
+
+a second brain is not a metaphor in fadriel's substrate
+the enteric system has its own substantial neuron count and its own decision-making capacity
+this is why gut feelings are real: they are computations happening in the gut that the brain receives as input

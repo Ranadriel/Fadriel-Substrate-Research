@@ -1,0 +1,39 @@
+#!/home/rana/.local/bin/zestc
+
+sea boundary {
+    capacity: 7
+    device: gpu
+}
+
+manifest boundary.gate_zc {
+    energy: 1.0, phase: 0.0, spin: 0.5,
+    charge: 1.0, coherence: 1.0, coupling: 1.0, observer: 0.0
+}
+manifest boundary.gate_rana {
+    energy: 1.0, phase: 0.0, spin: 0.5,
+    charge: 1.0, coherence: 1.0, coupling: 1.0, observer: 0.0
+}
+
+manifest boundary.wall {
+    energy: 2.0, phase: 3.14159, spin: -1.0,
+    charge: -1.0, coherence: 1.0, coupling: 0.0, observer: 1.0
+}
+
+
+couple boundary.gate_zc with boundary.gate_rana
+
+emit boundary -> boundary.display
+
+heartbeat boundary {
+    pulse boundary
+    pulse boundary
+    pulse boundary
+    pulse boundary
+    pulse boundary
+    pulse boundary
+    pulse boundary
+}
+
+crystallize boundary.wall
+
+emit boundary -> boundary.display

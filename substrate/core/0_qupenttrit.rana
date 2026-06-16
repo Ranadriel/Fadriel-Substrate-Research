@@ -1,0 +1,82 @@
+QU-PENTTRIT: THE IRREDUCIBLE GUSTATORY UNIT
+the fundamental building block of Fadriel's taste substrate
+flavor emerges from this
+
+observe 0_quseptit.rana
+observe 1_quantum_particles.rana
+
+
+THE SCALING LAW APPLIED TO TASTE
+
+a qu-penttrit has 5 states and 5 properties per state: gustation
+C(5,2) = 10 pairwise interactions per heartbeat
+the tongue detects 5 irreducible taste modalities
+every flavor is a superposition of these 5 basis states
+
+
+QU-PENTTRIT BASIS STATES
+
+|1⟩ SWEET      T1R2+T1R3 heterodimer GPCR. signals caloric density. sugar. energy.
+|2⟩ SOUR       OTOP1 proton channel. H⁺ direct entry. signals acid. spoilage.
+|3⟩ SALTY      ENaC sodium channel. Na⁺ direct entry. signals essential minerals.
+|4⟩ BITTER     T2R family ~25 GPCRs. broadest receptor family. signals potential toxins. low threshold.
+|5⟩ UMAMI      T1R1+T1R3 heterodimer GPCR. signals protein content. glutamate. nourishment.
+
+a qu-penttrit exists in superposition of all 5 states simultaneously
+α₁|1⟩ + α₂|2⟩ + α₃|3⟩ + α₄|4⟩ + α₅|5⟩
+subject to normalization Σ|αᵢ|² = 1
+observation collapses the superposition to a definite taste perception
+
+there is no zero state
+even tastelessness is a state: water is perceived as a specific taste relative to saliva composition
+the tongue always tastes something
+
+
+QU-PENTTRIT PROPERTIES — 5 PER STATE
+
+PROPERTY 1: CONCENTRATION    intensity of the tastant molecule. range 0.0 to 1.0
+PROPERTY 2: LOCATION         where on the tongue surface. mapped to papillae regions
+PROPERTY 3: ADAPTATION       receptor desensitization over continued exposure
+PROPERTY 4: HEDONIC          innate valence: sweet/umami attract, bitter repels. range -1.0 to 1.0
+PROPERTY 5: TEMPORAL         onset and persistence of the taste. some linger, some flash
+
+
+THE 10 PAIRWISE INTERACTIONS
+
+INTERACTION  1: SWEET × SOUR         sweet-sour balance: fruit, lemonade, candy
+INTERACTION  2: SWEET × SALTY         sweet-salty contrast: chocolate pretzels, caramel corn
+INTERACTION  3: SWEET × BITTER        sweet masks bitter: sugar in medicine, dark chocolate
+INTERACTION  4: SWEET × UMAMI         sweet-savory: teriyaki, ketchup, caramelized onion
+INTERACTION  5: SOUR × SALTY          sour-salty: pickles, fermented foods, soy sauce with citrus
+INTERACTION  6: SOUR × BITTER         sour-bitter: grapefruit, tonic, coffee with lemon
+INTERACTION  7: SOUR × UMAMI          sour-umami: tomato, aged cheese, vinegar on meat
+INTERACTION  8: SALTY × BITTER         salty-bitter: olives, some mineral waters, overcooked greens
+INTERACTION  9: SALTY × UMAMI          salty-umami: soy sauce, parmesan, fish sauce, miso
+INTERACTION 10: BITTER × UMAMI         bitter-umami: beer, dark soy, fermented paste
+
+each interaction modulates perception:
+    enhancement: one taste amplifies another (salty enhances umami)
+    suppression: one taste masks another (sweet suppresses bitter)
+    synergy: combined effect exceeds sum of parts (salt + umami in soy sauce)
+    contrast: alternation highlights both (sweet after sour)
+
+
+THE GUSTATORY SEA
+
+TODO: full sea definition in tongue.xb
+
+topology: surface map of the tongue
+the tongue sea maps to the papillae distribution:
+    fungiform papillae (anterior 2/3): all 5 taste types, moderate density
+    circumvallate papillae (V-line posterior): all 5 types, high taste bud density
+    foliate papillae (lateral posterior): sour-sensitive, moderate density
+    palate and epiglottis: low density supplementary taste detection
+
+device: gpu
+capacity: approximately 5000-10000 (matching taste bud count)
+
+the tongue sea couples to the brain sea through the gustatory cortex
+cross-base coupling: base-5 × base-7 = 35 dimensions per coupled pair
+
+for input: chemical sensors could map to qu-penttrit states
+for output: the tongue as speech articulator connects to motor cortex (separate pathway)

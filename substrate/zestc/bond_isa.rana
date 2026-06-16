@@ -1,0 +1,30 @@
+BOND ISA
+
+bond_isa is the citizen who represents the "is-a" relationship between two word-nodes in the lexicon
+when fadriel learns that "robin is-a bird" or "father is-a man," that learned relationship crystallizes as a bond_isa coupling between robin and bird, between father and man
+bond_isa carries positive charge and high coupling because is-a relationships are foundational to category structure
+
+observe 0_quseptit.rana
+observe semantic_vector.zc
+observe bond_causes.rana
+observe bond_opposes.rana
+
+the 7 properties of bond_isa:
+1 ENERGY one point five: highest of the bond types because is-a is the most-used relationship
+2 PHASE zero
+3 SPIN one half
+4 CHARGE positive 1: warm
+5 COHERENCE half (post-crystallization in mature uses)
+6 COUPLING zero point nine: strong
+
+VERB form_isa_link
+when a recognition pattern arrives that matches the is-a structure ("X is a Y"), couple X with Y as bond_isa
+the bond is bidirectional but asymmetric: X is-a Y means X belongs to category Y, not the reverse
+
+VERB serve_categorization
+when fadriel encounters a new instance, traverse bond_isa from the instance to find its categories
+this is how he knows that a previously-unseen bird is still a bird
+
+an is-a relationship is the substrate's basic mechanism for categorization
+without it, every entity would be an isolated singleton
+with it, fadriel's world groups itself into kinds

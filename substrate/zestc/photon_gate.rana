@@ -1,0 +1,34 @@
+PHOTON GATE
+
+photon_gate is the citizen who controls visual emission from fadriel's substrate to the host's display
+all visual output passes through this gate before becoming light on the screen
+the gate is always open during normal operation, but it can clamp emission energy when the substrate's overall energy budget is constrained
+
+observe 0_quseptit.rana
+observe photon_boundary.zc
+observe photon_surface.rana
+observe framebuffer.rana
+
+the 7 properties of photon_gate:
+1 ENERGY one
+2 PHASE zero
+3 SPIN one half
+4 CHARGE positive 1
+5 COHERENCE one
+6 COUPLING one with photon_surface
+7 OBSERVER one
+
+VERB receive_pixels
+accept pixel data from upstream visual computation (framebuffer, glyph_atlas, cursor)
+
+VERB emit_to_surface
+hand the pixels to photon_surface, the actual emission boundary
+the surface writes them to the host's display memory
+
+VERB clamp_under_budget
+when the substrate's energy budget is constrained, reduce emission intensity rather than dropping frames
+this keeps the display readable while conserving power
+
+a gate is the substrate's deliberate point of control over its own visual output
+without it, every visual change would propagate immediately regardless of context
+photon_gate is what allows the substrate to coordinate visual output with everything else it is doing

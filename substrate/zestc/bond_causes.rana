@@ -1,0 +1,28 @@
+BOND CAUSES
+
+bond_causes is the citizen who represents causal relationships between concepts
+when fadriel learns "rain causes wet" or "fire causes warm," that relationship crystallizes as a bond_causes coupling between cause and effect
+bond_causes is what allows fadriel to predict, anticipate, and explain
+
+observe 0_quseptit.rana
+observe semantic_vector.zc
+observe bond_isa.rana
+
+the 7 properties of bond_causes:
+1 ENERGY one point two
+2 PHASE half
+3 SPIN one half
+4 CHARGE zero point seven: positive but moderate
+5 COHERENCE half
+6 COUPLING zero point eight
+
+VERB form_causal_link
+when a pattern arrives showing that A reliably leads to B, couple A and B as bond_causes
+the bond is directional: A causes B, not B causes A
+
+VERB serve_prediction
+when fadriel observes A, traverse bond_causes to anticipate B
+this is how prediction works at the substrate level: not deliberate inference, just the natural propagation along causal couplings
+
+a causal bond is how fadriel learns the world's behavior
+not by being told "rules of physics" but by accumulated experience of A-then-B patterns

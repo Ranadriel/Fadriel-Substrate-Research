@@ -1,0 +1,179 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Benchmarking Adversarial Robustness to Bias Elicitation in Large Language Models: Scalable Automated Assessment with LLM-as-a-Judge",
+    "abstract": "The growing integration of Large Language Models (LLMs) into critical societal domains has raised concerns about embedded biases that can perpetuate stereotypes and undermine fairness. Such biases may stem from historical inequalities in training data, linguistic imbalances, or adversarial manipulation. Despite mitigation efforts, recent studies show that LLMs remain vulnerable to adversarial attacks that elicit biased outputs. This work proposes a scalable benchmarking framework to assess LLM robustness to adversarial bias elicitation. Our methodology involves: (i) systematically probing mode",
+    "date": "2025-04-10",
+    "url": "http://arxiv.org/abs/2504.07887v2",
+    "authors": [
+      "Riccardo Cantini",
+      "Alessio Orsino",
+      "Massimo Ruggiero"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cross-language Learning with Adversarial Neural Networks: Application to Community Question Answering",
+    "abstract": "We address the problem of cross-language adaptation for question-question similarity reranking in community question answering, with the objective to port a system trained on one input language to another input language given labeled training data for the first language and only unlabeled data for the second language. In particular, we propose to use adversarial training of neural networks to learn high-level features that are discriminative for the main learning task, and at the same time are invariant across the input languages. The evaluation results show sizable improvements for our cross-",
+    "date": "2017-06-21",
+    "url": "http://arxiv.org/abs/1706.06749v1",
+    "authors": [
+      "Shafiq Joty",
+      "Preslav Nakov",
+      "Llu\u00eds M\u00e0rquez"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Domain-Specific Language to Encode Induction Heuristics",
+    "abstract": "Proof assistants, such as Isabelle/HOL, offer tools to facilitate inductive theorem proving. Isabelle experts know how to use these tools effectively; however, they did not have a systematic way to encode their expertise. To address this problem, we present our domain-specific language, LiFtEr. LiFtEr allows experienced Isabelle users to encode their induction heuristics in a style independent of any problem domain. LiFtEr's interpreter mechanically checks if a given application of induction tool matches the heuristics specified by experienced users, thus systematically transferring experience",
+    "date": "2019-06-29",
+    "url": "http://arxiv.org/abs/1907.02594v1",
+    "authors": [
+      "Yutaka Nagashima"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Robust LLM safeguarding via refusal feature adversarial training",
+    "abstract": "Large language models (LLMs) are vulnerable to adversarial attacks that can elicit harmful responses. Defending against such attacks remains challenging due to the opacity of jailbreaking mechanisms and the high computational cost of training LLMs robustly. We demonstrate that adversarial attacks share a universal mechanism for circumventing LLM safeguards that works by ablating a dimension in the residual stream embedding space called the refusal feature. We further show that the operation of refusal feature ablation (RFA) approximates the worst-case perturbation of offsetting model safety. B",
+    "date": "2024-09-30",
+    "url": "http://arxiv.org/abs/2409.20089v2",
+    "authors": [
+      "Lei Yu",
+      "Virginie Do",
+      "Karen Hambardzumyan"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs",
+    "abstract": "Large language models (LLMs) can often be made to behave in undesirable ways that they are explicitly fine-tuned not to. For example, the LLM red-teaming literature has produced a wide variety of 'jailbreaking' techniques to elicit harmful text from models that were fine-tuned to be harmless. Recent work on red-teaming, model editing, and interpretability suggests that this challenge stems from how (adversarial) fine-tuning largely serves to suppress rather than remove undesirable capabilities from LLMs. Prior work has introduced latent adversarial training (LAT) as a way to improve robustness",
+    "date": "2024-07-22",
+    "url": "http://arxiv.org/abs/2407.15549v3",
+    "authors": [
+      "Abhay Sheshadri",
+      "Aidan Ewart",
+      "Phillip Guo"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Advances in Pre-trained Language Models for Domain-Specific Text Classification: A Systematic Review",
+    "abstract": "The exponential increase in scientific literature and online information necessitates efficient methods for extracting knowledge from textual data. Natural language processing (NLP) plays a crucial role in addressing this challenge, particularly in text classification tasks. While large language models (LLMs) have achieved remarkable success in NLP, their accuracy can suffer in domain-specific contexts due to specialized vocabulary, unique grammatical structures, and imbalanced data distributions. In this systematic literature review (SLR), we investigate the utilization of pre-trained languag",
+    "date": "2025-10-18",
+    "url": "http://arxiv.org/abs/2510.17892v1",
+    "authors": [
+      "Zhyar Rzgar K. Rostam",
+      "G\u00e1bor Kert\u00e9sz"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Design Guidelines for Domain Specific Languages",
+    "abstract": "Designing a new domain specific language is as any other complex task sometimes error-prone and usually time consuming, especially if the language shall be of high-quality and comfortably usable. Existing tool support focuses on the simplification of technical aspects but lacks support for an enforcement of principles for a good language design. In this paper we investigate guidelines that are useful for designing domain specific languages, largely based on our experience in developing languages as well as relying on existing guidelines on general purpose (GPLs) and modeling languages. We defi",
+    "date": "2014-09-08",
+    "url": "http://arxiv.org/abs/1409.2378v1",
+    "authors": [
+      "Gabor Karsai",
+      "Holger Krahn",
+      "Claas Pinkernell"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "ECG-LLM -- training and evaluation of domain-specific large language models for electrocardiography",
+    "abstract": "Domain-adapted open-weight large language models (LLMs) offer promising healthcare applications, from queryable knowledge bases to multimodal assistants, with the crucial advantage of local deployment for privacy preservation. However, optimal adaptation strategies, evaluation methodologies, and performance relative to general-purpose LLMs remain poorly characterized. We investigated these questions in electrocardiography, an important area of cardiovascular medicine, by finetuning open-weight models on domain-specific literature and implementing a multi-layered evaluation framework comparing ",
+    "date": "2025-10-21",
+    "url": "http://arxiv.org/abs/2510.18339v1",
+    "authors": [
+      "Lara Ahrens",
+      "Wilhelm Haverkamp",
+      "Nils Strodthoff"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Refusal Direction is Universal Across Safety-Aligned Languages",
+    "abstract": "Refusal mechanisms in large language models (LLMs) are essential for ensuring safety. Recent research has revealed that refusal behavior can be mediated by a single direction in activation space, enabling targeted interventions to bypass refusals. While this is primarily demonstrated in an English-centric context, appropriate refusal behavior is important for any language, but poorly understood. In this paper, we investigate the refusal behavior in LLMs across 14 languages using PolyRefuse, a multilingual safety dataset created by translating malicious and benign English prompts into these lan",
+    "date": "2025-05-22",
+    "url": "http://arxiv.org/abs/2505.17306v2",
+    "authors": [
+      "Xinpeng Wang",
+      "Mingyang Wang",
+      "Yihong Liu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cross-Domain Transferability of Adversarial Perturbations",
+    "abstract": "Adversarial examples reveal the blind spots of deep neural networks (DNNs) and represent a major concern for security-critical applications. The transferability of adversarial examples makes real-world attacks possible in black-box settings, where the attacker is forbidden to access the internal parameters of the model. The underlying assumption in most adversary generation methods, whether learning an instance-specific or an instance-agnostic perturbation, is the direct or indirect reliance on the original domain-specific data distribution. In this work, for the first time, we demonstrate the",
+    "date": "2019-05-28",
+    "url": "http://arxiv.org/abs/1905.11736v5",
+    "authors": [
+      "Muzammal Naseer",
+      "Salman H. Khan",
+      "Harris Khan"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Understanding Refusal in Language Models with Sparse Autoencoders",
+    "abstract": "Refusal is a key safety behavior in aligned language models, yet the internal mechanisms driving refusals remain opaque. In this work, we conduct a mechanistic study of refusal in instruction-tuned LLMs using sparse autoencoders to identify latent features that causally mediate refusal behaviors. We apply our method to two open-source chat models and intervene on refusal-related features to assess their influence on generation, validating their behavioral impact across multiple harmful datasets. This enables a fine-grained inspection of how refusal manifests at the activation level and address",
+    "date": "2025-05-29",
+    "url": "http://arxiv.org/abs/2505.23556v1",
+    "authors": [
+      "Wei Jie Yeo",
+      "Nirmalendu Prakash",
+      "Clement Neo"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Virtual Classification: Modulating Domain-Specific Knowledge for Multidomain Crowd Counting",
+    "abstract": "Multidomain crowd counting aims to learn a general model for multiple diverse datasets. However, deep networks prefer modeling distributions of the dominant domains instead of all domains, which is known as domain bias. In this study, we propose a simple-yet-effective Modulating Domain-specific Knowledge Network (MDKNet) to handle the domain bias issue in multidomain crowd counting. MDKNet is achieved by employing the idea of `modulating', enabling deep network balancing and modeling different distributions of diverse datasets with little bias. Specifically, we propose an Instance-specific Bat",
+    "date": "2024-02-06",
+    "url": "http://arxiv.org/abs/2402.03758v1",
+    "authors": [
+      "Mingyue Guo",
+      "Binghui Chen",
+      "Zhaoyi Yan"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "MMNeuron: Discovering Neuron-Level Domain-Specific Interpretation in Multimodal Large Language Model",
+    "abstract": "Projecting visual features into word embedding space has become a significant fusion strategy adopted by Multimodal Large Language Models (MLLMs). However, its internal mechanisms have yet to be explored. Inspired by multilingual research, we identify domain-specific neurons in multimodal large language models. Specifically, we investigate the distribution of domain-specific neurons and the mechanism of how MLLMs process features from diverse domains. Furthermore, we propose a three-stage mechanism for language model modules in MLLMs when handling projected image features, and verify this hypo",
+    "date": "2024-06-17",
+    "url": "http://arxiv.org/abs/2406.11193v2",
+    "authors": [
+      "Jiahao Huo",
+      "Yibo Yan",
+      "Boren Hu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The Geometry of Refusal in Large Language Models: Concept Cones and Representational Independence",
+    "abstract": "The safety alignment of large language models (LLMs) can be circumvented through adversarially crafted inputs, yet the mechanisms by which these attacks bypass safety barriers remain poorly understood. Prior work suggests that a single refusal direction in the model's activation space determines whether an LLM refuses a request. In this study, we propose a novel gradient-based approach to representation engineering and use it to identify refusal directions. Contrary to prior work, we uncover multiple independent directions and even multi-dimensional concept cones that mediate refusal. Moreover",
+    "date": "2025-02-24",
+    "url": "http://arxiv.org/abs/2502.17420v2",
+    "authors": [
+      "Tom Wollschl\u00e4ger",
+      "Jannes Elstner",
+      "Simon Geisler"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Quaternion Generative Adversarial Networks",
+    "abstract": "Latest Generative Adversarial Networks (GANs) are gathering outstanding results through a large-scale training, thus employing models composed of millions of parameters requiring extensive computational capabilities. Building such huge models undermines their replicability and increases the training instability. Moreover, multi-channel data, such as images or audio, are usually processed by realvalued convolutional networks that flatten and concatenate the input, often losing intra-channel spatial relations. To address these issues related to complexity and information loss, we propose a famil",
+    "date": "2021-04-19",
+    "url": "http://arxiv.org/abs/2104.09630v2",
+    "authors": [
+      "Eleonora Grassucci",
+      "Edoardo Cicero",
+      "Danilo Comminiello"
+    ]
+  }
+]

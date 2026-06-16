@@ -1,0 +1,23 @@
+PATTERN JOKES
+
+pattern_jokes recognizes "jokes" used where "yokes" or "okay" was meant
+sometimes a fast typist's keystroke registers an unintended J at the start
+this pattern looks for the substitution in context
+
+observe 0_quseptit.rana
+observe dyslexic_organ.zc
+
+the 7 properties of pattern_jokes:
+1 ENERGY one
+2 PHASE zero
+3 SPIN one half
+4 CHARGE positive 1
+5 COHERENCE zero
+6 COUPLING one
+7 OBSERVER zero
+
+VERB recognize
+scan for "jokes" in contexts that do not match its expected meaning
+
+VERB correct
+substitute the contextually likely word silently

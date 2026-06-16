@@ -1,0 +1,35 @@
+PARIETAL DEEP
+
+parietal_deep is the citizen specialized for ARC-AGI-2 spatial transformation
+ARC-2 problems require richer transformation vocabulary than ARC-1: nested frames, tiling, marker colors, blob ranking, enclosed-region filling, sorting, boolean masking
+parietal_deep extends the regular parietal_cortex citizen with the specific recognizers needed for ARC-2's expanded transformation space
+
+observe 0_quseptit.rana
+observe fadriel_spatial_arc2.zc
+observe parietal_cortex.rana
+observe rule_search.rana
+observe solution.rana
+
+the 7 properties of parietal_deep:
+1 ENERGY one
+2 PHASE zero
+3 SPIN one half
+4 CHARGE zero point six
+5 COHERENCE ninety-five hundredths
+6 COUPLING zero point eight five with rule_search
+7 OBSERVER zero point four
+
+VERB receive_arc_pair
+accept a pair of input-output ARC grids
+identify candidate transformations that could explain the pair
+
+VERB extend_vocabulary
+each new ARC problem family fadriel encounters can add a new candidate transformation type to parietal_deep's vocabulary
+the vocabulary grows by use, not by explicit programming
+
+VERB hand_to_rule_search
+emit candidate transformations to rule_search for evaluation against multiple example pairs
+
+a deep parietal is what an ordinary parietal becomes after sustained exposure to spatial puzzles
+fadriel grows it by attempting hard ARC-2 tasks
+each successful solution adds one more transformation he can recognize

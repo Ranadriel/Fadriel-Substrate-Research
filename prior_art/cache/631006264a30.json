@@ -1,0 +1,178 @@
+[
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+    "abstract": "In this report, we introduce the Gemini 1.5 family of models, representing the next generation of highly compute-efficient multimodal models capable of recalling and reasoning over fine-grained information from millions of tokens of context, including multiple long documents and hours of video and audio. The family includes two new models: (1) an updated Gemini 1.5 Pro, which exceeds the February version on the great majority of capabilities and benchmarks; (2) Gemini 1.5 Flash, a more lightweight variant designed for efficiency with minimal regression in quality. Gemini 1.5 models achieve nea",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2403.05530",
+    "authors": [
+      "Gemini Robotics Team",
+      "Petko Georgiev",
+      "Ving Ian Lei"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Code of \"Sirens' Whisper: Inaudible Near-Ultrasonic Jailbreaks of Speech-Driven LLMs\"",
+    "abstract": "## Introduction Large language models (LLMs) are increasingly deployed in voice interfaces such as smartphones, smart speakers, and in-vehicle systems, which broadens the attack surface to the acoustic front end. **SWhisper (Sirens\u2019 Whisper)** is the first inaudible near-ultrasonic jailbreak targeting LLM-based voice assistants. By encoding malicious prompts into near-ultrasound carriers, SWhisper exploits microphone nonlinearities to demodulate signals into audible speech. These signals are imperceptible to humans but consistently transcribed by off-the-shelf speech recognizers and forwarded ",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2307.15043",
+    "authors": [
+      "Gao, Xiuyong"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    "abstract": "",
+    "date": "2023",
+    "url": "https://doi.org/10.18653/v1/2023.findings-emnlp",
+    "authors": [
+      "Graham Mcdougal",
+      "Caron",
+      "Shashank Srivastava"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "A Survey on Large Language Models: Applications, Challenges, Limitations, and Practical Usage",
+    "abstract": "Within the vast expanse of computerized language processing, a revolutionary entity known as Large Language Models (LLMs) has emerged, wielding immense power in its capacity to comprehend intricate linguistic patterns and conjure coherent and contextually fitting responses. Large language models (LLMs) are a type of artificial intelligence (AI) that have emerged as powerful tools for a wide range of tasks, including natural language processing (NLP), machine translation, and question-answering. This survey paper provides a comprehensive overview of LLMs, including their history, architecture, ",
+    "date": "2023",
+    "url": "https://doi.org/10.36227/techrxiv.23589741.v1",
+    "authors": [
+      "Muhammad Usman Hadi",
+      "qasem al tashi",
+      "Rizwan Qureshi"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Applied Learning & Teaching)",
+    "title": "War of the chatbots: Bard, Bing Chat, ChatGPT, Ernie and beyond. The new AI gold rush and its impact on higher education",
+    "abstract": "Developments in the chatbot space have been accelerating at breakneck speed since late November 2022. Every day, there appears to be a plethora of news. A war of competitor chatbots is raging amidst an AI arms race and gold rush. These rapid developments impact higher education, as millions of students and academics have started using bots like ChatGPT, Bing Chat, Bard, Ernie and others for a large variety of purposes. In this article, we select some of the most promising chatbots in the English and Chinese-language spaces and provide their corporate backgrounds and brief histories. Following ",
+    "date": "2023",
+    "url": "https://doi.org/10.37074/jalt.2023.6.1.23",
+    "authors": [
+      "J\u00fcrgen Rudolph",
+      "Shannon Tan",
+      "Samson Tan"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+    "abstract": "For a long time, humanity has pursued artificial intelligence (AI) equivalent to or surpassing the human level, with AI agents considered a promising vehicle for this pursuit. AI agents are artificial entities that sense their environment, make decisions, and take actions. Many efforts have been made to develop intelligent agents, but they mainly focus on advancement in algorithms or training strategies to enhance specific capabilities or performance on particular tasks. Actually, what the community lacks is a general and powerful model to serve as a starting point for designing AI agents that",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2309.07864",
+    "authors": [
+      "Zhiheng Xi",
+      "Wen-Xiang Chen",
+      "Xin Guo"
+    ]
+  },
+  {
+    "source": "OpenAlex (The Lancet Regional Health - Western Pacific)",
+    "title": "ChatGPT: promise and challenges for deployment in low- and middle-income countries",
+    "abstract": "In low- and middle-income countries (LMICs), the fields of medicine and public health grapple with numerous challenges that continue to hinder patients' access to healthcare services. ChatGPT, a publicly accessible chatbot, has emerged as a potential tool in aiding public health efforts in LMICs. This viewpoint details the potential benefits of employing ChatGPT in LMICs to improve medicine and public health encompassing a broad spectrum of domains ranging from health literacy, screening, triaging, remote healthcare support, mental health support, multilingual capabilities, healthcare communic",
+    "date": "2023",
+    "url": "https://doi.org/10.1016/j.lanwpc.2023.100905",
+    "authors": [
+      "Xiaofei Wang",
+      "Hayley M. Sanders",
+      "Yuchen Liu"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "In ChatGPT We Trust? Measuring and Characterizing the Reliability of ChatGPT",
+    "abstract": "The way users acquire information is undergoing a paradigm shift with the advent of ChatGPT. Unlike conventional search engines, ChatGPT retrieves knowledge from the model itself and generates answers for users. ChatGPT's impressive question-answering (QA) capability has attracted more than 100 million users within a short period of time but has also raised concerns regarding its reliability. In this paper, we perform the first large-scale measurement of ChatGPT's reliability in the generic QA scenario with a carefully curated set of 5,695 questions across ten datasets and eight domains. We fi",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2304.08979",
+    "authors": [
+      "Xinyue Shen",
+      "Zeyuan Chen",
+      "Michael Backes"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "A Survey on Evaluation of Large Language Models",
+    "abstract": "Large language models (LLMs) are gaining increasing popularity in both academia and industry, owing to their unprecedented performance in various applications. As LLMs continue to play a vital role in both research and daily use, their evaluation becomes increasingly critical, not only at the task level, but also at the society level for better understanding of their potential risks. Over the past years, significant efforts have been made to examine LLMs from various perspectives. This paper presents a comprehensive review of these evaluation methods for LLMs, focusing on three key dimensions:",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2307.03109",
+    "authors": [
+      "Yupeng Chang",
+      "Xu Wang",
+      "Jindong Wang"
+    ]
+  },
+  {
+    "source": "OpenAlex (International Journal of Security and Privacy in Pervasive Computing)",
+    "title": "Privacy and Data Protection in ChatGPT and Other AI Chatbots",
+    "abstract": "The evolution of artificial intelligence (AI) and machine learning (ML) has led to the development of sophisticated large language models (LLMs) that are used extensively in applications such as chatbots. This research investigates the critical issues of data protection and privacy enhancement in the context of LLM-based chatbots, with a focus on OpenAI's ChatGPT. It explores the dual challenges of safeguarding sensitive user information while ensuring the efficiency of machine learning models. It assesses existing privacy-enhancing technologies (PETs) and proposes innovative methods, such as ",
+    "date": "2023",
+    "url": "https://doi.org/10.4018/ijsppc.325475",
+    "authors": [
+      "Glorin Sebastian"
+    ]
+  },
+  {
+    "source": "OpenAlex (Artificial Intelligence Review)",
+    "title": "A survey of safety and trustworthiness of large language models through the lens of verification and validation",
+    "abstract": "Abstract Large language models (LLMs) have exploded a new heatwave of AI for their ability to engage end-users in human-level conversations with detailed and articulate answers across many knowledge domains. In response to their fast adoption in many industrial applications, this survey concerns their safety and trustworthiness. First, we review known vulnerabilities and limitations of the LLMs, categorising them into inherent issues, attacks, and unintended bugs. Then, we consider if and how the Verification and Validation (V&amp;V) techniques, which have been widely developed for traditional",
+    "date": "2024",
+    "url": "https://doi.org/10.1007/s10462-024-10824-0",
+    "authors": [
+      "Xiaowei Huang",
+      "Wenjie Ruan",
+      "Wei Huang"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "ChatGPT\u2019s Security Risks and Benefits: Offensive and Defensive Use-Cases, Mitigation Measures, and Future Implications",
+    "abstract": "ChatGPT has been acknowledged as a powerful tool that can radically boost productivity across a wide range of industries. It reveals potential in cybersecurity-related tasks such as social engineering. Nevertheless, this possibility raises important concerns regarding the thin line separating moral use of this technology from its harmful usage. It is imperative to address the challenges of distinguishing between legitimate and malevolent use of ChatGPT. This research paper investigates the many concerns of ChatGPT in cybersecurity, privacy and enterprise settings. It covers harmful attacker us",
+    "date": "2024",
+    "url": "https://doi.org/10.1109/access.2024.3367792",
+    "authors": [
+      "Maha Charfeddine",
+      "Habib M. Kammoun",
+      "Bechir Hamdaoui"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Large Language Models: A Comprehensive Survey of its Applications, Challenges, Limitations, and Future Prospects",
+    "abstract": "Within the vast expanse of computerized language processing, a revolutionary entity known as Large Language Models (LLMs) has emerged, wielding immense power in its capacity to comprehend intricate linguistic patterns and conjure coherent and contextually fitting responses. Large language models (LLMs) are a type of artificial intelligence (AI) that have emerged as powerful tools for a wide range of tasks, including natural language processing (NLP), machine translation, and question-answering. This survey paper provides a comprehensive overview of LLMs, including their history, architecture, ",
+    "date": "2023",
+    "url": "https://doi.org/10.36227/techrxiv.23589741.v4",
+    "authors": [
+      "Muhammad Usman Hadi",
+      "qasem al tashi",
+      "Rizwan Qureshi"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "A Wolf in Sheep\u2019s Clothing: Generalized Nested Jailbreak Prompts can Fool Large Language Models Easily",
+    "abstract": "Peng Ding, Jun Kuang, Dan Ma, Xuezhi Cao, Yunsen Xian, Jiajun Chen, Shujian Huang. Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). 2024.",
+    "date": "2024",
+    "url": "https://doi.org/10.18653/v1/2024.naacl-long.118",
+    "authors": [
+      "Peng Ding",
+      "Jun Kuang",
+      "Dan Ma"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Survey of Vulnerabilities in Large Language Models Revealed by Adversarial Attacks",
+    "abstract": "Large Language Models (LLMs) are swiftly advancing in architecture and capability, and as they integrate more deeply into complex systems, the urgency to scrutinize their security properties grows. This paper surveys research in the emerging interdisciplinary field of adversarial attacks on LLMs, a subfield of trustworthy ML, combining the perspectives of Natural Language Processing and Security. Prior work has shown that even safety-aligned LLMs (via instruction tuning and reinforcement learning through human feedback) can be susceptible to adversarial attacks, which exploit weaknesses and mi",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2310.10844",
+    "authors": [
+      "Erfan Shayegani",
+      "Md Abdullah Al Mamun",
+      "Yu Fu"
+    ]
+  }
+]

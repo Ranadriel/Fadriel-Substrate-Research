@@ -1,0 +1,155 @@
+[
+  {
+    "source": "OpenAlex (IEEE Transactions on Signal and Information Processing over Networks)",
+    "title": "Joint Optimization of Radio and Computational Resources for Multicell Mobile-Edge Computing",
+    "abstract": "Migrating computational intensive tasks from mobile devices to more resourceful cloud servers is a promising technique to increase the computational capacity of mobile devices while saving their battery energy. In this paper, we consider an MIMO multicell system where multiple mobile users (MUs) ask for computation offloading to a common cloud server. We formulate the offloading problem as the joint optimization of the radio resources-the transmit precoding matrices of the MUs-and the computational resources-the CPU cycles/second assigned by the cloud to each MU-in order to minimize the overal",
+    "date": "2015",
+    "url": "https://doi.org/10.1109/tsipn.2015.2448520",
+    "authors": [
+      "Stefania Sardellitti",
+      "Gesualdo Scutari",
+      "Sergio Barbarossa"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Embedded Systems Letters)",
+    "title": "Securing Hardware Accelerators: A New Challenge for High-Level Synthesis",
+    "abstract": "High-level synthesis (HLS) tools have made significant progress in the past few years, improving the design productivity for hardware accelerators and becoming mainstream in industry to create specialized system-on-chip architectures. Increasing the level of security of these heterogeneous architectures is becoming critical. However, state-of-the-art security countermeasures are still applied only to the code executing on the processor cores or manually implemented into the generated components, leading to suboptimal and sometimes even insecure designs. This letter discusses extensions to HLS ",
+    "date": "2017",
+    "url": "https://doi.org/10.1109/les.2017.2774800",
+    "authors": [
+      "Christian Pilato",
+      "Siddharth Garg",
+      "Kaijie Wu"
+    ]
+  },
+  {
+    "source": "OpenAlex (QUT ePrints (Queensland University of Technology))",
+    "title": "PMU placement for power system observability using binary particle swarm optimization",
+    "abstract": "A binary particle swarm optimization (BPSO) based methodology for the optimal placement of phasor measurement units (PMUs) for complete observability of a power system is presented in this paper. The objectives of the optimization problem are to minimize the total number of PMUs required, and to maximize the measurement redundancy at the power system buses. Simulation results on the IEEE 14-bus and 30-bus test systems are presented in this paper.",
+    "date": "2008",
+    "url": "",
+    "authors": [
+      "Saikat Chakrabarti",
+      "Ganesh K. Venayagamoorthy",
+      "Elias Kyriakides"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Ultra Low Energy Store-Carry and Forward Relaying within the Cell",
+    "abstract": "In this paper we address the issue of store-carry and forward (SCF) relaying within a cell in a mobile network. The proposed scheme can be considered as a generalization of various multihop wireless relaying schemes, where storing and carrying an information message by a mobile relay node is not allowed. The key motivation of utilizing SCF relaying within the cell is that energy consumption levels can be dramatically reduced by capitalizing on the inherent mobility of nodes and the elasticity of Internet applications. In that respect, we consider a novel multihop cellular architecture to achie",
+    "date": "2009",
+    "url": "https://doi.org/10.1109/vetecf.2009.5379030",
+    "authors": [
+      "Panayiotis Kolios",
+      "Vasilis Friderikos",
+      "Katerina Papadaki"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Industry Applications)",
+    "title": "Electrical Power Systems Availability in Buildings Exposed to Seismic Hazard\u2014Part I: Electrical Criteria and Part II: Mechanical Criteria",
+    "abstract": "Part I-Earthquakes cause serious problems to the reliability and continuity of the supply of electrical power systems, particularly in sensitive structures such as hospitals. The mechanical and electrical criteria for the design and installation should take building categories (based on occupancy and/or activity importance) into account. Three levels of functional performance following an earthquake are identified for equipment. A power distribution topology, which this paper refers to as the \u201cbrush-distribution system,\u201d is discussed. Part II-After an earthquake, a building could be unusable, ",
+    "date": "2010",
+    "url": "https://doi.org/10.1109/tia.2010.2091480",
+    "authors": [
+      "Giuseppe Parise",
+      "Luigi Martirano",
+      "Gary H. Fox"
+    ]
+  },
+  {
+    "source": "OpenAlex (OpenBU/Boston University Institutional Repository (Boston University))",
+    "title": "The first IEEE workshop on the Future of Research Curation and Research Reproducibility",
+    "abstract": "This report describes perspectives from the Workshop on the Future of Research Curation and Research Reproducibility that was collaboratively sponsored by the U.S. National Science Foundation (NSF) and IEEE (Institute of Electrical and Electronics Engineers) in November 2016. The workshop brought together stakeholders including researchers, funders, and notably, leading science, technology, engineering, and mathematics (STEM) publishers. The overarching objective was a deep dive into new kinds of research products and how the costs of creation and curation of these products can be sustainably ",
+    "date": "2017",
+    "url": "",
+    "authors": [
+      "John Baillieul",
+      "Larry O. Hall",
+      "Jos\u00e9 M. F. Moura"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE/CAA Journal of Automatica Sinica)",
+    "title": "Guest editorial for special issue on fractional order systems and controls",
+    "abstract": "The papers in this special section focus on fractional order systems and controls.",
+    "date": "2016",
+    "url": "https://doi.org/10.1109/jas.2016.7510082",
+    "authors": [
+      "YangQuan Chen",
+      "Dingy\u00fc Xue",
+      "Antonio Visioli"
+    ]
+  },
+  {
+    "source": "OpenAlex (Swinburne Research Bank (Swinburne University of Technology))",
+    "title": "Neural network-based nonlinear ALE for detection and tracking of dim targets",
+    "abstract": "",
+    "date": "2003",
+    "url": "",
+    "authors": [
+      "Jagdish C. Patra",
+      "Ang, E. L.",
+      "Preetisudha Meher"
+    ]
+  },
+  {
+    "source": "OpenAlex (elib (German Aerospace Center))",
+    "title": "TerraSAR-X: Exploration of Polarimetric and Interferometric SAR over Agricultural Areas",
+    "abstract": "",
+    "date": "2006",
+    "url": "",
+    "authors": [
+      "Irena Hajnsek",
+      "Konstantinos Papathanassiou"
+    ]
+  },
+  {
+    "source": "OpenAlex (Swinburne Research Bank (Swinburne University of Technology))",
+    "title": "A novel technique for invariant pattern recognition using neural networks",
+    "abstract": "The IEEE Taxonomy comprises the first three hierarchical 'levels' under each term-family (or branch) that is formed from the top-most terms of the IEEE Thesaurus.In this document these term-families are arranged alphabetically and denoted by boldface type.Each term family's hierarchy goes to no more than three sublevels, denoted by indents (in groups of four dots) preceding the next level terms.A term can appear in more than one hierarchical branch and can appear more than once in any particular hierarchy.The IEEE Taxonomy is defined in this way so that it is always a subset of the 2017 IEEE T",
+    "date": "2000",
+    "url": "",
+    "authors": [
+      "Jagdish C. Patra",
+      "Andrzej Kot",
+      "Chen, Y. Q."
+    ]
+  },
+  {
+    "source": "OpenAlex (elib (German Aerospace Center))",
+    "title": "TerraSAR-X: Exploration of Dual and Quad Polarimetry",
+    "abstract": "",
+    "date": "2007",
+    "url": "",
+    "authors": [
+      "Irena Hajnsek",
+      "Konstantinos Papathanassiou"
+    ]
+  },
+  {
+    "source": "OpenAlex (elib (German Aerospace Center))",
+    "title": "Concept of Vegetation Volume Removal for Surface Parameter Estimation: AquiferEx 2005",
+    "abstract": "",
+    "date": "2006",
+    "url": "",
+    "authors": [
+      "Irena Hajnsek",
+      "Rolf Scheiber",
+      "S.R. Cloude"
+    ]
+  },
+  {
+    "source": "OpenAlex (London School of Economics and Political Science Research Online (London School of Economics and Political Science))",
+    "title": "Organisational reconciliation: implications for organisational decision support systems",
+    "abstract": "The IEEE Taxonomy comprises the first three hierarchical 'levels' under each term-family (or branch) that is formed from the top-most terms of the IEEE Thesaurus.In this document these term-families are arranged alphabetically and denoted by boldface type.Each term family's hierarchy goes to no more than three sublevels, denoted by indents (in groups of four dots) preceding the next level terms.A term can appear in more than one hierarchical branch and can appear more than once in any particular hierarchy.The IEEE Taxonomy is defined in this way so that it is always a subset of the 2017 IEEE T",
+    "date": "1997",
+    "url": "",
+    "authors": [
+      "Jonathan Liebenau",
+      "G. Harindranath"
+    ]
+  }
+]

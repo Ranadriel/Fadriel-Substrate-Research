@@ -1,0 +1,13 @@
+#!/home/rana/.local/bin/zestc
+
+                              *=/(1G.pX08Y06:photon_gate[L1])
+                                          |
+                                          N    skull.xb
+                                          |
+                              *=/(1U.pX08Y02:photon_surface[L1])
+
+absorb 0_quseptit.rana
+absorb 0_quqtrit.rana
+absorb photon_gate.rana
+absorb photon_surface.rana
+absorb retina.xb

@@ -1,0 +1,178 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Speech Separation with Pretrained Frontend to Minimize Domain Mismatch",
+    "abstract": "Speech separation seeks to separate individual speech signals from a speech mixture. Typically, most separation models are trained on synthetic data due to the unavailability of target reference in real-world cocktail party scenarios. As a result, there exists a domain gap between real and synthetic data when deploying speech separation models in real-world applications. In this paper, we propose a self-supervised domain-invariant pretrained (DIP) frontend that is exposed to mixture data without the need for target reference speech. The DIP frontend utilizes a Siamese network with two innovati",
+    "date": "2024-11-05",
+    "url": "http://arxiv.org/abs/2411.03085v1",
+    "authors": [
+      "Wupeng Wang",
+      "Zexu Pan",
+      "Xinke Li"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "An enhanced Conv-TasNet model for speech separation using a speaker distance-based loss function",
+    "abstract": "This work addresses the problem of speech separation in the Spanish Language using pre-trained deep learning models. As with many speech processing tasks, large databases in other languages different from English are scarce. Therefore this work explores different training strategies using the Conv-TasNet model as a benchmark. A scale-invariant signal distortion ratio (SI-SDR) metric value of 9.9 dB was achieved for the best training strategy. Then, experimentally, we identified an inverse relationship between the speakers' similarity and the model's performance, so an improved ConvTasNet archi",
+    "date": "2022-05-26",
+    "url": "http://arxiv.org/abs/2205.13657v3",
+    "authors": [
+      "Jose A. Arango-S\u00e1nchez",
+      "Juli\u00e1n D. Arias-Londo\u00f1o"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Sequence to Sequence Neural Speech Synthesis with Prosody Modification Capabilities",
+    "abstract": "Modern sequence to sequence neural TTS systems provide close to natural speech quality. Such systems usually comprise a network converting linguistic/phonetic features sequence to an acoustic features sequence, cascaded with a neural vocoder. The generated speech prosody (i.e. phoneme durations, pitch and loudness) is implicitly present in the acoustic features, being mixed with spectral information. Although the speech sounds natural, its prosody realization is randomly chosen and cannot be easily altered. The prosody control becomes an even more difficult task if no prosodic labeling is pres",
+    "date": "2019-09-23",
+    "url": "http://arxiv.org/abs/1909.10302v1",
+    "authors": [
+      "Slava Shechtman",
+      "Alex Sorin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "End-to-end Audiovisual Speech Activity Detection with Bimodal Recurrent Neural Models",
+    "abstract": "Speech activity detection (SAD) plays an important role in current speech processing systems, including automatic speech recognition (ASR). SAD is particularly difficult in environments with acoustic noise. A practical solution is to incorporate visual information, increasing the robustness of the SAD approach. An audiovisual system has the advantage of being robust to different speech modes (e.g., whisper speech) or background noise. Recent advances in audiovisual speech processing using deep learning have opened opportunities to capture in a principled way the temporal relationships between ",
+    "date": "2018-09-12",
+    "url": "http://arxiv.org/abs/1809.04553v1",
+    "authors": [
+      "Fei Tao",
+      "Carlos Busso"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Multichannel Speech Separation and Enhancement Using the Convolutive Transfer Function",
+    "abstract": "This paper addresses the problem of speech separation and enhancement from multichannel convolutive and noisy mixtures, \\emph{assuming known mixing filters}. We propose to perform the speech separation and enhancement task in the short-time Fourier transform domain, using the convolutive transfer function (CTF) approximation. Compared to time-domain filters, CTF has much less taps, consequently it has less near-common zeros among channels and less computational complexity. The work proposes three speech-source recovery methods, namely: i) the multichannel inverse filtering method, i.e. the mul",
+    "date": "2017-11-21",
+    "url": "http://arxiv.org/abs/1711.07911v2",
+    "authors": [
+      "Xiaofei Li",
+      "Laurent Girin",
+      "Sharon Gannot"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Architectural Implications of Graph Neural Networks",
+    "abstract": "Graph neural networks (GNN) represent an emerging line of deep learning models that operate on graph structures. It is becoming more and more popular due to its high accuracy achieved in many graph-related tasks. However, GNN is not as well understood in the system and architecture community as its counterparts such as multi-layer perceptrons and convolutional neural networks. This work tries to introduce the GNN to our community. In contrast to prior work that only presents characterizations of GCNs, our work covers a large portion of the varieties for GNN workloads based on a general GNN des",
+    "date": "2020-09-02",
+    "url": "http://arxiv.org/abs/2009.00804v2",
+    "authors": [
+      "Zhihui Zhang",
+      "Jingwen Leng",
+      "Lingxiao Ma"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "SpeechPrompt: Prompting Speech Language Models for Speech Processing Tasks",
+    "abstract": "Prompting has become a practical method for utilizing pre-trained language models (LMs). This approach offers several advantages. It allows an LM to adapt to new tasks with minimal training and parameter updates, thus achieving efficiency in both storage and computation. Additionally, prompting modifies only the LM's inputs and harnesses the generative capabilities of language models to address various downstream tasks in a unified manner. This significantly reduces the need for human labor in designing task-specific models. These advantages become even more evident as the number of tasks serv",
+    "date": "2024-08-23",
+    "url": "http://arxiv.org/abs/2408.13040v1",
+    "authors": [
+      "Kai-Wei Chang",
+      "Haibin Wu",
+      "Yu-Kai Wang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Dual-Branch Parallel Network for Speech Enhancement and Restoration",
+    "abstract": "We present a novel general speech restoration model, DBP-Net (dual-branch parallel network), designed to effectively handle complex real-world distortions including noise, reverberation, and bandwidth degradation. Unlike prior approaches that rely on a single processing path or separate models for enhancement and restoration, DBP-Net introduces a unified architecture with dual parallel branches-a masking-based branch for distortion suppression and a mapping-based branch for spectrum reconstruction. A key innovation behind DBP-Net lies in the parameter sharing between the two branches and a cro",
+    "date": "2024-09-13",
+    "url": "http://arxiv.org/abs/2409.08702v2",
+    "authors": [
+      "Da-Hee Yang",
+      "Dail Kim",
+      "Joon-Hyuk Chang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Scalable and Efficient Neural Speech Coding: A Hybrid Design",
+    "abstract": "We present a scalable and efficient neural waveform coding system for speech compression. We formulate the speech coding problem as an autoencoding task, where a convolutional neural network (CNN) performs encoding and decoding as a neural waveform codec (NWC) during its feedforward routine. The proposed NWC also defines quantization and entropy coding as a trainable module, so the coding artifacts and bitrate control are handled during the optimization process. We achieve efficiency by introducing compact model components to NWC, such as gated residual networks and depthwise separable convolu",
+    "date": "2021-03-27",
+    "url": "http://arxiv.org/abs/2103.14776v2",
+    "authors": [
+      "Kai Zhen",
+      "Jongmo Sung",
+      "Mi Suk Lee"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "TF-MLPNet: Tiny Real-Time Neural Speech Separation",
+    "abstract": "Speech separation on hearable devices can enable transformative augmented and enhanced hearing capabilities. However, state-of-the-art speech separation networks cannot run in real-time on tiny, low-power neural accelerators designed for hearables, due to their limited compute capabilities. We present TF-MLPNet, the first speech separation network capable of running in real-time on such low-power accelerators while outperforming existing streaming models for blind speech separation and target speech extraction. Our network operates in the time-frequency domain, processing frequency sequences w",
+    "date": "2025-08-05",
+    "url": "http://arxiv.org/abs/2508.03047v1",
+    "authors": [
+      "Malek Itani",
+      "Tuochao Chen",
+      "Shyamnath Gollakota"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Neural Architecture Transfer",
+    "abstract": "Neural architecture search (NAS) has emerged as a promising avenue for automatically designing task-specific neural networks. Existing NAS approaches require one complete search for each deployment specification of hardware or objective. This is a computationally impractical endeavor given the potentially large number of application scenarios. In this paper, we propose Neural Architecture Transfer (NAT) to overcome this limitation. NAT is designed to efficiently generate task-specific custom models that are competitive under multiple conflicting objectives. To realize this goal we learn task-s",
+    "date": "2020-05-12",
+    "url": "http://arxiv.org/abs/2005.05859v2",
+    "authors": [
+      "Zhichao Lu",
+      "Gautam Sreekumar",
+      "Erik Goodman"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "BCN2BRNO: ASR System Fusion for Albayzin 2020 Speech to Text Challenge",
+    "abstract": "This paper describes joint effort of BUT and Telef\u00f3nica Research on development of Automatic Speech Recognition systems for Albayzin 2020 Challenge. We compare approaches based on either hybrid or end-to-end models. In hybrid modelling, we explore the impact of SpecAugment layer on performance. For end-to-end modelling, we used a convolutional neural network with gated linear units (GLUs). The performance of such model is also evaluated with an additional n-gram language model to improve word error rates. We further inspect source separation methods to extract speech from noisy environment (i.",
+    "date": "2021-01-29",
+    "url": "http://arxiv.org/abs/2101.12729v1",
+    "authors": [
+      "Martin Kocour",
+      "Guillermo C\u00e1mbara",
+      "Jordi Luque"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Leveraging End-to-End Speech Recognition with Neural Architecture Search",
+    "abstract": "Deep neural networks (DNNs) have been demonstrated to outperform many traditional machine learning algorithms in Automatic Speech Recognition (ASR). In this paper, we show that a large improvement in the accuracy of deep speech models can be achieved with effective Neural Architecture Optimization at a very low computational cost. Phone recognition tests with the popular LibriSpeech and TIMIT benchmarks proved this fact by displaying the ability to discover and train novel candidate models within a few hours (less than a day) many times faster than the attention-based seq2seq models. Our metho",
+    "date": "2019-12-11",
+    "url": "http://arxiv.org/abs/1912.05946v2",
+    "authors": [
+      "Ahmed Baruwa",
+      "Mojeed Abisiga",
+      "Ibrahim Gbadegesin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Semantic speech retrieval with a visually grounded model of untranscribed speech",
+    "abstract": "There is growing interest in models that can learn from unlabelled speech paired with visual context. This setting is relevant for low-resource speech processing, robotics, and human language acquisition research. Here we study how a visually grounded speech model, trained on images of scenes paired with spoken captions, captures aspects of semantics. We use an external image tagger to generate soft text labels from images, which serve as targets for a neural model that maps untranscribed speech to (semantic) keyword labels. We introduce a newly collected data set of human semantic relevance j",
+    "date": "2017-10-05",
+    "url": "http://arxiv.org/abs/1710.01949v2",
+    "authors": [
+      "Herman Kamper",
+      "Gregory Shakhnarovich",
+      "Karen Livescu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Curriculum Learning for Speech Emotion Recognition from Crowdsourced Labels",
+    "abstract": "This study introduces a method to design a curriculum for machine-learning to maximize the efficiency during the training process of deep neural networks (DNNs) for speech emotion recognition. Previous studies in other machine-learning problems have shown the benefits of training a classifier following a curriculum where samples are gradually presented in increasing level of difficulty. For speech emotion recognition, the challenge is to establish a natural order of difficulty in the training set to create the curriculum. We address this problem by assuming that ambiguous samples for humans ar",
+    "date": "2018-05-25",
+    "url": "http://arxiv.org/abs/1805.10339v1",
+    "authors": [
+      "Reza Lotfian",
+      "Carlos Busso"
+    ]
+  }
+]

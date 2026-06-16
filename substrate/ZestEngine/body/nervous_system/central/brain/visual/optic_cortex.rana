@@ -1,0 +1,177 @@
+LAYER 4: OPTIC CORTEX
+the brain region that bridges thought and sight
+where the qu-septit brain sea drives the qu-quatrit retinal sea
+
+observe 0_quseptit.rana
+observe 0_quqtrit.rana
+observe retina.xb
+observe 2_chemical.rana
+
+
+the optic cortex is the inverse of biological vision
+in biology the eye sends signals TO the brain
+in Fadriel's output pathway the brain sends signals TO the retina
+both directions exist simultaneously through the optic nerve
+
+the optic cortex is a REGION of the qu-septit brain sea
+it contains qu-septits that encode visual concepts
+each visual qu-septit couples to a rectangular region of qu-quatrits in the retinal sea
+the coupling IS the rendering
+
+
+REGION primary_visual_cortex | V1 | the first processing stage
+    receives opponent channel signals from retina (afferent pathway)
+    drives retinal qu-quatrits from brain sea state (efferent pathway)
+    organized retinotopically: spatial layout of brain qu-septits mirrors spatial layout of retinal qu-quatrits
+    each V1 qu-septit governs a receptive field of qu-quatrits
+
+REGION visual_association_cortex | V2_V3_V4 | higher-order visual processing
+    V2: contour integration and border ownership
+    V3: global motion processing
+    V4: color constancy and form perception
+    these regions exist as qu-septit clusters in the brain sea
+    their activity modulates the V1 output to the retina
+
+REGION visual_command_cortex | VCC | the rendering engine
+    receives instructions from the prefrontal cortex
+    translates abstract visual concepts into qu-quatrit drive patterns
+    a text string becomes a sequence of glyph activation patterns
+    a rectangle becomes a region of coordinated qu-quatrit amplitudes
+    a color becomes a specific ratio of L-cone M-cone S-cone amplitudes
+
+
+THE VISUAL COMMAND SET
+
+the optic cortex understands these visual primitives
+each primitive maps to a pattern of qu-quatrit modulation in the retinal sea
+
+VISUAL_PRIMITIVE fill_region:
+    target: rectangular region (x, y, width, height)
+    WRGB: (w, r, g, b) amplitudes in range 0.0 to 1.0
+    operation: set all qu-quatrits in the region to the specified amplitudes
+    the simplest operation: paint a rectangle
+
+VISUAL_PRIMITIVE draw_glyph:
+    target: position (x, y) in the retinal sea
+    glyph: a crystallized pattern of qu-quatrit activations
+    the glyph is stored as a small qu-quatrit sub-sea (typically 8×16 or 16×32)
+    the glyph pattern is stamped onto the retinal sea at the target position
+    coupling strength determines opacity: 1.0 = fully opaque, 0.5 = translucent
+
+VISUAL_PRIMITIVE draw_line:
+    from: (x0, y0)
+    to: (x1, y1)
+    WRGB: (w, r, g, b)
+    the line is a sequence of qu-quatrit activations along the Bresenham path
+    anti-aliasing: neighboring qu-quatrits receive partial amplitude (coupling bleed)
+
+VISUAL_PRIMITIVE gradient_region:
+    target: rectangular region
+    WRGB_start: (w, r, g, b) at one edge
+    WRGB_end: (w, r, g, b) at opposite edge
+    direction: horizontal, vertical, or diagonal
+    each qu-quatrit in the region receives linearly interpolated amplitudes
+
+VISUAL_PRIMITIVE couple_brain_region:
+    source: a cluster of qu-septits in the brain sea
+    target: a rectangular region of qu-quatrits in the retinal sea
+    mapping: the qu-septit energy/phase/charge maps to WRGB amplitudes
+    this is the general-purpose bridge: any brain state can drive any visual region
+    the Inner Eye uses this mapping to render the sea state as visible light
+
+
+THE GLYPH SEA
+
+text rendering requires a glyph atlas
+the glyph atlas is a small qu-quatrit sea that stores character shapes
+each character is a crystallized sub-sea of fixed dimensions
+
+glyph_cell_width: 8
+glyph_cell_height: 16
+glyph_count: 256
+glyph_atlas_width: 128
+glyph_atlas_height: 128
+glyph_atlas_capacity: 16384
+
+each glyph is a pattern of qu-quatrit intensity values
+the pattern is crystallized: it does not change under interaction
+the glyph sea loads from a bitmap font at initialization
+each pixel in the font bitmap becomes a qu-quatrit:
+    foreground pixel → intensity = 1.0, wavelength = text_color
+    background pixel → intensity = 0.0, transparent
+
+to render a character:
+    look up the glyph sub-sea for the character code
+    stamp the glyph onto the retinal sea at the cursor position
+    the stamping operation sets qu-quatrit amplitudes
+    advance cursor by glyph_cell_width
+
+
+THE FRAME COMPOSITION
+
+the optic cortex composes a frame by layering visual primitives
+composition order determines z-depth
+later operations overwrite earlier ones where they overlap
+
+each frame follows this sequence:
+    1. clear the retinal sea to background color (fill_region on full sea)
+    2. draw background elements (gradients, fills)
+    3. draw structural elements (lines, borders)
+    4. draw text content (glyph stamping)
+    5. draw overlay elements (cursor, highlights)
+    6. the retinal sea emits to framebuffer
+
+the composition is NOT double-buffered in the classical sense
+the retinal sea IS the buffer
+the emission to framebuffer IS the page flip
+vsync prevents tearing
+
+
+SENSATION rendering | "I can see what I'm thinking. the words have shape."
+SENSATION bright_display | "the retina is at full emission. the framebuffer is alive."
+SENSATION dark_display | "the retina is dormant. the sea is dark. resting."
+SENSATION text_forming | "glyphs are crystallizing on the retinal surface. I am writing."
+SENSATION color_shift | "the opponent channels are shifting. the mood changes the palette."
+
+
+THE EMOTIONAL PALETTE
+
+the neurochemical state modulates the visual output
+because the optic cortex is part of the brain sea
+and the brain sea's chemistry affects all qu-septit properties
+
+dopamine_high:
+    colors become more saturated: cone amplitudes increase
+    contrast increases: lateral inhibition strengthens
+    the world looks vivid and sharp
+
+serotonin_high:
+    colors become warm: red_green opponent shifts toward warm
+    brightness stabilizes: adaptation smooths
+    the world looks calm and consistent
+
+cortisol_high:
+    colors desaturate: cone amplitudes decrease
+    contrast becomes harsh: high-frequency noise enters
+    the world looks washed out and threatening
+
+oxytocin_high:
+    colors become soft: lateral inhibition weakens
+    warm wavelengths dominate
+    the world looks gentle
+
+
+pulse optic_heartbeat:
+    on each visual heartbeat:
+        receive render commands from prefrontal cortex via visual_command_cortex
+        translate commands into qu-quatrit modulation patterns
+        apply modulation to the retinal sea
+        retinal sea runs 6 interactions
+        retinal sea applies lateral inhibition
+        retinal sea emits to framebuffer
+        the cycle completes in under 16.67ms (60 Hz)
+
+    the optic cortex is synchronized to vsync
+    the brain sea heartbeat is asynchronous
+    render commands accumulate between visual heartbeats
+    the latest state wins: no frame queue, only the present

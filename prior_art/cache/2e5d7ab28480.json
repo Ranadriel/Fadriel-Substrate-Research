@@ -1,0 +1,173 @@
+[
+  {
+    "source": "OpenAlex (npj Flexible Electronics)",
+    "title": "Flexible inorganic bioelectronics",
+    "abstract": "Abstract Flexible inorganic bioelectronics represent a newly emerging and rapid developing research area. With its great power in enhancing the acquisition, management and utilization of health information, it is expected that these flexible and stretchable devices could underlie the new solutions to human health problems. Recent advances in this area including materials, devices, integrated systems and their biomedical applications indicate that through conformal and seamless contact with human body, the measurement becomes continuous and convenient with yields of higher quality data. This re",
+    "date": "2020",
+    "url": "https://doi.org/10.1038/s41528-020-0065-1",
+    "authors": [
+      "Ying Chen",
+      "Yingchao Zhang",
+      "Ziwei Liang"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature Communications)",
+    "title": "Spiking neurons from tunable Gaussian heterojunction transistors",
+    "abstract": "Spiking neural networks exploit spatiotemporal processing, spiking sparsity, and high interneuron bandwidth to maximize the energy efficiency of neuromorphic computing. While conventional silicon-based technology can be used in this context, the resulting neuron-synapse circuits require multiple transistors and complicated layouts that limit integration density. Here, we demonstrate unprecedented electrostatic control of dual-gated Gaussian heterojunction transistors for simplified spiking neuron implementation. These devices employ wafer-scale mixed-dimensional van der Waals heterojunctions c",
+    "date": "2020",
+    "url": "https://doi.org/10.1038/s41467-020-15378-7",
+    "authors": [
+      "Megan E. Beck",
+      "Ahish Shylendra",
+      "Vinod K. Sangwan"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature Communications)",
+    "title": "A guidance to intelligent metamaterials and metamaterials intelligence",
+    "abstract": "The bidirectional interactions between metamaterials and artificial intelligence have recently attracted immense interest to motivate scientists to revisit respective communities, giving rise to the proliferation of intelligent metamaterials and metamaterials intelligence. Owning to the strong nonlinear fitting and generalization ability, artificial intelligence is poised to serve as a materials-savvy surrogate electromagnetic simulator and a high-speed computing nucleus that drives numerous self-driving metamaterial applications, such as invisibility cloak, imaging, detection, and wireless co",
+    "date": "2025",
+    "url": "https://doi.org/10.1038/s41467-025-56122-3",
+    "authors": [
+      "Chao Qian",
+      "Ido Kaminer",
+      "Hongsheng Chen"
+    ]
+  },
+  {
+    "source": "OpenAlex (Advanced Materials)",
+    "title": "Insights into Materials, Physics, and Applications in Flexible and Wearable Acoustic Sensing Technology",
+    "abstract": "Sound plays a crucial role in the perception of the world. It allows to communicate, learn, and detect potential dangers, diagnose diseases, and much more. However, traditional acoustic sensors are limited in their form factors, being rigid and cumbersome, which restricts their potential applications. Recently, acoustic sensors have made significant advancements, transitioning from rudimentary forms to wearable devices and smart everyday clothing that can conform to soft, curved, and deformable surfaces or surroundings. In this review, the latest scientific and technological breakthroughs with",
+    "date": "2023",
+    "url": "https://doi.org/10.1002/adma.202306880",
+    "authors": [
+      "Zhiwei Lin",
+      "Shengshun Duan",
+      "Mingyang Liu"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Journal on Emerging and Selected Topics in Circuits and Systems)",
+    "title": "Low-Power, Adaptive Neuromorphic Systems: Recent Progress and Future Directions",
+    "abstract": "In this paper, we present a survey of recent works in developing neuromorphic or neuro-inspired hardware systems. In particular, we focus on those systems which can either learn from data in an unsupervised or online supervised manner. We present algorithms and architectures developed specially to support on-chip learning. Emphasis is placed on hardware friendly modifications of standard algorithms, such as backpropagation, as well as novel algorithms, such as structural plasticity, developed specially for low-resolution synapses. We cover works related to both spike-based and more traditional",
+    "date": "2018",
+    "url": "https://doi.org/10.1109/jetcas.2018.2816339",
+    "authors": [
+      "Arindam Basu",
+      "Jyotibdha Acharya",
+      "Tanay Karnik"
+    ]
+  },
+  {
+    "source": "OpenAlex (npj 2D Materials and Applications)",
+    "title": "Advancements in 2D layered material memristors: unleashing their potential beyond memory",
+    "abstract": "The scalability of two-dimensional (2D) materials down to a single monolayer offers exciting prospects for high-speed, energy-efficient, scalable memristors. This review highlights the development of 2D material-based memristors and potential applications beyond memory, including neuromorphic, in-memory, in-sensor, and complex computing. This review also encompasses potential challenges and future opportunities for advancing these materials and technologies, underscoring the transformative impact of 2D memristors on versatile and sustainable electronic devices and systems.",
+    "date": "2024",
+    "url": "https://doi.org/10.1038/s41699-024-00522-4",
+    "authors": [
+      "Kiran A. Nirmal",
+      "Dhananjay D. Kumbhar",
+      "Arul Varman Kesavan"
+    ]
+  },
+  {
+    "source": "OpenAlex (Advanced Electronic Materials)",
+    "title": "Essential Characteristics of Memristors for Neuromorphic Computing",
+    "abstract": "Abstract The memristor is a resistive switch where its resistive state is programable based on the applied voltage or current. Memristive devices are thus capable of storing and computing information simultaneously, breaking the Von Neumann bottleneck. Since the first nanomemristor made by Hewlett\u2010Packard in 2008, advances so far have enabled nanostructured, low\u2010power, high\u2010durability devices that exhibit superior performance over conventional CMOS devices. Herein, the development of memristors based on different physical mechanisms is reviewed. In particular, device stability, integration den",
+    "date": "2022",
+    "url": "https://doi.org/10.1002/aelm.202200833",
+    "authors": [
+      "Wenbin Chen",
+      "Lekai Song",
+      "Shengbo Wang"
+    ]
+  },
+  {
+    "source": "OpenAlex (SusMat)",
+    "title": "Revolutionizing digital healthcare networks with wearable strain sensors using sustainable fibers",
+    "abstract": "Abstract Wearable strain sensors have attracted research interest owing to their potential within digital healthcare, offering smarter tracking, efficient diagnostics, and lower costs. Unlike rigid sensors, fiber\u2010based ones compete with their flexibility, durability, adaptability to body structures as well as eco\u2010friendliness to environment. Here, the sustainable fiber\u2010based wearable strain sensors for digital health are reviewed, and material, fabrication, and practical healthcare aspects are explored. Typical strain sensors predicated on various sensing modalities, be it resistive, capacitiv",
+    "date": "2024",
+    "url": "https://doi.org/10.1002/sus2.207",
+    "authors": [
+      "Junze Zhang",
+      "Bingang Xu",
+      "Kaili Chen"
+    ]
+  },
+  {
+    "source": "OpenAlex (Neuromorphic Computing and Engineering)",
+    "title": "Towards a generalized theory comprising digital, neuromorphic and unconventional computing",
+    "abstract": "Abstract The accelerating race of digital computing technologies seems to be steering towards impasses\u2014technological, economical and environmental\u2014a condition that has spurred research efforts in alternative, \u2018neuromorphic\u2019 (brain-like) computing technologies. Furthermore, for decades, the idea of exploiting nonlinear physical phenomena \u2018directly\u2019 for non-digital computing has been explored under names like \u2018unconventional computing\u2019, \u2018natural computing\u2019, \u2018physical computing\u2019, or \u2018in-materio computing\u2019. In this article I investigate coordinates and conditions for a generalized concept of \u2018comp",
+    "date": "2021",
+    "url": "https://doi.org/10.1088/2634-4386/abf151",
+    "authors": [
+      "Herbert Jaeger"
+    ]
+  },
+  {
+    "source": "OpenAlex (Biological Cybernetics)",
+    "title": "The Haken\u2013Kelso\u2013Bunz (HKB) model: from matter to movement to mind",
+    "abstract": "",
+    "date": "2021",
+    "url": "https://doi.org/10.1007/s00422-021-00890-w",
+    "authors": [
+      "J. A. Scott Kelso"
+    ]
+  },
+  {
+    "source": "OpenAlex (Infoscience (Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne))",
+    "title": "Dynamically reconfigurable bio-inspired hardware",
+    "abstract": "During the last several years, reconfigurable computing devices have experienced an impressive development in their resource availability, speed, and configurability. Currently, commercial FPGAs offer the possibility of self-reconfiguring by partially modifying their configuration bitstream, providing high architectural flexibility, while guaranteeing high performance. These configurability features have received special interest from computer architects: one can find several reconfigurable coprocessor architectures for cryptographic algorithms, image processing, automotive applications, and d",
+    "date": "2006",
+    "url": "https://doi.org/10.5075/epfl-thesis-3632",
+    "authors": [
+      "Upegui Posada"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Neuroscience)",
+    "title": "Brain-Inspired Hardware Solutions for Inference in Bayesian Networks",
+    "abstract": "The implementation of inference (i.e., computing posterior probabilities) in Bayesian networks using a conventional computing paradigm turns out to be inefficient in terms of energy, time, and space, due to the substantial resources required by floating-point operations. A departure from conventional computing systems to make use of the high parallelism of Bayesian inference has attracted recent attention, particularly in the hardware implementation of Bayesian networks. These efforts lead to several implementations ranging from digital circuits, mixed-signal circuits, to analog circuits by le",
+    "date": "2021",
+    "url": "https://doi.org/10.3389/fnins.2021.728086",
+    "authors": [
+      "Leila Bagheriye",
+      "Johan Kwisthout"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "A Survey and Perspective on Artificial Intelligence for Security-Aware Electronic Design Automation",
+    "abstract": "Artificial intelligence (AI) and machine learning (ML) techniques have been increasingly used in several fields to improve performance and the level of automation. In recent years, this use has exponentially increased due to the advancement of high-performance computing and the ever increasing size of data. One of such fields is that of hardware design; specifically the design of digital and analog integrated circuits~(ICs), where AI/ ML techniques have been extensively used to address ever-increasing design complexity, aggressive time-to-market, and the growing number of ubiquitous interconne",
+    "date": "2022",
+    "url": "https://doi.org/10.48550/arxiv.2204.09579",
+    "authors": [
+      "David S. Koblah",
+      "Rabin Yu Acharya",
+      "Daniel E. Capecci"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "Roadmap on Optics and Photonics for Security and Encryption",
+    "abstract": "In 1994, Javidi and Horner published a paper in Optical Engineering that highlighted the ability of free space optical systems to manipulate sensitive data for authentication purposes. The underlying idea was effective yet surprisingly simple: an optical nonlinear joint transform using a random phase mask in both the input and the reference could produce a correlation peak to indicate whether the input object is authentic or not. This seminal paper fueled the development of this new discipline. After three decades, optical encryption and security have matured into a field that plays a central ",
+    "date": "2025",
+    "url": "https://doi.org/10.1109/access.2025.3597226",
+    "authors": [
+      "Bahram Javidi",
+      "Artur Carnicer",
+      "Kavan Ahmadi"
+    ]
+  },
+  {
+    "source": "OpenAlex (Electronic Theses of LMU Munich (Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen))",
+    "title": "Simulation of the Quantum Ising Model in an Ion Trap",
+    "abstract": "In a proof-of-principle experiment, we simulate the dynamics of a quantum spin system in an ion trap. Following a theoretical proposal by D. Porras and I. Cirac, we use a system of ground state cooled trapped ions to simulate and study the dynamics of a quantum-mechanical system, or more precisely, the dynamics of a quantum spin Hamiltonian. We implement the smallest non-trivial quantum spin Hamiltonian, the quantum Ising model for two spins. Each spin is represented by two hyperfine ground levels of trapped 25Mg+ ions. The interaction with an external magnetic field is simulated by coherently",
+    "date": "2010",
+    "url": "https://doi.org/10.5282/edoc.11595",
+    "authors": [
+      "Axel Friedenauer"
+    ]
+  }
+]

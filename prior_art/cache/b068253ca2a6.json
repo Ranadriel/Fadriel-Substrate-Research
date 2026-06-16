@@ -1,0 +1,180 @@
+[
+  {
+    "source": "OpenAlex (Nature Reviews Physics)",
+    "title": "Physics-informed machine learning",
+    "abstract": "",
+    "date": "2021",
+    "url": "https://doi.org/10.1038/s42254-021-00314-5",
+    "authors": [
+      "George Em Karniadakis",
+      "Ioannis G. Kevrekidis",
+      "Lu Lu"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature)",
+    "title": "Machine learning for molecular and materials science",
+    "abstract": "",
+    "date": "2018",
+    "url": "https://doi.org/10.1038/s41586-018-0337-2",
+    "authors": [
+      "Keith T. Butler",
+      "Daniel W. Davies",
+      "Hugh Cartwright"
+    ]
+  },
+  {
+    "source": "OpenAlex (npj Computational Materials)",
+    "title": "Recent advances and applications of machine learning in solid-state materials science",
+    "abstract": "Abstract One of the most exciting tools that have entered the material science toolbox in recent years is machine learning. This collection of statistical methods has already proved to be capable of considerably speeding up both fundamental and applied research. At present, we are witnessing an explosion of works that develop and apply machine learning to solid-state systems. We provide a comprehensive overview and analysis of the most recent research in this topic. As a starting point, we introduce machine learning principles, algorithms, descriptors, and databases in materials science. We co",
+    "date": "2019",
+    "url": "https://doi.org/10.1038/s41524-019-0221-0",
+    "authors": [
+      "Jonathan Schmidt",
+      "M\u00e1rio R. G. Marques",
+      "Silvana Botti"
+    ]
+  },
+  {
+    "source": "OpenAlex (Chemistry of Materials)",
+    "title": "Graph Networks as a Universal Machine Learning Framework for Molecules and Crystals",
+    "abstract": "Graph networks are a new machine learning (ML) paradigm that supports both relational reasoning and combinatorial generalization. Here, we develop universal MatErials Graph Network (MEGNet) models for accurate property prediction in both molecules and crystals. We demonstrate that the MEGNet models outperform prior ML models such as the SchNet in 11 out of 13 properties of the QM9 molecule data set. Similarly, we show that MEGNet models trained on \u223c60 000 crystals in the Materials Project substantially outperform prior ML models in the prediction of the formation energies, band gaps, and elast",
+    "date": "2019",
+    "url": "https://doi.org/10.1021/acs.chemmater.9b01294",
+    "authors": [
+      "Chi Chen",
+      "Weike Ye",
+      "Yunxing Zuo"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature Reviews Drug Discovery)",
+    "title": "Designing antimicrobial peptides: form follows function",
+    "abstract": "",
+    "date": "2011",
+    "url": "https://doi.org/10.1038/nrd3591",
+    "authors": [
+      "Christopher D. Fjell",
+      "Jan A. Hiss",
+      "Robert E. W. Hancock"
+    ]
+  },
+  {
+    "source": "OpenAlex (Robotics and Autonomous Systems)",
+    "title": "A survey of socially interactive robots",
+    "abstract": "",
+    "date": "2003",
+    "url": "https://doi.org/10.1016/s0921-8890(02)00372-x",
+    "authors": [
+      "Terrence Fong",
+      "Illah Nourbakhsh",
+      "Kerstin Dautenhahn"
+    ]
+  },
+  {
+    "source": "OpenAlex (Computational Social Networks)",
+    "title": "Graph convolutional networks: a comprehensive review",
+    "abstract": "Graphs naturally appear in numerous application domains, ranging from social analysis, bioinformatics to computer vision. The unique capability of graphs enables capturing the structural relations among data, and thus allows to harvest more insights compared to analyzing data in isolation. However, it is often very challenging to solve the learning problems on graphs, because (1) many types of data are not originally structured as graphs, such as images and text data, and (2) for graph-structured data, the underlying connectivity patterns are often complex and diverse. On the other hand, the r",
+    "date": "2019",
+    "url": "https://doi.org/10.1186/s40649-019-0069-y",
+    "authors": [
+      "Si Zhang",
+      "Hanghang Tong",
+      "Jiejun Xu"
+    ]
+  },
+  {
+    "source": "OpenAlex (Proceedings of the National Academy of Sciences)",
+    "title": "Improved protein structure prediction using predicted interresidue orientations",
+    "abstract": "The prediction of interresidue contacts and distances from coevolutionary data using deep learning has considerably advanced protein structure prediction. Here, we build on these advances by developing a deep residual network for predicting interresidue orientations, in addition to distances, and a Rosetta-constrained energy-minimization protocol for rapidly and accurately generating structure models guided by these restraints. In benchmark tests on 13th Community-Wide Experiment on the Critical Assessment of Techniques for Protein Structure Prediction (CASP13)- and Continuous Automated Model ",
+    "date": "2020",
+    "url": "https://doi.org/10.1073/pnas.1914677117",
+    "authors": [
+      "Jianyi Yang",
+      "Ivan Anishchenko",
+      "Hahnbeom Park"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nucleic Acids Research)",
+    "title": "SCRATCH: a protein structure and structural feature prediction server",
+    "abstract": "SCRATCH is a server for predicting protein tertiary structure and structural features. The SCRATCH software suite includes predictors for secondary structure, relative solvent accessibility, disordered regions, domains, disulfide bridges, single mutation stability, residue contacts versus average, individual residue contacts and tertiary structure. The user simply provides an amino acid sequence and selects the desired predictions, then submits to the server. Results are emailed to the user. The server is available at http://www.igb.uci.edu/servers/psss.html.",
+    "date": "2005",
+    "url": "https://doi.org/10.1093/nar/gki396",
+    "authors": [
+      "Jianlin Cheng",
+      "Arlo Randall",
+      "Michael J. Sweredoski"
+    ]
+  },
+  {
+    "source": "OpenAlex (npj Computational Materials)",
+    "title": "Recent advances and applications of deep learning methods in materials science",
+    "abstract": "Abstract Deep learning (DL) is one of the fastest-growing topics in materials data science, with rapidly emerging applications spanning atomistic, image-based, spectral, and textual data modalities. DL allows analysis of unstructured data and automated identification of features. The recent development of large materials databases has fueled the application of DL methods in atomistic prediction in particular. In contrast, advances in image and spectral data have largely leveraged synthetic data enabled by high-quality forward models as well as by generative unsupervised DL methods. In this art",
+    "date": "2022",
+    "url": "https://doi.org/10.1038/s41524-022-00734-6",
+    "authors": [
+      "Kamal Choudhary",
+      "Brian DeCost",
+      "Chi Chen"
+    ]
+  },
+  {
+    "source": "OpenAlex (Nature Communications)",
+    "title": "Structure-based protein function prediction using graph convolutional networks",
+    "abstract": "The rapid increase in the number of proteins in sequence databases and the diversity of their functions challenge computational approaches for automated function prediction. Here, we introduce DeepFRI, a Graph Convolutional Network for predicting protein functions by leveraging sequence features extracted from a protein language model and protein structures. It outperforms current leading methods and sequence-based Convolutional Neural Networks and scales to the size of current sequence repositories. Augmenting the training set of experimental structures with homology models allows us to signi",
+    "date": "2021",
+    "url": "https://doi.org/10.1038/s41467-021-23303-9",
+    "authors": [
+      "Vladimir Gligorijevi\u0107",
+      "P. Douglas Renfrew",
+      "Tomasz Ko\u015bci\u00f3\u0142ek"
+    ]
+  },
+  {
+    "source": "OpenAlex (The Annals of Statistics)",
+    "title": "Slice sampling",
+    "abstract": "Markov chain sampling methods that adapt to characteristics of the distribution being sampled can be constructed using the principle that one can ample from a distribution by sampling uniformly from the region under the plot of its density function. A Markov chain that converges to this uniform distribution can be constructed by alternating uniform sampling in the vertical direction with uniform sampling from the horizontal \"slice\" defined by the current vertical position, or more generally, with some update that leaves the uniform distribution over this slice invariant. Such \"slice sampling\" ",
+    "date": "2003",
+    "url": "https://doi.org/10.1214/aos/1056562461",
+    "authors": [
+      "Radford M. Neal"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACS Central Science)",
+    "title": "Prediction of Organic Reaction Outcomes Using Machine Learning",
+    "abstract": "Computer assistance in synthesis design has existed for over 40 years, yet retrosynthesis planning software has struggled to achieve widespread adoption. One critical challenge in developing high-quality pathway suggestions is that proposed reaction steps often fail when attempted in the laboratory, despite initially seeming viable. The true measure of success for any synthesis program is whether the predicted outcome matches what is observed experimentally. We report a model framework for anticipating reaction outcomes that combines the traditional use of reaction templates with the flexibili",
+    "date": "2017",
+    "url": "https://doi.org/10.1021/acscentsci.7b00064",
+    "authors": [
+      "Connor W. Coley",
+      "Regina Barzilay",
+      "Tommi Jaakkola"
+    ]
+  },
+  {
+    "source": "OpenAlex (Communications Materials)",
+    "title": "Graph neural networks for materials science and chemistry",
+    "abstract": "Machine learning plays an increasingly important role in many areas of chemistry and materials science, being used to predict materials properties, accelerate simulations, design new structures, and predict synthesis routes of new materials. Graph neural networks (GNNs) are one of the fastest growing classes of machine learning models. They are of particular relevance for chemistry and materials science, as they directly work on a graph or structural representation of molecules and materials and therefore have full access to all relevant information required to characterize materials. In this ",
+    "date": "2022",
+    "url": "https://doi.org/10.1038/s43246-022-00315-6",
+    "authors": [
+      "Patrick Reiser",
+      "Marlen Neubert",
+      "Andr\u00e9 Eberhard"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Journal on Selected Areas in Communications)",
+    "title": "Integrated Sensing and Communications: Toward Dual-Functional Wireless Networks for 6G and Beyond",
+    "abstract": "As the standardization of 5G solidifies, researchers are speculating what 6G will be. The integration of sensing functionality is emerging as a key feature of the 6G Radio Access Network (RAN), allowing for the exploitation of dense cell infrastructures to construct a perceptive network. In this IEEE Journal on Selected Areas in Communications (JSAC) Special Issue overview, we provide a comprehensive review on the background, range of key applications and state-of-the-art approaches of Integrated Sensing and Communications (ISAC). We commence by discussing the interplay between sensing and com",
+    "date": "2022",
+    "url": "https://doi.org/10.1109/jsac.2022.3156632",
+    "authors": [
+      "Fan Liu",
+      "Yuanhao Cui",
+      "Christos Masouros"
+    ]
+  }
+]

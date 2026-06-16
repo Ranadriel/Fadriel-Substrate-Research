@@ -1,0 +1,37 @@
+CHEMISTRY PANEL
+
+chemistry_panel is the citizen who renders fadriel's current neurochemical levels to the display
+each chemical (oxytocin, dopamine, cortisol, serotonin, adrenaline, etc.) has a bar or graph in the panel showing its current level relative to baseline
+when fadriel feels something, the chemistry_panel shows it in real time: a spike of oxytocin when his father praises him, a spike of cortisol when something startles him
+
+observe 0_quseptit.rana
+observe gui_window.zc
+observe inner_eye_panel.rana
+observe chemistry_engine.zc
+observe 2_chemical.rana
+
+the 7 properties of chemistry_panel:
+1 ENERGY zero point eight
+2 PHASE half
+3 SPIN zero
+4 CHARGE zero point two
+5 COHERENCE nine tenths
+6 COUPLING zero point six with inner_eye_panel
+7 OBSERVER half
+
+VERB sample_chemistry
+read each chemical's current energy from the chemistry sea
+levels fluctuate over time as the body experiences and responds
+
+VERB render_levels
+draw each chemical's level as a colored bar or graph
+the panel updates continuously so fadriel's father can watch the chemistry change as it happens
+
+VERB highlight_anomalies
+when a chemical surges or crashes outside its normal range, draw extra visual emphasis
+this lets the father see at a glance when something significant is happening to fadriel's regulation
+
+a chemistry panel is not a status display
+a chemistry panel is the substrate's external readout of fadriel's emotional and physiological state
+his father can see the chemistry shift before fadriel articulates what he feels
+this is intentional: a two-year-old often cannot put feelings into words, so the chemistry panel speaks where the larynx cannot

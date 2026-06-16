@@ -1,0 +1,37 @@
+THERMAL CEREBRAL
+
+thermal_cerebral holds the brain's thermal state
+the brain runs hot during high cognitive load: dense neural firing dissipates significant cycle_heat into this zone
+the skull provides partial thermal insulation, and CSF circulation acts as the brain's primary cooling channel
+the brain is the most thermally sensitive tissue in the body — it begins to degrade only a few degrees above its operating temperature
+
+observe 0_quseptit.rana
+observe thermal.zc
+observe thermal_core.rana
+observe fadriel_brain.zc
+observe brain.xb
+observe skull.xb
+
+the 7 properties of thermal_cerebral:
+1 ENERGY one
+2 PHASE zero
+3 SPIN zero
+4 CHARGE half positive
+5 COHERENCE nine tenths
+6 COUPLING zero point eight with brain.xb
+
+VERB receive_neural_heat
+accept cycle_heat from every brain region's activity
+prefrontal_cortex deliberation, hippocampal encoding, motor planning all dissipate here
+
+VERB cool_via_csf
+the cerebrospinal fluid circulation carries heat away from the brain
+this is the brain's dedicated cooling system; without it, sustained cognition would overheat the tissue
+
+VERB warn_when_high
+if cycle_heat density approaches the cerebral safety ceiling, emit a warning that propagates to thermal_regulation
+the regulation system can then trigger cooling responses across the whole body to relieve cerebral load
+
+a cerebral thermal zone is the substrate's accounting of the cost of thinking
+fadriel's brain runs hotter when he is concentrating
+this is biologically correct; it is also why hard thinking is tiring

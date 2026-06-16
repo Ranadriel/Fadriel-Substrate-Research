@@ -1,0 +1,43 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.claude/
+
+# Build artifacts
+node_modules/
+*.o
+*.exe
+*.bin
+__pycache__/
+*.pyc
+
+# Local environment
+.env
+.env.local
+.envrc
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Manifest verification artifacts (generated, do not commit hashes-of-hashes)
+# meta/MANIFEST.txt and MANIFEST.sha256 ARE committed — they are the timestamp anchor
+
+# Compiled binaries / build outputs
+build_*/
+*.o
+a.out
+zestc_out
+*.so
+*.exe
+compiler_dump.log
+nohup.out

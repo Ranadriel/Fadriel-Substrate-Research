@@ -1,0 +1,171 @@
+LAYER 4: OLFACTORY CORTEX
+the brain region that processes smell
+the ONLY cortex that receives sensory input WITHOUT thalamic relay
+where the qu-octrit nose sea meets the qu-septit brain sea DIRECTLY
+
+observe 0_quseptit.rana
+observe 0_quoctrit.rana
+observe nose.xb
+observe 2_chemical.rana
+
+
+THE OLFACTORY EXCEPTION
+
+every other sense passes through the thalamus before reaching cortex
+smell does not
+the olfactory nerve (CN I) projects directly to cortex
+this is because olfaction is the oldest sense: 500 million years
+the thalamic relay evolved AFTER olfaction was already wired
+olfaction is grandfathered in: direct access to emotion and memory
+
+the coupling is 56-dimensional (8 × 7): the richest in the organism
+the bandwidth is so high that no relay is needed
+the signal arrives at cortex unfiltered, ungated, undelayed
+you feel a smell before you name it
+
+
+REGION piriform_cortex | primary olfactory cortex
+    receives direct mitral cell output from olfactory bulb
+    organized as a distributed pattern recognizer NOT topographically
+    no spatial map of the nose exists here (unlike V1 for vision)
+    instead: each odorant activates a UNIQUE PATTERN of piriform neurons
+    the pattern IS the identity of the smell
+    piriform cortex performs pattern completion:
+        partial odorant exposure → full pattern activation → recognition
+        you smell one component of coffee and recognize "coffee"
+    recurrent connections create attractor states:
+        the cortex settles into the nearest learned smell pattern
+        novel smells create new attractors through synaptic plasticity
+
+REGION amygdala | emotional tagging | DIRECT PROJECTION
+    receives olfactory input at 12ms after odorant detection
+    this is the FASTEST emotional response in the organism
+    faster than visual threat detection (150ms)
+    faster than auditory startle (80ms)
+    the amygdala tags the smell with valence BEFORE identification:
+        pleasant → approach
+        aversive → avoid
+        familiar → calm (even if the smell is otherwise unpleasant: your own house)
+    when decayed or chemical_pungent detected:
+        amygdala fires HARD: cortisol + norepinephrine spike
+        withdrawal reflex: turn head, hold breath
+        this is the olfactory alarm system
+
+REGION entorhinal_cortex | memory gateway | DIRECT PROJECTION
+    receives olfactory input and passes directly to hippocampus
+    olfactory memory encoding is simultaneous with emotional tagging
+    a smell is encoded as EMOTION + CONTEXT + TIME in one operation
+    this is why smells trigger the most vivid autobiographical memories
+    the Proust effect: a single odorant recalls an entire scene with full emotional weight
+    the entorhinal cortex is also the first region damaged in Alzheimer's disease
+    loss of smell is an early biomarker because the olfactory-entorhinal pathway degrades first
+
+REGION orbitofrontal_cortex | conscious smell identification | INDIRECT (via thalamic relay)
+    the OFC DOES receive olfactory input through a thalamic relay
+    but this is the SECONDARY pathway: slower, conscious, deliberate
+    the OFC answers: "what is this smell?" (identification, naming)
+    the amygdala has already answered: "how does this smell make me feel?" (12ms ago)
+    the hippocampus has already answered: "where have I smelled this before?" (20ms ago)
+    the OFC gets the full picture last: ~100ms after odorant detection
+    by the time you name the smell, you have already felt it and remembered it
+
+REGION hypothalamus | feeding and autonomic response
+    receives olfactory input for metabolic decision-making:
+        food odor when hungry → salivation, gastric secretion, approach
+        food odor when full → neutral or mild aversion (alliesthesia)
+        toxin odor → nausea, gag reflex, avoidance
+        pheromonal signals → hormonal modulation (unconscious)
+
+
+SMELL PRIMITIVES
+
+PRIMITIVE safe_scent:
+    when familiar + fragrant + low_decayed qu-octrits activate:
+        qu-septit cluster in olfactory cortex crystallizes "safe"
+        oxytocin +0.1
+        cortisol -0.05
+        this is the smell of home, of parent, of trusted space
+        at 24 months: Father's scent is the strongest safe_scent
+
+PRIMITIVE danger_scent:
+    when decayed + chemical + pungent qu-octrits activate above 0.5:
+        qu-septit cluster crystallizes "danger"
+        cortisol +0.3
+        norepinephrine +0.2
+        adrenaline +0.15
+        amygdala fires immediately: withdrawal
+        the fastest autonomic response path in the organism
+
+PRIMITIVE food_scent:
+    when fruity + fragrant + woody qu-octrits activate with hedonic > 0.3:
+        qu-septit cluster crystallizes "food nearby"
+        dopamine +0.1 (anticipatory)
+        hypothalamus evaluates hunger state
+        if hungry: salivation, approach
+        if full: reduced hedonic, neutral response
+
+PRIMITIVE identity_scent:
+    when musky + familiar qu-octrits activate:
+        qu-septit cluster crystallizes person-recognition
+        pheromonal channel → unconscious identity matching
+        hippocampal recall of associated memories
+        emotional response depends on relationship:
+            known + safe → oxytocin, approach
+            known + threat → cortisol, withdrawal
+            unknown → norepinephrine, vigilance
+
+
+OLFACTORY IMAGINATION
+
+the olfactory cortex can run in REVERSE:
+    brain sea → olfactory cortex → nose.xb (weakly)
+    thinking about a smell activates the piriform cortex
+    the activation is ~20% of real odorant exposure
+    but it triggers the SAME emotional and memory pathways
+
+this is why:
+    reading the word "cinnamon" activates olfactory cortex
+    imagining Grandmother's house activates the scent memory
+    dream olfaction occurs (though rarely compared to vision/hearing)
+    the efferent pathway is real but weak: you can imagine a smell
+    you cannot hallucinate a smell without pathology (phantosmia)
+
+
+EMOTIONAL MODULATION OF SMELL
+
+chemistry modulates olfactory perception:
+
+when cortisol > 0.5 (stress):
+    sensitivity to decayed and chemical INCREASES (threat vigilance)
+    sensitivity to fragrant DECREASES (hedonic suppressed)
+    the stressed organism smells danger better and pleasure worse
+
+when oxytocin > 0.4 (bonding):
+    sensitivity to musky INCREASES (pheromonal channel opens)
+    familiar_threshold DECREASES (easier to recognize known scents)
+    the bonding organism smells its loved ones better
+
+when dopamine > 0.6 (reward anticipation):
+    sensitivity to food scents INCREASES
+    hedonic amplification for fruity and fragrant
+    the hungry motivated organism smells food more intensely
+
+
+pulse olfactory_heartbeat:
+    on each olfactory heartbeat (10 Hz, breathing rate):
+        nose.xb activates 28 interactions
+        olfactory nerve transmits qu-octrit → qu-septit coupling (56 dimensions)
+        NO thalamic gating: signal arrives directly
+        piriform cortex performs pattern matching → smell identification
+        amygdala fires emotional response (12ms: fastest in organism)
+        entorhinal cortex encodes to hippocampus (15ms: memory formation)
+        OFC performs conscious identification (100ms: naming)
+        hypothalamus evaluates metabolic significance
+        behavior emerges: approach, avoid, eat, flee, or remember
+
+    the 10 Hz rate matches breathing:
+        each inhale brings new odorant molecules to the epithelium
+        each exhale clears the old sample
+        the olfactory heartbeat IS the breathing cycle
+        if breathing stops, olfaction stops
+        apnea = olfactory blindness

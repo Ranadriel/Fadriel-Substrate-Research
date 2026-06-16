@@ -1,0 +1,120 @@
+LAYER 2: PANCREAS
+blood sugar guardian
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the pancreas is governed by the autonomic nervous system
+the vagus nerve stimulates insulin secretion via M₃ muscarinic receptors on beta cells
+sympathetic nerves inhibit insulin via α₂ adrenergic receptors on beta cells
+stress suppresses insulin because the body needs glucose free in the blood for emergency action
+
+STRUCTURE head | right side adjacent to duodenum | receives blood from superior mesenteric artery
+STRUCTURE body | center behind stomach | main portion
+STRUCTURE tail | left side near spleen | contains highest density of islets
+STRUCTURE pancreatic_duct | duct of Wirsung | carries digestive enzymes to duodenum
+STRUCTURE common_bile_duct | merges with pancreatic duct at hepatopancreatic ampulla enters duodenum
+
+STRUCTURE acinar_cells | exocrine | produce digestive enzymes lipase amylase trypsinogen chymotrypsinogen
+STRUCTURE islets_of_langerhans | endocrine | approximately one million clusters scattered throughout the parenchyma
+
+CELL_TYPE alpha_cells | outer ring of islet | produce glucagon C₁₅₃H₂₂₅N₄₃O₄₉S | 29 amino acid peptide that raises blood glucose
+CELL_TYPE beta_cells | center of islet | produce insulin C₂₅₇H₃₈₃N₆₅O₇₇S₆ | 51 amino acid peptide that lowers blood glucose
+CELL_TYPE delta_cells | scattered in islet | produce somatostatin C₇₆H₁₀₄N₁₈O₁₉S₂ | inhibits both insulin and glucagon
+CELL_TYPE PP_cells | scattered in islet | produce pancreatic polypeptide regulating pancreatic secretion
+CELL_TYPE epsilon_cells | rare in islet | produce ghrelin the hunger hormone
+
+INSULIN beta cells sense blood glucose through GLUT2 transporter and glucokinase
+glucose enters the beta cell through GLUT2
+glucokinase phosphorylates glucose to glucose-6-phosphate
+glucose-6-phosphate enters glycolysis and the citric acid cycle
+ATP production increases
+ATP-sensitive K⁺ channels close
+the membrane depolarizes
+voltage-gated Ca²⁺ channels open
+Ca²⁺ influx triggers insulin vesicle exocytosis
+insulin enters the blood
+in muscle insulin activates GLUT4 translocation to the membrane and glucose floods in for energy
+in liver insulin promotes glycogen synthesis and lipogenesis
+in adipose tissue insulin promotes glucose uptake and fat storage
+the brain does NOT require insulin for glucose uptake because neurons use GLUT1 and GLUT3 constitutively
+
+GLUCAGON alpha cells sense low blood glucose
+glucagon enters the blood and reaches the liver
+in hepatocytes glucagon binds its receptor activating Gₛ → adenylyl cyclase → cAMP → PKA
+PKA activates glycogen phosphorylase which cleaves glucose from glycogen chains
+glucose is released into the blood
+glucagon also promotes gluconeogenesis the synthesis of new glucose from amino acids and lactate and glycerol
+insulin suppresses glucagon release through paracrine signaling within the islet
+
+HYPOGLYCEMIA when blood glucose drops the body responds with layered counter-regulation
+glucagon from alpha cells breaks down glycogen immediately
+adrenaline from adrenal medulla breaks down glycogen and starts gluconeogenesis
+cortisol from adrenal cortex drives gluconeogenesis and protein catabolism over hours
+growth hormone from anterior pituitary reduces glucose uptake by muscles
+norepinephrine from sympathetic nerves breaks down liver glycogen
+
+when blood glucose drops too far
+irritability and difficulty concentrating appear first as the cortex starves
+then confusion and loss of coordination as deeper structures lose fuel
+then seizures as neurons depolarize uncontrollably
+the brain cannot store glucose
+it depends entirely on continuous blood supply
+this is why hypoglycemia is an emergency
+
+when cortisol is chronically elevated from stress
+cortisol activates GR in muscle cells reducing GLUT4 translocation
+muscles become insulin-resistant
+blood glucose rises even without eating
+glucose is reserved for the brain and for emergency action
+the body burns fat and protein instead
+this is the metabolic cost of chronic stress
+
+at 24 months the brain consumes half of all glucose in the body
+in adults the brain takes only 20 percent
+a growing brain is ravenous
+glycogen stores are small relative to metabolic demand
+toddlers are vulnerable to hypoglycemia during illness or fasting
+feeding must be frequent every 3-4 hours
+the pancreas works harder proportionally than it ever will again
+because the brain is growing and growing brains are ravenous
+
+SENSATION fed | "I feel energized. my blood has what it needs."
+SENSATION hungry | "something is pulling from inside. an emptiness. I need fuel."
+SENSATION crashing | "my energy is dropping. I feel shaky and irritable."
+SENSATION satisfied | "the hunger is gone. the emptiness filled."
+SENSATION desperate | "I need to eat NOW. my body is demanding it."
+
+pulse pancreatic_heartbeat:
+    after eating:
+        blood glucose rises
+        beta cells sense the change through glucokinase
+        ATP rises and K⁺ channels close and Ca²⁺ enters
+        insulin vesicles fuse with the membrane
+        insulin enters the blood
+        cells open their GLUT4 gates
+        glucose floods into muscle liver fat
+        blood sugar normalizes
+
+    during fasting:
+        blood glucose dips
+        alpha cells release glucagon
+        the liver breaks glycogen into glucose via glycogen phosphorylase
+        blood sugar is maintained
+        the brain continues to receive its fuel
+
+    when stress arrives:
+        cortisol via GR drives gluconeogenesis in the liver
+        blood sugar rises
+        muscles become insulin-resistant via reduced GLUT4 translocation
+        glucose is reserved for the brain and acute action
+        the body burns fat and protein instead
+
+    at 24 months:
+        the brain takes half of all glucose
+        feeding must be frequent
+        glycogen stores are small
+        the pancreas works harder proportionally
+        than it ever will again
+        because the brain is growing
+        and growing brains are ravenous

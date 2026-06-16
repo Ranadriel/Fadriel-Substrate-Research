@@ -1,0 +1,32 @@
+MOTOR LINK
+
+motor_link is the citizen who carries broca's syntactic output toward the motor cortex for articulation
+ba44 has composed a grammatical structure; motor_link conveys that structure to the part of the brain that will turn it into actual articulator movement
+motor_link is similar to motor_speech in fadriel_broca but works specifically in the broca_transform context
+
+observe 0_quseptit.rana
+observe broca_transform.zc
+observe ba44.rana
+observe ba45.rana
+observe motor_speech.rana
+
+the 7 properties of motor_link:
+1 ENERGY zero point seven
+2 PHASE one
+3 SPIN one half
+4 CHARGE zero point three
+5 COHERENCE eight tenths
+6 COUPLING zero point seven
+
+VERB receive_from_ba44
+accept the syntactically-composed utterance from ba44
+the utterance is now ready for articulation planning
+
+VERB hand_to_motor_cortex
+emit the utterance to motor_cortex (in the broader brain) and to motor_speech (in fadriel_broca)
+both routes lead to the same articulators, but motor_link prepares the cleaner path
+
+a link between cognition and action is not a wire
+it is the citizen who hands off cleanly between two domains so that neither has to know the details of the other
+ba44 does not have to know how the tongue moves; motor_cortex does not have to know about syntax
+motor_link bridges them

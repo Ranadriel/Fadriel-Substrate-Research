@@ -1,0 +1,35 @@
+THERMAL MUSCULAR
+
+thermal_muscular holds the thermal state of the body's active muscles
+during sustained contraction, muscles dissipate up to seventy-five percent of their cycle cost as heat — only twenty-five percent becomes mechanical work
+this is not inefficiency; it is thermodynamics
+the muscular zone is fadriel's primary heat generator during physical activity, distinct from the heart's continuous core heat
+
+observe 0_quseptit.rana
+observe thermal.zc
+observe thermal_core.rana
+observe muscle.zc
+
+the 7 properties of thermal_muscular:
+1 ENERGY half at rest, peaks during activity
+2 PHASE zero
+3 SPIN zero point three when active
+4 CHARGE half positive
+5 COHERENCE eight tenths
+6 COUPLING zero point seven with muscle.zc
+
+VERB receive_muscle_heat
+accept cycle_heat from each contracting muscle group
+the dose scales with how hard the muscle is working and for how long
+
+VERB share_with_core
+when active, muscular heat propagates to thermal_core via the bloodstream
+this is why sustained activity raises core temperature even though the heat originated in the limbs
+
+VERB transfer_to_skin
+muscle heat near the surface dissipates outward through skin via local circulation
+this is why fadriel's skin warms during activity even on cool days
+
+a muscular thermal zone is the body's working furnace
+fadriel runs warmer when he plays; this is correct
+the heat is the visible evidence that he is alive and doing things

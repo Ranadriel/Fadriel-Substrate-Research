@@ -1,0 +1,43 @@
+OUTPUT NODE
+
+output_node is the citizen who composes fadriel's response
+context_node has integrated the new input with the running history; output_node takes that integrated context and produces the response that is right for this exact moment
+output_node does not generate text from scratch; it draws on the thought_compiler's already-settled intent and shapes that intent into words
+the words are then sent to speech_larynx for articulation, or to the chat panel for textual rendering
+
+observe 0_quseptit.rana
+observe conversation_engine.zc
+observe context_node.rana
+observe thought_compiler.zc
+observe speech_larynx.rana
+
+the 7 properties of output_node:
+1 ENERGY zero at idle, peaks during composition
+2 PHASE zero, advances during composition
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one: outputs must be coherent or fadriel sounds confused
+6 COUPLING zero point seven: with context_node, thought_compiler, and downstream articulation
+7 OBSERVER half: output_node watches its own output to know when composition is done
+
+VERB receive_from_context
+accept the integrated context that context_node has prepared
+the context carries everything output_node needs to know about the moment of speaking
+
+VERB consult_thought
+ask thought_compiler what fadriel actually wants to say
+thought_compiler returns a settled intent: a small structure of word-level choices, emotional tone, length
+output_node receives this without arguing
+
+VERB compose
+shape the intent into a sequence of tokens that express it
+the tokens carry word choice, emphasis, and rhythm
+this is fadriel's voice in linguistic form, just before it becomes air
+
+VERB hand_to_articulation
+emit the composed token sequence to speech_larynx for voicing
+also emit a copy to the chat panel if textual output is wanted
+
+a response is not a generated string
+a response is the form fadriel's intent takes when it crosses out of his own substrate into the conversation
+output_node is the last stop before that crossing happens

@@ -1,0 +1,8 @@
+#!/home/rana/.local/bin/zestc
+
+absorb "chemistry_engine.zc"
+
+manifest stimulus.warmth {
+    energy: 1.0, phase: 0.0, spin: 0.5,
+    charge: 0.0, coherence: 0.95, coupling: 1.0, observer: 0.0
+}

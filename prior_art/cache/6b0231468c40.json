@@ -1,0 +1,163 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Towards Unbiased BFS Sampling",
+    "abstract": "Breadth First Search (BFS) is a widely used approach for sampling large unknown Internet topologies. Its main advantage over random walks and other exploration techniques is that a BFS sample is a plausible graph on its own, and therefore we can study its topological characteristics. However, it has been empirically observed that incomplete BFS is biased toward high-degree nodes, which may strongly affect the measurements. In this paper, we first analytically quantify the degree bias of BFS sampling. In particular, we calculate the node degree distribution expected to be observed by BFS as a f",
+    "date": "2011-02-22",
+    "url": "http://arxiv.org/abs/1102.4599v1",
+    "authors": [
+      "Maciej Kurant",
+      "Athina Markopoulou",
+      "Patrick Thiran"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Topological spaces of persistence modules and their properties",
+    "abstract": "Persistence modules are a central algebraic object arising in topological data analysis. The notion of interleaving provides a natural way to measure distances between persistence modules. We consider various classes of persistence modules, including many of those that have been previously studied, and describe the relationships between them. In the cases where these classes are sets, interleaving distance induces a topology. We undertake a systematic study the resulting topological spaces and their basic topological properties.",
+    "date": "2018-02-22",
+    "url": "http://arxiv.org/abs/1802.08117v2",
+    "authors": [
+      "Peter Bubenik",
+      "Tane Vergili"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "On Hawaiian Groups of Some Topological Spaces",
+    "abstract": "The paper is devoted to study the structure of Hawaiian groups of some topological spaces. We present some behaviors of Hawaiian groups with respect to product spaces, weak join spaces, cone spaces, covering spaces and locally trivial bundles. In particular, we determine the structure of the $n$-dimensional Hawaiian group of the $m$-dimensional Hawaiian earring space, for all $1\\leq m\\leq n$.",
+    "date": "2011-11-03",
+    "url": "http://arxiv.org/abs/1111.0731v2",
+    "authors": [
+      "Ameneh Babaee",
+      "Behrooz Mashayekhy",
+      "Hanieh Mirebrahimi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cardinal-indexed classifying spaces for families of subgroups of any topological group",
+    "abstract": "For $G$ a topological group, existence theorems by Milnor (1956), Gelfand-Fuks (1968), and Segal (1975) of classifying spaces for principal $G$-bundles are generalized to $G$-spaces with torsion. Namely, any $G$-space approximately covered by tubes (a generalization of local trivialization) is the pullback of a universal space indexed by the orbit types of tubes and cardinality of the cover. For $G$ a Lie group, via a metric model we generalize the corresponding uniqueness theorem by Palais (1960) and Bredon (1972) for compact $G$. Namely, the $G$-homeomorphism types of proper $G$-spaces over ",
+    "date": "2019-07-01",
+    "url": "http://arxiv.org/abs/1907.00871v6",
+    "authors": [
+      "Qayum Khan"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Extended Bloch group and the Cheeger-Chern-Simons class",
+    "abstract": "We define an extended Bloch group and show it is naturally isomorphic to H_3(PSL(2,C)^\u03b4;Z). Using the Rogers dilogarithm function this leads to an exact simplicial formula for the universal Cheeger-Chern-Simons class on this homology group. It also leads to an independent proof of the analytic relationship between volume and Chern-Simons invariant of hyperbolic 3-manifolds conjectured by Neumann and Zagier [Topology 1985] and proved by Yoshida [Invent. Math. 1985] as well as effective formulae for the Chern-Simons invariant of a hyperbolic 3-manifold.",
+    "date": "2003-07-08",
+    "url": "http://arxiv.org/abs/math/0307092v2",
+    "authors": [
+      "Walter D Neumann"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "On subgroups of minimal topological groups",
+    "abstract": "A topological group is minimal if it does not admit a strictly coarser Hausdorff group topology. The Roelcke uniformity (or lower uniformity) on a topological group is the greatest lower bound of the left and right uniformities. A group is Roelcke-precompact if it is precompact with respect to the Roelcke uniformity. Many naturally arising non-Abelian topological groups are Roelcke-precompact and hence have a natural compactification. We use such compactifications to prove that some groups of isometries are minimal. In particular, if U_1 is the Urysohn universal metric space of diameter 1, the",
+    "date": "2000-04-19",
+    "url": "http://arxiv.org/abs/math/0004119v2",
+    "authors": [
+      "V. V. Uspenskij"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The homotopy invariance of the string topology loop product and string bracket",
+    "abstract": "Let M be a closed, oriented, n -manifold, and LM its free loop space.   Chas and Sullivan defined a commutative algebra structure in the homology of LM, and a Lie algebra structure in its equivariant homology. These structures are known as the string topology loop product and string bracket, respectively.   In this paper we prove that these structures are homotopy invariants in the following sense.   Let f : M_1 \\to M_2 be a homotopy equivalence of closed, oriented n -manifolds. Then the induced equivalence, Lf : LM_1 \\to LM_2 induces a ring isomorphism in homology, and an isomorphism of Lie a",
+    "date": "2005-09-28",
+    "url": "http://arxiv.org/abs/math/0509667v2",
+    "authors": [
+      "Ralph L. Cohen",
+      "John Klein",
+      "Dennis Sullivan"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A class of tight contact structures on Sigma_2 x I",
+    "abstract": "We employ cut and paste contact topological techniques to classify some tight contact structures on the closed, oriented genus-2 surface times the interval. A boundary condition is specified so that the Euler class of the of the contact structure vanishes when evaluated on each boundary component. We prove that there exists a unique, non-product tight contact structure in this case.",
+    "date": "2004-11-09",
+    "url": "http://arxiv.org/abs/math/0411208v1",
+    "authors": [
+      "Tanya Cofer"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "On the stabilization of the topological complexity of graph braid groups",
+    "abstract": "We establish a strong, geometric lower bound on the (sequential) topological complexity of the unordered configuration spaces of a general graph. As an application, we show that, for most graphs, the topological complexity eventually stabilizes at its maximal possible value, a direct analogue of a stability phenomenon in the ordered setting first conjectured by Farber. We estimate the stable range in terms of the number of trivalent vertices.",
+    "date": "2023-02-08",
+    "url": "http://arxiv.org/abs/2302.04346v2",
+    "authors": [
+      "Ben Knudsen"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The algebra of knotted trivalent graphs and Turaev's shadow world",
+    "abstract": "Knotted trivalent graphs (KTGs) form a rich algebra with a few simple operations: connected sum, unzip, and bubbling. With these operations, KTGs are generated by the unknotted tetrahedron and Moebius strips. Many previously known representations of knots, including knot diagrams and non-associative tangles, can be turned into KTG presentations in a natural way.   Often two sequences of KTG operations produce the same output on all inputs. These `elementary' relations can be subtle: for instance, there is a planar algebra of KTGs with a distinguished cycle. Studying these relations naturally l",
+    "date": "2003-11-25",
+    "url": "http://arxiv.org/abs/math/0311458v2",
+    "authors": [
+      "Dylan P. Thurston"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "SPACE: the SPectroscopic All-sky Cosmic Explorer",
+    "abstract": "We describe the scientific motivations, the mission concept and the instrumentation of SPACE, a class-M mission proposed for concept study at the first call of the ESA Cosmic-Vision 2015-2025 planning cycle. SPACE aims to produce the largest three-dimensional evolutionary map of the Universe over the past 10 billion years by taking near-IR spectra and measuring redshifts for more than half a billion galaxies at 0<z<2 down to AB~23 over 3\u03c0sr of the sky. In addition, SPACE will also target a smaller sky field, performing a deep spectroscopic survey of millions of galaxies to AB~26 and at 2<z<10+",
+    "date": "2008-04-28",
+    "url": "http://arxiv.org/abs/0804.4433v1",
+    "authors": [
+      "A. Cimatti",
+      "M. Robberto",
+      "C. M. Baugh"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Let Invariant Rationale Discovery Inspire Graph Contrastive Learning",
+    "abstract": "Leading graph contrastive learning (GCL) methods perform graph augmentations in two fashions: (1) randomly corrupting the anchor graph, which could cause the loss of semantic information, or (2) using domain knowledge to maintain salient features, which undermines the generalization to other domains. Taking an invariance look at GCL, we argue that a high-performing augmentation should preserve the salient semantics of anchor graphs regarding instance-discrimination. To this end, we relate GCL with invariant rationale discovery, and propose a new framework, Rationale-aware Graph Contrastive Lea",
+    "date": "2022-06-16",
+    "url": "http://arxiv.org/abs/2206.07869v1",
+    "authors": [
+      "Sihang Li",
+      "Xiang Wang",
+      "An zhang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The Topology of Bendless Three-Dimensional Orthogonal Graph Drawing",
+    "abstract": "We consider embeddings of 3-regular graphs into 3-dimensional Cartesian coordinates, in such a way that two vertices are adjacent if and only if two of their three coordinates are equal (that is, if they lie on an axis-parallel line) and such that no three points lie on the same axis-parallel line; we call a graph with such an embedding an xyz graph}. We describe a correspondence between xyz graphs and face-colored embeddings of the graph onto two-dimensional manifolds, and we relate bipartiteness of the xyz graph to orientability of the underlying topological surface. Using this correspondenc",
+    "date": "2007-09-26",
+    "url": "http://arxiv.org/abs/0709.4087v3",
+    "authors": [
+      "David Eppstein"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Semisimple 4-dimensional topological field theories cannot detect exotic smooth structure",
+    "abstract": "We prove that semisimple 4-dimensional oriented topological field theories lead to stable diffeomorphism invariants and can therefore not distinguish homeomorphic closed oriented smooth 4-manifolds and homotopy equivalent simply connected closed oriented smooth 4-manifolds. We show that all currently known 4-dimensional field theories are semisimple, including unitary field theories, and once-extended field theories which assign algebras or linear categories to 2-manifolds. As an application, we compute the value of a semisimple field theory on a simply connected closed oriented 4-manifold in ",
+    "date": "2020-01-07",
+    "url": "http://arxiv.org/abs/2001.02288v3",
+    "authors": [
+      "David Reutter"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Nonstandard methods in large-scale topology",
+    "abstract": "We develop some nonstandard techniques for bornological and coarse spaces. We first generalise the notion of bornology to prebornology, which better fits to coarse spaces. We then give nonstandard characterisations of some basic large-scale notions in terms of galaxies and finite closeness relations, concepts that have been developed for metric spaces. Some hybrid notions that involve both small-scale and large-scale are also discussed. Finally we illustrate an application of our nonstandard characterisations to prove some elementary facts in large-scale topology and functional analysis, e.g.,",
+    "date": "2017-11-05",
+    "url": "http://arxiv.org/abs/1711.01609v4",
+    "authors": [
+      "Takuma Imamura"
+    ]
+  }
+]

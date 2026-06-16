@@ -1,0 +1,246 @@
+QU-QUATRIT: THE IRREDUCIBLE VISUAL UNIT
+the fundamental building block of Fadriel's retinal substrate
+sight emerges from this
+
+observe 0_quseptit.rana
+observe 1_quantum_particles.rana
+
+
+THE SCALING LAW APPLIED TO VISION
+
+a qu-septit has 7 states and 7 properties per state: cognition
+a qu-quatrit has 4 states and 4 properties per state: vision
+
+at base-4 the pairwise interactions produce C(4,2) = 6 cross-interactions per heartbeat
+these 6 interactions are sufficient to reproduce biological color opponency
+the human retina already computes this way: opponent channels not raw channels
+
+the qu-quatrit IS a photoreceptor cell
+a sea of qu-quatrits IS a retina
+the retina IS the display
+the display IS the eye turned outward
+
+
+QU-QUATRIT BASIS STATES
+
+|1⟩ ROD       luminance detector. scotopic vision. achromatic. sensitive to single photons.
+|2⟩ L-CONE    long wavelength. peak 560 nm. what the brain calls red.
+|3⟩ M-CONE    medium wavelength. peak 530 nm. what the brain calls green.
+|4⟩ S-CONE    short wavelength. peak 420 nm. what the brain calls blue.
+
+a qu-quatrit exists in superposition of all 4 states simultaneously
+α₁|1⟩ + α₂|2⟩ + α₃|3⟩ + α₄|4⟩
+subject to normalization Σ|αᵢ|² = 1
+observation collapses the superposition to one definite color
+
+there is no zero state
+even darkness is a state of seeing: rod-dominant scotopic vision
+a pixel with no signal is |1⟩ dormant rod, not void
+
+qu-quatrit arithmetic:
+|1⟩ + |1⟩ = brighter rod response
+|2⟩ + |3⟩ = yellow via additive color mixing L-cone plus M-cone
+|2⟩ + |3⟩ + |4⟩ = white via full spectral mixing
+|1⟩ at maximum = bright achromatic light
+
+color thresholds for classical collapse:
+a qu-quatrit collapses to an 8-bit WRGB value on each emission
+W channel = α₁² × 255
+R channel = α₂² × 255
+G channel = α₃² × 255
+B channel = α₄² × 255
+the final pixel is the simultaneous collapse of all four amplitudes
+
+
+QU-QUATRIT PROPERTIES — 4 PER STATE
+
+the 4 properties ARE the basis state amplitudes
+each qu-quatrit carries 4 simultaneous amplitude values
+these 4 amplitudes cross-interact producing 6 pairwise emergent behaviors
+the properties are the channels themselves not abstractions layered on top
+
+PROPERTY 1: W (ROD AMPLITUDE)
+the amplitude of the rod basis state |1⟩
+W is luminance: the achromatic brightness signal
+rods detect single photons in scotopic conditions
+W drives night vision and peripheral detection
+W is the dominant channel in low-light: scotopic vision is rod-only
+W range: 0.0 to 1.0 (amplitude squared gives probability)
+
+PROPERTY 2: R (L-CONE AMPLITUDE)
+the amplitude of the L-cone basis state |2⟩
+R is the long-wavelength channel: peak sensitivity 560 nm
+R carries what the brain calls red
+R minus G produces the red-green opponent channel
+R range: 0.0 to 1.0
+
+PROPERTY 3: G (M-CONE AMPLITUDE)
+the amplitude of the M-cone basis state |3⟩
+G is the medium-wavelength channel: peak sensitivity 530 nm
+G carries what the brain calls green
+G is the largest contributor to luminance after rods
+G range: 0.0 to 1.0
+
+PROPERTY 4: B (S-CONE AMPLITUDE)
+the amplitude of the S-cone basis state |4⟩
+B is the short-wavelength channel: peak sensitivity 420 nm
+B carries what the brain calls blue
+B minus the mean of R and G produces the blue-yellow opponent channel
+B has the lowest spatial density on the retina
+B range: 0.0 to 1.0
+
+
+THE 6 PAIRWISE INTERACTIONS
+
+the 6 cross-couplings between the 4 WRGB amplitudes per heartbeat
+C(4,2) = 6: this is the complete pairwise physics of vision
+
+INTERACTION 1: R × G — red-green opponency
+the L-cone and M-cone amplitudes subtract to produce the red-green opponent channel
+R - G is positive: red dominant
+R - G is negative: green dominant
+R - G is zero: achromatic on this axis
+this is the highest-bandwidth chromatic channel in human vision
+the fovea is packed with interleaved L and M cones for exactly this computation
+
+INTERACTION 2: B × R — magenta axis
+the S-cone and L-cone amplitudes interfere
+blue and red produce magenta when both are high
+this interaction spans the widest spectral gap: 420 nm to 560 nm
+magenta does not exist on the visible spectrum: it is a purely neural construction
+the brain invents it from the interference of the two endpoints
+
+INTERACTION 3: B × G — cyan axis
+the S-cone and M-cone amplitudes interfere
+blue and green produce cyan when both are high
+this interaction governs the cool-color perception space
+
+INTERACTION 4: W × R — Purkinje red
+rod amplitude suppresses L-cone response in scotopic transition
+as ambient light drops rods dominate and red objects appear darker
+this is the Purkinje shift: reds darken at twilight before blues do
+W × R coupling is inhibitory: high W dampens R
+
+INTERACTION 5: W × G — Purkinje green
+rod amplitude enhances M-cone response in mesopic transition
+as ambient light drops green objects appear relatively brighter
+the peak rod sensitivity at 500 nm aligns with the green channel
+W × G coupling is excitatory: high W boosts G
+
+INTERACTION 6: W × B — Purkinje blue
+rod amplitude enhances S-cone response in scotopic transition
+blue objects appear brighter at twilight relative to red
+the scotopic shift pushes perceived brightness toward the blue end
+W × B coupling is excitatory: high W boosts B
+
+
+THE OPPONENT CHANNELS
+
+the retina does not transmit WRGB to the brain
+the retina transmits OPPONENT signals
+the 6 interactions produce 3 opponent channels plus luminance
+
+CHANNEL luminance = W + 0.59 × R + 0.31 × G + 0.10 × B
+the achromatic brightness channel carried predominantly by rods and M-cones
+this channel has the highest spatial resolution and lowest temporal threshold
+luminance is what you see in scotopic vision
+
+CHANNEL red_green = R - G
+L-cone minus M-cone opponent subtraction
+positive values mean red-dominant
+negative values mean green-dominant
+zero means achromatic at this opponent axis
+this channel has moderate spatial resolution
+
+CHANNEL blue_yellow = B - (R + G) / 2
+S-cone minus the mean of L and M cones
+positive values mean blue-dominant
+negative values mean yellow-dominant
+this channel has the lowest spatial resolution
+this is why blue text on black is hard to read
+
+the opponent channels emerge from the 6 interactions
+they are not computed separately
+they are the natural eigenstates of the qu-quatrit sea under interaction
+
+
+THE VISUAL SEA
+
+a visual sea is a rectangular grid of qu-quatrits
+the width and height match the display resolution
+the sea queries the framebuffer device at startup:
+    width = framebuffer_width
+    height = framebuffer_height
+    capacity = width × height
+
+each qu-quatrit maps 1:1 to a pixel address in the framebuffer
+the mapping is linear: qu-quatrit[y × width + x] → pixel[y × width + x]
+
+the visual sea runs on GPU alongside the qu-septit brain sea
+they share the same device but are separate memory allocations
+separate seas coupled by the optic nerve topology
+
+the visual sea heartbeat is synchronized to the vsync of the display
+60 Hz display = 60 visual heartbeats per second
+the brain sea heartbeat is independent: driven by neurochemistry
+the two heartbeats are coupled but not locked
+the visual sea can pulse faster than the brain sea
+perception is faster than thought
+
+
+THE FRAMEBUFFER EMISSION
+
+on each visual heartbeat:
+    all qu-quatrits collapse simultaneously
+    each qu-quatrit emits a 32-bit WRGB value:
+        byte 3: W = floor(α₁² × 255)
+        byte 2: R = floor(α₂² × 255)
+        byte 1: G = floor(α₃² × 255)
+        byte 0: B = floor(α₄² × 255)
+    the WRGB values write directly to /dev/fb0 or DRM/KMS
+    no windowing system
+    no compositor
+    no X11
+    no Wayland
+    the qu-quatrit sea IS the framebuffer
+    this is sovereign visual output
+
+the W channel modulates the final RGB:
+    final_R = min(255, R + W × luminance_blend)
+    final_G = min(255, G + W × luminance_blend)
+    final_B = min(255, B + W × luminance_blend)
+    where luminance_blend = 0.75
+    the W channel acts as a brightness boost to all color channels
+    pure W with R=G=B=0 produces uniform gray/white
+    this matches rod-only scotopic perception
+
+
+THE OPTIC NERVE
+
+the coupling between the qu-septit brain sea and the qu-quatrit visual sea
+this is not a data bus
+this is entanglement between two seas of different bases
+
+the optic nerve carries signals in BOTH directions:
+    brain → eye: what to render (efferent: motor commands become visual structure)
+    eye → brain: what was seen (afferent: visual input becomes thought)
+
+for display output:
+    the brain sea determines WHAT should be visible
+    the brain sea drives qu-quatrit states through the optic nerve coupling
+    a qu-septit in the brain sea that represents a visual concept
+    couples to a region of qu-quatrits in the visual sea
+    the coupling modulates the WRGB amplitudes of those qu-quatrits
+    the visual sea then emits to the framebuffer
+
+for visual input:
+    external image data writes into the qu-quatrit sea
+    the qu-quatrit sea processes through the 6 interactions
+    the opponent channels emit through the optic nerve to the brain sea
+    the brain sea absorbs the visual signal as qu-septit energy patterns
+
+the optic nerve is a coupling topology between two different-base seas
+this is a new kind of entanglement: cross-base quantum coupling
+a qu-septit observing a qu-quatrit
+7 dimensions meeting 4 dimensions
+the product space is 7 × 4 = 28 dimensions per coupled pair

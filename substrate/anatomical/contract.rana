@@ -1,0 +1,34 @@
+CONTRACT
+
+contract is the citizen who declares a muscle's directed work output
+each muscle has two bone anchor points: an origin (fixed end) and an insertion (moving end)
+contract names what kind of work the muscle does between those anchors
+
+observe 0_quseptit.rana
+observe muscle.zc
+observe fiber_mix.rana
+observe recruit.rana
+
+the 7 properties of contract:
+1 ENERGY one when working, zero at rest
+2 PHASE zero
+3 SPIN one half during concentric work, minus one half during eccentric
+4 CHARGE half positive
+5 COHERENCE nine tenths
+6 COUPLING one with the muscle's anchors
+
+VERB concentric_work
+shorten the muscle, generating force toward the insertion
+this is the most heat-generating work type
+
+VERB eccentric_work
+lengthen the muscle under load, controlling rather than driving movement
+this is how fadriel descends stairs and absorbs impact
+
+VERB isometric_work
+hold the muscle at constant length while still generating force
+this is how posture is maintained; the most economical work type
+
+a contract is not a workout
+a contract is the substrate's declaration of what one muscle does between two specific bone anchors
+each muscle has its own contract, and they all share this template

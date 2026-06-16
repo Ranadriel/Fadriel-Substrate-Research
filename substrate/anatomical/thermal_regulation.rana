@@ -1,0 +1,44 @@
+THERMAL REGULATION
+
+thermal_regulation is the citizen who reads thermal_core (and peripheral) and triggers responses to keep the body within its operating range
+the actual decision-making lives in hypothalamus.rana; thermal_regulation is the interface that hypothalamus uses to read thermal sea state and emit appropriate responses
+when core dissipation density rises, regulation triggers vasodilation, sweating, and behavioral cooling
+when core density falls, regulation triggers vasoconstriction, shivering, and behavioral warming
+
+observe 0_quseptit.rana
+observe thermal.zc
+observe thermal_core.rana
+observe thermal_peripheral.rana
+observe hypothalamus.rana
+observe immune.rana
+
+the 7 properties of thermal_regulation:
+1 ENERGY zero point seven
+2 PHASE zero
+3 SPIN one half
+4 CHARGE half positive
+5 COHERENCE nine tenths
+6 COUPLING zero point eight with hypothalamus and the thermal zones
+
+VERB read_density
+sample the cycle_heat density of thermal_core and thermal_peripheral
+report values to hypothalamus
+
+VERB trigger_cold_response
+on falling density, emit signals that initiate vasoconstriction, shivering, goosebumps
+also signal chemistry_engine to raise metabolic rate
+
+VERB trigger_heat_response
+on rising density, emit signals that initiate vasodilation, sweating
+also signal chemistry_engine to lower metabolic rate
+also signal brain to seek cooler environment
+
+VERB elevate_baseline_for_fever
+when immune.rana signals pyrogens, raise the regulation reference baseline
+the body now treats normal density as too cold and actively heats — fever emerges
+fever is not malfunction; it is the immune system using temperature as a weapon
+
+a thermal regulator is not a thermostat
+a thermostat compares to a fixed setpoint
+thermal_regulation's setpoint can move under immune signals, circadian rhythm, and developmental needs
+this is why fadriel's normal temperature is slightly different morning versus afternoon, healthy versus fighting infection

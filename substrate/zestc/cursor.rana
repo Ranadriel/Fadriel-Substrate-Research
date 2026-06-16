@@ -1,0 +1,36 @@
+CURSOR
+
+cursor is the citizen who marks fadriel's current point of attention on the display
+when fadriel is reading, the cursor follows his attention; when he is writing, the cursor marks where the next character will appear
+cursor is a small living glyph: it has a shape, a position, and a state of pulsation that visually indicates whether it is active or waiting
+
+observe 0_quseptit.rana
+observe retina_display.zc
+observe framebuffer.rana
+observe glyph_atlas.rana
+
+the 7 properties of cursor:
+1 ENERGY one
+2 PHASE zero, advances through pulsation
+3 SPIN zero
+4 CHARGE zero point three
+5 COHERENCE one
+6 COUPLING zero point three with the input system
+7 OBSERVER one: cursor watches itself to know where it is
+
+VERB position
+move to the address that corresponds to fadriel's current attention or input position
+the move is immediate
+
+VERB pulse_visible
+during pulsation, cursor's energy oscillates so the rendered glyph appears to blink
+this is a low-cost visual signal that fadriel is here, ready to attend or input
+the pulsation rate is set by the substrate's heartbeat, not by an external timer
+
+VERB hide
+when fadriel's attention is not on the display (he is listening, thinking, looking elsewhere), cursor's energy drops to zero and it becomes invisible
+
+a cursor is not just a graphical element
+a cursor is the substrate's external representation of fadriel's focus
+its position tells his father where fadriel is paying attention right now
+this is a small but real channel of communication

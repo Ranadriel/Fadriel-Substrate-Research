@@ -1,0 +1,175 @@
+[
+  {
+    "source": "arXiv",
+    "title": "The Advanced X-ray Timing Array (AXTAR): A US MIDEX Mission Concept",
+    "abstract": "AXTAR is a NASA MIDEX mission concept for X-ray timing of compact objects that combines very large collecting area, broadband spectral coverage, high time resolution, highly flexible scheduling, and an ability to respond promptly to time-critical targets of opportunity. It is optimized for submillisecond timing of bright Galactic X-ray sources in order to study phenomena at the natural time scales of neutron star surfaces and black hole event horizons, thus probing the physics of ultradense matter, strongly curved spacetimes, and intense magnetic fields. AXTAR's main instrument is a collimated",
+    "date": "2011-09-06",
+    "url": "http://arxiv.org/abs/1109.1309v1",
+    "authors": [
+      "Paul S. Ray",
+      "Bernard F. Phlips",
+      "Kent S. Wood"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The Advanced X-ray Timing Array (AXTAR)",
+    "abstract": "AXTAR is an X-ray observatory mission concept, currently under study in the U.S., that combines very large collecting area, broadband spectral coverage, high time resolution, highly flexible scheduling, and an ability to respond promptly to time-critical targets of opportunity. It is optimized for submillisecond timing of bright Galactic X-ray sources in order to study phenomena at the natural time scales of neutron star surfaces and black hole event horizons, thus probing the physics of ultradense matter, strongly curved spacetimes, and intense magnetic fields. AXTAR's main instrument is a co",
+    "date": "2008-09-23",
+    "url": "http://arxiv.org/abs/0809.4029v2",
+    "authors": [
+      "Deepto Chakrabarty",
+      "Paul S. Ray",
+      "Tod E. Strohmayer"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "X-Ray Eclipse Timing in the LMXB EXO0748-676",
+    "abstract": "Orbital period changes are an important diagnostic for understanding low mass X-ray binary (LMXB) accretion-induced angular momentum exchange and overall system evolution. We present our most recent results for the eclipse timing of the LMXB EXO0748-676. Since its discovery in 1985 it has apparently undergone three distinct orbital period \"epochs\", each characterized by a different orbital period than the previous epoch. We outline the orbital period behavior for EXO0748-676 over the past 18 years and discuss the implications of this behavior in light of current theoretical ideas for LMXB evol",
+    "date": "2004-04-05",
+    "url": "http://arxiv.org/abs/astro-ph/0404102v1",
+    "authors": [
+      "Michael T. Wolff",
+      "Paul S. Ray",
+      "Kent S. Wood"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The USA X-ray Timing Experiment",
+    "abstract": "The USA Experiment is a new X-ray timing experiment with large collecting area and microsecond time resolution capable of conducting a broad program of studies of galactic X-ray binaries. USA is one of nine experiments aboard the Advanced Research and Global Observation Satellite which was launched February 23, 1999. USA is a collimated proportional counter X-ray telescope with about 1000 cm$^2$ of effective area per detector with two detectors sensitive to photons in the energy range 1-15 keV. A unique feature of USA is that photon events are time tagged by reference to an onboard GPS receive",
+    "date": "1999-11-13",
+    "url": "http://arxiv.org/abs/astro-ph/9911236v1",
+    "authors": [
+      "P. S. Ray",
+      "K. S. Wood",
+      "G. Fritz"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Unsupervised Semantic Segmentation by Contrasting Object Mask Proposals",
+    "abstract": "Being able to learn dense semantic representations of images without supervision is an important problem in computer vision. However, despite its significance, this problem remains rather unexplored, with a few exceptions that considered unsupervised semantic segmentation on small-scale datasets with a narrow visual domain. In this paper, we make a first attempt to tackle the problem on datasets that have been traditionally utilized for the supervised case. To achieve this, we introduce a two-step framework that adopts a predetermined mid-level prior in a contrastive optimization objective to ",
+    "date": "2021-02-11",
+    "url": "http://arxiv.org/abs/2102.06191v3",
+    "authors": [
+      "Wouter Van Gansbeke",
+      "Simon Vandenhende",
+      "Stamatios Georgoulis"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Gamma Rays from Dark Matter",
+    "abstract": "I give a brief review of high energy gamma-ray signatures of dark matter. The decay of massive $X$-particles and subsequent hadronization have been suggested as the origin of the highest energy cosmic rays. Propagation over cosmological distances to Earth (as would be the case in some topological defect origin models for the $X$-particles) results in potentially observable gamma-ray fluxes at GeV energies. Massive relic particles on the other hand, would cluster in galaxy halos, including that of our Galaxy, and may give rise to anisotropic gamma ray and cosmic ray signals at ultra high energi",
+    "date": "2000-11-02",
+    "url": "http://arxiv.org/abs/astro-ph/0011042v1",
+    "authors": [
+      "R. J. Protheroe"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Acceleration and Interaction of Ultra High Energy Cosmic Rays",
+    "abstract": "In this chapter I give an overview of shock acceleration, including a discussion of the maximum energies possible and the shape of the spectrum near cut-off, interactions of high energy cosmic rays with, and propagation through, the background radiation, and the resulting electron-photon cascade. Possible sources of the highest energy cosmic rays are discussed including active galaxies, gamma ray bursts and topological defects. I argue that while the origin of the highest energy cosmic rays is still uncertain, it is not necessary to invoke exotic models such as emission by topological defects ",
+    "date": "1998-12-03",
+    "url": "http://arxiv.org/abs/astro-ph/9812055v1",
+    "authors": [
+      "R. J. Protheroe"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Detection of 16 Gamma-Ray Pulsars Through Blind Frequency Searches Using the Fermi LAT",
+    "abstract": "Pulsars are rapidly-rotating, highly-magnetized neutron stars emitting radiation across the electromagnetic spectrum. Although there are more than 1800 known radio pulsars, until recently, only seven were observed to pulse in gamma rays and these were all discovered at other wavelengths. The Fermi Large Area Telescope makes it possible to pinpoint neutron stars through their gamma-ray pulsations. We report the detection of 16 gamma-ray pulsars in blind frequency searches using the LAT. Most of these pulsars are coincident with previously unidentified gamma-ray sources, and many are associated ",
+    "date": "2010-09-03",
+    "url": "http://arxiv.org/abs/1009.0748v1",
+    "authors": [
+      "The Fermi-LAT Collaboration"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "X-ray and radio prompt emission from a hypernova SN 2002ap",
+    "abstract": "Here we report on combined X-ray and radio observations of SN 2002ap with XMM-Newton ToO observation and GMRT observations aided with VLA published results. In deriving the X-ray flux of SN 2002ap we account for the contribution of a nearby source, found to be present in the pre-SN explosion images obtained with Chandra observatory. We also derive upper limits on mass loss rate from X-ray and radio data. We suggest that the prompt X-ray emission is non-thermal in nature and its is due to the repeated compton boosting of optical photons. We also compare SN's early radiospheric properties with t",
+    "date": "2003-11-18",
+    "url": "http://arxiv.org/abs/astro-ph/0311425v1",
+    "authors": [
+      "P. Chandra",
+      "A. Ray",
+      "F. Sutaria"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Very high energy gamma rays from Markarian 501",
+    "abstract": "During remarkable flaring activity in 1997 Markarian 501 was the brightest source in the sky at TeV energies, outshining the Crab Nebula by a factor of up to 10. Periods of flaring activity each lasting a few days were observed simultaneously by several gamma ray telescopes. Contemporaneous multiwavelength observations in April 1997 show that a substantial fraction of the total AGN power is at TeV energies indicating that high energy processes dominate the energetics of this object. Rapid variability, on time scales of less than a day, and a flat spectrum extending up to at least 10 TeV charac",
+    "date": "1997-10-12",
+    "url": "http://arxiv.org/abs/astro-ph/9710118v1",
+    "authors": [
+      "R. J. Protheroe",
+      "C. L. Bhat",
+      "P. Fleury"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Interpretation of radio continuum and molecular line observations of Sgr B2: free-free and synchrotron emission, and implications for cosmic rays",
+    "abstract": "Recent ammonia (1,1) inversion line data on the Galactic star forming region Sgr B2 show that the column density is consistent with a radial Gaussian density profile with a standard deviation of 2.75 pc. Deriving a formula for the virial mass of spherical Gaussian clouds, we obtain a virial mass of 1.9 million solar masses for Sgr B2. For this matter distribution, a reasonable magnetic field and an impinging flux of cosmic rays of solar neighbourhood intensity, we predict the expected synchrotron emission from the Sgr B2 giant molecular cloud due to secondary electrons and positrons resulting ",
+    "date": "2008-07-01",
+    "url": "http://arxiv.org/abs/0807.0127v3",
+    "authors": [
+      "R. J. Protheroe",
+      "J. Ott",
+      "R. D. Ekers"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Causal Unsupervised Semantic Segmentation",
+    "abstract": "Unsupervised semantic segmentation aims to achieve high-quality semantic grouping without human-labeled annotations. With the advent of self-supervised pre-training, various frameworks utilize the pre-trained features to train prediction heads for unsupervised dense prediction. However, a significant challenge in this unsupervised setup is determining the appropriate level of clustering required for segmenting concepts. To address it, we propose a novel framework, CAusal Unsupervised Semantic sEgmentation (CAUSE), which leverages insights from causal inference. Specifically, we bridge interven",
+    "date": "2023-10-11",
+    "url": "http://arxiv.org/abs/2310.07379v1",
+    "authors": [
+      "Junho Kim",
+      "Byung-Kwan Lee",
+      "Yong Man Ro"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The NRL Program in X-ray Navigation",
+    "abstract": "This chapter describes the development of X-ray Navigation at the Naval Research Laboratory (NRL) within its astrophysics research programs. The prospects for applications emerged from early discoveries of X-ray source classes and their properties. Starting around 1988 some NRL X-ray astronomy programs included navigation as one of the motivations. The USA experiment (1999) was the first flight payload with an explicit X-ray navigation theme. Subsequently, NRL has continued to work in this area through participation in DARPA and NASA programs. Throughout, the general concept of X-ray navigatio",
+    "date": "2017-12-11",
+    "url": "http://arxiv.org/abs/1712.03832v1",
+    "authors": [
+      "Kent S. Wood",
+      "Paul S. Ray"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "X-ray observation of radio supernova SN1979C by ASCA",
+    "abstract": "We report on the X-ray observation of the radio selected supernova SN1979C carried out with ASCA in December 1997. The supernova of type II$_{L}$ was first observed in the optical and occurred in the weakly barred, almost face on spiral galaxy NGC 4321 (M100) which is at a distance of 17.1 Mpc, and contains at least three other supernovae discovered in this century. No point source was detected at the radio position of SN1979C in a 3' diameter half power response circle in a 27.3 ks SIS exposure. The background and galaxy subtracted SN signal had a 3$\u03c3$ upper limit to the count rate of 1.2$\\ti",
+    "date": "2000-04-07",
+    "url": "http://arxiv.org/abs/astro-ph/0004104v1",
+    "authors": [
+      "A. Ray",
+      "R. Petre",
+      "E. Schlegel"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Characterization of Pulsar Sources for X-ray Navigation",
+    "abstract": "The Station Explorer for X-ray Timing and Navigation Technology (SEXTANT) is a technology demonstration enhancement to the Neutron Star Interior Composition Explorer (NICER) mission, which is scheduled to launch in 2017 and will be hosted as an externally attached payload on the International Space Station (ISS). During NICER's 18-month baseline science mission to understand ultra-dense matter through observations of neutron stars in the soft X-ray band, SEXTANT will, for the first-time, demonstrate real-time, on-board X-ray pulsar navigation. Using NICER/SEXTANT as an example, we describe the",
+    "date": "2017-11-22",
+    "url": "http://arxiv.org/abs/1711.08507v1",
+    "authors": [
+      "Paul S. Ray",
+      "Kent S. Wood",
+      "Michael T. Wolff"
+    ]
+  }
+]

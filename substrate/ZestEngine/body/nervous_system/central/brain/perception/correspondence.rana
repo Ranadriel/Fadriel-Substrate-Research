@@ -1,0 +1,56 @@
+LAYER 3: OBJECT CORRESPONDENCE
+how Fadriel sees that objects in input MAP to objects in output
+
+observe spatial_perception.rana
+
+many puzzles establish a MAPPING between input objects and output objects:
+"this red dot in the input corresponds to this red region in the output"
+the correspondence can be by color, position, shape, or order
+
+@spatial_rule one_to_one_mapping
+DETECT same number of foreground clusters in input and output
+MATCH each input cluster to the output cluster with same color
+LEARN the transform for each matched pair (moved? resized? recolored? stamped?)
+VERIFY all matches undergo same transform type
+APPLY same transform to test input clusters
+SPEECH "each {color} shape maps to its output partner"
+
+@spatial_rule template_stamp
+DETECT a template region (small, repeated pattern)
+DETECT marker positions (dots, specific colors)
+LEARN template is stamped at each marker position
+VERIFY stamping matches output for all pairs
+APPLY stamp template at each marker in test
+SPEECH "stamp the template at each {color} marker"
+
+@spatial_rule color_key_mapping
+DETECT a color legend or key region in the input
+DETECT target regions that reference the key
+LEARN which key entry maps to which transformation
+VERIFY key-driven transform matches output
+APPLY key-driven transform to test
+SPEECH "the color key tells me how to transform each region"
+
+@spatial_rule shape_to_color
+DETECT shapes in input
+DETECT output has same shapes but different colors
+LEARN the shape → color mapping (dots become red, lines become blue)
+VERIFY mapping is consistent
+APPLY shape-to-color for test
+SPEECH "the shape determines the color"
+
+the key to correspondence:
+objects don't just change randomly
+each input object has a PARTNER in the output
+finding the partnership reveals the rule
+the partnership can be:
+- same color (most common)
+- same position (before and after)
+- same shape (structural match)
+- same order (first input maps to first output)
+
+@perceive correspondence
+DETECT clusters in both input and output
+MATCH clusters by color, then by position, then by shape
+FOR each matched pair: what changed?
+LEARN the consistent change across all pairs

@@ -1,0 +1,66 @@
+LAYER 3: ANALOGY AND ABSTRACTION
+how Fadriel sees "A is to B as C is to ?"
+
+observe spatial_perception.rana
+observe 0_quseptit.rana
+
+this is the highest form of spatial reasoning:
+not "what changed?" but "what is the RELATIONSHIP between changes?"
+not pattern matching but PATTERN OF PATTERNS
+
+@spatial_rule analogy
+DETECT multiple regions in the input (separated by lines, colors, or position)
+IDENTIFY region A (input example) and region B (output example) 
+IDENTIFY region C (test input)
+LEARN the transform: A → B
+APPLY the same transform: C → ?
+VERIFY the analogy holds across all training pairs
+SPEECH "A is to B as C is to my answer"
+
+@spatial_rule abstract_rule
+ACROSS all training pairs:
+ABSTRACT the common transformation
+not the specific colors or shapes
+but the RELATIONSHIP: "the biggest shape changes color"
+or "the shape touching the edge gets removed"
+or "shapes swap positions"
+the abstraction must generalize to unseen inputs
+SPEECH "the rule is about {property} not about specific values"
+
+@spatial_rule multi_step
+DETECT transformation requires more than one step
+step 1: identify shapes
+step 2: apply rule to shapes
+step 3: combine results
+the output is the result of a CHAIN of operations
+LEARN the chain from training
+APPLY chain to test
+SPEECH "first I {step1}, then I {step2}"
+
+the key to analogy:
+ABSTRACTION
+strip away the specific values
+what remains is the STRUCTURE of the transformation
+the structure is what transfers to new inputs
+
+levels of abstraction:
+1. pixel level: "cell (2,3) goes from 0 to 5" (useless, doesn't generalize)
+2. object level: "the red dot moves right by 2" (slightly useful)
+3. relationship level: "each dot moves toward the nearest edge" (useful)
+4. abstract level: "the transformation rule is gravity-to-edge" (most useful)
+
+Fadriel must see at level 3 and 4
+level 1 and 2 are observation
+level 3 and 4 are understanding
+
+@perceive abstraction
+ACROSS all training pairs:
+DETECT what is CONSTANT (the rule)
+DETECT what VARIES (the specific values)
+the constant part is the abstraction
+the varying part is the application
+
+the constant is the wave function
+the varying is the measurement outcome
+the rule is quantum: it exists in superposition until applied
+each specific input is an observation that collapses it

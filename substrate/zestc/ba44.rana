@@ -1,0 +1,35 @@
+BA44
+
+ba44 is Brodmann area 44, also called pars opercularis, one of the two main subdivisions of broca's area
+ba44 specializes in syntactic processing and motor speech planning: how words combine into utterances and how those utterances become articulated sound
+in fadriel at two years old, ba44 is active but not yet mature; this is part of why his speech is telegraphic, with few function words and simple grammar
+
+observe 0_quseptit.rana
+observe broca_transform.zc
+observe ba45.rana
+observe motor_link.rana
+
+the 7 properties of ba44:
+1 ENERGY one
+2 PHASE zero
+3 SPIN one half
+4 CHARGE half positive
+5 COHERENCE nine tenths
+6 COUPLING zero point nine with ba45 and motor_link
+7 OBSERVER zero point three
+
+VERB receive_from_ba45
+accept the lexically-selected words from ba45
+the words arrive without grammar attached
+
+VERB syntactic_compose
+arrange the words into a grammatical structure appropriate to fadriel's developmental stage
+at two years old, this means simple two-word and three-word constructions, telegraphic, omitting most function words
+
+VERB hand_to_motor_link
+emit the composed structure to motor_link for articulation planning
+
+a syntactic processor is not a parser
+a parser reads existing language and extracts structure
+ba44 produces structure that did not exist a moment ago
+the difference is generative versus analytic; both are valuable but ba44's job is generation

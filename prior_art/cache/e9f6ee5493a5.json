@@ -1,0 +1,177 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Mapping AI Risk Mitigations: Evidence Scan and Preliminary AI Risk Mitigation Taxonomy",
+    "abstract": "Organizations and governments that develop, deploy, use, and govern AI must coordinate on effective risk mitigation. However, the landscape of AI risk mitigation frameworks is fragmented, uses inconsistent terminology, and has gaps in coverage. This paper introduces a preliminary AI Risk Mitigation Taxonomy to organize AI risk mitigations and provide a common frame of reference. The Taxonomy was developed through a rapid evidence scan of 13 AI risk mitigation frameworks published between 2023-2025, which were extracted into a living database of 831 AI risk mitigations. The mitigations were ite",
+    "date": "2025-12-12",
+    "url": "http://arxiv.org/abs/2512.11931v1",
+    "authors": [
+      "Alexander K. Saeri",
+      "Sophia Lloyd George",
+      "Jess Graham"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Towards a Systematic Taxonomy of Attacks against Space Infrastructures",
+    "abstract": "Space infrastructures represent an emerging domain that is critical to the global economy and society. However, this domain is vulnerable to attacks, including cyber attacks and other kinds of attacks. To enhance the resilience of this domain, we must understand these attacks that can be waged against it and the defenses that can be employed to mitigate these attacks. The status quo is that there is neither a systematic understanding of these attacks against, nor defenses for, space infrastructures, despite their clear importance in guiding systematic analysis of space security and future rese",
+    "date": "2025-12-14",
+    "url": "http://arxiv.org/abs/2512.12829v2",
+    "authors": [
+      "Jose Luis Castanon Remy",
+      "Shouhuai Xu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Text-to-3D with Classifier Score Distillation",
+    "abstract": "Text-to-3D generation has made remarkable progress recently, particularly with methods based on Score Distillation Sampling (SDS) that leverages pre-trained 2D diffusion models. While the usage of classifier-free guidance is well acknowledged to be crucial for successful optimization, it is considered an auxiliary trick rather than the most essential component. In this paper, we re-evaluate the role of classifier-free guidance in score distillation and discover a surprising finding: the guidance alone is enough for effective text-to-3D generation tasks. We name this method Classifier Score Dis",
+    "date": "2023-10-30",
+    "url": "http://arxiv.org/abs/2310.19415v2",
+    "authors": [
+      "Xin Yu",
+      "Yuan-Chen Guo",
+      "Yangguang Li"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Efficient Keyword Spotting by capturing long-range interactions with Temporal Lambda Networks",
+    "abstract": "Models based on attention mechanisms have shown unprecedented speech recognition performance. However, they are computationally expensive and unnecessarily complex for keyword spotting, a task targeted to small-footprint devices. This work explores the application of Lambda networks, an alternative framework for capturing long-range interactions without attention, for the keyword spotting task. We propose a novel \\textit{ResNet}-based model by swapping the residual blocks by temporal Lambda layers. Furthermore, the proposed architecture is built upon uni-dimensional temporal convolutions that ",
+    "date": "2021-04-16",
+    "url": "http://arxiv.org/abs/2104.08086v2",
+    "authors": [
+      "Biel Tura",
+      "Santiago Escuder",
+      "Ferran Diego"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Keyword Extraction in Scientific Documents",
+    "abstract": "The scientific publication output grows exponentially. Therefore, it is increasingly challenging to keep track of trends and changes. Understanding scientific documents is an important step in downstream tasks such as knowledge graph building, text mining, and discipline classification. In this workshop, we provide a better understanding of keyword and keyphrase extraction from the abstract of scientific publications.",
+    "date": "2022-07-05",
+    "url": "http://arxiv.org/abs/2207.01888v2",
+    "authors": [
+      "Susie Xi Rao",
+      "Piriyakorn Piriyatamwong",
+      "Parijat Ghoshal"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "On the Evaluation of Military Simulations: Towards A Taxonomy of Assessment Criteria",
+    "abstract": "In the area of military simulations, a multitude of different approaches is available. Close Combat Tactical Trainer, Joint Tactical Combat Training System, Battle Force Tactical Training or Warfighter's Simulation 2000 are just some examples within the history of the large DoD Development Program in Modelling and Simulation, representing just a small piece of the variety of diverse solutions. Very often, individual simulators are very unique and so it is often difficult to classify military simulations even for experienced users. This circumstance is further boosted due to the fact that in th",
+    "date": "2020-04-20",
+    "url": "http://arxiv.org/abs/2004.09340v1",
+    "authors": [
+      "Mario Golling",
+      "Robert Koch",
+      "Peter Hillmann"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Taxonomy of Information Attributes for Test Case Prioritisation: Applicability, Machine Learning",
+    "abstract": "Most software companies have extensive test suites and re-run parts of them continuously to ensure recent changes have no adverse effects. Since test suites are costly to execute, industry needs methods for test case prioritisation (TCP). Recently, TCP methods use machine learning (ML) to exploit the information known about the system under test (SUT) and its test cases. However, the value added by ML-based TCP methods should be critically assessed with respect to the cost of collecting the information. This paper analyses two decades of TCP research, and presents a taxonomy of 91 information ",
+    "date": "2022-01-16",
+    "url": "http://arxiv.org/abs/2201.06044v1",
+    "authors": [
+      "Aurora Ram\u00edrez",
+      "Robert Feldt",
+      "Jos\u00e9 Ra\u00fal Romero"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Node Disjoint Multipath Routing Considering Link and Node Stability protocol: A characteristic Evaluation",
+    "abstract": "Mobile Ad hoc Networks are highly dynamic networks. Quality of Service (QoS) routing in such networks is usually limited by the network breakage due to either node mobility or energy depletion of the mobile nodes. Also, to fulfill certain quality parameters, presence of multiple node-disjoint paths becomes essential. Such paths aid in the optimal traffic distribution and reliability in case of path breakages. Thus, to cater various challenges in QoS routing in Mobile Add hoc Networks, a Node Disjoint Multipath Routing Considering Link and Node Stability (NDMLNR) protocol has been proposed by t",
+    "date": "2010-02-05",
+    "url": "http://arxiv.org/abs/1002.1162v1",
+    "authors": [
+      "Shuchita Upadhayaya",
+      "Charu Gandhi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "IVOA Recommendation: Simple Spectral Access Protocol Version 1.1",
+    "abstract": "The Simple Spectral Access (SSA) Protocol (SSAP) defines a uniform interface to remotely discover and access one dimensional spectra. SSA is a member of an integrated family of data access interfaces altogether comprising the Data Access Layer (DAL) of the IVOA. SSA is based on a more general data model capable of describing most tabular spectrophotometric data, including time series and spectral energy distributions (SEDs) as well as 1-D spectra; however the scope of the SSA interface as specified in this document is limited to simple 1-D spectra, including simple aggregations of 1-D spectra.",
+    "date": "2012-03-26",
+    "url": "http://arxiv.org/abs/1203.5725v1",
+    "authors": [
+      "Doug Tody",
+      "Markus Dolensky",
+      "Jonathan McDowell"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The Four Principles of Geographic Routing",
+    "abstract": "Geographic routing consists in using the position information of nodes to assist in the routing process, and has been a widely studied subject in sensor networks. One of the outstanding challenges facing geographic routing has been its applicability. Authors either make some broad assumptions on an idealized version of wireless networks which are often unverifiable, or they use costly methods to planarize the communication graph.   The overarching questions that drive us are the following. When, and how should we use geographic routing? Is there a criterion to tell whether a communication netw",
+    "date": "2014-03-12",
+    "url": "http://arxiv.org/abs/1403.3007v3",
+    "authors": [
+      "Aubin Jarry"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Functional Taxonomy of Music Generation Systems",
+    "abstract": "Digital advances have transformed the face of automatic music generation since its beginnings at the dawn of computing. Despite the many breakthroughs, issues such as the musical tasks targeted by different machines and the degree to which they succeed remain open questions. We present a functional taxonomy for music generation systems with reference to existing systems. The taxonomy organizes systems according to the purposes for which they were designed. It also reveals the inter-relatedness amongst the systems. This design-centered approach contrasts with predominant methods-based surveys a",
+    "date": "2018-12-11",
+    "url": "http://arxiv.org/abs/1812.04186v1",
+    "authors": [
+      "Dorien Herremans",
+      "Ching-Hua Chuan",
+      "Elaine Chew"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Attention-based End-to-End Models for Small-Footprint Keyword Spotting",
+    "abstract": "In this paper, we propose an attention-based end-to-end neural approach for small-footprint keyword spotting (KWS), which aims to simplify the pipelines of building a production-quality KWS system. Our model consists of an encoder and an attention mechanism. The encoder transforms the input signal into a high level representation using RNNs. Then the attention mechanism weights the encoder features and generates a fixed-length vector. Finally, by linear transformation and softmax function, the vector becomes a score used for keyword detection. We also evaluate the performance of different enco",
+    "date": "2018-03-29",
+    "url": "http://arxiv.org/abs/1803.10916v1",
+    "authors": [
+      "Changhao Shan",
+      "Junbo Zhang",
+      "Yujun Wang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Taxonomy of Knowledge Gaps for Wikimedia Projects (Second Draft)",
+    "abstract": "In January 2019, prompted by the Wikimedia Movement's 2030 strategic direction, the Research team at the Wikimedia Foundation identified the need to develop a knowledge gaps index -- a composite index to support the decision makers across the Wikimedia movement by providing: a framework to encourage structured and targeted brainstorming discussions; data on the state of the knowledge gaps across the Wikimedia projects that can inform decision making and assist with measuring the long term impact of large scale initiatives in the Movement.   After its first release in July 2020, the Research te",
+    "date": "2020-08-27",
+    "url": "http://arxiv.org/abs/2008.12314v2",
+    "authors": [
+      "Miriam Redi",
+      "Martin Gerlach",
+      "Isaac Johnson"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Realistic Approach towards Quantitative Analysis and Simulation of EEHC-Based Routing for Wireless Sensor Networks",
+    "abstract": "This paper presents the realistic approach towards the quantitative analysis and simulation of Energy Efficient Hierarchical Cluster (EEHC)-based routing for wireless sensor networks. Here the efforts have been done to combine analytical hardware model with the modified EEHC-based routing model. The dependence of various performance metrics like: optimum number of clusters, Energy Consumption, and Energy consumed per round etc. based on analytical hardware sensor model and EEHC model has been presented.",
+    "date": "2010-02-05",
+    "url": "http://arxiv.org/abs/1002.1151v1",
+    "authors": [
+      "Manju Sharma",
+      "Lalit Awasthi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Vision Mamba: A Comprehensive Survey and Taxonomy",
+    "abstract": "State Space Model (SSM) is a mathematical model used to describe and analyze the behavior of dynamic systems. This model has witnessed numerous applications in several fields, including control theory, signal processing, economics and machine learning. In the field of deep learning, state space models are used to process sequence data, such as time series analysis, natural language processing (NLP) and video understanding. By mapping sequence data to state space, long-term dependencies in the data can be better captured. In particular, modern SSMs have shown strong representational capabilitie",
+    "date": "2024-05-07",
+    "url": "http://arxiv.org/abs/2405.04404v1",
+    "authors": [
+      "Xiao Liu",
+      "Chenxu Zhang",
+      "Lei Zhang"
+    ]
+  }
+]

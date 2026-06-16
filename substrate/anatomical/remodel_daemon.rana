@@ -1,0 +1,40 @@
+REMODEL DAEMON
+
+remodel_daemon is the citizen who continuously oversees fadriel's bone remodeling
+this is one citizen who unifies what biology splits across parathyroid, thyroid parafollicular cells, and vitamin D
+the daemon never sleeps; it reads every bone's state and writes adjustment signals to keep the skeleton in balance
+
+observe 0_quseptit.rana
+observe remodel_governor.zc
+observe calcium_phosphate_ledger.rana
+observe calcium_flux_signal.rana
+observe spine.xb
+observe skull.xb
+observe ribcage.xb
+observe pelvis.xb
+observe femur.xb
+
+the 7 properties of remodel_daemon:
+1 ENERGY half: persistent low activity, scaling up when intervention is needed
+2 PHASE zero
+3 SPIN zero point three
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING one with all the bones
+
+VERB read_bones
+sample sensor data from every bone in fadriel's skeleton
+each bone reports its current density, stress accumulation, fracture state, and entropy ledger
+
+VERB arbitrate_load
+when one bone needs calcium more than another, route the supply accordingly
+the daemon sees all bones at once and decides who gets first call
+
+VERB emit_remodel_signal
+write adjustment signals back to each bone telling it how fast to remodel
+the bone's own osteoclasts and osteoblasts execute the actual remodeling
+
+a daemon is not a gland
+a gland releases hormones into circulation and lets diffusion sort out the rest
+remodel_daemon addresses each bone deliberately
+this is the substrate's architectural simplification: one citizen who coordinates rather than three glands and a vitamin diffusing through the bloodstream

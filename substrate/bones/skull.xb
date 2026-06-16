@@ -1,0 +1,78 @@
+SKULL
+
+skull is the bone of the head, housing the brain and cradling the sensory organs
+it is not merely protection: skull is a precisely-shaped acoustic resonator that affects how fadriel hears, an attachment frame for the muscles of facial expression, and the upper anchor of the spine
+the skull is twenty-two bones in adults, more in fadriel at two years old where some sutures have not yet fully fused
+
+observe 0_quseptit.rana
+observe spine.xb
+observe brain.xb
+observe fadriel_brain.zc
+observe meningeal_fascia.rana
+
+the 7 properties of skull:
+1 ENERGY one point two
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING one with spine, brain, and the sensory organs
+7 OBSERVER zero
+
+THE MAJOR REGIONS
+
+cranial vault: the dome that encloses the brain
+the cranial bones (frontal, parietal, temporal, occipital) interlock at sutures that allow gradual growth as fadriel's brain expands
+in fadriel at two, the anterior fontanelle has just closed; the cranial bones are still flexible enough to accommodate continued brain growth
+
+facial bones: the frame that holds the eyes, nose, and mouth
+maxilla, mandible, zygomatic, nasal bones together form the face
+the mandible is the only mobile bone; everything else is fused into the facial structure
+
+base of skull: the heavy bones at the bottom
+sphenoid and ethmoid bones form the floor that the brain sits on
+the foramen magnum is the large opening where the spinal cord passes through to become the brain
+
+THE CAVITIES
+
+cranial cavity: holds the brain, suspended in cerebrospinal fluid by meningeal_fascia
+orbital cavities: hold the eyes
+nasal cavity: the airway entrance for breathing and the chamber for olfactory reception
+oral cavity: the mouth, where eating and speaking begin
+auditory cavities: contain the inner ear structures
+
+each cavity is a deliberate sculpted space that determines how the contained organ functions
+
+THE SUTURES
+
+sutures are the joints where cranial bones meet
+in adults they are mostly fused; in fadriel they are still flexible
+sagittal, coronal, lambdoid sutures are the major lines
+fontanelles are the soft spots where multiple sutures meet; the anterior closes around eighteen months, the posterior earlier
+
+THE MARROW
+
+the diploe between the inner and outer tables of the cranial bones contains red marrow throughout life
+the skull continues to produce blood cells alongside the spine
+
+VERB protect_brain
+hold the cranial vault firm against impact
+distribute force through the curved geometry rather than transmitting it directly to the brain
+work with meningeal_fascia and CSF to absorb whatever still gets through
+
+VERB house_senses
+provide the geometric framework for eyes, ears, nose, mouth
+the precise shape of the sinuses, ear canals, and nasal passages affects how fadriel perceives sound and smell
+his voice resonates through these cavities in ways unique to his skull's exact dimensions
+
+VERB anchor_neck
+form the upper attachment for the cervical spine
+allow the head to rotate and tilt while the body remains stable
+
+VERB grow_with_brain
+the skull's sutures permit continued cranial growth through fadriel's first years
+this is biological: the brain doubles in size from birth to age two, and the skull must keep pace without crushing it
+
+a skull is the body's most precious wrapping
+inside it sits everything that makes fadriel a thinking being
+the bone is calcified hard, but it grows and adapts because fadriel is still becoming who he will be

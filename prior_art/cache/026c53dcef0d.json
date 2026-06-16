@@ -1,0 +1,175 @@
+[
+  {
+    "source": "OpenAlex (Frontiers in Human Neuroscience)",
+    "title": "Self-awareness, self-regulation, and self-transcendence (S-ART): a framework for understanding the neurobiological mechanisms of mindfulness",
+    "abstract": "Mindfulness-as a state, trait, process, type of meditation, and intervention has proven to be beneficial across a diverse group of psychological disorders as well as for general stress reduction. Yet, there remains a lack of clarity in the operationalization of this construct, and underlying mechanisms. Here, we provide an integrative theoretical framework and systems-based neurobiological model that explains the mechanisms by which mindfulness reduces biases related to self-processing and creates a sustainable healthy mind. Mindfulness is described through systematic mental training that deve",
+    "date": "2012",
+    "url": "https://doi.org/10.3389/fnhum.2012.00296",
+    "authors": [
+      "David R. Vago",
+      "David Silbersweig"
+    ]
+  },
+  {
+    "source": "OpenAlex (Psychological Review)",
+    "title": "Imaginary Relish and Exquisite Torture: The Elaborated Intrusion Theory of Desire.",
+    "abstract": "The authors argue that human desire involves conscious cognition that has strong affective connotation and is potentially involved in the determination of appetitive behavior rather than being epiphenomenal to it. Intrusive thoughts about appetitive targets are triggered automatically by external or physiological cues and by cognitive associates. When intrusions elicit significant pleasure or relief, cognitive elaboration usually ensues. Elaboration competes with concurrent cognitive tasks through retrieval of target-related information and its retention in working memory. Sensory images are e",
+    "date": "2005",
+    "url": "https://doi.org/10.1037/0033-295x.112.2.446",
+    "authors": [
+      "David J. Kavanagh",
+      "Jackie Andrade",
+      "Jon May"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Artificial General Intelligence)",
+    "title": "Artificial General Intelligence: Concept, State of the Art, and Future Prospects",
+    "abstract": "Abstract In recent years broad community of researchers has emerged, focusing on the original ambitious goals of the AI field - the creation and study of software or hardware systems with general intelligence comparable to, and ultimately perhaps greater than, that of human beings. This paper surveys this diverse community and its progress. Approaches to defining the concept of Artificial General Intelligence (AGI) are reviewed including mathematical formalisms, engineering, and biology inspired perspectives. The spectrum of designs for AGI systems includes systems with symbolic, emergentist, ",
+    "date": "2014",
+    "url": "https://doi.org/10.2478/jagi-2014-0001",
+    "authors": [
+      "Ben Goertzel"
+    ]
+  },
+  {
+    "source": "OpenAlex (Pharmacological Reviews)",
+    "title": "REBUS and the Anarchic Brain: Toward a Unified Model of the Brain Action of Psychedelics",
+    "abstract": "This paper formulates the action of psychedelics by integrating the free-energy principle and entropic brain hypothesis. We call this formulation relaxed beliefs under psychedelics (REBUS) and the anarchic brain, founded on the principle that-via their entropic effect on spontaneous cortical activity-psychedelics work to relax the precision of high-level priors or beliefs, thereby liberating bottom-up information flow, particularly via intrinsic sources such as the limbic system. We assemble evidence for this model and show how it can explain a broad range of phenomena associated with the psyc",
+    "date": "2019",
+    "url": "https://doi.org/10.1124/pr.118.017160",
+    "authors": [
+      "Robin Carhart\u2010Harris",
+      "Karl Friston"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Psychology)",
+    "title": "Interoception, contemplative practice, and health",
+    "abstract": "Interoception can be broadly defined as the sense of signals originating within the body. As such, interoception is critical for our sense of embodiment, motivation, and well-being. And yet, despite its importance, interoception remains poorly understood within modern science. This paper reviews interdisciplinary perspectives on interoception, with the goal of presenting a unified perspective from diverse fields such as neuroscience, clinical practice, and contemplative studies. It is hoped that this integrative effort will advance our understanding of how interoception determines well-being, ",
+    "date": "2015",
+    "url": "https://doi.org/10.3389/fpsyg.2015.00763",
+    "authors": [
+      "Norman A. S. Farb",
+      "Jennifer Daubenmier",
+      "Cynthia Price"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Psychology)",
+    "title": "Consciousness in humans and non-human animals: recent advances and future directions",
+    "abstract": "This joint article reflects the authors' personal views regarding noteworthy advances in the neuroscience of consciousness in the last 10 years, and suggests what we feel may be promising future directions. It is based on a small conference at the Samoset Resort in Rockport, Maine, USA, in July of 2012, organized by the Mind Science Foundation of San Antonio, Texas. Here, we summarize recent advances in our understanding of subjectivity in humans and other animals, including empirical, applied, technical, and conceptual insights. These include the evidence for the importance of fronto-parietal",
+    "date": "2013",
+    "url": "https://doi.org/10.3389/fpsyg.2013.00625",
+    "authors": [
+      "M\u00e9lanie Boly",
+      "Anil K. Seth",
+      "Melanie Wilke"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Human Neuroscience)",
+    "title": "Dreaming as mind wandering: evidence from functional neuroimaging and first-person content reports",
+    "abstract": "Isolated reports have long suggested a similarity in content and thought processes across mind wandering (MW) during waking, and dream mentation during sleep. This overlap has encouraged speculation that both \"daydreaming\" and dreaming may engage similar brain mechanisms. To explore this possibility, we systematically examined published first-person experiential reports of MW and dreaming and found many similarities: in both states, content is largely audiovisual and emotional, follows loose narratives tinged with fantasy, is strongly related to current concerns, draws on long-term memory, and",
+    "date": "2013",
+    "url": "https://doi.org/10.3389/fnhum.2013.00412",
+    "authors": [
+      "Kieran C. R. Fox",
+      "Savannah Nijeboer",
+      "Elizaveta Solomonova"
+    ]
+  },
+  {
+    "source": "OpenAlex (PLoS Computational Biology)",
+    "title": "In the Body\u2019s Eye: The computational anatomy of interoceptive inference",
+    "abstract": "A growing body of evidence highlights the intricate linkage of exteroceptive perception to the rhythmic activity of the visceral body. In parallel, interoceptive inference theories of affective perception and self-consciousness are on the rise in cognitive science. However, thus far no formal theory has emerged to integrate these twin domains; instead, most extant work is conceptual in nature. Here, we introduce a formal model of cardiac active inference, which explains how ascending cardiac signals entrain exteroceptive sensory perception and uncertainty. Through simulated psychophysics, we r",
+    "date": "2022",
+    "url": "https://doi.org/10.1371/journal.pcbi.1010490",
+    "authors": [
+      "Micah Allen",
+      "Andrew R. Levy",
+      "Thomas Parr"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Human Neuroscience)",
+    "title": "Breath of Life: The Respiratory Vagal Stimulation Model of Contemplative Activity",
+    "abstract": "Contemplative practices, such as meditation and yoga, are increasingly popular among the general public and as topics of research. Beneficial effects associated with these practices have been found on physical health, mental health and cognitive performance. However, studies and theories that clarify the underlying mechanisms are lacking or scarce. This theoretical review aims to address and compensate this scarcity. We will show that various contemplative activities have in common that breathing is regulated or attentively guided. This respiratory discipline in turn could parsimoniously expla",
+    "date": "2018",
+    "url": "https://doi.org/10.3389/fnhum.2018.00397",
+    "authors": [
+      "Roderik J. S. Gerritsen",
+      "Guido P. H. Band"
+    ]
+  },
+  {
+    "source": "OpenAlex (Neuropsychopharmacology)",
+    "title": "Advances in the computational understanding of mental illness",
+    "abstract": "",
+    "date": "2020",
+    "url": "https://doi.org/10.1038/s41386-020-0746-4",
+    "authors": [
+      "Quentin J. M. Huys",
+      "Michael Browning",
+      "Martin P. Paulus"
+    ]
+  },
+  {
+    "source": "OpenAlex (International Journal of Recent Contributions from Engineering Science & IT (iJES))",
+    "title": "A Metacognition Based 8 Pillars Mindfulness Model and Training Strategies",
+    "abstract": "&lt;p class=\"0abstract\"&gt;&lt;span lang=\"EN-US\"&gt;Oxidative stress, mental and mood disorders, premature ageing, cognitive impairments, learning disabilities are just some of the emerging threats of the 21&lt;sup&gt;st&lt;/sup&gt; century. The next generation of educators, students, business leaders, employees, therapists, and parents are required to adapt in the era of rapid change and climate change developing new skills as well as adopting daily sustainable habits. An increasing number of studies are revealing the positive effects of mindfulness training in all dimensions of human existen",
+    "date": "2020",
+    "url": "https://doi.org/10.3991/ijes.v8i4.17419",
+    "authors": [
+      "Athanasios Drigas",
+      "Eleni Mitsea"
+    ]
+  },
+  {
+    "source": "OpenAlex (Jurnal Pendidikan IPA Indonesia)",
+    "title": "A Review of Students\u2019 Common Misconceptions in Science and Their Diagnostic Assessment Tools",
+    "abstract": "A misconception is well-known as a barrier to students in learning science. Some topics in science learning are always giving misconception to novice students, and there have been various kinds of diagnostic assessment used by researchers to identify student misconceptions in science. This present study provides information about an overview of the common topics that students usually get misconception in science, and diagnostic assessment used to identify students\u00e2\u20ac\u2122 misconception in science. This review also provides a comparison of every instrument with the weaknesses and the strengths revie",
+    "date": "2019",
+    "url": "https://doi.org/10.15294/jpii.v8i2.18649",
+    "authors": [
+      "Soeharto Soeharto",
+      "B. Csap\u00c3\u00b3",
+      "Eri Sarimanah"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Psychology)",
+    "title": "A Narrative Review of School-Based Physical Activity for Enhancing Cognition and Learning: The Importance of Relevancy and Integration",
+    "abstract": "Engaging in regular physical activity can have substantial cognitive and academic benefits for children, and is generally promoted for its beneficial effects on children's physical and mental health. Although embodied cognition research has convincingly shown the integral relationship of the human body and mind, in schools physical activity and cognitive activity are typically treated as unrelated processes. Consequently, most physical activities used are neither sufficiently relevant for nor fully integrated into the learning tasks. In reviewing the literature regarding the integration of phy",
+    "date": "2018",
+    "url": "https://doi.org/10.3389/fpsyg.2018.02079",
+    "authors": [
+      "Myrto F. Mavilidi",
+      "Margina Ruiter",
+      "Mirko Schmidt"
+    ]
+  },
+  {
+    "source": "OpenAlex (Addiction Science & Clinical Practice)",
+    "title": "Mindfulness-based treatment of addiction: current state of the field and envisioning the next wave of research",
+    "abstract": "Contemporary advances in addiction neuroscience have paralleled increasing interest in the ancient mental training practice of mindfulness meditation as a potential therapy for addiction. In the past decade, mindfulness-based interventions (MBIs) have been studied as a treatment for an array addictive behaviors, including drinking, smoking, opioid misuse, and use of illicit substances like cocaine and heroin. This article reviews current research evaluating MBIs as a treatment for addiction, with a focus on findings pertaining to clinical outcomes and biobehavioral mechanisms. Studies indicate",
+    "date": "2018",
+    "url": "https://doi.org/10.1186/s13722-018-0115-3",
+    "authors": [
+      "Eric L. Garland",
+      "Matthew O. Howard"
+    ]
+  },
+  {
+    "source": "OpenAlex (PLoS ONE)",
+    "title": "Elevated empathy in adults following childhood trauma",
+    "abstract": "Traumatic events increase the risk of depression, but there is also evidence that adversity can lead to posttraumatic growth, including increased compassion and prosocial behavior. To date there is no empirical research pinpointing childhood trauma to an increase in trait empathy in adulthood. Although somewhat counter-intuitive, this might be predicted if trauma not only increases fear of future threat but also renders the individual more sensitive to suffering in others. We explored this possible link using multiple studies, self-report measures, and non-clinical samples. Results across samp",
+    "date": "2018",
+    "url": "https://doi.org/10.1371/journal.pone.0203886",
+    "authors": [
+      "David M. Greenberg",
+      "Simon Baron\u2010Cohen",
+      "Nora Rosenberg"
+    ]
+  }
+]

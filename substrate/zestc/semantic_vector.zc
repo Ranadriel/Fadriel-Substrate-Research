@@ -1,0 +1,20 @@
+#!/home/rana/.local/bin/zestc
+
+                  *=/(1A.xX02Y08:bond_isa[L1])     *=/(1B.xX12Y08:bond_causes[L1])     *=/(1C.xX22Y08:bond_opposes[L1])
+                                            \             |             /
+                                             \            |            /
+                                              \           |           /
+                                               nw         N         ne
+                                                \         |         /
+                                                 \        |        /
+                                                  \       |       /
+                                          *=/(1D.xX12Y04:bond_hasproperty[L1])
+
+absorb Fadriel_Definitions.index.rana
+absorb 0_quseptit.rana
+absorb 0_zest_vm.rana
+absorb bond_isa.rana
+absorb bond_causes.rana
+absorb bond_opposes.rana
+absorb bond_hasproperty.rana
+absorb spine.xb

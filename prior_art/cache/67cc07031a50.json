@@ -1,0 +1,167 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Physics Briefing Book",
+    "abstract": "The European Particle Physics Strategy Update (EPPSU) process takes a bottom-up approach, whereby the community is first invited to submit proposals (also called inputs) for projects that it would like to see realised in the near-term, mid-term and longer-term future. National inputs as well as inputs from National Laboratories are also an important element of the process. All these inputs are then reviewed by the Physics Preparatory Group (PPG), whose role is to organize a Symposium around the submitted ideas and to prepare a community discussion on the importance and merits of the various pr",
+    "date": "2019-10-25",
+    "url": "http://arxiv.org/abs/1910.11775v2",
+    "authors": [
+      " European Strategy for Particle Physics Preparatory Group"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Physics and Technology of the Next Linear Collider: A Report Submitted to Snowmass '96",
+    "abstract": "We present the current expectations for the design and physics program of an e+e- linear collider of center of mass energy 500 GeV -- 1 TeV. We review the experiments that would be carried out at this facility and demonstrate its key role in exploring physics beyond the Standard Model over the full range of theoretical possibilities. We then show the feasibility of constructing this machine, by reviewing the current status of linear collider technology and by presenting a precis of our `zeroth-order' design.",
+    "date": "1996-05-30",
+    "url": "http://arxiv.org/abs/hep-ex/9605011v1",
+    "authors": [
+      " NLC ZDR Design Group",
+      " NLC Physics Working Group",
+      "S. Kuhlman"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "AceWiki: A Natural and Expressive Semantic Wiki",
+    "abstract": "We present AceWiki, a prototype of a new kind of semantic wiki using the controlled natural language Attempto Controlled English (ACE) for representing its content. ACE is a subset of English with a restricted grammar and a formal semantics. The use of ACE has two important advantages over existing semantic wikis. First, we can improve the usability and achieve a shallow learning curve. Second, ACE is more expressive than the formal languages of existing semantic wikis. Our evaluation shows that people who are not familiar with the formal foundations of the Semantic Web are able to deal with A",
+    "date": "2008-07-29",
+    "url": "http://arxiv.org/abs/0807.4618v1",
+    "authors": [
+      "Tobias Kuhn"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Fixation probability of rare nonmutator and evolution of mutation rates",
+    "abstract": "Although mutations drive the evolutionary process, the rates at which the mutations occur are themselves subject to evolutionary forces. Our purpose here is to understand the role of selection and random genetic drift in the evolution of mutation rates, and we address this question in asexual populations at mutation-selection equilibrium neglecting selective sweeps. Using a multitype branching process, we calculate the fixation probability of a rare nonmutator in a large asexual population of mutators, and find that a nonmutator is more likely to fix when the deleterious mutation rate of the m",
+    "date": "2015-01-15",
+    "url": "http://arxiv.org/abs/1501.03632v2",
+    "authors": [
+      "Ananthu James",
+      "Kavita Jain"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The evolution of oscillator wave functions",
+    "abstract": "We consider some of the methods that can be used to reveal the general features of how wave functions evolve with time in the harmonic oscillator. We first review the periodicity properties over each multiple of a quarter of the classical period of oscillation. Then we show that any wave function can be simply transformed so that its centroid, defined by the expectation values of position and momentum, remains at rest at the center of the oscillator. This implies that we need only consider the evolution of this restricted class of wave functions; the evolution of all others can be reduced to t",
+    "date": "2015-09-20",
+    "url": "http://arxiv.org/abs/1509.05968v1",
+    "authors": [
+      "Mark Andrews"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Node Disjoint Multipath Routing Considering Link and Node Stability protocol: A characteristic Evaluation",
+    "abstract": "Mobile Ad hoc Networks are highly dynamic networks. Quality of Service (QoS) routing in such networks is usually limited by the network breakage due to either node mobility or energy depletion of the mobile nodes. Also, to fulfill certain quality parameters, presence of multiple node-disjoint paths becomes essential. Such paths aid in the optimal traffic distribution and reliability in case of path breakages. Thus, to cater various challenges in QoS routing in Mobile Add hoc Networks, a Node Disjoint Multipath Routing Considering Link and Node Stability (NDMLNR) protocol has been proposed by t",
+    "date": "2010-02-05",
+    "url": "http://arxiv.org/abs/1002.1162v1",
+    "authors": [
+      "Shuchita Upadhayaya",
+      "Charu Gandhi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Numerical analysis of solitary waves interaction in nonlinear medium",
+    "abstract": "Using numerical modeling investigated interaction of solitary waves (solitons) of the regularized long wave equation. For reception the stable model of the nonlinear medium are used methods of the linear prediction and progressive approximation. By modeling was determined that depending on ratio of velocities of the solitons and the form of highest derivatives balance is possible self-organization of the medium nonequilibrium state as formation of shock waves and stable on the form solitary waves, created as a result of full or partial mutual penetration of the solitons. Is possible also aggre",
+    "date": "2003-07-14",
+    "url": "http://arxiv.org/abs/nlin/0307023v1",
+    "authors": [
+      "Yu. A. Bunyak"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Physics of Binary Star Evolution -- from Stars to X-ray Binaries and Gravitational Wave Sources",
+    "abstract": "The majority of all stars are members of a binary system. The evolution of such binary stars and their subsequent production of pairs of compact objects in tight orbits, such as double neutron stars and double black holes, play a central role in modern astrophysics, Binary evolution leads to the formation of different types of violent cosmic events such as novae, supernova explosions, gamma-ray bursts, mass transfer and accretion processes in X-ray binaries, and the formation of exotic radio millisecond pulsars. In some cases, the binary systems terminate as spectacular collisions between neut",
+    "date": "2023-05-16",
+    "url": "http://arxiv.org/abs/2305.09388v2",
+    "authors": [
+      "Thomas M. Tauris",
+      "Ed P. J. van den Heuvel"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The Prime Focus Spectrograph Galaxy Evolution Survey",
+    "abstract": "We present the Prime Focus Spectrograph (PFS) Galaxy Evolution pillar of the 360-night PFS Subaru Strategic Program. This 130-night program will capitalize on the wide wavelength coverage and massive multiplexing capabilities of PFS to study the evolution of typical galaxies from cosmic dawn to the present. From Lyman alpha emitters at z~7 to probe reionization, drop-outs at z~3 to map the inter-galactic medium in absorption, and a continuum-selected sample at z~1.5, we will chart the physics of galaxy evolution within the evolving cosmic web. This article is dedicated to the memory of Olivier",
+    "date": "2022-06-29",
+    "url": "http://arxiv.org/abs/2206.14908v1",
+    "authors": [
+      "Jenny Greene",
+      "Rachel Bezanson",
+      "Masami Ouchi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Wave dispersion under finite deformation",
+    "abstract": "We derive exact dispersion relations for axial and flexural elastic wave motion in a rod and a beam under finite deformation. For axial motion we consider a simple rod model, and for flexural motion we employ the Euler-Bernoulli kinematic hypothesis and consider both a conventional transverse motion model and an inextensional planar motion model. The underlying formulation uses the Cauchy stress and the Green-Lagrange strain. For all models, we consider linear constitutive relations in order to isolate the effect of finite motion. The proposed methodology, however, is applicable to problems th",
+    "date": "2012-10-24",
+    "url": "http://arxiv.org/abs/1210.6607v2",
+    "authors": [
+      "Mohammad H. Abedinnasab",
+      "Mahmoud I. Hussein"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Control Strategies for Autonomous Vehicles",
+    "abstract": "This chapter focuses on the self-driving technology from a control perspective and investigates the control strategies used in autonomous vehicles and advanced driver-assistance systems from both theoretical and practical viewpoints. First, we introduce the self-driving technology as a whole, including perception, planning and control techniques required for accomplishing the challenging task of autonomous driving. We then dwell upon each of these operations to explain their role in the autonomous system architecture, with a prime focus on control strategies. The core portion of this chapter c",
+    "date": "2020-11-17",
+    "url": "http://arxiv.org/abs/2011.08729v3",
+    "authors": [
+      "Chinmay Vilas Samak",
+      "Tanmay Vilas Samak",
+      "Sivanathan Kandhasamy"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Intersection focused Situation Coverage-based Verification and Validation Framework for Autonomous Vehicles Implemented in CARLA",
+    "abstract": "Autonomous Vehicles (AVs) i.e., self-driving cars, operate in a safety critical domain, since errors in the autonomous driving software can lead to huge losses. Statistically, road intersections which are a part of the AVs operational design domain (ODD), have some of the highest accident rates. Hence, testing AVs to the limits on road intersections and assuring their safety on road intersections is pertinent, and thus the focus of this paper. We present a situation coverage-based (SitCov) AV-testing framework for the verification and validation (V&V) and safety assurance of AVs, developed in ",
+    "date": "2021-12-24",
+    "url": "http://arxiv.org/abs/2112.14706v2",
+    "authors": [
+      "Zaid Tahir",
+      "Rob Alexander"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "MHD analysis on the physical designs of CFETR and HFRC",
+    "abstract": "The China Fusion Engineering Test Reactor (CFETR) and the Huazhong Field Reversed Configuration (HFRC), currently both under intensive physical and engineering designs in China, are the two major projects representative of the low-density steady-state and high-density pulsed pathways to fusion. One of the primary tasks of the physics designs for both CFETR and HFRC is the assessment and analysis of the magnetohydrodynamic (MHD) stability of the proposed design schemes. Comprehensive efforts on the assessment of MHD stability of CFETR and HFRC baseline scenarios have led to preliminary progress",
+    "date": "2021-07-25",
+    "url": "http://arxiv.org/abs/2107.11742v1",
+    "authors": [
+      "Ping Zhu",
+      "Li Li",
+      "Yu Fang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Deep Reinforcement Learning framework for Autonomous Driving",
+    "abstract": "Reinforcement learning is considered to be a strong AI paradigm which can be used to teach machines through interaction with the environment and learning from their mistakes. Despite its perceived utility, it has not yet been successfully applied in automotive applications. Motivated by the successful demonstrations of learning of Atari games and Go by Google DeepMind, we propose a framework for autonomous driving using deep reinforcement learning. This is of particular relevance as it is difficult to pose autonomous driving as a supervised learning problem due to strong interactions with the ",
+    "date": "2017-04-08",
+    "url": "http://arxiv.org/abs/1704.02532v1",
+    "authors": [
+      "Ahmad El Sallab",
+      "Mohammed Abdou",
+      "Etienne Perot"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Two new standing solitary waves in shallow water",
+    "abstract": "In this paper, the closed-form analytic solutions of two new Faraday's standing solitary waves due to the parametric resonance of liquid in a vessel vibrating vertically with a constant frequency are given for the first time. Using a model based on the symmetry of wave elevation and the linearized Boussinesq equation, we gain the closed-form wave elevations of the two kinds of non-monotonically decaying standing solitary waves with smooth crest and the even or odd symmetry. All of them have never been reported, to the best of our knowledge. Besides, they can well explain some experimental phen",
+    "date": "2013-02-12",
+    "url": "http://arxiv.org/abs/1302.2714v1",
+    "authors": [
+      "Shijun Liao"
+    ]
+  }
+]

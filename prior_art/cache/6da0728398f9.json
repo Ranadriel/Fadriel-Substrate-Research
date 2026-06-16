@@ -1,0 +1,176 @@
+[
+  {
+    "source": "OpenAlex (Nature Communications)",
+    "title": "Predicting locations of cryptic pockets from single protein structures using the PocketMiner graph neural network",
+    "abstract": "Cryptic pockets expand the scope of drug discovery by enabling targeting of proteins currently considered undruggable because they lack pockets in their ground state structures. However, identifying cryptic pockets is labor-intensive and slow. The ability to accurately and rapidly predict if and where cryptic pockets are likely to form from a structure would greatly accelerate the search for druggable pockets. Here, we present PocketMiner, a graph neural network trained to predict where pockets are likely to open in molecular dynamics simulations. Applying PocketMiner to single structures from",
+    "date": "2023",
+    "url": "https://doi.org/10.1038/s41467-023-36699-3",
+    "authors": [
+      "Artur Meller",
+      "Michael D. Ward",
+      "Jonathan Borowsky"
+    ]
+  },
+  {
+    "source": "OpenAlex (Chemical Society Reviews)",
+    "title": "Development of the design and synthesis of metal\u2013organic frameworks (MOFs) \u2013 from large scale attempts, functional oriented modifications, to artificial intelligence (AI) predictions",
+    "abstract": "Owing to the exceptional porous properties of metal-organic frameworks (MOFs), there has recently been a surge of interest, evidenced by a plethora of research into their design, synthesis, properties, and applications. This expanding research landscape has driven significant advancements in the precise regulation of MOF design and synthesis. Initially dominated by large-scale synthesis approaches, this field has evolved towards more targeted functional modifications. Recently, the integration of computational science, particularly through artificial intelligence predictions, has ushered in a ",
+    "date": "2024",
+    "url": "https://doi.org/10.1039/d4cs00432a",
+    "authors": [
+      "Zongsu Han",
+      "Yihao Yang",
+      "Joshua Rushlow"
+    ]
+  },
+  {
+    "source": "OpenAlex (Manufacturing Review)",
+    "title": "Modelling of additive manufacturing processes: a review and classification",
+    "abstract": "Additive manufacturing (AM) is a very promising technology; however, there are a number of open issues related to the different AM processes. The literature on modelling the existing AM processes is reviewed and classified. A categorization of the different AM processes in process groups, according to the process mechanism, has been conducted and the most important issues are stated. Suggestions are made as to which approach is more appropriate according to the key performance indicator desired to be modelled and a discussion is included as to the way that future modelling work can better cont",
+    "date": "2018",
+    "url": "https://doi.org/10.1051/mfreview/2017014",
+    "authors": [
+      "Panagiotis Stavropoulos",
+      "Panagis Foteinopoulos"
+    ]
+  },
+  {
+    "source": "OpenAlex (Biological Psychiatry Cognitive Neuroscience and Neuroimaging)",
+    "title": "Data-Driven Clustering Reveals a Link Between Symptoms and Functional Brain Connectivity in Depression",
+    "abstract": "Adding to the pursuit of individual-based treatment, subtyping based on a dimensional conceptualization and unique constellations of anxiety and depression symptoms is supported by distinct patterns of static functional connectivity in the brain.",
+    "date": "2018",
+    "url": "https://doi.org/10.1016/j.bpsc.2018.05.005",
+    "authors": [
+      "Luigi A. Maglanoc",
+      "Nils Inge Landr\u00f8",
+      "Rune Jonassen"
+    ]
+  },
+  {
+    "source": "OpenAlex (Biotechnology Advances)",
+    "title": "The interplay of descriptor-based computational analysis with pharmacophore modeling builds the basis for a novel classification scheme for feruloyl esterases",
+    "abstract": "",
+    "date": "2010",
+    "url": "https://doi.org/10.1016/j.biotechadv.2010.09.003",
+    "authors": [
+      "D.B.R.K. Gupta Udatha",
+      "Irene Kouskoumvekaki",
+      "Lisbeth Olsson"
+    ]
+  },
+  {
+    "source": "OpenAlex (Communications Biology)",
+    "title": "Identifying the serious clinical outcomes of adverse reactions to drugs by a multi-task deep learning framework",
+    "abstract": "Adverse Drug Reactions (ADRs) have a direct impact on human health. As continuous pharmacovigilance and drug monitoring prove to be costly and time-consuming, computational methods have emerged as promising alternatives. However, most existing computational methods primarily focus on predicting whether or not the drug is associated with an adverse reaction and do not consider the core issue of drug benefit-risk assessment-whether the treatment outcome is serious when adverse drug reactions occur. To this end, we categorize serious clinical outcomes caused by adverse reactions to drugs into sev",
+    "date": "2023",
+    "url": "https://doi.org/10.1038/s42003-023-05243-w",
+    "authors": [
+      "Haochen Zhao",
+      "Peng Ni",
+      "Qichang Zhao"
+    ]
+  },
+  {
+    "source": "OpenAlex (Current Opinion in Solid State and Materials Science)",
+    "title": "Recent advances in describing and driving crystal nucleation using machine learning and artificial intelligence",
+    "abstract": "",
+    "date": "2023",
+    "url": "https://doi.org/10.1016/j.cossms.2023.101093",
+    "authors": [
+      "Eric R. Beyerle",
+      "Ziyue Zou",
+      "Pratyush Tiwary"
+    ]
+  },
+  {
+    "source": "OpenAlex (Biomolecules)",
+    "title": "Protein Function Analysis through Machine Learning",
+    "abstract": "Machine learning (ML) has been an important arsenal in computational biology used to elucidate protein function for decades. With the recent burgeoning of novel ML methods and applications, new ML approaches have been incorporated into many areas of computational biology dealing with protein function. We examine how ML has been integrated into a wide range of computational models to improve prediction accuracy and gain a better understanding of protein function. The applications discussed are protein structure prediction, protein engineering using sequence modifications to achieve stability an",
+    "date": "2022",
+    "url": "https://doi.org/10.3390/biom12091246",
+    "authors": [
+      "Chris Avery",
+      "Julie A. Patterson",
+      "Tyler Grear"
+    ]
+  },
+  {
+    "source": "OpenAlex (Applied Sciences)",
+    "title": "Towards Machine Learning for Error Compensation in Additive Manufacturing",
+    "abstract": "Additive Manufacturing (AM) of three-dimensional objects is now being progressively realised with its ad-hoc approach with minimal material wastage (lean manufacturing) being one of its benefit by default. It could also be considered as an evolutional paradigm in the manufacturing industry with its long list of application as of late. Artificial Intelligence is currently finding its usefulness in predictive modelling to provide intelligent, efficient, customisable, high-quality and sustainable-oriented production process. This paper presents a comprehensive survey on commonly used predictive m",
+    "date": "2021",
+    "url": "https://doi.org/10.3390/app11052375",
+    "authors": [
+      "Amzar Omairi",
+      "Zool Hilmi Ismail"
+    ]
+  },
+  {
+    "source": "OpenAlex (bioRxiv (Cold Spring Harbor Laboratory))",
+    "title": "Predicting the locations of cryptic pockets from single protein structures using the PocketMiner graph neural network",
+    "abstract": "Abstract Cryptic pockets expand the scope of drug discovery by enabling targeting of proteins currently considered undruggable because they lack pockets in their ground state structures. However, identifying cryptic pockets is labor-intensive and slow. The ability to accurately and rapidly predict if and where cryptic pockets are likely to form from a protein structure would greatly accelerate the search for druggable pockets. Here, we present PocketMiner, a graph neural network trained to predict where pockets are likely to open in molecular dynamics simulations. Applying PocketMiner to singl",
+    "date": "2022",
+    "url": "https://doi.org/10.1101/2022.06.28.497399",
+    "authors": [
+      "Artur Meller",
+      "Michael D. Ward",
+      "Jonathan Borowsky"
+    ]
+  },
+  {
+    "source": "OpenAlex (Bioinformatics)",
+    "title": "DDAffinity: predicting the changes in binding affinity of multiple point mutations using protein 3D structure",
+    "abstract": "DDAffinity is available at https://github.com/ak422/DDAffinity.",
+    "date": "2024",
+    "url": "https://doi.org/10.1093/bioinformatics/btae232",
+    "authors": [
+      "Guanglei Yu",
+      "Qichang Zhao",
+      "Xuehua Bi"
+    ]
+  },
+  {
+    "source": "OpenAlex (UvA-DARE (University of Amsterdam))",
+    "title": "",
+    "abstract": "TEST 02 - Elsevier's Scopus, the largest abstract and citation database of peer-reviewed literature. Search and access research from the science, technology, medicine, social sciences and arts and humanities fields.",
+    "date": "None",
+    "url": "",
+    "authors": []
+  },
+  {
+    "source": "OpenAlex (Small)",
+    "title": "Machine Learning\u2010Guided Discovery of High\u2010Entropy Perovskite Oxide Electrocatalysts via Oxygen Vacancy Engineering",
+    "abstract": "High-entropy perovskite oxides (HEPOs) have recently emerged as multifunctional catalysts. However, the HEPOs' structural and compositional complexity hinders the easy and accurate extrapolation of activity indicators, which are essential for establishing structure-property correlations. Here, OxiGraphX, is introduced as a novel graph neural network (GNN) model designed to capture the complex relationships among structure, composition, and atomic chemical environments for accurate prediction of oxygen vacancy formation energies (OVFEs) in HEPOs. By integrating machine learning (ML), density fu",
+    "date": "2025",
+    "url": "https://doi.org/10.1002/smll.202501946",
+    "authors": [
+      "Panesun Tukur",
+      "Yong Wei",
+      "Yi Zhang"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Cheminformatics)",
+    "title": "Pocket Crafter: a 3D generative modeling based workflow for the rapid generation of hit molecules in drug discovery",
+    "abstract": "We present a user-friendly molecular generative pipeline called Pocket Crafter, specifically designed to facilitate hit finding activity in the drug discovery process. This workflow utilized a three-dimensional (3D) generative modeling method Pocket2Mol, for the de novo design of molecules in spatial perspective for the targeted protein structures, followed by filters for chemical-physical properties and drug-likeness, structure-activity relationship analysis, and clustering to generate top virtual hit scaffolds. In our WDR5 case study, we acquired a focused set of 2029 compounds after a targe",
+    "date": "2024",
+    "url": "https://doi.org/10.1186/s13321-024-00829-w",
+    "authors": [
+      "Lingling Shen",
+      "Jian Fang",
+      "Lulu Liu"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "A Closer Look at AUROC and AUPRC under Class Imbalance",
+    "abstract": "In machine learning (ML), a widespread claim is that the area under the precision-recall curve (AUPRC) is a superior metric for model comparison to the area under the receiver operating characteristic (AUROC) for tasks with class imbalance. This paper refutes this notion on two fronts. First, we theoretically characterize the behavior of AUROC and AUPRC in the presence of model mistakes, establishing clearly that AUPRC is not generally superior in cases of class imbalance. We further show that AUPRC can be a harmful metric as it can unduly favor model improvements in subpopulations with more f",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2401.06091",
+    "authors": [
+      "Matthew B. A. McDermott",
+      "Haoran Zhang",
+      "Lasse Hansen"
+    ]
+  }
+]

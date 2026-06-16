@@ -1,0 +1,177 @@
+[
+  {
+    "source": "OpenAlex (Communications of the ACM)",
+    "title": "The cosmic cube",
+    "abstract": "Sixty-four small computers are connected by a network of point-to-point communication channels in the plan of a binary 6-cube. This \u201cCosmic Cube\u201d computer is a hardware simulation of a future VLSI implementation that will consist of single-chip nodes. The machine offers high degrees of concurrency in applications and suggests that future machines with thousands of nodes are both feasible and attractive.",
+    "date": "1985",
+    "url": "https://doi.org/10.1145/2465.2467",
+    "authors": [
+      "Charles L. Seitz"
+    ]
+  },
+  {
+    "source": "OpenAlex (The VLDB Journal)",
+    "title": "Service oriented architectures: approaches, technologies and research issues",
+    "abstract": "Service-oriented architectures (SOA) is an emerging approach that addresses the requirements of loosely coupled, standards-based, and protocol- independent distributed computing. Typically business operations running in an SOA comprise a number of invocations of these different components, often in an event-driven or asynchronous fashion that reflects the underlying business process needs. To build an SOA a highly distributable communications and integration backbone is required. This functionality is provided by the Enterprise Service Bus (ESB) that is an integration platform that utilizes We",
+    "date": "2007",
+    "url": "https://doi.org/10.1007/s00778-007-0044-3",
+    "authors": [
+      "M. Papazoglou",
+      "Willem\u2010Jan van den Heuvel"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "Toward Scalable Systems for Big Data Analytics: A Technology Tutorial",
+    "abstract": "Recent technological advancements have led to a deluge of data from distinctive domains (e.g., health care and scientific sensors, user-generated data, Internet and financial companies, and supply chain systems) over the past two decades. The term big data was coined to capture the meaning of this emerging trend. In addition to its sheer volume, big data also exhibits other unique characteristics as compared with traditional data. For instance, big data is commonly unstructured and require more real-time analysis. This development calls for new system architectures for data acquisition, transm",
+    "date": "2014",
+    "url": "https://doi.org/10.1109/access.2014.2332453",
+    "authors": [
+      "Han Hu",
+      "Yonggang Wen",
+      "Tat\u2010Seng Chua"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM Computing Surveys)",
+    "title": "A Survey of Coarse-Grained Reconfigurable Architecture and Design",
+    "abstract": "As general-purpose processors have hit the power wall and chip fabrication cost escalates alarmingly, coarse-grained reconfigurable architectures (CGRAs) are attracting increasing interest from both academia and industry, because they offer the performance and energy efficiency of hardware with the flexibility of software. However, CGRAs are not yet mature in terms of programmability, productivity, and adaptability. This article reviews the architecture and design of CGRAs thoroughly for the purpose of exploiting their full potential. First, a novel multidimensional taxonomy is proposed. Secon",
+    "date": "2019",
+    "url": "https://doi.org/10.1145/3357375",
+    "authors": [
+      "Leibo Liu",
+      "Jianfeng Zhu",
+      "Zhaoshi Li"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Spatial: a language and compiler for application accelerators",
+    "abstract": "Industry is increasingly turning to reconfigurable architectures like FPGAs and CGRAs for improved performance and energy efficiency. Unfortunately, adoption of these architectures has been limited by their programming models. HDLs lack abstractions for productivity and are difficult to target from higher level languages. HLS tools are more productive, but offer an ad-hoc mix of software and hardware abstractions which make performance optimizations difficult.",
+    "date": "2018",
+    "url": "https://doi.org/10.1145/3192366.3192379",
+    "authors": [
+      "David Koeplinger",
+      "Matthew Feldman",
+      "Raghu Prabhakar"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM Computing Surveys)",
+    "title": "A Manifesto for Future Generation Cloud Computing",
+    "abstract": "The Cloud computing paradigm has revolutionised the computer science horizon during the past decade and has enabled the emergence of computing as the fifth utility. It has captured significant attention of academia, industries, and government bodies. Now, it has emerged as the backbone of modern economy by offering subscription-based services anytime, anywhere following a pay-as-you-go model. This has instigated (1) shorter establishment times for start-ups, (2) creation of scalable global enterprise applications, (3) better cost-to-value associativity for scientific and high-performance compu",
+    "date": "2018",
+    "url": "https://doi.org/10.1145/3241737",
+    "authors": [
+      "Rajkumar Buyya",
+      "Satish Narayana Srirama",
+      "Giuliano Casale"
+    ]
+  },
+  {
+    "source": "OpenAlex (Future Generation Computer Systems)",
+    "title": "BodyCloud: A SaaS approach for community Body Sensor Networks",
+    "abstract": "",
+    "date": "2013",
+    "url": "https://doi.org/10.1016/j.future.2013.12.015",
+    "authors": [
+      "Giancarlo Fortino",
+      "Daniele Parisi",
+      "Vincenzo Pirrone"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal Of Big Data)",
+    "title": "Big data stream analysis: a systematic literature review",
+    "abstract": "Recently, big data streams have become ubiquitous due to the fact that a number of applications generate a huge amount of data at a great velocity. This made it difficult for existing data mining tools, technologies, methods, and techniques to be applied directly on big data streams due to the inherent dynamic characteristics of big data. In this paper, a systematic review of big data streams analysis which employed a rigorous and methodical approach to look at the trends of big data stream tools and technologies as well as methods and techniques employed in analysing big data streams. It prov",
+    "date": "2019",
+    "url": "https://doi.org/10.1186/s40537-019-0210-7",
+    "authors": [
+      "Taiwo Kolajo",
+      "Olawande Daramola",
+      "Ayodele A. Adebiyi"
+    ]
+  },
+  {
+    "source": "OpenAlex (DSpace@MIT (Massachusetts Institute of Technology))",
+    "title": "Wishbone: profile-based partitioning for sensornet applications",
+    "abstract": "The ability to partition sensor network application code across sensor nodes and backend servers is important for running complex, data-intensive applications on sensor platforms that have CPU, energy, and bandwidth limitations. This paper presents Wishbone, a system that takes a dataflow graph of operators and produces an optimal partitioning. With Wishbone, users can run the same program on a range of sensor platforms, including TinyOS motes, smartphones running JavaME, and the iPhone. The resulting program partitioning will in general be different in each case, reflecting the different node",
+    "date": "2009",
+    "url": "",
+    "authors": [
+      "Ryan Newton",
+      "Sivan Toledo",
+      "Lewis Girod"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM Transactions on Programming Languages and Systems)",
+    "title": "Commutativity analysis",
+    "abstract": "This article presents a new analysis technique, commutativity analysis, for automatically parallelizing computations that manipulate dynamic, pointer-based data structures. Commutativity analysis views the computation as composed of operations on objects. It then analyzes the program at this granularity to discover when operations commute (i.e., generate the same final result regardless of the order in which they execute). If all of the operations required to perform a given computation commute, the compiler can automatically generate parallel code. We have implemented a prototype compilation ",
+    "date": "1997",
+    "url": "https://doi.org/10.1145/267959.269969",
+    "authors": [
+      "Martin Rinard",
+      "Pedro C. Diniz"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM Computing Surveys)",
+    "title": "Scientific Workflows",
+    "abstract": "Modern scientific collaborations have opened up the opportunity to solve complex problems that require both multidisciplinary expertise and large-scale computational experiments. These experiments typically consist of a sequence of processing steps that need to be executed on selected computing platforms. Execution poses a challenge, however, due to (1) the complexity and diversity of applications , (2) the diversity of analysis goals , (3) the heterogeneity of computing platforms , and (4) the volume and distribution of data . A common strategy to make these in silico experiments more managea",
+    "date": "2016",
+    "url": "https://doi.org/10.1145/3012429",
+    "authors": [
+      "Chee Sun Liew",
+      "Malcolm Atkinson",
+      "Michelle Galea"
+    ]
+  },
+  {
+    "source": "OpenAlex (Internet of Things and Cyber-Physical Systems)",
+    "title": "Edge AI: A survey",
+    "abstract": "Artificial Intelligence (AI) at the edge is the utilization of AI in real-world devices. Edge AI refers to the practice of doing AI computations near the users at the network's edge, instead of centralised location like a cloud service provider's data centre. With the latest innovations in AI efficiency, the proliferation of Internet of Things (IoT) devices, and the rise of edge computing, the potential of edge AI has now been unlocked. This study provides a thorough analysis of AI approaches and capabilities as they pertain to edge computing, or Edge AI. Further, a detailed survey of edge com",
+    "date": "2023",
+    "url": "https://doi.org/10.1016/j.iotcps.2023.02.004",
+    "authors": [
+      "Raghubir Singh",
+      "Sukhpal Singh Gill"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Automatic verification of data-centric business processes",
+    "abstract": "We formalize and study business process systems that are centered around \"business artifacts\", or simply \"artifacts\". Artifacts are used to represent (real or conceptual) key business entities, including both their data schema and lifecycles. The lifecycle of an artifact type specifies the possible sequencings of services that can be applied to an artifact of this type as it progresses through the business process. The artifact-centric approach was introduced by IBM, and has been used to achieve substantial savings when performing business transformations.",
+    "date": "2009",
+    "url": "https://doi.org/10.1145/1514894.1514924",
+    "authors": [
+      "Alin Deutsch",
+      "Richard Hull",
+      "Fabio Patrizi"
+    ]
+  },
+  {
+    "source": "OpenAlex (Grid Computing)",
+    "title": "The Evolution of the Grid",
+    "abstract": "This chapter contains sections titled: Introduction The Evolution of the Grid: The First Generation The Evolution of the Grid: The Second Generation The Evolution of the Grid: The Third Generation Summary and Discussion References",
+    "date": "2003",
+    "url": "https://doi.org/10.1002/0470867167.ch3",
+    "authors": [
+      "David De Roure",
+      "Mark Baker",
+      "Nicholas R. Jennings"
+    ]
+  },
+  {
+    "source": "OpenAlex (Future Generation Computer Systems)",
+    "title": "Scientific workflows: Past, present and future",
+    "abstract": "",
+    "date": "2017",
+    "url": "https://doi.org/10.1016/j.future.2017.05.041",
+    "authors": [
+      "Malcolm Atkinson",
+      "Sandra Gesing",
+      "Johan Montagnat"
+    ]
+  }
+]

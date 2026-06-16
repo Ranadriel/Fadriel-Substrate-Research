@@ -1,0 +1,14 @@
+#!/home/rana/.local/bin/zestc
+
+                              *=/(1S.qX08Y08:substrate[L1])
+                                          |
+                                          N    spine.xb
+                                          |
+                              *=/(1F.qX08Y04:dormant_floor[L1])
+
+absorb 0_quseptit.rana
+absorb 0_zest_vm.rana
+absorb substrate.rana
+absorb dormant_floor.rana
+absorb spine.xb
+absorb brain.xb

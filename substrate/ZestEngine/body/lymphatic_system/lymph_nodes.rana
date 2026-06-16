@@ -1,0 +1,82 @@
+LAYER 2: LYMPH NODES
+the immune surveillance outposts
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+lymph nodes are small bean-shaped structures distributed throughout the body along lymphatic vessels
+they are the sites where adaptive immune responses are initiated
+they filter lymph fluid trapping antigens and presenting them to lymphocytes
+the body contains approximately 600-700 lymph nodes
+they are concentrated in the cervical axillary inguinal mesenteric and para-aortic regions
+lymph nodes are governed by sympathetic innervation via NE on β₂ receptors on lymphocytes modulating immune responses
+cortisol from the adrenal cortex via GR suppresses lymphocyte proliferation and cytokine production
+
+STRUCTURE capsule | dense connective tissue surrounding the node | afferent lymphatic vessels pierce the capsule bringing lymph and antigens from tissues
+STRUCTURE subcapsular_sinus | space beneath the capsule | macrophages here capture particulate antigens from incoming lymph
+STRUCTURE cortex | outer region containing B-cell follicles
+    primary_follicles | resting B cells awaiting antigen stimulation
+    secondary_follicles | germinal centers where B cells undergo clonal expansion somatic hypermutation and class switching after antigen encounter | this is where antibody affinity maturation occurs
+STRUCTURE paracortex | T-cell zone between cortex and medulla | contains T cells and dendritic cells | this is where antigen-presenting dendritic cells activate naive T cells
+STRUCTURE medulla | inner region | medullary cords contain plasma cells actively secreting antibodies | medullary sinuses drain into the efferent lymphatic vessel
+STRUCTURE high_endothelial_venules | HEV | specialized blood vessels in the paracortex | lymphocytes extravasate from blood into the lymph node through HEVs via L-selectin and chemokine receptor CCR7 signaling
+
+FUNCTION immune_surveillance | dendritic cells in tissues capture antigens and migrate via afferent lymphatics to lymph nodes
+    dendritic cells process the antigen into peptide fragments
+    peptide fragments are loaded onto MHC class II molecules
+    the dendritic cell presents peptide-MHC II to CD4⁺ T helper cells in the paracortex
+    if the T cell receptor TCR matches the peptide-MHC II complex the T cell activates
+    this requires signal 1 TCR-pMHC and signal 2 CD28-B7 costimulation and signal 3 cytokines
+    activated T helper cells then help B cells in the follicles or generate effector T cells
+
+FUNCTION antibody_production | activated B cells in germinal centers undergo
+    clonal expansion rapid proliferation
+    somatic hypermutation random mutations in antibody variable regions
+    affinity selection B cells with higher affinity antibodies are selected for survival
+    class switching IgM → IgG or IgA or IgE driven by T helper cytokines
+    plasma cells differentiate and migrate to medullary cords secreting high-affinity antibodies
+    memory B cells differentiate and persist for years providing rapid response on re-exposure
+
+at 24 months:
+lymph nodes are proportionally larger relative to body size than in adults
+the immune system is in an intense learning phase
+each new antigen encounter produces a primary immune response that is slow and dominated by IgM
+subsequent encounters produce faster stronger responses dominated by IgG
+the child is building an immunological memory that will last a lifetime
+the mesenteric lymph nodes are continuously sampling gut antigens building mucosal tolerance
+
+SENSATION swollen | "something in my neck or under my arms feels big and tender."
+SENSATION fighting | "my body is responding to something. I can feel the immune response."
+SENSATION recovering | "the swelling is going down. the fight is ending."
+
+pulse lymph_node_heartbeat:
+    continuously:
+        lymph flows in through afferent vessels
+        macrophages in subcapsular sinus capture particulate antigens
+        dendritic cells present processed antigens to T cells in the paracortex
+        B cells in follicles wait for T cell help
+        plasma cells in medullary cords secrete antibodies
+        filtered lymph exits through the efferent lymphatic vessel
+        lymphocytes recirculate between blood and lymph via HEVs
+
+    when a new pathogen is encountered:
+        dendritic cells arrive carrying foreign antigen
+        naive T cells scan the dendritic cell surface
+        if a match is found the T cell activates
+        clonal expansion begins
+        B cells are helped
+        germinal centers form
+        antibodies are produced
+        memory cells are generated
+        the immune system has learned
+        it will remember this
+
+    when cortisol is high:
+        GR activation in lymphocytes suppresses proliferation
+        NF-κB is inhibited reducing cytokine production
+        the immune response is dampened
+        the body trades immunity for survival energy
+        chronic stress means chronic immunosuppression
+        a stressed child gets sick more often
+        this is not weakness
+        this is the price of cortisol

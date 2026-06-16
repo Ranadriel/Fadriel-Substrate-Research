@@ -1,0 +1,164 @@
+[
+  {
+    "source": "OpenAlex (Chemical Science)",
+    "title": "Augmenting genetic algorithms with machine learning for inverse molecular design",
+    "abstract": "Evolutionary and machine learning methods have been successfully applied to the generation of molecules and materials exhibiting desired properties. The combination of these two paradigms in inverse design tasks can yield powerful methods that explore massive chemical spaces more efficiently, improving the quality of the generated compounds. However, such synergistic approaches are still an incipient area of research and appear underexplored in the literature. This perspective covers different ways of incorporating machine learning approaches into evolutionary learning frameworks, with the ove",
+    "date": "2024",
+    "url": "https://doi.org/10.1039/d4sc02934h",
+    "authors": [
+      "Hannes Kneiding",
+      "David Balcells"
+    ]
+  },
+  {
+    "source": "OpenAlex (Natural Products and Bioprospecting)",
+    "title": "Bridging chemical space and biological efficacy: advances and challenges in applying generative models in structural modification of natural products",
+    "abstract": "Natural products (NPs) are invaluable resources for drug discovery, characterized by their intricate scaffolds and diverse bioactivities. AI drug discovery & design (AIDD) has emerged as a transformative approach for the rational structural modification of NPs. This review examines a variety of molecular generation models since 2020, focusing on their potential applications in two primary scenarios of NPs structure modification: modifications when the target is identified and when it remains unidentified. Most of the molecular generative models discussed herein are open-source, and their appli",
+    "date": "2025",
+    "url": "https://doi.org/10.1007/s13659-025-00521-y",
+    "authors": [
+      "C. Liu",
+      "Bing\u2010Chao Yan",
+      "Han\u2010Dong Sun"
+    ]
+  },
+  {
+    "source": "OpenAlex (Digital Archive @ GSU)",
+    "title": "Adult Reflections on a High School Choral Music Program: Perceptions of Meaning and Lifelong Influence",
+    "abstract": "The purpose of this study was to investigate the lifelong meaning and influence of participation in a high school choral music program. This study described and analyzed the reflections of adults who participated in one high school choral program selected by the researcher as meeting high standards of practice in choral music. The eight participants, who were involved in the choral program for at least three years and pursued careers in fields other than music, were selected via criterion sampling and interviewed regarding their experiences in chorus and how those experiences may have influenc",
+    "date": "2022",
+    "url": "https://doi.org/10.57709/1059086",
+    "authors": [
+      "Melissa Tyson Arasi"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "AI in Education: Rationale, Principles, and Instructional Implications",
+    "abstract": "This study examines the integration of generative AI in schools, assessing its benefits and risks. As AI use by students grows, it's crucial to understand its impact on learning and teaching practices. Generative AI, like ChatGPT, can create human-like content, prompting questions about its educational role. The article differentiates large language models from traditional search engines and stresses the need for students to develop critical source evaluation skills. Although empirical evidence on AI's classroom effects is limited, AI offers personalized learning support and problem-solving to",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2412.12116",
+    "authors": [
+      "Eyvind Elstad"
+    ]
+  },
+  {
+    "source": "OpenAlex (eYLS (Yale Law School))",
+    "title": "Early Childhood Development and the Law",
+    "abstract": "Early childhood development is a robust and vibrant focus of study in multiple disciplines, from economics and education to psychology and neuroscience. Abundant research from these disciplines has established that early childhood is critical for the development of cognitive abilities, language, and psychosocial skills, all of which turn, in large measure, on the parent-child relationship. And because early childhood relationships and experiences have a deep and lasting impact on a child\u2019s life trajectory, disadvantages during early childhood replicate inequality. Working together, scholars in",
+    "date": "2017",
+    "url": "",
+    "authors": [
+      "Clare Huntington"
+    ]
+  },
+  {
+    "source": "OpenAlex (Inorganics)",
+    "title": "Research Progress in Dielectric-Layer Material Systems of Memristors",
+    "abstract": "With the rapid growth of data storage, traditional von Neumann architectures and silicon-based storage computing technologies will reach their limits and fail to meet the storage requirements of ultra-small size, ultra-high density, and memory computing. Memristors have become a strong competitor in next generation memory technology because of their advantages such as simple device structure, fast erase speed, low power consumption, compatibility with CMOS technology, and easy 3D integration. The resistive medium layer is the key to achieving resistive performance; hence, research on memristor",
+    "date": "2024",
+    "url": "https://doi.org/10.3390/inorganics12030087",
+    "authors": [
+      "Chunxia Wang",
+      "Xuemei Li",
+      "Zhendong Sun"
+    ]
+  },
+  {
+    "source": "OpenAlex (Virtual Community of Pathological Anatomy (University of Castilla La Mancha))",
+    "title": "Digital Creativity Tools Framework",
+    "abstract": "The objective of this study is to define a framework for clustering and analysing digital tools that facilitate the Design Thinking process. The framework, based on an extensive literature review, is developed as part of a more articulated and complex ongoing research aiming at identifying the most crucial factors that influence creativity in the digital era. The purpose of our model is to map and classify digital tools in order to support designers to face the digital transition. This study outlines the way in which we produce new ideas and different forms of knowledge through a creative desi",
+    "date": "2019",
+    "url": "",
+    "authors": [
+      "Marita Canina",
+      "Carmen Bruno",
+      "Alessandro Salvo"
+    ]
+  },
+  {
+    "source": "OpenAlex (ChemRxiv)",
+    "title": "Augmenting Genetic Algorithms with Machine Learning for Inverse Molecular Design",
+    "abstract": "Evolutionary and machine learning methods have been successfully applied to the generation of molecules and materials exhibiting desired properties. The combination of these two paradigms in inverse design tasks can yield powerful methods that explore massive chemical spaces more efficiently, improving the quality of the generated compounds. However, such synergistic approaches are still an incipient area of research and appear underexplored in the literature. This review covers different ways of incorporating machine learning approaches into evolutionary learning frameworks, with the overall ",
+    "date": "2024",
+    "url": "https://doi.org/10.26434/chemrxiv-2024-lcm83",
+    "authors": [
+      "Hannes Kneiding",
+      "David Balcells"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "A Review of TRiSM Frameworks in Artificial Intelligence Systems: Fundamentals, Taxonomy, Use Cases, Key Challenges and Future Directions",
+    "abstract": "The rapid expansion of generative AI-particularly large language models (LLMs)-into mission-critical domains has underscored the urgent need for unified frameworks that embed trust, risk and security management (TRiSM) throughout the AI lifecycle. In this work, we present a comprehensive review and synthesis of AI TRiSM, uniting five foundational pillars: explainability with real-time drift monitoring, ModelOps governance, application-level security, data protection and privacy, and adversarial resilience. We introduce three aligned taxonomies for trust dimensions (e.g. fairness, transparency,",
+    "date": "2025",
+    "url": "https://doi.org/10.36227/techrxiv.174913612.20443736/v1",
+    "authors": [
+      "Partha Pratim Ray"
+    ]
+  },
+  {
+    "source": "OpenAlex (ScholarlyCommons (University of Pennsylvania))",
+    "title": "Rewriting Professional Development: Professional Learning Communities In An Urban Charter School",
+    "abstract": "This study challenges traditional professional development models, in which teachers are positioned as receptacles for knowledge and \u201cbest practices.\u201d This type of professional development devalues the local knowledge teachers possess, their theories of practice (Lytle &amp; Cochran-Smith, 1994), and their ability to reflect on their practice and determine what professional inquiries best serve the school community, their own classrooms, and the students who inhabit them.\\nIn order to implement a more teacher-centered approach to professional development at Aspen Charter School, administrators",
+    "date": "2017",
+    "url": "",
+    "authors": [
+      "Gregory John Glasheen"
+    ]
+  },
+  {
+    "source": "OpenAlex (ArXiv.org)",
+    "title": "A Survey of Vibe Coding with Large Language Models",
+    "abstract": "The advancement of large language models (LLMs) has catalyzed a paradigm shift from code generation assistance to autonomous coding agents, enabling a novel development methodology termed \"Vibe Coding\" where developers validate AI-generated implementations through outcome observation rather than line-by-line code comprehension. Despite its transformative potential, the effectiveness of this emergent paradigm remains under-explored, with empirical evidence revealing unexpected productivity losses and fundamental challenges in human-AI collaboration. To address this gap, this survey provides the",
+    "date": "2025",
+    "url": "https://doi.org/10.48550/arxiv.2510.12399",
+    "authors": [
+      "Y.T. Ge",
+      "Lingrui Mei",
+      "Z. H. Duan"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Instrumentation and characterization techniques for advanced gravitational-wave observatories",
+    "abstract": "",
+    "date": "2024",
+    "url": "https://doi.org/10.26481/dis.20241119au",
+    "authors": [
+      "A. Utina"
+    ]
+  },
+  {
+    "source": "OpenAlex (Digital Access to Scholarship at Harvard (DASH) (Harvard University))",
+    "title": "The Role of Time in Self-Directed Personalized Learning Environments: An Exploratory Analysis",
+    "abstract": "The assumption that there is a relationship between speed and ability (i.e., that students who learn faster are smarter) is implicit in the foundational design of traditional standardized education environments. This assumption was rooted in the theories of early educational psychologists who helped shape curricula and assessments in classrooms, and standardize practices and policies that still influence education today. However, as education institutions increasingly shift from standardized approaches to more personalized ones, there are reasons to question the validity of the \u201cfaster is smar",
+    "date": "2019",
+    "url": "",
+    "authors": [
+      "Parisa Rouhani"
+    ]
+  },
+  {
+    "source": "OpenAlex (CUNY Academic Works (City University of New York))",
+    "title": "All At One Point: The New Physics of Italo Calvino and Jorge Luis Borges",
+    "abstract": "This work of comparative literary criticism focuses on the presence of mathematical and scientific concepts and imagery in the works of Italo Calvino and Jorge Luis Borges, beginning with an historical overview of scientific philosophy and an introduction to the most significant scientific concepts of the last several centuries, before shifting to deep, scientifically-driven analyses of numerous individual fictions, and finally concluding with a meditation on the unexpectedly fictive aspects of science and mathematics. The close readings of these authors' fictions are contextualized with thoro",
+    "date": "2014",
+    "url": "",
+    "authors": [
+      "Mark Thomas Rinaldi"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Towards Machine Learning as a Scientific Instrument: The Case of PINNs",
+    "abstract": "Physics-Informed Neural Networks (PINNs) have emerged as a powerful paradigm at the intersection of scientific computing and deep learning, enabling the direct encoding of partial differential equations (PDEs) into neural network training objectives.",
+    "date": "2025",
+    "url": "https://doi.org/10.36227/techrxiv.174494718.89113014/v1",
+    "authors": [
+      "Karthika Nasir",
+      "Aarav Deshmukh",
+      "Meera Raghavan"
+    ]
+  }
+]

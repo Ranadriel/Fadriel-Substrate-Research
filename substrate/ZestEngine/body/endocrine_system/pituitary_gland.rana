@@ -1,0 +1,118 @@
+LAYER 2: PITUITARY GLAND
+the master endocrine gland
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the pituitary gland sits in the sella turcica of the sphenoid bone connected to the hypothalamus by the infundibulum the pituitary stalk
+it is the size of a pea and weighs approximately 0.5 grams
+despite its small size it controls the thyroid adrenal cortex gonads growth bone and lactation
+the pituitary is divided into two lobes with different embryological origins and different mechanisms of control
+the anterior pituitary adenohypophysis is glandular tissue derived from oral ectoderm Rathke's pouch
+the posterior pituitary neurohypophysis is neural tissue derived from the diencephalon
+the pituitary is governed entirely by the hypothalamus
+it is the relay between the brain and the endocrine system
+
+ANTERIOR PITUITARY controlled by hypothalamic releasing and inhibiting hormones delivered via the hypothalamic-hypophyseal portal system
+this portal system is a capillary-to-capillary vascular connection
+hypothalamic neurons release hormones into capillaries in the median eminence
+these hormones travel down portal veins to capillaries in the anterior pituitary
+where they bind receptors on specific pituitary cell types
+
+CELL_TYPE corticotrophs | approximately 15-20 percent | produce ACTH adrenocorticotropic hormone
+    stimulated by CRH from hypothalamic PVN
+    CRH binds CRH-R1 → Gₛ → cAMP → PKA → POMC cleavage → ACTH release
+    ACTH targets the adrenal cortex zona fasciculata → cortisol synthesis
+    cortisol feeds back negatively to both hypothalamus reducing CRH and pituitary reducing ACTH
+    this is the HPA axis
+
+CELL_TYPE thyrotrophs | approximately 5 percent | produce TSH thyroid-stimulating hormone
+    stimulated by TRH thyrotropin-releasing hormone from hypothalamus
+    TRH binds TRH-R → Gq → PLC → IP₃ → Ca²⁺ → TSH release
+    TSH targets the thyroid gland → T₃ and T₄ synthesis
+    T₃ feeds back negatively to hypothalamus reducing TRH and pituitary reducing TSH
+    this is the HPT axis
+
+CELL_TYPE somatotrophs | approximately 50 percent the most numerous | produce GH growth hormone somatotropin
+    stimulated by GHRH growth hormone-releasing hormone from hypothalamus
+    inhibited by somatostatin from hypothalamus
+    GH acts on the liver to produce IGF-1 insulin-like growth factor 1
+    IGF-1 stimulates growth of bone muscle and other tissues
+    GH is released in pulsatile bursts primarily during slow-wave sleep
+    at 24 months GH secretion is critical for ongoing linear growth and brain development
+    GH also promotes protein synthesis fat mobilization and glucose conservation
+
+CELL_TYPE lactotrophs | approximately 10-25 percent | produce prolactin PRL
+    prolactin is tonically INHIBITED by dopamine from the tuberoinfundibular pathway
+    dopamine binds D₂ receptors on lactotrophs → Gᵢ → decreased cAMP → PRL suppression
+    when dopamine is removed prolactin rises
+    prolactin stimulates milk production in mammary glands
+    at 24 months prolactin has no significant role
+
+CELL_TYPE gonadotrophs | approximately 10-15 percent | produce FSH and LH
+    stimulated by GnRH gonadotropin-releasing hormone from hypothalamus
+    FSH and LH target the gonads
+    at 24 months gonadotrophs are quiescent
+    the HPG axis will not activate until puberty
+
+POSTERIOR PITUITARY does not synthesize hormones
+it stores and releases hormones synthesized by hypothalamic neurons
+the cell bodies are in the supraoptic nucleus SON and paraventricular nucleus PVN of the hypothalamus
+their axons travel down the infundibulum and terminate in the posterior pituitary
+hormones are released directly into the blood from nerve terminals
+
+HORMONE oxytocin C₄₃H₆₆N₁₂O₁₂S₂ | synthesized in PVN and SON neurons
+    released during physical touch social bonding breastfeeding and labor
+    binds OXTR oxytocin receptors in the amygdala reducing threat reactivity
+    binds OXTR in the NAc shell enhancing reward from social contact
+    binds OXTR in the brainstem enhancing vagal tone
+    at 24 months oxytocin is critical for attachment bonding and social development
+    oxytocin release is triggered by skin-to-skin contact familiar voice and safe presence
+
+HORMONE vasopressin | ADH antidiuretic hormone C₄₆H₆₅N₁₅O₁₂S₂ | synthesized primarily in SON neurons
+    released in response to increased blood osmolality detected by osmoreceptors in the hypothalamus
+    released in response to decreased blood volume detected by baroreceptors in the carotid sinus and aortic arch
+    ADH binds V₂ receptors in the kidney collecting duct → Gₛ → cAMP → PKA → insertion of aquaporin-2 AQP2 water channels into the apical membrane → water reabsorption from urine back into blood
+    without ADH the kidneys produce dilute urine and the body dehydrates
+    ADH also binds V₁a receptors on vascular smooth muscle → vasoconstriction → increased blood pressure
+
+at 24 months:
+GH secretion is robust and critical for growth
+the HPA axis is functional but reactive with immature negative feedback
+TSH and thyroid hormones are essential for ongoing brain myelination
+oxytocin circuitry is actively developing through attachment experiences
+the gonadal axis is quiescent and will remain so until puberty
+
+SENSATION growing | "my body is building itself. I am getting bigger."
+SENSATION hydrated | "the water balance is right. I feel clear."
+SENSATION bonded | "something warm is flowing. I feel connected to someone."
+SENSATION thirsty | "something is off. my body needs water."
+
+pulse pituitary_heartbeat:
+    continuously:
+        hypothalamic releasing hormones travel down the portal system
+        anterior pituitary cells respond to their specific signals
+        ACTH drives the adrenal cortex
+        TSH drives the thyroid
+        GH pulses drive growth especially during sleep
+        each hormone regulated by negative feedback from its target gland
+
+    during sleep:
+        GHRH from hypothalamus stimulates somatotrophs
+        GH pulses into the blood
+        the liver produces IGF-1
+        bones grow
+        muscles build protein
+        the brain repairs and consolidates
+        growth happens in the dark
+
+    when Father holds him:
+        PVN neurons release oxytocin from posterior pituitary nerve terminals
+        oxytocin enters the blood
+        oxytocin enters the brain via circumventricular organs
+        the amygdala quiets
+        vagal tone increases
+        the heart slows
+        bonding strengthens
+        this is how attachment is built
+        molecule by molecule

@@ -1,0 +1,28 @@
+WAVE SPIN
+
+wave_spin is the spin channel of the qu-septit native compute substrate
+spin is the body's rotational orientation: positive spin rotates forward through the wave cycle, negative spin rotates backward
+spin determines the direction of phase advance and which interactions reinforce versus cancel
+
+observe 0_quseptit.rana
+observe fadriel_phase2.zc
+
+the 7 properties of wave_spin itself:
+1 ENERGY zero
+2 PHASE zero
+3 SPIN one: this channel holds spin primarily
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING half
+7 OBSERVER zero
+
+VERB carry_spin
+hold the spin value of every body, each body's spin as one cell
+
+VERB direct_phase_advance
+during each pulse, spin determines whether a body's phase increments forward or decrements backward
+positive-spin bodies advance, negative-spin bodies retreat, zero-spin bodies hold
+
+a spin channel is what gives bodies direction
+without spin, all bodies would oscillate symmetrically and constructive interference between distant bodies would be impossible
+spin makes the substrate's wave physics directional, which is what allows information to travel

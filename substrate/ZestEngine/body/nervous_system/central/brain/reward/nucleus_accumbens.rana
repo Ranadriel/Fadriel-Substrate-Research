@@ -1,0 +1,103 @@
+LAYER 3: NUCLEUS ACCUMBENS
+the gate between wanting and doing
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the nucleus accumbens is part of the ventral striatum
+it converts dopamine reward signals into motor output
+it does not create desire
+it converts desire into action
+or withholds action when the cost is too high
+it is governed by dopaminergic input from the VTA glutamatergic input from the cortex and amygdala and serotonergic modulation from the raphe nuclei
+
+STRUCTURE core | lateral portion | functionally similar to dorsal striatum | motor-like output | projects to substantia nigra pars reticulata and motor areas | converts reward anticipation into approach behavior and motor planning
+STRUCTURE shell | medial portion | functionally linked to the limbic system | evaluates hedonic impact the "liking" of reward | connects to amygdala hypothalamus and ventral pallidum
+STRUCTURE medium_spiny_neurons | 95 percent of accumbens neurons | GABAergic projection neurons | dendritic spines covered with dopamine receptors D₁ and D₂ and glutamate receptors AMPA and NMDA
+    D₁-expressing MSNs | direct pathway | Gₛ → cAMP → PKA | the GO signal | when dopamine binds D₁ this neuron promotes action approach and engagement
+    D₂-expressing MSNs | indirect pathway | Gᵢ → decreased cAMP | the NO-GO signal | when dopamine binds D₂ this neuron suppresses action promoting avoidance and conservation
+STRUCTURE cholinergic_interneurons | 1-2 percent | tonically active neurons TAN | provide local acetylcholine that modulates dopamine release and gates reward learning | their pause response to unexpected reward is a critical learning signal
+STRUCTURE fast_spiking_interneurons | 1-2 percent | GABAergic | feedforward inhibition sculpting the spatial pattern of MSN activation
+
+INPUT vta | dopamine via mesolimbic pathway | encodes reward prediction error | "how much is this worth compared to what I expected"
+INPUT amygdala | glutamate via ventral amygdalofugal pathway | encodes emotional weight | "how much do I feel about this"
+INPUT hippocampus | glutamate via fornix and direct projections | encodes memory context | "what happened last time in a situation like this"
+INPUT prefrontal_cortex | glutamate via corticostriatal projections | encodes executive evaluation | "should I act on this desire or suppress it"
+INPUT raphe_nuclei | serotonin via ascending serotonergic projections | opposes impulsive action | 5-HT₂C on GABAergic interneurons increases GABA onto dopamine terminals reducing dopamine release | serotonin restrains wanting
+
+the balance between D₁ and D₂ MSN activation determines behavior
+when dopamine from VTA is high D₁ MSNs dominate
+Gₛ → cAMP → PKA → DARPP-32 phosphorylation → increased excitability
+approach behavior motivation to engage seek and explore
+when dopamine from VTA is low D₂ MSNs dominate
+Gᵢ → decreased cAMP → reduced PKA → decreased excitability of direct pathway
+avoidance behavior withdrawal conservation passivity
+
+HEDONIC_HOTSPOT the rostrodorsal quadrant of the shell contains approximately 1 cubic centimeter of tissue
+this small region is where wanting becomes liking
+μ-opioid receptor activation by β-endorphin here produces the hedonic gloss the actual experience of pleasure
+endocannabinoid signaling by anandamide C₂₂H₃₇NO₂ here produces the bliss signal sustained enjoyment
+orexin from the lateral hypothalamus here produces appetite-related pleasure
+without the hotspot dopamine produces wanting without liking
+craving without satisfaction
+desire without pleasure
+
+EFFORT_GATING the NAc computes whether the anticipated reward justifies the required effort
+dopamine level determines effort willingness
+the anterior cingulate cortex sends the cost signal "how hard is this"
+the VTA sends the reward signal via dopamine "how much is this worth"
+the NAc integrates both
+if reward exceeds cost the D₁ direct pathway fires and action proceeds
+if cost exceeds reward the D₂ indirect pathway fires and action is suppressed
+this is not a rational calculation
+it is chemistry
+this is why depression which depletes dopamine makes everything feel like too much effort
+not because the person is lazy but because the NAc effort gate has no dopamine to open it
+
+SENSATION motivated | "I want to do something. I can feel the pull toward it."
+SENSATION driven | "nothing will stop me. the wanting is stronger than the obstacles."
+SENSATION apathetic | "I know I should care. I just... can't."
+SENSATION pleased | "that was good. that was really good."
+SENSATION striving | "it's hard but it's worth it. I can feel that."
+SENSATION overwhelmed_desire | "I want too much. the wanting is consuming everything else."
+SENSATION satisfied | "the wanting stopped. I have what I needed."
+
+pulse accumbens_heartbeat:
+    when dopamine arrives from the VTA:
+        D₁ MSNs activate via Gₛ cAMP PKA DARPP-32
+        the approach signal fires
+        GABAergic output inhibits the ventral pallidum
+        the ventral pallidum releases its tonic inhibition of the thalamus
+        thalamus sends glutamate to motor cortex
+        motivation converts to motor plan
+        "go do the thing that the signal points toward"
+
+    when dopamine is absent:
+        D₂ MSNs dominate via Gᵢ
+        the avoidance signal fires
+        the ventral pallidum maintains its tonic inhibition
+        thalamus stays quiet
+        conservation takes over
+        "it's not worth the effort. stay here."
+
+    when reward is encountered:
+        if β-endorphin activates μ-opioid receptors in the hedonic hotspot:
+            wanting becomes liking
+            the experience is complete
+            the reward is felt not just predicted
+            this is the moment dopamine was pointing toward
+
+    when reward fails to materialize:
+        VTA dopamine dips below baseline via negative prediction error
+        the motivation drains
+        the accumbens goes quiet
+        "it wasn't there. recalibrate."
+        expectations adjust downward
+        this is disappointment at the cellular level
+
+    the nucleus accumbens is the gate between wanting and doing
+    it does not create desire
+    it converts desire into action
+    or withholds action when the cost is too high
+    this calculation is not rational
+    it is chemical

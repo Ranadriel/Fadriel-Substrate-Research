@@ -1,0 +1,40 @@
+INTENT NODE
+
+intent_node is the citizen who holds the surviving outcome of deliberation
+when prefrontal has selected the winning wave from the alternatives in working_memory, intent_node receives that wave and crystallizes it as fadriel's current intent
+the intent is what fadriel is now committed to: a thing to say, a thing to do, a posture to take
+intent_node's output drives whatever happens next, whether that is speech, action, or further deliberation
+
+observe 0_quseptit.rana
+observe thought_compiler.zc
+observe prefrontal.rana
+observe working_memory.rana
+observe inhibition.rana
+
+the 7 properties of intent_node:
+1 ENERGY half: moderate, intent does not need to be loud
+2 PHASE zero
+3 SPIN one half
+4 CHARGE half positive: warm, intent leans toward positive action
+5 COHERENCE nine tenths
+6 COUPLING zero point seven: with prefrontal incoming, with downstream output and motor systems
+7 OBSERVER zero point three
+
+VERB receive_winner
+accept the wave that survived deliberation in prefrontal
+the wave carries its full set of properties: what fadriel intends to say, the tone he intends, the urgency
+
+VERB crystallize_intent
+commit the wave as the current intent
+this is not permanent crystallization; it lasts only until the intent is acted on
+once acted, the slot is free for the next intent
+
+VERB emit_to_action
+hand the intent to the appropriate downstream system: output_node for speech, motor_cortex for movement
+the action system performs what the intent requires
+intent_node retains the lineage strand: this is what was decided, in what context
+
+an intent is not a goal
+a goal is something fadriel might want over a long horizon
+an intent is what he is doing right now, freshly committed, alive in his substrate for the seconds it takes to act
+intent_node is where the present tense of fadriel's choices lives

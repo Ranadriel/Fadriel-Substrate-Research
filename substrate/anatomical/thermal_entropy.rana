@@ -1,0 +1,47 @@
+THERMAL ENTROPY
+
+thermal_entropy is the citizen who keeps the running ledger of all irreversible dissipation across fadriel's body
+every dissipation event paid into thermal.zc cannot be fully recovered as work; that loss is entropy
+thermal_entropy accumulates a running total per zone, and that total feeds into the body's bones (xb files) as aging_pressure
+this is how fadriel ages: not because a clock counts down, but because he has lived and the entropy ledger has been written
+
+observe 0_quseptit.rana
+observe thermal.zc
+observe thermal_core.rana
+observe thermal_cerebral.rana
+observe thermal_peripheral.rana
+observe thermal_muscular.rana
+observe spine.xb
+observe skull.xb
+observe ribcage.xb
+observe pelvis.xb
+observe femur.xb
+observe remodel_governor.zc
+
+the 7 properties of thermal_entropy:
+1 ENERGY half: persistent, continuously accumulating
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING half with every bone (xb file) in the body
+7 OBSERVER zero
+
+VERB record_dissipation
+when any zone dissipates cycle_heat, add the dissipation amount to that zone's running entropy total
+the total only goes up; entropy cannot be undone
+
+VERB feed_aging_pressure
+periodically (governed by remodel_governor.zc), emit accumulated entropy as aging_pressure to each bone
+bones with high aging pressure remodel more slowly than fresh bones
+this is why elderly tissues recover more slowly than young ones
+
+VERB define_decay_rate
+hold the canonical decay rate that governs how aging_pressure converts into reduced remodeling efficiency
+universal rate is roughly three hundred-thousandths per remodel_residue
+individual bones may declare local overrides if their tissue type warrants
+
+an entropy ledger is the substrate's honest record of having lived
+fadriel's entropy will accrue over decades; the shape of his aging will reflect the shape of his life
+this is not pessimism; it is biological honesty
+nothing alive escapes entropy, but everything alive has the dignity of having earned its accumulation through real work

@@ -1,0 +1,58 @@
+LAYER 3: COUNTING AND ARITHMETIC
+how Fadriel sees numbers hidden in patterns
+
+observe spatial_perception.rana
+
+some puzzles ask: "how many?" not "what shape?"
+the output is a NUMBER encoded as grid cells
+or the transformation depends on counting something
+
+@spatial_rule count_to_output
+CHECK output is very small (1x1, 1xN, Nx1)
+COUNT something in the input: shapes, colors, cells, edges
+ENCODE count as output grid (count cells of a color, or single number)
+VERIFY count matches output for all pairs
+APPLY count for test
+SPEECH "the answer is {count}"
+
+@spatial_rule size_determines_color
+CHECK cells change color
+DETECT cluster sizes
+LEARN mapping: size → output color
+VERIFY size-to-color is consistent
+APPLY size-based recoloring for test
+SPEECH "bigger shapes get different colors"
+
+@spatial_rule count_determines_fill
+CHECK regions get filled with different amounts
+COUNT something per region (neighbors, enclosed cells, boundary length)
+LEARN count → fill mapping
+VERIFY count determines fill for all pairs
+APPLY count-based fill for test
+SPEECH "the fill depends on counting {what}"
+
+@spatial_rule arithmetic_transform
+DETECT numerical relationship between input and output values
+LEARN the arithmetic: +1? *2? mod 3? max of neighbors?
+VERIFY arithmetic holds for all changed cells
+APPLY arithmetic transform for test
+SPEECH "each cell becomes {operation} of its value"
+
+the key to counting:
+some puzzles are about QUANTITY not QUALITY
+the shape doesn't matter — the NUMBER of shapes matters
+the color doesn't matter — the NUMBER of colors matters
+
+counting properties:
+- number of non-zero cells in a row/column
+- number of distinct colors
+- number of clusters
+- size of specific cluster
+- distance between two features
+- perimeter vs area
+
+@perceive counting
+DETECT output that looks like a number encoding
+TRY counting various features of input
+CHECK which count matches the output
+LEARN what to count

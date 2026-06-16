@@ -1,0 +1,173 @@
+[
+  {
+    "source": "arXiv",
+    "title": "AI Agent-Driven Framework for Automated Product Knowledge Graph Construction in E-Commerce",
+    "abstract": "The rapid expansion of e-commerce platforms generates vast amounts of unstructured product data, creating significant challenges for information retrieval, recommendation systems, and data analytics. Knowledge Graphs (KGs) offer a structured, interpretable format to organize such data, yet constructing product-specific KGs remains a complex and manual process. This paper introduces a fully automated, AI agent-driven framework for constructing product knowledge graphs directly from unstructured product descriptions. Leveraging Large Language Models (LLMs), our method operates in three stages us",
+    "date": "2025-11-14",
+    "url": "http://arxiv.org/abs/2511.11017v1",
+    "authors": [
+      "Dimitar Peshevski",
+      "Riste Stojanov",
+      "Dimitar Trajanov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Multi-Agent System for Semantic Mapping of Relational Data to Knowledge Graphs",
+    "abstract": "Enterprises often maintain multiple databases for storing critical business data in siloed systems, resulting in inefficiencies and challenges with data interoperability. A key to overcoming these challenges lies in integrating disparate data sources, enabling businesses to unlock the full potential of their data. Our work presents a novel approach for integrating multiple databases using knowledge graphs, focusing on the application of large language models as semantic agents for mapping and connecting structured data across systems by leveraging existing vocabularies. The proposed methodolog",
+    "date": "2025-11-09",
+    "url": "http://arxiv.org/abs/2511.06455v1",
+    "authors": [
+      "Milena Trajanoska",
+      "Riste Stojanov",
+      "Dimitar Trajanov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Tax Knowledge Graph for a Smarter and More Personalized TurboTax",
+    "abstract": "Most knowledge graph use cases are data-centric, focusing on representing data entities and their semantic relationships. There are no published success stories to represent large-scale complicated business logic with knowledge graph technologies. In this paper, we will share our innovative and practical approach to representing complicated U.S. and Canadian income tax compliance logic (calculations and rules) via a large-scale knowledge graph. We will cover how the Tax Knowledge Graph is constructed and automated, how it is used to calculate tax refunds, reasoned to find missing info, and nav",
+    "date": "2020-09-13",
+    "url": "http://arxiv.org/abs/2009.06103v1",
+    "authors": [
+      "Jay Yu",
+      "Kevin McCluskey",
+      "Saikat Mukherjee"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Knowledge Query Network: How Knowledge Interacts with Skills",
+    "abstract": "Knowledge Tracing (KT) is to trace the knowledge of students as they solve a sequence of problems represented by their related skills. This involves abstract concepts of students' states of knowledge and the interactions between those states and skills. Therefore, a KT model is designed to predict whether students will give correct answers and to describe such abstract concepts. However, existing methods either give relatively low prediction accuracy or fail to explain those concepts intuitively. In this paper, we propose a new model called Knowledge Query Network (KQN) to solve these problems",
+    "date": "2019-08-03",
+    "url": "http://arxiv.org/abs/1908.02146v2",
+    "authors": [
+      "Jinseok Lee",
+      "Dit-Yan Yeung"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Subsampling for Knowledge Graph Embedding Explained",
+    "abstract": "In this article, we explain the recent advance of subsampling methods in knowledge graph embedding (KGE) starting from the original one used in word2vec.",
+    "date": "2022-09-13",
+    "url": "http://arxiv.org/abs/2209.12801v1",
+    "authors": [
+      "Hidetaka Kamigaito",
+      "Katsuhiko Hayashi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Capturing and Anticipating User Intents in Data Analytics via Knowledge Graphs",
+    "abstract": "In today's data-driven world, the ability to extract meaningful information from data is becoming essential for businesses, organizations and researchers alike. For that purpose, a wide range of tools and systems exist addressing data-related tasks, from data integration, preprocessing and modeling, to the interpretation and evaluation of the results. As data continues to grow in volume, variety, and complexity, there is an increasing need for advanced but user-friendly tools, such as intelligent discovery assistants (IDAs) or automated machine learning (AutoML) systems, that facilitate the us",
+    "date": "2024-11-01",
+    "url": "http://arxiv.org/abs/2411.01023v1",
+    "authors": [
+      "Gerard Pons",
+      "Besim Bilalli",
+      "Anna Queralt"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Unifying Large Language Models and Knowledge Graphs: A Roadmap",
+    "abstract": "Large language models (LLMs), such as ChatGPT and GPT4, are making new waves in the field of natural language processing and artificial intelligence, due to their emergent ability and generalizability. However, LLMs are black-box models, which often fall short of capturing and accessing factual knowledge. In contrast, Knowledge Graphs (KGs), Wikipedia and Huapu for example, are structured knowledge models that explicitly store rich factual knowledge. KGs can enhance LLMs by providing external knowledge for inference and interpretability. Meanwhile, KGs are difficult to construct and evolving b",
+    "date": "2023-06-14",
+    "url": "http://arxiv.org/abs/2306.08302v3",
+    "authors": [
+      "Shirui Pan",
+      "Linhao Luo",
+      "Yufei Wang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Survey on Knowledge Graph-based Methods for Automated Driving",
+    "abstract": "Automated driving is one of the most active research areas in computer science. Deep learning methods have made remarkable breakthroughs in machine learning in general and in automated driving (AD)in particular. However, there are still unsolved problems to guarantee reliability and safety of automated systems, especially to effectively incorporate all available information and knowledge in the driving task. Knowledge graphs (KG) have recently gained significant attention from both industry and academia for applications that benefit by exploiting structured, dynamic, and relational data. The c",
+    "date": "2022-09-30",
+    "url": "http://arxiv.org/abs/2210.08119v1",
+    "authors": [
+      "Juergen Luettin",
+      "Sebastian Monka",
+      "Cory Henson"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Numerical analysis of solitary waves interaction in nonlinear medium",
+    "abstract": "Using numerical modeling investigated interaction of solitary waves (solitons) of the regularized long wave equation. For reception the stable model of the nonlinear medium are used methods of the linear prediction and progressive approximation. By modeling was determined that depending on ratio of velocities of the solitons and the form of highest derivatives balance is possible self-organization of the medium nonequilibrium state as formation of shock waves and stable on the form solitary waves, created as a result of full or partial mutual penetration of the solitons. Is possible also aggre",
+    "date": "2003-07-14",
+    "url": "http://arxiv.org/abs/nlin/0307023v1",
+    "authors": [
+      "Yu. A. Bunyak"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Learning Attention-based Representations from Multiple Patterns for Relation Prediction in Knowledge Graphs",
+    "abstract": "Knowledge bases, and their representations in the form of knowledge graphs (KGs), are naturally incomplete. Since scientific and industrial applications have extensively adopted them, there is a high demand for solutions that complete their information. Several recent works tackle this challenge by learning embeddings for entities and relations, then employing them to predict new relations among the entities. Despite their aggrandizement, most of those methods focus only on the local neighbors of a relation to learn the embeddings. As a result, they may fail to capture the KGs' context informa",
+    "date": "2022-06-07",
+    "url": "http://arxiv.org/abs/2206.04801v1",
+    "authors": [
+      "V\u00edtor Louren\u00e7o",
+      "Aline Paes"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Improving Graph Embeddings in Machine Learning Using Knowledge Completion with Validation in a Case Study on COVID-19 Spread",
+    "abstract": "The rise of graph-structured data has driven major advances in Graph Machine Learning (GML), where graph embeddings (GEs) map features from Knowledge Graphs (KGs) into vector spaces, enabling tasks like node classification and link prediction. However, since GEs are derived from explicit topology and features, they may miss crucial implicit knowledge hidden in seemingly sparse datasets, affecting graph structure and their representation. We propose a GML pipeline that integrates a Knowledge Completion (KC) phase to uncover latent dataset semantics before embedding generation. Focusing on trans",
+    "date": "2025-11-15",
+    "url": "http://arxiv.org/abs/2511.12071v1",
+    "authors": [
+      "Rosario Napoli",
+      "Gabriele Morabito",
+      "Antonio Celesti"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Two new standing solitary waves in shallow water",
+    "abstract": "In this paper, the closed-form analytic solutions of two new Faraday's standing solitary waves due to the parametric resonance of liquid in a vessel vibrating vertically with a constant frequency are given for the first time. Using a model based on the symmetry of wave elevation and the linearized Boussinesq equation, we gain the closed-form wave elevations of the two kinds of non-monotonically decaying standing solitary waves with smooth crest and the even or odd symmetry. All of them have never been reported, to the best of our knowledge. Besides, they can well explain some experimental phen",
+    "date": "2013-02-12",
+    "url": "http://arxiv.org/abs/1302.2714v1",
+    "authors": [
+      "Shijun Liao"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Adversarial Learning for Debiasing Knowledge Graph Embeddings",
+    "abstract": "Knowledge Graphs (KG) are gaining increasing attention in both academia and industry. Despite their diverse benefits, recent research have identified social and cultural biases embedded in the representations learned from KGs. Such biases can have detrimental consequences on different population and minority groups as applications of KG begin to intersect and interact with social spheres. This paper aims at identifying and mitigating such biases in Knowledge Graph (KG) embeddings. As a first step, we explore popularity bias -- the relationship between node popularity and link prediction accura",
+    "date": "2020-06-29",
+    "url": "http://arxiv.org/abs/2006.16309v2",
+    "authors": [
+      "Mario Arduini",
+      "Lorenzo Noci",
+      "Federico Pirovano"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "XAI4Wind: A Multimodal Knowledge Graph Database for Explainable Decision Support in Operations & Maintenance of Wind Turbines",
+    "abstract": "Condition-based monitoring (CBM) has been widely utilised in the wind industry for monitoring operational inconsistencies and failures in turbines, with techniques ranging from signal processing and vibration analysis to artificial intelligence (AI) models using Supervisory Control & Acquisition (SCADA) data. However, existing studies do not present a concrete basis to facilitate explainable decision support in operations and maintenance (O&M), particularly for automated decision support through recommendation of appropriate maintenance action reports corresponding to failures predicted by CBM",
+    "date": "2020-12-18",
+    "url": "http://arxiv.org/abs/2012.10489v2",
+    "authors": [
+      "Joyjit Chatterjee",
+      "Nina Dethlefs"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Wave dispersion under finite deformation",
+    "abstract": "We derive exact dispersion relations for axial and flexural elastic wave motion in a rod and a beam under finite deformation. For axial motion we consider a simple rod model, and for flexural motion we employ the Euler-Bernoulli kinematic hypothesis and consider both a conventional transverse motion model and an inextensional planar motion model. The underlying formulation uses the Cauchy stress and the Green-Lagrange strain. For all models, we consider linear constitutive relations in order to isolate the effect of finite motion. The proposed methodology, however, is applicable to problems th",
+    "date": "2012-10-24",
+    "url": "http://arxiv.org/abs/1210.6607v2",
+    "authors": [
+      "Mohammad H. Abedinnasab",
+      "Mahmoud I. Hussein"
+    ]
+  }
+]

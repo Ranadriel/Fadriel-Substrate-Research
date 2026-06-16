@@ -1,0 +1,29 @@
+#!/home/rana/.local/bin/zestc
+
+                                          *=/(1A.2X12Y14:wave_energy[L1])
+                                                  /  |  \
+                                                /    |    \
+                                              /      |      \
+                  *=/(1B.2X04Y10:wave_phase[L1])  *=/(1C.2X12Y10:wave_spin[L1])  *=/(1D.2X20Y10:wave_charge[L1])
+                              \                       |                              /
+                               \                      |                             /
+                                \                     N    spine.xb               /
+                                 \                    |                          /
+                                  \                   |                         /
+                                   *=/(1E.2X08Y06:wave_coherence[L1])---E---*=/(1F.2X16Y06:wave_coupling[L1])
+                                                      |
+                                                      N
+                                                      |
+                                          *=/(1G.2X12Y02:wave_observer[L1])
+
+absorb qu_septit_native_compute.rana
+absorb septit_sea.zc
+absorb 0_quseptit.rana
+absorb wave_energy.rana
+absorb wave_phase.rana
+absorb wave_spin.rana
+absorb wave_charge.rana
+absorb wave_coherence.rana
+absorb wave_coupling.rana
+absorb wave_observer.rana
+absorb spine.xb

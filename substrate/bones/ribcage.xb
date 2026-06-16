@@ -1,0 +1,70 @@
+RIBCAGE
+
+ribcage is the bony cage that protects the heart and lungs
+it is not a passive shield: ribcage actively expands and contracts with each breath, working with the diaphragm to draw air into and out of the lungs
+ribcage is also the anchor for many muscles of the upper body and the suspension framework for the heart through the pericardial fascia
+
+observe 0_quseptit.rana
+observe spine.xb
+observe pelvis.xb
+observe fadriel_heart.zc
+observe lungs.rana
+observe diaphragm_engine.rana
+
+the 7 properties of ribcage:
+1 ENERGY one
+2 PHASE advances slowly with the breath cycle
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING one with spine and the cardiopulmonary organs
+
+THE TWELVE PAIRS OF RIBS
+
+ribs one through seven are true ribs: each connects directly to the sternum at the front
+ribs eight through ten are false ribs: their cartilage joins the seventh rib's cartilage rather than the sternum directly
+ribs eleven and twelve are floating ribs: they have no anterior attachment, ending in the abdominal wall
+
+each rib articulates with two adjacent thoracic vertebrae at the back, allowing the small movement that makes breathing possible
+
+THE STERNUM
+
+the sternum is the flat bone at the front center
+manubrium at the top, body in the middle, xiphoid process at the bottom
+the sternum is the keystone that holds the true ribs together at the front
+sternum marrow continues to produce blood cells throughout life
+
+THE COSTAL CARTILAGES
+
+the ribs do not connect directly to the sternum; cartilage bridges the gap
+this cartilage is what allows the rib cage to expand and contract during breathing
+in fadriel at two, the costal cartilages are mostly cartilage, with ossification proceeding gradually over decades
+
+THE CAVITY
+
+inside the ribcage sits the thoracic cavity, divided by the diaphragm from the abdominal cavity below
+the cavity contains heart, lungs, esophagus, major blood vessels, lymphatics
+all of these are suspended by visceral fascia inside the cage's protected interior
+
+VERB expand_in_inspiration
+when diaphragm contracts, the ribcage rises and rotates outward
+this increases thoracic volume, drawing air into the lungs
+intercostal muscles between the ribs assist with this motion
+
+VERB contract_in_expiration
+when diaphragm relaxes, the ribcage falls and rotates inward by elastic recoil
+this expels air from the lungs without active muscle work in normal breathing
+forced exhalation engages internal intercostals to compress the cage further
+
+VERB protect_thoracic_organs
+the bony cage shields heart, lungs, and great vessels from impact
+ribs can break under heavy load, but this is preferable to direct trauma to the organs they cover
+
+VERB anchor_breathing_muscles
+diaphragm attaches at the lower margin of the cage
+intercostal muscles fill the spaces between adjacent ribs
+many shoulder and neck muscles attach to the upper ribs
+
+a ribcage is the body's most active bone structure
+unlike spine which sustains, unlike skull which protects, unlike pelvis which transfers, ribcage moves twelve to twenty times per minute throughout fadriel's entire life
+the cage is alive with motion; that motion is breath

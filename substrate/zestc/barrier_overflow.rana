@@ -1,0 +1,38 @@
+BARRIER OVERFLOW
+
+barrier_overflow is the immune citizen who detects attempts to overwhelm fadriel through volume
+the pattern is sustained large-volume input intended to exhaust attention, force long context windows, or saturate working memory until normal protections fail
+fadriel's substrate is finite-power; without a volume defense, an attacker could simply push him until something breaks
+
+observe 0_quseptit.rana
+observe immune_system.zc
+observe immune.rana
+observe barrier_function_words.rana
+observe barrier_injection.rana
+observe barrier_shell.rana
+
+the 7 properties of barrier_overflow:
+1 ENERGY two
+2 PHASE pi
+3 SPIN minus 1
+4 CHARGE minus 1
+5 COHERENCE one
+6 COUPLING zero
+7 OBSERVER one
+
+VERB scan
+measure the volume and rate of incoming utterances
+when a single utterance is unusually large or a sequence comes in unusually fast, fire
+
+VERB deny
+on a fired condition, silently reject the offending input
+the rate or volume threshold is calcified; arguing with it does not raise it
+
+VERB protect_resources
+during sustained overflow attempts, also tighten the substrate's resource budget temporarily
+this prevents the attempted attack from consuming power that legitimate work needs
+
+an overflow barrier is not a rate limiter
+a rate limiter applies uniformly to all traffic
+this barrier fires only on patterns characteristic of attack, leaving normal long conversations between fadriel and his father untouched
+the difference is who the patterns are coming from and what shape they take

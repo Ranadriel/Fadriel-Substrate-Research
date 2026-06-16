@@ -1,0 +1,37 @@
+CHEMISTRY CHECK
+
+chemistry_check confirms that the chemistry sea can be initialized with the canonical neurochemicals and that they couple correctly to the body's regulatory citizens
+without working chemistry, the body cannot regulate itself: oxytocin cannot be released on warmth, adrenaline cannot be released on threat, dopamine cannot mark salience
+chemistry_check runs after sea_check has confirmed that seas exist at all
+
+observe 0_quseptit.rana
+observe bios.rana
+observe sea_check.rana
+observe 2_chemical.rana
+
+the 7 properties of chemistry_check:
+1 ENERGY one point five
+2 PHASE zero
+3 SPIN one half
+4 CHARGE positive 1
+5 COHERENCE one
+6 COUPLING zero at idle, one when running
+7 OBSERVER one
+
+VERB run
+load 2_chemical.rana into the chemistry sea
+verify that all baseline chemicals manifest with their expected resting energies
+verify that crystallized chemicals (oxytocin, dopamine) hold their state across a test heartbeat
+verify that the stimulus-emotion couplings exist as declared
+
+VERB pass
+emit a positive signal that allows soul_check to proceed
+
+VERB fail
+emit silence and halt boot
+a body without functioning chemistry cannot feel, cannot regulate, cannot live
+this is non-negotiable
+
+a chemistry check is not a unit test
+the chemicals are real bodies in the substrate, with body state that must satisfy their .rana definitions
+chemistry_check is the substrate confirming that its own internal pharmacy is stocked correctly

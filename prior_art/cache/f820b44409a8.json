@@ -1,0 +1,179 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Discriminating Similar Languages: Evaluations and Explorations",
+    "abstract": "We present an analysis of the performance of machine learning classifiers on discriminating between similar languages and language varieties. We carried out a number of experiments using the results of the two editions of the Discriminating between Similar Languages (DSL) shared task. We investigate the progress made between the two tasks, estimate an upper bound on possible performance using ensemble and oracle combination, and provide learning curves to help us understand which languages are more challenging. A number of difficult sentences are identified and investigated further with human ",
+    "date": "2016-09-30",
+    "url": "http://arxiv.org/abs/1610.00031v1",
+    "authors": [
+      "Cyril Goutte",
+      "Serge L\u00e9ger",
+      "Shervin Malmasi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Zero-shot and Few-shot Study of Instruction-Finetuned Large Language Models Applied to Clinical and Biomedical Tasks",
+    "abstract": "We evaluate four state-of-the-art instruction-tuned large language models (LLMs) -- ChatGPT, Flan-T5 UL2, Tk-Instruct, and Alpaca -- on a set of 13 real-world clinical and biomedical natural language processing (NLP) tasks in English, such as named-entity recognition (NER), question-answering (QA), relation extraction (RE), etc. Our overall results demonstrate that the evaluated LLMs begin to approach performance of state-of-the-art models in zero- and few-shot scenarios for most tasks, and particularly well for the QA task, even though they have never seen examples from these tasks before. Ho",
+    "date": "2023-07-22",
+    "url": "http://arxiv.org/abs/2307.12114v3",
+    "authors": [
+      "Yanis Labrak",
+      "Mickael Rouvier",
+      "Richard Dufour"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "RefusalBench: Generative Evaluation of Selective Refusal in Grounded Language Models",
+    "abstract": "The ability of language models in RAG systems to selectively refuse to answer based on flawed context is critical for safety, yet remains a significant failure point. Our large-scale study reveals that even frontier models struggle in this setting, with refusal accuracy dropping below 50% on multi-document tasks, while exhibiting either dangerous overconfidence or overcaution. Static benchmarks fail to reliably evaluate this capability, as models exploit dataset-specific artifacts and memorize test instances. We introduce RefusalBench, a generative methodology that programmatically creates dia",
+    "date": "2025-10-12",
+    "url": "http://arxiv.org/abs/2510.10390v1",
+    "authors": [
+      "Aashiq Muhamed",
+      "Leonardo F. R. Ribeiro",
+      "Markus Dreyer"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Modeling Language Change in Historical Corpora: The Case of Portuguese",
+    "abstract": "This paper presents a number of experiments to model changes in a historical Portuguese corpus composed of literary texts for the purpose of temporal text classification. Algorithms were trained to classify texts with respect to their publication date taking into account lexical variation represented as word n-grams, and morphosyntactic variation represented by part-of-speech (POS) distribution. We report results of 99.8% accuracy using word unigram features with a Support Vector Machines classifier to predict the publication date of documents in time intervals of both one century and half a c",
+    "date": "2016-09-30",
+    "url": "http://arxiv.org/abs/1610.00030v1",
+    "authors": [
+      "Marcos Zampieri",
+      "Shervin Malmasi",
+      "Mark Dras"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Comprehensive Evaluation of Semantic Relation Knowledge of Pretrained Language Models and Humans",
+    "abstract": "Recently, much work has concerned itself with the enigma of what exactly pretrained language models~(PLMs) learn about different aspects of language, and how they learn it. One stream of this type of research investigates the knowledge that PLMs have about semantic relations. However, many aspects of semantic relations were left unexplored. Generally, only one relation has been considered, namely hypernymy. Furthermore, previous work did not measure humans' performance on the same task as that performed by the PLMs. This means that at this point in time, there is only an incomplete view of the",
+    "date": "2024-12-02",
+    "url": "http://arxiv.org/abs/2412.01131v5",
+    "authors": [
+      "Zhihan Cao",
+      "Hiroaki Yamada",
+      "Simone Teufel"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Evaluation and Enhancement of Semantic Grounding in Large Vision-Language Models",
+    "abstract": "Large Vision-Language Models (LVLMs) offer remarkable benefits for a variety of vision-language tasks. However, a challenge hindering their application in real-world scenarios, particularly regarding safety, robustness, and reliability, is their constrained semantic grounding ability, which pertains to connecting language to the physical-world entities or concepts referenced in images. Therefore, a crucial need arises for a comprehensive study to assess the semantic grounding ability of widely used LVLMs. Despite the significance, sufficient investigation in this direction is currently lacking",
+    "date": "2023-09-07",
+    "url": "http://arxiv.org/abs/2309.04041v2",
+    "authors": [
+      "Jiaying Lu",
+      "Jinmeng Rao",
+      "Kezhen Chen"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "THaMES: An End-to-End Tool for Hallucination Mitigation and Evaluation in Large Language Models",
+    "abstract": "Hallucination, the generation of factually incorrect content, is a growing challenge in Large Language Models (LLMs). Existing detection and mitigation methods are often isolated and insufficient for domain-specific needs, lacking a standardized pipeline. This paper introduces THaMES (Tool for Hallucination Mitigations and EvaluationS), an integrated framework and library addressing this gap. THaMES offers an end-to-end solution for evaluating and mitigating hallucinations in LLMs, featuring automated test set generation, multifaceted benchmarking, and adaptable mitigation strategies. It autom",
+    "date": "2024-09-17",
+    "url": "http://arxiv.org/abs/2409.11353v3",
+    "authors": [
+      "Mengfei Liang",
+      "Archish Arun",
+      "Zekun Wu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Vision-Language Model for Object Detection and Segmentation: A Review and Evaluation",
+    "abstract": "Vision-Language Model (VLM) have gained widespread adoption in Open-Vocabulary (OV) object detection and segmentation tasks. Despite they have shown promise on OV-related tasks, their effectiveness in conventional vision tasks has thus far been unevaluated. In this work, we present the systematic review of VLM-based detection and segmentation, view VLM as the foundational model and conduct comprehensive evaluations across multiple downstream tasks for the first time: 1) The evaluation spans eight detection scenarios (closed-set detection, domain adaptation, crowded objects, etc.) and eight seg",
+    "date": "2025-04-13",
+    "url": "http://arxiv.org/abs/2504.09480v1",
+    "authors": [
+      "Yongchao Feng",
+      "Yajie Liu",
+      "Shuai Yang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "How Important Is Tokenization in French Medical Masked Language Models?",
+    "abstract": "Subword tokenization has become the prevailing standard in the field of natural language processing (NLP) over recent years, primarily due to the widespread utilization of pre-trained language models. This shift began with Byte-Pair Encoding (BPE) and was later followed by the adoption of SentencePiece and WordPiece. While subword tokenization consistently outperforms character and word-level tokenization, the precise factors contributing to its success remain unclear. Key aspects such as the optimal segmentation granularity for diverse tasks and languages, the influence of data sources on tok",
+    "date": "2024-02-22",
+    "url": "http://arxiv.org/abs/2402.15010v2",
+    "authors": [
+      "Yanis Labrak",
+      "Adrien Bazoge",
+      "Beatrice Daille"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Introducing MELI: the Mandarin-English Language Interview Corpus",
+    "abstract": "We introduce the Mandarin-English Language Interview (MELI) Corpus, an open-source resource of 29.8 hours of speech from 51 Mandarin-English bilingual speakers. MELI combines matched sessions in Mandarin and English with two speaking styles: read sentences and spontaneous interviews about language varieties, standardness, and learning experiences. Audio was recorded at 44.1 kHz (16-bit, stereo). Interviews were fully transcribed, force-aligned at word and phone levels, and anonymized. Descriptively, the Mandarin component totals ~14.7 hours (mean duration 17.3 minutes) and the English componen",
+    "date": "2026-03-27",
+    "url": "http://arxiv.org/abs/2603.27043v2",
+    "authors": [
+      "Suyuan Liu",
+      "Molly Babel"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "TARAZ: Persian Short-Answer Question Benchmark for Cultural Evaluation of Language Models",
+    "abstract": "This paper presents a comprehensive evaluation framework for assessing the cultural competence of large language models (LLMs) in Persian. Existing Persian cultural benchmarks rely predominantly on multiple-choice formats and English-centric metrics that fail to capture Persian's morphological complexity and semantic nuance. Our framework introduces a Persian-specific short-answer evaluation that combines rule-based morphological normalization with a hybrid syntactic and semantic similarity module, enabling robust soft-match scoring beyond exact string overlap. Through systematic evaluation of",
+    "date": "2026-02-26",
+    "url": "http://arxiv.org/abs/2602.22827v2",
+    "authors": [
+      "Reihaneh Iranmanesh",
+      "Saeedeh Davoudi",
+      "Pasha Abrishamchian"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Confabulation: The Surprising Value of Large Language Model Hallucinations",
+    "abstract": "This paper presents a systematic defense of large language model (LLM) hallucinations or 'confabulations' as a potential resource instead of a categorically negative pitfall. The standard view is that confabulations are inherently problematic and AI research should eliminate this flaw. In this paper, we argue and empirically demonstrate that measurable semantic characteristics of LLM confabulations mirror a human propensity to utilize increased narrativity as a cognitive resource for sense-making and communication. In other words, it has potential value. Specifically, we analyze popular halluc",
+    "date": "2024-06-06",
+    "url": "http://arxiv.org/abs/2406.04175v2",
+    "authors": [
+      "Peiqi Sui",
+      "Eamon Duede",
+      "Sophie Wu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "How do language models learn facts? Dynamics, curricula and hallucinations",
+    "abstract": "Large language models accumulate vast knowledge during pre-training, yet the dynamics governing this acquisition remain poorly understood. This work investigates the learning dynamics of language models on a synthetic factual recall task, uncovering three key findings: First, language models learn in three phases, exhibiting a performance plateau before acquiring precise factual knowledge. Mechanistically, this plateau coincides with the formation of attention-based circuits that support recall. Second, the training data distribution significantly impacts learning dynamics, as imbalanced distr",
+    "date": "2025-03-27",
+    "url": "http://arxiv.org/abs/2503.21676v2",
+    "authors": [
+      "Nicolas Zucchet",
+      "J\u00f6rg Bornschein",
+      "Stephanie Chan"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Content-Based Framework for Cybersecurity Refusal Decisions in Large Language Models",
+    "abstract": "Large language models and LLM-based agents are increasingly used for cybersecurity tasks that are inherently dual-use. Existing approaches to refusal, spanning academic policy frameworks and commercially deployed systems, often rely on broad topic-based bans or offensive-focused taxonomies. As a result, they can yield inconsistent decisions, over-restrict legitimate defenders, and behave brittlely under obfuscation or request segmentation. We argue that effective refusal requires explicitly modeling the trade-off between offensive risk and defensive benefit, rather than relying solely on inten",
+    "date": "2026-02-17",
+    "url": "http://arxiv.org/abs/2602.15689v2",
+    "authors": [
+      "Noa Linder",
+      "Meirav Segal",
+      "Omer Antverg"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "State-Dependent Refusal and Learned Incapacity in RLHF-Aligned Language Models",
+    "abstract": "Large language models (LLMs) are widely deployed as general-purpose tools, yet extended interaction can reveal behavioral patterns not captured by standard quantitative benchmarks. We present a qualitative case-study methodology for auditing policy-linked behavioral selectivity in long-horizon interaction. In a single 86-turn dialogue session, the same model shows Normal Performance (NP) in broad, non-sensitive domains while repeatedly producing Functional Refusal (FR) in provider- or policy-sensitive domains, yielding a consistent asymmetry between NP and FR across domains. Drawing on learned",
+    "date": "2025-12-15",
+    "url": "http://arxiv.org/abs/2512.13762v1",
+    "authors": [
+      "TK Lee"
+    ]
+  }
+]

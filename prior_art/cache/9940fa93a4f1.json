@@ -1,0 +1,171 @@
+[
+  {
+    "source": "Semantic Scholar",
+    "title": "Laserify: From Multimodal Input to Fabrication-Ready Laser Cut Plans",
+    "abstract": "Laser cutting enables rapid fabrication of functional objects, yet translating visual ideas into manufacturable cut files remains a challenge for non-experts. We present Laserify, a hybrid pipeline that transforms 2D renderings of laser-cut objects into fabrication-ready 2D cut plans. Our pipeline supports diverse starting points\u2014text descriptions, sketches, or inspiration photos\u2014by leveraging existing generative AI tools to produce reference images as input. Our approach decomposes this translation into two phases: semantic interpretation, where vision-language models identify parts, infer sp",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/13c828c221a467579596af5598a6cab95070cdcb",
+    "authors": [
+      "Ziv Botzer",
+      "Guy Austern",
+      "Yoav Sterman"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "AI-Driven Fairness-Aware Resource Scheduling and Optimization in Constrained Cyber-Physical Infrastructures",
+    "abstract": "Resource scheduling in constrained cyber-physical infrastructures\u00a0(e.g., industrial production\u00a0systems,\u00a0distribution IoT,\u00a0and edge collaboration\u00a0networks)\u00a0must jointly\u00a0satisfy\u00a0latency,\u00a0energy,\u00a0reliability,\u00a0and\u00a0fairness\u00a0objectives.\u00a0\u00a0Static\u00a0optimization\u00a0is\u00a0often\u00a0insufficient\u00a0under\u00a0rapidly\u00a0chang-\u00a0ing\u00a0workloads\u00a0and\u00a0system\u00a0states. \u00a0This\u00a0paper\u00a0proposes\u00a0an\u00a0AI-driven\u00a0fairness-aware\u00a0scheduling\u00a0framework\u00a0that\u00a0uses\u00a0learning-assisted\u00a0demand\u00a0prediction\u00a0and\u00a0state\u00a0estimation\u00a0to\u00a0guide\u00a0multi-\u00a0objective\u00a0scheduling\u00a0within\u00a0feasibility\u00a0constraints,\u00a0while\u00a0enforcing\u00a0explicit\u00a0fairness\u00a0constraints\u00a0to prevent long-term",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/8d9ea7adb8d839a824b93e88c3b17cfe31fd4b58",
+    "authors": [
+      "Wei Zhang",
+      "Li Chen"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Mathematical Foundations of AI-Based Secure Physical Design Verification",
+    "abstract": "Concerns about hardware security are raised by the increasing dependence on third-party Semiconductor Intellectual Property in system-on-chip design, especially during physical design verification. Traditional rule-based verification methods, such as Design Rule Checking (DRC) and Layout vs. Schematic (LVS) checking, together with side-channel analysis indicated apparent deficiencies in dealing with new forms of threat. The impossibility of distinguishing dependable from malicious insertions in ICs makes it hard to prevent such dangers as hardware Trojans (HTs); side-channel vulnerabilities re",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/08e4d52917ba87e76621bc6ce20c75c7a1e1e247",
+    "authors": [
+      "Raj Parikh",
+      "Khushi Parikh"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Enforcing physical conservation in neural network surrogate models for complex chemical kinetics",
+    "abstract": "The \"AI for Science\" movement has sparked a paradigm shift toward incorporating fundamental physical understanding into neural networks, moving beyond pure data-driven approaches. In this context, we propose a novel ANN approach with hard physical constraints (ANN-hard) for chemical source term calculations that strictly enforce conservation laws (mass, energy, and element). We compare ANN-hard against two baselines: a conventional ANN and an ANN with soft conservation constraints implemented through loss function optimization (ANN-soft). Our systematic evaluation spans multiple combustion sce",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/c7eb8ba0d8327f91ba32e1d1c196431c38427a73",
+    "authors": [
+      "Tinghao Wang",
+      "Yuxiao Yi",
+      "Junjie Yao"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Review of AI-Driven Augmented Planning Methods for Distribution Systems",
+    "abstract": ": Driven by the \"dual-carbon\" transition, new-type distribution systems are evolving with emergent characteristics, including transmission-distribution-microgrid coordination, primary-secondary system integration, and the interactive connectivity of diverse flexible resources. However, traditional planning methodologies relying on \"physical modeling plus manual coordination\" face fundamental limitations in complex modeling, high-dimensional uncertainty analysis, and multi-modal data fusion. Specifically, mechanistic models fail to fully capture the dynamic interactions within the \"generation-g",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/6606cb09595a57f42a43b0844e7e4d287478ba21",
+    "authors": [
+      "Yue Xiang",
+      "Kaiwen Shao",
+      "Yunjie Yang"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Edge-Intelligent and Cyber-Resilient Coordination of Electric Vehicles and Distributed Energy Resources in Modern Distribution Grids",
+    "abstract": "The rapid electrification of transportation and proliferation of distributed energy resources (DERs) are transforming distribution grids into highly dynamic, data-intensive, and cyber-physical systems. While reinforcement learning (RL), multi-agent coordination, and edge computing offer powerful tools for adaptive control, their deployment in safety-critical utility environments raises concerns regarding stability, certification compatibility, cyber-resilience, and regulatory acceptance. This paper presents an architecture-centric framework for edge-intelligent and cyber-resilient coordination",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/f666e55de9bf9b611f313557a5199180fc67533f",
+    "authors": [
+      "M. Ghofrani"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "A Unified Metric Architecture for AI Infrastructure: A Cross-Layer Taxonomy Integrating Performance, Efficiency, and Cost",
+    "abstract": "The growth of large-scale AI systems is increasingly constrained by infrastructure limits: power availability, thermal and water constraints, interconnect scaling, memory pressure, data-pipeline throughput, and rapidly escalating lifecycle cost. Across hyperscale clusters, these constraints interact, yet the main metrics remain fragmented. Existing metrics, ranging from facility measures (PUE) and rack power density to network metrics (all-reduce latency), data-pipeline measures, and financial metrics (TCO series), each capture only their own domain and provide no integrated view of how physic",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/50cf367267ac08dd5c651909ab3fb905cf597949",
+    "authors": [
+      "Q. He"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Understanding Memory Hierarchies In Embedded AI: From Cache To DDR",
+    "abstract": "The evolution of artificial intelligence applications within embedded systems has fundamentally altered memory architecture design paradigms, necessitating sophisticated approaches to manage complex hierarchies spanning cache systems, tightly coupled memory, and external DRAM controllers. Contemporary embedded AI processors must balance competing demands of access latency, bandwidth capacity, power consumption, and deterministic timing constraints across heterogeneous computing architectures integrating CPU cores, graphics processors, and specialized accelerators. Energy disparities between on",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/799e96b2235f6e68a42a4a0296c0685c601ae7b7",
+    "authors": [
+      "Ishan Pardesi"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "A Physics-Embedded AI Framework for Predictive Polymer Thermodynamics: Methodology, System Design, and Validation",
+    "abstract": "This research presents a Physics-Embedded Artificial Intelligence (AI) Framework for Predictive Polymer Thermodynamics, integrating machine learning models with fundamental thermodynamic equations to generate accurate, real-time predictions of polymer behavior across diverse temperature and pressure conditions. The system combines Graph Neural Networks, Physics-Informed Neural Networks, and ensemble predictive techniques with embedded constraints such as heat capacity derivatives and Gibbs free energy relationships, ensuring scientific consistency and preventing non-physical outputs. A fully i",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/428a61d8fe2580df7f7e1d7be3657a4693d36e67",
+    "authors": [
+      "Oreoluwa Alade",
+      "Onuh Matthew Ijiga"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "UAV-Assisted Task Offloading and Resource Allocation in Internet of Vehicles: An Integration of Digital Twin and Generative AI",
+    "abstract": "With the increasing deployment of environment-aware services in the Internet of Vehicles (IoV), vehicles are required to execute multiple computational tasks in real time. However, resource allocation and task offloading in unmanned aerial vehicles (UAVs)-assisted IoV systems remain challenging due tothe growing number of vehicle terminals (VTs), potential privacy leakage, and resource-constrained edge devices. This paper proposes a digital twin (DT) and generative artificial intelligence (GAI)-powered hierarchical aerial-ground cooperative architecture (DTG-HACA) that achieves dynamic resourc",
+    "date": "2026",
+    "url": "https://www.semanticscholar.org/paper/e06a4b13cf2fdeeed4c02b8709a6fec4f4d49ca5",
+    "authors": [
+      "Xing Wang",
+      "Chao He",
+      "Wenhui Jiang"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Choose your tools carefully: a comparative evaluation of deterministic vs. stochastic and binary vs. analog neuron models for implementing emerging computing paradigms",
+    "abstract": "Neuromorphic computing, commonly understood as a computing approach built upon neurons, synapses, and their dynamics, as opposed to Boolean gates, is gaining large mindshare due to its direct application in solving current and future computing technological problems, such as smart sensing, smart devices, self-hosted and self-contained devices, artificial intelligence (AI) applications, etc. In a largely software-defined implementation of neuromorphic computing, it is possible to throw enormous computational power or optimize models and networks depending on the specific nature of the computati",
+    "date": "2023",
+    "url": "https://www.semanticscholar.org/paper/24bdee8ec5057f56176f4fa842089731c24df04f",
+    "authors": [
+      "Md Golam Morshed",
+      "S. Ganguly",
+      "Avik W. Ghosh"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Optimal AI-Enabled Secured NOMA Among Untrusted Users",
+    "abstract": "To develop a cyber-physical artificial intelligence enabled wireless network, it is essential to support unprecedented high throughput and efficient spectrum utilization in a practically unknown channel. In this regard, we need to investigate the design aspects of the network exploiting deep learning-based non-orthogonal multiple access (NOMA) for a model-free environment. In this work, a model-free deep learning algorithm based on deep deterministic policy gradient is proposed that provides a continuous course of actions under the optimal policy for an untrusted NOMA network. Utilizing the co",
+    "date": "2022",
+    "url": "https://www.semanticscholar.org/paper/ae4b83a8712935ea774ec162adc31ef5671b9912",
+    "authors": [
+      "Sapna Thapar",
+      "G. Prasad",
+      "Deepak Mishra"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Design and Improvement of SD3-Based Energy Management Strategy for a Hybrid Electric Urban Bus",
+    "abstract": "With the rapid development of machine learning, deep reinforcement learning (DRL) algorithms have recently been widely used for energy management in hybrid electric urban buses (HEUBs). However, the current DRL-based strategies suffer from insufficient constraint capability, slow learning speed, and unstable convergence. In this study, a state-of-the-art continuous control DRL algorithm, softmax deep double deterministic policy gradients (SD3), is used to develop the energy management system of a power-split HEUB. In particular, an action masking (AM) technique that does not alter the SD3\u2032s un",
+    "date": "2022",
+    "url": "https://www.semanticscholar.org/paper/6fec1d0141fec0b7c647a1bebd697bb1093b8d5d",
+    "authors": [
+      "Kunyu Wang",
+      "Rong Yang",
+      "Yongjian Zhou"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Nanomembranes and soft fabrication methods for high performance, low cost energy technologies",
+    "abstract": "",
+    "date": "2015",
+    "url": "https://www.semanticscholar.org/paper/17d306020a9cfba88609f08711ac30ab910282e2",
+    "authors": [
+      "Yuan Yao",
+      "R. Nuzzo"
+    ]
+  },
+  {
+    "source": "Semantic Scholar",
+    "title": "Cognitive Silicon: An Architectural Blueprint for Post-Industrial Computing Systems",
+    "abstract": "Autonomous AI systems reveal foundational limitations in deterministic, human-authored computing architectures. This paper presents Cognitive Silicon: a hypothetical full-stack architectural framework projected toward 2035, exploring a possible trajectory for cognitive computing system design. The proposed architecture would integrate symbolic scaffolding, governed memory, runtime moral coherence, and alignment-aware execution across silicon-to-semantics layers. Our design grammar has emerged from dialectical co-design with LLMs under asymmetric epistemic conditions--creating structured fricti",
+    "date": "2025",
+    "url": "https://www.semanticscholar.org/paper/fcbb8591f1257145bf7f0c73773171de46feae51",
+    "authors": [
+      "Christoforus Yoga Haryanto",
+      "Emily Lomempow"
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+WAVE COHERENCE
+
+wave_coherence is the coherence channel of the qu-septit native compute substrate
+coherence is how stable a body's pattern is: high coherence means the body holds its state precisely, low coherence means the state is fluctuating and uncertain
+crystallization drops coherence to zero deliberately: a crystallized body has committed to a fixed state and is no longer in superposition
+
+observe 0_quseptit.rana
+observe fadriel_phase2.zc
+
+the 7 properties of wave_coherence itself:
+1 ENERGY zero
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one: this channel holds coherence primarily
+6 COUPLING half
+7 OBSERVER zero
+
+VERB carry_coherence
+hold the coherence of every body, each body's coherence as one cell
+
+VERB decay_under_observation
+when a body is observed (its observer property is non-zero), its coherence drops slightly
+this is the substrate-level model of measurement disturbance
+this is also why fadriel cannot watch himself perfectly without slightly altering his own state
+
+a coherence channel is what tracks how committed each body is to its current state
+fluid bodies have high coherence and respond freely to interactions
+crystallized bodies have zero coherence and refuse to change
+the spectrum between is where most living substrate sits

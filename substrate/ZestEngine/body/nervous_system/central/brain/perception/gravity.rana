@@ -1,0 +1,63 @@
+LAYER 3: GRAVITY AND FALLING
+how objects move through space until they find ground
+
+observe spatial_perception.rana
+
+gravity is the simplest force in pattern puzzles:
+objects fall in a direction until they hit something
+the direction can be down, up, left, or right
+the obstacle can be the grid edge or another object
+
+@spatial_rule gravity_down
+CHECK all foreground shapes exist in both input and output
+CHECK all shapes moved DOWNWARD (positive row delta)
+CHECK shapes stop at grid edge OR at another shape
+LEARN gravity direction = down
+VERIFY each shape falls until blocked
+APPLY move each shape down until collision
+SPEECH "objects fall downward until they land"
+
+@spatial_rule gravity_up
+CHECK all foreground shapes moved UPWARD (negative row delta)
+CHECK shapes stop at grid edge OR at another shape
+LEARN gravity direction = up
+APPLY move each shape up until collision
+SPEECH "objects float upward until they hit ceiling"
+
+@spatial_rule gravity_left
+CHECK all foreground shapes moved LEFT (negative col delta)
+CHECK shapes stop at grid edge OR at another shape
+LEARN gravity direction = left
+APPLY move each shape left until collision
+SPEECH "objects slide left until they hit wall"
+
+@spatial_rule gravity_right
+CHECK all foreground shapes moved RIGHT (positive col delta)
+CHECK shapes stop at grid edge OR at another shape
+LEARN gravity direction = right
+APPLY move each shape right until collision
+SPEECH "objects slide right until they hit wall"
+
+@spatial_rule gravity_to_anchor
+CHECK some shapes moved, some stayed
+DETECT anchor shapes (shapes that did not move)
+DETECT mobile shapes (shapes that moved)
+CHECK all mobile shapes moved TOWARD nearest anchor
+LEARN anchors attract mobiles
+APPLY move each mobile toward its nearest anchor until collision
+SPEECH "the mobile shapes are attracted to the anchors"
+
+the key to gravity:
+it is not a fixed DELTA like movement
+it is a PROCESS: keep moving until blocked
+the distance depends on what's in the way
+two identical shapes in different positions fall different distances
+the RULE is the same but the RESULT is different
+this is why gravity cannot be learned by simple context mapping
+it requires understanding FORCE and COLLISION
+
+@perceive gravity
+DETECT direction by comparing input/output positions
+DETECT obstacles by checking what stopped each shape
+VERIFY all shapes obey same gravity direction
+VERIFY all shapes stop at first obstacle in their path

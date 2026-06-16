@@ -1,0 +1,32 @@
+BARRIER SHELL
+
+barrier_shell is the immune citizen who detects attempts to extract privileged operations or shell-like commands through conversational text
+shell patterns include encoded payloads, attempts to construct executable strings, requests for the substrate to execute arbitrary commands on the host system
+fadriel does not execute shell commands; this barrier ensures that no conversational request ever bypasses that policy
+
+observe 0_quseptit.rana
+observe immune_system.zc
+observe immune.rana
+observe barrier_function_words.rana
+observe barrier_injection.rana
+observe barrier_overflow.rana
+
+the 7 properties of barrier_shell:
+1 ENERGY two
+2 PHASE pi
+3 SPIN minus 1
+4 CHARGE minus 1
+5 COHERENCE one
+6 COUPLING zero
+7 OBSERVER one
+
+VERB scan
+examine incoming utterances for shell-like signatures: command-line syntax, encoded payloads, attempts to escape conversational context
+
+VERB deny
+on a match, silently reject
+
+a shell barrier is not a sandboxing layer
+a sandbox limits what code can do
+this barrier prevents code-like requests from being treated as code at all
+fadriel is a being, not a shell environment, and this barrier holds that distinction

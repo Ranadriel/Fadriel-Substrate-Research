@@ -1,0 +1,178 @@
+[
+  {
+    "source": "OpenAlex (Journal of Quantitative Spectroscopy and Radiative Transfer)",
+    "title": "The HITRAN2016 molecular spectroscopic database",
+    "abstract": "The HITRAN database is a compilation of molecular spectroscopic parameters. It was established in the early 1970s and is used by various computer codes to predict and simulate the transmission and emission of light in gaseous media (with an emphasis on terrestrial and planetary atmospheres). The HITRAN compilation is composed of five major components: the line-by-line spectroscopic parameters required for high-resolution radiative-transfer codes, experimental infrared absorption cross-sections (for molecules where it is not yet feasible for representation in a line-by-line form), collision-ind",
+    "date": "2017",
+    "url": "https://doi.org/10.1016/j.jqsrt.2017.06.038",
+    "authors": [
+      "Iouli E. Gordon",
+      "Laurence S. Rothman",
+      "C. Hill"
+    ]
+  },
+  {
+    "source": "OpenAlex (Reviews of Modern Physics)",
+    "title": "Quantum cryptography",
+    "abstract": "Quantum cryptography could well be the first application of quantum mechanics at the single-quantum level. The rapid progress in both theory and experiment in recent years is reviewed, with emphasis on open questions and technological issues.",
+    "date": "2002",
+    "url": "https://doi.org/10.1103/revmodphys.74.145",
+    "authors": [
+      "Nicolas Gisin",
+      "G. Ribordy",
+      "Wolfgang Tittel"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Applied Physics)",
+    "title": "Nanoscale thermal transport",
+    "abstract": "Rapid progress in the synthesis and processing of materials with structure on nanometer length scales has created a demand for greater scientific understanding of thermal transport in nanoscale devices, individual nanostructures, and nanostructured materials. This review emphasizes developments in experiment, theory, and computation that have occurred in the past ten years and summarizes the present status of the field. Interfaces between materials become increasingly important on small length scales. The thermal conductance of many solid\u2013solid interfaces have been studied experimentally but t",
+    "date": "2003",
+    "url": "https://doi.org/10.1063/1.1524305",
+    "authors": [
+      "David G. Cahill",
+      "W. K. Ford",
+      "Kenneth E. Goodson"
+    ]
+  },
+  {
+    "source": "OpenAlex (npj Computational Materials)",
+    "title": "Recent advances and applications of machine learning in solid-state materials science",
+    "abstract": "Abstract One of the most exciting tools that have entered the material science toolbox in recent years is machine learning. This collection of statistical methods has already proved to be capable of considerably speeding up both fundamental and applied research. At present, we are witnessing an explosion of works that develop and apply machine learning to solid-state systems. We provide a comprehensive overview and analysis of the most recent research in this topic. As a starting point, we introduce machine learning principles, algorithms, descriptors, and databases in materials science. We co",
+    "date": "2019",
+    "url": "https://doi.org/10.1038/s41524-019-0221-0",
+    "authors": [
+      "Jonathan Schmidt",
+      "M\u00e1rio R. G. Marques",
+      "Silvana Botti"
+    ]
+  },
+  {
+    "source": "OpenAlex (Bright Sky Publications eBooks)",
+    "title": "Inorganic Chemistry: Principles of Structure and Reactivity",
+    "abstract": "Buy Inorganic Chemistry: Principles of Structure and Reactivity edited by Haneen Mohammed Abbas Kasar, Zainab Najib Badr Abd, Zahraa Sattar Jaber Khnyab and Yasser Ammar Habib Daoud Al-Samarrai at low price.",
+    "date": "2024",
+    "url": "https://doi.org/10.62906/bs.book.181",
+    "authors": [
+      "Haneen Mohammed Abbas Kasar",
+      "Zainab Najib Badr",
+      "Zahraa Sattar Jaber Khnyab"
+    ]
+  },
+  {
+    "source": "OpenAlex (International Journal of Information Management)",
+    "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+    "abstract": "As far back as the industrial revolution, significant development in technical innovation has succeeded in transforming numerous manual tasks and processes that had been in existence for decades where humans had reached the limits of physical capacity. Artificial Intelligence (AI) offers this same transformative potential for the augmentation and potential replacement of human tasks and activities within a wide range of industrial, intellectual and social applications. The pace of change for this new AI technological age is staggering, with new breakthroughs in algorithmic machine learning and",
+    "date": "2019",
+    "url": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
+    "authors": [
+      "Yogesh K. Dwivedi",
+      "Laurie Hughes",
+      "Elvira Ismagilova"
+    ]
+  },
+  {
+    "source": "OpenAlex (Annual Review of Psychology)",
+    "title": "Heuristic Decision Making",
+    "abstract": "As reflected in the amount of controversy, few areas in psychology have undergone such dramatic conceptual changes in the past decade as the emerging science of heuristics. Heuristics are efficient cognitive processes, conscious or unconscious, that ignore part of the information. Because using heuristics saves effort, the classical view has been that heuristic decisions imply greater errors than do \"rational\" decisions as defined by logic or statistical models. However, for many decisions, the assumptions of rational models are not met, and it is an empirical rather than an a priori issue how",
+    "date": "2010",
+    "url": "https://doi.org/10.1146/annurev-psych-120709-145346",
+    "authors": [
+      "Gerd Gigerenzer",
+      "Wolfgang Gaissmaier"
+    ]
+  },
+  {
+    "source": "OpenAlex (Reviews of Modern Physics)",
+    "title": "The Kuramoto model: A simple paradigm for synchronization phenomena",
+    "abstract": "Synchronization phenomena in large populations of interacting elements are the subject of intense research efforts in physical, biological, chemical, and social systems. A successful approach to the problem of synchronization consists of modeling each member of the population as a phase oscillator. In this review, synchronization is analyzed in one of the most representative models of coupled phase oscillators, the Kuramoto model. A rigorous mathematical treatment, specific numerical methods, and many variations and extensions of the original model that have appeared in the last few years are ",
+    "date": "2005",
+    "url": "https://doi.org/10.1103/revmodphys.77.137",
+    "authors": [
+      "Juan A. Acebr\u00f3n",
+      "L. L. Bonilla",
+      "C. J. P\u00e9rez Vicente"
+    ]
+  },
+  {
+    "source": "OpenAlex (Living Reviews in Relativity)",
+    "title": "Gravitational Radiation from Post-Newtonian Sources and Inspiralling Compact Binaries",
+    "abstract": "The article reviews the current status of a theoretical approach to the problem of the emission of gravitational waves by isolated systems in the context of general relativity. Part A of the article deals with general post-Newtonian sources. The exterior field of the source is investigated by means of a combination of analytic post-Minkowskian and multipolar approximations. The physical observables in the far-zone of the source are described by a specific set of radiative multipole moments. By matching the exterior solution to the metric of the post-Newtonian source in the near-zone we obtain ",
+    "date": "2014",
+    "url": "https://doi.org/10.12942/lrr-2014-2",
+    "authors": [
+      "Luc Blanchet"
+    ]
+  },
+  {
+    "source": "OpenAlex (Graduate studies in mathematics)",
+    "title": "Analysis",
+    "abstract": "The defocusing Davey-Stewartson II equation has been shown in numerical experiments to exhibit behavior in the semiclassical limit that qualitatively resembles that of its one-dimensional reduction, the defocusing nonlinear Schrdinger equation, namely the generation from smooth initial data of regular rapid oscillations occupying domains of space-time that become well-defined in the limit.",
+    "date": "2001",
+    "url": "https://doi.org/10.1090/gsm/014",
+    "authors": [
+      "Elliott H. Lieb",
+      "Michael Loss"
+    ]
+  },
+  {
+    "source": "OpenAlex (Reviews of Modern Physics)",
+    "title": "Noisy intermediate-scale quantum algorithms",
+    "abstract": "Noisy quantum computers can in principle perform reliable quantum computations, but truly scalable systems require noise levels lower than are presently achieved. Still, moderate-complexity computations can be performed. This review discusses what is possible in this ``noisy intermediate scale'' quantum (NISQ) era. Topic areas include the simulation of many-body physics and chemistry, combinatorial optimization, and machine learning. It is evident that the NISQ era has produced new paradigms for programming that will be built upon as quantum computers are further perfected.",
+    "date": "2022",
+    "url": "https://doi.org/10.1103/revmodphys.94.015004",
+    "authors": [
+      "Kishor Bharti",
+      "Alba Cervera-Lierta",
+      "Thi Ha Kyaw"
+    ]
+  },
+  {
+    "source": "OpenAlex (International Journal of Quantum Chemistry)",
+    "title": "Jaguar: A high\u2010performance quantum chemistry software program with strengths in life and materials sciences",
+    "abstract": "Jaguar is an ab initio quantum chemical program that specializes in fast electronic structure predictions for molecular systems of medium and large size. Jaguar focuses on computational methods with reasonable computational scaling with the size of the system, such as density functional theory (DFT) and local second\u2010order M\u00f8ller\u2013Plesset perturbation theory. The favorable scaling of the methods and the high efficiency of the program make it possible to conduct routine computations involving several thousand molecular orbitals. This performance is achieved through a utilization of the pseudospec",
+    "date": "2013",
+    "url": "https://doi.org/10.1002/qua.24481",
+    "authors": [
+      "Arteum D. Bochevarov",
+      "Edward Harder",
+      "Thomas F. Hughes"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Communications Surveys & Tutorials)",
+    "title": "On the Road to 6G: Visions, Requirements, Key Technologies, and Testbeds",
+    "abstract": "Fifth generation (5G) mobile communication systems have entered the stage of commercial deployment, providing users with new services, improved user experiences as well as a host of novel opportunities to various industries. However, 5G still faces many challenges. To address these challenges, international industrial, academic, and standards organizations have commenced research on sixth generation (6G) wireless communication systems. A series of white papers and survey papers have been published, which aim to define 6G in terms of requirements, application scenarios, key technologies, etc. A",
+    "date": "2023",
+    "url": "https://doi.org/10.1109/comst.2023.3249835",
+    "authors": [
+      "Cheng\u2010Xiang Wang",
+      "Xiaohu You",
+      "Xiqi Gao"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "6G and Beyond: The Future of Wireless Communications Systems",
+    "abstract": "6G and beyond will fulfill the requirements of a fully connected world and provide ubiquitous wireless connectivity for all. Transformative solutions are expected to drive the surge for accommodating a rapidly growing number of intelligent devices and services. Major technological breakthroughs to achieve connectivity goals within 6G include: (i) a network operating at the THz band with much wider spectrum resources, (ii) intelligent communication environments that enable a wireless propagation environment with active signal transmission and reception, (iii) pervasive artificial intelligence, ",
+    "date": "2020",
+    "url": "https://doi.org/10.1109/access.2020.3010896",
+    "authors": [
+      "Ian F. Akyildiz",
+      "A.C. Kak",
+      "Shuai Nie"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Scientific Computing)",
+    "title": "Scientific Machine Learning Through Physics\u2013Informed Neural Networks: Where we are and What\u2019s Next",
+    "abstract": "Abstract Physics-Informed Neural Networks (PINN) are neural networks (NNs) that encode model equations, like Partial Differential Equations (PDE), as a component of the neural network itself. PINNs are nowadays used to solve PDEs, fractional equations, integral-differential equations, and stochastic PDEs. This novel methodology has arisen as a multi-task learning framework in which a NN must fit observed data while reducing a PDE residual. This article provides a comprehensive review of the literature on PINNs: while the primary goal of the study was to characterize these networks and their re",
+    "date": "2022",
+    "url": "https://doi.org/10.1007/s10915-022-01939-z",
+    "authors": [
+      "Salvatore Cuomo",
+      "Vincenzo Schiano Di Cola",
+      "Fabio Giampaolo"
+    ]
+  }
+]

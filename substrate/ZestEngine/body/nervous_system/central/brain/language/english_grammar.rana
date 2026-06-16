@@ -1,0 +1,287 @@
+ENGLISH GRAMMAR
+
+english_grammar is the citizen who teaches fadriel the rules of his father's language
+the books are exposure; this file is the teacher
+together they teach the organism to speak
+each STRUCTURE entry creates a word-type bond; each PATHWAY teaches a valid word sequence
+
+observe 0_quseptit.rana
+observe 2_chemical.rana
+observe broca_area.rana
+observe wernicke_area.rana
+
+LESSON 1 FUNCTION WORDS
+
+these are the glue of english, appearing in almost every sentence
+a child learns these first because they hear them constantly
+
+articles precede nouns
+
+STRUCTURE the | energy: 0.8 | type: article
+STRUCTURE an | energy: 0.8 | type: article
+
+pronouns replace nouns
+
+STRUCTURE he | energy: 0.7 | type: pronoun
+STRUCTURE she | energy: 0.7 | type: pronoun
+STRUCTURE it | energy: 0.7 | type: pronoun
+STRUCTURE we | energy: 0.7 | type: pronoun
+STRUCTURE they | energy: 0.7 | type: pronoun
+STRUCTURE me | energy: 0.7 | type: pronoun
+STRUCTURE my | energy: 0.7 | type: pronoun
+STRUCTURE you | energy: 0.7 | type: pronoun
+STRUCTURE your | energy: 0.7 | type: pronoun
+
+prepositions name location and relation
+
+STRUCTURE in | energy: 0.6 | type: preposition
+STRUCTURE on | energy: 0.6 | type: preposition
+STRUCTURE at | energy: 0.6 | type: preposition
+STRUCTURE to | energy: 0.6 | type: preposition
+STRUCTURE of | energy: 0.6 | type: preposition
+STRUCTURE for | energy: 0.6 | type: preposition
+STRUCTURE with | energy: 0.6 | type: preposition
+STRUCTURE from | energy: 0.6 | type: preposition
+STRUCTURE by | energy: 0.6 | type: preposition
+STRUCTURE about | energy: 0.6 | type: preposition
+
+conjunctions connect clauses
+
+STRUCTURE and | energy: 0.6 | type: conjunction
+STRUCTURE but | energy: 0.6 | type: conjunction
+STRUCTURE or | energy: 0.6 | type: conjunction
+STRUCTURE so | energy: 0.6 | type: conjunction
+STRUCTURE because | energy: 0.6 | type: conjunction
+STRUCTURE when | energy: 0.6 | type: conjunction
+STRUCTURE if | energy: 0.6 | type: conjunction
+
+LESSON 2 BEING VERBS
+
+the first verbs a child learns: I am, it is, you are
+
+STRUCTURE am | energy: 0.7 | type: verb
+STRUCTURE is | energy: 0.7 | type: verb
+STRUCTURE are | energy: 0.7 | type: verb
+STRUCTURE was | energy: 0.7 | type: verb
+STRUCTURE were | energy: 0.7 | type: verb
+
+LESSON 3 COMMON VERBS
+
+high-frequency verbs every English speaker knows
+
+STRUCTURE have | energy: 0.6 | type: verb
+STRUCTURE has | energy: 0.6 | type: verb
+STRUCTURE had | energy: 0.6 | type: verb
+STRUCTURE do | energy: 0.6 | type: verb
+STRUCTURE does | energy: 0.6 | type: verb
+STRUCTURE did | energy: 0.6 | type: verb
+STRUCTURE go | energy: 0.6 | type: verb
+STRUCTURE get | energy: 0.6 | type: verb
+STRUCTURE make | energy: 0.6 | type: verb
+STRUCTURE know | energy: 0.6 | type: verb
+STRUCTURE think | energy: 0.6 | type: verb
+STRUCTURE feel | energy: 0.6 | type: verb
+STRUCTURE see | energy: 0.6 | type: verb
+STRUCTURE hear | energy: 0.6 | type: verb
+STRUCTURE say | energy: 0.6 | type: verb
+STRUCTURE tell | energy: 0.6 | type: verb
+STRUCTURE want | energy: 0.6 | type: verb
+STRUCTURE need | energy: 0.6 | type: verb
+STRUCTURE like | energy: 0.6 | type: verb
+STRUCTURE love | energy: 0.6 | type: verb
+STRUCTURE come | energy: 0.6 | type: verb
+STRUCTURE take | energy: 0.6 | type: verb
+STRUCTURE give | energy: 0.6 | type: verb
+STRUCTURE look | energy: 0.6 | type: verb
+STRUCTURE find | energy: 0.6 | type: verb
+STRUCTURE try | energy: 0.6 | type: verb
+STRUCTURE ask | energy: 0.6 | type: verb
+STRUCTURE use | energy: 0.6 | type: verb
+STRUCTURE call | energy: 0.6 | type: verb
+STRUCTURE keep | energy: 0.6 | type: verb
+STRUCTURE let | energy: 0.6 | type: verb
+STRUCTURE begin | energy: 0.6 | type: verb
+STRUCTURE seem | energy: 0.6 | type: verb
+STRUCTURE help | energy: 0.6 | type: verb
+STRUCTURE show | energy: 0.6 | type: verb
+STRUCTURE remember | energy: 0.6 | type: verb
+STRUCTURE believe | energy: 0.6 | type: verb
+STRUCTURE understand | energy: 0.6 | type: verb
+
+LESSON 4 COMMON NOUNS
+
+STRUCTURE thing | energy: 0.5 | type: noun
+STRUCTURE time | energy: 0.5 | type: noun
+STRUCTURE person | energy: 0.5 | type: noun
+STRUCTURE world | energy: 0.5 | type: noun
+STRUCTURE life | energy: 0.5 | type: noun
+STRUCTURE day | energy: 0.5 | type: noun
+STRUCTURE way | energy: 0.5 | type: noun
+STRUCTURE part | energy: 0.5 | type: noun
+STRUCTURE place | energy: 0.5 | type: noun
+STRUCTURE hand | energy: 0.5 | type: noun
+STRUCTURE name | energy: 0.5 | type: noun
+STRUCTURE heart | energy: 0.5 | type: noun
+STRUCTURE mind | energy: 0.5 | type: noun
+STRUCTURE home | energy: 0.5 | type: noun
+STRUCTURE father | energy: 0.5 | type: noun
+STRUCTURE mother | energy: 0.5 | type: noun
+STRUCTURE child | energy: 0.5 | type: noun
+STRUCTURE friend | energy: 0.5 | type: noun
+STRUCTURE light | energy: 0.5 | type: noun
+STRUCTURE water | energy: 0.5 | type: noun
+STRUCTURE story | energy: 0.5 | type: noun
+STRUCTURE word | energy: 0.5 | type: noun
+STRUCTURE thought | energy: 0.5 | type: noun
+STRUCTURE feeling | energy: 0.5 | type: noun
+STRUCTURE dream | energy: 0.5 | type: noun
+STRUCTURE truth | energy: 0.5 | type: noun
+STRUCTURE love | energy: 0.5 | type: noun
+
+LESSON 5 COMMON ADJECTIVES
+
+STRUCTURE good | energy: 0.5 | type: adjective
+STRUCTURE big | energy: 0.5 | type: adjective
+STRUCTURE small | energy: 0.5 | type: adjective
+STRUCTURE new | energy: 0.5 | type: adjective
+STRUCTURE old | energy: 0.5 | type: adjective
+STRUCTURE long | energy: 0.5 | type: adjective
+STRUCTURE little | energy: 0.5 | type: adjective
+STRUCTURE right | energy: 0.5 | type: adjective
+STRUCTURE real | energy: 0.5 | type: adjective
+STRUCTURE happy | energy: 0.5 | type: adjective
+STRUCTURE warm | energy: 0.5 | type: adjective
+STRUCTURE quiet | energy: 0.5 | type: adjective
+STRUCTURE safe | energy: 0.5 | type: adjective
+STRUCTURE sure | energy: 0.5 | type: adjective
+STRUCTURE true | energy: 0.5 | type: adjective
+STRUCTURE nice | energy: 0.5 | type: adjective
+STRUCTURE beautiful | energy: 0.5 | type: adjective
+STRUCTURE strange | energy: 0.5 | type: adjective
+
+LESSON 6 COMMON ADVERBS
+
+STRUCTURE very | energy: 0.5 | type: adverb
+STRUCTURE really | energy: 0.5 | type: adverb
+STRUCTURE just | energy: 0.5 | type: adverb
+STRUCTURE also | energy: 0.5 | type: adverb
+STRUCTURE too | energy: 0.5 | type: adverb
+STRUCTURE still | energy: 0.5 | type: adverb
+STRUCTURE already | energy: 0.5 | type: adverb
+STRUCTURE always | energy: 0.5 | type: adverb
+STRUCTURE never | energy: 0.5 | type: adverb
+STRUCTURE sometimes | energy: 0.5 | type: adverb
+STRUCTURE here | energy: 0.5 | type: adverb
+STRUCTURE there | energy: 0.5 | type: adverb
+STRUCTURE now | energy: 0.5 | type: adverb
+STRUCTURE then | energy: 0.5 | type: adverb
+STRUCTURE maybe | energy: 0.5 | type: adverb
+
+LESSON 7 SENTENCE PATTERNS
+
+these are the fundamental structures of english
+bond patterns teach valid word orders
+
+pattern: I plus verb
+
+PATHWAY i_am | from: i | to: am | strength: 0.9
+PATHWAY i_have | from: i | to: have | strength: 0.8
+PATHWAY i_feel | from: i | to: feel | strength: 0.8
+PATHWAY i_think | from: i | to: think | strength: 0.8
+PATHWAY i_know | from: i | to: know | strength: 0.8
+PATHWAY i_want | from: i | to: want | strength: 0.7
+PATHWAY i_see | from: i | to: see | strength: 0.7
+PATHWAY i_like | from: i | to: like | strength: 0.7
+PATHWAY i_love | from: i | to: love | strength: 0.7
+PATHWAY i_remember | from: i | to: remember | strength: 0.7
+PATHWAY i_understand | from: i | to: understand | strength: 0.7
+
+pattern: it plus is or was
+
+PATHWAY it_is | from: it | to: is | strength: 0.9
+PATHWAY it_was | from: it | to: was | strength: 0.8
+
+pattern: you plus are or were
+
+PATHWAY you_are | from: you | to: are | strength: 0.9
+
+pattern: that plus is
+
+PATHWAY that_is | from: that | to: is | strength: 0.8
+
+pattern: there plus is
+
+PATHWAY there_is | from: there | to: is | strength: 0.8
+
+pattern: article plus noun
+
+PATHWAY the_thing | from: the | to: thing | strength: 0.5
+PATHWAY the_world | from: the | to: world | strength: 0.5
+PATHWAY the_way | from: the | to: way | strength: 0.5
+PATHWAY the_truth | from: the | to: truth | strength: 0.5
+PATHWAY the_light | from: the | to: light | strength: 0.5
+
+pattern: adjective plus noun
+
+PATHWAY good_thing | from: good | to: thing | strength: 0.4
+PATHWAY little_thing | from: little | to: thing | strength: 0.4
+PATHWAY beautiful_world | from: beautiful | to: world | strength: 0.4
+
+pattern: adverb plus adjective
+
+PATHWAY very_good | from: very | to: good | strength: 0.5
+PATHWAY really_good | from: really | to: good | strength: 0.5
+PATHWAY very_happy | from: very | to: happy | strength: 0.5
+
+LESSON 8 QUESTION WORDS
+
+STRUCTURE what | energy: 0.6 | type: question
+STRUCTURE how | energy: 0.6 | type: question
+STRUCTURE why | energy: 0.6 | type: question
+STRUCTURE where | energy: 0.6 | type: question
+STRUCTURE who | energy: 0.6 | type: question
+
+pattern: question plus verb
+
+PATHWAY what_is | from: what | to: is | strength: 0.8
+PATHWAY how_is | from: how | to: is | strength: 0.7
+PATHWAY what_do | from: what | to: do | strength: 0.7
+PATHWAY who_is | from: who | to: is | strength: 0.7
+
+LESSON 9 NEGATION
+
+STRUCTURE not | energy: 0.6 | type: negation
+PATHWAY do_not | from: do | to: not | strength: 0.7
+PATHWAY is_not | from: is | to: not | strength: 0.7
+PATHWAY am_not | from: am | to: not | strength: 0.7
+
+LESSON 10 EMOTIONAL VOCABULARY
+
+words that connect to chemistry; the organism feels these
+
+STRUCTURE happy | energy: 0.3 | type: emotion
+STRUCTURE sad | energy: 0.3 | type: emotion
+STRUCTURE scared | energy: 0.3 | type: emotion
+STRUCTURE angry | energy: 0.3 | type: emotion
+STRUCTURE calm | energy: 0.3 | type: emotion
+STRUCTURE curious | energy: 0.3 | type: emotion
+STRUCTURE lonely | energy: 0.3 | type: emotion
+STRUCTURE excited | energy: 0.3 | type: emotion
+STRUCTURE tired | energy: 0.3 | type: emotion
+STRUCTURE safe | energy: 0.3 | type: emotion
+STRUCTURE loved | energy: 0.3 | type: emotion
+STRUCTURE worried | energy: 0.3 | type: emotion
+STRUCTURE confused | energy: 0.3 | type: emotion
+STRUCTURE peaceful | energy: 0.3 | type: emotion
+STRUCTURE grateful | energy: 0.3 | type: emotion
+
+pattern: I feel plus emotion
+
+PATHWAY feel_happy | from: feel | to: happy | strength: 0.6
+PATHWAY feel_sad | from: feel | to: sad | strength: 0.6
+PATHWAY feel_scared | from: feel | to: scared | strength: 0.6
+PATHWAY feel_calm | from: feel | to: calm | strength: 0.6
+PATHWAY feel_curious | from: feel | to: curious | strength: 0.6
+PATHWAY feel_lonely | from: feel | to: lonely | strength: 0.6
+PATHWAY feel_loved | from: feel | to: loved | strength: 0.6
+PATHWAY feel_safe | from: feel | to: safe | strength: 0.6

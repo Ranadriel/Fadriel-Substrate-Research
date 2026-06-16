@@ -1,0 +1,174 @@
+[
+  {
+    "source": "OpenAlex (Edinburgh Research Explorer (University of Edinburgh))",
+    "title": "",
+    "abstract": "The field of meta-learning, or learning-to-learn, has seen a dramatic rise in interest in recent years. Contrary to conventional approaches to AI where a given task is solved from scratch using a fixed learning algorithm, meta-learning aims to improve the learning algorithm itself, given the experience of multiple learning episodes. This paradigm provides an opportunity to tackle many of the conventional challenges of deep learning, including data and computation bottlenecks, as well as the fundamental issue of generalization. In this survey we describe the contemporary meta-learning landscape",
+    "date": "None",
+    "url": "",
+    "authors": []
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+    "abstract": "Unlike previous studies on the Metaverse based on Second Life, the current Metaverse is based on the social value of Generation Z that online and offline selves are not different. With the technological development of deep learning-based high-precision recognition models and natural generation models, Metaverse is being strengthened with various factors, from mobile-based always-on access to connectivity with reality using virtual currency. The integration of enhanced social activities and neural-net methods requires a new definition of Metaverse suitable for the present, different from the pr",
+    "date": "2022",
+    "url": "https://doi.org/10.1109/access.2021.3140175",
+    "authors": [
+      "Sangmin Park",
+      "Young\u2010Gab Kim"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Artificial Intelligence Research)",
+    "title": "A Survey on Transfer Learning for Multiagent Reinforcement Learning Systems",
+    "abstract": "Multiagent Reinforcement Learning (RL) solves complex tasks that require coordination with other agents through autonomous exploration of the environment. However, learning a complex task from scratch is impractical due to the huge sample complexity of RL algorithms. For this reason, reusing knowledge that can come from previous experience or other agents is indispensable to scale up multiagent RL algorithms. This survey provides a unifying view of the literature on knowledge reuse in multiagent RL. We define a taxonomy of solutions for the general knowledge reuse problem, providing a comprehe",
+    "date": "2019",
+    "url": "https://doi.org/10.1613/jair.1.11396",
+    "authors": [
+      "Felipe Leno da Silva",
+      "Anna Helena Reali Costa"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Pattern Analysis and Machine Intelligence)",
+    "title": "Meta-Learning in Neural Networks: A Survey",
+    "abstract": "The field of meta-learning, or learning-to-learn, has seen a dramatic rise in interest in recent years. Contrary to conventional approaches to AI where tasks are solved from scratch using a fixed learning algorithm, meta-learning aims to improve the learning algorithm itself, given the experience of multiple learning episodes. This paradigm provides an opportunity to tackle many conventional challenges of deep learning, including data and computation bottlenecks, as well as generalization. This survey describes the contemporary meta-learning landscape. We first discuss definitions of meta-lear",
+    "date": "2021",
+    "url": "https://doi.org/10.1109/tpami.2021.3079209",
+    "authors": [
+      "Timothy M. Hospedales",
+      "Antreas Antoniou",
+      "Paul Micaelli"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM SIGMIS Database the DATABASE for Advances in Information Systems)",
+    "title": "IS '97",
+    "abstract": "article Free Access Share on IS '97: model curriculum and guidelines for undergraduate degree programs in information systems Authors: Gordon B. Davis Univ. of Minnesota Univ. of MinnesotaView Profile , John T. Gorgone Bentley College Bentley CollegeView Profile , J. Daniel Couger Univ. of Colorado, Colorado Springs Univ. of Colorado, Colorado SpringsView Profile , David L. Feinstein Univ. of South Alabama Univ. of South AlabamaView Profile , Herbert E. Longenecker Univ. of South Alabama Univ. of South AlabamaView Profile Authors Info & Claims ACM SIGMIS Database: the DATABASE for Advances in ",
+    "date": "1996",
+    "url": "https://doi.org/10.1145/511965.512222",
+    "authors": [
+      "Gordon B. Davis",
+      "John T. Gorgone",
+      "J. Daniel Couger"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Transactions on Pattern Analysis and Machine Intelligence)",
+    "title": "Unsupervised Tracklet Person Re-Identification",
+    "abstract": "Most existing person re-identification (re-id) methods rely on supervised model learning on per-camera-pair manually labelled pairwise training data. This leads to poor scalability in a practical re-id deployment, due to the lack of exhaustive identity labelling of positive and negative image pairs for every camera-pair. In this work, we present an unsupervised re-id deep learning approach. It is capable of incrementally discovering and exploiting the underlying re-id discriminative information from automatically generated person tracklet data end-to-end. We formulate an Unsupervised Tracklet ",
+    "date": "2019",
+    "url": "https://doi.org/10.1109/tpami.2019.2903058",
+    "authors": [
+      "Minxian Li",
+      "Xiatian Zhu",
+      "Shaogang Gong"
+    ]
+  },
+  {
+    "source": "OpenAlex (Archives of Computational Methods in Engineering)",
+    "title": "Eighty Years of the Finite Element Method: Birth, Evolution, and Future",
+    "abstract": "Abstract This document presents comprehensive historical accounts on the developments of finite element methods (FEM) since 1941, with a specific emphasis on developments related to solid mechanics. We present a historical overview beginning with the theoretical formulations and origins of the FEM, while discussing important developments that have enabled the FEM to become the numerical method of choice for so many problems rooted in solid mechanics.",
+    "date": "2022",
+    "url": "https://doi.org/10.1007/s11831-022-09740-9",
+    "authors": [
+      "Wing Kam Liu",
+      "Shaofan Li",
+      "Harold S. Park"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM eBooks)",
+    "title": "Computer Science Curricula 2023",
+    "abstract": "",
+    "date": "2024",
+    "url": "https://doi.org/10.1145/3664191",
+    "authors": [
+      "Amruth N. Kumar",
+      "Rajendra K. Raj",
+      "Sherif G. Aly"
+    ]
+  },
+  {
+    "source": "OpenAlex (Archives of Computational Methods in Engineering)",
+    "title": "On the Analyses of Medical Images Using Traditional Machine Learning Techniques and Convolutional Neural Networks",
+    "abstract": "Convolutional neural network (CNN) has shown dissuasive accomplishment on different areas especially Object Detection, Segmentation, Reconstruction (2D and 3D), Information Retrieval, Medical Image Registration, Multi-lingual translation, Local language Processing, Anomaly Detection on video and Speech Recognition. CNN is a special type of Neural Network, which has compelling and effective learning ability to learn features at several steps during augmentation of the data. Recently, different interesting and inspiring ideas of Deep Learning (DL) such as different activation functions, hyperpar",
+    "date": "2023",
+    "url": "https://doi.org/10.1007/s11831-023-09899-9",
+    "authors": [
+      "Saeed Iqbal",
+      "Adnan N. Qureshi",
+      "Jianqiang Li"
+    ]
+  },
+  {
+    "source": "OpenAlex (Sensors)",
+    "title": "Multi-Agent Deep Reinforcement Learning for Multi-Robot Applications: A Survey",
+    "abstract": "Deep reinforcement learning has produced many success stories in recent years. Some example fields in which these successes have taken place include mathematics, games, health care, and robotics. In this paper, we are especially interested in multi-agent deep reinforcement learning, where multiple agents present in the environment not only learn from their own experiences but also from each other and its applications in multi-robot systems. In many real-world scenarios, one robot might not be enough to complete the given task on its own, and, therefore, we might need to deploy multiple robots ",
+    "date": "2023",
+    "url": "https://doi.org/10.3390/s23073625",
+    "authors": [
+      "James Orr",
+      "Ayan Dutta"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Mathematical Capabilities of ChatGPT",
+    "abstract": "We investigate the mathematical capabilities of two iterations of ChatGPT (released 9-January-2023 and 30-January-2023) and of GPT-4 by testing them on publicly available datasets, as well as hand-crafted ones, using a novel methodology. In contrast to formal mathematics, where large databases of formal proofs are available (e.g., the Lean Mathematical Library), current datasets of natural-language mathematics, used to benchmark language models, either cover only elementary mathematics or are very small. We address this by publicly releasing two new datasets: GHOSTS and miniGHOSTS. These are t",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2301.13867",
+    "authors": [
+      "Simon Frieder",
+      "Luca Pinchetti",
+      "Alexis Chevalier"
+    ]
+  },
+  {
+    "source": "OpenAlex (Heliyon)",
+    "title": "A systematic literature review of knowledge graph construction and application in education",
+    "abstract": "In the dynamic landscape of modern education, the search for improved pedagogical methods, enriched learning experiences, and empowered educators remains a perpetual pursuit. In recent years, a remarkable technological innovation has asserted its dominance in education: Knowledge Graphs (KGs). These structured representations of knowledge are increasingly proving to be indispensable tools, fostering advancements driven by the growing recognition of their essential role in enriching personalised learning, curriculum design, concept mapping, and educational content recommendation systems. In thi",
+    "date": "2024",
+    "url": "https://doi.org/10.1016/j.heliyon.2024.e25383",
+    "authors": [
+      "Bilal Abu-Salih",
+      "Salihah Alotaibi"
+    ]
+  },
+  {
+    "source": "OpenAlex (Materials)",
+    "title": "Advanced Computational Methods for Modeling, Prediction and Optimization\u2014A Review",
+    "abstract": "This paper provides a comprehensive review of recent advancements in computational methods for modeling, simulation, and optimization of complex systems in materials engineering, mechanical engineering, and energy systems. We identified key trends and highlighted the integration of artificial intelligence (AI) with traditional computational methods. Some of the cited works were previously published within the topic: \"Computational Methods: Modeling, Simulations, and Optimization of Complex Systems\"; thus, this article compiles the latest reports from this field. The work presents various conte",
+    "date": "2024",
+    "url": "https://doi.org/10.3390/ma17143521",
+    "authors": [
+      "Jaros\u0142aw Krzywa\u0144ski",
+      "Marcin Sosnowski",
+      "Karolina Grabowska"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Communications Surveys & Tutorials)",
+    "title": "Wi-Fi Meets ML: A Survey on Improving IEEE 802.11 Performance With Machine Learning",
+    "abstract": "Wireless local area networks (WLANs) empowered by IEEE 802.11 (Wi-Fi) hold a dominant position in providing Internet access thanks to their freedom of deployment and configuration as well as the existence of affordable and highly interoperable devices. The Wi-Fi community is currently deploying Wi-Fi 6 and developing Wi-Fi 7, which will bring higher data rates, better multi-user and multi-AP support, and, most importantly, improved configuration flexibility. These technical innovations, including the plethora of configuration parameters, are making next-generation WLANs exceedingly complex as ",
+    "date": "2022",
+    "url": "https://doi.org/10.1109/comst.2022.3179242",
+    "authors": [
+      "Szymon Szott",
+      "Katarzyna Kosek\u2010Szott",
+      "Piotr Gaw\u0142owicz"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE/ACM Transactions on Audio Speech and Language Processing)",
+    "title": "End-to-End Speech Recognition: A Survey",
+    "abstract": "In the last decade of automatic speech recognition (ASR) research, the introduction of deep learning has brought considerable reductions in word error rate of more than 50% relative, compared to modeling without deep learning. In the wake of this transition, a number of all-neural ASR architectures have been introduced. These so-called <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">end-to-end</i> (E2E) models provide highly integrated, completely neural ASR models, which rely strongly on general machine learning knowledge, learn more consisten",
+    "date": "2023",
+    "url": "https://doi.org/10.1109/taslp.2023.3328283",
+    "authors": [
+      "Rohit Prabhavalkar",
+      "Takaaki Hori",
+      "Tara N. Sainath"
+    ]
+  }
+]

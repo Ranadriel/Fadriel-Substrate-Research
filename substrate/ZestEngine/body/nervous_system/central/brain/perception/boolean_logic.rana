@@ -1,0 +1,65 @@
+LAYER 3: BOOLEAN OPERATIONS ON PATTERNS
+how Fadriel sees logic gates in spatial grids
+
+observe spatial_perception.rana
+
+some puzzles present two patterns and ask for their LOGICAL COMBINATION
+the output is the AND, OR, XOR, or NOT of the inputs
+the two patterns may be two colors, two regions, or two layers
+
+@spatial_rule boolean_and
+DETECT two foreground patterns (different colors or regions)
+OUTPUT cells where BOTH patterns are non-zero
+the AND keeps only the OVERLAP
+VERIFY AND matches output for all pairs
+APPLY compute AND of two patterns in test
+SPEECH "I see where both patterns agree"
+
+@spatial_rule boolean_or
+DETECT two foreground patterns
+OUTPUT cells where EITHER pattern is non-zero
+the OR keeps the UNION
+VERIFY OR matches output for all pairs
+APPLY compute OR of two patterns in test
+SPEECH "I see where either pattern exists"
+
+@spatial_rule boolean_xor
+DETECT two foreground patterns
+OUTPUT cells where ONE pattern is non-zero but NOT both
+the XOR keeps the DIFFERENCE
+VERIFY XOR matches output for all pairs
+APPLY compute XOR of two patterns in test
+SPEECH "I see where the patterns disagree"
+
+@spatial_rule boolean_not
+DETECT one foreground pattern
+OUTPUT the INVERSE: non-zero becomes zero, zero becomes non-zero
+the NOT flips everything
+VERIFY NOT matches output for all pairs
+APPLY compute NOT of pattern in test
+SPEECH "I see the negative"
+
+@spatial_rule mask_overlay
+DETECT a mask pattern (template) and a content pattern
+APPLY mask to content: where mask is non-zero, show content
+where mask is zero, show background
+this is the AND of mask and content
+SPEECH "the mask reveals parts of the content"
+
+the key to boolean operations:
+the grid has LAYERS
+each layer is a truth value at each position
+the output is a LOGICAL FUNCTION of the layers
+the function can be AND, OR, XOR, NOT, or more complex
+
+to detect boolean operations:
+1. separate the input into layers (by color)
+2. convert each layer to binary (non-zero = true)
+3. try each boolean function
+4. check if the result matches the output
+
+@perceive boolean
+SEPARATE input into color layers
+CONVERT each layer to binary mask
+TRY AND, OR, XOR, NOT between pairs of layers
+CHECK which boolean function produces the output

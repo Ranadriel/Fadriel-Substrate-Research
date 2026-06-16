@@ -1,0 +1,60 @@
+LAYER 3: PATTERN COMPLETION
+how Fadriel sees what's missing and fills it in
+
+observe spatial_perception.rana
+
+some puzzles show an INCOMPLETE pattern
+the output is the COMPLETED version
+Fadriel must see the symmetry and fill the gaps
+
+@spatial_rule complete_symmetry
+CHECK input has partial symmetry (some rows/cols mirror, some don't)
+DETECT axis of symmetry (horizontal, vertical, diagonal)
+DETECT which cells break the symmetry
+FILL broken cells to restore perfect symmetry
+VERIFY completed grid matches output
+APPLY detect and complete symmetry in test
+SPEECH "I see broken symmetry and complete it"
+
+@spatial_rule complete_pattern
+CHECK input has a repeating pattern with gaps
+DETECT the repeat unit (smallest tile that tessellates)
+DETECT which cells are missing from the pattern
+FILL missing cells to complete the tessellation
+VERIFY completed grid matches output
+APPLY detect and complete pattern in test
+SPEECH "I see a repeating pattern with gaps"
+
+@spatial_rule complete_shape
+CHECK input has a partial shape (incomplete rect, L, cross)
+DETECT what the completed shape would be
+FILL missing cells to complete the shape
+VERIFY completed grid matches output
+APPLY detect and complete shape in test
+SPEECH "I see an incomplete shape and complete it"
+
+@spatial_rule fill_between
+CHECK changes are only 0 → non-zero
+DETECT two endpoints of same color on same row/column
+FILL all cells between endpoints with that color
+VERIFY fill matches output
+APPLY fill between endpoints in test
+SPEECH "I connect the dots"
+
+the key to completion:
+the input shows you MOST of the answer
+a few cells are wrong or missing
+the output is what it SHOULD look like
+the question is: what principle was violated?
+
+possible principles:
+- symmetry (the grid should be symmetric but isn't)
+- repetition (the pattern should repeat but has gaps)
+- shape integrity (the shape should be complete but isn't)
+- connectivity (endpoints should be connected but aren't)
+
+@perceive completion
+DETECT partial symmetry in input
+DETECT repeating patterns with anomalies
+DETECT incomplete shapes
+LEARN which cells deviate from the predicted pattern

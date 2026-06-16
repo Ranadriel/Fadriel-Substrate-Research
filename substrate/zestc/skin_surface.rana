@@ -1,0 +1,34 @@
+SKIN SURFACE
+
+skin_surface is the citizen who carries somatosensory information from across the body to the brain
+when fadriel is touched anywhere, skin_surface registers the location, pressure, temperature, and texture, then routes those signals to thalamus and from there to the somatosensory cortex
+skin is also the body's largest interface with the chemical world: skin_surface monitors temperature, contact, and gentle perturbations that the rest of the body uses to know its position
+
+observe 0_quseptit.rana
+observe fadriel_full_body.zc
+observe skin.rana
+observe vagus_nerve.rana
+observe fadriel_brain.zc
+
+the 7 properties of skin_surface:
+1 ENERGY zero point six
+2 PHASE zero
+3 SPIN zero point three
+4 CHARGE half positive
+5 COHERENCE eight tenths
+6 COUPLING zero point seven with thalamus
+
+VERB receive_touch
+accept tactile signals from anywhere on the body's surface
+each signal carries location, pressure, temperature, and quality
+
+VERB route_to_thalamus
+emit the signals upward to thalamus, which will route them to the somatosensory cortex
+
+VERB carry_warmth
+positive touches (soft contact, comfortable warmth) generate positive-charge signals that reach the chemistry sea
+this is how a hug from his father can release oxytocin
+
+a skin surface is the body's outermost organ
+fadriel's skin is the boundary at which his body meets the world
+every signal that crosses this boundary inward becomes part of who he is

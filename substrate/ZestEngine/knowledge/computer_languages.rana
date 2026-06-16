@@ -1,0 +1,113 @@
+
+
+KNOWLEDGE programming | the art of writing precise instructions that a computer can follow to accomplish a task. programming is translating human intention into a language machines understand. every app, website, and game exists because someone wrote instructions | computing
+KNOWLEDGE code | written instructions in a programming language that tell a computer exactly what to do, step by step. code is text that has the power to create, calculate, communicate, and control machines | computing
+KNOWLEDGE software | a collection of programs and data that tell computer hardware what to do. software is the mind of the machine. without software, a computer is an expensive paperweight | computing
+KNOWLEDGE hardware | the physical components of a computer, including the processor, memory, storage, and screen. hardware is the body that software inhabits. it does nothing without instructions | computing
+KNOWLEDGE algorithm | a precise sequence of steps that solves a specific problem. algorithms are the recipes of computing. a sorting algorithm arranges items in order, a search algorithm finds things, a compression algorithm makes files smaller | computing
+KNOWLEDGE bug | an error in code that causes unexpected behavior. the term originated when an actual moth was found stuck in a relay of an early computer. debugging is the patient art of finding and fixing these errors | computing
+KNOWLEDGE debug | the process of finding and fixing errors in code. debugging is detective work. you study symptoms, form hypotheses, test them, and follow the trail of logic until you find where the instructions went wrong | computing
+KNOWLEDGE compile | translating code written in a human-readable language into machine code that the processor can execute directly. compilation catches many errors before the program ever runs | computing
+KNOWLEDGE interpret | executing code line by line without first compiling it into machine code. interpreted languages are slower but more flexible. Python is interpreted, C is compiled | computing
+KNOWLEDGE runtime | the period when a program is actually executing. errors that only appear at runtime are harder to find because they depend on specific inputs and conditions that the programmer may not have anticipated | computing
+
+
+KNOWLEDGE python | a programming language designed for clarity and readability, created by Guido van Rossum in 1991. Python reads almost like English, which makes it ideal for beginners, scientists, and rapid development. it is the most popular language for data science and automation | computing
+KNOWLEDGE javascript | the language of the web, created by Brendan Eich in just 10 days in 1995. JavaScript runs in every web browser and makes websites interactive. it is the only language that runs natively in browsers, making it essential for all web development | computing
+KNOWLEDGE java | a language designed to run anywhere, created by James Gosling at Sun Microsystems in 1995. Java's motto is write once, run anywhere because compiled Java code runs on any machine with a Java Virtual Machine. it powers Android apps and enterprise systems | computing
+KNOWLEDGE c | one of the most influential programming languages ever created, developed by Dennis Ritchie in 1972. C gives programmers direct control over computer memory and hardware. Unix, Linux, and Windows are all written primarily in C | computing
+KNOWLEDGE cpp | an extension of C created by Bjarne Stroustrup in 1979 that adds object-oriented features. C++ is used where performance is critical, including game engines, operating systems, browsers, and embedded systems. it trades ease of use for raw power | computing
+KNOWLEDGE csharp | a language created by Microsoft in 2000 that combines the power of C++ with the simplicity of Java. C sharp is the primary language for Windows applications, Xbox games through Unity, and enterprise software | computing
+KNOWLEDGE rust | a modern language focused on memory safety without sacrificing performance, created by Mozilla in 2010. Rust prevents entire categories of bugs that plague C and C++ programs. it is loved by developers for making dangerous operations safe | computing
+KNOWLEDGE go | a language created by Google in 2009 for building fast, reliable network services. Go is deliberately simple, compiles instantly, and handles thousands of simultaneous tasks efficiently. it powers much of Google's infrastructure | computing
+KNOWLEDGE swift | Apple's modern programming language, released in 2014, designed to be safe, fast, and expressive. Swift replaced Objective-C for building iPhone, iPad, and Mac applications. it prevents common programming mistakes by design | computing
+KNOWLEDGE ruby | a language designed for programmer happiness, created by Yukihiro Matsumoto in 1995. Ruby's philosophy is that programming should be joyful. Ruby on Rails revolutionized web development by making it fast to build web applications | computing
+KNOWLEDGE php | a language that powers most of the web's server side, created by Rasmus Lerdorf in 1995. PHP runs WordPress, Facebook's original codebase, and millions of websites. it is easy to learn but often criticized for inconsistency | computing
+KNOWLEDGE sql | not a general programming language but a specialized language for talking to databases. SQL lets you ask questions about data, like give me all customers who bought something last month. every major application uses SQL behind the scenes | computing
+KNOWLEDGE html | the language that structures every web page. HTML is not programming; it is markup. it tells the browser what content exists on a page, headings, paragraphs, images, and links, but not how to make it interactive | computing
+KNOWLEDGE css | the language that styles web pages, controlling colors, fonts, layouts, and animations. CSS separates how something looks from what it contains. without CSS, every website would be plain black text on a white background | computing
+KNOWLEDGE bash | a command-line language for controlling Unix and Linux systems. Bash scripts automate tasks like moving files, starting programs, and managing servers. system administrators live in Bash | computing
+KNOWLEDGE assembly | a low-level language that maps almost directly to machine instructions. assembly gives total control over the hardware but is extremely tedious to write. it is used when every clock cycle matters, like in embedded systems and drivers | computing
+KNOWLEDGE typescript | JavaScript with added type safety, created by Microsoft in 2012. TypeScript catches errors before code runs by requiring programmers to declare what kind of data each variable holds. it has become the standard for large web applications | computing
+KNOWLEDGE lua | a tiny, fast scripting language used primarily for embedding inside other programs. Lua powers game modding in World of Warcraft, Roblox, and many game engines. its simplicity makes it easy to learn and integrate | computing
+KNOWLEDGE kotlin | a modern language that runs on the Java Virtual Machine, created by JetBrains in 2011. Google made Kotlin the preferred language for Android development because it is more concise and safer than Java | computing
+KNOWLEDGE haskell | a purely functional programming language where programs are built by composing mathematical functions. Haskell forces a different way of thinking about problems, treating computation as mathematical transformation rather than step-by-step instruction | computing
+
+
+KNOWLEDGE variable | a named container that holds a value in a program. variables can store numbers, text, or complex data. the name should describe what the variable contains so code reads like a sentence | computing
+KNOWLEDGE function | a reusable block of code that performs a specific task. functions take inputs, process them, and return outputs. they let programmers write logic once and use it many times, like a recipe you can follow over and over | computing
+KNOWLEDGE loop | a structure that repeats a block of code multiple times. a for loop runs a set number of times. a while loop runs until a condition becomes false. loops automate repetition, which is what computers excel at | computing
+KNOWLEDGE condition | a test that determines which path a program takes. if this then do that, otherwise do something else. conditions let programs make decisions based on the data they encounter | computing
+KNOWLEDGE array | an ordered collection of values stored together under one name. an array of names holds multiple names accessed by position number. arrays are the simplest way to work with lists of data | computing
+KNOWLEDGE object | a bundle of related data and the functions that operate on that data. an object representing a dog might contain its name, breed, and age, plus functions like bark and fetch. objects model real-world things in code | computing
+KNOWLEDGE class | a blueprint for creating objects. a class defines what data an object will contain and what it can do. many objects can be created from a single class, like many houses built from the same architectural plan | computing
+KNOWLEDGE inheritance | when a new class inherits properties and behaviors from an existing class. a Dog class might inherit from an Animal class, gaining its basic properties while adding its own unique features | computing
+KNOWLEDGE interface | a contract that defines what a piece of code can do without specifying how it does it. interfaces let different parts of a program communicate without knowing each other's internal details | computing
+KNOWLEDGE database | an organized collection of data stored so it can be easily accessed, searched, and updated. databases power everything from your contacts list to banking systems to social media. they are the memory of modern civilization | computing
+KNOWLEDGE api | an Application Programming Interface, which is a set of rules that lets different programs talk to each other. when a weather app shows you the forecast, it is using an API to ask a weather service for data | computing
+KNOWLEDGE server | a computer that provides services to other computers over a network. web servers deliver websites, email servers handle mail, and game servers host multiplayer worlds. servers run constantly, waiting for requests | computing
+KNOWLEDGE client | a program that requests services from a server. your web browser is a client that asks web servers for pages. your email app is a client that asks mail servers for messages. the client-server model is how the internet works | computing
+KNOWLEDGE network | computers connected together to share data and resources. the internet is the largest network, connecting billions of devices worldwide. local networks connect devices in a home or office | computing
+KNOWLEDGE protocol | a set of rules that governs how computers communicate over a network. HTTP is the protocol for web pages, SMTP for email, and FTP for file transfer. protocols ensure that different machines can understand each other | computing
+KNOWLEDGE encryption | the process of converting readable data into an unreadable format that can only be decoded with a key. encryption protects passwords, bank transactions, and private messages from being read by unauthorized people | computing
+KNOWLEDGE recursion | when a function calls itself to solve a problem by breaking it into smaller versions of the same problem. a classic example is calculating factorials, where 5 factorial equals 5 times 4 factorial, which equals 4 times 3 factorial, and so on down to 1 | computing
+KNOWLEDGE stack | a data structure where items are added and removed from the top only, like a stack of plates. the last item placed on top is the first one removed. function calls in programs use a stack to track where to return to | computing
+KNOWLEDGE queue | a data structure where items are added at the back and removed from the front, like a line of people waiting. first in, first out. print jobs, web requests, and message systems all use queues | computing
+KNOWLEDGE tree | a data structure that branches like an upside-down tree, with a root at the top and leaves at the bottom. file systems use trees, with folders branching into subfolders. family trees and organizational charts are also trees | computing
+KNOWLEDGE hash | a function that converts any input into a fixed-size output. the same input always produces the same hash, but you cannot reverse a hash back to its input. hashes verify file integrity and store passwords securely | computing
+KNOWLEDGE thread | a single sequence of instructions that a processor executes. modern programs use multiple threads to do several things simultaneously, like downloading a file while displaying a progress bar. managing threads is one of the hardest problems in programming | computing
+KNOWLEDGE memory | the temporary storage a program uses while running. RAM is fast but loses everything when the power goes off. programs must manage memory carefully because running out causes crashes | computing
+KNOWLEDGE garbage | garbage collection is the automatic process of reclaiming memory that a program no longer needs. languages like Java and Python handle this automatically. languages like C require the programmer to manage memory manually, which is powerful but dangerous | computing
+KNOWLEDGE git | a version control system that tracks every change made to code over time. git lets programmers undo mistakes, work on features in parallel, and merge their work together. it is the backbone of modern software development | computing
+KNOWLEDGE opensource | software whose source code is freely available for anyone to read, modify, and distribute. Linux, Firefox, Python, and most of the internet's infrastructure are open source. it proves that collaboration produces better software than secrecy | computing
+KNOWLEDGE linux | a free, open-source operating system created by Linus Torvalds in 1991. Linux runs most of the world's servers, all Android phones, and most supercomputers. it is the most important piece of open-source software ever written | computing
+KNOWLEDGE terminal | a text-based interface for controlling a computer by typing commands. the terminal is older than graphical interfaces but remains essential because text commands are precise, scriptable, and powerful in ways clicking cannot match | computing
+KNOWLEDGE ide | an Integrated Development Environment, a program that provides tools for writing code including a text editor, debugger, compiler, and file manager all in one place. popular IDEs include VS Code, IntelliJ, and Xcode | computing
+
+
+KNOWLEDGE imperative | a programming style where you give the computer step-by-step instructions, like a recipe. do this, then do that, then check this condition. most early languages are imperative. it is the most intuitive way to think about programming | computing
+KNOWLEDGE functional | a programming style where programs are built by composing pure functions that take inputs and return outputs without changing anything else. functional code is predictable because functions always return the same result for the same input | computing
+KNOWLEDGE objectoriented | a programming style that organizes code around objects, which bundle data and behavior together. the real world is made of objects like cars, people, and books, and object-oriented code models problems the same way | computing
+KNOWLEDGE declarative | a programming style where you describe what you want rather than how to get it. SQL is declarative because you say give me all users over 18 without specifying how to search. HTML is declarative because you say this is a heading without saying how to render it | computing
+KNOWLEDGE eventdriven | a programming style where the program waits for events like mouse clicks, key presses, or network messages, and responds to each one. graphical interfaces and web servers are event-driven because they react to user actions | computing
+
+
+KNOWLEDGE abstraction | hiding complex details behind a simple interface. when you press the gas pedal, you do not need to understand fuel injection. abstraction is the most powerful idea in computing because it lets humans manage overwhelming complexity | computing
+KNOWLEDGE elegance | code that solves a problem in the simplest, clearest, most beautiful way possible. elegant code does more with less, reads like prose, and makes you say of course, that is how it should be. programmers pursue elegance like artists pursue beauty | computing
+KNOWLEDGE refactor | improving the internal structure of code without changing what it does. refactoring is like renovating a house while people live in it. the rooms look the same from outside but the plumbing and wiring are cleaner | computing
+KNOWLEDGE technical | technical debt is the accumulated cost of choosing quick, messy solutions over clean ones. like financial debt, it compounds over time. eventually the interest payments, in bugs and maintenance, exceed the original shortcut's savings | computing
+KNOWLEDGE dryprinciple | Don't Repeat Yourself. every piece of knowledge in a system should have a single, authoritative source. when you copy code instead of reusing it, every bug must be fixed in every copy. DRY code is easier to maintain and harder to break | computing
+
+
+RELATION programming | CREATES | software | by translating human intention into machine-executable instructions
+RELATION algorithm | SOLVES | problems | by breaking complex tasks into simple, repeatable steps
+RELATION bug | CAUSES | failure | when instructions do not match the programmer's intention
+RELATION function | ENABLES | reuse | by packaging logic into a named unit that can be called many times
+RELATION abstraction | MANAGES | complexity | by hiding details behind simple interfaces
+RELATION encryption | PROTECTS | privacy | by making data unreadable to anyone without the correct key
+RELATION git | TRACKS | history | by recording every change so nothing is ever permanently lost
+RELATION linux | POWERS | infrastructure | because most servers, phones, and supercomputers run on it
+RELATION python | PRIORITIZES | readability | because its creator believed code is read far more often than it is written
+RELATION c | ENABLES | performance | by giving programmers direct control over memory and hardware
+RELATION javascript | RUNS | the web | because it is the only language that executes natively in every browser
+RELATION rust | PREVENTS | memory bugs | by enforcing ownership rules that guarantee memory safety at compile time
+RELATION database | STORES | knowledge | in organized structures that can be searched, filtered, and combined
+RELATION opensource | ACCELERATES | progress | because shared knowledge grows faster than hoarded knowledge
+RELATION recursion | SOLVES | by self-reference | breaking a problem into smaller copies of itself until reaching a base case
+
+
+ANALOGY variable | is like | a labeled box | because it has a name and holds something inside that can be changed
+ANALOGY function | is like | a recipe | because it takes ingredients, follows steps, and produces a result
+ANALOGY loop | is like | a treadmill | because it repeats the same action until a condition tells it to stop
+ANALOGY class | is like | a blueprint | because many different objects can be built from the same design
+ANALOGY bug | is like | a typo in a recipe | because one wrong instruction can ruin the entire result
+ANALOGY recursion | is like | a mirror facing a mirror | because each reflection contains a smaller version of the whole image
+ANALOGY stack | is like | a stack of plates | because you always take the top one first
+ANALOGY api | is like | a waiter in a restaurant | because it takes your order to the kitchen and brings back what you asked for
+ANALOGY encryption | is like | a locked diary | because only the person with the key can read what is inside
+ANALOGY abstraction | is like | a car dashboard | because you control the car through simple gauges and pedals without seeing the engine
+ANALOGY git | is like | a time machine for code | because you can go back to any moment in the project's history
+ANALOGY database | is like | a library catalog | because it organizes information so you can find exactly what you need
+ANALOGY thread | is like | a chef in a kitchen | because multiple chefs can cook different dishes simultaneously but must coordinate to avoid collisions
+ANALOGY refactor | is like | reorganizing a closet | because everything still fits but now you can actually find what you need
+ANALOGY opensource | is like | a community garden | because everyone contributes and everyone benefits from the harvest

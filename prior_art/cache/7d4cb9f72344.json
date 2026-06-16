@@ -1,0 +1,180 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Conjectures on Convergence and Scalar Curvature",
+    "abstract": "Here we survey the compactness and geometric stability conjectures formulated by the participants at the 2018 IAS Emerging Topics Workshop on {\\em Scalar Curvature and Convergence}. We have tried to survey all the progress towards these conjectures as well as related examples, although it is impossible to cover everything. We focus primarily on sequences of compact Riemannian manifolds with nonnegative scalar curvature and their limit spaces. Christina Sormani is grateful to have had the opportunity to write up our ideas and has done her best to credit everyone involved within the paper even t",
+    "date": "2021-03-18",
+    "url": "http://arxiv.org/abs/2103.10093v1",
+    "authors": [
+      "Christina Sormani",
+      "Participants at the IAS Emerging Topics Workshop on Scalar Curvature",
+      " Convergence"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cross-language Learning with Adversarial Neural Networks: Application to Community Question Answering",
+    "abstract": "We address the problem of cross-language adaptation for question-question similarity reranking in community question answering, with the objective to port a system trained on one input language to another input language given labeled training data for the first language and only unlabeled data for the second language. In particular, we propose to use adversarial training of neural networks to learn high-level features that are discriminative for the main learning task, and at the same time are invariant across the input languages. The evaluation results show sizable improvements for our cross-",
+    "date": "2017-06-21",
+    "url": "http://arxiv.org/abs/1706.06749v1",
+    "authors": [
+      "Shafiq Joty",
+      "Preslav Nakov",
+      "Llu\u00eds M\u00e0rquez"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "First-order Adversarial Vulnerability of Neural Networks and Input Dimension",
+    "abstract": "Over the past few years, neural networks were proven vulnerable to adversarial images: targeted but imperceptible image perturbations lead to drastically different predictions. We show that adversarial vulnerability increases with the gradients of the training objective when viewed as a function of the inputs. Surprisingly, vulnerability does not depend on network topology: for many standard network architectures, we prove that at initialization, the $\\ell_1$-norm of these gradients grows as the square root of the input dimension, leaving the networks increasingly vulnerable with growing image",
+    "date": "2018-02-05",
+    "url": "http://arxiv.org/abs/1802.01421v4",
+    "authors": [
+      "Carl-Johann Simon-Gabriel",
+      "Yann Ollivier",
+      "L\u00e9on Bottou"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Attack-SAM: Towards Attacking Segment Anything Model With Adversarial Examples",
+    "abstract": "Segment Anything Model (SAM) has attracted significant attention recently, due to its impressive performance on various downstream tasks in a zero-short manner. Computer vision (CV) area might follow the natural language processing (NLP) area to embark on a path from task-specific vision models toward foundation models. However, deep vision models are widely recognized as vulnerable to adversarial examples, which fool the model to make wrong predictions with imperceptible perturbation. Such vulnerability to adversarial attacks causes serious concerns when applying deep models to security-sensi",
+    "date": "2023-05-01",
+    "url": "http://arxiv.org/abs/2305.00866v2",
+    "authors": [
+      "Chenshuang Zhang",
+      "Chaoning Zhang",
+      "Taegoo Kang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "How do language models learn facts? Dynamics, curricula and hallucinations",
+    "abstract": "Large language models accumulate vast knowledge during pre-training, yet the dynamics governing this acquisition remain poorly understood. This work investigates the learning dynamics of language models on a synthetic factual recall task, uncovering three key findings: First, language models learn in three phases, exhibiting a performance plateau before acquiring precise factual knowledge. Mechanistically, this plateau coincides with the formation of attention-based circuits that support recall. Second, the training data distribution significantly impacts learning dynamics, as imbalanced distr",
+    "date": "2025-03-27",
+    "url": "http://arxiv.org/abs/2503.21676v2",
+    "authors": [
+      "Nicolas Zucchet",
+      "J\u00f6rg Bornschein",
+      "Stephanie Chan"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Quaternion Generative Adversarial Networks",
+    "abstract": "Latest Generative Adversarial Networks (GANs) are gathering outstanding results through a large-scale training, thus employing models composed of millions of parameters requiring extensive computational capabilities. Building such huge models undermines their replicability and increases the training instability. Moreover, multi-channel data, such as images or audio, are usually processed by realvalued convolutional networks that flatten and concatenate the input, often losing intra-channel spatial relations. To address these issues related to complexity and information loss, we propose a famil",
+    "date": "2021-04-19",
+    "url": "http://arxiv.org/abs/2104.09630v2",
+    "authors": [
+      "Eleonora Grassucci",
+      "Edoardo Cicero",
+      "Danilo Comminiello"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "On the Validity of Traditional Vulnerability Scoring Systems for Adversarial Attacks against LLMs",
+    "abstract": "This research investigates the effectiveness of established vulnerability metrics, such as the Common Vulnerability Scoring System (CVSS), in evaluating attacks against Large Language Models (LLMs), with a focus on Adversarial Attacks (AAs). The study explores the influence of both general and specific metric factors in determining vulnerability scores, providing new perspectives on potential enhancements to these metrics.   This study adopts a quantitative approach, calculating and comparing the coefficient of variation of vulnerability scores across 56 adversarial attacks on LLMs. The attack",
+    "date": "2024-12-28",
+    "url": "http://arxiv.org/abs/2412.20087v1",
+    "authors": [
+      "Atmane Ayoub Mansour Bahar",
+      "Ahmad Samer Wazan"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Benchmarking Adversarial Robustness to Bias Elicitation in Large Language Models: Scalable Automated Assessment with LLM-as-a-Judge",
+    "abstract": "The growing integration of Large Language Models (LLMs) into critical societal domains has raised concerns about embedded biases that can perpetuate stereotypes and undermine fairness. Such biases may stem from historical inequalities in training data, linguistic imbalances, or adversarial manipulation. Despite mitigation efforts, recent studies show that LLMs remain vulnerable to adversarial attacks that elicit biased outputs. This work proposes a scalable benchmarking framework to assess LLM robustness to adversarial bias elicitation. Our methodology involves: (i) systematically probing mode",
+    "date": "2025-04-10",
+    "url": "http://arxiv.org/abs/2504.07887v2",
+    "authors": [
+      "Riccardo Cantini",
+      "Alessio Orsino",
+      "Massimo Ruggiero"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Unveiling Safety Vulnerabilities of Large Language Models",
+    "abstract": "As large language models become more prevalent, their possible harmful or inappropriate responses are a cause for concern. This paper introduces a unique dataset containing adversarial examples in the form of questions, which we call AttaQ, designed to provoke such harmful or inappropriate responses. We assess the efficacy of our dataset by analyzing the vulnerabilities of various models when subjected to it. Additionally, we introduce a novel automatic approach for identifying and naming vulnerable semantic regions - input semantic areas for which the model is likely to produce harmful output",
+    "date": "2023-11-07",
+    "url": "http://arxiv.org/abs/2311.04124v1",
+    "authors": [
+      "George Kour",
+      "Marcel Zalmanovici",
+      "Naama Zwerdling"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Unforgettable Generalization in Language Models",
+    "abstract": "When language models (LMs) are trained to forget (or \"unlearn'') a skill, how precisely does their behavior change? We study the behavior of transformer LMs in which tasks have been forgotten via fine-tuning on randomized labels. Such LMs learn to generate near-random predictions for individual examples in the \"training'' set used for forgetting. Across tasks, however, LMs exhibit extreme variability in whether LM predictions change on examples outside the training set. In some tasks (like entailment classification), forgetting generalizes robustly, and causes models to produce uninformative p",
+    "date": "2024-09-03",
+    "url": "http://arxiv.org/abs/2409.02228v1",
+    "authors": [
+      "Eric Zhang",
+      "Leshem Chosen",
+      "Jacob Andreas"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Discriminating Similar Languages: Evaluations and Explorations",
+    "abstract": "We present an analysis of the performance of machine learning classifiers on discriminating between similar languages and language varieties. We carried out a number of experiments using the results of the two editions of the Discriminating between Similar Languages (DSL) shared task. We investigate the progress made between the two tasks, estimate an upper bound on possible performance using ensemble and oracle combination, and provide learning curves to help us understand which languages are more challenging. A number of difficult sentences are identified and investigated further with human ",
+    "date": "2016-09-30",
+    "url": "http://arxiv.org/abs/1610.00031v1",
+    "authors": [
+      "Cyril Goutte",
+      "Serge L\u00e9ger",
+      "Shervin Malmasi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Are Compressed Language Models Less Subgroup Robust?",
+    "abstract": "To reduce the inference cost of large language models, model compression is increasingly used to create smaller scalable models. However, little is known about their robustness to minority subgroups defined by the labels and attributes of a dataset. In this paper, we investigate the effects of 18 different compression methods and settings on the subgroup robustness of BERT language models. We show that worst-group performance does not depend on model size alone, but also on the compression method used. Additionally, we find that model compression does not always worsen the performance on minor",
+    "date": "2024-03-26",
+    "url": "http://arxiv.org/abs/2403.17811v1",
+    "authors": [
+      "Leonidas Gee",
+      "Andrea Zugarini",
+      "Novi Quadrianto"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Generating Natural Language Adversarial Examples",
+    "abstract": "Deep neural networks (DNNs) are vulnerable to adversarial examples, perturbations to correctly classified examples which can cause the model to misclassify. In the image domain, these perturbations are often virtually indistinguishable to human perception, causing humans and state-of-the-art models to disagree. However, in the natural language domain, small perturbations are clearly perceptible, and the replacement of a single word can drastically alter the semantics of the document. Given these challenges, we use a black-box population-based optimization algorithm to generate semantically and",
+    "date": "2018-04-21",
+    "url": "http://arxiv.org/abs/1804.07998v2",
+    "authors": [
+      "Moustafa Alzantot",
+      "Yash Sharma",
+      "Ahmed Elgohary"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Modeling Language Change in Historical Corpora: The Case of Portuguese",
+    "abstract": "This paper presents a number of experiments to model changes in a historical Portuguese corpus composed of literary texts for the purpose of temporal text classification. Algorithms were trained to classify texts with respect to their publication date taking into account lexical variation represented as word n-grams, and morphosyntactic variation represented by part-of-speech (POS) distribution. We report results of 99.8% accuracy using word unigram features with a Support Vector Machines classifier to predict the publication date of documents in time intervals of both one century and half a c",
+    "date": "2016-09-30",
+    "url": "http://arxiv.org/abs/1610.00030v1",
+    "authors": [
+      "Marcos Zampieri",
+      "Shervin Malmasi",
+      "Mark Dras"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "VLAI: A RoBERTa-Based Model for Automated Vulnerability Severity Classification",
+    "abstract": "This paper presents VLAI, a transformer-based model that predicts software vulnerability severity levels directly from text descriptions. Built on RoBERTa, VLAI is fine-tuned on over 600,000 real-world vulnerabilities and achieves over 82% accuracy in predicting severity categories, enabling faster and more consistent triage ahead of manual CVSS scoring. The model and dataset are open-source and integrated into the Vulnerability-Lookup service.",
+    "date": "2025-07-04",
+    "url": "http://arxiv.org/abs/2507.03607v1",
+    "authors": [
+      "C\u00e9dric Bonhomme",
+      "Alexandre Dulaunoy"
+    ]
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "source": "OpenAlex (Behavioral and Brain Sciences)",
+    "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+    "abstract": "Brains, it has recently been argued, are essentially prediction machines. They are bundles of cells that support perception and action by constantly attempting to match incoming sensory inputs with top-down expectations or predictions. This is achieved using a hierarchical generative model that aims to minimize prediction error within a bidirectional cascade of cortical processing. Such accounts offer a unifying model of perception and action, illuminate the functional role of attention, and may neatly capture the special contribution of cortical processing to adaptive success. This target art",
+    "date": "2013",
+    "url": "https://doi.org/10.1017/s0140525x12000477",
+    "authors": [
+      "Andy Clark"
+    ]
+  },
+  {
+    "source": "OpenAlex (Trends in Cognitive Sciences)",
+    "title": "Interoceptive inference, emotion, and the embodied self",
+    "abstract": "The concept of the brain as a prediction machine has enjoyed a resurgence in the context of the Bayesian brain and predictive coding approaches within cognitive science. To date, this perspective has been applied primarily to exteroceptive perception (e.g., vision, audition), and action. Here, I describe a predictive, inferential perspective on interoception: 'interoceptive inference' conceives of subjective feeling states (emotions) as arising from actively-inferred generative (predictive) models of the causes of interoceptive afferents. The model generalizes 'appraisal' theories that view em",
+    "date": "2013",
+    "url": "https://doi.org/10.1016/j.tics.2013.09.007",
+    "authors": [
+      "Anil K. Seth"
+    ]
+  },
+  {
+    "source": "OpenAlex (Physiological Reviews)",
+    "title": "The Microbiota-Gut-Brain Axis",
+    "abstract": "The importance of the gut-brain axis in maintaining homeostasis has long been appreciated. However, the past 15 yr have seen the emergence of the microbiota (the trillions of microorganisms within and on our bodies) as one of the key regulators of gut-brain function and has led to the appreciation of the importance of a distinct microbiota-gut-brain axis. This axis is gaining ever more traction in fields investigating the biological and physiological basis of psychiatric, neurodevelopmental, age-related, and neurodegenerative disorders. The microbiota and the brain communicate with each other ",
+    "date": "2019",
+    "url": "https://doi.org/10.1152/physrev.00018.2018",
+    "authors": [
+      "John F. Cryan",
+      "Kenneth J. O\u2019Riordan",
+      "Caitlin S.M. Cowan"
+    ]
+  },
+  {
+    "source": "OpenAlex (Neuropsychopharmacology)",
+    "title": "Normal Development of Brain Circuits",
+    "abstract": "",
+    "date": "2009",
+    "url": "https://doi.org/10.1038/npp.2009.115",
+    "authors": [
+      "Gregory Tau",
+      "Bradley S. Peterson"
+    ]
+  },
+  {
+    "source": "OpenAlex (Proceedings of the National Academy of Sciences)",
+    "title": "A higher-order theory of emotional consciousness",
+    "abstract": "Emotional states of consciousness, or what are typically called emotional feelings, are traditionally viewed as being innately programmed in subcortical areas of the brain, and are often treated as different from cognitive states of consciousness, such as those related to the perception of external stimuli. We argue that conscious experiences, regardless of their content, arise from one system in the brain. In this view, what differs in emotional and nonemotional states are the kinds of inputs that are processed by a general cortical network of cognition, a network essential for conscious expe",
+    "date": "2017",
+    "url": "https://doi.org/10.1073/pnas.1619316114",
+    "authors": [
+      "Joseph E. LeDoux",
+      "Richard Brown"
+    ]
+  },
+  {
+    "source": "OpenAlex (Cognitive Neuroscience)",
+    "title": "A predictive processing theory of sensorimotor contingencies: Explaining the puzzle of perceptual presence and its absence in synesthesia",
+    "abstract": "Normal perception involves experiencing objects within perceptual scenes as real, as existing in the world. This property of \"perceptual presence\" has motivated \"sensorimotor theories\" which understand perception to involve the mastery of sensorimotor contingencies. However, the mechanistic basis of sensorimotor contingencies and their mastery has remained unclear. Sensorimotor theory also struggles to explain instances of perception, such as synesthesia, that appear to lack perceptual presence and for which relevant sensorimotor contingencies are difficult to identify. On alternative \"predict",
+    "date": "2014",
+    "url": "https://doi.org/10.1080/17588928.2013.877880",
+    "authors": [
+      "Anil K. Seth"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Psychology)",
+    "title": "Interoception, contemplative practice, and health",
+    "abstract": "Interoception can be broadly defined as the sense of signals originating within the body. As such, interoception is critical for our sense of embodiment, motivation, and well-being. And yet, despite its importance, interoception remains poorly understood within modern science. This paper reviews interdisciplinary perspectives on interoception, with the goal of presenting a unified perspective from diverse fields such as neuroscience, clinical practice, and contemplative studies. It is hoped that this integrative effort will advance our understanding of how interoception determines well-being, ",
+    "date": "2015",
+    "url": "https://doi.org/10.3389/fpsyg.2015.00763",
+    "authors": [
+      "Norman A. S. Farb",
+      "Jennifer Daubenmier",
+      "Cynthia Price"
+    ]
+  },
+  {
+    "source": "OpenAlex (BMC Neuroscience)",
+    "title": "Mapping perception to action in piano practice: a longitudinal DC-EEG study",
+    "abstract": "We conclude that musical training triggers instant plasticity in the cortex, and that right-hemispheric anterior areas provide an audio-motor interface for the mental representation of the keyboard.",
+    "date": "2003",
+    "url": "https://doi.org/10.1186/1471-2202-4-26",
+    "authors": [
+      "Marc Bangert",
+      "Eckart Altenm\u00fcller"
+    ]
+  },
+  {
+    "source": "OpenAlex (Biomolecules)",
+    "title": "Understanding Emotions: Origins and Roles of the Amygdala",
+    "abstract": "Emotions arise from activations of specialized neuronal populations in several parts of the cerebral cortex, notably the anterior cingulate, insula, ventromedial prefrontal, and subcortical structures, such as the amygdala, ventral striatum, putamen, caudate nucleus, and ventral tegmental area. Feelings are conscious, emotional experiences of these activations that contribute to neuronal networks mediating thoughts, language, and behavior, thus enhancing the ability to predict, learn, and reappraise stimuli and situations in the environment based on previous experiences. Contemporary theories ",
+    "date": "2021",
+    "url": "https://doi.org/10.3390/biom11060823",
+    "authors": [
+      "Goran \u0160imi\u0107",
+      "Mladenka Tkal\u010di\u0107",
+      "Vana Vuki\u0107"
+    ]
+  },
+  {
+    "source": "OpenAlex (European Child & Adolescent Psychiatry)",
+    "title": "Functional brain imaging across development",
+    "abstract": "The developmental cognitive neuroscience literature has grown exponentially over the last decade. This paper reviews the functional magnetic resonance imaging (fMRI) literature on brain function development of typically late developing functions of cognitive and motivation control, timing and attention as well as of resting state neural networks. Evidence shows that between childhood and adulthood, concomitant with cognitive maturation, there is progressively increased functional activation in task-relevant lateral and medial frontal, striatal and parieto-temporal brain regions that mediate th",
+    "date": "2012",
+    "url": "https://doi.org/10.1007/s00787-012-0291-8",
+    "authors": [
+      "Katya Rubia"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Communications Surveys & Tutorials)",
+    "title": "Understanding O-RAN: Architecture, Interfaces, Algorithms, Security, and Research Challenges",
+    "abstract": "The Open Radio Access Network (RAN) and its embodiment through the O-RAN Alliance specifications are poised to revolutionize the telecom ecosystem. O-RAN promotes virtualized RANs where disaggregated components are connected via open interfaces and optimized by intelligent controllers. The result is a new paradigm for the RAN design, deployment, and operations: O-RAN networks can be built with multivendor, interoperable components, and can be programmatically optimized through a centralized abstraction layer and datadriven closed-loop control. Therefore, understanding O-RAN, its architecture, ",
+    "date": "2023",
+    "url": "https://doi.org/10.1109/comst.2023.3239220",
+    "authors": [
+      "Michele Polese",
+      "Leonardo Bonati",
+      "Salvatore D\u2019Oro"
+    ]
+  },
+  {
+    "source": "OpenAlex (Neuron)",
+    "title": "A Task-Optimized Neural Network Replicates Human Auditory Behavior, Predicts Brain Responses, and Reveals a Cortical Processing Hierarchy",
+    "abstract": "",
+    "date": "2018",
+    "url": "https://doi.org/10.1016/j.neuron.2018.03.044",
+    "authors": [
+      "Alexander J.E. Kell",
+      "Daniel Yamins",
+      "Erica N. Shook"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Neural Circuits)",
+    "title": "Neuromodulatory Systems and Their Interactions: A Review of Models, Theories, and Experiments",
+    "abstract": "Neuromodulatory systems, including the noradrenergic, serotonergic, dopaminergic, and cholinergic systems, track environmental signals, such as risks, rewards, novelty, effort, and social cooperation. These systems provide a foundation for cognitive function in higher organisms; attention, emotion, goal-directed behavior, and decision-making derive from the interaction between the neuromodulatory systems and brain areas, such as the amygdala, frontal cortex, hippocampus, and sensory cortices. Given their strong influence on behavior and cognition, these systems also play a key role in disease ",
+    "date": "2017",
+    "url": "https://doi.org/10.3389/fncir.2017.00108",
+    "authors": [
+      "Michael C. Avery",
+      "Jeffrey L. Krichmar"
+    ]
+  },
+  {
+    "source": "OpenAlex (bioRxiv (Cold Spring Harbor Laboratory))",
+    "title": "FMRIPrep: a robust preprocessing pipeline for functional MRI",
+    "abstract": "Preprocessing of functional MRI (fMRI) involves numerous steps to clean and standardize data before statistical analysis. Generally, researchers create ad hoc preprocessing workflows for each new dataset, building upon a large inventory of tools available for each step. The complexity of these workflows has snowballed with rapid advances in MR data acquisition and image processing techniques. We introduce fMRIPrep , an analysis-agnostic tool that addresses the challenge of robust and reproducible preprocessing for task-based and resting fMRI data. FMRIPrep automatically adapts a best-in-breed ",
+    "date": "2018",
+    "url": "https://doi.org/10.1101/306951",
+    "authors": [
+      "Oscar Est\u00e9ban",
+      "Christopher J. Markiewicz",
+      "Ross Blair"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of NeuroEngineering and Rehabilitation)",
+    "title": "The role of virtual reality in improving motor performance as revealed by EEG: a randomized clinical trial",
+    "abstract": "Retrospectively registered in Clinical Trials on 21-11-2016, n. NCT02971371 .",
+    "date": "2017",
+    "url": "https://doi.org/10.1186/s12984-017-0268-4",
+    "authors": [
+      "Rocco Salvatore Calabr\u00f2",
+      "Antonino Naro",
+      "Margherita Russo"
+    ]
+  }
+]

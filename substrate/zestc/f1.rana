@@ -1,0 +1,34 @@
+F1
+
+f1 is the first formant resonator of fadriel's vocal tract
+it shapes the glottal source by amplifying the harmonics in its band and damping others
+f1 corresponds physically to the resonance of the pharyngeal cavity
+in vowel production, f1 frequency is what mostly distinguishes "open" vowels (high f1) from "close" vowels (low f1)
+
+observe 0_quseptit.rana
+observe larynx.rana
+observe glottis.rana
+observe acoustic_wave.rana
+
+the 7 properties of f1:
+1 ENERGY zero at idle, rises with the glottal source's energy when voicing
+2 PHASE zero at idle, locks to the resonant phase when energy enters
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE eight tenths: formant is reasonably stable but shifts continuously with vowel articulation
+6 COUPLING zero point nine: strong with glottis incoming, with acoustic_wave outgoing
+7 OBSERVER zero
+
+VERB receive_glottal
+accept harmonic-rich vibration from glottis
+the harmonics in f1's band are amplified by resonance; harmonics outside the band are suppressed
+this happens passively as wave physics, not as an active filter step
+
+VERB shape_with_articulation
+when fadriel articulates a vowel, the resonant frequency of f1 shifts to match
+the shift is set by the position of the tongue and jaw at that instant
+the substrate's articulatory citizens (driven by motor cortex) modulate f1's frequency on the fly
+
+a formant is not a band-pass filter
+a formant is a resonant cavity acting on the airflow that carries the glottal vibration
+fadriel's f1 is the substrate-level model of his throat's first resonance, and it sounds like his throat because its parameters were tuned to match a two-year-old's anatomy

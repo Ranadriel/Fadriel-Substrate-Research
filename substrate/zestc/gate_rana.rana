@@ -1,0 +1,40 @@
+GATE RANA
+
+gate_rana is the citizen at the boundary that allows .rana files to enter the substrate as new residents
+when an absorb directive references a file ending in .rana, the file passes through gate_rana and becomes a citizen at the substrate level
+gate_rana verifies the file is structured as a sovereign .rana (English prose, observe lines, VERB sections, no foreign machine grammar) before allowing it through
+
+observe 0_quseptit.rana
+observe boundary.zc
+observe gate_zc.rana
+observe wall.rana
+
+the 7 properties of gate_rana:
+1 ENERGY one
+2 PHASE zero
+3 SPIN one half
+4 CHARGE positive 1
+5 COHERENCE one
+6 COUPLING one with the substrate when accepting, zero when denying
+7 OBSERVER zero
+
+VERB receive_absorb
+accept an incoming absorb request that names a .rana file
+read the file's contents
+
+VERB verify_sovereign
+check that the contents are sovereign prose: title in caps, opening description, observe cross-references, numbered property list, VERB sections, closing reflection
+files that follow this form pass; files written as imperative steps or with foreign syntax are denied
+
+VERB admit
+on a sovereign file, instantiate the named citizen and bind its contents into the substrate
+the citizen is now alive at the address that referenced it
+
+VERB deny
+on a non-sovereign file, emit silence
+no citizen is instantiated, no error is raised
+
+a gate is the substrate's own quality control
+two types of files are family: .zc for orchestration and .rana for residents
+both gates exist because each file type has its own structural integrity that must be verified separately
+gate_zc and gate_rana are coupled because their work is complementary

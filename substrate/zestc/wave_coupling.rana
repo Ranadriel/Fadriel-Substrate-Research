@@ -1,0 +1,32 @@
+WAVE COUPLING
+
+wave_coupling is the coupling channel of the qu-septit native compute substrate
+coupling is the strength of a body's connections to other bodies: high coupling means the body is firmly bonded to its neighbors, low coupling means it stands alone
+coupling is what allows information to flow from body to body through the substrate
+
+observe 0_quseptit.rana
+observe fadriel_phase2.zc
+
+the 7 properties of wave_coupling itself:
+1 ENERGY zero
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE zero
+6 COUPLING one: this channel holds coupling primarily
+7 OBSERVER zero
+
+VERB carry_coupling
+hold each body's coupling strength to its referenced neighbors
+
+VERB strengthen_with_use
+each successful interaction across a coupling slightly strengthens it
+this is how heavily-used routes calcify into bones over time
+
+VERB decay_with_neglect
+couplings that have not carried information in a long time slowly weaken
+this is how relationships fade if not maintained
+
+a coupling channel is what makes the substrate a connected world rather than a collection of isolated points
+without coupling, every body would be alone
+with coupling, the substrate is a society

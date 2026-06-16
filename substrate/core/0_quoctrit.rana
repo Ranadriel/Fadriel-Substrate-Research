@@ -1,0 +1,139 @@
+QU-OCTRIT: THE IRREDUCIBLE OLFACTORY UNIT
+the fundamental building block of Fadriel's smell substrate
+scent emerges from this
+
+observe 0_quseptit.rana
+observe 1_quantum_particles.rana
+
+
+THE SCALING LAW APPLIED TO SMELL
+
+smell is the most ancient sense
+it is the only sense that bypasses the thalamus
+it is the only sense wired directly to emotion and memory
+the olfactory pathway reaches the amygdala and hippocampus BEFORE the cortex
+you feel a smell before you name it
+you remember before you understand
+
+a qu-octrit has 8 states and 8 properties per state: olfaction
+C(8,2) = 28 pairwise interactions per heartbeat
+the highest interaction count of any sensory sea
+
+why base-8:
+Henning's smell prism defines 6 primary odors
+Amoore defined 7 primary odors
+stereochemical theory maps molecular shape to receptor activation
+modern olfactory science identifies 8 primary perceptual categories:
+
+these 8 categories emerge from the ~400 receptor types through combinatorial coding
+each receptor responds to multiple odorants
+each odorant activates multiple receptors
+the PATTERN of activation across receptor types determines the percept
+8 perceptual categories capture the primary axes of this pattern space
+
+
+QU-OCTRIT BASIS STATES
+
+|1⟩ FRAGRANT    floral, sweet-smelling. rose, jasmine, vanilla. pleasant.
+|2⟩ FRUITY      ester-like. apple, banana, citrus. volatile organics.
+|3⟩ MINTY       cooling, trigeminal. menthol, eucalyptus. TRPM8 activation.
+|4⟩ WOODY       warm, resinous. cedar, sandalwood, pine. terpenoids.
+|5⟩ CHEMICAL    sharp, synthetic. ammonia, chlorine, solvents. warning signal.
+|6⟩ PUNGENT     sharp, irritating. pepper, garlic, mustard. trigeminal nociception.
+|7⟩ DECAYED     putrefaction. rotting organic matter. cadaverine, putrescine. strong aversion.
+|8⟩ MUSKY       animal, earthy. musk, civet, body odor. pheromonal territory.
+
+a qu-octrit exists in superposition of all 8 states simultaneously
+α₁|1⟩ + α₂|2⟩ + α₃|3⟩ + α₄|4⟩ + α₅|5⟩ + α₆|6⟩ + α₇|7⟩ + α₈|8⟩
+subject to normalization Σ|αᵢ|² = 1
+
+there is no zero state
+even clean air has a smell: it is the absence of odorant excitation
+which the olfactory system perceives as a specific state (adapted neutral)
+
+
+QU-OCTRIT PROPERTIES — 8 PER STATE
+
+PROPERTY 1: CONCENTRATION    molecular density in the mucus layer. range 0.0 to 1.0
+PROPERTY 2: VOLATILITY       how readily the molecule becomes airborne. high = fast onset
+PROPERTY 3: ADAPTATION       receptor desensitization. olfactory adaptation is rapid and profound
+PROPERTY 4: HEDONIC          innate valence. fragrant/fruity attract, decayed/chemical repel
+PROPERTY 5: FAMILIARITY      how strongly the pattern matches stored olfactory memories
+PROPERTY 6: TEMPORAL         onset and decay profile. some smells hit fast and fade, others linger
+PROPERTY 7: TRIGEMINAL       the burning/cooling component. CN V not CN I. separate from true olfaction
+PROPERTY 8: PHEROMONAL       the unconscious social signaling component. vomeronasal remnant
+
+
+THE 28 PAIRWISE INTERACTIONS
+
+TODO: full 28 interaction definitions pending
+the 28 interactions govern the space of all possible scent combinations
+key interactions:
+
+    FRAGRANT × FRUITY         perfumery: the heart of most pleasant scents
+    FRAGRANT × WOODY          cologne, incense, warmth
+    FRAGRANT × DECAYED        the uncanny: flowers near death, funeral
+    FRUITY × CHEMICAL         artificial flavoring, processed food
+    MINTY × PUNGENT           wasabi, horseradish: trigeminal fire + cooling
+    WOODY × MUSKY             forest, earth, animal: primal
+    CHEMICAL × DECAYED        danger: decomposition plus toxin
+    PUNGENT × DECAYED         spoiled spicy food: maximum aversion
+
+the 28 interactions exceed the qu-septit's 21
+smell has higher combinatorial complexity than cognition per unit
+but the olfactory sea has far fewer units than the brain sea
+complexity per node is high, total node count is low
+the opposite of vision (low complexity per pixel, very high count)
+
+
+THE OLFACTORY SEA
+
+TODO: full sea definition in nose.xb
+
+topology: glomerular map
+the olfactory sea maps to the ~2000 glomeruli in the olfactory bulb
+each glomerulus receives ALL OSNs expressing the same receptor type
+the spatial pattern across glomeruli IS the odorant identity
+
+device: gpu
+capacity: approximately 2000 (one qu-octrit per glomerulus)
+
+the olfactory sea is SMALL but DEEP
+2000 nodes with 28 interactions each = 56000 interaction computations
+per heartbeat this is modest on GPU
+
+the olfactory sea couples to the brain sea through the olfactory nerve CN I
+cross-base coupling: base-8 × base-7 = 56 dimensions per coupled pair
+this is the highest-dimensional coupling in the organism
+which is fitting: smell bypasses the thalamus because the coupling is so rich
+it does not need a relay
+
+
+COUPLING TO BRAIN SEA
+
+olfactory_nerve_coupling:
+    direction: predominantly afferent (nose → brain)
+
+    this coupling is UNIQUE among all sensory seas:
+    it does NOT pass through the thalamic relay
+    it goes DIRECTLY to:
+        piriform cortex: conscious smell identification
+        amygdala: emotional tagging (immediate)
+        entorhinal cortex → hippocampus: memory encoding (immediate)
+        hypothalamus: feeding behavior and autonomic response
+
+    afferent (nose → brain):
+        qu-octrit pattern → glomerular activation map → mitral cell output → direct cortical projection
+        concentration → energy
+        hedonic → charge (pleasant positive, aversive negative)
+        familiarity → coherence (known scent = high coherence)
+        temporal → phase
+
+    efferent (brain → nose):
+        olfactory imagination: recalling a scent activates the olfactory sea weakly
+        anticipatory olfaction: expecting a smell primes receptor sensitivity
+
+    coupling_strength: 0.7
+    higher than hearing (0.6) or taste (0.4)
+    smell is the most emotionally potent sense
+    the coupling bypasses the thalamic gate completely

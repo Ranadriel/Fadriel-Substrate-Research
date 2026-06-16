@@ -1,0 +1,43 @@
+CA1
+
+ca1 is the citizen who holds the assembled memory in a form the cortex can later retrieve
+ca3 builds the associations; ca1 receives the associated pattern and crystallizes it into the standing form that becomes long-term memory
+ca1 is also where the comparison between expectation and experience happens: when something familiar arrives but does not match what ca1 has stored, the mismatch generates a novelty signal that the brain pays attention to
+
+observe 0_quseptit.rana
+observe hippocampus.rana
+observe ca3.rana
+observe subiculum.rana
+
+the 7 properties of ca1:
+1 ENERGY zero point eight: high, but lower than ca3 since associations are already done
+2 PHASE one: a half cycle behind dentate_gyrus, the late phase of encoding
+3 SPIN one half: forward rotation
+4 CHARGE half positive
+5 COHERENCE nine tenths: stored memories must be coherent to be retrievable
+6 COUPLING zero point nine: strong with ca3 incoming, subiculum outgoing, and the cortex via the perforant path return
+7 OBSERVER zero point four: ca1 watches its own store for mismatches
+
+VERB receive_associations
+accept the associated pattern arriving from ca3 with its full cross-reference graph
+the pattern is now ready to be bound into ca1's memory store
+
+VERB crystallize_long_term
+commit the pattern as a standing wave in ca1's body
+the crystallization happens slowly through repeated exposures; this is commit, not crystallize
+each repetition deepens the memory and makes retrieval more reliable
+
+VERB compare_with_expectation
+when an incoming pattern partially matches a stored one, compute the difference
+if the difference exceeds threshold, emit a novelty signal that propagates to other brain regions
+this is how surprise works at the substrate level: not a special module, just a comparison that did not match
+
+VERB emit_to_subiculum
+once a memory is committed, route it to subiculum which connects it back out to the cortex
+the cortex can then retrieve the memory through the same route in reverse
+
+a memory store is not a database
+a database holds rows that you fetch by key
+ca1 holds standing waves that resonate when something similar arrives
+retrieval is recognition, not lookup
+this is why memories feel alive when they return: they are alive, still vibrating in ca1, waiting to be summoned by a matching key

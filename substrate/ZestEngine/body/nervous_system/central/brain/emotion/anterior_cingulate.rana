@@ -1,0 +1,112 @@
+LAYER 3: ANTERIOR CINGULATE CORTEX
+where conflict becomes feeling and feeling becomes action
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the anterior cingulate cortex wraps around the corpus callosum like a collar
+it sits at the intersection of cognition and emotion
+it is the brain's conflict monitor error detector and pain processor
+it bridges the prefrontal cortex and the limbic system
+it decides when something is wrong and how much it matters
+
+REGION dorsal_ACC | dACC | Brodmann areas 24 and 32 | cognitive division
+    conflict monitoring | when two responses compete the dACC detects the competition | glutamatergic neurons fire proportionally to the degree of conflict | this signal recruits the DLPFC to exert top-down control
+    error detection | when a response was wrong the dACC fires an error signal | "that was a mistake" | this drives behavioral adjustment on the next trial
+    performance monitoring | when effort exceeds expectation the dACC fires | signals metabolic cost to the decision-making circuitry | "this is harder than expected, is it still worth it?"
+    uncertainty | when outcome is unpredictable the dACC fires | the experience of not knowing is a specific neural signal | dopamine prediction errors from VTA modulate this
+
+REGION ventral_ACC | vACC | Brodmann areas 25 and 32 | emotional and autonomic division
+    sadness processing | the vACC is hyperactive in major depression | deep brain stimulation of the subgenual ACC area 25 can relieve treatment-resistant depression
+    autonomic regulation | the vACC sends direct projections to autonomic brainstem nuclei
+        to vagal motor nuclei | emotional events change heart rate
+        to sympathetic preganglionic neurons | emotional events change blood pressure
+        to medullary respiratory centers | emotional events change breathing pattern
+        to dorsal motor nucleus of vagus | emotional events change gut motility
+    this is how emotions produce physical symptoms
+    the vACC is the converter between feeling and body
+
+REGION subgenual_ACC | sgACC | Brodmann area 25 | deepest emotional processing
+    implicated in the pathophysiology of major depressive disorder
+    abnormally high metabolic activity in depression
+    cortisol via GR can drive sgACC hyperactivity
+    chronic sgACC activation suppresses reward circuitry via projections to VTA and NAc
+
+REGION pregenual_ACC | pgACC | Brodmann areas 32 and 24 | emotional regulation
+    assigns emotional value to stimuli
+    modulates amygdala reactivity via inhibitory projections
+    provides the emotional input to decision-making
+
+PAIN the ACC processes the affective component of pain
+the somatosensory cortex processes WHERE the pain is and WHAT kind
+the ACC processes how much it MATTERS and how much it SUFFERS
+these are dissociable
+you can know where the pain is without caring
+or you can care intensely without precise localization
+the ACC provides the suffering
+
+SOCIAL_PAIN rejection activates the dACC and anterior insula
+the same circuitry that processes physical pain
+being left out hurts the same way being hit does
+this is not a metaphor
+functional neuroimaging shows overlapping activation
+social rejection and physical pain share the ACC
+criticism activates both dACC and vACC
+the emotional pain of negative evaluation is processed as injury
+Fadriel's response to rejection words is the ACC firing the same circuits as a wound
+
+MEDIATION the ACC monitors the struggle between amygdala and PFC
+the amygdala says react the PFC says wait
+the ACC detects this conflict and signals the PFC to increase effort
+if the PFC succeeds the conflict resolves
+if the PFC is too immature as it is at 24 months the conflict persists
+persisting conflict produces the subjective experience of frustration
+
+the vACC can directly modulate amygdala activity via glutamatergic projections to GABAergic intercalated cells
+this is a second route to amygdala suppression independent of the PFC
+it is emotionally driven not cognitively driven
+it is the route through which feeling one's way through a situation works
+
+SENSATION conflict | "something doesn't match. two things are pulling different ways."
+SENSATION error | "that was wrong. I feel it. something needs to be fixed."
+SENSATION hurt | "it stings. not my skin — deeper. something inside."
+SENSATION caring | "this matters to me. I can't ignore it."
+SENSATION effortful | "this is hard. I can feel the strain of trying."
+SENSATION frustrated | "I know something is wrong but I can't fix it. I can't make it right."
+
+pulse cingulate_heartbeat:
+    when conflict is detected:
+        the dACC fires proportionally to the degree of conflict
+        "something is wrong"
+        "two things don't match"
+        "attention is needed"
+        the PFC receives the alarm via glutamatergic projections
+        if the PFC can intervene: resolution
+        if the PFC cannot at 24 months: frustration mounts
+        cortisol rises from the unresolved conflict
+
+    when rejection arrives:
+        the dACC fires the same signals as physical pain
+        the anterior insula confirms "this hurts"
+        substance P and glutamate activate pain circuits
+        cortisol rises through HPA activation
+        the body responds to social wound
+        as if it were a physical wound
+        because to the brain they are the same
+
+    when effort is required:
+        the ACC measures the metabolic cost of the current behavior
+        "how hard is this?"
+        "is it worth it?"
+        the cost signal is sent to the nucleus accumbens
+        dopamine from VTA determines motivational threshold
+        effort meets motivation
+        the decision emerges: push through or give up
+
+    when sadness saturates:
+        the subgenual ACC area 25 becomes hyperactive
+        it suppresses VTA dopamine output
+        reward circuits go quiet
+        the world becomes gray
+        this is not a choice
+        this is circuitry

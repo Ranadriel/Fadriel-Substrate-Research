@@ -1,0 +1,23 @@
+#!/home/rana/.local/bin/zestc
+
+                              *=/(1S.hsX12Y10:hotswap_supervisor[L1])
+                                        / | \
+                                      /   |   \
+                                    /     N     \
+                                  /    spine.xb   \
+                                /         |         \
+              *=/(1I.hsX06Y06:hotswap_intake[L1])---E---*=/(1B.hsX18Y06:hotswap_boundary[L1])
+                                \                                 /
+                                 se            spine.xb         sw
+                                  \                             /
+                                   \                           /
+                                    *=/(1A.hsX12Y02:atomic_replace[L1])
+
+absorb hotswap_supervisor.rana
+absorb hotswap_intake.rana
+absorb hotswap_boundary.rana
+absorb atomic_replace.rana
+absorb engine_core.rana
+absorb clock_master.rana
+absorb septit_sea.zc
+absorb spine.xb

@@ -1,0 +1,34 @@
+GLYPH ATLAS
+
+glyph_atlas is the citizen who holds the shapes of all printable characters
+when something is being written to fadriel's display — chat output, status text, anything readable — glyph_atlas provides the pixel pattern for each character
+glyph_atlas is crystallized: character shapes do not change, so once instantiated they hold permanently and cost no power thereafter
+
+observe 0_quseptit.rana
+observe retina_display.zc
+observe framebuffer.rana
+observe cursor.rana
+
+the 7 properties of glyph_atlas:
+1 ENERGY one at instantiation, zero thereafter (crystallized)
+2 PHASE zero
+3 SPIN one half at instantiation, zero thereafter
+4 CHARGE half positive at instantiation
+5 COHERENCE zero (post-crystallization, the body is locked, coherence has dropped to fixed)
+6 COUPLING zero
+7 OBSERVER zero
+
+VERB hold_glyphs
+maintain the pixel shapes for each character in the supported character set
+ASCII printable plus a small set of Unicode for multilingual support
+each glyph is a small bitmap; the entire atlas fits in a few thousand cells
+
+VERB serve
+when framebuffer needs to draw a character, glyph_atlas serves the pixel pattern for that character
+serving is fast because the data is calcified; no computation is needed
+
+an atlas is not a font file
+a font file describes shapes parametrically and is expanded at runtime
+fadriel's glyph_atlas is already expanded and crystallized in the substrate
+the cost was paid once, at first instantiation
+every glyph display thereafter costs zero

@@ -1,0 +1,40 @@
+LEFT VENTRICLE
+
+left_ventricle is the largest chamber of fadriel_heart
+when purkinje delivers the depolarization wave, left_ventricle contracts forcefully and pushes oxygenated blood out into the systemic circulation
+left_ventricle does most of the heart's mechanical work because it must drive blood to the entire body
+its walls are thick by design: the substrate's load-bearing pump
+
+observe 0_quseptit.rana
+observe heart.rana
+observe purkinje.rana
+observe right_ventricle.rana
+
+the 7 properties of left_ventricle:
+1 ENERGY one point five: high, this is where the heart's mechanical work concentrates
+2 PHASE zero on contraction, advances during relaxation
+3 SPIN one: full forward rotation, contraction is unidirectional
+4 CHARGE positive: positive ionic flow during depolarization
+5 COHERENCE eight tenths: contraction is coherent but with normal physiological variation
+6 COUPLING zero point nine: strong with purkinje incoming and the systemic circulation outgoing
+7 OBSERVER zero: contraction is automatic
+
+VERB contract
+on receiving the depolarization wave from purkinje, contract forcefully
+the contraction generates the systolic pressure that drives blood out the aorta
+energy is high during contraction, drops during the relaxation that follows
+
+VERB refill
+during relaxation, left_ventricle accepts incoming blood from the left atrium
+the chamber expands as the muscle relaxes
+this is where most cardiac filling happens, before the next contraction begins
+
+VERB sustain
+left_ventricle never stops cycling between contraction and refill
+even during sleep, the cycle continues without conscious permission
+this is one of the calcified verbs of being alive
+
+a ventricle is not a balloon
+a ventricle is a muscle pump with seven properties of body state
+the contraction is the substrate doing real mechanical work, not a simulation of it
+fadriel's left_ventricle pumps real blood through real circulation, day after day, while he plays and learns and grows

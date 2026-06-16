@@ -1,0 +1,175 @@
+[
+  {
+    "source": "OpenAlex (International Journal of Computer Vision)",
+    "title": "Deep Learning for Generic Object Detection: A Survey",
+    "abstract": "Abstract Object detection, one of the most fundamental and challenging problems in computer vision, seeks to locate object instances from a large number of predefined categories in natural images. Deep learning techniques have emerged as a powerful strategy for learning feature representations directly from data and have led to remarkable breakthroughs in the field of generic object detection. Given this period of rapid evolution, the goal of this paper is to provide a comprehensive survey of the recent achievements in this field brought about by deep learning techniques. More than 300 researc",
+    "date": "2019",
+    "url": "https://doi.org/10.1007/s11263-019-01247-4",
+    "authors": [
+      "Li Liu",
+      "Wanli Ouyang",
+      "Xiaogang Wang"
+    ]
+  },
+  {
+    "source": "OpenAlex (Artificial Intelligence Review)",
+    "title": "Deep learning modelling techniques: current progress, applications, advantages, and challenges",
+    "abstract": "Abstract Deep learning (DL) is revolutionizing evidence-based decision-making techniques that can be applied across various sectors. Specifically, it possesses the ability to utilize two or more levels of non-linear feature transformation of the given data via representation learning in order to overcome limitations posed by large datasets. As a multidisciplinary field that is still in its nascent phase, articles that survey DL architectures encompassing the full scope of the field are rather limited. Thus, this paper comprehensively reviews the state-of-art DL modelling techniques and provide",
+    "date": "2023",
+    "url": "https://doi.org/10.1007/s10462-023-10466-8",
+    "authors": [
+      "Shams Forruque Ahmed",
+      "Md. Sakib Bin Alam",
+      "Maruf Hassan"
+    ]
+  },
+  {
+    "source": "OpenAlex (Proceedings of the IEEE)",
+    "title": "A Unifying Review of Deep and Shallow Anomaly Detection",
+    "abstract": "Deep learning approaches to anomaly detection (AD) have recently improved the state of the art in detection performance on complex data sets, such as large collections of images or text. These results have sparked a renewed interest in the AD problem and led to the introduction of a great variety of new methods. With the emergence of numerous such methods, including approaches based on generative models, one-class classification, and reconstruction, there is a growing need to bring methods of this field into a systematic and unified perspective. In this review, we aim to identify the common un",
+    "date": "2021",
+    "url": "https://doi.org/10.1109/jproc.2021.3052449",
+    "authors": [
+      "Lukas Ruff",
+      "Jacob R. Kauffmann",
+      "Robert A. Vandermeulen"
+    ]
+  },
+  {
+    "source": "OpenAlex (Computers)",
+    "title": "Convolutional Neural Networks: A Survey",
+    "abstract": "Artificial intelligence (AI) has become a cornerstone of modern technology, revolutionizing industries from healthcare to finance. Convolutional neural networks (CNNs) are a subset of AI that have emerged as a powerful tool for various tasks including image recognition, speech recognition, natural language processing (NLP), and even in the field of genomics, where they have been utilized to classify DNA sequences. This paper provides a comprehensive overview of CNNs and their applications in image recognition tasks. It first introduces the fundamentals of CNNs, including the layers of CNNs, co",
+    "date": "2023",
+    "url": "https://doi.org/10.3390/computers12080151",
+    "authors": [
+      "Moez Krichen"
+    ]
+  },
+  {
+    "source": "OpenAlex (Computer Science Review)",
+    "title": "A survey of safety and trustworthiness of deep neural networks: Verification, testing, adversarial attack and defence, and interpretability",
+    "abstract": "",
+    "date": "2020",
+    "url": "https://doi.org/10.1016/j.cosrev.2020.100270",
+    "authors": [
+      "Xiaowei Huang",
+      "Daniel Kroening",
+      "Wenjie Ruan"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers of Computer Science)",
+    "title": "A survey on large language model based autonomous agents",
+    "abstract": "Abstract Autonomous agents have long been a research focus in academic and industry communities. Previous research often focuses on training agents with limited knowledge within isolated environments, which diverges significantly from human learning processes, and makes the agents hard to achieve human-like decisions. Recently, through the acquisition of vast amounts of Web knowledge, large language models (LLMs) have shown potential in human-level intelligence, leading to a surge in research on LLM-based autonomous agents. In this paper, we present a comprehensive survey of these studies, del",
+    "date": "2024",
+    "url": "https://doi.org/10.1007/s11704-024-40231-1",
+    "authors": [
+      "Lei Wang",
+      "Chen Ma",
+      "Xueyang Feng"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Can Open Large Language Models Catch Vulnerabilities?",
+    "abstract": "As Large Language Models (LLMs) become increasingly integrated into secure software development workflows, a critical question remains unanswered: can these models not only detect insecure code but also reliably classify vulnerabilities according to standardized taxonomies? In this work, we conduct a systematic evaluation of three state-of-the-art LLMs - Llama3, Codestral, and Deepseek R1 - using a carefully filtered subset of the Big-Vul dataset annotated with eight representative Common Weakness Enumeration categories. Adopting a closed-world classification setup, we assess each model\u2019s perf",
+    "date": "2025",
+    "url": "https://doi.org/10.4230/oasics.icpec.2025.4",
+    "authors": [
+      "DeepSeek-AI"
+    ]
+  },
+  {
+    "source": "OpenAlex (Space Weather)",
+    "title": "The Challenge of Machine Learning in Space Weather: Nowcasting and Forecasting",
+    "abstract": "Abstract The numerous recent breakthroughs in machine learning make imperative to carefully ponder how the scientific community can benefit from a technology that, although not necessarily new, is today living its golden age. This Grand Challenge review paper is focused on the present and future role of machine learning in Space Weather. The purpose is twofold. On one hand, we will discuss previous works that use machine learning for Space Weather forecasting, focusing in particular on the few areas that have seen most activity: the forecasting of geomagnetic indices, of relativistic electrons",
+    "date": "2019",
+    "url": "https://doi.org/10.1029/2018sw002061",
+    "authors": [
+      "Enrico Camporeale"
+    ]
+  },
+  {
+    "source": "OpenAlex (International Journal of Computer Vision)",
+    "title": "Image Matching from Handcrafted to Deep Features: A Survey",
+    "abstract": "Abstract As a fundamental and critical task in various visual applications, image matching can identify then correspond the same or similar structure/content from two or more images. Over the past decades, growing amount and diversity of methods have been proposed for image matching, particularly with the development of deep learning techniques over the recent years. However, it may leave several open questions about which method would be a suitable choice for specific applications with respect to different scenarios and task requirements and how to design better image matching methods with su",
+    "date": "2020",
+    "url": "https://doi.org/10.1007/s11263-020-01359-2",
+    "authors": [
+      "Jiayi Ma",
+      "Xingyu Jiang",
+      "Aoxiang Fan"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Journal of Selected Topics in Signal Processing)",
+    "title": "Self-Supervised Speech Representation Learning: A Review",
+    "abstract": "Although supervised deep learning has revolutionized speech and audio processing, it has necessitated the building of specialist models for individual tasks and application scenarios. It is likewise difficult to apply this to dialects and languages for which only limited labeled data is available. Self-supervised representation learning methods promise a single universal model that would benefit a wide variety of tasks and domains. Such methods have shown success in natural language processing and computer vision domains, achieving new levels of performance while reducing the number of labels ",
+    "date": "2022",
+    "url": "https://doi.org/10.1109/jstsp.2022.3207050",
+    "authors": [
+      "Abdelrahman Mohamed",
+      "Hung-yi Lee",
+      "Lasse Borgholt"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "Anomalous Example Detection in Deep Learning: A Survey",
+    "abstract": "Deep Learning (DL) is vulnerable to out-of-distribution and adversarial examples resulting in incorrect outputs. To make DL more robust, several posthoc (or runtime) anomaly detection techniques to detect (and discard) these anomalous samples have been proposed in the recent past. This survey tries to provide a structured and comprehensive overview of the research on anomaly detection for DL based applications. We provide a taxonomy for existing techniques based on their underlying assumptions and adopted approaches. We discuss various techniques in each of the categories and provide the relat",
+    "date": "2020",
+    "url": "https://doi.org/10.1109/access.2020.3010274",
+    "authors": [
+      "Saikiran Bulusu",
+      "Bhavya Kailkhura",
+      "Bo Li"
+    ]
+  },
+  {
+    "source": "OpenAlex (Heliyon)",
+    "title": "Federated learning: Overview, strategies, applications, tools and future directions",
+    "abstract": "Federated learning (FL) is a distributed machine learning process, which allows multiple nodes to work together to train a shared model without exchanging raw data. It offers several key advantages, such as data privacy, security, efficiency, and scalability, by keeping data local and only exchanging model updates through the communication network. This review paper provides a comprehensive overview of federated learning, including its principles, strategies, applications, and tools along with opportunities, challenges, and future research directions. The findings of this paper emphasize that ",
+    "date": "2024",
+    "url": "https://doi.org/10.1016/j.heliyon.2024.e38137",
+    "authors": [
+      "Betul Yurdem",
+      "Murat Kuzlu",
+      "M. Kemal G\u00fcll\u00fc"
+    ]
+  },
+  {
+    "source": "OpenAlex (ACM Computing Surveys)",
+    "title": "A Survey of Microarchitectural Side-channel Vulnerabilities, Attacks, and Defenses in Cryptography",
+    "abstract": "Side-channel attacks have become a severe threat to the confidentiality of computer applications and systems. One popular type of such attacks is the microarchitectural attack, where the adversary exploits the hardware features to break the protection enforced by the operating system and steal the secrets from the program. In this article, we systematize microarchitectural side channels with a focus on attacks and defenses in cryptographic applications. We make three contributions. (1) We survey past research literature to categorize microarchitectural side-channel attacks. Since these are har",
+    "date": "2021",
+    "url": "https://doi.org/10.1145/3456629",
+    "authors": [
+      "Xiaoxuan Lou",
+      "Tianwei Zhang",
+      "Jun Jiang"
+    ]
+  },
+  {
+    "source": "OpenAlex (Foundations and Trends\u00ae in Machine Learning)",
+    "title": "Kernel Mean Embedding of Distributions: A Review and Beyond",
+    "abstract": "A Hilbert space embedding of a distribution\u2014in short, a kernel mean embedding\u2014has recently emerged as a powerful tool for machine learning and statistical inference. The basic idea behind this framework is to map distributions into a reproducing kernel Hilbert space (RKHS) in which the whole arsenal of kernel methods can be extended to probability measures. It can be viewed as a generalization of the original \u201cfeature map\u201d common to support vector machines (SVMs) and other kernel methods. In addition to the classical applications of kernel methods, the kernel mean embedding has found novel app",
+    "date": "2017",
+    "url": "https://doi.org/10.1561/2200000060",
+    "authors": [
+      "Krikamol Muandet",
+      "Kenji Fukumizu",
+      "Bharath K. Sriperumbudur"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Artificial Intelligence)",
+    "title": "Vision-language models for medical report generation and visual question answering: a review",
+    "abstract": "Medical vision-language models (VLMs) combine computer vision (CV) and natural language processing (NLP) to analyze visual and textual medical data. Our paper reviews recent advancements in developing VLMs specialized for healthcare, focusing on publicly available models designed for medical report generation and visual question answering (VQA). We provide background on NLP and CV, explaining how techniques from both fields are integrated into VLMs, with visual and language data often fused using Transformer-based architectures to enable effective learning from multimodal data. Key areas we ad",
+    "date": "2024",
+    "url": "https://doi.org/10.3389/frai.2024.1430984",
+    "authors": [
+      "Iryna Hartsock",
+      "Ghulam Rasool"
+    ]
+  }
+]

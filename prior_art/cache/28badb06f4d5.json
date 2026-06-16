@@ -1,0 +1,174 @@
+[
+  {
+    "source": "arXiv",
+    "title": "High-Level ETL for Semantic Data Warehouses -- Full Version",
+    "abstract": "The popularity of the Semantic Web (SW) encourages organizations to organize and publish semantic data using the RDF model. This growth poses new requirements to Business Intelligence (BI) technologies to enable On-Line Analytical Processing (OLAP)-like analysis over semantic data. The incorporation of semantic data into a Data Warehouse (DW) is not supported by the traditional Extract-Transform-Load (ETL) tools because they do not consider semantic issues in the integration process. In this paper, we propose a layer-based integration process and a set of high-level RDF-based ETL constructs re",
+    "date": "2020-06-12",
+    "url": "http://arxiv.org/abs/2006.07180v1",
+    "authors": [
+      "Rudra Pratap Deb Nath",
+      "Oscar Romero",
+      "Torben Bach Pedersen"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Direct Numerical Simulation of the Moist Stably Stratified Surface Layer: Turbulence and Fog Formation",
+    "abstract": "We investigate the effects of condensation and liquid water loading on the stably stratified surface layer, with an eye towards understanding the influence of turbulent mixing on fog formation. Direct numerical simulations (DNS) of dry and moist open channel flows are conducted, where in both a constant cooling rate is applied at the ground to mimic longwave radiative cooling. Depending on the cooling rate, it can lead to either turbulent (weakly stable) or laminar (very stable) flows. Compared to the completely dry case, the condensation of liquid water in the moist case enables slightly high",
+    "date": "2020-12-08",
+    "url": "http://arxiv.org/abs/2012.04128v1",
+    "authors": [
+      "Michael MacDonald",
+      "Marcin J. Kurowski",
+      "Jo\u00e3o Teixeira"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Template-Based Financial Report Generation in Agentic and Decomposed Information Retrieval",
+    "abstract": "Tailoring structured financial reports from companies' earnings releases is crucial for understanding financial performance and has been widely adopted in real-world analytics. However, existing summarization methods often generate broad, high-level summaries, which may lack the precision and detail required for financial reports that typically focus on specific, structured sections. While Large Language Models (LLMs) hold promise, generating reports adhering to predefined multi-section templates remains challenging. This paper investigates two LLM-based approaches popular in industry for gene",
+    "date": "2025-04-19",
+    "url": "http://arxiv.org/abs/2504.14233v1",
+    "authors": [
+      "Yong-En Tian",
+      "Yu-Chien Tang",
+      "Kuang-Da Wang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Semantic Jira - Semantic Expert Finder in the Bug Tracking Tool Jira",
+    "abstract": "The semantic expert recommender extension for the Jira bug tracking system semantically searches for similar tickets in Jira and recommends experts and links to existing organizational (Wiki) knowledge for each ticket. This helps to avoid redundant work and supports the search and collaboration with experts in the project management and maintenance phase based on semantically enriched tickets in Jira.",
+    "date": "2013-12-18",
+    "url": "http://arxiv.org/abs/1312.5150v1",
+    "authors": [
+      "Velten Heyn",
+      "Adrian Paschke"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Online local pool generation for dynamic classifier selection: an extended version",
+    "abstract": "Dynamic Classifier Selection (DCS) techniques have difficulty in selecting the most competent classifier in a pool, even when its presence is assured. Since the DCS techniques rely only on local data to estimate a classifier's competence, the manner in which the pool is generated could affect the choice of the best classifier for a given sample. That is, the global perspective in which pools are generated may not help the DCS techniques in selecting a competent classifier for samples that are likely to be mislabelled. Thus, we propose in this work an online pool generation method that produces",
+    "date": "2018-09-05",
+    "url": "http://arxiv.org/abs/1809.01628v1",
+    "authors": [
+      "Mariana A. Souza",
+      "George D. C. Cavalcanti",
+      "Rafael M. O. Cruz"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "AceWiki: A Natural and Expressive Semantic Wiki",
+    "abstract": "We present AceWiki, a prototype of a new kind of semantic wiki using the controlled natural language Attempto Controlled English (ACE) for representing its content. ACE is a subset of English with a restricted grammar and a formal semantics. The use of ACE has two important advantages over existing semantic wikis. First, we can improve the usability and achieve a shallow learning curve. Second, ACE is more expressive than the formal languages of existing semantic wikis. Our evaluation shows that people who are not familiar with the formal foundations of the Semantic Web are able to deal with A",
+    "date": "2008-07-29",
+    "url": "http://arxiv.org/abs/0807.4618v1",
+    "authors": [
+      "Tobias Kuhn"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A New Iron Emission Template for Active Galactic Nuclei. I. Optical Template for the H$\u03b2$ region",
+    "abstract": "We present a new empirical template for iron emission in active galactic nuclei (AGN) covering the $4000-5600$ A range. The new template is based on a spectrum of the narrow-line Seyfert 1 galaxy Mrk 493 obtained with the Hubble Space Telescope. In comparison with the canonical iron template object I Zw 1, Mrk 493 has narrower broad-line widths, lower reddening, and a less extreme Eddington ratio, making it a superior choice for template construction. We carried out a multicomponent spectral decomposition to produce a template incorporating all permitted and forbidden lines of Fe II identified",
+    "date": "2021-11-30",
+    "url": "http://arxiv.org/abs/2111.15118v2",
+    "authors": [
+      "Daeseong Park",
+      "Aaron J. Barth",
+      "Luis C. Ho"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Semantic Web Technology for Agent Communication Protocols",
+    "abstract": "One relevant aspect in the development of the Semantic Web framework is the achievement of a real inter-agents communication capability at the semantic level. The agents should be able to communicate and understand each other using standard communication protocols freely, that is, without needing a laborious a priori preparation, before the communication takes place. For that setting we present in this paper a proposal that promotes to describe standard communication protocols using Semantic Web technology (specifically, OWL-DL and SWRL). Those protocols are constituted by communication acts. ",
+    "date": "2024-01-22",
+    "url": "http://arxiv.org/abs/2401.11841v1",
+    "authors": [
+      "Idoia Berges",
+      "Jes\u00fas Berm\u00fadez",
+      "Alfredo Go\u00f1i"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Minimum Constraint Removal Problem for Line Segments is NP-hard",
+    "abstract": "In the minimum constraint removal ($MCR$), there is no feasible path to move from the starting point towards the goal and, the minimum constraints should be removed in order to find a collision-free path. It has been proved that $MCR$ problem is $NP-hard$ when constraints have arbitrary shapes or even they are in shape of convex polygons. However, it has a simple linear solution when constraints are lines and the problem is open for other cases yet. In this paper, using a reduction from Subset Sum problem, in three steps, we show that the problem is NP-hard for both weighted and unweighted lin",
+    "date": "2021-07-07",
+    "url": "http://arxiv.org/abs/2107.03140v1",
+    "authors": [
+      "Bahram Sadeghi Bigham"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Efficient Implementation of the Global Cardinality Constraint with Costs",
+    "abstract": "The success of Constraint Programming relies partly on the global constraints and implementation of the associated filtering algorithms. Recently, new ideas emerged to improve these implementations in practice, especially regarding the all different constraint. In this paper, we consider the cardinality constraint with costs. The cardinality constraint is a generalization of the all different constraint that specifies the number of times each value must be taken by a given set of variables in a solution. The version with costs introduces an assignment cost and bounds the total sum of assignmen",
+    "date": "2025-02-04",
+    "url": "http://arxiv.org/abs/2502.02688v1",
+    "authors": [
+      "Margaux Schmied",
+      "Jean-Charles Regin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Semantic integration process of business components to support information system designers",
+    "abstract": "The present work is inscribed within the intersection of two scientific thematic: the engineering by reuse of components and ontologies alignment. The integration of Business Components (BC) is a research problem that has been identified in the field of engineering by reuse. Our proposal aims to provide assistance to designers of information systems in the integration phase. It is a process guided by domain ontology to provide semantic integration of BC. This process allows the detection and resolution of semantic conflicts naming type encountered in the process of integration of BC.",
+    "date": "2013-02-06",
+    "url": "http://arxiv.org/abs/1302.1393v1",
+    "authors": [
+      "Hicham Elasri",
+      "Abderrahim Sekkaki"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Templates for Fitting Photometry of Ultra-High-Redshift Galaxies",
+    "abstract": "Recent data from the James Webb Space Telescope allow a first glimpse of galaxies at $z \\gtrsim 11$. The most successful tool for identifying ultra-high-redshift candidates and inferring their properties is photometric template fitting. However, current methods rely on templates derived from much lower-redshift conditions, including stellar populations older than the age of the Universe at $z > 12$, a stellar initial mass function which is physically disallowed at $z > 6$, and weaker emission lines than currently observed at $z > 7.5$. Here, two sets of synthetic templates, optimized for the e",
+    "date": "2022-08-16",
+    "url": "http://arxiv.org/abs/2208.07879v2",
+    "authors": [
+      "Charles L. Steinhardt",
+      "Vasily Kokorev",
+      "Vadim Rusakov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "TemplateTagger v1.0.0: A Template Matching Tool for Jet Substructure",
+    "abstract": "TemplateTagger is a C++ package for jet substructure analysis with Template Overlap Method. The code operates with arbitrary models within fixed-order perturbation theory and arbitrary kinematics. Specialized template generation classes allow the user to implement any model for a decay of a boosted heavy object. In addition to template overlap, the code provides ability to calculate other template shape and energy flow observables. We describe in detail the structure of the package, as well as provide examples of its usage.",
+    "date": "2012-12-12",
+    "url": "http://arxiv.org/abs/1212.2978v2",
+    "authors": [
+      "Mihailo Backovi\u0107",
+      "Jose Juknevich"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Combining Constraint Programming Reasoning with Large Language Model Predictions",
+    "abstract": "Constraint Programming (CP) and Machine Learning (ML) face challenges in text generation due to CP's struggle with implementing \"meaning'' and ML's difficulty with structural constraints. This paper proposes a solution by combining both approaches and embedding a Large Language Model (LLM) in CP. The LLM handles word generation and meaning, while CP manages structural constraints. This approach builds on GenCP, an improved version of On-the-fly Constraint Programming Search (OTFS) using LLM-generated domains. Compared to Beam Search (BS), a standard NLP method, this combined approach (GenCP wi",
+    "date": "2024-07-18",
+    "url": "http://arxiv.org/abs/2407.13490v1",
+    "authors": [
+      "Florian R\u00e9gin",
+      "Elisabetta De Maria",
+      "Alexandre Bonlarron"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Constraint-based Local Move Definitions for Lattice Protein Models Including Side Chains",
+    "abstract": "The simulation of a protein's folding process is often done via stochastic local search, which requires a procedure to apply structural changes onto a given conformation. Here, we introduce a constraint-based approach to enumerate lattice protein structures according to k-local moves in arbitrary lattices. Our declarative description is much more flexible for extensions than standard operational formulations. It enables a generic calculation of k-local neighbors in backbone-only and side chain models. We exemplify the procedure using a simple hierarchical folding scheme.",
+    "date": "2009-10-20",
+    "url": "http://arxiv.org/abs/0910.3880v1",
+    "authors": [
+      "Martin Mann",
+      "Mohamed Abou Hamra",
+      "Kathleen Steinh\u00f6fel"
+    ]
+  }
+]

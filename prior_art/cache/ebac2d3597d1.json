@@ -1,0 +1,167 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Regular Operators on Hilbert C^*-modules",
+    "abstract": "A regular operator T on a Hilbert C^*-module is defined just like a closed operator on a Hilbert space, with the extra condition that the range of (I+T^*T) is dense. Semiregular operators are a slightly larger class of operators that may not have this property. It is shown that, like in the case of regular operators, one can, without any loss in generality, restrict oneself to semiregular operators on C^*-algebras. We then prove that for abelian C^*-algebras as well as for subalgebras of the algebra of compact operators, any closed semiregular operator is automatically regular. We also determi",
+    "date": "1999-06-25",
+    "url": "http://arxiv.org/abs/math/9906169v1",
+    "authors": [
+      "Arupkumar Pal"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Quantum Architecture Search with Unsupervised Representation Learning",
+    "abstract": "Unsupervised representation learning presents new opportunities for advancing Quantum Architecture Search (QAS) on Noisy Intermediate-Scale Quantum (NISQ) devices. QAS is designed to optimize quantum circuits for Variational Quantum Algorithms (VQAs). Most QAS algorithms tightly couple the search space and search algorithm, typically requiring the evaluation of numerous quantum circuits, resulting in high computational costs and limiting scalability to larger quantum circuits. Predictor-based QAS algorithms mitigate this issue by estimating circuit performance based on structure or embedding. ",
+    "date": "2024-01-21",
+    "url": "http://arxiv.org/abs/2401.11576v6",
+    "authors": [
+      "Yize Sun",
+      "Zixin Wu",
+      "Volker Tresp"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "WEBCA: Weakly-Electric-Fish Bioinspired Cognitive Architecture",
+    "abstract": "Neuroethology has been an active field of study for more than a century now. Out of some of the most interesting species that has been studied so far, weakly electric fish is a fascinating one. It performs communication, echo-location and inter-species detection efficiently with an interesting configuration of sensors, neu-rons and a simple brain. In this paper we propose a cognitive architecture inspired by the way these fishes handle and process information. We believe that it is eas-ier to understand and mimic the neural architectures of a simpler species than that of human. Hence, the prop",
+    "date": "2018-06-29",
+    "url": "http://arxiv.org/abs/1806.11401v1",
+    "authors": [
+      "Amit Kumar Mishra"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "LSQCA: Resource-Efficient Load/Store Architecture for Limited-Scale Fault-Tolerant Quantum Computing",
+    "abstract": "Current fault-tolerant quantum computer (FTQC) architectures utilize several encoding techniques to enable reliable logical operations with restricted qubit connectivity. However, such logical operations demand additional memory overhead to ensure fault tolerance. Since the main obstacle to practical quantum computing is the limited qubit count, our primary mission is to design floorplans that can reduce memory overhead without compromising computational capability. Despite extensive efforts to explore FTQC architectures, even the current state-of-the-art floorplan strategy devotes 50% of memo",
+    "date": "2024-12-29",
+    "url": "http://arxiv.org/abs/2412.20486v2",
+    "authors": [
+      "Takumi Kobori",
+      "Yasunari Suzuki",
+      "Yosuke Ueno"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "An Initial Description of Capabilities and Constraints for a Computational Auditory System (an Artificial Ear) for Cognitive Architectures",
+    "abstract": "We present an initial set of factors, features, and constraints for developing a Computational Auditory System (CAS, aka less formally an artificial ear, AE) for use by cognitive architectures. We start to define a CAS and what tasks it should be able to perform. We then outline the features of a CAS for use by a cognitive architecture and factors that influence its performance. We conclude with an update on what has been created so far and insights on how to create and use a CAS in a cognitive architecture and include a set of functionalities for an artificial ear.",
+    "date": "2022-02-10",
+    "url": "http://arxiv.org/abs/2202.05332v1",
+    "authors": [
+      "Frank E. Ritter",
+      "Mathieu Brener"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Beyond the Einstein-Bohr Debate: Cognitive Complementarity and the Emergence of Quantum Intuition",
+    "abstract": "Recent high-precision experimental confirmations of quantum complementarity have revitalized foundational debates about measurement, description, and realism. This article argues that complementarity is most productively interpreted as an epistemic principle--constraining what can be simultaneously accessed and represented--rather than as an ontological claim about quantum reality. Reexamining the Einstein-Bohr debate through this lens reveals a persistent tension between descriptive completeness and contextual meaning, a tension experiments clarify but do not dissolve. Building on this analys",
+    "date": "2026-01-15",
+    "url": "http://arxiv.org/abs/2601.15314v1",
+    "authors": [
+      "Lalit Kumar Shukla"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "DAC-h3: A Proactive Robot Cognitive Architecture to Acquire and Express Knowledge About the World and the Self",
+    "abstract": "This paper introduces a cognitive architecture for a humanoid robot to engage in a proactive, mixed-initiative exploration and manipulation of its environment, where the initiative can originate from both the human and the robot. The framework, based on a biologically-grounded theory of the brain and mind, integrates a reactive interaction engine, a number of state-of-the-art perceptual and motor learning algorithms, as well as planning abilities and an autobiographical memory. The architecture as a whole drives the robot behavior to solve the symbol grounding problem, acquire language capabil",
+    "date": "2017-06-12",
+    "url": "http://arxiv.org/abs/1706.03661v2",
+    "authors": [
+      "Cl\u00e9ment Moulin-Frier",
+      "Tobias Fischer",
+      "Maxime Petit"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Architectural Implications of Graph Neural Networks",
+    "abstract": "Graph neural networks (GNN) represent an emerging line of deep learning models that operate on graph structures. It is becoming more and more popular due to its high accuracy achieved in many graph-related tasks. However, GNN is not as well understood in the system and architecture community as its counterparts such as multi-layer perceptrons and convolutional neural networks. This work tries to introduce the GNN to our community. In contrast to prior work that only presents characterizations of GCNs, our work covers a large portion of the varieties for GNN workloads based on a general GNN des",
+    "date": "2020-09-02",
+    "url": "http://arxiv.org/abs/2009.00804v2",
+    "authors": [
+      "Zhihui Zhang",
+      "Jingwen Leng",
+      "Lingxiao Ma"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cognition and Emotion: Perspectives of a Closing Gap",
+    "abstract": "The primary tasks of a cognitive system is to survive and to maximize a life-long utility function, like the number of offsprings. A direct computational maximization of life-long utility is however not possible in complex environments, especially in the context, of real-world time constraints. The central role of emotions is to serve as an intermediate layer in the space of policies available to agents and animals, leading to a large dimensional reduction of complexity.   We review our current understanding of the functional role of emotions, stressing the role of the neuromodulators mediatin",
+    "date": "2010-02-16",
+    "url": "http://arxiv.org/abs/1002.3035v1",
+    "authors": [
+      "Claudius Gros"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Using a cognitive architecture to consider antiBlackness in design and development of AI systems",
+    "abstract": "How might we use cognitive modeling to consider the ways in which antiblackness, and racism more broadly, impact the design and development of AI systems? We provide a discussion and an example towards an answer to this question. We use the ACT-R/\u03a6 cognitive architecture and an existing knowledge graph system, ConceptNet, to consider this question not only from a cognitive and sociocultural perspective, but also from a physiological perspective. In addition to using a cognitive modeling as a means to explore how antiblackness may manifest in the design and development of AI systems (particular",
+    "date": "2022-07-01",
+    "url": "http://arxiv.org/abs/2207.00644v3",
+    "authors": [
+      "Christopher L. Dancy"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Dalorex: A Data-Local Program Execution and Architecture for Memory-bound Applications",
+    "abstract": "Applications with low data reuse and frequent irregular memory accesses, such as graph or sparse linear algebra workloads, fail to scale well due to memory bottlenecks and poor core utilization. While prior work with prefetching, decoupling, or pipelining can mitigate memory latency and improve core utilization, memory bottlenecks persist due to limited off-chip bandwidth. Approaches doing processing in-memory (PIM) with Hybrid Memory Cube (HMC) overcome bandwidth limitations but fail to achieve high core utilization due to poor task scheduling and synchronization overheads. Moreover, the high",
+    "date": "2022-07-26",
+    "url": "http://arxiv.org/abs/2207.13219v4",
+    "authors": [
+      "Marcelo Orenes-Vera",
+      "Esin Tureci",
+      "David Wentzlaff"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Tianyan: Cloud services with quantum advantage",
+    "abstract": "Tianyan Quantum Cloud Platform offers cloud services demonstrating quantum advantage capabilities with a Zuchongzhi 3.0-like superconducting quantum processor. This cloud-accessible superconducting quantum prototype, named Tianyan-287, features 105 qubits and achieves high operational fidelities, with single-qubit gates, two-qubit gates, and readout fidelity at 99.90%, 99.56%, 98.7%, respectively. For a specific benchmark task involving random circuit sampling on a 74-qubit system over 24 cycles, the platform completes one million samples in just 18.4 minutes. In contrast, state-of-the-art cla",
+    "date": "2025-12-11",
+    "url": "http://arxiv.org/abs/2512.10504v2",
+    "authors": [
+      " Tianyan Quantum Group"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Stabilizer Formalism for Operator Algebra Quantum Error Correction",
+    "abstract": "We introduce a stabilizer formalism for the general quantum error correction framework called operator algebra quantum error correction (OAQEC), which generalizes Gottesman's formulation for traditional quantum error correcting codes (QEC) and Poulin's for operator quantum error correction and subsystem codes (OQEC). The construction generates hybrid classical-quantum stabilizer codes and we formulate a theorem that fully characterizes the Pauli errors that are correctable for a given code, generalizing the fundamental theorems for the QEC and OQEC stabilizer formalisms. We discover hybrid ver",
+    "date": "2023-04-22",
+    "url": "http://arxiv.org/abs/2304.11442v2",
+    "authors": [
+      "Guillaume Dauphinais",
+      "David W. Kribs",
+      "Michael Vasmer"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cognitive computation with autonomously active neural networks: an emerging field",
+    "abstract": "The human brain is autonomously active. To understand the functional role of this self-sustained neural activity, and its interplay with the sensory data input stream, is an important question in cognitive system research and we review here the present state of theoretical modelling.   This review will start with a brief overview of the experimental efforts, together with a discussion of transient vs. self-sustained neural activity in the framework of reservoir computing. The main emphasis will be then on two paradigmal neural network architectures showing continuously ongoing transient-state ",
+    "date": "2009-01-20",
+    "url": "http://arxiv.org/abs/0901.3028v1",
+    "authors": [
+      "Claudius Gros"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "What is Cognitive Computing? An Architecture and State of The Art",
+    "abstract": "Cognitive Computing (COC) aims to build highly cognitive machines with low computational resources that respond in real-time. However, scholarly literature shows varying research areas and various interpretations of COC. This calls for a cohesive architecture that delineates the nature of COC. We argue that if Herbert Simon considered the design science is the science of artificial, cognitive systems are the products of cognitive science or 'the newest science of the artificial'. Therefore, building a conceptual basis for COC is an essential step into prospective cognitive computing-based syst",
+    "date": "2023-01-02",
+    "url": "http://arxiv.org/abs/2301.00882v2",
+    "authors": [
+      "Samaa Elnagar",
+      "Manoj A. Thomas",
+      "Kweku-Muata Osei-Bryson"
+    ]
+  }
+]

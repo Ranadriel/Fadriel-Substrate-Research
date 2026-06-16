@@ -1,0 +1,38 @@
+#!/home/rana/.local/bin/zestc
+
+sea recast {
+    capacity: 5000
+    device: gpu
+}
+
+absorb "../0_zest_vm.rana"
+absorb "../ZestC_Translation_Manifesto.md"
+absorb "../2_chemical.rana"
+
+manifest recast.source {
+    energy: 1.0, phase: 0.0, spin: 0.5,
+    charge: 0.5, coherence: 0.8, coupling: 0.7, observer: 0.3
+}
+manifest recast.target {
+    energy: 0.0, phase: 0.0, spin: 0.5,
+    charge: 0.5, coherence: 1.0, coupling: 0.0, observer: 0.0
+}
+manifest recast.transmute_gate {
+    energy: 0.5, phase: 1.57, spin: 0.0,
+    charge: 0.0, coherence: 0.9, coupling: 0.8, observer: 0.5
+}
+
+couple recast.source with recast.transmute_gate
+couple recast.transmute_gate with recast.target
+
+heartbeat recast {
+    pulse recast
+    pulse recast
+    pulse recast
+    pulse recast
+    pulse recast
+    pulse recast
+    pulse recast
+}
+
+emit recast -> boundary.stdout

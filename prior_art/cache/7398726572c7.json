@@ -1,0 +1,180 @@
+[
+  {
+    "source": "OpenAlex (Nature)",
+    "title": "Large language models encode clinical knowledge",
+    "abstract": "Abstract Large language models (LLMs) have demonstrated impressive capabilities, but the bar for clinical applications is high. Attempts to assess the clinical knowledge of models typically rely on automated evaluations based on limited benchmarks. Here, to address these limitations, we present MultiMedQA, a benchmark combining six existing medical question answering datasets spanning professional medicine, research and consumer queries and a new dataset of medical questions searched online, HealthSearchQA. We propose a human evaluation framework for model answers along multiple axes including",
+    "date": "2023",
+    "url": "https://doi.org/10.1038/s41586-023-06291-2",
+    "authors": [
+      "Karan Singhal",
+      "Shekoofeh Azizi",
+      "Tao Tu"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers of Computer Science)",
+    "title": "A survey on large language model based autonomous agents",
+    "abstract": "Abstract Autonomous agents have long been a research focus in academic and industry communities. Previous research often focuses on training agents with limited knowledge within isolated environments, which diverges significantly from human learning processes, and makes the agents hard to achieve human-like decisions. Recently, through the acquisition of vast amounts of Web knowledge, large language models (LLMs) have shown potential in human-level intelligence, leading to a surge in research on LLM-based autonomous agents. In this paper, we present a comprehensive survey of these studies, del",
+    "date": "2024",
+    "url": "https://doi.org/10.1007/s11704-024-40231-1",
+    "authors": [
+      "Lei Wang",
+      "Chen Ma",
+      "Xueyang Feng"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+    "abstract": "Large Language Models (LLMs) showcase impressive capabilities but encounter challenges like hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by incorporating knowledge from external databases. This enhances the accuracy and credibility of the generation, particularly for knowledge-intensive tasks, and allows for continuous knowledge updates and integration of domain-specific information. RAG synergistically merges LLMs' intrinsic knowledge with the vast, dynamic repositories of exte",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2312.10997",
+    "authors": [
+      "Yunfan Gao",
+      "Yun Xiong",
+      "Xinyu Gao"
+    ]
+  },
+  {
+    "source": "OpenAlex (AI)",
+    "title": "What We Know About the Role of Large Language Models for Medical Synthetic Dataset Generation",
+    "abstract": "Synthetic medical text generation has emerged as a solution to data scarcity and privacy constraints in clinical NLP. This review systematically evaluates the use of Large Language Models (LLMs) for structured medical text generation, examining techniques such as retrieval-augmented generation (RAG), structured fine-tuning, and domain-specific adaptation. Four search queries were applied following the PRISMA methodology to identify and extract data from 153 studies. Key benchmarking metrics, such as performance measures, and qualitative insights, including methodological trends and challenges,",
+    "date": "2025",
+    "url": "https://doi.org/10.3390/ai6060109",
+    "authors": [
+      "Larissa Montenegro",
+      "Lu\u00eds Mendes Gomes",
+      "Jos\u00e9 Machado"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    "abstract": "",
+    "date": "2023",
+    "url": "https://doi.org/10.18653/v1/2023.findings-emnlp",
+    "authors": [
+      "Graham Mcdougal",
+      "Caron",
+      "Shashank Srivastava"
+    ]
+  },
+  {
+    "source": "OpenAlex (Computational Linguistics)",
+    "title": "Can Large Language Models Transform Computational Social Science?",
+    "abstract": "Abstract Large language models (LLMs) are capable of successfully performing many language processing tasks zero-shot (without training data). If zero-shot LLMs can also reliably classify and explain social phenomena like persuasiveness and political ideology, then LLMs could augment the computational social science (CSS) pipeline in important ways. This work provides a road map for using LLMs as CSS tools. Towards this end, we contribute a set of prompting best practices and an extensive evaluation pipeline to measure the zero-shot performance of 13 language models on 25 representative Englis",
+    "date": "2023",
+    "url": "https://doi.org/10.1162/coli_a_00502",
+    "authors": [
+      "Caleb Ziems",
+      "William A. Held",
+      "Omar Ahmed Shaikh"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+    "abstract": "The emergence of large language models (LLMs) has marked a significant breakthrough in natural language processing (NLP), fueling a paradigm shift in information acquisition. Nevertheless, LLMs are prone to hallucination, generating plausible yet nonfactual content. This phenomenon raises significant concerns over the reliability of LLMs in real-world information retrieval (IR) systems and has attracted intensive research to detect and mitigate such hallucinations. Given the open-ended general-purpose attributes inherent to LLMs, LLM hallucinations present distinct challenges that diverge from",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2311.05232",
+    "authors": [
+      "Lei Huang",
+      "Weijiang Yu",
+      "Weitao Ma"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "A Survey on Large Language Models: Applications, Challenges, Limitations, and Practical Usage",
+    "abstract": "Within the vast expanse of computerized language processing, a revolutionary entity known as Large Language Models (LLMs) has emerged, wielding immense power in its capacity to comprehend intricate linguistic patterns and conjure coherent and contextually fitting responses. Large language models (LLMs) are a type of artificial intelligence (AI) that have emerged as powerful tools for a wide range of tasks, including natural language processing (NLP), machine translation, and question-answering. This survey paper provides a comprehensive overview of LLMs, including their history, architecture, ",
+    "date": "2023",
+    "url": "https://doi.org/10.36227/techrxiv.23589741.v1",
+    "authors": [
+      "Muhammad Usman Hadi",
+      "qasem al tashi",
+      "Rizwan Qureshi"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "MM-LLMs: Recent Advances in MultiModal Large Language Models",
+    "abstract": "",
+    "date": "2024",
+    "url": "https://doi.org/10.18653/v1/2024.findings-acl.738",
+    "authors": [
+      "Duzhen Zhang",
+      "Yahan Yu",
+      "Jiahua Dong"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Cross-Domain Applications of LLM-Based Retrieval and Dialogue Systems: A Review of Current Practice",
+    "abstract": "Recent advances in large language models (LLMs) have enabled retrievalaugmented dialogue systems to support domain-specific information access with non-parametric grounding. This review surveys academic applications of LLM-based retrieval and generation systems across four domains: healthcare, education, finance, and law. We examine architectures combining dense retrieval and LLM decoding, assess their empirical performance in domainspecific tasks, and identify implementation variations such as vector stores, hierarchical retrieval, and knowledge graph integration. In healthcare, retrieval fro",
+    "date": "2025",
+    "url": "https://doi.org/10.36227/techrxiv.175756155.57191866/v1",
+    "authors": [
+      "Ammoon Birzoim"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+    "abstract": "For a long time, humanity has pursued artificial intelligence (AI) equivalent to or surpassing the human level, with AI agents considered a promising vehicle for this pursuit. AI agents are artificial entities that sense their environment, make decisions, and take actions. Many efforts have been made to develop intelligent agents, but they mainly focus on advancement in algorithms or training strategies to enhance specific capabilities or performance on particular tasks. Actually, what the community lacks is a general and powerful model to serve as a starting point for designing AI agents that",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2309.07864",
+    "authors": [
+      "Zhiheng Xi",
+      "Wen-Xiang Chen",
+      "Xin Guo"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "Challenges and Applications of Large Language Models",
+    "abstract": "Large Language Models (LLMs) went from non-existent to ubiquitous in the machine learning discourse within a few years. Due to the fast pace of the field, it is difficult to identify the remaining challenges and already fruitful application areas. In this paper, we aim to establish a systematic set of open problems and application successes so that ML researchers can comprehend the field's current state more quickly and become productive.",
+    "date": "2023",
+    "url": "https://doi.org/10.48550/arxiv.2307.10169",
+    "authors": [
+      "Jean Kaddour",
+      "Joshua Harris",
+      "Maximilian Mozes"
+    ]
+  },
+  {
+    "source": "OpenAlex (ArXiv.org)",
+    "title": "Ask in Any Modality: A Comprehensive Survey on Multimodal Retrieval-Augmented Generation",
+    "abstract": "Large Language Models (LLMs) suffer from hallucinations and outdated knowledge due to their reliance on static training data. Retrieval-Augmented Generation (RAG) mitigates these issues by integrating external dynamic information for improved factual grounding. With advances in multimodal learning, Multimodal RAG extends this approach by incorporating multiple modalities such as text, images, audio, and video to enhance the generated outputs. However, cross-modal alignment and reasoning introduce unique challenges beyond those in unimodal RAG. This survey offers a structured and comprehensive ",
+    "date": "2025",
+    "url": "https://doi.org/10.48550/arxiv.2502.08826",
+    "authors": [
+      "Mohammad Mahdi Abootorabi",
+      "Amirhosein Zobeiri",
+      "Mahdi Dehghani"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models",
+    "abstract": "As Large Language Models (LLMs) continue to advance in their ability to write human-like text, a key challenge remains around their tendency to hallucinate generating content that appears factual but is ungrounded. This issue of hallucination is arguably the biggest hindrance to safely deploying these powerful LLMs into real-world production systems that impact people's lives. The journey toward widespread adoption of LLMs in practical settings heavily relies on addressing and mitigating hallucinations. Unlike traditional AI systems focused on limited tasks, LLMs have been exposed to vast amou",
+    "date": "2024",
+    "url": "https://doi.org/10.48550/arxiv.2401.01313",
+    "authors": [
+      "S. M Towhidul Islam Tonmoy",
+      "S M Mehedi Zaman",
+      "Vinija Jain"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Benchmarking Retrieval-Augmented Generation for Medicine",
+    "abstract": "While large language models (LLMs) have achieved state-of-the-art performance on a wide range of medical question answering (QA) tasks, they still face challenges with hallucinations and outdated knowledge.Retrievalaugmented generation (RAG) is a promising solution and has been widely adopted.However, a RAG system can involve multiple flexible components, and there is a lack of best practices regarding the optimal RAG setting for various medical purposes.To systematically evaluate such systems, we propose the Medical Information Retrieval-Augmented Generation Evaluation (MIRAGE), a first-of-it",
+    "date": "2024",
+    "url": "https://doi.org/10.18653/v1/2024.findings-acl.372",
+    "authors": [
+      "Guangzhi Xiong",
+      "Qiao Jin",
+      "Zhiyong Lu"
+    ]
+  }
+]

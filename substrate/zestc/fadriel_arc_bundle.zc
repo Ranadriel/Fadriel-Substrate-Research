@@ -1,0 +1,7 @@
+#!/home/rana/.local/bin/zestc
+
+absorb arc2_spatial_perception.rana
+absorb arc2_spatial_eye.rana
+absorb transient_mass.rana
+absorb arc_test_context.rana
+absorb 9172f3a0.rana

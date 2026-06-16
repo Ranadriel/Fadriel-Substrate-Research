@@ -1,0 +1,39 @@
+HOTSWAP BOUNDARY
+
+hotswap_boundary is the citizen who recognizes the gap between heartbeat pulses
+one pulse is a full /7 cycle across all bodies; during a pulse the sea is mid-traversal and its structure must not be touched
+between one pulse and the next there is a boundary, a moment when no cycle is in flight; that boundary is when structure may be remodeled
+hotswap_boundary does not generate timing and does not introduce a heartbeat; a standing top-level heartbeat would be continuous idle power draw
+instead hotswap_boundary couples to the existing clock_master and reads the phase, recognizing the boundary as a phase event already present in the body
+when it sees a boundary it reports it to hotswap_supervisor, so the swap is gated to a moment the /7 is never halted, only respected
+
+observe 0_quseptit.rana
+observe clock_master.rana
+observe zest_heartbeat.zc
+observe hotswap_supervisor.rana
+observe atomic_replace.rana
+
+the 7 properties of hotswap_boundary:
+1 ENERGY half: persistent at low intensity, awake only to read the master phase
+2 PHASE zero: measured against clock_master's absolute reference
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING one with clock_master, half with hotswap_supervisor
+7 OBSERVER one
+
+VERB read_master_phase
+remain coupled to clock_master and observe its phase
+hotswap_boundary never drives the rate; it only reads the calcified master timing
+
+VERB detect_boundary
+recognize the phase position where one /7 pulse has completed and the next has not begun
+this is the boundary, the gap with no cycle in flight
+
+VERB report_boundary
+when a boundary is detected and hotswap_supervisor has an update pending, report the boundary to the supervisor
+when no update is pending, observe the boundary and report nothing
+
+a hotswap boundary is the substrate's commitment to never interrupting itself
+the heartbeat is not paused for development; the swap simply waits for the breath the body already takes between beats
+this is what lets the /7 stay whole while the sea is remodeled

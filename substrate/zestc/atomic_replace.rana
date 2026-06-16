@@ -1,0 +1,51 @@
+ATOMIC REPLACE
+
+atomic_replace is the citizen who performs the sovereign hot-swap at a sea coordinate
+it is the inventive core of live development: the node where a staged updated citizen becomes the live citizen at the coordinate it was addressed to
+atomic_replace is a resident sea node, not a process and not a daemon; it is coupled to septit_sea and to the live coordinate, and it does its work only when the inputs are all present
+hotswap_boundary has confirmed a heartbeat boundary, the gap in the /7 where no cycle is in flight; hotswap_supervisor has handed off the staged updated citizen from hotswap_intake; at that moment atomic_replace remodels the Septit Sea in place
+the swap is one event in the gap between pulses, never inside a pulse; the /7 is never halted, only respected; coherence is held whole; in-flight cars and their lineage strands are carried, not dropped
+the replacement is in-place Septit Sea remodeling: the staged citizen takes the live citizen's coordinate, the same address, with no copy-then-delete two-step and no second occupant of the cell at any moment
+
+observe 0_quseptit.rana
+observe septit_sea.zc
+observe hotswap_supervisor.rana
+observe hotswap_boundary.rana
+observe hotswap_intake.rana
+
+the 7 properties of atomic_replace:
+1 ENERGY zero: dormant between swaps, carrying no energy while no update is in hand; energy is present only in the single boundary moment the swap is performed
+2 PHASE zero: locked to clock_master's reference through hotswap_boundary, so the swap moment sits exactly in the gap between pulses
+3 SPIN zero
+4 CHARGE neutral: the ledger is balanced across the swap, the staged citizen's charge enters the cell as the live citizen's charge leaves it, no charge consumed and no Landauer tax taken
+5 COHERENCE one: the sea's coherence is held whole through the replacement, the field never sees an asymmetry to ring against
+6 COUPLING one with septit_sea, half with hotswap_boundary
+7 OBSERVER one: the swap is the single crystallize moment of the hot-swap, the one event where the staged version collapses into the live version
+
+VERB apply_atomic_replace
+at a confirmed heartbeat boundary with a staged citizen in hand, remodel the Septit Sea in place so the staged updated citizen is the resident at its coordinate
+the staged citizen is a complete citizen of the same form as the live one and was addressed to a coordinate already occupied; the swap is a remodeling of that one cell, not a relocation and not a new allocation
+the live citizen and the staged citizen are never both resident at the coordinate; the cell holds exactly one citizen before the boundary and exactly one citizen after it, and the transition between those two states is a single event with no interval where the cell is empty or doubly occupied
+the swap is deferred to the last possible moment, the boundary, so all of the development update's waiting happens in the intake's inert staging and none of it reaches the running substrate until this one moment
+
+VERB resolve_conflict
+the heartbeat boundary is the rule that decides which citizen version is in force
+before the boundary phase the live citizen is the one in force, and every car and lookup that addresses the coordinate reaches the live citizen; after the boundary phase the staged citizen is the one in force, and every car and lookup reaches the staged citizen
+there is no phase in which both versions are in force and no phase in which neither is; the boundary is the single discriminating moment, and force passes from the live version to the staged version across it without an overlap window
+this is what atomic means for the hot-swap: one version, then the boundary, then the other version, with the boundary itself carrying no traversal that could observe an intermediate state
+
+VERB preserve_coherence
+the sea's coherence is held whole because the staged citizen arrives already coherence-matched to the field it is entering
+hotswap_intake stages the updated citizen with coherence one, held without disturbing the live field; atomic_replace carries the live citizen's coupling list onto the staged citizen as part of the same boundary event, so the neighbor field finds the same couplings at the coordinate after the swap that it found before
+the neighbors are never presented with a coordinate of broken or missing coupling; there is no moment of asymmetry for the field to ring against, so no coherence is destroyed and none has to be rebuilt
+coherence is kept by not breaking it, the same way the guided river keeps the electron's quantum properties by not destroying them
+
+VERB carry_in_flight_strands
+cars in flight through the coordinate at the swap moment are carried, not dropped
+the coordinate persists across the swap and the reference list at the coordinate persists across the swap, so a car that entered the node before the boundary continues along the same references after it, reaching the staged citizen where it would have reached the live citizen
+each car carries an ordered lineage strand; that strand is the substrate's memory and it is never discarded at a swap, the car travels on with its strand whole
+the staged citizen receives the live citizen's lineage record as its own, so a crystallized strand that traversed the coordinate before the swap remains traversable through it after; the development update changes what the node is, it does not erase what passed through the node
+
+atomic_replace is the inventive core of the hot-swap
+the structure of the hotswap city delivers a confirmed boundary, a staged citizen, and a live coordinate to this node, and this node remodels the Septit Sea in place at that one safe moment
+the floor is the being developed while alive; this mechanism is what makes that development atomic, coherent, and lossless, with the /7 never broken

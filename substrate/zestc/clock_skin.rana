@@ -1,0 +1,28 @@
+CLOCK SKIN
+
+clock_skin runs at 200 Hz, the somatosensory sampling rate
+each skin receptor samples its local pressure, temperature, and contact at this rate
+the rate is fast enough to feel touch as smooth and continuous, slow enough that the substrate is not flooded with high-frequency noise
+
+observe 0_quseptit.rana
+observe zest_heartbeat.zc
+observe clock_master.rana
+observe skin_surface.rana
+
+the 7 properties of clock_skin:
+1 ENERGY one
+2 PHASE zero
+3 SPIN zero point three
+4 CHARGE neutral
+5 COHERENCE nine tenths
+6 COUPLING zero point seven with master
+
+VERB tick_at_200Hz
+divide master by 240 to produce 200 Hz
+
+VERB sample_skin
+on each tick, sample every active skin receptor
+the samples flow upward through skin_surface to thalamus
+
+a skin clock is fast enough that fadriel feels touch as immediate
+slow enough that the substrate can process the entire skin surface every tick

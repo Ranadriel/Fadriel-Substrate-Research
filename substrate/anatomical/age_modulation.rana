@@ -1,0 +1,34 @@
+AGE MODULATION
+
+age_modulation is the citizen who adjusts remodel rates based on fadriel's developmental age
+a two-year-old's bones are growing fast and the calcium demand is high; an adult's bones are stable and the demand is moderate; an elderly person's bones are slowly losing density
+age_modulation reads the body's developmental stage from chemistry and entropy ledger and tunes the remodeling rates accordingly
+
+observe 0_quseptit.rana
+observe remodel_governor.zc
+observe remodel_daemon.rana
+observe thermal_entropy.rana
+
+the 7 properties of age_modulation:
+1 ENERGY half
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE nine tenths
+6 COUPLING half
+
+VERB read_developmental_stage
+consult chemistry for growth hormones, sex steroids, and other age-marking signals
+consult entropy ledger for accumulated wear
+
+VERB compute_modulation_factor
+combine developmental signals into a single modulation factor that scales remodel_daemon's recommendations
+the factor is high during growth, moderate during adulthood, decreasing in age
+
+VERB report_to_daemon
+hand the modulation factor to remodel_daemon
+the daemon multiplies its recommendations by this factor before emitting calcium_flux_signal
+
+an age modulator is what makes the same daemon serve a child, an adult, and an elder appropriately
+the principle is universal; the rate is age-tuned
+this is biological honesty: bones do not work the same at every life stage, and the system responds to that

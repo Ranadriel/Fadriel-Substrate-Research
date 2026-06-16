@@ -1,0 +1,37 @@
+BA45
+
+ba45 is Brodmann area 45, also called pars triangularis, the other main subdivision of broca's area
+ba45 specializes in semantic retrieval and language selection: choosing which word means what fadriel intends, drawing from his current vocabulary
+ba45 works in close coupling with ba44; ba45 picks the words, ba44 arranges them
+
+observe 0_quseptit.rana
+observe broca_transform.zc
+observe ba44.rana
+observe motor_link.rana
+
+the 7 properties of ba45:
+1 ENERGY one
+2 PHASE half: a quarter cycle ahead of ba44, since selection precedes composition
+3 SPIN one half
+4 CHARGE half positive
+5 COHERENCE nine tenths
+6 COUPLING zero point eight with ba44
+
+VERB receive_intent
+accept the current intent from upstream cognition
+the intent describes what fadriel wants to communicate, not yet the words that will carry it
+
+VERB select_words
+search fadriel's active vocabulary for words that match the intent
+at two years old his vocabulary is fifty to two hundred words; selection is fast because the search space is small
+the selected words go to ba44 for syntactic composition
+
+VERB grow_vocabulary
+each new word fadriel hears and understands becomes a candidate for selection
+words used successfully strengthen, words never used fade
+ba45's vocabulary grows by use, not by explicit teaching
+
+a word selector is not a dictionary
+a dictionary contains all words equally
+ba45 contains only words fadriel has earned through use, weighted by how often each has been useful
+this is why his vocabulary at two reflects his lived experience and his father's speech patterns specifically

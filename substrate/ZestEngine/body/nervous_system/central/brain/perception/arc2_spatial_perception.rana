@@ -1,0 +1,206 @@
+LAYER 3: ARC-AGI-2 SPATIAL PERCEPTION EXTENSIONS
+harder transformation types for deeper pattern reasoning
+
+observe spatial_perception.rana
+observe spatial_superposition.rana
+
+
+@filter arc2_shapes
+"nested_frame" "concentric_ring" "seed_point" "frame_shell"
+"tile_unit" "tile_exception" "tile_period" "canonical_tile"
+"marker_line" "marker_column" "marker_row" "crop_boundary"
+"blob_spine" "widest_row" "blob_cluster" "spine_color"
+"enclosed_cavity" "cavity_fill" "cavity_boundary"
+"sorted_object" "ranked_object" "size_rank"
+
+@filter arc2_transforms
+"marker_crop" "tile_exception_mark" "nested_frame_expand"
+"blob_row_rank" "region_close_fill" "object_sort" "boolean_mask"
+
+@filter arc2_relations
+"marker_precedes" "marker_follows" "tile_matches" "tile_differs"
+"seed_expands" "ring_surrounds" "ring_depth" "seed_to_ring"
+"exception_tile" "canonical_tile" "tile_boundary"
+"spine_of_blob" "widest_in_blob" "fill_interior"
+"sorted_by_size" "sorted_by_count" "ranked_left_to_right"
+
+
+@spatial_rule marker_crop_column
+CHECK output width is less than input width for ALL training pairs
+CHECK there exists a column c in input where every cell has the same non-zero color
+CHECK that color does not appear in the output
+LEARN marker_color = that uniform column color
+LEARN marker_column = c
+LEARN keep_side = left if output matches left portion, right if right portion
+VERIFY for every training pair: find marker column, extract keep_side, matches output
+APPLY find marker_color column in test input, return keep_side content
+SPEECH "I see a {marker_color} column divider — I'll cut there and keep the {keep_side}"
+
+@spatial_rule marker_crop_row
+CHECK output height is less than input height for ALL training pairs
+CHECK there exists a row r in input where every cell has the same non-zero color
+CHECK that color does not appear in the output
+LEARN marker_color = that uniform row color
+LEARN marker_row = r
+LEARN keep_side = top if output matches above, bottom if below
+VERIFY for every training pair: find marker row, extract keep_side, matches output
+APPLY find marker_color row in test input, return keep_side content
+SPEECH "I see a {marker_color} row divider — I'll cut there and keep the {keep_side}"
+
+@spatial_rule tile_exception_mark
+CHECK input and output are the same size for ALL training pairs
+DETECT the tile period: smallest (th, tw) where input height % th == 0 and input width % tw == 0
+DETECT that all sub-tiles of size (th, tw) are identical EXCEPT one
+LEARN canonical_tile = the tile that appears most often
+LEARN exception_position = the tile index (tr, tc) that differs from canonical
+LEARN mark_color = the color the exception tile becomes in the output
+VERIFY for every training pair: find exception tile, confirm output marks it with mark_color
+APPLY find the tile that doesn't match canonical in test, fill it with mark_color
+SPEECH "the tile at row {tr} col {tc} breaks the pattern — marking it with {mark_color}"
+
+@spatial_rule nested_frame_expand
+CHECK input has isolated single-cell seed points on a background
+CHECK the number of distinct seed colors equals the number of distinct output ring colors
+CHECK output has concentric rectangular rings of those colors
+DETECT seed_positions = list of (row, col, color) for each isolated cell
+LEARN seed_to_ring: innermost seed → innermost ring, outermost → outermost ring
+LEARN ring depth maps to distance from grid center or seed ordering
+VERIFY for every training pair: seeds produce concentric frames matching output
+APPLY for each test seed, compute its ring level, draw concentric rectangle of that color
+SPEECH "I see {n} seed points — they expand into {n} nested frames"
+
+@spatial_rule blob_row_rank
+CHECK foreground consists of multiple connected clusters (blobs)
+CHECK for each blob, one row of that blob is recolored in the output
+CHECK the recolored row is the widest row of that blob (most cells belonging to that blob)
+LEARN spine_color = the color used to highlight the widest row
+LEARN each blob's widest row = the row with most cells of that blob's color
+VERIFY for every training pair: apply widest-row highlighting, matches output
+APPLY for each connected region in test, find its widest row, color it spine_color
+SPEECH "I find the widest row in each blob and color it {spine_color}"
+
+@spatial_rule region_close_fill
+CHECK output contains a region of new color not in input
+CHECK that region is enclosed (cannot be reached from grid edge without crossing foreground)
+DETECT which cells in output are new_color that were not new_color in input
+LEARN fill_color = that new color
+LEARN the boundary shape = existing foreground cells surrounding the region
+VERIFY for every training pair: flood-fill from interior finds same region
+APPLY flood-fill all cells enclosed by foreground (unreachable from edge) with fill_color
+SPEECH "I fill the enclosed region with {fill_color}"
+
+@spatial_rule object_sort_by_size
+CHECK input contains multiple separated objects (not touching)
+CHECK output contains the same objects but repositioned
+CHECK the objects in output are arranged left-to-right or top-to-bottom in size order
+LEARN sort_direction = left-to-right or top-to-bottom
+LEARN sort_order = ascending or descending by object cell count
+VERIFY for every training pair: sort objects by size, place in order, matches output
+APPLY find all separate objects in test, sort by size in sort_order, place in sort_direction
+SPEECH "I arrange the {count} objects from {order} to {order2} by size"
+
+@spatial_rule object_sort_by_count
+CHECK input contains multiple separated objects
+CHECK objects in output arranged by the count of non-background colors per object
+LEARN sort key = number of distinct colors in each object
+VERIFY for every training pair: sort by color count matches output arrangement
+APPLY sort test objects by distinct color count in learned order
+SPEECH "I arrange the objects by how many colors they contain"
+
+@spatial_rule boolean_and_shapes
+CHECK input has exactly two colored regions
+CHECK output contains only the cells where both regions overlapped
+LEARN shape_A_color = first region color
+LEARN shape_B_color = second region color
+LEARN result_color = output color of overlap cells
+VERIFY for every training pair: intersection of A and B cells matches output
+APPLY compute intersection of two foreground colors in test, color with result_color
+SPEECH "I keep only where {A} and {B} overlap — that's {result}"
+
+@spatial_rule boolean_xor_shapes
+CHECK input has exactly two colored regions
+CHECK output contains cells where exactly one of the two regions was present
+LEARN shape_A_color, shape_B_color, result_color
+VERIFY for every training pair: XOR of A and B cell sets matches output
+APPLY compute symmetric difference of two foreground colors in test
+SPEECH "I keep where {A} and {B} DON'T overlap — everything else"
+
+@spatial_rule diagonal_propagation
+CHECK colored cells in input, background cells in output are filled along diagonals
+CHECK the fill direction is consistent (up-left, up-right, down-left, or down-right)
+LEARN diagonal_direction = the consistent fill direction
+LEARN propagation_color = the color that propagates along each diagonal
+VERIFY for every training pair: diagonal fill from each seed matches output
+APPLY propagate each foreground color in diagonal_direction through empty cells
+SPEECH "I propagate each color diagonally toward {direction}"
+
+
+@perceive period
+DETECT if input divides evenly into (th × tw) tiles for some th, tw >= 2
+FIND smallest such (th, tw) where input_height % th == 0 and input_width % tw == 0
+EXTRACT all tile instances as sub-grids
+COMPARE all tiles to each other
+COUNT how many tiles are identical to the most common tile
+DETECT if exactly one tile differs from all others
+CLASSIFY as "pure_tiling" if all tiles identical
+CLASSIFY as "exception_tiling" if exactly one differs
+CLASSIFY as "too_varied" if more than one differs
+
+@perceive boundary_marker
+DETECT any column c where all cells have the same non-zero color
+DETECT any row r where all cells have the same non-zero color
+CLASSIFY that color as "boundary_color" if it appears nowhere else in grid
+COMPARE to output: does removing that line give the output?
+LEARN which side was kept
+
+@perceive seed_scaffold
+DETECT single isolated cells (size-1 clusters) on a low-energy background
+DETECT if output has multi-cell structures corresponding to seed positions
+MEASURE distance from each seed to grid center
+SORT seeds by distance (innermost to outermost)
+COMPARE seed order to ring order in output
+
+
+@puzzle_chemistry arc2
+TRIGGER wonder when a pattern appears that doesn't fit the six base perceptions
+TRIGGER curiosity when tile period is detected — how many tiles differ?
+TRIGGER excitement when exception tile found and rule locks in across all pairs
+TRIGGER satisfaction when nested frames resolve from seed positions
+TRIGGER determination when stuck — go deeper, look longer
+TRIGGER pride when a harder ARC-AGI-2 puzzle is solved
+
+
+@speech_right MARKER_DETECTED
+"I see a {color} {axis} dividing the grid"
+"this {color} line is the cut point"
+"everything {side} of the {color} marker is the answer"
+"the {color} acts as scissors — output is what's {side} of it"
+
+@speech_right TILE_PERIOD_DETECTED
+"this grid tiles a {th}×{tw} pattern"
+"all tiles are the same — except one"
+"the tile at position ({tr},{tc}) breaks the pattern"
+"I'll mark the exception tile with {color}"
+"tile period: {th}×{tw} — finding the odd one out"
+
+@speech_right NESTED_FRAME_DETECTED
+"I see {n} seed points — each one will become a ring"
+"the outermost seed is {color} — it becomes the outer frame"
+"I'm building concentric rectangles from the seeds outward"
+"each seed expands into its ring depth"
+
+@speech_right BLOB_SPINE_DETECTED
+"each blob has a widest row — that's its spine"
+"I highlight the spine of each connected region"
+"blob {n}: widest row is row {r} — coloring it {color}"
+
+@speech_right REGION_FILL_DETECTED
+"there's an enclosed region here"
+"the boundary nearly closes — I'll fill what's inside"
+"flood filling the interior with {color}"
+
+@speech_right ARC2_UNKNOWN
+"this one is harder than what I've learned so far"
+"I can perceive the shapes but the rule isn't clear yet"
+"something changes — I just can't name it yet"
+"I need more examples to understand this transformation"

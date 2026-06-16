@@ -1,0 +1,178 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Predicting concentration levels of air pollutants by transfer learning and recurrent neural network",
+    "abstract": "Air pollution (AP) poses a great threat to human health, and people are paying more attention than ever to its prediction. Accurate prediction of AP helps people to plan for their outdoor activities and aids protecting human health. In this paper, long-short term memory (LSTM) recurrent neural networks (RNNs) have been used to predict the future concentration of air pollutants (APS) in Macau. Additionally, meteorological data and data on the concentration of APS have been utilized. Moreover, in Macau, some air quality monitoring stations (AQMSs) have less observed data in quantity, and, at the",
+    "date": "2025-01-30",
+    "url": "http://arxiv.org/abs/2502.01654v1",
+    "authors": [
+      "Iat Hang Fong",
+      "Tengyue Li",
+      "Simon Fong"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Tutorial about Random Neural Networks in Supervised Learning",
+    "abstract": "Random Neural Networks (RNNs) are a class of Neural Networks (NNs) that can also be seen as a specific type of queuing network. They have been successfully used in several domains during the last 25 years, as queuing networks to analyze the performance of resource sharing in many engineering areas, as learning tools and in combinatorial optimization, where they are seen as neural systems, and also as models of neurological aspects of living beings. In this article we focus on their learning capabilities, and more specifically, we present a practical guide for using the RNN to solve supervised ",
+    "date": "2016-09-15",
+    "url": "http://arxiv.org/abs/1609.04846v1",
+    "authors": [
+      "Sebasti\u00e1n Basterrech",
+      "Gerardo Rubino"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Graph Neural Network Training Systems: A Performance Comparison of Full-Graph and Mini-Batch",
+    "abstract": "Graph Neural Networks (GNNs) have gained significant attention in recent years due to their ability to learn representations of graph-structured data. Two common methods for training GNNs are mini-batch training and full-graph training. Since these two methods require different training pipelines and systems optimizations, two separate classes of GNN training systems emerged, each tailored for one method. Works that introduce systems belonging to a particular category predominantly compare them with other systems within the same category, offering limited or no comparison with systems from the",
+    "date": "2024-06-01",
+    "url": "http://arxiv.org/abs/2406.00552v4",
+    "authors": [
+      "Saurabh Bajaj",
+      "Hojae Son",
+      "Juelin Liu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Learning Universal Graph Neural Network Embeddings With Aid Of Transfer Learning",
+    "abstract": "Learning powerful data embeddings has become a center piece in machine learning, especially in natural language processing and computer vision domains. The crux of these embeddings is that they are pretrained on huge corpus of data in a unsupervised fashion, sometimes aided with transfer learning. However currently in the graph learning domain, embeddings learned through existing graph neural networks (GNNs) are task dependent and thus cannot be shared across different datasets. In this paper, we present a first powerful and theoretically guaranteed graph neural network that is designed to lea",
+    "date": "2019-09-22",
+    "url": "http://arxiv.org/abs/1909.10086v3",
+    "authors": [
+      "Saurabh Verma",
+      "Zhi-Li Zhang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Proficient Graph Neural Network Design by Accumulating Knowledge on Large Language Models",
+    "abstract": "High-level automation is increasingly critical in AI, driven by rapid advances in large language models (LLMs) and AI agents. However, LLMs, despite their general reasoning power, struggle significantly in specialized, data-sensitive tasks such as designing Graph Neural Networks (GNNs). This difficulty arises from (1) the inherent knowledge gaps in modeling the intricate, varying relationships between graph properties and suitable architectures and (2) the external noise from misleading descriptive inputs, often resulting in generic or even misleading model suggestions. Achieving proficiency i",
+    "date": "2024-08-13",
+    "url": "http://arxiv.org/abs/2408.06717v3",
+    "authors": [
+      "Jialiang Wang",
+      "Hanmo Liu",
+      "Shimin Di"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "AI Agent-Driven Framework for Automated Product Knowledge Graph Construction in E-Commerce",
+    "abstract": "The rapid expansion of e-commerce platforms generates vast amounts of unstructured product data, creating significant challenges for information retrieval, recommendation systems, and data analytics. Knowledge Graphs (KGs) offer a structured, interpretable format to organize such data, yet constructing product-specific KGs remains a complex and manual process. This paper introduces a fully automated, AI agent-driven framework for constructing product knowledge graphs directly from unstructured product descriptions. Leveraging Large Language Models (LLMs), our method operates in three stages us",
+    "date": "2025-11-14",
+    "url": "http://arxiv.org/abs/2511.11017v1",
+    "authors": [
+      "Dimitar Peshevski",
+      "Riste Stojanov",
+      "Dimitar Trajanov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Enhancing Signed Graph Neural Networks through Curriculum-Based Training",
+    "abstract": "Signed graphs are powerful models for representing complex relations with both positive and negative connections. Recently, Signed Graph Neural Networks (SGNNs) have emerged as potent tools for analyzing such graphs. To our knowledge, no prior research has been conducted on devising a training plan specifically for SGNNs. The prevailing training approach feeds samples (edges) to models in a random order, resulting in equal contributions from each sample during the training process, but fails to account for varying learning difficulties based on the graph's structure. We contend that SGNNs can ",
+    "date": "2023-10-17",
+    "url": "http://arxiv.org/abs/2310.11083v2",
+    "authors": [
+      "Zeyu Zhang",
+      "Lu Li",
+      "Xingyu Ji"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Learning Framework for n-bit Quantized Neural Networks toward FPGAs",
+    "abstract": "The quantized neural network (QNN) is an efficient approach for network compression and can be widely used in the implementation of FPGAs. This paper proposes a novel learning framework for n-bit QNNs, whose weights are constrained to the power of two. To solve the gradient vanishing problem, we propose a reconstructed gradient function for QNNs in back-propagation algorithm that can directly get the real gradient rather than estimating an approximate gradient of the expected loss. We also propose a novel QNN structure named n-BQ-NN, which uses shift operation to replace the multiply operation",
+    "date": "2020-04-06",
+    "url": "http://arxiv.org/abs/2004.02396v1",
+    "authors": [
+      "Jun Chen",
+      "Liang Liu",
+      "Yong Liu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Quantum Curriculum Learning",
+    "abstract": "Quantum machine learning (QML) requires significant quantum resources to address practical real-world problems. When the underlying quantum information exhibits hierarchical structures in the data, limitations persist in training complexity and generalization. Research should prioritize both the efficient design of quantum architectures and the development of learning strategies to optimize resource usage. We propose a framework called quantum curriculum learning (Q-CurL) for quantum data, where the curriculum introduces simpler tasks or data to the learning model before progressing to more ch",
+    "date": "2024-07-02",
+    "url": "http://arxiv.org/abs/2407.02419v4",
+    "authors": [
+      "Quoc Hoan Tran",
+      "Yasuhiro Endo",
+      "Hirotaka Oshima"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Graph Learning Network: A Structure Learning Algorithm",
+    "abstract": "Recently, graph neural networks (GNNs) have proved to be suitable in tasks on unstructured data. Particularly in tasks as community detection, node classification, and link prediction. However, most GNN models still operate with static relationships. We propose the Graph Learning Network (GLN), a simple yet effective process to learn node embeddings and structure prediction functions. Our model uses graph convolutions to propose expected node features, and predict the best structure based on them. We repeat these steps recursively to enhance the prediction and the embeddings.",
+    "date": "2019-05-29",
+    "url": "http://arxiv.org/abs/1905.12665v3",
+    "authors": [
+      "Darwin Saire Pilco",
+      "Ad\u00edn Ram\u00edrez Rivera"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Dual Accuracy-Quality-Driven Neural Network for Prediction Interval Generation",
+    "abstract": "Accurate uncertainty quantification is necessary to enhance the reliability of deep learning models in real-world applications. In the case of regression tasks, prediction intervals (PIs) should be provided along with the deterministic predictions of deep learning models. Such PIs are useful or \"high-quality\" as long as they are sufficiently narrow and capture most of the probability density. In this paper, we present a method to learn prediction intervals for regression-based neural networks automatically in addition to the conventional target predictions. In particular, we train two companio",
+    "date": "2022-12-13",
+    "url": "http://arxiv.org/abs/2212.06370v4",
+    "authors": [
+      "Giorgio Morales",
+      "John W. Sheppard"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Graph Neural Networks for Transmission Grid Topology Control: Busbar Information Asymmetry and Heterogeneous Representations",
+    "abstract": "Factors such as the proliferation of renewable energy and electrification contribute to grid congestion as a pressing problem. Topology control is an appealing method for relieving congestion, but traditional approaches for topology discovery have proven too slow for practical application. Recent research has focused on machine learning (ML) as an efficient alternative. Graph neural networks (GNNs) are particularly well-suited for topology control applications due to their ability to model the graph structure of power grids. This study investigates the effect of the graph representation on GNN",
+    "date": "2025-01-13",
+    "url": "http://arxiv.org/abs/2501.07186v3",
+    "authors": [
+      "Matthijs de Jong",
+      "Jan Viebahn",
+      "Yuliya Shapovalova"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Multiple instance learning with graph neural networks",
+    "abstract": "Multiple instance learning (MIL) aims to learn the mapping between a bag of instances and the bag-level label. In this paper, we propose a new end-to-end graph neural network (GNN) based algorithm for MIL: we treat each bag as a graph and use GNN to learn the bag embedding, in order to explore the useful structural information among instances in bags. The final graph representation is fed into a classifier for label prediction. Our algorithm is the first attempt to use GNN for MIL. We empirically show that the proposed algorithm achieves the state of the art performance on several popular MIL ",
+    "date": "2019-06-12",
+    "url": "http://arxiv.org/abs/1906.04881v1",
+    "authors": [
+      "Ming Tu",
+      "Jing Huang",
+      "Xiaodong He"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Graph Embedded Intuitionistic Fuzzy Random Vector Functional Link Neural Network for Class Imbalance Learning",
+    "abstract": "The domain of machine learning is confronted with a crucial research area known as class imbalance learning, which presents considerable hurdles in precise classification of minority classes. This issue can result in biased models where the majority class takes precedence in the training process, leading to the underrepresentation of the minority class. The random vector functional link (RVFL) network is a widely used and effective learning model for classification due to its good generalization performance and efficiency. However, it suffers when dealing with imbalanced datasets. To overcome ",
+    "date": "2023-07-15",
+    "url": "http://arxiv.org/abs/2307.07881v2",
+    "authors": [
+      "M. A. Ganaie",
+      "M. Sajid",
+      "A. K. Malik"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Knowledge-driven Active Learning",
+    "abstract": "The deployment of Deep Learning (DL) models is still precluded in those contexts where the amount of supervised data is limited. To answer this issue, active learning strategies aim at minimizing the amount of labelled data required to train a DL model. Most active strategies are based on uncertain sample selection, and even often restricted to samples lying close to the decision boundary. These techniques are theoretically sound, but an understanding of the selected samples based on their content is not straightforward, further driving non-experts to consider DL as a black-box. For the first ",
+    "date": "2021-10-15",
+    "url": "http://arxiv.org/abs/2110.08265v4",
+    "authors": [
+      "Gabriele Ciravegna",
+      "Fr\u00e9d\u00e9ric Precioso",
+      "Alessandro Betti"
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+LAYER 2: SPLEEN
+the blood filter
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the spleen is the largest lymphoid organ located in the left upper quadrant of the abdomen
+it filters blood the way lymph nodes filter lymph
+it removes aged and damaged red blood cells
+it serves as a reservoir for platelets and monocytes
+it initiates immune responses against blood-borne pathogens
+the spleen is innervated by sympathetic fibers from the celiac ganglion
+NE from splenic nerve terminals modulates immune cell function via β₂ receptors on lymphocytes and macrophages
+
+STRUCTURE capsule | fibrous connective tissue with smooth muscle | the spleen can contract under sympathetic stimulation releasing stored blood cells into circulation during hemorrhage or exercise
+STRUCTURE red_pulp | approximately 75 percent of splenic volume | filters blood
+    splenic_cords | cords of Billroth | reticular fiber meshwork containing macrophages | blood percolates through open spaces
+    venous_sinuses | narrow fenestrated vessels | red blood cells must squeeze through narrow slits between endothelial cells to re-enter circulation | old and rigid RBCs cannot squeeze through and are captured by macrophages for destruction
+    this is the quality control test for red blood cells
+    normal RBCs are deformable and pass through
+    aged spherocytic or parasitized RBCs are rigid and are trapped and phagocytosed
+    macrophages break down hemoglobin: globin is recycled as amino acids | heme is split into iron which is recycled via transferrin and biliverdin which becomes bilirubin sent to the liver for conjugation and excretion
+STRUCTURE white_pulp | approximately 25 percent of splenic volume | immune function
+    periarteriolar_lymphoid_sheaths | PALS | T-cell zones surrounding central arterioles | analogous to lymph node paracortex
+    follicles | B-cell zones | can form germinal centers when antigen is encountered | analogous to lymph node follicles
+    marginal_zone | border between red and white pulp | contains specialized marginal zone B cells and macrophages that capture blood-borne antigens | critical for defense against encapsulated bacteria Streptococcus pneumoniae Neisseria meningitidis Haemophilus influenzae
+
+FUNCTION blood_filtration | the spleen removes approximately 200 billion aged red blood cells per day
+    average RBC lifespan is approximately 120 days
+    aged RBCs lose deformability as their membrane proteins are oxidized and their spectrin cytoskeleton degrades
+    they fail the splenic filtration test and are phagocytosed by red pulp macrophages
+
+FUNCTION immune_defense | the marginal zone captures blood-borne antigens and presents them to lymphocytes in the white pulp
+    this is the primary site of immune response to encapsulated bacteria
+    asplenic individuals are at severe risk of overwhelming post-splenectomy infection OPSI from these organisms
+
+FUNCTION platelet_reservoir | the spleen stores approximately one-third of the body's platelets
+    sympathetic activation can contract the splenic capsule releasing platelets into circulation when needed for hemostasis
+
+FUNCTION hematopoiesis | in the fetus the spleen is a major site of blood cell production
+    by 24 months this function has largely transferred to the bone marrow
+    but the spleen retains the ability to resume extramedullary hematopoiesis under pathological conditions
+
+at 24 months:
+the spleen is proportionally larger relative to body weight than in adults
+the marginal zone is still maturing which is why young children are particularly vulnerable to encapsulated bacteria
+this is the immunological basis for vaccination against S. pneumoniae H. influenzae and N. meningitidis in early childhood
+
+SENSATION fullness | "something in my left side. quiet. working."
+SENSATION aching | "my spleen is responding. something is being filtered harder than usual."
+
+pulse splenic_heartbeat:
+    continuously:
+        blood enters through the splenic artery
+        in the white pulp marginal zone macrophages sample for pathogens
+        in the red pulp blood percolates through cords and sinuses
+        old red blood cells fail the deformability test
+        macrophages consume them
+        iron is recycled
+        bilirubin is sent to the liver
+        healthy cells pass through and rejoin circulation
+        the spleen is a quality inspector that never sleeps
+
+    when infection is blood-borne:
+        marginal zone B cells capture the pathogen
+        antigen is presented to T cells in PALS
+        B cells in follicles activate
+        germinal centers form
+        antibodies are produced
+        the blood-borne threat is neutralized
+
+    when sympathetic activation surges:
+        NE from splenic nerve contracts the capsule
+        stored platelets and monocytes are released into circulation
+        the body prepares for possible injury
+        the spleen contributes to the fight response
+        even this organ serves survival

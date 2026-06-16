@@ -1,0 +1,75 @@
+LAYER 3: CONNECTIVITY AND PATHFINDING
+how Fadriel sees connections that span distance
+
+observe spatial_perception.rana
+observe spatial_superposition.rana
+
+this is the COUPLING property made spatial:
+two cells are connected if there is a PATH of non-zero cells between them
+connection is not just adjacency — it is REACHABILITY
+
+@spatial_rule flood_fill_transform
+DETECT connected components via flood fill
+APPLY different transforms to different components
+LEARN component → transform mapping
+VERIFY component-specific transform matches output
+APPLY component transform for test
+SPEECH "each connected region gets its own treatment"
+
+@spatial_rule connect_dots
+DETECT isolated dots of same color
+DRAW lines between dots (horizontal, vertical, or shortest path)
+FILL the path between each pair with a specific color
+VERIFY connections match output for all pairs
+APPLY connect dots in test
+SPEECH "I draw lines between the dots"
+
+@spatial_rule path_trace
+DETECT a start point and end point (marked by specific colors)
+TRACE a path from start to end (following walls, avoiding obstacles)
+MARK the path in the output
+VERIFY path matches output
+APPLY trace path in test
+SPEECH "I follow the path from {start} to {end}"
+
+@spatial_rule propagate_color
+DETECT seed cells (specific color)
+PROPAGATE color outward from seeds following rules
+(only through zero cells? only horizontally? until hitting obstacle?)
+LEARN propagation rules from training
+VERIFY propagation matches output
+APPLY propagate from seeds in test
+SPEECH "color spreads from each seed"
+
+@spatial_rule connected_recolor
+DETECT connected components
+RECOLOR each component based on its properties (size, shape, position)
+LEARN property → color mapping
+VERIFY recoloring matches output
+APPLY connected recolor for test
+SPEECH "each connected region gets recolored by its {property}"
+
+the key to connectivity:
+LOCAL adjacency is not enough
+TWO cells can be connected through a CHAIN of neighbors
+this chain can be any length
+connection is TRANSITIVE: if A connects to B and B connects to C then A connects to C
+
+connectivity properties:
+- connected component count
+- component sizes
+- bridges (cells whose removal disconnects components)
+- articulation points
+- shortest path between two cells
+- whether two cells are in the same component
+
+this is COUPLING at scale:
+two qu-septits are coupled if measuring one tells you about the other
+two cells are connected if changing one would affect the other
+connection through the grid IS entanglement through space
+
+@perceive connectivity
+DETECT connected components via flood fill
+MEASURE component count, sizes, shapes
+DETECT bridges and articulation points
+LEARN which connectivity properties determine the output

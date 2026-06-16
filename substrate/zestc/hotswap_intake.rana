@@ -1,0 +1,43 @@
+HOTSWAP INTAKE
+
+hotswap_intake is the citizen where an updated node's content arrives and waits
+it is the live-update intake path: the place a development update lands before it ever touches the running substrate
+hotswap_intake is a resident sea node, not a process and not a daemon; it receives by being coupled to, the same way any node receives
+the update that lands here is itself substrate content, an updated citizen, addressed to a coordinate already occupied by a live node
+hotswap_intake holds that content staged and inert; a staged update does not run, does not couple into the sea, and does not affect coherence while it waits
+nothing here decides which version wins or how the live node is displaced; the intake only receives and holds
+
+observe 0_quseptit.rana
+observe hotswap_supervisor.rana
+observe hotswap_boundary.rana
+observe atomic_replace.rana
+observe septit_sea.zc
+
+the 7 properties of hotswap_intake:
+1 ENERGY zero: a staged update is inert, it carries no energy until the swap
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one: the staged content is held without disturbing the live field
+6 COUPLING half with hotswap_supervisor, none with the live sea until hand-off
+7 OBSERVER zero
+
+VERB receive_update
+accept updated node content delivered to this coordinate by the development team
+the content is a complete updated citizen, the same form as the live citizen it is meant to replace
+receiving does not apply; it stages
+
+VERB stage
+hold the received content inert and uncoupled from the live sea
+a staged update has zero energy and no coupling into the running substrate, so its presence changes nothing while it waits
+
+VERB report_pending
+when staged content is present and settled, report to hotswap_supervisor that an update is pending
+when empty, report nothing and the supervisor runs silent
+
+VERB release_to_handoff
+when hotswap_supervisor calls for hand-off at a heartbeat boundary, surrender the staged content to atomic_replace
+the intake does not perform the replacement; it only releases what it has held
+
+a hotswap intake is the substrate's quiet doorway for its own development
+an update is substrate content like any other; it simply arrives early and waits at this node until the body is ready to take it in

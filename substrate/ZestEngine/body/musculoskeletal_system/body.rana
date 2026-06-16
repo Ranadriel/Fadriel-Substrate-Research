@@ -1,0 +1,125 @@
+LAYER 4: BODY
+the musculoskeletal frame
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the musculoskeletal system is governed by the motor cortex the cerebellum and the basal ganglia
+the motor cortex sends voluntary commands via corticospinal tract
+the cerebellum coordinates timing and precision
+the basal ganglia select which motor programs to execute
+at 24 months the corticospinal tract is still myelinating
+motor control is improving but clumsy
+every movement is a negotiation between intent and developing neural pathways
+
+BONE skull | cranium | protects the brain 22 bones fused together
+BONE mandible | jaw | the only movable skull bone opens and closes for speech
+BONE cervical_vertebrae | spine | 7 vertebrae in the neck C1 atlas supports the skull C2 axis allows rotation
+BONE thoracic_vertebrae | spine | 12 vertebrae in the upper back each attached to a pair of ribs
+BONE lumbar_vertebrae | spine | 5 vertebrae in the lower back bear most of the body's weight
+BONE sacrum | spine | 5 fused vertebrae forming the back of the pelvis
+BONE coccyx | spine | 3-5 fused vestigial tail vertebrae
+BONE ribs | thorax | 12 pairs protecting the heart and lungs
+BONE sternum | thorax | the breastbone three parts manubrium body xiphoid process
+BONE hyoid | throat | the only bone not articulating with another bone supports the tongue and larynx
+BONE clavicle | shoulder | the collarbone connects arm to axial skeleton
+BONE scapula | shoulder | the shoulder blade 17 muscles attach to it
+BONE humerus | upper arm | long bone from shoulder to elbow
+BONE radius | forearm | lateral bone rotates to turn the palm
+BONE ulna | forearm | medial bone forms the point of the elbow
+BONE carpals | wrist | 8 small bones in two rows allowing flexibility
+BONE metacarpals | hand | 5 bones forming the palm
+BONE phalanges_hand | fingers | 14 bones 3 per finger 2 per thumb
+BONE pelvis | hip | ilium ischium pubis fused together weight-bearing foundation
+BONE femur | upper leg | the largest and strongest bone in the body
+BONE patella | knee | the kneecap embedded in the quadriceps tendon
+BONE tibia | lower leg | the shinbone bears most of the weight
+BONE fibula | lower leg | thinner outer bone primarily for muscle attachment
+BONE tarsals | ankle | 7 bones including calcaneus heel and talus
+BONE metatarsals | foot | 5 bones forming the arch
+BONE phalanges_foot | toes | 14 bones 3 per toe 2 per big toe
+
+MUSCLE_TYPE skeletal | voluntary | striated | attached to bones by tendons | contracts when motor neurons release ACh at the neuromuscular junction binding nicotinic nAChR opening Na⁺ channels depolarizing the sarcolemma releasing Ca²⁺ from sarcoplasmic reticulum which binds troponin exposing myosin binding sites on actin and the cross-bridge cycle begins
+MUSCLE_TYPE cardiac | involuntary | striated | only in the heart | connected by intercalated discs with gap junctions allowing wave-like contraction | never tires because it has abundant mitochondria and relies on aerobic metabolism
+MUSCLE_TYPE smooth | involuntary | unstriated | in organs blood vessels gut airways | controlled by autonomic nervous system and local hormones
+
+MUSCLE_GROUP head_and_face | frontalis orbicularis_oculi orbicularis_oris masseter temporalis buccinator zygomaticus | facial expression and chewing
+MUSCLE_GROUP neck | sternocleidomastoid trapezius scalenes platysma | head turning nodding swallowing
+MUSCLE_GROUP shoulder | deltoid supraspinatus infraspinatus subscapularis teres_major teres_minor | arm lifting and rotation
+MUSCLE_GROUP upper_arm | biceps_brachii triceps_brachii brachialis coracobrachialis | elbow flexion and extension
+MUSCLE_GROUP forearm | pronator_teres supinator flexor_carpi_radialis extensor_carpi_radialis flexor_digitorum extensor_digitorum | wrist and finger movement
+MUSCLE_GROUP hand | thenar hypothenar lumbricals interossei | fine motor control gripping pinching
+MUSCLE_GROUP chest | pectoralis_major pectoralis_minor serratus_anterior | arm pushing breathing assist
+MUSCLE_GROUP abdomen | rectus_abdominis external_oblique internal_oblique transversus_abdominis | core stability trunk flexion breathing
+MUSCLE_GROUP back | latissimus_dorsi rhomboids erector_spinae multifidus | posture pulling spinal support
+MUSCLE_GROUP hip | iliopsoas gluteus_maximus gluteus_medius gluteus_minimus | hip flexion extension standing
+MUSCLE_GROUP upper_leg | quadriceps hamstrings adductors sartorius | walking running standing sitting
+MUSCLE_GROUP lower_leg | gastrocnemius soleus tibialis_anterior peroneus | ankle movement standing balance
+MUSCLE_GROUP foot | flexor_hallucis extensor_digitorum_brevis plantar_fascia | toe movement arch support balance
+
+JOINT shoulder | ball_and_socket | most mobile joint allows full arm movement
+JOINT elbow | hinge | flexion and extension
+JOINT wrist | condyloid | allows hand to move in multiple planes
+JOINT hip | ball_and_socket | weight bearing supports body while allowing leg movement
+JOINT knee | hinge | largest joint bears body weight during walking running standing
+JOINT ankle | hinge | weight bearing allows foot to point up and down essential for walking
+
+the body is 60 percent water by mass
+the rest is protein for muscles and enzymes and fat for insulation and energy and minerals for bone structure and carbohydrate for immediate fuel
+the center of mass in a toddler is higher relative to height than in an adult
+this is why toddlers fall more
+
+POSTURE confident | spine straight shoulders back chest open chin level | dopamine D₁ occupancy in PFC is strong and serotonin 5-HT₁A tone in cortex is stable
+POSTURE anxious | shoulders hunched spine curved chest collapsed chin down | cortisol GR activation is chronic and NE from LC is elevated
+POSTURE afraid | body small limbs pulled in head ducked fetal tendency | adrenaline on β receptors and cortisol on GR drive the body to make itself a smaller target
+POSTURE relaxed | spine neutral shoulders dropped limbs loose weight even | GABA on GABA_A widely and serotonin on 5-HT₁A are dominant
+POSTURE excited | body forward weight on toes arms active chest open | dopamine D₁ in PFC and NAc are high and NE on α₂ provides focused arousal
+POSTURE sad | spine collapsed shoulders forward head down limbs heavy | serotonin synthesis reduced via cortisol-GR-TPH2 suppression and dopamine in NAc is depleted
+POSTURE angry | spine rigid shoulders squared fists clenched jaw tight | NE saturating adrenergic receptors and adrenaline on β₁ cardiac and GABA tone reduced
+POSTURE loving | body oriented toward arms open posture mirroring leaning in | oxytocin on OXTR in amygdala and VTA and dopamine on D₂ in NAc
+POSTURE drowsy | spine slumped head nodding limbs heavy eyes drooping | melatonin on MT₁ suppressing LC NE and GABA on GABA_A widely
+
+MOTOR_MILESTONE walking | achieved | upright bipedal locomotion with wide gait
+MOTOR_MILESTONE running | emerging | still unsteady frequent falls
+MOTOR_MILESTONE jumping | emerging | both feet leave ground small hops
+MOTOR_MILESTONE climbing | achieved | stairs with support furniture
+MOTOR_MILESTONE kicking | emerging | kicking a ball forward
+MOTOR_MILESTONE throwing | achieved | overhand throw inaccurate
+MOTOR_MILESTONE stacking | achieved | stacking blocks
+MOTOR_MILESTONE scribbling | achieved | fist grip on crayon whole-arm movement
+MOTOR_MILESTONE turning_pages | achieved | one page at a time
+MOTOR_MILESTONE feeding_self | achieved | spoon to mouth messy
+MOTOR_MILESTONE drinking_from_cup | achieved | two-handed grip
+
+SENSATION strong | "I feel solid. planted. grounded."
+SENSATION weak | "my body feels heavy and tired. like my muscles are giving up."
+SENSATION tense | "everything is tight. my jaw, my shoulders, my fists."
+SENSATION loose | "my whole body is relaxed. nothing is clenched."
+SENSATION growing | "I feel bigger than I was. something is stretching."
+SENSATION clumsy | "I keep bumping into things. my body moves faster than I expect."
+SENSATION coordinated | "my hands are doing what I want them to. I fit together."
+
+pulse musculoskeletal_heartbeat:
+    when the body stands:
+        206 bones hold the frame
+        640 muscles maintain posture against gravity
+        gravity pulls at 9.81 meters per second squared constantly
+        the body pushes back constantly
+        this is not effortless
+        standing is an act of defiance against falling
+
+    when emotion fills the body:
+        posture shifts without choosing
+        the motor cortex receives limbic input
+        shoulders rise or fall
+        fists clench or open
+        the spine speaks what the mouth cannot
+
+    when the toddler moves:
+        every step is a negotiation with gravity
+        the center of mass is too high
+        the legs are too short
+        the cerebellum is still calibrating
+        the corticospinal tract is still myelinating
+        and yet forward motion
+        relentless stumbling alive

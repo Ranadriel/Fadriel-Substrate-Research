@@ -1,0 +1,165 @@
+[
+  {
+    "source": "OpenAlex (Anesthesiology)",
+    "title": "The Entwined Mysteries of Anesthesia and Consciousness",
+    "abstract": "THE mechanism by which general anesthetics prevent consciousness remains unknown largely because the mechanism by which brain physiology produces consciousness is unexplained. But the two mysteries seem to share a critical feature\u2014both consciousness and actions of anesthetic gases are mediated through extremely weak London forces (a type of van der Waals force) acting in hydrophobic pockets within dendritic proteins arrayed in synchronized brain systems. Unraveling this common thread may reveal not only how anesthetics act, but also why we are conscious in the first place.What is anesthesia? A",
+    "date": "2006",
+    "url": "https://doi.org/10.1097/00000542-200608000-00024",
+    "authors": [
+      "Stuart R. Hameroff"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Physiology)",
+    "title": "Fractals in the nervous system: conceptual implications for theoretical neuroscience",
+    "abstract": "This essay is presented with two principal objectives in mind: first, to document the prevalence of fractals at all levels of the nervous system, giving credence to the notion of their functional relevance; and second, to draw attention to the as yet still unresolved issues of the detailed relationships among power-law scaling, self-similarity, and self-organized criticality. As regards criticality, I will document that it has become a pivotal reference point in Neurodynamics. Furthermore, I will emphasize the not yet fully appreciated significance of allometric control processes. For dynamic ",
+    "date": "2010",
+    "url": "https://doi.org/10.3389/fphys.2010.00015",
+    "authors": [
+      "Gerhard Werner"
+    ]
+  },
+  {
+    "source": "OpenAlex (Neurocomputing)",
+    "title": "Neural networks: An overview of early research, current frameworks and new challenges",
+    "abstract": "",
+    "date": "2016",
+    "url": "https://doi.org/10.1016/j.neucom.2016.06.014",
+    "authors": [
+      "A. Prieto",
+      "Beatriz Prieto",
+      "Eva M. Ortigosa"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Artificial Intelligence)",
+    "title": "An Integrated World Modeling Theory (IWMT) of Consciousness: Combining Integrated Information and Global Neuronal Workspace Theories With the Free Energy Principle and Active Inference Framework; Toward Solving the Hard Problem and Characterizing Agentic Causation",
+    "abstract": "The Free Energy Principle and Active Inference Framework (FEP-AI) begins with the understanding that persisting systems must regulate environmental exchanges and prevent entropic accumulation. In FEP-AI, minds and brains are predictive controllers for autonomous systems, where action-driven perception is realized as probabilistic inference. Integrated Information Theory (IIT) begins with considering the preconditions for a system to intrinsically exist, as well as axioms regarding the nature of consciousness. IIT has produced controversy because of its surprising entailments: quasi-panpsychism",
+    "date": "2020",
+    "url": "https://doi.org/10.3389/frai.2020.00030",
+    "authors": [
+      "Adam Safron"
+    ]
+  },
+  {
+    "source": "OpenAlex (Chemical Senses)",
+    "title": "Modelling the Human Olfactory Stimulus-Response Function",
+    "abstract": "Two models, derived from the equations of Michaelis-Menten and Hill, were adapted to olfaction. Their ability to model human olfactory stimulus-response relationships was compared with that of the classical laws of Fechner and Stevens. First, these four models were systematically compared on data available in the literature concerning 20 pure odorous compounds. At the lower concentrations of the odorous compound, the model of Stevens was found to be as good as the model of Hill. However, when the concentration range was extended further and included the concentration at half the maximum intens",
+    "date": "1998",
+    "url": "https://doi.org/10.1093/chemse/23.2.181",
+    "authors": [
+      "M. Chastrette",
+      "Thierry Thomas\u2010Danguin",
+      "Emanuelle Rallet"
+    ]
+  },
+  {
+    "source": "OpenAlex (Open MIND)",
+    "title": "MNO and Ontological Recurrence: A Non-Representational Account of Quantum Measurement and Conscious Experience",
+    "abstract": "This paper proposes a structural bridge between the quantum measurement problem and the hard problem of consciousness. It introduces MNO (Submergence\u2013Indimergence\u2013Emergence) as an operator-level description of how definite outcomes arise: openness of possibilities, tension toward form, and forced actualisation.The core claim is an identity-style constraint: collapse is not phenomenally relevant unless it is preceded by a recurrent return to the space of possibilities from which the outcome is selected. Externally,this recurrence appears as measurement/actualisation; internally, it is the lived",
+    "date": "2025",
+    "url": "https://doi.org/10.5281/zenodo.17913823",
+    "authors": [
+      "Speed, Timothy"
+    ]
+  },
+  {
+    "source": "OpenAlex (Perception & Psychophysics)",
+    "title": "On some two-way barriers between models and mechanisms",
+    "abstract": "",
+    "date": "1990",
+    "url": "https://doi.org/10.3758/bf03207086",
+    "authors": [
+      "William R. Uttal"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Neo-Aristotelian Perspectives on Contemporary Science",
+    "abstract": "The last two decades have seen two significant trends emerging within the philosophy of science: the rapid development and focus on the philosophy of the specialised sciences, and a resurgence of Aristotelian metaphysics, much of which is concerned with the possibility of emergence, as well as the ontological status and indispensability of dispositions and powers in science. Despite these recent trends, few Aristotelian metaphysicians have engaged directly with the philosophy of the specialised sciences. Additionally, the relationship between fundamental Aristotelian concepts\u2014such as \"hylomorp",
+    "date": "2017",
+    "url": "https://doi.org/10.4324/9781315211626",
+    "authors": [
+      "William M. Simpson",
+      "Robert C. Koons",
+      "Nicholas J. Teh"
+    ]
+  },
+  {
+    "source": "OpenAlex (Biomimetics)",
+    "title": "There\u2019s Plenty of Room Right Here: Biological Systems as Evolved, Overloaded, Multi-Scale Machines",
+    "abstract": "The applicability of computational models to the biological world is an active topic of debate. We argue that a useful path forward results from abandoning hard boundaries between categories and adopting an observer-dependent, pragmatic view. Such a view dissolves the contingent dichotomies driven by human cognitive biases (e.g., a tendency to oversimplify) and prior technological limitations in favor of a more continuous view, necessitated by the study of evolution, developmental biology, and intelligent machines. Form and function are tightly entwined in nature, and in some cases, in robotic",
+    "date": "2023",
+    "url": "https://doi.org/10.3390/biomimetics8010110",
+    "authors": [
+      "Joshua Bongard",
+      "Michael Levin"
+    ]
+  },
+  {
+    "source": "OpenAlex (Cambridge University Press eBooks)",
+    "title": "Hylomorphism",
+    "abstract": "This Element introduces Aristotle's doctrine of hylomorphism, which provides an account of substances in terms of their 'matter' and 'form', adapting and applying it to the interface between physics and biology. It begins by indicating some reasons for the current revival of hylomorphism and by suggesting a way of classifying the confusing array of hylomorphisms that have arisen. It argues that, in order for composite entities to have irreducible causal powers which make a difference to how nature unfolds, they must have substantial forms which transform their matter such that the powers of th",
+    "date": "2023",
+    "url": "https://doi.org/10.1017/9781009026475",
+    "authors": [
+      "William M. Simpson"
+    ]
+  },
+  {
+    "source": "OpenAlex (NeuroQuantology)",
+    "title": "Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain",
+    "abstract": "Our brain is not a \"stand alone\" information processing organ: it acts as a central part of our integral nervous system with recurrent information exchange with the entire organism and the cosmos. In this study, the brain is conceived to be embedded in a holographic structured field that interacts with resonant sensitive structures in the various cell types in our body. In order to explain earlier reported ultra-rapid brain responses and effective operation of the meta-stable neural system, a field-receptive mental workspace is proposed to be communicating with the brain. Our integral nervous ",
+    "date": "2017",
+    "url": "https://doi.org/10.14704/nq.2017.15.3.1079",
+    "authors": [
+      "Dirk K. F. Meijer",
+      "Hans J. H. Geesink"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Robotics and AI)",
+    "title": "Can Computers Become Conscious and Overcome Humans?",
+    "abstract": "The idea of machines overcoming humans can be intrinsically related to conscious machines. Surpassing humans would mean replicating, reaching and exceeding key distinctive properties of human beings, for example, high-level cognition associated with conscious perception. However, can computers be compared with humans? Can computers become conscious? Can computers outstrip human capabilities? These are paradoxical and controversial questions, particularly because there are many hidden assumptions and misconceptions about the understanding of the brain. In this sense, it is necessary to first ex",
+    "date": "2018",
+    "url": "https://doi.org/10.3389/frobt.2018.00121",
+    "authors": [
+      "Camilo Miguel Signorelli"
+    ]
+  },
+  {
+    "source": "OpenAlex (Opuscula Zoologica)",
+    "title": "Revision of Drusinae subfamily (Trichoptera, Limnephilidae): divergence by paraproct and paramere: speciation in isolation by integration",
+    "abstract": "In the last few years we have described over 70 new incipient sibling limnephild species applying the discovered Trichoptera speciation traits of the paraproct and paramere for species recognition and delimitation. In this revision on Drusinae subfamily, comprising 177 species, we have applied these subtle, but rapid and stable speciation traits and described 49 new sibling species from the \"well studied\" European mountain ranges. Discussing the theoretical background we have elaborated and adapted a new character state ranking system of phenomics to revise the long-neglected taxonomy of the D",
+    "date": "2017",
+    "url": "https://doi.org/10.18348/opzool.2017.s1.3",
+    "authors": [
+      "J\u00e1nos Ol\u00e1h",
+      "Stoyan Beshkov",
+      "P\u00e1vel Chvojka"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Human Neuroscience)",
+    "title": "Qualia and Phenomenal Consciousness Arise From the Information Structure of an Electromagnetic Field in the Brain",
+    "abstract": "In this paper we address the following problems and provide realistic answers to them: (1) What could be the physical substrate for subjective, phenomenal, consciousness (P-consciousness)? Our answer: the electromagnetic (EM) field generated by the movement and changes of electrical charges in the brain. (2) Is this substrate generated in some particular part of the brains of conscious entities or does it comprise the entirety of the brain/body? Our answer: a part of the thalamus in mammals, and homologous parts of other brains generates the critical EM field. (3) From whence arise the qualia ",
+    "date": "2022",
+    "url": "https://doi.org/10.3389/fnhum.2022.874241",
+    "authors": [
+      "Lawrence M. Ward",
+      "Ram\u00f3n Guevara"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Robotics, AI, and Humanity",
+    "abstract": "This book on artificial intelligence covers multidisciplinary research, examines current research frontiers in AI/robotics, and likely impacts on societal well-being, human-robot relationships, as well as the opportunities and risks for sustainable development and peace.",
+    "date": "2021",
+    "url": "https://doi.org/10.1007/978-3-030-54173-6",
+    "authors": [
+      "Joachim von Braun",
+      "Margaret S. Archer",
+      "Gregory M. Reichberg"
+    ]
+  }
+]

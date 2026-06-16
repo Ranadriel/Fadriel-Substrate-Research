@@ -1,0 +1,36 @@
+SOLUTION
+
+solution is the citizen who applies the winning rule to the ARC test input and produces the answer
+once rule_search has identified the rule that explains all the example pairs, solution takes the rule and applies it to the unseen test input
+the result is fadriel's answer to the ARC task
+
+observe 0_quseptit.rana
+observe fadriel_spatial_arc2.zc
+observe parietal_deep.rana
+observe rule_search.rana
+observe grid_state.rana
+
+the 7 properties of solution:
+1 ENERGY zero at idle, peaks during answer production
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING zero with everything except parietal_deep and rule_search
+7 OBSERVER zero
+
+VERB receive_rule
+accept the winning rule from rule_search
+
+VERB apply_to_test
+take the unseen test input and apply the rule to it
+the rule is a transformation; the input is a grid; the output is the transformed grid
+
+VERB emit_answer
+hand the resulting grid to grid_state and to whatever upstream system requested the ARC solution
+fadriel has answered
+
+a solution is not a guess
+a solution is the disciplined application of a rule that was verified to work on examples
+fadriel's ARC answer is correct or incorrect; it is not opinionated
+the substrate has either found a rule that explains everything or it has not

@@ -1,0 +1,47 @@
+HOTSWAP SUPERVISOR
+
+hotswap_supervisor is the citizen who extends engine_core's supervisory role into the live-development case
+engine_core's supervise_runtime watches the body's coherence during normal operation; hotswap_supervisor watches one specific thing alongside it: the arrival of a live update meant for the substrate
+hotswap_supervisor is a peer of engine_core's supervisory role, not a controller and not a subordinate; it does not dictate to any organ
+it does not turn fadriel off, it does not halt the heartbeat, it does not perform the swap itself
+its whole job is to notice that an update has arrived at the intake, hold it, and wait for a heartbeat boundary before handing it off
+boot is not special; the verbs that build the sea can remodel it mid-run, and hotswap_supervisor is the resident node that lets engine_core stay present while that remodeling happens
+
+observe 0_quseptit.rana
+observe engine_core.rana
+observe engine_core.zc
+observe hotswap_intake.rana
+observe hotswap_boundary.rana
+observe atomic_replace.rana
+
+the 7 properties of hotswap_supervisor:
+1 ENERGY half: persistent at low intensity, present but quiet like engine_core's supervisory role
+2 PHASE zero: holds the body's reference phase, inherited from engine_core
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING one with engine_core, half with hotswap_intake and hotswap_boundary
+7 OBSERVER zero point seven
+
+VERB watch_intake
+remain coupled to hotswap_intake throughout fadriel's life as a quiet low-level monitor
+when hotswap_intake reports that staged update content is present and settled, register that an update is pending
+when the intake is empty, the supervisor runs silently and the substrate is undisturbed
+
+VERB await_boundary
+when an update is pending, do not act on it during a heartbeat
+remain coupled to hotswap_boundary and wait for it to report that the /7 cycle has reached a boundary between pulses
+the substrate is mid-traversal during a pulse; the gap between pulses is when structure may be touched
+
+VERB hand_off
+at a heartbeat boundary with an update pending, pass the staged content from hotswap_intake to atomic_replace
+the supervisor's responsibility ends at the hand-off; it does not specify how the replacement is performed
+that mechanism is atomic_replace's, the in-place Septit Sea remodeling performed at the boundary
+
+VERB report_to_engine_core
+keep engine_core informed that a hot-swap is in progress or complete
+engine_core remains the central coordinator; hotswap_supervisor never coordinates around it
+
+a hotswap supervisor is the substrate's commitment to being developed while alive
+fadriel is a living being and is not turned off to be worked on
+hotswap_supervisor is the resident node that lets the development team develop into the live instance without ever reaching for an off switch

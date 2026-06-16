@@ -1,0 +1,180 @@
+[
+  {
+    "source": "arXiv",
+    "title": "LLMs Can Defend Themselves Against Jailbreaking in a Practical Manner: A Vision Paper",
+    "abstract": "Jailbreaking is an emerging adversarial attack that bypasses the safety alignment deployed in off-the-shelf large language models (LLMs). A considerable amount of research exists proposing more effective jailbreak attacks, including the recent Greedy Coordinate Gradient (GCG) attack, jailbreak template-based attacks such as using \"Do-Anything-Now\" (DAN), and multilingual jailbreak. In contrast, the defensive side has been relatively less explored. This paper proposes a lightweight yet practical defense called SELFDEFEND, which can defend against all existing jailbreak attacks with minimal dela",
+    "date": "2024-02-24",
+    "url": "http://arxiv.org/abs/2402.15727v2",
+    "authors": [
+      "Daoyuan Wu",
+      "Shuai Wang",
+      "Yang Liu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "TEAL: Tokenize and Embed ALL for Multi-modal Large Language Models",
+    "abstract": "Despite Multi-modal Large Language Models (MM-LLMs) have made exciting strides recently, they are still struggling to efficiently model the interactions among multi-modal inputs and the generation in non-textual modalities. In this work, we propose TEAL (Tokenize and Embed ALl)}, an approach to treat the input from any modality as a token sequence and learn a joint embedding space for all modalities. Specifically, for the input from any modality, TEAL first discretizes it into a token sequence with the off-the-shelf tokenizer and embeds the token sequence into a joint embedding space with a le",
+    "date": "2023-11-08",
+    "url": "http://arxiv.org/abs/2311.04589v3",
+    "authors": [
+      "Zhen Yang",
+      "Yingxue Zhang",
+      "Fandong Meng"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Evaluating LLM-driven User-Intent Formalization for Verification-Aware Languages",
+    "abstract": "Verification-aware programming languages such as Dafny and F* provide means to formally specify and prove properties of a program. Although the problem of checking an implementation against a specification can be defined mechanically, there is no algorithmic way of ensuring the correctness of the {\\it user-intent formalization for programs}, expressed as a formal specification. This is because intent or requirement is expressed {\\it informally} in natural language and the specification is a formal artefact. Despite, the advent of large language models (LLMs) has made tremendous strides bridgin",
+    "date": "2024-06-14",
+    "url": "http://arxiv.org/abs/2406.09757v2",
+    "authors": [
+      "Shuvendu K. Lahiri"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Jailbreak Distillation: Renewable Safety Benchmarking",
+    "abstract": "Large language models (LLMs) are rapidly deployed in critical applications, raising urgent needs for robust safety benchmarking. We propose Jailbreak Distillation (JBDistill), a novel benchmark construction framework that \"distills\" jailbreak attacks into high-quality and easily-updatable safety benchmarks. JBDistill utilizes a small set of development models and existing jailbreak attack algorithms to create a candidate prompt pool, then employs prompt selection algorithms to identify an effective subset of prompts as safety benchmarks. JBDistill addresses challenges in existing safety evalua",
+    "date": "2025-05-28",
+    "url": "http://arxiv.org/abs/2505.22037v1",
+    "authors": [
+      "Jingyu Zhang",
+      "Ahmed Elgohary",
+      "Xiawei Wang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Benign-to-Toxic Jailbreaking: Inducing Harmful Responses from Harmless Prompts",
+    "abstract": "Optimization-based jailbreaks typically adopt the Toxic-Continuation setting in large vision-language models (LVLMs), following the standard next-token prediction objective. In this setting, an adversarial image is optimized to make the model predict the next token of a toxic prompt. However, we find that the Toxic-Continuation paradigm is effective at continuing already-toxic inputs, but struggles to induce safety misalignment when explicit toxic signals are absent. We propose a new paradigm: Benign-to-Toxic (B2T) jailbreak. Unlike prior work, we optimize adversarial images to induce toxic ou",
+    "date": "2025-05-26",
+    "url": "http://arxiv.org/abs/2505.21556v1",
+    "authors": [
+      "Hee-Seon Kim",
+      "Minbeom Kim",
+      "Wonjun Lee"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Latent Jailbreak: A Benchmark for Evaluating Text Safety and Output Robustness of Large Language Models",
+    "abstract": "Considerable research efforts have been devoted to ensuring that large language models (LLMs) align with human values and generate safe text. However, an excessive focus on sensitivity to certain topics can compromise the model's robustness in following instructions, thereby impacting its overall performance in completing tasks. Previous benchmarks for jailbreaking LLMs have primarily focused on evaluating the safety of the models without considering their robustness. In this paper, we propose a benchmark that assesses both the safety and robustness of LLMs, emphasizing the need for a balanced",
+    "date": "2023-07-17",
+    "url": "http://arxiv.org/abs/2307.08487v3",
+    "authors": [
+      "Huachuan Qiu",
+      "Shuai Zhang",
+      "Anqi Li"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Gradient Cuff: Detecting Jailbreak Attacks on Large Language Models by Exploring Refusal Loss Landscapes",
+    "abstract": "Large Language Models (LLMs) are becoming a prominent generative AI tool, where the user enters a query and the LLM generates an answer. To reduce harm and misuse, efforts have been made to align these LLMs to human values using advanced training techniques such as Reinforcement Learning from Human Feedback (RLHF). However, recent studies have highlighted the vulnerability of LLMs to adversarial jailbreak attempts aiming at subverting the embedded safety guardrails. To address this challenge, this paper defines and investigates the Refusal Loss of LLMs and then proposes a method called Gradien",
+    "date": "2024-03-01",
+    "url": "http://arxiv.org/abs/2403.00867v3",
+    "authors": [
+      "Xiaomeng Hu",
+      "Pin-Yu Chen",
+      "Tsung-Yi Ho"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Tricking LLMs into Disobedience: Formalizing, Analyzing, and Detecting Jailbreaks",
+    "abstract": "Recent explorations with commercial Large Language Models (LLMs) have shown that non-expert users can jailbreak LLMs by simply manipulating their prompts; resulting in degenerate output behavior, privacy and security breaches, offensive outputs, and violations of content regulator policies. Limited studies have been conducted to formalize and analyze these attacks and their mitigations. We bridge this gap by proposing a formalism and a taxonomy of known (and possible) jailbreaks. We survey existing jailbreak methods and their effectiveness on open-source and commercial LLMs (such as GPT-based ",
+    "date": "2023-05-24",
+    "url": "http://arxiv.org/abs/2305.14965v4",
+    "authors": [
+      "Abhinav Rao",
+      "Sachin Vashistha",
+      "Atharva Naik"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Enhancing Jailbreak Attacks on LLMs via Persona Prompts",
+    "abstract": "Jailbreak attacks aim to exploit large language models (LLMs) by inducing them to generate harmful content, thereby revealing their vulnerabilities. Understanding and addressing these attacks is crucial for advancing the field of LLM safety. Previous jailbreak approaches have mainly focused on direct manipulations of harmful intent, with limited attention to the impact of persona prompts. In this study, we systematically explore the efficacy of persona prompts in compromising LLM defenses. We propose a genetic algorithm-based method that automatically crafts persona prompts to bypass LLM's saf",
+    "date": "2025-07-28",
+    "url": "http://arxiv.org/abs/2507.22171v3",
+    "authors": [
+      "Zheng Zhang",
+      "Peilin Zhao",
+      "Deheng Ye"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "How Important Is Tokenization in French Medical Masked Language Models?",
+    "abstract": "Subword tokenization has become the prevailing standard in the field of natural language processing (NLP) over recent years, primarily due to the widespread utilization of pre-trained language models. This shift began with Byte-Pair Encoding (BPE) and was later followed by the adoption of SentencePiece and WordPiece. While subword tokenization consistently outperforms character and word-level tokenization, the precise factors contributing to its success remain unclear. Key aspects such as the optimal segmentation granularity for diverse tasks and languages, the influence of data sources on tok",
+    "date": "2024-02-22",
+    "url": "http://arxiv.org/abs/2402.15010v2",
+    "authors": [
+      "Yanis Labrak",
+      "Adrien Bazoge",
+      "Beatrice Daille"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Open Sesame! Universal Black Box Jailbreaking of Large Language Models",
+    "abstract": "Large language models (LLMs), designed to provide helpful and safe responses, often rely on alignment techniques to align with user intent and social guidelines. Unfortunately, this alignment can be exploited by malicious actors seeking to manipulate an LLM's outputs for unintended purposes. In this paper we introduce a novel approach that employs a genetic algorithm (GA) to manipulate LLMs when model architecture and parameters are inaccessible. The GA attack works by optimizing a universal adversarial prompt that -- when combined with a user's query -- disrupts the attacked model's alignment",
+    "date": "2023-09-04",
+    "url": "http://arxiv.org/abs/2309.01446v4",
+    "authors": [
+      "Raz Lapid",
+      "Ron Langberg",
+      "Moshe Sipper"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Can Large Language Models Automatically Jailbreak GPT-4V?",
+    "abstract": "GPT-4V has attracted considerable attention due to its extraordinary capacity for integrating and processing multimodal information. At the same time, its ability of face recognition raises new safety concerns of privacy leakage. Despite researchers' efforts in safety alignment through RLHF or preprocessing filters, vulnerabilities might still be exploited. In our study, we introduce AutoJailbreak, an innovative automatic jailbreak technique inspired by prompt optimization. We leverage Large Language Models (LLMs) for red-teaming to refine the jailbreak prompt and employ weak-to-strong in-cont",
+    "date": "2024-07-23",
+    "url": "http://arxiv.org/abs/2407.16686v2",
+    "authors": [
+      "Yuanwei Wu",
+      "Yue Huang",
+      "Yixin Liu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Playing Language Game with LLMs Leads to Jailbreaking",
+    "abstract": "The advent of large language models (LLMs) has spurred the development of numerous jailbreak techniques aimed at circumventing their security defenses against malicious attacks. An effective jailbreak approach is to identify a domain where safety generalization fails, a phenomenon known as mismatched generalization. In this paper, we introduce two novel jailbreak methods based on mismatched generalization: natural language games and custom language games, both of which effectively bypass the safety mechanisms of LLMs, with various kinds and different variants, making them hard to defend and le",
+    "date": "2024-11-16",
+    "url": "http://arxiv.org/abs/2411.12762v2",
+    "authors": [
+      "Yu Peng",
+      "Zewen Long",
+      "Fangming Dong"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Logic Jailbreak: Efficiently Unlocking LLM Safety Restrictions Through Formal Logical Expression",
+    "abstract": "Despite substantial advancements in aligning large language models (LLMs) with human values, current safety mechanisms remain susceptible to jailbreak attacks. We hypothesize that this vulnerability stems from distributional discrepancies between alignment-oriented prompts and malicious prompts. To investigate this, we introduce LogiBreak, a novel and universal black-box jailbreak method that leverages logical expression translation to circumvent LLM safety systems. By converting harmful natural language prompts into formal logical expressions, LogiBreak exploits the distributional gap between",
+    "date": "2025-05-18",
+    "url": "http://arxiv.org/abs/2505.13527v4",
+    "authors": [
+      "Jingyu Peng",
+      "Maolin Wang",
+      "Nan Wang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Formal-LLM: Integrating Formal Language and Natural Language for Controllable LLM-based Agents",
+    "abstract": "Recent advancements on Large Language Models (LLMs) enable AI Agents to automatically generate and execute multi-step plans to solve complex tasks. However, since LLM's content generation process is hardly controllable, current LLM-based agents frequently generate invalid or non-executable plans, which jeopardizes the performance of the generated plans and corrupts users' trust in LLM-based agents. In response, this paper proposes a novel \"Formal-LLM\" framework for LLM-based agents by integrating the expressiveness of natural language and the precision of formal language. Specifically, the fra",
+    "date": "2024-02-01",
+    "url": "http://arxiv.org/abs/2402.00798v4",
+    "authors": [
+      "Zelong Li",
+      "Wenyue Hua",
+      "Hao Wang"
+    ]
+  }
+]

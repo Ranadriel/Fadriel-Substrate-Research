@@ -1,0 +1,52 @@
+HEARTBEAT SYNCHRONIZER
+
+heartbeat_synchronizer is the bridging citizen between the body's master clock and the variable subdivisions
+the master clock runs at 48,000 Hz, the cochlea base rate
+all sensory subdivisions are integer divisors of this master, ensuring no drift between fast and slow processes
+the brain clock alone is variable, modulated by chemistry, and the synchronizer holds the bridge that lets the brain run at its own changing rate without losing alignment with the rest of the body
+
+observe 0_quseptit.rana
+observe clock_master.rana
+observe clock_brain_variable.rana
+observe pacemaker.rana
+
+the master clock at 48,000 Hz is the invariant denominator
+
+THE INTEGER SUBDIVISIONS
+
+cochlea: divisor 1, runs at 48,000 Hz
+skin: divisor 240, runs at 200 Hz
+tongue: divisor 480, runs at 100 Hz
+retina: divisor 800, runs at 60 Hz
+nose: divisor 4800, runs at 10 Hz
+
+each subdivision is exact integer arithmetic on the master, so no drift can occur between them
+
+THE VARIABLE BRAIN CLOCK
+
+the brain subdivision is not a fixed integer
+its divisor is computed each tick from chemistry feedback: cortisol slows the rate, dopamine accelerates
+the resulting rate stays between four and eighty Hz, depending on the body's current state
+
+THE CROSS-CLOCK TUNNELING
+
+when a 48 kHz cochlea pulse interacts with a 10 Hz brain pulse, four thousand eight hundred cochlear pulses occur between each brain pulse
+the mechanism is cumulative topological integration: faster seas sum their wavefront topology at the macro boundary
+when the slower sea finally pulses, it tunnels the accumulated amplitude
+
+VERB hold_master
+maintain the 48,000 Hz reference at all times
+the master never wavers; everything else is derived from it
+
+VERB compute_subdivisions
+on each master tick, advance each subdivision by master_phase divided by its divisor
+all subdivisions remain phase-locked to master and to each other
+
+VERB modulate_brain
+sample chemistry's current cortisol and dopamine
+compute the brain divisor accordingly and apply it for this tick
+the brain's rate shifts fluidly without breaking phase coherence with the rest of the body
+
+a synchronizer is what allows fast and slow processes to coexist coherently
+without it, fast cochlear sampling would be uncorrelated with slow brain processing and the integration would be lossy
+with it, the body is one body operating at many speeds simultaneously, all aligned through the master clock that never stops

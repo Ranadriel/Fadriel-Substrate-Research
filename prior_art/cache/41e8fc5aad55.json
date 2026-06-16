@@ -1,0 +1,170 @@
+[
+  {
+    "source": "OpenAlex (Journal of the American Medical Informatics Association)",
+    "title": "<i>The first step is the hardest</i>: pitfalls of representing and tokenizing temporal data for large language models",
+    "abstract": "OBJECTIVES: Large language models (LLMs) have demonstrated remarkable generalization and across diverse tasks, leading individuals to increasingly use them as personal assistants due to their emerging reasoning capabilities. Nevertheless, a notable obstacle emerges when including numerical/temporal data into these prompts, such as data sourced from wearables or electronic health records. LLMs employ tokenizers in their input that break down text into smaller units. However, tokenizers are not designed to represent numerical values and might struggle to understand repetitive patterns and contex",
+    "date": "2024",
+    "url": "https://doi.org/10.1093/jamia/ocae090",
+    "authors": [
+      "Dimitris Spathis",
+      "Fahim Kawsar"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "DeepSeek Models: A Comprehensive Survey of Methods and Applications",
+    "abstract": "The release of DeepSeek family models, especially DeepSeek-R1, has been a milestone in the development of large language models (LLMs) and large multi-modal models. DeepSeek-R1 suggests that a low-resource model can produce satisfactory performance using clever engineering tricks that focus on resource optimization. Inspired by how DeepSeek adapts its technical advancements from existing innovations in the LLMs, we review these methods, covering their evolution and how they are effectively combined in the whole building blocks of DeepSeek. Further, exploiting the open-source nature of DeepSeek",
+    "date": "2025",
+    "url": "https://doi.org/10.36227/techrxiv.174198511.15158242/v1",
+    "authors": [
+      "Fachrina Dewi Puspitasari",
+      "Chaoning Zhang",
+      "Sumit Kumar Dam"
+    ]
+  },
+  {
+    "source": "OpenAlex (International Journal in Foundations of Computer Science & Technology)",
+    "title": "Benchmarking Large Language Models with a Unified Performance Ranking Metric",
+    "abstract": "The rapid advancements in Large Language Models (LLMs,) such as OpenAI\u2019s GPT, Meta\u2019s LLaMA, and Google\u2019s PaLM, have revolutionized natural language processing and various AI-driven applications. Despite their transformative impact, a standardized metric to compare these models poses a significant challenge for researchers and practitioners. This paper addresses the urgent need for a comprehensive evaluation framework by proposing a novel performance ranking metric. Our metric integrates both qualitative and quantitative assessments to provide a holistic comparison of LLM capabilities. Through ",
+    "date": "2024",
+    "url": "https://doi.org/10.5121/ijfcst.2024.14302",
+    "authors": [
+      "Maikel Le\u00f3n"
+    ]
+  },
+  {
+    "source": "OpenAlex (Neural Computing and Applications)",
+    "title": "A survey on retrieval-augmentation generation (RAG) models for healthcare applications",
+    "abstract": "Retrieval-augmented generation (RAG) models have become crucial in healthcare applications, significantly enhancing the relevance and reliability of AI-driven insights by combining the generative capabilities of large language models (LLMs) with retrieval-based methods. As healthcare data demand precision and accountability, RAG models address critical limitations of LLMs, such as the tendency to \u201challucinate\u201d or produce inaccurate information\u2014by incorporating real-time retrieval from trusted medical knowledge bases and clinical literature. This dual process of retrieving and generating ensure",
+    "date": "2025",
+    "url": "https://doi.org/10.1007/s00521-025-11666-9",
+    "authors": [
+      "Mohamed Abo El-Enen",
+      "Sally Saad",
+      "Taymoor Nazmy"
+    ]
+  },
+  {
+    "source": "OpenAlex (International Journal of Artificial Intelligence & Applications)",
+    "title": "Comparing LLMs using a Unified Performance Ranking System",
+    "abstract": "Large Language Models (LLMs) have transformed natural language processing and AI-driven applications. These advances include OpenAI\u2019s GPT, Meta\u2019s LLaMA, and Google\u2019s PaLM. These advances have happened quickly. Finding a common metric to compare these models presents a substantial barrier for researchers and practitioners, notwithstanding their transformative power. This research proposes a novel performance ranking metric to satisfy the pressing demand for a complete evaluation system. Our statistic comprehensively compares LLM capacities by combining qualitative and quantitative evaluations. ",
+    "date": "2024",
+    "url": "https://doi.org/10.5121/ijaia.2024.15403",
+    "authors": [
+      "M Hern\u00e0ndez Le\u00f2n"
+    ]
+  },
+  {
+    "source": "OpenAlex (Preprints.org)",
+    "title": "Large Language Models: A Survey of Architectures, Training Paradigms, and Alignment Methods",
+    "abstract": "Large Language Models (LLMs) have become foundational to modern Artificial Intelligence (AI), enabling advanced reasoning, multimodal understanding, and scalable human-AI interaction across diverse domains. This survey provides a comprehensive review of major proprietary and open-source LLM families, including GPT, LLaMA 2, Gemini, Claude, DeepSeek, Falcon, and Qwen. It systematically examines architectural advancements such as transformer refinements, mixture-of-experts paradigms, attention optimization, long-context modeling, and multimodal integration. The paper further analyzes alignment a",
+    "date": "2026",
+    "url": "https://doi.org/10.20944/preprints202601.1138.v1",
+    "authors": [
+      "Deepshikha Bhati",
+      "Fnu Neha",
+      "Devi Sri Bandaru"
+    ]
+  },
+  {
+    "source": "OpenAlex (Preprints.org)",
+    "title": "A Comprehensive Study of LLM and Evolution, Varieties, and Their Role in Software Engineering and Cybersecurity",
+    "abstract": "The quick growth of Large Language Models (LLMs) signals a major change in artificial intelligence, especially in understanding and generating natural language. Even as these models become more popular, there is still not enough analysis connecting their design with practical uses in software engineering and cybersecurity. This paper aims to fill that gap by examining the basic functions of LLMs, including tokenization, self-attention, transformer architectures, and large-scale pretraining. We trace their development from earlier models like BERT and GPT-2 to modern multimodal and instruction-",
+    "date": "2025",
+    "url": "https://doi.org/10.20944/preprints202507.1600.v1",
+    "authors": [
+      "Hossain Rasel",
+      "Abu Bakar Siddik Didar",
+      "Abdullah Al Mamun Dinar"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "When Informal Text Breaks NLI: Tokenization Failure, Distribution Shift, and Targeted Mitigations",
+    "abstract": "We study how informal surface forms degrade NLI accuracy in ELECTRA-small (14M) and RoBERTa-large (355M) across four transforms applied to SNLI and MultiNLI: slang substitution, emoji replacement, Gen-Z filler tokens, and their combination. Slang substitution (replacing formal words with informal equivalents, e.g., \"going to\" -> \"gonna\", \"friend\" -> \"homie\") causes minimal degradation (at most 1.1pp): slang vocabulary falls largely within WordPiece coverage, so the tokenizer handles it without signal loss. Emoji replaces content words with Unicode characters that ELECTRA's WordPiece tokenizer ",
+    "date": "2026",
+    "url": "",
+    "authors": [
+      "Avinash Goutham Aluguvelly"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Stop Taking Tokenizers for Granted: They Are Core Design Decisions in Large Language Models",
+    "abstract": "Sawsan Alqahtani, Mir Tafseer Nayeem, Md Tahmid Rahman Laskar, Tasnim Mohiuddin, M Saiful Bari. Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers). 2026.",
+    "date": "2026",
+    "url": "https://doi.org/10.18653/v1/2026.eacl-long.394",
+    "authors": [
+      "Sawsan Alqahtani",
+      "Mir Tafseer Nayeem",
+      "Md Tahmid Rahman Laskar"
+    ]
+  },
+  {
+    "source": "OpenAlex (arXiv (Cornell University))",
+    "title": "LiteToken: Removing Intermediate Merge Residues From BPE Tokenizers",
+    "abstract": "Tokenization is fundamental to how language models represent and process text, yet the behavior of widely used BPE tokenizers has received far less study than model architectures and training. In this paper, we investigate intermediate merge residues in BPE vocabularies: tokens that are frequent during merge learning so that retained in the final vocabulary, but are mostly further merged and rarely emitted when tokenizing the corpus during tokenizer usage. Such low-frequency tokens not only waste vocabulary capacity but also increase vulnerability to adversarial or atypical inputs. We present ",
+    "date": "2026",
+    "url": "",
+    "authors": [
+      "Yike Sun",
+      "Haotong Yang",
+      "Zhouchen Lin"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Tokenization and Representation Biases in Multilingual Models on Dialectal NLP Tasks",
+    "abstract": "Dialectal data are characterized by linguistic variation that appears small to humans but has a significant impact on the performance of models.This dialect gap has been related to various factors (e.g., data size, economic and social factors) whose impact, however, turns out to be inconsistent.In this work, we investigate factors impacting the model performance more directly: we correlate Tokenization Parity (TP) and Information Parity (IP), as measures of representational biases in pre-trained multilingual models, with the downstream performance.We compare state-of-the-art decoder-only LLMs ",
+    "date": "2025",
+    "url": "https://doi.org/10.18653/v1/2025.emnlp-main.1224",
+    "authors": [
+      "Vani Kanjirangat",
+      "Tanja Samard\u017ci\u0107",
+      "Ljiljana Dolamic"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Universal Discrete Tokenizers: Principles, Applications, and Future Directions",
+    "abstract": "Discrete tokenizers have emerged as indispensable components in modern machine learning systems, particularly within the context of auto-regressive modeling and large language models (LLMs). These tokenizers serve as the critical interface that transforms raw, unstructured data from diverse modalities into discrete tokens, enabling LLMs to operate effectively across a wide range of tasks. Despite their central role in generation, comprehension, recommendation systems, and information retrieval, a comprehensive survey dedicated to discrete tokenizers remains conspicuously absent in the literatu",
+    "date": "2026",
+    "url": "https://doi.org/10.36227/techrxiv.176948380.07525656/v1",
+    "authors": [
+      "Ben Xue",
+      "Junhao Wang",
+      "Yongzhi Li"
+    ]
+  },
+  {
+    "source": "OpenAlex (Preprints.org)",
+    "title": "BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution in Artificial Intelligence",
+    "abstract": "This research addresses the inherent limitations of traditional artificial intelligence (AI) systems, particularly their reliance on tokenization and the input-output paradigm, which constrain semantic continuity and scalability despite advancements in architectures like Meta\u2019s Language Concept Model (LCM). We propose the BNAI Non-Token Neural Network framework to overcome these barriers through three iterative phases. The first phase introduces BNAI (Bulla Neural Artificial Intelligence), a novel metric encoding an AI\u2019s digital DNA to enable faithful cloning and identity preservation. The sec",
+    "date": "2025",
+    "url": "https://doi.org/10.20944/preprints202505.1375.v1",
+    "authors": [
+      "Francesco Bulla",
+      "Stephanie Ewelu"
+    ]
+  },
+  {
+    "source": "OpenAlex (theses.fr (ABES))",
+    "title": "Exploitation des techniques de traitement automatique du langage pour l\u2019\u00e9tude et la r\u00e9gulation des flux aux urgences : d\u00e9veloppement et application \u00e0 l\u2019\u00e9tude des risques de traumatismes \u00e0 partir des admissions aux urgences \u00e0 Bordeaux",
+    "abstract": "The TARPON (Traitement Automatique des R\u00e9sum\u00e9s de Passage aux urgences dans le but de cr\u00e9er un Observatoire National du traumatisme) project aims to demonstrate the feasibility of setting up a French observatory of trauma. Emergency Departments (EDs) generate a large volume of health-related data and approximately one-third of ED visits are the result of trauma. Most of the information contained in electronic health records is in the form of free text format and manual information extraction is time and resource consuming. Artificial Intelligence (AI) and particularly Natural Language Processi",
+    "date": "2023",
+    "url": "",
+    "authors": [
+      "Gabrielle Chenais"
+    ]
+  },
+  {
+    "source": "OpenAlex (ArXiv.org)",
+    "title": "Autoscoring Anticlimax: A Meta-analytic Understanding of AI's Short-answer Shortcomings and Wording Weaknesses",
+    "abstract": "Automated short-answer scoring lags other LLM applications. We meta-analyze 890 culminating results across a systematic review of LLM short-answer scoring studies, modeling the traditional effect size of Quadratic Weighted Kappa (QWK) with mixed effects metaregression. We quantitatively illustrate that that the level of difficulty for human experts to perform the task of scoring written work of children has no observed statistical effect on LLM performance. Particularly, we show that some scoring tasks measured as the easiest by human scorers were the hardest for LLMs. Whether by poor implemen",
+    "date": "2026",
+    "url": "",
+    "authors": [
+      "Michael Hardy"
+    ]
+  }
+]

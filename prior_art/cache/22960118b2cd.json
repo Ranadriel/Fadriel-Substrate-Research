@@ -1,0 +1,173 @@
+[
+  {
+    "source": "arXiv",
+    "title": "A Tutorial about Random Neural Networks in Supervised Learning",
+    "abstract": "Random Neural Networks (RNNs) are a class of Neural Networks (NNs) that can also be seen as a specific type of queuing network. They have been successfully used in several domains during the last 25 years, as queuing networks to analyze the performance of resource sharing in many engineering areas, as learning tools and in combinatorial optimization, where they are seen as neural systems, and also as models of neurological aspects of living beings. In this article we focus on their learning capabilities, and more specifically, we present a practical guide for using the RNN to solve supervised ",
+    "date": "2016-09-15",
+    "url": "http://arxiv.org/abs/1609.04846v1",
+    "authors": [
+      "Sebasti\u00e1n Basterrech",
+      "Gerardo Rubino"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Strengthening the Training of Convolutional Neural Networks By Using Walsh Matrix",
+    "abstract": "DNN structures are continuously developing and achieving high performances in classification problems. Also, it is observed that success rates obtained with DNNs are higher than those obtained with traditional neural networks. In addition, one of the advantages of DNNs is that there is no need to spend an extra effort to determine the features; the CNN automatically extracts the features from the dataset during the training. Besides their benefits, the DNNs have the following three major drawbacks among the others: (i) Researchers have struggled with over-fitting and under-fitting issues in th",
+    "date": "2021-03-31",
+    "url": "http://arxiv.org/abs/2104.00035v1",
+    "authors": [
+      "Tamer \u00d6lmez",
+      "Z\u00fcmray Dokur"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Predicting concentration levels of air pollutants by transfer learning and recurrent neural network",
+    "abstract": "Air pollution (AP) poses a great threat to human health, and people are paying more attention than ever to its prediction. Accurate prediction of AP helps people to plan for their outdoor activities and aids protecting human health. In this paper, long-short term memory (LSTM) recurrent neural networks (RNNs) have been used to predict the future concentration of air pollutants (APS) in Macau. Additionally, meteorological data and data on the concentration of APS have been utilized. Moreover, in Macau, some air quality monitoring stations (AQMSs) have less observed data in quantity, and, at the",
+    "date": "2025-01-30",
+    "url": "http://arxiv.org/abs/2502.01654v1",
+    "authors": [
+      "Iat Hang Fong",
+      "Tengyue Li",
+      "Simon Fong"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Masked Conditional Neural Networks for Audio Classification",
+    "abstract": "We present the ConditionaL Neural Network (CLNN) and the Masked ConditionaL Neural Network (MCLNN) designed for temporal signal recognition. The CLNN takes into consideration the temporal nature of the sound signal and the MCLNN extends upon the CLNN through a binary mask to preserve the spatial locality of the features and allows an automated exploration of the features combination analogous to hand-crafting the most relevant features for the recognition task. MCLNN has achieved competitive recognition accuracies on the GTZAN and the ISMIR2004 music datasets that surpass several state-of-the-",
+    "date": "2018-03-06",
+    "url": "http://arxiv.org/abs/1803.02421v2",
+    "authors": [
+      "Fady Medhat",
+      "David Chesmore",
+      "John Robinson"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Training a Hidden Markov Model with a Bayesian Spiking Neural Network",
+    "abstract": "It is of some interest to understand how statistically based mechanisms for signal processing might be integrated with biologically motivated mechanisms such as neural networks. This paper explores a novel hybrid approach for classifying segments of sequential data, such as individual spoken works. The approach combines a hidden Markov model (HMM) with a spiking neural network (SNN). The HMM, consisting of states and transitions, forms a fixed backbone with nonadaptive transition probabilities. The SNN, however, implements a biologically based Bayesian computation that derives from the spike t",
+    "date": "2016-06-02",
+    "url": "http://arxiv.org/abs/1606.00825v2",
+    "authors": [
+      "Amirhossein Tavanaei",
+      "Anthony S Maida"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Graph Neural Network Training Systems: A Performance Comparison of Full-Graph and Mini-Batch",
+    "abstract": "Graph Neural Networks (GNNs) have gained significant attention in recent years due to their ability to learn representations of graph-structured data. Two common methods for training GNNs are mini-batch training and full-graph training. Since these two methods require different training pipelines and systems optimizations, two separate classes of GNN training systems emerged, each tailored for one method. Works that introduce systems belonging to a particular category predominantly compare them with other systems within the same category, offering limited or no comparison with systems from the",
+    "date": "2024-06-01",
+    "url": "http://arxiv.org/abs/2406.00552v4",
+    "authors": [
+      "Saurabh Bajaj",
+      "Hojae Son",
+      "Juelin Liu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Enhancing Signed Graph Neural Networks through Curriculum-Based Training",
+    "abstract": "Signed graphs are powerful models for representing complex relations with both positive and negative connections. Recently, Signed Graph Neural Networks (SGNNs) have emerged as potent tools for analyzing such graphs. To our knowledge, no prior research has been conducted on devising a training plan specifically for SGNNs. The prevailing training approach feeds samples (edges) to models in a random order, resulting in equal contributions from each sample during the training process, but fails to account for varying learning difficulties based on the graph's structure. We contend that SGNNs can ",
+    "date": "2023-10-17",
+    "url": "http://arxiv.org/abs/2310.11083v2",
+    "authors": [
+      "Zeyu Zhang",
+      "Lu Li",
+      "Xingyu Ji"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Towards Dropout Training for Convolutional Neural Networks",
+    "abstract": "Recently, dropout has seen increasing use in deep learning. For deep convolutional neural networks, dropout is known to work well in fully-connected layers. However, its effect in convolutional and pooling layers is still not clear. This paper demonstrates that max-pooling dropout is equivalent to randomly picking activation based on a multinomial distribution at training time. In light of this insight, we advocate employing our proposed probabilistic weighted pooling, instead of commonly used max-pooling, to act as model averaging at test time. Empirical evidence validates the superiority of ",
+    "date": "2015-12-01",
+    "url": "http://arxiv.org/abs/1512.00242v1",
+    "authors": [
+      "Haibing Wu",
+      "Xiaodong Gu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Beating the Perils of Non-Convexity: Guaranteed Training of Neural Networks using Tensor Methods",
+    "abstract": "Training neural networks is a challenging non-convex optimization problem, and backpropagation or gradient descent can get stuck in spurious local optima. We propose a novel algorithm based on tensor decomposition for guaranteed training of two-layer neural networks. We provide risk bounds for our proposed method, with a polynomial sample complexity in the relevant parameters, such as input dimension and number of neurons. While learning arbitrary target functions is NP-hard, we provide transparent conditions on the function and the input for learnability. Our training method is based on tenso",
+    "date": "2015-06-28",
+    "url": "http://arxiv.org/abs/1506.08473v3",
+    "authors": [
+      "Majid Janzamin",
+      "Hanie Sedghi",
+      "Anima Anandkumar"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+    "abstract": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN) are very popular in our days. Depending on the learning task, the exact form of DANNs is determined via their multi-layer architecture, activation functions and the so-called loss function. However, for a majority of deep learning approaches based on DANNs, the kernel structure of neural signal processing remains the same, where the node",
+    "date": "2023-06-26",
+    "url": "http://arxiv.org/abs/2306.14753v1",
+    "authors": [
+      "Sergey Oladyshkin",
+      "Timothy Praditia",
+      "Ilja Kr\u00f6ker"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Testing the Efficient Network TRaining (ENTR) Hypothesis: initially reducing training image size makes Convolutional Neural Network training for image recognition tasks more efficient",
+    "abstract": "Convolutional Neural Networks (CNN) for image recognition tasks are seeing rapid advances in the available architectures and how networks are trained based on large computational infrastructure and standard datasets with millions of images. In contrast, performance and time constraints for example, of small devices and free cloud GPUs necessitate efficient network training (i.e., highest accuracy in the shortest inference time possible), often on small datasets. Here, we hypothesize that initially decreasing image size during training makes the training process more efficient, because pre-shap",
+    "date": "2018-07-30",
+    "url": "http://arxiv.org/abs/1807.11583v1",
+    "authors": [
+      "Thomas Cherico Wanger",
+      "Peter Frohn"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Generalisable Agents for Neural Network Optimisation",
+    "abstract": "Optimising deep neural networks is a challenging task due to complex training dynamics, high computational requirements, and long training times. To address this difficulty, we propose the framework of Generalisable Agents for Neural Network Optimisation (GANNO) -- a multi-agent reinforcement learning (MARL) approach that learns to improve neural network optimisation by dynamically and responsively scheduling hyperparameters during training. GANNO utilises an agent per layer that observes localised network dynamics and accordingly takes actions to adjust these dynamics at a layerwise level to ",
+    "date": "2023-11-30",
+    "url": "http://arxiv.org/abs/2311.18598v2",
+    "authors": [
+      "Kale-ab Tessera",
+      "Callum Rhys Tilbury",
+      "Sasha Abramowitz"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Telescopic Binary Learning Machine for Training Neural Networks",
+    "abstract": "This paper proposes a new algorithm based on multi-scale stochastic local search with binary representation for training neural networks.   In particular, we study the effects of neighborhood evaluation strategies, the effect of the number of bits per weight and that of the maximum weight range used for mapping binary strings to real values. Following this preliminary investigation, we propose a telescopic multi-scale version of local search where the number of bits is increased in an adaptive manner, leading to a faster search and to local minima of better quality. An analysis related to adap",
+    "date": "2015-09-01",
+    "url": "http://arxiv.org/abs/1509.00174v1",
+    "authors": [
+      "Mauro Brunato",
+      "Roberto Battiti"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Parallel Neural Networks in Golang",
+    "abstract": "This paper describes the design and implementation of parallel neural networks (PNNs) with the novel programming language Golang. We follow in our approach the classical Single-Program Multiple-Data (SPMD) model where a PNN is composed of several sequential neural networks, which are trained with a proportional share of the training dataset. We used for this purpose the MNIST dataset, which contains binary images of handwritten digits. Our analysis focusses on different activation functions and optimizations in the form of stochastic gradients and initialization of weights and biases. We condu",
+    "date": "2023-04-19",
+    "url": "http://arxiv.org/abs/2304.09590v1",
+    "authors": [
+      "Daniela Kalwarowskyj",
+      "Erich Schikuta"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Midterm Status Report of the ILC Technology Network Activities",
+    "abstract": "The ILC Technology Network (ITN) was established in 2022 by the ILC International Development Team, a subcommittee of the International Committee for Future Accelerators, to advance engineering studies toward the realisation of the International Linear Collider (ILC). While the ITN work packages focus on engineering activities for the ILC, their topics are also relevant to a broad range of accelerator applications in particle physics and beyond. These work packages are being carried out now by laboratories in Asia and Europe in close collaboration. This report summarises the current status of ",
+    "date": "2026-03-01",
+    "url": "http://arxiv.org/abs/2603.01172v1",
+    "authors": [
+      "ILC Technology Network"
+    ]
+  }
+]

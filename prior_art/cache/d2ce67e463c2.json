@@ -1,0 +1,177 @@
+[
+  {
+    "source": "OpenAlex",
+    "title": "Findings of the 2016 Conference on Machine Translation",
+    "abstract": "This paper presents the results of the WMT16 shared tasks, which included five machine translation (MT) tasks (standard news, IT-domain, biomedical, multimodal, pronoun), three evaluation tasks (metrics, tuning, run-time estimation of MT quality), and an automatic post-editing task and bilingual document alignment task. This year, 102 MT systems from 24 institutions (plus 36 anonymized online systems) were submitted to the 12 translation directions in the news translation task. The IT-domain task received 31 submissions from 12 institutions in 7 directions and the Biomedical task received 15 s",
+    "date": "2016",
+    "url": "https://doi.org/10.18653/v1/w16-2301",
+    "authors": [
+      "Ond\u0159ej Bojar",
+      "Rajen Chatterjee",
+      "Christian Federmann"
+    ]
+  },
+  {
+    "source": "OpenAlex (Information)",
+    "title": "Recurrent Neural Networks: A Comprehensive Review of Architectures, Variants, and Applications",
+    "abstract": "Recurrent neural networks (RNNs) have significantly advanced the field of machine learning (ML) by enabling the effective processing of sequential data. This paper provides a comprehensive review of RNNs and their applications, highlighting advancements in architectures, such as long short-term memory (LSTM) networks, gated recurrent units (GRUs), bidirectional LSTM (BiLSTM), echo state networks (ESNs), peephole LSTM, and stacked LSTM. The study examines the application of RNNs to different domains, including natural language processing (NLP), speech recognition, time series forecasting, auton",
+    "date": "2024",
+    "url": "https://doi.org/10.3390/info15090517",
+    "authors": [
+      "Ibomoiye Domor Mienye",
+      "Theo G. Swart",
+      "George Obaido"
+    ]
+  },
+  {
+    "source": "OpenAlex (Computational Linguistics)",
+    "title": "Sentence Fusion for Multidocument News Summarization",
+    "abstract": "A system that can produce informative summaries, highlighting common information found in many online documents, will help Web users to pinpoint information that they need without extensive reading. In this article, we introduce sentence fusion, a novel text-to-text generation technique for synthesizing common information across documents. Sentence fusion involves bottom-up local multisequence alignment to identify phrases conveying similar information and statistical generation to combine common phrases into a sentence. Sentence fusion moves the summarization field from the use of purely extr",
+    "date": "2005",
+    "url": "https://doi.org/10.1162/089120105774321091",
+    "authors": [
+      "Regina Barzilay",
+      "Kathleen McKeown"
+    ]
+  },
+  {
+    "source": "OpenAlex (Frontiers in Human Neuroscience)",
+    "title": "The structure of creative cognition in the human brain",
+    "abstract": "Creativity is a vast construct, seemingly intractable to scientific inquiry-perhaps due to the vague concepts applied to the field of research. One attempt to limit the purview of creative cognition formulates the construct in terms of evolutionary constraints, namely that of blind variation and selective retention (BVSR). Behaviorally, one can limit the \"blind variation\" component to idea generation tests as manifested by measures of divergent thinking. The \"selective retention\" component can be represented by measures of convergent thinking, as represented by measures of remote associates. W",
+    "date": "2013",
+    "url": "https://doi.org/10.3389/fnhum.2013.00330",
+    "authors": [
+      "Rex E. Jung"
+    ]
+  },
+  {
+    "source": "OpenAlex (Behavioral and Brain Sciences)",
+    "title": "Convergence of biological and psychological perspectives on cognitive coordination in schizophrenia",
+    "abstract": "The concept of locally specialized functions dominates research on higher brain function and its disorders. Locally specialized functions must be complemented by processes that coordinate those functions, however, and impairment of coordinating processes may be central to some psychotic conditions. Evidence for processes that coordinate activity is provided by neurobiological and psychological studies of contextual disambiguation and dynamic grouping. Mechanisms by which this important class of cognitive functions could be achieved include those long-range connections within and between cortic",
+    "date": "2003",
+    "url": "https://doi.org/10.1017/s0140525x03000025",
+    "authors": [
+      "William A. Phillips",
+      "Steven M. Silverstein"
+    ]
+  },
+  {
+    "source": "OpenAlex (Neuropsychopharmacology)",
+    "title": "Cognitive Control Deficits in Schizophrenia: Mechanisms and Meaning",
+    "abstract": "",
+    "date": "2010",
+    "url": "https://doi.org/10.1038/npp.2010.156",
+    "authors": [
+      "Tyler A. Lesh",
+      "Tara A. Niendam",
+      "Michael Minzenberg"
+    ]
+  },
+  {
+    "source": "OpenAlex (Brain)",
+    "title": "Distinct right frontal lobe activation in language processing following left hemisphere injury",
+    "abstract": "Right hemisphere activation during functional imaging studies of language has frequently been reported following left hemisphere injury. Few studies have anatomically characterized the specific right hemisphere structures engaged. We used functional MRI (fMRI) with verbal fluency tasks in 12 right-handed patients with left temporal lobe epilepsy (LTLE) and 12 right-handed healthy controls to localize language-related activity in the right inferior frontal gyrus (RIFG). During the phonemic task, LTLE patients activated a significantly more posterior region of the right anterior insula/frontal o",
+    "date": "2005",
+    "url": "https://doi.org/10.1093/brain/awh679",
+    "authors": [
+      "Natalie Voets",
+      "Jane Adcock",
+      "David E. Flitney"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Extractive Summarization of Long Documents by Combining Global and Local Context",
+    "abstract": "Wen Xiao, Giuseppe Carenini. Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP). 2019.",
+    "date": "2019",
+    "url": "https://doi.org/10.18653/v1/d19-1298",
+    "authors": [
+      "Wen Xiao",
+      "Giuseppe Carenini"
+    ]
+  },
+  {
+    "source": "OpenAlex (Brain)",
+    "title": "Disrupted dynamic network reconfiguration of the language system in temporal lobe epilepsy",
+    "abstract": "Temporal lobe epilepsy tends to reshape the language system causing maladaptive reorganization that can be characterized by task-based functional MRI, and eventually can contribute to surgical decision making processes. However, the dynamic interacting nature of the brain as a complex system is often neglected, with many studies treating the language system as a static monolithic structure. Here, we demonstrate that as a specialized and integrated system, the language network is inherently dynamic, characterized by rich patterns of regional interactions, whose transient dynamics are disrupted ",
+    "date": "2018",
+    "url": "https://doi.org/10.1093/brain/awy042",
+    "authors": [
+      "Xiaosong He",
+      "Danielle S. Bassett",
+      "Ganne Chaitanya"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Towards Interpretable Mental Health Analysis with Large Language Models",
+    "abstract": "The latest large language models (LLMs) such as ChatGPT, exhibit strong capabilities in automated mental health analysis. However, existing relevant studies bear several limitations, including inadequate evaluations, lack of prompting strategies, and ignorance of exploring LLMs for explainability. To bridge these gaps, we comprehensively evaluate the mental health analysis and emotional reasoning ability of LLMs on 11 datasets across 5 tasks. We explore the effects of different prompting strategies with unsupervised and distantly supervised emotional information. Based on these prompts, we exp",
+    "date": "2023",
+    "url": "https://doi.org/10.18653/v1/2023.emnlp-main.370",
+    "authors": [
+      "Kailai Yang",
+      "Shaoxiong Ji",
+      "Tianlin Zhang"
+    ]
+  },
+  {
+    "source": "OpenAlex (IEEE Access)",
+    "title": "The Impact of Artificial Intelligence on Language Translation: A Review",
+    "abstract": "In the context of a more linked and globalized society, the significance of proficient cross-cultural communication has been increasing to a position of utmost importance. Language functions as a crucial medium that establishes connections among people, corporations, and countries, thus demanding the implementation of precise and effective translation systems. This comprehensive review paper aims to contribute to the evolving landscape of AI-driven language translation by critically examining the existing literature, identifying key debates, and uncovering areas of innovation and limitations w",
+    "date": "2024",
+    "url": "https://doi.org/10.1109/access.2024.3366802",
+    "authors": [
+      "Yasir Abdelgadir Mohamed",
+      "Akbar Khanan",
+      "Mohamed Bashir"
+    ]
+  },
+  {
+    "source": "OpenAlex (Journal of Psychiatry and Neuroscience)",
+    "title": "Can Asperger syndrome be distinguished from autism? An anatomic likelihood meta-analysis of MRI studies",
+    "abstract": "Background: The question of whether Asperger syndrome can be distinguished from autism has attracted much debate and may even incur delay in diagnosis and intervention. Accordingly, there has been a proposal for Asperger syndrome to be subsumed under autism in the forthcoming Diagnostic and Statistical Manual of Mental Disorders, fifth edition, in 2013. One approach to resolve this question has been to adopt the criterion of absence of clinically significant language or cognitive delay \u2014 essentially, the \u201cabsence of language delay.\u201d To our knowledge, this is the first meta-analysis of magnetic",
+    "date": "2011",
+    "url": "https://doi.org/10.1503/jpn.100138",
+    "authors": [
+      "Kevin Yu",
+      "Charlton Cheung",
+      "Siew E. Chua"
+    ]
+  },
+  {
+    "source": "OpenAlex",
+    "title": "Proceedings of SSST-8, Eighth Workshop on Syntax, Semantics and Structure in Statistical Translation",
+    "abstract": "This paper investigates the application of vector space models (VSMs) to the standard phrase-based machine translation pipeline. VSMs are models based on continuous word representations embedded in a vector space. We exploit word vectors to augment the phrase table with new inferred phrase pairs. This helps reduce out-of-vocabulary (OOV) words. In addition, we present a simple way to learn bilingually-constrained phrase vectors. The phrase vectors are then used to provide additional scoring of phrase pairs, which fits into the standard log-linear framework of phrase-based statistical machine t",
+    "date": "2014",
+    "url": "https://doi.org/10.3115/v1/w14-40",
+    "authors": [
+      "Vecchi, Eva Maria",
+      "Carreras, Xavier",
+      "Wu, Dekai"
+    ]
+  },
+  {
+    "source": "OpenAlex (Cerebral Cortex)",
+    "title": "Cortical Gamma Generators Suggest Abnormal Auditory Circuitry in Early-Onset Psychosis",
+    "abstract": "Neurobiological theories of schizophrenia and related psychoses have increasingly emphasized impaired neuronal coordination (i.e., dysfunctional connectivity) as central to the pathophysiology. Although neuroimaging evidence has mostly corroborated these accounts, the basic mechanism(s) of reduced functional connectivity remains elusive. In this study, we examine the developmental trajectory and underlying mechanism(s) of dysfunctional connectivity by using gamma oscillatory power as an index of local and long-range circuit integrity. An early-onset psychosis group and a matched cohort of typi",
+    "date": "2007",
+    "url": "https://doi.org/10.1093/cercor/bhm062",
+    "authors": [
+      "Tony W. Wilson",
+      "Olivia O. Hernandez",
+      "Ryan Asherin"
+    ]
+  },
+  {
+    "source": "OpenAlex (Sensors)",
+    "title": "Conversational Agents: Goals, Technologies, Vision and Challenges",
+    "abstract": "In recent years, conversational agents (CAs) have become ubiquitous and are a presence in our daily routines. It seems that the technology has finally ripened to advance the use of CAs in various domains, including commercial, healthcare, educational, political, industrial, and personal domains. In this study, the main areas in which CAs are successful are described along with the main technologies that enable the creation of CAs. Capable of conducting ongoing communication with humans, CAs are encountered in natural-language processing, deep learning, and technologies that integrate emotional",
+    "date": "2021",
+    "url": "https://doi.org/10.3390/s21248448",
+    "authors": [
+      "Merav Allouch",
+      "Amos Azaria",
+      "Rina Azoulay"
+    ]
+  }
+]

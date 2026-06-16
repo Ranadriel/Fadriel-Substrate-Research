@@ -1,0 +1,182 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Attack-SAM: Towards Attacking Segment Anything Model With Adversarial Examples",
+    "abstract": "Segment Anything Model (SAM) has attracted significant attention recently, due to its impressive performance on various downstream tasks in a zero-short manner. Computer vision (CV) area might follow the natural language processing (NLP) area to embark on a path from task-specific vision models toward foundation models. However, deep vision models are widely recognized as vulnerable to adversarial examples, which fool the model to make wrong predictions with imperceptible perturbation. Such vulnerability to adversarial attacks causes serious concerns when applying deep models to security-sensi",
+    "date": "2023-05-01",
+    "url": "http://arxiv.org/abs/2305.00866v2",
+    "authors": [
+      "Chenshuang Zhang",
+      "Chaoning Zhang",
+      "Taegoo Kang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "PBI-Attack: Prior-Guided Bimodal Interactive Black-Box Jailbreak Attack for Toxicity Maximization",
+    "abstract": "Understanding the vulnerabilities of Large Vision Language Models (LVLMs) to jailbreak attacks is essential for their responsible real-world deployment. Most previous work requires access to model gradients, or is based on human knowledge (prompt engineering) to complete jailbreak, and they hardly consider the interaction of images and text, resulting in inability to jailbreak in black box scenarios or poor performance. To overcome these limitations, we propose a Prior-Guided Bimodal Interactive Black-Box Jailbreak Attack for toxicity maximization, referred to as PBI-Attack. Our method begins ",
+    "date": "2024-12-08",
+    "url": "http://arxiv.org/abs/2412.05892v4",
+    "authors": [
+      "Ruoxi Cheng",
+      "Yizhong Ding",
+      "Shuirong Cao"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "UniGuardian: A Unified Defense for Detecting Prompt Injection, Backdoor Attacks and Adversarial Attacks in Large Language Models",
+    "abstract": "Large Language Models (LLMs) are vulnerable to attacks like prompt injection, backdoor attacks, and adversarial attacks, which manipulate prompts or models to generate harmful outputs. In this paper, departing from traditional deep learning attack paradigms, we explore their intrinsic relationship and collectively term them Prompt Trigger Attacks (PTA). This raises a key question: Can we determine if a prompt is benign or poisoned? To address this, we propose UniGuardian, the first unified defense mechanism designed to detect prompt injection, backdoor attacks, and adversarial attacks in LLMs.",
+    "date": "2025-02-18",
+    "url": "http://arxiv.org/abs/2502.13141v1",
+    "authors": [
+      "Huawei Lin",
+      "Yingjie Lao",
+      "Tong Geng"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Gradient Cuff: Detecting Jailbreak Attacks on Large Language Models by Exploring Refusal Loss Landscapes",
+    "abstract": "Large Language Models (LLMs) are becoming a prominent generative AI tool, where the user enters a query and the LLM generates an answer. To reduce harm and misuse, efforts have been made to align these LLMs to human values using advanced training techniques such as Reinforcement Learning from Human Feedback (RLHF). However, recent studies have highlighted the vulnerability of LLMs to adversarial jailbreak attempts aiming at subverting the embedded safety guardrails. To address this challenge, this paper defines and investigates the Refusal Loss of LLMs and then proposes a method called Gradien",
+    "date": "2024-03-01",
+    "url": "http://arxiv.org/abs/2403.00867v3",
+    "authors": [
+      "Xiaomeng Hu",
+      "Pin-Yu Chen",
+      "Tsung-Yi Ho"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Response Attack: Exploiting Contextual Priming to Jailbreak Large Language Models",
+    "abstract": "Contextual priming, where earlier stimuli covertly bias later judgments, offers an unexplored attack surface for large language models (LLMs). We uncover a contextual priming vulnerability in which the previous response in the dialogue can steer its subsequent behavior toward policy-violating content. While existing jailbreak attacks largely rely on single-turn or multi-turn prompt manipulations, or inject static in-context examples, these methods suffer from limited effectiveness, inefficiency, or semantic drift. We introduce Response Attack (RA), a novel framework that strategically leverage",
+    "date": "2025-07-07",
+    "url": "http://arxiv.org/abs/2507.05248v2",
+    "authors": [
+      "Ziqi Miao",
+      "Lijun Li",
+      "Yuan Xiong"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models",
+    "abstract": "Jailbreak attacks cause large language models (LLMs) to generate harmful, unethical, or otherwise objectionable content. Evaluating these attacks presents a number of challenges, which the current collection of benchmarks and evaluation techniques do not adequately address. First, there is no clear standard of practice regarding jailbreaking evaluation. Second, existing works compute costs and success rates in incomparable ways. And third, numerous works are not reproducible, as they withhold adversarial prompts, involve closed-source code, or rely on evolving proprietary APIs. To address thes",
+    "date": "2024-03-28",
+    "url": "http://arxiv.org/abs/2404.01318v5",
+    "authors": [
+      "Patrick Chao",
+      "Edoardo Debenedetti",
+      "Alexander Robey"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Jailbreak in pieces: Compositional Adversarial Attacks on Multi-Modal Language Models",
+    "abstract": "We introduce new jailbreak attacks on vision language models (VLMs), which use aligned LLMs and are resilient to text-only jailbreak attacks. Specifically, we develop cross-modality attacks on alignment where we pair adversarial images going through the vision encoder with textual prompts to break the alignment of the language model. Our attacks employ a novel compositional strategy that combines an image, adversarially targeted towards toxic embeddings, with generic prompts to accomplish the jailbreak. Thus, the LLM draws the context to answer the generic prompt from the adversarial image. Th",
+    "date": "2023-07-26",
+    "url": "http://arxiv.org/abs/2307.14539v2",
+    "authors": [
+      "Erfan Shayegani",
+      "Yue Dong",
+      "Nael Abu-Ghazaleh"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Open Sesame! Universal Black Box Jailbreaking of Large Language Models",
+    "abstract": "Large language models (LLMs), designed to provide helpful and safe responses, often rely on alignment techniques to align with user intent and social guidelines. Unfortunately, this alignment can be exploited by malicious actors seeking to manipulate an LLM's outputs for unintended purposes. In this paper we introduce a novel approach that employs a genetic algorithm (GA) to manipulate LLMs when model architecture and parameters are inaccessible. The GA attack works by optimizing a universal adversarial prompt that -- when combined with a user's query -- disrupts the attacked model's alignment",
+    "date": "2023-09-04",
+    "url": "http://arxiv.org/abs/2309.01446v4",
+    "authors": [
+      "Raz Lapid",
+      "Ron Langberg",
+      "Moshe Sipper"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cross-language Learning with Adversarial Neural Networks: Application to Community Question Answering",
+    "abstract": "We address the problem of cross-language adaptation for question-question similarity reranking in community question answering, with the objective to port a system trained on one input language to another input language given labeled training data for the first language and only unlabeled data for the second language. In particular, we propose to use adversarial training of neural networks to learn high-level features that are discriminative for the main learning task, and at the same time are invariant across the input languages. The evaluation results show sizable improvements for our cross-",
+    "date": "2017-06-21",
+    "url": "http://arxiv.org/abs/1706.06749v1",
+    "authors": [
+      "Shafiq Joty",
+      "Preslav Nakov",
+      "Llu\u00eds M\u00e0rquez"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Latent Jailbreak: A Benchmark for Evaluating Text Safety and Output Robustness of Large Language Models",
+    "abstract": "Considerable research efforts have been devoted to ensuring that large language models (LLMs) align with human values and generate safe text. However, an excessive focus on sensitivity to certain topics can compromise the model's robustness in following instructions, thereby impacting its overall performance in completing tasks. Previous benchmarks for jailbreaking LLMs have primarily focused on evaluating the safety of the models without considering their robustness. In this paper, we propose a benchmark that assesses both the safety and robustness of LLMs, emphasizing the need for a balanced",
+    "date": "2023-07-17",
+    "url": "http://arxiv.org/abs/2307.08487v3",
+    "authors": [
+      "Huachuan Qiu",
+      "Shuai Zhang",
+      "Anqi Li"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "BlueSuffix: Reinforced Blue Teaming for Vision-Language Models Against Jailbreak Attacks",
+    "abstract": "In this paper, we focus on black-box defense for VLMs against jailbreak attacks. Existing black-box defense methods are either unimodal or bimodal. Unimodal methods enhance either the vision or language module of the VLM, while bimodal methods robustify the model through text-image representation realignment. However, these methods suffer from two limitations: 1) they fail to fully exploit the cross-modal information, or 2) they degrade the model performance on benign inputs. To address these limitations, we propose a novel blue-team method BlueSuffix that defends target VLMs against jailbreak",
+    "date": "2024-10-28",
+    "url": "http://arxiv.org/abs/2410.20971v2",
+    "authors": [
+      "Yunhan Zhao",
+      "Xiang Zheng",
+      "Lin Luo"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Jailbreak Attacks and Defenses Against Large Language Models: A Survey",
+    "abstract": "Large Language Models (LLMs) have performed exceptionally in various text-generative tasks, including question answering, translation, code completion, etc. However, the over-assistance of LLMs has raised the challenge of \"jailbreaking\", which induces the model to generate malicious responses against the usage policy and society by designing adversarial prompts. With the emergence of jailbreak attack methods exploiting different vulnerabilities in LLMs, the corresponding safety alignment measures are also evolving. In this paper, we propose a comprehensive and detailed taxonomy of jailbreak at",
+    "date": "2024-07-05",
+    "url": "http://arxiv.org/abs/2407.04295v2",
+    "authors": [
+      "Sibo Yi",
+      "Yule Liu",
+      "Zhen Sun"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Latent-space adversarial training with post-aware calibration for defending large language models against jailbreak attacks",
+    "abstract": "Ensuring safety alignment is a critical requirement for large language models (LLMs), particularly given increasing deployment in real-world applications. Despite considerable advancements, LLMs remain susceptible to jailbreak attacks, which exploit system vulnerabilities to circumvent safety measures and elicit harmful or inappropriate outputs. Furthermore, while adversarial training-based defense methods have shown promise, a prevalent issue is the unintended over-defense behavior, wherein models excessively reject benign queries, significantly undermining their practical utility. To address",
+    "date": "2025-01-18",
+    "url": "http://arxiv.org/abs/2501.10639v3",
+    "authors": [
+      "Xin Yi",
+      "Yue Li",
+      "Dongsheng Shi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Construction Grammar and Language Models",
+    "abstract": "Recent progress in deep learning and natural language processing has given rise to powerful models that are primarily trained on a cloze-like task and show some evidence of having access to substantial linguistic information, including some constructional knowledge. This groundbreaking discovery presents an exciting opportunity for a synergistic relationship between computational methods and Construction Grammar research. In this chapter, we explore three distinct approaches to the interplay between computational methods and Construction Grammar: (i) computational methods for text analysis, (i",
+    "date": "2023-08-25",
+    "url": "http://arxiv.org/abs/2308.13315v2",
+    "authors": [
+      "Harish Tayyar Madabushi",
+      "Laurence Romain",
+      "Petar Milin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Benchmarking Adversarial Robustness to Bias Elicitation in Large Language Models: Scalable Automated Assessment with LLM-as-a-Judge",
+    "abstract": "The growing integration of Large Language Models (LLMs) into critical societal domains has raised concerns about embedded biases that can perpetuate stereotypes and undermine fairness. Such biases may stem from historical inequalities in training data, linguistic imbalances, or adversarial manipulation. Despite mitigation efforts, recent studies show that LLMs remain vulnerable to adversarial attacks that elicit biased outputs. This work proposes a scalable benchmarking framework to assess LLM robustness to adversarial bias elicitation. Our methodology involves: (i) systematically probing mode",
+    "date": "2025-04-10",
+    "url": "http://arxiv.org/abs/2504.07887v2",
+    "authors": [
+      "Riccardo Cantini",
+      "Alessio Orsino",
+      "Massimo Ruggiero"
+    ]
+  }
+]

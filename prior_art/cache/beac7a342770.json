@@ -1,0 +1,177 @@
+[
+  {
+    "source": "arXiv",
+    "title": "Predicting concentration levels of air pollutants by transfer learning and recurrent neural network",
+    "abstract": "Air pollution (AP) poses a great threat to human health, and people are paying more attention than ever to its prediction. Accurate prediction of AP helps people to plan for their outdoor activities and aids protecting human health. In this paper, long-short term memory (LSTM) recurrent neural networks (RNNs) have been used to predict the future concentration of air pollutants (APS) in Macau. Additionally, meteorological data and data on the concentration of APS have been utilized. Moreover, in Macau, some air quality monitoring stations (AQMSs) have less observed data in quantity, and, at the",
+    "date": "2025-01-30",
+    "url": "http://arxiv.org/abs/2502.01654v1",
+    "authors": [
+      "Iat Hang Fong",
+      "Tengyue Li",
+      "Simon Fong"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Tutorial about Random Neural Networks in Supervised Learning",
+    "abstract": "Random Neural Networks (RNNs) are a class of Neural Networks (NNs) that can also be seen as a specific type of queuing network. They have been successfully used in several domains during the last 25 years, as queuing networks to analyze the performance of resource sharing in many engineering areas, as learning tools and in combinatorial optimization, where they are seen as neural systems, and also as models of neurological aspects of living beings. In this article we focus on their learning capabilities, and more specifically, we present a practical guide for using the RNN to solve supervised ",
+    "date": "2016-09-15",
+    "url": "http://arxiv.org/abs/1609.04846v1",
+    "authors": [
+      "Sebasti\u00e1n Basterrech",
+      "Gerardo Rubino"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Learning Universal Graph Neural Network Embeddings With Aid Of Transfer Learning",
+    "abstract": "Learning powerful data embeddings has become a center piece in machine learning, especially in natural language processing and computer vision domains. The crux of these embeddings is that they are pretrained on huge corpus of data in a unsupervised fashion, sometimes aided with transfer learning. However currently in the graph learning domain, embeddings learned through existing graph neural networks (GNNs) are task dependent and thus cannot be shared across different datasets. In this paper, we present a first powerful and theoretically guaranteed graph neural network that is designed to lea",
+    "date": "2019-09-22",
+    "url": "http://arxiv.org/abs/1909.10086v3",
+    "authors": [
+      "Saurabh Verma",
+      "Zhi-Li Zhang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Graph Learning Network: A Structure Learning Algorithm",
+    "abstract": "Recently, graph neural networks (GNNs) have proved to be suitable in tasks on unstructured data. Particularly in tasks as community detection, node classification, and link prediction. However, most GNN models still operate with static relationships. We propose the Graph Learning Network (GLN), a simple yet effective process to learn node embeddings and structure prediction functions. Our model uses graph convolutions to propose expected node features, and predict the best structure based on them. We repeat these steps recursively to enhance the prediction and the embeddings.",
+    "date": "2019-05-29",
+    "url": "http://arxiv.org/abs/1905.12665v3",
+    "authors": [
+      "Darwin Saire Pilco",
+      "Ad\u00edn Ram\u00edrez Rivera"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Bridging Large Language Models and Graph Structure Learning Models for Robust Representation Learning",
+    "abstract": "Graph representation learning, involving both node features and graph structures, is crucial for real-world applications but often encounters pervasive noise. State-of-the-art methods typically address noise by focusing separately on node features with large language models (LLMs) and on graph structures with graph structure learning models (GSLMs). In this paper, we introduce LangGSL, a robust framework that integrates the complementary strengths of pre-trained language models and GSLMs to jointly enhance both node feature and graph structure learning. In LangGSL, we first leverage LLMs to fi",
+    "date": "2024-10-15",
+    "url": "http://arxiv.org/abs/2410.12096v1",
+    "authors": [
+      "Guangxin Su",
+      "Yifan Zhu",
+      "Wenjie Zhang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Learning Framework for n-bit Quantized Neural Networks toward FPGAs",
+    "abstract": "The quantized neural network (QNN) is an efficient approach for network compression and can be widely used in the implementation of FPGAs. This paper proposes a novel learning framework for n-bit QNNs, whose weights are constrained to the power of two. To solve the gradient vanishing problem, we propose a reconstructed gradient function for QNNs in back-propagation algorithm that can directly get the real gradient rather than estimating an approximate gradient of the expected loss. We also propose a novel QNN structure named n-BQ-NN, which uses shift operation to replace the multiply operation",
+    "date": "2020-04-06",
+    "url": "http://arxiv.org/abs/2004.02396v1",
+    "authors": [
+      "Jun Chen",
+      "Liang Liu",
+      "Yong Liu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Dual Accuracy-Quality-Driven Neural Network for Prediction Interval Generation",
+    "abstract": "Accurate uncertainty quantification is necessary to enhance the reliability of deep learning models in real-world applications. In the case of regression tasks, prediction intervals (PIs) should be provided along with the deterministic predictions of deep learning models. Such PIs are useful or \"high-quality\" as long as they are sufficiently narrow and capture most of the probability density. In this paper, we present a method to learn prediction intervals for regression-based neural networks automatically in addition to the conventional target predictions. In particular, we train two companio",
+    "date": "2022-12-13",
+    "url": "http://arxiv.org/abs/2212.06370v4",
+    "authors": [
+      "Giorgio Morales",
+      "John W. Sheppard"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Multiple instance learning with graph neural networks",
+    "abstract": "Multiple instance learning (MIL) aims to learn the mapping between a bag of instances and the bag-level label. In this paper, we propose a new end-to-end graph neural network (GNN) based algorithm for MIL: we treat each bag as a graph and use GNN to learn the bag embedding, in order to explore the useful structural information among instances in bags. The final graph representation is fed into a classifier for label prediction. Our algorithm is the first attempt to use GNN for MIL. We empirically show that the proposed algorithm achieves the state of the art performance on several popular MIL ",
+    "date": "2019-06-12",
+    "url": "http://arxiv.org/abs/1906.04881v1",
+    "authors": [
+      "Ming Tu",
+      "Jing Huang",
+      "Xiaodong He"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Graph Embedded Intuitionistic Fuzzy Random Vector Functional Link Neural Network for Class Imbalance Learning",
+    "abstract": "The domain of machine learning is confronted with a crucial research area known as class imbalance learning, which presents considerable hurdles in precise classification of minority classes. This issue can result in biased models where the majority class takes precedence in the training process, leading to the underrepresentation of the minority class. The random vector functional link (RVFL) network is a widely used and effective learning model for classification due to its good generalization performance and efficiency. However, it suffers when dealing with imbalanced datasets. To overcome ",
+    "date": "2023-07-15",
+    "url": "http://arxiv.org/abs/2307.07881v2",
+    "authors": [
+      "M. A. Ganaie",
+      "M. Sajid",
+      "A. K. Malik"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Robust Reinforcement Learning on Graphs for Logistics optimization",
+    "abstract": "Logistics optimization nowadays is becoming one of the hottest areas in the AI community. In the past year, significant advancements in the domain were achieved by representing the problem in a form of graph. Another promising area of research was to apply reinforcement learning algorithms to the above task. In our work, we made advantage of using both approaches and apply reinforcement learning on a graph. To do that, we have analyzed the most recent results in both fields and selected SOTA algorithms both from graph neural networks and reinforcement learning. Then, we combined selected model",
+    "date": "2022-05-25",
+    "url": "http://arxiv.org/abs/2205.12888v1",
+    "authors": [
+      "Zangir Iklassov",
+      "Dmitrii Medvedev"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Khan-GCL: Kolmogorov-Arnold Network Based Graph Contrastive Learning with Hard Negatives",
+    "abstract": "Graph contrastive learning (GCL) has demonstrated great promise for learning generalizable graph representations from unlabeled data. However, conventional GCL approaches face two critical limitations: (1) the restricted expressive capacity of multilayer perceptron (MLP) based encoders, and (2) suboptimal negative samples that either from random augmentations-failing to provide effective 'hard negatives'-or generated hard negatives without addressing the semantic distinctions crucial for discriminating graph data. To this end, we propose Khan-GCL, a novel framework that integrates the Kolmogor",
+    "date": "2025-05-21",
+    "url": "http://arxiv.org/abs/2505.15103v2",
+    "authors": [
+      "Zihu Wang",
+      "Boxun Xu",
+      "Hejia Geng"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Learning Genomic Sequence Representations using Graph Neural Networks over De Bruijn Graphs",
+    "abstract": "The rapid expansion of genomic sequence data calls for new methods to achieve robust sequence representations. Existing techniques often neglect intricate structural details, emphasizing mainly contextual information. To address this, we developed k-mer embeddings that merge contextual and structural string information by enhancing De Bruijn graphs with structural similarity connections. Subsequently, we crafted a self-supervised method based on Contrastive Learning that employs a heterogeneous Graph Convolutional Network encoder and constructs positive pairs based on node similarities. Our em",
+    "date": "2023-12-06",
+    "url": "http://arxiv.org/abs/2312.03865v1",
+    "authors": [
+      "Kacper Kapu\u015bniak",
+      "Manuel Burger",
+      "Gunnar R\u00e4tsch"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Recurrent Probabilistic Neural Network with Dimensionality Reduction Based on Time-series Discriminant Component Analysis",
+    "abstract": "This paper proposes a probabilistic neural network developed on the basis of time-series discriminant component analysis (TSDCA) that can be used to classify high-dimensional time-series patterns. TSDCA involves the compression of high-dimensional time series into a lower-dimensional space using a set of orthogonal transformations and the calculation of posterior probabilities based on a continuous-density hidden Markov model with a Gaussian mixture model expressed in the reduced-dimensional space. The analysis can be incorporated into a neural network, which is named a time-series discriminan",
+    "date": "2019-11-14",
+    "url": "http://arxiv.org/abs/1911.06009v1",
+    "authors": [
+      "Hideaki Hayashi",
+      "Taro Shibanoki",
+      "Keisuke Shima"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Optimizing Age of Information in Vehicular Edge Computing with Federated Graph Neural Network Multi-Agent Reinforcement Learning",
+    "abstract": "With the rapid development of intelligent vehicles and Intelligent Transport Systems (ITS), the sensors such as cameras and LiDAR installed on intelligent vehicles provides higher capacity of executing computation-intensive and delay-sensitive tasks, thereby raising deployment costs. To address this issue, Vehicular Edge Computing (VEC) has been proposed to process data through Road Side Units (RSUs) to support real-time applications. This paper focuses on the Age of Information (AoI) as a key metric for data freshness and explores task offloading issues for vehicles under RSU communication re",
+    "date": "2024-07-01",
+    "url": "http://arxiv.org/abs/2407.02342v1",
+    "authors": [
+      "Wenhua Wang",
+      "Qiong Wu",
+      "Pingyi Fan"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "PDP: A General Neural Framework for Learning Constraint Satisfaction Solvers",
+    "abstract": "There have been recent efforts for incorporating Graph Neural Network models for learning full-stack solvers for constraint satisfaction problems (CSP) and particularly Boolean satisfiability (SAT). Despite the unique representational power of these neural embedding models, it is not clear how the search strategy in the learned models actually works. On the other hand, by fixing the search strategy (e.g. greedy search), we would effectively deprive the neural models of learning better strategies than those given. In this paper, we propose a generic neural framework for learning CSP solvers tha",
+    "date": "2019-03-05",
+    "url": "http://arxiv.org/abs/1903.01969v1",
+    "authors": [
+      "Saeed Amizadeh",
+      "Sergiy Matusevych",
+      "Markus Weimer"
+    ]
+  }
+]

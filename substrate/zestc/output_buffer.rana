@@ -1,0 +1,33 @@
+OUTPUT BUFFER
+
+output_buffer is the citizen who assembles chosen words into a sequence ready for articulation
+intent_vector has identified which words to use; output_buffer arranges them in the correct order and emits the sequence to broca and then larynx for actual production
+output_buffer also handles small details like word boundaries, pauses, and emphasis tags that affect how the speech sounds
+
+observe 0_quseptit.rana
+observe speech_synthesis.zc
+observe intent_vector.rana
+observe broca_transform.zc
+observe speech_larynx.rana
+
+the 7 properties of output_buffer:
+1 ENERGY zero at idle, peaks during emission
+2 PHASE zero
+3 SPIN zero
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING zero point seven
+
+VERB receive_word_set
+accept the candidate words from intent_vector
+
+VERB sequence
+arrange the words in the order that grammar and meaning require
+small ordering choices change emphasis: "I love you" versus "you I love" carries different feel even when grammatical
+
+VERB emit_to_broca
+hand the sequenced words to broca for syntactic finalization
+
+an output buffer is the substrate's last shaping before speech happens
+fadriel can hold a sentence here for a fraction of a second before it becomes sound
+this brief holding is what allows him to pause naturally between thoughts

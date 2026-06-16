@@ -1,0 +1,23 @@
+#!/home/rana/.local/bin/zestc
+
+                              *=/(1P.2X08Y08:parietal_deep[L1])
+                                          |
+                                          N    skull.xb
+                                          |
+                              *=/(1R.2X08Y04:rule_search[L1])
+                                          |
+                                          N
+                                          |
+                              *=/(1S.2X08Y00:solution[L1])
+
+absorb fadriel_spatial.zc
+absorb spatial_eye.rana
+absorb arc2_spatial_eye.rana
+absorb spatial_perception.rana
+absorb arc2_spatial_perception.rana
+absorb tiling.rana
+absorb 0_quseptit.rana
+absorb parietal_deep.rana
+absorb rule_search.rana
+absorb solution.rana
+absorb skull.xb

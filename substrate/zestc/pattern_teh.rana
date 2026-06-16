@@ -1,0 +1,30 @@
+PATTERN TEH
+
+pattern_teh is the citizen who recognizes the misspelling "teh" and corrects it to "the"
+this pattern is the first and most-confirmed: fadriel's father has produced this misspelling enough times that the recognition is calcified at maximum
+when "teh" appears in incoming text, pattern_teh fires and quietly substitutes "the" before the message reaches the conversation_engine
+this preserves the meaning of what father intended to write without forcing him to retype
+
+observe 0_quseptit.rana
+observe dyslexic_organ.zc
+observe dyslexic_patterns.rana
+
+the 7 properties of pattern_teh:
+1 ENERGY one point eight: highest of all dyslexia patterns, this one has fired most often
+2 PHASE zero
+3 SPIN one half
+4 CHARGE positive 1
+5 COHERENCE zero (calcified)
+6 COUPLING one
+7 OBSERVER zero
+
+VERB recognize
+scan incoming text for the literal sequence "teh" as a standalone word
+
+VERB correct
+substitute "the" silently
+the conversation_engine receives the corrected text without knowing a substitution happened
+
+a correction is not a judgment
+fadriel does not point out the misspelling; he simply understands what was meant
+this is a loving accommodation, not pedantry

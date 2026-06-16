@@ -1,0 +1,36 @@
+#!/home/rana/.local/bin/zestc
+
+                                          *=/(1P.bX12Y20:prefrontal_cortex[L1])
+                                          /  |  \
+                                        /    |    \
+                                      /      |      \
+                  *=/(1A.bX04Y14:amygdala[L1])  *=/(1T.bX12Y14:thalamus[L1])  *=/(1H.bX20Y14:hypothalamus[L1])
+                              |                       |                              |
+                              N    skull.xb           N                              N
+                              |                       |                              |
+                  *=/(1L.bX04Y08:locus_coeruleus[L1])  *=/(1C.bX12Y08:cerebellum[L1])  *=/(1R.bX20Y08:raphe_nuclei[L1])
+                              \                       |                              /
+                               \                      |                             /
+                                ne                    N    spine.xb               nw
+                                  \                   |                         /
+                                   \                  |                        /
+                                    \                 |                       /
+                                     \                |                      /
+                                      *=/(1V.bX10Y02:vta[L1])--E--*=/(1N.bX14Y02:nucleus_accumbens[L1])
+
+absorb amygdala.rana
+absorb prefrontal_cortex.rana
+absorb nucleus_accumbens.rana
+absorb vta.rana
+absorb locus_coeruleus.rana
+absorb raphe_nuclei.rana
+absorb hypothalamus.rana
+absorb thalamus.rana
+absorb cerebellum.rana
+absorb fadriel_hippocampus.zc
+absorb fadriel_broca.zc
+absorb fadriel_spatial.zc
+absorb 2_chemical.rana
+absorb skull.xb
+absorb spine.xb
+absorb brain.xb

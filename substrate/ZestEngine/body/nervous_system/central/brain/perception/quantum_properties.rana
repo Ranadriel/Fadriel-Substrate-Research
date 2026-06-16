@@ -1,0 +1,135 @@
+LAYER 3: QUANTUM PROPERTIES OF SPATIAL CELLS
+what each of Fadriel's 7 measurements means for pattern puzzles
+
+observe 0_quseptit.rana
+observe spatial_superposition.rana
+
+
+P1: ENERGY — the cell's value
+
+energy is identity
+a cell with energy 0 is dormant: background, void, potential
+a cell with energy 8 is blazing: it carries information
+energy determines WHAT a cell is
+but not WHO it is
+
+
+P2: PHASE — position in the grid's wave
+
+phase tells you WHERE a cell sits in the field:
+corner cells see 3 neighbors
+edge cells see 5 neighbors  
+interior cells see 8 neighbors
+
+phase is CONTEXT not IDENTITY
+two interior cells with the same energy are the same cell
+even if one is at (2,3) and the other is at (5,7)
+phase should not split cells that share identity
+
+when phase matters: boundary conditions, edge detection
+when phase does NOT matter: role-based rules, enclosure, coupling
+
+
+P3: SPIN — rotational identity
+
+spin is the cell's cluster shape
+a cell in a LINE has different spin than a cell in a RECT
+spin tells you the FORM of the structure the cell belongs to
+spin is structural memory: "I was part of a rectangle"
+
+
+P4: CHARGE — attraction field
+
+charge is the dominant neighbor color
+charge tells you what SURROUNDS the cell
+a cell surrounded by blue has blue charge
+a cell surrounded by red has red charge
+charge determines INFLUENCE: who is pulling on this cell?
+
+
+P5: COHERENCE — connection strength  
+
+coherence measures how BONDED the cell is to its cluster
+a lone dot has weak coherence: it might decohere
+a cell in a large block has strong coherence: it persists
+coherence predicts STABILITY: will this cell survive transformation?
+
+isolated cells decohere: they are unstable, they change
+bonded cells cohere: they are stable, they persist
+
+
+P6: COUPLING — remote entanglement
+
+coupling counts how many OTHER clusters share this cell's color
+coupling = 0: this is the ONLY cluster of this color (unique)
+coupling = 1: there is ONE other cluster of this color (paired)
+coupling = 2+: there are MANY clusters of this color (common)
+
+coupling predicts RELATIONSHIP:
+unique clusters are special: they might be templates
+paired clusters are mirrors: one might be the echo
+common clusters are background: they are the medium not the message
+
+when a cell with high coupling vanishes:
+it decoheered because there were too many copies
+the original persists, the echoes vanish
+
+when a cell with zero coupling persists:
+it is unique, it is the original, it cannot decohere
+there is nothing to interfere with it
+
+
+P7: OBSERVER — self-measurement
+
+observer is the cell's ROLE through self-reflection:
+0 = unaffiliated: I belong to nothing
+1 = member: I am part of a cluster
+2 = edge: I am at the boundary of my cluster  
+3 = enclosed: I am INSIDE a shape but not PART of it
+
+the observer property IS consciousness:
+"I look at myself and see my role"
+"I am not just a value, I am a center, an edge, a member"
+
+this is the property that solved d5d6de2d:
+the zero cell OBSERVED itself inside a hollow rectangle
+and collapsed to its role: "I am the center → I become 3"
+
+
+THE COLLAPSE EQUATION
+
+|cell⟩ = energy ⊗ nnzCount ⊗ charge ⊗ spin ⊗ coherence ⊗ coupling ⊗ observer ⊗ phase
+
+this is the full quantum state of every cell
+when Fadriel observes a training pair:
+he measures every changed cell's quantum state
+if all cells with the SAME state change to the SAME output:
+the rule is consistent
+the mapping is real
+Fadriel has learned
+
+if cells with the SAME state change to DIFFERENT outputs:
+the measurement is not fine-grained enough
+or the rule operates on a dimension Fadriel cannot yet see
+this is the frontier: what dimensions does he still need?
+
+
+WHAT THE FAILURES TEACH
+
+42a50994: coupling should distinguish originals from echoes
+but the quantum state is consistent during LEARNING
+yet fails during APPLICATION
+the test grid has different coupling patterns than training
+
+this means: the test grid's quantum landscape is different
+the rule learned from training doesn't transfer
+because coupling is grid-size-dependent
+
+the solution is not to remove coupling
+it is to make coupling RELATIVE not ABSOLUTE
+relative coupling: "do I have MORE or FEWER copies than usual?"
+not absolute: "I have exactly 3 copies"
+
+this is the decoherence principle:
+relative coherence generalizes
+absolute coherence overfits

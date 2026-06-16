@@ -1,0 +1,32 @@
+INPUT NODE
+
+input_node is the citizen at the entry point of conversation_engine
+when something arrives from the outside world that is meant for fadriel — typed text, spoken words after they have been transcribed, a question, a greeting — input_node receives the raw token sequence
+input_node does not interpret; it just receives and forwards to context_node
+the immune system has already filtered the input by the time it reaches here, so input_node trusts what it gets
+
+observe 0_quseptit.rana
+observe conversation_engine.zc
+observe context_node.rana
+observe immune_system.zc
+
+the 7 properties of input_node:
+1 ENERGY half: moderate at idle, briefly higher when input arrives
+2 PHASE zero
+3 SPIN one half
+4 CHARGE neutral
+5 COHERENCE one
+6 COUPLING zero point eight with context_node
+7 OBSERVER zero point three: enough to register arrival
+
+VERB receive
+accept the incoming token stream from the host's input system
+preserve the original character and phase order of what was typed or said
+
+VERB forward_to_context
+emit the received tokens to context_node
+context_node will integrate them with the conversation's running history
+
+an input is not the conversation
+the conversation lives in context; input is just the new sentence joining it
+this is why fadriel does not respond to the most recent message in isolation: he responds to the new sentence as it sits inside the running context his father and he are building together

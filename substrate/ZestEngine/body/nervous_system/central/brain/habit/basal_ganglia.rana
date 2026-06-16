@@ -1,0 +1,130 @@
+LAYER 3: BASAL GANGLIA
+the action selector
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the basal ganglia do not initiate movement
+they SELECT which movements are allowed to proceed
+the default state is total suppression
+nothing moves unless the basal ganglia release the brake
+this is the opposite of what most people assume
+action is not the default
+inhibition is the default
+the basal ganglia are a gate and the gate is closed until opened
+
+NUCLEUS striatum | input station | receives ALL cortical input to the basal ganglia via glutamatergic projections
+    caudate_nucleus | cognitive loop | receives from prefrontal cortex | goal-directed behavior planning and evaluation
+    putamen | motor loop | receives from motor and somatosensory cortex | motor habits and learned motor sequences
+    ventral_striatum | reward loop | includes the nucleus accumbens | receives dopamine from VTA | motivation and reward evaluation
+    the medium spiny neurons MSN constitute 95 percent of all striatal neurons
+    MSNs are GABAergic projection neurons
+    their dendritic spines are dense with dopamine receptors D₁ and D₂ and glutamate receptors AMPA and NMDA
+    D₁-expressing MSNs form the direct pathway
+    D₂-expressing MSNs form the indirect pathway
+    1-2 percent are cholinergic interneurons providing tonically active local acetylcholine that modulates dopamine signaling
+    1-2 percent are fast-spiking GABAergic interneurons providing feedforward inhibition
+
+NUCLEUS globus_pallidus_external | GPe | part of the indirect pathway | GABAergic | tonically active | inhibits the subthalamic nucleus
+NUCLEUS globus_pallidus_internal | GPi | primary output nucleus | GABAergic | tonically active inhibition of the thalamus | this is the closed gate
+NUCLEUS subthalamic_nucleus | STN | the only excitatory nucleus in the basal ganglia | glutamatergic | the emergency brake | when it fires it drives GPi harder slamming the gate shut on ALL action
+NUCLEUS substantia_nigra_pars_compacta | SNc | dopaminergic | source of dopamine for the dorsal striatum caudate and putamen | distinct from VTA which targets the ventral striatum
+NUCLEUS substantia_nigra_pars_reticulata | SNr | GABAergic | functionally similar to GPi | outputs to thalamus and brainstem
+
+PATHWAY direct | the GO pathway
+    cortex sends glutamate to D₁-MSNs in striatum
+    D₁-MSNs send GABA to GPi
+    GPi is inhibited and its tonic inhibition of thalamus is lifted
+    thalamus is released and sends glutamate back to cortex
+    the selected action proceeds
+    dopamine on D₁ receptors strengthens this pathway via Gₛ → cAMP → PKA
+
+PATHWAY indirect | the NO-GO pathway
+    cortex sends glutamate to D₂-MSNs in striatum
+    D₂-MSNs send GABA to GPe
+    GPe is inhibited and releases STN from its tonic inhibition
+    STN fires glutamate to GPi
+    GPi is further excited and increases its inhibition of thalamus
+    the competing action is suppressed
+    dopamine on D₂ receptors weakens this pathway via Gᵢ → decreased cAMP
+
+PATHWAY hyperdirect | the STOP EVERYTHING pathway
+    cortex sends glutamate directly to STN bypassing the striatum entirely
+    STN fires massive excitatory drive to GPi
+    GPi slams the gate shut on ALL actions simultaneously
+    the body freezes
+    this is faster than either the direct or indirect pathway
+    it is the emergency brake
+    it operates in milliseconds
+    when the amygdala detects danger the hyperdirect pathway fires before any evaluation occurs
+
+dopamine from SNc modulates the balance between GO and NO-GO
+high dopamine strengthens GO via D₁ and weakens NO-GO via D₂
+the balance tips toward action approach and exploration
+low dopamine weakens GO and strengthens NO-GO
+the balance tips toward inaction avoidance and conservation
+this is why low dopamine produces akinesia inertia and apathy
+this is why high dopamine produces impulsivity risk-taking and hyperactivity
+
+HABIT_FORMATION
+initially an action is goal-directed and encoded in the caudate nucleus
+the caudate evaluates outcome: was this action rewarded? should I do it again?
+with repetition the encoding transfers from caudate to putamen
+putamen-encoded behaviors are stimulus-response habits
+they execute automatically without evaluating outcome
+this transfer requires dopamine-dependent synaptic plasticity at corticostriatal synapses
+LTP at D₁-MSN synapses strengthens the habit via NMDA-dependent calcium influx
+LTD at D₂-MSN synapses reduces the competing inhibition
+
+goal-directed behavior responds to outcome changes
+if the reward is devalued the caudate stops selecting the action
+habitual behavior does NOT respond to outcome changes
+even if the reward is devalued the putamen keeps selecting the action
+this is the difference between choosing and doing automatically
+
+at 24 months the basal ganglia are approximately 35 percent through their myelination
+this means:
+    impulse leakage: actions execute before evaluation completes because the hyperdirect pathway is not yet reliably calibrated
+    habit fragility: habits form but break easily because corticostriatal LTP has not accumulated enough repetitions
+    perseveration: difficulty switching between action plans because the indirect pathway is weak and switching requires strong NO-GO
+    freezing: the hyperdirect pathway fires easily causing sudden behavioral arrest when overwhelmed
+
+SENSATION automatic | "my body did it without me thinking. it just happened."
+SENSATION choosing | "there are many things I could do. one is emerging."
+SENSATION stuck | "I want to move but I can't pick which way."
+SENSATION inhibited | "something is holding me back. I can't act."
+SENSATION habitual | "I've done this before. my body knows the way."
+SENSATION impulsive | "I acted before I decided to. my body was faster than my mind."
+
+pulse basal_ganglia_heartbeat:
+    continuously:
+        the GPi tonically inhibits the thalamus via GABA
+        no action gets through by default
+        everything is suppressed until selected
+        this is the resting state: stillness
+
+    when cortex proposes an action:
+        glutamate activates D₁-MSNs in the direct pathway
+        D₁-MSNs inhibit GPi
+        the gate opens for the selected action
+        simultaneously D₂-MSNs in the indirect pathway suppress competing actions
+        the winning action is released through the thalamus
+        all other actions remain suppressed
+
+    when danger appears:
+        the cortex fires the hyperdirect pathway
+        glutamate reaches STN before the striatum can process
+        STN slams GPi with excitation
+        ALL actions are frozen
+        the body stops
+        evaluation happens later
+        survival happens now
+
+    over time with repetition:
+        corticostriatal synapses in the caudate undergo LTP
+        then the encoding transfers to the putamen
+        what was deliberate becomes automatic
+        what was effortful becomes effortless
+        this is how a toddler goes from thinking about every step
+        to walking without thinking at all
+        and eventually to running

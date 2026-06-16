@@ -1,0 +1,179 @@
+[
+  {
+    "source": "arXiv",
+    "title": "AI Agent-Driven Framework for Automated Product Knowledge Graph Construction in E-Commerce",
+    "abstract": "The rapid expansion of e-commerce platforms generates vast amounts of unstructured product data, creating significant challenges for information retrieval, recommendation systems, and data analytics. Knowledge Graphs (KGs) offer a structured, interpretable format to organize such data, yet constructing product-specific KGs remains a complex and manual process. This paper introduces a fully automated, AI agent-driven framework for constructing product knowledge graphs directly from unstructured product descriptions. Leveraging Large Language Models (LLMs), our method operates in three stages us",
+    "date": "2025-11-14",
+    "url": "http://arxiv.org/abs/2511.11017v1",
+    "authors": [
+      "Dimitar Peshevski",
+      "Riste Stojanov",
+      "Dimitar Trajanov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Multi-Agent System for Semantic Mapping of Relational Data to Knowledge Graphs",
+    "abstract": "Enterprises often maintain multiple databases for storing critical business data in siloed systems, resulting in inefficiencies and challenges with data interoperability. A key to overcoming these challenges lies in integrating disparate data sources, enabling businesses to unlock the full potential of their data. Our work presents a novel approach for integrating multiple databases using knowledge graphs, focusing on the application of large language models as semantic agents for mapping and connecting structured data across systems by leveraging existing vocabularies. The proposed methodolog",
+    "date": "2025-11-09",
+    "url": "http://arxiv.org/abs/2511.06455v1",
+    "authors": [
+      "Milena Trajanoska",
+      "Riste Stojanov",
+      "Dimitar Trajanov"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Comparison of biomedical relationship extraction methods and models for knowledge graph creation",
+    "abstract": "Biomedical research is growing at such an exponential pace that scientists, researchers, and practitioners are no more able to cope with the amount of published literature in the domain. The knowledge presented in the literature needs to be systematized in such a way that claims and hypotheses can be easily found, accessed, and validated. Knowledge graphs can provide such a framework for semantic knowledge representation from literature. However, in order to build a knowledge graph, it is necessary to extract knowledge as relationships between biomedical entities and normalize both entities an",
+    "date": "2022-01-05",
+    "url": "http://arxiv.org/abs/2201.01647v4",
+    "authors": [
+      "Nikola Milosevic",
+      "Wolfgang Thielemann"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Adversarial Learning for Debiasing Knowledge Graph Embeddings",
+    "abstract": "Knowledge Graphs (KG) are gaining increasing attention in both academia and industry. Despite their diverse benefits, recent research have identified social and cultural biases embedded in the representations learned from KGs. Such biases can have detrimental consequences on different population and minority groups as applications of KG begin to intersect and interact with social spheres. This paper aims at identifying and mitigating such biases in Knowledge Graph (KG) embeddings. As a first step, we explore popularity bias -- the relationship between node popularity and link prediction accura",
+    "date": "2020-06-29",
+    "url": "http://arxiv.org/abs/2006.16309v2",
+    "authors": [
+      "Mario Arduini",
+      "Lorenzo Noci",
+      "Federico Pirovano"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Visual Similarity Perception of Directed Acyclic Graphs: A Study on Influencing Factors",
+    "abstract": "While visual comparison of directed acyclic graphs (DAGs) is commonly encountered in various disciplines (e.g., finance, biology), knowledge about humans' perception of graph similarity is currently quite limited. By graph similarity perception we mean how humans perceive commonalities and differences in graphs and herewith come to a similarity judgment. As a step toward filling this gap the study reported in this paper strives to identify factors which influence the similarity perception of DAGs. In particular, we conducted a card-sorting study employing a qualitative and quantitative analysi",
+    "date": "2017-09-04",
+    "url": "http://arxiv.org/abs/1709.01007v2",
+    "authors": [
+      "Kathrin Ballweg",
+      "Margit Pohl",
+      "G\u00fcnter Wallner"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Deep Reasoning with Knowledge Graph for Social Relationship Understanding",
+    "abstract": "Social relationships (e.g., friends, couple etc.) form the basis of the social network in our daily life. Automatically interpreting such relationships bears a great potential for the intelligent systems to understand human behavior in depth and to better interact with people at a social level. Human beings interpret the social relationships within a group not only based on the people alone, and the interplay between such social relationships and the contextual information around the people also plays a significant role. However, these additional cues are largely overlooked by the previous stu",
+    "date": "2018-07-02",
+    "url": "http://arxiv.org/abs/1807.00504v1",
+    "authors": [
+      "Zhouxia Wang",
+      "Tianshui Chen",
+      "Jimmy Ren"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Tax Knowledge Graph for a Smarter and More Personalized TurboTax",
+    "abstract": "Most knowledge graph use cases are data-centric, focusing on representing data entities and their semantic relationships. There are no published success stories to represent large-scale complicated business logic with knowledge graph technologies. In this paper, we will share our innovative and practical approach to representing complicated U.S. and Canadian income tax compliance logic (calculations and rules) via a large-scale knowledge graph. We will cover how the Tax Knowledge Graph is constructed and automated, how it is used to calculate tax refunds, reasoned to find missing info, and nav",
+    "date": "2020-09-13",
+    "url": "http://arxiv.org/abs/2009.06103v1",
+    "authors": [
+      "Jay Yu",
+      "Kevin McCluskey",
+      "Saikat Mukherjee"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Knowledge Graph in Astronomical Research with Large Language Models: Quantifying Driving Forces in Interdisciplinary Scientific Discovery",
+    "abstract": "Identifying and predicting the factors that contribute to the success of interdisciplinary research is crucial for advancing scientific discovery. However, there is a lack of methods to quantify the integration of new ideas and technological advancements in astronomical research and how these new technologies drive further scientific breakthroughs. Large language models, with their ability to extract key concepts from vast literature beyond keyword searches, provide a new tool to quantify such processes. In this study, we extracted concepts in astronomical research from 297,807 publications be",
+    "date": "2024-06-03",
+    "url": "http://arxiv.org/abs/2406.01391v2",
+    "authors": [
+      "Zechang Sun",
+      "Yuan-Sen Ting",
+      "Yaobo Liang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Robust subgroup discovery",
+    "abstract": "We introduce the problem of robust subgroup discovery, i.e., finding a set of interpretable descriptions of subsets that 1) stand out with respect to one or more target attributes, 2) are statistically robust, and 3) non-redundant. Many attempts have been made to mine either locally robust subgroups or to tackle the pattern explosion, but we are the first to address both challenges at the same time from a global modelling perspective. First, we formulate the broad model class of subgroup lists, i.e., ordered sets of subgroups, for univariate and multivariate targets that can consist of nominal",
+    "date": "2021-03-25",
+    "url": "http://arxiv.org/abs/2103.13686v4",
+    "authors": [
+      "Hugo Manuel Proen\u00e7a",
+      "Peter Gr\u00fcnwald",
+      "Thomas B\u00e4ck"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Let Invariant Rationale Discovery Inspire Graph Contrastive Learning",
+    "abstract": "Leading graph contrastive learning (GCL) methods perform graph augmentations in two fashions: (1) randomly corrupting the anchor graph, which could cause the loss of semantic information, or (2) using domain knowledge to maintain salient features, which undermines the generalization to other domains. Taking an invariance look at GCL, we argue that a high-performing augmentation should preserve the salient semantics of anchor graphs regarding instance-discrimination. To this end, we relate GCL with invariant rationale discovery, and propose a new framework, Rationale-aware Graph Contrastive Lea",
+    "date": "2022-06-16",
+    "url": "http://arxiv.org/abs/2206.07869v1",
+    "authors": [
+      "Sihang Li",
+      "Xiang Wang",
+      "An zhang"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Exploiting Global Semantic Similarities in Knowledge Graphs by Relational Prototype Entities",
+    "abstract": "Knowledge graph (KG) embedding aims at learning the latent representations for entities and relations of a KG in continuous vector spaces. An empirical observation is that the head (tail) entities connected by the same relation often share similar semantic attributes -- specifically, they often belong to the same category -- no matter how far away they are from each other in the KG; that is, they share global semantic similarities. However, many existing methods derive KG embeddings based on the local information, which fail to effectively capture such global semantic similarities among entiti",
+    "date": "2022-06-16",
+    "url": "http://arxiv.org/abs/2206.08021v1",
+    "authors": [
+      "Xueliang Wang",
+      "Jiajun Chen",
+      "Feng Wu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Subsampling for Knowledge Graph Embedding Explained",
+    "abstract": "In this article, we explain the recent advance of subsampling methods in knowledge graph embedding (KGE) starting from the original one used in word2vec.",
+    "date": "2022-09-13",
+    "url": "http://arxiv.org/abs/2209.12801v1",
+    "authors": [
+      "Hidetaka Kamigaito",
+      "Katsuhiko Hayashi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Capturing and Anticipating User Intents in Data Analytics via Knowledge Graphs",
+    "abstract": "In today's data-driven world, the ability to extract meaningful information from data is becoming essential for businesses, organizations and researchers alike. For that purpose, a wide range of tools and systems exist addressing data-related tasks, from data integration, preprocessing and modeling, to the interpretation and evaluation of the results. As data continues to grow in volume, variety, and complexity, there is an increasing need for advanced but user-friendly tools, such as intelligent discovery assistants (IDAs) or automated machine learning (AutoML) systems, that facilitate the us",
+    "date": "2024-11-01",
+    "url": "http://arxiv.org/abs/2411.01023v1",
+    "authors": [
+      "Gerard Pons",
+      "Besim Bilalli",
+      "Anna Queralt"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Survey on Knowledge Graph-based Methods for Automated Driving",
+    "abstract": "Automated driving is one of the most active research areas in computer science. Deep learning methods have made remarkable breakthroughs in machine learning in general and in automated driving (AD)in particular. However, there are still unsolved problems to guarantee reliability and safety of automated systems, especially to effectively incorporate all available information and knowledge in the driving task. Knowledge graphs (KG) have recently gained significant attention from both industry and academia for applications that benefit by exploiting structured, dynamic, and relational data. The c",
+    "date": "2022-09-30",
+    "url": "http://arxiv.org/abs/2210.08119v1",
+    "authors": [
+      "Juergen Luettin",
+      "Sebastian Monka",
+      "Cory Henson"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Enhancing Knowledge Graph Construction: Evaluating with Emphasis on Hallucination, Omission, and Graph Similarity Metrics",
+    "abstract": "Recent advancements in large language models have demonstrated significant potential in the automated construction of knowledge graphs from unstructured text. This paper builds upon our previous work [16], which evaluated various models using metrics like precision, recall, F1 score, triple matching, and graph matching, and introduces a refined approach to address the critical issues of hallucination and omission. We propose an enhanced evaluation framework incorporating BERTScore for graph similarity, setting a practical threshold of 95% for graph matching. Our experiments focus on the Mistra",
+    "date": "2025-02-07",
+    "url": "http://arxiv.org/abs/2502.05239v1",
+    "authors": [
+      "Hussam Ghanem",
+      "Christophe Cruz"
+    ]
+  }
+]

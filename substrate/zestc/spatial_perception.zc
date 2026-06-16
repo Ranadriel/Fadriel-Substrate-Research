@@ -1,0 +1,39 @@
+#!/home/rana/.local/bin/zestc
+
+sea arc {
+    capacity: 50000
+    device: gpu
+}
+
+absorb "fadriel_spatial.zc"
+absorb "../ZestEngine/body/nervous_system/central/brain/perception/spatial_perception.rana"
+absorb "../ZestEngine/body/nervous_system/central/brain/perception/tiling.rana"
+absorb "../2_chemical.rana"
+
+manifest arc.perception {
+    energy: 1.0, phase: 0.0, spin: 0.5,
+    charge: 0.5, coherence: 0.9, coupling: 0.8, observer: 0.5
+}
+manifest arc.rule_engine {
+    energy: 0.8, phase: 0.0, spin: 0.5,
+    charge: 0.5, coherence: 0.9, coupling: 0.9, observer: 0.3
+}
+manifest arc.solution {
+    energy: 0.0, phase: 0.0, spin: 0.0,
+    charge: 0.0, coherence: 1.0, coupling: 0.0, observer: 0.0
+}
+
+couple arc.perception with arc.rule_engine
+couple arc.rule_engine with arc.solution
+
+heartbeat arc {
+    pulse arc
+    pulse arc
+    pulse arc
+    pulse arc
+    pulse arc
+    pulse arc
+    pulse arc
+}
+
+emit arc -> boundary.stdout

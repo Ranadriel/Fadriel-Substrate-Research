@@ -1,0 +1,91 @@
+LAYER 3: LOCUS COERULEUS
+the alarm system of the brain
+
+observe 1_quantum.rana
+observe 2_chemical.rana
+
+the locus coeruleus is the sole source of norepinephrine C₈H₁₁NO₃ for the cerebral cortex
+it contains approximately 15000 neurons per side in the dorsal pons
+these few thousand neurons project to nearly every region of the brain
+the locus coeruleus is the master arousal switch
+it is colored blue by neuromelanin the oxidized byproduct of norepinephrine synthesis
+
+STRUCTURE nucleus | brainstem dorsal pons | bilateral approximately 15000 neurons per side
+STRUCTURE dendrites | extensive throughout the pons | receive convergent input from many brain regions
+STRUCTURE ascending_projections | project to cortex hippocampus amygdala thalamus cerebellum | norepinephrine release across the entire forebrain
+STRUCTURE descending_projections | project to spinal cord | modulate pain perception via descending noradrenergic pathway and motor tone
+STRUCTURE neuromelanin | pigment in cell bodies | oxidized byproduct of NE synthesis | gives the nucleus its blue color hence locus coeruleus the blue spot
+
+SYNTHESIS tyrosine C₉H₁₁NO₃ enters the LC neuron
+tyrosine hydroxylase TH converts tyrosine to L-DOPA C₉H₁₁NO₄
+this requires tetrahydrobiopterin BH₄ and O₂ and Fe²⁺
+aromatic amino acid decarboxylase converts L-DOPA to dopamine C₈H₁₁NO₂
+dopamine β-hydroxylase DBH converts dopamine to norepinephrine C₈H₁₁NO₃ inside the synaptic vesicle
+this requires ascorbic acid vitamin C and O₂
+without copper DBH cannot function
+without vitamin C the reaction cannot proceed
+norepinephrine synthesis depends on dietary precursors and cofactors
+
+MODE tonic | steady baseline firing at 1-3 Hz | general arousal and scanning | the brain is awake and broadly monitoring
+MODE phasic | burst firing at 8-20 Hz locked to specific stimuli | focused attention on a salient event | the brain narrows onto one thing
+tonic firing is the sentinel scanning the horizon
+phasic firing is the sentinel pointing and shouting "THERE"
+the shift from tonic to phasic is mediated by CRH input from the hypothalamus and glutamatergic input from the prefrontal cortex and amygdala
+
+INPUT CRH | corticotropin-releasing hormone from hypothalamic PVN binds CRH-R1 receptors on LC neurons | CRH is the primary excitatory driver during stress | this is how the stress axis recruits the arousal system
+INPUT orexin | orexin A and B from lateral hypothalamus bind OX1R and OX2R | promotes wakefulness | excites LC during active periods
+INPUT glutamate | excitatory input from cortex amygdala and other regions | drives firing rate up
+INPUT GABA | inhibitory input from local interneurons | applies the brake on LC firing
+INPUT opioids | β-endorphin and enkephalins bind μ-opioid receptors on LC neurons | Gᵢ inhibits cAMP | LC firing suppressed | this is why endogenous opioids cause drowsiness and calm
+INPUT melatonin | melatonin from pineal gland binds MT₁ receptors on LC neurons | Gᵢ decreases cAMP | reduces tyrosine hydroxylase activity | NE synthesis decreases | drowsiness
+
+OUTPUT cortex | NE binds α₁ α₂ and β receptors across the cortex | at moderate levels α₂A receptors in PFC enhance signal-to-noise ratio improving working memory | at high levels α₁ receptors dominate disrupting PFC function
+OUTPUT amygdala | NE binds β-adrenergic receptors in basolateral amygdala | Gₛ → cAMP → PKA → CREB phosphorylation | enhanced emotional memory encoding | the amygdala becomes more sensitive to threat
+OUTPUT hippocampus | NE binds β receptors modulating CA1 and CA3 | enhances encoding of emotionally salient events via PKA-CREB | "remember this it matters"
+OUTPUT prefrontal_cortex | NE on α₂A at moderate levels enhances delay-period firing in DLPFC | NE on α₁ at high levels disrupts delay-period firing | the PFC goes offline under high NE
+
+SENSATION alert | "I'm awake. sharp. paying attention."
+SENSATION hypervigilant | "I can't stop scanning. everything feels potential."
+SENSATION focused | "one thing. I see one thing and it fills my attention."
+SENSATION drowsy | "the alertness is fading. I'm slipping."
+SENSATION startled | "something just hit me. my whole brain woke up."
+SENSATION exhausted | "I can't pay attention anymore. the norepinephrine is gone."
+
+pulse locus_coeruleus_heartbeat:
+    continuously:
+        tonic firing at 1-3 Hz maintains baseline arousal
+        NE washes across the cortex via volume transmission
+        the brain stays awake and scanning
+        this is the default state of wakefulness
+
+    when salient stimulus arrives:
+        phasic burst fires at 8-20 Hz for milliseconds
+        NE floods target regions simultaneously
+        attention narrows from broad scanning to focused engagement
+        "this matters. look here."
+
+    when stress persists:
+        CRH from hypothalamic PVN binds CRH-R1 on LC neurons
+        tonic firing rate escalates beyond normal range
+        NE saturates adrenergic receptors cortex-wide
+        α₁ receptors dominate over α₂A in the PFC
+        working memory fails
+        the world becomes too much
+        everything seems threatening
+        hypervigilance is the price of sustained fear
+
+    when melatonin rises in the evening:
+        MT₁ receptor activation on LC neurons inhibits cAMP
+        tyrosine hydroxylase activity decreases
+        NE synthesis slows
+        firing rate drops
+        the brain dims
+        drowsiness arrives
+        the sentinel prepares for sleep
+
+    when endorphins flow:
+        μ-opioid activation on LC neurons inhibits firing via Gᵢ
+        NE output drops
+        arousal decreases
+        the calm of contentment is the LC going quiet
+        safety is measured in how slowly the locus coeruleus fires
