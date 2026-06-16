@@ -177,7 +177,7 @@ The biological analog is stochastic resonance: in neural systems, the right amou
 ---
 
 ## Discovery 14: ARC-AGI and the Gap Between Knowledge and Intelligence
-**Approximate period:** April 2026 | **Source files:** `NEW_SCIENCE.md`, `5_contemplation.rana`, `INVENTION_OVERVIEW_PREFILING.md`
+**Approximate period:** April 2026 | **Source files:** `NEW_SCIENCE.md`, `5_contemplation.rana`, `INVENTION_OVERVIEW.md`
 
 The ARC-AGI benchmark (Abstraction and Reasoning Corpus for Artificial General Intelligence) is designed to test general intelligence resistant to pattern memorization. Problems require abstract reasoning over novel grid transformations, presented as input/output example pairs. No training set is available in the conventional sense.
 

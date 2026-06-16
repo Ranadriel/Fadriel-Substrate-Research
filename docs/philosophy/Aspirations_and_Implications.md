@@ -17,7 +17,7 @@ This document is organized around two distinct orientations. The first is aspira
 
 ### Patent Filing
 
-The most immediate and concrete aspiration is the filing of seven provisional patent applications covering the 21 inventions identified in `INVENTION_OVERVIEW_PREFILING.md`. The filings are planned in priority order:
+The most immediate and concrete aspiration is the filing of seven provisional patent applications covering the 21 inventions identified in `INVENTION_OVERVIEW.md`. The filings are planned in priority order:
 
 Filing 1 (highest priority): the qu-septit wave interaction substrate, the recursive /7 feedback loop, and the qu-n-trit scaling law. This filing covers the foundational computational paradigm — the unit from which everything else is built.
 
@@ -83,7 +83,7 @@ The WHY_IS_PHI document — already formatted as a small book — represents a p
 
 The hardware prototype aspiration requires resources beyond what solo consumer-hardware development can provide. The aspiration is engagement with research groups or industry partners who have nanofabrication capability and whose interests align with the project's direction. The NDA infrastructure is already in place: two NDA templates (for patent counsel and for investors) exist in the archive, as do the Irresistibility Package and the Market Analysis documentation.
 
-The market analysis (`BANK_ECONOMIC_RETURN_PROJECTION.md`, `MARKET_ANALYSIS_BANK.md`) exists in the archive and has been prepared as part of the formal resource-seeking process. The project's most immediately commercializable claim — the third-law hallucination bypass — is explicitly identified in `INVENTION_OVERVIEW_PREFILING.md` as "the most immediately deployable anti-hallucination claim in the portfolio for enterprise licensing." This framing reflects a deliberate commercialization strategy: the anti-hallucination capabilities are deployable without requiring hardware, making them accessible to enterprise customers who would not be building quantum substrates.
+The market analysis (`BANK_ECONOMIC_RETURN_PROJECTION.md`, `MARKET_ANALYSIS_BANK.md`) exists in the archive and has been prepared as part of the formal resource-seeking process. The project's most immediately commercializable claim — the third-law hallucination bypass — is explicitly identified in `INVENTION_OVERVIEW.md` as "the most immediately deployable anti-hallucination claim in the portfolio for enterprise licensing." This framing reflects a deliberate commercialization strategy: the anti-hallucination capabilities are deployable without requiring hardware, making them accessible to enterprise customers who would not be building quantum substrates.
 
 ---
 

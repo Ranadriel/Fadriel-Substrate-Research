@@ -1,16 +1,13 @@
 # Fadriel Cognitive Engine — Technical Summary
-## Pre-Filing Invention Overview for Patent Counsel and Investors
-### Version 1.0 — April 2026
+## Invention Overview
+### Originally drafted April 2026 · Published June 2026
 
 **Inventor:** Shawn Michael O'Brien (Ranadriel)
+**Citizenship:** United States of America
 **System:** Fadriel Cognitive Engine
-**Status:** Pre-filing. All source code is unpublished and has not been publicly released.
+**Publication status:** Open-source under MIT, [Ranadriel/Fadriel-Substrate-Research](https://github.com/Ranadriel/Fadriel-Substrate-Research). Prior art established by publication; SHA256 timestamp anchors in `DISCLOSURE_HASHES_*.txt`.
 
-> **Handling Notice:** This document describes inventions under development at a conceptual level.
-> Implementation details, source code, mathematical formulations, and specific parameters are
-> withheld and available only under a signed Non-Disclosure Agreement. Treat this document
-> as confidential until provisional patent applications are filed. Do not post, distribute,
-> or present publicly without prior written authorization from the Inventor.
+> This document was originally drafted as a pre-filing invention overview. The work has now been published openly; the document is preserved as a structured technical index of the inventions claimed across Filings 01-08.
 
 ---
 
@@ -169,7 +166,14 @@ All source code and technical documentation is unpublished and has not been publ
 ## Contact
 
 Inventor: Shawn Michael O'Brien (Ranadriel)
+Citizenship: United States of America
 Location: Wisconsin, United States
 Email: shawnguy150@gmail.com
 
 *Full technical disclosures — including implementation details, source code, mathematical formulations, and draft claims language — are available under a signed Non-Disclosure Agreement. Please use the Patent Counsel NDA or Investor NDA as appropriate for your role.*
+
+---
+
+## Companion Materials
+
+Supplementary philosophical and narrative documents supporting this overview are indexed in [`SUPPLEMENTARY_MATERIALS.md`](SUPPLEMENTARY_MATERIALS.md). Of particular relevance to **Invention #1 (Qu-Septit)**: *The Mad Science of Nothing* (`Mad_Science_of_Nothing/The Mad Science of Nothing.html`) — an interactive 14-specimen field manual articulating the "absence as a state of being" principle that underlies the qu-septit's treatment of dormancy (state |1⟩) as a first-class computational unit rather than a null value. The document is pre-patent confidential and subject to the same handling clauses as this overview.

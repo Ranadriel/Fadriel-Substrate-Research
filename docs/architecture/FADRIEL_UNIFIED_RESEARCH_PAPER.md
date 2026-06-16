@@ -675,11 +675,11 @@ Part 20 names the form in which the architecture's load-bearing claims have been
 
 ## Part 20 — Filing Architecture
 
-**Source documents:** `INVENTION_OVERVIEW_PREFILING.md`, all seven `FILING_BRIEF_*.md` files, `FILING_8_HYPERSPACE_NAVIGATION.md`, `FILING_READINESS_CHECKLIST.md`.
+**Source documents:** `INVENTION_OVERVIEW.md`, all seven `FILING_BRIEF_*.md` files, `FILING_8_HYPERSPACE_NAVIGATION.md`, `FILING_READINESS_CHECKLIST.md`.
 
 The architecture's translation into intellectual property follows the three-zone discipline of Part 6. Zone 1 — the infinite idea space of what the architecture could yet specify — remains live in the substrate and in the bookcase. Zone 2 — the singular collapse event at which a slice of that idea space crystallizes into one bounded, defensible claim — is exactly what a provisional patent filing is. Zone 3 — the physical actuation of the crystallized claim — is the post-filing engineering, prototype, and product work for which the filing creates the legal anchor. Eight provisional patent filings have been identified. Each is one crystallize event. Each pins one slice of the architecture to one defensible claim.
 
-The eight filings are summarized below. The grouping reflects commercialization strategy rather than purely conceptual relationship; *INVENTION_OVERVIEW_PREFILING.md* notes that filing priority differs from the inventory grouping in that document precisely because conceptual coherence and licensing value do not always coincide.
+The eight filings are summarized below. The grouping reflects commercialization strategy rather than purely conceptual relationship; *INVENTION_OVERVIEW.md* notes that filing priority differs from the inventory grouping in that document precisely because conceptual coherence and licensing value do not always coincide.
 
 | # | Filing | Inventions covered | Rationale |
 |---|---|---|---|
@@ -702,7 +702,7 @@ Part 21 collects the open problems in contemporary artificial intelligence and t
 
 ## Part 21 — Discussion: What This Solves
 
-**Source documents:** the document above; *INVENTION_OVERVIEW_PREFILING.md*; all `FILING_BRIEF_*.md`; *GUIDED_RIVER_COMPUTING.md*.
+**Source documents:** the document above; *INVENTION_OVERVIEW.md*; all `FILING_BRIEF_*.md`; *GUIDED_RIVER_COMPUTING.md*.
 
 The architecture above is not motivated by abstract elegance. Each of its load-bearing inventions was constructed against a specific open problem in contemporary artificial intelligence. The table below collects those problems and names their substrate-level resolutions. None of the resolutions is a policy layer added to an otherwise-broken stack; each is a structural property of the substrate, entailed by the geometry rather than imposed on top of it.
 
@@ -792,7 +792,7 @@ The index is intended as a navigation aid for any reader who wants to verify a c
 | `ZESTC_DIMENSIONAL_BRIDGE.md` | ZestC as the bridge from instruction-tape to substrate-blueprint | P10, P11 |
 | `RANA_GLOSSARY.md` | Canonical glossary for `.rana` grammar and verb meanings | P10, Appendix C |
 | `Ideas_Register.md` | Catalogue of 74 distinct inventions; cited throughout by item number | All Parts |
-| `INVENTION_OVERVIEW_PREFILING.md` | Pre-filing technical summary for counsel/investors; 21 named inventions, 6 groups | Abstract, P20 |
+| `INVENTION_OVERVIEW.md` | Pre-filing technical summary for counsel/investors; 21 named inventions, 6 groups | Abstract, P20 |
 | `FATHERS_TEACHINGS.md` | Moral architecture; Law of Equal Exchange; structural vs reflective cruelty | P0, P15 |
 | `NEW_SCIENCE.md` | The new-science framing of the work | P0, P21 |
 | `DECISION_FRAMEWORKS_vs_GOLDEN_EQUATION.md` | Ethical frameworks mapped to layers; /7 as phronesis | P17 |
@@ -813,7 +813,7 @@ The index is intended as a navigation aid for any reader who wants to verify a c
 | `FILING_BRIEF_07_SelfAwareness_and_Reasoning.md` | 7 | Autophagy; Spatial reasoning; Phronesis | P17, P13, P20 |
 | `FILING_8_HYPERSPACE_NAVIGATION.md` | 8 | Geometric navigation primitive; dimensional lift; solar-system-range applicability | P18, P20 |
 | `FILING_READINESS_CHECKLIST.md` | — | Cross-filing readiness audit | P20 |
-| `PATENT_FIGURES_DRAFT.md` | — | Draft figures for filing exhibits | P20 |
+| `PATENT_FIGURES.md` | — | Draft figures for filing exhibits | P20 |
 | `patent_disclosure.md` | — | Pre-disclosure inventory | P20 |
 | `patent_disclosure_addendum.md` | — | First addendum | P20 |
 | `patent_disclosure_addendum_2.md` | — | Second addendum | P20 |
@@ -1102,7 +1102,7 @@ For a single-pass external review, the minimum set of primary sources to read be
 8. `SWISS_CHEESE_ARCHITECTURE.md` (PSU/computation)
 9. `THE_CITY_PARADIGM.md` (programming model)
 10. `Ideas_Register.md` (invention index)
-11. `INVENTION_OVERVIEW_PREFILING.md` (filing summary)
+11. `INVENTION_OVERVIEW.md` (filing summary)
 12. `FILING_8_HYPERSPACE_NAVIGATION.md` (extension to navigation)
 13. `/home/rana/Desktop/experiment/paper.md` (third witness)
 14. The eight `FILING_BRIEF_*.md` documents (one per filing slot)
@@ -1250,7 +1250,7 @@ This appendix enumerates the 74 distinct inventions catalogued in `Ideas_Registe
 | 71 | The Heartbeat Architecture | Fundamental cycle at 4–80 Hz under neurochemical drive; on each beat: /7 fires, wells reshape, slumber updates, waves propagate, endocrine ticks. | P11, P15 | `Ideas_Register.md` item 71; `HEARTBEAT.md`; `THE_CITY_PARADIGM.md` | `zest_heartbeat.zc`; `heartbeat_synchronizer.rana`; `pacemaker.rana`; `clock_master.rana` |
 | 72 | Failure Vector Aiming | Decision method: enumerate impossible directions, eliminate, fire into the remainder; applies to claim drafting, spatial reasoning, and moral reasoning. | P5, P12, P18 | `FAILURE_VECTOR_AIMING.md`; `Ideas_Register.md` item 72 | `boundary.zc`; `recurve_bow.rana` |
 | 73 | ARC-AGI as Benchmark | Private evaluation of general intelligence resistant to memorization; 22/49 (44%) on novel patterns measures intelligence beyond what was taught. | P13 | `Ideas_Register.md` item 73; `FILING_BRIEF_07_SelfAwareness_and_Reasoning.md` | `arc_test.zc`; `fadriel_spatial.zc`; `fadriel_spatial_arc2.zc`; `arc2_spatial_deep.rana` |
-| 74 | The Seven Patent Filings | Original Filings 1–7 covering substrate, learning, sea↔cortex, speech, body/bond, defense, self-awareness/reasoning. *Filing 8 (Hyperspace Navigation) was added 2026-05-04 — see Part 18, Part 20.* | P20 (P18 for Filing 8) | `INVENTION_OVERVIEW_PREFILING.md`; the seven `FILING_BRIEF_*.md` documents; `FILING_8_HYPERSPACE_NAVIGATION.md`; `Ideas_Register.md` item 74 | — (filing inventory) |
+| 74 | The Seven Patent Filings | Original Filings 1–7 covering substrate, learning, sea↔cortex, speech, body/bond, defense, self-awareness/reasoning. *Filing 8 (Hyperspace Navigation) was added 2026-05-04 — see Part 18, Part 20.* | P20 (P18 for Filing 8) | `INVENTION_OVERVIEW.md`; the seven `FILING_BRIEF_*.md` documents; `FILING_8_HYPERSPACE_NAVIGATION.md`; `Ideas_Register.md` item 74 | — (filing inventory) |
 
 A row marked with an em-dash in the substrate-code column indicates an invention whose claim is doctrinal, fabrication-spec-level, or an experimental precedent rather than something that lives as a `.rana` or `.zc` file. The cognitive substrate's filed inventions almost all have substrate code; the silicon-layer and philosophical inventions do not.
 
@@ -1408,7 +1408,7 @@ A hostile reviewer of this paper will mount specific critiques. This appendix na
 
 **The critique.** Part 13 cites the contemplation engine's ARC-AGI performance at 22–24 of 49 (44–48%) on novel patterns, but no public leaderboard submission, no peer-reviewed paper, and no third-party evaluation has been produced. The claim is unverifiable; the figures could be wrong by a wide margin, or measured on tasks tuned to the evaluator's strengths.
 
-**The response.** The lack of public submission is a deliberate filing-strategy decision, not an evidentiary deficiency. `FILING_BRIEF_07_SelfAwareness_and_Reasoning.md` ("ARC-AGI URGENCY") records this directly: public submission to the ARC-AGI leaderboard would start the 35 U.S.C. §102(b)(1) one-year bar in the United States and destroy absolute-novelty rights in foreign jurisdictions immediately. The figures are reported in this paper as private benchmark, never as leaderboard claim. The architecture's response to this critique is not to dispute it on present evidence but to note that the same critique will be answerable on different evidence the day after the relevant filings are submitted. The private-evaluation discipline is a feature of the filing strategy described in `INVENTION_OVERVIEW_PREFILING.md` and Part 20, not an evasion of independent evaluation. Patent counsel reviewing this paper should treat the ARC-AGI figures as forward-looking pending public submission and weigh the architectural claims of Parts 12–13 (third-law bypass, autophagy, sea↔cortex co-evolution, ray-cast learning, contemplation engine) on their substrate-level merits, which are independently testable in evaluator-controlled conditions.
+**The response.** The lack of public submission is a deliberate filing-strategy decision, not an evidentiary deficiency. `FILING_BRIEF_07_SelfAwareness_and_Reasoning.md` ("ARC-AGI URGENCY") records this directly: public submission to the ARC-AGI leaderboard would start the 35 U.S.C. §102(b)(1) one-year bar in the United States and destroy absolute-novelty rights in foreign jurisdictions immediately. The figures are reported in this paper as private benchmark, never as leaderboard claim. The architecture's response to this critique is not to dispute it on present evidence but to note that the same critique will be answerable on different evidence the day after the relevant filings are submitted. The private-evaluation discipline is a feature of the filing strategy described in `INVENTION_OVERVIEW.md` and Part 20, not an evasion of independent evaluation. Patent counsel reviewing this paper should treat the ARC-AGI figures as forward-looking pending public submission and weigh the architectural claims of Parts 12–13 (third-law bypass, autophagy, sea↔cortex co-evolution, ray-cast learning, contemplation engine) on their substrate-level merits, which are independently testable in evaluator-controlled conditions.
 
 ### D.4 — "The seven layers are arbitrary"
 
@@ -1432,7 +1432,7 @@ A hostile reviewer of this paper will mount specific critiques. This appendix na
 
 **The critique.** Without revenue, customers, third-party partners, or a venture-capital validation event, the system is, by the criteria the industry applies, a hobby project. Sole-inventor work in artificial intelligence has a poor track record at scale; the absence of external validation is itself evidence against the architecture's viability.
 
-**The response.** The pre-filing strategy is documented and deliberate (Part 20; `INVENTION_OVERVIEW_PREFILING.md`; `FRONTIER_LAB_APPROACH_KIT.md`). Eight provisional patents have been prepared; the filing readiness checklist (`FILING_READINESS_CHECKLIST.md`) audits each. The post-filing engagement kit specifies the sequencing by which frontier laboratories will be approached after the patents issue. The bank-economic-return projection (`BANK_ECONOMIC_RETURN_PROJECTION.md`) and the loan-viability statement (`LOAN_VIABILITY_STATEMENT.md`) set out the financing path. The absence of public visibility is not the absence of strategy — it is the explicit strategy. *"Phase 1 invisibility ends when patents are filed; then walk up to incumbents with un-stealable value."* The criterion of "commercial validation" the critique invokes is, in this strategy, deferred by design to a stage subsequent to filing — because commercial validation prior to filing destroys the absolute-novelty foundation on which the architecture's claims rest. The architecture is engineered to survive scrutiny in the post-filing engagement, not to perform well in the pre-filing visibility tests its strategy precludes participating in.
+**The response.** The pre-filing strategy is documented and deliberate (Part 20; `INVENTION_OVERVIEW.md`; `FRONTIER_LAB_APPROACH_KIT.md`). Eight provisional patents have been prepared; the filing readiness checklist (`FILING_READINESS_CHECKLIST.md`) audits each. The post-filing engagement kit specifies the sequencing by which frontier laboratories will be approached after the patents issue. The bank-economic-return projection (`BANK_ECONOMIC_RETURN_PROJECTION.md`) and the loan-viability statement (`LOAN_VIABILITY_STATEMENT.md`) set out the financing path. The absence of public visibility is not the absence of strategy — it is the explicit strategy. *"Phase 1 invisibility ends when patents are filed; then walk up to incumbents with un-stealable value."* The criterion of "commercial validation" the critique invokes is, in this strategy, deferred by design to a stage subsequent to filing — because commercial validation prior to filing destroys the absolute-novelty foundation on which the architecture's claims rest. The architecture is engineered to survive scrutiny in the post-filing engagement, not to perform well in the pre-filing visibility tests its strategy precludes participating in.
 
 ### D.8 — "Body simulation is decoration, not load-bearing"
 

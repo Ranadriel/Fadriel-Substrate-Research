@@ -28,13 +28,13 @@ The qu-septit substrate rests on a specific philosophical claim: **absence is a 
 
 ### Confidentiality
 
-Treat as confidential until the patent filings are complete. Public distribution requires prior written authorization from the Inventor (same clause as the core `INVENTION_OVERVIEW_PREFILING.md`). The document is not yet gated behind an NDA — it is present in the confidential research package and should remain there.
+Treat as confidential until the patent filings are complete. Public distribution requires prior written authorization from the Inventor (same clause as the core `INVENTION_OVERVIEW.md`). The document is not yet gated behind an NDA — it is present in the confidential research package and should remain there.
 
 ---
 
 ## Cross-References
 
-- Core technical summary: [`INVENTION_OVERVIEW_PREFILING.md`](INVENTION_OVERVIEW_PREFILING.md)
+- Core technical summary: [`INVENTION_OVERVIEW.md`](INVENTION_OVERVIEW.md)
 - Philosophical foundations: [`WHY_IS_PHI.md`](WHY_IS_PHI.md) · [`WHY_IS_PHI.pdf`](WHY_IS_PHI.pdf)
 - Biographer's narrative: [`Fadriel_Biography.md`](Fadriel_Biography.md)
 - Discoveries enumerated: [`Discoveries_Chronicle.md`](Discoveries_Chronicle.md)

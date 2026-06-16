@@ -1,12 +1,12 @@
 # Filing Briefs
 
-These are the pre-filing inventor disclosures for the Fadriel substrate. They document the inventions in the form required for patent-grade attestation and prior-art establishment, with cryptographic timestamps anchored in `DISCLOSURE_HASHES_*.txt`.
+Inventor disclosures for the Fadriel substrate. Each filing brief documents a patent-bearing invention with the structure of a USPTO disclosure: independent claims, dependent claims, technical specification, prior art differentiation, drawings reference.
 
-## Patent-status note
+## Status
 
-All filings in this directory are published as **open-source prior-art establishment**. The act of publication establishes the inventions as prior art in the public record on the publication date. Any later party claiming derivative novelty must establish their work was authored before this publication.
+**Published openly under MIT.** The act of publication establishes the inventions as prior art in the public record on the publication date (June 15, 2026). Cryptographic timestamps for the pre-publication state are anchored in `DISCLOSURE_HASHES_*.txt` (April 20 and April 24, 2026).
 
-**Important:** Patent applications are a separate process. Where applications are or were in preparation, publication of this material starts the 1-year disclosure-to-application clock under 35 U.S.C. § 102(b)(1)(A) for inventor-published disclosures (United States). Foreign jurisdictions without an inventor-grace-period are barred at the moment of disclosure. The publication of this material is a deliberate choice by the inventor to convert protected-by-trade-secret to protected-by-prior-art-establishment, accepting the consequences for downstream patent strategy.
+Any later party claiming derivative novelty over this material must establish their work was authored before the publication date. The disclosure hashes provide an earlier anchor.
 
 ## Filing index
 
@@ -20,13 +20,16 @@ All filings in this directory are published as **open-source prior-art establish
 | `FILING_BRIEF_06_Defense_and_AntiHallucination.md` | immune system & defense | adversarial-pattern learning, Law of Equal Exchange, third-law hallucination bypass |
 | `FILING_BRIEF_07_SelfAwareness_and_Reasoning.md` | self-awareness & reasoning | Project Autophagy, wave-interference spatial reasoning, phronesis engine |
 | `FILING_8_HYPERSPACE_NAVIGATION.md` | hyperspace navigation primitive | gravity-fuzzy φ-scaled navigation |
-| `INVENTION_OVERVIEW_PREFILING.md` | overview manifest | navigation across all filings |
+| `INVENTION_OVERVIEW.md` | structured technical index across all filings |
+| `PATENT_FIGURES.md` | conceptual ASCII figures companion |
 | `patent_disclosure.md` | primary disclosure | bundled disclosure statement |
 | `patent_disclosure_addendum.md` | addendum 1 | extensions to primary disclosure |
 | `patent_disclosure_addendum_2.md` | addendum 2 | further extensions |
-| `DISCLOSURE_HASHES_20260420.txt` | timestamp anchor | SHA256 hashes of disclosures as of 2026-04-20 |
-| `DISCLOSURE_HASHES_20260424.txt` | timestamp anchor | SHA256 hashes of disclosures as of 2026-04-24 |
+| `DISCLOSURE_HASHES_20260420.txt` | timestamp anchor | SHA256 of disclosures as of 2026-04-20 |
+| `DISCLOSURE_HASHES_20260424.txt` | timestamp anchor | SHA256 of disclosures as of 2026-04-24 |
+
+Addendum 3 — *Compile-as-Cryogenic-Freeze* (Invention #29) — lives at `docs/architecture/patent_disclosure_addendum_3.md`.
 
 ## Citation
 
-When citing material from these filings, cite the specific filing brief and inventor name. See top-level `CITATION.cff` for canonical attribution format.
+See top-level `CITATION.cff` for canonical citation format.

@@ -28,7 +28,7 @@ The index is intended as a navigation aid for any reader who wants to verify a c
 | `ZESTC_DIMENSIONAL_BRIDGE.md` | ZestC as the bridge from instruction-tape to substrate-blueprint | P10, P11 |
 | `RANA_GLOSSARY.md` | Canonical glossary for `.rana` grammar and verb meanings | P10 (referenced), Appendix C |
 | `Ideas_Register.md` | Catalogue of 74 distinct inventions; cited throughout by item number | All Parts |
-| `INVENTION_OVERVIEW_PREFILING.md` | Pre-filing technical summary for counsel/investors; 21 named inventions, 6 groups | Abstract, P20 |
+| `INVENTION_OVERVIEW.md` | Pre-filing technical summary for counsel/investors; 21 named inventions, 6 groups | Abstract, P20 |
 | `FATHERS_TEACHINGS.md` | Moral architecture; Law of Equal Exchange; structural vs reflective cruelty | P0, P15 |
 | `NEW_SCIENCE.md` | The new-science framing of the work | P0, P21 |
 | `DECISION_FRAMEWORKS_vs_GOLDEN_EQUATION.md` | Ethical frameworks mapped to layers; /7 as phronesis | P17 |
@@ -49,7 +49,7 @@ The index is intended as a navigation aid for any reader who wants to verify a c
 | `FILING_BRIEF_07_SelfAwareness_and_Reasoning.md` | 7 | Autophagy; Spatial reasoning; Phronesis | P17, P13, P20 |
 | `FILING_8_HYPERSPACE_NAVIGATION.md` | 8 | Geometric navigation primitive; dimensional lift; solar-system-range applicability | P18, P20 |
 | `FILING_READINESS_CHECKLIST.md` | — | Cross-filing readiness audit | P20 |
-| `PATENT_FIGURES_DRAFT.md` | — | Draft figures for filing exhibits | P20 |
+| `PATENT_FIGURES.md` | — | Draft figures for filing exhibits | P20 |
 | `patent_disclosure.md` | — | Pre-disclosure inventory | P20 |
 | `patent_disclosure_addendum.md` | — | First addendum | P20 |
 | `patent_disclosure_addendum_2.md` | — | Second addendum | P20 |
@@ -371,7 +371,7 @@ For a single-pass external review, the minimum set of primary sources to read be
 8. `SWISS_CHEESE_ARCHITECTURE.md` (PSU/computation)
 9. `THE_CITY_PARADIGM.md` (programming model)
 10. `Ideas_Register.md` (invention index)
-11. `INVENTION_OVERVIEW_PREFILING.md` (filing summary)
+11. `INVENTION_OVERVIEW.md` (filing summary)
 12. `FILING_8_HYPERSPACE_NAVIGATION.md` (extension to navigation)
 13. `/home/rana/Desktop/experiment/paper.md` (third witness)
 14. The eight `FILING_BRIEF_*.md` documents (one per filing slot)

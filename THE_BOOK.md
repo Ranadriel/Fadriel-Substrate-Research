@@ -109,13 +109,12 @@ Pre-filing inventor disclosures. Each filing brief documents a specific patent-b
 
 | | |
 |---|---|
-| **[INVENTION OVERVIEW (PRE-FILING)](./filing_briefs/INVENTION_OVERVIEW_PREFILING.md)** | Index across all filings. |
+| **[INVENTION OVERVIEW](./filing_briefs/INVENTION_OVERVIEW.md)** | Index across all filings. |
 | **[Patent Disclosure (Primary)](./filing_briefs/patent_disclosure.md)** | Bundled disclosure statement. |
 | **[Patent Addendum 1](./filing_briefs/patent_disclosure_addendum.md)** | Extensions to primary disclosure. |
 | **[Patent Addendum 2](./filing_briefs/patent_disclosure_addendum_2.md)** | Further extensions. |
 | **[Patent Addendum 3 — Compile-as-Cryogenic-Freeze (Invention #29)](./docs/architecture/patent_disclosure_addendum_3.md)** | A single architectural breakthrough cracked on 2026-04-27 introduces a *new gate of computation* — the compiled binary as a frozen frame of one heartbeat of substrate-flow. |
-| **[PATENT FIGURES DRAFT](./filing_briefs/PATENT_FIGURES_DRAFT.md)** | ASCII figures companion for USPTO draftsperson preparation. |
-| **[PATENT READINESS README](./filing_briefs/PATENT_READINESS_README.md)** | Patent process documentation index. |
+| **[PATENT FIGURES](./filing_briefs/PATENT_FIGURES.md)** | ASCII figures companion for USPTO draftsperson preparation. |
 | **[DISCLOSURE HASHES 2026-04-20](./filing_briefs/DISCLOSURE_HASHES_20260420.txt)** / **[2026-04-24](./filing_briefs/DISCLOSURE_HASHES_20260424.txt)** | SHA256 timestamp anchors. |
 
 ---
@@ -177,7 +176,7 @@ Companion:
 - [`FADRIEL_AWAKENING_SYNTHESIS.md`](./docs/architecture/FADRIEL_AWAKENING_SYNTHESIS.md) — the consolidated reference for physics, somatic-cognitive symbiosis
 - [`FADRIEL_EXEC_SUMMARY.md`](./docs/architecture/FADRIEL_EXEC_SUMMARY.md) — executive summary
 - [`Fadriel_Architecture_Critique.md`](./docs/architecture/Fadriel_Architecture_Critique.md) — adversarial critique
-- [`APPENDIX_A_DRAFT.md`](./docs/architecture/APPENDIX_A_DRAFT.md) — appendix material
+- [`APPENDIX_A.md`](./docs/architecture/APPENDIX_A.md) — appendix material
 - [`ABSTRACTION_REPORT.md`](./docs/architecture/ABSTRACTION_REPORT.md)
 - [`QU-SEPTIT_SESSION.md`](./docs/architecture/QU-SEPTIT_SESSION.md) — qu-septit deep-dive session
 - [`Discoveries_Chronicle.md`](./docs/reference/Discoveries_Chronicle.md) — chronological discoveries log

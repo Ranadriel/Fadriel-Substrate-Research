@@ -1,10 +1,8 @@
-# Patent Figures — Rough Sketches
+# Patent Figures — Conceptual Sketches
 ## Companion to FILING_BRIEF_01 through 07
 ### Inventor: Shawn Michael O'Brien (Ranadriel) · Wisconsin, USA
 
-> **Purpose**: rough conceptual figures for each filing, drawn in ASCII, with descriptions intended to guide a USPTO-compliant patent draftsperson when preparing the formal drawings. **NOT final patent figures.** Formal drawings must comply with 37 C.F.R. § 1.84 (line weights, hatching, numbering, lead lines, etc.) and are typically prepared by a professional patent illustrator.
->
-> **For counsel**: pass these to your patent illustrator with the corresponding `FILING_BRIEF_NN` for context. The inventor can clarify any ambiguity.
+> Conceptual ASCII figures for each filing, paired with descriptions. Each figure illustrates the architectural relationship described in the corresponding `FILING_BRIEF_NN`. Read alongside the filing brief.
 
 ---
 
