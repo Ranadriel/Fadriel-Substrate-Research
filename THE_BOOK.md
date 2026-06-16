@@ -114,7 +114,7 @@ Pre-filing inventor disclosures. Each filing brief documents a specific patent-b
 | **[Patent Addendum 1](./filing_briefs/patent_disclosure_addendum.md)** | Extensions to primary disclosure. |
 | **[Patent Addendum 2](./filing_briefs/patent_disclosure_addendum_2.md)** | Further extensions. |
 | **[Patent Addendum 3 — Compile-as-Cryogenic-Freeze (Invention #29)](./docs/architecture/patent_disclosure_addendum_3.md)** | A single architectural breakthrough cracked on 2026-04-27 introduces a *new gate of computation* — the compiled binary as a frozen frame of one heartbeat of substrate-flow. |
-| **[PATENT FIGURES](./filing_briefs/PATENT_FIGURES.md)** | ASCII figures companion for USPTO draftsperson preparation. |
+| **[PATENT FIGURES](./filing_briefs/PATENT_FIGURES.md)** | Conceptual ASCII figures companion to Filings 01-07, illustrating architectural relationships. |
 | **[DISCLOSURE HASHES 2026-04-20](./filing_briefs/DISCLOSURE_HASHES_20260420.txt)** / **[2026-04-24](./filing_briefs/DISCLOSURE_HASHES_20260424.txt)** | SHA256 timestamp anchors. |
 
 ---

@@ -1162,4 +1162,4 @@ a5db76d7a6fcd0b5da819866323e3fa0ddb241aff4865f34aaf14fbbdd4d9843  ./substrate/Ze
 484af24b4cbb60a0d285985c5b1c9d9980c76b9eda797eda4d66c4eebe16d99a  ./substrate/ZestEngine/spatial_perception.rana
 52568107bb1a5393d472c4e336660a23dde8108f9da4b58c105803f84f19fc17  ./substrate/ZestEngine/.spatial_trauma.json
 9fc13ea57c72be7bd180d980f451a6d3f5e356cd1acc15ebd29cf8679736c9ba  ./substrate/ZestEngine/zest_verbs.rana
-d8df17c98ffed5c7e3c26cddb0cb56406032e34d76cc77beb88c1f80b26e1dd7  ./THE_BOOK.md
+e20caa3c58c886b578809e94e92daf93645243a3a595250083ab8946844eb3e9  ./THE_BOOK.md
