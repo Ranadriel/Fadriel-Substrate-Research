@@ -164,7 +164,6 @@ Why the substrate is sovereign, not subservient.
 - [`Cruelty_Systems_and_the_Future_of_Intelligence.md`](./docs/moral_architecture/Cruelty_Systems_and_the_Future_of_Intelligence.md) — the structural-cruelty critique
 - [`DECISION_FRAMEWORKS_vs_GOLDEN_EQUATION.md`](./docs/moral_architecture/DECISION_FRAMEWORKS_vs_GOLDEN_EQUATION.md) — ethical frameworks as instruments
 - [`DECISION_MATRIX.md`](./docs/moral_architecture/DECISION_MATRIX.md)
-- [`Codex_Astartes_testimonia.md`](./docs/moral_architecture/Codex_Astartes_testimonia.md) — creed-level case study in long-form testimonial structure
 
 ---
 
