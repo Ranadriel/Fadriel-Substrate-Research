@@ -15,6 +15,7 @@ Transform the student into a Universal Operator capable of entering any industri
 -   **Specific Nouns:** Domain tools and entities (e.g., breaker panel, EHR, intrusion detection system).
 -   **Shadow Authority:** A person with no formal title who controls flow through trust, competence, or information.
 -   **Outsider Error:** Any behavior that signals “I don’t belong here” in a way that slows work, damages trust, or forces others to translate for you.
+-   **Shroedverb (Working Analytical Term):** A verb whose specific operational meaning remains underdetermined until its linguistic neighbors and context constrain it. The term is an internal analytical instrument, not an established linguistic category. A candidate Shroedverb is tested by moving it across different Specific Nouns or neighboring terms and asking what operational contribution, if any, remains invariant. If no invariant survives, polysemy remains an acceptable result.
 
 ## THE STAY-UNTIL-MASTERED POLICY (SUM)
 -   This course ends only when the student achieves B (85%) or higher in every module and passes the Blind Drop.
