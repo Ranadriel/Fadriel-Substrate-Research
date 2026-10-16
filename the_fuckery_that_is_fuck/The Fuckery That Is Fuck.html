@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Fuckery That Is Fuck</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Caveat:wght@500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #f3ecdc;
+  --paper-dark: #e6dcc4;
+  --ink: #1d1a16;
+  --ink-dim: #5a5246;
+  --ink-faint: #8f8574;
+  --rule: #c9bc9f;
+  --red: #a8321f;
+  --blue: #2e4f6e;
+  --green: #4a6b3a;
+  --serif: 'EB Garamond', Georgia, serif;
+  --hand: 'Caveat', cursive;
+  --mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #17150f; --paper-dark: #221f17; --ink: #ece4d2; --ink-dim: #bdb29c;
+    --ink-faint: #887e6b; --rule: #3d372a; --red: #e07a62; --blue: #8fb8d4; --green: #a3c88a;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #17150f; --paper-dark: #221f17; --ink: #ece4d2; --ink-dim: #bdb29c;
+  --ink-faint: #887e6b; --rule: #3d372a; --red: #e07a62; --blue: #8fb8d4; --green: #a3c88a;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--serif); font-size: 19px; line-height: 1.55; }
+.page { max-width: 760px; margin: 0 auto; padding: 48px 16px 96px; }
+a { color: var(--blue); }
+em { font-style: italic; }
+.mono { font-family: var(--mono); font-size: 0.82em; }
+.hand { font-family: var(--hand); color: var(--red); font-size: 1.35em; line-height: 1.1; }
+
+/* masthead */
+.masthead { text-align: center; border-bottom: 3px double var(--rule); padding-bottom: 28px; margin-bottom: 36px; }
+.institute { font-family: var(--mono); font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink-faint); }
+h1 { font-weight: 500; font-size: clamp(38px, 9vw, 64px); line-height: 1.02; margin: 18px 0 10px; letter-spacing: -0.01em; }
+h1 .the { display: block; font-size: 0.4em; font-style: italic; color: var(--ink-dim); }
+h1 .fuck { color: var(--red); font-style: italic; }
+.subtitle { font-style: italic; color: var(--ink-dim); font-size: 1.05em; }
+.byline { margin-top: 14px; font-family: var(--hand); font-size: 26px; color: var(--ink-dim); }
+
+/* entry */
+.entry { border: 1px solid var(--rule); background: var(--paper-dark); padding: 20px 22px; margin-bottom: 40px; }
+.entry .hw { font-weight: 700; font-size: 1.6em; }
+.entry .pron { font-family: var(--mono); font-size: 0.8em; color: var(--ink-dim); margin-left: 8px; }
+.entry ol { margin: 10px 0 0; padding-left: 22px; }
+.entry li { margin: 4px 0; }
+.entry .pos { font-style: italic; color: var(--ink-dim); }
+
+/* specimens */
+.specimen { margin: 0 0 48px; }
+.spec-num { font-family: var(--mono); font-size: 12px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--red); }
+h2 { font-weight: 600; font-size: 1.55em; margin: 4px 0 14px; line-height: 1.15; }
+h2 .accent { font-style: italic; font-weight: 400; color: var(--ink-dim); }
+p { margin: 0 0 14px; }
+.margin-note { float: right; width: 34%; margin: 0 0 10px 18px; transform: rotate(-1.5deg); }
+@media (max-width: 560px) { .margin-note { float: none; width: auto; margin: 0 0 14px; } }
+
+/* timeline */
+.timeline { list-style: none; padding: 0; margin: 16px 0; border-left: 2px solid var(--rule); }
+.timeline li { padding: 0 0 12px 18px; position: relative; }
+.timeline li::before { content: ''; position: absolute; left: -6px; top: 9px; width: 10px; height: 10px; border-radius: 50%; background: var(--paper); border: 2px solid var(--red); }
+.timeline .yr { font-family: var(--mono); font-weight: 600; font-size: 0.85em; color: var(--red); margin-right: 6px; }
+
+/* table */
+.slots { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 0.95em; }
+.slots td { border-top: 1px solid var(--rule); padding: 7px 6px; vertical-align: top; }
+.slots td:first-child { font-family: var(--mono); font-size: 0.75em; color: var(--ink-faint); white-space: nowrap; padding-top: 10px; width: 1%; }
+.slots strong { color: var(--red); font-weight: 600; }
+
+/* infix machine */
+.machine { border: 2px solid var(--ink); padding: 18px 16px; margin: 18px 0; }
+.machine-title { font-family: var(--mono); font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-dim); margin-bottom: 12px; }
+.word { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; font-size: 1.7em; min-height: 64px; }
+.syl { padding: 0 1px; }
+.gap { appearance: none; border: 0; background: transparent; cursor: pointer; width: 22px; height: 44px; position: relative; padding: 0; }
+.gap::after { content: ''; position: absolute; left: 10px; top: 8px; bottom: 8px; width: 2px; background: var(--rule); transition: background .15s; }
+.gap:hover::after, .gap:focus-visible::after { background: var(--blue); }
+.inserted { color: var(--red); font-style: italic; }
+.verdict { text-align: center; min-height: 54px; margin-top: 8px; font-size: 0.95em; }
+.verdict.good { color: var(--green); }
+.verdict.bad { color: var(--red); }
+.controls { display: flex; gap: 10px; justify-content: center; margin-top: 8px; flex-wrap: wrap; }
+.controls button { font-family: var(--mono); font-size: 13px; background: transparent; color: var(--ink); border: 1px solid var(--ink); padding: 8px 14px; cursor: pointer; }
+.controls button:hover { background: var(--ink); color: var(--paper); }
+.score { text-align: center; font-family: var(--mono); font-size: 12px; color: var(--ink-faint); margin-top: 10px; }
+
+/* thesis */
+.thesis { border-top: 3px double var(--rule); padding-top: 28px; }
+.thesis p:first-of-type::first-letter { float: left; font-size: 3.4em; line-height: 0.85; padding: 6px 8px 0 0; color: var(--red); }
+.foot { margin-top: 40px; font-size: 0.8em; color: var(--ink-faint); border-top: 1px solid var(--rule); padding-top: 14px; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<header class="masthead">
+  <div class="institute">✶ Institute of Negative Space · Department of Lexical Forensics ✶</div>
+  <h1><span class="the">The</span>Fuckery That Is <span class="fuck">Fuck</span></h1>
+  <div class="subtitle">A word analysis. One syllable, every slot in the grammar,<br>and almost no meaning left.</div>
+  <div class="byline">— collected by Rana</div>
+</header>
+
+<div class="entry">
+  <span class="hw">fuck</span><span class="pron">/fʌk/</span>
+  <ol>
+    <li><span class="pos">v.</span> To copulate. (The original job. Mostly retired.)</li>
+    <li><span class="pos">v.</span> To ruin, cheat, or mishandle. <em>fuck up, fuck over</em></li>
+    <li><span class="pos">int.</span> A noise made at the universe.</li>
+    <li><span class="pos">n.</span> A unit of care, issued in amounts of zero. <em>not give a fuck</em></li>
+    <li><span class="pos">intens.</span> Anything, but louder.</li>
+  </ol>
+</div>
+
+<!-- I -->
+<section class="specimen">
+  <div class="spec-num">Specimen I</div>
+  <h2>Where it came from <span class="accent">— and where it didn't</span></h2>
+  <p>
+    It's Germanic, and it has cousins: Dutch <em>fokken</em> (to breed livestock),
+    Norwegian dialect <em>fukka</em>, Swedish dialect <em>fokka</em>. Older senses
+    in that family run to <em>strike, thrust, move back and forth</em>. Sex is a
+    specialization of hitting.
+  </p>
+  <div class="margin-note hand">Not an acronym. Never was. Anyone who says “For Unlawful Carnal Knowledge” is reciting a 20th-century joke.</div>
+  <p>
+    The written record is thin, because the word was taboo before it was
+    common. What survives arrives sideways: as a nickname in a court roll,
+    in cipher, in a margin.
+  </p>
+  <ul class="timeline">
+    <li><span class="yr">1310</span>A man listed in a Chester court record as <em>Roger Fuckebythenavele</em>. Probably an insult nickname; scholars still argue about what it meant.</li>
+    <li><span class="yr">c.1475</span>A Latin-English poem mocking Carmelite friars hides the word in a simple letter-shift cipher. The writer felt it needed hiding.</li>
+    <li><span class="yr">c.1503</span>The Scots poet William Dunbar uses it plainly in verse. Scotland was less shy.</li>
+    <li><span class="yr">1528</span>A monk scribbles a curse at his abbot in the margin of a copy of Cicero, with <em>fuckin</em> as the intensifier. The adjective is already working.</li>
+  </ul>
+  <p>
+    That last one matters: almost as soon as the word shows up in writing,
+    it's already being used for something other than sex.
+  </p>
+</section>
+
+<!-- II -->
+<section class="specimen">
+  <div class="spec-num">Specimen II</div>
+  <h2>Every slot in the grammar <span class="accent">— the promiscuous word</span></h2>
+  <p>
+    Most English words have one or two parts of speech. This one gets into all
+    of them. The same four letters, unchanged, every slot:
+  </p>
+  <table class="slots">
+    <tr><td>verb</td><td>They <strong>fucked</strong> it up.</td></tr>
+    <tr><td>noun</td><td>I don't give a <strong>fuck</strong>.</td></tr>
+    <tr><td>adjective</td><td>Where are my <strong>fucking</strong> keys?</td></tr>
+    <tr><td>adverb</td><td>That's <strong>fucking</strong> brilliant.</td></tr>
+    <tr><td>interjection</td><td><strong>Fuck!</strong></td></tr>
+    <tr><td>phrasal verb</td><td><strong>fuck off · fuck around · fuck with · fuck over</strong> — each one a separate meaning</td></tr>
+    <tr><td>wh-intensifier</td><td>What <strong>the fuck</strong> is that?</td></tr>
+    <tr><td>degree noun</td><td>Get <strong>the fuck</strong> out. · Cold as <strong>fuck</strong>.</td></tr>
+    <tr><td>infix</td><td>abso<strong>fucking</strong>lutely</td></tr>
+    <tr><td>whole sentence</td><td><strong>Fuck.</strong> (Complete. Nothing missing.)</td></tr>
+  </table>
+  <p>
+    Look at <em>the fuck</em> in “get the fuck out.” It's a noun phrase that
+    names nothing. Take it out and the sentence means exactly the same thing,
+    only quieter. It's grammatical packing material.
+  </p>
+</section>
+
+<!-- III -->
+<section class="specimen">
+  <div class="spec-num">Specimen III</div>
+  <h2>“Fuck you” is not a command <span class="accent">— the subjectless sentence</span></h2>
+  <p>
+    In 1967 a linguist circulated a paper under the fake name
+    <em>Quang Phuc Dong</em>, from the made-up “South Hanoi Institute of Technology.”
+    It was really James McCawley, and his point was serious:
+    <em>fuck you</em> looks like an imperative, like <em>close the door</em>,
+    but it doesn't behave like one.
+  </p>
+  <table class="slots">
+    <tr><td>real imperative</td><td>Please close the door. · You close the door!</td></tr>
+    <tr><td>“fuck you”</td><td>*Please fuck you. · *You fuck you!</td></tr>
+    <tr><td>conjoined</td><td>Close the door and sit down. · *Fuck you and sit down.</td></tr>
+  </table>
+  <p>
+    Every test for a command fails. <em>Fuck you</em> works like
+    <em>damn you</em> or <em>to hell with you</em>: a fixed curse with no
+    subject and no instruction in it. Nobody is being told to do anything.
+    Its grammar is a gesture.
+  </p>
+</section>
+
+<!-- IV -->
+<section class="specimen">
+  <div class="spec-num">Specimen IV</div>
+  <h2>The infix machine <span class="accent">— abso-fucking-lutely</span></h2>
+  <p>
+    English barely has infixes, meaning pieces inserted <em>inside</em> a word.
+    Expletive infixation is the main exception, and it follows a strict rule
+    that nobody was taught. In 1982 John McCarthy wrote it down: the infix goes
+    <strong>right before the stressed syllable</strong>, and only after a chunk
+    that could carry stress of its own.
+  </p>
+  <p>
+    So it's <em>fan-fucking-tastic</em>, never <em>fanta-fucking-stic</em>. You
+    already know this. Test it: tap the gap where it belongs.
+  </p>
+
+  <div class="machine" aria-live="polite">
+    <div class="machine-title">⚙ Expletive Insertion Apparatus</div>
+    <div class="word" id="word"></div>
+    <div class="verdict" id="verdict">Tap a gap.</div>
+    <div class="controls">
+      <button type="button" id="next">Next word →</button>
+    </div>
+    <div class="score" id="score"></div>
+  </div>
+
+  <p>
+    The point: a word with no meaning left still obeys rhythm. The infix
+    contributes nothing semantic. It's pure stress, inserted wherever stress
+    is about to land.
+  </p>
+</section>
+
+<!-- V -->
+<section class="specimen">
+  <div class="spec-num">Specimen V</div>
+  <h2>Semantic bleaching <span class="accent">— how the word emptied out</span></h2>
+  <p>
+    Linguists call it <em>bleaching</em>: a word used hard enough stops meaning
+    what it means and just carries force. <em>Very</em> used to mean “truly.”
+    <em>Awfully</em> used to mean “full of awe.” <em>Fuck</em> went further than
+    either.
+  </p>
+  <p>
+    In <em>fucking brilliant</em> there's no sex, and there isn't even anything
+    bad. The word is an amplifier. It points at the next word and says
+    <em>more</em>. You can say a whole conversation with it, each one meaning
+    something different, and the listener decodes it entirely from pitch,
+    timing, and context. The word itself is a carrier wave. The information
+    rides on the tone.
+  </p>
+</section>
+
+<!-- VI -->
+<section class="specimen">
+  <div class="spec-num">Specimen VI</div>
+  <h2>The law of the word <span class="accent">— a ledger</span></h2>
+  <p>A word with no content keeps ending up in court.</p>
+  <ul class="timeline">
+    <li><span class="yr">1971</span><em>Cohen v. California</em>: a man wore a jacket reading “Fuck the Draft” in a courthouse. The Supreme Court protected it. One opinion's point was that emotion is part of what speech carries, not something separate from it.</li>
+    <li><span class="yr">1972</span>George Carlin's “Seven Words You Can Never Say on Television.”</li>
+    <li><span class="yr">1978</span><em>FCC v. Pacifica</em>: a radio broadcast of that routine. The Court let the FCC regulate “indecent” speech on broadcast airwaves.</li>
+    <li><span class="yr">2012</span><em>FCC v. Fox</em>: on unscripted, one-off expletives on live TV, the Court ruled for the broadcasters, on the narrow ground that they hadn't been given fair notice of the rule.</li>
+    <li><span class="yr">2019</span><em>Iancu v. Brunetti</em>: the brand FUCT. The Court struck down the ban on registering “immoral or scandalous” trademarks.</li>
+  </ul>
+  <p>
+    The pattern: the law keeps trying to regulate the <em>word</em>, and keeps
+    finding that the word isn't where the offense lives. The offense is in the
+    force, and the force can't be pinned to letters.
+  </p>
+</section>
+
+<!-- thesis -->
+<section class="thesis">
+  <div class="spec-num">Thesis</div>
+  <h2>A word that achieved nothing</h2>
+  <p>
+    The Mad Science of Nothing measures absence and finds structure in it.
+    This is the same lens, aimed at one word. <em>Fuck</em> started as an act,
+    lost the act, lost the insult, and ended up as pure force with almost no
+    content. It's a word defined mostly by what has been taken out of it.
+  </p>
+  <p>
+    And what's left still runs on law. It follows stress rules nobody learned.
+    It fills grammatical slots that have nothing in them. It slips past the
+    courts because there's nothing to grab. A hollow word with perfect
+    structure.
+  </p>
+  <p class="hand">Fuck is the via negativa of English.</p>
+
+  <div class="foot">
+    Further reading: Jesse Sheidlower, <em>The F-Word</em> (Oxford, 3rd ed. 2009) ·
+    Quang Phuc Dong [J. McCawley], “English Sentences Without Overt Grammatical
+    Subject” (1967; pub. 1971) · John J. McCarthy, “Prosodic Structure and
+    Expletive Infixation,” <em>Language</em> 58 (1982) ·
+    Companion to <a href="../mad_science_of_nothing/The%20Mad%20Science%20of%20Nothing.html">The Mad Science of Nothing</a>.
+  </div>
+</section>
+
+</div>
+
+<script>
+(function () {
+  // Each word: syllables, and the index of the gap (between syl[i-1] and syl[i]) where the infix belongs.
+  var WORDS = [
+    { s: ['ab','so','lute','ly'], ok: 2 },
+    { s: ['fan','tas','tic'], ok: 1 },
+    { s: ['A','la','ba','ma'], ok: 2 },
+    { s: ['Mas','sa','chu','setts'], ok: 2 },
+    { s: ['Ka','la','ma','zoo'], ok: 3 },
+    { s: ['im','pos','si','ble'], ok: 1 },
+    { s: ['hip','po','pot','a','mus'], ok: 2 },
+    { s: ['Min','ne','so','ta'], ok: 2 },
+    { s: ['in','cred','i','ble'], ok: 1 },
+    { s: ['ri','dic','u','lous'], ok: 1 }
+  ];
+  var idx = 0, right = 0, tries = 0, solved = false;
+  var wordEl = document.getElementById('word');
+  var verdictEl = document.getElementById('verdict');
+  var scoreEl = document.getElementById('score');
+
+  function render(inserted) {
+    var w = WORDS[idx];
+    wordEl.innerHTML = '';
+    w.s.forEach(function (syl, i) {
+      if (i > 0) {
+        if (inserted === i) {
+          var ins = document.createElement('span');
+          ins.className = 'inserted';
+          ins.textContent = '-fucking-';
+          wordEl.appendChild(ins);
+        } else if (inserted == null) {
+          var g = document.createElement('button');
+          g.type = 'button';
+          g.className = 'gap';
+          g.setAttribute('aria-label', 'Insert after ' + w.s.slice(0, i).join(''));
+          g.addEventListener('click', function () { choose(i); });
+          wordEl.appendChild(g);
+        }
+      }
+      var sp = document.createElement('span');
+      sp.className = 'syl';
+      sp.textContent = syl;
+      wordEl.appendChild(sp);
+    });
+  }
+
+  function choose(i) {
+    var w = WORDS[idx];
+    if (solved) return;
+    tries++;
+    if (i === w.ok) {
+      solved = true; right++;
+      render(i);
+      verdictEl.className = 'verdict good';
+      verdictEl.textContent = 'Correct. Lands right before the stressed syllable “' + w.s[w.ok] + '.”';
+    } else {
+      solved = true;
+      render(i);
+      verdictEl.className = 'verdict bad';
+      verdictEl.textContent = 'Sounds wrong, doesn’t it? The stress is on “' + w.s[w.ok] + '.” It goes before that.';
+    }
+    scoreEl.textContent = right + ' right of ' + tries;
+  }
+
+  function load() {
+    solved = false;
+    render(null);
+    verdictEl.className = 'verdict';
+    verdictEl.textContent = 'Tap a gap.';
+  }
+
+  document.getElementById('next').addEventListener('click', function () {
+    idx = (idx + 1) % WORDS.length;
+    load();
+  });
+  load();
+})();
+</script>
+</body>
+</html>
