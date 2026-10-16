@@ -207,14 +207,15 @@ ol.list .src { font-family: var(--mono); font-size: 10px; color: var(--ink-faint
 
 <section class="notes">
   <h4>Method</h4>
-  <p>The census was built in three passes through Green’s Dictionary of Slang, the largest historical dictionary of English slang.</p>
+  <p>The census was built in four passes, three of them through Green’s Dictionary of Slang, the largest historical dictionary of English slang. The full paper trail, including where each of Green’s results ended up, is in <a href="CENSUS_AUDIT.md">the census audit</a>.</p>
   <p><b>1. The headword walk.</b> Every Green’s entry links to the next one in alphabetical order. Starting at <em>fuck, n.</em>, the survey followed those links one entry at a time to <em>fuck you!</em>, the last headword that begins with the word: all 73 entries, every numbered sense of each.</p>
-  <p><b>2. The search sweep.</b> Green’s search for <em>fuck</em> returns 277 results (entries, sub-entries and cross-references) but displays only 30 at a time. Splitting the search by the letters that follow the word (<em>fucka</em>, <em>fuckb</em> … <em>fucky</em>), each slice small enough to display in full, listed all 277. Every result not already counted was looked up.</p>
-  <p><b>3. The families.</b> Cross-references were followed to phrases filed under other words (<em>brain</em>, <em>brisket</em>, <em>dog</em>, <em>noise</em>, <em>shit</em>, <em>pussy</em>, <em>innocent</em>, <em>my oath!</em>, <em>knock into</em>), and the word’s relatives were searched one by one: <em>motherfucker</em>, <em>clusterfuck</em>, <em>mindfuck</em>, <em>rat fuck</em>, <em>goat-fuck</em>, <em>star-fucker</em>, <em>dumbfuck</em>, <em>flying fuck</em>, <em>face-fuck</em>, <em>SNAFU</em> and <em>FUBAR</em> with their eleven wartime cousins, <em>FAFO</em>, <em>feck</em> and <em>effing</em>. Disguises recorded by other sources fill out the Fog of Euphemism.</p>
-  <p>Each numbered sense counts as its own fuck: <em>fuck up</em> meaning “to ruin” and <em>fuck up</em> meaning “to hurt” are two sightings, because they are two meanings. Spelling variants of one sense are folded together, and pure cross-references (an entry that only says “see …”) aren’t counted twice. Glosses are written fresh for this atlas.</p>
+  <p><b>2. The search sweep.</b> Green’s search for <em>fuck</em> reports 277 results (entries, sub-entries and cross-references) but displays only 30 at a time. Splitting it by the letter that follows the word (<em>fucka</em>, <em>fuckb</em> … <em>fuckz</em>), each slice small enough to display in full and each checked against the count Green’s reported, listed all 277. Every one is accounted for: 250 counted as senses, 20 cross-references to entries already counted, 7 spelling variants folded in, none missing.</p>
+  <p><b>3. The second-word sweep.</b> Green’s search only matches the start of a headword, so words where <em>fuck</em> comes second (<em>eyefuck</em>, <em>get fucked</em>, <em>Bumfuck, Egypt</em>, <em>absofuckinglutely</em>) need their own searches. The survey searched each plausible first element (kin, body parts, animals, emotions, nationalities, phrase openers, the infixed words, every relative named in the 277) and opened every hit. Searches that found nothing are logged too.</p>
+  <p><b>4. The disguises.</b> Stand-ins recorded by other sources fill out the Fog of Euphemism.</p>
+  <p>Each numbered sense counts as its own fuck: <em>fuck up</em> meaning “to ruin” and <em>fuck up</em> meaning “to hurt” are two sightings, because they are two meanings. Spelling variants of one sense are folded together, and pure cross-references aren’t counted twice. Glosses are written fresh for this atlas.</p>
   <p>Dates are the earliest citation each source shows, so they mark when a sense was first <em>written down</em>, not when it was first <em>said</em>. Where another source dates something earlier than Green’s (the Oxford English Dictionary’s 1503 <em>fukkit</em>, Etymonline’s c.1916 <em>fuck up</em>), the earlier date is used.</p>
-  <p><b>The undated.</b> 72 fucks are counted without a date. Most are compounds and phrases filed late inside Green’s two longest entries, <em>fuck, n.</em> and <em>fuck, v.</em>: those pages are longer than the tools used for this survey can load in full. Their existence and meaning come from Green’s own search index; their dates are in the part of the page that couldn’t be read. They appear on the plate only at the present day.</p>
-  <p>So: is this all the fucks? It is every fuck Green’s indexes under the word, every relative the survey could trace, and the disguises on record. The word itself hasn’t finished. Green’s logs new fucks from 2023, 2024 and 2025, so any census of it is a snapshot.</p>
+  <p><b>The undated.</b> 82 fucks are counted without a date. Green’s longest entries (<em>fuck, n.</em>, <em>fuck, v.</em>, and a few others such as <em>cunt, n.</em> and <em>monkey, n.</em>) run past what the survey’s tools can load, and the page text stops partway. What sits past the cut can still be found, because Green’s search index lists every sub-entry with its gloss, but its quotations, and so its first date, can’t be read. They appear on the plate only at the present day.</p>
+  <p>So: is this all the fucks? Passes 1 and 2 are exhaustive: every Green’s headword that begins with the word is here, checked against Green’s own count. Pass 3 is exhaustive over every first element it tried, and the audit lists them all. The word itself hasn’t finished. Green’s logs new fucks from 2023, 2024 and 2025, so any census of it is a snapshot.</p>
   <h4>Sources</h4>
   <ul>
     <li>[G] Jonathon Green, <a href="https://greensdictofslang.com/">Green’s Dictionary of Slang</a> (online edition), entries <em>fuck, n.</em> through <em>fuck you!</em>, and the related entries named above.</li>
@@ -562,7 +563,7 @@ ol.list .src { font-family: var(--mono); font-size: 10px; color: var(--ink-faint
     /* V · the void */
     ["I’d not give ——", "phr.", "the first recorded ‘don’t give a fuck’, printed with the word left blank", 1790, 0, "M", "V"],
     ["fuck all", "n.", "nothing at all", 1918, 0, "G", "V"],
-    ["fuck", "n.", "the thing one doesn’t give", 1929, 0, "E", "V"],
+    ["not give a fuck", "phr.", "to care not at all (first seen in a novel of the 1914–18 war)", 1929, 0, "G", "V"],
     ["fuck (all) else", "n.", "absolutely nothing", 1950, 0, "G", "V"],
     ["fuck-all", "adj.", "none, next to none", 1951, 0, "G", "V"],
     ["not give a flying fuck", "phr.", "to care not at all", 1952, 0, "G", "V"],
@@ -845,7 +846,171 @@ ol.list .src { font-family: var(--mono); font-size: 10px; color: var(--ink-faint
     ["goat-fucking", "adj.", "stand-in for motherfucking", 1960, 0, "G", "F"],
     ["effing", "adv.", "fucking (adv.), initialled", 1962, 0, "G", "F"],
     ["feck-all", "n.", "Irish stand-in for fuck all", 1976, 0, "G", "F"],
-    ["feck!", "excl.", "Irish stand-in for fuck!", 1981, 0, "G", "F"]
+    ["feck!", "excl.", "Irish stand-in for fuck!", 1981, 0, "G", "F"],
+    /* ---- the non-initial family: Green’s headwords where fuck comes second ---- */
+    ["finger fuck", "v.", "to stimulate with the fingers", 1682, 1, "G", "C"],
+    ["dogfuck", "v.", "to have sex from behind", 1867, 0, "G", "C"],
+    ["mouth fuck", "v.", "to perform oral sex", 1868, 0, "G", "C"],
+    ["mouth-fucker", "n.", "one who performs oral sex", 1868, 0, "G", "C"],
+    ["mouth fuck", "n.", "an act of oral sex", 1873, 0, "G", "C"],
+    ["bumfuck", "n.", "anal sex", 1879, 0, "G", "C"],
+    ["bumfuck", "v.", "to have anal sex", 1879, 0, "G", "C"],
+    ["finger fuck", "n.", "manual stimulation", 1884, 0, "G", "C"],
+    ["fist-fucking", "n.", "male masturbation", 1888, 0, "G", "C"],
+    ["eyefuck", "v.", "to leer at someone", 1916, 0, "G", "C"],
+    ["dry fuck", "n.", "simulated, clothed sex", 1930, 1, "G", "C"],
+    ["dry fuck", "v.", "to simulate sex, clothed", 1937, 1, "G", "C"],
+    ["French fuck", "n.", "sex between a woman’s breasts", 1938, 0, "G", "C"],
+    ["assfuck", "n.", "anal sex", 1941, 0, "G", "C"],
+    ["assfuck", "v.", "to have anal sex", 1941, 0, "G", "C"],
+    ["fist-fuck", "n.", "masturbation", 1952, 0, "G", "C"],
+    ["buttfuck", "v.", "to have anal sex", 1955, 1, "G", "C"],
+    ["fist-fucker", "n.", "a habitual masturbator", 1962, 0, "G", "C"],
+    ["finger fuck", "v.", "(of a woman) to masturbate", 1965, 0, "G", "C"],
+    ["finger fucking", "n.", "manual stimulation of a woman", 1965, 0, "G", "C"],
+    ["dry fuck", "v.", "(lesbian) to rub together", 1965, 0, "G", "C"],
+    ["get fucked", "v.", "to have sex", 1967, 1, "G", "C"],
+    ["buttfucker", "n.", "one who has anal sex", 1968, 0, "G", "C"],
+    ["finger fuck", "v.", "to stimulate anally", 1968, 0, "G", "C"],
+    ["grudge fuck", "n.", "sex without fondness", 1968, 0, "G", "C"],
+    ["mercy fuck", "v.", "to have sex out of compassion", 1968, 0, "G", "C"],
+    ["tit-fuck", "v.", "to have sex between the breasts", 1968, 0, "G", "C"],
+    ["ass-fucker", "n.", "one who has anal sex", 1970, 0, "G", "C"],
+    ["assfucking", "n.", "anal sex", 1970, 0, "G", "C"],
+    ["fist-fuck", "v.", "to fist", 1970, 1, "G", "C"],
+    ["fist-fucking", "n.", "fisting", 1970, 1, "G", "C"],
+    ["buttfuck", "n.", "anal sex; also an insult", 1971, 0, "G", "C"],
+    ["bumfuck", "n.", "(gay slang) a poor sexual partner", 1972, 0, "G", "C"],
+    ["charity fuck", "n.", "(Australian) kindly, feelingless sex", 1972, 0, "G", "C"],
+    ["fist-fuck", "n.", "fisting", 1972, 0, "G", "C"],
+    ["gangfuck", "n.", "(gay slang) a group-sex party", 1972, 0, "G", "C"],
+    ["horsefuck", "v.", "to have anal sex from behind", 1972, 0, "G", "C"],
+    ["tit fuck", "n.", "sex between the breasts", 1972, 0, "G", "C"],
+    ["belly-fucker", "n.", "(gay slang) one drawn to flat stomachs", 1972, 0, "G", "C"],
+    ["belly-fucker", "n.", "(gay slang) one who climaxes against a partner’s stomach", 1972, 0, "G", "C"],
+    ["belly-fuck", "v.", "to climax against a partner’s stomach", 1972, 1, "G", "C"],
+    ["fist-fucker", "n.", "one who practises fisting", 1974, 0, "G", "C"],
+    ["grudge-fuck", "v.", "to sleep with someone else for revenge", 1974, 0, "G", "C"],
+    ["dry fuck", "v.", "to have anal sex unlubricated", 1975, 0, "G", "C"],
+    ["eyefuck", "n.", "a lustful look", 1976, 0, "G", "C"],
+    ["charity fuck", "n.", "sex out of pity", 1978, 0, "G", "C"],
+    ["grudge-fuck", "v.", "to make sex miserable out of resentment", 1978, 0, "G", "C"],
+    ["mercy fuck", "n.", "sex out of compassion", 1978, 0, "G", "C"],
+    ["dry fuck", "n.", "unlubricated anal sex", 1979, 0, "G", "C"],
+    ["throat-fuck", "v.", "to perform oral sex", 1983, 0, "G", "C"],
+    ["grudge fuck", "n.", "sex out of spite", 1984, 0, "G", "C"],
+    ["shit-fuck", "v.", "(gay slang) to have anal sex", 1989, 0, "G", "C"],
+    ["skull fuck", "n.", "oral sex, the man as the active partner", 1993, 0, "G", "C"],
+    ["Dutch fuck", "n.", "sex between the breasts", 1997, 0, "G", "C"],
+    ["skull fuck", "v.", "to have oral sex, man active", 2000, 0, "G", "C"],
+    ["dogfuck", "n.", "sex from behind", 2003, 0, "G", "C"],
+    /* ruin */
+    ["gangfuck", "v.", "to commit a group sexual assault", 1916, 0, "G", "R"],
+    ["gangfuck", "n.", "a group sexual assault", 1941, 0, "G", "R"],
+    ["dry fuck", "n.", "something dull or disappointing", 1945, 0, "G", "R"],
+    ["dryfucking", "adj.", "maddening; a letdown", 1954, 0, "G", "R"],
+    ["gang fucker", "n.", "a participant in a group assault", 1969, 0, "G", "R"],
+    ["gender-fuck", "n.", "one who dresses across gender to shock", 1972, 0, "G", "R"],
+    ["skull fuck", "v.", "an expression of extreme aggression", 1973, 0, "G", "R"],
+    ["gender-fuck", "n.", "an act that scrambles gender", 1976, 0, "G", "R"],
+    ["gender fuck", "v.", "to cross-dress to shock", 1976, 0, "G", "R"],
+    ["assfuck", "n.", "cruel victimization", 1977, 0, "G", "R"],
+    ["dogfuck", "n.", "trouble: in the dogfuck", 1978, 0, "G", "R"],
+    ["headfuck", "v.", "to bewilder, lead astray", 1978, 0, "G", "R"],
+    ["buttfuck", "v.", "to cheat, treat unfairly", 1979, 0, "G", "R"],
+    ["bumfuck", "adj.", "third-rate, forgettable", 1981, 0, "G", "R"],
+    ["buttfuck", "v.", "to injure", 1985, 0, "G", "R"],
+    ["buttfuck", "n.", "a tedious job", 1986, 0, "G", "R"],
+    ["fist-fuck", "v.", "to savage (figuratively)", 1996, 0, "G", "R"],
+    ["genderfuck", "adj.", "dissolving the line between male and female", 1998, 0, "G", "R"],
+    ["buttfuck", "n.", "a disaster; a stitch-up", 2005, 0, "G", "R"],
+    ["assfuck", "v.", "to humiliate (figuratively)", 2008, 0, "G", "R"],
+    ["unfuck", "v.", "to fix a mess", 2008, 0, "G", "R"],
+    /* dismissal */
+    ["get fucked!", "excl.", "dismissal, contempt", 1924, 0, "G", "D"],
+    ["motherfuck", "v.", "a general curse", 1964, 0, "G", "D"],
+    ["like fuck!", "excl.", "no way!", 1967, 0, "G", "D"],
+    ["eyefuck", "v.", "to stare someone down", 1972, 0, "G", "D"],
+    ["eyefuck", "n.", "a challenging glare", 1991, 0, "G", "D"],
+    ["like fucking hell", "adv.", "certainly not", null, 0, "G", "D"],
+    ["go fuck a duck!", "excl.", "get away; I don’t believe it", null, 0, "G", "D"],
+    ["go fuck your mother!", "excl.", "a gravely offensive dismissal", null, 0, "G", "D"],
+    /* exclamation */
+    ["motherfuck!", "excl.", "surprise, rage", 1961, 0, "G", "X"],
+    ["shitfuck!", "excl.", "a general exclamation", 1970, 0, "G", "X"],
+    ["holy fuck!", "excl.", "astonishment", 1978, 0, "G", "X"],
+    ["holy fuckballs!", "excl.", "astonishment", 2012, 0, "G", "X"],
+    ["sweet fucking Jesus!", "excl.", "annoyance and surprise", null, 0, "G", "X"],
+    /* intensifier */
+    ["absofuckinglutely", "adv.", "yes, beyond all doubt", 1921, 0, "G", "I"],
+    ["father-fucking", "adj.", "intensifier, as motherfucking", 1963, 0, "G", "I"],
+    ["unfuckingbelievable", "adj.", "truly unbelievable", 1967, 1, "G", "I"],
+    ["horse-fucking", "adj.", "enormous", 1968, 0, "G", "I"],
+    ["guaranfuckingtee", "v.", "guarantee, with force", 1970, 0, "G", "I"],
+    ["motherfuck", "adv.", "intensifier", 1970, 0, "G", "I"],
+    ["motherfuck", "n.", "‘the hell’: what the motherfuck", 1975, 0, "G", "I"],
+    ["unfuckingbelievably", "adv.", "unbelievably, with force", 1976, 0, "G", "I"],
+    ["like fuck", "adv.", "extremely", 1977, 0, "G", "I"],
+    ["fanfuckingtastic", "adj.", "fantastic, with force", 1988, 0, "G", "I"],
+    ["like fuckery", "adv.", "intensely", 2000, 0, "G", "I"],
+    /* insult */
+    ["bumfucker", "n.", "(derogatory) a man who has sex with men; or an abuser of boys", 1899, 0, "G", "N"],
+    ["pig-fucker", "n.", "a worthless, nasty person", 1938, 1, "G", "N"],
+    ["father-fucker", "n.", "synonym for motherfucker", 1963, 0, "G", "N"],
+    ["motherfuck", "n.", "a vile person or thing", 1964, 0, "G", "N"],
+    ["baby fucker", "n.", "a child abuser", 1969, 0, "G", "N"],
+    ["kid-fucker", "n.", "(prison slang) a paedophile", 1973, 0, "G", "N"],
+    ["dogfucker", "n.", "general insult", 1975, 0, "G", "N"],
+    ["duck-fucker", "n.", "a disliked person", 1975, 0, "G", "N"],
+    ["camel-fucker", "n.", "(offensive) a slur for Arabs", 1977, 0, "G", "N"],
+    ["pig-fucking", "adj.", "worthless, nasty", 1978, 0, "G", "N"],
+    ["bumfuck", "n.", "a disagreeable person", 1979, 0, "G", "N"],
+    ["star-fucking", "n.", "toadying to celebrities", 1986, 0, "G", "N"],
+    ["dogfucking", "adj.", "utterly contemptible", 1992, 0, "G", "N"],
+    ["fist-fucker", "n.", "an unpleasant person", 1993, 0, "G", "N"],
+    ["dick-fuck", "n.", "general abuse", 1997, 0, "G", "N"],
+    ["sister-fucker", "n.", "translation of the Hindi insult banchoot", 2000, 0, "G", "N"],
+    ["assfuck", "n.", "an insult in address", 2002, 0, "G", "N"],
+    ["arsefucker", "n.", "(Australian, derogatory) a gay man", 2005, 0, "G", "N"],
+    ["star-fucking", "n.", "the life of a groupie", 2005, 0, "G", "N"],
+    ["motherfuck", "v.", "to call someone a motherfucker", 2012, 0, "G", "N"],
+    ["shitfuck", "n.", "harsh abuse", 2012, 0, "G", "N"],
+    ["numbfuck", "adj.", "stupid", null, 0, "G", "N"],
+    ["chicken-fucker", "n.", "general abuse (bald-headed for emphasis)", null, 0, "G", "N"],
+    ["cuntfuck", "n.", "general abuse", null, 0, "G", "N"],
+    /* idle */
+    ["motherfuck around", "v.", "to waste time", 1971, 0, "G", "L"],
+    ["shitfuckery", "n.", "time-wasting, game-playing", 2023, 0, "G", "L"],
+    /* void */
+    ["give a fuck", "v.", "to care (mostly in the negative)", 1934, 0, "G", "V"],
+    ["fiddler’s fuck", "n.", "something utterly worthless", 1961, 0, "G", "V"],
+    ["not give a fiddler’s fuck", "phr.", "to care not at all", 1965, 0, "G", "V"],
+    ["motherfuck", "n.", "a damn: don’t give a motherfuck", 1969, 0, "G", "V"],
+    ["sweet fuck all", "n.", "absolutely nothing", null, 0, "G", "V"],
+    /* placeholder */
+    ["Dutch fuck", "n.", "lighting one cigarette from another", 1943, 1, "G", "P"],
+    ["Bumfuck, Egypt", "n.", "the middle of nowhere", 1972, 0, "G", "P"],
+    ["bumfuck", "v.", "to massage the prostate (medicine)", 1984, 0, "G", "P"],
+    ["common dog fuck", "n.", "(Australian) anything ordinary", 1985, 0, "G", "P"],
+    ["buttfuck motel", "n.", "prison", 1995, 0, "G", "P"],
+    ["eyefuck", "v.", "to stare at, no lust involved", 1995, 0, "G", "P"],
+    ["charity fuck", "n.", "a favour done out of pity", 2000, 0, "G", "P"],
+    ["finger fuck", "v.", "(South African prison slang) to search a body cavity", 2005, 0, "G", "P"],
+    ["motherfuck", "n.", "the essence of a thing", 2011, 0, "G", "P"],
+    ["Assfuck, Nowhere", "n.", "anywhere beyond civilization", 2015, 0, "G", "P"],
+    ["monkey-fuck", "v.", "to light one cigarette from another", null, 0, "G", "P"],
+    /* warmth */
+    ["father-fucker", "n.", "(US Black) a term of praise", 1982, 0, "G", "W"],
+    ["get fucked!", "excl.", "(Australian) a boast of self-confidence", 1996, 0, "G", "W"],
+    /* altered states */
+    ["headfucker", "n.", "a powerful hallucinogen", 1975, 0, "G", "A"],
+    ["head-fuck", "n.", "something worrying", 1983, 0, "G", "A"],
+    ["head-fuck", "n.", "an intense, disorienting high", 2000, 0, "G", "A"],
+    ["headfuck", "adj.", "depressing", 2000, 0, "G", "A"],
+    /* acronyms */
+    ["BFE", "n.", "Bumfuck, Egypt: the middle of nowhere", 1989, 0, "G", "K"],
+    ["fuckadoodle", "adj.", "out of control", 2016, 0, "G", "A"],
+    ["fuck sandwich", "n.", "a threesome, one partner in the middle", null, 0, "G", "C"]
   ];
 
   var R = {
@@ -937,7 +1102,7 @@ ol.list .src { font-family: var(--mono); font-size: 10px; color: var(--ink-faint
 
   // recessive rings (radial scale)
   var gGrid = el(svg, "g", {});
-  [10, 25, 50, 100].forEach(function (v) {
+  [10, 50, 100, 175].forEach(function (v) {
     var r = radiusFor(v);
     el(gGrid, "circle", { cx: CX, cy: CY, r: r, fill: "none", stroke: "var(--rule)", "stroke-width": 0.7, "stroke-dasharray": "2 3" });
     var t = el(gGrid, "text", { x: CX + 3, y: CY - r - 2, "font-size": 8.5, fill: "var(--ink-faint)" });
@@ -1044,7 +1209,7 @@ ol.list .src { font-family: var(--mono); font-size: 10px; color: var(--ink-faint
       var t = gel("text", { x: (w[3] === "end" ? gx(w[0]) : gx(w[1])) + w[4], y: GT + 9, "text-anchor": w[3], "font-size": 10, fill: "var(--ink-faint)" });
       t.textContent = w[2];
     });
-    [0, 100, 200, 300, 400, 500].forEach(function (v) {
+    [0, 200, 400, 600].forEach(function (v) {
       gel("line", { x1: GL, x2: GW - GR, y1: gy(v), y2: gy(v), stroke: "var(--rule)", "stroke-width": v === 0 ? 1.2 : 0.6 });
       var t = gel("text", { x: GL - 6, y: gy(v) + 3.5, "text-anchor": "end", "font-size": 10, fill: "var(--ink-faint)" });
       t.textContent = v;

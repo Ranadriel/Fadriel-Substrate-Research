@@ -7,7 +7,7 @@
 ## Open
 
 - [`The Fuckery That Is Fuck.html`](./The%20Fuckery%20That%20Is%20Fuck.html): the analysis, in nineteen specimens.
-- [`The Atlas of Fuck.html`](./The%20Atlas%20of%20Fuck.html): the census, as a map. 564 recorded senses, compounds, phrases, acronyms and disguises, each dated to its first appearance in writing and sorted into thirteen territories of meaning. A year slider runs from 1300 to now; press play to watch one word for one act spread across the language.
+- [`The Atlas of Fuck.html`](./The%20Atlas%20of%20Fuck.html): the census, as a map. 716 recorded senses, compounds, phrases, acronyms and disguises, each dated to its first appearance in writing and sorted into thirteen territories of meaning. A year slider runs from 1300 to now; press play to watch one word for one act spread across the language.
 
 Both are single self-contained pages with no build step. They work offline apart from web fonts.
 
@@ -24,9 +24,9 @@ The meaning of this word is the least important thing about it. Each specimen se
 | Overuse it | The charge drains |
 | Destroy the language (aphasia) | Meaning goes; the swear stays |
 | Outlaw it | The court grabs air |
-| Ban it from print (1857–1960s) | It multiplies underground: 12 senses by 1700, 43 by 1900 |
+| Ban it from print (1857–1960s) | It multiplies underground: 13 senses by 1700, 53 by 1900 |
 | Say it constantly (the 1914–18 trenches) | It means nothing; leaving it out signals danger |
-| Rule that it only means sex (FCC, 2004) | 428 of 564 recorded senses live outside the Carnal Lands |
+| Rule that it only means sex (FCC, 2004) | 523 of 716 recorded senses live outside the Carnal Lands |
 | Shrink it to an asterisk | It still delivers the whole word |
 
 That is the via negativa: a hollow word with perfect structure.
@@ -64,15 +64,16 @@ That is the via negativa: a hollow word with perfect structure.
 
 ## The Atlas: method
 
-The census was built in three passes through Green's Dictionary of Slang:
+The census was built in four passes; the full paper trail is in [`CENSUS_AUDIT.md`](./CENSUS_AUDIT.md).
 
 1. **The headword walk.** Each Green's entry links to the next in alphabetical order. Starting at *fuck, n.*, the survey followed those links one entry at a time to *fuck you!*: all 73 headwords that begin with the word, every numbered sense of each.
-2. **The search sweep.** Green's search for *fuck* returns 277 results but displays only 30 at a time. Splitting it by the letters after the word (*fucka*, *fuckb* … *fucky*), each slice small enough to display in full, listed all 277; every result not already counted was looked up.
-3. **The families.** Cross-references were followed to phrases filed under other words (*brain*, *brisket*, *dog*, *noise*, *shit*, *pussy*, *innocent*, *my oath!*, *knock into*), and the relatives were searched one by one: *motherfucker*, *clusterfuck*, *mindfuck*, *rat fuck*, *goat-fuck*, *star-fucker*, *dumbfuck*, *flying fuck*, *face-fuck*, *SNAFU* and *FUBAR* with their eleven wartime cousins, *FAFO*, *feck*, *effing*. Disguises recorded by other sources fill out the Fog of Euphemism.
+2. **The search sweep.** Green's search for *fuck* reports 277 results but displays only 30 at a time. Split by the letter after the word (*fucka* … *fuckz*), each slice displayed in full and matched Green's own count; together they list exactly the 277. Every result is accounted for: 250 counted, 20 cross-references to entries already counted, 7 spelling variants folded in, 0 missing.
+3. **The second-word sweep.** Green's search only matches the start of a headword, so words where *fuck* comes second (*eyefuck*, *get fucked*, *Bumfuck, Egypt*, *absofuckinglutely*) were found by searching every plausible first element: kin, body parts, animals, emotions, nationalities, phrase openers, infixed words, and every relative named in the 277. Hits and misses are both logged.
+4. **The disguises.** Stand-ins from other sources fill out the Fog of Euphemism.
 
 Each numbered sense counts as its own fuck. Spelling variants are folded together and pure cross-references aren't double-counted. Dates are earliest citations, so they mark when a sense was first written down, not first said; where another source dates something earlier than Green's, the earlier date is used. Glosses are original.
 
-**The undated.** 72 fucks are counted without a date. Most are compounds and phrases filed late inside Green's two longest entries, *fuck, n.* and *fuck, v.*, which are longer than the survey's tools can load in full. Their existence and meaning come from Green's own search index; their dates sit in the part of the page that couldn't be read.
+**The undated.** 82 fucks are counted without a date. Green's longest entries (*fuck, n.*, *fuck, v.*, and a few others) run past what the survey's tools can load. What sits past the cut is still findable through Green's search index, which lists every sub-entry with its gloss, but its first dates are in the part of the page that couldn't be read.
 
 The thirteen territories, in the order they were settled: the Carnal Lands, the Fog of Euphemism, the Intensifier Sea, the Void, the Dismissal Coast, the Insult Badlands, the Ruinlands, the Exclamation Peaks, the Warm Springs, the Idle Marshes, the Altered States, the Acronym Archipelago, and the Placeholder Plains.
 
