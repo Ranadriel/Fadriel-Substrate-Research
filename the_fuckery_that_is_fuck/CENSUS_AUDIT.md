@@ -4,11 +4,12 @@
 
 ## Totals
 
-- **1,305 fucks** in the census: distinct senses, compounds, phrases, acronyms and disguises.
-- **750** come from Green's Dictionary of Slang (725 rows) and the other sources of passes 1–4 (25 rows); **555** come from Wiktionary (pass 5).
-- **1,001** of them (77%) live outside the Carnal Lands.
-- **960** are dated. 295 of those dates are marked *by*: the earliest quotation Wiktionary gives, which is the latest a sense can have appeared, not its first use (278 Wiktionary fucks, and 17 of Green's whose own dates couldn't be loaded).
-- **345** are found but undated: 67 of Green's, 1 of FOLDOC's, 277 of Wiktionary's (see the last section, and the n.d. rows in the Wiktionary table).
+- **1,526 fucks** in the census: distinct senses, compounds, phrases, acronyms and disguises.
+- By pass: **750** from Green's Dictionary of Slang and the other sources of passes 1–4; **555** found through Wiktionary (pass 5); **221** from pass 6, back in Green's: 198 stand-ins and acronyms that never spell the word, and 23 second-word fucks the earlier searches missed.
+- By whose date they carry: 985 Green's (including 53 of the Wiktionary finds, which turned out to be in Green's under disguised headwords), 502 Wiktionary's, 17 Green's dated by Wiktionary, and 22 from other sources.
+- **1,215** of them (80%) live outside the Carnal Lands. The biggest territory is now the Fog of Euphemism (332), ahead of the Carnal Lands (311).
+- **1,204** are dated. 265 of those dates are marked *by*: the earliest quotation Wiktionary gives, which is the latest a sense can have appeared, not its first use (248 Wiktionary fucks, and 17 of Green's whose own dates couldn't be loaded).
+- **322** are found but undated: 67 of Green's, 1 of FOLDOC's, 254 of Wiktionary's (see the last section, and the n.d. rows in the Wiktionary table).
 
 ## Pass 1 · The headword walk
 
@@ -462,9 +463,49 @@ Searched, nothing found: `artfuck`, `birdfuck`, `bitchfuck`, `brotherfuck`, `cat
 
 What this round shows: the first round's list of first elements missed 32 of Green's fucks. What it can't show is a phrase Green's files under some other first word that Wiktionary doesn't have either.
 
+### Pass 3, third round: 286 more first elements
+
+Pass 6 kept tripping over second-word fucks filed under first words nobody had searched: *buddy-fuck* (four senses), *mammy-fucker*, *mammyfucking*, *mummyfucker*, *mofuck*, *mudfuck*. So 286 more first elements were searched the same way (`buddyfuck`, `moosefuck`…): friend words, more kin forms, people and peoples, animals, body parts, objects and places. 16 searches hit. The 23 fucks found across pass 6 and this round, now counted:
+
+| term | pos | gloss | territory | first date |
+|---|---|---|---|---|
+| buddy-fuck | n. | no-strings sex | Carnal Lands | 2001 |
+| buddy-fuck | n. | a casual sex partner | Carnal Lands | 2002 |
+| buddy-fuck | v. | to have sex with a friend, not a lover | Carnal Lands | 2002 |
+| bunny fuck | n. | (US) quick, spontaneous sex | Carnal Lands | 2020 |
+| bunny fuck | v. | (US) to have quick sex | Carnal Lands | 1967 |
+| gut-fucker | n. | a sodomite | Carnal Lands | 1890 |
+| nose fuck | v. | (US gay) to perform anilingus | Carnal Lands | 1982 |
+| mudfuck | v. | (US) to motherfuck, muddied: a general curse | Dismissal Coast | 2001 |
+| moose fuck! | excl. | an oath, from moose shit! | Exclamation Peaks | 1990 |
+| granny fucker | n. | (NZ prison) a rapist of older women | Insult Badlands | 2001 |
+| mammy-fucker | n. | a motherfucker, mammy-style | Insult Badlands | 1969 |
+| mofuck | n. | a motherfucker, clipped | Insult Badlands | 1962 |
+| moose-fucker | n. | (derogatory) a Canadian | Insult Badlands | 2000 |
+| mudfuck | n. | (US) a motherfuck, muddied | Insult Badlands | 1980 |
+| mudfucker | n. | (US) a motherfucker, muddied | Insult Badlands | 1978 |
+| mummyfucker | n. | a motherfucker, British-style | Insult Badlands | 2011 |
+| nutfuck | n. | (US) an eccentric | Insult Badlands | 1989 |
+| possum fucker | n. | (Australian) a country-dweller | Insult Badlands | 2002 |
+| toad-fucker | n. | a term of derision | Insult Badlands | 1973 |
+| twat-fuck | n. | general abuse | Insult Badlands | 1998 |
+| mammyfucking | adj. | motherfucking, mammy-style | Intensifier Sea | 1977 |
+| mudfucking | adj. | (US) motherfucking, muddied | Intensifier Sea | 1995 |
+| buddy-fuck | v. | to betray or impose on a friend | Ruinlands | 1966 |
+
+Searched, something found: `mammyfuck`, `mummyfuck`, `muhfuck`, `muthafuck`, `mofuck`, `grannyfuck`, `buddyfuck`, `moosefuck`, `possumfuck`, `toadfuck`, `bunnyfuck`, `gutfuck`, `nosefuck`, `nutfuck`, `twatfuck`, `mudfuck`. (`muthafuck` only finds spellings of *motherfucker* already counted.)
+
+Searched, nothing found (270): `abofuck`, `airfuck`, `alienfuck`, `angelfuck`, `apefuck`, `armfuck`, `auntiefuck`, `aussiefuck`, `autofuck`, `backfuck`, `bagfuck`, `ballfuck`, `ballsfuck`, `bankfuck`, `barnfuck`, `bathfuck`, `beachfuck`, `beanerfuck`, `beardfuck`, `bearfuck`, `beaverfuck`, `bedfuck`, `beerfuck`, `bikefuck`, `bishopfuck`, `boatfuck`, `bollockfuck`, `bonefuck`, `boobfuck`, `bookfuck`, `boongfuck`, `bootfuck`, `bosomfuck`, `bottlefuck`, `bottomfuck`, `boxfuck`, `brickfuck`, `bridefuck`, `brofuck`, `bruhfuck`, `budfuck`, `busfuck`, `cakefuck`, `calffuck`, `carfuck`, `chairfuck`, `cheekfuck`, `chestfuck`, `chimpfuck`, `chinfuck`, `chinkfuck`, `christfuck`, `chumfuck`, `clownfuck`, `cobberfuck`, `commiefuck`, `comradefuck`, `coonfuck`, `cooterfuck`, `couchfuck`, `crackerfuck`, `crackfuck`, `crotchfuck`, `crowfuck`, `cuzfuck`, `daddyfuck`, `dadfuck`, `dagofuck`, `deerfuck`, `devilfuck`, `dingofuck`, `dirtfuck`, `doorfuck`, `dudefuck`, `dustfuck`, `eelfuck`, `elbowfuck`, `elephantfuck`, `emufuck`, `ferretfuck`, `fieldfuck`, `firefuck`, `fishfuck`, `floorfuck`, `foxfuck`, `friendfuck`, `frogfuck`, `galfuck`, `gasfuck`, `gashfuck`, `gerbilfuck`, `ghostfuck`, `girlfuck`, `glassfuck`, `gobfuck`, `godfuck`, `gookfuck`, `goosefuck`, `gorillafuck`, `grampsfuck`, `grandmafuck`, `grandpafuck`, `granfuck`, `grassfuck`, `gringofuck`, `groinfuck`, `guyfuck`, `hairfuck`, `hayfuck`, `heartfuck`, `heelfuck`, `hellfuck`, `henfuck`, `hickfuck`, `hillbillyfuck`, `hipfuck`, `hogfuck`, `holefuck`, `homeboyfuck`, `homefuck`, `homiefuck`, `honkyfuck`, `housefuck`, `hubbyfuck`, `hunkyfuck`, `husbandfuck`, `icefuck`, `jailfuck`, `japfuck`, `jawfuck`, `jellyfuck`, `jockfuck`, `keyfuck`, `kikefuck`, `kittyfuck`, `kiwifuck`, `kneefuck`, `knifefuck`, `knobfuck`, `krautfuck`, `ladyfuck`, `lambfuck`, `lapfuck`, `legfuck`, `limeyfuck`, `lipfuck`, `lizardfuck`, `llamafuck`, `lordfuck`, `machinefuck`, `mafuck`, `mamafuck`, `mamfuck`, `manfuck`, `matefuck`, `mawfuck`, `meatfuck`, `mickfuck`, `minkfuck`, `molefuck`, `momfuck`, `mommafuck`, `mommyfuck`, `moneyfuck`, `monkfuck`, `moonfuck`, `muddafuck`, `mufffuck`, `mulefuck`, `mumfuck`, `muvverfuck`, `nanafuck`, `nanfuck`, `navelfuck`, `nazifuck`, `neckfuck`, `neighbourfuck`, `nephewfuck`, `niecefuck`, `nightfuck`, `nipfuck`, `nipplefuck`, `nunfuck`, `nutsfuck`, `officefuck`, `owlfuck`, `oxfuck`, `paddyfuck`, `pafuck`, `palfuck`, `papafuck`, `paperfuck`, `papfuck`, `pappyfuck`, `parrotfuck`, `partnerfuck`, `peckerfuck`, `phonefuck`, `polackfuck`, `pomfuck`, `pommyfuck`, `ponyfuck`, `popefuck`, `popfuck`, `powerfuck`, `prickfuck`, `priestfuck`, `prisonfuck`, `pupfuck`, `puppyfuck`, `rabbifuck`, `ragheadfuck`, `rainfuck`, `redneckfuck`, `roadfuck`, `robotfuck`, `rockfuck`, `roofuck`, `roomfuck`, `roosterfuck`, `ropefuck`, `rumpfuck`, `saintfuck`, `sandfuck`, `satanfuck`, `schoolfuck`, `sealfuck`, `sexfuck`, `sharkfuck`, `shoulderfuck`, `showerfuck`, `sisfuck`, `skunkfuck`, `skyfuck`, `snakefuck`, `snatchfuck`, `snowfuck`, `soapfuck`, `sockfuck`, `spicfuck`, `spookfuck`, `squirrelfuck`, `stoatfuck`, `strangerfuck`, `swanfuck`, `tafffuck`, `teenfuck`, `tigerfuck`, `toefuck`, `toothfuck`, `turkeyfuck`, `turtlefuck`, `vicarfuck`, `virginfuck`, `weaselfuck`, `wetbackfuck`, `whalefuck`, `whiteyfuck`, `widowfuck`, `wifefuck`, `wifeyfuck`, `wolffuck`, `womanfuck`, `wombatfuck`, `wopfuck`, `wormfuck`, `wristfuck`, `yankeefuck`, `yidfuck`, `zombiefuck`.
+
+Not searched yet (143), mostly adjectives, verbs, question words and objects: sofa, speed, stone, street, sun, table, tank, tea, time, toilet, town, tree, truck, vodka, wall, war, water, wine, wood, word, work, world, big, little, small, old, young, mad, crazy, lazy, dead, cold, hot, wet, hard, soft, slow, rough, dirty, filthy, bad, real, true, total, full, double, triple, group, mass, mega, ultra, happy, angry, love, courtesy, duty, makeup, breakup, birthday, holiday, christmas, sunday, friday, morning, midnight, drunk, sober, stoned, ego, let, cant, wont, will, shall, may, might, could, should, would, wouldnt, take, make, have, be, see, look, shut, stop, keep, leave, piss, kiss, suck, eat, drink, buy, sell, run, walk, talk, tell, ask, say, think, know, where, when, why, how, which, whoever, whatever, never, ever, now, then, just, only, even, still, all, nothing, something, somebody, nobody, everybody, some, such, so, too, very, well, ah, eh, hey, yo, ha, boo, uh, um, praise, bless, damn.
+
+What this round shows: the gaps were real, and they sit under ordinary first words (*buddy*, *moose*, *toad*, *nut*). The 143 still unsearched could hold more.
+
 ## Pass 4 · Disguises from other sources
 
 The Fog of Euphemism adds stand-ins that Green’s doesn’t list as fuck-words, each sourced in the Atlas: the 1475 friars’ cipher, Mailer’s *fug*, Tennessee Williams’s *rutting*, Hemingway’s *muck*, *[expletive deleted]*, *frack*/*frak*, *A Christmas Story*’s *fudge*, the F-word, the F-bomb, FCUK, *Show Me Love*, *F\*ck*, Fugging, *Let’s Go Brandon*, *fsck*.
+
+Three of these turned out to have earlier citations in Green's (pass 6) and now carry them: *rutting* (1945, before *Streetcar*), *fudge!* (1903, eighty years before *A Christmas Story*), and *F* or *eff* as a swear (1922).
 
 ## Pass 5 · The Wiktionary check
 
@@ -483,6 +524,8 @@ Left out, and why:
 - **words that only mention fuck in their definition:** analize, bangability, cumball, cunt (v.), flying shit, rump, schlong, screw this, screw you, shit off, shitcuntery, shitpiss, shitting, suck your mum, twatfaced, unbangable, unshaggable, unyiffable
 - **uncertain etymology:** fuctuplets
 
+(Green's labels *screw* in *screw you*, and *screw it!*, as euphemisms for fuck, so pass 6 counts those two from Green's. Wiktionary's *screw you* and *screw this*, which it gives as plain synonyms, stay out.)
+
 Racial slurs that carry a fuck are listed with the slur starred and the fuck left whole.
 
 ### Pass 5b · The disguises Wiktionary files
@@ -493,10 +536,99 @@ The vulgar tag misses most stand-ins, so two more Wiktionary categories were rea
 
 All 527 headwords behind the new entries and behind Green's undated ones were looked up in Wiktionary, and every page that exists was read for the earliest quotation of each sense. (Most of Green's undated words have no Wiktionary page at all.) 278 Wiktionary fucks and 17 of Green's got a date this way, and four more senses turned up on the pages (*daughterfucker* as plain abuse, *fatherfucker* as incest, *fuckarounditis* outside the gym, *fuck zone* as a verb) along with *fug!* as an exclamation. A date read this way is marked *by*, because Wiktionary quotes examples, not first uses: *fuck the dog*, “to loaf on the job,” sits at 2022 only because that is the oldest quotation Wiktionary has for it. 277 Wiktionary senses have no dated quotation at all, and stay undated.
 
-### The 555 Wiktionary fucks
+Pass 6 later found 53 of these Wiktionary fucks in Green's, under headwords no search for the word could reach, and gave them Green's dates: 23 that had none, and 30 whose *by* dates Green's beats. 254 Wiktionary senses are still undated.
+
+### The 555 fucks found through Wiktionary
+
+A date marked *(Green's)* was found in Green's in pass 6, under a headword no search for the word reached.
 
 | term | pos | gloss | territory | first date |
 |---|---|---|---|---|
+| AF | adv. | as fuck | Acronym Archipelago | by 2023 |
+| AFU | adj. | all fucked up | Acronym Archipelago | n.d. |
+| AYFKM | phr. | are you fucking kidding me? | Acronym Archipelago | by 2002 |
+| BFC | n. | big fucking capacitor (engineers’ slang) | Acronym Archipelago | n.d. |
+| BFD | excl. | big fucking deal | Acronym Archipelago | 1967 (Green’s) |
+| BFFR | phr. | be fucking for real | Acronym Archipelago | by 2022 |
+| BOMB | phr. | bottom of the motherfucking barrel | Acronym Archipelago | n.d. |
+| BTFO | adj. | blown the fuck out: utterly beaten | Acronym Archipelago | by 2013 |
+| BTFO | v. | back the fuck off | Acronym Archipelago | by 1995 |
+| CBF | v. | can’t be fucked | Acronym Archipelago | n.d. |
+| DAFN | n. | initialism of a racist insult built on fucking | Acronym Archipelago | n.d. |
+| DAMF | n. | dumbass motherfucker | Acronym Archipelago | n.d. |
+| DGAF | phr. | don’t give a fuck | Acronym Archipelago | by 2024 |
+| DNGAF | phr. | do not give a fuck | Acronym Archipelago | n.d. |
+| DTF | adj. | down to fuck: up for casual sex | Acronym Archipelago | 2007 (Green’s) |
+| FA | pron. | fuck all | Acronym Archipelago | 1919 (Green’s) |
+| FF | n. | fist-fucking | Acronym Archipelago | 1973 (Green’s) |
+| FFS | adv. | for fuck’s sake | Acronym Archipelago | 2014 (Green’s) |
+| FGI | phr. | fucking Google it | Acronym Archipelago | n.d. |
+| FIA | phr. | fuck it all | Acronym Archipelago | n.d. |
+| FITFO | phr. | figure it the fuck out | Acronym Archipelago | by 2007 |
+| FJB | phr. | fuck Joe Biden | Acronym Archipelago | by 2021 |
+| FO | excl. | fuck off | Acronym Archipelago | 1947 (Green’s) |
+| FOAD | phr. | fuck off and die | Acronym Archipelago | 1983 (Green’s) |
+| FOH | n. | fuck outta here | Acronym Archipelago | n.d. |
+| FTMFW | adv. | for the motherfucking win | Acronym Archipelago | n.d. |
+| FTS | phr. | fuck this shit | Acronym Archipelago | n.d. |
+| FTW | excl. | fuck the world | Acronym Archipelago | 1972 (Green’s) |
+| FWM | v. | fuck with me | Acronym Archipelago | n.d. |
+| FY | phr. | fuck you | Acronym Archipelago | n.d. |
+| FY | phr. | fuck yeah | Acronym Archipelago | n.d. |
+| FYA | phr. | fuck you all | Acronym Archipelago | n.d. |
+| FYF | phr. | fuck your feelings | Acronym Archipelago | n.d. |
+| FYM | phr. | the fuck you mean? | Acronym Archipelago | n.d. |
+| fytb | phr. | (what the) fuck you talking ’bout? | Acronym Archipelago | by 2024 |
+| gaf | v. | give a fuck | Acronym Archipelago | n.d. |
+| GF | phr. | get fucked | Acronym Archipelago | by 1999 |
+| GFE | phr. | Google fucking exists | Acronym Archipelago | n.d. |
+| GFY | phr. | go fuck yourself | Acronym Archipelago | n.d. |
+| GMAFB | v. | give me a fucking break | Acronym Archipelago | by 1996 |
+| GTFIH | v. | get the fuck in here | Acronym Archipelago | n.d. |
+| GTFO | v. | get the fuck off | Acronym Archipelago | by 1995 |
+| GTFOH | v. | get the fuck outta here | Acronym Archipelago | by 1998 |
+| GTFOHWTBS | v. | get the fuck outta here with that bullshit | Acronym Archipelago | by 2004 |
+| GTFOI | v. | get the fuck over it | Acronym Archipelago | by 2001 |
+| GTFOOH | v. | get the fuck out of here | Acronym Archipelago | by 2022 |
+| HTF | phr. | how the fuck | Acronym Archipelago | by 2019 |
+| IDEFK | phr. | I don’t even fucking know | Acronym Archipelago | n.d. |
+| IDFK | phr. | I don’t fucking know | Acronym Archipelago | n.d. |
+| IDGAF | phr. | I don’t give a fuck | Acronym Archipelago | by 1993 |
+| IDGAFF | phr. | I don’t give a flying fuck | Acronym Archipelago | by 2008 |
+| IMNSFHO | phr. | in my not so fucking humble opinion | Acronym Archipelago | n.d. |
+| JAFO | n. | just another fucking observer | Acronym Archipelago | n.d. |
+| JFC | excl. | Jesus fucking Christ | Acronym Archipelago | 2014 (Green’s) |
+| JFDI | phr. | just fucking do it | Acronym Archipelago | n.d. |
+| LF | phr. | like fuck | Acronym Archipelago | n.d. |
+| LFG | phr. | let’s fucking go | Acronym Archipelago | n.d. |
+| LMFAO | excl. | laughing my fucking ass off | Acronym Archipelago | n.d. |
+| LMFAOOL | phr. | laughing my fucking ass off out loud | Acronym Archipelago | n.d. |
+| MF | adj. | motherfucking | Acronym Archipelago | c.1972 (Green’s) |
+| NBGAF | phr. | nobody gives a fuck | Acronym Archipelago | by 2004 |
+| OMFG | excl. | oh my fucking God | Acronym Archipelago | by 2023 |
+| ROFLMFAO | phr. | rolling on the floor laughing my fucking ass off | Acronym Archipelago | n.d. |
+| ROFLMGDMFAO | phr. | … my goddamned motherfucking ass off | Acronym Archipelago | n.d. |
+| ROFLMMFAO | phr. | … my motherfucking ass off | Acronym Archipelago | n.d. |
+| ROFLMMFGDAO | phr. | … my motherfucking goddamned ass off | Acronym Archipelago | n.d. |
+| ROMFFLMAO | phr. | rolling on the motherfucking floor laughing my ass off | Acronym Archipelago | n.d. |
+| ROMFFLMMFAO | phr. | … and my motherfucking ass off too | Acronym Archipelago | n.d. |
+| RTFM | phr. | read the fucking manual | Acronym Archipelago | n.d. |
+| RTFM | phr. | read the fucking man page | Acronym Archipelago | n.d. |
+| RTFN | adv. | right the fuck now | Acronym Archipelago | by 2018 |
+| SMFH | phr. | shaking my fucking head | Acronym Archipelago | by 2017 |
+| STFD | phr. | sit the fuck down | Acronym Archipelago | n.d. |
+| STFW | v. | search the fucking web | Acronym Archipelago | n.d. |
+| SYFM | phr. | shut your fucking mouth | Acronym Archipelago | n.d. |
+| TF | phr. | the fuck | Acronym Archipelago | 2016 (Green’s) |
+| TFYM | phr. | the fuck you mean | Acronym Archipelago | n.d. |
+| TIFU | phr. | today I fucked up | Acronym Archipelago | n.d. |
+| wdf | phr. | what dafuq | Acronym Archipelago | n.d. |
+| WTAF | excl. | what the actual fuck | Acronym Archipelago | by 2020 |
+| WTF | phr. | where, why, when or who the fuck | Acronym Archipelago | n.d. |
+| WTFDYM | phr. | what the fuck do you mean? | Acronym Archipelago | n.d. |
+| WTFIGO | phr. | what the fuck is going on | Acronym Archipelago | n.d. |
+| WTFU | phr. | wake the fuck up | Acronym Archipelago | n.d. |
+| YGBFKM | phr. | you’ve gotta be fucking kidding me | Acronym Archipelago | by 1999 |
 | brainfuck | n. | something that scrambles the mind | Altered States | by 2004 |
 | brainfuck | v. | to scramble or manipulate a mind | Altered States | by 1999 |
 | fucked in the head | adj. | not right mentally | Altered States | by 2000 |
@@ -627,114 +759,131 @@ All 527 headwords behind the new entries and behind Green's undated ones were lo
 | take a flying fuck at a rolling donut | v. | to go away, scram | Dismissal Coast | n.d. |
 | the fuck | phr. | denial: the fuck I did | Dismissal Coast | by 1997 |
 | what the fuck ever | excl. | whatever, intensified | Dismissal Coast | n.d. |
+| congratufuckulations | excl. | sarcastic congratulations | Exclamation Peaks | by 1998 |
+| dafuq | phr. | the fuck, run together | Exclamation Peaks | by 2012 |
+| dickfuck | excl. | anger | Exclamation Peaks | n.d. |
+| for fucking out loud | excl. | for crying out loud | Exclamation Peaks | n.d. |
+| for the love of fuck | excl. | exasperation | Exclamation Peaks | n.d. |
+| fuck this | excl. | frustration | Exclamation Peaks | n.d. |
+| fuck-a-doodle-doo | excl. | frustration, contempt, boredom | Exclamation Peaks | n.d. |
+| fuck-a-doodle-doo | excl. | sarcastic whoop-de-doo | Exclamation Peaks | n.d. |
+| fucking shit | excl. | bewilderment, surprise | Exclamation Peaks | n.d. |
+| fuckity | excl. | a nonce form of fuck! | Exclamation Peaks | by 1997 |
+| fuckity fuck | excl. | dismay, frustration | Exclamation Peaks | n.d. |
+| fuckness | excl. | dismay, discontent | Exclamation Peaks | n.d. |
+| fuckola | excl. | dismay, discontent | Exclamation Peaks | by 1997 |
+| fucksticks | excl. | frustration | Exclamation Peaks | by 2011 |
+| Jesus fuck | excl. | anger, frustration, shock | Exclamation Peaks | by 1989 |
+| oh my fucking God | excl. | anger, shock, excitement, dismay | Exclamation Peaks | n.d. |
+| what the flying fuck | phr. | what the fuck, with wings | Exclamation Peaks | n.d. |
 | atomic F-bomb | n. | the word, shouted | Fog of Euphemism | n.d. |
 | buck | v. | to fuck, with one letter changed | Fog of Euphemism | n.d. |
-| chuck you, Farley | excl. | fuck you, spoonerized | Fog of Euphemism | n.d. |
-| chuff | v. | a stand-in for fuck | Fog of Euphemism | n.d. |
+| chuck you, Farley | excl. | fuck you, spoonerized | Fog of Euphemism | 1970 (Green’s) |
+| chuff | v. | a stand-in for fuck | Fog of Euphemism | 1959 (Green’s) |
 | clucking | adj. | fucking, clucked | Fog of Euphemism | n.d. |
 | clusterball | n. | a clusterfuck, softened | Fog of Euphemism | by 2014 |
 | clusterbumble | n. | a clusterfuck, softened | Fog of Euphemism | n.d. |
 | clusterfrack | n. | a clusterfuck, fracked | Fog of Euphemism | by 2011 |
 | delay no more | phr. | an English pun on a Cantonese fuck-your-mother | Fog of Euphemism | by 1997 |
 | drop the F-bomb | v. | to say the word, especially where it doesn’t belong | Fog of Euphemism | n.d. |
-| eff | v. | to fuck, by its letter | Fog of Euphemism | by 1968 |
+| eff | v. | to fuck, by its letter | Fog of Euphemism | 1938 (Green’s) |
 | eff all | n. | fuck all, by its letter | Fog of Euphemism | n.d. |
-| eff off | v. | fuck off, by its letter | Fog of Euphemism | n.d. |
+| eff off | v. | fuck off, by its letter | Fog of Euphemism | 1980 (Green’s) |
 | effable | adj. | fuckable, as a pun | Fog of Euphemism | by 2005 |
-| effer | n. | fucker, by its letter | Fog of Euphemism | n.d. |
-| emeff | adj. | MF said out loud: motherfucking | Fog of Euphemism | by 1973 |
-| emeff | n. | MF said out loud: motherfucker | Fog of Euphemism | n.d. |
+| effer | n. | fucker, by its letter | Fog of Euphemism | 1957 (Green’s) |
+| emeff | adj. | MF said out loud: motherfucking | Fog of Euphemism | 1958 (Green’s) |
+| emeff | n. | MF said out loud: motherfucker | Fog of Euphemism | 1964 (Green’s) |
 | emeffer | n. | motherfucker, by its initials | Fog of Euphemism | by 2010 |
 | emmereffer | n. | motherfucker, by its initials | Fog of Euphemism | by 1996 |
-| F | v. | fuck, as a letter: F that | Fog of Euphemism | by 2011 |
+| F | v. | fuck, as a letter: F that | Fog of Euphemism | 1993 (Green’s) |
 | F off | excl. | fuck off!, initialled | Fog of Euphemism | n.d. |
 | F off | v. | fuck off, initialled | Fog of Euphemism | n.d. |
 | f-word | v. | to swear, especially with the word itself | Fog of Euphemism | by 2010 |
 | fboy | n. | a fuck boy, initialled | Fog of Euphemism | n.d. |
 | fgirl | n. | a fuck girl, initialled | Fog of Euphemism | n.d. |
 | firetruck | excl. | fuck!, by sound | Fog of Euphemism | n.d. |
-| flipping | adj. | a mild fucking | Fog of Euphemism | by 1951 |
-| flipping | adv. | fucking, as an intensifier | Fog of Euphemism | n.d. |
-| flogging | adj. | fucking, as an intensifier | Fog of Euphemism | by 1955 |
+| flipping | adj. | a mild fucking | Fog of Euphemism | 1911 (Green’s) |
+| flipping | adv. | fucking, as an intensifier | Fog of Euphemism | 1911 (Green’s) |
+| flogging | adj. | fucking, as an intensifier | Fog of Euphemism | 1928 (Green’s) |
 | fluffing | adj. | fucking, fluffed | Fog of Euphemism | n.d. |
 | fluffing | adv. | fucking, fluffed | Fog of Euphemism | n.d. |
 | flying fig | n. | a flying fuck, figged | Fog of Euphemism | n.d. |
 | fock | n. | fuck, misspelled on purpose | Fog of Euphemism | n.d. |
 | for fudge’s sake | excl. | for fuck’s sake, fudged | Fog of Euphemism | n.d. |
-| fornicating | adj. | fucking, in Latinate dress | Fog of Euphemism | by 1958 |
+| fornicating | adj. | fucking, in Latinate dress | Fog of Euphemism | 1833 (Green’s) |
 | foxtrot oscar | v. | fuck off, in the phonetic alphabet | Fog of Euphemism | by 2012 |
 | fracking | adj. | fucking, Battlestar-style | Fog of Euphemism | by 1991 |
-| freaking | adj. | fucking, softened | Fog of Euphemism | n.d. |
+| freaking | adj. | fucking, softened | Fog of Euphemism | 1928 (Green’s) |
 | freaking | adv. | fucking, softened | Fog of Euphemism | by 2021 |
-| frick | excl. | fuck!, softened | Fog of Euphemism | n.d. |
-| frick | n. | a fuck, softened | Fog of Euphemism | by 2006 |
+| frick | excl. | fuck!, softened | Fog of Euphemism | 1991 (Green’s) |
+| frick | n. | a fuck, softened | Fog of Euphemism | 1990 (Green’s) |
 | frick | v. | to fuck, softened | Fog of Euphemism | n.d. |
-| fricking | adj. | fucking, softened | Fog of Euphemism | by 1997 |
-| frig it | excl. | fuck it, softened | Fog of Euphemism | n.d. |
-| frig off | v. | fuck off, softened | Fog of Euphemism | by 1978 |
-| frig up | v. | fuck up, softened | Fog of Euphemism | by 1960 |
-| frig-up | n. | a fuck-up, softened | Fog of Euphemism | n.d. |
-| frigger | n. | a disagreeable person | Fog of Euphemism | n.d. |
-| frigging | adj. | fucking, softened | Fog of Euphemism | n.d. |
+| fricking | adj. | fucking, softened | Fog of Euphemism | 1973 (Green’s) |
+| frig it | excl. | fuck it, softened | Fog of Euphemism | 1952 (Green’s) |
+| frig off | v. | fuck off, softened | Fog of Euphemism | 1948 (Green’s) |
+| frig up | v. | fuck up, softened | Fog of Euphemism | 1938 (Green’s) |
+| frig-up | n. | a fuck-up, softened | Fog of Euphemism | 1941 (Green’s) |
+| frigger | n. | a disagreeable person | Fog of Euphemism | 1952 (Green’s) |
+| frigging | adj. | fucking, softened | Fog of Euphemism | 1890 (Green’s) |
 | frigging | adv. | fucking, softened | Fog of Euphemism | n.d. |
 | frigtard | n. | a fucktard, softened | Fog of Euphemism | n.d. |
 | fuddle-duddle | excl. | fuck! fuck off! (the Canadian prime minister’s alibi) | Fog of Euphemism | by 1971 |
 | fudge | v. | used in place of fuck | Fog of Euphemism | n.d. |
 | fudging | adv. | an intensifier like fucking | Fog of Euphemism | n.d. |
 | fug | excl. | fuck!, fugged | Fog of Euphemism | by 1985 |
-| fug | n. | the fug: emphasis, as in what the fug | Fog of Euphemism | by 1961 |
-| fug | n. | something worthless | Fog of Euphemism | by 2013 |
+| fug | n. | the fug: emphasis, as in what the fug | Fog of Euphemism | 1948 (Green’s) |
+| fug | n. | something worthless | Fog of Euphemism | 2004 (Green’s) |
 | fug | n. | a contemptible person | Fog of Euphemism | by 1942 |
-| fug | v. | to damn: fug it | Fog of Euphemism | by 1948 |
-| fug | v. | to wreck | Fog of Euphemism | by 2007 |
+| fug | v. | to damn: fug it | Fog of Euphemism | 1948 (Green’s) |
+| fug | v. | to wreck | Fog of Euphemism | 1948 (Green’s) |
 | fuggo | n. | an ugly person (from fugly) | Fog of Euphemism | n.d. |
-| fugly | adj. | fucking ugly, run together | Fog of Euphemism | by 1995 |
-| fugly | n. | a very ugly person | Fog of Euphemism | n.d. |
+| fugly | adj. | fucking ugly, run together | Fog of Euphemism | 1969 (Green’s) |
+| fugly | n. | a very ugly person | Fog of Euphemism | 1970 (Green’s) |
 | fuk | n. | fuck, misspelled on purpose | Fog of Euphemism | n.d. |
 | fukk | v. | fuck, misspelled on purpose | Fog of Euphemism | n.d. |
 | funk | v. | fuck, the swear, funked | Fog of Euphemism | by 2017 |
 | funk you | excl. | fuck you, funked | Fog of Euphemism | n.d. |
 | funker | n. | fucker, bowdlerized | Fog of Euphemism | n.d. |
-| funking | adj. | fucking, bowdlerized | Fog of Euphemism | n.d. |
+| funking | adj. | fucking, bowdlerized | Fog of Euphemism | 1930 (Green’s) |
 | funking | adv. | fucking, bowdlerized | Fog of Euphemism | n.d. |
 | fuq | excl. | fuck, misspelled on purpose | Fog of Euphemism | n.d. |
-| futhermucker | n. | motherfucker, spoonerized | Fog of Euphemism | by 1975 |
+| futhermucker | n. | motherfucker, spoonerized | Fog of Euphemism | 1965 (Green’s) |
 | f—kin | adj. | fuckin, censored | Fog of Euphemism | by 2020 |
 | go f oneself | v. | go fuck oneself, initialled | Fog of Euphemism | n.d. |
 | go forth and multiply | phr. | go fuck yourself, in biblical dress | Fog of Euphemism | n.d. |
-| ken oath | phr. | (Australian) fucking oath, with the fuck cut off | Fog of Euphemism | n.d. |
+| ken oath | phr. | (Australian) fucking oath, with the fuck cut off | Fog of Euphemism | 1914 (Green’s) |
 | like fudge | phr. | like fuck, fudged | Fog of Euphemism | n.d. |
 | m*therfucker | n. | motherfucker, one star short | Fog of Euphemism | n.d. |
 | m-word | n. | the word motherfucker, named instead of said | Fog of Euphemism | n.d. |
-| mofo | adj. | motherfucking, cut to two syllables | Fog of Euphemism | n.d. |
-| mofo | n. | motherfucker, cut to two syllables | Fog of Euphemism | n.d. |
-| mollyfogging | adj. | motherfucking, disguised | Fog of Euphemism | by 2004 |
-| mother | n. | motherfucker, clipped | Fog of Euphemism | n.d. |
+| mofo | adj. | motherfucking, cut to two syllables | Fog of Euphemism | 1989 (Green’s) |
+| mofo | n. | motherfucker, cut to two syllables | Fog of Euphemism | 1966 (Green’s) |
+| mollyfogging | adj. | motherfucking, disguised | Fog of Euphemism | 1968 (Green’s) |
+| mother | n. | motherfucker, clipped | Fog of Euphemism | 1948 (Green’s) |
 | motherchucker | n. | motherfucker, disguised | Fog of Euphemism | by 2008 |
 | mothereffer | n. | motherfucker, by its letters | Fog of Euphemism | by 2016 |
 | mothereffing | adj. | motherfucking, by its letters | Fog of Euphemism | by 2013 |
-| motherferyer | n. | motherfucker, disguised | Fog of Euphemism | by 1946 |
+| motherferyer | n. | motherfucker, disguised | Fog of Euphemism | 1935 (Green’s) |
 | motherflipper | n. | motherfucker, flipped | Fog of Euphemism | n.d. |
 | motherflipping | adj. | motherfucking, flipped | Fog of Euphemism | by 2008 |
 | motherfluffer | n. | motherfucker, disguised | Fog of Euphemism | by 1996 |
-| motherfouler | n. | motherfucker, disguised | Fog of Euphemism | by 1952 |
+| motherfouler | n. | motherfucker, disguised | Fog of Euphemism | 1949 (Green’s) |
 | motherfunker | n. | motherfucker, disguised | Fog of Euphemism | by 1993 |
 | motherfunking | adj. | motherfucking, bowdlerized | Fog of Euphemism | n.d. |
 | motherfunking | adv. | motherfucking, bowdlerized | Fog of Euphemism | n.d. |
-| motherhumper | n. | motherfucker, disguised | Fog of Euphemism | by 1976 |
-| motherlover | n. | motherfucker, disguised | Fog of Euphemism | by 1971 |
-| motherloving | adj. | motherfucking, disguised | Fog of Euphemism | by 1956 |
+| motherhumper | n. | motherfucker, disguised | Fog of Euphemism | 1963 (Green’s) |
+| motherlover | n. | motherfucker, disguised | Fog of Euphemism | 1951 (Green’s) |
+| motherloving | adj. | motherfucking, disguised | Fog of Euphemism | 1951 (Green’s) |
 | mothertrucker | n. | motherfucker, trucked | Fog of Euphemism | by 2013 |
 | mothertrucking | adj. | motherfucking, trucked | Fog of Euphemism | by 1982 |
 | muffinsucker | n. | motherfucker, disguised | Fog of Euphemism | n.d. |
 | mutha phucka | n. | motherfucker, misspelled on purpose | Fog of Euphemism | by 2020 |
 | nucking futs | adj. | fucking nuts, spoonerized | Fog of Euphemism | by 1999 |
-| phuck | v. | fuck, respelled | Fog of Euphemism | by 2003 |
+| phuck | v. | fuck, respelled | Fog of Euphemism | 1994 (Green’s) |
 | refer someone to the reply given in Arkell v Pressdram | v. | to tell someone to fuck off, by citing Private Eye’s famous letter | Fog of Euphemism | by 2015 |
 | shut the fridge | phr. | shut the fuck up!, for disbelief | Fog of Euphemism | by 2015 |
 | shut the front door | phr. | shut the fuck up!, for disbelief | Fog of Euphemism | by 2019 |
 | sister humper | n. | sisterfucker, disguised | Fog of Euphemism | by 2000 |
-| stuff you | phr. | fuck you, stuffed | Fog of Euphemism | n.d. |
+| stuff you | phr. | fuck you, stuffed | Fog of Euphemism | 1958 (Green’s) |
 | uckfay | excl. | fuck, in pig Latin | Fog of Euphemism | by 1974 |
 | what the cuss | excl. | what the fuck, cussed | Fog of Euphemism | n.d. |
 | what the fish | phr. | what the fuck, fished | Fog of Euphemism | by 2016 |
@@ -745,121 +894,6 @@ All 527 headwords behind the new entries and behind Green's undated ones were lo
 | yuck fou | phr. | fuck you, spoonerized | Fog of Euphemism | by 2007 |
 | zark | excl. | fuck!, science-fiction issue | Fog of Euphemism | by 1978 |
 | zarking | adj. | fucking, science-fiction issue | Fog of Euphemism | by 1997 |
-| a fuck sight | adv. | a great deal: a fuck sight better | Intensifier Sea | n.d. |
-| a fuck sight | n. | a large amount | Intensifier Sea | by 1987 |
-| afuckingmazing | adj. | amazing, emphasised | Intensifier Sea | by 2000 |
-| anyfuckingbody | pron. | anybody, emphasised | Intensifier Sea | by 1999 |
-| anyfuckingone | pron. | anyone, emphasised | Intensifier Sea | n.d. |
-| as a motherfucker | adv. | extremely | Intensifier Sea | n.d. |
-| as all fuck | phr. | as fuck, more so | Intensifier Sea | n.d. |
-| awefuckingsome | adj. | awesome, emphasised | Intensifier Sea | by 1995 |
-| brotherfucking | adj. | motherfucking, sideways | Intensifier Sea | n.d. |
-| cousinfucking | adj. | motherfucking, goddamn | Intensifier Sea | by 2002 |
-| everyfuckingbody | pron. | everybody, emphasised | Intensifier Sea | by 1999 |
-| fresh fucked fox in a forest fire | n. | anything extremely hot, in any sense | Intensifier Sea | n.d. |
-| fuckass | adj. | a generic intensifier | Intensifier Sea | by 2023 |
-| fuckening | adj. | an intensifier | Intensifier Sea | by 2000 |
-| fuckity | adj. | fucking | Intensifier Sea | n.d. |
-| fuckity fuck | adj. | fucking | Intensifier Sea | by 1981 |
-| fucktillion | n. | an uncountable number | Intensifier Sea | by 2013 |
-| fuckwad | n. | a great deal; a fuckload | Intensifier Sea | n.d. |
-| I fuck you not | phr. | I kid you not | Intensifier Sea | by 1999 |
-| imfuckingpossible | adj. | impossible, emphasised | Intensifier Sea | by 1994 |
-| infuckingcredible | adj. | incredible, emphasised | Intensifier Sea | n.d. |
-| metric fuckton | n. | a vast amount, in metric | Intensifier Sea | by 2019 |
-| motherfuckingly | adv. | extremely | Intensifier Sea | by 1990 |
-| nofuckingbody | pron. | nobody, emphasised | Intensifier Sea | by 1997 |
-| the flying fuck out of | adv. | the fuck out of, airborne | Intensifier Sea | by 2003 |
-| the fuck out of | adv. | thoroughly, violently: scared the fuck out of me | Intensifier Sea | n.d. |
-| the fuckola | phr. | the fuck, stretched | Intensifier Sea | by 2004 |
-| the fuckola out of | adv. | the fuck out of, stretched | Intensifier Sea | by 1997 |
-| unbefuckinglievable | adj. | unbelievable, emphasised | Intensifier Sea | n.d. |
-| unfuckingbearable | adj. | unbearable, emphasised | Intensifier Sea | by 2002 |
-| AF | adv. | as fuck | Acronym Archipelago | by 2023 |
-| AFU | adj. | all fucked up | Acronym Archipelago | n.d. |
-| AYFKM | phr. | are you fucking kidding me? | Acronym Archipelago | by 2002 |
-| BFC | n. | big fucking capacitor (engineers’ slang) | Acronym Archipelago | n.d. |
-| BFD | excl. | big fucking deal | Acronym Archipelago | by 2024 |
-| BFFR | phr. | be fucking for real | Acronym Archipelago | by 2022 |
-| BOMB | phr. | bottom of the motherfucking barrel | Acronym Archipelago | n.d. |
-| BTFO | adj. | blown the fuck out: utterly beaten | Acronym Archipelago | by 2013 |
-| BTFO | v. | back the fuck off | Acronym Archipelago | by 1995 |
-| CBF | v. | can’t be fucked | Acronym Archipelago | n.d. |
-| DAFN | n. | initialism of a racist insult built on fucking | Acronym Archipelago | n.d. |
-| DAMF | n. | dumbass motherfucker | Acronym Archipelago | n.d. |
-| DGAF | phr. | don’t give a fuck | Acronym Archipelago | by 2024 |
-| DNGAF | phr. | do not give a fuck | Acronym Archipelago | n.d. |
-| DTF | adj. | down to fuck: up for casual sex | Acronym Archipelago | by 2024 |
-| FA | pron. | fuck all | Acronym Archipelago | n.d. |
-| FF | n. | fist-fucking | Acronym Archipelago | by 1983 |
-| FFS | adv. | for fuck’s sake | Acronym Archipelago | by 2023 |
-| FGI | phr. | fucking Google it | Acronym Archipelago | n.d. |
-| FIA | phr. | fuck it all | Acronym Archipelago | n.d. |
-| FITFO | phr. | figure it the fuck out | Acronym Archipelago | by 2007 |
-| FJB | phr. | fuck Joe Biden | Acronym Archipelago | by 2021 |
-| FO | excl. | fuck off | Acronym Archipelago | n.d. |
-| FOAD | phr. | fuck off and die | Acronym Archipelago | by 2006 |
-| FOH | n. | fuck outta here | Acronym Archipelago | n.d. |
-| FTMFW | adv. | for the motherfucking win | Acronym Archipelago | n.d. |
-| FTS | phr. | fuck this shit | Acronym Archipelago | n.d. |
-| FTW | excl. | fuck the world | Acronym Archipelago | by 2003 |
-| FWM | v. | fuck with me | Acronym Archipelago | n.d. |
-| FY | phr. | fuck you | Acronym Archipelago | n.d. |
-| FY | phr. | fuck yeah | Acronym Archipelago | n.d. |
-| FYA | phr. | fuck you all | Acronym Archipelago | n.d. |
-| FYF | phr. | fuck your feelings | Acronym Archipelago | n.d. |
-| FYM | phr. | the fuck you mean? | Acronym Archipelago | n.d. |
-| fytb | phr. | (what the) fuck you talking ’bout? | Acronym Archipelago | by 2024 |
-| gaf | v. | give a fuck | Acronym Archipelago | n.d. |
-| GF | phr. | get fucked | Acronym Archipelago | by 1999 |
-| GFE | phr. | Google fucking exists | Acronym Archipelago | n.d. |
-| GFY | phr. | go fuck yourself | Acronym Archipelago | n.d. |
-| GMAFB | v. | give me a fucking break | Acronym Archipelago | by 1996 |
-| GTFIH | v. | get the fuck in here | Acronym Archipelago | n.d. |
-| GTFO | v. | get the fuck off | Acronym Archipelago | by 1995 |
-| GTFOH | v. | get the fuck outta here | Acronym Archipelago | by 1998 |
-| GTFOHWTBS | v. | get the fuck outta here with that bullshit | Acronym Archipelago | by 2004 |
-| GTFOI | v. | get the fuck over it | Acronym Archipelago | by 2001 |
-| GTFOOH | v. | get the fuck out of here | Acronym Archipelago | by 2022 |
-| HTF | phr. | how the fuck | Acronym Archipelago | by 2019 |
-| IDEFK | phr. | I don’t even fucking know | Acronym Archipelago | n.d. |
-| IDFK | phr. | I don’t fucking know | Acronym Archipelago | n.d. |
-| IDGAF | phr. | I don’t give a fuck | Acronym Archipelago | by 1993 |
-| IDGAFF | phr. | I don’t give a flying fuck | Acronym Archipelago | by 2008 |
-| IMNSFHO | phr. | in my not so fucking humble opinion | Acronym Archipelago | n.d. |
-| JAFO | n. | just another fucking observer | Acronym Archipelago | n.d. |
-| JFC | excl. | Jesus fucking Christ | Acronym Archipelago | n.d. |
-| JFDI | phr. | just fucking do it | Acronym Archipelago | n.d. |
-| LF | phr. | like fuck | Acronym Archipelago | n.d. |
-| LFG | phr. | let’s fucking go | Acronym Archipelago | n.d. |
-| LMFAO | excl. | laughing my fucking ass off | Acronym Archipelago | n.d. |
-| LMFAOOL | phr. | laughing my fucking ass off out loud | Acronym Archipelago | n.d. |
-| MF | adj. | motherfucking | Acronym Archipelago | n.d. |
-| NBGAF | phr. | nobody gives a fuck | Acronym Archipelago | by 2004 |
-| OMFG | excl. | oh my fucking God | Acronym Archipelago | by 2023 |
-| ROFLMFAO | phr. | rolling on the floor laughing my fucking ass off | Acronym Archipelago | n.d. |
-| ROFLMGDMFAO | phr. | … my goddamned motherfucking ass off | Acronym Archipelago | n.d. |
-| ROFLMMFAO | phr. | … my motherfucking ass off | Acronym Archipelago | n.d. |
-| ROFLMMFGDAO | phr. | … my motherfucking goddamned ass off | Acronym Archipelago | n.d. |
-| ROMFFLMAO | phr. | rolling on the motherfucking floor laughing my ass off | Acronym Archipelago | n.d. |
-| ROMFFLMMFAO | phr. | … and my motherfucking ass off too | Acronym Archipelago | n.d. |
-| RTFM | phr. | read the fucking manual | Acronym Archipelago | n.d. |
-| RTFM | phr. | read the fucking man page | Acronym Archipelago | n.d. |
-| RTFN | adv. | right the fuck now | Acronym Archipelago | by 2018 |
-| SMFH | phr. | shaking my fucking head | Acronym Archipelago | by 2017 |
-| STFD | phr. | sit the fuck down | Acronym Archipelago | n.d. |
-| STFW | v. | search the fucking web | Acronym Archipelago | n.d. |
-| SYFM | phr. | shut your fucking mouth | Acronym Archipelago | n.d. |
-| TF | phr. | the fuck | Acronym Archipelago | by 2024 |
-| TFYM | phr. | the fuck you mean | Acronym Archipelago | n.d. |
-| TIFU | phr. | today I fucked up | Acronym Archipelago | n.d. |
-| wdf | phr. | what dafuq | Acronym Archipelago | n.d. |
-| WTAF | excl. | what the actual fuck | Acronym Archipelago | by 2020 |
-| WTF | phr. | where, why, when or who the fuck | Acronym Archipelago | n.d. |
-| WTFDYM | phr. | what the fuck do you mean? | Acronym Archipelago | n.d. |
-| WTFIGO | phr. | what the fuck is going on | Acronym Archipelago | n.d. |
-| WTFU | phr. | wake the fuck up | Acronym Archipelago | n.d. |
-| YGBFKM | phr. | you’ve gotta be fucking kidding me | Acronym Archipelago | by 1999 |
 | dogfucker | n. | a lazy worker dogging it | Idle Marshes | n.d. |
 | frame fuck | v. | to nitpick an edit frame by frame | Idle Marshes | by 2003 |
 | fuckarounditis | n. | years in the gym with nothing to show for it | Idle Marshes | by 2011 |
@@ -970,6 +1004,36 @@ All 527 headwords behind the new entries and behind Green's undated ones were lo
 | unclefucker | n. | motherfucker, moved along the family tree | Insult Badlands | by 1999 |
 | whorefucker | n. | general abuse | Insult Badlands | n.d. |
 | windfucker | n. | a term of abuse | Insult Badlands | by 1648 |
+| a fuck sight | adv. | a great deal: a fuck sight better | Intensifier Sea | n.d. |
+| a fuck sight | n. | a large amount | Intensifier Sea | by 1987 |
+| afuckingmazing | adj. | amazing, emphasised | Intensifier Sea | by 2000 |
+| anyfuckingbody | pron. | anybody, emphasised | Intensifier Sea | by 1999 |
+| anyfuckingone | pron. | anyone, emphasised | Intensifier Sea | n.d. |
+| as a motherfucker | adv. | extremely | Intensifier Sea | n.d. |
+| as all fuck | phr. | as fuck, more so | Intensifier Sea | n.d. |
+| awefuckingsome | adj. | awesome, emphasised | Intensifier Sea | by 1995 |
+| brotherfucking | adj. | motherfucking, sideways | Intensifier Sea | n.d. |
+| cousinfucking | adj. | motherfucking, goddamn | Intensifier Sea | by 2002 |
+| everyfuckingbody | pron. | everybody, emphasised | Intensifier Sea | by 1999 |
+| fresh fucked fox in a forest fire | n. | anything extremely hot, in any sense | Intensifier Sea | n.d. |
+| fuckass | adj. | a generic intensifier | Intensifier Sea | by 2023 |
+| fuckening | adj. | an intensifier | Intensifier Sea | by 2000 |
+| fuckity | adj. | fucking | Intensifier Sea | n.d. |
+| fuckity fuck | adj. | fucking | Intensifier Sea | by 1981 |
+| fucktillion | n. | an uncountable number | Intensifier Sea | by 2013 |
+| fuckwad | n. | a great deal; a fuckload | Intensifier Sea | n.d. |
+| I fuck you not | phr. | I kid you not | Intensifier Sea | by 1999 |
+| imfuckingpossible | adj. | impossible, emphasised | Intensifier Sea | by 1994 |
+| infuckingcredible | adj. | incredible, emphasised | Intensifier Sea | n.d. |
+| metric fuckton | n. | a vast amount, in metric | Intensifier Sea | by 2019 |
+| motherfuckingly | adv. | extremely | Intensifier Sea | by 1990 |
+| nofuckingbody | pron. | nobody, emphasised | Intensifier Sea | by 1997 |
+| the flying fuck out of | adv. | the fuck out of, airborne | Intensifier Sea | by 2003 |
+| the fuck out of | adv. | thoroughly, violently: scared the fuck out of me | Intensifier Sea | n.d. |
+| the fuckola | phr. | the fuck, stretched | Intensifier Sea | by 2004 |
+| the fuckola out of | adv. | the fuck out of, stretched | Intensifier Sea | by 1997 |
+| unbefuckinglievable | adj. | unbelievable, emphasised | Intensifier Sea | n.d. |
+| unfuckingbearable | adj. | unbearable, emphasised | Intensifier Sea | by 2002 |
 | Afucka | n. | Africa (derogatory) | Placeholder Plains | by 1962 |
 | bumfuck | adj. | remote, far from anywhere | Placeholder Plains | by 2024 |
 | bumfuck nowhere | n. | the middle of nowhere | Placeholder Plains | by 2007 |
@@ -1035,23 +1099,6 @@ All 527 headwords behind the new entries and behind Green's undated ones were lo
 | fuck | v. | to be very good, to rule: this song fucks | Warm Springs | n.d. |
 | fuck it up | v. | to go at something hard and well | Warm Springs | by 2016 |
 | fuck up | v. | to make someone laugh | Warm Springs | n.d. |
-| congratufuckulations | excl. | sarcastic congratulations | Exclamation Peaks | by 1998 |
-| dafuq | phr. | the fuck, run together | Exclamation Peaks | by 2012 |
-| dickfuck | excl. | anger | Exclamation Peaks | n.d. |
-| for fucking out loud | excl. | for crying out loud | Exclamation Peaks | n.d. |
-| for the love of fuck | excl. | exasperation | Exclamation Peaks | n.d. |
-| fuck this | excl. | frustration | Exclamation Peaks | n.d. |
-| fuck-a-doodle-doo | excl. | frustration, contempt, boredom | Exclamation Peaks | n.d. |
-| fuck-a-doodle-doo | excl. | sarcastic whoop-de-doo | Exclamation Peaks | n.d. |
-| fucking shit | excl. | bewilderment, surprise | Exclamation Peaks | n.d. |
-| fuckity | excl. | a nonce form of fuck! | Exclamation Peaks | by 1997 |
-| fuckity fuck | excl. | dismay, frustration | Exclamation Peaks | n.d. |
-| fuckness | excl. | dismay, discontent | Exclamation Peaks | n.d. |
-| fuckola | excl. | dismay, discontent | Exclamation Peaks | by 1997 |
-| fucksticks | excl. | frustration | Exclamation Peaks | by 2011 |
-| Jesus fuck | excl. | anger, frustration, shock | Exclamation Peaks | by 1989 |
-| oh my fucking God | excl. | anger, shock, excitement, dismay | Exclamation Peaks | n.d. |
-| what the flying fuck | phr. | what the fuck, with wings | Exclamation Peaks | n.d. |
 
 ### Green's fucks dated by Wiktionary
 
@@ -1077,9 +1124,294 @@ These 17 are Green's, in entries too long to load past a certain point. Their da
 | not here to fuck spiders | phr. | (Australian) no time to waste; let’s get on with it | Idle Marshes | by 1997 |
 | sweet fuck all | n. | absolutely nothing | Void | by 1961 |
 
+## Pass 6 · The stand-ins Green's files
+
+Passes 1 to 3 search Green's for the word, so they can't find a fuck that never spells it. Green's has a whole layer of those: rhyming slang, swapped words it marks as euphemisms, letter games and respellings. Pass 6 went looking for them three ways.
+
+1. **Stems.** Green's was searched for every likely stand-in stem: the rhyming slang (*friar tuck*, *Donald Duck*, *goose and duck*, *trolley and truck*, *push in the truck*, *cattle truck*, *Russian duck*, *joe buck*, *rubber duck*, *lame duck*), the minced and swapped forms (*flip*, *frig*, *freak*, *frick*, *fug*, *fudge*, *fork*, *muck*, *chuff*, *cluck*, *eff*, *fark*, *fook*, *frak*, *frell*, *naff*, *stuff*), the motherfucker disguises (*mammy-*, *mama-*, *mother-*, *motor*, *mutha*, *mofo*), the censor words (*bleep*, *blankety*), back slang (*kcuf*) and the acronym candidates (*f.n.g.*, *FIGJAM*, *n.f.g.*, *GILF*…). Every entry found was opened and read.
+2. **Web search.** Green's pages that use phrases such as "euph. for fuck v.", "euph. for fucking adj.", "euph. for motherfucker" or "rhy. sl." were found through a web search engine and opened.
+3. **Wiktionary's finds, back in Green's.** All 203 of the Wiktionary finds that don't spell *fuck* (its disguises and acronyms) were searched for in Green's.
+
+**What counts.** A stand-in counts when Green's labels it a euphemism (or a semi- or quasi-euphemism), rhyming slang, an abbreviation or a deliberate respelling of a fuck-word, and gives it quotations of its own. Each numbered sense or sub-entry is one fuck, as everywhere else.
+
+**What doesn't.** Left out on those terms:
+
+- synonyms Green's doesn't mark as standing in for fuck: plain sex words (*root*, *buck*, *firk*, *stuff* in its 1680 sense) and dismissals it glosses without the label (*bugger off*, *get knotted!*, *get nicked!*, *bog off*, *shag!*, *shagged out*, *shag all*, *fanny about*, *shit-all*);
+- generic censor words and borderline intensifiers (*bleeping*, *blow it!*, *bonking*, *screwing*, *effery*, *humping* in the sense "extremely appealing", *goat-rope*, *Fecky the Ninth*);
+- forms whose etymology Green's queries (*sucks to you!*, *fluff off*, *fluff it!*, *sucker*, *malformy*, *mamaluke*), and *fudge!* as "nonsense!" (1824), which predates its use for fuck;
+- variants listed inside another entry (*fecker*, *facker*, *fogger*, *farking*, *focking*, *muh-fugger*, *motherfug*, *take a flying leap*, *flying fling*, *cluster* for clusterfuck), cross-references with no quotations of their own (*frig-your-buddy week*, *I'll be frigged!*, *go fug yourself!*, *S.F.A.*, *sweet eff-ay*, *r.f.*, *FM boots*, *g.t.f.o.o.m.w.*) and run-on forms inside a definition (*cattled*, *feather-plucked*, *frigged up*, *get intercoursed!*);
+- euphemisms for other swears (*bloody*, *damn*, *God*, *hell*, *shit*), and other languages' words (*foutre*).
+
+**What it found.** 198 new fucks: 19 in rhyming slang, 28 acronyms and initialisms, and 151 euphemisms and respellings, 66 of them disguised motherfuckers (Green's earliest *mother-* euphemism is *mother-plugger*, 1929). The oldest are Victorian: *muck!* and *mucking* (1880) and the rhyming *goose and duck* (1889). Two of the acronyms are older than the Second World War's SNAFU: *L.F.F.*, "luck, fuck and a fiver", an Edwardian toast (1908), and the Australian soldiers' *f.f.f.*, "frigged, fucked and far from home" (1919). So the Acronym Archipelago is now settled in 1908, not 1941.
+
+**Redated.** 57 rows got earlier dates from Green's: 53 of Wiktionary's finds, three disguises from other sources, and one of Green's own rows (*MF*, n.), corrected from 1980 to 1959.
+
+| term | pos | gloss | was | now |
+|---|---|---|---|---|
+| BFD | excl. | big fucking deal | by 2024 (Wiktionary) | 1967 |
+| chuck you, Farley | excl. | fuck you, spoonerized | n.d. (Wiktionary) | 1970 |
+| chuff | v. | a stand-in for fuck | n.d. (Wiktionary) | 1959 |
+| DTF | adj. | down to fuck: up for casual sex | by 2024 (Wiktionary) | 2007 |
+| eff | v. | to fuck, by its letter | by 1968 (Wiktionary) | 1938 |
+| eff off | v. | fuck off, by its letter | n.d. (Wiktionary) | 1980 |
+| effer | n. | fucker, by its letter | n.d. (Wiktionary) | 1957 |
+| emeff | adj. | MF said out loud: motherfucking | by 1973 (Wiktionary) | 1958 |
+| emeff | n. | MF said out loud: motherfucker | n.d. (Wiktionary) | 1964 |
+| F | v. | fuck, as a letter: F that | by 2011 (Wiktionary) | 1993 |
+| F, eff | n. | the bare letter as a cuss word | 1943 (Etymonline) | 1922 |
+| FA | pron. | fuck all | n.d. (Wiktionary) | 1919 |
+| FF | n. | fist-fucking | by 1983 (Wiktionary) | 1973 |
+| FFS | adv. | for fuck’s sake | by 2023 (Wiktionary) | 2014 |
+| flipping | adj. | a mild fucking | by 1951 (Wiktionary) | 1911 |
+| flipping | adv. | fucking, as an intensifier | n.d. (Wiktionary) | 1911 |
+| flogging | adj. | fucking, as an intensifier | by 1955 (Wiktionary) | 1928 |
+| FO | excl. | fuck off | n.d. (Wiktionary) | 1947 |
+| FOAD | phr. | fuck off and die | by 2006 (Wiktionary) | 1983 |
+| fornicating | adj. | fucking, in Latinate dress | by 1958 (Wiktionary) | 1833 |
+| freaking | adj. | fucking, softened | n.d. (Wiktionary) | 1928 |
+| frick | excl. | fuck!, softened | n.d. (Wiktionary) | 1991 |
+| frick | n. | a fuck, softened | by 2006 (Wiktionary) | 1990 |
+| fricking | adj. | fucking, softened | by 1997 (Wiktionary) | 1973 |
+| frig it | excl. | fuck it, softened | n.d. (Wiktionary) | 1952 |
+| frig off | v. | fuck off, softened | by 1978 (Wiktionary) | 1948 |
+| frig up | v. | fuck up, softened | by 1960 (Wiktionary) | 1938 |
+| frig-up | n. | a fuck-up, softened | n.d. (Wiktionary) | 1941 |
+| frigger | n. | a disagreeable person | n.d. (Wiktionary) | 1952 |
+| frigging | adj. | fucking, softened | n.d. (Wiktionary) | 1890 |
+| FTW | excl. | fuck the world | by 2003 (Wiktionary) | 1972 |
+| fudge | excl. | fuck!, fudged (later A Christmas Story’s famous dub) | 1983 (Wikipedia) | 1903 |
+| fug | n. | the fug: emphasis, as in what the fug | by 1961 (Wiktionary) | 1948 |
+| fug | n. | something worthless | by 2013 (Wiktionary) | 2004 |
+| fug | v. | to damn: fug it | by 1948 (Wiktionary) | 1948 |
+| fug | v. | to wreck | by 2007 (Wiktionary) | 1948 |
+| fugly | adj. | fucking ugly, run together | by 1995 (Wiktionary) | 1969 |
+| fugly | n. | a very ugly person | n.d. (Wiktionary) | 1970 |
+| funking | adj. | fucking, bowdlerized | n.d. (Wiktionary) | 1930 |
+| futhermucker | n. | motherfucker, spoonerized | by 1975 (Wiktionary) | 1965 |
+| JFC | excl. | Jesus fucking Christ | n.d. (Wiktionary) | 2014 |
+| ken oath | phr. | (Australian) fucking oath, with the fuck cut off | n.d. (Wiktionary) | 1914 |
+| MF | adj. | motherfucking | n.d. (Wiktionary) | c.1972 |
+| MF | n. | motherfucker, reduced to initials | 1980 (Green’s) | 1959 |
+| mofo | adj. | motherfucking, cut to two syllables | n.d. (Wiktionary) | 1989 |
+| mofo | n. | motherfucker, cut to two syllables | n.d. (Wiktionary) | 1966 |
+| mollyfogging | adj. | motherfucking, disguised | by 2004 (Wiktionary) | 1968 |
+| mother | n. | motherfucker, clipped | n.d. (Wiktionary) | 1948 |
+| motherferyer | n. | motherfucker, disguised | by 1946 (Wiktionary) | 1935 |
+| motherfouler | n. | motherfucker, disguised | by 1952 (Wiktionary) | 1949 |
+| motherhumper | n. | motherfucker, disguised | by 1976 (Wiktionary) | 1963 |
+| motherlover | n. | motherfucker, disguised | by 1971 (Wiktionary) | 1951 |
+| motherloving | adj. | motherfucking, disguised | by 1956 (Wiktionary) | 1951 |
+| phuck | v. | fuck, respelled | by 2003 (Wiktionary) | 1994 |
+| rutting | adj. | fucking, rutted (Tennessee Williams’s stand-in in Streetcar) | 1947 (Etymonline) | 1945 |
+| stuff you | phr. | fuck you, stuffed | n.d. (Wiktionary) | 1958 |
+| TF | phr. | the fuck | by 2024 (Wiktionary) | 2016 |
+
+### The 198 stand-ins
+
+| term | pos | gloss | territory | first date |
+|---|---|---|---|---|
+| a.f.o. | adj. | all fucked out | Acronym Archipelago | 2000 |
+| BF | n. | bum-fuck, initialled | Acronym Archipelago | c.1955 |
+| BF | v. | to buddy-fuck or buttfuck, initialled | Acronym Archipelago | 1973 |
+| c.f.m. | adj. | come fuck me: c.f.m. shoes | Acronym Archipelago | 1989 |
+| f.b.i.! | excl. | fucking bloody idiot! | Acronym Archipelago | 1978 |
+| f.d.a. | phr. | fuck dat ass | Acronym Archipelago | 2000 |
+| f.f.f. | adj. | (Australian, WWI) frigged, fucked and far from home | Acronym Archipelago | 1919 |
+| f.i.d.o. | phr. | fuck it, drive on | Acronym Archipelago | 1983 |
+| f.n.g. | n. | (US military) fucking new guy: a novice | Acronym Archipelago | 1935 |
+| f.u.j.i.a.m.a. | phr. | fuck you, Jack, I am all right | Acronym Archipelago | 1984 |
+| f.y.f.i. | phr. | for your fucking information | Acronym Archipelago | 1995 |
+| FIGJAM | n. | (Australian) fuck I’m good, just ask me: a show-off | Acronym Archipelago | 1993 |
+| FUBIS | phr. | fuck you, buddy, I’m detached | Acronym Archipelago | 2001 |
+| fugazi | adj. | (US) fucked up, got ambushed, zipped in: fucked up | Acronym Archipelago | 1981 |
+| fugazi | adj. | fake | Acronym Archipelago | 1987 |
+| fugazi | v. | to counterfeit | Acronym Archipelago | 2003 |
+| GILF | n. | granny I’d like to fuck | Acronym Archipelago | 2014 |
+| KF | n. | kid fucker | Acronym Archipelago | 1999 |
+| KFA | n. | kid-fucking adult | Acronym Archipelago | 2001 |
+| L.F.F. | excl. | luck, fuck and a fiver: a prostitutes’ toast | Acronym Archipelago | 1908 |
+| m.f.w.i.c. | n. | (US military) the motherfucker who’s in charge | Acronym Archipelago | 1980 |
+| N.F.C. | phr. | no fucking chance | Acronym Archipelago | 1991 |
+| n.f.g. | adj. | no fucking good | Acronym Archipelago | 1977 |
+| n.f.w.! | excl. | no fucking way! | Acronym Archipelago | 1974 |
+| s.f. & t. | adj. | sucked, fucked and tattooed | Acronym Archipelago | c.2002 |
+| s.f.a. | n. | sweet fuck all: nothing | Acronym Archipelago | 1942 |
+| S.T.F.O.! | excl. | step the fuck off! | Acronym Archipelago | 1988 |
+| t.f.a. | adj. | too fucking awesome | Acronym Archipelago | 1989 |
+| billy buck | n. | (Australian prison) a fuck, in rhyming slang | Fog of Euphemism | 1974 |
+| bunk you! | excl. | (US campus) fuck you!, bunked | Fog of Euphemism | 1980 |
+| cattle truck | v. | to fuck, in rhyming slang; cattled, done for | Fog of Euphemism | 1972 |
+| chuff | n. | a fuck, chuffed: who the chuff | Fog of Euphemism | 1996 |
+| chuffing | adj. | fucking, chuffed | Fog of Euphemism | 1996 |
+| cluster-screw | n. | (US) a clusterfuck, half-bowdlerized | Fog of Euphemism | 1976 |
+| cow! | excl. | (northern British) fuck!, cowed | Fog of Euphemism | 1977 |
+| Donald Duck | n. | a fuck, in rhyming slang: not give a Donald | Fog of Euphemism | 1962 |
+| double-clutcher | n. | (US) a motherfucker, disguised | Fog of Euphemism | 1967 |
+| double-clutching | adj. | motherfucking, disguised | Fog of Euphemism | 1961 |
+| duck | v. | (US) to fuck, ducked | Fog of Euphemism | c.1938 |
+| eff | n. | a fucker, by its letter | Fog of Euphemism | 1938 |
+| eff | n. | a fuck, by its letter | Fog of Euphemism | 1961 |
+| eff and blind | v. | to swear in fucks and blinds: effing and blinding | Fog of Euphemism | 1922 |
+| eff off! | excl. | fuck off!, by its letter | Fog of Euphemism | 1963 |
+| -F- | infix | -fucking-, by its letter | Fog of Euphemism | 2006 |
+| feather plucker | n. | a fucker, in rhyming slang | Fog of Euphemism | 1966 |
+| firkin | n. | (Australian) fucking, firkined | Fog of Euphemism | c.1943 |
+| firking | adj. | fucking, firked | Fog of Euphemism | 1997 |
+| fish! | excl. | fuck!, fished: a dismissal | Fog of Euphemism | 1896 |
+| flick | v. | to fuck, flicked | Fog of Euphemism | 1950 |
+| flicking | adj. | fucking, flicked | Fog of Euphemism | 1944 |
+| flip | n. | a jot: couldn’t give a flip | Fog of Euphemism | 1969 |
+| flip | v. | to fuck, flipped, in all its senses | Fog of Euphemism | 1917 |
+| flip | v. | to have sex, flipped | Fog of Euphemism | 1959 |
+| fluffy duck | n. | (Australian) a fuck, in rhyming slang | Fog of Euphemism | 1983 |
+| fluffy-duck | v. | (Australian) to fuck, in rhyming slang | Fog of Euphemism | 1983 |
+| fog | v. | to fuck, fogged | Fog of Euphemism | 1945 |
+| fogging | adj. | fucking, fogged | Fog of Euphemism | 1945 |
+| fork | v. | to fuck, forked | Fog of Euphemism | 1952 |
+| forking | adj. | fucking, forked | Fog of Euphemism | 1952 |
+| frap | v. | to fuck, frapped | Fog of Euphemism | 1902 |
+| frapping | adj. | fucking, frapped | Fog of Euphemism | 1918 |
+| freak | n. | a fuck, freaked | Fog of Euphemism | 2001 |
+| freak | v. | to fuck, freaked | Fog of Euphemism | 1958 |
+| freak around | v. | (US gay) to fuck around, freaked: to idle, to window-shop | Fog of Euphemism | 1972 |
+| -freaking- | infix | -fucking-, freaked | Fog of Euphemism | 2006 |
+| freaking-A! | excl. | fucking A!, freaked | Fog of Euphemism | 2001 |
+| friar tuck | n. | a fuck, in rhyming slang | Fog of Euphemism | 1956 |
+| friar tuck | v. | to fuck, in rhyming slang | Fog of Euphemism | 1960 |
+| friar tucked | adj. | fucked, in rhyming slang | Fog of Euphemism | 1998 |
+| -fricking- | infix | -fucking-, fricked | Fog of Euphemism | 2012 |
+| frig | n. | a fuck, frigged: who the frig | Fog of Euphemism | 1944 |
+| frig off! | excl. | fuck off!, frigged | Fog of Euphemism | 1981 |
+| frig you! | excl. | fuck you!, frigged | Fog of Euphemism | 1948 |
+| frigged | adj. | exhausted, which is to say fucked | Fog of Euphemism | 1983 |
+| -frigging- | infix | -fucking-, frigged | Fog of Euphemism | 1947 |
+| frigwit | n. | (Australian) a fuckwit, frigged | Fog of Euphemism | 1996 |
+| fug | adj. | ugly, from fugly | Fog of Euphemism | 2012 |
+| fugging | adj. | fucking, fugged | Fog of Euphemism | 1948 |
+| fuggo | adj. | ugly or useless, from fugly | Fog of Euphemism | 2014 |
+| fugh | v. | to fuck, spelled fugh | Fog of Euphemism | 1916 |
+| futz | n. | (US) a fuck, futzed | Fog of Euphemism | 1947 |
+| futz | v. | to fuck, futzed | Fog of Euphemism | c.1930 |
+| futz off | v. | to fuck off, futzed | Fog of Euphemism | 2002 |
+| futzing | adj. | (US) fucking, futzed | Fog of Euphemism | 1961 |
+| get rooted! | excl. | (Australian) get fucked!, rooted | Fog of Euphemism | 1953 |
+| get stuffed! | excl. | get fucked!, stuffed | Fog of Euphemism | 1943 |
+| go frig yourself! | excl. | go fuck yourself!, frigged | Fog of Euphemism | 1935 |
+| goose and duck | n. | a fuck, in rhyming slang | Fog of Euphemism | 1889 |
+| goose and duck | v. | to fuck things up, in rhyming slang | Fog of Euphemism | 2013 |
+| granny-jazzer | n. | (US) a motherfucker, one generation up | Fog of Euphemism | 1977 |
+| humping | adj. | fucking, humped: an all-purpose intensifier | Fog of Euphemism | 1944 |
+| joe buck | n. | (Australian) a fuck, in rhyming slang | Fog of Euphemism | 1984 |
+| ’kin ’ell! | excl. | fucking hell!, clipped | Fog of Euphemism | 1945 |
+| krunk | v. | to fuck, krunked | Fog of Euphemism | 2002 |
+| krunked-up | adj. | fucked up (ruined), krunked | Fog of Euphemism | 2002 |
+| krunked-up | adj. | fucked up (high or drunk), krunked | Fog of Euphemism | 2002 |
+| krunking | adj. | fucking, krunked | Fog of Euphemism | 2001 |
+| lame duck | n. | a fuck, in rhyming slang | Fog of Euphemism | 1944 |
+| loving | adj. | (US) fucking, loved | Fog of Euphemism | 1954 |
+| mama-huncher | n. | a motherfucker, disguised | Fog of Euphemism | 1962 |
+| mammy-dodger | n. | (US) a motherfucker, disguised | Fog of Euphemism | 1939 |
+| mammy-dodging | adj. | motherfucking, disguised | Fog of Euphemism | 1970 |
+| mammy-hugger | n. | a motherfucker, disguised | Fog of Euphemism | 1970 |
+| mammy-jabber | n. | a motherfucker, disguised | Fog of Euphemism | 1982 |
+| mammy-jammer | n. | a motherfucker, disguised | Fog of Euphemism | 1956 |
+| mammy-jamming | adj. | motherfucking, disguised | Fog of Euphemism | 1946 |
+| mammy-rammer | n. | a motherfucker, disguised | Fog of Euphemism | 1965 |
+| mammy-ramming | adj. | motherfucking, disguised | Fog of Euphemism | 1969 |
+| mammy-screwing | adj. | motherfucking, half-disguised | Fog of Euphemism | 1963 |
+| mammy-sucker | n. | a motherfucker, disguised | Fog of Euphemism | 1970 |
+| mammy-tapper | n. | (US) a motherfucker, disguised | Fog of Euphemism | 1967 |
+| mammy-tapping | adj. | motherfucking, disguised | Fog of Euphemism | 1962 |
+| maw-dicker | n. | (US Southwest) a motherfucker, disguised | Fog of Euphemism | 1972 |
+| melon-farmer | n. | motherfucker, as dubbed for TV (Repo Man) | Fog of Euphemism | 1984 |
+| mo dicker | n. | a motherfucker, disguised | Fog of Euphemism | 1969 |
+| mollyfock | n. | a motherfuck, disguised | Fog of Euphemism | 1968 |
+| mother | adj. | motherfucking, clipped | Fog of Euphemism | 1947 |
+| mother | n. | motherfucker, clipped, as a yardstick | Fog of Euphemism | 1967 |
+| mother | n. | motherfucker, clipped: an unnamed thing | Fog of Euphemism | 1961 |
+| mother | n. | motherfucker, clipped: an outstanding example | Fog of Euphemism | 1968 |
+| mother hubbard | adj. | motherfucking, disguised | Fog of Euphemism | 1951 |
+| mother-beating | adj. | motherfucking, disguised | Fog of Euphemism | 1935 |
+| mother-bugger | n. | a motherfucker, disguised | Fog of Euphemism | 1970 |
+| mother-eating | adj. | motherfucking, disguised | Fog of Euphemism | 1960 |
+| mother-flicker | n. | a motherfucker, disguised | Fog of Euphemism | 1998 |
+| mother-flunker | n. | a motherfucker, disguised | Fog of Euphemism | 2002 |
+| mother-flunking | adj. | motherfucking, disguised | Fog of Euphemism | 2002 |
+| mother-fuyer | n. | a motherfucker, disguised | Fog of Euphemism | 1935 |
+| mother-grabber | n. | a motherfucker, disguised | Fog of Euphemism | 1963 |
+| mother-grabbing | adj. | motherfucking, disguised | Fog of Euphemism | 1958 |
+| mother-hopper | n. | a motherfucker, disguised | Fog of Euphemism | 1975 |
+| mother-hopping | adj. | motherfucking, disguised | Fog of Euphemism | 1967 |
+| mother-hubber | n. | a motherfucker, disguised | Fog of Euphemism | 1959 |
+| mother-hugger | n. | a motherfucker, disguised | Fog of Euphemism | 1956 |
+| mother-hugging | n. | (US) literal motherfucking, disguised | Fog of Euphemism | 2002 |
+| mother-humping | adj. | motherfucking, disguised | Fog of Euphemism | 1961 |
+| mother-jiver | n. | a motherfucker, disguised: a con man, later praise | Fog of Euphemism | 1959 |
+| mother-jumper | n. | a motherfucker, disguised | Fog of Euphemism | 1949 |
+| mother-jumping | adj. | motherfucking, disguised | Fog of Euphemism | 1961 |
+| mother-plugger | n. | a motherfucker, disguised | Fog of Euphemism | 1929 |
+| mother-rape | n. | (US) a motherfuck, disguised | Fog of Euphemism | 1969 |
+| mother-rape | v. | (US) to motherfuck, disguised | Fog of Euphemism | 1965 |
+| mother-raper | n. | (US) a motherfucker, disguised | Fog of Euphemism | 1957 |
+| mother-raping | adj. | (US) motherfucking, disguised | Fog of Euphemism | 1957 |
+| mother-rubber | n. | motherfucker!, disguised: a cry of pain | Fog of Euphemism | 1973 |
+| mother-sucker | n. | a motherfucker, disguised | Fog of Euphemism | 1952 |
+| mother-sucking | adj. | motherfucking, disguised | Fog of Euphemism | 1968 |
+| mothereff | n. | (US) a motherfucker, by its letters | Fog of Euphemism | 1961 |
+| motheren | adj. | (US) motherfucking, disguised | Fog of Euphemism | 1959 |
+| motheren | n. | (US) a motherfucker, disguised | Fog of Euphemism | 1948 |
+| motherfeeling | adj. | (US) motherfucking, disguised | Fog of Euphemism | 1962 |
+| motherfreying | adj. | motherfucking, disguised | Fog of Euphemism | 1962 |
+| motherfrigger | n. | a motherfucker, disguised | Fog of Euphemism | 1939 |
+| motherfrigging | adj. | motherfucking, disguised | Fog of Euphemism | 1960 |
+| motherhead | n. | a motherfucker, disguised | Fog of Euphemism | 1970 |
+| mothering | adj. | motherfucking, clipped | Fog of Euphemism | 1951 |
+| motherlumping | adj. | motherfucking, disguised | Fog of Euphemism | 1961 |
+| motherramming | adj. | (US) motherfucking, disguised | Fog of Euphemism | 1961 |
+| mothersomething! | excl. | (US) motherfucker!, left blank | Fog of Euphemism | 2001 |
+| motor scooter | n. | (US) a motherfucker, disguised | Fog of Euphemism | 1960 |
+| motorcycle | n. | (US) a motherfucker, disguised: bad motorcycle | Fog of Euphemism | 1938 |
+| muck | n. | a fuck, mucked | Fog of Euphemism | 1943 |
+| muck! | excl. | fuck!, mucked | Fog of Euphemism | 1880 |
+| mucker | n. | a fucker, mucked: an unpleasant person | Fog of Euphemism | 1904 |
+| mucking | adj. | fucking, mucked | Fog of Euphemism | 1917 |
+| mucking | adv. | fucking (the adverb), mucked | Fog of Euphemism | 1880 |
+| muhfuh | n. | motherfucker, cut to two syllables as said | Fog of Euphemism | 1969 |
+| naff off! | excl. | fuck off!, naffed | Fog of Euphemism | 1959 |
+| naff up | v. | to fuck up, naffed | Fog of Euphemism | 2001 |
+| naff-all | n. | fuck all, naffed | Fog of Euphemism | 1992 |
+| naffed off | adj. | fucked off (fed up), naffed | Fog of Euphemism | 2004 |
+| naffing | adj. | fucking, naffed | Fog of Euphemism | 1959 |
+| nobbing | adj. | fucking, nobbed | Fog of Euphemism | 2003 |
+| pigging | adj. | fucking, pigged | Fog of Euphemism | 1968 |
+| push in the truck | n. | a fuck, in rhyming slang | Fog of Euphemism | 1938 |
+| roasted duck | n. | a fuck, in rhyming slang | Fog of Euphemism | 1935 |
+| rubber duck | n. | a fuck, in rhyming slang | Fog of Euphemism | 1990 |
+| Russian duck | n. | a fuck, in rhyming slang | Fog of Euphemism | 1992 |
+| screw | v. | fuck in its damning sense, screwed: screw you | Fog of Euphemism | 1948 |
+| screw it! | excl. | fuck it!, screwed | Fog of Euphemism | 1941 |
+| shag | v. | fuck in its non-sexual uses, shagged | Fog of Euphemism | 1939 |
+| shag me! | excl. | (NZ) fuck me!, shagged | Fog of Euphemism | 1988 |
+| shagging | adj. | (orig. Irish) fucking, shagged | Fog of Euphemism | 1946 |
+| shagging | adv. | fucking (the adverb), shagged | Fog of Euphemism | 1987 |
+| -shagging- | infix | -fucking-, shagged | Fog of Euphemism | 1973 |
+| sod off! | excl. | fuck off!, sodded | Fog of Euphemism | 1950 |
+| sod you! | excl. | fuck you!, sodded | Fog of Euphemism | 1950 |
+| sod-you | adj. | fuck-you, sodded: contemptuous | Fog of Euphemism | 1989 |
+| stuff about | v. | (NZ) to fuck about, stuffed | Fog of Euphemism | 1986 |
+| stuff it! | excl. | fuck it!, stuffed | Fog of Euphemism | 1949 |
+| stuff me! | excl. | fuck me!, stuffed | Fog of Euphemism | 1959 |
+| stuff off! | excl. | (NZ, South African) fuck off!, stuffed | Fog of Euphemism | 1982 |
+| stuff up | v. | (Australian) to fuck up, stuffed | Fog of Euphemism | 1986 |
+| stuff-all | n. | fuck all, stuffed | Fog of Euphemism | 1986 |
+| stuff-up | n. | a fuck-up, stuffed | Fog of Euphemism | 1993 |
+| stuffed | adj. | bothered: can’t be stuffed | Fog of Euphemism | 1995 |
+| trolley and truck | n. | a fuck, in rhyming slang | Fog of Euphemism | 1960 |
+| trolley and truck | v. | to fuck, in rhyming slang | Fog of Euphemism | 1978 |
+
 ## The undated
 
-345 fucks are counted without a date. 277 are Wiktionary's, marked n.d. in the table above: their pages give no dated quotation for those senses. One is FOLDOC's. The other 67 are Green's, listed here; for these, Wiktionary either has no page or gives no dated quotation. Green’s longest entries (*fuck, n.*; *fuck, v.*; and a few others, such as *cunt, n.* and *monkey, n.*) run past the length the survey’s fetching tools can load, and the page text cuts off partway through. What sits past the cut can still be found (Green’s search index lists every sub-entry, with its gloss), but its quotations, and so its first date, can’t be read. A browser that renders the whole page would recover them.
+322 fucks are counted without a date. 254 are Wiktionary's, marked n.d. in the Wiktionary table above: their pages give no dated quotation for those senses. One is FOLDOC's. The other 67 are Green's, listed here; for these, Wiktionary either has no page or gives no dated quotation. Green’s longest entries (*fuck, n.*; *fuck, v.*; and a few others, such as *cunt, n.* and *monkey, n.*) run past the length the survey’s fetching tools can load, and the page text cuts off partway through. What sits past the cut can still be found (Green’s search index lists every sub-entry, with its gloss), but its quotations, and so its first date, can’t be read. A browser that renders the whole page would recover them.
 
 | term | part of speech | gloss | territory | why undated |
 |---|---|---|---|---|
