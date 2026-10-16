@@ -26,7 +26,7 @@ The meaning of this word is the least important thing about it. Each specimen se
 | Outlaw it | The court grabs air |
 | Ban it from print (1857–1960s) | It multiplies underground: 12 senses by 1700, 39 by 1900 |
 | Say it constantly (the 1914–18 trenches) | It means nothing; leaving it out signals danger |
-| Rule that it only means sex (FCC, 2004) | 304 of 391 recorded senses have nothing to do with sex |
+| Rule that it only means sex (FCC, 2004) | 304 of 391 recorded senses live outside the Carnal Lands |
 | Shrink it to an asterisk | It still delivers the whole word |
 
 That is the via negativa: a hollow word with perfect structure.
