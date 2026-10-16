@@ -1,0 +1,1016 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Atlas of Fuck</title>
+<meta name="description" content="A field census of every recorded sense, compound, phrase, acronym and disguise of one English word, mapped and dated. Goal: find all the fucks.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Caveat:wght@500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #f3ecdc;
+  --paper-dark: #e8dfc8;
+  --ink: #1d1a16;
+  --ink-dim: #5a5246;
+  --ink-faint: #82786a;
+  --rule: #c9bc9f;
+  --red: #a8321f;
+  --blue: #2e4f6e;
+  --petal: #3b342b;
+  --sel: #b23a22;
+  --fog: #b9ad94;
+  --serif: 'EB Garamond', Georgia, serif;
+  --hand: 'Caveat', cursive;
+  --mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #17150f; --paper-dark: #221f17; --ink: #ece4d2; --ink-dim: #bdb29c;
+    --ink-faint: #958a76; --rule: #3d372a; --red: #e07a62; --blue: #8fb8d4;
+    --petal: #cfc4ad; --sel: #d0644b; --fog: #4a4334;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #17150f; --paper-dark: #221f17; --ink: #ece4d2; --ink-dim: #bdb29c;
+  --ink-faint: #958a76; --rule: #3d372a; --red: #e07a62; --blue: #8fb8d4;
+  --petal: #cfc4ad; --sel: #d0644b; --fog: #4a4334;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--serif); font-size: 18px; line-height: 1.5; }
+.page { max-width: 820px; margin: 0 auto; padding: 40px 16px 96px; }
+a { color: var(--blue); }
+button { font: inherit; color: inherit; }
+.mono { font-family: var(--mono); }
+
+/* masthead */
+.masthead { text-align: center; border-bottom: 3px double var(--rule); padding-bottom: 22px; margin-bottom: 22px; }
+.institute { font-family: var(--mono); font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink-faint); }
+h1 { font-weight: 500; font-size: clamp(36px, 9vw, 58px); line-height: 1.02; margin: 14px 0 6px; }
+h1 em { color: var(--red); }
+.subtitle { font-style: italic; color: var(--ink-dim); }
+.goal { display: inline-block; margin-top: 12px; font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; border: 1px solid var(--ink); padding: 5px 10px; }
+.byline { margin-top: 10px; font-family: var(--hand); font-size: 24px; color: var(--ink-dim); }
+.back { font-family: var(--mono); font-size: 12px; text-align: center; margin-bottom: 18px; }
+
+/* tally */
+.tally { display: flex; justify-content: center; gap: 28px; flex-wrap: wrap; margin: 6px 0 18px; }
+@media (max-width: 440px) { .tally { gap: 14px; } .tally .num { font-size: 1.9em; } .tally .lbl { letter-spacing: 0.06em; font-size: 10px; } }
+.tally div { text-align: center; }
+.tally .num { font-size: 2.3em; font-weight: 600; line-height: 1; font-variant-numeric: tabular-nums; }
+.tally .lbl { font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-faint); margin-top: 4px; }
+.tally .given { cursor: pointer; background: none; border: 0; padding: 0; }
+.tally .given .num { color: var(--red); }
+.zero-note { text-align: center; font-family: var(--hand); color: var(--red); font-size: 22px; min-height: 0; height: 0; overflow: hidden; transition: height .2s; }
+.zero-note.on { height: 30px; }
+
+/* plate */
+.plate { border: 2px solid var(--ink); padding: 14px 12px 10px; background: var(--paper); position: relative; }
+.plate-title { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 6px; font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-dim); }
+.plate-title b { color: var(--ink); font-weight: 600; }
+.rose-wrap { position: relative; max-width: 520px; margin: 4px auto 0; }
+#rose { width: 100%; height: auto; display: block; }
+#rose text { font-family: var(--mono); }
+#rose .petal { cursor: pointer; transition: fill .15s, opacity .15s; }
+#rose .petal:focus { outline: none; }
+#rose .petal:focus-visible { stroke: var(--blue); stroke-width: 2.5; }
+.tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--paper); font-family: var(--mono); font-size: 12px; padding: 6px 9px; border-radius: 3px; opacity: 0; transition: opacity .1s; white-space: nowrap; z-index: 3; }
+
+/* controls */
+.timebar { margin-top: 10px; }
+.timebar-row { display: flex; align-items: center; gap: 10px; }
+.play { font-family: var(--mono); font-size: 13px; background: transparent; border: 1px solid var(--ink); padding: 8px 12px; cursor: pointer; min-height: 40px; min-width: 76px; }
+.play:hover { background: var(--ink); color: var(--paper); }
+input[type=range] { flex: 1; accent-color: var(--red); height: 32px; margin: 0; }
+.year-readout { font-family: var(--mono); font-weight: 600; font-size: 15px; min-width: 3.4em; text-align: right; font-variant-numeric: tabular-nums; }
+.era { font-size: 0.9em; color: var(--ink-dim); text-align: center; min-height: 2.8em; margin-top: 6px; font-style: italic; }
+
+/* chart */
+.chart { margin-top: 26px; }
+.chart h3, .gaz h3, .entries h3 { font-weight: 600; font-size: 1.05em; margin: 0 0 2px; }
+.chart .sub { font-size: 0.85em; color: var(--ink-dim); margin-bottom: 8px; }
+.chart-wrap { position: relative; }
+#growth { width: 100%; height: auto; display: block; }
+#growth text { font-family: var(--mono); }
+
+/* gazetteer */
+.gaz { margin-top: 30px; }
+.gaz .sub { font-size: 0.85em; color: var(--ink-dim); margin-bottom: 10px; }
+.gaz-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 6px; }
+.gaz-btn { display: grid; grid-template-columns: 2.6em 1fr auto; align-items: baseline; gap: 6px; text-align: left; background: transparent; border: 1px solid var(--rule); padding: 8px 10px; cursor: pointer; min-height: 44px; }
+.gaz-btn:hover { border-color: var(--ink); }
+.gaz-btn.on { border-color: var(--sel); box-shadow: inset 3px 0 0 var(--sel); }
+.gaz-btn.fogged { opacity: 0.5; }
+.gaz-btn .n { font-family: var(--mono); font-size: 12px; color: var(--ink-faint); }
+.gaz-btn .nm { font-weight: 600; }
+.gaz-btn .ct { font-family: var(--mono); font-size: 12px; color: var(--ink-dim); font-variant-numeric: tabular-nums; }
+.gaz-all { margin-top: 8px; font-family: var(--mono); font-size: 12px; background: transparent; border: 1px dashed var(--rule); padding: 7px 12px; cursor: pointer; min-height: 38px; }
+
+/* region card */
+.card { margin-top: 26px; border-top: 3px double var(--rule); padding-top: 16px; }
+.card .kicker { font-family: var(--mono); font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--red); }
+.card h2 { font-weight: 600; font-size: 1.6em; margin: 2px 0 6px; line-height: 1.15; }
+.card .desc { margin: 0 0 6px; }
+.card .facts { font-family: var(--mono); font-size: 12px; color: var(--ink-dim); }
+
+/* search + list */
+.tools { display: flex; gap: 8px; margin: 16px 0 8px; flex-wrap: wrap; }
+.tools input { flex: 1; min-width: 180px; font-family: var(--serif); font-size: 17px; padding: 8px 10px; background: var(--paper); color: var(--ink); border: 1px solid var(--ink); min-height: 42px; }
+.tools button { font-family: var(--mono); font-size: 13px; background: transparent; border: 1px solid var(--ink); padding: 8px 12px; cursor: pointer; min-height: 42px; }
+.tools button:hover { background: var(--ink); color: var(--paper); }
+.listnote { font-family: var(--mono); font-size: 12px; color: var(--ink-faint); margin-bottom: 6px; min-height: 1.2em; }
+ol.list { list-style: none; padding: 0; margin: 0; }
+ol.list li { display: grid; grid-template-columns: 3.6em 1fr; gap: 10px; border-top: 1px solid var(--rule); padding: 8px 2px; scroll-margin-top: 24px; }
+ol.list li.flash { animation: flash 1.6s ease-out; }
+@keyframes flash { 0% { background: color-mix(in srgb, var(--sel) 30%, transparent); } 100% { background: transparent; } }
+ol.list .yr { font-family: var(--mono); font-size: 13px; color: var(--red); font-weight: 600; padding-top: 2px; font-variant-numeric: tabular-nums; }
+ol.list .yr.nd { color: var(--ink-faint); font-weight: 400; }
+ol.list .tm { font-weight: 600; }
+ol.list .ps { font-style: italic; color: var(--ink-dim); font-size: 0.9em; }
+ol.list .gl { display: block; color: var(--ink); }
+ol.list .rg { font-family: var(--mono); font-size: 11px; color: var(--ink-faint); margin-left: 6px; }
+ol.list .src { font-family: var(--mono); font-size: 10px; color: var(--ink-faint); border: 1px solid var(--rule); padding: 0 4px; margin-left: 4px; white-space: nowrap; }
+.more { font-family: var(--mono); font-size: 12px; color: var(--ink-faint); padding: 10px 2px; border-top: 1px solid var(--rule); }
+
+/* notes */
+.notes { margin-top: 40px; font-size: 0.85em; color: var(--ink-dim); border-top: 1px solid var(--rule); padding-top: 14px; }
+.notes h4 { font-family: var(--mono); font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-faint); margin: 14px 0 6px; font-weight: 400; }
+.notes p { margin: 0 0 10px; }
+.notes ul { margin: 0; padding-left: 20px; }
+.colophon { margin-top: 28px; text-align: center; font-size: 0.85em; color: var(--ink-faint); }
+</style>
+</head>
+<body>
+<div class="page">
+
+<header class="masthead">
+  <div class="institute">✶ Institute of Negative Space · Department of Lexical Forensics ✶</div>
+  <h1>The Atlas of <em>Fuck</em></h1>
+  <div class="subtitle">A field census of one word: every sense, compound, phrase, acronym and disguise on record, mapped and dated.</div>
+  <div class="goal">GOAL: FIND ALL THE FUCKS</div>
+  <div class="byline">— collected by Rana</div>
+</header>
+<div class="back"><a href="The%20Fuckery%20That%20Is%20Fuck.html">← The Fuckery That Is Fuck</a></div>
+
+<div class="tally" aria-live="polite">
+  <div><div class="num" id="found">0</div><div class="lbl" id="foundLbl">fucks found</div></div>
+  <div><div class="num" id="lands">0</div><div class="lbl">territories</div></div>
+  <button type="button" class="given" id="given" aria-label="Fucks given"><div class="num">0</div><div class="lbl">fucks given</div></button>
+</div>
+<div class="zero-note" id="zeroNote">Still zero. Checked twice.</div>
+
+<section class="plate">
+  <div class="plate-title"><span>Plate I · <b>The Known World of Fuck</b></span><span id="plateYear"></span></div>
+  <div class="rose-wrap" id="roseWrap">
+    <svg id="rose" viewBox="0 0 400 400" role="img" aria-label="A rose map: each petal is a territory of meaning, sized by how many senses of the word live there."></svg>
+    <div class="tip" id="roseTip"></div>
+  </div>
+  <div class="timebar">
+    <div class="timebar-row">
+      <button type="button" class="play" id="play">▶ Play</button>
+      <input type="range" id="year" min="1300" max="2026" step="1" value="2026" aria-label="Year">
+      <span class="year-readout" id="yearOut">2026</span>
+    </div>
+    <div class="era" id="era"></div>
+  </div>
+</section>
+
+<section class="chart">
+  <h3>Fucks on record, cumulative</h3>
+  <div class="sub">Every sense and phrase counted from the year it was first seen in writing. Each petal on the plate is a slice of this line.</div>
+  <div class="chart-wrap" id="growthWrap">
+    <svg id="growth" viewBox="0 0 640 220" role="img" aria-label="Line chart of the cumulative number of recorded senses of the word, from 1300 to 2026. Nearly flat until the mid-1800s, then rising steeply through the 20th century."></svg>
+    <div class="tip" id="growthTip"></div>
+  </div>
+</section>
+
+<section class="gaz">
+  <h3>Gazetteer</h3>
+  <div class="sub">Territories are numbered in the order they were settled. Tap one to survey it.</div>
+  <div class="gaz-grid" id="gaz"></div>
+  <button type="button" class="gaz-all" id="gazAll">Show every territory</button>
+</section>
+
+<section class="card" id="card">
+  <div class="kicker" id="cardKicker"></div>
+  <h2 id="cardName"></h2>
+  <p class="desc" id="cardDesc"></p>
+  <div class="facts" id="cardFacts"></div>
+
+  <div class="tools">
+    <input type="search" id="q" placeholder="Find a fuck…" aria-label="Search the census">
+    <button type="button" id="rand">Random fuck</button>
+  </div>
+  <div class="listnote" id="listNote"></div>
+  <ol class="list" id="list"></ol>
+</section>
+
+<section class="notes">
+  <h4>Method</h4>
+  <p>The census walks every headword in Green’s Dictionary of Slang that begins with <em>fuck</em>, in alphabetical order, from <em>fuck, n.</em> to <em>fuck you!</em>, plus the compounds and phrases built around it elsewhere (<em>motherfucker</em>, <em>clusterfuck</em>, <em>mindfuck</em>, <em>star-fucker</em>, <em>rat fuck</em>, <em>SNAFU</em>, <em>FUBAR</em>, <em>FAFO</em>, <em>effing</em>, <em>feck</em>) and the disguises recorded by other sources. Each numbered sense counts as its own fuck: <em>fuck up</em> meaning “to ruin” and <em>fuck up</em> meaning “to hurt” are two sightings, because they are two meanings.</p>
+  <p>Dates are the earliest citation each source shows, so they mark when a sense was first <em>written down</em>, not when it was first <em>said</em>. Spoken use usually runs years or decades ahead. Where a source dates something earlier than Green’s (the Oxford English Dictionary’s 1503 <em>fukkit</em>, Etymonline’s c.1916 <em>fuck up</em>), the earlier date is used.</p>
+  <p>Glosses are written fresh for this atlas. Spelling variants of one sense are folded together. A handful of compounds Green’s lists under <em>fuck, n.</em> (<em>fuckstick</em>, <em>fucknut</em>, <em>fuckwad</em>, <em>fuckload</em>, <em>fuck ton</em>) appear here undated because their citation dates couldn’t be retrieved. They’re counted, and they appear on the plate only at the present day.</p>
+  <p>Is this all the fucks? It’s every one on record that this survey could reach and date. The word is still budding: Green’s logs new fucks from 2023, 2024 and 2025. A census of this word can only ever be a snapshot.</p>
+  <h4>Sources</h4>
+  <ul>
+    <li>[G] Jonathon Green, <a href="https://greensdictofslang.com/">Green’s Dictionary of Slang</a> (online edition), entries <em>fuck, n.</em> through <em>fuck you!</em>, and the related entries named above.</li>
+    <li>[E] <a href="https://www.etymonline.com/word/fuck">Online Etymology Dictionary, “fuck.”</a></li>
+    <li>[P] <a href="https://en.wikipedia.org/wiki/Fuck">Wikipedia, “Fuck”</a> (Flen flyys cipher; the 1528 margin; F-bomb; FCUK).</li>
+    <li>[M] Melissa Mohr, <em>Holy Sh*t: A Brief History of Swearing</em> (Oxford, 2013), on St. George Tucker’s 1790 poem, via Wikipedia.</li>
+    <li>[S] Ben Zimmer, <a href="https://www.slate.com/blogs/lexicon_valley/2013/09/18/wtf_the_acronym_has_multiple_meanings_and_has_been_around_since_at_least.html">“WTF,” Slate Lexicon Valley</a> (2013).</li>
+    <li>[D] <a href="https://www.dictionary.com/e/slang/zero-fucks/">Dictionary.com, “zero fucks.”</a></li>
+    <li>[B] <a href="https://www.wordorigins.org/big-list-entries/frak">Wordorigins.org, “frak.”</a></li>
+    <li>[H] <a href="https://en.wikipedia.org/wiki/A_Christmas_Story">Wikipedia, “A Christmas Story.”</a></li>
+    <li>[X] <a href="https://en.wikipedia.org/wiki/Expletive_deleted">Wikipedia, “Expletive deleted.”</a></li>
+    <li>[W] <a href="https://en.wikipedia.org/wiki/Show_Me_Love_(film)">Wikipedia, “Show Me Love (film).”</a></li>
+    <li>[U] <a href="https://en.wikipedia.org/wiki/Mark_Manson">Wikipedia, “Mark Manson.”</a></li>
+    <li>[Q] <a href="https://www.snopes.com/fact-check/fucking-austria-renamed-fugging/">Snopes, “Fucking, Austria renamed Fugging.”</a></li>
+    <li>[L] <a href="https://en.wikipedia.org/wiki/Let%27s_Go_Brandon">Wikipedia, “Let’s Go Brandon.”</a></li>
+    <li>[O] <a href="https://foldoc.org/fsck">FOLDOC, “fsck.”</a></li>
+  </ul>
+</section>
+<div class="colophon">Companion to <a href="The%20Fuckery%20That%20Is%20Fuck.html">The Fuckery That Is Fuck</a> and <a href="../mad_science_of_nothing/The%20Mad%20Science%20of%20Nothing.html">The Mad Science of Nothing</a> · Fadriel Substrate Research · MIT</div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ---------- the census ----------
+     [term, part of speech, gloss, year (null = undated), circa (1/0), source, territory] */
+  var D = [
+    /* C · the carnal lands */
+    ["Fuckebythenavele", "nickname", "a court clerk’s name for one Roger; probably the first sexual fuck on record", 1310, 0, "E", "C"],
+    ["fuck", "v.", "to have sex (as ‘fukkit’)", 1503, 0, "E", "C"],
+    ["fucking", "n.", "sex, the act", 1568, 0, "G", "C"],
+    ["fucker", "n.", "one who has sex", 1598, 0, "G", "C"],
+    ["fuck", "n.", "sex as an ongoing activity", 1650, 0, "G", "C"],
+    ["fuck", "n.", "a single act of sex", 1654, 0, "G", "C"],
+    ["fuckation", "n.", "sex", 1663, 0, "G", "C"],
+    ["fuck", "v.", "to have anal sex", 1675, 1, "G", "C"],
+    ["fuckster", "n.", "a promiscuous person", 1676, 0, "G", "C"],
+    ["fuck", "n.", "semen", 1680, 0, "G", "C"],
+    ["fuck-beggar", "n.", "an impotent man, as logged in Grose’s dictionary", 1785, 0, "G", "C"],
+    ["fucked out", "adj.", "worn out by too much sex", 1862, 0, "G", "C"],
+    ["fuck", "v.", "to perform oral sex on", 1868, 0, "G", "C"],
+    ["fuckstress", "n.", "a prostitute", 1868, 0, "G", "C"],
+    ["fucktious", "adj.", "(of a man) virile", 1868, 0, "G", "C"],
+    ["fucksome", "adj.", "sexually desirable", 1870, 0, "G", "C"],
+    ["fuck", "n.", "a partner, rated: a good or bad fuck", 1870, 0, "G", "C"],
+    ["fucking", "adj.", "having to do with sex", 1871, 0, "G", "C"],
+    ["fuck", "n.", "(gay slang) anal or intercrural sex", 1879, 0, "G", "C"],
+    ["fuckable", "adj.", "desirable", 1888, 0, "G", "C"],
+    ["fuckee", "n.", "the receiving partner", 1888, 0, "G", "C"],
+    ["fuck one’s fist", "v.", "to masturbate", 1888, 0, "G", "C"],
+    ["fuckish", "adj.", "sexually forward", 1890, 0, "G", "C"],
+    ["fuckhole", "n.", "the vagina", 1890, 0, "G", "C"],
+    ["fuck-fist", "n.", "a masturbator", 1890, 0, "G", "C"],
+    ["fuckery", "n.", "a brothel", 1890, 0, "G", "C"],
+    ["fuckist", "n.", "one who copulates", 1899, 0, "G", "C"],
+    ["fuck funnel", "n.", "the vagina", 1902, 0, "G", "C"],
+    ["fuck", "n.", "vaginal fluid", 1904, 1, "G", "C"],
+    ["fuck", "n.", "a single thrust", 1909, 0, "G", "C"],
+    ["fuck like a mink", "v.", "to have sex enthusiastically", 1926, 0, "G", "C"],
+    ["fucky", "adj.", "sexually eager", 1927, 0, "G", "C"],
+    ["fucker", "n.", "the vagina", 1927, 0, "G", "C"],
+    ["fuck around", "v.", "to sleep around", 1931, 0, "G", "C"],
+    ["fuck (someone) off", "v.", "to bring someone to orgasm", 1935, 1, "G", "C"],
+    ["fuck one’s ass off", "v.", "to have sex vigorously", 1936, 1, "G", "C"],
+    ["fuckingest", "adj.", "the most sexually enthusiastic", 1938, 0, "G", "C"],
+    ["fuck like a rattlesnake", "v.", "to have sex enthusiastically", 1943, 1, "G", "C"],
+    ["fuck book", "n.", "a pornographic book", 1946, 0, "G", "C"],
+    ["fucky-fucky", "n.", "sex, in pidgin, often paid for", 1948, 0, "G", "C"],
+    ["fuckery", "n.", "an orgy", 1950, 0, "G", "C"],
+    ["fuck-me", "adj.", "outrageously sexy", 1960, 0, "G", "C"],
+    ["mindfuck", "n.", "an imagined sexual encounter", 1964, 0, "G", "C"],
+    ["fuck movie", "n.", "a pornographic film", 1967, 0, "G", "C"],
+    ["clusterfuck", "n.", "an orgy", 1968, 0, "G", "C"],
+    ["fuck channel", "n.", "the vagina", 1968, 0, "G", "C"],
+    ["fuckability", "n.", "sex appeal", 1969, 0, "G", "C"],
+    ["face-fuck", "v.", "to be the thrusting partner in oral sex", 1970, 0, "G", "C"],
+    ["fucker", "n.", "the penis", 1971, 0, "G", "C"],
+    ["fuck around (on)", "v.", "to cheat on a partner", 1971, 0, "G", "C"],
+    ["fuck-film", "n.", "a pornographic film", 1972, 0, "G", "C"],
+    ["fuckathon", "n.", "a marathon of sex", 1972, 0, "G", "C"],
+    ["fuck like a bunny", "v.", "to have sex often and eagerly", 1972, 0, "G", "C"],
+    ["fuck-me shoes", "n.", "heels designed to provoke", 1972, 0, "G", "C"],
+    ["fuck finger", "n.", "a finger used in anal play", 1972, 1, "G", "C"],
+    ["fuck buddy", "n.", "a regular partner, no strings", 1974, 0, "G", "C"],
+    ["fuck flick", "n.", "a pornographic film", 1974, 0, "G", "C"],
+    ["fuck story", "n.", "an explicit story", 1974, 0, "G", "C"],
+    ["fuck cream", "n.", "(gay slang) semen", 1974, 0, "G", "C"],
+    ["fuck-and-suck", "adj.", "pornographic", 1975, 0, "G", "C"],
+    ["fuckfest", "n.", "an orgy", 1976, 0, "G", "C"],
+    ["fuck-box", "n.", "the vagina", 1976, 0, "G", "C"],
+    ["fuck-bar", "n.", "a gay bar with a back room", 1977, 0, "G", "C"],
+    ["fuck shots", "n.", "explicit photos or footage", 1978, 0, "G", "C"],
+    ["fuck with", "v.", "to have sex with", 1978, 0, "G", "C"],
+    ["fuck club", "n.", "a gay bathhouse", 1979, 0, "G", "C"],
+    ["fuckdog", "n.", "(derogatory) a promiscuous woman", 1979, 0, "G", "C"],
+    ["fuck-me boots", "n.", "provocative boots", 1980, 0, "G", "C"],
+    ["fuck-a-bush", "adj.", "(Caribbean) promiscuous", 1980, 0, "G", "C"],
+    ["fuckaholic", "n.", "someone obsessed with sex", 1981, 0, "G", "C"],
+    ["Fuckerware party", "n.", "a home party selling sex toys", 1983, 0, "G", "C"],
+    ["fuck out", "v.", "to be unfaithful", 1984, 0, "G", "C"],
+    ["fuck chute", "n.", "the anus", 1987, 0, "G", "C"],
+    ["fuck-a-rama", "n.", "a long orgy", 1987, 0, "G", "C"],
+    ["fuckmobile", "n.", "a car for seduction", 1989, 0, "G", "C"],
+    ["fuck-me eyes", "n.", "an inviting look", 1989, 0, "G", "C"],
+    ["fuckstrated", "adj.", "sexually frustrated", 1989, 0, "G", "C"],
+    ["fuckbag", "n.", "(derogatory) a woman seen only as sex", 1993, 0, "G", "C"],
+    ["fuck like a stoat", "v.", "to have sex vigorously", 1996, 0, "G", "C"],
+    ["fuck Mrs Palmer", "v.", "to masturbate", 1997, 0, "G", "C"],
+    ["fuck-flaps", "n.", "the labia", 2002, 0, "G", "C"],
+    ["fuck-flat", "n.", "an apartment kept for sex", 2004, 0, "G", "C"],
+    ["mindfuck", "v.", "to fantasize about someone, unknown to them", 2006, 0, "G", "C"],
+    ["fucky-fuck", "v.", "to have sex (pidgin)", 2008, 0, "G", "C"],
+    ["fuck boy", "n.", "a man after casual sex only", 2015, 0, "G", "C"],
+    ["fuck-drunk", "adj.", "dazed after sex", 2021, 0, "G", "C"],
+    ["fuck deck", "n.", "pornographic playing cards", 2023, 0, "G", "C"],
+
+    /* R · the ruinlands */
+    ["fucked", "adj.", "cheated, beaten, done for", 1851, 1, "G", "R"],
+    ["fucked up", "adj.", "broken, wrecked", 1863, 0, "G", "R"],
+    ["fuck", "v.", "to cheat, betray, or wreck", 1905, 0, "G", "R"],
+    ["fuck up", "v.", "to ruin", 1916, 1, "E", "R"],
+    ["fucking", "n.", "a raw deal", 1926, 0, "G", "R"],
+    ["fuck out of", "v.", "to cheat someone out of something", 1934, 0, "G", "R"],
+    ["fucked duck", "n.", "someone doomed", 1939, 0, "G", "R"],
+    ["fucked", "adj.", "broken, out of order", 1941, 0, "G", "R"],
+    ["fuck-up", "n.", "a blunder", 1941, 0, "G", "R"],
+    ["fuck up", "v.", "to blunder", 1944, 0, "G", "R"],
+    ["fuck up", "v.", "to confuse", 1945, 0, "G", "R"],
+    ["fuck-up", "adj.", "incompetent", 1945, 0, "G", "R"],
+    ["fucked by the fickle finger of fate", "phr.", "struck by bad luck", 1947, 0, "G", "R"],
+    ["fuck with", "v.", "to meddle with", 1948, 0, "G", "R"],
+    ["fuck boy", "n.", "(prison slang) a man coerced into sex", 1950, 0, "G", "R"],
+    ["fuck with", "v.", "to intimidate", 1952, 0, "G", "R"],
+    ["fucked", "adj.", "in serious trouble", 1959, 0, "G", "R"],
+    ["fucked up", "adj.", "(military) wounded or killed", 1961, 0, "G", "R"],
+    ["fuck", "v.", "to meddle, interfere", 1964, 0, "G", "R"],
+    ["fuck up", "v.", "to hurt or kill", 1964, 1, "G", "R"],
+    ["fuck over", "v.", "to treat cruelly", 1965, 0, "G", "R"],
+    ["rat fuck", "n.", "a prank played for laughs", 1965, 0, "G", "R"],
+    ["fuck up", "v.", "to cause someone trouble", 1967, 0, "G", "R"],
+    ["rat fuck", "n.", "a brutally hard exam", 1967, 0, "G", "R"],
+    ["mindfuck", "v.", "to manipulate someone", 1968, 0, "G", "R"],
+    ["fuck about", "v.", "to damage someone’s health", 1971, 0, "G", "R"],
+    ["goat-fuck", "n.", "a fiasco", 1971, 0, "G", "R"],
+    ["ratfucking", "n.", "political sabotage, dirty tricks", 1973, 0, "G", "R"],
+    ["clusterfuck", "n.", "a group too muddled to act", 1974, 0, "G", "R"],
+    ["fuck away", "v.", "to squander", 1975, 0, "G", "R"],
+    ["fuckee", "n.", "someone on the receiving end of mistreatment", 1975, 0, "G", "R"],
+    ["fucker", "n.", "one who harms others", 1975, 0, "G", "R"],
+    ["fuck someone in the ass", "v.", "to degrade someone (figuratively)", 1977, 0, "G", "R"],
+    ["mindfuck", "n.", "deception, bewilderment", 1977, 0, "G", "R"],
+    ["fuck with someone’s mind", "v.", "to unsettle or confuse", 1977, 0, "G", "R"],
+    ["fuckery", "n.", "treachery, unfair treatment", 1978, 0, "G", "R"],
+    ["fuck", "v.", "to botch", 1979, 0, "G", "R"],
+    ["clusterfuck", "n.", "chaos, a mess", 1982, 0, "G", "R"],
+    ["fuck", "v.", "to exploit", 1982, 0, "G", "R"],
+    ["clusterfuck", "n.", "a group sexual assault", 1990, 0, "G", "R"],
+    ["-fuck", "suffix", "something subverted or wrecked: genderfuck, headfuck", 1992, 0, "G", "R"],
+    ["fucked to a fair-thee-well", "adj.", "ruined beyond repair", 1996, 0, "G", "R"],
+    ["fuckery", "n.", "nonsense", 1997, 0, "G", "R"],
+    ["fuck up", "v.", "to go wrong, break down", 1997, 0, "G", "R"],
+    ["fucked", "adj.", "rotten, unfair", 1998, 0, "G", "R"],
+    ["cluster-fuck", "v.", "to muddle someone", 2001, 0, "G", "R"],
+    ["fuck-a-rama", "n.", "total mayhem", 2004, 0, "G", "R"],
+    ["fucked over", "adj.", "(of a place) trashed", 2009, 0, "G", "R"],
+    ["unfuckupable", "adj.", "impossible to spoil", 2009, 0, "G", "R"],
+    ["fuckupable", "adj.", "liable to go wrong", 2012, 0, "G", "R"],
+    ["fuckery", "n.", "an absurd situation", 2017, 0, "G", "R"],
+    ["clusterfuckery", "n.", "chaos and indecision", 2019, 0, "G", "R"],
+    ["fuck the dog", "v.", "to bungle", null, 0, "G", "R"],
+
+    /* D · the dismissal coast */
+    ["flying fuck", "n.", "an all-purpose dismissal", 1800, 1, "E", "D"],
+    ["fuck", "v.", "as in “to hell with”", 1845, 0, "G", "D"],
+    ["fuck you, Jack, I’m all right", "phr.", "(naval) every man for himself", 1921, 0, "G", "D"],
+    ["fuck it!", "excl.", "the shrug, spoken", 1922, 0, "G", "D"],
+    ["do I fuck!", "excl.", "no way", 1922, 0, "G", "D"],
+    ["fuck off", "v.", "to go away", 1929, 0, "G", "D"],
+    ["fuck you!", "excl.", "contempt, dismissal", 1930, 0, "G", "D"],
+    ["fuck-you", "adj.", "contemptuous", 1930, 1, "G", "D"],
+    ["fuck off!", "excl.", "go away!", 1933, 0, "G", "D"],
+    ["fuck it all!", "excl.", "the bigger shrug", 1943, 0, "G", "D"],
+    ["get the fuck out", "v.", "to leave, urgently", 1945, 0, "G", "D"],
+    ["take a flying fuck", "v.", "get lost", 1956, 0, "G", "D"],
+    ["fuck off", "v.", "to brush aside", 1962, 0, "G", "D"],
+    ["fuck", "v.", "to abandon, give up on", 1963, 0, "G", "D"],
+    ["fuck-it-all", "adj.", "carefree", 1967, 0, "G", "D"],
+    ["what the fuck", "phr.", "an intensified “whatever”", 1970, 0, "G", "D"],
+    ["fuck-you money", "n.", "money enough to walk away from anything", 1971, 0, "G", "D"],
+    ["fuck you very much!", "excl.", "thanks for nothing", 1974, 0, "G", "D"],
+    ["fuck-you", "n.", "a contemptuous gesture or remark", 1976, 0, "G", "D"],
+    ["what-the-fuck", "adj.", "carefree", 1986, 0, "G", "D"],
+    ["fuck-off", "n.", "a prohibition", 1986, 0, "G", "D"],
+    ["fuck", "v.", "to dismiss, expel", 1988, 0, "G", "D"],
+    ["fuck-you", "adj.", "hostile", 1988, 0, "G", "D"],
+    ["fuck up!", "excl.", "(Irish) be quiet", 1988, 0, "G", "D"],
+    ["fuck-off", "n.", "a contemptuous gesture", 1989, 0, "G", "D"],
+    ["fuck you, Charley!", "excl.", "dismissal; also ‘Chuck you, Farley’", 1989, 0, "G", "D"],
+    ["fuck off!", "excl.", "don’t be silly!", 1989, 0, "G", "D"],
+    ["fuck me!", "excl.", "(campus) shut up, go away", 1989, 0, "G", "D"],
+    ["fuck off", "v.", "to stop", 1991, 0, "G", "D"],
+    ["fuck off", "v.", "to annoy", 1995, 0, "G", "D"],
+    ["fuck yourself", "excl.", "dismissal", 1996, 0, "G", "D"],
+    ["fuck-off money", "n.", "money enough to quit", 2004, 0, "G", "D"],
+    ["fuck-you-jack", "adj.", "selfish", 2007, 0, "G", "D"],
+    ["get to fuck!", "excl.", "don’t be stupid; away with you", 2009, 0, "G", "D"],
+
+    /* X · the exclamation peaks */
+    ["fuck!", "excl.", "anger, shock, dismay", 1885, 0, "G", "X"],
+    ["fuck-all!", "excl.", "annoyance", 1918, 0, "G", "X"],
+    ["fucking hell!", "excl.", "surprise, annoyance", 1918, 1, "G", "X"],
+    ["for fuck’s sake!", "excl.", "exasperation", 1922, 0, "G", "X"],
+    ["fuck me!", "excl.", "surprise, resignation", 1927, 0, "G", "X"],
+    ["fuck a duck!", "excl.", "astonishment", 1934, 0, "G", "X"],
+    ["I’ll be fucked!", "excl.", "surprise", 1945, 0, "G", "X"],
+    ["fuck me drunk!", "excl.", "surprise", 1948, 0, "G", "X"],
+    ["fuck me gently!", "excl.", "alarm", 1957, 0, "G", "X"],
+    ["what the fuck!", "excl.", "resignation", 1960, 0, "G", "X"],
+    ["fuck no!", "excl.", "emphatic no", 1961, 0, "G", "X"],
+    ["what the fuck!", "excl.", "shock", 1964, 0, "G", "X"],
+    ["motherfucker!", "excl.", "rage, surprise", 1965, 0, "G", "X"],
+    ["get the fuck out!", "excl.", "(joking) no way!", 1967, 0, "G", "X"],
+    ["fuck me dead!", "excl.", "exuberance", 1967, 0, "G", "X"],
+    ["fuckshit!", "excl.", "rage", 1970, 0, "G", "X"],
+    ["fucking Ada!", "excl.", "general exclamation", 1970, 0, "G", "X"],
+    ["fuck me sideways!", "excl.", "general exclamation", 1977, 0, "G", "X"],
+    ["fuck me backwards!", "excl.", "general exclamation", 1988, 0, "G", "X"],
+    ["fuck me gently with a chainsaw!", "excl.", "surprise, annoyance", 1989, 0, "G", "X"],
+    ["fuck me ragged!", "excl.", "general exclamation", 1989, 0, "G", "X"],
+    ["fucking Nora!", "excl.", "astonishment, or praise", 1996, 0, "G", "X"],
+    ["fuck around!", "excl.", "mild irritation", 1997, 0, "G", "X"],
+    ["fuck-a-rama!", "excl.", "frustration", 2002, 0, "G", "X"],
+    ["fuck-knuckles!", "excl.", "(Australian) frustration", 2019, 0, "G", "X"],
+    ["fuck me without a kiss!", "excl.", "(Australian) surprise", 2021, 0, "G", "X"],
+    ["fuck me with a fence post!", "excl.", "surprise", 2025, 0, "G", "X"],
+    ["fuckstick!", "excl.", "irritation", null, 0, "G", "X"],
+
+    /* I · the intensifier sea */
+    ["fuckin", "adj.", "a monk’s marginal curse at his abbot; maybe the first intensifier, maybe literal", 1528, 0, "P", "I"],
+    ["what the fuck…?", "phr.", "emphasis wedged into a question", 1864, 0, "G", "I"],
+    ["motherfucking", "adj.", "all-purpose intensifier", 1889, 0, "G", "I"],
+    ["fucking", "adj.", "all-purpose intensifier", 1890, 0, "G", "I"],
+    ["fucking", "adv.", "completely", 1904, 0, "G", "I"],
+    ["-fucking-", "infix", "emphasis inside a word: abso-fucking-lutely", 1921, 0, "G", "I"],
+    ["fucking well", "adv.", "absolutely", 1922, 0, "G", "I"],
+    ["fuckingly", "adv.", "extremely", 1927, 0, "G", "I"],
+    ["double-fucking", "adj.", "intensified twice", 1929, 0, "G", "I"],
+    ["fucked", "adj.", "intensifier, like “damned”", 1948, 0, "G", "I"],
+    ["fucked if…", "phr.", "as in ‘fucked if I’ll wait’", 1948, 0, "G", "I"],
+    ["fucking-A", "adv.", "extremely", 1955, 0, "G", "I"],
+    ["shut the fuck up", "phr.", "“the fuck” as an infix in a phrase", 1961, 0, "G", "I"],
+    ["like a motherfucker", "adv.", "intensely", 1965, 0, "G", "I"],
+    ["the fuck", "phr.", "anger, impatience", 1969, 0, "G", "I"],
+    ["for a motherfucker", "adv.", "intensely", 1970, 0, "G", "I"],
+    ["fucking", "adv.", "definitely (not)", 1970, 0, "G", "I"],
+    ["the fuck", "phr.", "a great amount", 1972, 0, "G", "I"],
+    ["-motherfucking-", "infix", "emphasis inside a word", 1972, 0, "G", "I"],
+    ["fuck", "adj.", "intensifier", 1973, 0, "G", "I"],
+    ["fuckawful", "adj.", "dreadful", 1973, 0, "G", "I"],
+    ["the fuck?", "phr.", "‘what the fuck?’ with the what removed", 1973, 0, "G", "I"],
+    ["as fuck", "phr.", "intensifier in comparisons: cold as fuck", 1976, 0, "G", "I"],
+    ["fucked if I know", "phr.", "no idea", 1985, 0, "G", "I"],
+    ["kick the fuck out of", "v.", "to beat severely", 1988, 0, "G", "I"],
+    ["scare the fuck out of", "v.", "to terrify", 1993, 0, "G", "I"],
+    ["fuck-off", "adj.", "large, showy", 1997, 0, "G", "I"],
+    ["big fuck-off", "adj.", "huge", 1999, 0, "G", "I"],
+    ["slap the fuck out of", "v.", "“the fuck” as the stuff a person is made of", 1999, 0, "G", "I"],
+    ["fuck-butt", "adj.", "(of a place) godforsaken", 2008, 0, "G", "I"],
+    ["-motherfucker-", "infix", "emphasis inside a word", 2013, 0, "G", "I"],
+    ["fuckload", "n.", "a great many", null, 0, "G", "I"],
+    ["fuck ton", "n.", "a great many", null, 0, "G", "I"],
+
+    /* N · the insult badlands */
+    ["fucker", "n.", "general abuse", 1820, 1, "G", "N"],
+    ["motherfucker", "n.", "the supreme insult", 1918, 0, "G", "N"],
+    ["fucker", "n.", "(Australian) an English private soldier", 1919, 0, "G", "N"],
+    ["fuck", "n.", "a despicable person", 1926, 0, "G", "N"],
+    ["fuck-up", "n.", "a hopeless failure", 1945, 0, "G", "N"],
+    ["fuckhead", "n.", "an idiot", 1946, 0, "G", "N"],
+    ["dumbfuck", "n.", "a fool", 1952, 0, "G", "N"],
+    ["rat fuck", "n.", "general abuse", 1955, 1, "G", "N"],
+    ["fuckface", "n.", "a contemptible person", 1962, 0, "G", "N"],
+    ["fucko", "n.", "a term of address, not kindly", 1967, 0, "G", "N"],
+    ["fuckarse", "n.", "a contemptible person", 1968, 0, "G", "N"],
+    ["fuckbag", "n.", "general contempt", 1969, 0, "G", "N"],
+    ["fuckwit", "n.", "a fool", 1969, 0, "G", "N"],
+    ["fuckbrain", "n.", "a fool", 1971, 0, "G", "N"],
+    ["fuckwitted", "adj.", "foolish", 1971, 0, "G", "N"],
+    ["fuckheaded", "adj.", "stupid", 1972, 0, "G", "N"],
+    ["dumb-fuck", "adj.", "stupid", 1973, 0, "G", "N"],
+    ["star-fucker", "n.", "a celebrity hanger-on", 1973, 0, "G", "N"],
+    ["fuckdust", "n.", "general abuse", 1983, 0, "G", "N"],
+    ["fucker", "n.", "a pimp", 1984, 0, "G", "N"],
+    ["fucktard", "n.", "(offensive) a stupid person", 1994, 0, "G", "N"],
+    ["fuckball", "n.", "general abuse", 1996, 0, "G", "N"],
+    ["fuck-chops", "n.", "an imbecile", 1998, 0, "G", "N"],
+    ["family fuck-up", "n.", "the black sheep", 1999, 0, "G", "N"],
+    ["fuck-features", "n.", "a contemptible person", 2000, 0, "G", "N"],
+    ["fuck all", "n.", "a worthless person", 2001, 0, "G", "N"],
+    ["fuckwittery", "n.", "stupidity", 2004, 0, "G", "N"],
+    ["fuck-up waiting to happen", "n.", "a failure in progress", 2011, 0, "G", "N"],
+    ["fuckmonger", "n.", "general abuse", 2014, 0, "G", "N"],
+    ["fuckwhistle", "n.", "general abuse", 2020, 0, "G", "N"],
+    ["fuckbutt", "n.", "general abuse", 2024, 0, "G", "N"],
+    ["fuckdoodle", "n.", "a fool", 2025, 0, "G", "N"],
+    ["fuckstick", "n.", "a contemptible person", null, 0, "G", "N"],
+    ["fuck-nut", "n.", "general abuse", null, 0, "G", "N"],
+    ["fuckwad", "n.", "a contemptible fool", null, 0, "G", "N"],
+
+    /* L · the idle marshes */
+    ["fuck about", "v.", "to mess about, waste time", 1910, 1, "G", "L"],
+    ["fuck round", "v.", "to mess about", 1922, 0, "G", "L"],
+    ["fuck around", "v.", "to mess about", 1936, 0, "G", "L"],
+    ["fuck off", "v.", "to idle, dodge work", 1944, 0, "G", "L"],
+    ["fuck-off", "n.", "a shirker", 1948, 0, "G", "L"],
+    ["fuck about", "v.", "to wander aimlessly", 1963, 0, "G", "L"],
+    ["fuck about", "v.", "to waste someone’s time", 1964, 0, "G", "L"],
+    ["fuck-about", "n.", "time-wasting; the runaround", 1965, 0, "G", "L"],
+    ["fuck off", "v.", "to fritter away", 1967, 0, "G", "L"],
+    ["fuck up", "v.", "to fool around", 1969, 0, "G", "L"],
+    ["fuck with", "v.", "to play around with", 1970, 0, "G", "L"],
+    ["fuck-off", "adj.", "lazy", 1987, 0, "G", "L"],
+    ["fuckarse", "v.", "to act the fool", 2000, 0, "G", "L"],
+    ["total fuck off", "n.", "an idle life", 2006, 0, "G", "L"],
+    ["fuck the dog", "v.", "to loaf on the job", null, 0, "G", "L"],
+
+    /* V · the void */
+    ["I’d not give ——", "phr.", "the first recorded ‘don’t give a fuck’, printed with the word left blank", 1790, 0, "M", "V"],
+    ["fuck all", "n.", "nothing at all", 1918, 0, "G", "V"],
+    ["fuck", "n.", "the thing one doesn’t give", 1929, 0, "E", "V"],
+    ["fuck (all) else", "n.", "absolutely nothing", 1950, 0, "G", "V"],
+    ["fuck-all", "adj.", "none, next to none", 1951, 0, "G", "V"],
+    ["not give a flying fuck", "phr.", "to care not at all", 1952, 0, "G", "V"],
+    ["fucking A", "n.", "almost nothing", 1966, 0, "G", "V"],
+    ["fuck", "n.", "nothing at all", 1972, 0, "G", "V"],
+    ["fucked", "adj.", "bothered — mostly not: can’t be fucked", 1984, 0, "G", "V"],
+    ["fuck-nowhere", "n.", "nowhere at all", 1992, 0, "G", "V"],
+    ["who gives a rat fuck", "phr.", "who cares", 1997, 0, "G", "V"],
+    ["zero fucks (given)", "phr.", "total indifference", 2009, 0, "D", "V"],
+    ["square root of fuck-all", "n.", "less than nothing", 2017, 0, "G", "V"],
+
+    /* P · the placeholder plains */
+    ["fucker", "n.", "any thing or animal at all", 1945, 0, "G", "P"],
+    ["motherfucker", "n.", "an unnamed thing", 1947, 0, "G", "P"],
+    ["motherfucker", "n.", "anything disliked; a situation", 1948, 0, "G", "P"],
+    ["fuck-off", "n.", "a despicable thing", 1951, 0, "G", "P"],
+    ["fuck along", "v.", "to walk", 1968, 0, "G", "P"],
+    ["fucking-A", "adj.", "an emphatic filler", 1970, 0, "G", "P"],
+    ["fuck", "n.", "a piece of bad luck", 1972, 0, "G", "P"],
+    ["fuck", "v.", "to kick", 1973, 0, "G", "P"],
+    ["fucker", "n.", "a difficult thing or task", 1975, 0, "G", "P"],
+    ["fuck", "v.", "to throw", 1976, 0, "G", "P"],
+    ["fuck!", "excl.", "a filler with no meaning at all", 1979, 0, "G", "P"],
+    ["motherfucker", "n.", "a place", 1999, 0, "G", "P"],
+    ["fuck-off", "n.", "an irritating situation", 2000, 0, "G", "P"],
+
+    /* W · the warm springs */
+    ["fucker", "n.", "a fellow, said fondly", 1927, 0, "G", "W"],
+    ["fucking-A", "adj.", "first-rate", 1948, 0, "G", "W"],
+    ["fucking-A right", "phr.", "strong agreement", 1955, 0, "G", "W"],
+    ["motherfucker", "n.", "a term of affection or praise", 1957, 0, "G", "W"],
+    ["mother", "n.", "short form, said fondly", 1960, 0, "G", "W"],
+    ["fucking-A", "adj.", "correct, agreed", 1961, 0, "G", "W"],
+    ["fucking A!", "excl.", "absolutely!", 1964, 0, "G", "W"],
+    ["fuck yes!", "excl.", "emphatic yes", 1970, 0, "G", "W"],
+    ["motherfucker", "n.", "an outstanding example", 1972, 0, "G", "W"],
+    ["fucker", "n.", "an extreme example, good or bad", 1974, 0, "G", "W"],
+    ["fucking A!", "excl.", "praise, recognition", 1981, 0, "G", "W"],
+    ["fuck with", "v.", "to like or back someone: I fuck with you", 1981, 0, "G", "W"],
+
+    /* A · the altered states */
+    ["fucked", "adj.", "exhausted, wretched", 1922, 0, "G", "A"],
+    ["fucked out", "adj.", "exhausted", 1938, 0, "G", "A"],
+    ["fucked up", "adj.", "distressed, unstable", 1948, 0, "G", "A"],
+    ["fucked", "adj.", "crazy", 1952, 0, "G", "A"],
+    ["fucked up", "adj.", "confused", 1954, 0, "G", "A"],
+    ["fucked up", "adj.", "drunk or high", 1966, 0, "G", "A"],
+    ["mind-fucked", "adj.", "emotionally overwhelmed", 1968, 0, "G", "A"],
+    ["fuck around", "v.", "to use drugs", 1970, 0, "G", "A"],
+    ["mindfuck", "n.", "an overwhelming, often drug-fuelled experience", 1971, 0, "G", "A"],
+    ["fucked over", "adj.", "wrecked by drink or drugs", 1972, 0, "G", "A"],
+    ["fuckfaced", "adj.", "bleary-eyed", 1976, 0, "G", "A"],
+    ["fuck out", "v.", "to exhaust", 1977, 0, "G", "A"],
+    ["fucked", "adj.", "psychologically damaged", 1979, 0, "G", "A"],
+    ["fucked up", "adj.", "worn out", 1979, 0, "G", "A"],
+    ["fuck-drunk", "adj.", "very drunk", 1986, 0, "G", "A"],
+    ["fucked", "adj.", "intoxicated", 1989, 0, "G", "A"],
+    ["fubar", "adj.", "very drunk or high", 1991, 0, "G", "A"],
+    ["fucked up", "adj.", "weird", 1997, 1, "G", "A"],
+    ["fuckfaced", "adj.", "drunk", 2006, 0, "G", "A"],
+    ["fucked", "adj.", "overwhelmed by the senses", 2022, 0, "G", "A"],
+
+    /* K · the acronym archipelago */
+    ["SNAFU", "n.", "situation normal, all fucked up", 1941, 0, "G", "K"],
+    ["FUBAR", "adj.", "fucked up beyond all recognition", 1946, 0, "G", "K"],
+    ["MF", "n.", "motherfucker, reduced to initials", 1980, 0, "G", "K"],
+    ["the big F.O.", "n.", "(New Zealand) being dumped", 1983, 0, "G", "K"],
+    ["WTF", "phr.", "what the fuck", 1985, 0, "S", "K"],
+    ["g.t.f.o.!", "excl.", "get the fuck out", 1997, 0, "G", "K"],
+    ["MILF", "n.", "an attractive mother", 1999, 0, "G", "K"],
+    ["f’d up", "adj.", "fucked up, abbreviated", 2001, 0, "G", "K"],
+    ["STFU!", "excl.", "shut the fuck up", 2003, 0, "G", "K"],
+    ["f.u.", "excl.", "fuck you", 2004, 0, "G", "K"],
+    ["FAFO", "phr.", "fuck around and find out", 2012, 0, "G", "K"],
+    ["F-wit", "n.", "fuckwit, abbreviated", 2012, 0, "G", "K"],
+    ["FML", "excl.", "fuck my life", 2014, 0, "G", "K"],
+    ["SNAFU’s cousins", "n.", "TARFU, FUBB, SUSFU, SAPFU and kin: wartime variations", null, 0, "G", "K"],
+
+    /* F · the fog of euphemism */
+    ["gxddbov", "cipher", "the friars’ poem hides the word in a shift cipher", 1475, 1, "P", "F"],
+    ["fecking", "adj.", "Irish softening of fucking", 1922, 0, "G", "F"],
+    ["effing", "adj.", "fucking, initialled", 1929, 0, "G", "F"],
+    ["muck", "v.", "a stand-in; Hemingway used it in 1940", 1929, 0, "E", "F"],
+    ["uck you", "excl.", "fuck you, minus one letter", 1930, 0, "G", "F"],
+    ["funking hell", "excl.", "fucking hell, in disguise", 1934, 0, "G", "F"],
+    ["mother-for-you", "n.", "motherfucker, in disguise (a 1935 song title)", 1935, 0, "G", "F"],
+    ["F, eff", "n.", "the bare letter as a cuss word", 1943, 0, "E", "F"],
+    ["rutting", "adj.", "Tennessee Williams’s stand-in in Streetcar", 1947, 0, "E", "F"],
+    ["fug", "v.", "Mailer’s stand-in in The Naked and the Dead", 1948, 0, "E", "F"],
+    ["motherfugger", "n.", "motherfucker, respelled", 1948, 0, "G", "F"],
+    ["bricking-A", "adv.", "fucking-A, in disguise", 1957, 0, "G", "F"],
+    ["mucking-aye", "adv.", "fucking-A, in disguise", 1960, 0, "G", "F"],
+    ["feather me!", "excl.", "fuck me!, in disguise", 1960, 0, "G", "F"],
+    ["what the fog", "phr.", "what the fuck, in disguise", 1972, 0, "G", "F"],
+    ["frigging A!", "excl.", "fucking A!, in disguise", 1972, 0, "G", "F"],
+    ["[expletive deleted]", "phr.", "Nixon’s Watergate transcripts, every curse blanked", 1974, 0, "X", "F"],
+    ["frack", "v.", "Battlestar Galactica’s invented swear", 1978, 0, "B", "F"],
+    ["F-word", "n.", "the word, named instead of said", 1983, 0, "E", "F"],
+    ["fudge", "excl.", "A Christmas Story’s on-screen dub for “the F-dash-dash-dash word”", 1983, 0, "H", "F"],
+    ["F-bomb", "n.", "a fuck, dropped", 1988, 0, "P", "F"],
+    ["what the funk", "phr.", "what the fuck, in disguise", 1990, 0, "G", "F"],
+    ["m-fugging", "adj.", "motherfucking, in disguise", 1991, 0, "G", "F"],
+    ["FCUK", "brand", "French Connection’s rearranged letters", 1997, 0, "P", "F"],
+    ["Show Me Love", "title", "English-language title for the Swedish film Fucking Åmål", 1998, 0, "W", "F"],
+    ["feck", "n.", "Irish stand-in for fuck", 2000, 0, "G", "F"],
+    ["frak", "v.", "the rebooted Battlestar’s spelling, used for everything", 2003, 0, "B", "F"],
+    ["what the fock", "phr.", "what the fuck, in disguise", 2006, 0, "G", "F"],
+    ["f-you", "excl.", "fuck you, half-said", 2015, 0, "G", "F"],
+    ["F*ck", "title", "the asterisk on a bestseller that sold over 12 million copies", 2016, 0, "U", "F"],
+    ["clusterfudge", "n.", "clusterfuck, softened", 2016, 0, "G", "F"],
+    ["Fugging", "place", "an Austrian village formerly named Fucking", 2021, 0, "Q", "F"],
+    ["Let’s Go Brandon", "phr.", "a stadium chant with its fuck swapped for a driver’s name", 2021, 0, "L", "F"],
+    ["fsck", "n.", "a Unix command drafted as a stand-in on Usenet", null, 0, "O", "F"]
+  ];
+
+  var R = {
+    C: { name: "The Carnal Lands", short: "Carnal", desc: "The homeland. For three centuries the word lived here and nowhere else." },
+    R: { name: "The Ruinlands", short: "Ruin", desc: "Where fuck stopped meaning sex and started meaning damage: cheating, breaking, botching, sabotage." },
+    D: { name: "The Dismissal Coast", short: "Dismissal", desc: "Go away, and the shrug that sends you: fuck off, fuck it, fuck you." },
+    X: { name: "The Exclamation Peaks", short: "Exclamation", desc: "Noises made at the universe. High altitude, thin content." },
+    I: { name: "The Intensifier Sea", short: "Intensifier", desc: "Fuck as a volume knob. Nothing here means anything; everything here means more." },
+    N: { name: "The Insult Badlands", short: "Insult", desc: "Names for people. Most mean nothing beyond contempt, and the compounds keep coming." },
+    L: { name: "The Idle Marshes", short: "Idle", desc: "Messing about, loafing, wasting time. Mostly a soldiers’ export." },
+    V: { name: "The Void", short: "Void", desc: "Where fuck means nothing at all. Its first recorded settler was a blank: the 1790 poem printed the word as a dash." },
+    P: { name: "The Placeholder Plains", short: "Placeholder", desc: "Fuck as a word for anything: a thing, a task, a place, a kick, a throw, a pause." },
+    W: { name: "The Warm Springs", short: "Warmth", desc: "Against the odds: affection, praise, agreement. Motherfucker as a compliment." },
+    A: { name: "The Altered States", short: "Altered", desc: "Drunk, high, exhausted, unhinged, overwhelmed." },
+    K: { name: "The Acronym Archipelago", short: "Acronyms", desc: "Fuck compressed to a letter. Founded by the Second World War; settled in bulk by the internet." },
+    F: { name: "The Fog of Euphemism", short: "Euphemism", desc: "The word in disguise: ciphers, dashes, effing, frak, Let’s Go Brandon. Every one is still the word." }
+  };
+
+  var SRC = { G: "Green’s", E: "Etymonline", P: "Wikipedia", M: "Mohr", S: "Slate", D: "Dictionary.com", B: "Wordorigins", H: "Wikipedia", X: "Wikipedia", W: "Wikipedia", U: "Wikipedia", Q: "Snopes", L: "Wikipedia", O: "FOLDOC" };
+
+  var ERAS = [
+    [1300, "Before 1310: no fuck on record. The word may exist; nobody writes it down."],
+    [1310, "A Chester court roll names one Roger Fuckebythenavele. The census begins."],
+    [1475, "Friars mocked in cipher. The word is already dangerous enough to hide."],
+    [1503, "Scots poets write it plainly. Sex is the only territory."],
+    [1528, "A monk’s margin note: the first adjective, and maybe the first intensifier."],
+    [1600, "Dictionaries and bawdy verse. Still almost entirely carnal."],
+    [1790, "The first ‘don’t give a fuck’ is printed — with a dash where the word should be."],
+    [1857, "Banned from print in Britain (1857) and America (1873). Underground, it multiplies."],
+    [1864, "‘What the fuck’ appears. The word starts working as pure emphasis."],
+    [1890, "‘Fucking’ becomes an all-purpose intensifier. The emptying is under way."],
+    [1914, "The trenches. Soldiers use it so constantly it stops meaning anything; leaving it out signals danger."],
+    [1919, "Fuck all, fucking hell, motherfucker: the war’s vocabulary comes home."],
+    [1939, "The Second World War: SNAFU, fuck-up, FUBAR. The Acronym Archipelago is founded."],
+    [1946, "Postwar. The word pushes into print, into novels, into the courts."],
+    [1960, "The permissive decades. New fucks arrive almost every year."],
+    [1975, "The boom years: insults, drugs, disco, porn, the campus. Peak sprawl."],
+    [1985, "Usenet coins WTF. The word starts to compress."],
+    [2000, "The internet era: STFU, FML, FAFO, zero fucks. Still budding."],
+    [2020, "Green’s is still logging new fucks: 2023, 2024, 2025."]
+  ];
+
+  var YMIN = 1300, YMAX = 2026;
+  D.forEach(function (e, i) { e.push(i); });
+
+  /* ---------- derived ---------- */
+  var order = Object.keys(R).map(function (k) {
+    var ys = D.filter(function (e) { return e[6] === k && e[3] != null; }).map(function (e) { return e[3]; });
+    return { k: k, first: Math.min.apply(null, ys), total: D.filter(function (e) { return e[6] === k; }).length };
+  }).sort(function (a, b) { return a.first - b.first; });
+  var ROMAN = ["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII","XIII"];
+  order.forEach(function (o, i) { R[o.k].num = ROMAN[i]; R[o.k].first = o.first; R[o.k].total = o.total; R[o.k].idx = i; });
+  var maxTotal = Math.max.apply(null, order.map(function (o) { return o.total; }));
+
+  function countAt(k, y) {
+    var n = 0;
+    for (var i = 0; i < D.length; i++) {
+      var e = D[i];
+      if ((k == null || e[6] === k) && (e[3] == null ? y >= YMAX : e[3] <= y)) n++;
+    }
+    return n;
+  }
+
+  /* ---------- state ---------- */
+  var year = YMAX, selected = null, query = "";
+  var yearIn = document.getElementById("year");
+
+  /* ---------- rose ---------- */
+  var NS = "http://www.w3.org/2000/svg";
+  var svg = document.getElementById("rose");
+  var CX = 200, CY = 200, R0 = 34, RMAX = 158;
+  var N = order.length, STEP = 2 * Math.PI / N, GAP = 0.035;
+  function el(parent, name, attrs) {
+    var e = document.createElementNS(NS, name);
+    for (var a in attrs) e.setAttribute(a, attrs[a]);
+    parent.appendChild(e);
+    return e;
+  }
+  function polar(r, a) { return [CX + r * Math.sin(a), CY - r * Math.cos(a)]; }
+  function sector(r0, r1, a0, a1) {
+    var p0 = polar(r1, a0), p1 = polar(r1, a1), p2 = polar(r0, a1), p3 = polar(r0, a0);
+    var large = (a1 - a0) > Math.PI ? 1 : 0;
+    return "M" + p0[0].toFixed(2) + "," + p0[1].toFixed(2) +
+      "A" + r1 + "," + r1 + " 0 " + large + " 1 " + p1[0].toFixed(2) + "," + p1[1].toFixed(2) +
+      "L" + p2[0].toFixed(2) + "," + p2[1].toFixed(2) +
+      "A" + r0 + "," + r0 + " 0 " + large + " 0 " + p3[0].toFixed(2) + "," + p3[1].toFixed(2) + "Z";
+  }
+  function radiusFor(n) { return n <= 0 ? R0 : R0 + (RMAX - R0) * Math.sqrt(n / maxTotal); }
+
+  // recessive rings (radial scale)
+  var gGrid = el(svg, "g", {});
+  [10, 25, 50, 85].forEach(function (v) {
+    var r = radiusFor(v);
+    el(gGrid, "circle", { cx: CX, cy: CY, r: r, fill: "none", stroke: "var(--rule)", "stroke-width": 0.7, "stroke-dasharray": "2 3" });
+    var t = el(gGrid, "text", { x: CX + 3, y: CY - r - 2, "font-size": 8.5, fill: "var(--ink-faint)" });
+    t.textContent = v;
+  });
+  // compass ticks (east, south, west; north is where settlement begins)
+  for (var i = 1; i < 4; i++) {
+    var a = i * Math.PI / 2, p0 = polar(RMAX + 8, a), p1 = polar(RMAX + 16, a);
+    el(gGrid, "line", { x1: p0[0], y1: p0[1], x2: p1[0], y2: p1[1], stroke: "var(--ink-faint)", "stroke-width": 1 });
+  }
+
+  var gPet = el(svg, "g", {});
+  var petals = {}, fogs = {}, nums = {};
+  order.forEach(function (o, i) {
+    var a0 = i * STEP + GAP, a1 = (i + 1) * STEP - GAP;
+    var fog = el(gPet, "path", { d: sector(R0, R0 + 22, a0, a1), fill: "none", stroke: "var(--fog)", "stroke-width": 1, "stroke-dasharray": "3 3" });
+    var p = el(gPet, "path", { d: sector(R0, R0, a0, a1), fill: "var(--petal)", "class": "petal", tabindex: 0, role: "button" });
+    p.setAttribute("aria-label", R[o.k].num + ". " + R[o.k].name);
+    var mid = (a0 + a1) / 2;
+    var t = el(gPet, "text", { "text-anchor": "middle", "dominant-baseline": "middle", "font-size": 11, "font-weight": 600, fill: "var(--ink-dim)" });
+    t.textContent = R[o.k].num;
+    petals[o.k] = { path: p, a0: a0, a1: a1, mid: mid };
+    fogs[o.k] = fog; nums[o.k] = t;
+    p.addEventListener("click", function () { select(selected === o.k ? null : o.k, true); });
+    p.addEventListener("keydown", function (ev) { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(selected === o.k ? null : o.k, true); } });
+    p.addEventListener("mouseenter", function () { showTip(o.k); });
+    p.addEventListener("focus", function () { showTip(o.k); });
+    p.addEventListener("mouseleave", hideTip);
+    p.addEventListener("blur", hideTip);
+  });
+  // centre medallion
+  el(svg, "circle", { cx: CX, cy: CY, r: R0 - 3, fill: "var(--paper)", stroke: "var(--ink)", "stroke-width": 1.2 });
+  var medWord = el(svg, "text", { x: CX, y: CY - 3, "text-anchor": "middle", "font-size": 12, "font-weight": 600, fill: "var(--red)", "letter-spacing": "1.5" });
+  medWord.textContent = "FUCK";
+  var medYear = el(svg, "text", { x: CX, y: CY + 12, "text-anchor": "middle", "font-size": 10, fill: "var(--ink-dim)" });
+  var cartouche = el(svg, "text", { x: CX, y: 392, "text-anchor": "middle", "font-size": 11, fill: "var(--ink-faint)", "font-style": "italic" });
+
+  var roseTip = document.getElementById("roseTip"), roseWrap = document.getElementById("roseWrap");
+  function showTip(k) {
+    var n = countAt(k, year), pt = petals[k];
+    roseTip.textContent = R[k].num + " · " + R[k].name + " — " + (n ? n + (n === 1 ? " fuck" : " fucks") : "here be fucks (unsettled)");
+    var r = radiusFor(n) + 10, pos = polar(Math.min(r, RMAX), pt.mid);
+    var box = svg.getBoundingClientRect(), wb = roseWrap.getBoundingClientRect();
+    var px = (pos[0] / 400) * box.width + box.left - wb.left, py = (pos[1] / 400) * box.height + box.top - wb.top;
+    roseTip.style.opacity = 1;
+    var w = roseTip.offsetWidth;
+    roseTip.style.left = Math.max(0, Math.min(px - w / 2, wb.width - w)) + "px";
+    roseTip.style.top = Math.max(0, py - 34) + "px";
+  }
+  function hideTip() { roseTip.style.opacity = 0; }
+
+  function drawRose() {
+    var unsettled = 0;
+    order.forEach(function (o) {
+      var k = o.k, pt = petals[k], n = countAt(k, year);
+      var r = radiusFor(n);
+      pt.path.setAttribute("d", sector(R0, r, pt.a0, pt.a1));
+      pt.path.setAttribute("fill", selected === k ? "var(--sel)" : "var(--petal)");
+      pt.path.setAttribute("opacity", n ? (selected && selected !== k ? 0.45 : 0.9) : 0);
+      fogs[k].setAttribute("opacity", n ? 0 : 1);
+      if (!n) unsettled++;
+      var lp = polar(Math.max(r, R0 + 22) + 11, pt.mid);
+      nums[k].setAttribute("x", lp[0].toFixed(1));
+      nums[k].setAttribute("y", lp[1].toFixed(1));
+      nums[k].setAttribute("fill", selected === k ? "var(--sel)" : (n ? "var(--ink-dim)" : "var(--fog)"));
+    });
+    medYear.textContent = year >= YMAX ? "today" : year;
+    cartouche.textContent = unsettled ? "Here be fucks · " + unsettled + " territor" + (unsettled === 1 ? "y" : "ies") + " unsettled" : "";
+  }
+
+  /* ---------- growth chart (rebuilt to the container's pixel width) ---------- */
+  var gsvg = document.getElementById("growth");
+  var gTip = document.getElementById("growthTip"), gWrap = document.getElementById("growthWrap");
+  var GW = 640, GH = 220, GL = 40, GR = 10, GT = 14, GB = 26;
+  var total = D.length, datedYears = D.filter(function (e) { return e[3] != null; }).map(function (e) { return e[3]; }).sort(function (a, b) { return a - b; });
+  var marker, markerDot, cross;
+  function gx(y) { return GL + (y - YMIN) / (YMAX - YMIN) * (GW - GL - GR); }
+  function gy(n) { return GT + (1 - n / total) * (GH - GT - GB); }
+  function gel(name, attrs) { return el(gsvg, name, attrs); }
+  function totalAt(y) { return countAt(null, y); }
+  function yearFromClient(clientX) {
+    var box = gsvg.getBoundingClientRect();
+    var ux = (clientX - box.left) / box.width * GW;
+    return Math.max(YMIN, Math.min(YMAX, Math.round(YMIN + (ux - GL) / (GW - GL - GR) * (YMAX - YMIN))));
+  }
+  function growthHover(clientX) {
+    var y = yearFromClient(clientX), n = totalAt(y);
+    var box = gsvg.getBoundingClientRect(), wb = gWrap.getBoundingClientRect();
+    cross.setAttribute("x1", gx(y)); cross.setAttribute("x2", gx(y)); cross.setAttribute("opacity", 1);
+    gTip.textContent = y + ": " + n + " on record";
+    gTip.style.opacity = 1;
+    var px = gx(y) / GW * box.width + box.left - wb.left, w = gTip.offsetWidth;
+    gTip.style.left = Math.max(0, Math.min(px - w / 2, wb.width - w)) + "px";
+    gTip.style.top = Math.max(0, gy(n) / GH * box.height + box.top - wb.top - 36) + "px";
+  }
+  function buildGrowth() {
+    GW = Math.max(300, Math.min(760, Math.round(gWrap.clientWidth || 640)));
+    GH = GW < 480 ? 200 : 220;
+    gsvg.setAttribute("viewBox", "0 0 " + GW + " " + GH);
+    while (gsvg.firstChild) gsvg.removeChild(gsvg.firstChild);
+    // the two world wars, as recessive bands
+    [[1914, 1918, "WWI", "end", -3], [1939, 1945, "WWII", "start", 3]].forEach(function (w) {
+      gel("rect", { x: gx(w[0]), y: GT, width: Math.max(2, gx(w[1]) - gx(w[0])), height: GH - GT - GB, fill: "var(--rule)", opacity: 0.5 });
+      var t = gel("text", { x: (w[3] === "end" ? gx(w[0]) : gx(w[1])) + w[4], y: GT + 9, "text-anchor": w[3], "font-size": 10, fill: "var(--ink-faint)" });
+      t.textContent = w[2];
+    });
+    [0, 100, 200, 300].forEach(function (v) {
+      gel("line", { x1: GL, x2: GW - GR, y1: gy(v), y2: gy(v), stroke: "var(--rule)", "stroke-width": v === 0 ? 1.2 : 0.6 });
+      var t = gel("text", { x: GL - 6, y: gy(v) + 3.5, "text-anchor": "end", "font-size": 10, fill: "var(--ink-faint)" });
+      t.textContent = v;
+    });
+    var ticks = GW < 480 ? [1400, 1600, 1800, 2000] : [1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000];
+    ticks.forEach(function (y) {
+      var t = gel("text", { x: gx(y), y: GH - 8, "text-anchor": "middle", "font-size": 10, fill: "var(--ink-faint)" });
+      t.textContent = y;
+    });
+    var d = "M" + gx(YMIN).toFixed(1) + "," + gy(0).toFixed(1), c = 0;
+    datedYears.forEach(function (y) { c++; d += "H" + gx(y).toFixed(1) + "V" + gy(c).toFixed(1); });
+    d += "H" + gx(YMAX).toFixed(1) + "V" + gy(total).toFixed(1);
+    gel("path", { d: d, fill: "none", stroke: "var(--ink)", "stroke-width": 2, "stroke-linejoin": "round" });
+    marker = gel("line", { y1: GT, y2: GH - GB, stroke: "var(--sel)", "stroke-width": 1.5 });
+    markerDot = gel("circle", { r: 4.5, fill: "var(--sel)", stroke: "var(--paper)", "stroke-width": 2 });
+    cross = gel("line", { y1: GT, y2: GH - GB, stroke: "var(--ink-faint)", "stroke-width": 1, "stroke-dasharray": "3 3", opacity: 0 });
+    var hit = gel("rect", { x: GL, y: GT, width: GW - GL - GR, height: GH - GT - GB, fill: "transparent" });
+    hit.addEventListener("mousemove", function (ev) { growthHover(ev.clientX); });
+    hit.addEventListener("touchstart", function (ev) { growthHover(ev.touches[0].clientX); }, { passive: true });
+    hit.addEventListener("touchmove", function (ev) { growthHover(ev.touches[0].clientX); }, { passive: true });
+    hit.addEventListener("mouseleave", function () { gTip.style.opacity = 0; cross.setAttribute("opacity", 0); });
+    hit.addEventListener("click", function (ev) { stopPlay(); setYear(yearFromClient(ev.clientX)); });
+    drawGrowth();
+  }
+  function drawGrowth() {
+    if (!marker) return;
+    var n = totalAt(year);
+    marker.setAttribute("x1", gx(year)); marker.setAttribute("x2", gx(year));
+    markerDot.setAttribute("cx", gx(year)); markerDot.setAttribute("cy", gy(n));
+  }
+  var rsz = null;
+  window.addEventListener("resize", function () { clearTimeout(rsz); rsz = setTimeout(buildGrowth, 150); });
+
+  /* ---------- gazetteer ---------- */
+  var gaz = document.getElementById("gaz"), gazBtns = {};
+  order.forEach(function (o) {
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "gaz-btn";
+    b.innerHTML = '<span class="n">' + R[o.k].num + '</span><span class="nm">' + R[o.k].name + '</span><span class="ct"></span>';
+    b.addEventListener("click", function () { select(selected === o.k ? null : o.k, true); });
+    gaz.appendChild(b); gazBtns[o.k] = b;
+  });
+  document.getElementById("gazAll").addEventListener("click", function () { select(null, true); });
+  function drawGaz() {
+    order.forEach(function (o) {
+      var n = countAt(o.k, year), b = gazBtns[o.k];
+      b.querySelector(".ct").textContent = n ? n : "—";
+      b.classList.toggle("on", selected === o.k);
+      b.classList.toggle("fogged", !n);
+    });
+  }
+
+  /* ---------- card + list ---------- */
+  var listEl = document.getElementById("list"), noteEl = document.getElementById("listNote");
+  function fmtYear(e) { return e[3] == null ? "n.d." : (e[4] ? "c." : "") + e[3]; }
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+  function drawCard() {
+    var k = selected;
+    document.getElementById("cardKicker").textContent = k ? "Territory " + R[k].num + " · first settled " + R[k].first : "All territories";
+    document.getElementById("cardName").textContent = k ? R[k].name : "The whole known world";
+    document.getElementById("cardDesc").textContent = k ? R[k].desc : "Every fuck on record, in the order it was first written down. Pick a territory on the plate or in the gazetteer to narrow it.";
+    var n = countAt(k, year), all = k ? R[k].total : D.length;
+    document.getElementById("cardFacts").textContent = (year >= YMAX ? all + " on record" : n + " of " + all + " settled by " + year);
+  }
+  function drawList() {
+    var q = query.trim().toLowerCase();
+    var rows = D.filter(function (e) {
+      if (q) return (e[0] + " " + e[2]).toLowerCase().indexOf(q) !== -1;
+      return !selected || e[6] === selected;
+    });
+    var shown = rows.filter(function (e) { return e[3] == null ? year >= YMAX : e[3] <= year; });
+    var later = rows.length - shown.length;
+    shown.sort(function (a, b) {
+      var ay = a[3] == null ? 9999 : a[3], by = b[3] == null ? 9999 : b[3];
+      return ay - by || a[0].localeCompare(b[0]);
+    });
+    var html = "";
+    shown.forEach(function (e) {
+      var id = "e" + e[7];
+      html += '<li id="' + id + '"><span class="yr' + (e[3] == null ? ' nd' : '') + '">' + fmtYear(e) + '</span><span><span class="tm">' + esc(e[0]) + '</span> <span class="ps">' + esc(e[1]) + '</span>' +
+        (q || !selected ? '<span class="rg">' + R[e[6]].num + '</span>' : '') +
+        '<span class="gl">' + esc(e[2]) + ' <span class="src" title="Source">' + SRC[e[5]] + '</span></span></span></li>';
+    });
+    listEl.innerHTML = html;
+    noteEl.textContent = q ? (shown.length + " match" + (shown.length === 1 ? "" : "es") + (later ? " · " + later + " more after " + year : "")) :
+      (later ? later + " more " + (later === 1 ? "fuck arrives" : "fucks arrive") + " after " + year + ". Drag the year forward." : "");
+  }
+
+  /* ---------- tally + era ---------- */
+  function drawTally() {
+    var n = totalAt(year);
+    document.getElementById("found").textContent = n;
+    document.getElementById("foundLbl").textContent = year >= YMAX ? "fucks found" : "fucks found by " + year;
+    document.getElementById("lands").textContent = order.filter(function (o) { return countAt(o.k, year) > 0; }).length;
+    document.getElementById("yearOut").textContent = year;
+    document.getElementById("plateYear").textContent = year >= YMAX ? "as surveyed, 2026" : "as of " + year;
+    var era = ERAS[0][1];
+    for (var i = 0; i < ERAS.length; i++) if (year >= ERAS[i][0]) era = ERAS[i][1];
+    document.getElementById("era").textContent = era;
+  }
+
+  function render(light) { drawRose(); drawGrowth(); drawTally(); if (!light) { drawGaz(); drawCard(); drawList(); } }
+  function setYear(y, light) { year = Math.max(YMIN, Math.min(YMAX, y)); yearIn.value = year; render(light); }
+  function select(k, scroll) {
+    selected = k; query = ""; document.getElementById("q").value = "";
+    render();
+    if (scroll && k) {
+      var card = document.getElementById("card");
+      if (card.getBoundingClientRect().top > window.innerHeight * 0.8) card.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+
+  yearIn.addEventListener("input", function () { stopPlay(); setYear(+yearIn.value); });
+  document.getElementById("q").addEventListener("input", function (ev) { query = ev.target.value; drawList(); });
+
+  /* ---------- random ---------- */
+  document.getElementById("rand").addEventListener("click", function () {
+    var pool = D.filter(function (e) { return e[3] == null ? year >= YMAX : e[3] <= year; });
+    var e = pool[Math.floor(Math.random() * pool.length)];
+    selected = e[6]; query = ""; document.getElementById("q").value = "";
+    render();
+    var li = document.getElementById("e" + e[7]);
+    if (li) { li.scrollIntoView({ behavior: "smooth", block: "center" }); li.classList.remove("flash"); void li.offsetWidth; li.classList.add("flash"); }
+  });
+
+  /* ---------- fucks given ---------- */
+  document.getElementById("given").addEventListener("click", function () {
+    var z = document.getElementById("zeroNote");
+    z.classList.add("on");
+    setTimeout(function () { z.classList.remove("on"); }, 2200);
+  });
+
+  /* ---------- play ---------- */
+  var playBtn = document.getElementById("play"), raf = null, t0 = 0;
+  // piecewise time: 1300→1850 in 3.5s, 1850→2026 in 10s
+  function yearAtTime(ms) {
+    if (ms < 3500) return Math.round(1300 + (1850 - 1300) * ms / 3500);
+    return Math.round(1850 + (2026 - 1850) * Math.min(1, (ms - 3500) / 10000));
+  }
+  function frame(ts) {
+    if (!t0) t0 = ts;
+    var y = yearAtTime(ts - t0);
+    if (y !== year) setYear(y, true);
+    if (y >= YMAX) { stopPlay(); render(); return; }
+    raf = requestAnimationFrame(frame);
+  }
+  function stopPlay() { var was = !!raf; if (raf) cancelAnimationFrame(raf); raf = null; t0 = 0; playBtn.textContent = "▶ Play"; if (was) render(); }
+  playBtn.addEventListener("click", function () {
+    if (raf) { stopPlay(); return; }
+    select(null, false); setYear(YMIN);
+    playBtn.textContent = "❚❚ Stop";
+    raf = requestAnimationFrame(frame);
+  });
+
+  buildGrowth();
+  render();
+})();
+</script>
+</body>
+</html>

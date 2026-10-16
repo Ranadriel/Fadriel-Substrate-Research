@@ -219,7 +219,9 @@ Specimens at [`mad_science_of_nothing/lab/`](./mad_science_of_nothing/lab/) — 
 
 The second satirical companion. The Mad Science of Nothing's lens, aimed at one word.
 
-**→ [The Fuckery That Is Fuck](./the_fuckery_that_is_fuck/The%20Fuckery%20That%20Is%20Fuck.html)** — a word analysis in thirteen specimens: origins, grammar, sound, censorship, pain, the brain, and the courts. The finding: the word's force lives everywhere except its meaning.
+**→ [The Fuckery That Is Fuck](./the_fuckery_that_is_fuck/The%20Fuckery%20That%20Is%20Fuck.html)** — a word analysis in nineteen specimens: origins, grammar, sound, censorship, pain, the brain, the courts, and five centuries of history from the 1310 court roll to *Let's Go Brandon*. The finding: the word's force lives everywhere except its meaning.
+
+**→ [The Atlas of Fuck](./the_fuckery_that_is_fuck/The%20Atlas%20of%20Fuck.html)** — goal: find all the fucks. A census of 391 recorded senses, compounds, phrases, acronyms and disguises, each dated to its first appearance in writing and mapped into thirteen territories of meaning, with a year slider from 1300 to now.
 
 ---
 

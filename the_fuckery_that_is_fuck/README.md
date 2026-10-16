@@ -2,7 +2,14 @@
 
 *A word analysis.* Collected by Rana. Second satirical companion to [The Mad Science of Nothing](../mad_science_of_nothing/), from the same Institute of Negative Space (Department of Lexical Forensics).
 
-**Open:** [`The Fuckery That Is Fuck.html`](./The%20Fuckery%20That%20Is%20Fuck.html). A single self-contained page with no build step; it works offline apart from web fonts.
+**Goal: find all the fucks.**
+
+## Open
+
+- [`The Fuckery That Is Fuck.html`](./The%20Fuckery%20That%20Is%20Fuck.html): the analysis, in nineteen specimens.
+- [`The Atlas of Fuck.html`](./The%20Atlas%20of%20Fuck.html): the census, as a map. 391 recorded senses, compounds, phrases, acronyms and disguises, each dated to its first appearance in writing and sorted into thirteen territories of meaning. A year slider runs from 1300 to now; press play to watch one word for one act spread across the language.
+
+Both are single self-contained pages with no build step. They work offline apart from web fonts.
 
 ## The thesis
 
@@ -17,6 +24,10 @@ The meaning of this word is the least important thing about it. Each specimen se
 | Overuse it | The charge drains |
 | Destroy the language (aphasia) | Meaning goes; the swear stays |
 | Outlaw it | The court grabs air |
+| Ban it from print (1857–1960s) | It multiplies underground: 12 senses by 1700, 39 by 1900 |
+| Say it constantly (the 1914–18 trenches) | It means nothing; leaving it out signals danger |
+| Rule that it only means sex (FCC, 2004) | 304 of 391 recorded senses have nothing to do with sex |
+| Shrink it to an asterisk | It still delivers the whole word |
 
 That is the via negativa: a hollow word with perfect structure.
 
@@ -42,6 +53,20 @@ That is the via negativa: a hollow word with perfect structure.
 **Part Four · The Ledger**
 - XII. The word in print: dictionaries, *Ulysses*, *Lady Chatterley*, the BBC, the OED
 - XIII. The word in court: *Cohen*, Carlin, *Pacifica*, *Fox*, *Brunetti*
+
+**Part Five · The Long March**
+- XIV. The underground centuries: 1500–1913, banned from print and multiplying in speech
+- XV. The war that emptied the word: the trenches, Brophy's observation, SNAFU, the novelists' stand-ins
+- XVI. The permission slip: film, punk, Watergate's ratfucking, *frack*, the F-bomb, FCUK
+- XVII. The state rules on what fuck means: Bono, the FCC's 2004 order, and the census's answer
+- XVIII. Asterisks and acronyms: WTF to FAFO, Cheney, Biden, Fugging, Let's Go Brandon
+- XIX. All the fucks: the census, and the link to the Atlas
+
+## The Atlas: method
+
+The census walks every headword in Green's Dictionary of Slang that begins with *fuck*, from *fuck, n.* to *fuck you!*, plus the related entries built around it (*motherfucker*, *clusterfuck*, *mindfuck*, *star-fucker*, *rat fuck*, *SNAFU*, *FUBAR*, *FAFO*, *effing*, *feck*), and disguises recorded by other sources. Each numbered sense counts as its own fuck. Dates are earliest citations, so they mark when a sense was first written down, not first said. Where another source dates something earlier than Green's, the earlier date is used. Ten compounds are counted but undated because their citation dates couldn't be retrieved. Glosses are original.
+
+The thirteen territories, in the order they were settled: the Carnal Lands, the Fog of Euphemism, the Intensifier Sea, the Void, the Dismissal Coast, the Insult Badlands, the Ruinlands, the Exclamation Peaks, the Idle Marshes, the Altered States, the Warm Springs, the Acronym Archipelago, and the Placeholder Plains.
 
 ## Rigor
 
