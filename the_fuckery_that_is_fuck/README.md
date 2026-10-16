@@ -7,7 +7,7 @@
 ## Open
 
 - [`The Fuckery That Is Fuck.html`](./The%20Fuckery%20That%20Is%20Fuck.html): the analysis, in nineteen specimens.
-- [`The Atlas of Fuck.html`](./The%20Atlas%20of%20Fuck.html): the census, as a map. 391 recorded senses, compounds, phrases, acronyms and disguises, each dated to its first appearance in writing and sorted into thirteen territories of meaning. A year slider runs from 1300 to now; press play to watch one word for one act spread across the language.
+- [`The Atlas of Fuck.html`](./The%20Atlas%20of%20Fuck.html): the census, as a map. 408 recorded senses, compounds, phrases, acronyms and disguises, each dated to its first appearance in writing and sorted into thirteen territories of meaning. A year slider runs from 1300 to now; press play to watch one word for one act spread across the language.
 
 Both are single self-contained pages with no build step. They work offline apart from web fonts.
 
@@ -26,7 +26,7 @@ The meaning of this word is the least important thing about it. Each specimen se
 | Outlaw it | The court grabs air |
 | Ban it from print (1857–1960s) | It multiplies underground: 12 senses by 1700, 39 by 1900 |
 | Say it constantly (the 1914–18 trenches) | It means nothing; leaving it out signals danger |
-| Rule that it only means sex (FCC, 2004) | 304 of 391 recorded senses live outside the Carnal Lands |
+| Rule that it only means sex (FCC, 2004) | 306 of 408 recorded senses live outside the Carnal Lands |
 | Shrink it to an asterisk | It still delivers the whole word |
 
 That is the via negativa: a hollow word with perfect structure.
@@ -64,7 +64,7 @@ That is the via negativa: a hollow word with perfect structure.
 
 ## The Atlas: method
 
-The census walks every headword in Green's Dictionary of Slang that begins with *fuck*, from *fuck, n.* to *fuck you!*, plus the related entries built around it (*motherfucker*, *clusterfuck*, *mindfuck*, *star-fucker*, *rat fuck*, *SNAFU*, *FUBAR*, *FAFO*, *effing*, *feck*), and disguises recorded by other sources. Each numbered sense counts as its own fuck. Dates are earliest citations, so they mark when a sense was first written down, not first said. Where another source dates something earlier than Green's, the earlier date is used. Ten compounds are counted but undated because their citation dates couldn't be retrieved. Glosses are original.
+The census walks every headword in Green's Dictionary of Slang that begins with *fuck*, from *fuck, n.* to *fuck you!*, plus the related entries built around it (*motherfucker*, *clusterfuck*, *mindfuck*, *star-fucker*, *rat fuck*, *SNAFU*, *FUBAR*, *FAFO*, *effing*, *feck*), and disguises recorded by other sources. Each numbered sense counts as its own fuck. Dates are earliest citations, so they mark when a sense was first written down, not first said. Where another source dates something earlier than Green's, the earlier date is used. Twenty-seven entries, mostly compounds Green's lists late in its *fuck, n.* entry, are counted but undated because their citation dates couldn't be retrieved. Glosses are original.
 
 The thirteen territories, in the order they were settled: the Carnal Lands, the Fog of Euphemism, the Intensifier Sea, the Void, the Dismissal Coast, the Insult Badlands, the Ruinlands, the Exclamation Peaks, the Idle Marshes, the Altered States, the Warm Springs, the Acronym Archipelago, and the Placeholder Plains.
 
