@@ -4,12 +4,12 @@
 
 ## Totals
 
-- **1,526 fucks** in the census: distinct senses, compounds, phrases, acronyms and disguises.
-- By pass: **750** from Green's Dictionary of Slang and the other sources of passes 1–4; **555** found through Wiktionary (pass 5); **221** from pass 6, back in Green's: 198 stand-ins and acronyms that never spell the word, and 23 second-word fucks the earlier searches missed.
-- By whose date they carry: 985 Green's (including 53 of the Wiktionary finds, which turned out to be in Green's under disguised headwords), 502 Wiktionary's, 17 Green's dated by Wiktionary, and 22 from other sources.
-- **1,215** of them (80%) live outside the Carnal Lands. The biggest territory is now the Fog of Euphemism (332), ahead of the Carnal Lands (311).
-- **1,204** are dated. 265 of those dates are marked *by*: the earliest quotation Wiktionary gives, which is the latest a sense can have appeared, not its first use (248 Wiktionary fucks, and 17 of Green's whose own dates couldn't be loaded).
-- **322** are found but undated: 67 of Green's, 1 of FOLDOC's, 254 of Wiktionary's (see the last section, and the n.d. rows in the Wiktionary table).
+- **1,540 fucks** in the census: distinct senses, compounds, phrases, acronyms and disguises.
+- By pass: **750** from Green's Dictionary of Slang and the other sources of passes 1–4; **555** found through Wiktionary (pass 5); **235** from pass 6 and the third round of pass 3, back in Green's: 198 stand-ins and acronyms that never spell the word, and 37 second-word fucks the earlier searches missed.
+- By whose date they carry: 1,000 Green's (including 54 of the Wiktionary finds, which turned out to be in Green's under headwords no search for the word reached), 501 Wiktionary's, 17 Green's dated by Wiktionary, and 22 from other sources.
+- **1,221** of them (79%) live outside the Carnal Lands. The biggest territory is now the Fog of Euphemism (332), ahead of the Carnal Lands (319).
+- **1,212** are dated. 265 of those dates are marked *by*: the earliest quotation Wiktionary gives, which is the latest a sense can have appeared, not its first use (248 Wiktionary fucks, and 17 of Green's whose own dates couldn't be loaded).
+- **328** are found but undated: 74 of Green's, 1 of FOLDOC's, 253 of Wiktionary's (see the last section, and the n.d. rows in the Wiktionary table).
 
 ## Pass 1 · The headword walk
 
@@ -463,9 +463,13 @@ Searched, nothing found: `artfuck`, `birdfuck`, `bitchfuck`, `brotherfuck`, `cat
 
 What this round shows: the first round's list of first elements missed 32 of Green's fucks. What it can't show is a phrase Green's files under some other first word that Wiktionary doesn't have either.
 
-### Pass 3, third round: 286 more first elements
+### Pass 3, third round: 558 more first-element searches
 
-Pass 6 kept tripping over second-word fucks filed under first words nobody had searched: *buddy-fuck* (four senses), *mammy-fucker*, *mammyfucking*, *mummyfucker*, *mofuck*, *mudfuck*. So 286 more first elements were searched the same way (`buddyfuck`, `moosefuck`…): friend words, more kin forms, people and peoples, animals, body parts, objects and places. 16 searches hit. The 23 fucks found across pass 6 and this round, now counted:
+Pass 6 kept tripping over second-word fucks filed under first words nobody had searched: *buddy-fuck* (four senses), *mammy-fucker*, *mammyfucking*, *mummyfucker*, *mofuck*, *mudfuck*. So the sweep was run again, wider. First, 286 more first elements (`buddyfuck`, `moosefuck`…): friend words, more kin forms, people and peoples, animals, body parts, objects and places. Then 272 more: adjectives, verbs, question words, function words and pronouns, each as `Efuck`, the verbs and question words also as `Ethefuck` (`talkthefuck`), plus phrase shapes such as `throwafuck`, `onthefuck` and `notworth`.
+
+That second batch reached something the first two rounds couldn't: phrases filed inside *fuck, n.* past the point its page can be loaded, which start with some other word. *talk fuck*, *throw a fuck*, *throw a fuck into* (two senses), *get the fuck* (to be sacked), *on the fuck* and *to fuck* are all there, found one at a time through the search. Their glosses are in Green's search index; their dates are on the unread part of the page, so they're counted undated (see the last section).
+
+The 37 fucks found across pass 6 and this round, now counted:
 
 | term | pos | gloss | territory | first date |
 |---|---|---|---|---|
@@ -474,10 +478,20 @@ Pass 6 kept tripping over second-word fucks filed under first words nobody had s
 | buddy-fuck | v. | to have sex with a friend, not a lover | Carnal Lands | 2002 |
 | bunny fuck | n. | (US) quick, spontaneous sex | Carnal Lands | 2020 |
 | bunny fuck | v. | (US) to have quick sex | Carnal Lands | 1967 |
+| double fuck | n. | sex with two penises inside one person at once | Carnal Lands | 1873 |
+| double-fuck | v. | to have two partners at once, or one partner two ways | Carnal Lands | 1898 |
 | gut-fucker | n. | a sodomite | Carnal Lands | 1890 |
 | nose fuck | v. | (US gay) to perform anilingus | Carnal Lands | 1982 |
+| on the fuck | phr. | working as a prostitute | Carnal Lands | n.d. |
+| talk fuck | v. | to talk dirty, about sex or during it | Carnal Lands | n.d. |
+| throw a fuck | v. | to offer oneself for sex | Carnal Lands | n.d. |
+| throw a fuck into | v. | to have anal or oral sex with someone | Carnal Lands | n.d. |
+| throw a fuck into | v. | to have sex with someone | Carnal Lands | n.d. |
+| well fucked and far from home | phr. | (of a man) carrying on an affair | Carnal Lands | 1984 |
 | mudfuck | v. | (US) to motherfuck, muddied: a general curse | Dismissal Coast | 2001 |
+| not fucking likely! | excl. | an emphatic no | Dismissal Coast | 2000 |
 | moose fuck! | excl. | an oath, from moose shit! | Exclamation Peaks | 1990 |
+| could fuck up a wet dream | phr. | said of someone who could ruin anything | Insult Badlands | 1969 |
 | granny fucker | n. | (NZ prison) a rapist of older women | Insult Badlands | 2001 |
 | mammy-fucker | n. | a motherfucker, mammy-style | Insult Badlands | 1969 |
 | mofuck | n. | a motherfucker, clipped | Insult Badlands | 1962 |
@@ -489,17 +503,19 @@ Pass 6 kept tripping over second-word fucks filed under first words nobody had s
 | possum fucker | n. | (Australian) a country-dweller | Insult Badlands | 2002 |
 | toad-fucker | n. | a term of derision | Insult Badlands | 1973 |
 | twat-fuck | n. | general abuse | Insult Badlands | 1998 |
+| everfucking | adj. | ever-loving, with the fuck put back: an intensifier | Intensifier Sea | 1978 |
 | mammyfucking | adj. | motherfucking, mammy-style | Intensifier Sea | 1977 |
 | mudfucking | adj. | (US) motherfucking, muddied | Intensifier Sea | 1995 |
+| to fuck | adv. | totally, as a general intensifier | Intensifier Sea | n.d. |
 | buddy-fuck | v. | to betray or impose on a friend | Ruinlands | 1966 |
+| get the fuck | v. | to be sacked | Ruinlands | n.d. |
+| not worth a fuck | phr. | worthless | Void | 1936 |
 
-Searched, something found: `mammyfuck`, `mummyfuck`, `muhfuck`, `muthafuck`, `mofuck`, `grannyfuck`, `buddyfuck`, `moosefuck`, `possumfuck`, `toadfuck`, `bunnyfuck`, `gutfuck`, `nosefuck`, `nutfuck`, `twatfuck`, `mudfuck`. (`muthafuck` only finds spellings of *motherfucker* already counted.)
+First batch (286). Searched, something found: `mammyfuck`, `mummyfuck`, `muhfuck`, `muthafuck`, `mofuck`, `grannyfuck`, `buddyfuck`, `moosefuck`, `possumfuck`, `toadfuck`, `bunnyfuck`, `gutfuck`, `nosefuck`, `nutfuck`, `twatfuck`, `mudfuck`. (`muthafuck` only finds spellings of *motherfucker* already counted.) Searched, nothing found (270): `abofuck`, `airfuck`, `alienfuck`, `angelfuck`, `apefuck`, `armfuck`, `auntiefuck`, `aussiefuck`, `autofuck`, `backfuck`, `bagfuck`, `ballfuck`, `ballsfuck`, `bankfuck`, `barnfuck`, `bathfuck`, `beachfuck`, `beanerfuck`, `beardfuck`, `bearfuck`, `beaverfuck`, `bedfuck`, `beerfuck`, `bikefuck`, `bishopfuck`, `boatfuck`, `bollockfuck`, `bonefuck`, `boobfuck`, `bookfuck`, `boongfuck`, `bootfuck`, `bosomfuck`, `bottlefuck`, `bottomfuck`, `boxfuck`, `brickfuck`, `bridefuck`, `brofuck`, `bruhfuck`, `budfuck`, `busfuck`, `cakefuck`, `calffuck`, `carfuck`, `chairfuck`, `cheekfuck`, `chestfuck`, `chimpfuck`, `chinfuck`, `chinkfuck`, `christfuck`, `chumfuck`, `clownfuck`, `cobberfuck`, `commiefuck`, `comradefuck`, `coonfuck`, `cooterfuck`, `couchfuck`, `crackerfuck`, `crackfuck`, `crotchfuck`, `crowfuck`, `cuzfuck`, `daddyfuck`, `dadfuck`, `dagofuck`, `deerfuck`, `devilfuck`, `dingofuck`, `dirtfuck`, `doorfuck`, `dudefuck`, `dustfuck`, `eelfuck`, `elbowfuck`, `elephantfuck`, `emufuck`, `ferretfuck`, `fieldfuck`, `firefuck`, `fishfuck`, `floorfuck`, `foxfuck`, `friendfuck`, `frogfuck`, `galfuck`, `gasfuck`, `gashfuck`, `gerbilfuck`, `ghostfuck`, `girlfuck`, `glassfuck`, `gobfuck`, `godfuck`, `gookfuck`, `goosefuck`, `gorillafuck`, `grampsfuck`, `grandmafuck`, `grandpafuck`, `granfuck`, `grassfuck`, `gringofuck`, `groinfuck`, `guyfuck`, `hairfuck`, `hayfuck`, `heartfuck`, `heelfuck`, `hellfuck`, `henfuck`, `hickfuck`, `hillbillyfuck`, `hipfuck`, `hogfuck`, `holefuck`, `homeboyfuck`, `homefuck`, `homiefuck`, `honkyfuck`, `housefuck`, `hubbyfuck`, `hunkyfuck`, `husbandfuck`, `icefuck`, `jailfuck`, `japfuck`, `jawfuck`, `jellyfuck`, `jockfuck`, `keyfuck`, `kikefuck`, `kittyfuck`, `kiwifuck`, `kneefuck`, `knifefuck`, `knobfuck`, `krautfuck`, `ladyfuck`, `lambfuck`, `lapfuck`, `legfuck`, `limeyfuck`, `lipfuck`, `lizardfuck`, `llamafuck`, `lordfuck`, `machinefuck`, `mafuck`, `mamafuck`, `mamfuck`, `manfuck`, `matefuck`, `mawfuck`, `meatfuck`, `mickfuck`, `minkfuck`, `molefuck`, `momfuck`, `mommafuck`, `mommyfuck`, `moneyfuck`, `monkfuck`, `moonfuck`, `muddafuck`, `mufffuck`, `mulefuck`, `mumfuck`, `muvverfuck`, `nanafuck`, `nanfuck`, `navelfuck`, `nazifuck`, `neckfuck`, `neighbourfuck`, `nephewfuck`, `niecefuck`, `nightfuck`, `nipfuck`, `nipplefuck`, `nunfuck`, `nutsfuck`, `officefuck`, `owlfuck`, `oxfuck`, `paddyfuck`, `pafuck`, `palfuck`, `papafuck`, `paperfuck`, `papfuck`, `pappyfuck`, `parrotfuck`, `partnerfuck`, `peckerfuck`, `phonefuck`, `polackfuck`, `pomfuck`, `pommyfuck`, `ponyfuck`, `popefuck`, `popfuck`, `powerfuck`, `prickfuck`, `priestfuck`, `prisonfuck`, `pupfuck`, `puppyfuck`, `rabbifuck`, `ragheadfuck`, `rainfuck`, `redneckfuck`, `roadfuck`, `robotfuck`, `rockfuck`, `roofuck`, `roomfuck`, `roosterfuck`, `ropefuck`, `rumpfuck`, `saintfuck`, `sandfuck`, `satanfuck`, `schoolfuck`, `sealfuck`, `sexfuck`, `sharkfuck`, `shoulderfuck`, `showerfuck`, `sisfuck`, `skunkfuck`, `skyfuck`, `snakefuck`, `snatchfuck`, `snowfuck`, `soapfuck`, `sockfuck`, `spicfuck`, `spookfuck`, `squirrelfuck`, `stoatfuck`, `strangerfuck`, `swanfuck`, `tafffuck`, `teenfuck`, `tigerfuck`, `toefuck`, `toothfuck`, `turkeyfuck`, `turtlefuck`, `vicarfuck`, `virginfuck`, `weaselfuck`, `wetbackfuck`, `whalefuck`, `whiteyfuck`, `widowfuck`, `wifefuck`, `wifeyfuck`, `wolffuck`, `womanfuck`, `wombatfuck`, `wopfuck`, `wormfuck`, `wristfuck`, `yankeefuck`, `yidfuck`, `zombiefuck`.
 
-Searched, nothing found (270): `abofuck`, `airfuck`, `alienfuck`, `angelfuck`, `apefuck`, `armfuck`, `auntiefuck`, `aussiefuck`, `autofuck`, `backfuck`, `bagfuck`, `ballfuck`, `ballsfuck`, `bankfuck`, `barnfuck`, `bathfuck`, `beachfuck`, `beanerfuck`, `beardfuck`, `bearfuck`, `beaverfuck`, `bedfuck`, `beerfuck`, `bikefuck`, `bishopfuck`, `boatfuck`, `bollockfuck`, `bonefuck`, `boobfuck`, `bookfuck`, `boongfuck`, `bootfuck`, `bosomfuck`, `bottlefuck`, `bottomfuck`, `boxfuck`, `brickfuck`, `bridefuck`, `brofuck`, `bruhfuck`, `budfuck`, `busfuck`, `cakefuck`, `calffuck`, `carfuck`, `chairfuck`, `cheekfuck`, `chestfuck`, `chimpfuck`, `chinfuck`, `chinkfuck`, `christfuck`, `chumfuck`, `clownfuck`, `cobberfuck`, `commiefuck`, `comradefuck`, `coonfuck`, `cooterfuck`, `couchfuck`, `crackerfuck`, `crackfuck`, `crotchfuck`, `crowfuck`, `cuzfuck`, `daddyfuck`, `dadfuck`, `dagofuck`, `deerfuck`, `devilfuck`, `dingofuck`, `dirtfuck`, `doorfuck`, `dudefuck`, `dustfuck`, `eelfuck`, `elbowfuck`, `elephantfuck`, `emufuck`, `ferretfuck`, `fieldfuck`, `firefuck`, `fishfuck`, `floorfuck`, `foxfuck`, `friendfuck`, `frogfuck`, `galfuck`, `gasfuck`, `gashfuck`, `gerbilfuck`, `ghostfuck`, `girlfuck`, `glassfuck`, `gobfuck`, `godfuck`, `gookfuck`, `goosefuck`, `gorillafuck`, `grampsfuck`, `grandmafuck`, `grandpafuck`, `granfuck`, `grassfuck`, `gringofuck`, `groinfuck`, `guyfuck`, `hairfuck`, `hayfuck`, `heartfuck`, `heelfuck`, `hellfuck`, `henfuck`, `hickfuck`, `hillbillyfuck`, `hipfuck`, `hogfuck`, `holefuck`, `homeboyfuck`, `homefuck`, `homiefuck`, `honkyfuck`, `housefuck`, `hubbyfuck`, `hunkyfuck`, `husbandfuck`, `icefuck`, `jailfuck`, `japfuck`, `jawfuck`, `jellyfuck`, `jockfuck`, `keyfuck`, `kikefuck`, `kittyfuck`, `kiwifuck`, `kneefuck`, `knifefuck`, `knobfuck`, `krautfuck`, `ladyfuck`, `lambfuck`, `lapfuck`, `legfuck`, `limeyfuck`, `lipfuck`, `lizardfuck`, `llamafuck`, `lordfuck`, `machinefuck`, `mafuck`, `mamafuck`, `mamfuck`, `manfuck`, `matefuck`, `mawfuck`, `meatfuck`, `mickfuck`, `minkfuck`, `molefuck`, `momfuck`, `mommafuck`, `mommyfuck`, `moneyfuck`, `monkfuck`, `moonfuck`, `muddafuck`, `mufffuck`, `mulefuck`, `mumfuck`, `muvverfuck`, `nanafuck`, `nanfuck`, `navelfuck`, `nazifuck`, `neckfuck`, `neighbourfuck`, `nephewfuck`, `niecefuck`, `nightfuck`, `nipfuck`, `nipplefuck`, `nunfuck`, `nutsfuck`, `officefuck`, `owlfuck`, `oxfuck`, `paddyfuck`, `pafuck`, `palfuck`, `papafuck`, `paperfuck`, `papfuck`, `pappyfuck`, `parrotfuck`, `partnerfuck`, `peckerfuck`, `phonefuck`, `polackfuck`, `pomfuck`, `pommyfuck`, `ponyfuck`, `popefuck`, `popfuck`, `powerfuck`, `prickfuck`, `priestfuck`, `prisonfuck`, `pupfuck`, `puppyfuck`, `rabbifuck`, `ragheadfuck`, `rainfuck`, `redneckfuck`, `roadfuck`, `robotfuck`, `rockfuck`, `roofuck`, `roomfuck`, `roosterfuck`, `ropefuck`, `rumpfuck`, `saintfuck`, `sandfuck`, `satanfuck`, `schoolfuck`, `sealfuck`, `sexfuck`, `sharkfuck`, `shoulderfuck`, `showerfuck`, `sisfuck`, `skunkfuck`, `skyfuck`, `snakefuck`, `snatchfuck`, `snowfuck`, `soapfuck`, `sockfuck`, `spicfuck`, `spookfuck`, `squirrelfuck`, `stoatfuck`, `strangerfuck`, `swanfuck`, `tafffuck`, `teenfuck`, `tigerfuck`, `toefuck`, `toothfuck`, `turkeyfuck`, `turtlefuck`, `vicarfuck`, `virginfuck`, `weaselfuck`, `wetbackfuck`, `whalefuck`, `whiteyfuck`, `widowfuck`, `wifefuck`, `wifeyfuck`, `wolffuck`, `womanfuck`, `wombatfuck`, `wopfuck`, `wormfuck`, `wristfuck`, `yankeefuck`, `yidfuck`, `zombiefuck`.
+Second batch (272). Searched, something found: `doublefuck` (double fuck, double-fuck, double-fucking (counted)); `couldfuck` (could fuck up a wet dream); `takeaflyingfuck` (take a flying fuck (counted)); `doifuck` (do I fuck! (counted)); `talkfuck` (talk fuck); `everfuck` (everfucking); `wellfuck` (well fucked and far from home); `throwafuck` (throw a fuck; throw a fuck into); `notworth` (not worth a fuck); `scarethefuck` (scare the fuck out of (counted)); `notfuck` (not fucking likely!); `getthefuck` (get the fuck; get the fuck out (counted); get the fuck out! (counted)); `forthefuck` (for the fuck of it (Wiktionary's, now dated)); `onthefuck` (on the fuck); `likeafuck` (like a fuck (cross-reference to like fuck)); `tofuck` (to fuck); `forfuck` (for fuck's sake! (counted)). Searched, nothing found (255): `sofafuck`, `speedfuck`, `stonefuck`, `streetfuck`, `sunfuck`, `tablefuck`, `tankfuck`, `teafuck`, `timefuck`, `toiletfuck`, `townfuck`, `treefuck`, `truckfuck`, `vodkafuck`, `wallfuck`, `warfuck`, `waterfuck`, `winefuck`, `woodfuck`, `wordfuck`, `workfuck`, `worldfuck`, `bigfuck`, `littlefuck`, `smallfuck`, `oldfuck`, `youngfuck`, `madfuck`, `crazyfuck`, `lazyfuck`, `deadfuck`, `coldfuck`, `hotfuck`, `wetfuck`, `hardfuck`, `softfuck`, `slowfuck`, `roughfuck`, `dirtyfuck`, `filthyfuck`, `badfuck`, `realfuck`, `truefuck`, `totalfuck`, `fullfuck`, `triplefuck`, `groupfuck`, `massfuck`, `megafuck`, `ultrafuck`, `happyfuck`, `angryfuck`, `lovefuck`, `courtesyfuck`, `dutyfuck`, `makeupfuck`, `breakupfuck`, `birthdayfuck`, `holidayfuck`, `christmasfuck`, `sundayfuck`, `fridayfuck`, `morningfuck`, `midnightfuck`, `drunkfuck`, `soberfuck`, `stonedfuck`, `egofuck`, `letfuck`, `cantfuck`, `wontfuck`, `willfuck`, `shallfuck`, `mayfuck`, `mightfuck`, `shouldfuck`, `wouldfuck`, `wouldntfuck`, `takefuck`, `makefuck`, `havefuck`, `befuck`, `seefuck`, `lookfuck`, `shutfuck`, `stopfuck`, `keepfuck`, `leavefuck`, `pissfuck`, `kissfuck`, `suckfuck`, `eatfuck`, `drinkfuck`, `buyfuck`, `sellfuck`, `runfuck`, `walkfuck`, `tellfuck`, `askfuck`, `sayfuck`, `thinkfuck`, `knowfuck`, `wherefuck`, `whenfuck`, `whyfuck`, `howfuck`, `whichfuck`, `whoeverfuck`, `whateverfuck`, `neverfuck`, `nowfuck`, `thenfuck`, `justfuck`, `onlyfuck`, `evenfuck`, `stillfuck`, `allfuck`, `nothingfuck`, `somethingfuck`, `somebodyfuck`, `nobodyfuck`, `everybodyfuck`, `somefuck`, `suchfuck`, `sofuck`, `toofuck`, `veryfuck`, `ahfuck`, `ehfuck`, `heyfuck`, `yofuck`, `hafuck`, `boofuck`, `uhfuck`, `umfuck`, `praisefuck`, `blessfuck`, `damnfuck`, `letthefuck`, `cantthefuck`, `wontthefuck`, `willthefuck`, `takethefuck`, `makethefuck`, `havethefuck`, `seethefuck`, `lookthefuck`, `shutthefuck`, `stopthefuck`, `keepthefuck`, `leavethefuck`, `kissthefuck`, `suckthefuck`, `eatthefuck`, `drinkthefuck`, `runthefuck`, `walkthefuck`, `talkthefuck`, `tellthefuck`, `askthefuck`, `saythefuck`, `thinkthefuck`, `knowthefuck`, `wherethefuck`, `whenthefuck`, `whythefuck`, `howthefuck`, `whichthefuck`, `willifuck`, `haveafuck`, `didifuck`, `whateverthefuck`, `throwfuck`, `getafuck`, `worthafuck`, `careafuck`, `dontcare`, `beatthefuck`, `knockthefuck`, `playfuck`, `raisefuck`, `jackfuck`, `bloodyfuck`, `slipafuck`, `pullafuck`, `putafuck`, `grabafuck`, `stealafuck`, `sneakafuck`, `wantafuck`, `goforafuck`, `copafuck`, `scoreafuck`, `giveafuckabout`, `knockafuck`, `layafuck`, `doafuck`, `illfuck`, `imfuck`, `itsfuck`, `thatsfuck`, `beatfuck`, `inthefuck`, `upforafuck`, `downtofuck`, `goodforafuck`, `fittofuck`, `readytofuck`, `outforafuck`, `onfuck`, `atfuck`, `byfuck`, `offuck`, `offfuck`, `downfuck`, `fromfuck`, `withfuck`, `intofuck`, `andfuck`, `butfuck`, `iffuck`, `thanfuck`, `onafuck`, `inafuck`, `forafuck`, `ofafuck`, `toafuck`, `withafuck`, `asafuck`, `outthefuck`, `upthefuck`, `allthefuck`, `tothefuck`, `likethefuck`, `offthefuck`, `atthefuck`, `poorfuck`, `sillyfuck`, `luckyfuck`, `sickfuck`, `smartfuck`, `lousyfuck`, `uglyfuck`, `richfuck`, `uselessfuck`, `wisefuck`, `tinkersfuck`, `greekfuck`, `swedishfuck`, `chinesefuck`, `dontfuck`, `youfuck`, `whofuck`, `whatfuck`, `nofuck`.
 
-Not searched yet (143), mostly adjectives, verbs, question words and objects: sofa, speed, stone, street, sun, table, tank, tea, time, toilet, town, tree, truck, vodka, wall, war, water, wine, wood, word, work, world, big, little, small, old, young, mad, crazy, lazy, dead, cold, hot, wet, hard, soft, slow, rough, dirty, filthy, bad, real, true, total, full, double, triple, group, mass, mega, ultra, happy, angry, love, courtesy, duty, makeup, breakup, birthday, holiday, christmas, sunday, friday, morning, midnight, drunk, sober, stoned, ego, let, cant, wont, will, shall, may, might, could, should, would, wouldnt, take, make, have, be, see, look, shut, stop, keep, leave, piss, kiss, suck, eat, drink, buy, sell, run, walk, talk, tell, ask, say, think, know, where, when, why, how, which, whoever, whatever, never, ever, now, then, just, only, even, still, all, nothing, something, somebody, nobody, everybody, some, such, so, too, very, well, ah, eh, hey, yo, ha, boo, uh, um, praise, bless, damn.
-
-What this round shows: the gaps were real, and they sit under ordinary first words (*buddy*, *moose*, *toad*, *nut*). The 143 still unsearched could hold more.
+What this round shows: the gaps were real, and they sit under ordinary first words (*buddy*, *moose*, *toad*, *talk*, *throw*). The list of first words can't be exhaustive, so neither can this sweep.
 
 ## Pass 4 · Disguises from other sources
 
@@ -536,11 +552,11 @@ The vulgar tag misses most stand-ins, so two more Wiktionary categories were rea
 
 All 527 headwords behind the new entries and behind Green's undated ones were looked up in Wiktionary, and every page that exists was read for the earliest quotation of each sense. (Most of Green's undated words have no Wiktionary page at all.) 278 Wiktionary fucks and 17 of Green's got a date this way, and four more senses turned up on the pages (*daughterfucker* as plain abuse, *fatherfucker* as incest, *fuckarounditis* outside the gym, *fuck zone* as a verb) along with *fug!* as an exclamation. A date read this way is marked *by*, because Wiktionary quotes examples, not first uses: *fuck the dog*, “to loaf on the job,” sits at 2022 only because that is the oldest quotation Wiktionary has for it. 277 Wiktionary senses have no dated quotation at all, and stay undated.
 
-Pass 6 later found 53 of these Wiktionary fucks in Green's, under headwords no search for the word could reach, and gave them Green's dates: 23 that had none, and 30 whose *by* dates Green's beats. 254 Wiktionary senses are still undated.
+Pass 6 and the third round of pass 3 later found 54 of these Wiktionary fucks in Green's, under headwords no search for the word could reach, and gave them Green's dates: 24 that had none, and 30 whose *by* dates Green's beats. 253 Wiktionary senses are still undated.
 
 ### The 555 fucks found through Wiktionary
 
-A date marked *(Green's)* was found in Green's in pass 6, under a headword no search for the word reached.
+A date marked *(Green's)* was found in Green's later (pass 6, or the third round of pass 3), under a headword no search for the word reached.
 
 | term | pos | gloss | territory | first date |
 |---|---|---|---|---|
@@ -1091,7 +1107,7 @@ A date marked *(Green's)* was found in Green's in pass 6, under a headword no se
 | sleep-fuck | v. | to deprive someone of sleep | Ruinlands | by 2014 |
 | turbofucked | adj. | extremely fucked, in every sense | Ruinlands | by 2017 |
 | upfuckery | n. | chaos, a severe mess | Ruinlands | by 2015 |
-| for the fuck of it | phr. | for the hell of it | Void | n.d. |
+| for the fuck of it | phr. | for the hell of it | Void | 1993 (Green’s) |
 | fuck if I know | phr. | no idea whatsoever | Void | by 2008 |
 | fuckola | n. | the least concern: not a fuck | Void | by 1996 |
 | a-fucking-men | excl. | amen, with emphasis | Warm Springs | by 2011 |
@@ -1144,7 +1160,7 @@ Passes 1 to 3 search Green's for the word, so they can't find a fuck that never 
 
 **What it found.** 198 new fucks: 19 in rhyming slang, 28 acronyms and initialisms, and 151 euphemisms and respellings, 66 of them disguised motherfuckers (Green's earliest *mother-* euphemism is *mother-plugger*, 1929). The oldest are Victorian: *muck!* and *mucking* (1880) and the rhyming *goose and duck* (1889). Three of the acronyms are older than the Second World War's SNAFU: *L.F.F.*, "luck, fuck and a fiver", an Edwardian toast (1908); the Australian soldiers' *f.f.f.*, "frigged, fucked and far from home" (1919); and *f.n.g.*, "fucking new guy" (1935). So the Acronym Archipelago is now settled in 1908, not 1941.
 
-**Redated.** 57 rows got earlier dates from Green's: 53 of Wiktionary's finds, three disguises from other sources, and one of Green's own rows (*MF*, n.), corrected from 1980 to 1959.
+**Redated.** 58 rows got earlier dates from Green's: 54 of Wiktionary's finds (one of them, *for the fuck of it*, found in the third round of pass 3), three disguises from other sources, and one of Green's own rows (*MF*, n.), corrected from 1980 to 1959.
 
 | term | pos | gloss | was | now |
 |---|---|---|---|---|
@@ -1167,6 +1183,7 @@ Passes 1 to 3 search Green's for the word, so they can't find a fuck that never 
 | flogging | adj. | fucking, as an intensifier | by 1955 (Wiktionary) | 1928 |
 | FO | excl. | fuck off | n.d. (Wiktionary) | 1947 |
 | FOAD | phr. | fuck off and die | by 2006 (Wiktionary) | 1983 |
+| for the fuck of it | phr. | for the hell of it | n.d. (Wiktionary) | 1993 |
 | fornicating | adj. | fucking, in Latinate dress | by 1958 (Wiktionary) | 1833 |
 | freaking | adj. | fucking, softened | n.d. (Wiktionary) | 1928 |
 | frick | excl. | fuck!, softened | n.d. (Wiktionary) | 1991 |
@@ -1411,7 +1428,7 @@ Passes 1 to 3 search Green's for the word, so they can't find a fuck that never 
 
 ## The undated
 
-322 fucks are counted without a date. 254 are Wiktionary's, marked n.d. in the Wiktionary table above: their pages give no dated quotation for those senses. One is FOLDOC's. The other 67 are Green's, listed here; for these, Wiktionary either has no page or gives no dated quotation. Green’s longest entries (*fuck, n.*; *fuck, v.*; and a few others, such as *cunt, n.* and *monkey, n.*) run past the length the survey’s fetching tools can load, and the page text cuts off partway through. What sits past the cut can still be found (Green’s search index lists every sub-entry, with its gloss), but its quotations, and so its first date, can’t be read. A browser that renders the whole page would recover them.
+328 fucks are counted without a date. 253 are Wiktionary's, marked n.d. in the Wiktionary table above: their pages give no dated quotation for those senses. One is FOLDOC's. The other 74 are Green's, listed here (seven of them, found by the third round of pass 3, are senses of six phrases filed at the end of *fuck, n.*); for these, Wiktionary either has no page or gives no dated quotation. Green’s longest entries (*fuck, n.*; *fuck, v.*; and a few others, such as *cunt, n.* and *monkey, n.*) run past the length the survey’s fetching tools can load, and the page text cuts off partway through. What sits past the cut can still be found (Green’s search index lists every sub-entry, with its gloss), but its quotations, and so its first date, can’t be read. A browser that renders the whole page would recover them.
 
 | term | part of speech | gloss | territory | why undated |
 |---|---|---|---|---|
@@ -1483,3 +1500,10 @@ Passes 1 to 3 search Green's for the word, so they can't find a fuck that never 
 | fuckstick! | excl. | irritation | Exclamation Peaks | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | sweet fucking Jesus! | excl. | annoyance and surprise | Exclamation Peaks | filed under *sweet, adj.*, past the loadable part of that page |
 | oh my fuck! | excl. | surprise, amazement | Exclamation Peaks | filed late in Green’s *fuck, n.*, past the point that page could be loaded |
+| get the fuck | v. | to be sacked | Ruinlands | filed late in Green’s *fuck, n.*, past the point that page could be loaded |
+| on the fuck | phr. | working as a prostitute | Carnal Lands | filed late in Green’s *fuck, n.*, past the point that page could be loaded |
+| talk fuck | v. | to talk dirty, about sex or during it | Carnal Lands | filed late in Green’s *fuck, n.*, past the point that page could be loaded |
+| throw a fuck | v. | to offer oneself for sex | Carnal Lands | filed late in Green’s *fuck, n.*, past the point that page could be loaded |
+| throw a fuck into | v. | to have anal or oral sex with someone | Carnal Lands | filed late in Green’s *fuck, n.*, past the point that page could be loaded |
+| throw a fuck into | v. | to have sex with someone | Carnal Lands | filed late in Green’s *fuck, n.*, past the point that page could be loaded |
+| to fuck | adv. | totally, as a general intensifier | Intensifier Sea | filed late in Green’s *fuck, n.*, past the point that page could be loaded |
