@@ -215,6 +215,14 @@ Specimens at [`mad_science_of_nothing/lab/`](./mad_science_of_nothing/lab/) — 
 
 ---
 
+## XIII. THE FUCKERY THAT IS FUCK
+
+The second satirical companion. The Mad Science of Nothing's lens, aimed at one word.
+
+**→ [The Fuckery That Is Fuck](./the_fuckery_that_is_fuck/The%20Fuckery%20That%20Is%20Fuck.html)** — a word analysis in thirteen specimens: origins, grammar, sound, censorship, pain, the brain, and the courts. The finding: the word's force lives everywhere except its meaning.
+
+---
+
 ## How to Read This Book
 
 1. **Start with [WHY IS PHI](./docs/architecture/WHY_IS_PHI.md)** — it is the single load-bearing claim under everything else.
