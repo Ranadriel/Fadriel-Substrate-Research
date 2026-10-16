@@ -6,10 +6,10 @@
 
 - **1,540 fucks** in the census: distinct senses, compounds, phrases, acronyms and disguises.
 - By pass: **750** from Green's Dictionary of Slang and the other sources of passes 1–4; **555** found through Wiktionary (pass 5); **235** from pass 6 and the third round of pass 3, back in Green's: 198 stand-ins and acronyms that never spell the word, and 37 second-word fucks the earlier searches missed.
-- By whose date they carry: 1,000 Green's (including 54 of the Wiktionary finds, which turned out to be in Green's under headwords no search for the word reached), 501 Wiktionary's, 17 Green's dated by Wiktionary, and 22 from other sources.
+- By whose date they carry: 962 Green's own (including 54 of the Wiktionary finds, which turned out to be in Green's under headwords no search for the word reached), 501 Wiktionary's, 17 Green's dated by Wiktionary, 38 Green's dated by Urban Dictionary, and 22 from other sources.
 - **1,221** of them (79%) live outside the Carnal Lands. The biggest territory is now the Fog of Euphemism (332), ahead of the Carnal Lands (319).
-- **1,212** are dated. 265 of those dates are marked *by*: the earliest quotation Wiktionary gives, which is the latest a sense can have appeared, not its first use (248 Wiktionary fucks, and 17 of Green's whose own dates couldn't be loaded).
-- **328** are found but undated: 74 of Green's, 1 of FOLDOC's, 253 of Wiktionary's (see the last section, and the n.d. rows in the Wiktionary table).
+- **1,250** are dated. 303 of those dates are marked *by*: the earliest record a source gives, which is the latest a sense can have appeared, not its first use (248 Wiktionary fucks; 17 of Green's dated by Wiktionary and 38 by Urban Dictionary, because their own dates couldn't be loaded).
+- **290** are found but undated: 36 of Green's, 1 of FOLDOC's, 253 of Wiktionary's (see the last section, and the n.d. rows in the Wiktionary table).
 
 ## Pass 1 · The headword walk
 
@@ -1140,6 +1140,53 @@ These 17 are Green's, in entries too long to load past a certain point. Their da
 | not here to fuck spiders | phr. | (Australian) no time to waste; let’s get on with it | Idle Marshes | by 1997 |
 | sweet fuck all | n. | absolutely nothing | Void | by 1961 |
 
+### Green's fucks dated by Urban Dictionary
+
+These 38 are Green's too, all with dates on the part of its pages the survey's tools can't load, and none with a dated quotation in Wiktionary. Each was looked up in Urban Dictionary, and the earliest definition of the same sense on the first page of its listing gives a *by* date: the year someone had written the sense down by. Urban Dictionary opened in 1999, so these dates mark when the internet caught up with a word, not when the word began. A listing whose definitions were for a different sense, or for a different form of the word (*fucktunnel* for the vagina, not the anus; *fucker upper* for *fucker-up*), was not used.
+
+| term | pos | gloss | territory | date |
+|---|---|---|---|---|
+| fuck up | v. | to get someone drunk or high | Altered States | by 2004 |
+| fuck muscle | n. | the penis | Carnal Lands | by 2016 |
+| fuck sandwich | n. | a threesome, one partner in the middle | Carnal Lands | by 2011 |
+| fuck shaft | n. | the shaft of the penis | Carnal Lands | by 2007 |
+| fuck sock | n. | a sock pressed into service during masturbation | Carnal Lands | by 2006 |
+| fuck the shit out of someone | v. | to have forceful sex with someone | Carnal Lands | by 2006 |
+| fuck udders | n. | breasts | Carnal Lands | by 2004 |
+| fuck-in | n. | an orgy | Carnal Lands | by 2006 |
+| fuck-rod | n. | the penis | Carnal Lands | by 2007 |
+| fuck-sauce | n. | semen | Carnal Lands | by 2003 |
+| fuck-tool | n. | the penis | Carnal Lands | by 2017 |
+| fuckpig | n. | someone devoted to sexual indulgence | Carnal Lands | by 2003 |
+| fucktoy | n. | a person used purely for sex | Carnal Lands | by 2003 |
+| fuck that shit! | excl. | forceful rejection | Dismissal Coast | by 2003 |
+| fuck that! | excl. | dismissal, often with comic add-ons | Dismissal Coast | by 2003 |
+| fuck ’em all! | excl. | to hell with them | Dismissal Coast | by 2004 |
+| go fuck a duck! | excl. | get away; I don’t believe it | Dismissal Coast | by 2005 |
+| go fuck your mother! | excl. | a gravely offensive dismissal | Dismissal Coast | by 2023 |
+| fuck my luck! | excl. | disappointment | Exclamation Peaks | by 2006 |
+| fuck my old boots! | excl. | astonishment (military) | Exclamation Peaks | by 2005 |
+| fuckstick! | excl. | irritation | Exclamation Peaks | by 2021 |
+| oh my fuck! | excl. | surprise, amazement | Exclamation Peaks | by 2010 |
+| fuck the duck | v. | to loaf, take it easy | Idle Marshes | by 2010 |
+| chicken-fucker | n. | general abuse (bald-headed for emphasis) | Insult Badlands | by 2003 |
+| cuntfuck | n. | general abuse | Insult Badlands | by 2005 |
+| fuck job | n. | general abuse | Insult Badlands | by 2005 |
+| fuck-nut | n. | general abuse | Insult Badlands | by 2003 |
+| fucknob | n. | a stupid or disagreeable person | Insult Badlands | by 2003 |
+| fucknoodle | n. | a fool | Insult Badlands | by 2009 |
+| fuckpig | n. | derision, with a whiff of grubbiness | Insult Badlands | by 2003 |
+| fuckwad | n. | a contemptible fool | Insult Badlands | by 2003 |
+| goat-fucker | n. | a country bumpkin | Insult Badlands | by 2006 |
+| fuck ton | n. | a great many | Intensifier Sea | by 2003 |
+| monkey-fuck | v. | to light one cigarette from another | Placeholder Plains | by 2003 |
+| fuck job | n. | a stitch-up; an act of victimizing someone | Ruinlands | by 2021 |
+| fuck the dog | v. | to bungle | Ruinlands | by 2008 |
+| get the fuck | v. | to be sacked | Ruinlands | by 2008 |
+| fuck knows | phr. | nobody knows, nobody cares | Void | by 2008 |
+
+Looked up and not used: *fuck motel*, *fuck-nutty*, *fuck-oil*, *fuck-pit* (two senses), *fuck-plug* (two senses), *fuck prong*, *fuck-rubber*, *fuck show*, *fuck sweat*, *fuck-tunnel*, *fuck-struck* (two senses), *fucker-up*, *play fuckaround*, *fuck up someone's pussy*, *fuck-your-buddy week*, *fucks to*, *fuck the begrudgers!*, *fuck my days!*, *fuck my luck!* (disbelief), *fuck of a* (two senses), *fuckforbrains*, *like fucking hell*, *sweet fucking Jesus!*, *numbfuck* (Urban Dictionary has only the noun), *fuck one*, *on the fuck*, *talk fuck*, *throw a fuck*, *throw a fuck into* (two senses), *to fuck*. *fuck* in the sense "a large amount" wasn't looked up: the listing for the bare word runs to hundreds of definitions.
+
 ## Pass 6 · The stand-ins Green's files
 
 Passes 1 to 3 search Green's for the word, so they can't find a fuck that never spells it. Green's has a whole layer of those: rhyming slang, swapped words it marks as euphemisms, letter games and respellings. Pass 6 went looking for them three ways.
@@ -1428,79 +1475,41 @@ Passes 1 to 3 search Green's for the word, so they can't find a fuck that never 
 
 ## The undated
 
-328 fucks are counted without a date. 253 are Wiktionary's, marked n.d. in the Wiktionary table above: their pages give no dated quotation for those senses. One is FOLDOC's. The other 74 are Green's, listed here (seven of them, found by the third round of pass 3, are senses of six phrases filed at the end of *fuck, n.*); for these, Wiktionary either has no page or gives no dated quotation. Green’s longest entries (*fuck, n.*; *fuck, v.*; and a few others, such as *cunt, n.* and *monkey, n.*) run past the length the survey’s fetching tools can load, and the page text cuts off partway through. What sits past the cut can still be found (Green’s search index lists every sub-entry, with its gloss), but its quotations, and so its first date, can’t be read. A browser that renders the whole page would recover them.
+290 fucks are counted without a date. 253 are Wiktionary's, marked n.d. in the Wiktionary table above: their pages give no dated quotation for those senses. One is FOLDOC's. The other 36 are Green's, listed here (several are phrases filed at the end of *fuck, n.*, found by the third round of pass 3); for these, neither Wiktionary nor Urban Dictionary records the sense. (38 more of Green's undated fucks now carry an Urban Dictionary *by* date; see the table above.) Green’s longest entries (*fuck, n.*; *fuck, v.*; and a few others, such as *cunt, n.* and *monkey, n.*) run past the length the survey’s fetching tools can load, and the page text cuts off partway through. What sits past the cut can still be found (Green’s search index lists every sub-entry, with its gloss), but its quotations, and so its first date, can’t be read. A browser that renders the whole page would recover them.
 
 | term | part of speech | gloss | territory | why undated |
 |---|---|---|---|---|
-| fuck up | v. | to get someone drunk or high | Altered States | listed in Green’s *fuck up, v.* without a dated citation |
 | fuck motel | n. | a motel renting rooms by the hour | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck muscle | n. | the penis | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck prong | n. | the penis | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck sandwich | n. | a threesome, one partner in the middle | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck shaft | n. | the shaft of the penis | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck show | n. | a live sex show | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck sock | n. | a sock pressed into service during masturbation | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck sweat | n. | the smell of sex | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck the shit out of someone | v. | to have forceful sex with someone | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck udders | n. | breasts | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck-in | n. | an orgy | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck-nutty | adj. | obsessed with sex | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck-oil | n. | fluid of arousal | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck-pit | n. | the anus | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck-pit | n. | a place kept for sex | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck-plug | n. | a contraceptive diaphragm | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck-rod | n. | the penis | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck-rubber | n. | a condom | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck-sauce | n. | semen | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck-struck | adj. | obsessed with sex | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck-struck | adj. | dazed just after sex | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck-tool | n. | the penis | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck-tunnel | n. | the anus | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuckpig | n. | someone devoted to sexual indulgence | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fucktoy | n. | a person used purely for sex | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck that shit! | excl. | forceful rejection | Dismissal Coast | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck that! | excl. | dismissal, often with comic add-ons | Dismissal Coast | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck the begrudgers! | excl. | (Irish) defiance | Dismissal Coast | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck ’em all! | excl. | to hell with them | Dismissal Coast | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fucks to | phr. | to hell with… | Dismissal Coast | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| go fuck a duck! | excl. | get away; I don’t believe it | Dismissal Coast | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| go fuck your mother! | excl. | a gravely offensive dismissal | Dismissal Coast | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | like fucking hell | adv. | certainly not | Dismissal Coast | filed under *hell, n.*, past the loadable part of that page |
 | fsck | n. | a Unix command drafted as a stand-in on Usenet | Fog of Euphemism | FOLDOC gives no date |
 | fuck | n. | a large amount | Intensifier Sea | listed in Green’s *fuck, n.* (sense 2b) without citations |
 | fuck of a | phr. | a great deal of | Intensifier Sea | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck of a | phr. | general intensifier: a hell of a | Intensifier Sea | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck ton | n. | a great many | Intensifier Sea | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck the duck | v. | to loaf, take it easy | Idle Marshes | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| chicken-fucker | n. | general abuse (bald-headed for emphasis) | Insult Badlands | filed under *chicken, n.*, past the loadable part of that page |
-| cuntfuck | n. | general abuse | Insult Badlands | filed under *cunt, n.*, past the loadable part of that page |
-| fuck job | n. | general abuse | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck-nut | n. | general abuse | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck-plug | n. | general abuse | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuckforbrains | n. | general abuse | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fucknob | n. | a stupid or disagreeable person | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fucknoodle | n. | a fool | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuckpig | n. | derision, with a whiff of grubbiness | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuckwad | n. | a contemptible fool | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| goat-fucker | n. | a country bumpkin | Insult Badlands | filed under *goat, n.1*; dated citation not retrieved |
 | numbfuck | adj. | stupid | Insult Badlands | Green’s entry has no quotations (it only points to *numb, adj.*) |
 | fuck one | n. | the very beginning | Placeholder Plains | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| monkey-fuck | v. | to light one cigarette from another | Placeholder Plains | filed under *monkey, n.*, past the loadable part of that page |
-| fuck job | n. | a stitch-up; an act of victimizing someone | Ruinlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck the dog | v. | to bungle | Ruinlands | filed under Green’s *dog, n.2*, past the point where that page could be loaded |
 | fuck up someone’s pussy | v. | to spoil a friend’s chances with a woman | Ruinlands | filed under *pussy, n.*, past the loadable part of that page |
 | fuck-your-buddy week | n. | payback for a betrayal | Ruinlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fucker-up | n. | whatever ruins things | Ruinlands | listed in Green’s *fuck up, v.* without a dated citation |
 | play fuckaround | v. | to treat someone with contempt | Ruinlands | listed in Green’s *fuck-about, n.* without a dated citation |
-| fuck knows | phr. | nobody knows, nobody cares | Void | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck my days! | excl. | surprise, annoyance | Exclamation Peaks | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck my luck! | excl. | disappointment | Exclamation Peaks | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck my luck! | excl. | disbelief | Exclamation Peaks | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck my old boots! | excl. | astonishment (military) | Exclamation Peaks | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuckstick! | excl. | irritation | Exclamation Peaks | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | sweet fucking Jesus! | excl. | annoyance and surprise | Exclamation Peaks | filed under *sweet, adj.*, past the loadable part of that page |
-| oh my fuck! | excl. | surprise, amazement | Exclamation Peaks | filed late in Green’s *fuck, n.*, past the point that page could be loaded |
-| get the fuck | v. | to be sacked | Ruinlands | filed late in Green’s *fuck, n.*, past the point that page could be loaded |
 | on the fuck | phr. | working as a prostitute | Carnal Lands | filed late in Green’s *fuck, n.*, past the point that page could be loaded |
 | talk fuck | v. | to talk dirty, about sex or during it | Carnal Lands | filed late in Green’s *fuck, n.*, past the point that page could be loaded |
 | throw a fuck | v. | to offer oneself for sex | Carnal Lands | filed late in Green’s *fuck, n.*, past the point that page could be loaded |
