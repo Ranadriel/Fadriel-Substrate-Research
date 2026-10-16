@@ -4,10 +4,11 @@
 
 ## Totals
 
-- **1,203 fucks** in the census: distinct senses, compounds, phrases, acronyms and disguises.
-- **750** come from Green's Dictionary of Slang (725 rows) and the other sources of passes 1–4 (25 rows); **453** come from Wiktionary (pass 5).
-- **901** of them (75%) live outside the Carnal Lands.
-- **673** are dated. **530** are found but undated: 84 of Green's, 1 of FOLDOC's, 445 of Wiktionary's (see the last two sections).
+- **1,305 fucks** in the census: distinct senses, compounds, phrases, acronyms and disguises.
+- **750** come from Green's Dictionary of Slang (725 rows) and the other sources of passes 1–4 (25 rows); **555** come from Wiktionary (pass 5).
+- **1,001** of them (77%) live outside the Carnal Lands.
+- **960** are dated. 295 of those dates are marked *by*: the earliest quotation Wiktionary gives, which is the latest a sense can have appeared, not its first use (278 Wiktionary fucks, and 17 of Green's whose own dates couldn't be loaded).
+- **345** are found but undated: 67 of Green's, 1 of FOLDOC's, 277 of Wiktionary's (see the last section, and the n.d. rows in the Wiktionary table).
 
 ## Pass 1 · The headword walk
 
@@ -484,239 +485,347 @@ Left out, and why:
 
 Racial slurs that carry a fuck are listed with the slur starred and the fuck left whole.
 
-### The 453 Wiktionary fucks
+### Pass 5b · The disguises Wiktionary files
+
+The vulgar tag misses most stand-ins, so two more Wiktionary categories were read in full: *English minced oaths* (236 senses on 15 pages) and *English euphemisms* (1,959 senses on 42 pages). Every sense glossed as a stand-in for *fuck*, *fucking*, *fucker* or *motherfucker* was listed. 98 were new to the census, from *fuddle-duddle* (Pierre Trudeau's 1971 account of what he had mouthed in the House of Commons) to *mothertrucker*, *mollyfogging*, *nucking futs*, *shut the front door*, *whiskey tango foxtrot* and *refer someone to the reply given in Arkell v Pressdram*. The ones already counted (*effing*, *feck*, *F-word*, *F-bomb*, *frak*, *frack*, *fsck*, *Let's Go Brandon*) were left as they were.
+
+### Pass 5c · Every Wiktionary page, read for its dates
+
+All 527 headwords behind the new entries and behind Green's undated ones were looked up in Wiktionary, and every page that exists was read for the earliest quotation of each sense. (Most of Green's undated words have no Wiktionary page at all.) 278 Wiktionary fucks and 17 of Green's got a date this way, and four more senses turned up on the pages (*daughterfucker* as plain abuse, *fatherfucker* as incest, *fuckarounditis* outside the gym, *fuck zone* as a verb) along with *fug!* as an exclamation. A date read this way is marked *by*, because Wiktionary quotes examples, not first uses: *fuck the dog*, “to loaf on the job,” sits at 2022 only because that is the oldest quotation Wiktionary has for it. 277 Wiktionary senses have no dated quotation at all, and stay undated.
+
+### The 555 Wiktionary fucks
 
 | term | pos | gloss | territory | first date |
 |---|---|---|---|---|
-| brainfuck | n. | something that scrambles the mind | Altered States | n.d. |
-| brainfuck | v. | to scramble or manipulate a mind | Altered States | n.d. |
-| fucked in the head | adj. | not right mentally | Altered States | n.d. |
-| fuckered up | adj. | stoned, intoxicated | Altered States | n.d. |
-| headfuckery | n. | mind-scrambling material | Altered States | n.d. |
-| mindfuckery | n. | that which scrambles the mind | Altered States | n.d. |
-| mindfucky | adj. | mindfuck-ish | Altered States | 2011 |
-| alpha fucks, beta bucks | phr. | the claim that women sleep with one kind of man and marry the other | Carnal Lands | n.d. |
+| brainfuck | n. | something that scrambles the mind | Altered States | by 2004 |
+| brainfuck | v. | to scramble or manipulate a mind | Altered States | by 1999 |
+| fucked in the head | adj. | not right mentally | Altered States | by 2000 |
+| fuckered up | adj. | stoned, intoxicated | Altered States | by 1999 |
+| headfuckery | n. | mind-scrambling material | Altered States | by 2009 |
+| mindfuckery | n. | that which scrambles the mind | Altered States | by 2006 |
+| mindfucky | adj. | mindfuck-ish | Altered States | by 2011 |
+| alpha fucks, beta bucks | phr. | the claim that women sleep with one kind of man and marry the other | Carnal Lands | by 2018 |
 | bitchfuck | n. | sex with a female dog | Carnal Lands | n.d. |
-| bitchfuck | v. | to have rough, violent sex with | Carnal Lands | n.d. |
-| brotherfucker | n. | one who has sex with his or her brother | Carnal Lands | n.d. |
+| bitchfuck | v. | to have rough, violent sex with | Carnal Lands | by 1999 |
+| brotherfucker | n. | one who has sex with his or her brother | Carnal Lands | by 1963 |
 | brotherfucking | adj. | having sex with one’s brother | Carnal Lands | n.d. |
-| buttfuckable | adj. | fit for anal sex; attractive | Carnal Lands | n.d. |
+| buttfuckable | adj. | fit for anal sex; attractive | Carnal Lands | by 2000 |
 | chicken-fucker | n. | one who has sex with chickens | Carnal Lands | n.d. |
-| child-fucker | n. | a child molester | Carnal Lands | n.d. |
+| child-fucker | n. | a child molester | Carnal Lands | by 1975 |
 | corpsefucker | n. | a necrophile | Carnal Lands | n.d. |
 | cousinfucker | n. | one who has sex with a cousin | Carnal Lands | n.d. |
-| cousinfucking | adj. | incestuous | Carnal Lands | n.d. |
+| cousinfucking | adj. | incestuous | Carnal Lands | by 1998 |
 | cuntfuck | n. | an act of vaginal sex | Carnal Lands | n.d. |
 | cuntfuck | v. | to have vaginal sex | Carnal Lands | n.d. |
 | cuntfucker | n. | one who has vaginal sex | Carnal Lands | n.d. |
 | daughterfucker | n. | one who commits incest with a daughter | Carnal Lands | n.d. |
 | dogfucker | n. | one who has sex with dogs | Carnal Lands | n.d. |
 | fatherfucker | n. | a woman drawn to much older men | Carnal Lands | n.d. |
-| fingerfucker | n. | one who uses the fingers for sex | Carnal Lands | n.d. |
-| flip-fuck | v. | of two men, to take turns at top and bottom | Carnal Lands | 2007 |
+| fatherfucker | n. | one who commits incest with a father | Carnal Lands | by 1991 |
+| fingerfucker | n. | one who uses the fingers for sex | Carnal Lands | by 2008 |
+| flip-fuck | v. | of two men, to take turns at top and bottom | Carnal Lands | by 2007 |
 | footfuck | n. | penetration with the foot or toes | Carnal Lands | n.d. |
 | footfuck | v. | to penetrate with the foot or toes | Carnal Lands | n.d. |
-| footfucker | n. | one who penetrates with a foot | Carnal Lands | n.d. |
+| footfucker | n. | one who penetrates with a foot | Carnal Lands | by 2010 |
 | fuck and chuck | v. | to have sex and drop the partner at once | Carnal Lands | n.d. |
 | fuck flu | n. | flu-like symptoms of early HIV infection | Carnal Lands | n.d. |
-| fuck room | n. | a room kept for sex | Carnal Lands | n.d. |
-| fuck zone | n. | being kept as a friend only for the sex one might offer | Carnal Lands | n.d. |
-| fuckableness | n. | the quality of being fuckable | Carnal Lands | n.d. |
-| fuckably | adv. | in a fuckable way | Carnal Lands | n.d. |
+| fuck room | n. | a room kept for sex | Carnal Lands | by 1977 |
+| fuck zone | n. | being kept as a friend only for the sex one might offer | Carnal Lands | by 2018 |
+| fuck zone | v. | to file someone as sex only | Carnal Lands | n.d. |
+| fuckableness | n. | the quality of being fuckable | Carnal Lands | by 1982 |
+| fuckably | adv. | in a fuckable way | Carnal Lands | by 2008 |
 | fuckbait | n. | someone who has earned sex | Carnal Lands | n.d. |
 | fuckbot | n. | a sex robot | Carnal Lands | n.d. |
-| fuckbunny | n. | a sexually available woman | Carnal Lands | n.d. |
+| fuckbunny | n. | a sexually available woman | Carnal Lands | by 2009 |
 | fuckdoll | n. | a sex doll | Carnal Lands | n.d. |
-| fuckdoll | n. | a woman treated only as a sex object | Carnal Lands | n.d. |
+| fuckdoll | n. | a woman treated only as a sex object | Carnal Lands | by 1999 |
 | fuckfriend | n. | a fuck buddy | Carnal Lands | n.d. |
 | fuckhouse | n. | a brothel | Carnal Lands | n.d. |
 | fuckie suckie | n. | sex sold by a prostitute abroad | Carnal Lands | n.d. |
-| fuckless | adj. | without sex | Carnal Lands | n.d. |
-| fucklet | n. | a woman one hopes to sleep with | Carnal Lands | n.d. |
-| fucklet | n. | a quickie | Carnal Lands | n.d. |
+| fuckless | adj. | without sex | Carnal Lands | by 1991 |
+| fucklet | n. | a woman one hopes to sleep with | Carnal Lands | by 1995 |
+| fucklet | n. | a quickie | Carnal Lands | by 1998 |
 | fuckmachine | n. | someone of great sexual stamina | Carnal Lands | n.d. |
-| fuckmaster | n. | an expert lover | Carnal Lands | n.d. |
-| fuckmate | n. | a casual sex partner | Carnal Lands | n.d. |
-| fucknozzle | n. | the penis | Carnal Lands | n.d. |
-| fuckship | n. | a relationship that is mostly sex | Carnal Lands | n.d. |
+| fuckmaster | n. | an expert lover | Carnal Lands | by 2005 |
+| fuckmate | n. | a casual sex partner | Carnal Lands | by 2022 |
+| fucknozzle | n. | the penis | Carnal Lands | by 2003 |
+| fuckship | n. | a relationship that is mostly sex | Carnal Lands | by 1976 |
 | fuckshop | n. | a brothel | Carnal Lands | n.d. |
 | fuckslave | n. | someone bound to serve another’s lust | Carnal Lands | n.d. |
 | fuckslut | n. | a promiscuous person, usually a woman | Carnal Lands | n.d. |
-| fucksore | n. | a genital sore from a sexual infection | Carnal Lands | n.d. |
+| fucksore | n. | a genital sore from a sexual infection | Carnal Lands | by 2001 |
 | fuckstain | n. | a stain left by sex | Carnal Lands | n.d. |
-| fuckstration | n. | the frustration of finding no partner | Carnal Lands | n.d. |
+| fuckstration | n. | the frustration of finding no partner | Carnal Lands | by 2014 |
 | fucktape | n. | a sex tape | Carnal Lands | n.d. |
 | fucktastic | adj. | fantastic, sexually | Carnal Lands | n.d. |
-| fuckumentary | n. | a documentary about explicit sex | Carnal Lands | n.d. |
-| fuckworthiness | n. | the quality of being fuckworthy | Carnal Lands | n.d. |
-| fuckworthy | adj. | worth sleeping with | Carnal Lands | n.d. |
+| fuckumentary | n. | a documentary about explicit sex | Carnal Lands | by 2004 |
+| fuckworthiness | n. | the quality of being fuckworthy | Carnal Lands | by 2000 |
+| fuckworthy | adj. | worth sleeping with | Carnal Lands | by 2007 |
 | gang-fuck | v. | to have group sex | Carnal Lands | n.d. |
-| get one’s fuck on | v. | to have sex | Carnal Lands | n.d. |
+| get one’s fuck on | v. | to have sex | Carnal Lands | by 1996 |
 | handfucker | n. | a masturbator | Carnal Lands | n.d. |
-| hate fuck | n. | sex between people who hate each other | Carnal Lands | n.d. |
-| hate fuck | v. | to have sex with someone one hates | Carnal Lands | n.d. |
+| hate fuck | n. | sex between people who hate each other | Carnal Lands | by 1997 |
+| hate fuck | v. | to have sex with someone one hates | Carnal Lands | by 2007 |
 | Jewfucker | n. | one who has sex with Jews (antisemitic) | Carnal Lands | n.d. |
-| little brown fucking machine | n. | a racist label for Southeast Asian women as sex objects | Carnal Lands | n.d. |
+| little brown fucking machine | n. | a racist label for Southeast Asian women as sex objects | Carnal Lands | by 1988 |
 | marry fuck kill | n. | the game of assigning three people a fate each | Carnal Lands | n.d. |
 | midfuck | adj. | in the middle of sex | Carnal Lands | n.d. |
-| misfuck | n. | a bad or regretted fuck | Carnal Lands | n.d. |
+| misfuck | n. | a bad or regretted fuck | Carnal Lands | by 2009 |
 | monsterfucker | n. | one attracted to monsters and cryptids | Carnal Lands | n.d. |
 | motherfucker | n. | the literal reading, one who sleeps with his mother | Carnal Lands | n.d. |
-| n****rfucker | n. | one who has sex with Black people (racist) | Carnal Lands | n.d. |
+| n****rfucker | n. | one who has sex with Black people (racist) | Carnal Lands | by 2000 |
 | niece fucker | n. | one who commits incest with a niece | Carnal Lands | n.d. |
-| outfuck | v. | to outdo in bed | Carnal Lands | n.d. |
-| overfuck | v. | to have too much sex | Carnal Lands | n.d. |
+| outfuck | v. | to outdo in bed | Carnal Lands | by 1958 |
+| overfuck | v. | to have too much sex | Carnal Lands | by 1988 |
 | overfucked | adj. | oversexed | Carnal Lands | n.d. |
 | pigfucker | n. | one who sleeps with overweight women | Carnal Lands | n.d. |
-| pony fucker | n. | one who has sex with horses | Carnal Lands | n.d. |
+| pony fucker | n. | one who has sex with horses | Carnal Lands | by 2012 |
 | postfuck | adj. | after sex | Carnal Lands | n.d. |
-| prefuck | adj. | before sex | Carnal Lands | n.d. |
+| prefuck | adj. | before sex | Carnal Lands | by 1997 |
 | pussyfuck | v. | to have vaginal sex | Carnal Lands | n.d. |
-| refuck | v. | to sleep with again | Carnal Lands | n.d. |
-| sibling fucker | n. | one who commits incest with a sibling | Carnal Lands | n.d. |
-| sisterfucker | n. | one who commits incest with a sister | Carnal Lands | n.d. |
-| skull-fuck | v. | to penetrate an eye socket | Carnal Lands | n.d. |
+| refuck | v. | to sleep with again | Carnal Lands | by 2014 |
+| sibling fucker | n. | one who commits incest with a sibling | Carnal Lands | by 2006 |
+| sisterfucker | n. | one who commits incest with a sister | Carnal Lands | by 1999 |
+| skull-fuck | v. | to penetrate an eye socket | Carnal Lands | by 1987 |
 | slamfuck | v. | to have rough sex | Carnal Lands | n.d. |
-| sleep-fuck | v. | to have sex while asleep | Carnal Lands | n.d. |
+| sleep-fuck | v. | to have sex while asleep | Carnal Lands | by 2002 |
 | sonfucker | n. | one who commits incest with a son | Carnal Lands | n.d. |
-| starfuck | v. | to chase sex with celebrities | Carnal Lands | n.d. |
+| starfuck | v. | to chase sex with celebrities | Carnal Lands | by 1978 |
 | superfuck | n. | a remarkable session of sex | Carnal Lands | n.d. |
-| the fucking you get isn’t worth the fucking you get | proverb | the sex doesn’t pay for the mistreatment | Carnal Lands | n.d. |
+| the fucking you get isn’t worth the fucking you get | proverb | the sex doesn’t pay for the mistreatment | Carnal Lands | by 1971 |
 | tonguefuck | n. | penetration or deep kissing with the tongue | Carnal Lands | n.d. |
-| tonguefuck | v. | to penetrate or kiss deeply with the tongue | Carnal Lands | n.d. |
+| tonguefuck | v. | to penetrate or kiss deeply with the tongue | Carnal Lands | by 1993 |
 | tonguefucker | n. | one who tonguefucks | Carnal Lands | n.d. |
 | unclefucker | n. | one who commits incest with an uncle | Carnal Lands | n.d. |
 | unclefucker | n. | one who has sex with an uncle | Carnal Lands | n.d. |
-| underfucked | adj. | not getting enough sex | Carnal Lands | n.d. |
-| unfuck | v. | to undo a sexual encounter, notionally | Carnal Lands | n.d. |
-| unfuckability | n. | the state of being unfuckable | Carnal Lands | n.d. |
-| unfuckable | adj. | out of the question as a partner | Carnal Lands | n.d. |
+| underfucked | adj. | not getting enough sex | Carnal Lands | by 1972 |
+| unfuck | v. | to undo a sexual encounter, notionally | Carnal Lands | by 1982 |
+| unfuckability | n. | the state of being unfuckable | Carnal Lands | by 2008 |
+| unfuckable | adj. | out of the question as a partner | Carnal Lands | by 1973 |
 | unfuckable | n. | a sexually unattractive person | Carnal Lands | n.d. |
 | unfuckableness | n. | the quality of being unfuckable | Carnal Lands | n.d. |
-| unfuckably | adv. | so as to rule out sex | Carnal Lands | n.d. |
+| unfuckably | adv. | so as to rule out sex | Carnal Lands | by 2006 |
 | unfucked | adj. | virginal | Carnal Lands | n.d. |
-| whore-fucking | adj. | using prostitutes | Carnal Lands | n.d. |
+| whore-fucking | adj. | using prostitutes | Carnal Lands | by 2008 |
 | woundfuck | n. | sex with a wound | Carnal Lands | n.d. |
 | woundfuck | v. | to penetrate an open wound | Carnal Lands | n.d. |
 | fuck | adv. | a flat no after a turned-round verb: will I fuck | Dismissal Coast | n.d. |
-| fuck 12 | phr. | fuck the police, in code | Dismissal Coast | n.d. |
+| fuck 12 | phr. | fuck the police, in code | Dismissal Coast | by 2014 |
 | fuck off, we’re full | excl. | an anti-immigrant slogan | Dismissal Coast | n.d. |
 | fuck the police | excl. | contempt for law enforcement | Dismissal Coast | n.d. |
 | fuck the police | excl. | contempt for authority in general | Dismissal Coast | n.d. |
-| fuck thee | excl. | fuck you, in the old pronoun | Dismissal Coast | n.d. |
+| fuck thee | excl. | fuck you, in the old pronoun | Dismissal Coast | by 1974 |
 | fuck this | excl. | the shrug, aimed at this | Dismissal Coast | n.d. |
-| fuck this for a game of soldiers | phr. | I’m not doing this any more | Dismissal Coast | n.d. |
+| fuck this for a game of soldiers | phr. | I’m not doing this any more | Dismissal Coast | by 2001 |
 | fuck this for a lark | phr. | I’m not doing this any more | Dismissal Coast | n.d. |
-| fuck you, I got mine | phr. | selfishness, stated plainly | Dismissal Coast | n.d. |
+| fuck you, I got mine | phr. | selfishness, stated plainly | Dismissal Coast | by 1993 |
 | fuck your mother | excl. | fuck you, aimed at the family | Dismissal Coast | n.d. |
-| fuck y’all | phr. | discontent with everyone present | Dismissal Coast | n.d. |
-| fuck-you finger | n. | the raised middle finger | Dismissal Coast | n.d. |
+| fuck y’all | phr. | discontent with everyone present | Dismissal Coast | by 2000 |
+| fuck-you finger | n. | the raised middle finger | Dismissal Coast | by 2002 |
 | fuckity bye | excl. | a contemptuous goodbye | Dismissal Coast | n.d. |
 | go fuck yourself sideways | phr. | go to hell, at an angle | Dismissal Coast | n.d. |
 | take a flying fuck at a rolling donut | v. | to go away, scram | Dismissal Coast | n.d. |
-| the fuck | phr. | denial: the fuck I did | Dismissal Coast | n.d. |
+| the fuck | phr. | denial: the fuck I did | Dismissal Coast | by 1997 |
 | what the fuck ever | excl. | whatever, intensified | Dismissal Coast | n.d. |
+| atomic F-bomb | n. | the word, shouted | Fog of Euphemism | n.d. |
+| buck | v. | to fuck, with one letter changed | Fog of Euphemism | n.d. |
+| chuck you, Farley | excl. | fuck you, spoonerized | Fog of Euphemism | n.d. |
+| chuff | v. | a stand-in for fuck | Fog of Euphemism | n.d. |
+| clucking | adj. | fucking, clucked | Fog of Euphemism | n.d. |
+| clusterball | n. | a clusterfuck, softened | Fog of Euphemism | by 2014 |
+| clusterbumble | n. | a clusterfuck, softened | Fog of Euphemism | n.d. |
+| clusterfrack | n. | a clusterfuck, fracked | Fog of Euphemism | by 2011 |
+| delay no more | phr. | an English pun on a Cantonese fuck-your-mother | Fog of Euphemism | by 1997 |
+| drop the F-bomb | v. | to say the word, especially where it doesn’t belong | Fog of Euphemism | n.d. |
+| eff | v. | to fuck, by its letter | Fog of Euphemism | by 1968 |
+| eff all | n. | fuck all, by its letter | Fog of Euphemism | n.d. |
+| eff off | v. | fuck off, by its letter | Fog of Euphemism | n.d. |
+| effable | adj. | fuckable, as a pun | Fog of Euphemism | by 2005 |
+| effer | n. | fucker, by its letter | Fog of Euphemism | n.d. |
+| emeff | adj. | MF said out loud: motherfucking | Fog of Euphemism | by 1973 |
+| emeff | n. | MF said out loud: motherfucker | Fog of Euphemism | n.d. |
+| emeffer | n. | motherfucker, by its initials | Fog of Euphemism | by 2010 |
+| emmereffer | n. | motherfucker, by its initials | Fog of Euphemism | by 1996 |
+| F | v. | fuck, as a letter: F that | Fog of Euphemism | by 2011 |
+| F off | excl. | fuck off!, initialled | Fog of Euphemism | n.d. |
+| F off | v. | fuck off, initialled | Fog of Euphemism | n.d. |
+| f-word | v. | to swear, especially with the word itself | Fog of Euphemism | by 2010 |
+| fboy | n. | a fuck boy, initialled | Fog of Euphemism | n.d. |
+| fgirl | n. | a fuck girl, initialled | Fog of Euphemism | n.d. |
+| firetruck | excl. | fuck!, by sound | Fog of Euphemism | n.d. |
+| flipping | adj. | a mild fucking | Fog of Euphemism | by 1951 |
+| flipping | adv. | fucking, as an intensifier | Fog of Euphemism | n.d. |
+| flogging | adj. | fucking, as an intensifier | Fog of Euphemism | by 1955 |
+| fluffing | adj. | fucking, fluffed | Fog of Euphemism | n.d. |
+| fluffing | adv. | fucking, fluffed | Fog of Euphemism | n.d. |
+| flying fig | n. | a flying fuck, figged | Fog of Euphemism | n.d. |
 | fock | n. | fuck, misspelled on purpose | Fog of Euphemism | n.d. |
+| for fudge’s sake | excl. | for fuck’s sake, fudged | Fog of Euphemism | n.d. |
+| fornicating | adj. | fucking, in Latinate dress | Fog of Euphemism | by 1958 |
+| foxtrot oscar | v. | fuck off, in the phonetic alphabet | Fog of Euphemism | by 2012 |
+| fracking | adj. | fucking, Battlestar-style | Fog of Euphemism | by 1991 |
+| freaking | adj. | fucking, softened | Fog of Euphemism | n.d. |
+| freaking | adv. | fucking, softened | Fog of Euphemism | by 2021 |
+| frick | excl. | fuck!, softened | Fog of Euphemism | n.d. |
+| frick | n. | a fuck, softened | Fog of Euphemism | by 2006 |
+| frick | v. | to fuck, softened | Fog of Euphemism | n.d. |
+| fricking | adj. | fucking, softened | Fog of Euphemism | by 1997 |
 | frig it | excl. | fuck it, softened | Fog of Euphemism | n.d. |
-| frig off | v. | fuck off, softened | Fog of Euphemism | n.d. |
-| frig up | v. | fuck up, softened | Fog of Euphemism | n.d. |
+| frig off | v. | fuck off, softened | Fog of Euphemism | by 1978 |
+| frig up | v. | fuck up, softened | Fog of Euphemism | by 1960 |
 | frig-up | n. | a fuck-up, softened | Fog of Euphemism | n.d. |
 | frigger | n. | a disagreeable person | Fog of Euphemism | n.d. |
+| frigging | adj. | fucking, softened | Fog of Euphemism | n.d. |
+| frigging | adv. | fucking, softened | Fog of Euphemism | n.d. |
 | frigtard | n. | a fucktard, softened | Fog of Euphemism | n.d. |
+| fuddle-duddle | excl. | fuck! fuck off! (the Canadian prime minister’s alibi) | Fog of Euphemism | by 1971 |
+| fudge | v. | used in place of fuck | Fog of Euphemism | n.d. |
+| fudging | adv. | an intensifier like fucking | Fog of Euphemism | n.d. |
+| fug | excl. | fuck!, fugged | Fog of Euphemism | by 1985 |
+| fug | n. | the fug: emphasis, as in what the fug | Fog of Euphemism | by 1961 |
+| fug | n. | something worthless | Fog of Euphemism | by 2013 |
+| fug | n. | a contemptible person | Fog of Euphemism | by 1942 |
+| fug | v. | to damn: fug it | Fog of Euphemism | by 1948 |
+| fug | v. | to wreck | Fog of Euphemism | by 2007 |
 | fuggo | n. | an ugly person (from fugly) | Fog of Euphemism | n.d. |
-| fugly | adj. | fucking ugly, run together | Fog of Euphemism | n.d. |
+| fugly | adj. | fucking ugly, run together | Fog of Euphemism | by 1995 |
 | fugly | n. | a very ugly person | Fog of Euphemism | n.d. |
 | fuk | n. | fuck, misspelled on purpose | Fog of Euphemism | n.d. |
 | fukk | v. | fuck, misspelled on purpose | Fog of Euphemism | n.d. |
+| funk | v. | fuck, the swear, funked | Fog of Euphemism | by 2017 |
+| funk you | excl. | fuck you, funked | Fog of Euphemism | n.d. |
+| funker | n. | fucker, bowdlerized | Fog of Euphemism | n.d. |
+| funking | adj. | fucking, bowdlerized | Fog of Euphemism | n.d. |
+| funking | adv. | fucking, bowdlerized | Fog of Euphemism | n.d. |
 | fuq | excl. | fuck, misspelled on purpose | Fog of Euphemism | n.d. |
-| f—kin | adj. | fuckin, censored | Fog of Euphemism | n.d. |
+| futhermucker | n. | motherfucker, spoonerized | Fog of Euphemism | by 1975 |
+| f—kin | adj. | fuckin, censored | Fog of Euphemism | by 2020 |
+| go f oneself | v. | go fuck oneself, initialled | Fog of Euphemism | n.d. |
+| go forth and multiply | phr. | go fuck yourself, in biblical dress | Fog of Euphemism | n.d. |
+| ken oath | phr. | (Australian) fucking oath, with the fuck cut off | Fog of Euphemism | n.d. |
+| like fudge | phr. | like fuck, fudged | Fog of Euphemism | n.d. |
 | m*therfucker | n. | motherfucker, one star short | Fog of Euphemism | n.d. |
-| mofo | n. | motherfucker, cut to two syllables | Fog of Euphemism | n.d. |
+| m-word | n. | the word motherfucker, named instead of said | Fog of Euphemism | n.d. |
 | mofo | adj. | motherfucking, cut to two syllables | Fog of Euphemism | n.d. |
+| mofo | n. | motherfucker, cut to two syllables | Fog of Euphemism | n.d. |
+| mollyfogging | adj. | motherfucking, disguised | Fog of Euphemism | by 2004 |
 | mother | n. | motherfucker, clipped | Fog of Euphemism | n.d. |
-| phuck | v. | fuck, respelled | Fog of Euphemism | n.d. |
-| uckfay | excl. | fuck, in pig Latin | Fog of Euphemism | n.d. |
+| motherchucker | n. | motherfucker, disguised | Fog of Euphemism | by 2008 |
+| mothereffer | n. | motherfucker, by its letters | Fog of Euphemism | by 2016 |
+| mothereffing | adj. | motherfucking, by its letters | Fog of Euphemism | by 2013 |
+| motherferyer | n. | motherfucker, disguised | Fog of Euphemism | by 1946 |
+| motherflipper | n. | motherfucker, flipped | Fog of Euphemism | n.d. |
+| motherflipping | adj. | motherfucking, flipped | Fog of Euphemism | by 2008 |
+| motherfluffer | n. | motherfucker, disguised | Fog of Euphemism | by 1996 |
+| motherfouler | n. | motherfucker, disguised | Fog of Euphemism | by 1952 |
+| motherfunker | n. | motherfucker, disguised | Fog of Euphemism | by 1993 |
+| motherfunking | adj. | motherfucking, bowdlerized | Fog of Euphemism | n.d. |
+| motherfunking | adv. | motherfucking, bowdlerized | Fog of Euphemism | n.d. |
+| motherhumper | n. | motherfucker, disguised | Fog of Euphemism | by 1976 |
+| motherlover | n. | motherfucker, disguised | Fog of Euphemism | by 1971 |
+| motherloving | adj. | motherfucking, disguised | Fog of Euphemism | by 1956 |
+| mothertrucker | n. | motherfucker, trucked | Fog of Euphemism | by 2013 |
+| mothertrucking | adj. | motherfucking, trucked | Fog of Euphemism | by 1982 |
+| muffinsucker | n. | motherfucker, disguised | Fog of Euphemism | n.d. |
+| mutha phucka | n. | motherfucker, misspelled on purpose | Fog of Euphemism | by 2020 |
+| nucking futs | adj. | fucking nuts, spoonerized | Fog of Euphemism | by 1999 |
+| phuck | v. | fuck, respelled | Fog of Euphemism | by 2003 |
+| refer someone to the reply given in Arkell v Pressdram | v. | to tell someone to fuck off, by citing Private Eye’s famous letter | Fog of Euphemism | by 2015 |
+| shut the fridge | phr. | shut the fuck up!, for disbelief | Fog of Euphemism | by 2015 |
+| shut the front door | phr. | shut the fuck up!, for disbelief | Fog of Euphemism | by 2019 |
+| sister humper | n. | sisterfucker, disguised | Fog of Euphemism | by 2000 |
+| stuff you | phr. | fuck you, stuffed | Fog of Euphemism | n.d. |
+| uckfay | excl. | fuck, in pig Latin | Fog of Euphemism | by 1974 |
+| what the cuss | excl. | what the fuck, cussed | Fog of Euphemism | n.d. |
+| what the fish | phr. | what the fuck, fished | Fog of Euphemism | by 2016 |
+| what the flip | phr. | what the fuck, flipped | Fog of Euphemism | n.d. |
+| what the scallop | excl. | what the fuck, scalloped | Fog of Euphemism | n.d. |
+| whiskey tango foxtrot | excl. | WTF, in the phonetic alphabet | Fog of Euphemism | n.d. |
+| yuck | v. | to fuck, spoonerized | Fog of Euphemism | by 2004 |
+| yuck fou | phr. | fuck you, spoonerized | Fog of Euphemism | by 2007 |
+| zark | excl. | fuck!, science-fiction issue | Fog of Euphemism | by 1978 |
+| zarking | adj. | fucking, science-fiction issue | Fog of Euphemism | by 1997 |
 | a fuck sight | adv. | a great deal: a fuck sight better | Intensifier Sea | n.d. |
-| a fuck sight | n. | a large amount | Intensifier Sea | n.d. |
-| afuckingmazing | adj. | amazing, emphasised | Intensifier Sea | n.d. |
-| anyfuckingbody | pron. | anybody, emphasised | Intensifier Sea | n.d. |
+| a fuck sight | n. | a large amount | Intensifier Sea | by 1987 |
+| afuckingmazing | adj. | amazing, emphasised | Intensifier Sea | by 2000 |
+| anyfuckingbody | pron. | anybody, emphasised | Intensifier Sea | by 1999 |
 | anyfuckingone | pron. | anyone, emphasised | Intensifier Sea | n.d. |
 | as a motherfucker | adv. | extremely | Intensifier Sea | n.d. |
 | as all fuck | phr. | as fuck, more so | Intensifier Sea | n.d. |
-| awefuckingsome | adj. | awesome, emphasised | Intensifier Sea | n.d. |
+| awefuckingsome | adj. | awesome, emphasised | Intensifier Sea | by 1995 |
 | brotherfucking | adj. | motherfucking, sideways | Intensifier Sea | n.d. |
-| cousinfucking | adj. | motherfucking, goddamn | Intensifier Sea | n.d. |
-| everyfuckingbody | pron. | everybody, emphasised | Intensifier Sea | n.d. |
+| cousinfucking | adj. | motherfucking, goddamn | Intensifier Sea | by 2002 |
+| everyfuckingbody | pron. | everybody, emphasised | Intensifier Sea | by 1999 |
 | fresh fucked fox in a forest fire | n. | anything extremely hot, in any sense | Intensifier Sea | n.d. |
-| fuckass | adj. | a generic intensifier | Intensifier Sea | n.d. |
-| fuckening | adj. | an intensifier | Intensifier Sea | n.d. |
+| fuckass | adj. | a generic intensifier | Intensifier Sea | by 2023 |
+| fuckening | adj. | an intensifier | Intensifier Sea | by 2000 |
 | fuckity | adj. | fucking | Intensifier Sea | n.d. |
-| fuckity fuck | adj. | fucking | Intensifier Sea | n.d. |
-| fucktillion | n. | an uncountable number | Intensifier Sea | n.d. |
+| fuckity fuck | adj. | fucking | Intensifier Sea | by 1981 |
+| fucktillion | n. | an uncountable number | Intensifier Sea | by 2013 |
 | fuckwad | n. | a great deal; a fuckload | Intensifier Sea | n.d. |
-| I fuck you not | phr. | I kid you not | Intensifier Sea | n.d. |
-| imfuckingpossible | adj. | impossible, emphasised | Intensifier Sea | n.d. |
+| I fuck you not | phr. | I kid you not | Intensifier Sea | by 1999 |
+| imfuckingpossible | adj. | impossible, emphasised | Intensifier Sea | by 1994 |
 | infuckingcredible | adj. | incredible, emphasised | Intensifier Sea | n.d. |
-| metric fuckton | n. | a vast amount, in metric | Intensifier Sea | n.d. |
-| motherfuckingly | adv. | extremely | Intensifier Sea | n.d. |
-| nofuckingbody | pron. | nobody, emphasised | Intensifier Sea | n.d. |
-| the flying fuck out of | adv. | the fuck out of, airborne | Intensifier Sea | n.d. |
+| metric fuckton | n. | a vast amount, in metric | Intensifier Sea | by 2019 |
+| motherfuckingly | adv. | extremely | Intensifier Sea | by 1990 |
+| nofuckingbody | pron. | nobody, emphasised | Intensifier Sea | by 1997 |
+| the flying fuck out of | adv. | the fuck out of, airborne | Intensifier Sea | by 2003 |
 | the fuck out of | adv. | thoroughly, violently: scared the fuck out of me | Intensifier Sea | n.d. |
-| the fuckola | phr. | the fuck, stretched | Intensifier Sea | n.d. |
-| the fuckola out of | adv. | the fuck out of, stretched | Intensifier Sea | n.d. |
+| the fuckola | phr. | the fuck, stretched | Intensifier Sea | by 2004 |
+| the fuckola out of | adv. | the fuck out of, stretched | Intensifier Sea | by 1997 |
 | unbefuckinglievable | adj. | unbelievable, emphasised | Intensifier Sea | n.d. |
-| unfuckingbearable | adj. | unbearable, emphasised | Intensifier Sea | n.d. |
-| AF | adv. | as fuck | Acronym Archipelago | n.d. |
+| unfuckingbearable | adj. | unbearable, emphasised | Intensifier Sea | by 2002 |
+| AF | adv. | as fuck | Acronym Archipelago | by 2023 |
 | AFU | adj. | all fucked up | Acronym Archipelago | n.d. |
-| AYFKM | phr. | are you fucking kidding me? | Acronym Archipelago | n.d. |
+| AYFKM | phr. | are you fucking kidding me? | Acronym Archipelago | by 2002 |
 | BFC | n. | big fucking capacitor (engineers’ slang) | Acronym Archipelago | n.d. |
-| BFD | excl. | big fucking deal | Acronym Archipelago | n.d. |
-| BFFR | phr. | be fucking for real | Acronym Archipelago | n.d. |
+| BFD | excl. | big fucking deal | Acronym Archipelago | by 2024 |
+| BFFR | phr. | be fucking for real | Acronym Archipelago | by 2022 |
 | BOMB | phr. | bottom of the motherfucking barrel | Acronym Archipelago | n.d. |
-| BTFO | v. | back the fuck off | Acronym Archipelago | n.d. |
-| BTFO | adj. | blown the fuck out: utterly beaten | Acronym Archipelago | n.d. |
+| BTFO | adj. | blown the fuck out: utterly beaten | Acronym Archipelago | by 2013 |
+| BTFO | v. | back the fuck off | Acronym Archipelago | by 1995 |
 | CBF | v. | can’t be fucked | Acronym Archipelago | n.d. |
 | DAFN | n. | initialism of a racist insult built on fucking | Acronym Archipelago | n.d. |
 | DAMF | n. | dumbass motherfucker | Acronym Archipelago | n.d. |
-| DGAF | phr. | don’t give a fuck | Acronym Archipelago | n.d. |
+| DGAF | phr. | don’t give a fuck | Acronym Archipelago | by 2024 |
 | DNGAF | phr. | do not give a fuck | Acronym Archipelago | n.d. |
-| DTF | adj. | down to fuck: up for casual sex | Acronym Archipelago | n.d. |
+| DTF | adj. | down to fuck: up for casual sex | Acronym Archipelago | by 2024 |
 | FA | pron. | fuck all | Acronym Archipelago | n.d. |
-| FF | n. | fist-fucking | Acronym Archipelago | n.d. |
-| FFS | adv. | for fuck’s sake | Acronym Archipelago | n.d. |
+| FF | n. | fist-fucking | Acronym Archipelago | by 1983 |
+| FFS | adv. | for fuck’s sake | Acronym Archipelago | by 2023 |
 | FGI | phr. | fucking Google it | Acronym Archipelago | n.d. |
 | FIA | phr. | fuck it all | Acronym Archipelago | n.d. |
-| FITFO | phr. | figure it the fuck out | Acronym Archipelago | n.d. |
-| FJB | phr. | fuck Joe Biden | Acronym Archipelago | n.d. |
+| FITFO | phr. | figure it the fuck out | Acronym Archipelago | by 2007 |
+| FJB | phr. | fuck Joe Biden | Acronym Archipelago | by 2021 |
 | FO | excl. | fuck off | Acronym Archipelago | n.d. |
-| FOAD | phr. | fuck off and die | Acronym Archipelago | n.d. |
+| FOAD | phr. | fuck off and die | Acronym Archipelago | by 2006 |
 | FOH | n. | fuck outta here | Acronym Archipelago | n.d. |
 | FTMFW | adv. | for the motherfucking win | Acronym Archipelago | n.d. |
 | FTS | phr. | fuck this shit | Acronym Archipelago | n.d. |
-| FTW | excl. | fuck the world | Acronym Archipelago | n.d. |
+| FTW | excl. | fuck the world | Acronym Archipelago | by 2003 |
 | FWM | v. | fuck with me | Acronym Archipelago | n.d. |
 | FY | phr. | fuck you | Acronym Archipelago | n.d. |
 | FY | phr. | fuck yeah | Acronym Archipelago | n.d. |
 | FYA | phr. | fuck you all | Acronym Archipelago | n.d. |
 | FYF | phr. | fuck your feelings | Acronym Archipelago | n.d. |
 | FYM | phr. | the fuck you mean? | Acronym Archipelago | n.d. |
-| fytb | phr. | (what the) fuck you talking ’bout? | Acronym Archipelago | n.d. |
+| fytb | phr. | (what the) fuck you talking ’bout? | Acronym Archipelago | by 2024 |
 | gaf | v. | give a fuck | Acronym Archipelago | n.d. |
-| GF | phr. | get fucked | Acronym Archipelago | n.d. |
+| GF | phr. | get fucked | Acronym Archipelago | by 1999 |
 | GFE | phr. | Google fucking exists | Acronym Archipelago | n.d. |
 | GFY | phr. | go fuck yourself | Acronym Archipelago | n.d. |
-| GMAFB | v. | give me a fucking break | Acronym Archipelago | n.d. |
+| GMAFB | v. | give me a fucking break | Acronym Archipelago | by 1996 |
 | GTFIH | v. | get the fuck in here | Acronym Archipelago | n.d. |
-| GTFO | v. | get the fuck off | Acronym Archipelago | n.d. |
-| GTFOH | v. | get the fuck outta here | Acronym Archipelago | n.d. |
-| GTFOHWTBS | v. | get the fuck outta here with that bullshit | Acronym Archipelago | n.d. |
-| GTFOI | v. | get the fuck over it | Acronym Archipelago | n.d. |
-| GTFOOH | v. | get the fuck out of here | Acronym Archipelago | n.d. |
-| HTF | phr. | how the fuck | Acronym Archipelago | n.d. |
+| GTFO | v. | get the fuck off | Acronym Archipelago | by 1995 |
+| GTFOH | v. | get the fuck outta here | Acronym Archipelago | by 1998 |
+| GTFOHWTBS | v. | get the fuck outta here with that bullshit | Acronym Archipelago | by 2004 |
+| GTFOI | v. | get the fuck over it | Acronym Archipelago | by 2001 |
+| GTFOOH | v. | get the fuck out of here | Acronym Archipelago | by 2022 |
+| HTF | phr. | how the fuck | Acronym Archipelago | by 2019 |
 | IDEFK | phr. | I don’t even fucking know | Acronym Archipelago | n.d. |
 | IDFK | phr. | I don’t fucking know | Acronym Archipelago | n.d. |
-| IDGAF | phr. | I don’t give a fuck | Acronym Archipelago | n.d. |
-| IDGAFF | phr. | I don’t give a flying fuck | Acronym Archipelago | n.d. |
+| IDGAF | phr. | I don’t give a fuck | Acronym Archipelago | by 1993 |
+| IDGAFF | phr. | I don’t give a flying fuck | Acronym Archipelago | by 2008 |
 | IMNSFHO | phr. | in my not so fucking humble opinion | Acronym Archipelago | n.d. |
 | JAFO | n. | just another fucking observer | Acronym Archipelago | n.d. |
 | JFC | excl. | Jesus fucking Christ | Acronym Archipelago | n.d. |
@@ -726,8 +835,8 @@ Racial slurs that carry a fuck are listed with the slur starred and the fuck lef
 | LMFAO | excl. | laughing my fucking ass off | Acronym Archipelago | n.d. |
 | LMFAOOL | phr. | laughing my fucking ass off out loud | Acronym Archipelago | n.d. |
 | MF | adj. | motherfucking | Acronym Archipelago | n.d. |
-| NBGAF | phr. | nobody gives a fuck | Acronym Archipelago | n.d. |
-| OMFG | excl. | oh my fucking God | Acronym Archipelago | n.d. |
+| NBGAF | phr. | nobody gives a fuck | Acronym Archipelago | by 2004 |
+| OMFG | excl. | oh my fucking God | Acronym Archipelago | by 2023 |
 | ROFLMFAO | phr. | rolling on the floor laughing my fucking ass off | Acronym Archipelago | n.d. |
 | ROFLMGDMFAO | phr. | … my goddamned motherfucking ass off | Acronym Archipelago | n.d. |
 | ROFLMMFAO | phr. | … my motherfucking ass off | Acronym Archipelago | n.d. |
@@ -736,196 +845,198 @@ Racial slurs that carry a fuck are listed with the slur starred and the fuck lef
 | ROMFFLMMFAO | phr. | … and my motherfucking ass off too | Acronym Archipelago | n.d. |
 | RTFM | phr. | read the fucking manual | Acronym Archipelago | n.d. |
 | RTFM | phr. | read the fucking man page | Acronym Archipelago | n.d. |
-| RTFN | adv. | right the fuck now | Acronym Archipelago | n.d. |
-| SMFH | phr. | shaking my fucking head | Acronym Archipelago | n.d. |
+| RTFN | adv. | right the fuck now | Acronym Archipelago | by 2018 |
+| SMFH | phr. | shaking my fucking head | Acronym Archipelago | by 2017 |
 | STFD | phr. | sit the fuck down | Acronym Archipelago | n.d. |
 | STFW | v. | search the fucking web | Acronym Archipelago | n.d. |
 | SYFM | phr. | shut your fucking mouth | Acronym Archipelago | n.d. |
-| TF | phr. | the fuck | Acronym Archipelago | n.d. |
+| TF | phr. | the fuck | Acronym Archipelago | by 2024 |
 | TFYM | phr. | the fuck you mean | Acronym Archipelago | n.d. |
 | TIFU | phr. | today I fucked up | Acronym Archipelago | n.d. |
 | wdf | phr. | what dafuq | Acronym Archipelago | n.d. |
-| WTAF | excl. | what the actual fuck | Acronym Archipelago | n.d. |
+| WTAF | excl. | what the actual fuck | Acronym Archipelago | by 2020 |
 | WTF | phr. | where, why, when or who the fuck | Acronym Archipelago | n.d. |
 | WTFDYM | phr. | what the fuck do you mean? | Acronym Archipelago | n.d. |
 | WTFIGO | phr. | what the fuck is going on | Acronym Archipelago | n.d. |
 | WTFU | phr. | wake the fuck up | Acronym Archipelago | n.d. |
-| YGBFKM | phr. | you’ve gotta be fucking kidding me | Acronym Archipelago | n.d. |
+| YGBFKM | phr. | you’ve gotta be fucking kidding me | Acronym Archipelago | by 1999 |
 | dogfucker | n. | a lazy worker dogging it | Idle Marshes | n.d. |
-| frame fuck | v. | to nitpick an edit frame by frame | Idle Marshes | n.d. |
-| fuckarounditis | n. | years in the gym with nothing to show for it | Idle Marshes | n.d. |
-| fuckology | n. | a useless subject or degree | Idle Marshes | n.d. |
-| half-fuck | adj. | half-assed, done without care | Idle Marshes | n.d. |
-| pixelfuck | v. | to nitpick an artist’s pixels | Idle Marshes | n.d. |
-| artfuck | n. | a pretentious artist or art lover | Insult Badlands | n.d. |
+| frame fuck | v. | to nitpick an edit frame by frame | Idle Marshes | by 2003 |
+| fuckarounditis | n. | years in the gym with nothing to show for it | Idle Marshes | by 2011 |
+| fuckarounditis | n. | getting nowhere at anything despite the effort | Idle Marshes | by 2020 |
+| fuckology | n. | a useless subject or degree | Idle Marshes | by 2005 |
+| half-fuck | adj. | half-assed, done without care | Idle Marshes | by 2011 |
+| pixelfuck | v. | to nitpick an artist’s pixels | Idle Marshes | by 2010 |
+| artfuck | n. | a pretentious artist or art lover | Insult Badlands | by 1999 |
 | assfucker | n. | a vile person | Insult Badlands | n.d. |
-| aunt fucker | n. | motherfucker, moved along the family tree | Insult Badlands | n.d. |
-| birdfucker | n. | general abuse | Insult Badlands | n.d. |
-| bitchfuck | n. | general abuse | Insult Badlands | n.d. |
+| aunt fucker | n. | motherfucker, moved along the family tree | Insult Badlands | by 1999 |
+| birdfucker | n. | general abuse | Insult Badlands | by 1997 |
+| bitchfuck | n. | general abuse | Insult Badlands | by 1996 |
 | bitchfucker | n. | general abuse | Insult Badlands | n.d. |
 | boyfucker | n. | abuse aimed at a man | Insult Badlands | n.d. |
 | boyfucker | n. | a gay man (slur) | Insult Badlands | n.d. |
 | brotherfucker | n. | motherfucker, moved along the family tree | Insult Badlands | n.d. |
-| brotherfucker | n. | a gay man (slur) | Insult Badlands | n.d. |
+| brotherfucker | n. | a gay man (slur) | Insult Badlands | by 1973 |
 | catfucker | n. | general abuse | Insult Badlands | n.d. |
-| child-fucker | n. | the lowest term of abuse | Insult Badlands | n.d. |
+| child-fucker | n. | the lowest term of abuse | Insult Badlands | by 1996 |
 | chucklefuck | n. | a fool, especially one arguing in bad faith | Insult Badlands | n.d. |
 | cockfuck | n. | general abuse | Insult Badlands | n.d. |
 | cockfucker | n. | general abuse | Insult Badlands | n.d. |
-| commafucker | n. | a grammar pedant | Insult Badlands | n.d. |
+| commafucker | n. | a grammar pedant | Insult Badlands | by 1998 |
 | corpsefucker | n. | general abuse | Insult Badlands | n.d. |
-| cousinfucker | n. | general abuse | Insult Badlands | n.d. |
+| cousinfucker | n. | general abuse | Insult Badlands | by 2002 |
 | cowfucker | n. | general abuse | Insult Badlands | n.d. |
 | cuntfucker | n. | a stupid or hateful person | Insult Badlands | n.d. |
 | cuntfucker | n. | a lesbian (slur) | Insult Badlands | n.d. |
+| daughterfucker | n. | an extremely contemptible person | Insult Badlands | n.d. |
 | dickfucker | n. | general abuse | Insult Badlands | n.d. |
 | dickfucker | n. | a gay man (slur) | Insult Badlands | n.d. |
 | dipfuck | n. | general abuse | Insult Badlands | n.d. |
 | dogfucker | n. | a member of the furry fandom | Insult Badlands | n.d. |
-| donkeyfucker | n. | general abuse | Insult Badlands | n.d. |
-| dumb fucker | n. | a stupid, hateful person | Insult Badlands | n.d. |
+| donkeyfucker | n. | general abuse | Insult Badlands | by 1998 |
+| dumb fucker | n. | a stupid, hateful person | Insult Badlands | by 1996 |
 | dumbfuckery | n. | stupidity | Insult Badlands | n.d. |
 | dunderfuck | n. | a dumb fuck | Insult Badlands | n.d. |
-| fatfuck | n. | an obese person, with contempt | Insult Badlands | n.d. |
+| fatfuck | n. | an obese person, with contempt | Insult Badlands | by 2008 |
 | fatherfucker | n. | a gay man (slur) | Insult Badlands | n.d. |
 | fuckabilly | n. | a hillbilly, with a fuck in it | Insult Badlands | n.d. |
-| fuckass | n. | a despicable person | Insult Badlands | n.d. |
+| fuckass | n. | a despicable person | Insult Badlands | by 2000 |
 | fuckbait | n. | general abuse | Insult Badlands | n.d. |
 | fuckbonnet | n. | a contemptible person | Insult Badlands | n.d. |
-| fuckbucket | n. | a worthless person or thing | Insult Badlands | n.d. |
-| fuckcake | n. | a jerk | Insult Badlands | n.d. |
+| fuckbucket | n. | a worthless person or thing | Insult Badlands | by 2008 |
+| fuckcake | n. | a jerk | Insult Badlands | by 1998 |
 | fuckchop | n. | general abuse | Insult Badlands | n.d. |
 | fuckheadedly | adv. | like a fuckhead | Insult Badlands | n.d. |
 | fuckheadedness | n. | fuckhead behaviour | Insult Badlands | n.d. |
 | fuckheadery | n. | fatuousness | Insult Badlands | n.d. |
 | fuckheadism | n. | fuckhead behaviour | Insult Badlands | n.d. |
-| fuckle | n. | a loser | Insult Badlands | n.d. |
-| fucklet | n. | a stupid, annoying person | Insult Badlands | n.d. |
-| fuckling | n. | a stupid, annoying person | Insult Badlands | n.d. |
+| fuckle | n. | a loser | Insult Badlands | by 2003 |
+| fucklet | n. | a stupid, annoying person | Insult Badlands | by 2001 |
+| fuckling | n. | a stupid, annoying person | Insult Badlands | by 2004 |
 | fucklord | n. | general abuse | Insult Badlands | n.d. |
-| fuckmitten | n. | general abuse | Insult Badlands | n.d. |
-| fuckmuffin | n. | general abuse | Insult Badlands | n.d. |
+| fuckmitten | n. | general abuse | Insult Badlands | by 2001 |
+| fuckmuffin | n. | general abuse | Insult Badlands | by 2000 |
 | fuckn***a | n. | a weak, posturing man | Insult Badlands | n.d. |
 | fucknose | n. | general abuse | Insult Badlands | n.d. |
-| fucknozzle | n. | an obnoxious person | Insult Badlands | n.d. |
-| fucknugget | n. | an idiot | Insult Badlands | n.d. |
-| fuckoid | n. | an obnoxious person | Insult Badlands | n.d. |
-| fuckpot | n. | a stupid person | Insult Badlands | n.d. |
-| fuckry | n. | bad behaviour | Insult Badlands | n.d. |
-| fuckskull | n. | general abuse | Insult Badlands | n.d. |
-| fuckstain | n. | a contemptible person | Insult Badlands | n.d. |
+| fucknozzle | n. | an obnoxious person | Insult Badlands | by 1998 |
+| fucknugget | n. | an idiot | Insult Badlands | by 1990 |
+| fuckoid | n. | an obnoxious person | Insult Badlands | by 2000 |
+| fuckpot | n. | a stupid person | Insult Badlands | by 2004 |
+| fuckry | n. | bad behaviour | Insult Badlands | by 2012 |
+| fuckskull | n. | general abuse | Insult Badlands | by 1995 |
+| fuckstain | n. | a contemptible person | Insult Badlands | by 2005 |
 | fucktarded | adj. | exceedingly stupid | Insult Badlands | n.d. |
-| fucktardedly | adv. | stupidly | Insult Badlands | n.d. |
+| fucktardedly | adv. | stupidly | Insult Badlands | by 2003 |
 | fucktardedness | n. | stupidity | Insult Badlands | n.d. |
-| fucktardery | n. | foolish behaviour | Insult Badlands | n.d. |
-| fucktardish | adj. | moronic | Insult Badlands | n.d. |
+| fucktardery | n. | foolish behaviour | Insult Badlands | by 2001 |
+| fucktardish | adj. | moronic | Insult Badlands | by 2003 |
 | fucktwat | n. | a stupid person | Insult Badlands | n.d. |
 | fucktwit | n. | an utter fool | Insult Badlands | n.d. |
 | fuckwaddery | n. | foolishness | Insult Badlands | n.d. |
-| fuckwaffle | n. | a contemptible person | Insult Badlands | n.d. |
+| fuckwaffle | n. | a contemptible person | Insult Badlands | by 2018 |
 | fuckweasel | n. | general abuse | Insult Badlands | n.d. |
 | fuckweed | n. | general abuse | Insult Badlands | n.d. |
-| fuckwittedness | n. | extreme stupidity | Insult Badlands | n.d. |
-| goat-fucker | n. | an anti-Muslim, anti-Arab slur | Insult Badlands | n.d. |
+| fuckwittedness | n. | extreme stupidity | Insult Badlands | by 2003 |
+| goat-fucker | n. | an anti-Muslim, anti-Arab slur | Insult Badlands | by 2007 |
 | grandmotherfucker | n. | general abuse | Insult Badlands | n.d. |
-| gunfucker | n. | a gun zealot | Insult Badlands | n.d. |
+| gunfucker | n. | a gun zealot | Insult Badlands | by 2000 |
 | horsefucker | n. | a fan of My Little Pony: a brony | Insult Badlands | n.d. |
-| horsefucker | n. | general abuse | Insult Badlands | n.d. |
+| horsefucker | n. | general abuse | Insult Badlands | by 1999 |
 | Jewfucker | n. | antisemitic abuse | Insult Badlands | n.d. |
 | kangaroo fucker | n. | an Australian | Insult Badlands | n.d. |
-| knucklefuck | n. | a stupid or inept person | Insult Badlands | n.d. |
-| koala fucker | n. | an Australian | Insult Badlands | n.d. |
+| knucklefuck | n. | a stupid or inept person | Insult Badlands | by 2003 |
+| koala fucker | n. | an Australian | Insult Badlands | by 1993 |
 | libfuck | n. | a liberal, with contempt | Insult Badlands | n.d. |
-| McFuck | n. | abuse for someone whose surname escapes you | Insult Badlands | n.d. |
-| misfuck | n. | a fuck-up who is also a mistake | Insult Badlands | n.d. |
+| McFuck | n. | abuse for someone whose surname escapes you | Insult Badlands | by 1993 |
+| misfuck | n. | a fuck-up who is also a mistake | Insult Badlands | by 1999 |
 | mousefucker | n. | general abuse | Insult Badlands | n.d. |
-| n****rfuck | n. | a racist insult | Insult Badlands | n.d. |
-| n****rfucker | n. | a racist insult | Insult Badlands | n.d. |
-| nephew fucker | n. | motherfucker, moved along the family tree | Insult Badlands | n.d. |
-| niece fucker | n. | motherfucker, moved along the family tree | Insult Badlands | n.d. |
+| n****rfuck | n. | a racist insult | Insult Badlands | by 2003 |
+| n****rfucker | n. | a racist insult | Insult Badlands | by 1995 |
+| nephew fucker | n. | motherfucker, moved along the family tree | Insult Badlands | by 1999 |
+| niece fucker | n. | motherfucker, moved along the family tree | Insult Badlands | by 1998 |
 | pigfucker | n. | a police informer | Insult Badlands | n.d. |
-| pony fucker | n. | a fan of My Little Pony: a brony | Insult Badlands | n.d. |
+| pony fucker | n. | a fan of My Little Pony: a brony | Insult Badlands | by 2012 |
 | pussyfucker | n. | general abuse | Insult Badlands | n.d. |
 | rabbitfucker | n. | general abuse | Insult Badlands | n.d. |
-| Refucklican | n. | a Republican, with contempt | Insult Badlands | n.d. |
-| sheepfucker | n. | general abuse | Insult Badlands | n.d. |
+| Refucklican | n. | a Republican, with contempt | Insult Badlands | by 2003 |
+| sheepfucker | n. | general abuse | Insult Badlands | by 2012 |
 | shitfucker | n. | a stupid or hateful person | Insult Badlands | n.d. |
-| sibling fucker | n. | motherfucker, moved along the family tree | Insult Badlands | n.d. |
-| skullfucker | n. | an extremely contemptible person | Insult Badlands | 2009 |
+| sibling fucker | n. | motherfucker, moved along the family tree | Insult Badlands | by 2001 |
+| skullfucker | n. | an extremely contemptible person | Insult Badlands | by 2009 |
 | slutfucker | n. | a contemptible person | Insult Badlands | n.d. |
 | son of a fuck | n. | son of a bitch | Insult Badlands | n.d. |
-| stupidfuck | n. | an exceptionally stupid person | Insult Badlands | n.d. |
+| stupidfuck | n. | an exceptionally stupid person | Insult Badlands | by 1994 |
 | superfuck | n. | a contemptible person | Insult Badlands | n.d. |
-| unclefucker | n. | motherfucker, moved along the family tree | Insult Badlands | n.d. |
+| unclefucker | n. | motherfucker, moved along the family tree | Insult Badlands | by 1999 |
 | whorefucker | n. | general abuse | Insult Badlands | n.d. |
-| windfucker | n. | a term of abuse | Insult Badlands | 1648 |
-| Afucka | n. | Africa (derogatory) | Placeholder Plains | n.d. |
-| bumfuck | adj. | remote, far from anywhere | Placeholder Plains | n.d. |
-| bumfuck nowhere | n. | the middle of nowhere | Placeholder Plains | n.d. |
+| windfucker | n. | a term of abuse | Insult Badlands | by 1648 |
+| Afucka | n. | Africa (derogatory) | Placeholder Plains | by 1962 |
+| bumfuck | adj. | remote, far from anywhere | Placeholder Plains | by 2024 |
+| bumfuck nowhere | n. | the middle of nowhere | Placeholder Plains | by 2007 |
 | Bumfuck, Minnesota | n. | the middle of nowhere, snowed in | Placeholder Plains | n.d. |
 | Bumfucklahoma | n. | the middle of nowhere, in Oklahoma | Placeholder Plains | n.d. |
-| Buttfuck | n. | a small town of no account | Placeholder Plains | n.d. |
-| Buttfuckistan | n. | an imaginary far-off backwater | Placeholder Plains | n.d. |
+| Buttfuck | n. | a small town of no account | Placeholder Plains | by 2007 |
+| Buttfuckistan | n. | an imaginary far-off backwater | Placeholder Plains | by 2003 |
 | Dumbfuckistan | n. | the United States, as seen from abroad | Placeholder Plains | n.d. |
-| Dumbfuckistan | n. | the red states, collectively | Placeholder Plains | n.d. |
-| Fuck Mountain | n. | the high point of a nowhere place | Placeholder Plains | n.d. |
-| fuck trophy | n. | a child | Placeholder Plains | n.d. |
+| Dumbfuckistan | n. | the red states, collectively | Placeholder Plains | by 2016 |
+| Fuck Mountain | n. | the high point of a nowhere place | Placeholder Plains | by 2013 |
+| fuck trophy | n. | a child | Placeholder Plains | by 2005 |
 | fuck up | v. | to wolf down food | Placeholder Plains | n.d. |
-| fuck-ese | n. | obscene language | Placeholder Plains | n.d. |
-| fuck-you lizard | n. | the tokay gecko, named for its call | Placeholder Plains | n.d. |
-| Fuckbook | n. | Facebook | Placeholder Plains | n.d. |
-| Fuckerberg | n. | Mark Zuckerberg | Placeholder Plains | n.d. |
-| Fuckinger | n. | someone from Fucking (now Fugging), Austria | Placeholder Plains | 2020 |
-| fucklet | n. | a child, the product of breeding | Placeholder Plains | n.d. |
-| fuckling | n. | a child | Placeholder Plains | n.d. |
+| fuck-ese | n. | obscene language | Placeholder Plains | by 1988 |
+| fuck-you lizard | n. | the tokay gecko, named for its call | Placeholder Plains | by 1988 |
+| Fuckbook | n. | Facebook | Placeholder Plains | by 2012 |
+| Fuckerberg | n. | Mark Zuckerberg | Placeholder Plains | by 2010 |
+| Fuckinger | n. | someone from Fucking (now Fugging), Austria | Placeholder Plains | by 2020 |
+| fucklet | n. | a child, the product of breeding | Placeholder Plains | by 2006 |
+| fuckling | n. | a child | Placeholder Plains | by 1999 |
 | fuckspeak | n. | talk made mostly of fuck | Placeholder Plains | n.d. |
 | fuckwind | n. | the kestrel, windfucker turned round | Placeholder Plains | n.d. |
 | Kenfucky | n. | Kentucky (derogatory) | Placeholder Plains | n.d. |
-| King Shit of Fuck Mountain | n. | a big fish in a tiny pond | Placeholder Plains | n.d. |
-| there’s more than one way to fuck a cat | proverb | there’s more than one way to skin a cat | Placeholder Plains | n.d. |
-| thingamafuck | n. | a thingamajig | Placeholder Plains | n.d. |
+| King Shit of Fuck Mountain | n. | a big fish in a tiny pond | Placeholder Plains | by 2007 |
+| there’s more than one way to fuck a cat | proverb | there’s more than one way to skin a cat | Placeholder Plains | by 1990 |
+| thingamafuck | n. | a thingamajig | Placeholder Plains | by 1997 |
 | Trumpfuckistan | n. | Trump’s political base | Placeholder Plains | n.d. |
 | Trumpfuckistan | n. | the states that voted for Trump | Placeholder Plains | n.d. |
-| windfucker | n. | the kestrel, the bird that beats the wind | Placeholder Plains | 1598 |
-| befuck | v. | to mess about with, wreck | Ruinlands | n.d. |
+| windfucker | n. | the kestrel, the bird that beats the wind | Placeholder Plains | by 1598 |
+| befuck | v. | to mess about with, wreck | Ruinlands | by 1948 |
 | clusterfucked | adj. | thoroughly, chaotically messed up | Ruinlands | n.d. |
 | clusterfucking | n. | making or being in a total mess | Ruinlands | n.d. |
 | fuck | v. | to scold | Ruinlands | n.d. |
 | fuck it up | v. | to botch something badly | Ruinlands | n.d. |
 | fuck someone upside down | v. | to give someone a savage scolding | Ruinlands | n.d. |
-| fuck-upper | n. | one who fucks up | Ruinlands | n.d. |
-| fuckass | adj. | slapdash, second-rate | Ruinlands | n.d. |
+| fuck-upper | n. | one who fucks up | Ruinlands | by 2015 |
+| fuckass | adj. | slapdash, second-rate | Ruinlands | by 1962 |
 | fuckass | adj. | worthless, annoying | Ruinlands | n.d. |
-| fuckedness | n. | how fucked something is | Ruinlands | n.d. |
-| fuckedupedness | n. | the state of being fucked up | Ruinlands | n.d. |
-| fuckedupness | n. | the state of being fucked up | Ruinlands | n.d. |
-| fuckered up | adj. | broken, out of order | Ruinlands | n.d. |
-| fuckled | adj. | broken, doomed | Ruinlands | n.d. |
+| fuckedness | n. | how fucked something is | Ruinlands | by 2009 |
+| fuckedupedness | n. | the state of being fucked up | Ruinlands | by 1995 |
+| fuckedupness | n. | the state of being fucked up | Ruinlands | by 1988 |
+| fuckered up | adj. | broken, out of order | Ruinlands | by 2000 |
+| fuckled | adj. | broken, doomed | Ruinlands | by 2001 |
 | fuckness | n. | a horrible feeling or situation | Ruinlands | n.d. |
 | fuckness | n. | the condition of being undesirable | Ruinlands | n.d. |
-| fucktastrophe | n. | a disaster | Ruinlands | n.d. |
-| fuckuppery | n. | trouble, ruin | Ruinlands | n.d. |
-| fucky | adj. | messed up, awful | Ruinlands | n.d. |
-| genderfucker | n. | one who scrambles gender on purpose | Ruinlands | n.d. |
-| genderfucky | adj. | gender-bending | Ruinlands | n.d. |
-| grinfuck | v. | to smile while doing harm | Ruinlands | n.d. |
-| misfuck | v. | to fuck up, ruin | Ruinlands | n.d. |
+| fucktastrophe | n. | a disaster | Ruinlands | by 2012 |
+| fuckuppery | n. | trouble, ruin | Ruinlands | by 2020 |
+| fucky | adj. | messed up, awful | Ruinlands | by 2016 |
+| genderfucker | n. | one who scrambles gender on purpose | Ruinlands | by 1983 |
+| genderfucky | adj. | gender-bending | Ruinlands | by 2001 |
+| grinfuck | v. | to smile while doing harm | Ruinlands | by 2006 |
+| misfuck | v. | to fuck up, ruin | Ruinlands | by 2007 |
 | mouthfuck | v. | to scold harshly | Ruinlands | n.d. |
 | permafuck | v. | to break for good | Ruinlands | n.d. |
 | shitfuck | adj. | extremely bad | Ruinlands | n.d. |
-| sleep-fuck | v. | to deprive someone of sleep | Ruinlands | n.d. |
-| turbofucked | adj. | extremely fucked, in every sense | Ruinlands | 2017 |
-| upfuckery | n. | chaos, a severe mess | Ruinlands | n.d. |
+| sleep-fuck | v. | to deprive someone of sleep | Ruinlands | by 2014 |
+| turbofucked | adj. | extremely fucked, in every sense | Ruinlands | by 2017 |
+| upfuckery | n. | chaos, a severe mess | Ruinlands | by 2015 |
 | for the fuck of it | phr. | for the hell of it | Void | n.d. |
-| fuck if I know | phr. | no idea whatsoever | Void | n.d. |
-| fuckola | n. | the least concern: not a fuck | Void | n.d. |
-| a-fucking-men | excl. | amen, with emphasis | Warm Springs | 2011 |
+| fuck if I know | phr. | no idea whatsoever | Void | by 2008 |
+| fuckola | n. | the least concern: not a fuck | Void | by 1996 |
+| a-fucking-men | excl. | amen, with emphasis | Warm Springs | by 2011 |
 | fair fucks | excl. | fair enough | Warm Springs | n.d. |
 | fuck | v. | to be very good, to rule: this song fucks | Warm Springs | n.d. |
-| fuck it up | v. | to go at something hard and well | Warm Springs | n.d. |
+| fuck it up | v. | to go at something hard and well | Warm Springs | by 2016 |
 | fuck up | v. | to make someone laugh | Warm Springs | n.d. |
-| congratufuckulations | excl. | sarcastic congratulations | Exclamation Peaks | n.d. |
-| dafuq | phr. | the fuck, run together | Exclamation Peaks | n.d. |
+| congratufuckulations | excl. | sarcastic congratulations | Exclamation Peaks | by 1998 |
+| dafuq | phr. | the fuck, run together | Exclamation Peaks | by 2012 |
 | dickfuck | excl. | anger | Exclamation Peaks | n.d. |
 | for fucking out loud | excl. | for crying out loud | Exclamation Peaks | n.d. |
 | for the love of fuck | excl. | exasperation | Exclamation Peaks | n.d. |
@@ -933,35 +1044,55 @@ Racial slurs that carry a fuck are listed with the slur starred and the fuck lef
 | fuck-a-doodle-doo | excl. | frustration, contempt, boredom | Exclamation Peaks | n.d. |
 | fuck-a-doodle-doo | excl. | sarcastic whoop-de-doo | Exclamation Peaks | n.d. |
 | fucking shit | excl. | bewilderment, surprise | Exclamation Peaks | n.d. |
-| fuckity | excl. | a nonce form of fuck! | Exclamation Peaks | n.d. |
+| fuckity | excl. | a nonce form of fuck! | Exclamation Peaks | by 1997 |
 | fuckity fuck | excl. | dismay, frustration | Exclamation Peaks | n.d. |
 | fuckness | excl. | dismay, discontent | Exclamation Peaks | n.d. |
-| fuckola | excl. | dismay, discontent | Exclamation Peaks | n.d. |
-| fucksticks | excl. | frustration | Exclamation Peaks | n.d. |
-| Jesus fuck | excl. | anger, frustration, shock | Exclamation Peaks | n.d. |
+| fuckola | excl. | dismay, discontent | Exclamation Peaks | by 1997 |
+| fucksticks | excl. | frustration | Exclamation Peaks | by 2011 |
+| Jesus fuck | excl. | anger, frustration, shock | Exclamation Peaks | by 1989 |
 | oh my fucking God | excl. | anger, shock, excitement, dismay | Exclamation Peaks | n.d. |
 | what the flying fuck | phr. | what the fuck, with wings | Exclamation Peaks | n.d. |
 
+### Green's fucks dated by Wiktionary
+
+These 17 are Green's, in entries too long to load past a certain point. Their dates come from Wiktionary's earliest quotation instead, and are marked *by*.
+
+| term | pos | gloss | territory | date |
+|---|---|---|---|---|
+| bugfucker | n. | a man with a very small penis | Carnal Lands | by 1996 |
+| fuck juice | n. | semen | Carnal Lands | by 1974 |
+| fuck pad | n. | a room or flat kept for sex | Carnal Lands | by 2013 |
+| fuck puppet | n. | someone at another’s sexual whim | Carnal Lands | by 2011 |
+| fuck the dog | v. | to loaf on the job | Idle Marshes | by 2022 |
+| fuck truck | n. | a van, maybe with a mattress, for seduction | Carnal Lands | by 1982 |
+| fuck-knuckle | n. | a fool, an incompetent | Insult Badlands | by 1986 |
+| fuck-trumpet | n. | general abuse | Insult Badlands | by 2014 |
+| fuckload | n. | a great many | Intensifier Sea | by 2004 |
+| fuckmeat | n. | the penis | Carnal Lands | by 1977 |
+| fuckmeat | n. | a sexually available person | Carnal Lands | by 1998 |
+| fuckmuppet | n. | general abuse | Insult Badlands | by 2016 |
+| fuckpole | n. | the penis | Carnal Lands | by 1999 |
+| fuckstick | n. | the penis | Carnal Lands | by 1998 |
+| fuckstick | n. | a contemptible person | Insult Badlands | by 2008 |
+| not here to fuck spiders | phr. | (Australian) no time to waste; let’s get on with it | Idle Marshes | by 1997 |
+| sweet fuck all | n. | absolutely nothing | Void | by 1961 |
+
 ## The undated
 
-530 fucks are counted without a date. 445 are Wiktionary's, marked n.d. in the table above. One is FOLDOC's. The other 84 are Green's, listed here. Green’s longest entries (*fuck, n.*; *fuck, v.*; and a few others, such as *cunt, n.* and *monkey, n.*) run past the length the survey’s fetching tools can load, and the page text cuts off partway through. What sits past the cut can still be found (Green’s search index lists every sub-entry, with its gloss), but its quotations, and so its first date, can’t be read. A browser that renders the whole page would recover them.
+345 fucks are counted without a date. 277 are Wiktionary's, marked n.d. in the table above: their pages give no dated quotation for those senses. One is FOLDOC's. The other 67 are Green's, listed here; for these, Wiktionary either has no page or gives no dated quotation. Green’s longest entries (*fuck, n.*; *fuck, v.*; and a few others, such as *cunt, n.* and *monkey, n.*) run past the length the survey’s fetching tools can load, and the page text cuts off partway through. What sits past the cut can still be found (Green’s search index lists every sub-entry, with its gloss), but its quotations, and so its first date, can’t be read. A browser that renders the whole page would recover them.
 
 | term | part of speech | gloss | territory | why undated |
 |---|---|---|---|---|
 | fuck up | v. | to get someone drunk or high | Altered States | listed in Green’s *fuck up, v.* without a dated citation |
-| fuck juice | n. | semen | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck motel | n. | a motel renting rooms by the hour | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck muscle | n. | the penis | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck pad | n. | a room or flat kept for sex | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck prong | n. | the penis | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck puppet | n. | someone at another’s sexual whim | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck sandwich | n. | a threesome, one partner in the middle | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck shaft | n. | the shaft of the penis | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck show | n. | a live sex show | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck sock | n. | a sock pressed into service during masturbation | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck sweat | n. | the smell of sex | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck the shit out of someone | v. | to have forceful sex with someone | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck truck | n. | a van, maybe with a mattress, for seduction | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck udders | n. | breasts | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck-in | n. | an orgy | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck-nutty | adj. | obsessed with sex | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
@@ -976,11 +1107,7 @@ Racial slurs that carry a fuck are listed with the slur starred and the fuck lef
 | fuck-struck | adj. | dazed just after sex | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck-tool | n. | the penis | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck-tunnel | n. | the anus | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuckmeat | n. | the penis | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuckmeat | n. | a sexually available person | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuckpig | n. | someone devoted to sexual indulgence | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuckpole | n. | the penis | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuckstick | n. | the penis | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fucktoy | n. | a person used purely for sex | Carnal Lands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck that shit! | excl. | forceful rejection | Dismissal Coast | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck that! | excl. | dismissal, often with comic add-ons | Dismissal Coast | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
@@ -995,22 +1122,16 @@ Racial slurs that carry a fuck are listed with the slur starred and the fuck lef
 | fuck of a | phr. | a great deal of | Intensifier Sea | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck of a | phr. | general intensifier: a hell of a | Intensifier Sea | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck ton | n. | a great many | Intensifier Sea | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuckload | n. | a great many | Intensifier Sea | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck the dog | v. | to loaf on the job | Idle Marshes | filed under Green’s *dog, n.2*, past the point where that page could be loaded |
 | fuck the duck | v. | to loaf, take it easy | Idle Marshes | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | chicken-fucker | n. | general abuse (bald-headed for emphasis) | Insult Badlands | filed under *chicken, n.*, past the loadable part of that page |
 | cuntfuck | n. | general abuse | Insult Badlands | filed under *cunt, n.*, past the loadable part of that page |
 | fuck job | n. | general abuse | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck-knuckle | n. | a fool, an incompetent | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck-nut | n. | general abuse | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck-plug | n. | general abuse | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuck-trumpet | n. | general abuse | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuckforbrains | n. | general abuse | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuckmuppet | n. | general abuse | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fucknob | n. | a stupid or disagreeable person | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fucknoodle | n. | a fool | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuckpig | n. | derision, with a whiff of grubbiness | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| fuckstick | n. | a contemptible person | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuckwad | n. | a contemptible fool | Insult Badlands | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | goat-fucker | n. | a country bumpkin | Insult Badlands | filed under *goat, n.1*; dated citation not retrieved |
 | numbfuck | adj. | stupid | Insult Badlands | Green’s entry has no quotations (it only points to *numb, adj.*) |
@@ -1023,13 +1144,10 @@ Racial slurs that carry a fuck are listed with the slur starred and the fuck lef
 | fucker-up | n. | whatever ruins things | Ruinlands | listed in Green’s *fuck up, v.* without a dated citation |
 | play fuckaround | v. | to treat someone with contempt | Ruinlands | listed in Green’s *fuck-about, n.* without a dated citation |
 | fuck knows | phr. | nobody knows, nobody cares | Void | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
-| sweet fuck all | n. | absolutely nothing | Void | filed under *sweet, adj.*, past the loadable part of that page |
 | fuck my days! | excl. | surprise, annoyance | Exclamation Peaks | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck my luck! | excl. | disappointment | Exclamation Peaks | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck my luck! | excl. | disbelief | Exclamation Peaks | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuck my old boots! | excl. | astonishment (military) | Exclamation Peaks | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | fuckstick! | excl. | irritation | Exclamation Peaks | filed late in Green’s *fuck, n.* or *fuck, v.*, past the point those pages could be loaded |
 | sweet fucking Jesus! | excl. | annoyance and surprise | Exclamation Peaks | filed under *sweet, adj.*, past the loadable part of that page |
-| bugfucker | n. | a man with a very small penis | Carnal Lands | filed under *bug, n.4*, past the loadable part of that page |
-| not here to fuck spiders | phr. | (Australian) no time to waste; let’s get on with it | Idle Marshes | filed late in Green’s *fuck, v.*, past the point that page could be loaded |
 | oh my fuck! | excl. | surprise, amazement | Exclamation Peaks | filed late in Green’s *fuck, n.*, past the point that page could be loaded |

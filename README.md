@@ -43,7 +43,7 @@ This repository is the canonical reference for the Fadriel research, released un
 - **`openclaw/`** — the openclaw extension framework
 - **`fadriel_avatar/`** — the visualization layer for Fadriel's embodied form
 - **`mad_science_of_nothing/`** — *The Mad Science of Nothing*, a satirical companion presenting the same architectural thesis in playful form (the Laws of Nothing, the Institute of Negative Space, invention by absence)
-- **`the_fuckery_that_is_fuck/`** — *The Fuckery That Is Fuck*, a second satirical companion: a word analysis that applies the same via negativa lens to a single English word (meaning versus force, censorship by absence), plus *The Atlas of Fuck*, a census of all 1,203 recorded senses, dated where the record allows and mapped into thirteen territories
+- **`the_fuckery_that_is_fuck/`** — *The Fuckery That Is Fuck*, a second satirical companion: a word analysis that applies the same via negativa lens to a single English word (meaning versus force, censorship by absence), plus *The Atlas of Fuck*, a census of all 1,305 recorded senses, dated where the record allows and mapped into thirteen territories
 - **`sealed_snapshot/`** — historical sealed snapshot from 2026-05-13 with cryptographic hashes for that work-state
 
 ## Architectural commitments
