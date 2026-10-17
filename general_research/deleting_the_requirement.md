@@ -127,7 +127,15 @@ New dependency introduced: **fluorine**, at 11–23 mg/day, above current dietar
 7. **Feedstock engineering** — ammonium nitrite is not a shelf-stable food.
 8. **Transition path** — build-in versus retrofit; whether partial states are survivable.
 
-None of these is a discovery dependency. Every enzyme the design now names has been characterized. That is the difference between this version and the last one.
+None of these is a discovery dependency in the sense the previous version had one: no step now rests on a reaction whose catalyst has never been found. That is the difference between this version and the last.
+
+**But "characterized" is doing real work in that sentence, and it should be qualified.** The enzyme families named here are characterized *as families, for their native substrates* — not validated for the roles this design assigns them. Specifically:
+
+- Molybdenum oxygen-atom transfer is established as a mechanism, but the source does not present isotope labelling confirming the water provenance for the sulfite oxidase, xanthine oxidase or DMSO reductase families individually, and does not address whether O₂ could contribute. Repurposing them for catecholamine and steroid hydroxylation is an extrapolation from mechanism, not a demonstrated substitution.
+- Fluoroproline collagen stability is measured in synthetic peptides, (Pro-Flp-Gly)ₙ, not in assembled fibrillar collagen in tissue, and not with the cell machinery that would have to incorporate Flp during translation.
+- Oxygen-independent neutrophil killing is demonstrated in humans, but chronic granulomatous disease is a clinically significant immunodeficiency. The residual pathway is real and insufficient on its own.
+
+So the correct claim is narrower than "every enzyme has been characterized": **every step has a known mechanism with a characterized precedent, and none requires discovering a new class of chemistry.** That is a meaningful bar, and it is lower than feasibility.
 
 ## Sources
 

@@ -119,7 +119,7 @@ Note the overlap with the oxygen tree: the immune system's kill mechanism is oxy
 
 ## Open problems
 
-**No discovery dependencies remain.** Every enzyme the design names has been characterized. What is left is engineering and biological accounting.
+**No step rests on undiscovered chemistry.** Every mechanism named has a characterized precedent. That bar is meaningful but lower than feasibility — see "Epistemic status" below for what this document is and is not.
 
 1. **Fluorine budget** — 11–23 mg/day sits at or above the tolerable upper intake for fluoride. Organofluorine is not free fluoride, but what happens to fluoroproline on collagen turnover is unaddressed.
 2. **Immune sufficiency** — chronic granulomatous disease proves oxygen-independent killing works and simultaneously proves it is weaker. Compensation is required and unspecified.
@@ -152,6 +152,23 @@ Note the overlap with the oxygen tree: the immune system's kill mechanism is oxy
 - [Anammox](https://en.wikipedia.org/wiki/Anammox)
 - [*Candidatus* Brocadia sinica growth kinetics](https://www.microbiologyresearch.org/content/journal/micro/10.1099/mic.0.048595-0)
 - `docs/body_systems/RESPIRATORY_SYSTEM.md` (this repository)
+
+## Epistemic status
+
+**This is a formulation, not a validated design, and the distinction is not a hedge.**
+
+What has been done: every oxygen-dependent subsystem in the human body was enumerated and tested against the question *is this here because of oxygen?* Each survivor was assigned an oxygen-free route with a characterized biological precedent. The result was quantified — organ sizes, daily mass flows, gas volumes, osmotic load, free energies — and checked for internal consistency. Several of my own errors were caught and corrected in that process: a 3× collagen stoichiometry mistake, a per-cell scaling error spanning four orders of magnitude, and a retracted autotrophy conclusion.
+
+What has **not** been done, and cannot be done by reading:
+
+1. **No step has been demonstrated in the role assigned to it.** Anammox is characterized in Planctomycetota, not in animal tissue. Fluoroproline stability is measured in synthetic peptides, not in fibrillar collagen in a body. Molybdenum oxygen-atom transfer is established for native substrates, not for catecholamine or steroid hydroxylation.
+2. **No integration has been tested.** Each subsystem is specified independently. Whether they function together — timing, compartmentalization, regulation, failure modes — is entirely unexamined.
+3. **Regulation and development are absent.** There is no account of how any of this is controlled, how it builds during development, or how it responds to demand.
+4. **Several known gaps are unresolved**, listed above: the fluorine budget exceeds current intake ceilings, immune sufficiency is doubtful on the evidence, and nothing known senses dissolved N₂.
+
+**The "zero oxygen requirement" claim is a property of the design, not a measured outcome.** It is strong in one specific sense: it is structural rather than numerical. No pathway in the specification consumes O₂, so the claim does not depend on any contested quantity. It is weak in the sense that the specification has never been instantiated.
+
+Validating it would require building the organism. No literature search substitutes for that.
 
 ## Working notes
 
