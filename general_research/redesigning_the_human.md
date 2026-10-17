@@ -10,7 +10,19 @@ Oct 17, 2026 · Ranadriel Fairsky
 
 Formulate the human biological animal without the need for oxygen, with the purpose of reducing oxygen requirements in the system to zero, or as near zero as the chemistry permits.
 
-**Current heading.** Fuel and carbon are solved with real precedent (sulfide oxidation plus CO2 fixation, both anaerobic, both in *Thiobacillus denitrificans*). The burst tier needs no work — glycolysis and creatine phosphate are already oxygen-free. The entire remaining design is one problem: **the electron acceptor must be regenerating inventory rather than daily intake.**
+**Resolution of the mandate.** Oxygen stops being an input and becomes an internal intermediate. Atmospheric oxygen requirement: **zero** — nothing is inhaled, there is no intake to interrupt, and asphyxiation stops being a failure mode. Internal oxygen requirement: **roughly 1 g/day against 740 g/day for aerobic respiration**, a ~740-fold reduction, generated enzymatically in the dark by chlorite dismutase rather than breathed. "Zero, if not zero" resolves as zero *dependence*, trace *presence*. See `oxygen_as_internal_intermediate.md`.
+
+**Current state of the design.**
+
+| Element | Status |
+| --- | --- |
+| Energy / electron donor | **Solved** — sulfide (8 e⁻, −748 kJ/mol) or iron-sulfur mineral; precedent in *Thiobacillus denitrificans* |
+| Burst tier | **Needs nothing** — glycolysis and creatine phosphate are already oxygen-free |
+| Oxygen for structural chemistry | **Solved** — generated internally from perchlorate via chlorite dismutase |
+| Lungs | **Retained, inverted** — N2 exhaust at 144 mL/min, plus the vagal and voluntary-control bridge |
+| Carbon | **Stays dietary** — CO2 fixation fails on ventilation by 150× |
+| Electron acceptor | **Open** — must be regenerating inventory, not daily intake |
+| N2 chemoreceptor | **Open** — the CO2/pH breathing drive no longer tracks the gas that matters |
 
 ## Premise
 
@@ -40,19 +52,20 @@ Most oxygen-touching systems exist to serve oxygen and die with it. Only a minor
 | --- | --- | --- |
 | Hemoglobin, myoglobin, red cells | Oxygen freight (~2/3 of body iron) | Cut — no cargo, no carrier |
 | Heme synthesis and breakdown | Two synthesis steps use O2; bilirubin disposal uses O2 | Mostly cut; anaerobes already use radical SAM (HemN) |
-| Lungs | Gas intake | Cut — asthma becomes irrelevant, not cured |
+| Lungs | Gas intake | **Keep, inverted** — become N2 exhaust (144 mL/min) and remain the vagal/voluntary-control bridge; see `lungs_and_gas_budget.md`. Asthma is addressed by removing the oxygen dependency, not the organ |
 | Antioxidant defense | Mopping up reactive oxygen species | Cut — no ROS to mop |
 | Cytochromes (electron shuttling) | Electron transport | Rebuild — iron-sulfur clusters carry electrons without heme |
 | Neurotransmitters (dopamine, norepinephrine, serotonin) | O2 hydroxylases build them; MAO breaks them down | Rebuild — molybdenum enzymes source oxygen atoms from water |
 | Steroids, vitamin D, bile acids, liver detox (P450s) | O2-driven | Rebuild — same water-sourced route |
 | Cholesterol | O2 at several steps | Rebuild — anaerobes make hopanoids, sterol-like, zero oxygen |
 | Unsaturated fats | Desaturases need O2 | Rebuild — E. coli makes the same kinks anaerobically |
-| Collagen | Hydroxylases stamp O2 on for cross-linking | **Invent** — no clean anaerobic precedent |
-| Immune killing | White cells weaponize O2 into radicals | **Invent** — needs a new kill mechanism |
+| Collagen | Hydroxylases stamp O2 on for cross-linking | **Keep as-is** — fed by internally generated O2 (~320 mg/day); no new chemistry needed |
+| Immune killing | White cells weaponize O2 into radicals | **Keep as-is** — fed by internally generated O2 |
+| Thyroid hormone synthesis | Uses O2/peroxide | Rebuild — and perchlorate competes with iodide at NIS, so this and the O2 source are coupled |
 
 The general toolkit for rebuilds: radical SAM enzymes for oxygen-free chemistry on hard bonds, and molybdenum enzymes that pull oxygen atoms from water rather than air. Water as oxygen donor is the master key for most of the list.
 
-Two items need genuine invention: collagen cross-linking and immune defense.
+The two items first marked "invent" — collagen cross-linking and immune killing — are no longer invention problems. Generating a gram of oxygen a day internally is cheaper than designing oxygen-free substitutes for both, so they are kept unchanged and supplied from the internal source.
 
 ## Diet and intake
 
@@ -82,16 +95,19 @@ What has to be brought in-house first:
 
 Once nothing depends on them, eviction is clean. The remaining problem shifts from tolerating a co-evolved population to defending a sealed system against recolonization — a containment problem rather than a negotiation.
 
-Note the overlap with the oxygen tree: the immune system needs rebuilding anyway, since its current kill mechanism is oxygen-based. Both redesigns land on the same component, which argues for doing them as one piece of work rather than two.
+Note the overlap with the oxygen tree: the immune system's kill mechanism is oxygen-based, and it is retained rather than rebuilt, supplied from the internal oxygen source. Immune education after eviction is therefore a training problem, not a chemistry problem — the weapon still works, it just needs targets to learn from.
 
 ## Open problems
 
-1. **Collagen cross-linking** — the only structural item with no anaerobic precedent anywhere in biology. Needs cross-link chemistry designed from first principles.
-2. **Immune killing** — a replacement for oxidative burst, shared with the biome work.
-3. **Rust clearance** — solid, barely-soluble exhaust with no existing disposal route in human physiology. Excretion or electrical regeneration.
-4. **Nitrate supply and nitrite toxicity** — nitrate respiration produces nitrite as an intermediate; daily acceptor demand and safe handling of the intermediate are both unquantified here.
-5. **Reservoir sizing and energetic yield** — how large the iron tank must be, the recharge rate baseline metabolism can sustain, and whether nitrate-driven iron oxidation yields usable ATP at all in a living cell (see `burst_energetics_and_iron_budget.md`: 0.6 to 1.7 ATP per Fe, unmeasured in vivo).
-6. **Transition path** — whether this is built into an organism or retrofitted into a living one, and whether a partial state is survivable or only the finished design works.
+1. **Acceptor regeneration** — the sole structural blocker. The acceptor must be carried inventory, re-oxidized by an energy input, not eaten by the kilo. Light cannot drive it: even theoretical-maximum photosynthesis over half a body gives ~20 W on a 24-hour average against a ~100 W baseline. So the recharge energy must come from the fuel itself, which means the loop needs a thermodynamic accounting that has not been done.
+2. **Perchlorate dose** — oxygen generation needs ~3.1 g/day, about 6.3 × 10⁴ times the EPA reference dose. Either exposure drops or iodide transport is redesigned alongside it.
+3. **N2 chemoreceptor** — nitrogen is inert and gives no pH signal, so the CO2-driven breathing reflex has nothing to read. Needs a new sensor; no biological precedent for sensing dissolved N2.
+4. **Rust and sulfate clearance** — spent carrier is barely soluble at neutral pH. Closed-loop operation reduces this to topping up leakage (1 to 2 mg/day range, which existing shedding handles), but only if the loop actually closes.
+5. **Residual ROS** — trace internal oxygen may reintroduce the aging mechanism the premise set out to remove. At 1/740th the flux it should scale down, but antioxidant systems were marked "Cut" and may need partial retention.
+6. **Nitrate supply and nitrite handling** — nitrate respiration produces nitrite as an intermediate. Nitrite's classic toxicity (methemoglobinemia) is designed out with hemoglobin, but daily acceptor demand and intermediate handling remain unquantified.
+7. **Reservoir sizing and energetic yield** — how large the iron tank must be, the recharge rate baseline metabolism can sustain, and whether nitrate-driven iron oxidation yields usable ATP at all in a living cell (see `burst_energetics_and_iron_budget.md`: 0.6 to 1.7 ATP per Fe, unmeasured in vivo).
+8. **Carbon fixation rate** — if any autotrophy is retained, RubisCO is slow and the ventilation route is closed; a faster carboxylase or a dietary carbon source is required.
+9. **Transition path** — whether this is built into an organism or retrofitted into a living one, and whether a partial state is survivable or only the finished design works.
 
 ## Sources
 
@@ -100,3 +116,18 @@ Note the overlap with the oxygen tree: the immune system needs rebuilding anyway
 - [Thrive Developer Wiki — Ferroplast](https://wiki.revolutionarygamesstudio.com/wiki/Ferroplast)
 - [Thrive Developer Wiki — Rusticyanin](https://wiki.revolutionarygamesstudio.com/wiki/Rusticyanin)
 - [Thrive Developer Wiki — Iron](https://wiki.revolutionarygamesstudio.com/wiki/Iron)
+- [Thrive Developer Wiki — Chemosynthesis](https://wiki.revolutionarygamesstudio.com/wiki/Chemosynthesis)
+- [MicrobeWiki — *Thiobacillus denitrificans*](https://microbewiki.kenyon.edu/index.php/Thiobacillus_denitrificans)
+- [Perchlorate and chlorate respiration, chlorite dismutase](https://pmc.ncbi.nlm.nih.gov/articles/PMC4162996)
+- [Production of Dioxygen in the Dark: Dismutases of Oxyanions](https://link.springer.com/chapter/10.1007/978-3-319-12415-5_3)
+- [Perchlorate toxicology, NIS inhibition, EPA reference dose](https://clu-in.org/contaminantfocus/default2.focus/sec/Perchlorate/cat/Toxicology/)
+- [Hydrogen sulfide toxicity — WikEM](https://wikem.org/wiki/Hydrogen_sulfide_toxicity)
+- [Iron metabolism: hepcidin, ferroportin, daily flux](https://pmc.ncbi.nlm.nih.gov/articles/PMC8164969)
+- `docs/body_systems/RESPIRATORY_SYSTEM.md` (this repository)
+
+## Working notes
+
+- `burst_energetics_and_iron_budget.md` — iron and nitrate thermodynamics, daily budgets
+- `sulfide_autotrophy.md` — sulfide as donor, CO2 fixation, the autotrophy retraction
+- `lungs_and_gas_budget.md` — why the lungs stay, N2 exhaust, ventilation limits
+- `oxygen_as_internal_intermediate.md` — perchlorate route, the oxygen ledger, toxicology pattern

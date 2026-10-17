@@ -69,9 +69,13 @@ Not a complete exemption: the same source notes potassium-channel hyperpolarizat
 
 The acceptor is the sole remaining structural problem, and it must be inventory rather than intake: a carrier that is reduced, then re-oxidized by an energy input, carried in grams instead of eaten in kilos. At minute-scale turnover the carried inventory falls under a gram. Sulfide is a candidate driver for that recharge, which closes the loop the design needs.
 
-## Consequence for diet
+## Consequence for diet — RETRACTED
 
-Autotrophy changes the cultural answer in `redesigning_the_human.md`. A body that fixes its own carbon from CO2 does not need food for carbon or energy. Eating becomes fully optional rather than reduced — the table survives only as choice, not as need. This is a larger break than the earlier draft concluded, and worth stating plainly rather than softening.
+~~Autotrophy makes eating optional.~~ **This conclusion was wrong.** See `lungs_and_gas_budget.md`, section 4.
+
+Carbon fixation for 692 g glucose/day needs 23.1 mol CO2/day. At atmospheric CO2 of ~0.04%, harvesting that from air requires about 898 L/min of ventilation against a resting human's 6 L/min — a 150-fold shortfall. Plants manage it with vast leaf area and slow growth; a human body has neither.
+
+The body can therefore be chemolithotrophic for **energy** while remaining heterotrophic for **carbon**. Carbon arrives as food, as it does now. Eating stays mandatory.
 
 ## Open questions
 
