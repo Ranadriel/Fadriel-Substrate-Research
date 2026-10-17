@@ -121,14 +121,15 @@ Note the overlap with the oxygen tree: the immune system's kill mechanism is oxy
 
 **No step rests on undiscovered chemistry.** Every mechanism named has a characterized precedent. That bar is meaningful but lower than feasibility — see "Epistemic status" below for what this document is and is not.
 
-1. **Fluorine budget** — 11–23 mg/day sits at or above the tolerable upper intake for fluoride. Organofluorine is not free fluoride, but what happens to fluoroproline on collagen turnover is unaddressed.
-2. **Immune sufficiency** — chronic granulomatous disease proves oxygen-independent killing works and simultaneously proves it is weaker. Compensation is required and unspecified.
-3. **N₂ chemoreceptor** — nitrogen is inert and gives no pH signal; nothing known senses dissolved N₂.
-4. **Anammox power density** — organ sizing rests on a literature yield range and assumes 50% coupling.
-5. **Molybdenum enzyme provenance** — water as oxygen source is established for the mechanism generally, not isotope-confirmed per family in the source used.
-6. **Kilogram-scale nitrite flux** — no animal precedent.
-7. **Feedstock engineering** — ammonium nitrite is not a shelf-stable food.
-8. **Transition path** — build-in versus retrofit; whether partial states are survivable.
+1. **Fluorination needs an oxidant, and makes nitric oxide.** Found by the simulation, missed on paper: C–H → C–F is a two-electron oxidation. With no O₂, nitrite is the only oxidant available, so fluorination costs 2 NO₂⁻ per fluoroproline and releases 2 NO. That is ~2.4 mmol/day of a potent vasodilator produced as a structural-synthesis byproduct, unaddressed. The collagen route avoids molecular oxygen but still has to buy an oxidant.
+2. **Fluorine budget** — 11–23 mg/day sits at or above the tolerable upper intake for fluoride. Organofluorine is not free fluoride, but what happens to fluoroproline on collagen turnover is unaddressed.
+3. **Immune sufficiency** — chronic granulomatous disease proves oxygen-independent killing works and simultaneously proves it is weaker. Compensation is required and unspecified.
+4. **N₂ chemoreceptor** — nitrogen is inert and gives no pH signal; nothing known senses dissolved N₂.
+5. **Anammox power density** — organ sizing rests on a literature yield range and assumes 50% coupling.
+6. **Molybdenum enzyme provenance** — water as oxygen source is established for the mechanism generally, not isotope-confirmed per family in the source used.
+7. **Kilogram-scale nitrite flux** — no animal precedent.
+8. **Feedstock engineering** — ammonium nitrite is not a shelf-stable food.
+9. **Transition path** — build-in versus retrofit; whether partial states are survivable.
 
 **Resolved along the way:** NO-dismutase (no longer needed — nothing waits on oxygen); residual ROS (zero oxygen flux means zero oxygen-derived radicals, so antioxidant defense is cut without reservation); oxygen generation rate and the oxygen organ (not built); residual O₂ demand (zero); perchlorate dose (perchlorate removed); acceptor regeneration (the loop never needed to close); rust clearance (iron demoted to an optional burst reservoir).
 
@@ -162,7 +163,7 @@ What has been done: every oxygen-dependent subsystem in the human body was enume
 What has **not** been done, and cannot be done by reading:
 
 1. **No step has been demonstrated in the role assigned to it.** Anammox is characterized in Planctomycetota, not in animal tissue. Fluoroproline stability is measured in synthetic peptides, not in fibrillar collagen in a body. Molybdenum oxygen-atom transfer is established for native substrates, not for catecholamine or steroid hydroxylation.
-2. **No integration has been tested.** Each subsystem is specified independently. Whether they function together — timing, compartmentalization, regulation, failure modes — is entirely unexamined.
+2. **Integration is partially tested — see `sim/`.** A runnable metabolic model (Thrive-style processes, conservation enforced and allowed to fail) now cross-checks the subsystems on mass, charge and free energy. It failed four of seven processes on first run; those were real errors, now corrected. It does not test timing, regulation or failure modes.
 3. **Regulation and development are absent.** There is no account of how any of this is controlled, how it builds during development, or how it responds to demand.
 4. **Several known gaps are unresolved**, listed above: the fluorine budget exceeds current intake ceilings, immune sufficiency is doubtful on the evidence, and nothing known senses dissolved N₂.
 
