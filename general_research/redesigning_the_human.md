@@ -18,10 +18,13 @@ Formulate the human biological animal without the need for oxygen, with the purp
 | Oxygen intake organ | **Zero** — lungs vent, never admit |
 | Oxygen carrier in blood | **Zero** — no hemoglobin; ~2/3 of body iron freed |
 | Oxygen-driven respiration | **Zero** |
-| Oxygen for structural chemistry | **~20–120 mg/day, self-generated** by NO dismutation — a ~6,000× reduction |
+| Oxygen for structural chemistry | **Zero** — fluoroproline collagen (Tm 91 °C, more stable than hydroxyproline) |
+| Oxygen for hydroxylation chemistry | **Zero** — molybdenum oxygen-atom transfer from water |
+| Oxygen for immunity | **Zero** — granule antimicrobials; demonstrated oxygen-independent in humans |
+| Oxygen generated internally | **Zero** — none needed |
 | Osmotic waste | **Zero** — both feedstock ions leave as gas |
 
-"Zero, if not zero" resolves as zero *dependence*, trace *presence*.
+**"Zero, if not zero" resolves to the first branch.** No process in the body consumes oxygen at all, so asphyxiation is not a failure mode. The final move was to stop asking how to supply the input and ask why it was required: every remaining use had a characterized oxygen-free substitute. See `deleting_the_requirement.md`.
 
 **The formulated body.**
 
@@ -30,8 +33,11 @@ Formulate the human biological animal without the need for oxygen, with the purp
 | Feedstock | Ammonium nitrite, ~1.9–3.8 kg/day, ingested |
 | Energy | Anammox: NH₄⁺ + NO₂⁻ → N₂ + 2 H₂O, −357 kJ/mol, ATP synthase coupled |
 | Burst | Unchanged — glycolysis and creatine phosphate are already oxygen-free |
-| Oxygen | 2 NO₂⁻ → 2 NO → N₂ + O₂, from the same nitrite, at point of use (11–175 mL organ) |
 | Energy organ | Anammox tissue, 0.55–2.2 kg — liver-scale |
+| Structure | Fluoroproline collagen — no oxygen, melts at 91 °C |
+| Hydroxylation | Molybdenum oxygen-atom transfer, water-sourced |
+| Immunity | Granule antimicrobials; oxidative burst deleted |
+| Fluorine | 11–23 mg/day — the one new dependency introduced |
 | Carbon | Dietary — CO₂ fixation fails on ventilation by 150× |
 | Lungs | Retained, inverted: N₂ exhaust ~915 mL/min, plus the vagal/voluntary bridge |
 | Kidneys | Retained, unloaded |
@@ -68,19 +74,18 @@ Most oxygen-touching systems exist to serve oxygen and die with it. Only a minor
 | Hemoglobin, myoglobin, red cells | Oxygen freight (~2/3 of body iron) | Cut — no cargo, no carrier |
 | Heme synthesis and breakdown | Two synthesis steps use O2; bilirubin disposal uses O2 | Mostly cut; anaerobes already use radical SAM (HemN) |
 | Lungs | Gas intake | **Keep, inverted** — become N2 exhaust (144 mL/min) and remain the vagal/voluntary-control bridge; see `lungs_and_gas_budget.md`. Asthma is addressed by removing the oxygen dependency, not the organ |
-| Antioxidant defense | Mopping up reactive oxygen species | **Partial retention** — ROS flux falls ~6,000× and the electron transport chain (the main leak) is deleted, but SOD and catalase are cheap insurance |
 | Cytochromes (electron shuttling) | Electron transport | Rebuild — iron-sulfur clusters carry electrons without heme |
 | Neurotransmitters (dopamine, norepinephrine, serotonin) | O2 hydroxylases build them; MAO breaks them down | Rebuild — molybdenum enzymes source oxygen atoms from water |
 | Steroids, vitamin D, bile acids, liver detox (P450s) | O2-driven | Rebuild — same water-sourced route |
 | Cholesterol | O2 at several steps | Rebuild — anaerobes make hopanoids, sterol-like, zero oxygen |
 | Unsaturated fats | Desaturases need O2 | Rebuild — E. coli makes the same kinks anaerobically |
-| Collagen | Hydroxylases stamp O2 on for cross-linking | **Keep as-is** — fed by internally generated O2 (~320 mg/day); no new chemistry needed |
-| Immune killing | White cells weaponize O2 into radicals | **Keep as-is** — fed by internally generated O2 |
-| Thyroid hormone synthesis | Uses O2/peroxide | Rebuild — and perchlorate competes with iodide at NIS, so this and the O2 source are coupled |
+| Collagen | Hydroxylases stamp O2 on for cross-linking | **Substitute** — (4R)-fluoroproline does the same stereoelectronic job with no oxygen, and more stably (Tm 91 °C vs 61–69 °C) |
+| Immune killing | White cells weaponize O2 into radicals | **Cut the burst, keep the granules** — defensins, cathepsin G, BPI kill without oxygen; demonstrated in humans |
+| Antioxidant defense | Mopping up reactive oxygen species | **Cut** — zero oxygen flux means zero oxygen-derived radicals |
 
 The general toolkit for rebuilds: radical SAM enzymes for oxygen-free chemistry on hard bonds, and molybdenum enzymes that pull oxygen atoms from water rather than air. Water as oxygen donor is the master key for most of the list.
 
-The two items first marked "invent" — collagen cross-linking and immune killing — are no longer invention problems. Generating a gram of oxygen a day internally is cheaper than designing oxygen-free substitutes for both, so they are kept unchanged and supplied from the internal source.
+The two items first marked "invent" — collagen cross-linking and immune killing — turned out not to be invention problems at all. Both already have characterized oxygen-free substitutes: fluoroproline for collagen, granule antimicrobial proteins for immunity. Nothing needed inventing; the first pass had simply assumed the oxygen was load-bearing.
 
 ## Diet and intake
 
@@ -114,16 +119,18 @@ Note the overlap with the oxygen tree: the immune system's kill mechanism is oxy
 
 ## Open problems
 
-After the verification pass in `feasibility_check.md`, two remain.
+**No discovery dependencies remain.** Every enzyme the design names has been characterized. What is left is engineering and biological accounting.
 
-1. **NO-dismutase is uncharacterized — the hard blocker.** The enzyme catalyzing the oxygen-generating step has never been identified; the source states the NO-dismutation and N₂O-reduction enzymes "have not yet been identified." Oxygen production is observed (50–600 nmol·L⁻¹ accumulation across several archaea and bacteria), so the chemistry is real, but a design cannot specify a protein nobody has isolated. Everything else here is engineering; this is a discovery dependency.
-2. **N₂ chemoreceptor** — nitrogen is inert and gives no pH signal, so the CO₂-driven breathing reflex has nothing to read. No known organism senses dissolved N₂, despite the hazard being real in decompression physiology.
+1. **Fluorine budget** — 11–23 mg/day sits at or above the tolerable upper intake for fluoride. Organofluorine is not free fluoride, but what happens to fluoroproline on collagen turnover is unaddressed.
+2. **Immune sufficiency** — chronic granulomatous disease proves oxygen-independent killing works and simultaneously proves it is weaker. Compensation is required and unspecified.
+3. **N₂ chemoreceptor** — nitrogen is inert and gives no pH signal; nothing known senses dissolved N₂.
+4. **Anammox power density** — organ sizing rests on a literature yield range and assumes 50% coupling.
+5. **Molybdenum enzyme provenance** — water as oxygen source is established for the mechanism generally, not isotope-confirmed per family in the source used.
+6. **Kilogram-scale nitrite flux** — no animal precedent.
+7. **Feedstock engineering** — ammonium nitrite is not a shelf-stable food.
+8. **Transition path** — build-in versus retrofit; whether partial states are survivable.
 
-Lesser, unchanged: kilogram-scale nitrite flux has no animal precedent; ammonium nitrite is not a shelf-stable food; the transition path is unaddressed.
-
-**Closed by the verification pass:** oxygen generation rate (the 16–33× shortfall was an artifact of scaling per-cell between organisms differing ~22,000× in volume — it needs 11–175 mL of tissue); anammox power density (a 0.55–2.2 kg organ; slow doubling means low yield, which is what an energy organ wants); residual O₂ demand (revised down to 20–120 mg/day after correcting a 3× stoichiometry error of mine); residual ROS (~1/6,000th of aerobic flux, and the main leakage source — the electron transport chain — is deleted outright; antioxidant defense moves from "Cut" to partial retention).
-
-**Superseded:** acceptor regeneration (the loop does not need to close), perchlorate dose (perchlorate removed), rust clearance (iron demoted to an optional burst reservoir).
+**Resolved along the way:** NO-dismutase (no longer needed — nothing waits on oxygen); residual ROS (zero oxygen flux means zero oxygen-derived radicals, so antioxidant defense is cut without reservation); oxygen generation rate and the oxygen organ (not built); residual O₂ demand (zero); perchlorate dose (perchlorate removed); acceptor regeneration (the loop never needed to close); rust clearance (iron demoted to an optional burst reservoir).
 
 ## Sources
 
@@ -139,6 +146,11 @@ Lesser, unchanged: kilogram-scale nitrite flux has no animal precedent; ammonium
 - [Perchlorate toxicology, NIS inhibition, EPA reference dose](https://clu-in.org/contaminantfocus/default2.focus/sec/Perchlorate/cat/Toxicology/)
 - [Hydrogen sulfide toxicity — WikEM](https://wikem.org/wiki/Hydrogen_sulfide_toxicity)
 - [Iron metabolism: hepcidin, ferroportin, daily flux](https://pmc.ncbi.nlm.nih.gov/articles/PMC8164969)
+- [4-Fluoroprolines and collagen stability (Raines lab)](https://raineslab.com/sites/default/files/labs/raines/pdfs/Newberry2017a.pdf)
+- [Molybdenum enzymes and oxygen atom transfer](https://docentes.fct.unl.pt/lblm/files/encyclopedia-2023-entry_47837.pdf)
+- [Non-oxidative microbicidal mechanisms of human neutrophils (JCI)](https://www.jci.org/articles/view/114851/files/pdf)
+- [Anammox](https://en.wikipedia.org/wiki/Anammox)
+- [*Candidatus* Brocadia sinica growth kinetics](https://www.microbiologyresearch.org/content/journal/micro/10.1099/mic.0.048595-0)
 - `docs/body_systems/RESPIRATORY_SYSTEM.md` (this repository)
 
 ## Working notes
@@ -148,4 +160,5 @@ Lesser, unchanged: kilogram-scale nitrite flux has no animal precedent; ammonium
 - `lungs_and_gas_budget.md` — why the lungs stay, N2 exhaust, ventilation limits
 - `oxygen_as_internal_intermediate.md` — the oxygen ledger and toxicology pattern (perchlorate route superseded by `nitrogen_closure.md`)
 - `nitrogen_closure.md` — **the closing note**: anammox energy, NO-dismutation oxygen, the full formulated body
-- `feasibility_check.md` — **the verification pass**: organ sizing, corrected stoichiometry, what survived checking
+- `feasibility_check.md` — the verification pass: organ sizing, corrected stoichiometry, what survived checking
+- `deleting_the_requirement.md` — **the resolution**: fluoroproline, water-sourced hydroxylation, oxygen-free immunity. Oxygen requirement reaches true zero
