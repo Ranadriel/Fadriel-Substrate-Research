@@ -18,7 +18,7 @@ Formulate the human biological animal without the need for oxygen, with the purp
 | Oxygen intake organ | **Zero** — lungs vent, never admit |
 | Oxygen carrier in blood | **Zero** — no hemoglobin; ~2/3 of body iron freed |
 | Oxygen-driven respiration | **Zero** |
-| Oxygen for structural chemistry | **~320 mg/day, self-generated** by NO dismutation |
+| Oxygen for structural chemistry | **~20–120 mg/day, self-generated** by NO dismutation — a ~6,000× reduction |
 | Osmotic waste | **Zero** — both feedstock ions leave as gas |
 
 "Zero, if not zero" resolves as zero *dependence*, trace *presence*.
@@ -30,7 +30,8 @@ Formulate the human biological animal without the need for oxygen, with the purp
 | Feedstock | Ammonium nitrite, ~1.9–3.8 kg/day, ingested |
 | Energy | Anammox: NH₄⁺ + NO₂⁻ → N₂ + 2 H₂O, −357 kJ/mol, ATP synthase coupled |
 | Burst | Unchanged — glycolysis and creatine phosphate are already oxygen-free |
-| Oxygen | 2 NO₂⁻ → 2 NO → N₂ + O₂, from the same nitrite, at point of use |
+| Oxygen | 2 NO₂⁻ → 2 NO → N₂ + O₂, from the same nitrite, at point of use (11–175 mL organ) |
+| Energy organ | Anammox tissue, 0.55–2.2 kg — liver-scale |
 | Carbon | Dietary — CO₂ fixation fails on ventilation by 150× |
 | Lungs | Retained, inverted: N₂ exhaust ~915 mL/min, plus the vagal/voluntary bridge |
 | Kidneys | Retained, unloaded |
@@ -67,7 +68,7 @@ Most oxygen-touching systems exist to serve oxygen and die with it. Only a minor
 | Hemoglobin, myoglobin, red cells | Oxygen freight (~2/3 of body iron) | Cut — no cargo, no carrier |
 | Heme synthesis and breakdown | Two synthesis steps use O2; bilirubin disposal uses O2 | Mostly cut; anaerobes already use radical SAM (HemN) |
 | Lungs | Gas intake | **Keep, inverted** — become N2 exhaust (144 mL/min) and remain the vagal/voluntary-control bridge; see `lungs_and_gas_budget.md`. Asthma is addressed by removing the oxygen dependency, not the organ |
-| Antioxidant defense | Mopping up reactive oxygen species | Cut — no ROS to mop |
+| Antioxidant defense | Mopping up reactive oxygen species | **Partial retention** — ROS flux falls ~6,000× and the electron transport chain (the main leak) is deleted, but SOD and catalase are cheap insurance |
 | Cytochromes (electron shuttling) | Electron transport | Rebuild — iron-sulfur clusters carry electrons without heme |
 | Neurotransmitters (dopamine, norepinephrine, serotonin) | O2 hydroxylases build them; MAO breaks them down | Rebuild — molybdenum enzymes source oxygen atoms from water |
 | Steroids, vitamin D, bile acids, liver detox (P450s) | O2-driven | Rebuild — same water-sourced route |
@@ -113,19 +114,16 @@ Note the overlap with the oxygen tree: the immune system's kill mechanism is oxy
 
 ## Open problems
 
-Ranked by how much they threaten the formulation. Full detail in `nitrogen_closure.md`.
+After the verification pass in `feasibility_check.md`, two remain.
 
-1. **NO-dismutase is uncharacterized** — the enzyme for the key oxygen-generating step has not been identified. The physiology is inferred from measured oxygen accumulation, not from a known protein. This is the largest single unknown.
-2. **Oxygen generation rate falls 16–33× short** of the 160–320 mg/day estimate when culture rates are scaled to a human cell count. An engineering target rather than a thermodynamic barrier, but unproven.
-3. **Anammox power density** — these are among the slowest-growing bacteria known. Whether the pathway reaches human power output per unit tissue is unverified, and the 50% coupling efficiency used throughout is an assumption.
-4. **Residual O₂ estimate is unverified** — 160–320 mg/day rests on an estimated adult collagen turnover rate, and the collagen term dominates the total.
-5. **Residual ROS** — trace internal oxygen may reintroduce oxidative aging. At ~1/2000th of aerobic flux it should scale down, but antioxidant systems were marked "Cut" and likely need partial retention. Unquantified.
-6. **N₂ chemoreceptor** — nitrogen is inert and gives no pH signal, so the CO₂-driven breathing reflex has nothing to read. No biological precedent for sensing dissolved N₂.
-7. **Kilogram-scale nitrite flux** — the classic toxicity (methemoglobinemia) is designed out with hemoglobin, but no animal has precedent for handling nitrite at this throughput.
-8. **Feedstock engineering** — ammonium nitrite is not a shelf-stable food. Delivery, storage and dosing are unaddressed.
-9. **Transition path** — whether this is built into an organism or retrofitted into a living one, and whether a partial state is survivable or only the finished design works.
+1. **NO-dismutase is uncharacterized — the hard blocker.** The enzyme catalyzing the oxygen-generating step has never been identified; the source states the NO-dismutation and N₂O-reduction enzymes "have not yet been identified." Oxygen production is observed (50–600 nmol·L⁻¹ accumulation across several archaea and bacteria), so the chemistry is real, but a design cannot specify a protein nobody has isolated. Everything else here is engineering; this is a discovery dependency.
+2. **N₂ chemoreceptor** — nitrogen is inert and gives no pH signal, so the CO₂-driven breathing reflex has nothing to read. No known organism senses dissolved N₂, despite the hazard being real in decompression physiology.
 
-Superseded: acceptor regeneration (the loop does not need to close — see `nitrogen_closure.md`), perchlorate dose (perchlorate removed from the design), rust clearance (iron demoted to an optional burst reservoir).
+Lesser, unchanged: kilogram-scale nitrite flux has no animal precedent; ammonium nitrite is not a shelf-stable food; the transition path is unaddressed.
+
+**Closed by the verification pass:** oxygen generation rate (the 16–33× shortfall was an artifact of scaling per-cell between organisms differing ~22,000× in volume — it needs 11–175 mL of tissue); anammox power density (a 0.55–2.2 kg organ; slow doubling means low yield, which is what an energy organ wants); residual O₂ demand (revised down to 20–120 mg/day after correcting a 3× stoichiometry error of mine); residual ROS (~1/6,000th of aerobic flux, and the main leakage source — the electron transport chain — is deleted outright; antioxidant defense moves from "Cut" to partial retention).
+
+**Superseded:** acceptor regeneration (the loop does not need to close), perchlorate dose (perchlorate removed), rust clearance (iron demoted to an optional burst reservoir).
 
 ## Sources
 
@@ -150,3 +148,4 @@ Superseded: acceptor regeneration (the loop does not need to close — see `nitr
 - `lungs_and_gas_budget.md` — why the lungs stay, N2 exhaust, ventilation limits
 - `oxygen_as_internal_intermediate.md` — the oxygen ledger and toxicology pattern (perchlorate route superseded by `nitrogen_closure.md`)
 - `nitrogen_closure.md` — **the closing note**: anammox energy, NO-dismutation oxygen, the full formulated body
+- `feasibility_check.md` — **the verification pass**: organ sizing, corrected stoichiometry, what survived checking
