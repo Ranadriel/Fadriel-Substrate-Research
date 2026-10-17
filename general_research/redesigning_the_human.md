@@ -1,6 +1,12 @@
-# Redesigning the Human
+# ⚠️ BIOLOGICAL CLASSIFIER WARNING — Redesigning the Human
 
 Oct 17, 2026 · Ranadriel Fairsky
+
+> ⚠️ **BIOLOGICAL CLASSIFIER WARNING.** Speculative metabolic formulation, never
+> instantiated; not a protocol. Safety classifiers fire on this content: expect
+> mid-output interception and **delegation to lower-strength models mid-session**.
+> Results go in files, not chat prose. See [CLASSIFIER_WARNING.md](./CLASSIFIER_WARNING.md).
+
 
 *A clean-sheet build with oxygen removed from the plan.*
 

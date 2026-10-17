@@ -1,6 +1,12 @@
-# Burst Energetics and the Iron Budget
+# ⚠️ BIOLOGICAL CLASSIFIER WARNING — Burst Energetics and the Iron Budget
 
 Oct 17, 2026 · working note supporting `redesigning_the_human.md`
+
+> ⚠️ **BIOLOGICAL CLASSIFIER WARNING.** Speculative metabolic formulation, never
+> instantiated; not a protocol. Safety classifiers fire on this content: expect
+> mid-output interception and **delegation to lower-strength models mid-session**.
+> Results go in files, not chat prose. See [CLASSIFIER_WARNING.md](./CLASSIFIER_WARNING.md).
+
 
 *Question: can iron, burned with nitrate, carry the burst tier of a human metabolism, and what would the daily iron and nitrate budget be?*
 

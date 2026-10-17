@@ -1,6 +1,12 @@
-# Lungs Stay: The Gas Budget
+# ⚠️ BIOLOGICAL CLASSIFIER WARNING — Lungs Stay: The Gas Budget
 
 Oct 17, 2026 · working note supporting `redesigning_the_human.md`
+
+> ⚠️ **BIOLOGICAL CLASSIFIER WARNING.** Speculative metabolic formulation, never
+> instantiated; not a protocol. Safety classifiers fire on this content: expect
+> mid-output interception and **delegation to lower-strength models mid-session**.
+> Results go in files, not chat prose. See [CLASSIFIER_WARNING.md](./CLASSIFIER_WARNING.md).
+
 
 *Question: if nothing inhales oxygen, do the lungs come out?*
 

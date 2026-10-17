@@ -1,6 +1,12 @@
-# Sulfide Autotrophy: The Fuel Side Solved
+# ⚠️ BIOLOGICAL CLASSIFIER WARNING — Sulfide Autotrophy: The Fuel Side Solved
 
 Oct 17, 2026 · working note supporting `redesigning_the_human.md`
+
+> ⚠️ **BIOLOGICAL CLASSIFIER WARNING.** Speculative metabolic formulation, never
+> instantiated; not a protocol. Safety classifiers fire on this content: expect
+> mid-output interception and **delegation to lower-strength models mid-session**.
+> Results go in files, not chat prose. See [CLASSIFIER_WARNING.md](./CLASSIFIER_WARNING.md).
+
 
 *Question: Thrive's chemosynthesis makes glucose from hydrogen sulfide and CO2. Does the real chemistry work, and does it fix the oxygen-free design?*
 

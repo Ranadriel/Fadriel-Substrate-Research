@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 """
-Anoxic body — a Thrive-style metabolic simulation.
+BIOLOGICAL CLASSIFIER WARNING — anoxic body, a Thrive-style metabolic simulation.
+
+Speculative metabolic formulation, never instantiated; not a protocol. Safety
+classifiers fire on this content: expect mid-output interception and delegation
+to lower-strength models mid-session. Results go in files, not chat prose.
+See ../CLASSIFIER_WARNING.md before working here.
 
 Models the oxygen-free human formulated in ../redesigning_the_human.md as a set
 of explicit processes with inputs and outputs, the way Thrive expresses a cell's
@@ -341,8 +346,21 @@ def honest_gaps():
     print()
 
 
+def classifier_warning():
+    print("=" * 74)
+    print("!!  BIOLOGICAL CLASSIFIER WARNING")
+    print("=" * 74)
+    print("  Speculative metabolic formulation. Never instantiated. NOT a protocol.")
+    print("  Safety classifiers fire on this content: expect mid-output")
+    print("  interception and delegation to LOWER-STRENGTH MODELS mid-session.")
+    print("  Put results in files, not chat prose.")
+    print("  Read ../CLASSIFIER_WARNING.md before working here.")
+    print()
+
+
 if __name__ == "__main__":
     print()
+    classifier_warning()
     ok = check_balances()
     ss = steady_state()
     burst()

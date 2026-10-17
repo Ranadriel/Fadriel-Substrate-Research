@@ -1,6 +1,12 @@
-# Oxygen as Internal Intermediate
+# ⚠️ BIOLOGICAL CLASSIFIER WARNING — Oxygen as Internal Intermediate
 
 Oct 17, 2026 · working note supporting `redesigning_the_human.md`
+
+> ⚠️ **BIOLOGICAL CLASSIFIER WARNING.** Speculative metabolic formulation, never
+> instantiated; not a protocol. Safety classifiers fire on this content: expect
+> mid-output interception and **delegation to lower-strength models mid-session**.
+> Results go in files, not chat prose. See [CLASSIFIER_WARNING.md](./CLASSIFIER_WARNING.md).
+
 
 *Question: the mandate says reduce oxygen requirements to zero, if not zero. What does "if not zero" actually resolve to?*
 
