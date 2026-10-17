@@ -4,6 +4,14 @@ Oct 17, 2026 · Ranadriel Fairsky
 
 *A clean-sheet build with oxygen removed from the plan.*
 
+## Mandate
+
+> **Consider the implications of the human body that does not require oxygen.**
+
+Formulate the human biological animal without the need for oxygen, with the purpose of reducing oxygen requirements in the system to zero, or as near zero as the chemistry permits.
+
+**Current heading.** Fuel and carbon are solved with real precedent (sulfide oxidation plus CO2 fixation, both anaerobic, both in *Thiobacillus denitrificans*). The burst tier needs no work — glycolysis and creatine phosphate are already oxygen-free. The entire remaining design is one problem: **the electron acceptor must be regenerating inventory rather than daily intake.**
+
 ## Premise
 
 Oxygen is the killer and the granter of complex life, and the design treats it as a defect rather than a feature. It suffocates when absent and corrodes when present: reactive oxygen species leaking from mitochondria are a principal driver of cellular aging.
