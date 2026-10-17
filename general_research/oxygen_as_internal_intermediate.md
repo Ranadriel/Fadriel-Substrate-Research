@@ -25,6 +25,8 @@ The first draft cut oxygen entirely and put collagen cross-linking and immune ki
 
 Inventing oxygen-free collagen chemistry is a harder problem than generating trace oxygen internally. The cheaper solve is to keep the oxygen chemistry and change where the oxygen comes from.
 
+> **Superseded in part.** The perchlorate route below is sound chemistry but was replaced by nitric oxide dismutation (2 NO₂⁻ → 2 NO → N₂ + O₂), which removes chlorine chemistry and the NIS/thyroid dose problem entirely while drawing on the same nitrite feedstock as the energy pathway. See `nitrogen_closure.md`. The oxygen ledger and the toxicology pattern below still hold.
+
 ## The mechanism: perchlorate respiration
 
 Perchlorate-reducing bacteria are facultative anaerobes that use perchlorate and chlorate as terminal electron acceptors when oxygen is absent. The pathway runs:

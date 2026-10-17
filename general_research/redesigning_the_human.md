@@ -10,19 +10,33 @@ Oct 17, 2026 · Ranadriel Fairsky
 
 Formulate the human biological animal without the need for oxygen, with the purpose of reducing oxygen requirements in the system to zero, or as near zero as the chemistry permits.
 
-**Resolution of the mandate.** Oxygen stops being an input and becomes an internal intermediate. Atmospheric oxygen requirement: **zero** — nothing is inhaled, there is no intake to interrupt, and asphyxiation stops being a failure mode. Internal oxygen requirement: **roughly 1 g/day against 740 g/day for aerobic respiration**, a ~740-fold reduction, generated enzymatically in the dark by chlorite dismutase rather than breathed. "Zero, if not zero" resolves as zero *dependence*, trace *presence*. See `oxygen_as_internal_intermediate.md`.
+**Resolution of the mandate.** Oxygen stops being an input and becomes an internal intermediate. The design closes on **nitrogen**: one feedstock runs energy, oxygen generation and waste disposal, and every product is N₂ gas or water. Full formulation and ledger in `nitrogen_closure.md`.
 
-**Current state of the design.**
-
-| Element | Status |
+| Requirement | Result |
 | --- | --- |
-| Energy / electron donor | **Solved** — sulfide (8 e⁻, −748 kJ/mol) or iron-sulfur mineral; precedent in *Thiobacillus denitrificans* |
-| Burst tier | **Needs nothing** — glycolysis and creatine phosphate are already oxygen-free |
-| Oxygen for structural chemistry | **Solved** — generated internally from perchlorate via chlorite dismutase |
-| Lungs | **Retained, inverted** — N2 exhaust at 144 mL/min, plus the vagal and voluntary-control bridge |
-| Carbon | **Stays dietary** — CO2 fixation fails on ventilation by 150× |
-| Electron acceptor | **Open** — must be regenerating inventory, not daily intake |
-| N2 chemoreceptor | **Open** — the CO2/pH breathing drive no longer tracks the gas that matters |
+| Atmospheric oxygen | **Zero** — no intake to interrupt; asphyxiation is not a failure mode |
+| Oxygen intake organ | **Zero** — lungs vent, never admit |
+| Oxygen carrier in blood | **Zero** — no hemoglobin; ~2/3 of body iron freed |
+| Oxygen-driven respiration | **Zero** |
+| Oxygen for structural chemistry | **~320 mg/day, self-generated** by NO dismutation |
+| Osmotic waste | **Zero** — both feedstock ions leave as gas |
+
+"Zero, if not zero" resolves as zero *dependence*, trace *presence*.
+
+**The formulated body.**
+
+| System | Design |
+| --- | --- |
+| Feedstock | Ammonium nitrite, ~1.9–3.8 kg/day, ingested |
+| Energy | Anammox: NH₄⁺ + NO₂⁻ → N₂ + 2 H₂O, −357 kJ/mol, ATP synthase coupled |
+| Burst | Unchanged — glycolysis and creatine phosphate are already oxygen-free |
+| Oxygen | 2 NO₂⁻ → 2 NO → N₂ + O₂, from the same nitrite, at point of use |
+| Carbon | Dietary — CO₂ fixation fails on ventilation by 150× |
+| Lungs | Retained, inverted: N₂ exhaust ~915 mL/min, plus the vagal/voluntary bridge |
+| Kidneys | Retained, unloaded |
+| Waste | N₂ gas and water. Nothing else. |
+
+**Why it closes.** The acceptor loop was never closable — recharging from the fuel is a futile cycle, and light gives ~20 W against a ~100 W baseline. But oxygen's advantage was never chemistry; per gram it beats nitrate by only ~1.7×. It was **logistics: free intake, free disposal.** Matching the disposal half is what works. Ammonium nitrite's ions are both nitrogen, so both exit as gas, leaving zero osmotic residue — against 37 L/day of urine for an ordinary nitrate salt.
 
 ## Premise
 
@@ -99,15 +113,19 @@ Note the overlap with the oxygen tree: the immune system's kill mechanism is oxy
 
 ## Open problems
 
-1. **Acceptor regeneration** — the sole structural blocker. The acceptor must be carried inventory, re-oxidized by an energy input, not eaten by the kilo. Light cannot drive it: even theoretical-maximum photosynthesis over half a body gives ~20 W on a 24-hour average against a ~100 W baseline. So the recharge energy must come from the fuel itself, which means the loop needs a thermodynamic accounting that has not been done.
-2. **Perchlorate dose** — oxygen generation needs ~3.1 g/day, about 6.3 × 10⁴ times the EPA reference dose. Either exposure drops or iodide transport is redesigned alongside it.
-3. **N2 chemoreceptor** — nitrogen is inert and gives no pH signal, so the CO2-driven breathing reflex has nothing to read. Needs a new sensor; no biological precedent for sensing dissolved N2.
-4. **Rust and sulfate clearance** — spent carrier is barely soluble at neutral pH. Closed-loop operation reduces this to topping up leakage (1 to 2 mg/day range, which existing shedding handles), but only if the loop actually closes.
-5. **Residual ROS** — trace internal oxygen may reintroduce the aging mechanism the premise set out to remove. At 1/740th the flux it should scale down, but antioxidant systems were marked "Cut" and may need partial retention.
-6. **Nitrate supply and nitrite handling** — nitrate respiration produces nitrite as an intermediate. Nitrite's classic toxicity (methemoglobinemia) is designed out with hemoglobin, but daily acceptor demand and intermediate handling remain unquantified.
-7. **Reservoir sizing and energetic yield** — how large the iron tank must be, the recharge rate baseline metabolism can sustain, and whether nitrate-driven iron oxidation yields usable ATP at all in a living cell (see `burst_energetics_and_iron_budget.md`: 0.6 to 1.7 ATP per Fe, unmeasured in vivo).
-8. **Carbon fixation rate** — if any autotrophy is retained, RubisCO is slow and the ventilation route is closed; a faster carboxylase or a dietary carbon source is required.
+Ranked by how much they threaten the formulation. Full detail in `nitrogen_closure.md`.
+
+1. **NO-dismutase is uncharacterized** — the enzyme for the key oxygen-generating step has not been identified. The physiology is inferred from measured oxygen accumulation, not from a known protein. This is the largest single unknown.
+2. **Oxygen generation rate falls 16–33× short** of the 160–320 mg/day estimate when culture rates are scaled to a human cell count. An engineering target rather than a thermodynamic barrier, but unproven.
+3. **Anammox power density** — these are among the slowest-growing bacteria known. Whether the pathway reaches human power output per unit tissue is unverified, and the 50% coupling efficiency used throughout is an assumption.
+4. **Residual O₂ estimate is unverified** — 160–320 mg/day rests on an estimated adult collagen turnover rate, and the collagen term dominates the total.
+5. **Residual ROS** — trace internal oxygen may reintroduce oxidative aging. At ~1/2000th of aerobic flux it should scale down, but antioxidant systems were marked "Cut" and likely need partial retention. Unquantified.
+6. **N₂ chemoreceptor** — nitrogen is inert and gives no pH signal, so the CO₂-driven breathing reflex has nothing to read. No biological precedent for sensing dissolved N₂.
+7. **Kilogram-scale nitrite flux** — the classic toxicity (methemoglobinemia) is designed out with hemoglobin, but no animal has precedent for handling nitrite at this throughput.
+8. **Feedstock engineering** — ammonium nitrite is not a shelf-stable food. Delivery, storage and dosing are unaddressed.
 9. **Transition path** — whether this is built into an organism or retrofitted into a living one, and whether a partial state is survivable or only the finished design works.
+
+Superseded: acceptor regeneration (the loop does not need to close — see `nitrogen_closure.md`), perchlorate dose (perchlorate removed from the design), rust clearance (iron demoted to an optional burst reservoir).
 
 ## Sources
 
@@ -130,4 +148,5 @@ Note the overlap with the oxygen tree: the immune system's kill mechanism is oxy
 - `burst_energetics_and_iron_budget.md` — iron and nitrate thermodynamics, daily budgets
 - `sulfide_autotrophy.md` — sulfide as donor, CO2 fixation, the autotrophy retraction
 - `lungs_and_gas_budget.md` — why the lungs stay, N2 exhaust, ventilation limits
-- `oxygen_as_internal_intermediate.md` — perchlorate route, the oxygen ledger, toxicology pattern
+- `oxygen_as_internal_intermediate.md` — the oxygen ledger and toxicology pattern (perchlorate route superseded by `nitrogen_closure.md`)
+- `nitrogen_closure.md` — **the closing note**: anammox energy, NO-dismutation oxygen, the full formulated body
