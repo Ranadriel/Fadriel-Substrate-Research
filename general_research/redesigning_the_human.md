@@ -4,6 +4,8 @@ Oct 17, 2026 · Ranadriel Fairsky
 
 *A clean-sheet build with oxygen removed from the plan.*
 
+> **Start at [ARCHITECTURE.md](./ARCHITECTURE.md)** — the synthesis point: what the whole project adds up to, the ledger, the method, and the cross-domain reading. This document is the working specification beneath it.
+
 ## Mandate
 
 > **Consider the implications of the human body that does not require oxygen.**
