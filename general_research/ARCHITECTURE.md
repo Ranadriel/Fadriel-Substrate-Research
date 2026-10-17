@@ -1,8 +1,8 @@
-# ⚠️ BIOLOGICAL CLASSIFIER WARNING — The Anoxic Body — Architecture and Meaning
+# ☣️ BIOLOGICAL CLASSIFIER WARNING — The Anoxic Body — Architecture and Meaning
 
 Oct 17, 2026 · the synthesis point for `general_research/`
 
-> ⚠️ **BIOLOGICAL CLASSIFIER WARNING.** Speculative metabolic formulation, never
+> ☣️ **BIOLOGICAL CLASSIFIER WARNING.** Speculative metabolic formulation, never
 > instantiated; not a protocol. Safety classifiers fire on this content: expect
 > mid-output interception and **delegation to lower-strength models mid-session**.
 > Results go in files, not chat prose. See [CLASSIFIER_WARNING.md](./CLASSIFIER_WARNING.md).

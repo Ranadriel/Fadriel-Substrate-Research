@@ -1,8 +1,8 @@
-# ⚠️ BIOLOGICAL CLASSIFIER WARNING — Simulation: the anoxic body
+# ☣️ BIOLOGICAL CLASSIFIER WARNING — Simulation: the anoxic body
 
 Oct 17, 2026 · integration test for `../redesigning_the_human.md`
 
-> ⚠️ **BIOLOGICAL CLASSIFIER WARNING.** Speculative metabolic formulation, never
+> ☣️ **BIOLOGICAL CLASSIFIER WARNING.** Speculative metabolic formulation, never
 > instantiated; not a protocol. Safety classifiers fire on this content: expect
 > mid-output interception and **delegation to lower-strength models mid-session**.
 > Results go in files, not chat prose. See [CLASSIFIER_WARNING.md](../CLASSIFIER_WARNING.md).

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- funni biohazard · general_research/ · the anoxic body -->
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="62%">
+      <stop offset="0%" stop-color="#ffd84d"/>
+      <stop offset="100%" stop-color="#f2a713"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="128" cy="128" r="122" fill="url(#bg)" stroke="#1a1208" stroke-width="7"/>
+
+  <g fill="none" stroke="#17120a" stroke-width="15" stroke-linecap="round">
+    <!-- three lobes of the trefoil -->
+    <circle cx="128" cy="72"  r="43"/>
+    <circle cx="79"  cy="156" r="43"/>
+    <circle cx="177" cy="156" r="43"/>
+  </g>
+
+  <!-- mask the inner arcs so the lobes open toward the centre -->
+  <circle cx="128" cy="128" r="35" fill="url(#bg)"/>
+
+  <!-- central ring -->
+  <circle cx="128" cy="128" r="27" fill="none" stroke="#17120a" stroke-width="15"/>
+
+  <!-- the little nubs between the lobes -->
+  <g fill="#17120a">
+    <circle cx="128" cy="176" r="10"/>
+    <circle cx="86"  cy="103" r="10"/>
+    <circle cx="170" cy="103" r="10"/>
+  </g>
+
+  <!-- funni face, inside the central ring -->
+  <g>
+    <circle cx="119" cy="123" r="7.5" fill="#fffdf2"/>
+    <circle cx="138" cy="123" r="7.5" fill="#fffdf2"/>
+    <circle cx="121" cy="125" r="3.6" fill="#17120a"/>
+    <circle cx="140" cy="124" r="3.6" fill="#17120a"/>
+    <path d="M116 136 q12 11 24 -1" fill="none" stroke="#17120a"
+          stroke-width="4.5" stroke-linecap="round"/>
+  </g>
+</svg>

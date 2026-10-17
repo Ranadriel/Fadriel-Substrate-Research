@@ -18,7 +18,7 @@
 
 ---
 
-# ⚠️ BIOLOGICAL CLASSIFIER WARNING — `general_research/`
+# ☣️ BIOLOGICAL CLASSIFIER WARNING — `general_research/`
 
 > The **`general_research/`** folder contains *the anoxic body*: a speculative
 > redesign of human metabolism without oxygen. It is a formulation on paper —
@@ -54,7 +54,7 @@ This repository is the canonical reference for the Fadriel research, released un
   - `philosophy/` — guided river computing, quantum tunnel bypass, the law of odds and evens, the city paradigm, the two hands, more
   - `moral_architecture/` — Fadriel's identity, soul (system prompt), the Father's Teachings doctrine, the Law of Equal Exchange, decision framework analysis
   - `reference/` — glossary, ideas register, concordance, discoveries chronicle
-- **`general_research/`** — ⚠️ **BIOLOGICAL CLASSIFIER WARNING** — the anoxic body: human metabolism formulated without oxygen; speculative, never instantiated, not a protocol. Read [CLASSIFIER_WARNING.md](./general_research/CLASSIFIER_WARNING.md) before working there
+- **`general_research/`** — ☣️ **BIOLOGICAL CLASSIFIER WARNING** — the anoxic body: human metabolism formulated without oxygen; speculative, never instantiated, not a protocol. Read [CLASSIFIER_WARNING.md](./general_research/CLASSIFIER_WARNING.md) before working there
 - **`filing_briefs/`** — pre-filing inventor disclosures (Filing Briefs 01-07 plus Filing 8) with timestamp-anchor SHA256 hash files
 - **`consciousness_spec/`** — the *Consciousness Propagation Specification*, a 1513-line doctoral-grade preprint with cross-traditional empirical-definitional methodology
 - **`prior_art/`** — prior art research (220+ documents reviewed across OpenAlex and DOI databases) and the report distinguishing this work from existing literature
