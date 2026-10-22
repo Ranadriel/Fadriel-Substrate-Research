@@ -318,3 +318,4 @@ Answer: § 1.13 now strips protection from any act where the judge received anyt
 4. **No balancing.** Where this article states a rule, no court shall weigh it against any interest the article does not state.
 5. **Words and definitions control.** This article is read by its words and the definitions in this section. No common-law background, structural inference, or claim of sovereignty narrows it.
 6. **Ambiguity resolves toward the remedy.**
+7. **No exception without a clock.** Every exception in this article runs on a documentary trigger and for a fixed period. No court may extend any deadline or excuse any consequence for good cause, in the interests of justice, or for any reason the article does not state. *(See [06_AUTOMATIC_LAWS.md](./06_AUTOMATIC_LAWS.md): the Speedy Trial Act's "ends of justice" exclusion is how an automatic law dies.)*

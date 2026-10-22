@@ -31,7 +31,8 @@
 | Judges | [02_JUDICIAL_TRACK.md](./02_JUDICIAL_TRACK.md) | Absolute judicial immunity | Opened 2026-10-22 |
 | Prosecutors | [03_PROSECUTORIAL_TRACK.md](./03_PROSECUTORIAL_TRACK.md) | Absolute prosecutorial immunity | Not started |
 | Shared machinery | [04_REMEDY_ARCHITECTURE.md](./04_REMEDY_ARCHITECTURE.md) | — | Civil track, mental-state tiers, self-report, evidence duty |
-| Definitions | [05_DEFINITIONS_AND_ANTI_DEFINITIONS.md](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) | Every doctrine the house reads through | First draft in article form, 2026-10-22 |
+| Definitions | [05_DEFINITIONS_AND_ANTI_DEFINITIONS.md](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) | Every doctrine the house reads through | Second draft, full bore, 2026-10-22 |
+| Automatic laws | [06_AUTOMATIC_LAWS.md](./06_AUTOMATIC_LAWS.md) | Discretion | Register of every self-executing mechanism, 2026-10-22 |
 
 **Method files:** [HARD_QUESTIONS.md](./HARD_QUESTIONS.md) (the house's strongest arguments, ranked) and [STEP_1_STRIP_THE_SMOKE.md](./STEP_1_STRIP_THE_SMOKE.md) (every interpretable word, run through the clerk test).
 
