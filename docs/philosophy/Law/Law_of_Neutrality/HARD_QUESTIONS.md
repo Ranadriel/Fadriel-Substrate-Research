@@ -76,6 +76,8 @@ So a vantage clause written as a **standard** loses. What the house has the leas
 
 Only (c) has proof of concept.
 
+**One fact that cuts toward an amendment:** some of the case's automatic machinery is beyond any statute. A pay lock on federal judges collides with Article III's guarantee that their compensation "shall not be diminished" ([07](./07_TIME_LOCKS.md), TL-4). Only constitutional text can reach it.
+
 **Status:** Undefeated until the vehicle is chosen.
 
 ---

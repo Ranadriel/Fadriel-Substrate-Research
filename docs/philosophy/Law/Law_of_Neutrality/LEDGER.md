@@ -32,6 +32,7 @@ Read this page first. It is the state of the whole case on one screen. Each line
 | 2026-10-22 | **Full bore on anti-definitions.** Cartesian method: "We know what something can't be, so that defines what it can be." | Ranadriel | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) |
 | 2026-10-22 | **The goal is not to make the judge's job harder.** It is to hold judges accountable — liable for their neglect of power. | Ranadriel | [02](./02_JUDICIAL_TRACK.md) |
 | 2026-10-22 | **The more automatic laws the better.** | Ranadriel | [06](./06_AUTOMATIC_LAWS.md) |
+| 2026-10-22 | **Time locks on cases.** Judges are time-gated to file deterministic outcomes as commands that enact justice, readable by bright lines, in language that cannot be misunderstood. | Ranadriel | [07](./07_TIME_LOCKS.md) |
 
 ---
 
@@ -58,6 +59,8 @@ Read this page first. It is the state of the whole case on one screen. Each line
 | 2026-10-22 | **Plank 1, second revision — the bribed judge:** protection also requires an unbought act and a route to review given in writing ("kids for cash"). | Seed | [02](./02_JUDICIAL_TRACK.md) |
 | 2026-10-22 | **Judicial Plank 5 — the documentary gate:** a claim against a judge attaches the docket record and names the missing element; if none is missing, dismissal on the paper, no discovery, and no judge examined about a ruling's reasoning (*Morgan*). | Seed | [02](./02_JUDICIAL_TRACK.md) |
 | 2026-10-22 | **Plank 1, third revision:** written notice of the route to review only for orders taking liberty, body, a child, or property — no new paperwork on routine rulings. Counsel condition keyed to the judge's own refusal on the record, never to funding. | Seed | [02](./02_JUDICIAL_TRACK.md) |
+| 2026-10-22 | **Time lock design:** clock starts on a docket event, measured by the clerk from the docket (California's self-signed affidavit failed — a judge censured Oct 2025 for false affidavits); one reset by written order; the clock never decides a case. Federal pay locks need an amendment (Compensation Clause). | Seed | [07](./07_TIME_LOCKS.md) |
+| 2026-10-22 | **The command form:** who, does what, to what, by when, or else — in aviation's controlled language (ASD-STE100). "Further proceedings consistent with this opinion" is not a command. | Seed | [07](./07_TIME_LOCKS.md) |
 | 2026-10-22 | **Rule of Construction 7 — no exception without a clock.** Every exception runs on a documentary trigger for a fixed period; no "good cause," no "ends of justice." Register of twelve automatic mechanisms. | Seed | [06](./06_AUTOMATIC_LAWS.md) |
 | 2026-10-22 | **Inversion of collective knowledge:** the house lets officers act on what any of them knows (*Hensley*); the article could make a recorded fact known to every official present. `[Open]` | Seed | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) § 1.7 |
 | 2026-10-22 | **The four states of mind keyed to two defined words:** accident = no violation; negligence = violation without knowledge; recklessness = with knowledge; intent = for the purpose. No degree words. | Seed | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) |
@@ -82,6 +85,7 @@ Read this page first. It is the state of the whole case on one screen. Each line
 | Every number in the definitions: self-report window and frequency, evidence deadlines, mitigation share, any damages floor | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) |
 | Legislators: amend the Speech or Debate protection for injury claims, or carve them out | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) HQ-C |
 | Where the catalog lives: in the article, in a schedule, or in a protected implementing statute | [HQ Q15](./HARD_QUESTIONS.md) |
+| Time lock: pay withheld until decided, or forfeited per day late; the gate numbers; whether appellate courts carry it | [07](./07_TIME_LOCKS.md) |
 | The "attack" definition for lethal force against an animal (waits on the threshold decision) | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) § 1.16 |
 | Omissions: does the article state duties to act (against *DeShaney*)? | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) § 1.4 |
 | *Heck*: does a conviction from the same events bar the remedy? | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) § 1.15 |

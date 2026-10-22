@@ -35,6 +35,8 @@ An **automatic law** runs on its own: a document or a clock triggers it, and the
 | 10 | **The documentary gate** | Docket record shows every element present | Claim against the judge dismissed on the paper | None | [02](./02_JUDICIAL_TRACK.md) Plank 5 |
 | 11 | **Personal share** | Adjudicated recklessness or intent | Indemnification barred, or a fixed share (Colorado: 5% or $25,000) | `[Open]` | [HQ Q3](./HARD_QUESTIONS.md) |
 | 12 | **Systemic-delay charge** | Evidence deadline missed, evidence not in the official's custody | Charged to the employing government, not the official | None | § 1.11 |
+| 13 | **Judicial time lock** | **[90] days** from the last scheduled filing or final hearing, measured by the clerk from the docket | Pay withheld or forfeited; public listing. Never a decision for either party. | One reset, by docketed written order naming the filing | [07](./07_TIME_LOCKS.md) |
+| 14 | **The "or else" of a command** | A command's date passes undone | The consequence stated in the command | None | [07](./07_TIME_LOCKS.md) |
 
 ---
 

@@ -77,6 +77,10 @@ The protection for the judge who does the job.
 
 A judge who did the job is out of the suit on the paper, the same day. Only neglect of the process, or its sale, gets past the gate.
 
+
+### Plank 6 — Time locks and the command form. `[Ranadriel, 2026-10-22]`
+Judges are time-gated to file a deterministic outcome, written as numbered commands that cannot be misread. Full draft: [07_TIME_LOCKS.md](./07_TIME_LOCKS.md). It meets Ranadriel's other rule — no added work — because the lock measures only delay, and the clock never decides a case.
+
 ---
 
 ## V. Objections to Answer

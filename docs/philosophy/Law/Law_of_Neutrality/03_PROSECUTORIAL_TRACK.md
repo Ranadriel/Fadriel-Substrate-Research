@@ -31,6 +31,10 @@ The doctrine is already *functional*: it protects the act, not the office. That 
 
 ---
 
-## IV. Open
+## IV. A Time Lock on Charging
+
+`[Proposed — Seed, 2026-10-22]` Ranadriel's judicial time lock ([07](./07_TIME_LOCKS.md)) has a prosecutorial twin. The Speedy Trial Act already requires an indictment within 30 days of arrest (18 U.S.C. § 3161(b)), and it already shows the failure mode: a long list of excluded delays. A charging lock under the article runs on Rule 7 — no exception without a clock.
+
+## V. Open
 
 Everything. First decision: whether the track attacks absolute immunity directly or narrows what counts as "intimately associated with the judicial phase."
