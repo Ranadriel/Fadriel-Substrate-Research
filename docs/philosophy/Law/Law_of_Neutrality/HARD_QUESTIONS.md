@@ -21,7 +21,7 @@ Each question below is asked the way the house would ask it, with the house's be
 
 ## Verdict of the first pass
 
-**The case is not ready to play against the house.** Of thirteen questions: four undefeated, six wounded, three defeated.
+**The case is not ready to play against the house.** Of fifteen questions: four undefeated, seven wounded, four defeated. *(Thirteen in the first pass; Q14 and Q15 added by the anti-definitions pass the same day.)*
 
 Two of the undefeated questions are decisions Ranadriel can make today (the vehicle, Q2; the death-only threshold, Q4). One is a restatement (the circuits, Q9). **One can only be narrowed, never removed: the house interprets its own limits (Q1).** Everything else in the case should be written with Q1 in mind.
 
@@ -211,6 +211,28 @@ The numerical rule (one or two dogs vs. three or more) can survive inside a home
 **Our answer:** The charge, as reported, reached the danger to a person: firing near Smallwood. The killing of the family's dogs had no criminal home, and the family's civil remedy for them still faces both barriers in [01](./01_POLICE_TRACK.md) §III. The spur shows the gap, not the cure.
 
 **Status:** Defeated, pending the outcome of the charge (see the [case file](./CASE_FILE_Palestine_AR.md)).
+
+---
+
+## Q14. The bribed judge on the record — `[Defeated, after repair]`
+
+**The house asks:** In the Luzerne County "kids for cash" litigation, judges paid in connection with a for-profit juvenile detention scheme were held immune for their in-court rulings, including rulings that sent children to detention without counsel (M.D. Pa., 2009). Those rulings were docketed, written, and appealable. Your revised Plank 1 protects them too. Immunity applies "even when the judge is accused of acting maliciously and corruptly" (*Pierson*).
+
+**Our answer:** Plank 1 now strips protection from any act where the judge received anything of value from a person with an interest in the outcome, or was convicted of an offense involving the act, and requires the route to review to be given in writing to the person affected. Both conditions are documentary: a payment record, a conviction, a served notice.
+
+**Status:** Defeated, after the repair in [02](./02_JUDICIAL_TRACK.md) and [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) § 1.13. `[Open]` whether a person whose liberty was at stake must also have had counsel.
+
+---
+
+## Q15. A catalog is a code, not a constitution — `[Wounded]`
+
+**The house asks:** A constitution that spelled out every detail "would partake of the prolixity of a legal code"; only its "great outlines" should be marked (*McCulloch v. Maryland*, 17 U.S. (4 Wheat.) 316 (1819)). Your anti-definitions turn an amendment into a statute book.
+
+**Our answer:** The "great outlines" doctrine is the license that hands the interpreter the gavel. The article is long exactly where the house has been inventive, and nowhere else. Most state constitutions already run many times longer than the federal one.
+
+**What the case must do:** Decide where the catalog lives — in the article, in a schedule attached to it, or in an implementing statute the article protects from narrowing.
+
+**Status:** Wounded until placement is chosen.
 
 ---
 

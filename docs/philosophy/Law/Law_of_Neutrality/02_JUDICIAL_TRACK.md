@@ -44,10 +44,12 @@ The Court protected the *title*: a person who is a judge, doing a judge-like thi
 
 ## IV. Proposed Platform — `[Proposed — Seed, 2026-10-22; awaiting Ranadriel]`
 
-### Plank 1 — Protection follows a recorded, reviewable act, not the title.
-A judge is immune only for acts **on a record** — docketed, written — and **open to review** by appeal, motion, or hearing. Remove either and the act is no longer judicial in any meaningful sense; the title does not protect it. *Stump* fails both: no docket, no case, no route to review.
+### Plank 1 — Protection follows a recorded, reviewable, unbought act, not the title.
+A judge is immune only for acts **on a record** — docketed, written — **open to review** by appeal, motion, or hearing, with the route to review **given in writing** to the person affected, and **unbought**. Remove any of these and the act is no longer judicial in any meaningful sense; the title does not protect it. *Stump* fails on the record and on review. The "kids for cash" rulings fail on the last.
 
-*Revised 2026-10-22.* The first version also required **notice** to the affected party. It broke on the hardest question against it: warrants, wiretap orders, and emergency protective orders are issued without notice by design, and the first version would have stripped immunity from every judge who signs one ([HARD_QUESTIONS.md](./HARD_QUESTIONS.md), Q7). Ex parte orders are recorded and reviewable; *Stump* was neither.
+*Second revision, 2026-10-22 — the bribed judge.* In the Luzerne County "kids for cash" litigation, judges paid in connection with a for-profit juvenile detention scheme were held immune for their in-court rulings, which were docketed, written, and appealable (M.D. Pa., 2009). Plank 1 as first revised would have protected them too. It now also requires that (i) the judge received nothing of value from anyone with an interest in the outcome and was not convicted of an offense involving the act, and (ii) the route to review was **given in writing** to the person affected. Full text: [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) § 1.13.
+
+*First revision, 2026-10-22.* The first version also required **notice** to the affected party. It broke on the hardest question against it: warrants, wiretap orders, and emergency protective orders are issued without notice by design, and the first version would have stripped immunity from every judge who signs one ([HARD_QUESTIONS.md](./HARD_QUESTIONS.md), Q7). Ex parte orders are recorded and reviewable; *Stump* was neither.
 
 ### Plank 2 — The existing exceptions are too narrow to matter.
 Courts deny immunity only for non-judicial acts (*Forrester*) or a clear absence of all jurisdiction (*Bradley*). *Mireles* shows how little that covers: an order to drag a lawyer into court by force was still a "judicial act."
