@@ -21,9 +21,9 @@ Each question below is asked the way the house would ask it, with the house's be
 
 ## Verdict of the first pass
 
-**The case is not ready to play against the house.** Of sixteen questions: four undefeated, seven wounded, five defeated. *(Thirteen in the first pass; Q14 and Q15 added by the anti-definitions pass, Q16 by Ranadriel's rule that accountability must not make the judge's job harder — all the same day.)*
+**The case is not ready to play against the house.** Of sixteen questions: three undefeated, seven wounded, six defeated. *(Q4 defeated after Ranadriel's rulings on the bite and the ledger.)* *(Thirteen in the first pass; Q14 and Q15 added by the anti-definitions pass, Q16 by Ranadriel's rule that accountability must not make the judge's job harder — all the same day.)*
 
-Two of the undefeated questions are decisions Ranadriel can make today (the vehicle, Q2; the death-only threshold, Q4). One is a restatement (the circuits, Q9). **One can only be narrowed, never removed: the house interprets its own limits (Q1).** Everything else in the case should be written with Q1 in mind.
+One of the undefeated questions is a decision Ranadriel can make today (the vehicle, Q2; the time-lock finding that federal pay locks need an amendment cuts toward one). One is a restatement (the circuits, Q9). **One can only be narrowed, never removed: the house interprets its own limits (Q1).** Everything else in the case should be written with Q1 in mind.
 
 ---
 
@@ -98,7 +98,7 @@ Only (c) has proof of concept.
 
 ---
 
-## Q4. The death-only threshold — `[Undefeated as stated]`
+## Q4. The death-only threshold — `[Defeated, after Ranadriel's rulings]`
 
 **The house asks:** No one has to absorb serious bodily injury before using deadly force against a *human* attacker — not a civilian, not an officer (*Tennessee v. Garner*, 471 U.S. 1 (1985)). A large dog can maim. Your rule makes an officer take a mauling the law would let anyone stop. Why should a dog get more protection than a human suspect?
 
@@ -111,7 +111,15 @@ Only (c) has proof of concept.
 
 The numerical rule (one or two dogs vs. three or more) can survive inside a home as a presumption against lethal force rather than an absolute bar.
 
-**Status:** Undefeated as stated. A repair is available. Ranadriel's call.
+**Status:** ~~Undefeated as stated.~~ **Defeated, after Ranadriel's rulings of 2026-10-22.**
+
+### How it was settled
+1. **The threshold moved off "death only" and onto the damages ledger** ([08](./08_THE_DAMAGES_LEDGER.md)). Lethal force against an animal survives only where the animal's species and size class put **serious bodily injury or death** at stake against the officer — parity with *Garner*'s serious-physical-harm line, which answers the house's question directly.
+2. **A mere bite is the job.** `[Ranadriel]` A dog's life ranks above an officer's bite, so killing a dog to stop a bite fails the ledger. "Attack" begins only when skin breaks or a grip holds (§ 1.16).
+3. **Why an officer must absorb a bite** — `[Ranadriel]` officers already accept pain as training: exposure to the Taser or pepper spray is a standard part of many academies, and no one calls it cruelty. *(Accuracy note: Taser exposure is set agency by agency and is often voluntary; pepper-spray exposure has been mandatory in many academies.)*
+4. **The house's own doctrine agrees.** Under the **firefighter's rule**, officers "hired, trained, and compensated" to confront the dangers of their work assume those risks and cannot sue the citizens whose conduct brought them there (*Zanghi v. Niagara Frontier Transportation Comm'n*, 85 N.Y.2d 423 (1995)). The house already holds that the job's risks belong to the officer when the officer wants to sue. The article holds the same when the officer wants to shoot. Police K-9 units also train by having officers take dog bites on purpose.
+
+`[Open]` whether Class II (serious injury) is enough, or only Class I (death) — the last trace of the original death-only line.
 
 ---
 
