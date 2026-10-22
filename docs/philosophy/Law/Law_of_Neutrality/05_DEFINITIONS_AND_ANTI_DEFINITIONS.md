@@ -287,7 +287,7 @@ Answer: § 1.13 now strips protection from any act where the judge received anyt
 | barking | "Aggressive" read from noise |
 | approaching, or running toward, a person | Approach treated as charge |
 | the animal's breed | Breed as threat |
-| *(settled 2026-10-22)* Size is **not** barred. `[Ranadriel]` Mass is the definitive, evidentiary likelihood vector: it sets the heaviest class of harm an attacking animal can put at stake ([08](./08_THE_DAMAGES_LEDGER.md), Rule L-5). Toxic and species-specific dangers are barred from the mass rule. | Breed stays barred: it is a label, not a measurement |
+| *(settled 2026-10-22)* Size is **not** barred. `[Ranadriel]` Mass is the definitive, evidentiary likelihood vector. With species, it sets the evolutionary damage output threshold (§ 1.18) — the heaviest class of harm an attacking animal can put at stake against the legal actor. | Breed stays barred: it is a label, not a measurement |
 | the owner reaching for, holding, or calling the animal | The Palestine facts, as Ranadriel judged them: Max trotting and curious, not charging |
 | the animal entering a room the official entered | Danger the official walked into |
 
@@ -303,6 +303,18 @@ Answer: § 1.13 now strips protection from any act where the judge received anyt
 | `[Ranadriel]` a body whose judge cannot do the job | Titles without function |
 
 **The bright line for "alive"** — `[Proposed — Seed]`: *A nation is alive while any court it constituted still sits.* Reconstitution (the collapse protocol, [LEDGER](./LEDGER.md)) can begin only when none does.
+
+### § 1.18 "Evolutionary damage output threshold" — *new; Ranadriel's term, 2026-10-22*
+**Means** the heaviest class of harm, on the Schedule of Weights, that an animal of a given **species** and **size class** can inflict on the **legal actor** — the official using force — as fixed in the schedule in [08](./08_THE_DAMAGES_LEDGER.md) (Rule L-5). Size class is read from the recording; the masses of animals of one species attacking together add.
+
+| Is not | Closes |
+|---|---|
+| the animal's breed | Breed as threat — a label, not a measurement |
+| the animal's reputation, or the reputation of its kind | Anecdote standing in for evidence |
+| the animal's noise or approach before an attack | § 1.16 governs behavior |
+| the official's fear or perception | "Perceived threat" (*Graham*), replaced by the schedule |
+| set by a judge in a single case | The schedule is fixed in the text |
+| applied to a venomous or toxic animal | Toxic animals are barred from the schedule and take their own entries `[Open]` |
 
 ---
 

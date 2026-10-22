@@ -62,17 +62,24 @@ Heaviest first. **The order is Ranadriel's to set.**
 
 The house's own science agrees on the main effect: in domestic dogs, predicted bite force rises with body size — weight, skull length, skull width — and the effect is highly significant (Ellis et al., *Cranial dimensions and forces of biting in the domestic dog*, J. Anat. 214(3), 2009).
 
-**Rule L-5 — The mass ceiling.** `[Proposed]` When an animal attacks (§ 1.16), the heaviest class of harm it puts at stake is set by its mass band, read from the recording:
+### The Evolutionary Damage Output Threshold
 
-| Mass band | Heaviest class at stake |
-|---|---|
-| under **[X] kg** | III — bodily injury |
-| **[X]–[Y] kg** | II — serious bodily injury |
-| over **[Y] kg** | `[Open]` II or I |
+`[Ranadriel, 2026-10-22]` **The "evolutionary damage output threshold" is categorized by species and size class, measured against the legal actor.**
 
-- **Aggregate mass** `[Proposed]`: when several animals attack at once, their masses add. This turns Ranadriel's count rule (one or two dogs against three or more) into one continuous line: three small dogs can weigh what one large dog does.
-- **Barred from the mass rule** `[Ranadriel]`: venomous or toxic animals, and dangers specific to a species. They are deemed by their own entries `[Open]`, never by mass.
-- **Breed stays barred.** Breed is a label, not a measurement, and no recording proves it.
+What an animal can do is what its species evolved to do — jaws, claws, mass — scaled by its size. The threshold is not the animal's danger in the abstract. It is that danger **against the legal actor**: the official using force, a trained adult carrying issued equipment. Defined in [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) § 1.18.
+
+**Rule L-5 — The threshold sets the ceiling.** `[Proposed]` When an animal attacks (§ 1.16), the heaviest class of harm it puts at stake is the cell for its species and size class, read from the recording, in a schedule set once in the text:
+
+| Species | Size class S (under **[X] kg**) | M (**[X]–[Y] kg**) | L (over **[Y] kg**) |
+|---|---|---|---|
+| Dog | III | III or II `[Open]` | II |
+| *(further species)* | `[Open]` | `[Open]` | `[Open]` |
+
+- **Aggregate mass** `[Proposed]`: when several animals of a species attack at once, their masses add before the size class is read. This turns Ranadriel's count rule (one or two dogs against three or more) into one continuous line: three small dogs can weigh what one large dog does.
+- **Toxic animals are barred from the schedule** `[Ranadriel]`: venomous or toxic animals are deemed by their own entries `[Open]`, never by size.
+- **Breed stays barred.** Species is a category with a known evolutionary output; breed is a label, and no recording proves it.
+
+*Superseded the same day:* the first version of this rule used mass alone and barred species-specific dangers from it. Ranadriel made species the first axis of the threshold; mass now sets the size class within a species.
 
 **What the rule produces.** A large dog biting an officer puts Class II at stake. A shot fired where no other person stands puts at stake only the animal (Class IV): **it passes.** The same shot fired into an occupied room puts Class I at stake: **it fails.** The rule does not ban force against an attacking animal. It forbids spending a heavier harm than the one being prevented.
 
@@ -83,6 +90,10 @@ The house's own science agrees on the main effect: in domestic dogs, predicted b
 **MQ-2. "A small dog can maul a small child."** Answer: Behavior is handled by § 1.16 — mass only sets the ceiling of what an attack can put at stake. `[Wounded]` — the person attacked may need an entry of their own (for example, a young child raises the class one step). `[Open]`
 
 **MQ-3. "Skull shape matters too."** The same study found that in medium and large dogs, shorter-faced skulls predicted higher bite force. Answer: Mass carries the main effect, and shape tracks breed, which is barred as unprovable pretext. `[Wounded]` — the house will argue the variance.
+
+**MQ-4. "Measured against the legal actor" leaves out the child.** *An officer shooting a dog that is mauling a child is defending a third person, not themselves.* Answer: `[Open]` — the threshold may need a second column set measured against a third person, or a step up in class when the person attacked is a child. Measured against the legal actor alone, the schedule answers the officer's own self-defense, which is the Palestine case.
+
+**MQ-5. "Who fills the table?"** Answer: The people, once, in the text, informed by published bite-force and attack data, and revised only by the same process that wrote it — never by a judge in a single case. `[Wounded]` — the data are thin for most species.
 
 ---
 
