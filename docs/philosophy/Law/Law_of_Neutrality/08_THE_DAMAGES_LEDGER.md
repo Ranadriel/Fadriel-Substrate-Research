@@ -109,6 +109,8 @@ What an animal can do is what its species evolved to do — jaws, claws, mass �
 
 **No rung asks anyone to interpret.** "Plainly arisen" means one thing: the fact is visible on the recording — a size class, a count, a species. Under deemed knowledge (§ 1.7), what the recording shows, the officer knew.
 
+**A provoked attack climbs no rung.** `[Ranadriel, 2026-10-22]` Goading an animal into biting so it can be dispatched "legally" is unjust and illegal. An attack that begins within [N] seconds of a listed provoking act is deemed provoked ([05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) § 1.19), and any force used against it is a violation.
+
 ### Hard questions on the ladder
 
 **FL-1. "Waiting for a bright line gets officers maimed."** Answer: A large dog with a held grip crosses the line the instant it bites — its size class is the line. The ladder asks the officer to wait only when the animal is under the line, where its threshold is a bite — and a bite is the job. `[Defeated]`

@@ -297,6 +297,7 @@ Answer: § 1.13 now strips protection from any act where the judge received anyt
 | approaching with curiosity, sniffing, or jumping up | The officer's assumption of aggression, as Ranadriel judged the Palestine shooting |
 | a nip or mouthing that does not break the skin | A play bite treated as an attack |
 | presumed, when no attack command is recorded | `[Ranadriel]` the officer's alert posture is not justified where the owner gave no attack command |
+| **provoked by the official** (§ 1.19) | `[Ranadriel, 2026-10-22]` Goading an animal into biting so it can be killed "legally" is unjust and illegal. A provoked attack climbs no rung of the force ladder. |
 
 ---
 
@@ -323,6 +324,29 @@ Answer: § 1.13 now strips protection from any act where the judge received anyt
 | set by a judge in a single case | The schedule is fixed in the text |
 | applied to a venomous or toxic animal | Toxic animals are barred from the schedule and take their own entries `[Open]` |
 
+
+### § 1.19 "Provocation" — *new; Ranadriel, 2026-10-22*
+`[Ranadriel, 2026-10-22]` **Goading an animal into biting, for the purpose of dispatching it legally, is unjust and illegal.**
+
+**Means** `[Proposed]` any of the following acts by an official toward an animal, visible on a recording:
+- striking, kicking, stepping on, or throwing an object at the animal;
+- cornering it, or blocking its retreat;
+- advancing on an animal that is retreating or still;
+- releasing it from confinement, or separating it from its owner or handler;
+- seizing its collar, leash, or body, other than to detach it from a person (Rule L-6, Rung 2).
+
+**Deemed provocation** `[Proposed]`: an attack that begins within **[N] seconds** after any act on the list is provoked. No one weighs the official's purpose to decide it.
+
+| Is not | Closes |
+|---|---|
+| the official's lawful presence, or entry in the course of a lawful duty | Lawful entries frozen by the fear of "provoking" |
+| a non-lethal act of de-escalation on Rung 1 of the ladder | De-escalation itself recast as provocation |
+| excused because the official did not intend the attack | Intent is not required for deemed provocation |
+
+**What follows:**
+- **A provoked attack is not an attack** for § 1.16 or the force ladder. Force used against it is a violation.
+- **Provoking an animal in order to kill it is the intent tier** (§ 1.8): no self-report protection, personal liability, and the injury counted as caused for its purpose. State animal-cruelty law applies alongside.
+- **The house rejected this rule for people** (*County of Los Angeles v. Mendez*, 2017, the "provocation rule"); the article restores it, for animals and for people alike (§ 1.4).
 ---
 
 ## What Survives the Doubt
