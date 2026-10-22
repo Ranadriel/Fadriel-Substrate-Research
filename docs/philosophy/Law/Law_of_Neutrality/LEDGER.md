@@ -26,6 +26,7 @@ Read this page first. It is the state of the whole case on one screen. Each line
 | 2026-10-22 | **Bright line between recklessness and accident.** Repentant recklessness is judged individually. | Ranadriel | [04](./04_REMEDY_ARCHITECTURE.md) |
 | 2026-10-22 | **Judicial track opened.** No unearned immunity; titles are responsibilities, not rights. | Ranadriel | [02](./02_JUDICIAL_TRACK.md) |
 | 2026-10-22 | **Method: hard questions first.** A case that cannot defeat its hardest question has no case. Against the house, the house always wins. | Ranadriel | [HQ](./HARD_QUESTIONS.md) |
+| 2026-10-22 | **Judicial interpretability is the core problem.** The article must be definite and literal, and must prescribe the vantage from which it is read. | Ranadriel | [HQ Q1](./HARD_QUESTIONS.md) |
 
 ---
 
@@ -45,6 +46,7 @@ Read this page first. It is the state of the whole case on one screen. Each line
 | 2026-10-22 | **Judicial Plank 2:** the *Forrester* / clear-absence exceptions are too narrow (*Mireles*). | Seed | [02](./02_JUDICIAL_TRACK.md) |
 | 2026-10-22 | **Judicial Plank 3:** repeal FCIA 1996 § 309 first — a statute is easier to attack than common law. | Seed | [02](./02_JUDICIAL_TRACK.md) |
 | 2026-10-22 | **Judicial Plank 4:** same tiers; appeal for wrong rulings, personal liability for acts outside process. | Seed | [02](./02_JUDICIAL_TRACK.md) |
+| 2026-10-22 | **Drafting rule: rules, not standards.** Every trigger a count, deadline, or document; define every term and its denominator; the vantage clause closes the *Pierson*, *Hans*, and implied-exception doors. (The house bent both existing "shall not be construed" clauses, the Ninth and Eleventh.) | Seed | [HQ Q1](./HARD_QUESTIONS.md) |
 
 ---
 

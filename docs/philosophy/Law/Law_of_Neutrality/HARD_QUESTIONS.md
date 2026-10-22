@@ -45,6 +45,22 @@ Two of the undefeated questions are decisions Ranadriel can make today (the vehi
 
 **Status:** Wounded by drafting, undefeated at the core. The house keeps the gavel. Every other answer in this file has to be written to leave the gavel as little room as possible.
 
+### Ranadriel's answer — `[Ranadriel, 2026-10-22]`
+**Judicial interpretability is the problem. The law must be definite and literal in its word choice, and must prescribe the vantage from which it is read — the exact law itself, not the judge's lens.**
+
+### The hard question against that answer — `[Proposed — Seed, 2026-10-22]`
+**The house has already beaten a prescribed vantage.** The Constitution contains two clauses that tell courts how to read it, and the house bent both:
+- the **Ninth Amendment** — "shall not be construed to deny or disparage others retained by the people" — left nearly dormant;
+- the **Eleventh Amendment** is itself written as a rule of construction — the judicial power "shall not be construed to extend to" suits against a state by citizens *of another* state — and *Hans* stretched it to a state's own citizens anyway, reasoning from sovereignty the text never mentions.
+
+So a vantage clause written as a **standard** loses. What the house has the least room to bend is a **rule**: a number, a date, a document. No court has re-read "thirty-five Years." Even there it found one seam: *Missouri Pacific Railway Co. v. Kansas*, 248 U.S. 276 (1919), read "two thirds of that House" as two-thirds of the members *present*. **A literal rule must also define what it counts.**
+
+### What the drafting rule becomes — `[Proposed]`
+1. **Rules, not standards.** Every trigger is a count, a deadline, or a document. Where a standard cannot be avoided, the article defines it in its own text.
+2. **Define every term, including the denominator.** Who counts, what counts, from when.
+3. **The vantage clause closes the three doors the house has used:** no background common-law immunity (*Pierson*); no inference from sovereignty or structure (*Hans*); no exception implied from policy.
+4. **Ambiguity resolves toward the remedy**, by the article's own terms.
+
 ---
 
 ## Q2. Why an amendment at all? — `[Undefeated — decision needed]`
