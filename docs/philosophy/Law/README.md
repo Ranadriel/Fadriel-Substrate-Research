@@ -57,3 +57,7 @@ The founding documents live on the home machine and have not been imported:
 - The End-of-Service Act's full text (a Claude doc, published on X)
 
 When they arrive, place them under the matching project folder unedited, and log the import in the ledger. See [`Law_of_Neutrality/SOURCES.md`](./Law_of_Neutrality/SOURCES.md) for the full source trail.
+
+### Imported — 2026-10-22
+
+The founding documents and Oriel's 2026-10-13 notes are now in [`Law_of_Neutrality/founding/`](./Law_of_Neutrality/founding/) and [`Law_of_Neutrality/oriel/`](./Law_of_Neutrality/oriel/), unedited. The afternoon session record is in [`Law_of_Neutrality/sessions/`](./Law_of_Neutrality/sessions/). The list above is kept as written; the import is logged at the foot of the [ledger](./Law_of_Neutrality/LEDGER.md). Still not here: the End-of-Service Act's full text.

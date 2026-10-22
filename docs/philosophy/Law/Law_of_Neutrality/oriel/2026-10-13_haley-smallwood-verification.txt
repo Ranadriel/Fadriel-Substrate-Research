@@ -1,0 +1,80 @@
+Haley Smallwood incident verification
+2026-10-13
+Research by Oriel.
+
+Request, verbatim:
+is the case of haley smallwood real
+
+Finding
+
+The incident is documented in local reporting independent of the supplied X posts. WREG reporter Melissa Moon's report, syndicated by AOL, identifies Haley Smallwood, Palestine, Arkansas, Officer Harold Holland, and the shooting of her two dogs during a July visit while a man retrieved belongings. It reports an investigation referred to the St. Francis County Sheriff's Office and a subsequent assault booking.
+
+https://www.aol.com/articles/ar-police-officer-charged-dogs-002912000.html
+
+Official-source corroboration
+
+The web search index of the St. Francis County Sheriff's Office roster lists Harold Holland, age 36, booking 26-1113, booked September 9, 2026, at 12:10 p.m., released at 1:50 p.m., charge ASSAULT - 1ST DEGREE. Directly opening the same paginated URL returned different inmates, indicating the roster page contents changed. This corroboration is therefore from the indexed official roster, not a stable individual profile retrieved directly.
+
+https://www.stfranciscountysheriff.org/inmate-roster/search//6
+
+Limits
+
+The WREG report contains inconsistent charge wording: aggravated assault in its opening and first-degree assault in its booking description. The indexed official roster supports first-degree assault. No charging document, conviction, civil complaint, or ruling on qualified immunity was retrieved. The ex-partner's alleged intention and the justification for the shooting remain unverified here. The X media did not play during the preceding reading.
+
+Supplied clip description and analysis
+
+Provenance: Ranadriel supplied a description of a roughly 19-second edited clip, watermarked LRHNCash, and a summary attributed to longer-bodycam reporting. Oriel has not independently watched either video. The following is a summary of that supplied account, not an eyewitness record by Oriel.
+
+The supplied account places Smallwood immediately beside or behind Max, reaching toward him before the shooting. It describes a man in the hallway but does not establish that he intentionally released the dog. It says overlays and blur obscure the firing sequence and that the second dog is not clearly visible. The reported longer sequence includes multiple shots, children audible, and an officer statement that the dog had not bitten him. Those specific details await independent review of the longer record.
+
+Date discrepancy: the supplied account says July 27, 2026. A secondary source found earlier says July 28. The retrieved WREG/AOL article says July without specifying the day. Exact incident date is unresolved.
+
+Oriel analysis:
+The described attempt at owner control, earlier warnings, and danger to nearby people are concrete issues for testing necessity and available alternatives. Neither absence of a completed bite nor an officer's description of aggression alone settles the justification. The edited clip cannot establish the complete opportunity to respond or the justification for each shot and each dog's killing. The statement attributed to the officer after the encounter does not by itself establish his full contemporaneous perception.
+
+The broader accountability argument concerns whether enforceable restraint addresses the entire encounter, including preparation and control opportunities, and whether a remedy exists for a proven violation. This case already has a reported criminal proceeding; it is not presently verified as an example of a court granting qualified immunity. The household and bystander danger is relevant to examining what risks the intervention imposed, as well as what risks the officer faced.
+
+Direct viewing account and correction
+
+Ranadriel's present words, verbatim:
+i **WATCHED** the video. the police man is guilty of un-justified lethal force on a family pet. the dog did not appear agresive. he appeared curious. the officer was over reacting.
+
+Provenance correction by Oriel:
+Ranadriel explicitly reports having watched the video directly. His account must be treated as his direct viewing testimony, not merely a relayed third-party description. He observes curiosity rather than apparent aggression and concludes that the officer overreacted and used unjustified lethal force. This is Ranadriel's assessment of the footage, not an assertion that a court has entered a guilty verdict. Oriel has not independently viewed the footage.
+
+Oriel analysis:
+The issue Ranadriel identifies is the conversion of a dog's apparently curious approach into a justification for killing it. His assessment challenges the claimed factual basis of danger before reaching questions of immunity or acceptable occupational injury. The broader accountability argument must preserve that distinction rather than presuming an aggressive attack and debating only how much injury an officer should accept.
+
+Further direct viewing description, Ranadriel verbatim:
+Yes, he was a large dog, but he did not immediately throw agression vibes. he threw, hey, theres someone new in my house, ima go sniff it. like any reasonable dog would.
+
+Oriel analysis:
+Ranadriel distinguishes the animal's size from the observed behavior: he interprets the approach as investigation of an unfamiliar person in the home, rather than immediate aggression. The argument should not substitute the capacity to inflict injury for evidence of threatening conduct in this encounter.
+
+Movement description, Ranadriel verbatim:
+max was not charging, he was trotting. he was not rushing, he was walking.
+
+Oriel analysis:
+Preserve Ranadriel's observed movement terms without recasting the approach as a charge or rush. This is his direct viewing account, not independently viewed footage by Oriel.
+
+Further movement observation, Ranadriel verbatim:
+theres a tension of muscles, and a momentuium. the video diid not detail these traits from max the dog
+
+Oriel analysis:
+Ranadriel identifies muscle tension and momentum as features relevant to his distinction between an ordinary approach and a charge, and reports that the video did not show those traits from Max. This is an observation about what he saw; it does not establish a universal test of canine aggression.
+
+Longer-footage source checked
+Oriel directly read WREG's article through the browser after the web reader failed. Posted September 29, 2026 at 7:18 p.m. CDT; updated September 30 at 9:53 a.m. CDT. The page credits its video to the Palestine Police Department.
+https://wreg.com/news/bodycam-video-released-of-fatal-shooting-of-dogs-in-ar-home/
+
+WREG reports roughly eight shots, Smallwood reaching for Max immediately beforehand, and Holland subsequently saying the dog had not bitten him. The article reports the chief's statement that Holland remained employed at publication and that the first-degree-assault allegation was pending adjudication. It does not supply a judicial finding justifying the shootings. Oriel read the article but did not independently watch its video.
+
+The latest supplied Grok response explicitly says it cannot independently inspect the longer non-X footage by the method used on the short X clip. Its longer-footage account is therefore attributed reporting, not direct visual confirmation of an attack. The supplied YouTube link was not retrievable through the web reader.
+
+Latest supplied Grok assessment
+Provenance: response pasted by Ranadriel, attributed by conversation context to Grok; not independently retrieved from X.
+
+Grok states that Ranadriel's account of Max approaching while Smallwood attempted control aligns with its sampled frames and the reporting it consulted. It distinguishes the officer's later statement from independent visual confirmation and finds no identified threatening conduct establishing necessity in the materials it reviewed. Its qualification remains that it did not independently inspect the longer continuous footage.
+
+Oriel analysis:
+This is agreement about the reviewed evidence, not a judicial finding or a claim that all footage has been examined. The connection to the Law of Neutrality is that public authority and assertions of perceived danger should not displace scrutiny of the factual justification. The conduct standard and availability of civil redress remain separate reform tracks.

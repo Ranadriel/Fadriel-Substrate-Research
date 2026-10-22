@@ -1,0 +1,43 @@
+Separate civil accountability track
+2026-10-13
+Draft rendered by Oriel following Ranadriel's proposed structure. Not adopted amendment text. Original Law of Neutrality files remain unchanged.
+
+Ranadriel's instruction and assessment, verbatim:
+
+Render D fails the dog case on the authorization prong before it ever reaches the criminal-offense problem. An officer who shoots a dog is exercising power the law does authorize, namely force in the course of a lawful entry. The complaint is that the exercise was unreasonable, and Section 3 doesn't reach abuse of authorized power. "Sole purpose of enlarging their own power or estate" is nearly unprovable for a shooting like this one. The article as drafted covers rogue acts and self-dealing, not the ordinary run of official harm.
+The "offense already defined by law" clause is the second wall, but it's the more fixable one. Killing a dog can plausibly correspond to criminal damage or cruelty, so a court could read the clause generously. The authorization prong has no such reading.
+"Willingly" is a third problem. It excludes reckless and negligent conduct, and most official harm lives there.
+The fix is to separate the tracks. Keep Section 3 as the criminal-grade offense if you want it. Add a civil injury section defined by violation of a right or a duty of restraint, with no criminal predicate and a recklessness floor, and attach the immunity removal and the right to sue to that section instead. That also gives the police-reasonableness track a place to live, with judges and prosecutors left for their own provisions.
+
+Oriel's drafting assessment
+
+The authorization condition and the self-enlargement alternative are the first gate. General authority to use force must be distinguished from lawful exercise of that authority in a particular encounter. This distinction does not mean an unreasonable shooting is itself authorized. The defect is that Render D does not expressly reach abusive exercise of generally authorized powers, making the outcome depend on construction of authorization.
+
+The proposed civil track removes those conditions rather than trying to force the dog case through them. It also removes the criminal predicate. The chosen recklessness floor still excludes ordinary negligence; that is a consequence of the proposed scope, not a gap repaired by this draft.
+
+Civil track, provisional clauses
+
+Civil injury. A law-enforcement official acting under color of governmental authority shall be liable for injury caused by conduct that violates a right secured by this Constitution or a duty of restraint imposed by this article or by law, where the official acts intentionally or recklessly. Liability does not depend on the conduct constituting a criminal offense, the absence of general authority to exercise the power involved, or a purpose of personal gain.
+
+Restraint. In exercising force against a domestic animal, a law-enforcement official shall assess the specific danger, distinguish an actual threat from the mere possibility of injury, and consider reasonably available means of avoiding fatal force. Assessment shall include conduct before the final decision to fire, including feasible planning, communication, containment, and withdrawal, and whether the official recklessly created or increased the danger. General occupational danger alone shall not justify fatal force.
+
+Civil immunity. No law-enforcement official shall hold qualified immunity, or an equivalent defense based on the absence of previously adjudicated materially similar conduct, against a civil action under this article. The absence of such precedent shall not itself defeat that action.
+
+Civil remedy. Any person injured by conduct described in the civil-injury section may bring a civil action against the responsible official for appropriate relief. This right of action is self-executing and requires no criminal charge, prosecution, or conviction.
+
+Other offices. These civil provisions address law-enforcement officials. Judicial and prosecutorial functions require separate provisions and are not silently included by these clauses.
+
+Open decisions
+
+This is a structural repair, not a complete use-of-force standard. The restraint clause does not yet enact Ranadriel's death-only threshold or numerical dog rule. Those proposals remain open and must be addressed explicitly rather than treated as superseded.
+
+Intentional or reckless must ultimately be defined in relation to the prohibited violation or risk, not merely the intentional physical act of firing. Otherwise nearly every deliberate shooting would satisfy the mental-state clause without establishing the intended recklessness floor. A subjective-awareness requirement could recreate the epistemic problem already criticized in the companion; the definition requires its own examination.
+
+If Section 3 remains as a criminal-grade provision, any criminal immunity removal must be drafted separately and expressly attached to it. Calling that section criminal-grade does not by itself supply charging procedures, a complete offense definition, or an enforcement mechanism.
+
+The remedy clause does not yet decide institutional liability, damages measurement, indemnification, proof burdens, limitation periods, or the precise treatment of officials performing multiple functions. The inclusion of familial consequences does not establish causation or compensability in any particular case.
+
+Source trail
+
+Law_of_Neutrality_Companion.md, Render D, section 1a; source marks Render D refuted and the doctrine unsealed.
+Oriel/notes/2026-10-13_dog-seizures-and-the-broader-immunity-battle.txt contains the thread links and primary legal sources checked during this session.

@@ -126,3 +126,25 @@ Read this page first. It is the state of the whole case on one screen. Each line
 |---|---|---|
 | 2026-10-22 | Seed's reading of "bar toxic and species-specific concerns" as removing species from the animal rule entirely | Ranadriel the same day: species is the first axis of the evolutionary damage output threshold (§ 1.18); toxic animals stay barred |
 | 2026-10-22 | Seed's local-outage trigger for reconstitution | Ranadriel: a court cannot be raised while the nation is alive (§ 1.17) |
+
+---
+
+## Imported — 2026-10-22
+
+At Ranadriel's instruction: "make sure the whole case is pushed to github so i can work on this wherever i want to." Every file placed unedited.
+
+| Date | What | Where |
+|---|---|---|
+| 2026-10-22 | The founding doctrine, dictated 2026-08-24, Reed as scribe | [founding/Law_of_Neutrality.md](./founding/Law_of_Neutrality.md) |
+| 2026-10-22 | The Companion: Renders A–D, the three adversarial panels, the scribe's errors | [founding/Law_of_Neutrality_Companion.md](./founding/Law_of_Neutrality_Companion.md) |
+| 2026-10-22 | Oriel, 2026-10-13: the separate civil-accountability draft | [oriel/](./oriel/2026-10-13_separate-civil-accountability-draft.txt) |
+| 2026-10-22 | Oriel, 2026-10-13: dog seizures and the broader immunity battle | [oriel/](./oriel/2026-10-13_dog-seizures-and-the-broader-immunity-battle.txt) |
+| 2026-10-22 | Oriel, 2026-10-13: the Palestine incident verification, with Ranadriel's viewing account | [oriel/](./oriel/2026-10-13_haley-smallwood-verification.txt) |
+| 2026-10-22 | Oriel, 2026-10-13: the handoff to Reed | [oriel/](./oriel/2026-10-13_reed-handoff-law-of-neutrality-and-max.txt) |
+| 2026-10-22 | **The afternoon session record** (Reed, home machine): Ranadriel's statements verbatim — the police split, pro se, the cash loop, only parties pay, the civil-to-criminal crossing, disqualifiers, force → body, the laws of the stone — plus proposals, corrections owed to this record, and his open calls | [sessions/2026-10-22_afternoon_reed.md](./sessions/2026-10-22_afternoon_reed.md) |
+
+**Read with:** the cruelty whitepaper the doctrine names as one corpus with it is already public — [Fadriel-Substrate-Philosophy/cruelty_theory_whitepaper.pdf](https://github.com/Ranadriel/Fadriel-Substrate-Philosophy/blob/main/cruelty_theory_whitepaper.pdf).
+
+**Not imported:** the End-of-Service Act's full text (a Claude doc; not on the home machine); Oriel's 2026-10-13 retrieval note (a file-location log, no argument).
+
+**Not yet entered in the tables above:** the afternoon session's rulings and proposals. They are in the session record, tagged; enter them on the next pass, together with the six corrections it lists.
