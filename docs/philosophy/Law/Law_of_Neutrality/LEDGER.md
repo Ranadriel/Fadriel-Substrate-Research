@@ -25,6 +25,7 @@ Read this page first. It is the state of the whole case on one screen. Each line
 | 2026-10-22 | **Evidence duty:** fines and damages for any official who fails to take and process evidence expeditiously. | Ranadriel | [04](./04_REMEDY_ARCHITECTURE.md) |
 | 2026-10-22 | **Bright line between recklessness and accident.** Repentant recklessness is judged individually. | Ranadriel | [04](./04_REMEDY_ARCHITECTURE.md) |
 | 2026-10-22 | **Judicial track opened.** No unearned immunity; titles are responsibilities, not rights. | Ranadriel | [02](./02_JUDICIAL_TRACK.md) |
+| 2026-10-22 | **Method: hard questions first.** A case that cannot defeat its hardest question has no case. Against the house, the house always wins. | Ranadriel | [HQ](./HARD_QUESTIONS.md) |
 
 ---
 
@@ -40,7 +41,7 @@ Read this page first. It is the state of the whole case on one screen. Each line
 | 2026-10-22 | Negligence covered, but forgiven through self-report. | Seed | [04](./04_REMEDY_ARCHITECTURE.md) |
 | 2026-10-22 | Self-report shields the official, never the victim's remedy; the report must precede discovery. | Seed | [04](./04_REMEDY_ARCHITECTURE.md) |
 | 2026-10-22 | Evidence duty enforced by **automatic, upstream spoliation**: delay is the offense; presumption runs against the state. | Seed | [04](./04_REMEDY_ARCHITECTURE.md) |
-| 2026-10-22 | **Judicial Plank 1:** protection follows process (notice, record, path to appeal), not title. | Seed | [02](./02_JUDICIAL_TRACK.md) |
+| 2026-10-22 | **Judicial Plank 1 (revised):** protection follows a recorded, reviewable act, not the title. (Notice requirement dropped — it broke on warrants.) | Seed | [02](./02_JUDICIAL_TRACK.md) |
 | 2026-10-22 | **Judicial Plank 2:** the *Forrester* / clear-absence exceptions are too narrow (*Mireles*). | Seed | [02](./02_JUDICIAL_TRACK.md) |
 | 2026-10-22 | **Judicial Plank 3:** repeal FCIA 1996 § 309 first — a statute is easier to attack than common law. | Seed | [02](./02_JUDICIAL_TRACK.md) |
 | 2026-10-22 | **Judicial Plank 4:** same tiers; appeal for wrong rulings, personal liability for acts outside process. | Seed | [02](./02_JUDICIAL_TRACK.md) |
@@ -49,10 +50,18 @@ Read this page first. It is the state of the whole case on one screen. Each line
 
 ## Open — no one has decided
 
+**The hardest questions are ranked in [HARD_QUESTIONS.md](./HARD_QUESTIONS.md).** First pass, 2026-10-22: four undefeated, six wounded, three defeated. The decisions below marked ⚑ come from that pass.
+
 | Question | File |
 |---|---|
+| ⚑ **The vehicle:** amendment only, statute first with the amendment as ratchet, or state by state toward 38 | [HQ Q2](./HARD_QUESTIONS.md) |
+| ⚑ **Who pays:** employer liability as employer, sovereign immunity waived for these claims, and either an indemnification bar or a fixed personal share (Colorado: 5% or $25,000) | [HQ Q3](./HARD_QUESTIONS.md) |
+| ⚑ **Death-only threshold** — keep, or repair to serious bodily harm + no reasonable less-lethal option + restraint duty, with the dog count as a presumption | [HQ Q4](./HARD_QUESTIONS.md) |
+| ⚑ Accident tier: in the amendment, or in a statute with a fund and caps | [HQ Q5](./HARD_QUESTIONS.md) |
+| ⚑ Self-report: criminal carve-out and frequency limit | [HQ Q8](./HARD_QUESTIONS.md) |
+| ⚑ Restate the circuit repeal as a doctrine target | [HQ Q9](./HARD_QUESTIONS.md) |
+| ⚑ Evidence duty: entity pays for systemic delay; personal fines only for discretionary stalling | [HQ Q11](./HARD_QUESTIONS.md) |
 | Does the recklessness floor drop to negligence? (The 10-13 structure and the 10-22 proposal conflict.) | [04](./04_REMEDY_ARCHITECTURE.md) |
-| Death-only threshold for lethal force | [01](./01_POLICE_TRACK.md) |
 | Numerical dog rule inside a home (1–2 vs. 3+) | [01](./01_POLICE_TRACK.md) |
 | Restraint clause text | [01](./01_POLICE_TRACK.md) |
 | Provisions for officials beyond law enforcement | [00](./00_PRINCIPLE.md) |

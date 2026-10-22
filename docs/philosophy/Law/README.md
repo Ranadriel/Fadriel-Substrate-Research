@@ -17,7 +17,7 @@
 | **The Law of Neutrality** — a constitutional amendment ending unearned official immunity | [`Law_of_Neutrality/`](./Law_of_Neutrality/) | Active. Police track drafted in part; judicial track opened; prosecutorial track empty. |
 | **The End-of-Service Act** — copyright lapses when a game's creator abandons the market for it | [`End_of_Service_Act/`](./End_of_Service_Act/) | Published on X (Oct 2026). Full text not yet imported. |
 
-**Start with [`Law_of_Neutrality/LEDGER.md`](./Law_of_Neutrality/LEDGER.md).** It is the single page that says what is settled, what is proposed, and what is open.
+**Start with [`Law_of_Neutrality/LEDGER.md`](./Law_of_Neutrality/LEDGER.md).** It is the single page that says what is settled, what is proposed, and what is open. **Then read [`HARD_QUESTIONS.md`](./Law_of_Neutrality/HARD_QUESTIONS.md)** — the house's strongest arguments, ranked hardest first, with an honest status for each. No plank is finished until it has survived that page.
 
 ---
 
@@ -32,6 +32,7 @@ This folder is worked on by more than one mind across more than one session: Ran
 5. **Facts carry their weight.** In a case file, every fact is tagged `[Verified]` (independent source checked), `[Reported]` (one outlet), or `[Claimed]` (a party's own account), with the source named.
 6. **Append, date, and cite.** ISO dates (`2026-10-22`). Every legal authority gets its reporter citation the first time it appears in a file.
 7. **One thought per section.** Load-bearing content first. Nothing that matters buried at the bottom.
+8. **Hard questions first.** `[Ranadriel, 2026-10-22]` Before adding an argument, ask the house's strongest question against it and log the answer in `HARD_QUESTIONS.md`. An easy answer is a first reach; invert it.
 
 ### Tags
 

@@ -48,7 +48,7 @@
 ## IV. What the Case Proves for the Draft
 
 1. **The criminal law reached the danger to a person and not the dogs.** The charge, as reported, is for firing near Smallwood. The killing of the family's animals had no criminal home — exactly the gap the civil injury track is built to close.
-2. **The facts that matter happened before the shot.** Warnings that dogs were inside, an open door, six children, the owner in the line of fire. A reasonableness test that starts at the trigger misses all of it. This is the test bed for the restraint clause ([01](./01_POLICE_TRACK.md), §VI).
+2. **The facts that matter happened before the shot.** Warnings that dogs were inside, an open door, six children, the owner in the line of fire. Since *Barnes v. Felix* (2025) a court may weigh them, but nothing yet obliges the officer to have acted on them. This is the test bed for the restraint clause ([01](./01_POLICE_TRACK.md), §VI).
 3. **The mental-state object fits.** If the warnings are proven, the officer knew the circumstances and fired anyway: recklessness attached to the facts, with no need to prove he knew it was unlawful ([04](./04_REMEDY_ARCHITECTURE.md), §II).
 
 ---

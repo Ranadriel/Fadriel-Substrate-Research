@@ -26,6 +26,7 @@ From his X thread with Grok (Oct 2026) and the sessions that followed.
 ## II. What the Law Is Now
 
 - **The standard.** Force is a Fourth Amendment seizure judged by objective reasonableness from the officer's perspective in the moment — *Graham v. Connor*, 490 U.S. 386 (1989).
+- **The time frame.** Reasonableness turns on the totality of the circumstances, including events before the shot; the Fifth Circuit's "moment-of-threat" rule was rejected unanimously — *Barnes v. Felix*, 605 U.S. ___ (2025). The Court declined to decide whether an officer's own creation of the danger counts against him.
 - **Dogs.** Multiple circuits treat killing a dog as a seizure of the owner's property ("effects"), reasonable only if the animal poses an imminent threat. Per the circuit consensus, a threat of *injury* is enough; officers have no duty to absorb a bite first. No circuit uses a bright line by number of dogs or by indoor/outdoor.
 - **Qualified immunity.** An official is shielded from damages unless the right was "clearly established" when they acted — *Harlow v. Fitzgerald*, 457 U.S. 800 (1982). Courts may decide that prong without ever ruling on whether the Constitution was violated — *Pearson v. Callahan*, 555 U.S. 223 (2009).
 - **The narrow exception.** An obvious enough violation can defeat immunity without a factually matching prior case — *Hope v. Pelzer*, 536 U.S. 730 (2002); *Taylor v. Riojas*, 592 U.S. 7 (2020). It is rarely won.
@@ -67,7 +68,7 @@ This is a caution, not a ruling. The threshold remains `[Open]`.
 
 ## VI. Next to Draft — The Restraint Clause `[Proposed — Seed, 2026-10-13]`
 
-A reasonableness test that starts at the moment of the shot misses most of what went wrong. The restraint clause covers the period before it: what the officer knew, what danger was avoidable, what alternatives were available, what planning the situation called for.
+Since *Barnes v. Felix* (2025), a court may weigh what happened before the shot. But *Barnes* widened what a court may **consider**; it imposed no **duty**, and it left open whether an officer who creates the danger can still claim it. The restraint clause turns consideration into obligation, covering the period before the shot: what the officer knew, what danger was avoidable, what alternatives were available, what planning the situation called for. (See [HARD_QUESTIONS.md](./HARD_QUESTIONS.md), Q10.)
 
 The Palestine facts give it a concrete test (verified facts only):
 - repeated warnings that dogs were inside;

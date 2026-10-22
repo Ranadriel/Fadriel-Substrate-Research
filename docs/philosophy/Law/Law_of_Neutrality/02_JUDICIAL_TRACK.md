@@ -44,8 +44,10 @@ The Court protected the *title*: a person who is a judge, doing a judge-like thi
 
 ## IV. Proposed Platform — `[Proposed — Seed, 2026-10-22; awaiting Ranadriel]`
 
-### Plank 1 — Protection follows process, not title.
-A judge is immune only for rulings made **with notice** to the affected party, **on a record**, and **with a real path to appeal**. Remove any of the three and the act is no longer judicial in any meaningful sense; the title does not protect it. *Stump* fails all three.
+### Plank 1 — Protection follows a recorded, reviewable act, not the title.
+A judge is immune only for acts **on a record** — docketed, written — and **open to review** by appeal, motion, or hearing. Remove either and the act is no longer judicial in any meaningful sense; the title does not protect it. *Stump* fails both: no docket, no case, no route to review.
+
+*Revised 2026-10-22.* The first version also required **notice** to the affected party. It broke on the hardest question against it: warrants, wiretap orders, and emergency protective orders are issued without notice by design, and the first version would have stripped immunity from every judge who signs one ([HARD_QUESTIONS.md](./HARD_QUESTIONS.md), Q7). Ex parte orders are recorded and reviewable; *Stump* was neither.
 
 ### Plank 2 — The existing exceptions are too narrow to matter.
 Courts deny immunity only for non-judicial acts (*Forrester*) or a clear absence of all jurisdiction (*Bradley*). *Mireles* shows how little that covers: an order to drag a lawyer into court by force was still a "judicial act."
@@ -55,7 +57,7 @@ Courts deny immunity only for non-judicial acts (*Forrester*) or a clear absence
 
 ### Plank 4 — The same tiers as every other track.
 - A wrong ruling made through real process is the judicial form of negligence: **appeal is the remedy**, no personal liability.
-- A knowing or reckless act outside process — no notice, no record, no path to appeal — carries **personal liability**, and the state still pays the injured party in full.
+- A knowing or reckless act outside process — no record, no route to review — carries **personal liability**, and the state still pays the injured party in full.
 
 (The tiers are defined once, in [04_REMEDY_ARCHITECTURE.md](./04_REMEDY_ARCHITECTURE.md).)
 
@@ -66,7 +68,8 @@ Courts deny immunity only for non-judicial acts (*Forrester*) or a clear absence
 | Objection | Direction of answer |
 |---|---|
 | Judicial independence: judges ruling in fear of suit | `[Proposed]` Process-bound immunity keeps full protection for every real ruling. Only acts stripped of process lose it, and those are not independence; they are its abuse. |
-| A flood of suits from losing litigants | `[Proposed]` A losing litigant had notice, a record, and an appeal. Plank 1 leaves them where they are now: appeal. |
+| A flood of suits from losing litigants | `[Proposed]` A losing litigant had a record and an appeal. Plank 1 leaves them where they are now: appeal. A docket sheet ends the suit at the pleading stage. |
+| Who judges the judge? | `[Proposed]` Make the test documentary — docket, written order, route to review — so the facts can go to a jury. Still wounded: a judge rules on the motion to dismiss ([HARD_QUESTIONS.md](./HARD_QUESTIONS.md), Q6). |
 | *Stump* is one extreme case | `[Open]` Needs more exhibits. Candidates to research: no-notice orders, ex parte orders affecting liberty, debtor's-prison and fines-and-fees courts, orders entered without jurisdiction over the person. |
 
 ---
