@@ -293,6 +293,19 @@ Answer: § 1.13 now strips protection from any act where the judge received anyt
 
 ---
 
+### § 1.17 "Court" — *new; Ranadriel, 2026-10-22*
+**Means** `[Open]` — defined by what it cannot be.
+
+| Is not | Closes |
+|---|---|
+| `[Ranadriel]` a body raised while the nation is alive | Pseudo-courts and parallel courts of every kind, including the sovereign-citizen "common law courts" |
+| `[Ranadriel]` a body without access to power and the tangible enforcement of its rulings | Courts in name only |
+| `[Ranadriel]` a body whose judge cannot do the job | Titles without function |
+
+**The bright line for "alive"** — `[Proposed — Seed]`: *A nation is alive while any court it constituted still sits.* Reconstitution (the collapse protocol, [LEDGER](./LEDGER.md)) can begin only when none does.
+
+---
+
 ## What Survives the Doubt
 
 | Term | What it can be, once every "is not" is stripped |
@@ -307,6 +320,7 @@ Answer: § 1.13 now strips protection from any act where the judge received anyt
 | Immunity | Nothing, except the two protections the article itself grants |
 | Employing government | Pays for every violation by its officials |
 | Remedy | Exists by the article's own force |
+| Court | Only while the nation it belongs to lives — or, once it has died, a body that holds real power, can enforce what it rules, and has a judge able to do the job |
 
 ---
 
