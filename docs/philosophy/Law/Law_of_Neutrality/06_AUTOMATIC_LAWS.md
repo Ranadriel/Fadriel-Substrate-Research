@@ -40,6 +40,7 @@ An **automatic law** runs on its own: a document or a clock triggers it, and the
 | 15 | **The damages ledger** | An official act that causes, or puts at stake, a heavier class of damage than it prevents | A violation, without any finding of "unreasonableness" | None; stakes deemed by rule | [08](./08_THE_DAMAGES_LEDGER.md) |
 | 16 | **The force ladder for animals** | An attack plus a bright line visible on the recording: size class over [Y] kg, aggregate mass over [Z] kg, [N] or more animals, or a listed special case | Lethal force permitted, still subject to Rule L-1; below the lines, only de-escalation, battery, and detachment | None | [08](./08_THE_DAMAGES_LEDGER.md) Rule L-6 |
 | 17 | **Deemed provocation** | An animal's attack begins within [N] seconds after a listed provoking act by the official, visible on the recording | The attack is provoked: it climbs no rung of the force ladder, and force used against it is a violation | Lawful presence or entry; Rung 1 de-escalation | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) § 1.19 |
+| 18 | **The recording duty** | Any use of force, home entry, arrest, or seizure under color of office | Continuous recording, arrival to departure; any gap raises the adverse presumption, and no lethal force can be justified by what the recording does not show | A device failure reported in writing before the incident | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) § 1.20 |
 
 ---
 

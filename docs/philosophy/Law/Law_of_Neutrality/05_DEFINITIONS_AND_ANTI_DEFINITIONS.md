@@ -347,6 +347,19 @@ Answer: § 1.13 now strips protection from any act where the judge received anyt
 - **A provoked attack is not an attack** for § 1.16 or the force ladder. Force used against it is a violation.
 - **Provoking an animal in order to kill it is the intent tier** (§ 1.8): no self-report protection, personal liability, and the injury counted as caused for its purpose. State animal-cruelty law applies alongside.
 - **The house rejected this rule for people** (*County of Los Angeles v. Mendez*, 2017, the "provocation rule"); the article restores it, for animals and for people alike (§ 1.4).
+
+### § 1.20 "Recording duty" — *new; 2026-10-22*
+`[Ranadriel, 2026-10-22]` Police are now widely required to wear body cameras, so "plainly arisen" — visible on the recording — is the right test.
+
+**Means** `[Proposed]` every official who uses force, enters a home, arrests, or seizes property under color of office records audio and video on a device they wear, **continuously, from arrival to departure.**
+
+| Is not | Closes |
+|---|---|
+| dependent on any executive order, agency policy, or funding decision | Borrowed mandates that disappear: the 2022 federal executive order requiring body cameras was rescinded on January 20, 2025, and the DEA quietly ended its camera program on April 1, 2025 |
+| satisfied by a recording that starts late, stops early, or is muted or obstructed | Discretionary activation |
+| excused by a device failure the official did not report in writing before the incident | "The camera malfunctioned" |
+
+**What a gap costs:** a missing recording is the adverse presumption of § 1.11 against the official and the state, and Rung 3 of the force ladder (Rule L-6) can be reached only by a bright line **visible on the recording**. An official who wants lethal force justified needs the camera on. The camera becomes the official's only defense, so it stays on.
 ---
 
 ## What Survives the Doubt
