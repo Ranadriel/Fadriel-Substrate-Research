@@ -21,7 +21,7 @@ Each question below is asked the way the house would ask it, with the house's be
 
 ## Verdict of the first pass
 
-**The case is not ready to play against the house.** Of fifteen questions: four undefeated, seven wounded, four defeated. *(Thirteen in the first pass; Q14 and Q15 added by the anti-definitions pass the same day.)*
+**The case is not ready to play against the house.** Of sixteen questions: four undefeated, seven wounded, five defeated. *(Thirteen in the first pass; Q14 and Q15 added by the anti-definitions pass, Q16 by Ranadriel's rule that accountability must not make the judge's job harder — all the same day.)*
 
 Two of the undefeated questions are decisions Ranadriel can make today (the vehicle, Q2; the death-only threshold, Q4). One is a restatement (the circuits, Q9). **One can only be narrowed, never removed: the house interprets its own limits (Q1).** Everything else in the case should be written with Q1 in mind.
 
@@ -233,6 +233,24 @@ The numerical rule (one or two dogs vs. three or more) can survive inside a home
 **What the case must do:** Decide where the catalog lives — in the article, in a schedule attached to it, or in an implementing statute the article protects from narrowing.
 
 **Status:** Wounded until placement is chosen.
+
+---
+
+## Q16. Liability itself makes the job harder — `[Defeated, if the gate holds]`
+
+**The house asks:** A judge must be free to act on their convictions "without apprehension of personal consequences" (*Bradley v. Fisher*, 1871). Any exposure to suit is a burden, even a suit the judge wins: pleadings, discovery, depositions, time off the bench. You cannot make judges liable without making the job harder.
+
+**Ranadriel's rule:** `[Ranadriel, 2026-10-22]` The goal is not to make the job harder; it is to make judges liable for their neglect of power.
+
+**Our answer:** Liability without burden, through a documentary gate ([02](./02_JUDICIAL_TRACK.md), Plank 5):
+- a claim must attach the docket record and name the missing element;
+- if every element is present, the claim is dismissed on the paper — no discovery, no merits hearing;
+- no judge is ever examined about the reasoning of a ruling (*United States v. Morgan*, 1941);
+- the written-notice condition reaches only orders against liberty, body, a child, or property, where notice of appeal rights is already standard.
+
+A judge who did the job is out on the paper the day the claim is filed. The only judge with anything to fear is the one who neglected the process or sold it.
+
+**Status:** Defeated, if the gate holds. The house will test the gate first.
 
 ---
 

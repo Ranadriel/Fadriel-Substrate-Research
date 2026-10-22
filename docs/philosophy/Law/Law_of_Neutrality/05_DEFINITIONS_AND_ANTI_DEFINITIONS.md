@@ -238,7 +238,9 @@ Answer: § 1.13 now strips protection from any act where the judge received anyt
 **Means** an act of a judge that
 - (a) bears a docket number assigned at or before the act;
 - (b) is in writing or on a transcribed record; and
-- (c) is reviewable by appeal, by motion, or at a hearing set, **and the route to review was given in writing to the person affected.**
+- (c) is reviewable by appeal, by motion, or at a hearing set; **and, for an order taking a person's liberty, bodily integrity, custody of a child, or property, the route to review was given in writing to the person affected.**
+
+*Scope note:* `[Ranadriel, 2026-10-22]` accountability must not make the judge's job harder. Element (c)'s written-notice condition therefore reaches only orders against liberty, body, a child, or property, where written notice of appeal rights is already standard practice at criminal sentencing.
 
 | Is not | Closes |
 |---|---|
@@ -249,7 +251,7 @@ Answer: § 1.13 now strips protection from any act where the judge received anyt
 | judicial because it was done in a courtroom or from the bench | *Mireles* |
 | protected where the judge received anything of value from any person with an interest in the outcome, or was convicted of an offense involving the act | Immunity "even when the judge is accused of acting maliciously and corruptly" (*Pierson*; *Bradley*); the "kids for cash" rulings (HQ-F) |
 | an act of a person who is not a judge | Quasi-judicial extension (*Butz*) |
-| `[Open]` protected where a person whose liberty was at stake had no counsel | The "kids for cash" adjudications without counsel |
+| `[Open]` protected where the record shows the judge refused or failed to appoint counsel that the law required | The "kids for cash" adjudications without counsel. Keyed to the judge's own act on the record, not to public-defender funding, so the judge answers for neglect and never for a budget. |
 
 ### § 1.14 "Employing government"
 **Means** the United States, a State, or a political subdivision of either, on whose behalf the official acted.

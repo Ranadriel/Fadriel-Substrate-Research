@@ -14,6 +14,10 @@
 
 `[Ranadriel, 2026-10-22]` No actor may hold an immunity they have not earned. A judge's title is a responsibility, not a right, and it does not by itself carry protection.
 
+`[Ranadriel, 2026-10-22]` **The goal is not to make the judge's job harder. It is to hold judges accountable: liable for their neglect of power.**
+
+**What follows for every plank:** a judge who does the job — on the record, open to review, unbought — must face nothing new. No added paperwork on routine rulings, no discovery, no deposition about why they ruled. Liability reaches only the judge who abandoned the process or sold it. A wrong answer reached through real process is never the judge's personal debt; appeal corrects it.
+
 ---
 
 ## II. What the Law Is Now
@@ -45,7 +49,9 @@ The Court protected the *title*: a person who is a judge, doing a judge-like thi
 ## IV. Proposed Platform — `[Proposed — Seed, 2026-10-22; awaiting Ranadriel]`
 
 ### Plank 1 — Protection follows a recorded, reviewable, unbought act, not the title.
-A judge is immune only for acts **on a record** — docketed, written — **open to review** by appeal, motion, or hearing, with the route to review **given in writing** to the person affected, and **unbought**. Remove any of these and the act is no longer judicial in any meaningful sense; the title does not protect it. *Stump* fails on the record and on review. The "kids for cash" rulings fail on the last.
+A judge is immune only for acts **on a record** — docketed, written — **open to review** by appeal, motion, or hearing, and **unbought**. For an order that takes a person's **liberty, bodily integrity, custody of a child, or property**, the route to review must also be **given in writing** to the person affected — already standard at criminal sentencing (Fed. R. Crim. P. 32(j)(1)), so no new burden lands on routine rulings. Remove any of these and the act is no longer judicial in any meaningful sense; the title does not protect it. *Stump* fails on the record and on review. The "kids for cash" rulings fail on the last.
+
+*Third revision, 2026-10-22 — the job stays the same size.* The written-route condition first applied to every act. That would have added paperwork to every scheduling order and evidentiary ruling, against Ranadriel's rule that accountability must not make the job harder. It now applies only to orders that take liberty, body, a child, or property — the class *Stump* and "kids for cash" belong to.
 
 *Second revision, 2026-10-22 — the bribed judge.* In the Luzerne County "kids for cash" litigation, judges paid in connection with a for-profit juvenile detention scheme were held immune for their in-court rulings, which were docketed, written, and appealable (M.D. Pa., 2009). Plank 1 as first revised would have protected them too. It now also requires that (i) the judge received nothing of value from anyone with an interest in the outcome and was not convicted of an offense involving the act, and (ii) the route to review was **given in writing** to the person affected. Full text: [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) § 1.13.
 
@@ -63,13 +69,21 @@ Courts deny immunity only for non-judicial acts (*Forrester*) or a clear absence
 
 (The tiers are defined once, in [04_REMEDY_ARCHITECTURE.md](./04_REMEDY_ARCHITECTURE.md).)
 
+### Plank 5 — The documentary gate. `[Proposed — Seed, 2026-10-22]`
+The protection for the judge who does the job.
+- A claim against a judge must **attach the docket record** and **name the element that is missing**: no record, no route to review, or a payment or conviction showing the act was bought.
+- If the record shows every element present, the claim is **dismissed on the record alone** — no discovery, no hearing on the merits.
+- **No judge is ever examined about the reasoning of a ruling.** The house already protects a decision-maker's mental processes from probing (*United States v. Morgan*, 313 U.S. 409 (1941)); the article keeps that protection in full.
+
+A judge who did the job is out of the suit on the paper, the same day. Only neglect of the process, or its sale, gets past the gate.
+
 ---
 
 ## V. Objections to Answer
 
 | Objection | Direction of answer |
 |---|---|
-| Judicial independence: judges ruling in fear of suit | `[Proposed]` Process-bound immunity keeps full protection for every real ruling. Only acts stripped of process lose it, and those are not independence; they are its abuse. |
+| Judicial independence: judges ruling in fear of suit | `[Proposed]` Process-bound immunity keeps full protection for every real ruling, and the documentary gate (Plank 5) ends any claim against a real ruling on the paper. Only acts stripped of process lose protection, and those are not independence; they are its abuse. See [HARD_QUESTIONS.md](./HARD_QUESTIONS.md) Q16. |
 | A flood of suits from losing litigants | `[Proposed]` A losing litigant had a record and an appeal. Plank 1 leaves them where they are now: appeal. A docket sheet ends the suit at the pleading stage. |
 | Who judges the judge? | `[Proposed]` Make the test documentary — docket, written order, route to review — so the facts can go to a jury. Still wounded: a judge rules on the motion to dismiss ([HARD_QUESTIONS.md](./HARD_QUESTIONS.md), Q6). |
 | *Stump* is one extreme case | `[Open]` Needs more exhibits. Candidates to research: no-notice orders, ex parte orders affecting liberty, debtor's-prison and fines-and-fees courts, orders entered without jurisdiction over the person. |
@@ -80,6 +94,6 @@ Courts deny immunity only for non-judicial acts (*Forrester*) or a clear absence
 
 | Decision | State |
 |---|---|
-| Ranadriel's ruling on Planks 1–4 | `[Open]` |
+| Ranadriel's ruling on Planks 1–5 | `[Open]` |
 | Whether Plank 3 (repeal FCIA § 309) is drafted as a statutory demand alongside the amendment | `[Open]` |
 | Additional exhibits beyond *Stump* and *Mireles* | `[Open]` |

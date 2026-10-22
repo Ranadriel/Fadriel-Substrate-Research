@@ -30,6 +30,7 @@ Read this page first. It is the state of the whole case on one screen. Each line
 | 2026-10-22 | **Step one: strip the smoke and mirrors.** | Ranadriel | [Step 1](./STEP_1_STRIP_THE_SMOKE.md) |
 | 2026-10-22 | **The article carries its own definitions — and anti-definitions: what each term is *not*.** | Ranadriel | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) |
 | 2026-10-22 | **Full bore on anti-definitions.** Cartesian method: "We know what something can't be, so that defines what it can be." | Ranadriel | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) |
+| 2026-10-22 | **The goal is not to make the judge's job harder.** It is to hold judges accountable — liable for their neglect of power. | Ranadriel | [02](./02_JUDICIAL_TRACK.md) |
 
 ---
 
@@ -54,6 +55,8 @@ Read this page first. It is the state of the whole case on one screen. Each line
 | 2026-10-22 | **Definitions §§ 1.1–1.14 and six rules of construction**, drafted in article form, each term with "means" and "is not." Key move: "immunity" anti-defined **by function, however named** — the house has renamed qualified immunity three times. | Seed | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) |
 | 2026-10-22 | **Anti-definitions catalog, full bore:** every "is not" cites the case or doctrine that opened the door it closes — negate the escapes, not the universe. Sixteen terms; two new (§ 1.15 Remedy, § 1.16 Attack); a "what survives the doubt" table. | Seed | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) |
 | 2026-10-22 | **Plank 1, second revision — the bribed judge:** protection also requires an unbought act and a route to review given in writing ("kids for cash"). | Seed | [02](./02_JUDICIAL_TRACK.md) |
+| 2026-10-22 | **Judicial Plank 5 — the documentary gate:** a claim against a judge attaches the docket record and names the missing element; if none is missing, dismissal on the paper, no discovery, and no judge examined about a ruling's reasoning (*Morgan*). | Seed | [02](./02_JUDICIAL_TRACK.md) |
+| 2026-10-22 | **Plank 1, third revision:** written notice of the route to review only for orders taking liberty, body, a child, or property — no new paperwork on routine rulings. Counsel condition keyed to the judge's own refusal on the record, never to funding. | Seed | [02](./02_JUDICIAL_TRACK.md) |
 | 2026-10-22 | **Inversion of collective knowledge:** the house lets officers act on what any of them knows (*Hensley*); the article could make a recorded fact known to every official present. `[Open]` | Seed | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) § 1.7 |
 | 2026-10-22 | **The four states of mind keyed to two defined words:** accident = no violation; negligence = violation without knowledge; recklessness = with knowledge; intent = for the purpose. No degree words. | Seed | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) |
 | 2026-10-22 | **Drafting rule: rules, not standards.** Every trigger a count, deadline, or document; define every term and its denominator; the vantage clause closes the *Pierson*, *Hans*, and implied-exception doors. (The house bent both existing "shall not be construed" clauses, the Ninth and Eleventh.) | Seed | [HQ Q1](./HARD_QUESTIONS.md) |
