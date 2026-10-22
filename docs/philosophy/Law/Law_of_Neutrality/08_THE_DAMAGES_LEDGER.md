@@ -27,17 +27,17 @@ The house already ranks harms in one place: deadly force in self-defense is allo
 
 ## The Schedule of Weights `[Proposed]`
 
-Heaviest first. **The order is Ranadriel's to set.**
+Heaviest first. **The order is Ranadriel's to set.** *(Renumbered 2026-10-22 after his ruling on the animal.)*
 
 | Class | Damage |
 |---|---|
 | **I** | Death of a person |
 | **II** | Loss of liberty; serious bodily injury (the defined list in [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md)) |
-| **III** | Bodily injury |
-| **IV** | Death or injury of an animal |
+| **III** | Death or injury of an animal |
+| **IV** | Bodily injury |
 | **V** | Loss of or damage to other property |
 
-`[Open]` **III against IV.** Ranadriel has said the cost of killing a family's animal can outweigh the cost of an officer taking a bite. If the schedule follows him, Class IV rises above Class III.
+`[Ranadriel, 2026-10-22]` **A mere bite does not outweigh a dog's life.** An animal ranks above bodily injury. *(Settled the same day; the first draft had bodily injury as Class III and the animal as Class IV.)* On the ledger, killing a dog to stop a bite spends a heavier harm to prevent a lighter one, and fails. Lethal force against an animal survives only where its threshold puts Class II or Class I at stake.
 
 ---
 
@@ -72,7 +72,7 @@ What an animal can do is what its species evolved to do — jaws, claws, mass �
 
 | Species | Size class S (under **[X] kg**) | M (**[X]–[Y] kg**) | L (over **[Y] kg**) |
 |---|---|---|---|
-| Dog | III | III or II `[Open]` | II |
+| Dog | IV | IV or II `[Open]` | II |
 | *(further species)* | `[Open]` | `[Open]` | `[Open]` |
 
 - **Aggregate mass** `[Proposed]`: when several animals of a species attack at once, their masses add before the size class is read. This turns Ranadriel's count rule (one or two dogs against three or more) into one continuous line: three small dogs can weigh what one large dog does.
@@ -81,7 +81,7 @@ What an animal can do is what its species evolved to do — jaws, claws, mass �
 
 *Superseded the same day:* the first version of this rule used mass alone and barred species-specific dangers from it. Ranadriel made species the first axis of the threshold; mass now sets the size class within a species.
 
-**What the rule produces.** A large dog biting an officer puts Class II at stake. A shot fired where no other person stands puts at stake only the animal (Class IV): **it passes.** The same shot fired into an occupied room puts Class I at stake: **it fails.** The rule does not ban force against an attacking animal. It forbids spending a heavier harm than the one being prevented.
+**What the rule produces.** A large dog holding its grip on an officer puts Class II at stake. A shot fired where no other person stands puts at stake only the animal (Class III): **it passes.** The same shot fired into an occupied room puts Class I at stake: **it fails.** A small dog's bite puts only Class IV at stake, so killing it (Class III) **fails** — a mere bite is the job. The rule does not ban force against an attacking animal. It forbids spending a heavier harm than the one being prevented.
 
 ### Hard questions on mass
 
@@ -101,11 +101,11 @@ What an animal can do is what its species evolved to do — jaws, claws, mass �
 
 | Side | Entry | Class |
 |---|---|---|
-| Prevented | A bite to the officer, at most | III |
+| Prevented | A bite to the officer, at most | IV |
 | Put at stake | About eight shots fired inside a home with the owner beside the dog and six children present | **I** (Rule L-2) |
-| Caused | The death of two family dogs | IV |
+| Caused | The death of two family dogs | III |
 
-**Class I put at stake to prevent Class III.** The act fails Rule L-1 before anyone asks what a reasonable officer would have done, and it fails whichever way Ranadriel orders III and IV.
+**Class I put at stake to prevent Class IV, and Class III caused to prevent Class IV.** The act fails Rule L-1 twice before anyone asks what a reasonable officer would have done.
 
 ---
 
@@ -126,7 +126,7 @@ Answer: The ledger runs on both sides. A threat of Class I to a person justifies
 
 | Decision | State |
 |---|---|
-| The order of the classes, especially III against IV | `[Open]` — Ranadriel |
+| The order of the classes | Animal above bodily injury settled by Ranadriel, 2026-10-22; the rest `[Open]` |
 | The full deeming list for Rule L-2 | `[Open]` |
 | The mass bands [X] and [Y], and the class above [Y] | `[Open]` — Ranadriel |
 | Entries for toxic and species-specific dangers | `[Open]` |
