@@ -56,6 +56,36 @@ Heaviest first. **The order is Ranadriel's to set.**
 
 ---
 
+## Animals — Mass Is the Vector
+
+`[Ranadriel, 2026-10-22]` **Size and mass are a definitive, evidentiary likelihood vector. Toxic and species-specific concerns are barred from it.**
+
+The house's own science agrees on the main effect: in domestic dogs, predicted bite force rises with body size — weight, skull length, skull width — and the effect is highly significant (Ellis et al., *Cranial dimensions and forces of biting in the domestic dog*, J. Anat. 214(3), 2009).
+
+**Rule L-5 — The mass ceiling.** `[Proposed]` When an animal attacks (§ 1.16), the heaviest class of harm it puts at stake is set by its mass band, read from the recording:
+
+| Mass band | Heaviest class at stake |
+|---|---|
+| under **[X] kg** | III — bodily injury |
+| **[X]–[Y] kg** | II — serious bodily injury |
+| over **[Y] kg** | `[Open]` II or I |
+
+- **Aggregate mass** `[Proposed]`: when several animals attack at once, their masses add. This turns Ranadriel's count rule (one or two dogs against three or more) into one continuous line: three small dogs can weigh what one large dog does.
+- **Barred from the mass rule** `[Ranadriel]`: venomous or toxic animals, and dangers specific to a species. They are deemed by their own entries `[Open]`, never by mass.
+- **Breed stays barred.** Breed is a label, not a measurement, and no recording proves it.
+
+**What the rule produces.** A large dog biting an officer puts Class II at stake. A shot fired where no other person stands puts at stake only the animal (Class IV): **it passes.** The same shot fired into an occupied room puts Class I at stake: **it fails.** The rule does not ban force against an attacking animal. It forbids spending a heavier harm than the one being prevented.
+
+### Hard questions on mass
+
+**MQ-1. "No officer can weigh a dog in the moment."** Answer: Ranadriel's word is *evidentiary*. Mass is judged afterward, from the recording, against coarse bands. The officer only has to tell a small dog from a large one, and the recording shows which it was. `[Defeated]`
+
+**MQ-2. "A small dog can maul a small child."** Answer: Behavior is handled by § 1.16 — mass only sets the ceiling of what an attack can put at stake. `[Wounded]` — the person attacked may need an entry of their own (for example, a young child raises the class one step). `[Open]`
+
+**MQ-3. "Skull shape matters too."** The same study found that in medium and large dogs, shorter-faced skulls predicted higher bite force. Answer: Mass carries the main effect, and shape tracks breed, which is barred as unprovable pretext. `[Wounded]` — the house will argue the variance.
+
+---
+
 ## The Palestine Shooting on the Ledger
 
 | Side | Entry | Class |
@@ -87,4 +117,7 @@ Answer: The ledger runs on both sides. A threat of Class I to a person justifies
 |---|---|
 | The order of the classes, especially III against IV | `[Open]` — Ranadriel |
 | The full deeming list for Rule L-2 | `[Open]` |
+| The mass bands [X] and [Y], and the class above [Y] | `[Open]` — Ranadriel |
+| Entries for toxic and species-specific dangers | `[Open]` |
+| Whether the person attacked (a young child) raises the class | `[Open]` |
 | Clock lengths and minimum damages per class | `[Open]` |

@@ -287,7 +287,7 @@ Answer: § 1.13 now strips protection from any act where the judge received anyt
 | barking | "Aggressive" read from noise |
 | approaching, or running toward, a person | Approach treated as charge |
 | the animal's breed | Breed as threat |
-| `[Open]` the animal's size, alone | Size as threat |
+| *(settled 2026-10-22)* Size is **not** barred. `[Ranadriel]` Mass is the definitive, evidentiary likelihood vector: it sets the heaviest class of harm an attacking animal can put at stake ([08](./08_THE_DAMAGES_LEDGER.md), Rule L-5). Toxic and species-specific dangers are barred from the mass rule. | Breed stays barred: it is a label, not a measurement |
 | the owner reaching for, holding, or calling the animal | The Palestine facts, as Ranadriel judged them: Max trotting and curious, not charging |
 | the animal entering a room the official entered | Danger the official walked into |
 
