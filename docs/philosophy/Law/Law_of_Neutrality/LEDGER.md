@@ -27,6 +27,8 @@ Read this page first. It is the state of the whole case on one screen. Each line
 | 2026-10-22 | **Judicial track opened.** No unearned immunity; titles are responsibilities, not rights. | Ranadriel | [02](./02_JUDICIAL_TRACK.md) |
 | 2026-10-22 | **Method: hard questions first.** A case that cannot defeat its hardest question has no case. Against the house, the house always wins. | Ranadriel | [HQ](./HARD_QUESTIONS.md) |
 | 2026-10-22 | **Judicial interpretability is the core problem.** The article must be definite and literal, and must prescribe the vantage from which it is read. | Ranadriel | [HQ Q1](./HARD_QUESTIONS.md) |
+| 2026-10-22 | **Step one: strip the smoke and mirrors.** | Ranadriel | [Step 1](./STEP_1_STRIP_THE_SMOKE.md) |
+| 2026-10-22 | **The article carries its own definitions — and anti-definitions: what each term is *not*.** | Ranadriel | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) |
 
 ---
 
@@ -46,6 +48,10 @@ Read this page first. It is the state of the whole case on one screen. Each line
 | 2026-10-22 | **Judicial Plank 2:** the *Forrester* / clear-absence exceptions are too narrow (*Mireles*). | Seed | [02](./02_JUDICIAL_TRACK.md) |
 | 2026-10-22 | **Judicial Plank 3:** repeal FCIA 1996 § 309 first — a statute is easier to attack than common law. | Seed | [02](./02_JUDICIAL_TRACK.md) |
 | 2026-10-22 | **Judicial Plank 4:** same tiers; appeal for wrong rulings, personal liability for acts outside process. | Seed | [02](./02_JUDICIAL_TRACK.md) |
+| 2026-10-22 | **The clerk test:** a term is law if a clerk with the file could answer it without judgment; otherwise it is smoke. Fifteen smoke terms found in our own draft — the worst, "violates a right secured by this Constitution," re-imports reasonableness. | Seed | [Step 1](./STEP_1_STRIP_THE_SMOKE.md) |
+| 2026-10-22 | **Deemed knowledge:** an official is deemed to know any fact stated in their presence and captured on their own recording. | Seed | [Step 1](./STEP_1_STRIP_THE_SMOKE.md) |
+| 2026-10-22 | **Definitions §§ 1.1–1.14 and six rules of construction**, drafted in article form, each term with "means" and "is not." Key move: "immunity" anti-defined **by function, however named** — the house has renamed qualified immunity three times. | Seed | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) |
+| 2026-10-22 | **The four states of mind keyed to two defined words:** accident = no violation; negligence = violation without knowledge; recklessness = with knowledge; intent = for the purpose. No degree words. | Seed | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) |
 | 2026-10-22 | **Drafting rule: rules, not standards.** Every trigger a count, deadline, or document; define every term and its denominator; the vantage clause closes the *Pierson*, *Hans*, and implied-exception doors. (The house bent both existing "shall not be construed" clauses, the Ninth and Eleventh.) | Seed | [HQ Q1](./HARD_QUESTIONS.md) |
 
 ---
@@ -64,6 +70,11 @@ Read this page first. It is the state of the whole case on one screen. Each line
 | ⚑ Restate the circuit repeal as a doctrine target | [HQ Q9](./HARD_QUESTIONS.md) |
 | ⚑ Evidence duty: entity pays for systemic delay; personal fines only for discretionary stalling | [HQ Q11](./HARD_QUESTIONS.md) |
 | Does the recklessness floor drop to negligence? (The 10-13 structure and the 10-22 proposal conflict.) | [04](./04_REMEDY_ARCHITECTURE.md) |
+| Every number in the definitions: self-report window and frequency, evidence deadlines, mitigation share, any damages floor | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) |
+| Legislators: amend the Speech or Debate protection for injury claims, or carve them out | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) HQ-C |
+| Emotional, monetary, associative harm in "injury" — keep from Render D and define, or drop | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) § 1.5 |
+| Does a pending investigation extend the evidence deadline? | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) § 1.11 |
+| Keep "judged individually" as discretion, or bound it with a fixed mitigation | [Step 1](./STEP_1_STRIP_THE_SMOKE.md) §V |
 | Numerical dog rule inside a home (1–2 vs. 3+) | [01](./01_POLICE_TRACK.md) |
 | Restraint clause text | [01](./01_POLICE_TRACK.md) |
 | Provisions for officials beyond law enforcement | [00](./00_PRINCIPLE.md) |
