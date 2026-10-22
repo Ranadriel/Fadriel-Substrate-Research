@@ -12,6 +12,10 @@
 
 `[Ranadriel]` He watched the bodycam. The force was unjustified: lethal force on a family pet. Max was trotting and curious, not charging.
 
+`[Ranadriel, 2026-10-22]` The dogs were not aggressive; they approached with curiosity. The officer assumed aggression. His posture should not have been on alert, because the owner gave no attack command. Even a bite at that moment could equally have been play — and the officer killed a five-year-old dog that wanted to play. *(Max's age is Ranadriel's account; not yet found in reporting.)*
+
+**Under the draft:** no attack under § 1.16 — approach and curiosity are not an attack, no bite broke skin and no grip held, and no attack command is recorded. Even had there been an attack, the shots put Class I at stake in an occupied room to prevent at most Class III ([08](./08_THE_DAMAGES_LEDGER.md)). The shooting fails at every gate.
+
 ---
 
 ## II. Facts by Weight

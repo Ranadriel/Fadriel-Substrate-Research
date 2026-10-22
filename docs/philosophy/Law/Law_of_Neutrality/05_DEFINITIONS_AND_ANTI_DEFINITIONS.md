@@ -280,7 +280,11 @@ Answer: § 1.13 now strips protection from any act where the judge received anyt
 | `[Open]` barred by a conviction arising from the same events | The favorable-termination bar (*Heck v. Humphrey*, 1994) |
 
 ### § 1.16 "Attack" — *new; for lethal force against an animal*
-**Means** `[Open — tied to the threshold decision in HQ Q4]`. Candidate: the animal is biting or holding a person.
+**Means** `[Proposed — Seed, 2026-10-22]` the animal's bite **breaks a person's skin**, or the animal **holds its grip** on a person. Both are physical facts that a recording, a wound, or a medical record proves.
+
+*Why a physical line:* `[Ranadriel, 2026-10-22]` a bite at that moment "could be equally play." Play and attack cannot be told apart by guessing an animal's intent, so the article does not ask anyone to guess. Until skin breaks or the grip holds, there is no attack, and an officer — who accepted the risk of a bite on entering armed — has no ground for lethal force.
+
+**Deemed attack** `[Proposed]`: an animal is attacking, whether or not it has bitten, when a person present gives it an attack command that is audible on a recording. The command turns the animal into a weapon of the person who gave it.
 
 | Is not | Closes |
 |---|---|
@@ -290,6 +294,9 @@ Answer: § 1.13 now strips protection from any act where the judge received anyt
 | *(settled 2026-10-22)* Size is **not** barred. `[Ranadriel]` Mass is the definitive, evidentiary likelihood vector. With species, it sets the evolutionary damage output threshold (§ 1.18) — the heaviest class of harm an attacking animal can put at stake against the legal actor. | Breed stays barred: it is a label, not a measurement |
 | the owner reaching for, holding, or calling the animal | The Palestine facts, as Ranadriel judged them: Max trotting and curious, not charging |
 | the animal entering a room the official entered | Danger the official walked into |
+| approaching with curiosity, sniffing, or jumping up | The officer's assumption of aggression, as Ranadriel judged the Palestine shooting |
+| a nip or mouthing that does not break the skin | A play bite treated as an attack |
+| presumed, when no attack command is recorded | `[Ranadriel]` the officer's alert posture is not justified where the owner gave no attack command |
 
 ---
 
