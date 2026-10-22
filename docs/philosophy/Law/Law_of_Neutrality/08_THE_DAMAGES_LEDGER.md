@@ -97,6 +97,28 @@ What an animal can do is what its species evolved to do — jaws, claws, mass �
 
 ---
 
+## The Force Ladder for Animals — Rule L-6
+
+`[Ranadriel, 2026-10-22]` **Serious injury at stake justifies due battery and attempted physical detachment, not killing.** The officer may use non-lethal means to de-escalate until the bright lines — size, mass, number, and special cases — have plainly arisen. No "interpret at will."
+
+| Rung | When | What the officer may do |
+|---|---|---|
+| **1** | At any time | De-escalate without force against the animal: distance, voice, a barrier, a door; issued non-lethal tools to keep the animal off |
+| **2** | The animal attacks (§ 1.16 — skin broken or grip held) and its threshold puts serious injury (Class II) at stake | **Due battery and attempted physical detachment:** strike the animal, pry or pull it off, with hands or issued tools |
+| **3** | A bright line has arisen **and is visible on the recording:** the attacking animal's size class is over **[Y] kg**; the aggregate mass of animals attacking together is over **[Z] kg**; **[N]** or more animals are attacking at once; or a listed special case (a toxic animal, a listed species) | **Lethal force** — still subject to Rule L-1: it may not put a heavier class at stake than it prevents, so a shot into a room of bystanders still fails unless a person's life is the thing at stake |
+
+**No rung asks anyone to interpret.** "Plainly arisen" means one thing: the fact is visible on the recording — a size class, a count, a species. Under deemed knowledge (§ 1.7), what the recording shows, the officer knew.
+
+### Hard questions on the ladder
+
+**FL-1. "Waiting for a bright line gets officers maimed."** Answer: A large dog with a held grip crosses the line the instant it bites — its size class is the line. The ladder asks the officer to wait only when the animal is under the line, where its threshold is a bite — and a bite is the job. `[Defeated]`
+
+**FL-2. "Detaching a biting dog by hand is itself dangerous."** Answer: That is Rung 2's risk, and it belongs to the job under the firefighter's rule ([HARD_QUESTIONS.md](./HARD_QUESTIONS.md), Q4). Issued tools — the ones K-9 handlers already carry for exactly this — reduce it. `[Wounded]` — the article may require that officers be issued and trained on a detachment tool.
+
+**FL-3. "'Plainly arisen' is a standard."** Answer: Not as written. It means visible on the recording — a fact a clerk can check by playback. `[Defeated]`
+
+---
+
 ## The Palestine Shooting on the Ledger
 
 | Side | Entry | Class |

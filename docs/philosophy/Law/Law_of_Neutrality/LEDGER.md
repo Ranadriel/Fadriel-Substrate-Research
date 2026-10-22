@@ -38,6 +38,7 @@ Read this page first. It is the state of the whole case on one screen. Each line
 | 2026-10-22 | **Palestine, restated:** the dogs approached with curiosity; the officer assumed aggression; no attack command was given, so an alert posture was unjustified; even a bite could have been play. | Ranadriel | [Case file](./CASE_FILE_Palestine_AR.md) |
 | 2026-10-22 | **"A mere bite."** A dog's life outweighs an officer's bite: the animal ranks above bodily injury on the schedule. Killing a dog to stop a bite fails the ledger; lethal force against an animal survives only where serious injury or death is at stake. | Ranadriel | [08](./08_THE_DAMAGES_LEDGER.md) |
 | 2026-10-22 | **An officer absorbs a bite the way he absorbs training.** Academies expose officers to pain (Taser, pepper spray) and no one calls it cruelty; requiring an officer to take a bite without the right to kill the dog on no due grounds is no crueler. | Ranadriel | [HQ Q4](./HARD_QUESTIONS.md) |
+| 2026-10-22 | **The force ladder for animals.** Serious injury at stake justifies due battery and attempted physical detachment; non-lethal means to de-escalate until the bright lines — size, mass, number, special cases — plainly arise. No "interpret at will." | Ranadriel | [08](./08_THE_DAMAGES_LEDGER.md) Rule L-6 |
 | 2026-10-22 | **What a court cannot be:** raised while the nation is alive; without access to power and tangible enforcement of its rulings; held by a judge who cannot do the job. | Ranadriel | [05](./05_DEFINITIONS_AND_ANTI_DEFINITIONS.md) § 1.17 |
 | 2026-10-22 | **Sovereign citizens are not a design threat.** People with no actualization of power — no militia — are dissenters, not a government; the reconstitution protocol is not drafted around them. | Ranadriel | — |
 | 2026-10-22 | **Time locks on cases.** Judges are time-gated to file deterministic outcomes as commands that enact justice, readable by bright lines, in language that cannot be misunderstood. | Ranadriel | [07](./07_TIME_LOCKS.md) |
@@ -89,7 +90,7 @@ Read this page first. It is the state of the whole case on one screen. Each line
 |---|---|
 | ⚑ **The vehicle:** amendment only, statute first with the amendment as ratchet, or state by state toward 38 | [HQ Q2](./HARD_QUESTIONS.md) |
 | ⚑ **Who pays:** employer liability as employer, sovereign immunity waived for these claims, and either an indemnification bar or a fixed personal share (Colorado: 5% or $25,000) | [HQ Q3](./HARD_QUESTIONS.md) |
-| Lethal force against an animal: is Class II (serious injury) at stake enough, or only Class I (death)? *(The rest of Q4 is settled.)* | [HQ Q4](./HARD_QUESTIONS.md) |
+| The force-ladder numbers: size class [Y], aggregate mass [Z], count [N], and the list of special cases | [08](./08_THE_DAMAGES_LEDGER.md) Rule L-6 |
 | ⚑ Accident tier: in the amendment, or in a statute with a fund and caps | [HQ Q5](./HARD_QUESTIONS.md) |
 | ⚑ Self-report: criminal carve-out and frequency limit | [HQ Q8](./HARD_QUESTIONS.md) |
 | ⚑ Restate the circuit repeal as a doctrine target | [HQ Q9](./HARD_QUESTIONS.md) |

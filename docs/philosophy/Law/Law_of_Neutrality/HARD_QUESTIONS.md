@@ -119,7 +119,7 @@ The numerical rule (one or two dogs vs. three or more) can survive inside a home
 3. **Why an officer must absorb a bite** — `[Ranadriel]` officers already accept pain as training: exposure to the Taser or pepper spray is a standard part of many academies, and no one calls it cruelty. *(Accuracy note: Taser exposure is set agency by agency and is often voluntary; pepper-spray exposure has been mandatory in many academies.)*
 4. **The house's own doctrine agrees.** Under the **firefighter's rule**, officers "hired, trained, and compensated" to confront the dangers of their work assume those risks and cannot sue the citizens whose conduct brought them there (*Zanghi v. Niagara Frontier Transportation Comm'n*, 85 N.Y.2d 423 (1995)). The house already holds that the job's risks belong to the officer when the officer wants to sue. The article holds the same when the officer wants to shoot. Police K-9 units also train by having officers take dog bites on purpose.
 
-`[Open]` whether Class II (serious injury) is enough, or only Class I (death) — the last trace of the original death-only line.
+5. **Serious injury justifies battery, not killing.** `[Ranadriel, 2026-10-22]` Serious injury at stake justifies due battery and attempted physical detachment; non-lethal means until the bright lines — size, mass, number, special cases — plainly arise. No "interpret at will." The force ladder is Rule L-6 in [08](./08_THE_DAMAGES_LEDGER.md). *This closes the last open piece of Q4.*
 
 ---
 

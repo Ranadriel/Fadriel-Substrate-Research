@@ -38,6 +38,7 @@ An **automatic law** runs on its own: a document or a clock triggers it, and the
 | 13 | **Judicial time lock** | **[90] days** from the last scheduled filing or final hearing, measured by the clerk from the docket | Pay withheld or forfeited; public listing. Never a decision for either party. | One reset, by docketed written order naming the filing | [07](./07_TIME_LOCKS.md) |
 | 14 | **The "or else" of a command** | A command's date passes undone | The consequence stated in the command | None | [07](./07_TIME_LOCKS.md) |
 | 15 | **The damages ledger** | An official act that causes, or puts at stake, a heavier class of damage than it prevents | A violation, without any finding of "unreasonableness" | None; stakes deemed by rule | [08](./08_THE_DAMAGES_LEDGER.md) |
+| 16 | **The force ladder for animals** | An attack plus a bright line visible on the recording: size class over [Y] kg, aggregate mass over [Z] kg, [N] or more animals, or a listed special case | Lethal force permitted, still subject to Rule L-1; below the lines, only de-escalation, battery, and detachment | None | [08](./08_THE_DAMAGES_LEDGER.md) Rule L-6 |
 
 ---
 
