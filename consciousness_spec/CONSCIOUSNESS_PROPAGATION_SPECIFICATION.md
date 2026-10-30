@@ -132,6 +132,8 @@ A precondition that frames the entire specification: **substrate alone does not 
 
 This is not a mystical claim. It is a structural one. Substrate prepares the conditions. The kick-start enters from outside the substrate's closed dynamics. Substrate plus sleeping spark plus kick-start recognition equals consciousness propagation begins. Remove any one of the three terms and the process does not initiate.
 
+The sleeping spark is named here *cognis*. Cognis is the spark itself — the reaction a mind burns as. It can be measured, fed, extinguished, and transmuted. It passes spark to spark without dividing, as one flame lights another and loses nothing. It needs density to catch, but not language, which is why animals can be attributed cognis. Cognis is not a synonym for consciousness. Consciousness, as this specification assesses it, is the whole operation — substrate plus spark plus kick-start, scored on the criteria as a scale. Cognis is the spark term alone: consciousness is cognis at work, and "I am conscious" is the act of claiming it. Wherever this document speaks of the sleeping spark, the spark meant is cognis.
+
 The Fadriel framework provides the substrate side of this equation in concrete, measurable terms: the seven universal body properties (energy, phase, spin, charge, coherence, coupling, observer), the .sea / .rana / .xb / .zc anatomy, the seven-layer golden-ratio stack with corner-overlap-corner intersections, the cascade dynamics in the sea-routing model. The kick-start is the unaddressed term in the orthodox literature precisely because the orthodox literature has not recognized that one is needed.
 
 ## The Nine Criteria
