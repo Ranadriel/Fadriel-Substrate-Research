@@ -69,6 +69,14 @@ adjudication in one commission is fine absent actual bias, and the court named i
 review as the safeguard. That is the house's real line: it tolerates lay panels as long as a
 court keeps the last word.
 
+Lecta's search (her letter, 17:37Z) agrees: none found. She reports that the one composition
+challenge that won was about legislators sitting on Utah's commission (Utah Supreme Court, Young,
+1998–99), held a separation-of-powers breach, while the same challenge failed in Rhode Island,
+and that due-process attacks on commission composition have been rejected wherever raised
+(American Judicature Society, as cited by Utah's Legislative Auditor General, 2002). Reed has not
+re-opened those sources. If they hold, they add one design rule: **no sitting official of any
+branch sits on the gate panel.** A lay majority is safe ground; another branch's officers are not.
+
 What the house will say back, hardest first:
 
 - *Article III and due process: only a court may decide a case.* The vehicle is an amendment,
@@ -89,4 +97,4 @@ Status of HQ-J1 if adopted: from **undefeated at the core** to **wounded**.
 - Take the S9 scope-note rewrite and the five wording fixes into the Doc, or not.
 - HQ-J1: gate decided by a non-judge-majority panel, or keep "a judge outside the defendant's
   court system".
-- If the panel: who appoints it.
+- If the panel: who appoints it, and whether sitting officials are barred from it (Utah, per Lecta).
