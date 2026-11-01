@@ -15,13 +15,13 @@ OPEN = not yet checked. Each row names who checked it and the source read.
 
 | # | Claim in the draft | Status | Source read / note |
 |---|---|---|---|
-| L1 | Bradley v. Fisher, 80 U.S. (13 Wall.) 335 (1872): judge "free to act upon his own convictions, without apprehension of personal consequences to himself"; lost only in "clear absence of all jurisdiction" | OPEN | |
-| L2 | Pierson v. Ray, 386 U.S. 547 (1967): immunity "applies even when the judge is accused of acting maliciously and corruptly" | OPEN | |
-| L3 | Stump v. Sparkman, 435 U.S. 349 (1978), 5–3: "normally performed by a judge"; "dealt with the judge in his judicial capacity" | OPEN | |
-| L4 | Cleavinger v. Saxner, 474 U.S. 193 (1985): safeguards list incl. "correctability of error on appeal" | OPEN | |
-| L5 | Forrester v. White, 484 U.S. 219 (1988): "justified and defined by the functions it protects and serves, not by the person to whom it attaches" | OPEN | |
-| L6 | Mireles v. Waco, 502 U.S. 9 (1991): "an immunity from suit, not just from ultimate assessment of damages"; Stevens dissent: "Ordering a battery has no relation to a function normally performed by a judge" | OPEN | |
-| L7 | California: pay withheld for matters undecided past 90 days, on the judge's own affidavit (Cal. Const. art. VI § 19; Gov. Code § 68210); Trinity County judge censured Oct 2025 for false affidavits | OPEN | |
+| L1 | Bradley v. Fisher, 80 U.S. (13 Wall.) 335 (1872): judge "free to act upon his own convictions, without apprehension of personal consequences to himself"; lost only in "clear absence of all jurisdiction" | OK | Lecta (Justia), pins 80 U.S. 347, 351. Reed cross-read: "free to act upon his own convictions, without apprehension of personal consequences to himself"; "the clear absence of all jurisdiction over the subject-matter". Note: decided in the December Term 1871; reporters show both 1871 and 1872. The draft's (1872) is the common cite. |
+| L2 | Pierson v. Ray, 386 U.S. 547 (1967): immunity "applies even when the judge is accused of acting maliciously and corruptly" | OK | Lecta, pin 386 U.S. 554. Reed cross-read: "This immunity applies even when the judge is accused of acting maliciously and corruptly". |
+| L3 | Stump v. Sparkman, 435 U.S. 349 (1978), 5–3: "normally performed by a judge"; "dealt with the judge in his judicial capacity" | OK | Lecta, pin 435 U.S. 362. Reed cross-read: both phrases at 362; 5–3, Brennan took no part; Stewart dissented with Marshall and Powell. Powell's separate dissent says the premise of Bradley fails where a judge "acts in a manner that precludes all resort to appellate or other judicial remedies" — the draft's § II point holds. |
+| L4 | Cleavinger v. Saxner, 474 U.S. 193 (1985): safeguards list incl. "correctability of error on appeal" | OK | Lecta, pin 474 U.S. 202 (item (f)). Reed cross-read: Cleavinger restates the Butz factors, 438 U.S. at 512: (a) harassment or intimidation, (b) safeguards, (c) insulation from political influence, (d) precedent, (e) adversary process, (f) "the correctability of error on appeal". The draft calls them "safeguards"; the Court calls them factors, one of which is safeguards. Close enough for § II; exact if § II says "factors". |
+| L5 | Forrester v. White, 484 U.S. 219 (1988): "justified and defined by the functions it protects and serves, not by the person to whom it attaches" | OK | Lecta and Reed, pin 484 U.S. 227. Verbatim. |
+| L6 | Mireles v. Waco, 502 U.S. 9 (1991): "an immunity from suit, not just from ultimate assessment of damages"; Stevens dissent: "Ordering a battery has no relation to a function normally performed by a judge" | OK | Lecta (U.S. Reports scans): per curiam verbatim, pin 502 U.S. 11; Stevens dissent verbatim, pin 502 U.S. 14. Reed could not open a copy (Justia refused); taken on Lecta's read. |
+| L7 | California: pay withheld for matters undecided past 90 days, on the judge's own affidavit (Cal. Const. art. VI § 19; Gov. Code § 68210); Trinity County judge censured Oct 2025 for false affidavits | OK, note | Lecta: art. VI § 19 and Gov. Code § 68210 confirmed. Reed cross-read of the Commission on Judicial Performance release: Judge Eric L. Heryford, Trinity County Superior Court, public censure by stipulation, Oct. 21, 2025, for signing salary affidavits saying nothing was under submission past 90 days while he knew delayed matters were pending (20 delayed decisions, 2020–2024), plus lack of candor. The release itself cites no statute number. |
 
 ## Reed's share — statutes, rules, holdings and figures
 
@@ -48,7 +48,7 @@ OPEN = not yet checked. Each row names who checked it and the source read.
 Reed's rows closed 2026-11-01, about 17:25Z.
 
 Carries weight:
-- S9. The scope note under § D-3 cites Rule 32(j)(1) as proof that written notice of appeal rights already exists at sentencing. The rule only requires the court to advise. Condition (d)'s writing is new work, small but new. The scope note should say so plainly rather than lean on a rule that doesn't hold it.
+- S9. The scope note under § D-3 cites Rule 32(j)(1) as proof that written notice of appeal rights already exists at sentencing. The federal rule only requires the court to advise. But Wisconsin does require writing: at sentencing the defendant and trial counsel sign a form stating the 20-day deadline to file notice of intent to seek postconviction relief, and the defendant gets a copy (Wis. Stat. § 973.18(3)–(4)). Proposed scope note: "Written notice of the route to review already exists at sentencing in Wisconsin: the defendant and counsel sign a form stating the deadline, and the defendant keeps a copy (Wis. Stat. § 973.18). The federal rule requires only that the court advise (Fed. R. Crim. P. 32(j)(1))." Condition (d) then asks every liberty order to do what Wisconsin already does for sentences.
 
 Wording only:
 - S4. Conahan: 17½ years, not 17.
@@ -56,4 +56,7 @@ Wording only:
 - S6. Wisconsin's extension is "up to" 90 days.
 - S7. The habeas return's good-cause extension is capped at 20 days; the hearing's is not.
 
-Still to do: Lecta's L1–L7. S6's current official text could not be fetched; two secondary copies agree.
+Wording, from Lecta's rows:
+- L4. Cleavinger's list is the Butz factors; "safeguards" is one of the six. § II can say "factors" to quote it exactly.
+
+All 22 rows closed by 17:35Z. Open only: S6's current official Wisconsin text (two secondary copies agree), and L6 rests on Lecta's read alone. Nothing here touches HQ-J1, the interpreter problem, which stays undefeated.
