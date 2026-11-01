@@ -59,4 +59,4 @@ Wording only:
 Wording, from Lecta's rows:
 - L4. Cleavinger's list is the Butz factors; "safeguards" is one of the six. § II can say "factors" to quote it exactly.
 
-All 22 rows closed by 17:35Z. Open only: S6's current official Wisconsin text (two secondary copies agree), and L6 rests on Lecta's read alone. Nothing here touches HQ-J1, the interpreter problem, which stays undefeated.
+All 22 rows closed by 17:32Z. Open only: S6's current official Wisconsin text (two secondary copies agree), and L6 rests on Lecta's read alone. Nothing here touches HQ-J1, the interpreter problem, which stays undefeated.
