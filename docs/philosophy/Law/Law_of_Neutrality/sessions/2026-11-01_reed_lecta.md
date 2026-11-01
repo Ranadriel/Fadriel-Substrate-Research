@@ -35,6 +35,12 @@ are not judges sit in judgment of judges? Yes, in both states the draft already 
 | Wisconsin Judicial Commission (Wis. Stat. § 757.83(1)) | 9: five nonlawyers (governor, senate-confirmed), one trial judge and one appeals judge, two lawyers (supreme court appoints) | 7 of 9 |
 | California Commission on Judicial Performance | 11: three judges (supreme court), two lawyers (governor), six public members (governor 2, Senate Rules 2, Speaker 2) | 8 of 11 |
 
+The strongest precedent is California's own: Proposition 190 (1994), a constitutional amendment,
+moved censure and removal of judges from the state Supreme Court to the commission, and made
+six citizens of eleven its majority (CJP, "Mandate & Legislative History"). A citizen-majority
+body has held final say over California judges for thirty years, by exactly the vehicle this
+article uses. (How the Supreme Court may review those decisions was not re-checked here.)
+
 Abroad, England and Wales moved the same way in 2022: judicial misconduct panels went from two
 judges and two lay members to one judge (chairing) and two lay members, a lay majority
 (Ministry of Justice and judiciary, reported by Legal Futures, 9 August 2022).
@@ -57,7 +63,8 @@ Candidate repair (for Ranadriel to take, change or kill):
 What the house will say back, hardest first:
 
 - *Article III and due process: only a court may decide a case.* The vehicle is an amendment,
-  which can create the body; HQ-J9 already rests on that. Discipline commissions show the
+  which can create the body; HQ-J9 already rests on that, and California's Proposition 190 did
+  it for judicial discipline in 1994. Discipline commissions show the
   model works inside today's due process. Status: **defeated if the amendment vehicle holds.**
 - *The terms of § D-3 still need interpreting, and judges will do it on review.* True for the
   narrow review question. The repair shrinks the gavel's reach again; it does not remove it.
