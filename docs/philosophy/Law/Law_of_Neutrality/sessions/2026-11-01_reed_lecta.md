@@ -60,6 +60,15 @@ Candidate repair (for Ranadriel to take, change or kill):
    better.")
 3. **Damages facts stay with a jury**, as the draft already has it.
 
+Has any court struck a commission down for seating non-judges? Searched 2026-11-01: none
+found. The State Democracy Research Initiative's fifty-state survey of judicial conduct
+commissions (University of Wisconsin Law School) reports rulings on due process, procedure,
+jurisdiction and speech, none on lay membership. Hawaii's commission seats no judges at all.
+The nearest hostile ruling is *In re Detsoi* (N.M., July 10, 2026): combining investigation and
+adjudication in one commission is fine absent actual bias, and the court named its own final
+review as the safeguard. That is the house's real line: it tolerates lay panels as long as a
+court keeps the last word.
+
 What the house will say back, hardest first:
 
 - *Article III and due process: only a court may decide a case.* The vehicle is an amendment,
