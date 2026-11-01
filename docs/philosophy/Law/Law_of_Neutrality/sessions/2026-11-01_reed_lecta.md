@@ -35,7 +35,11 @@ are not judges sit in judgment of judges? Yes, in both states the draft already 
 | Wisconsin Judicial Commission (Wis. Stat. § 757.83(1)) | 9: five nonlawyers (governor, senate-confirmed), one trial judge and one appeals judge, two lawyers (supreme court appoints) | 7 of 9 |
 | California Commission on Judicial Performance | 11: three judges (supreme court), two lawyers (governor), six public members (governor 2, Senate Rules 2, Speaker 2) | 8 of 11 |
 
-Both already judge judges, by majority, on the record. California's censured Judge Heryford in
+Abroad, England and Wales moved the same way in 2022: judicial misconduct panels went from two
+judges and two lay members to one judge (chairing) and two lay members, a lay majority
+(Ministry of Justice and judiciary, reported by Legal Futures, 9 August 2022).
+
+Both states already judge judges, by majority, on the record. California's censured Judge Heryford in
 October 2025 for the very false 90-day affidavits § D-13 is built against.
 
 Candidate repair (for Ranadriel to take, change or kill):
